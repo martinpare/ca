@@ -1,0 +1,959 @@
+{
+  "processedAt": "2025-12-10T14:50:23.102Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_099.txt",
+    "originalText": "Un problème à l'estomac sans fin\r\n\r\nAu Canada, la plupart des jeunes vivent dans l'abondance. Depuis tout petit on nous apprend qu'il est correct de ne pas finir son assiette et que le gaspillage alimentaire est acceptable tant que l'on a mangé à notre faim. Ces habitudes n'ont fait qu'aggraver ce type de gaspillage et diminuer notre sensibilisation face à ce problème au fil des années. C'est pourquoi, aujourd'hui, je crois que nous ne sommes pas prêts à lutter contre le gaspillage alimentaire. La mauvaise gestion des aliments et les normes que nous avons développées face à la nourriture en sont les causes principales.\r\n\r\nSelon une étude de l'Organisation des Nations unies, environ 931 millions de tonnes de nourriture ont été gaspillées dans le monde en 2019, c'est inconcevable quand on pense aux millions d'enfants, de femmes et d'hommes qui souffrent de malnutrition sur notre planète. Ce gaspillage provient des producteurs qui malheureusement décident de ne pas vendre, mais plutôt de se débarrasser de certains légumes qui ont des formes et tailles parfois inhabituelles en raison des conditions météorologiques. En effet, leurs formes font qu'ils sont difficiles à vendre et qu'ils sont vendus moins cher que les autres tout en coûtant autant pour les produire et les transporter. Cependant, il ne faut pas blâmer entièrement ces derniers pour notre impossibilité de lutter contre le gaspillage, car les agriculteurs qui sont prêts à faire de ces surplus des dons alimentaires « doivent consacrer temps, énergie et ressources à livrer eux-même ces denrées, car plusieurs organismes n'ont pas les infrastructures pour aller les chercher. » (1) Cher lecteur, il est facile de blâmer les autres, mais pensez-y, seriez-vous capable de sacrifier de votre précieux temps de repos pour vous occuper de cette nourriture délaissée, je pense que non. Ces genres de choses devraient être faites par des organisations gouvernementales et ne devraient rien coûter aux producteurs. Par après, le problème provient aussi de chaque maison. Effectivement, selon Florence-Léa Siry, experte en gaspillage alimentaire, 50% du gaspillage alimentaire pourrait être évité à la maison si les consommateurs apprenaient à mieux conserver les aliments. Cela pourrait être fait en adoptant des habitudes simples telles congeler les restes, planifier les repas et faire une liste d'épicerie, etc. Pour finir, l'organisation actuelle de la nourriture est inadéquate et est un handicap qui nous empêche de mettre fin au gaspillage alimentaire.\r\n\r\nDe nos jours, les normes concernant les aliments sont très élevées, voire même trop élevées, rendant ainsi la lutte contre le gaspillage alimentaire compliquée. Les publicités constituent une grande partie du problème. Telle une trappe à souris, elles incitent les consommateurs à tomber dans leur piège en leur montrant des fruits et légumes proposés en épicerie qui sont esthétiquement parfaits. Ce genre de campagne publicitaire incite donc les clients à associer l'apparence d'aliments à leur fraîcheur et qualité, ce qui est faux. Une preuve de ce phénomène est que selon Pascal Thériault, économiste agricole, le client accepte que la nature soit imparfaite lorsqu'il va au marché et qu'il achète directement du producteur. Toutefois, quand il est à l'épicerie, le même client veut un produit parfait. Un dernier point engendrant ce problème est que les portions auxquelles nous sommes habituées sont gigantesques et occasionnent du gaspillage, spécialement dans les domaines de l'hôtellerie et de la restauration. En résumé, une tonne de gaspillage est dû à l'influence des publicités et aux assiettes trop pleines, des domaines sur lesquels nous avons peu de contrôle et n'avons aucun pouvoir de régler.\r\n\r\nEn conclusion, le gaspillage alimentaire est un fléau contre lequel nous ne sommes pas prêts à lutter. Cependant, il ne faut pas oublier l'autre problème concernant les aliments contre lequel nous ne sommes point prêt à faire face, les emballages en plastiques utilisés pour emballer la nourriture.\r\n\r\n1 Radio-Canada, 2021",
+    "erreursCritere4": [
+      {
+        "text": "C'est pourquoi,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "La locution conjonctive 'c'est pourquoi' n'est généralement pas suivie d'une virgule lorsqu'elle introduit la proposition principale qui exprime la conséquence.",
+        "suggestions": [
+          "C'est pourquoi"
+        ],
+        "ruleApplied": "4.2.2.10.2.f"
+      },
+      {
+        "text": "Par après",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution 'Par après' est un calque de l'anglais. Il faut utiliser 'Ensuite', 'Puis' ou 'Par la suite'.",
+        "suggestions": [
+          "Ensuite",
+          "Par la suite"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "telles congeler",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'adjectif 'telles' ne peut pas introduire directement des verbes à l'infinitif. Il faut utiliser une construction comme 'telles que' ou reformuler, par exemple avec 'comme'.",
+        "suggestions": [
+          "telles que congeler",
+          "comme congeler"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "voire même",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression 'voire même' est un pléonasme, car 'voire' signifie déjà 'et même'. Il faut utiliser soit 'voire', soit 'et même'.",
+        "suggestions": [
+          "voire",
+          "et même"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "et n'avons aucun pouvoir de régler",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La coordination est boiteuse. On ne peut coordonner une proposition relative ('sur lesquels nous avons peu de contrôle') avec une proposition qui n'est pas introduite par un pronom relatif. Il faut répéter le pronom relatif ou reformuler. Par exemple : '...sur lesquels nous avons peu de contrôle et que nous ne pouvons régler'.",
+        "suggestions": [
+          "et que nous n'avons aucun pouvoir de régler",
+          "et que nous ne pouvons régler"
+        ],
+        "ruleApplied": "4.1.2.1.8"
+      },
+      {
+        "text": "contre lequel nous ne sommes point prêt à faire face",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction est incorrecte. La locution verbale est 'faire face à quelque chose'. Le pronom relatif doit donc être 'auquel' pour remplacer 'au problème'. La préposition 'contre' est donc incorrecte. On écrit : 'auquel nous ne sommes point prêts à faire face'.",
+        "suggestions": [
+          "auquel nous ne sommes point prêts à faire face"
+        ],
+        "ruleApplied": "4.1.2.3.1"
+      },
+      {
+        "text": "2021",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une référence bibliographique ou une note de fin de texte doit se terminer par un point.",
+        "suggestions": [
+          "2021."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "text": ". » (1)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point final se place après la référence entre parenthèses qui suit une citation.",
+        "suggestions": [
+          " » (1)."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 6.5,
+      "note": "B"
+    },
+    "erreursCritere5": [
+      {
+        "text": "petit",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'petit' doit s'accorder en nombre avec le pronom 'on' qui a le sens de 'nous' (les jeunes), un référent pluriel. On écrit donc 'petits'.",
+        "suggestions": [
+          "petits"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "unies",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Dans la dénomination 'Organisation des Nations Unies', l'adjectif 'Unies' prend une majuscule.",
+        "suggestions": [
+          "Unies"
+        ],
+        "ruleApplied": "5.2.4.1.2"
+      },
+      {
+        "text": "eux-même",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom 'même' s'accorde en nombre avec le pronom personnel auquel il se rapporte. Ici, 'eux' est pluriel, donc on écrit 'eux-mêmes'.",
+        "suggestions": [
+          "eux-mêmes"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "faites",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'faites', employé comme adjectif, doit s'accorder avec le sujet 'Ces genres de choses'. Le nom principal du groupe est 'genres', qui est masculin pluriel. On écrit donc 'faits'.",
+        "suggestions": [
+          "faits"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "habituées",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'habituées' doit s'accorder avec le pronom 'nous'. L'auteur a précédemment utilisé l'accord au masculin pluriel pour ce pronom ('prêts'). Par souci de cohérence, il faut conserver cet accord. On écrit donc 'habitués'.",
+        "suggestions": [
+          "habitués"
+        ],
+        "ruleApplied": "5.3.1.2"
+      },
+      {
+        "text": "dû",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'dû', employé comme adjectif, doit s'accorder avec le sujet 'une tonne de gaspillage'. Le nom principal 'tonne' est féminin singulier. On écrit donc 'due'.",
+        "suggestions": [
+          "due"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "prêt",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'prêt' doit s'accorder en nombre avec le sujet 'nous', qui est pluriel. On écrit donc 'prêts'.",
+        "suggestions": [
+          "prêts"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "plastiques",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif qui désigne une matière, comme 'plastique', est invariable lorsqu'il est en apposition après 'en'. On écrit donc 'emballages en plastique'.",
+        "suggestions": [
+          "plastique"
+        ],
+        "ruleApplied": "5.3.1.1"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 8,
+      "note": "B"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:46:56.737Z",
+    "endTimestamp": "2025-12-10T14:50:23.102Z",
+    "durationMs": 206365,
+    "durationFormatted": "03:26:365",
+    "cumulParPasse": [
+      {
+        "passe": 1,
+        "erreursCritere4": [
+          {
+            "text": "C'est pourquoi,",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "La locution conjonctive 'c'est pourquoi' n'est généralement pas suivie d'une virgule lorsqu'elle introduit la proposition principale qui exprime la conséquence.",
+            "suggestions": [
+              "C'est pourquoi"
+            ],
+            "ruleApplied": "4.2.2.10.2.f"
+          },
+          {
+            "text": "Par après",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La locution 'Par après' est un calque de l'anglais. Il faut utiliser 'Ensuite', 'Puis' ou 'Par la suite'.",
+            "suggestions": [
+              "Ensuite",
+              "Par la suite"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "telles congeler",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'adjectif 'telles' ne peut pas introduire directement des verbes à l'infinitif. Il faut utiliser une construction comme 'telles que' ou reformuler, par exemple avec 'comme'.",
+            "suggestions": [
+              "telles que congeler",
+              "comme congeler"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "voire même",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'expression 'voire même' est un pléonasme, car 'voire' signifie déjà 'et même'. Il faut utiliser soit 'voire', soit 'et même'.",
+            "suggestions": [
+              "voire",
+              "et même"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "et n'avons aucun pouvoir de régler",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La coordination est boiteuse. On ne peut coordonner une proposition relative ('sur lesquels nous avons peu de contrôle') avec une proposition qui n'est pas introduite par un pronom relatif. Il faut répéter le pronom relatif ou reformuler. Par exemple : '...sur lesquels nous avons peu de contrôle et que nous ne pouvons régler'.",
+            "suggestions": [
+              "et que nous n'avons aucun pouvoir de régler",
+              "et que nous ne pouvons régler"
+            ],
+            "ruleApplied": "4.1.2.1.8"
+          },
+          {
+            "text": "contre lequel nous ne sommes point prêt à faire face",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction est incorrecte. La locution verbale est 'faire face à quelque chose'. Le pronom relatif doit donc être 'auquel' pour remplacer 'au problème'. La préposition 'contre' est donc incorrecte. On écrit : 'auquel nous ne sommes point prêts à faire face'.",
+            "suggestions": [
+              "auquel nous ne sommes point prêts à faire face"
+            ],
+            "ruleApplied": "4.1.2.3.1"
+          },
+          {
+            "text": "2021",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Une référence bibliographique ou une note de fin de texte doit se terminer par un point.",
+            "suggestions": [
+              "2021."
+            ],
+            "ruleApplied": "4.2.2.1.1"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "petit",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif 'petit' doit s'accorder en nombre avec le pronom 'on' qui a le sens de 'nous' (les jeunes), un référent pluriel. On écrit donc 'petits'.",
+            "suggestions": [
+              "petits"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "unies",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Dans la dénomination 'Organisation des Nations Unies', l'adjectif 'Unies' prend une majuscule.",
+            "suggestions": [
+              "Unies"
+            ],
+            "ruleApplied": "5.2.4.1.2"
+          },
+          {
+            "text": "eux-même",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le pronom 'même' s'accorde en nombre avec le pronom personnel auquel il se rapporte. Ici, 'eux' est pluriel, donc on écrit 'eux-mêmes'.",
+            "suggestions": [
+              "eux-mêmes"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "faites",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé 'faites', employé comme adjectif, doit s'accorder avec le sujet 'Ces genres de choses'. Le nom principal du groupe est 'genres', qui est masculin pluriel. On écrit donc 'faits'.",
+            "suggestions": [
+              "faits"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "habituées",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé 'habituées' doit s'accorder avec le pronom 'nous'. L'auteur a précédemment utilisé l'accord au masculin pluriel pour ce pronom ('prêts'). Par souci de cohérence, il faut conserver cet accord. On écrit donc 'habitués'.",
+            "suggestions": [
+              "habitués"
+            ],
+            "ruleApplied": "5.3.1.2"
+          },
+          {
+            "text": "dû",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé 'dû', employé comme adjectif, doit s'accorder avec le sujet 'une tonne de gaspillage'. Le nom principal 'tonne' est féminin singulier. On écrit donc 'due'.",
+            "suggestions": [
+              "due"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "prêt",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif 'prêt' doit s'accorder en nombre avec le sujet 'nous', qui est pluriel. On écrit donc 'prêts'.",
+            "suggestions": [
+              "prêts"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "plastiques",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif qui désigne une matière, comme 'plastique', est invariable lorsqu'il est en apposition après 'en'. On écrit donc 'emballages en plastique'.",
+            "suggestions": [
+              "plastique"
+            ],
+            "ruleApplied": "5.3.1.1"
+          }
+        ],
+        "totalErreursCritere4": 7,
+        "totalErreursCritere5": 8,
+        "scoreCritere4": {
+          "pointsPerdus": 6,
+          "note": "B"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 8,
+          "note": "B"
+        }
+      },
+      {
+        "passe": 2,
+        "erreursCritere4": [
+          {
+            "text": "C'est pourquoi,",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "La locution conjonctive 'c'est pourquoi' n'est généralement pas suivie d'une virgule lorsqu'elle introduit la proposition principale qui exprime la conséquence.",
+            "suggestions": [
+              "C'est pourquoi"
+            ],
+            "ruleApplied": "4.2.2.10.2.f"
+          },
+          {
+            "text": "Par après",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La locution 'Par après' est un calque de l'anglais. Il faut utiliser 'Ensuite', 'Puis' ou 'Par la suite'.",
+            "suggestions": [
+              "Ensuite",
+              "Par la suite"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "telles congeler",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'adjectif 'telles' ne peut pas introduire directement des verbes à l'infinitif. Il faut utiliser une construction comme 'telles que' ou reformuler, par exemple avec 'comme'.",
+            "suggestions": [
+              "telles que congeler",
+              "comme congeler"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "voire même",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'expression 'voire même' est un pléonasme, car 'voire' signifie déjà 'et même'. Il faut utiliser soit 'voire', soit 'et même'.",
+            "suggestions": [
+              "voire",
+              "et même"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "et n'avons aucun pouvoir de régler",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La coordination est boiteuse. On ne peut coordonner une proposition relative ('sur lesquels nous avons peu de contrôle') avec une proposition qui n'est pas introduite par un pronom relatif. Il faut répéter le pronom relatif ou reformuler. Par exemple : '...sur lesquels nous avons peu de contrôle et que nous ne pouvons régler'.",
+            "suggestions": [
+              "et que nous n'avons aucun pouvoir de régler",
+              "et que nous ne pouvons régler"
+            ],
+            "ruleApplied": "4.1.2.1.8"
+          },
+          {
+            "text": "contre lequel nous ne sommes point prêt à faire face",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction est incorrecte. La locution verbale est 'faire face à quelque chose'. Le pronom relatif doit donc être 'auquel' pour remplacer 'au problème'. La préposition 'contre' est donc incorrecte. On écrit : 'auquel nous ne sommes point prêts à faire face'.",
+            "suggestions": [
+              "auquel nous ne sommes point prêts à faire face"
+            ],
+            "ruleApplied": "4.1.2.3.1"
+          },
+          {
+            "text": "2021",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Une référence bibliographique ou une note de fin de texte doit se terminer par un point.",
+            "suggestions": [
+              "2021."
+            ],
+            "ruleApplied": "4.2.2.1.1"
+          },
+          {
+            "text": ". » (1)",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Le point final se place après la référence entre parenthèses qui suit une citation.",
+            "suggestions": [
+              " » (1)."
+            ],
+            "ruleApplied": "4.2.2.1.1"
+          },
+          {
+            "text": "telles",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'adjectif \"telles\" ne peut pas introduire une énumération de verbes à l'infinitif. Il faut utiliser une autre formulation, comme un deux-points pour introduire la liste.",
+            "suggestions": [
+              ":"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "petit",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif 'petit' doit s'accorder en nombre avec le pronom 'on' qui a le sens de 'nous' (les jeunes), un référent pluriel. On écrit donc 'petits'.",
+            "suggestions": [
+              "petits"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "unies",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Dans la dénomination 'Organisation des Nations Unies', l'adjectif 'Unies' prend une majuscule.",
+            "suggestions": [
+              "Unies"
+            ],
+            "ruleApplied": "5.2.4.1.2"
+          },
+          {
+            "text": "eux-même",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le pronom 'même' s'accorde en nombre avec le pronom personnel auquel il se rapporte. Ici, 'eux' est pluriel, donc on écrit 'eux-mêmes'.",
+            "suggestions": [
+              "eux-mêmes"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "faites",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé 'faites', employé comme adjectif, doit s'accorder avec le sujet 'Ces genres de choses'. Le nom principal du groupe est 'genres', qui est masculin pluriel. On écrit donc 'faits'.",
+            "suggestions": [
+              "faits"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "habituées",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé 'habituées' doit s'accorder avec le pronom 'nous'. L'auteur a précédemment utilisé l'accord au masculin pluriel pour ce pronom ('prêts'). Par souci de cohérence, il faut conserver cet accord. On écrit donc 'habitués'.",
+            "suggestions": [
+              "habitués"
+            ],
+            "ruleApplied": "5.3.1.2"
+          },
+          {
+            "text": "dû",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé 'dû', employé comme adjectif, doit s'accorder avec le sujet 'une tonne de gaspillage'. Le nom principal 'tonne' est féminin singulier. On écrit donc 'due'.",
+            "suggestions": [
+              "due"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "prêt",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif 'prêt' doit s'accorder en nombre avec le sujet 'nous', qui est pluriel. On écrit donc 'prêts'.",
+            "suggestions": [
+              "prêts"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "plastiques",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif qui désigne une matière, comme 'plastique', est invariable lorsqu'il est en apposition après 'en'. On écrit donc 'emballages en plastique'.",
+            "suggestions": [
+              "plastique"
+            ],
+            "ruleApplied": "5.3.1.1"
+          }
+        ],
+        "totalErreursCritere4": 9,
+        "totalErreursCritere5": 8,
+        "scoreCritere4": {
+          "pointsPerdus": 7.5,
+          "note": "B"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 8,
+          "note": "B"
+        }
+      }
+    ],
+    "erreursCritere4AvantAnalyseIA": [
+      {
+        "text": "C'est pourquoi,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "La locution conjonctive 'c'est pourquoi' n'est généralement pas suivie d'une virgule lorsqu'elle introduit la proposition principale qui exprime la conséquence.",
+        "suggestions": [
+          "C'est pourquoi"
+        ],
+        "ruleApplied": "4.2.2.10.2.f"
+      },
+      {
+        "text": "Par après",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution 'Par après' est un calque de l'anglais. Il faut utiliser 'Ensuite', 'Puis' ou 'Par la suite'.",
+        "suggestions": [
+          "Ensuite",
+          "Par la suite"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "telles congeler",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'adjectif 'telles' ne peut pas introduire directement des verbes à l'infinitif. Il faut utiliser une construction comme 'telles que' ou reformuler, par exemple avec 'comme'.",
+        "suggestions": [
+          "telles que congeler",
+          "comme congeler"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "voire même",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression 'voire même' est un pléonasme, car 'voire' signifie déjà 'et même'. Il faut utiliser soit 'voire', soit 'et même'.",
+        "suggestions": [
+          "voire",
+          "et même"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "et n'avons aucun pouvoir de régler",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La coordination est boiteuse. On ne peut coordonner une proposition relative ('sur lesquels nous avons peu de contrôle') avec une proposition qui n'est pas introduite par un pronom relatif. Il faut répéter le pronom relatif ou reformuler. Par exemple : '...sur lesquels nous avons peu de contrôle et que nous ne pouvons régler'.",
+        "suggestions": [
+          "et que nous n'avons aucun pouvoir de régler",
+          "et que nous ne pouvons régler"
+        ],
+        "ruleApplied": "4.1.2.1.8"
+      },
+      {
+        "text": "contre lequel nous ne sommes point prêt à faire face",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction est incorrecte. La locution verbale est 'faire face à quelque chose'. Le pronom relatif doit donc être 'auquel' pour remplacer 'au problème'. La préposition 'contre' est donc incorrecte. On écrit : 'auquel nous ne sommes point prêts à faire face'.",
+        "suggestions": [
+          "auquel nous ne sommes point prêts à faire face"
+        ],
+        "ruleApplied": "4.1.2.3.1"
+      },
+      {
+        "text": "2021",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une référence bibliographique ou une note de fin de texte doit se terminer par un point.",
+        "suggestions": [
+          "2021."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "text": ". » (1)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point final se place après la référence entre parenthèses qui suit une citation.",
+        "suggestions": [
+          " » (1)."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "text": "telles",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'adjectif \"telles\" ne peut pas introduire une énumération de verbes à l'infinitif. Il faut utiliser une autre formulation, comme un deux-points pour introduire la liste.",
+        "suggestions": [
+          ":"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      }
+    ],
+    "erreursCritere5AvantAnalyseIA": [
+      {
+        "text": "petit",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'petit' doit s'accorder en nombre avec le pronom 'on' qui a le sens de 'nous' (les jeunes), un référent pluriel. On écrit donc 'petits'.",
+        "suggestions": [
+          "petits"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "unies",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Dans la dénomination 'Organisation des Nations Unies', l'adjectif 'Unies' prend une majuscule.",
+        "suggestions": [
+          "Unies"
+        ],
+        "ruleApplied": "5.2.4.1.2"
+      },
+      {
+        "text": "eux-même",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom 'même' s'accorde en nombre avec le pronom personnel auquel il se rapporte. Ici, 'eux' est pluriel, donc on écrit 'eux-mêmes'.",
+        "suggestions": [
+          "eux-mêmes"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "faites",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'faites', employé comme adjectif, doit s'accorder avec le sujet 'Ces genres de choses'. Le nom principal du groupe est 'genres', qui est masculin pluriel. On écrit donc 'faits'.",
+        "suggestions": [
+          "faits"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "habituées",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'habituées' doit s'accorder avec le pronom 'nous'. L'auteur a précédemment utilisé l'accord au masculin pluriel pour ce pronom ('prêts'). Par souci de cohérence, il faut conserver cet accord. On écrit donc 'habitués'.",
+        "suggestions": [
+          "habitués"
+        ],
+        "ruleApplied": "5.3.1.2"
+      },
+      {
+        "text": "dû",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'dû', employé comme adjectif, doit s'accorder avec le sujet 'une tonne de gaspillage'. Le nom principal 'tonne' est féminin singulier. On écrit donc 'due'.",
+        "suggestions": [
+          "due"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "prêt",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'prêt' doit s'accorder en nombre avec le sujet 'nous', qui est pluriel. On écrit donc 'prêts'.",
+        "suggestions": [
+          "prêts"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "plastiques",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif qui désigne une matière, comme 'plastique', est invariable lorsqu'il est en apposition après 'en'. On écrit donc 'emballages en plastique'.",
+        "suggestions": [
+          "plastique"
+        ],
+        "ruleApplied": "5.3.1.1"
+      }
+    ],
+    "analyseIADuplicatas": {
+      "critere4": {
+        "analyse": {
+          "totalErreursCritere4": 9,
+          "totalErreursCritere5": 0,
+          "duplicatasCritere4": 1,
+          "duplicatasCritere5": 0
+        },
+        "duplicatasCritere4": [
+          {
+            "groupe": 1,
+            "confiance": 95,
+            "raison": "Même erreur grammaticale (règle 4.1.2.1.5) au même emplacement. Le texte de l'erreur à l'index 8 est inclus dans celui de l'index 2, qui est plus complet.",
+            "erreurs": [
+              {
+                "index": 2,
+                "text": "telles congeler",
+                "garder": true
+              },
+              {
+                "index": 8,
+                "text": "telles",
+                "garder": false
+              }
+            ]
+          }
+        ],
+        "duplicatasCritere5": [],
+        "erreursUniquesCritere4": [
+          {
+            "index": 0,
+            "text": "C'est pourquoi,",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 1,
+            "text": "Par après",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 3,
+            "text": "voire même",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 4,
+            "text": "et n'avons aucun pouvoir de régler",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 5,
+            "text": "contre lequel nous ne sommes point prêt à faire face",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 6,
+            "text": "2021",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 7,
+            "text": ". » (1)",
+            "raison": "Aucun duplicata trouvé"
+          }
+        ],
+        "erreursUniquesCritere5": [],
+        "recommandations": {
+          "erreursAConserverCritere4": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "erreursAConserverCritere5": [],
+          "erreursASupprimer": {
+            "critere4": [
+              8
+            ],
+            "critere5": []
+          }
+        }
+      },
+      "critere5": {
+        "analyse": {
+          "totalErreursCritere4": 0,
+          "totalErreursCritere5": 8,
+          "duplicatasCritere4": 0,
+          "duplicatasCritere5": 0
+        },
+        "duplicatasCritere4": [],
+        "duplicatasCritere5": [],
+        "erreursUniquesCritere4": [],
+        "erreursUniquesCritere5": [
+          {
+            "index": 0,
+            "text": "petit",
+            "raison": "Aucun duplicata trouvé. Erreur d'accord spécifique."
+          },
+          {
+            "index": 1,
+            "text": "unies",
+            "raison": "Aucun duplicata trouvé. Erreur de majuscule unique."
+          },
+          {
+            "index": 2,
+            "text": "eux-même",
+            "raison": "Aucun duplicata trouvé. Erreur d'accord spécifique."
+          },
+          {
+            "index": 3,
+            "text": "faites",
+            "raison": "Aucun duplicata trouvé. Erreur d'accord de participe passé."
+          },
+          {
+            "index": 4,
+            "text": "habituées",
+            "raison": "Aucun duplicata trouvé. Erreur d'accord de participe passé."
+          },
+          {
+            "index": 5,
+            "text": "dû",
+            "raison": "Aucun duplicata trouvé. Erreur d'accord de participe passé."
+          },
+          {
+            "index": 6,
+            "text": "prêt",
+            "raison": "Aucun duplicata trouvé. Erreur d'accord spécifique."
+          },
+          {
+            "index": 7,
+            "text": "plastiques",
+            "raison": "Aucun duplicata trouvé. Erreur d'invariabilité d'adjectif."
+          }
+        ],
+        "recommandations": {
+          "erreursAConserverCritere4": [],
+          "erreursAConserverCritere5": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "erreursASupprimer": {
+            "critere4": [],
+            "critere5": []
+          }
+        }
+      }
+    }
+  }
+}

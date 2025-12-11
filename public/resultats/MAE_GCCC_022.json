@@ -1,0 +1,1849 @@
+{
+  "processedAt": "2025-12-10T14:14:49.462Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_022.txt",
+    "originalText": "Gaspillage, une barbouillage à l’environnement\r\n\r\nEn 2019, environ 931 millions de tonnes d’aliments ont été gaspillé à travers le monde et 47% du gaspillage alimentaires est causé par la consommation humaine, un pourcentage assez haut de gaspillage alimentaire est un facteur très fréquent ces dernières années et peut mener à des conséquences environnementaux si nous ne prenons pas action. C’est ce qui nous amène à notre question : Sommes-nous prêts à lutter contre le gaspillage alimentaire ? D’après moi, on est certainement prêt à lutter contre ces pertes de nourriture puisqu’on peut limiter le gaspillage à la maison, mais aussi vendre leurs produits à l’aide de plusieurs techniques afin d’éviter le gaspillage.\r\n\r\nEn premier lieu, notre société est préparé pour combattre ces gaspillages d’aliment parce qu’on peut limiter le gaspillage chez nous. À la maison, il y existe de multiples solutions pour réduire le gaspillage alimentaire. Selon l’article « Gaspillage alimentaire », RECYC-QUÉBEC (2021), il nous suggère de planifier les repas ainsi, de faire une liste d’épicerie, d’en pas acheter trop de produits, de faire cuire les fruits et légumes très mûrs et de congeler le restant de la nourriture en portions individuelles, mais il faut garder les aliments non réfrigérés hors du frigo et de retirer les emballages afin de prolonger la durée de vie des aliments. On constate que ce ne sont pas des limites trop compliqués et on peut éviter la moitié du gaspillage alimentaire à la maison! De plus, Mike Von Massow, coauteur d’une étude sur le gaspillage alimentaire dans les maisons mentionne : « l’une des informations les moins bien comprises par les consommateurs est la date limite de conservation, qui n’a rien à voir avec la sécurité alimentaire : « meilleur avant »ne signifie pas « périmé après ». Certains aliments comme le riz peuvent être consommé plus d’un ans après sa date d’expiration. Le yogourt par contre, conserve ses qualités pendant trois semaines après la date indiquée.  Bref, il semble être une petite geste pour nous, mais une grosse geste pour l’environnement.\r\n\r\nEn deuxième lieu, il est possible de réduire le gaspillage alimentaire, car il existe de différents moyens pour vendre les produits. On trouve de nombreuses stratégies pour éviter le gaspillage. Dans l’article « Environnement : au rebut, le gaspillage ! », Mathile Roy (2018), certains publicités recommandent les consommateurs à acheter des produits en grande quantité. Non seulement ça, pourquoi gaspiller si l’on peut les donner aux familles en difficulté? À Montréal, Partage & Solidarité, un groupe communautaire, aide les plus démunis en les offrant des paniers alimentaires avec des denrées invendus. En gros, la publicité et les groupes communautaires permettent de gaspiller moins.\r\n\r\nEn conclusion, nous, les humains, avons des solutions face au gaspillage alimentaire. On a des limites conseillés chez nous et même des stratégies permettant de vendre les aliments. Si nous voulons protéger notre environnement, il faut commencer maintenant!",
+    "erreursCritere4": [
+      {
+        "text": "barbouillage",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Problème de sens. Le mot \"barbouillage\" signifie \"gribouillage\" ou \"salissure\". Pour qualifier le gaspillage, un terme comme \"nuisance\", \"atteinte\" ou \"affront\" serait plus approprié. De plus, le nom \"barbouillage\" est masculin (\"un barbouillage\"). L'erreur de syntaxe (sens) a priorité sur l'erreur grammaticale (genre).",
+        "suggestions": [
+          "nuisance"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": ", un pourcentage",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction de phrase boiteuse (anacoluthe). La deuxième partie de la phrase (\"un pourcentage...\") n'est pas correctement reliée à la première. Il faudrait commencer une nouvelle phrase ou utiliser un pronom de reprise.",
+        "suggestions": [
+          ". Ce pourcentage"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "leurs",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom possessif ne correspond pas au sujet \"on\". Il faut utiliser \"ses\" (référant à \"on\") ou \"nos\" (si \"on\" représente \"nous\").",
+        "suggestions": [
+          "ses"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "text": "il y existe",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Mot superflu. La construction correcte est soit \"il existe\", soit \"il y a\". Le pronom \"y\" est redondant avec le verbe \"exister\".",
+        "suggestions": [
+          "il existe"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "d’en pas acheter",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Négation mal employée. L'ordre des mots est incorrect. La négation \"ne... pas\" doit encadrer le verbe ou l'auxiliaire, et le pronom \"en\" se place avant le verbe.",
+        "suggestions": [
+          "de ne pas en acheter"
+        ],
+        "ruleApplied": "4.1.2.1.3"
+      },
+      {
+        "text": "par contre,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Virgule manquante pour isoler une incidente. Le groupe de mots \"par contre\" doit être encadré par des virgules.",
+        "suggestions": [
+          ", par contre,"
+        ],
+        "ruleApplied": "4.2.2.10.1.g"
+      },
+      {
+        "text": "de différents moyens",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction erronée. Après \"il existe\", on utilise l'article indéfini \"des\" ou aucun article devant un adjectif pluriel. La préposition \"de\" est incorrecte ici.",
+        "suggestions": [
+          "différents moyens"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "Mathile Roy (2018),",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence du verbe principal de la phrase. La source est présentée, mais la phrase qui suit n'y est pas rattachée par un verbe introducteur comme \"écrit que\" ou \"affirme que\".",
+        "suggestions": [
+          "Mathile Roy (2018) écrit que"
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "text": "en les offrant",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Pronom erroné selon la fonction. Le verbe \"offrir\" se construit avec un complément d'objet indirect (\"offrir à quelqu'un\"). Le pronom correspondant à \"aux plus démunis\" est \"leur\", et non \"les\".",
+        "suggestions": [
+          "en leur offrant"
+        ],
+        "ruleApplied": "4.1.2.3.1"
+      },
+      {
+        "text": "prenons pas action",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Calque de l'anglais « to take action ». L'expression correcte en français est « agir » ou « prendre des mesures ».",
+        "suggestions": [
+          "agissons",
+          "prenons pas de mesures"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "il nous suggère",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Mot superflu. Le pronom « il » est redondant avec le sujet « RECYC-QUÉBEC » déjà mentionné dans la même proposition.",
+        "suggestions": [
+          "RECYC-QUÉBEC (2021) nous suggère"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "sa",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de déterminant possessif. L'antécédent est « Certains aliments » (pluriel).",
+        "suggestions": [
+          "leur"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "text": "recommandent les consommateurs à acheter",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de préposition dans la construction du verbe « recommander ». La construction correcte est « recommander à quelqu'un de faire quelque chose ».",
+        "suggestions": [
+          "recommandent aux consommateurs d'acheter"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 12.5,
+      "note": "C"
+    },
+    "erreursCritere5": [
+      {
+        "text": "gaspillé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé conjugué avec l'auxiliaire \"être\" (ici à la voix passive \"ont été\") s'accorde en genre et en nombre avec le sujet. Le sujet est \"931 millions de tonnes d’aliments\" (masculin pluriel).",
+        "suggestions": [
+          "gaspillés"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "alimentaires",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif s'accorde en genre et en nombre avec le nom qu'il qualifie. L'adjectif \"alimentaires\" qualifie le nom \"gaspillage\" (masculin singulier).",
+        "suggestions": [
+          "alimentaire"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "environnementaux",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif s'accorde en genre et en nombre avec le nom qu'il qualifie. L'adjectif \"environnementaux\" qualifie le nom \"conséquences\" (féminin pluriel).",
+        "suggestions": [
+          "environnementales"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "certainement",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Mot anglais utilisé à la place du mot français équivalent.",
+        "suggestions": [
+          "certainement"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "préparé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé employé comme adjectif attribut s'accorde en genre et en nombre avec le sujet \"notre société\" (féminin singulier).",
+        "suggestions": [
+          "préparée"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "d’aliment",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom qui suit une expression de quantité comme \"ces gaspillages\" doit être au pluriel.",
+        "suggestions": [
+          "d'aliments"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "text": "compliqués",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif s'accorde en genre et en nombre avec le nom qu'il qualifie. L'adjectif \"compliqués\" qualifie le nom \"limites\" (féminin pluriel).",
+        "suggestions": [
+          "compliquées"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "consommé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé conjugué avec l'auxiliaire \"être\" (voix passive \"peuvent être\") s'accorde en genre et en nombre avec le sujet \"Certains aliments\" (masculin pluriel).",
+        "suggestions": [
+          "consommés"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "ans",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom s'accorde en nombre avec le déterminant. Le déterminant \"un\" commande le singulier.",
+        "suggestions": [
+          "an"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "petite geste",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur sur le genre du nom. Le nom \"geste\" est masculin.",
+        "suggestions": [
+          "petit geste"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "grosse geste",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "Erreur sur le genre du nom. Le nom \"geste\" est masculin. Le donneur d'accord (\"geste\") et le type d'erreur (genre) sont les mêmes que pour l'erreur précédente.",
+        "suggestions": [
+          "gros geste"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "certains publicités",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant s'accorde en genre et en nombre avec le nom qu'il détermine. \"Publicités\" est un nom féminin pluriel.",
+        "suggestions": [
+          "certaines publicités"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "invendus",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif s'accorde en genre et en nombre avec le nom qu'il qualifie. L'adjectif \"invendus\" qualifie le nom \"denrées\" (féminin pluriel).",
+        "suggestions": [
+          "invendues"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "conseillés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif s'accorde en genre et en nombre avec le nom qu'il qualifie. L'adjectif \"conseillés\" qualifie le nom \"limites\" (féminin pluriel).",
+        "suggestions": [
+          "conseillées"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "une",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord en genre du déterminant. Le nom « barbouillage » est masculin.",
+        "suggestions": [
+          "un"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "une",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord en genre du déterminant. Le nom « geste » est masculin.",
+        "suggestions": [
+          "un"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "Mathile",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage dans un nom propre.",
+        "suggestions": [
+          "Mathilde"
+        ],
+        "ruleApplied": "5.2.1.3"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 16,
+      "note": "D"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:10:18.437Z",
+    "endTimestamp": "2025-12-10T14:14:49.462Z",
+    "durationMs": 271025,
+    "durationFormatted": "04:31:025",
+    "cumulParPasse": [
+      {
+        "passe": 1,
+        "erreursCritere4": [
+          {
+            "text": "barbouillage",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Problème de sens. Le mot \"barbouillage\" signifie \"gribouillage\" ou \"salissure\". Pour qualifier le gaspillage, un terme comme \"nuisance\", \"atteinte\" ou \"affront\" serait plus approprié. De plus, le nom \"barbouillage\" est masculin (\"un barbouillage\"). L'erreur de syntaxe (sens) a priorité sur l'erreur grammaticale (genre).",
+            "suggestions": [
+              "nuisance"
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          },
+          {
+            "text": ", un pourcentage",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Construction de phrase boiteuse (anacoluthe). La deuxième partie de la phrase (\"un pourcentage...\") n'est pas correctement reliée à la première. Il faudrait commencer une nouvelle phrase ou utiliser un pronom de reprise.",
+            "suggestions": [
+              ". Ce pourcentage"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "prenons pas action",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "Calque de l'anglais (\"to take action\"). En français, on utilise plutôt \"agir\" ou \"prendre des mesures\". Une erreur de syntaxe (S) a déjà été comptabilisée dans cette phrase syntaxique.",
+            "suggestions": [
+              "n'agissons pas"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "leurs",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le pronom possessif ne correspond pas au sujet \"on\". Il faut utiliser \"ses\" (référant à \"on\") ou \"nos\" (si \"on\" représente \"nous\").",
+            "suggestions": [
+              "ses"
+            ],
+            "ruleApplied": "4.1.2.3.2"
+          },
+          {
+            "text": "il y existe",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Mot superflu. La construction correcte est soit \"il existe\", soit \"il y a\". Le pronom \"y\" est redondant avec le verbe \"exister\".",
+            "suggestions": [
+              "il existe"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "d’en pas acheter",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Négation mal employée. L'ordre des mots est incorrect. La négation \"ne... pas\" doit encadrer le verbe ou l'auxiliaire, et le pronom \"en\" se place avant le verbe.",
+            "suggestions": [
+              "de ne pas en acheter"
+            ],
+            "ruleApplied": "4.1.2.1.3"
+          },
+          {
+            "text": "par contre,",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Virgule manquante pour isoler une incidente. Le groupe de mots \"par contre\" doit être encadré par des virgules.",
+            "suggestions": [
+              ", par contre,"
+            ],
+            "ruleApplied": "4.2.2.10.1.g"
+          },
+          {
+            "text": "de différents moyens",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Construction erronée. Après \"il existe\", on utilise l'article indéfini \"des\" ou aucun article devant un adjectif pluriel. La préposition \"de\" est incorrecte ici.",
+            "suggestions": [
+              "différents moyens"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "Mathile Roy (2018),",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Absence du verbe principal de la phrase. La source est présentée, mais la phrase qui suit n'y est pas rattachée par un verbe introducteur comme \"écrit que\" ou \"affirme que\".",
+            "suggestions": [
+              "Mathile Roy (2018) écrit que"
+            ],
+            "ruleApplied": "4.1.2.1.4"
+          },
+          {
+            "text": "recommandent les consommateurs à acheter",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "Préposition erronée. La construction du verbe \"recommander\" est \"recommander à quelqu'un de faire quelque chose\". Une erreur de syntaxe (S) a déjà été comptabilisée dans cette phrase.",
+            "suggestions": [
+              "recommandent aux consommateurs d'acheter"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "en les offrant",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Pronom erroné selon la fonction. Le verbe \"offrir\" se construit avec un complément d'objet indirect (\"offrir à quelqu'un\"). Le pronom correspondant à \"aux plus démunis\" est \"leur\", et non \"les\".",
+            "suggestions": [
+              "en leur offrant"
+            ],
+            "ruleApplied": "4.1.2.3.1"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "gaspillé",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé conjugué avec l'auxiliaire \"être\" (ici à la voix passive \"ont été\") s'accorde en genre et en nombre avec le sujet. Le sujet est \"931 millions de tonnes d’aliments\" (masculin pluriel).",
+            "suggestions": [
+              "gaspillés"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "alimentaires",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif s'accorde en genre et en nombre avec le nom qu'il qualifie. L'adjectif \"alimentaires\" qualifie le nom \"gaspillage\" (masculin singulier).",
+            "suggestions": [
+              "alimentaire"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "environnementaux",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif s'accorde en genre et en nombre avec le nom qu'il qualifie. L'adjectif \"environnementaux\" qualifie le nom \"conséquences\" (féminin pluriel).",
+            "suggestions": [
+              "environnementales"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "certainement",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Mot anglais utilisé à la place du mot français équivalent.",
+            "suggestions": [
+              "certainement"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "préparé",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé employé comme adjectif attribut s'accorde en genre et en nombre avec le sujet \"notre société\" (féminin singulier).",
+            "suggestions": [
+              "préparée"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "d’aliment",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom qui suit une expression de quantité comme \"ces gaspillages\" doit être au pluriel.",
+            "suggestions": [
+              "d'aliments"
+            ],
+            "ruleApplied": "5.3.1.5"
+          },
+          {
+            "text": "compliqués",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif s'accorde en genre et en nombre avec le nom qu'il qualifie. L'adjectif \"compliqués\" qualifie le nom \"limites\" (féminin pluriel).",
+            "suggestions": [
+              "compliquées"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "consommé",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé conjugué avec l'auxiliaire \"être\" (voix passive \"peuvent être\") s'accorde en genre et en nombre avec le sujet \"Certains aliments\" (masculin pluriel).",
+            "suggestions": [
+              "consommés"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "ans",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom s'accorde en nombre avec le déterminant. Le déterminant \"un\" commande le singulier.",
+            "suggestions": [
+              "an"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "petite geste",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur sur le genre du nom. Le nom \"geste\" est masculin.",
+            "suggestions": [
+              "petit geste"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "grosse geste",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "_",
+            "description": "Erreur sur le genre du nom. Le nom \"geste\" est masculin. Le donneur d'accord (\"geste\") et le type d'erreur (genre) sont les mêmes que pour l'erreur précédente.",
+            "suggestions": [
+              "gros geste"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "certains publicités",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le déterminant s'accorde en genre et en nombre avec le nom qu'il détermine. \"Publicités\" est un nom féminin pluriel.",
+            "suggestions": [
+              "certaines publicités"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "invendus",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif s'accorde en genre et en nombre avec le nom qu'il qualifie. L'adjectif \"invendus\" qualifie le nom \"denrées\" (féminin pluriel).",
+            "suggestions": [
+              "invendues"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "conseillés",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif s'accorde en genre et en nombre avec le nom qu'il qualifie. L'adjectif \"conseillés\" qualifie le nom \"limites\" (féminin pluriel).",
+            "suggestions": [
+              "conseillées"
+            ],
+            "ruleApplied": "5.3.1.1"
+          }
+        ],
+        "totalErreursCritere4": 11,
+        "totalErreursCritere5": 14,
+        "scoreCritere4": {
+          "pointsPerdus": 8.5,
+          "note": "B"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 13,
+          "note": "C"
+        }
+      },
+      {
+        "passe": 2,
+        "erreursCritere4": [
+          {
+            "text": "barbouillage",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Problème de sens. Le mot \"barbouillage\" signifie \"gribouillage\" ou \"salissure\". Pour qualifier le gaspillage, un terme comme \"nuisance\", \"atteinte\" ou \"affront\" serait plus approprié. De plus, le nom \"barbouillage\" est masculin (\"un barbouillage\"). L'erreur de syntaxe (sens) a priorité sur l'erreur grammaticale (genre).",
+            "suggestions": [
+              "nuisance"
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          },
+          {
+            "text": ", un pourcentage",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Construction de phrase boiteuse (anacoluthe). La deuxième partie de la phrase (\"un pourcentage...\") n'est pas correctement reliée à la première. Il faudrait commencer une nouvelle phrase ou utiliser un pronom de reprise.",
+            "suggestions": [
+              ". Ce pourcentage"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "prenons pas action",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "Calque de l'anglais (\"to take action\"). En français, on utilise plutôt \"agir\" ou \"prendre des mesures\". Une erreur de syntaxe (S) a déjà été comptabilisée dans cette phrase syntaxique.",
+            "suggestions": [
+              "n'agissons pas"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "leurs",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le pronom possessif ne correspond pas au sujet \"on\". Il faut utiliser \"ses\" (référant à \"on\") ou \"nos\" (si \"on\" représente \"nous\").",
+            "suggestions": [
+              "ses"
+            ],
+            "ruleApplied": "4.1.2.3.2"
+          },
+          {
+            "text": "il y existe",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Mot superflu. La construction correcte est soit \"il existe\", soit \"il y a\". Le pronom \"y\" est redondant avec le verbe \"exister\".",
+            "suggestions": [
+              "il existe"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "d’en pas acheter",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Négation mal employée. L'ordre des mots est incorrect. La négation \"ne... pas\" doit encadrer le verbe ou l'auxiliaire, et le pronom \"en\" se place avant le verbe.",
+            "suggestions": [
+              "de ne pas en acheter"
+            ],
+            "ruleApplied": "4.1.2.1.3"
+          },
+          {
+            "text": "par contre,",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Virgule manquante pour isoler une incidente. Le groupe de mots \"par contre\" doit être encadré par des virgules.",
+            "suggestions": [
+              ", par contre,"
+            ],
+            "ruleApplied": "4.2.2.10.1.g"
+          },
+          {
+            "text": "de différents moyens",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Construction erronée. Après \"il existe\", on utilise l'article indéfini \"des\" ou aucun article devant un adjectif pluriel. La préposition \"de\" est incorrecte ici.",
+            "suggestions": [
+              "différents moyens"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "Mathile Roy (2018),",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Absence du verbe principal de la phrase. La source est présentée, mais la phrase qui suit n'y est pas rattachée par un verbe introducteur comme \"écrit que\" ou \"affirme que\".",
+            "suggestions": [
+              "Mathile Roy (2018) écrit que"
+            ],
+            "ruleApplied": "4.1.2.1.4"
+          },
+          {
+            "text": "recommandent les consommateurs à acheter",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "Préposition erronée. La construction du verbe \"recommander\" est \"recommander à quelqu'un de faire quelque chose\". Une erreur de syntaxe (S) a déjà été comptabilisée dans cette phrase.",
+            "suggestions": [
+              "recommandent aux consommateurs d'acheter"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "en les offrant",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Pronom erroné selon la fonction. Le verbe \"offrir\" se construit avec un complément d'objet indirect (\"offrir à quelqu'un\"). Le pronom correspondant à \"aux plus démunis\" est \"leur\", et non \"les\".",
+            "suggestions": [
+              "en leur offrant"
+            ],
+            "ruleApplied": "4.1.2.3.1"
+          },
+          {
+            "text": "prenons pas action",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Calque de l'anglais « to take action ». L'expression correcte en français est « agir » ou « prendre des mesures ».",
+            "suggestions": [
+              "agissons",
+              "prenons pas de mesures"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "il nous suggère",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Mot superflu. Le pronom « il » est redondant avec le sujet « RECYC-QUÉBEC » déjà mentionné dans la même proposition.",
+            "suggestions": [
+              "RECYC-QUÉBEC (2021) nous suggère"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "d’en pas acheter",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "Ordre incorrect des mots dans la négation à l'infinitif. Cette erreur se trouve dans la même phrase syntaxique que la précédente (verbe « suggère »), elle est donc non comptée.",
+            "suggestions": [
+              "de ne pas en acheter"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "sa",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Erreur de déterminant possessif. L'antécédent est « Certains aliments » (pluriel).",
+            "suggestions": [
+              "leur"
+            ],
+            "ruleApplied": "4.1.2.3.2"
+          },
+          {
+            "text": "de",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Emploi incorrect de la préposition « de » au lieu de l'article partitif « des » devant un nom pluriel.",
+            "suggestions": [
+              "des"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "recommandent les consommateurs à acheter",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Erreur de préposition dans la construction du verbe « recommander ». La construction correcte est « recommander à quelqu'un de faire quelque chose ».",
+            "suggestions": [
+              "recommandent aux consommateurs d'acheter"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "les",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Erreur de pronom personnel. Le verbe « offrir » se construit avec un complément d'objet indirect (« offrir à qqn »), le pronom correct est donc « leur ».",
+            "suggestions": [
+              "leur"
+            ],
+            "ruleApplied": "4.1.2.3.1"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "gaspillé",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé conjugué avec l'auxiliaire \"être\" (ici à la voix passive \"ont été\") s'accorde en genre et en nombre avec le sujet. Le sujet est \"931 millions de tonnes d’aliments\" (masculin pluriel).",
+            "suggestions": [
+              "gaspillés"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "alimentaires",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif s'accorde en genre et en nombre avec le nom qu'il qualifie. L'adjectif \"alimentaires\" qualifie le nom \"gaspillage\" (masculin singulier).",
+            "suggestions": [
+              "alimentaire"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "environnementaux",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif s'accorde en genre et en nombre avec le nom qu'il qualifie. L'adjectif \"environnementaux\" qualifie le nom \"conséquences\" (féminin pluriel).",
+            "suggestions": [
+              "environnementales"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "certainement",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Mot anglais utilisé à la place du mot français équivalent.",
+            "suggestions": [
+              "certainement"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "préparé",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé employé comme adjectif attribut s'accorde en genre et en nombre avec le sujet \"notre société\" (féminin singulier).",
+            "suggestions": [
+              "préparée"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "d’aliment",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom qui suit une expression de quantité comme \"ces gaspillages\" doit être au pluriel.",
+            "suggestions": [
+              "d'aliments"
+            ],
+            "ruleApplied": "5.3.1.5"
+          },
+          {
+            "text": "compliqués",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif s'accorde en genre et en nombre avec le nom qu'il qualifie. L'adjectif \"compliqués\" qualifie le nom \"limites\" (féminin pluriel).",
+            "suggestions": [
+              "compliquées"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "consommé",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé conjugué avec l'auxiliaire \"être\" (voix passive \"peuvent être\") s'accorde en genre et en nombre avec le sujet \"Certains aliments\" (masculin pluriel).",
+            "suggestions": [
+              "consommés"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "ans",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom s'accorde en nombre avec le déterminant. Le déterminant \"un\" commande le singulier.",
+            "suggestions": [
+              "an"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "petite geste",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur sur le genre du nom. Le nom \"geste\" est masculin.",
+            "suggestions": [
+              "petit geste"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "grosse geste",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "_",
+            "description": "Erreur sur le genre du nom. Le nom \"geste\" est masculin. Le donneur d'accord (\"geste\") et le type d'erreur (genre) sont les mêmes que pour l'erreur précédente.",
+            "suggestions": [
+              "gros geste"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "certains publicités",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le déterminant s'accorde en genre et en nombre avec le nom qu'il détermine. \"Publicités\" est un nom féminin pluriel.",
+            "suggestions": [
+              "certaines publicités"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "invendus",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif s'accorde en genre et en nombre avec le nom qu'il qualifie. L'adjectif \"invendus\" qualifie le nom \"denrées\" (féminin pluriel).",
+            "suggestions": [
+              "invendues"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "conseillés",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif s'accorde en genre et en nombre avec le nom qu'il qualifie. L'adjectif \"conseillés\" qualifie le nom \"limites\" (féminin pluriel).",
+            "suggestions": [
+              "conseillées"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "une",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Accord en genre du déterminant. Le nom « barbouillage » est masculin.",
+            "suggestions": [
+              "un"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "petite",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "_",
+            "description": "Accord en genre de l'adjectif. Le donneur est le nom « geste » (masculin).",
+            "suggestions": [
+              "petit"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "une",
+            "occurenceIndex": 1,
+            "criteria": 5,
+            "type": "G",
+            "description": "Accord en genre du déterminant. Le nom « geste » est masculin.",
+            "suggestions": [
+              "un"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "grosse",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "_",
+            "description": "Accord en genre de l'adjectif. Le donneur est le nom « geste » (masculin).",
+            "suggestions": [
+              "gros"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "Mathile",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Erreur d'orthographe d'usage dans un nom propre.",
+            "suggestions": [
+              "Mathilde"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "certains",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Accord en genre du déterminant. Le nom « publicités » est féminin pluriel.",
+            "suggestions": [
+              "certaines"
+            ],
+            "ruleApplied": "5.3.1.1"
+          }
+        ],
+        "totalErreursCritere4": 18,
+        "totalErreursCritere5": 20,
+        "scoreCritere4": {
+          "pointsPerdus": 14.5,
+          "note": "D"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 17,
+          "note": "D"
+        }
+      }
+    ],
+    "erreursCritere4AvantAnalyseIA": [
+      {
+        "text": "barbouillage",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Problème de sens. Le mot \"barbouillage\" signifie \"gribouillage\" ou \"salissure\". Pour qualifier le gaspillage, un terme comme \"nuisance\", \"atteinte\" ou \"affront\" serait plus approprié. De plus, le nom \"barbouillage\" est masculin (\"un barbouillage\"). L'erreur de syntaxe (sens) a priorité sur l'erreur grammaticale (genre).",
+        "suggestions": [
+          "nuisance"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": ", un pourcentage",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction de phrase boiteuse (anacoluthe). La deuxième partie de la phrase (\"un pourcentage...\") n'est pas correctement reliée à la première. Il faudrait commencer une nouvelle phrase ou utiliser un pronom de reprise.",
+        "suggestions": [
+          ". Ce pourcentage"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "prenons pas action",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Calque de l'anglais (\"to take action\"). En français, on utilise plutôt \"agir\" ou \"prendre des mesures\". Une erreur de syntaxe (S) a déjà été comptabilisée dans cette phrase syntaxique.",
+        "suggestions": [
+          "n'agissons pas"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "leurs",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom possessif ne correspond pas au sujet \"on\". Il faut utiliser \"ses\" (référant à \"on\") ou \"nos\" (si \"on\" représente \"nous\").",
+        "suggestions": [
+          "ses"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "text": "il y existe",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Mot superflu. La construction correcte est soit \"il existe\", soit \"il y a\". Le pronom \"y\" est redondant avec le verbe \"exister\".",
+        "suggestions": [
+          "il existe"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "d’en pas acheter",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Négation mal employée. L'ordre des mots est incorrect. La négation \"ne... pas\" doit encadrer le verbe ou l'auxiliaire, et le pronom \"en\" se place avant le verbe.",
+        "suggestions": [
+          "de ne pas en acheter"
+        ],
+        "ruleApplied": "4.1.2.1.3"
+      },
+      {
+        "text": "par contre,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Virgule manquante pour isoler une incidente. Le groupe de mots \"par contre\" doit être encadré par des virgules.",
+        "suggestions": [
+          ", par contre,"
+        ],
+        "ruleApplied": "4.2.2.10.1.g"
+      },
+      {
+        "text": "de différents moyens",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction erronée. Après \"il existe\", on utilise l'article indéfini \"des\" ou aucun article devant un adjectif pluriel. La préposition \"de\" est incorrecte ici.",
+        "suggestions": [
+          "différents moyens"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "Mathile Roy (2018),",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence du verbe principal de la phrase. La source est présentée, mais la phrase qui suit n'y est pas rattachée par un verbe introducteur comme \"écrit que\" ou \"affirme que\".",
+        "suggestions": [
+          "Mathile Roy (2018) écrit que"
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "text": "recommandent les consommateurs à acheter",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Préposition erronée. La construction du verbe \"recommander\" est \"recommander à quelqu'un de faire quelque chose\". Une erreur de syntaxe (S) a déjà été comptabilisée dans cette phrase.",
+        "suggestions": [
+          "recommandent aux consommateurs d'acheter"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "en les offrant",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Pronom erroné selon la fonction. Le verbe \"offrir\" se construit avec un complément d'objet indirect (\"offrir à quelqu'un\"). Le pronom correspondant à \"aux plus démunis\" est \"leur\", et non \"les\".",
+        "suggestions": [
+          "en leur offrant"
+        ],
+        "ruleApplied": "4.1.2.3.1"
+      },
+      {
+        "text": "prenons pas action",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Calque de l'anglais « to take action ». L'expression correcte en français est « agir » ou « prendre des mesures ».",
+        "suggestions": [
+          "agissons",
+          "prenons pas de mesures"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "il nous suggère",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Mot superflu. Le pronom « il » est redondant avec le sujet « RECYC-QUÉBEC » déjà mentionné dans la même proposition.",
+        "suggestions": [
+          "RECYC-QUÉBEC (2021) nous suggère"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "d’en pas acheter",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Ordre incorrect des mots dans la négation à l'infinitif. Cette erreur se trouve dans la même phrase syntaxique que la précédente (verbe « suggère »), elle est donc non comptée.",
+        "suggestions": [
+          "de ne pas en acheter"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "sa",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de déterminant possessif. L'antécédent est « Certains aliments » (pluriel).",
+        "suggestions": [
+          "leur"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "text": "de",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Emploi incorrect de la préposition « de » au lieu de l'article partitif « des » devant un nom pluriel.",
+        "suggestions": [
+          "des"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "recommandent les consommateurs à acheter",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de préposition dans la construction du verbe « recommander ». La construction correcte est « recommander à quelqu'un de faire quelque chose ».",
+        "suggestions": [
+          "recommandent aux consommateurs d'acheter"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "les",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de pronom personnel. Le verbe « offrir » se construit avec un complément d'objet indirect (« offrir à qqn »), le pronom correct est donc « leur ».",
+        "suggestions": [
+          "leur"
+        ],
+        "ruleApplied": "4.1.2.3.1"
+      }
+    ],
+    "erreursCritere5AvantAnalyseIA": [
+      {
+        "text": "gaspillé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé conjugué avec l'auxiliaire \"être\" (ici à la voix passive \"ont été\") s'accorde en genre et en nombre avec le sujet. Le sujet est \"931 millions de tonnes d’aliments\" (masculin pluriel).",
+        "suggestions": [
+          "gaspillés"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "alimentaires",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif s'accorde en genre et en nombre avec le nom qu'il qualifie. L'adjectif \"alimentaires\" qualifie le nom \"gaspillage\" (masculin singulier).",
+        "suggestions": [
+          "alimentaire"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "environnementaux",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif s'accorde en genre et en nombre avec le nom qu'il qualifie. L'adjectif \"environnementaux\" qualifie le nom \"conséquences\" (féminin pluriel).",
+        "suggestions": [
+          "environnementales"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "certainement",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Mot anglais utilisé à la place du mot français équivalent.",
+        "suggestions": [
+          "certainement"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "préparé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé employé comme adjectif attribut s'accorde en genre et en nombre avec le sujet \"notre société\" (féminin singulier).",
+        "suggestions": [
+          "préparée"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "d’aliment",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom qui suit une expression de quantité comme \"ces gaspillages\" doit être au pluriel.",
+        "suggestions": [
+          "d'aliments"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "text": "compliqués",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif s'accorde en genre et en nombre avec le nom qu'il qualifie. L'adjectif \"compliqués\" qualifie le nom \"limites\" (féminin pluriel).",
+        "suggestions": [
+          "compliquées"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "consommé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé conjugué avec l'auxiliaire \"être\" (voix passive \"peuvent être\") s'accorde en genre et en nombre avec le sujet \"Certains aliments\" (masculin pluriel).",
+        "suggestions": [
+          "consommés"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "ans",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom s'accorde en nombre avec le déterminant. Le déterminant \"un\" commande le singulier.",
+        "suggestions": [
+          "an"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "petite geste",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur sur le genre du nom. Le nom \"geste\" est masculin.",
+        "suggestions": [
+          "petit geste"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "grosse geste",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "Erreur sur le genre du nom. Le nom \"geste\" est masculin. Le donneur d'accord (\"geste\") et le type d'erreur (genre) sont les mêmes que pour l'erreur précédente.",
+        "suggestions": [
+          "gros geste"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "certains publicités",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant s'accorde en genre et en nombre avec le nom qu'il détermine. \"Publicités\" est un nom féminin pluriel.",
+        "suggestions": [
+          "certaines publicités"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "invendus",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif s'accorde en genre et en nombre avec le nom qu'il qualifie. L'adjectif \"invendus\" qualifie le nom \"denrées\" (féminin pluriel).",
+        "suggestions": [
+          "invendues"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "conseillés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif s'accorde en genre et en nombre avec le nom qu'il qualifie. L'adjectif \"conseillés\" qualifie le nom \"limites\" (féminin pluriel).",
+        "suggestions": [
+          "conseillées"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "une",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord en genre du déterminant. Le nom « barbouillage » est masculin.",
+        "suggestions": [
+          "un"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "petite",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "Accord en genre de l'adjectif. Le donneur est le nom « geste » (masculin).",
+        "suggestions": [
+          "petit"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "une",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord en genre du déterminant. Le nom « geste » est masculin.",
+        "suggestions": [
+          "un"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "grosse",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "Accord en genre de l'adjectif. Le donneur est le nom « geste » (masculin).",
+        "suggestions": [
+          "gros"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "Mathile",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage dans un nom propre.",
+        "suggestions": [
+          "Mathilde"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "certains",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord en genre du déterminant. Le nom « publicités » est féminin pluriel.",
+        "suggestions": [
+          "certaines"
+        ],
+        "ruleApplied": "5.3.1.1"
+      }
+    ],
+    "analyseIADuplicatas": {
+      "critere4": {
+        "analyse": {
+          "totalErreursCritere4": 18,
+          "totalErreursCritere5": 0,
+          "duplicatasCritere4": 5,
+          "duplicatasCritere5": 0
+        },
+        "duplicatasCritere4": [
+          {
+            "groupe": 1,
+            "confiance": 100,
+            "raison": "Texte, occurrence et règle appliquée identiques. L'erreur avec le type '(S)' est considérée comme le duplicata.",
+            "erreurs": [
+              {
+                "index": 11,
+                "text": "prenons pas action",
+                "garder": true
+              },
+              {
+                "index": 2,
+                "text": "prenons pas action",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 2,
+            "confiance": 100,
+            "raison": "Texte et occurrence identiques signalant la même erreur de négation. L'erreur avec le type '(S)' est considérée comme le duplicata.",
+            "erreurs": [
+              {
+                "index": 5,
+                "text": "d’en pas acheter",
+                "garder": true
+              },
+              {
+                "index": 13,
+                "text": "d’en pas acheter",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 3,
+            "confiance": 100,
+            "raison": "Texte, occurrence et règle appliquée identiques. L'erreur avec le type '(S)' est considérée comme le duplicata.",
+            "erreurs": [
+              {
+                "index": 16,
+                "text": "recommandent les consommateurs à acheter",
+                "garder": true
+              },
+              {
+                "index": 9,
+                "text": "recommandent les consommateurs à acheter",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 4,
+            "confiance": 95,
+            "raison": "Même erreur de pronom (les/leur) identifiée sur le même segment de phrase. L'erreur avec le texte le plus complet est conservée.",
+            "erreurs": [
+              {
+                "index": 10,
+                "text": "en les offrant",
+                "garder": true
+              },
+              {
+                "index": 17,
+                "text": "les",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 5,
+            "confiance": 95,
+            "raison": "Même erreur de préposition (de/des) identifiée sur le même segment de phrase. L'erreur avec le texte le plus complet est conservée.",
+            "erreurs": [
+              {
+                "index": 7,
+                "text": "de différents moyens",
+                "garder": true
+              },
+              {
+                "index": 15,
+                "text": "de",
+                "garder": false
+              }
+            ]
+          }
+        ],
+        "duplicatasCritere5": [],
+        "erreursUniquesCritere4": [
+          {
+            "index": 0,
+            "text": "barbouillage",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 1,
+            "text": ", un pourcentage",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 3,
+            "text": "leurs",
+            "raison": "Erreur de possessif distincte (contexte différent de l'erreur à l'index 14)."
+          },
+          {
+            "index": 4,
+            "text": "il y existe",
+            "raison": "Erreur de mot superflu distincte (contexte différent de l'erreur à l'index 12)."
+          },
+          {
+            "index": 6,
+            "text": "par contre,",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 8,
+            "text": "Mathile Roy (2018),",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 12,
+            "text": "il nous suggère",
+            "raison": "Erreur de mot superflu distincte (contexte différent de l'erreur à l'index 4)."
+          },
+          {
+            "index": 14,
+            "text": "sa",
+            "raison": "Erreur de possessif distincte (contexte différent de l'erreur à l'index 3)."
+          }
+        ],
+        "erreursUniquesCritere5": [],
+        "recommandations": {
+          "erreursAConserverCritere4": [
+            0,
+            1,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            10,
+            11,
+            12,
+            14,
+            16
+          ],
+          "erreursAConserverCritere5": [],
+          "erreursASupprimer": {
+            "critere4": [
+              2,
+              9,
+              13,
+              15,
+              17
+            ],
+            "critere5": []
+          }
+        }
+      },
+      "critere5": {
+        "analyse": {
+          "totalErreursCritere4": 0,
+          "totalErreursCritere5": 20,
+          "duplicatasCritere4": 0,
+          "duplicatasCritere5": 3
+        },
+        "duplicatasCritere4": [],
+        "duplicatasCritere5": [
+          {
+            "groupe": 1,
+            "confiance": 95,
+            "raison": "Même erreur d'accord de genre sur le mot 'geste'. L'erreur à l'index 9 est plus complète (adjectif + nom).",
+            "erreurs": [
+              {
+                "index": 9,
+                "text": "petite geste",
+                "garder": true
+              },
+              {
+                "index": 15,
+                "text": "petite",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 2,
+            "confiance": 95,
+            "raison": "Même erreur d'accord de genre sur le mot 'geste'. L'erreur à l'index 10 est plus complète (adjectif + nom).",
+            "erreurs": [
+              {
+                "index": 10,
+                "text": "grosse geste",
+                "garder": true
+              },
+              {
+                "index": 17,
+                "text": "grosse",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 3,
+            "confiance": 98,
+            "raison": "Même erreur d'accord de genre sur le mot 'publicités'. L'erreur à l'index 11 est plus complète (déterminant + nom).",
+            "erreurs": [
+              {
+                "index": 11,
+                "text": "certains publicités",
+                "garder": true
+              },
+              {
+                "index": 19,
+                "text": "certains",
+                "garder": false
+              }
+            ]
+          }
+        ],
+        "erreursUniquesCritere4": [],
+        "erreursUniquesCritere5": [
+          {
+            "index": 0,
+            "text": "gaspillé",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 1,
+            "text": "alimentaires",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 2,
+            "text": "environnementaux",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 3,
+            "text": "certainement",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 4,
+            "text": "préparé",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 5,
+            "text": "d’aliment",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 6,
+            "text": "compliqués",
+            "raison": "Erreur distincte d'accord sur le nom 'limites'."
+          },
+          {
+            "index": 7,
+            "text": "consommé",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 8,
+            "text": "ans",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 12,
+            "text": "invendus",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 13,
+            "text": "conseillés",
+            "raison": "Erreur distincte d'accord sur le nom 'limites'."
+          },
+          {
+            "index": 14,
+            "text": "une",
+            "raison": "Erreur d'accord distincte (donneur 'barbouillage')."
+          },
+          {
+            "index": 16,
+            "text": "une",
+            "raison": "Erreur d'accord distincte (donneur 'geste', occurrence 1)."
+          },
+          {
+            "index": 18,
+            "text": "Mathile",
+            "raison": "Aucun duplicata trouvé"
+          }
+        ],
+        "recommandations": {
+          "erreursAConserverCritere4": [],
+          "erreursAConserverCritere5": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            16,
+            18
+          ],
+          "erreursASupprimer": {
+            "critere4": [],
+            "critere5": [
+              15,
+              17,
+              19
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,2466 @@
+{
+  "processedAt": "2025-12-10T14:11:56.097Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_018.txt",
+    "originalText": "Un gaspillage qui n'est pas nécessaire dans notre vie\r\n\r\nChers lecteurs,\r\n\r\nNotre alimentation est une chose dont nous devons prendre soins. C'est pourquoi nous avions tendance à acheter beaucoup de nourriture, mais la plupart du temps, ses produits se trouvent dans le déchet sans même que nous l’avions utiliser ou manger. Donc, je me demande si nous sommes prêts à lutter contre le gaspillage alimentaire. Selon moi, nous le sommes, grâce aux faits que nous pouvons redistribuer et transformer les aliments au lieu de les gaspiller.\r\n\r\nTout d’abords, cher lectorat, la redistribution des aliments est quelques chose que nous pourrons faire. Comme nous le savons tous, les aliments qui ne sont pas « esthétiques » sont souvent laissés à l’épicerie. Mais selon Corriveau dans l’infographie intitulé « Le gaspillage alimentaire », « Les banques alimentaires du Québec […] récupère les produits invendus et en fait des paniers alimentaires […] qui sont ainsi redistribuées ». De plus, un programme a été crée par Jean-François Archambault et son but est de regrouper des organismes ainsi que des chefs qui vont redistribuer des nourritures aux gens qui en ont besoin. En faisant cela, ils ont été capable de donner plus de 600 000 repas. (Hébert, 2019) Bref, il vaudra mieux que vous laissez les produits dont vous êtes sûr que vous n’allez pas consommer pour qu’ils soient redistribuer aux autres.\r\n\r\nEnsuite, chers lecteurs, la transformation des produits est un moyen que nous pouvons réaliser pour diminuer le gaspillage. La plupart d’entre nous jetons les restes de nos aliments, puisqu’on pense que ça nous servira plus. Mais savez-vous que vous pouvez faire plusieurs produits que nous pouvons manger ou pas? Eh bien, il y a une entreprise qui fait exactement ça! Loop Mission transforme les restes des aliments en jus, produit d’hygiène, notamment en savon ainsi qu’en alcool puis, ils les vend aux personnes. (Martinez, 2021) Par ailleurs, vous pouvez chercher sur vos téléphones ou dans les livres des recettes que vous pouvez faire et qui aidera, évidemment, à diminuer le gaspillage. (Simard, 2020). En sommes, essayez de transformer le plus d’aliment possible.\r\n\r\nAu bout du compte, cher public, la lutte contre le gaspillage alimentaire peut sembler difficile pour quelques personnes, mais ce n'est pas impossible à faire. En réalisant des moyens comme la redistribution des nourritures qui proviennent des épiceries, des surplus provenant des restaurants et des hôtels aux gens qui n’ont pas les moyens d’en procurer ainsi que la transformation des restes de fruits et de légumes nous aidera à diminuer ce problème de gaspillage. Enfin, si vous pensez que vous n’êtes pas du tout capable de faire ces deux moyens, vous pouvez toujours vous demandez si vous avez vraiment de l’aliment avant de l’acheter.",
+    "erreursCritere4": [
+      {
+        "text": "avions",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'indicatif imparfait est incorrect. La locution conjonctive 'sans que' exige l'emploi du subjonctif. Le temps correct est le subjonctif passé ('ayons') pour marquer l'antériorité.",
+        "suggestions": [
+          "ayons"
+        ],
+        "ruleApplied": "4.1.2.2.3"
+      },
+      {
+        "text": "pourrons",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'emploi du futur simple est maladroit dans ce contexte. Le présent de l'indicatif ('pouvons') serait plus approprié pour exprimer une capacité actuelle.",
+        "suggestions": [
+          "pouvons",
+          "pourrions"
+        ],
+        "ruleApplied": "4.1.2.2.4"
+      },
+      {
+        "text": "« esthétiques »",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "« P »",
+        "description": "Les guillemets anglais (“ ”) sont utilisés à la place des guillemets français (« »).",
+        "suggestions": [
+          "« esthétiques »"
+        ],
+        "ruleApplied": "4.2.2.5.1"
+      },
+      {
+        "text": "« Le gaspillage alimentaire »",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "« P »",
+        "description": "Les guillemets anglais (“ ”) sont utilisés à la place des guillemets français (« »).",
+        "suggestions": [
+          "« Le gaspillage alimentaire »"
+        ],
+        "ruleApplied": "4.2.2.5.1"
+      },
+      {
+        "text": "récupère",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "[P]",
+        "description": "Modification non signalée dans une citation. Le verbe 'récupère' devrait s'accorder avec le sujet pluriel 'Les banques alimentaires du Québec'. La forme correcte est 'récupèrent'. Cette correction aurait dû être signalée par des crochets : '[récupèrent]'.",
+        "suggestions": [
+          "[récupèrent]"
+        ],
+        "ruleApplied": "4.2.2.6"
+      },
+      {
+        "text": "redistribuées",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "([P])",
+        "description": "Modification non signalée dans une citation. Le participe passé 'redistribuées' devrait s'accorder avec son antécédent 'paniers alimentaires' (masculin pluriel). La forme correcte est 'redistribués'.",
+        "suggestions": [
+          "[redistribués]"
+        ],
+        "ruleApplied": "4.2.2.6"
+      },
+      {
+        "text": "(Hébert, 2019)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque un point final pour clore la phrase, qui doit être placé après la parenthèse de la référence.",
+        "suggestions": [
+          "(Hébert, 2019)."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "text": "laissez",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution 'il vaut mieux que' exige l'emploi du subjonctif. La forme correcte est 'laissiez'.",
+        "suggestions": [
+          "laissiez"
+        ],
+        "ruleApplied": "4.1.2.2.3"
+      },
+      {
+        "text": "servira plus",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La négation est incomplète. Il manque l'adverbe 'ne' (ou 'n'') avant le verbe pour former la locution 'ne... plus'.",
+        "suggestions": [
+          "ne nous servira plus"
+        ],
+        "ruleApplied": "4.1.2.1.3"
+      },
+      {
+        "text": "ou pas?",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression 'ou pas' en fin de phrase est une tournure propre à la langue orale. Dans un écrit formel, il est préférable d'utiliser 'ou non'.",
+        "suggestions": [
+          "ou non ?"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "(Martinez, 2021)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque un point final pour clore la phrase, qui doit être placé après la parenthèse de la référence.",
+        "suggestions": [
+          "(Martinez, 2021)."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "text": "(Simard, 2020).",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point final doit être placé après la parenthèse fermante de la référence, et non avant.",
+        "suggestions": [
+          "(Simard, 2020)."
+        ],
+        "ruleApplied": "4.2.2.1.2"
+      },
+      {
+        "text": "d’en procurer",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Le verbe 'procurer' doit être employé à la forme pronominale dans ce contexte : 'de s'en procurer'.",
+        "suggestions": [
+          "de s'en procurer"
+        ],
+        "ruleApplied": "4.1.2.2.2"
+      },
+      {
+        "text": "avez vraiment de l’aliment",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque un mot essentiel à la phrase pour qu'elle ait un sens clair. Il faut ajouter le mot 'besoin' : 'si vous avez vraiment besoin de cet aliment'.",
+        "suggestions": [
+          "avez vraiment besoin de cet aliment"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "produit d’hygiène",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition « en » doit être répétée devant chaque élément d'une énumération. De plus, le nom devrait être au pluriel pour la cohérence.",
+        "suggestions": [
+          "en produits d'hygiène"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "En réalisant des moyens comme la redistribution des nourritures qui proviennent des épiceries, des surplus provenant des restaurants et des hôtels aux gens qui n’ont pas les moyens d’en procurer ainsi que la transformation des restes de fruits et de légumes nous aidera",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Construction de phrase boiteuse. Le gérondif « En réalisant... » ne peut pas être le sujet du verbe « aidera ». La phrase doit être reformulée, par exemple : « La réalisation de moyens comme... nous aidera ».",
+        "suggestions": [
+          "La réalisation de moyens comme la redistribution des nourritures qui proviennent des épiceries, des surplus provenant des restaurants et des hôtels aux gens qui n’ont pas les moyens de s'en procurer ainsi que la transformation des restes de fruits et de légumes nous aidera"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 10,
+      "note": "C"
+    },
+    "erreursCritere5": [
+      {
+        "text": "soins",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'soin' dans l'expression figée 'prendre soin de' doit rester au singulier.",
+        "suggestions": [
+          "soin"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "text": "ses",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'adjectif possessif 'ses' et l'adjectif démonstratif 'ces'. Il faut utiliser 'ces' pour désigner les produits dont on vient de parler.",
+        "suggestions": [
+          "ces"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "text": "utiliser",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif en '-er' et le participe passé en '-é'. Après l'auxiliaire 'avoir', il faut utiliser le participe passé. De plus, ce participe passé doit s'accorder en genre et en nombre avec le complément d'objet direct 'l'' (mis pour 'la nourriture'), placé avant le verbe. Le donneur est 'l'' (féminin singulier).",
+        "suggestions": [
+          "utilisée"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "manger",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "Confusion entre l'infinitif en '-er' et le participe passé en '-é'. Après l'auxiliaire 'avoir', il faut utiliser le participe passé. Ce participe passé doit s'accorder avec le même donneur que 'utilisée', soit le pronom 'l'' (féminin singulier).",
+        "suggestions": [
+          "mangée"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "faits",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "La locution 'grâce au fait que' est figée et s'emploie au singulier.",
+        "suggestions": [
+          "fait"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "text": "Tout d’abords",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'adverbe 'd'abord' est invariable et ne prend jamais de 's' final.",
+        "suggestions": [
+          "Tout d'abord"
+        ],
+        "ruleApplied": "5.2.1.5"
+      },
+      {
+        "text": "quelques chose",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Dans la locution 'quelque chose', l'adjectif indéfini 'quelque' est invariable et ne s'accorde pas.",
+        "suggestions": [
+          "quelque chose"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "text": "intitulé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'intitulé', employé comme adjectif, doit s'accorder en genre et en nombre avec le nom qu'il qualifie, 'l'infographie' (féminin singulier).",
+        "suggestions": [
+          "intitulée"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "nourritures",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'nourriture' est généralement un nom non comptable et s'emploie au singulier dans ce contexte.",
+        "suggestions": [
+          "nourriture"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "capable",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'capable' doit s'accorder en nombre avec le sujet 'ils' (masculin pluriel).",
+        "suggestions": [
+          "capables"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "sûr",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'sûr' doit s'accorder en nombre avec le pronom 'vous' (pluriel).",
+        "suggestions": [
+          "sûrs"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "redistribuer",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif en '-er' et le participe passé en '-é'. Après l'auxiliaire 'être' ('soient'), il faut utiliser le participe passé. Ce participe passé doit s'accorder en genre et en nombre avec le sujet 'ils' (mis pour 'les produits'), masculin pluriel.",
+        "suggestions": [
+          "redistribués"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "produit",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'produit' devrait être au pluriel ('produits') pour être cohérent avec le contexte de l'énumération de plusieurs types de produits.",
+        "suggestions": [
+          "produits"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "ils",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom de reprise 'ils' est incorrect. Il doit s'accorder en genre et en nombre avec son antécédent 'Loop Mission' (ou 'une entreprise'), qui est féminin singulier. Le pronom correct est 'elle'.",
+        "suggestions": [
+          "elle"
+        ],
+        "ruleApplied": "5.3.1.4"
+      },
+      {
+        "text": "vend",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "Le verbe doit s'accorder avec son sujet. Le sujet erroné 'ils' exigerait la forme 'vendent'. Le donneur d'accord est 'Loop Mission'.",
+        "suggestions": [
+          "vend"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "aidera",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'aidera' doit s'accorder avec le sujet 'qui', dont l'antécédent est 'des recettes' (féminin pluriel). La forme correcte est 'aideront'.",
+        "suggestions": [
+          "aideront"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "En sommes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "La locution adverbiale 'en somme' est invariable et ne prend jamais de 's'.",
+        "suggestions": [
+          "En somme"
+        ],
+        "ruleApplied": "5.2.1.5"
+      },
+      {
+        "text": "nourritures",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'nourriture' est généralement un nom non comptable et s'emploie au singulier dans ce contexte.",
+        "suggestions": [
+          "nourriture"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "demandez",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre la deuxième personne du pluriel de l'indicatif présent ('demandez') et l'infinitif ('demander'). Après le verbe modal 'pouvez', il faut utiliser un infinitif.",
+        "suggestions": [
+          "demander"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "le déchet",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'expression « dans le déchet » est incorrecte. On utilise généralement le pluriel « dans les déchets » ou l'expression « à la poubelle ».",
+        "suggestions": [
+          "les déchets",
+          "à la poubelle"
+        ],
+        "ruleApplied": "5.2.2"
+      },
+      {
+        "text": "récupère",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le verbe « récupère » doit s'accorder avec son sujet pluriel « Les banques alimentaires du Québec ».",
+        "suggestions": [
+          "récupèrent"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "redistribuées",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en genre et en nombre. Le participe passé « redistribuées » doit s'accorder avec son antécédent « paniers alimentaires », qui est masculin pluriel.",
+        "suggestions": [
+          "redistribués"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "crée",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre la forme conjuguée « crée » (présent de l'indicatif) et le participe passé « créé ». Après l'auxiliaire « avoir », le participe passé est requis.",
+        "suggestions": [
+          "créé"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "de l’aliment",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le nom « aliment » devrait être au pluriel dans ce contexte général (« besoin d'aliments »).",
+        "suggestions": [
+          "d'aliments"
+        ],
+        "ruleApplied": "5.3.1.5"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 22,
+      "note": "E"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:06:34.728Z",
+    "endTimestamp": "2025-12-10T14:11:56.096Z",
+    "durationMs": 321368,
+    "durationFormatted": "05:21:368",
+    "cumulParPasse": [
+      {
+        "passe": 1,
+        "erreursCritere4": [
+          {
+            "text": "avions",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'indicatif imparfait est incorrect. La locution conjonctive 'sans que' exige l'emploi du subjonctif. Le temps correct est le subjonctif passé ('ayons') pour marquer l'antériorité.",
+            "suggestions": [
+              "ayons"
+            ],
+            "ruleApplied": "4.1.2.2.3"
+          },
+          {
+            "text": "pourrons",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'emploi du futur simple est maladroit dans ce contexte. Le présent de l'indicatif ('pouvons') serait plus approprié pour exprimer une capacité actuelle.",
+            "suggestions": [
+              "pouvons",
+              "pourrions"
+            ],
+            "ruleApplied": "4.1.2.2.4"
+          },
+          {
+            "text": "« esthétiques »",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "« P »",
+            "description": "Les guillemets anglais (“ ”) sont utilisés à la place des guillemets français (« »).",
+            "suggestions": [
+              "« esthétiques »"
+            ],
+            "ruleApplied": "4.2.2.5.1"
+          },
+          {
+            "text": "« Le gaspillage alimentaire »",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "« P »",
+            "description": "Les guillemets anglais (“ ”) sont utilisés à la place des guillemets français (« »).",
+            "suggestions": [
+              "« Le gaspillage alimentaire »"
+            ],
+            "ruleApplied": "4.2.2.5.1"
+          },
+          {
+            "text": "récupère",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "[P]",
+            "description": "Modification non signalée dans une citation. Le verbe 'récupère' devrait s'accorder avec le sujet pluriel 'Les banques alimentaires du Québec'. La forme correcte est 'récupèrent'. Cette correction aurait dû être signalée par des crochets : '[récupèrent]'.",
+            "suggestions": [
+              "[récupèrent]"
+            ],
+            "ruleApplied": "4.2.2.6"
+          },
+          {
+            "text": "redistribuées",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "([P])",
+            "description": "Modification non signalée dans une citation. Le participe passé 'redistribuées' devrait s'accorder avec son antécédent 'paniers alimentaires' (masculin pluriel). La forme correcte est 'redistribués'.",
+            "suggestions": [
+              "[redistribués]"
+            ],
+            "ruleApplied": "4.2.2.6"
+          },
+          {
+            "text": "(Hébert, 2019)",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Il manque un point final pour clore la phrase, qui doit être placé après la parenthèse de la référence.",
+            "suggestions": [
+              "(Hébert, 2019)."
+            ],
+            "ruleApplied": "4.2.2.1.1"
+          },
+          {
+            "text": "laissez",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La locution 'il vaut mieux que' exige l'emploi du subjonctif. La forme correcte est 'laissiez'.",
+            "suggestions": [
+              "laissiez"
+            ],
+            "ruleApplied": "4.1.2.2.3"
+          },
+          {
+            "text": "servira plus",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La négation est incomplète. Il manque l'adverbe 'ne' (ou 'n'') avant le verbe pour former la locution 'ne... plus'.",
+            "suggestions": [
+              "ne nous servira plus"
+            ],
+            "ruleApplied": "4.1.2.1.3"
+          },
+          {
+            "text": "ou pas?",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'expression 'ou pas' en fin de phrase est une tournure propre à la langue orale. Dans un écrit formel, il est préférable d'utiliser 'ou non'.",
+            "suggestions": [
+              "ou non ?"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "(Martinez, 2021)",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Il manque un point final pour clore la phrase, qui doit être placé après la parenthèse de la référence.",
+            "suggestions": [
+              "(Martinez, 2021)."
+            ],
+            "ruleApplied": "4.2.2.1.1"
+          },
+          {
+            "text": "(Simard, 2020).",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Le point final doit être placé après la parenthèse fermante de la référence, et non avant.",
+            "suggestions": [
+              "(Simard, 2020)."
+            ],
+            "ruleApplied": "4.2.2.1.2"
+          },
+          {
+            "text": "En réalisant des moyens comme la redistribution des nourritures qui proviennent des épiceries, des surplus provenant des restaurants et des hôtels aux gens qui n’ont pas les moyens d’en procurer ainsi que la transformation des restes de fruits et de légumes nous aidera",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction de la phrase est boiteuse. Un gérondif ('En réalisant...') ne peut pas être le sujet du verbe 'aidera'. Il faut reformuler la phrase, par exemple en utilisant un nom comme sujet : 'La réalisation de moyens...'.",
+            "suggestions": [
+              "La réalisation de moyens [...] nous aidera"
+            ],
+            "ruleApplied": "4.1.2.1.7"
+          },
+          {
+            "text": "d’en procurer",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "Le verbe 'procurer' doit être employé à la forme pronominale dans ce contexte : 'de s'en procurer'.",
+            "suggestions": [
+              "de s'en procurer"
+            ],
+            "ruleApplied": "4.1.2.2.2"
+          },
+          {
+            "text": "avez vraiment de l’aliment",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Il manque un mot essentiel à la phrase pour qu'elle ait un sens clair. Il faut ajouter le mot 'besoin' : 'si vous avez vraiment besoin de cet aliment'.",
+            "suggestions": [
+              "avez vraiment besoin de cet aliment"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "soins",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom 'soin' dans l'expression figée 'prendre soin de' doit rester au singulier.",
+            "suggestions": [
+              "soin"
+            ],
+            "ruleApplied": "5.3.1.5"
+          },
+          {
+            "text": "ses",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre l'adjectif possessif 'ses' et l'adjectif démonstratif 'ces'. Il faut utiliser 'ces' pour désigner les produits dont on vient de parler.",
+            "suggestions": [
+              "ces"
+            ],
+            "ruleApplied": "5.3.3.1"
+          },
+          {
+            "text": "déchet",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom 'déchet' est généralement employé au pluriel dans ce contexte pour désigner l'ensemble des ordures.",
+            "suggestions": [
+              "déchets"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "utiliser",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre l'infinitif en '-er' et le participe passé en '-é'. Après l'auxiliaire 'avoir', il faut utiliser le participe passé. De plus, ce participe passé doit s'accorder en genre et en nombre avec le complément d'objet direct 'l'' (mis pour 'la nourriture'), placé avant le verbe. Le donneur est 'l'' (féminin singulier).",
+            "suggestions": [
+              "utilisée"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "manger",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "_",
+            "description": "Confusion entre l'infinitif en '-er' et le participe passé en '-é'. Après l'auxiliaire 'avoir', il faut utiliser le participe passé. Ce participe passé doit s'accorder avec le même donneur que 'utilisée', soit le pronom 'l'' (féminin singulier).",
+            "suggestions": [
+              "mangée"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "faits",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "La locution 'grâce au fait que' est figée et s'emploie au singulier.",
+            "suggestions": [
+              "fait"
+            ],
+            "ruleApplied": "5.3.1.5"
+          },
+          {
+            "text": "Tout d’abords",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "L'adverbe 'd'abord' est invariable et ne prend jamais de 's' final.",
+            "suggestions": [
+              "Tout d'abord"
+            ],
+            "ruleApplied": "5.2.1.5"
+          },
+          {
+            "text": "quelques chose",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Dans la locution 'quelque chose', l'adjectif indéfini 'quelque' est invariable et ne s'accorde pas.",
+            "suggestions": [
+              "quelque chose"
+            ],
+            "ruleApplied": "5.3.3.1"
+          },
+          {
+            "text": "intitulé",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé 'intitulé', employé comme adjectif, doit s'accorder en genre et en nombre avec le nom qu'il qualifie, 'l'infographie' (féminin singulier).",
+            "suggestions": [
+              "intitulée"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "crée",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Le participe passé du verbe 'créer' est 'créé' et prend un accent aigu sur les deux 'e'.",
+            "suggestions": [
+              "créé"
+            ],
+            "ruleApplied": "5.2.1.1"
+          },
+          {
+            "text": "nourritures",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom 'nourriture' est généralement un nom non comptable et s'emploie au singulier dans ce contexte.",
+            "suggestions": [
+              "nourriture"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "capable",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif 'capable' doit s'accorder en nombre avec le sujet 'ils' (masculin pluriel).",
+            "suggestions": [
+              "capables"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "sûr",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif 'sûr' doit s'accorder en nombre avec le pronom 'vous' (pluriel).",
+            "suggestions": [
+              "sûrs"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "redistribuer",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre l'infinitif en '-er' et le participe passé en '-é'. Après l'auxiliaire 'être' ('soient'), il faut utiliser le participe passé. Ce participe passé doit s'accorder en genre et en nombre avec le sujet 'ils' (mis pour 'les produits'), masculin pluriel.",
+            "suggestions": [
+              "redistribués"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "produit",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom 'produit' devrait être au pluriel ('produits') pour être cohérent avec le contexte de l'énumération de plusieurs types de produits.",
+            "suggestions": [
+              "produits"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "ils",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le pronom de reprise 'ils' est incorrect. Il doit s'accorder en genre et en nombre avec son antécédent 'Loop Mission' (ou 'une entreprise'), qui est féminin singulier. Le pronom correct est 'elle'.",
+            "suggestions": [
+              "elle"
+            ],
+            "ruleApplied": "5.3.1.4"
+          },
+          {
+            "text": "vend",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "_",
+            "description": "Le verbe doit s'accorder avec son sujet. Le sujet erroné 'ils' exigerait la forme 'vendent'. Le donneur d'accord est 'Loop Mission'.",
+            "suggestions": [
+              "vend"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "aidera",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe 'aidera' doit s'accorder avec le sujet 'qui', dont l'antécédent est 'des recettes' (féminin pluriel). La forme correcte est 'aideront'.",
+            "suggestions": [
+              "aideront"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "En sommes",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "La locution adverbiale 'en somme' est invariable et ne prend jamais de 's'.",
+            "suggestions": [
+              "En somme"
+            ],
+            "ruleApplied": "5.2.1.5"
+          },
+          {
+            "text": "aliment",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Après une expression de quantité comme 'le plus de', le nom qui suit doit être au pluriel.",
+            "suggestions": [
+              "d'aliments"
+            ],
+            "ruleApplied": "5.3.1.5"
+          },
+          {
+            "text": "nourritures",
+            "occurenceIndex": 1,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom 'nourriture' est généralement un nom non comptable et s'emploie au singulier dans ce contexte.",
+            "suggestions": [
+              "nourriture"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "demandez",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre la deuxième personne du pluriel de l'indicatif présent ('demandez') et l'infinitif ('demander'). Après le verbe modal 'pouvez', il faut utiliser un infinitif.",
+            "suggestions": [
+              "demander"
+            ],
+            "ruleApplied": "5.3.2.6"
+          }
+        ],
+        "totalErreursCritere4": 15,
+        "totalErreursCritere5": 22,
+        "scoreCritere4": {
+          "pointsPerdus": 10,
+          "note": "C"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 20,
+          "note": "E"
+        }
+      },
+      {
+        "passe": 2,
+        "erreursCritere4": [
+          {
+            "text": "avions",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'indicatif imparfait est incorrect. La locution conjonctive 'sans que' exige l'emploi du subjonctif. Le temps correct est le subjonctif passé ('ayons') pour marquer l'antériorité.",
+            "suggestions": [
+              "ayons"
+            ],
+            "ruleApplied": "4.1.2.2.3"
+          },
+          {
+            "text": "pourrons",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'emploi du futur simple est maladroit dans ce contexte. Le présent de l'indicatif ('pouvons') serait plus approprié pour exprimer une capacité actuelle.",
+            "suggestions": [
+              "pouvons",
+              "pourrions"
+            ],
+            "ruleApplied": "4.1.2.2.4"
+          },
+          {
+            "text": "« esthétiques »",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "« P »",
+            "description": "Les guillemets anglais (“ ”) sont utilisés à la place des guillemets français (« »).",
+            "suggestions": [
+              "« esthétiques »"
+            ],
+            "ruleApplied": "4.2.2.5.1"
+          },
+          {
+            "text": "« Le gaspillage alimentaire »",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "« P »",
+            "description": "Les guillemets anglais (“ ”) sont utilisés à la place des guillemets français (« »).",
+            "suggestions": [
+              "« Le gaspillage alimentaire »"
+            ],
+            "ruleApplied": "4.2.2.5.1"
+          },
+          {
+            "text": "récupère",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "[P]",
+            "description": "Modification non signalée dans une citation. Le verbe 'récupère' devrait s'accorder avec le sujet pluriel 'Les banques alimentaires du Québec'. La forme correcte est 'récupèrent'. Cette correction aurait dû être signalée par des crochets : '[récupèrent]'.",
+            "suggestions": [
+              "[récupèrent]"
+            ],
+            "ruleApplied": "4.2.2.6"
+          },
+          {
+            "text": "redistribuées",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "([P])",
+            "description": "Modification non signalée dans une citation. Le participe passé 'redistribuées' devrait s'accorder avec son antécédent 'paniers alimentaires' (masculin pluriel). La forme correcte est 'redistribués'.",
+            "suggestions": [
+              "[redistribués]"
+            ],
+            "ruleApplied": "4.2.2.6"
+          },
+          {
+            "text": "(Hébert, 2019)",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Il manque un point final pour clore la phrase, qui doit être placé après la parenthèse de la référence.",
+            "suggestions": [
+              "(Hébert, 2019)."
+            ],
+            "ruleApplied": "4.2.2.1.1"
+          },
+          {
+            "text": "laissez",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La locution 'il vaut mieux que' exige l'emploi du subjonctif. La forme correcte est 'laissiez'.",
+            "suggestions": [
+              "laissiez"
+            ],
+            "ruleApplied": "4.1.2.2.3"
+          },
+          {
+            "text": "servira plus",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La négation est incomplète. Il manque l'adverbe 'ne' (ou 'n'') avant le verbe pour former la locution 'ne... plus'.",
+            "suggestions": [
+              "ne nous servira plus"
+            ],
+            "ruleApplied": "4.1.2.1.3"
+          },
+          {
+            "text": "ou pas?",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'expression 'ou pas' en fin de phrase est une tournure propre à la langue orale. Dans un écrit formel, il est préférable d'utiliser 'ou non'.",
+            "suggestions": [
+              "ou non ?"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "(Martinez, 2021)",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Il manque un point final pour clore la phrase, qui doit être placé après la parenthèse de la référence.",
+            "suggestions": [
+              "(Martinez, 2021)."
+            ],
+            "ruleApplied": "4.2.2.1.1"
+          },
+          {
+            "text": "(Simard, 2020).",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Le point final doit être placé après la parenthèse fermante de la référence, et non avant.",
+            "suggestions": [
+              "(Simard, 2020)."
+            ],
+            "ruleApplied": "4.2.2.1.2"
+          },
+          {
+            "text": "En réalisant des moyens comme la redistribution des nourritures qui proviennent des épiceries, des surplus provenant des restaurants et des hôtels aux gens qui n’ont pas les moyens d’en procurer ainsi que la transformation des restes de fruits et de légumes nous aidera",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction de la phrase est boiteuse. Un gérondif ('En réalisant...') ne peut pas être le sujet du verbe 'aidera'. Il faut reformuler la phrase, par exemple en utilisant un nom comme sujet : 'La réalisation de moyens...'.",
+            "suggestions": [
+              "La réalisation de moyens [...] nous aidera"
+            ],
+            "ruleApplied": "4.1.2.1.7"
+          },
+          {
+            "text": "d’en procurer",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "Le verbe 'procurer' doit être employé à la forme pronominale dans ce contexte : 'de s'en procurer'.",
+            "suggestions": [
+              "de s'en procurer"
+            ],
+            "ruleApplied": "4.1.2.2.2"
+          },
+          {
+            "text": "avez vraiment de l’aliment",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Il manque un mot essentiel à la phrase pour qu'elle ait un sens clair. Il faut ajouter le mot 'besoin' : 'si vous avez vraiment besoin de cet aliment'.",
+            "suggestions": [
+              "avez vraiment besoin de cet aliment"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "produit d’hygiène",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La préposition « en » doit être répétée devant chaque élément d'une énumération. De plus, le nom devrait être au pluriel pour la cohérence.",
+            "suggestions": [
+              "en produits d'hygiène"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "d’en procurer",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Omission du pronom réfléchi « s' » dans la construction du verbe pronominal « se procurer ».",
+            "suggestions": [
+              "de s'en procurer"
+            ],
+            "ruleApplied": "4.1.2.2.2"
+          },
+          {
+            "text": "En réalisant des moyens comme la redistribution des nourritures qui proviennent des épiceries, des surplus provenant des restaurants et des hôtels aux gens qui n’ont pas les moyens d’en procurer ainsi que la transformation des restes de fruits et de légumes nous aidera",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "Construction de phrase boiteuse. Le gérondif « En réalisant... » ne peut pas être le sujet du verbe « aidera ». La phrase doit être reformulée, par exemple : « La réalisation de moyens comme... nous aidera ».",
+            "suggestions": [
+              "La réalisation de moyens comme la redistribution des nourritures qui proviennent des épiceries, des surplus provenant des restaurants et des hôtels aux gens qui n’ont pas les moyens de s'en procurer ainsi que la transformation des restes de fruits et de légumes nous aidera"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "soins",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom 'soin' dans l'expression figée 'prendre soin de' doit rester au singulier.",
+            "suggestions": [
+              "soin"
+            ],
+            "ruleApplied": "5.3.1.5"
+          },
+          {
+            "text": "ses",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre l'adjectif possessif 'ses' et l'adjectif démonstratif 'ces'. Il faut utiliser 'ces' pour désigner les produits dont on vient de parler.",
+            "suggestions": [
+              "ces"
+            ],
+            "ruleApplied": "5.3.3.1"
+          },
+          {
+            "text": "déchet",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom 'déchet' est généralement employé au pluriel dans ce contexte pour désigner l'ensemble des ordures.",
+            "suggestions": [
+              "déchets"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "utiliser",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre l'infinitif en '-er' et le participe passé en '-é'. Après l'auxiliaire 'avoir', il faut utiliser le participe passé. De plus, ce participe passé doit s'accorder en genre et en nombre avec le complément d'objet direct 'l'' (mis pour 'la nourriture'), placé avant le verbe. Le donneur est 'l'' (féminin singulier).",
+            "suggestions": [
+              "utilisée"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "manger",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "_",
+            "description": "Confusion entre l'infinitif en '-er' et le participe passé en '-é'. Après l'auxiliaire 'avoir', il faut utiliser le participe passé. Ce participe passé doit s'accorder avec le même donneur que 'utilisée', soit le pronom 'l'' (féminin singulier).",
+            "suggestions": [
+              "mangée"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "faits",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "La locution 'grâce au fait que' est figée et s'emploie au singulier.",
+            "suggestions": [
+              "fait"
+            ],
+            "ruleApplied": "5.3.1.5"
+          },
+          {
+            "text": "Tout d’abords",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "L'adverbe 'd'abord' est invariable et ne prend jamais de 's' final.",
+            "suggestions": [
+              "Tout d'abord"
+            ],
+            "ruleApplied": "5.2.1.5"
+          },
+          {
+            "text": "quelques chose",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Dans la locution 'quelque chose', l'adjectif indéfini 'quelque' est invariable et ne s'accorde pas.",
+            "suggestions": [
+              "quelque chose"
+            ],
+            "ruleApplied": "5.3.3.1"
+          },
+          {
+            "text": "intitulé",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé 'intitulé', employé comme adjectif, doit s'accorder en genre et en nombre avec le nom qu'il qualifie, 'l'infographie' (féminin singulier).",
+            "suggestions": [
+              "intitulée"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "crée",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Le participe passé du verbe 'créer' est 'créé' et prend un accent aigu sur les deux 'e'.",
+            "suggestions": [
+              "créé"
+            ],
+            "ruleApplied": "5.2.1.1"
+          },
+          {
+            "text": "nourritures",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom 'nourriture' est généralement un nom non comptable et s'emploie au singulier dans ce contexte.",
+            "suggestions": [
+              "nourriture"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "capable",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif 'capable' doit s'accorder en nombre avec le sujet 'ils' (masculin pluriel).",
+            "suggestions": [
+              "capables"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "sûr",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif 'sûr' doit s'accorder en nombre avec le pronom 'vous' (pluriel).",
+            "suggestions": [
+              "sûrs"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "redistribuer",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre l'infinitif en '-er' et le participe passé en '-é'. Après l'auxiliaire 'être' ('soient'), il faut utiliser le participe passé. Ce participe passé doit s'accorder en genre et en nombre avec le sujet 'ils' (mis pour 'les produits'), masculin pluriel.",
+            "suggestions": [
+              "redistribués"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "produit",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom 'produit' devrait être au pluriel ('produits') pour être cohérent avec le contexte de l'énumération de plusieurs types de produits.",
+            "suggestions": [
+              "produits"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "ils",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le pronom de reprise 'ils' est incorrect. Il doit s'accorder en genre et en nombre avec son antécédent 'Loop Mission' (ou 'une entreprise'), qui est féminin singulier. Le pronom correct est 'elle'.",
+            "suggestions": [
+              "elle"
+            ],
+            "ruleApplied": "5.3.1.4"
+          },
+          {
+            "text": "vend",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "_",
+            "description": "Le verbe doit s'accorder avec son sujet. Le sujet erroné 'ils' exigerait la forme 'vendent'. Le donneur d'accord est 'Loop Mission'.",
+            "suggestions": [
+              "vend"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "aidera",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe 'aidera' doit s'accorder avec le sujet 'qui', dont l'antécédent est 'des recettes' (féminin pluriel). La forme correcte est 'aideront'.",
+            "suggestions": [
+              "aideront"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "En sommes",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "La locution adverbiale 'en somme' est invariable et ne prend jamais de 's'.",
+            "suggestions": [
+              "En somme"
+            ],
+            "ruleApplied": "5.2.1.5"
+          },
+          {
+            "text": "aliment",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Après une expression de quantité comme 'le plus de', le nom qui suit doit être au pluriel.",
+            "suggestions": [
+              "d'aliments"
+            ],
+            "ruleApplied": "5.3.1.5"
+          },
+          {
+            "text": "nourritures",
+            "occurenceIndex": 1,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom 'nourriture' est généralement un nom non comptable et s'emploie au singulier dans ce contexte.",
+            "suggestions": [
+              "nourriture"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "demandez",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre la deuxième personne du pluriel de l'indicatif présent ('demandez') et l'infinitif ('demander'). Après le verbe modal 'pouvez', il faut utiliser un infinitif.",
+            "suggestions": [
+              "demander"
+            ],
+            "ruleApplied": "5.3.2.6"
+          },
+          {
+            "text": "soins",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "L'expression figée est « prendre soin ». Le nom « soin » doit être au singulier.",
+            "suggestions": [
+              "soin"
+            ],
+            "ruleApplied": "5.2.2"
+          },
+          {
+            "text": "le déchet",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "L'expression « dans le déchet » est incorrecte. On utilise généralement le pluriel « dans les déchets » ou l'expression « à la poubelle ».",
+            "suggestions": [
+              "les déchets",
+              "à la poubelle"
+            ],
+            "ruleApplied": "5.2.2"
+          },
+          {
+            "text": "manger",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre l'infinitif en « -er » et le participe passé en « -é ». Après l'auxiliaire « avoir » (ici « ayons »), le participe passé est requis.",
+            "suggestions": [
+              "mangé"
+            ],
+            "ruleApplied": "5.3.2.6"
+          },
+          {
+            "text": "faits",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "L'expression correcte est « grâce au fait que », au singulier.",
+            "suggestions": [
+              "fait"
+            ],
+            "ruleApplied": "5.2.2"
+          },
+          {
+            "text": "récupère",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en nombre. Le verbe « récupère » doit s'accorder avec son sujet pluriel « Les banques alimentaires du Québec ».",
+            "suggestions": [
+              "récupèrent"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "redistribuées",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en genre et en nombre. Le participe passé « redistribuées » doit s'accorder avec son antécédent « paniers alimentaires », qui est masculin pluriel.",
+            "suggestions": [
+              "redistribués"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "crée",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre la forme conjuguée « crée » (présent de l'indicatif) et le participe passé « créé ». Après l'auxiliaire « avoir », le participe passé est requis.",
+            "suggestions": [
+              "créé"
+            ],
+            "ruleApplied": "5.3.2.6"
+          },
+          {
+            "text": "nourritures",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Le nom « nourriture » est généralement employé au singulier, car il est indénombrable.",
+            "suggestions": [
+              "nourriture"
+            ],
+            "ruleApplied": "5.2.2"
+          },
+          {
+            "text": "d’aliment",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en nombre. Après la locution « le plus de », le nom qui suit, s'il est dénombrable, se met au pluriel.",
+            "suggestions": [
+              "d'aliments"
+            ],
+            "ruleApplied": "5.3.1.5"
+          },
+          {
+            "text": "nourritures",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "(U)",
+            "description": "Le nom « nourriture » est généralement employé au singulier, car il est indénombrable. Répétition de la même erreur d'usage.",
+            "suggestions": [
+              "nourriture"
+            ],
+            "ruleApplied": "5.1.3"
+          },
+          {
+            "text": "de l’aliment",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en nombre. Le nom « aliment » devrait être au pluriel dans ce contexte général (« besoin d'aliments »).",
+            "suggestions": [
+              "d'aliments"
+            ],
+            "ruleApplied": "5.3.1.5"
+          }
+        ],
+        "totalErreursCritere4": 18,
+        "totalErreursCritere5": 33,
+        "scoreCritere4": {
+          "pointsPerdus": 12,
+          "note": "C"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 30,
+          "note": "E"
+        }
+      }
+    ],
+    "erreursCritere4AvantAnalyseIA": [
+      {
+        "text": "avions",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'indicatif imparfait est incorrect. La locution conjonctive 'sans que' exige l'emploi du subjonctif. Le temps correct est le subjonctif passé ('ayons') pour marquer l'antériorité.",
+        "suggestions": [
+          "ayons"
+        ],
+        "ruleApplied": "4.1.2.2.3"
+      },
+      {
+        "text": "pourrons",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'emploi du futur simple est maladroit dans ce contexte. Le présent de l'indicatif ('pouvons') serait plus approprié pour exprimer une capacité actuelle.",
+        "suggestions": [
+          "pouvons",
+          "pourrions"
+        ],
+        "ruleApplied": "4.1.2.2.4"
+      },
+      {
+        "text": "« esthétiques »",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "« P »",
+        "description": "Les guillemets anglais (“ ”) sont utilisés à la place des guillemets français (« »).",
+        "suggestions": [
+          "« esthétiques »"
+        ],
+        "ruleApplied": "4.2.2.5.1"
+      },
+      {
+        "text": "« Le gaspillage alimentaire »",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "« P »",
+        "description": "Les guillemets anglais (“ ”) sont utilisés à la place des guillemets français (« »).",
+        "suggestions": [
+          "« Le gaspillage alimentaire »"
+        ],
+        "ruleApplied": "4.2.2.5.1"
+      },
+      {
+        "text": "récupère",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "[P]",
+        "description": "Modification non signalée dans une citation. Le verbe 'récupère' devrait s'accorder avec le sujet pluriel 'Les banques alimentaires du Québec'. La forme correcte est 'récupèrent'. Cette correction aurait dû être signalée par des crochets : '[récupèrent]'.",
+        "suggestions": [
+          "[récupèrent]"
+        ],
+        "ruleApplied": "4.2.2.6"
+      },
+      {
+        "text": "redistribuées",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "([P])",
+        "description": "Modification non signalée dans une citation. Le participe passé 'redistribuées' devrait s'accorder avec son antécédent 'paniers alimentaires' (masculin pluriel). La forme correcte est 'redistribués'.",
+        "suggestions": [
+          "[redistribués]"
+        ],
+        "ruleApplied": "4.2.2.6"
+      },
+      {
+        "text": "(Hébert, 2019)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque un point final pour clore la phrase, qui doit être placé après la parenthèse de la référence.",
+        "suggestions": [
+          "(Hébert, 2019)."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "text": "laissez",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution 'il vaut mieux que' exige l'emploi du subjonctif. La forme correcte est 'laissiez'.",
+        "suggestions": [
+          "laissiez"
+        ],
+        "ruleApplied": "4.1.2.2.3"
+      },
+      {
+        "text": "servira plus",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La négation est incomplète. Il manque l'adverbe 'ne' (ou 'n'') avant le verbe pour former la locution 'ne... plus'.",
+        "suggestions": [
+          "ne nous servira plus"
+        ],
+        "ruleApplied": "4.1.2.1.3"
+      },
+      {
+        "text": "ou pas?",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression 'ou pas' en fin de phrase est une tournure propre à la langue orale. Dans un écrit formel, il est préférable d'utiliser 'ou non'.",
+        "suggestions": [
+          "ou non ?"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "(Martinez, 2021)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque un point final pour clore la phrase, qui doit être placé après la parenthèse de la référence.",
+        "suggestions": [
+          "(Martinez, 2021)."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "text": "(Simard, 2020).",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point final doit être placé après la parenthèse fermante de la référence, et non avant.",
+        "suggestions": [
+          "(Simard, 2020)."
+        ],
+        "ruleApplied": "4.2.2.1.2"
+      },
+      {
+        "text": "En réalisant des moyens comme la redistribution des nourritures qui proviennent des épiceries, des surplus provenant des restaurants et des hôtels aux gens qui n’ont pas les moyens d’en procurer ainsi que la transformation des restes de fruits et de légumes nous aidera",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est boiteuse. Un gérondif ('En réalisant...') ne peut pas être le sujet du verbe 'aidera'. Il faut reformuler la phrase, par exemple en utilisant un nom comme sujet : 'La réalisation de moyens...'.",
+        "suggestions": [
+          "La réalisation de moyens [...] nous aidera"
+        ],
+        "ruleApplied": "4.1.2.1.7"
+      },
+      {
+        "text": "d’en procurer",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Le verbe 'procurer' doit être employé à la forme pronominale dans ce contexte : 'de s'en procurer'.",
+        "suggestions": [
+          "de s'en procurer"
+        ],
+        "ruleApplied": "4.1.2.2.2"
+      },
+      {
+        "text": "avez vraiment de l’aliment",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque un mot essentiel à la phrase pour qu'elle ait un sens clair. Il faut ajouter le mot 'besoin' : 'si vous avez vraiment besoin de cet aliment'.",
+        "suggestions": [
+          "avez vraiment besoin de cet aliment"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "produit d’hygiène",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition « en » doit être répétée devant chaque élément d'une énumération. De plus, le nom devrait être au pluriel pour la cohérence.",
+        "suggestions": [
+          "en produits d'hygiène"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "d’en procurer",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Omission du pronom réfléchi « s' » dans la construction du verbe pronominal « se procurer ».",
+        "suggestions": [
+          "de s'en procurer"
+        ],
+        "ruleApplied": "4.1.2.2.2"
+      },
+      {
+        "text": "En réalisant des moyens comme la redistribution des nourritures qui proviennent des épiceries, des surplus provenant des restaurants et des hôtels aux gens qui n’ont pas les moyens d’en procurer ainsi que la transformation des restes de fruits et de légumes nous aidera",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Construction de phrase boiteuse. Le gérondif « En réalisant... » ne peut pas être le sujet du verbe « aidera ». La phrase doit être reformulée, par exemple : « La réalisation de moyens comme... nous aidera ».",
+        "suggestions": [
+          "La réalisation de moyens comme la redistribution des nourritures qui proviennent des épiceries, des surplus provenant des restaurants et des hôtels aux gens qui n’ont pas les moyens de s'en procurer ainsi que la transformation des restes de fruits et de légumes nous aidera"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      }
+    ],
+    "erreursCritere5AvantAnalyseIA": [
+      {
+        "text": "soins",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'soin' dans l'expression figée 'prendre soin de' doit rester au singulier.",
+        "suggestions": [
+          "soin"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "text": "ses",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'adjectif possessif 'ses' et l'adjectif démonstratif 'ces'. Il faut utiliser 'ces' pour désigner les produits dont on vient de parler.",
+        "suggestions": [
+          "ces"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "text": "déchet",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'déchet' est généralement employé au pluriel dans ce contexte pour désigner l'ensemble des ordures.",
+        "suggestions": [
+          "déchets"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "utiliser",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif en '-er' et le participe passé en '-é'. Après l'auxiliaire 'avoir', il faut utiliser le participe passé. De plus, ce participe passé doit s'accorder en genre et en nombre avec le complément d'objet direct 'l'' (mis pour 'la nourriture'), placé avant le verbe. Le donneur est 'l'' (féminin singulier).",
+        "suggestions": [
+          "utilisée"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "manger",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "Confusion entre l'infinitif en '-er' et le participe passé en '-é'. Après l'auxiliaire 'avoir', il faut utiliser le participe passé. Ce participe passé doit s'accorder avec le même donneur que 'utilisée', soit le pronom 'l'' (féminin singulier).",
+        "suggestions": [
+          "mangée"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "faits",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "La locution 'grâce au fait que' est figée et s'emploie au singulier.",
+        "suggestions": [
+          "fait"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "text": "Tout d’abords",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'adverbe 'd'abord' est invariable et ne prend jamais de 's' final.",
+        "suggestions": [
+          "Tout d'abord"
+        ],
+        "ruleApplied": "5.2.1.5"
+      },
+      {
+        "text": "quelques chose",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Dans la locution 'quelque chose', l'adjectif indéfini 'quelque' est invariable et ne s'accorde pas.",
+        "suggestions": [
+          "quelque chose"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "text": "intitulé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'intitulé', employé comme adjectif, doit s'accorder en genre et en nombre avec le nom qu'il qualifie, 'l'infographie' (féminin singulier).",
+        "suggestions": [
+          "intitulée"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "crée",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le participe passé du verbe 'créer' est 'créé' et prend un accent aigu sur les deux 'e'.",
+        "suggestions": [
+          "créé"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "text": "nourritures",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'nourriture' est généralement un nom non comptable et s'emploie au singulier dans ce contexte.",
+        "suggestions": [
+          "nourriture"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "capable",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'capable' doit s'accorder en nombre avec le sujet 'ils' (masculin pluriel).",
+        "suggestions": [
+          "capables"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "sûr",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'sûr' doit s'accorder en nombre avec le pronom 'vous' (pluriel).",
+        "suggestions": [
+          "sûrs"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "redistribuer",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif en '-er' et le participe passé en '-é'. Après l'auxiliaire 'être' ('soient'), il faut utiliser le participe passé. Ce participe passé doit s'accorder en genre et en nombre avec le sujet 'ils' (mis pour 'les produits'), masculin pluriel.",
+        "suggestions": [
+          "redistribués"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "produit",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'produit' devrait être au pluriel ('produits') pour être cohérent avec le contexte de l'énumération de plusieurs types de produits.",
+        "suggestions": [
+          "produits"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "ils",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom de reprise 'ils' est incorrect. Il doit s'accorder en genre et en nombre avec son antécédent 'Loop Mission' (ou 'une entreprise'), qui est féminin singulier. Le pronom correct est 'elle'.",
+        "suggestions": [
+          "elle"
+        ],
+        "ruleApplied": "5.3.1.4"
+      },
+      {
+        "text": "vend",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "Le verbe doit s'accorder avec son sujet. Le sujet erroné 'ils' exigerait la forme 'vendent'. Le donneur d'accord est 'Loop Mission'.",
+        "suggestions": [
+          "vend"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "aidera",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'aidera' doit s'accorder avec le sujet 'qui', dont l'antécédent est 'des recettes' (féminin pluriel). La forme correcte est 'aideront'.",
+        "suggestions": [
+          "aideront"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "En sommes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "La locution adverbiale 'en somme' est invariable et ne prend jamais de 's'.",
+        "suggestions": [
+          "En somme"
+        ],
+        "ruleApplied": "5.2.1.5"
+      },
+      {
+        "text": "aliment",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après une expression de quantité comme 'le plus de', le nom qui suit doit être au pluriel.",
+        "suggestions": [
+          "d'aliments"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "text": "nourritures",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'nourriture' est généralement un nom non comptable et s'emploie au singulier dans ce contexte.",
+        "suggestions": [
+          "nourriture"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "demandez",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre la deuxième personne du pluriel de l'indicatif présent ('demandez') et l'infinitif ('demander'). Après le verbe modal 'pouvez', il faut utiliser un infinitif.",
+        "suggestions": [
+          "demander"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "soins",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'expression figée est « prendre soin ». Le nom « soin » doit être au singulier.",
+        "suggestions": [
+          "soin"
+        ],
+        "ruleApplied": "5.2.2"
+      },
+      {
+        "text": "le déchet",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'expression « dans le déchet » est incorrecte. On utilise généralement le pluriel « dans les déchets » ou l'expression « à la poubelle ».",
+        "suggestions": [
+          "les déchets",
+          "à la poubelle"
+        ],
+        "ruleApplied": "5.2.2"
+      },
+      {
+        "text": "manger",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif en « -er » et le participe passé en « -é ». Après l'auxiliaire « avoir » (ici « ayons »), le participe passé est requis.",
+        "suggestions": [
+          "mangé"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "faits",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'expression correcte est « grâce au fait que », au singulier.",
+        "suggestions": [
+          "fait"
+        ],
+        "ruleApplied": "5.2.2"
+      },
+      {
+        "text": "récupère",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le verbe « récupère » doit s'accorder avec son sujet pluriel « Les banques alimentaires du Québec ».",
+        "suggestions": [
+          "récupèrent"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "redistribuées",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en genre et en nombre. Le participe passé « redistribuées » doit s'accorder avec son antécédent « paniers alimentaires », qui est masculin pluriel.",
+        "suggestions": [
+          "redistribués"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "crée",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre la forme conjuguée « crée » (présent de l'indicatif) et le participe passé « créé ». Après l'auxiliaire « avoir », le participe passé est requis.",
+        "suggestions": [
+          "créé"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "nourritures",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le nom « nourriture » est généralement employé au singulier, car il est indénombrable.",
+        "suggestions": [
+          "nourriture"
+        ],
+        "ruleApplied": "5.2.2"
+      },
+      {
+        "text": "d’aliment",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Après la locution « le plus de », le nom qui suit, s'il est dénombrable, se met au pluriel.",
+        "suggestions": [
+          "d'aliments"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "text": "nourritures",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Le nom « nourriture » est généralement employé au singulier, car il est indénombrable. Répétition de la même erreur d'usage.",
+        "suggestions": [
+          "nourriture"
+        ],
+        "ruleApplied": "5.1.3"
+      },
+      {
+        "text": "de l’aliment",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le nom « aliment » devrait être au pluriel dans ce contexte général (« besoin d'aliments »).",
+        "suggestions": [
+          "d'aliments"
+        ],
+        "ruleApplied": "5.3.1.5"
+      }
+    ],
+    "analyseIADuplicatas": {
+      "critere4": {
+        "analyse": {
+          "totalErreursCritere4": 18,
+          "totalErreursCritere5": 0,
+          "duplicatasCritere4": 2,
+          "duplicatasCritere5": 0
+        },
+        "duplicatasCritere4": [
+          {
+            "groupe": 1,
+            "confiance": 98,
+            "raison": "Même erreur de construction de phrase sur un texte identique. L'erreur 17 est conservée pour sa suggestion plus complète.",
+            "erreurs": [
+              {
+                "index": 17,
+                "text": "En réalisant des moyens comme la redistribution des nourritures qui proviennent des épiceries, des surplus provenant des restaurants et des hôtels aux gens qui n’ont pas les moyens d’en procurer ainsi que la transformation des restes de fruits et de légumes nous aidera",
+                "garder": true
+              },
+              {
+                "index": 12,
+                "text": "En réalisant des moyens comme la redistribution des nourritures qui proviennent des épiceries, des surplus provenant des restaurants et des hôtels aux gens qui n’ont pas les moyens d’en procurer ainsi que la transformation des restes de fruits et de légumes nous aidera",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 2,
+            "confiance": 100,
+            "raison": "Erreur identique (texte, occurrence, règle et suggestion). L'erreur 13 est conservée car elle apparaît en premier.",
+            "erreurs": [
+              {
+                "index": 13,
+                "text": "d’en procurer",
+                "garder": true
+              },
+              {
+                "index": 16,
+                "text": "d’en procurer",
+                "garder": false
+              }
+            ]
+          }
+        ],
+        "duplicatasCritere5": [],
+        "erreursUniquesCritere4": [
+          {
+            "index": 0,
+            "text": "avions",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 1,
+            "text": "pourrons",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 2,
+            "text": "« esthétiques »",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 3,
+            "text": "« Le gaspillage alimentaire »",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 4,
+            "text": "récupère",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 5,
+            "text": "redistribuées",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 6,
+            "text": "(Hébert, 2019)",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 7,
+            "text": "laissez",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 8,
+            "text": "servira plus",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 9,
+            "text": "ou pas?",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 10,
+            "text": "(Martinez, 2021)",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 11,
+            "text": "(Simard, 2020).",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 14,
+            "text": "avez vraiment de l’aliment",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 15,
+            "text": "produit d’hygiène",
+            "raison": "Aucun duplicata trouvé"
+          }
+        ],
+        "erreursUniquesCritere5": [],
+        "recommandations": {
+          "erreursAConserverCritere4": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            14,
+            15,
+            17
+          ],
+          "erreursAConserverCritere5": [],
+          "erreursASupprimer": {
+            "critere4": [
+              12,
+              16
+            ],
+            "critere5": []
+          }
+        }
+      },
+      "critere5": {
+        "analyse": {
+          "totalErreursCritere4": 0,
+          "totalErreursCritere5": 33,
+          "duplicatasCritere4": 0,
+          "duplicatasCritere5": 9
+        },
+        "duplicatasCritere4": [],
+        "duplicatasCritere5": [
+          {
+            "groupe": 1,
+            "confiance": 100,
+            "raison": "Texte, occurrence et suggestion identiques. L'erreur concerne la même expression figée 'prendre soin'.",
+            "erreurs": [
+              {
+                "index": 0,
+                "text": "soins",
+                "garder": true
+              },
+              {
+                "index": 22,
+                "text": "soins",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 2,
+            "confiance": 95,
+            "raison": "Même erreur sémantique (singulier/pluriel pour 'déchet'), même occurrence. Le texte 'le déchet' est plus complet.",
+            "erreurs": [
+              {
+                "index": 2,
+                "text": "déchet",
+                "garder": false
+              },
+              {
+                "index": 23,
+                "text": "le déchet",
+                "garder": true
+              }
+            ]
+          },
+          {
+            "groupe": 3,
+            "confiance": 98,
+            "raison": "Même mot, même occurrence, même type d'erreur (infinitif/participe passé). La description de la première erreur est plus complète car elle inclut la règle d'accord.",
+            "erreurs": [
+              {
+                "index": 4,
+                "text": "manger",
+                "garder": true
+              },
+              {
+                "index": 24,
+                "text": "manger",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 4,
+            "confiance": 100,
+            "raison": "Texte, occurrence et suggestion identiques. L'erreur concerne la même expression figée 'grâce au fait que'.",
+            "erreurs": [
+              {
+                "index": 5,
+                "text": "faits",
+                "garder": true
+              },
+              {
+                "index": 25,
+                "text": "faits",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 5,
+            "confiance": 100,
+            "raison": "Texte, occurrence et suggestion identiques. La deuxième description est plus précise sur le plan grammatical.",
+            "erreurs": [
+              {
+                "index": 9,
+                "text": "crée",
+                "garder": false
+              },
+              {
+                "index": 28,
+                "text": "crée",
+                "garder": true
+              }
+            ]
+          },
+          {
+            "groupe": 6,
+            "confiance": 100,
+            "raison": "Texte et occurrence identiques. Toutes les erreurs signalent que 'nourriture' doit être au singulier.",
+            "erreurs": [
+              {
+                "index": 10,
+                "text": "nourritures",
+                "garder": true
+              },
+              {
+                "index": 29,
+                "text": "nourritures",
+                "garder": false
+              },
+              {
+                "index": 31,
+                "text": "nourritures",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 7,
+            "confiance": 98,
+            "raison": "Même erreur sémantique (singulier/pluriel pour 'aliment'), même occurrence et suggestions identiques. Les textes sont des variantes du même mot.",
+            "erreurs": [
+              {
+                "index": 19,
+                "text": "aliment",
+                "garder": false
+              },
+              {
+                "index": 30,
+                "text": "d’aliment",
+                "garder": false
+              },
+              {
+                "index": 32,
+                "text": "de l’aliment",
+                "garder": true
+              }
+            ]
+          }
+        ],
+        "erreursUniquesCritere4": [],
+        "erreursUniquesCritere5": [
+          {
+            "index": 1,
+            "text": "ses",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 3,
+            "text": "utiliser",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 6,
+            "text": "Tout d’abords",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 7,
+            "text": "quelques chose",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 8,
+            "text": "intitulé",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 11,
+            "text": "capable",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 12,
+            "text": "sûr",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 13,
+            "text": "redistribuer",
+            "raison": "Erreur distincte de l'erreur d'accord sur 'redistribuées' (index 27)."
+          },
+          {
+            "index": 14,
+            "text": "produit",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 15,
+            "text": "ils",
+            "raison": "Erreur distincte de l'erreur d'accord du verbe (index 16)."
+          },
+          {
+            "index": 16,
+            "text": "vend",
+            "raison": "Erreur distincte de l'erreur sur le pronom (index 15)."
+          },
+          {
+            "index": 17,
+            "text": "aidera",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 18,
+            "text": "En sommes",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 20,
+            "text": "nourritures",
+            "raison": "Occurrence d'index 1, distincte des autres erreurs sur le même mot."
+          },
+          {
+            "index": 21,
+            "text": "demandez",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 26,
+            "text": "récupère",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 27,
+            "text": "redistribuées",
+            "raison": "Erreur distincte de l'erreur infinitif/participe passé (index 13)."
+          }
+        ],
+        "recommandations": {
+          "erreursAConserverCritere4": [],
+          "erreursAConserverCritere5": [
+            0,
+            1,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            21,
+            23,
+            26,
+            27,
+            28,
+            32
+          ],
+          "erreursASupprimer": {
+            "critere4": [],
+            "critere5": [
+              2,
+              9,
+              19,
+              22,
+              24,
+              25,
+              29,
+              30,
+              31
+            ]
+          }
+        }
+      }
+    }
+  }
+}

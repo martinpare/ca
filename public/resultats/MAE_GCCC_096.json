@@ -1,0 +1,1889 @@
+{
+  "processedAt": "2025-12-10T14:50:17.887Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_096.txt",
+    "originalText": "Chers lecteurs,\r\n\r\nDe nos jours, de nombreuses personnes aiment consommer de la nourriture comme de la viande, des produits laitiers, des légumes, etc. Par ailleurs, nous aimons dépenser de l'argent aux restaurants, une ou deux fois par mois. Ensuite, nous nous demandons si nous sommes prêts à lutter contre le gaspillage alimentaire. À mon avis, nous sommes prêts à s'affronter contre la dilapidation. Cependant, je vais vous aborder sur les conséquences de la surconsommation alimentaire et des manières d'éviter le gâchage.\r\n\r\nPremièrement, cher public, parlons sur les conséquences du gaspillage. Pensez-vous que la dilapidation alimentaire est-il important ? Eh bien, il est important sur l'environnement. D'après RECYC- QUÉBEC, dans l'article « Répartition du gaspillage, quantité de nourriture gaspillée et environnement », plus de 2 millions de tonnes sont gaspillés à chaque année par les familles, affirme (RECYC- QUÉBEC, 2021). En effet, plusieurs d'entre nous consomment des repas, mais nous gaspillons beaucoup. Je trouve que c'est une bonne solution pour affronter de nombreuses pertes d'aliments. Dans l'article «Répartition du gaspillage, quantité de nourriture gaspillés et environnement », RECYC- QUÉBEC affirme : « chaque tonne de nourriture gaspillée équivaut à une voiture de plus sur la route chaque année », déclaré (RECYC-QUÉBEC, 2021). En outre, la tonne de nutritions aient perdu est incroyablement élevée. En somme, nous devons éviter la surconsommation alimentaire et le gâchage.\r\n\r\nDeuxièmement, chers lectorats, abordons sur les façons d'empêcher le gâchage. Pensez-vous que c'est utile d'apprendre comment limiter le gaspillage ? À mon avis, il est important de conserver la nourriture. Selon Florence-Léa Siry, l'infographie «À la maison», la moitié du gaspillage alimentaire pourrait être entraver si nous savons comment conserver les aliments, déclaré (Corriveau, 2020). De plus, elle a raison que si nous apprenons à mieux maintenir les restes de nos nourritures, cette situation pourrait être éviter. Dans l'article «À la maison», RECYC-QUÉBEC dit : il a suggéré de congeler les repas, d'organiser une liste et d'acheter des ingrédients justes. En effet, cela est important d'empêcher la dilapidation et c'est efficace d'utiliser ces manières.\r\n\r\nEn conclusion, je trouve que nous sommes prêtes à lutter contre le gaspillage en limitant le gâchage et les conséquences négatives. Je souhaite que nous commençons à congeler les restes de nos repas pour empêcher de les jeter puisque c'est une solution efficace.",
+    "erreursCritere4": [
+      {
+        "text": "aux restaurants",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'emploi de la préposition « aux » est incorrect dans ce contexte. On dépense de l'argent « dans » un lieu ou « au » restaurant (singulier générique).",
+        "suggestions": [
+          "dans les restaurants",
+          "au restaurant"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "s'affronter",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom réfléchi « s' » ne correspond pas au sujet « nous ». La forme correcte est « nous affronter ».",
+        "suggestions": [
+          "nous affronter"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "text": "vous aborder sur",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe « aborder » est un verbe transitif direct, il ne doit pas être suivi de la préposition « sur ». De plus, la construction « vous aborder » est incorrecte ; on aborde un sujet.",
+        "suggestions": [
+          "aborder"
+        ],
+        "ruleApplied": "4.1.2.2.2"
+      },
+      {
+        "text": "parlons sur",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe « parler » se construit avec la préposition « de » pour introduire le sujet de la conversation. On parle « de » quelque chose.",
+        "suggestions": [
+          "parlons des"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "est-il important",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'inversion du sujet (« est-il ») est incorrecte dans une interrogation indirecte introduite par « que ». De plus, l'adjectif « important » doit s'accorder au féminin avec « la dilapidation ».",
+        "suggestions": [
+          "est importante",
+          "soit importante"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "important sur",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'adjectif « important » se construit avec la préposition « pour » et non « sur » dans ce contexte.",
+        "suggestions": [
+          "important pour"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "à chaque année",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression « à chaque année » est un calque de l'anglais. En français, on utilise « chaque année » ou « tous les ans ».",
+        "suggestions": [
+          "chaque année"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "c'est une bonne solution",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom « c' » n'a pas d'antécédent clair, ce qui rend la phrase ambiguë. Il est difficile de comprendre à quoi la « solution » fait référence.",
+        "suggestions": [
+          "Cette situation est problématique et il faut y trouver une solution."
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": "déclaré",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'emploi du participe passé « déclaré » comme verbe principal d'une incise est incorrect. Il faut utiliser un verbe conjugué au présent ou au passé composé.",
+        "suggestions": [
+          "déclare",
+          "a déclaré"
+        ],
+        "ruleApplied": "4.1.2.2.3"
+      },
+      {
+        "text": "aient perdu",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est incorrecte. Un verbe au subjonctif (« aient ») ne peut pas être suivi d'un participe passé de cette manière. Il faut utiliser un participe passé qui s'accorde avec le nom, « la tonne ».",
+        "suggestions": [
+          "perdue"
+        ],
+        "ruleApplied": "4.1.2.2.3"
+      },
+      {
+        "text": "elle a raison que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution « avoir raison » ne se construit pas directement avec « que ». La construction correcte est « avoir raison de dire que » ou une reformulation.",
+        "suggestions": [
+          "elle a raison de dire que"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "maintenir",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe « maintenir » n'est pas approprié dans ce contexte. Le verbe « conserver » est plus juste pour parler des restes de nourriture.",
+        "suggestions": [
+          "conserver"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": "dit : il a suggéré",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom « il » est superflu et crée une redondance avec le sujet « RECYC-QUÉBEC ». La phrase doit être restructurée.",
+        "suggestions": [
+          "suggère"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "ingrédients justes",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction « ingrédients justes » est boiteuse. Il faut préciser le sens : la bonne sorte d'ingrédients ou la bonne quantité.",
+        "suggestions": [
+          "les bons ingrédients",
+          "la juste quantité d'ingrédients"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "cela est important",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Dans une construction impersonnelle, on utilise le pronom « il » et non « cela ».",
+        "suggestions": [
+          "il est important"
+        ],
+        "ruleApplied": "4.1.2.3.1"
+      },
+      {
+        "text": "commençons",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe « souhaiter que » exprime un souhait et doit être suivi du subjonctif et non de l'indicatif.",
+        "suggestions": [
+          "commencions"
+        ],
+        "ruleApplied": "4.1.2.2.3"
+      },
+      {
+        "text": "s'affronter contre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Pléonasme. Le verbe « affronter » est transitif direct et signifie déjà « faire face à ». On peut utiliser « affronter la dilapidation » ou « lutter contre la dilapidation ».",
+        "suggestions": [
+          "affronter"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "affirme",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe « affirme » est superflu et rend la construction de la phrase boiteuse. La source peut être introduite directement entre parenthèses après l'information citée.",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "affronter de nombreuses pertes d'aliments",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe « affronter » n'a pas le bon sens ici. Il signifie « faire face à », alors que le contexte suggère l'idée de prévention. Il faudrait utiliser « éviter » ou « réduire ».",
+        "suggestions": [
+          "éviter de nombreuses pertes d'aliments"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": "Selon Florence-Léa Siry, l'infographie «À la maison»,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence d'un mot essentiel (une préposition) pour lier les compléments de phrase. Il faudrait écrire : « Selon Florence-Léa Siry, dans l'infographie... ».",
+        "suggestions": [
+          "Selon Florence-Léa Siry, dans l'infographie «À la maison»,"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "savons",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de concordance des temps dans la phrase conditionnelle. Après « si », il faut l'imparfait pour exprimer une hypothèse, car le verbe principal est au conditionnel (« pourrait être »). Il faut écrire « si nous savions ».",
+        "suggestions": [
+          "savions"
+        ],
+        "ruleApplied": "4.1.2.2.3"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 21,
+      "note": "E"
+    },
+    "erreursCritere5": [
+      {
+        "text": "RECYC- QUÉBEC",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Une espace superflue a été insérée dans la dénomination « RECYC-QUÉBEC ».",
+        "suggestions": [
+          "RECYC-QUÉBEC"
+        ],
+        "ruleApplied": "5.2.4.1.2"
+      },
+      {
+        "text": "gaspillés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « gaspillés » doit s'accorder en genre et en nombre avec son sujet « tonnes », qui est féminin pluriel.",
+        "suggestions": [
+          "gaspillées"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "gaspillés",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « gaspillés » doit s'accorder en genre avec le nom qu'il qualifie, « nourriture », qui est féminin singulier.",
+        "suggestions": [
+          "gaspillée"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "nutritions",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « nutrition » est généralement un nom non comptable et s'emploie au singulier.",
+        "suggestions": [
+          "nutrition"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "text": "lectorats",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot « lectorat » désigne l'ensemble des lecteurs, mais ne s'emploie pas comme apostrophe au pluriel. Il faut utiliser « lecteurs ».",
+        "suggestions": [
+          "lecteurs"
+        ],
+        "ruleApplied": "5.2.2"
+      },
+      {
+        "text": "entraver",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après l'auxiliaire « être », il faut utiliser le participe passé « entravé » et non l'infinitif « entraver ». Il doit aussi s'accorder avec le sujet « la moitié », qui est féminin singulier.",
+        "suggestions": [
+          "entravée"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "éviter",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après l'auxiliaire « être », il faut utiliser le participe passé « évité » et non l'infinitif « éviter ». Il doit aussi s'accorder avec le sujet « cette situation », qui est féminin singulier.",
+        "suggestions": [
+          "évitée"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "prêtes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « prêtes » doit s'accorder avec le sujet « nous ». Comme l'apostrophe initiale est « Chers lecteurs » (masculin pluriel), l'accord doit se faire au masculin pluriel.",
+        "suggestions": [
+          "prêts"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "gâchage",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot « gâchage » n'est pas le terme approprié dans ce contexte. Il faut utiliser « gaspillage ».",
+        "suggestions": [
+          "gaspillage"
+        ],
+        "ruleApplied": "5.2.2"
+      },
+      {
+        "text": "important",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « important » doit s'accorder en genre avec son donneur, « la dilapidation alimentaire » (féminin singulier).",
+        "suggestions": [
+          "importante"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "RECYC- QUÉBEC",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Répétition de l'erreur d'usage sur la même dénomination.",
+        "suggestions": [
+          "RECYC-QUÉBEC"
+        ],
+        "ruleApplied": "5.1.3"
+      },
+      {
+        "text": "nutritions",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot « nutritions » est incorrect. Le terme approprié est « nourriture » (au singulier) ou « aliments ».",
+        "suggestions": [
+          "nourriture"
+        ],
+        "ruleApplied": "5.2.2"
+      },
+      {
+        "text": "nourritures",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le nom « nourriture » est généralement indénombrable et s'emploie au singulier. Il faut écrire « nos restes de nourriture ».",
+        "suggestions": [
+          "nourriture"
+        ],
+        "ruleApplied": "5.2.2"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 12,
+      "note": "C"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:44:58.240Z",
+    "endTimestamp": "2025-12-10T14:50:17.887Z",
+    "durationMs": 319647,
+    "durationFormatted": "05:19:647",
+    "cumulParPasse": [
+      {
+        "passe": 1,
+        "erreursCritere4": [
+          {
+            "text": "aux restaurants",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'emploi de la préposition « aux » est incorrect dans ce contexte. On dépense de l'argent « dans » un lieu ou « au » restaurant (singulier générique).",
+            "suggestions": [
+              "dans les restaurants",
+              "au restaurant"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "s'affronter",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le pronom réfléchi « s' » ne correspond pas au sujet « nous ». La forme correcte est « nous affronter ».",
+            "suggestions": [
+              "nous affronter"
+            ],
+            "ruleApplied": "4.1.2.3.2"
+          },
+          {
+            "text": "vous aborder sur",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le verbe « aborder » est un verbe transitif direct, il ne doit pas être suivi de la préposition « sur ». De plus, la construction « vous aborder » est incorrecte ; on aborde un sujet.",
+            "suggestions": [
+              "aborder"
+            ],
+            "ruleApplied": "4.1.2.2.2"
+          },
+          {
+            "text": "parlons sur",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le verbe « parler » se construit avec la préposition « de » pour introduire le sujet de la conversation. On parle « de » quelque chose.",
+            "suggestions": [
+              "parlons des"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "est-il important",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'inversion du sujet (« est-il ») est incorrecte dans une interrogation indirecte introduite par « que ». De plus, l'adjectif « important » doit s'accorder au féminin avec « la dilapidation ».",
+            "suggestions": [
+              "est importante",
+              "soit importante"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "important sur",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'adjectif « important » se construit avec la préposition « pour » et non « sur » dans ce contexte.",
+            "suggestions": [
+              "important pour"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "à chaque année",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'expression « à chaque année » est un calque de l'anglais. En français, on utilise « chaque année » ou « tous les ans ».",
+            "suggestions": [
+              "chaque année"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "c'est une bonne solution",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le pronom « c' » n'a pas d'antécédent clair, ce qui rend la phrase ambiguë. Il est difficile de comprendre à quoi la « solution » fait référence.",
+            "suggestions": [
+              "Cette situation est problématique et il faut y trouver une solution."
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          },
+          {
+            "text": "déclaré",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'emploi du participe passé « déclaré » comme verbe principal d'une incise est incorrect. Il faut utiliser un verbe conjugué au présent ou au passé composé.",
+            "suggestions": [
+              "déclare",
+              "a déclaré"
+            ],
+            "ruleApplied": "4.1.2.2.3"
+          },
+          {
+            "text": "aient perdu",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction de la phrase est incorrecte. Un verbe au subjonctif (« aient ») ne peut pas être suivi d'un participe passé de cette manière. Il faut utiliser un participe passé qui s'accorde avec le nom, « la tonne ».",
+            "suggestions": [
+              "perdue"
+            ],
+            "ruleApplied": "4.1.2.2.3"
+          },
+          {
+            "text": "abordons sur",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le verbe « aborder » est transitif direct et ne nécessite pas la préposition « sur ».",
+            "suggestions": [
+              "abordons"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "elle a raison que",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La locution « avoir raison » ne se construit pas directement avec « que ». La construction correcte est « avoir raison de dire que » ou une reformulation.",
+            "suggestions": [
+              "elle a raison de dire que"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "maintenir",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le verbe « maintenir » n'est pas approprié dans ce contexte. Le verbe « conserver » est plus juste pour parler des restes de nourriture.",
+            "suggestions": [
+              "conserver"
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          },
+          {
+            "text": "dit : il a suggéré",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le pronom « il » est superflu et crée une redondance avec le sujet « RECYC-QUÉBEC ». La phrase doit être restructurée.",
+            "suggestions": [
+              "suggère"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "ingrédients justes",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction « ingrédients justes » est boiteuse. Il faut préciser le sens : la bonne sorte d'ingrédients ou la bonne quantité.",
+            "suggestions": [
+              "les bons ingrédients",
+              "la juste quantité d'ingrédients"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "cela est important",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Dans une construction impersonnelle, on utilise le pronom « il » et non « cela ».",
+            "suggestions": [
+              "il est important"
+            ],
+            "ruleApplied": "4.1.2.3.1"
+          },
+          {
+            "text": "commençons",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le verbe « souhaiter que » exprime un souhait et doit être suivi du subjonctif et non de l'indicatif.",
+            "suggestions": [
+              "commencions"
+            ],
+            "ruleApplied": "4.1.2.2.3"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "RECYC- QUÉBEC",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Une espace superflue a été insérée dans la dénomination « RECYC-QUÉBEC ».",
+            "suggestions": [
+              "RECYC-QUÉBEC"
+            ],
+            "ruleApplied": "5.2.4.1.2"
+          },
+          {
+            "text": "gaspillés",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé « gaspillés » doit s'accorder en genre et en nombre avec son sujet « tonnes », qui est féminin pluriel.",
+            "suggestions": [
+              "gaspillées"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "gaspillés",
+            "occurenceIndex": 1,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif « gaspillés » doit s'accorder en genre avec le nom qu'il qualifie, « nourriture », qui est féminin singulier.",
+            "suggestions": [
+              "gaspillée"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "nutritions",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom « nutrition » est généralement un nom non comptable et s'emploie au singulier.",
+            "suggestions": [
+              "nutrition"
+            ],
+            "ruleApplied": "5.3.1.5"
+          },
+          {
+            "text": "lectorats",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Le mot « lectorat » désigne l'ensemble des lecteurs, mais ne s'emploie pas comme apostrophe au pluriel. Il faut utiliser « lecteurs ».",
+            "suggestions": [
+              "lecteurs"
+            ],
+            "ruleApplied": "5.2.2"
+          },
+          {
+            "text": "entraver",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Après l'auxiliaire « être », il faut utiliser le participe passé « entravé » et non l'infinitif « entraver ». Il doit aussi s'accorder avec le sujet « la moitié », qui est féminin singulier.",
+            "suggestions": [
+              "entravée"
+            ],
+            "ruleApplied": "5.3.2.6"
+          },
+          {
+            "text": "nourritures",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom « nourriture » est généralement un nom non comptable et s'emploie au singulier.",
+            "suggestions": [
+              "nourriture"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "éviter",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Après l'auxiliaire « être », il faut utiliser le participe passé « évité » et non l'infinitif « éviter ». Il doit aussi s'accorder avec le sujet « cette situation », qui est féminin singulier.",
+            "suggestions": [
+              "évitée"
+            ],
+            "ruleApplied": "5.3.2.6"
+          },
+          {
+            "text": "prêtes",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif « prêtes » doit s'accorder avec le sujet « nous ». Comme l'apostrophe initiale est « Chers lecteurs » (masculin pluriel), l'accord doit se faire au masculin pluriel.",
+            "suggestions": [
+              "prêts"
+            ],
+            "ruleApplied": "5.3.1.1"
+          }
+        ],
+        "totalErreursCritere4": 17,
+        "totalErreursCritere5": 9,
+        "scoreCritere4": {
+          "pointsPerdus": 17,
+          "note": "D"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 9,
+          "note": "B"
+        }
+      },
+      {
+        "passe": 2,
+        "erreursCritere4": [
+          {
+            "text": "aux restaurants",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'emploi de la préposition « aux » est incorrect dans ce contexte. On dépense de l'argent « dans » un lieu ou « au » restaurant (singulier générique).",
+            "suggestions": [
+              "dans les restaurants",
+              "au restaurant"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "s'affronter",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le pronom réfléchi « s' » ne correspond pas au sujet « nous ». La forme correcte est « nous affronter ».",
+            "suggestions": [
+              "nous affronter"
+            ],
+            "ruleApplied": "4.1.2.3.2"
+          },
+          {
+            "text": "vous aborder sur",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le verbe « aborder » est un verbe transitif direct, il ne doit pas être suivi de la préposition « sur ». De plus, la construction « vous aborder » est incorrecte ; on aborde un sujet.",
+            "suggestions": [
+              "aborder"
+            ],
+            "ruleApplied": "4.1.2.2.2"
+          },
+          {
+            "text": "parlons sur",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le verbe « parler » se construit avec la préposition « de » pour introduire le sujet de la conversation. On parle « de » quelque chose.",
+            "suggestions": [
+              "parlons des"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "est-il important",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'inversion du sujet (« est-il ») est incorrecte dans une interrogation indirecte introduite par « que ». De plus, l'adjectif « important » doit s'accorder au féminin avec « la dilapidation ».",
+            "suggestions": [
+              "est importante",
+              "soit importante"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "important sur",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'adjectif « important » se construit avec la préposition « pour » et non « sur » dans ce contexte.",
+            "suggestions": [
+              "important pour"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "à chaque année",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'expression « à chaque année » est un calque de l'anglais. En français, on utilise « chaque année » ou « tous les ans ».",
+            "suggestions": [
+              "chaque année"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "c'est une bonne solution",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le pronom « c' » n'a pas d'antécédent clair, ce qui rend la phrase ambiguë. Il est difficile de comprendre à quoi la « solution » fait référence.",
+            "suggestions": [
+              "Cette situation est problématique et il faut y trouver une solution."
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          },
+          {
+            "text": "déclaré",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'emploi du participe passé « déclaré » comme verbe principal d'une incise est incorrect. Il faut utiliser un verbe conjugué au présent ou au passé composé.",
+            "suggestions": [
+              "déclare",
+              "a déclaré"
+            ],
+            "ruleApplied": "4.1.2.2.3"
+          },
+          {
+            "text": "aient perdu",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction de la phrase est incorrecte. Un verbe au subjonctif (« aient ») ne peut pas être suivi d'un participe passé de cette manière. Il faut utiliser un participe passé qui s'accorde avec le nom, « la tonne ».",
+            "suggestions": [
+              "perdue"
+            ],
+            "ruleApplied": "4.1.2.2.3"
+          },
+          {
+            "text": "abordons sur",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le verbe « aborder » est transitif direct et ne nécessite pas la préposition « sur ».",
+            "suggestions": [
+              "abordons"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "elle a raison que",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La locution « avoir raison » ne se construit pas directement avec « que ». La construction correcte est « avoir raison de dire que » ou une reformulation.",
+            "suggestions": [
+              "elle a raison de dire que"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "maintenir",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le verbe « maintenir » n'est pas approprié dans ce contexte. Le verbe « conserver » est plus juste pour parler des restes de nourriture.",
+            "suggestions": [
+              "conserver"
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          },
+          {
+            "text": "dit : il a suggéré",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le pronom « il » est superflu et crée une redondance avec le sujet « RECYC-QUÉBEC ». La phrase doit être restructurée.",
+            "suggestions": [
+              "suggère"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "ingrédients justes",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction « ingrédients justes » est boiteuse. Il faut préciser le sens : la bonne sorte d'ingrédients ou la bonne quantité.",
+            "suggestions": [
+              "les bons ingrédients",
+              "la juste quantité d'ingrédients"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "cela est important",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Dans une construction impersonnelle, on utilise le pronom « il » et non « cela ».",
+            "suggestions": [
+              "il est important"
+            ],
+            "ruleApplied": "4.1.2.3.1"
+          },
+          {
+            "text": "commençons",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le verbe « souhaiter que » exprime un souhait et doit être suivi du subjonctif et non de l'indicatif.",
+            "suggestions": [
+              "commencions"
+            ],
+            "ruleApplied": "4.1.2.2.3"
+          },
+          {
+            "text": "s'affronter contre",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Pléonasme. Le verbe « affronter » est transitif direct et signifie déjà « faire face à ». On peut utiliser « affronter la dilapidation » ou « lutter contre la dilapidation ».",
+            "suggestions": [
+              "affronter"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "affirme",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le verbe « affirme » est superflu et rend la construction de la phrase boiteuse. La source peut être introduite directement entre parenthèses après l'information citée.",
+            "suggestions": [
+              ""
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "affronter de nombreuses pertes d'aliments",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le verbe « affronter » n'a pas le bon sens ici. Il signifie « faire face à », alors que le contexte suggère l'idée de prévention. Il faudrait utiliser « éviter » ou « réduire ».",
+            "suggestions": [
+              "éviter de nombreuses pertes d'aliments"
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          },
+          {
+            "text": "Selon Florence-Léa Siry, l'infographie «À la maison»,",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Absence d'un mot essentiel (une préposition) pour lier les compléments de phrase. Il faudrait écrire : « Selon Florence-Léa Siry, dans l'infographie... ».",
+            "suggestions": [
+              "Selon Florence-Léa Siry, dans l'infographie «À la maison»,"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "savons",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Erreur de concordance des temps dans la phrase conditionnelle. Après « si », il faut l'imparfait pour exprimer une hypothèse, car le verbe principal est au conditionnel (« pourrait être »). Il faut écrire « si nous savions ».",
+            "suggestions": [
+              "savions"
+            ],
+            "ruleApplied": "4.1.2.2.3"
+          },
+          {
+            "text": "c'est efficace",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "Répétition de la même erreur de syntaxe (tournure impersonnelle incorrecte) dans la même phrase syntaxique.",
+            "suggestions": [
+              "il est efficace"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "RECYC- QUÉBEC",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Une espace superflue a été insérée dans la dénomination « RECYC-QUÉBEC ».",
+            "suggestions": [
+              "RECYC-QUÉBEC"
+            ],
+            "ruleApplied": "5.2.4.1.2"
+          },
+          {
+            "text": "gaspillés",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé « gaspillés » doit s'accorder en genre et en nombre avec son sujet « tonnes », qui est féminin pluriel.",
+            "suggestions": [
+              "gaspillées"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "gaspillés",
+            "occurenceIndex": 1,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif « gaspillés » doit s'accorder en genre avec le nom qu'il qualifie, « nourriture », qui est féminin singulier.",
+            "suggestions": [
+              "gaspillée"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "nutritions",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom « nutrition » est généralement un nom non comptable et s'emploie au singulier.",
+            "suggestions": [
+              "nutrition"
+            ],
+            "ruleApplied": "5.3.1.5"
+          },
+          {
+            "text": "lectorats",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Le mot « lectorat » désigne l'ensemble des lecteurs, mais ne s'emploie pas comme apostrophe au pluriel. Il faut utiliser « lecteurs ».",
+            "suggestions": [
+              "lecteurs"
+            ],
+            "ruleApplied": "5.2.2"
+          },
+          {
+            "text": "entraver",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Après l'auxiliaire « être », il faut utiliser le participe passé « entravé » et non l'infinitif « entraver ». Il doit aussi s'accorder avec le sujet « la moitié », qui est féminin singulier.",
+            "suggestions": [
+              "entravée"
+            ],
+            "ruleApplied": "5.3.2.6"
+          },
+          {
+            "text": "nourritures",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom « nourriture » est généralement un nom non comptable et s'emploie au singulier.",
+            "suggestions": [
+              "nourriture"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "éviter",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Après l'auxiliaire « être », il faut utiliser le participe passé « évité » et non l'infinitif « éviter ». Il doit aussi s'accorder avec le sujet « cette situation », qui est féminin singulier.",
+            "suggestions": [
+              "évitée"
+            ],
+            "ruleApplied": "5.3.2.6"
+          },
+          {
+            "text": "prêtes",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif « prêtes » doit s'accorder avec le sujet « nous ». Comme l'apostrophe initiale est « Chers lecteurs » (masculin pluriel), l'accord doit se faire au masculin pluriel.",
+            "suggestions": [
+              "prêts"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "gâchage",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Le mot « gâchage » n'est pas le terme approprié dans ce contexte. Il faut utiliser « gaspillage ».",
+            "suggestions": [
+              "gaspillage"
+            ],
+            "ruleApplied": "5.2.2"
+          },
+          {
+            "text": "important",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif « important » doit s'accorder en genre avec son donneur, « la dilapidation alimentaire » (féminin singulier).",
+            "suggestions": [
+              "importante"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "RECYC- QUÉBEC",
+            "occurenceIndex": 1,
+            "criteria": 5,
+            "type": "(U)",
+            "description": "Répétition de l'erreur d'usage sur la même dénomination.",
+            "suggestions": [
+              "RECYC-QUÉBEC"
+            ],
+            "ruleApplied": "5.1.3"
+          },
+          {
+            "text": "nutritions",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Le mot « nutritions » est incorrect. Le terme approprié est « nourriture » (au singulier) ou « aliments ».",
+            "suggestions": [
+              "nourriture"
+            ],
+            "ruleApplied": "5.2.2"
+          },
+          {
+            "text": "gâchage",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "(U)",
+            "description": "Répétition de l'erreur d'usage sur le mot « gâchage ».",
+            "suggestions": [
+              "gaspillage"
+            ],
+            "ruleApplied": "5.1.3"
+          },
+          {
+            "text": "nourritures",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Le nom « nourriture » est généralement indénombrable et s'emploie au singulier. Il faut écrire « nos restes de nourriture ».",
+            "suggestions": [
+              "nourriture"
+            ],
+            "ruleApplied": "5.2.2"
+          }
+        ],
+        "totalErreursCritere4": 23,
+        "totalErreursCritere5": 15,
+        "scoreCritere4": {
+          "pointsPerdus": 22,
+          "note": "E"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 13,
+          "note": "C"
+        }
+      }
+    ],
+    "erreursCritere4AvantAnalyseIA": [
+      {
+        "text": "aux restaurants",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'emploi de la préposition « aux » est incorrect dans ce contexte. On dépense de l'argent « dans » un lieu ou « au » restaurant (singulier générique).",
+        "suggestions": [
+          "dans les restaurants",
+          "au restaurant"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "s'affronter",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom réfléchi « s' » ne correspond pas au sujet « nous ». La forme correcte est « nous affronter ».",
+        "suggestions": [
+          "nous affronter"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "text": "vous aborder sur",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe « aborder » est un verbe transitif direct, il ne doit pas être suivi de la préposition « sur ». De plus, la construction « vous aborder » est incorrecte ; on aborde un sujet.",
+        "suggestions": [
+          "aborder"
+        ],
+        "ruleApplied": "4.1.2.2.2"
+      },
+      {
+        "text": "parlons sur",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe « parler » se construit avec la préposition « de » pour introduire le sujet de la conversation. On parle « de » quelque chose.",
+        "suggestions": [
+          "parlons des"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "est-il important",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'inversion du sujet (« est-il ») est incorrecte dans une interrogation indirecte introduite par « que ». De plus, l'adjectif « important » doit s'accorder au féminin avec « la dilapidation ».",
+        "suggestions": [
+          "est importante",
+          "soit importante"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "important sur",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'adjectif « important » se construit avec la préposition « pour » et non « sur » dans ce contexte.",
+        "suggestions": [
+          "important pour"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "à chaque année",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression « à chaque année » est un calque de l'anglais. En français, on utilise « chaque année » ou « tous les ans ».",
+        "suggestions": [
+          "chaque année"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "c'est une bonne solution",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom « c' » n'a pas d'antécédent clair, ce qui rend la phrase ambiguë. Il est difficile de comprendre à quoi la « solution » fait référence.",
+        "suggestions": [
+          "Cette situation est problématique et il faut y trouver une solution."
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": "déclaré",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'emploi du participe passé « déclaré » comme verbe principal d'une incise est incorrect. Il faut utiliser un verbe conjugué au présent ou au passé composé.",
+        "suggestions": [
+          "déclare",
+          "a déclaré"
+        ],
+        "ruleApplied": "4.1.2.2.3"
+      },
+      {
+        "text": "aient perdu",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est incorrecte. Un verbe au subjonctif (« aient ») ne peut pas être suivi d'un participe passé de cette manière. Il faut utiliser un participe passé qui s'accorde avec le nom, « la tonne ».",
+        "suggestions": [
+          "perdue"
+        ],
+        "ruleApplied": "4.1.2.2.3"
+      },
+      {
+        "text": "abordons sur",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe « aborder » est transitif direct et ne nécessite pas la préposition « sur ».",
+        "suggestions": [
+          "abordons"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "elle a raison que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution « avoir raison » ne se construit pas directement avec « que ». La construction correcte est « avoir raison de dire que » ou une reformulation.",
+        "suggestions": [
+          "elle a raison de dire que"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "maintenir",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe « maintenir » n'est pas approprié dans ce contexte. Le verbe « conserver » est plus juste pour parler des restes de nourriture.",
+        "suggestions": [
+          "conserver"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": "dit : il a suggéré",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom « il » est superflu et crée une redondance avec le sujet « RECYC-QUÉBEC ». La phrase doit être restructurée.",
+        "suggestions": [
+          "suggère"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "ingrédients justes",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction « ingrédients justes » est boiteuse. Il faut préciser le sens : la bonne sorte d'ingrédients ou la bonne quantité.",
+        "suggestions": [
+          "les bons ingrédients",
+          "la juste quantité d'ingrédients"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "cela est important",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Dans une construction impersonnelle, on utilise le pronom « il » et non « cela ».",
+        "suggestions": [
+          "il est important"
+        ],
+        "ruleApplied": "4.1.2.3.1"
+      },
+      {
+        "text": "commençons",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe « souhaiter que » exprime un souhait et doit être suivi du subjonctif et non de l'indicatif.",
+        "suggestions": [
+          "commencions"
+        ],
+        "ruleApplied": "4.1.2.2.3"
+      },
+      {
+        "text": "s'affronter contre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Pléonasme. Le verbe « affronter » est transitif direct et signifie déjà « faire face à ». On peut utiliser « affronter la dilapidation » ou « lutter contre la dilapidation ».",
+        "suggestions": [
+          "affronter"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "affirme",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe « affirme » est superflu et rend la construction de la phrase boiteuse. La source peut être introduite directement entre parenthèses après l'information citée.",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "affronter de nombreuses pertes d'aliments",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe « affronter » n'a pas le bon sens ici. Il signifie « faire face à », alors que le contexte suggère l'idée de prévention. Il faudrait utiliser « éviter » ou « réduire ».",
+        "suggestions": [
+          "éviter de nombreuses pertes d'aliments"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": "Selon Florence-Léa Siry, l'infographie «À la maison»,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence d'un mot essentiel (une préposition) pour lier les compléments de phrase. Il faudrait écrire : « Selon Florence-Léa Siry, dans l'infographie... ».",
+        "suggestions": [
+          "Selon Florence-Léa Siry, dans l'infographie «À la maison»,"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "savons",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de concordance des temps dans la phrase conditionnelle. Après « si », il faut l'imparfait pour exprimer une hypothèse, car le verbe principal est au conditionnel (« pourrait être »). Il faut écrire « si nous savions ».",
+        "suggestions": [
+          "savions"
+        ],
+        "ruleApplied": "4.1.2.2.3"
+      },
+      {
+        "text": "c'est efficace",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Répétition de la même erreur de syntaxe (tournure impersonnelle incorrecte) dans la même phrase syntaxique.",
+        "suggestions": [
+          "il est efficace"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      }
+    ],
+    "erreursCritere5AvantAnalyseIA": [
+      {
+        "text": "RECYC- QUÉBEC",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Une espace superflue a été insérée dans la dénomination « RECYC-QUÉBEC ».",
+        "suggestions": [
+          "RECYC-QUÉBEC"
+        ],
+        "ruleApplied": "5.2.4.1.2"
+      },
+      {
+        "text": "gaspillés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « gaspillés » doit s'accorder en genre et en nombre avec son sujet « tonnes », qui est féminin pluriel.",
+        "suggestions": [
+          "gaspillées"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "gaspillés",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « gaspillés » doit s'accorder en genre avec le nom qu'il qualifie, « nourriture », qui est féminin singulier.",
+        "suggestions": [
+          "gaspillée"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "nutritions",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « nutrition » est généralement un nom non comptable et s'emploie au singulier.",
+        "suggestions": [
+          "nutrition"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "text": "lectorats",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot « lectorat » désigne l'ensemble des lecteurs, mais ne s'emploie pas comme apostrophe au pluriel. Il faut utiliser « lecteurs ».",
+        "suggestions": [
+          "lecteurs"
+        ],
+        "ruleApplied": "5.2.2"
+      },
+      {
+        "text": "entraver",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après l'auxiliaire « être », il faut utiliser le participe passé « entravé » et non l'infinitif « entraver ». Il doit aussi s'accorder avec le sujet « la moitié », qui est féminin singulier.",
+        "suggestions": [
+          "entravée"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "nourritures",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « nourriture » est généralement un nom non comptable et s'emploie au singulier.",
+        "suggestions": [
+          "nourriture"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "éviter",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après l'auxiliaire « être », il faut utiliser le participe passé « évité » et non l'infinitif « éviter ». Il doit aussi s'accorder avec le sujet « cette situation », qui est féminin singulier.",
+        "suggestions": [
+          "évitée"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "prêtes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « prêtes » doit s'accorder avec le sujet « nous ». Comme l'apostrophe initiale est « Chers lecteurs » (masculin pluriel), l'accord doit se faire au masculin pluriel.",
+        "suggestions": [
+          "prêts"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "gâchage",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot « gâchage » n'est pas le terme approprié dans ce contexte. Il faut utiliser « gaspillage ».",
+        "suggestions": [
+          "gaspillage"
+        ],
+        "ruleApplied": "5.2.2"
+      },
+      {
+        "text": "important",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « important » doit s'accorder en genre avec son donneur, « la dilapidation alimentaire » (féminin singulier).",
+        "suggestions": [
+          "importante"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "RECYC- QUÉBEC",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Répétition de l'erreur d'usage sur la même dénomination.",
+        "suggestions": [
+          "RECYC-QUÉBEC"
+        ],
+        "ruleApplied": "5.1.3"
+      },
+      {
+        "text": "nutritions",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot « nutritions » est incorrect. Le terme approprié est « nourriture » (au singulier) ou « aliments ».",
+        "suggestions": [
+          "nourriture"
+        ],
+        "ruleApplied": "5.2.2"
+      },
+      {
+        "text": "gâchage",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Répétition de l'erreur d'usage sur le mot « gâchage ».",
+        "suggestions": [
+          "gaspillage"
+        ],
+        "ruleApplied": "5.1.3"
+      },
+      {
+        "text": "nourritures",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le nom « nourriture » est généralement indénombrable et s'emploie au singulier. Il faut écrire « nos restes de nourriture ».",
+        "suggestions": [
+          "nourriture"
+        ],
+        "ruleApplied": "5.2.2"
+      }
+    ],
+    "analyseIADuplicatas": {
+      "critere4": {
+        "analyse": {
+          "totalErreursCritere4": 23,
+          "totalErreursCritere5": 0,
+          "duplicatasCritere4": 2,
+          "duplicatasCritere5": 0
+        },
+        "duplicatasCritere4": [
+          {
+            "groupe": 1,
+            "confiance": 95,
+            "raison": "Même erreur (préposition 'sur' incorrecte avec le verbe transitif 'aborder') identifiée sur deux formes verbales différentes. L'erreur à conserver a une description plus détaillée et un contexte textuel plus large.",
+            "erreurs": [
+              {
+                "index": 2,
+                "text": "vous aborder sur",
+                "garder": true
+              },
+              {
+                "index": 10,
+                "text": "abordons sur",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 2,
+            "confiance": 98,
+            "raison": "Même erreur de syntaxe (tournure impersonnelle incorrecte avec 'cela'/'c'' au lieu de 'il'). La description de la deuxième erreur confirme qu'il s'agit d'une répétition du même problème.",
+            "erreurs": [
+              {
+                "index": 15,
+                "text": "cela est important",
+                "garder": true
+              },
+              {
+                "index": 22,
+                "text": "c'est efficace",
+                "garder": false
+              }
+            ]
+          }
+        ],
+        "duplicatasCritere5": [],
+        "erreursUniquesCritere4": [
+          {
+            "index": 0,
+            "text": "aux restaurants",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 1,
+            "text": "s'affronter",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 3,
+            "text": "parlons sur",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 4,
+            "text": "est-il important",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 5,
+            "text": "important sur",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 6,
+            "text": "à chaque année",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 7,
+            "text": "c'est une bonne solution",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 8,
+            "text": "déclaré",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 9,
+            "text": "aient perdu",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 11,
+            "text": "elle a raison que",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 12,
+            "text": "maintenir",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 13,
+            "text": "dit : il a suggéré",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 14,
+            "text": "ingrédients justes",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 16,
+            "text": "commençons",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 17,
+            "text": "s'affronter contre",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 18,
+            "text": "affirme",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 19,
+            "text": "affronter de nombreuses pertes d'aliments",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 20,
+            "text": "Selon Florence-Léa Siry, l'infographie «À la maison»,",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 21,
+            "text": "savons",
+            "raison": "Aucun duplicata trouvé."
+          }
+        ],
+        "erreursUniquesCritere5": [],
+        "recommandations": {
+          "erreursAConserverCritere4": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ],
+          "erreursAConserverCritere5": [],
+          "erreursASupprimer": {
+            "critere4": [
+              10,
+              22
+            ],
+            "critere5": []
+          }
+        }
+      },
+      "critere5": {
+        "analyse": {
+          "totalErreursCritere4": 0,
+          "totalErreursCritere5": 15,
+          "duplicatasCritere4": 0,
+          "duplicatasCritere5": 2
+        },
+        "duplicatasCritere4": [],
+        "duplicatasCritere5": [
+          {
+            "groupe": 1,
+            "confiance": 98,
+            "raison": "Texte, occurrence et suggestion identiques. Descriptions sémantiquement équivalentes (non comptable/indénombrable).",
+            "erreurs": [
+              {
+                "index": 6,
+                "text": "nourritures",
+                "garder": false
+              },
+              {
+                "index": 14,
+                "text": "nourritures",
+                "garder": true
+              }
+            ]
+          },
+          {
+            "groupe": 2,
+            "confiance": 100,
+            "raison": "Texte, occurrence et suggestion identiques. L'erreur principale (index 9) a une description plus détaillée que sa répétition (index 13).",
+            "erreurs": [
+              {
+                "index": 9,
+                "text": "gâchage",
+                "garder": true
+              },
+              {
+                "index": 13,
+                "text": "gâchage",
+                "garder": false
+              }
+            ]
+          }
+        ],
+        "erreursUniquesCritere4": [],
+        "erreursUniquesCritere5": [
+          {
+            "index": 0,
+            "text": "RECYC- QUÉBEC",
+            "raison": "Occurrence 0, distincte de l'erreur à l'occurrence 1."
+          },
+          {
+            "index": 1,
+            "text": "gaspillés",
+            "raison": "Occurrence 0, distincte de l'erreur à l'occurrence 1."
+          },
+          {
+            "index": 2,
+            "text": "gaspillés",
+            "raison": "Occurrence 1, distincte de l'erreur à l'occurrence 0."
+          },
+          {
+            "index": 3,
+            "text": "nutritions",
+            "raison": "Correction distincte (pluralité) d'une autre erreur sur le même mot (index 12)."
+          },
+          {
+            "index": 4,
+            "text": "lectorats",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 5,
+            "text": "entraver",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 7,
+            "text": "éviter",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 8,
+            "text": "prêtes",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 10,
+            "text": "important",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 11,
+            "text": "RECYC- QUÉBEC",
+            "raison": "Occurrence 1, distincte de l'erreur à l'occurrence 0."
+          },
+          {
+            "index": 12,
+            "text": "nutritions",
+            "raison": "Correction distincte (choix de mot) d'une autre erreur sur le même mot (index 3)."
+          }
+        ],
+        "recommandations": {
+          "erreursAConserverCritere4": [],
+          "erreursAConserverCritere5": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            14
+          ],
+          "erreursASupprimer": {
+            "critere4": [],
+            "critere5": [
+              6,
+              13
+            ]
+          }
+        }
+      }
+    }
+  }
+}

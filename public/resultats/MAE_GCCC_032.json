@@ -1,0 +1,1764 @@
+{
+  "processedAt": "2025-12-10T14:19:14.562Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_032.txt",
+    "originalText": "À vos marques, prêts, gaspillez!\r\n\r\nDepuis quelques années, nous voyons dans les nouvelles le problème de surpopulation.Trop de personnes sur la terre, mais pas assez de nourriture.Qu'en est-il de la nourriture disponible jetée ou gaspillée? La question se pose donc: Sommes-nous prêts à lutter contre le gaspillage alimentaire? Selon moi, non.De la production et tranformation des aliments en passant par la vente au détail, nous sommes loin d'être prêts à lutter contre ce fléau.\r\n\r\nPremièrement, lorsque nous allons à l'épicerie, nous avons tous déjà refusés d'acheter un produit à cause de son apparence.La grande majoritée des personnes du monde on le même comportement, ce qui entraîne un gaspillage énorme.Ce problème a tellement prit de l'ampleur que des compagnies ont été créées pour essayer de lutter contre ce problème, comme les compagnies FlashFood ou FoodHero, qui permettent d'acheter à des prix réduits des fruits ou légumes qui ont une apparence anormale.Un autre grand problème est la surconsommation, aussi connue sous le nom de <<avoir les yeux plus grand que la panse>>.Des compagnies qui sont reconnues pour vendre des gros formats, comme Costco par exemple, qui les vend à prix réduits.À plus petite échelle, dans les supermarchés, le nombre de fois que vous avez vus une pancarte en rouge éclatant : <<deux pour le prix d'un!>> Dans votre tête, vous vous disiez sûrement je n'en ai pas besoin, mais c'est gratuit je vais le prendre quand même. C'est cette mentalitée qui amène une surconsommation.Acheter un gros format moins cher mais en avoir trop et le jeter et ensuite répéter ce processus encore et toujours.Par contre, le plus grand gaspillage se trouve souvent dans la maison du consommateur.En effet, 50% du gaspillage alimentaire pourrait être évité si les consommateurs apprenaient à mieux conserver les aliments (1).\r\n\r\nDeuxièmement, le gaspillage alimentaire ne se produit pas seulement dans les magasins.Le gaspillage commence dans les champs mêmes.En effet, à cause du flagrant manque de main d'œuvre, les aliments sont laissés dans les champs.Plus encore, dans toutes les étapes de transport et transformation des aliments, du gaspillage se produit.La transformation, le transport, la vente au détail et pour finir la consommation. Durant la transformation, des erreurs peuvent se produire, ce qui force les personnes dans les usines à se débarrasser des produits affectés.Également, durant le transport, il est probable que certains aliments se fassent endomager.La vente au détail étant le pire dans cette liste, car il existe mille et une façons de gaspiller.Nous avons de la difficultée à ne pas gaspiller avant même que le fruit ou légume soit sorti du sol, alors je ne crois pas que nous soyons capable de commencer à lutter contre le gaspillage.Avez-vous, cher lecteur, déjà essayé de ne pas gaspiller? Si oui, vous avez dû voir à quel point il est difficile de ne pas gaspiller, et aussi vu le manque de mesures pour réutiliser les fruits ou légumes jetés.Il est certes difficile de ne pas gaspiller, mais ce fait combiné avec quasiment aucune mesure d'Informations sur le gaspillage ou même le manque de compostage dans plusieurs villes montre notre immaturitée envers le sujet.\r\n\r\nEn bref, la vente au détail étant un paradis de gaspillage, combiné avec le fait qu'il est presque impossible de récupérer des produits encore bons jetés, montre à quel point nous ne sommes pas prêts à lutter contre le gaspillage.\r\n\r\n1 Corriveau, 2020.",
+    "erreursCritere4": [
+      {
+        "text": "surpopulation.Trop",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une espace est requise après un point pour séparer correctement les phrases.",
+        "suggestions": [
+          "surpopulation. Trop"
+        ],
+        "ruleApplied": "4.2.2.1.2"
+      },
+      {
+        "text": "nourriture.Qu'en",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une espace est requise après un point pour séparer correctement les phrases.",
+        "suggestions": [
+          "nourriture. Qu'en"
+        ],
+        "ruleApplied": "4.2.2.1.2"
+      },
+      {
+        "text": "non.De",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(P)",
+        "description": "Une espace est requise après un point pour séparer correctement les phrases. Erreur non comptée car il y a déjà deux erreurs de ponctuation dans la phrase graphique.",
+        "suggestions": [
+          "non. De"
+        ],
+        "ruleApplied": "4.2.2.1.2"
+      },
+      {
+        "text": "on le même",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence d'un mot essentiel à la structure de la phrase. Le verbe 'a' (conjugué du verbe avoir) est manquant.",
+        "suggestions": [
+          "on a le même"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "<<",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "« P »",
+        "description": "Les guillemets français (« ») doivent être utilisés à la place des guillemets anglais doubles.",
+        "suggestions": [
+          "«"
+        ],
+        "ruleApplied": "4.2.2.5.1"
+      },
+      {
+        "text": "Des compagnies qui sont reconnues pour vendre des gros formats, comme Costco par exemple, qui les vend à prix réduits.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase est une subordonnée sans phrase matrice. Elle est grammaticalement incomplète.",
+        "suggestions": [
+          "Par exemple, des compagnies comme Costco sont reconnues pour vendre de gros formats à prix réduits."
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "text": "<<",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "« P »",
+        "description": "Les guillemets français (« ») doivent être utilisés à la place des guillemets anglais doubles.",
+        "suggestions": [
+          "«"
+        ],
+        "ruleApplied": "4.2.2.5.1"
+      },
+      {
+        "text": "sûrement je",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence du deux-points pour introduire une pensée ou un discours rapporté directement.",
+        "suggestions": [
+          "sûrement :"
+        ],
+        "ruleApplied": "4.2.2.7.1"
+      },
+      {
+        "text": "gratuit je",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de la virgule pour séparer deux phrases syntaxiques indépendantes juxtaposées.",
+        "suggestions": [
+          "gratuit, je"
+        ],
+        "ruleApplied": "4.2.2.10.1c"
+      },
+      {
+        "text": "Acheter un gros format moins cher mais en avoir trop et le jeter et ensuite répéter ce processus encore et toujours.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase est une subordonnée sans phrase matrice. Elle est constituée d'une suite d'infinitifs sans verbe principal conjugué.",
+        "suggestions": [
+          "Ce processus consiste à acheter un gros format moins cher, en avoir trop, le jeter, puis à répéter cela sans cesse."
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "text": "transport et transformation",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence de la répétition de la préposition 'de' dans une énumération, ce qui est requis pour la clarté de la structure syntaxique.",
+        "suggestions": [
+          "transport et de transformation"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "La transformation, le transport, la vente au détail et pour finir la consommation.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase est une subordonnée sans phrase matrice. Il s'agit d'une énumération qui n'est pas rattachée à un verbe principal.",
+        "suggestions": [
+          "Le gaspillage se produit à toutes les étapes : la transformation, le transport, la vente au détail et, pour finir, la consommation."
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "text": "cher lecteur",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de la virgule pour isoler l'apostrophe 'cher lecteur'.",
+        "suggestions": [
+          "cher lecteur,"
+        ],
+        "ruleApplied": "4.2.2.10.1h"
+      },
+      {
+        "text": "envers le sujet",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Emploi erroné de la préposition 'envers', qui s'utilise généralement pour des personnes. Les prépositions 'à l'égard de' ou 'sur' sont plus appropriées ici.",
+        "suggestions": [
+          "à l'égard du sujet",
+          "sur le sujet"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "1 Corriveau",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence du point après le numéro dans une liste ou une référence bibliographique.",
+        "suggestions": [
+          "1. Corriveau"
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "text": "Trop de personnes sur la terre, mais pas assez de nourriture.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase nominale, sans verbe conjugué principal, est présentée comme une phrase complète, ce qui constitue une rupture syntaxique. Il s'agit d'une phrase non autonome (fragment).",
+        "suggestions": [
+          "Il y a trop de personnes sur la terre, mais pas assez de nourriture."
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "text": "la vente au détail étant un paradis de gaspillage, combiné avec le fait qu'il est presque impossible de récupérer des produits encore bons jetés, montre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction de phrase boiteuse. Le groupe participial « la vente au détail étant... » est mal rattaché à la phrase principale. Le sujet du verbe « montre » est absent ou ambigu.",
+        "suggestions": [
+          "Le fait que la vente au détail soit un paradis de gaspillage, combiné au fait qu'il est presque impossible de récupérer des produits encore bons, montre..."
+        ],
+        "ruleApplied": "4.1.2.1.7"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 12,
+      "note": "C"
+    },
+    "erreursCritere5": [
+      {
+        "text": "tranformation",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage. Le mot 'transformation' s'écrit avec un 's'.",
+        "suggestions": [
+          "transformation"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "refusés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'refusé' conjugué avec l'auxiliaire 'avoir' ne s'accorde pas, car le complément d'objet direct 'd'acheter un produit' est placé après le verbe.",
+        "suggestions": [
+          "refusé"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "majoritée",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage. Le mot 'majorité' se termine par 'é' et non 'ée'.",
+        "suggestions": [
+          "majorité"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "prit",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Barbarisme de conjugaison. Le participe passé du verbe 'prendre' est 'pris', et non 'prit' qui est la forme du passé simple.",
+        "suggestions": [
+          "pris"
+        ],
+        "ruleApplied": "5.3.2.1"
+      },
+      {
+        "text": "grand",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'grand' doit s'accorder en genre et en nombre avec le nom 'yeux' (masculin pluriel). L'expression correcte est 'avoir les yeux plus gros que la panse'.",
+        "suggestions": [
+          "grands"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "vus",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'vu' conjugué avec l'auxiliaire 'avoir' ne s'accorde pas, car le complément d'objet direct 'une pancarte' est placé après le verbe.",
+        "suggestions": [
+          "vu"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "mentalitée",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage. Le mot 'mentalité' se termine par 'é' et non 'ée'.",
+        "suggestions": [
+          "mentalité"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "main d'œuvre",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Absence du trait d'union dans le nom composé 'main-d'œuvre'.",
+        "suggestions": [
+          "main-d'œuvre"
+        ],
+        "ruleApplied": "5.2.1.7.1"
+      },
+      {
+        "text": "endomager",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage. Le verbe 'endommager' s'écrit avec deux 'm'.",
+        "suggestions": [
+          "endommager"
+        ],
+        "ruleApplied": "5.2.1.6"
+      },
+      {
+        "text": "difficultée",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage. Le mot 'difficulté' se termine par 'é' et non 'ée'.",
+        "suggestions": [
+          "difficulté"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "capable",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'capable' doit s'accorder en nombre avec le pronom 'nous' (pluriel) auquel il se rapporte.",
+        "suggestions": [
+          "capables"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "Informations",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "La majuscule n'est pas justifiée pour ce nom commun.",
+        "suggestions": [
+          "informations"
+        ],
+        "ruleApplied": "5.2.4.1"
+      },
+      {
+        "text": "immaturitée",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage. Le mot 'immaturité' se termine par 'é' et non 'ée'.",
+        "suggestions": [
+          "immaturité"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "combiné",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'combiné', employé comme adjectif, doit s'accorder en genre et en nombre avec le nom qu'il qualifie, 'la vente au détail' (féminin singulier).",
+        "suggestions": [
+          "combinée"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "on",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'homophone grammatical « on » (pronom personnel) et « ont » (verbe avoir à la 3e personne du pluriel). Le sujet « La grande majorité des personnes » commande le verbe « avoir ».",
+        "suggestions": [
+          "ont"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "text": "d'Informations",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « information », complément du nom « mesure », est employé ici dans un sens général et devrait être au singulier.",
+        "suggestions": [
+          "d'information"
+        ],
+        "ruleApplied": "5.3.1.5"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 16,
+      "note": "D"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:14:30.080Z",
+    "endTimestamp": "2025-12-10T14:19:14.562Z",
+    "durationMs": 284482,
+    "durationFormatted": "04:44:482",
+    "cumulParPasse": [
+      {
+        "passe": 1,
+        "erreursCritere4": [
+          {
+            "text": "surpopulation.Trop",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Une espace est requise après un point pour séparer correctement les phrases.",
+            "suggestions": [
+              "surpopulation. Trop"
+            ],
+            "ruleApplied": "4.2.2.1.2"
+          },
+          {
+            "text": "nourriture.Qu'en",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Une espace est requise après un point pour séparer correctement les phrases.",
+            "suggestions": [
+              "nourriture. Qu'en"
+            ],
+            "ruleApplied": "4.2.2.1.2"
+          },
+          {
+            "text": "non.De",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(P)",
+            "description": "Une espace est requise après un point pour séparer correctement les phrases. Erreur non comptée car il y a déjà deux erreurs de ponctuation dans la phrase graphique.",
+            "suggestions": [
+              "non. De"
+            ],
+            "ruleApplied": "4.2.2.1.2"
+          },
+          {
+            "text": "on le même",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Absence d'un mot essentiel à la structure de la phrase. Le verbe 'a' (conjugué du verbe avoir) est manquant.",
+            "suggestions": [
+              "on a le même"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "<<",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "« P »",
+            "description": "Les guillemets français (« ») doivent être utilisés à la place des guillemets anglais doubles.",
+            "suggestions": [
+              "«"
+            ],
+            "ruleApplied": "4.2.2.5.1"
+          },
+          {
+            "text": "Des compagnies qui sont reconnues pour vendre des gros formats, comme Costco par exemple, qui les vend à prix réduits.",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Cette phrase est une subordonnée sans phrase matrice. Elle est grammaticalement incomplète.",
+            "suggestions": [
+              "Par exemple, des compagnies comme Costco sont reconnues pour vendre de gros formats à prix réduits."
+            ],
+            "ruleApplied": "4.1.2.1.4"
+          },
+          {
+            "text": "<<",
+            "occurenceIndex": 1,
+            "criteria": 4,
+            "type": "« P »",
+            "description": "Les guillemets français (« ») doivent être utilisés à la place des guillemets anglais doubles.",
+            "suggestions": [
+              "«"
+            ],
+            "ruleApplied": "4.2.2.5.1"
+          },
+          {
+            "text": "sûrement je",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Absence du deux-points pour introduire une pensée ou un discours rapporté directement.",
+            "suggestions": [
+              "sûrement :"
+            ],
+            "ruleApplied": "4.2.2.7.1"
+          },
+          {
+            "text": "gratuit je",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Absence de la virgule pour séparer deux phrases syntaxiques indépendantes juxtaposées.",
+            "suggestions": [
+              "gratuit, je"
+            ],
+            "ruleApplied": "4.2.2.10.1c"
+          },
+          {
+            "text": "Acheter un gros format moins cher mais en avoir trop et le jeter et ensuite répéter ce processus encore et toujours.",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Cette phrase est une subordonnée sans phrase matrice. Elle est constituée d'une suite d'infinitifs sans verbe principal conjugué.",
+            "suggestions": [
+              "Ce processus consiste à acheter un gros format moins cher, en avoir trop, le jeter, puis à répéter cela sans cesse."
+            ],
+            "ruleApplied": "4.1.2.1.4"
+          },
+          {
+            "text": "transport et transformation",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Absence de la répétition de la préposition 'de' dans une énumération, ce qui est requis pour la clarté de la structure syntaxique.",
+            "suggestions": [
+              "transport et de transformation"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "La transformation, le transport, la vente au détail et pour finir la consommation.",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Cette phrase est une subordonnée sans phrase matrice. Il s'agit d'une énumération qui n'est pas rattachée à un verbe principal.",
+            "suggestions": [
+              "Le gaspillage se produit à toutes les étapes : la transformation, le transport, la vente au détail et, pour finir, la consommation."
+            ],
+            "ruleApplied": "4.1.2.1.4"
+          },
+          {
+            "text": "cher lecteur",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Absence de la virgule pour isoler l'apostrophe 'cher lecteur'.",
+            "suggestions": [
+              "cher lecteur,"
+            ],
+            "ruleApplied": "4.2.2.10.1h"
+          },
+          {
+            "text": "envers le sujet",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Emploi erroné de la préposition 'envers', qui s'utilise généralement pour des personnes. Les prépositions 'à l'égard de' ou 'sur' sont plus appropriées ici.",
+            "suggestions": [
+              "à l'égard du sujet",
+              "sur le sujet"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "1 Corriveau",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Absence du point après le numéro dans une liste ou une référence bibliographique.",
+            "suggestions": [
+              "1. Corriveau"
+            ],
+            "ruleApplied": "4.2.2.1.1"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "tranformation",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Erreur d'orthographe d'usage. Le mot 'transformation' s'écrit avec un 's'.",
+            "suggestions": [
+              "transformation"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "refusés",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé 'refusé' conjugué avec l'auxiliaire 'avoir' ne s'accorde pas, car le complément d'objet direct 'd'acheter un produit' est placé après le verbe.",
+            "suggestions": [
+              "refusé"
+            ],
+            "ruleApplied": "5.3.2.6"
+          },
+          {
+            "text": "majoritée",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Erreur d'orthographe d'usage. Le mot 'majorité' se termine par 'é' et non 'ée'.",
+            "suggestions": [
+              "majorité"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "prit",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Barbarisme de conjugaison. Le participe passé du verbe 'prendre' est 'pris', et non 'prit' qui est la forme du passé simple.",
+            "suggestions": [
+              "pris"
+            ],
+            "ruleApplied": "5.3.2.1"
+          },
+          {
+            "text": "grand",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif 'grand' doit s'accorder en genre et en nombre avec le nom 'yeux' (masculin pluriel). L'expression correcte est 'avoir les yeux plus gros que la panse'.",
+            "suggestions": [
+              "grands"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "vus",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé 'vu' conjugué avec l'auxiliaire 'avoir' ne s'accorde pas, car le complément d'objet direct 'une pancarte' est placé après le verbe.",
+            "suggestions": [
+              "vu"
+            ],
+            "ruleApplied": "5.3.2.6"
+          },
+          {
+            "text": "mentalitée",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Erreur d'orthographe d'usage. Le mot 'mentalité' se termine par 'é' et non 'ée'.",
+            "suggestions": [
+              "mentalité"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "main d'œuvre",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Absence du trait d'union dans le nom composé 'main-d'œuvre'.",
+            "suggestions": [
+              "main-d'œuvre"
+            ],
+            "ruleApplied": "5.2.1.7.1"
+          },
+          {
+            "text": "endomager",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Erreur d'orthographe d'usage. Le verbe 'endommager' s'écrit avec deux 'm'.",
+            "suggestions": [
+              "endommager"
+            ],
+            "ruleApplied": "5.2.1.6"
+          },
+          {
+            "text": "difficultée",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Erreur d'orthographe d'usage. Le mot 'difficulté' se termine par 'é' et non 'ée'.",
+            "suggestions": [
+              "difficulté"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "capable",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif 'capable' doit s'accorder en nombre avec le pronom 'nous' (pluriel) auquel il se rapporte.",
+            "suggestions": [
+              "capables"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "Informations",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "La majuscule n'est pas justifiée pour ce nom commun.",
+            "suggestions": [
+              "informations"
+            ],
+            "ruleApplied": "5.2.4.1"
+          },
+          {
+            "text": "immaturitée",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Erreur d'orthographe d'usage. Le mot 'immaturité' se termine par 'é' et non 'ée'.",
+            "suggestions": [
+              "immaturité"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "combiné",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé 'combiné', employé comme adjectif, doit s'accorder en genre et en nombre avec le nom qu'il qualifie, 'la vente au détail' (féminin singulier).",
+            "suggestions": [
+              "combinée"
+            ],
+            "ruleApplied": "5.3.2.3"
+          }
+        ],
+        "totalErreursCritere4": 15,
+        "totalErreursCritere5": 14,
+        "scoreCritere4": {
+          "pointsPerdus": 10,
+          "note": "C"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 14,
+          "note": "C"
+        }
+      },
+      {
+        "passe": 2,
+        "erreursCritere4": [
+          {
+            "text": "surpopulation.Trop",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Une espace est requise après un point pour séparer correctement les phrases.",
+            "suggestions": [
+              "surpopulation. Trop"
+            ],
+            "ruleApplied": "4.2.2.1.2"
+          },
+          {
+            "text": "nourriture.Qu'en",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Une espace est requise après un point pour séparer correctement les phrases.",
+            "suggestions": [
+              "nourriture. Qu'en"
+            ],
+            "ruleApplied": "4.2.2.1.2"
+          },
+          {
+            "text": "non.De",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(P)",
+            "description": "Une espace est requise après un point pour séparer correctement les phrases. Erreur non comptée car il y a déjà deux erreurs de ponctuation dans la phrase graphique.",
+            "suggestions": [
+              "non. De"
+            ],
+            "ruleApplied": "4.2.2.1.2"
+          },
+          {
+            "text": "on le même",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Absence d'un mot essentiel à la structure de la phrase. Le verbe 'a' (conjugué du verbe avoir) est manquant.",
+            "suggestions": [
+              "on a le même"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "<<",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "« P »",
+            "description": "Les guillemets français (« ») doivent être utilisés à la place des guillemets anglais doubles.",
+            "suggestions": [
+              "«"
+            ],
+            "ruleApplied": "4.2.2.5.1"
+          },
+          {
+            "text": "Des compagnies qui sont reconnues pour vendre des gros formats, comme Costco par exemple, qui les vend à prix réduits.",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Cette phrase est une subordonnée sans phrase matrice. Elle est grammaticalement incomplète.",
+            "suggestions": [
+              "Par exemple, des compagnies comme Costco sont reconnues pour vendre de gros formats à prix réduits."
+            ],
+            "ruleApplied": "4.1.2.1.4"
+          },
+          {
+            "text": "<<",
+            "occurenceIndex": 1,
+            "criteria": 4,
+            "type": "« P »",
+            "description": "Les guillemets français (« ») doivent être utilisés à la place des guillemets anglais doubles.",
+            "suggestions": [
+              "«"
+            ],
+            "ruleApplied": "4.2.2.5.1"
+          },
+          {
+            "text": "sûrement je",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Absence du deux-points pour introduire une pensée ou un discours rapporté directement.",
+            "suggestions": [
+              "sûrement :"
+            ],
+            "ruleApplied": "4.2.2.7.1"
+          },
+          {
+            "text": "gratuit je",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Absence de la virgule pour séparer deux phrases syntaxiques indépendantes juxtaposées.",
+            "suggestions": [
+              "gratuit, je"
+            ],
+            "ruleApplied": "4.2.2.10.1c"
+          },
+          {
+            "text": "Acheter un gros format moins cher mais en avoir trop et le jeter et ensuite répéter ce processus encore et toujours.",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Cette phrase est une subordonnée sans phrase matrice. Elle est constituée d'une suite d'infinitifs sans verbe principal conjugué.",
+            "suggestions": [
+              "Ce processus consiste à acheter un gros format moins cher, en avoir trop, le jeter, puis à répéter cela sans cesse."
+            ],
+            "ruleApplied": "4.1.2.1.4"
+          },
+          {
+            "text": "transport et transformation",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Absence de la répétition de la préposition 'de' dans une énumération, ce qui est requis pour la clarté de la structure syntaxique.",
+            "suggestions": [
+              "transport et de transformation"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "La transformation, le transport, la vente au détail et pour finir la consommation.",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Cette phrase est une subordonnée sans phrase matrice. Il s'agit d'une énumération qui n'est pas rattachée à un verbe principal.",
+            "suggestions": [
+              "Le gaspillage se produit à toutes les étapes : la transformation, le transport, la vente au détail et, pour finir, la consommation."
+            ],
+            "ruleApplied": "4.1.2.1.4"
+          },
+          {
+            "text": "cher lecteur",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Absence de la virgule pour isoler l'apostrophe 'cher lecteur'.",
+            "suggestions": [
+              "cher lecteur,"
+            ],
+            "ruleApplied": "4.2.2.10.1h"
+          },
+          {
+            "text": "envers le sujet",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Emploi erroné de la préposition 'envers', qui s'utilise généralement pour des personnes. Les prépositions 'à l'égard de' ou 'sur' sont plus appropriées ici.",
+            "suggestions": [
+              "à l'égard du sujet",
+              "sur le sujet"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "1 Corriveau",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Absence du point après le numéro dans une liste ou une référence bibliographique.",
+            "suggestions": [
+              "1. Corriveau"
+            ],
+            "ruleApplied": "4.2.2.1.1"
+          },
+          {
+            "text": "Trop de personnes sur la terre, mais pas assez de nourriture.",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Cette phrase nominale, sans verbe conjugué principal, est présentée comme une phrase complète, ce qui constitue une rupture syntaxique. Il s'agit d'une phrase non autonome (fragment).",
+            "suggestions": [
+              "Il y a trop de personnes sur la terre, mais pas assez de nourriture."
+            ],
+            "ruleApplied": "4.1.2.1.4"
+          },
+          {
+            "text": "la vente au détail étant un paradis de gaspillage, combiné avec le fait qu'il est presque impossible de récupérer des produits encore bons jetés, montre",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Construction de phrase boiteuse. Le groupe participial « la vente au détail étant... » est mal rattaché à la phrase principale. Le sujet du verbe « montre » est absent ou ambigu.",
+            "suggestions": [
+              "Le fait que la vente au détail soit un paradis de gaspillage, combiné au fait qu'il est presque impossible de récupérer des produits encore bons, montre..."
+            ],
+            "ruleApplied": "4.1.2.1.7"
+          },
+          {
+            "text": "1",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Il manque un point après le numéro de renvoi en bas de page.",
+            "suggestions": [
+              "1."
+            ],
+            "ruleApplied": "4.2.2.1.1"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "tranformation",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Erreur d'orthographe d'usage. Le mot 'transformation' s'écrit avec un 's'.",
+            "suggestions": [
+              "transformation"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "refusés",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé 'refusé' conjugué avec l'auxiliaire 'avoir' ne s'accorde pas, car le complément d'objet direct 'd'acheter un produit' est placé après le verbe.",
+            "suggestions": [
+              "refusé"
+            ],
+            "ruleApplied": "5.3.2.6"
+          },
+          {
+            "text": "majoritée",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Erreur d'orthographe d'usage. Le mot 'majorité' se termine par 'é' et non 'ée'.",
+            "suggestions": [
+              "majorité"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "prit",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Barbarisme de conjugaison. Le participe passé du verbe 'prendre' est 'pris', et non 'prit' qui est la forme du passé simple.",
+            "suggestions": [
+              "pris"
+            ],
+            "ruleApplied": "5.3.2.1"
+          },
+          {
+            "text": "grand",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif 'grand' doit s'accorder en genre et en nombre avec le nom 'yeux' (masculin pluriel). L'expression correcte est 'avoir les yeux plus gros que la panse'.",
+            "suggestions": [
+              "grands"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "vus",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé 'vu' conjugué avec l'auxiliaire 'avoir' ne s'accorde pas, car le complément d'objet direct 'une pancarte' est placé après le verbe.",
+            "suggestions": [
+              "vu"
+            ],
+            "ruleApplied": "5.3.2.6"
+          },
+          {
+            "text": "mentalitée",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Erreur d'orthographe d'usage. Le mot 'mentalité' se termine par 'é' et non 'ée'.",
+            "suggestions": [
+              "mentalité"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "main d'œuvre",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Absence du trait d'union dans le nom composé 'main-d'œuvre'.",
+            "suggestions": [
+              "main-d'œuvre"
+            ],
+            "ruleApplied": "5.2.1.7.1"
+          },
+          {
+            "text": "endomager",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Erreur d'orthographe d'usage. Le verbe 'endommager' s'écrit avec deux 'm'.",
+            "suggestions": [
+              "endommager"
+            ],
+            "ruleApplied": "5.2.1.6"
+          },
+          {
+            "text": "difficultée",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Erreur d'orthographe d'usage. Le mot 'difficulté' se termine par 'é' et non 'ée'.",
+            "suggestions": [
+              "difficulté"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "capable",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif 'capable' doit s'accorder en nombre avec le pronom 'nous' (pluriel) auquel il se rapporte.",
+            "suggestions": [
+              "capables"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "Informations",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "La majuscule n'est pas justifiée pour ce nom commun.",
+            "suggestions": [
+              "informations"
+            ],
+            "ruleApplied": "5.2.4.1"
+          },
+          {
+            "text": "immaturitée",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Erreur d'orthographe d'usage. Le mot 'immaturité' se termine par 'é' et non 'ée'.",
+            "suggestions": [
+              "immaturité"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "combiné",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé 'combiné', employé comme adjectif, doit s'accorder en genre et en nombre avec le nom qu'il qualifie, 'la vente au détail' (féminin singulier).",
+            "suggestions": [
+              "combinée"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "on",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre l'homophone grammatical « on » (pronom personnel) et « ont » (verbe avoir à la 3e personne du pluriel). Le sujet « La grande majorité des personnes » commande le verbe « avoir ».",
+            "suggestions": [
+              "ont"
+            ],
+            "ruleApplied": "5.3.3.1"
+          },
+          {
+            "text": "d'Informations",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom « information », complément du nom « mesure », est employé ici dans un sens général et devrait être au singulier.",
+            "suggestions": [
+              "d'information"
+            ],
+            "ruleApplied": "5.3.1.5"
+          }
+        ],
+        "totalErreursCritere4": 18,
+        "totalErreursCritere5": 16,
+        "scoreCritere4": {
+          "pointsPerdus": 12.5,
+          "note": "C"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 16,
+          "note": "D"
+        }
+      }
+    ],
+    "erreursCritere4AvantAnalyseIA": [
+      {
+        "text": "surpopulation.Trop",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une espace est requise après un point pour séparer correctement les phrases.",
+        "suggestions": [
+          "surpopulation. Trop"
+        ],
+        "ruleApplied": "4.2.2.1.2"
+      },
+      {
+        "text": "nourriture.Qu'en",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une espace est requise après un point pour séparer correctement les phrases.",
+        "suggestions": [
+          "nourriture. Qu'en"
+        ],
+        "ruleApplied": "4.2.2.1.2"
+      },
+      {
+        "text": "non.De",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(P)",
+        "description": "Une espace est requise après un point pour séparer correctement les phrases. Erreur non comptée car il y a déjà deux erreurs de ponctuation dans la phrase graphique.",
+        "suggestions": [
+          "non. De"
+        ],
+        "ruleApplied": "4.2.2.1.2"
+      },
+      {
+        "text": "on le même",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence d'un mot essentiel à la structure de la phrase. Le verbe 'a' (conjugué du verbe avoir) est manquant.",
+        "suggestions": [
+          "on a le même"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "<<",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "« P »",
+        "description": "Les guillemets français (« ») doivent être utilisés à la place des guillemets anglais doubles.",
+        "suggestions": [
+          "«"
+        ],
+        "ruleApplied": "4.2.2.5.1"
+      },
+      {
+        "text": "Des compagnies qui sont reconnues pour vendre des gros formats, comme Costco par exemple, qui les vend à prix réduits.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase est une subordonnée sans phrase matrice. Elle est grammaticalement incomplète.",
+        "suggestions": [
+          "Par exemple, des compagnies comme Costco sont reconnues pour vendre de gros formats à prix réduits."
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "text": "<<",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "« P »",
+        "description": "Les guillemets français (« ») doivent être utilisés à la place des guillemets anglais doubles.",
+        "suggestions": [
+          "«"
+        ],
+        "ruleApplied": "4.2.2.5.1"
+      },
+      {
+        "text": "sûrement je",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence du deux-points pour introduire une pensée ou un discours rapporté directement.",
+        "suggestions": [
+          "sûrement :"
+        ],
+        "ruleApplied": "4.2.2.7.1"
+      },
+      {
+        "text": "gratuit je",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de la virgule pour séparer deux phrases syntaxiques indépendantes juxtaposées.",
+        "suggestions": [
+          "gratuit, je"
+        ],
+        "ruleApplied": "4.2.2.10.1c"
+      },
+      {
+        "text": "Acheter un gros format moins cher mais en avoir trop et le jeter et ensuite répéter ce processus encore et toujours.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase est une subordonnée sans phrase matrice. Elle est constituée d'une suite d'infinitifs sans verbe principal conjugué.",
+        "suggestions": [
+          "Ce processus consiste à acheter un gros format moins cher, en avoir trop, le jeter, puis à répéter cela sans cesse."
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "text": "transport et transformation",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence de la répétition de la préposition 'de' dans une énumération, ce qui est requis pour la clarté de la structure syntaxique.",
+        "suggestions": [
+          "transport et de transformation"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "La transformation, le transport, la vente au détail et pour finir la consommation.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase est une subordonnée sans phrase matrice. Il s'agit d'une énumération qui n'est pas rattachée à un verbe principal.",
+        "suggestions": [
+          "Le gaspillage se produit à toutes les étapes : la transformation, le transport, la vente au détail et, pour finir, la consommation."
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "text": "cher lecteur",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de la virgule pour isoler l'apostrophe 'cher lecteur'.",
+        "suggestions": [
+          "cher lecteur,"
+        ],
+        "ruleApplied": "4.2.2.10.1h"
+      },
+      {
+        "text": "envers le sujet",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Emploi erroné de la préposition 'envers', qui s'utilise généralement pour des personnes. Les prépositions 'à l'égard de' ou 'sur' sont plus appropriées ici.",
+        "suggestions": [
+          "à l'égard du sujet",
+          "sur le sujet"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "1 Corriveau",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence du point après le numéro dans une liste ou une référence bibliographique.",
+        "suggestions": [
+          "1. Corriveau"
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "text": "Trop de personnes sur la terre, mais pas assez de nourriture.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase nominale, sans verbe conjugué principal, est présentée comme une phrase complète, ce qui constitue une rupture syntaxique. Il s'agit d'une phrase non autonome (fragment).",
+        "suggestions": [
+          "Il y a trop de personnes sur la terre, mais pas assez de nourriture."
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "text": "la vente au détail étant un paradis de gaspillage, combiné avec le fait qu'il est presque impossible de récupérer des produits encore bons jetés, montre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction de phrase boiteuse. Le groupe participial « la vente au détail étant... » est mal rattaché à la phrase principale. Le sujet du verbe « montre » est absent ou ambigu.",
+        "suggestions": [
+          "Le fait que la vente au détail soit un paradis de gaspillage, combiné au fait qu'il est presque impossible de récupérer des produits encore bons, montre..."
+        ],
+        "ruleApplied": "4.1.2.1.7"
+      },
+      {
+        "text": "1",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque un point après le numéro de renvoi en bas de page.",
+        "suggestions": [
+          "1."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      }
+    ],
+    "erreursCritere5AvantAnalyseIA": [
+      {
+        "text": "tranformation",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage. Le mot 'transformation' s'écrit avec un 's'.",
+        "suggestions": [
+          "transformation"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "refusés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'refusé' conjugué avec l'auxiliaire 'avoir' ne s'accorde pas, car le complément d'objet direct 'd'acheter un produit' est placé après le verbe.",
+        "suggestions": [
+          "refusé"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "majoritée",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage. Le mot 'majorité' se termine par 'é' et non 'ée'.",
+        "suggestions": [
+          "majorité"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "prit",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Barbarisme de conjugaison. Le participe passé du verbe 'prendre' est 'pris', et non 'prit' qui est la forme du passé simple.",
+        "suggestions": [
+          "pris"
+        ],
+        "ruleApplied": "5.3.2.1"
+      },
+      {
+        "text": "grand",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'grand' doit s'accorder en genre et en nombre avec le nom 'yeux' (masculin pluriel). L'expression correcte est 'avoir les yeux plus gros que la panse'.",
+        "suggestions": [
+          "grands"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "vus",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'vu' conjugué avec l'auxiliaire 'avoir' ne s'accorde pas, car le complément d'objet direct 'une pancarte' est placé après le verbe.",
+        "suggestions": [
+          "vu"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "mentalitée",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage. Le mot 'mentalité' se termine par 'é' et non 'ée'.",
+        "suggestions": [
+          "mentalité"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "main d'œuvre",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Absence du trait d'union dans le nom composé 'main-d'œuvre'.",
+        "suggestions": [
+          "main-d'œuvre"
+        ],
+        "ruleApplied": "5.2.1.7.1"
+      },
+      {
+        "text": "endomager",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage. Le verbe 'endommager' s'écrit avec deux 'm'.",
+        "suggestions": [
+          "endommager"
+        ],
+        "ruleApplied": "5.2.1.6"
+      },
+      {
+        "text": "difficultée",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage. Le mot 'difficulté' se termine par 'é' et non 'ée'.",
+        "suggestions": [
+          "difficulté"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "capable",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'capable' doit s'accorder en nombre avec le pronom 'nous' (pluriel) auquel il se rapporte.",
+        "suggestions": [
+          "capables"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "Informations",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "La majuscule n'est pas justifiée pour ce nom commun.",
+        "suggestions": [
+          "informations"
+        ],
+        "ruleApplied": "5.2.4.1"
+      },
+      {
+        "text": "immaturitée",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage. Le mot 'immaturité' se termine par 'é' et non 'ée'.",
+        "suggestions": [
+          "immaturité"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "combiné",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'combiné', employé comme adjectif, doit s'accorder en genre et en nombre avec le nom qu'il qualifie, 'la vente au détail' (féminin singulier).",
+        "suggestions": [
+          "combinée"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "on",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'homophone grammatical « on » (pronom personnel) et « ont » (verbe avoir à la 3e personne du pluriel). Le sujet « La grande majorité des personnes » commande le verbe « avoir ».",
+        "suggestions": [
+          "ont"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "text": "d'Informations",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « information », complément du nom « mesure », est employé ici dans un sens général et devrait être au singulier.",
+        "suggestions": [
+          "d'information"
+        ],
+        "ruleApplied": "5.3.1.5"
+      }
+    ],
+    "analyseIADuplicatas": {
+      "critere4": {
+        "analyse": {
+          "totalErreursCritere4": 18,
+          "totalErreursCritere5": 0,
+          "duplicatasCritere4": 1,
+          "duplicatasCritere5": 0
+        },
+        "duplicatasCritere4": [
+          {
+            "groupe": 1,
+            "confiance": 95,
+            "raison": "Même erreur de ponctuation (point manquant après un chiffre) au même emplacement. Le texte de l'erreur 17 est inclus dans celui de l'erreur 14, la règle appliquée et l'index d'occurrence sont identiques.",
+            "erreurs": [
+              {
+                "index": 14,
+                "text": "1 Corriveau",
+                "garder": true
+              },
+              {
+                "index": 17,
+                "text": "1",
+                "garder": false
+              }
+            ]
+          }
+        ],
+        "duplicatasCritere5": [],
+        "erreursUniquesCritere4": [
+          {
+            "index": 0,
+            "text": "surpopulation.Trop",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 1,
+            "text": "nourriture.Qu'en",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 2,
+            "text": "non.De",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 3,
+            "text": "on le même",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 4,
+            "text": "<<",
+            "raison": "Erreur distincte de l'index 6 en raison d'un 'occurenceIndex' différent."
+          },
+          {
+            "index": 5,
+            "text": "Des compagnies qui sont reconnues pour vendre des gros formats, comme Costco par exemple, qui les vend à prix réduits.",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 6,
+            "text": "<<",
+            "raison": "Erreur distincte de l'index 4 en raison d'un 'occurenceIndex' différent."
+          },
+          {
+            "index": 7,
+            "text": "sûrement je",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 8,
+            "text": "gratuit je",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 9,
+            "text": "Acheter un gros format moins cher mais en avoir trop et le jeter et ensuite répéter ce processus encore et toujours.",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 10,
+            "text": "transport et transformation",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 11,
+            "text": "La transformation, le transport, la vente au détail et pour finir la consommation.",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 12,
+            "text": "cher lecteur",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 13,
+            "text": "envers le sujet",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 15,
+            "text": "Trop de personnes sur la terre, mais pas assez de nourriture.",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 16,
+            "text": "la vente au détail étant un paradis de gaspillage, combiné avec le fait qu'il est presque impossible de récupérer des produits encore bons jetés, montre",
+            "raison": "Aucun duplicata trouvé."
+          }
+        ],
+        "erreursUniquesCritere5": [],
+        "recommandations": {
+          "erreursAConserverCritere4": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "erreursAConserverCritere5": [],
+          "erreursASupprimer": {
+            "critere4": [
+              17
+            ],
+            "critere5": []
+          }
+        }
+      },
+      "critere5": {
+        "analyse": {
+          "totalErreursCritere4": 0,
+          "totalErreursCritere5": 16,
+          "duplicatasCritere4": 0,
+          "duplicatasCritere5": 0
+        },
+        "duplicatasCritere4": [],
+        "duplicatasCritere5": [],
+        "erreursUniquesCritere4": [],
+        "erreursUniquesCritere5": [
+          {
+            "index": 0,
+            "text": "tranformation",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 1,
+            "text": "refusés",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 2,
+            "text": "majoritée",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 3,
+            "text": "prit",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 4,
+            "text": "grand",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 5,
+            "text": "vus",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 6,
+            "text": "mentalitée",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 7,
+            "text": "main d'œuvre",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 8,
+            "text": "endomager",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 9,
+            "text": "difficultée",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 10,
+            "text": "capable",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 11,
+            "text": "Informations",
+            "raison": "Erreur de capitalisation distincte de l'erreur de nombre sur le même mot."
+          },
+          {
+            "index": 12,
+            "text": "immaturitée",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 13,
+            "text": "combiné",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 14,
+            "text": "on",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 15,
+            "text": "d'Informations",
+            "raison": "Erreur de nombre distincte de l'erreur de capitalisation sur le même mot."
+          }
+        ],
+        "recommandations": {
+          "erreursAConserverCritere4": [],
+          "erreursAConserverCritere5": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "erreursASupprimer": {
+            "critere4": [],
+            "critere5": []
+          }
+        }
+      }
+    }
+  }
+}

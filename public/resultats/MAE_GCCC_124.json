@@ -1,0 +1,3252 @@
+{
+  "processedAt": "2025-12-10T15:05:18.761Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_124.txt",
+    "originalText": "Le gaspillage que nous faison\r\n\r\nChers lecteurs,\r\n\r\nLa nourriture est une de plus important dans notre vie. C'est qu'on mange pour tous les jours, sans la nourriture comment pouvons-nous vivre ? Quand sommes-nous prêts d'arrêter le gaspillage d'alimentaire ? Pour moi, nous sommes jamais prêts d'arrêter le gaspillage de nourriture mais nous pouvons essayer en limitant la quantité des nourriture que nous achetons à l'épicerie et en faisant du compostage.\r\n\r\nPour commencer, chers lecteurs, achetons les épiceries sont parfois difficiles car vous devez savoir combien vous allez acheter ou est-ce que c'est assez pour tout le monde. La majorité des aliments gaspillés ont par des familles canadienne (RECYC-QUÉBEC, 2021), peut-être à cause de grande quantité qu'ils ont acheté ou leur consommation de nourriture. En planifiant votre recette pour le repas ou votre liste d'épicerie (RECYC-QUÉBEC, 2021), ça peut aider de n'est pas conserver la nourriture parce que vous avez exactement la quantité que vous avez besoin. En somme, avant d'aller à l'épicerie planifier votre recette ou faire une liste pour n’est pas acheter des alimente que vous n'avez pas besoin.\r\n\r\nEnsuite, chers lecteurs, la moitié des aliments que nous gaspillons comme les légumes les fruits, les oeufs (RECYC-QUEBEC, 2021) sans savoir que nous pouvons éviter de faire cela en faisant du compostage. Le compostage, vous pouvez le faire à la maison (Corriveau, 2021) et ça peut vous aidez pour fertilité votre terre. Avec le compostage, pas seulement pour les terres cultivables mais aussi vous pouvez aider les agriculteur pour leurs terres. Ils vont avoir des terres beaucoup mieux grace à le compostage. Comme les producteurs agricoles ont dit, « veulent faire don d'aliment en surplus [...] doivent consacrer temps, énergie... » à cause des banque alimentaire qui n'ont pas les infrastructures pour aller les chercher (Radio-Canada, 2021). Si ça prend trop de temps pour aller le chercher les aliments, ils n'ont pas de choix que de jeter les aliments qui n'ont pas bonne. Bref, on doit apprendre comment conserves les nourriture pour éviter le gaspillage.\r\n\r\nPour conclure, les gaspillage d'aliment n'est vraiment pas bonne. Au lieu de gaspiller pourquoi pas conserver, apprendre comment faire le compostage ou limiter nos quantité d'épicerie. Dans ce cas, nous pouvons diminuer le nombre de pourcentage de gaspillage alimentaire.",
+    "erreursCritere4": [
+      {
+        "text": "C'est qu'on",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence d'un mot essentiel. La structure correcte pour mettre en relief le complément est 'C'est ce que...'.",
+        "suggestions": [
+          "C'est ce qu'on"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "pour",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Mot superflu. La préposition 'pour' n'est pas requise dans l'expression 'tous les jours' dans ce contexte.",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "d'alimentaire",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Construction boiteuse. L'adjectif 'alimentaire' qualifie directement le nom 'gaspillage' et ne doit pas être introduit par la préposition 'de'.",
+        "suggestions": [
+          "alimentaire"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "sommes jamais",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Négation mal employée. L'adverbe de négation 'ne' (ou 'n'') est manquant dans la locution 'ne... jamais'.",
+        "suggestions": [
+          "ne sommes jamais"
+        ],
+        "ruleApplied": "4.1.2.1.3"
+      },
+      {
+        "text": "des",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de préposition. Après une expression de quantité comme 'la quantité', on emploie la préposition 'de' (ou 'd'') et non l'article partitif 'des'.",
+        "suggestions": [
+          "de"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "achetons les épiceries sont parfois difficiles",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction de phrase boiteuse et problème de sens. La phrase mélange une forme impérative ('achetons') avec une structure déclarative ('sont difficiles'), rendant l'ensemble incohérent.",
+        "suggestions": [
+          "faire l'épicerie est parfois difficile",
+          "acheter les produits d'épicerie est parfois difficile"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "est-ce que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Construction boiteuse. Dans une interrogation indirecte introduite par 'savoir', on n'utilise pas 'est-ce que'. On emploie 'si' pour une question fermée.",
+        "suggestions": [
+          "si"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "ont",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Confusion d'homophones de classes différentes. L'auxiliaire 'être' ('sont') est requis pour former la voix passive, et non l'auxiliaire 'avoir' ('ont').",
+        "suggestions": [
+          "sont"
+        ],
+        "ruleApplied": "4.1.2.1.9"
+      },
+      {
+        "text": "de",
+        "occurenceIndex": 2,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de préposition. Le verbe 'aider' se construit avec la préposition 'à' devant un infinitif.",
+        "suggestions": [
+          "à"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "légumes les",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence d'une virgule dans une énumération pour séparer les différents éléments.",
+        "suggestions": [
+          "légumes, les"
+        ],
+        "ruleApplied": "4.2.2.10.1.a"
+      },
+      {
+        "text": "fertilité",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Confusion de classes de mots. Un verbe à l'infinitif ('fertiliser') est requis après la préposition 'pour', et non un nom ('fertilité').",
+        "suggestions": [
+          "fertiliser"
+        ],
+        "ruleApplied": "4.1.2.1.9"
+      },
+      {
+        "text": "pas seulement",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction boiteuse. La locution corrélative correcte est 'non seulement... mais aussi'.",
+        "suggestions": [
+          "non seulement"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "pas de choix",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence d'un mot essentiel. La locution restrictive correcte est 'ne... pas d'autre choix que'.",
+        "suggestions": [
+          "pas d'autre choix"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "ont",
+        "occurenceIndex": 2,
+        "criteria": 4,
+        "type": "S",
+        "description": "Confusion d'homophones de classes différentes. L'auxiliaire 'être' ('sont') est requis pour former l'attribut du sujet, et non l'auxiliaire 'avoir' ('ont').",
+        "suggestions": [
+          "sont"
+        ],
+        "ruleApplied": "4.1.2.1.9"
+      },
+      {
+        "text": "pourquoi pas",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Négation mal employée. La structure correcte est 'pourquoi ne pas' suivie d'un infinitif.",
+        "suggestions": [
+          "pourquoi ne pas"
+        ],
+        "ruleApplied": "4.1.2.1.3"
+      },
+      {
+        "text": "une de plus important",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est boiteuse. Il manque des mots essentiels pour que la phrase ait un sens clair. On devrait dire, par exemple, « une des choses les plus importantes ».",
+        "suggestions": [
+          "l'une des choses les plus importantes"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "nourriture comment",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule pour séparer le complément de phrase en tête (« sans la nourriture ») du reste de la phrase.",
+        "suggestions": [
+          "nourriture, comment"
+        ],
+        "ruleApplied": "4.2.2.10.1.l"
+      },
+      {
+        "text": "prêts d'arrêter",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition correcte après l'adjectif « prêt » est « à », et non « de ».",
+        "suggestions": [
+          "prêts à arrêter"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "prêts d'arrêter",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "La préposition correcte après l'adjectif « prêt » est « à », et non « de ». Cette erreur n'est pas comptabilisée, car il y a déjà une erreur de syntaxe dans cette phrase.",
+        "suggestions": [
+          "prêts à arrêter"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "gaspillés ont par",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe « ont » est superflu et incorrect dans cette construction passive. La structure correcte est « sont gaspillés par ».",
+        "suggestions": [
+          "sont gaspillés par"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "de grande quantité",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque un déterminant avant le nom « quantité ». On devrait écrire « de la grande quantité » ou « d'une grande quantité ».",
+        "suggestions": [
+          "de la grande quantité",
+          "d'une grande quantité"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "aider de n'est pas conserver",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est incorrecte. Le verbe « aider » se construit avec la préposition « à ». De plus, la négation « ne... pas » doit encadrer l'infinitif, et le verbe « est » est superflu. La forme correcte est « aider à ne pas conserver ».",
+        "suggestions": [
+          "aider à ne pas conserver"
+        ],
+        "ruleApplied": "4.1.2.2.2"
+      },
+      {
+        "text": "n’est pas acheter",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la négation est incorrecte. Le verbe « est » est superflu. La forme correcte est « pour ne pas acheter ».",
+        "suggestions": [
+          "ne pas acheter"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "la moitié des aliments que nous gaspillons comme les légumes les fruits, les oeufs (RECYC-QUEBEC, 2021) sans savoir que nous pouvons éviter de faire cela en faisant du compostage.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase est une subordonnée sans phrase matrice. Elle est incomplète et doit être reformulée pour former une phrase complète, par exemple en la liant à une idée principale.",
+        "suggestions": [
+          "Nous gaspillons la moitié des aliments [...] sans savoir que nous pouvons l'éviter en faisant du compostage."
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "text": "le chercher les aliments",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom « le » est superflu et incorrect. Le verbe « chercher » a déjà un complément d'objet direct, « les aliments ».",
+        "suggestions": [
+          "chercher les aliments"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "n'ont pas bonne",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est incorrecte. On devrait utiliser le verbe « être » et accorder l'adjectif : « qui ne sont pas bons ».",
+        "suggestions": [
+          "ne sont pas bons"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "d'épicerie.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Cette phrase est une question directe et devrait se terminer par un point d'interrogation plutôt qu'un point.",
+        "suggestions": [
+          "d'épicerie ?"
+        ],
+        "ruleApplied": "4.2.2.2.1"
+      },
+      {
+        "text": "le nombre de pourcentage",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression « le nombre de pourcentage » est un pléonasme. Il faut utiliser soit « le pourcentage », soit « le taux ».",
+        "suggestions": [
+          "le pourcentage"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 22.5,
+      "note": "E"
+    },
+    "erreursCritere5": [
+      {
+        "text": "faison",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Barbarisme de conjugaison. La forme correcte du verbe 'faire' à la première personne du pluriel du présent de l'indicatif est 'faisons'.",
+        "suggestions": [
+          "faisons"
+        ],
+        "ruleApplied": "5.3.2.1"
+      },
+      {
+        "text": "de",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "La contraction de la préposition 'de' et de l'article 'les' est obligatoire. On doit écrire 'des'.",
+        "suggestions": [
+          "des"
+        ],
+        "ruleApplied": "5.3.5"
+      },
+      {
+        "text": "important",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "L'adjectif 'important' doit s'accorder en genre (féminin) et en nombre (pluriel) avec le nom sous-entendu ('choses' ou 'ressources'), représenté par 'une'. Le donneur d'accord est 'une des [choses]'.",
+        "suggestions": [
+          "importantes"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "nourriture",
+        "occurenceIndex": 3,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le nom qui suit 'quantité de' est généralement au singulier s'il est non comptable, comme 'nourriture'.",
+        "suggestions": [
+          "nourriture"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "text": "canadienne",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. L'adjectif 'canadienne' doit s'accorder au pluriel avec le nom 'familles' qu'il qualifie.",
+        "suggestions": [
+          "canadiennes"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "ils",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en genre. Le pronom 'ils' doit s'accorder au féminin ('elles') avec son antécédent 'familles'.",
+        "suggestions": [
+          "elles"
+        ],
+        "ruleApplied": "5.3.1.4"
+      },
+      {
+        "text": "acheté",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord du participe passé. Le participe passé 'acheté', conjugué avec l'auxiliaire 'avoir', doit s'accorder en genre et en nombre avec le complément d'objet direct 'qu'' (mis pour 'quantité', féminin singulier) placé avant le verbe.",
+        "suggestions": [
+          "achetée"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "planifier",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion de désinences homophones. Le verbe doit être à l'impératif présent ('planifiez') pour être cohérent avec le contexte de la phrase.",
+        "suggestions": [
+          "planifiez"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "alimente",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le nom 'aliment' doit être au pluriel après le déterminant 'des'.",
+        "suggestions": [
+          "aliments"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "RECYC-QUEBEC",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur dans une dénomination. L'accent aigu est manquant sur le 'E' de 'QUÉBEC'.",
+        "suggestions": [
+          "RECYC-QUÉBEC"
+        ],
+        "ruleApplied": "5.2.4.1.2"
+      },
+      {
+        "text": "aidez",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion de désinences homophones. Après un verbe modal comme 'pouvoir', le verbe qui suit doit être à l'infinitif ('-er') et non conjugué ('-ez').",
+        "suggestions": [
+          "aider"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "agriculteur",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le nom 'agriculteur' doit être au pluriel après le déterminant 'les'.",
+        "suggestions": [
+          "agriculteurs"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "grace",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Accent manquant. Le mot 'grâce' prend un accent circonflexe sur le 'a'.",
+        "suggestions": [
+          "grâce"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "text": "à le",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Absence de la contraction obligatoire de la préposition 'à' et de l'article 'le', qui doivent former 'au'.",
+        "suggestions": [
+          "au"
+        ],
+        "ruleApplied": "5.3.5"
+      },
+      {
+        "text": "banque",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le nom 'banque' doit être au pluriel après le déterminant 'des'.",
+        "suggestions": [
+          "banques"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "alimentaire",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "Erreur d'accord en nombre. L'adjectif 'alimentaire' doit s'accorder au pluriel avec le nom 'banques' qu'il qualifie. Le donneur d'accord est 'banques'.",
+        "suggestions": [
+          "alimentaires"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "le",
+        "occurenceIndex": 2,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le pronom 'le' doit s'accorder au pluriel ('les') avec son référent 'les aliments'.",
+        "suggestions": [
+          "les"
+        ],
+        "ruleApplied": "5.3.1.4"
+      },
+      {
+        "text": "bonne",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en genre et en nombre. L'adjectif 'bonne' doit s'accorder au masculin pluriel ('bons') avec son antécédent 'les aliments'.",
+        "suggestions": [
+          "bons"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "conserves",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion de désinences. Un verbe à l'infinitif ('conserver') est requis après 'comment', et non une forme conjuguée.",
+        "suggestions": [
+          "conserver"
+        ],
+        "ruleApplied": "5.3.2.5"
+      },
+      {
+        "text": "nourriture",
+        "occurenceIndex": 4,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le nom 'nourriture' est généralement utilisé au singulier dans ce contexte.",
+        "suggestions": [
+          "nourriture"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "aliment",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le nom 'aliment' doit être au pluriel pour s'accorder avec le sens général de la phrase.",
+        "suggestions": [
+          "aliments"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "text": "bonne",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en genre. L'adjectif 'bonne' doit s'accorder au masculin ('bon') avec le sujet 'le gaspillage'.",
+        "suggestions": [
+          "bon"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "quantité",
+        "occurenceIndex": 2,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le nom 'quantité' doit être au pluriel après le déterminant possessif 'nos'.",
+        "suggestions": [
+          "quantités"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "d'alimentaire",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'adjectif « alimentaire » et le nom « aliment ». Le nom est requis ici.",
+        "suggestions": [
+          "d'aliments"
+        ],
+        "ruleApplied": "5.3.3.2"
+      },
+      {
+        "text": "des nourriture",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après « quantité de », le nom qui suit est généralement au singulier s'il est indénombrable comme « nourriture ». De plus, l'article « des » est incorrect; on utilise « de ».",
+        "suggestions": [
+          "de nourriture"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "text": "fertilité",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le nom « fertilité » et le verbe « fertiliser ». Le contexte requiert un verbe à l'infinitif.",
+        "suggestions": [
+          "fertiliser"
+        ],
+        "ruleApplied": "5.3.3.2"
+      },
+      {
+        "text": "« veulent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Dans un discours rapporté direct introduit par des guillemets, la première lettre de la citation doit être une majuscule.",
+        "suggestions": [
+          "« Veulent"
+        ],
+        "ruleApplied": "5.3.6.3"
+      },
+      {
+        "text": "les gaspillage",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant « les » (pluriel) ne s'accorde pas en nombre avec le nom « gaspillage » (singulier).",
+        "suggestions": [
+          "le gaspillage"
+        ],
+        "ruleApplied": "5.3.1.1"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 26,
+      "note": "E"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:59:21.909Z",
+    "endTimestamp": "2025-12-10T15:05:18.761Z",
+    "durationMs": 356852,
+    "durationFormatted": "05:56:852",
+    "cumulParPasse": [
+      {
+        "passe": 1,
+        "erreursCritere4": [
+          {
+            "text": "C'est qu'on",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Absence d'un mot essentiel. La structure correcte pour mettre en relief le complément est 'C'est ce que...'.",
+            "suggestions": [
+              "C'est ce qu'on"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "pour",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "Mot superflu. La préposition 'pour' n'est pas requise dans l'expression 'tous les jours' dans ce contexte.",
+            "suggestions": [
+              ""
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "nourriture",
+            "occurenceIndex": 1,
+            "criteria": 4,
+            "type": "P",
+            "description": "Absence d'une virgule pour séparer la subordonnée circonstancielle en tête de phrase ('sans la nourriture') de la proposition principale.",
+            "suggestions": [
+              "nourriture,"
+            ],
+            "ruleApplied": "4.2.2.10.1.m"
+          },
+          {
+            "text": "d'arrêter",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Erreur de préposition. L'expression est 'être prêt à faire quelque chose' et non 'être prêt de'.",
+            "suggestions": [
+              "à arrêter"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "d'alimentaire",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "Construction boiteuse. L'adjectif 'alimentaire' qualifie directement le nom 'gaspillage' et ne doit pas être introduit par la préposition 'de'.",
+            "suggestions": [
+              "alimentaire"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "sommes jamais",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Négation mal employée. L'adverbe de négation 'ne' (ou 'n'') est manquant dans la locution 'ne... jamais'.",
+            "suggestions": [
+              "ne sommes jamais"
+            ],
+            "ruleApplied": "4.1.2.1.3"
+          },
+          {
+            "text": "d'arrêter",
+            "occurenceIndex": 1,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "Erreur de préposition. L'expression est 'être prêt à faire quelque chose' et non 'être prêt de'.",
+            "suggestions": [
+              "à arrêter"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "des",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Erreur de préposition. Après une expression de quantité comme 'la quantité', on emploie la préposition 'de' (ou 'd'') et non l'article partitif 'des'.",
+            "suggestions": [
+              "de"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "achetons les épiceries sont parfois difficiles",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Construction de phrase boiteuse et problème de sens. La phrase mélange une forme impérative ('achetons') avec une structure déclarative ('sont difficiles'), rendant l'ensemble incohérent.",
+            "suggestions": [
+              "faire l'épicerie est parfois difficile",
+              "acheter les produits d'épicerie est parfois difficile"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "est-ce que",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "Construction boiteuse. Dans une interrogation indirecte introduite par 'savoir', on n'utilise pas 'est-ce que'. On emploie 'si' pour une question fermée.",
+            "suggestions": [
+              "si"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "ont",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Confusion d'homophones de classes différentes. L'auxiliaire 'être' ('sont') est requis pour former la voix passive, et non l'auxiliaire 'avoir' ('ont').",
+            "suggestions": [
+              "sont"
+            ],
+            "ruleApplied": "4.1.2.1.9"
+          },
+          {
+            "text": "de grande",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Absence d'un mot essentiel. Le déterminant 'la' ou 'une' est manquant devant le groupe nominal 'grande quantité'.",
+            "suggestions": [
+              "de la grande",
+              "d'une grande"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "de",
+            "occurenceIndex": 2,
+            "criteria": 4,
+            "type": "S",
+            "description": "Erreur de préposition. Le verbe 'aider' se construit avec la préposition 'à' devant un infinitif.",
+            "suggestions": [
+              "à"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "n'est pas",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "Mot superflu. Le verbe 'être' ('est') est superflu dans la locution négative 'ne pas' qui précède un infinitif.",
+            "suggestions": [
+              "ne pas"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "n’est pas",
+            "occurenceIndex": 1,
+            "criteria": 4,
+            "type": "S",
+            "description": "Mot superflu. Le verbe 'être' ('est') est superflu dans la locution négative 'ne pas' qui précède un infinitif.",
+            "suggestions": [
+              "ne pas"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "légumes les",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Absence d'une virgule dans une énumération pour séparer les différents éléments.",
+            "suggestions": [
+              "légumes, les"
+            ],
+            "ruleApplied": "4.2.2.10.1.a"
+          },
+          {
+            "text": "fertilité",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Confusion de classes de mots. Un verbe à l'infinitif ('fertiliser') est requis après la préposition 'pour', et non un nom ('fertilité').",
+            "suggestions": [
+              "fertiliser"
+            ],
+            "ruleApplied": "4.1.2.1.9"
+          },
+          {
+            "text": "pas seulement",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Construction boiteuse. La locution corrélative correcte est 'non seulement... mais aussi'.",
+            "suggestions": [
+              "non seulement"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "pas de choix",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Absence d'un mot essentiel. La locution restrictive correcte est 'ne... pas d'autre choix que'.",
+            "suggestions": [
+              "pas d'autre choix"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "ont",
+            "occurenceIndex": 2,
+            "criteria": 4,
+            "type": "S",
+            "description": "Confusion d'homophones de classes différentes. L'auxiliaire 'être' ('sont') est requis pour former l'attribut du sujet, et non l'auxiliaire 'avoir' ('ont').",
+            "suggestions": [
+              "sont"
+            ],
+            "ruleApplied": "4.1.2.1.9"
+          },
+          {
+            "text": "pourquoi pas",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Négation mal employée. La structure correcte est 'pourquoi ne pas' suivie d'un infinitif.",
+            "suggestions": [
+              "pourquoi ne pas"
+            ],
+            "ruleApplied": "4.1.2.1.3"
+          },
+          {
+            "text": "nombre de",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Mot superflu. L'expression 'nombre de' est redondante avec 'pourcentage'.",
+            "suggestions": [
+              ""
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "faison",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Barbarisme de conjugaison. La forme correcte du verbe 'faire' à la première personne du pluriel du présent de l'indicatif est 'faisons'.",
+            "suggestions": [
+              "faisons"
+            ],
+            "ruleApplied": "5.3.2.1"
+          },
+          {
+            "text": "de",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "La contraction de la préposition 'de' et de l'article 'les' est obligatoire. On doit écrire 'des'.",
+            "suggestions": [
+              "des"
+            ],
+            "ruleApplied": "5.3.5"
+          },
+          {
+            "text": "important",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "_",
+            "description": "L'adjectif 'important' doit s'accorder en genre (féminin) et en nombre (pluriel) avec le nom sous-entendu ('choses' ou 'ressources'), représenté par 'une'. Le donneur d'accord est 'une des [choses]'.",
+            "suggestions": [
+              "importantes"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "nourriture",
+            "occurenceIndex": 3,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en nombre. Le nom qui suit 'quantité de' est généralement au singulier s'il est non comptable, comme 'nourriture'.",
+            "suggestions": [
+              "nourriture"
+            ],
+            "ruleApplied": "5.3.1.5"
+          },
+          {
+            "text": "canadienne",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en nombre. L'adjectif 'canadienne' doit s'accorder au pluriel avec le nom 'familles' qu'il qualifie.",
+            "suggestions": [
+              "canadiennes"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "ils",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en genre. Le pronom 'ils' doit s'accorder au féminin ('elles') avec son antécédent 'familles'.",
+            "suggestions": [
+              "elles"
+            ],
+            "ruleApplied": "5.3.1.4"
+          },
+          {
+            "text": "acheté",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord du participe passé. Le participe passé 'acheté', conjugué avec l'auxiliaire 'avoir', doit s'accorder en genre et en nombre avec le complément d'objet direct 'qu'' (mis pour 'quantité', féminin singulier) placé avant le verbe.",
+            "suggestions": [
+              "achetée"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "planifier",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion de désinences homophones. Le verbe doit être à l'impératif présent ('planifiez') pour être cohérent avec le contexte de la phrase.",
+            "suggestions": [
+              "planifiez"
+            ],
+            "ruleApplied": "5.3.2.6"
+          },
+          {
+            "text": "alimente",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en nombre. Le nom 'aliment' doit être au pluriel après le déterminant 'des'.",
+            "suggestions": [
+              "aliments"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "RECYC-QUEBEC",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Erreur dans une dénomination. L'accent aigu est manquant sur le 'E' de 'QUÉBEC'.",
+            "suggestions": [
+              "RECYC-QUÉBEC"
+            ],
+            "ruleApplied": "5.2.4.1.2"
+          },
+          {
+            "text": "aidez",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion de désinences homophones. Après un verbe modal comme 'pouvoir', le verbe qui suit doit être à l'infinitif ('-er') et non conjugué ('-ez').",
+            "suggestions": [
+              "aider"
+            ],
+            "ruleApplied": "5.3.2.6"
+          },
+          {
+            "text": "agriculteur",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en nombre. Le nom 'agriculteur' doit être au pluriel après le déterminant 'les'.",
+            "suggestions": [
+              "agriculteurs"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "grace",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Accent manquant. Le mot 'grâce' prend un accent circonflexe sur le 'a'.",
+            "suggestions": [
+              "grâce"
+            ],
+            "ruleApplied": "5.2.1.1"
+          },
+          {
+            "text": "à le",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Absence de la contraction obligatoire de la préposition 'à' et de l'article 'le', qui doivent former 'au'.",
+            "suggestions": [
+              "au"
+            ],
+            "ruleApplied": "5.3.5"
+          },
+          {
+            "text": "aliment",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en nombre. Le nom 'aliment' doit être au pluriel dans ce contexte pour signifier 'des aliments'.",
+            "suggestions": [
+              "aliments"
+            ],
+            "ruleApplied": "5.3.1.5"
+          },
+          {
+            "text": "banque",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en nombre. Le nom 'banque' doit être au pluriel après le déterminant 'des'.",
+            "suggestions": [
+              "banques"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "alimentaire",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "_",
+            "description": "Erreur d'accord en nombre. L'adjectif 'alimentaire' doit s'accorder au pluriel avec le nom 'banques' qu'il qualifie. Le donneur d'accord est 'banques'.",
+            "suggestions": [
+              "alimentaires"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "le",
+            "occurenceIndex": 2,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en nombre. Le pronom 'le' doit s'accorder au pluriel ('les') avec son référent 'les aliments'.",
+            "suggestions": [
+              "les"
+            ],
+            "ruleApplied": "5.3.1.4"
+          },
+          {
+            "text": "bonne",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en genre et en nombre. L'adjectif 'bonne' doit s'accorder au masculin pluriel ('bons') avec son antécédent 'les aliments'.",
+            "suggestions": [
+              "bons"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "conserves",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion de désinences. Un verbe à l'infinitif ('conserver') est requis après 'comment', et non une forme conjuguée.",
+            "suggestions": [
+              "conserver"
+            ],
+            "ruleApplied": "5.3.2.5"
+          },
+          {
+            "text": "nourriture",
+            "occurenceIndex": 4,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en nombre. Le nom 'nourriture' est généralement utilisé au singulier dans ce contexte.",
+            "suggestions": [
+              "nourriture"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "les",
+            "occurenceIndex": 5,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en nombre. Le déterminant 'les' doit être au singulier ('le') pour s'accorder avec le nom 'gaspillage'.",
+            "suggestions": [
+              "le"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "aliment",
+            "occurenceIndex": 1,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en nombre. Le nom 'aliment' doit être au pluriel pour s'accorder avec le sens général de la phrase.",
+            "suggestions": [
+              "aliments"
+            ],
+            "ruleApplied": "5.3.1.5"
+          },
+          {
+            "text": "bonne",
+            "occurenceIndex": 1,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en genre. L'adjectif 'bonne' doit s'accorder au masculin ('bon') avec le sujet 'le gaspillage'.",
+            "suggestions": [
+              "bon"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "quantité",
+            "occurenceIndex": 2,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en nombre. Le nom 'quantité' doit être au pluriel après le déterminant possessif 'nos'.",
+            "suggestions": [
+              "quantités"
+            ],
+            "ruleApplied": "5.3.1.1"
+          }
+        ],
+        "totalErreursCritere4": 22,
+        "totalErreursCritere5": 25,
+        "scoreCritere4": {
+          "pointsPerdus": 16,
+          "note": "D"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 23,
+          "note": "E"
+        }
+      },
+      {
+        "passe": 2,
+        "erreursCritere4": [
+          {
+            "text": "C'est qu'on",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Absence d'un mot essentiel. La structure correcte pour mettre en relief le complément est 'C'est ce que...'.",
+            "suggestions": [
+              "C'est ce qu'on"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "pour",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "Mot superflu. La préposition 'pour' n'est pas requise dans l'expression 'tous les jours' dans ce contexte.",
+            "suggestions": [
+              ""
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "nourriture",
+            "occurenceIndex": 1,
+            "criteria": 4,
+            "type": "P",
+            "description": "Absence d'une virgule pour séparer la subordonnée circonstancielle en tête de phrase ('sans la nourriture') de la proposition principale.",
+            "suggestions": [
+              "nourriture,"
+            ],
+            "ruleApplied": "4.2.2.10.1.m"
+          },
+          {
+            "text": "d'arrêter",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Erreur de préposition. L'expression est 'être prêt à faire quelque chose' et non 'être prêt de'.",
+            "suggestions": [
+              "à arrêter"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "d'alimentaire",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "Construction boiteuse. L'adjectif 'alimentaire' qualifie directement le nom 'gaspillage' et ne doit pas être introduit par la préposition 'de'.",
+            "suggestions": [
+              "alimentaire"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "sommes jamais",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Négation mal employée. L'adverbe de négation 'ne' (ou 'n'') est manquant dans la locution 'ne... jamais'.",
+            "suggestions": [
+              "ne sommes jamais"
+            ],
+            "ruleApplied": "4.1.2.1.3"
+          },
+          {
+            "text": "d'arrêter",
+            "occurenceIndex": 1,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "Erreur de préposition. L'expression est 'être prêt à faire quelque chose' et non 'être prêt de'.",
+            "suggestions": [
+              "à arrêter"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "des",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Erreur de préposition. Après une expression de quantité comme 'la quantité', on emploie la préposition 'de' (ou 'd'') et non l'article partitif 'des'.",
+            "suggestions": [
+              "de"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "achetons les épiceries sont parfois difficiles",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Construction de phrase boiteuse et problème de sens. La phrase mélange une forme impérative ('achetons') avec une structure déclarative ('sont difficiles'), rendant l'ensemble incohérent.",
+            "suggestions": [
+              "faire l'épicerie est parfois difficile",
+              "acheter les produits d'épicerie est parfois difficile"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "est-ce que",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "Construction boiteuse. Dans une interrogation indirecte introduite par 'savoir', on n'utilise pas 'est-ce que'. On emploie 'si' pour une question fermée.",
+            "suggestions": [
+              "si"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "ont",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Confusion d'homophones de classes différentes. L'auxiliaire 'être' ('sont') est requis pour former la voix passive, et non l'auxiliaire 'avoir' ('ont').",
+            "suggestions": [
+              "sont"
+            ],
+            "ruleApplied": "4.1.2.1.9"
+          },
+          {
+            "text": "de grande",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Absence d'un mot essentiel. Le déterminant 'la' ou 'une' est manquant devant le groupe nominal 'grande quantité'.",
+            "suggestions": [
+              "de la grande",
+              "d'une grande"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "de",
+            "occurenceIndex": 2,
+            "criteria": 4,
+            "type": "S",
+            "description": "Erreur de préposition. Le verbe 'aider' se construit avec la préposition 'à' devant un infinitif.",
+            "suggestions": [
+              "à"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "n'est pas",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "Mot superflu. Le verbe 'être' ('est') est superflu dans la locution négative 'ne pas' qui précède un infinitif.",
+            "suggestions": [
+              "ne pas"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "n’est pas",
+            "occurenceIndex": 1,
+            "criteria": 4,
+            "type": "S",
+            "description": "Mot superflu. Le verbe 'être' ('est') est superflu dans la locution négative 'ne pas' qui précède un infinitif.",
+            "suggestions": [
+              "ne pas"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "légumes les",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Absence d'une virgule dans une énumération pour séparer les différents éléments.",
+            "suggestions": [
+              "légumes, les"
+            ],
+            "ruleApplied": "4.2.2.10.1.a"
+          },
+          {
+            "text": "fertilité",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Confusion de classes de mots. Un verbe à l'infinitif ('fertiliser') est requis après la préposition 'pour', et non un nom ('fertilité').",
+            "suggestions": [
+              "fertiliser"
+            ],
+            "ruleApplied": "4.1.2.1.9"
+          },
+          {
+            "text": "pas seulement",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Construction boiteuse. La locution corrélative correcte est 'non seulement... mais aussi'.",
+            "suggestions": [
+              "non seulement"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "pas de choix",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Absence d'un mot essentiel. La locution restrictive correcte est 'ne... pas d'autre choix que'.",
+            "suggestions": [
+              "pas d'autre choix"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "ont",
+            "occurenceIndex": 2,
+            "criteria": 4,
+            "type": "S",
+            "description": "Confusion d'homophones de classes différentes. L'auxiliaire 'être' ('sont') est requis pour former l'attribut du sujet, et non l'auxiliaire 'avoir' ('ont').",
+            "suggestions": [
+              "sont"
+            ],
+            "ruleApplied": "4.1.2.1.9"
+          },
+          {
+            "text": "pourquoi pas",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Négation mal employée. La structure correcte est 'pourquoi ne pas' suivie d'un infinitif.",
+            "suggestions": [
+              "pourquoi ne pas"
+            ],
+            "ruleApplied": "4.1.2.1.3"
+          },
+          {
+            "text": "nombre de",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Mot superflu. L'expression 'nombre de' est redondante avec 'pourcentage'.",
+            "suggestions": [
+              ""
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "une de plus important",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction de la phrase est boiteuse. Il manque des mots essentiels pour que la phrase ait un sens clair. On devrait dire, par exemple, « une des choses les plus importantes ».",
+            "suggestions": [
+              "l'une des choses les plus importantes"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "nourriture comment",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Il manque une virgule pour séparer le complément de phrase en tête (« sans la nourriture ») du reste de la phrase.",
+            "suggestions": [
+              "nourriture, comment"
+            ],
+            "ruleApplied": "4.2.2.10.1.l"
+          },
+          {
+            "text": "prêts d'arrêter",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La préposition correcte après l'adjectif « prêt » est « à », et non « de ».",
+            "suggestions": [
+              "prêts à arrêter"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "prêts d'arrêter",
+            "occurenceIndex": 1,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "La préposition correcte après l'adjectif « prêt » est « à », et non « de ». Cette erreur n'est pas comptabilisée, car il y a déjà une erreur de syntaxe dans cette phrase.",
+            "suggestions": [
+              "prêts à arrêter"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "gaspillés ont par",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le verbe « ont » est superflu et incorrect dans cette construction passive. La structure correcte est « sont gaspillés par ».",
+            "suggestions": [
+              "sont gaspillés par"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "de grande quantité",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Il manque un déterminant avant le nom « quantité ». On devrait écrire « de la grande quantité » ou « d'une grande quantité ».",
+            "suggestions": [
+              "de la grande quantité",
+              "d'une grande quantité"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "aider de n'est pas conserver",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction de la phrase est incorrecte. Le verbe « aider » se construit avec la préposition « à ». De plus, la négation « ne... pas » doit encadrer l'infinitif, et le verbe « est » est superflu. La forme correcte est « aider à ne pas conserver ».",
+            "suggestions": [
+              "aider à ne pas conserver"
+            ],
+            "ruleApplied": "4.1.2.2.2"
+          },
+          {
+            "text": "n’est pas acheter",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction de la négation est incorrecte. Le verbe « est » est superflu. La forme correcte est « pour ne pas acheter ».",
+            "suggestions": [
+              "ne pas acheter"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "la moitié des aliments que nous gaspillons comme les légumes les fruits, les oeufs (RECYC-QUEBEC, 2021) sans savoir que nous pouvons éviter de faire cela en faisant du compostage.",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Cette phrase est une subordonnée sans phrase matrice. Elle est incomplète et doit être reformulée pour former une phrase complète, par exemple en la liant à une idée principale.",
+            "suggestions": [
+              "Nous gaspillons la moitié des aliments [...] sans savoir que nous pouvons l'éviter en faisant du compostage."
+            ],
+            "ruleApplied": "4.1.2.1.4"
+          },
+          {
+            "text": "le chercher les aliments",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le pronom « le » est superflu et incorrect. Le verbe « chercher » a déjà un complément d'objet direct, « les aliments ».",
+            "suggestions": [
+              "chercher les aliments"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "n'ont pas bonne",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction de la phrase est incorrecte. On devrait utiliser le verbe « être » et accorder l'adjectif : « qui ne sont pas bons ».",
+            "suggestions": [
+              "ne sont pas bons"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "d'épicerie.",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Cette phrase est une question directe et devrait se terminer par un point d'interrogation plutôt qu'un point.",
+            "suggestions": [
+              "d'épicerie ?"
+            ],
+            "ruleApplied": "4.2.2.2.1"
+          },
+          {
+            "text": "le nombre de pourcentage",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'expression « le nombre de pourcentage » est un pléonasme. Il faut utiliser soit « le pourcentage », soit « le taux ».",
+            "suggestions": [
+              "le pourcentage"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "faison",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Barbarisme de conjugaison. La forme correcte du verbe 'faire' à la première personne du pluriel du présent de l'indicatif est 'faisons'.",
+            "suggestions": [
+              "faisons"
+            ],
+            "ruleApplied": "5.3.2.1"
+          },
+          {
+            "text": "de",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "La contraction de la préposition 'de' et de l'article 'les' est obligatoire. On doit écrire 'des'.",
+            "suggestions": [
+              "des"
+            ],
+            "ruleApplied": "5.3.5"
+          },
+          {
+            "text": "important",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "_",
+            "description": "L'adjectif 'important' doit s'accorder en genre (féminin) et en nombre (pluriel) avec le nom sous-entendu ('choses' ou 'ressources'), représenté par 'une'. Le donneur d'accord est 'une des [choses]'.",
+            "suggestions": [
+              "importantes"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "nourriture",
+            "occurenceIndex": 3,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en nombre. Le nom qui suit 'quantité de' est généralement au singulier s'il est non comptable, comme 'nourriture'.",
+            "suggestions": [
+              "nourriture"
+            ],
+            "ruleApplied": "5.3.1.5"
+          },
+          {
+            "text": "canadienne",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en nombre. L'adjectif 'canadienne' doit s'accorder au pluriel avec le nom 'familles' qu'il qualifie.",
+            "suggestions": [
+              "canadiennes"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "ils",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en genre. Le pronom 'ils' doit s'accorder au féminin ('elles') avec son antécédent 'familles'.",
+            "suggestions": [
+              "elles"
+            ],
+            "ruleApplied": "5.3.1.4"
+          },
+          {
+            "text": "acheté",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord du participe passé. Le participe passé 'acheté', conjugué avec l'auxiliaire 'avoir', doit s'accorder en genre et en nombre avec le complément d'objet direct 'qu'' (mis pour 'quantité', féminin singulier) placé avant le verbe.",
+            "suggestions": [
+              "achetée"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "planifier",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion de désinences homophones. Le verbe doit être à l'impératif présent ('planifiez') pour être cohérent avec le contexte de la phrase.",
+            "suggestions": [
+              "planifiez"
+            ],
+            "ruleApplied": "5.3.2.6"
+          },
+          {
+            "text": "alimente",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en nombre. Le nom 'aliment' doit être au pluriel après le déterminant 'des'.",
+            "suggestions": [
+              "aliments"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "RECYC-QUEBEC",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Erreur dans une dénomination. L'accent aigu est manquant sur le 'E' de 'QUÉBEC'.",
+            "suggestions": [
+              "RECYC-QUÉBEC"
+            ],
+            "ruleApplied": "5.2.4.1.2"
+          },
+          {
+            "text": "aidez",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion de désinences homophones. Après un verbe modal comme 'pouvoir', le verbe qui suit doit être à l'infinitif ('-er') et non conjugué ('-ez').",
+            "suggestions": [
+              "aider"
+            ],
+            "ruleApplied": "5.3.2.6"
+          },
+          {
+            "text": "agriculteur",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en nombre. Le nom 'agriculteur' doit être au pluriel après le déterminant 'les'.",
+            "suggestions": [
+              "agriculteurs"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "grace",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Accent manquant. Le mot 'grâce' prend un accent circonflexe sur le 'a'.",
+            "suggestions": [
+              "grâce"
+            ],
+            "ruleApplied": "5.2.1.1"
+          },
+          {
+            "text": "à le",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Absence de la contraction obligatoire de la préposition 'à' et de l'article 'le', qui doivent former 'au'.",
+            "suggestions": [
+              "au"
+            ],
+            "ruleApplied": "5.3.5"
+          },
+          {
+            "text": "aliment",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en nombre. Le nom 'aliment' doit être au pluriel dans ce contexte pour signifier 'des aliments'.",
+            "suggestions": [
+              "aliments"
+            ],
+            "ruleApplied": "5.3.1.5"
+          },
+          {
+            "text": "banque",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en nombre. Le nom 'banque' doit être au pluriel après le déterminant 'des'.",
+            "suggestions": [
+              "banques"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "alimentaire",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "_",
+            "description": "Erreur d'accord en nombre. L'adjectif 'alimentaire' doit s'accorder au pluriel avec le nom 'banques' qu'il qualifie. Le donneur d'accord est 'banques'.",
+            "suggestions": [
+              "alimentaires"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "le",
+            "occurenceIndex": 2,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en nombre. Le pronom 'le' doit s'accorder au pluriel ('les') avec son référent 'les aliments'.",
+            "suggestions": [
+              "les"
+            ],
+            "ruleApplied": "5.3.1.4"
+          },
+          {
+            "text": "bonne",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en genre et en nombre. L'adjectif 'bonne' doit s'accorder au masculin pluriel ('bons') avec son antécédent 'les aliments'.",
+            "suggestions": [
+              "bons"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "conserves",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion de désinences. Un verbe à l'infinitif ('conserver') est requis après 'comment', et non une forme conjuguée.",
+            "suggestions": [
+              "conserver"
+            ],
+            "ruleApplied": "5.3.2.5"
+          },
+          {
+            "text": "nourriture",
+            "occurenceIndex": 4,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en nombre. Le nom 'nourriture' est généralement utilisé au singulier dans ce contexte.",
+            "suggestions": [
+              "nourriture"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "les",
+            "occurenceIndex": 5,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en nombre. Le déterminant 'les' doit être au singulier ('le') pour s'accorder avec le nom 'gaspillage'.",
+            "suggestions": [
+              "le"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "aliment",
+            "occurenceIndex": 1,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en nombre. Le nom 'aliment' doit être au pluriel pour s'accorder avec le sens général de la phrase.",
+            "suggestions": [
+              "aliments"
+            ],
+            "ruleApplied": "5.3.1.5"
+          },
+          {
+            "text": "bonne",
+            "occurenceIndex": 1,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en genre. L'adjectif 'bonne' doit s'accorder au masculin ('bon') avec le sujet 'le gaspillage'.",
+            "suggestions": [
+              "bon"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "quantité",
+            "occurenceIndex": 2,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en nombre. Le nom 'quantité' doit être au pluriel après le déterminant possessif 'nos'.",
+            "suggestions": [
+              "quantités"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "d'alimentaire",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre l'adjectif « alimentaire » et le nom « aliment ». Le nom est requis ici.",
+            "suggestions": [
+              "d'aliments"
+            ],
+            "ruleApplied": "5.3.3.2"
+          },
+          {
+            "text": "des nourriture",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Après « quantité de », le nom qui suit est généralement au singulier s'il est indénombrable comme « nourriture ». De plus, l'article « des » est incorrect; on utilise « de ».",
+            "suggestions": [
+              "de nourriture"
+            ],
+            "ruleApplied": "5.3.1.5"
+          },
+          {
+            "text": "fertilité",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre le nom « fertilité » et le verbe « fertiliser ». Le contexte requiert un verbe à l'infinitif.",
+            "suggestions": [
+              "fertiliser"
+            ],
+            "ruleApplied": "5.3.3.2"
+          },
+          {
+            "text": "« veulent",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Dans un discours rapporté direct introduit par des guillemets, la première lettre de la citation doit être une majuscule.",
+            "suggestions": [
+              "« Veulent"
+            ],
+            "ruleApplied": "5.3.6.3"
+          },
+          {
+            "text": "d'aliment",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom « aliment » doit être au pluriel pour correspondre au sens général de la phrase.",
+            "suggestions": [
+              "d'aliments"
+            ],
+            "ruleApplied": "5.3.1.5"
+          },
+          {
+            "text": "les nourriture",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom « nourriture » est généralement indénombrable et s'emploie au singulier avec l'article « la ».",
+            "suggestions": [
+              "la nourriture"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "les gaspillage",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le déterminant « les » (pluriel) ne s'accorde pas en nombre avec le nom « gaspillage » (singulier).",
+            "suggestions": [
+              "le gaspillage"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "quantité",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom « quantité » doit s'accorder en nombre avec le déterminant possessif « nos » (pluriel).",
+            "suggestions": [
+              "quantités"
+            ],
+            "ruleApplied": "5.3.1.1"
+          }
+        ],
+        "totalErreursCritere4": 35,
+        "totalErreursCritere5": 33,
+        "scoreCritere4": {
+          "pointsPerdus": 27,
+          "note": "E"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 31,
+          "note": "E"
+        }
+      }
+    ],
+    "erreursCritere4AvantAnalyseIA": [
+      {
+        "text": "C'est qu'on",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence d'un mot essentiel. La structure correcte pour mettre en relief le complément est 'C'est ce que...'.",
+        "suggestions": [
+          "C'est ce qu'on"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "pour",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Mot superflu. La préposition 'pour' n'est pas requise dans l'expression 'tous les jours' dans ce contexte.",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "nourriture",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence d'une virgule pour séparer la subordonnée circonstancielle en tête de phrase ('sans la nourriture') de la proposition principale.",
+        "suggestions": [
+          "nourriture,"
+        ],
+        "ruleApplied": "4.2.2.10.1.m"
+      },
+      {
+        "text": "d'arrêter",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de préposition. L'expression est 'être prêt à faire quelque chose' et non 'être prêt de'.",
+        "suggestions": [
+          "à arrêter"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "d'alimentaire",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Construction boiteuse. L'adjectif 'alimentaire' qualifie directement le nom 'gaspillage' et ne doit pas être introduit par la préposition 'de'.",
+        "suggestions": [
+          "alimentaire"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "sommes jamais",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Négation mal employée. L'adverbe de négation 'ne' (ou 'n'') est manquant dans la locution 'ne... jamais'.",
+        "suggestions": [
+          "ne sommes jamais"
+        ],
+        "ruleApplied": "4.1.2.1.3"
+      },
+      {
+        "text": "d'arrêter",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Erreur de préposition. L'expression est 'être prêt à faire quelque chose' et non 'être prêt de'.",
+        "suggestions": [
+          "à arrêter"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "des",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de préposition. Après une expression de quantité comme 'la quantité', on emploie la préposition 'de' (ou 'd'') et non l'article partitif 'des'.",
+        "suggestions": [
+          "de"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "achetons les épiceries sont parfois difficiles",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction de phrase boiteuse et problème de sens. La phrase mélange une forme impérative ('achetons') avec une structure déclarative ('sont difficiles'), rendant l'ensemble incohérent.",
+        "suggestions": [
+          "faire l'épicerie est parfois difficile",
+          "acheter les produits d'épicerie est parfois difficile"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "est-ce que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Construction boiteuse. Dans une interrogation indirecte introduite par 'savoir', on n'utilise pas 'est-ce que'. On emploie 'si' pour une question fermée.",
+        "suggestions": [
+          "si"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "ont",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Confusion d'homophones de classes différentes. L'auxiliaire 'être' ('sont') est requis pour former la voix passive, et non l'auxiliaire 'avoir' ('ont').",
+        "suggestions": [
+          "sont"
+        ],
+        "ruleApplied": "4.1.2.1.9"
+      },
+      {
+        "text": "de grande",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence d'un mot essentiel. Le déterminant 'la' ou 'une' est manquant devant le groupe nominal 'grande quantité'.",
+        "suggestions": [
+          "de la grande",
+          "d'une grande"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "de",
+        "occurenceIndex": 2,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de préposition. Le verbe 'aider' se construit avec la préposition 'à' devant un infinitif.",
+        "suggestions": [
+          "à"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "n'est pas",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Mot superflu. Le verbe 'être' ('est') est superflu dans la locution négative 'ne pas' qui précède un infinitif.",
+        "suggestions": [
+          "ne pas"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "n’est pas",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "S",
+        "description": "Mot superflu. Le verbe 'être' ('est') est superflu dans la locution négative 'ne pas' qui précède un infinitif.",
+        "suggestions": [
+          "ne pas"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "légumes les",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence d'une virgule dans une énumération pour séparer les différents éléments.",
+        "suggestions": [
+          "légumes, les"
+        ],
+        "ruleApplied": "4.2.2.10.1.a"
+      },
+      {
+        "text": "fertilité",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Confusion de classes de mots. Un verbe à l'infinitif ('fertiliser') est requis après la préposition 'pour', et non un nom ('fertilité').",
+        "suggestions": [
+          "fertiliser"
+        ],
+        "ruleApplied": "4.1.2.1.9"
+      },
+      {
+        "text": "pas seulement",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction boiteuse. La locution corrélative correcte est 'non seulement... mais aussi'.",
+        "suggestions": [
+          "non seulement"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "pas de choix",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence d'un mot essentiel. La locution restrictive correcte est 'ne... pas d'autre choix que'.",
+        "suggestions": [
+          "pas d'autre choix"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "ont",
+        "occurenceIndex": 2,
+        "criteria": 4,
+        "type": "S",
+        "description": "Confusion d'homophones de classes différentes. L'auxiliaire 'être' ('sont') est requis pour former l'attribut du sujet, et non l'auxiliaire 'avoir' ('ont').",
+        "suggestions": [
+          "sont"
+        ],
+        "ruleApplied": "4.1.2.1.9"
+      },
+      {
+        "text": "pourquoi pas",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Négation mal employée. La structure correcte est 'pourquoi ne pas' suivie d'un infinitif.",
+        "suggestions": [
+          "pourquoi ne pas"
+        ],
+        "ruleApplied": "4.1.2.1.3"
+      },
+      {
+        "text": "nombre de",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Mot superflu. L'expression 'nombre de' est redondante avec 'pourcentage'.",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "une de plus important",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est boiteuse. Il manque des mots essentiels pour que la phrase ait un sens clair. On devrait dire, par exemple, « une des choses les plus importantes ».",
+        "suggestions": [
+          "l'une des choses les plus importantes"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "nourriture comment",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule pour séparer le complément de phrase en tête (« sans la nourriture ») du reste de la phrase.",
+        "suggestions": [
+          "nourriture, comment"
+        ],
+        "ruleApplied": "4.2.2.10.1.l"
+      },
+      {
+        "text": "prêts d'arrêter",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition correcte après l'adjectif « prêt » est « à », et non « de ».",
+        "suggestions": [
+          "prêts à arrêter"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "prêts d'arrêter",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "La préposition correcte après l'adjectif « prêt » est « à », et non « de ». Cette erreur n'est pas comptabilisée, car il y a déjà une erreur de syntaxe dans cette phrase.",
+        "suggestions": [
+          "prêts à arrêter"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "gaspillés ont par",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe « ont » est superflu et incorrect dans cette construction passive. La structure correcte est « sont gaspillés par ».",
+        "suggestions": [
+          "sont gaspillés par"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "de grande quantité",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque un déterminant avant le nom « quantité ». On devrait écrire « de la grande quantité » ou « d'une grande quantité ».",
+        "suggestions": [
+          "de la grande quantité",
+          "d'une grande quantité"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "aider de n'est pas conserver",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est incorrecte. Le verbe « aider » se construit avec la préposition « à ». De plus, la négation « ne... pas » doit encadrer l'infinitif, et le verbe « est » est superflu. La forme correcte est « aider à ne pas conserver ».",
+        "suggestions": [
+          "aider à ne pas conserver"
+        ],
+        "ruleApplied": "4.1.2.2.2"
+      },
+      {
+        "text": "n’est pas acheter",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la négation est incorrecte. Le verbe « est » est superflu. La forme correcte est « pour ne pas acheter ».",
+        "suggestions": [
+          "ne pas acheter"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "la moitié des aliments que nous gaspillons comme les légumes les fruits, les oeufs (RECYC-QUEBEC, 2021) sans savoir que nous pouvons éviter de faire cela en faisant du compostage.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase est une subordonnée sans phrase matrice. Elle est incomplète et doit être reformulée pour former une phrase complète, par exemple en la liant à une idée principale.",
+        "suggestions": [
+          "Nous gaspillons la moitié des aliments [...] sans savoir que nous pouvons l'éviter en faisant du compostage."
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "text": "le chercher les aliments",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom « le » est superflu et incorrect. Le verbe « chercher » a déjà un complément d'objet direct, « les aliments ».",
+        "suggestions": [
+          "chercher les aliments"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "n'ont pas bonne",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est incorrecte. On devrait utiliser le verbe « être » et accorder l'adjectif : « qui ne sont pas bons ».",
+        "suggestions": [
+          "ne sont pas bons"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "d'épicerie.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Cette phrase est une question directe et devrait se terminer par un point d'interrogation plutôt qu'un point.",
+        "suggestions": [
+          "d'épicerie ?"
+        ],
+        "ruleApplied": "4.2.2.2.1"
+      },
+      {
+        "text": "le nombre de pourcentage",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression « le nombre de pourcentage » est un pléonasme. Il faut utiliser soit « le pourcentage », soit « le taux ».",
+        "suggestions": [
+          "le pourcentage"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      }
+    ],
+    "erreursCritere5AvantAnalyseIA": [
+      {
+        "text": "faison",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Barbarisme de conjugaison. La forme correcte du verbe 'faire' à la première personne du pluriel du présent de l'indicatif est 'faisons'.",
+        "suggestions": [
+          "faisons"
+        ],
+        "ruleApplied": "5.3.2.1"
+      },
+      {
+        "text": "de",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "La contraction de la préposition 'de' et de l'article 'les' est obligatoire. On doit écrire 'des'.",
+        "suggestions": [
+          "des"
+        ],
+        "ruleApplied": "5.3.5"
+      },
+      {
+        "text": "important",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "L'adjectif 'important' doit s'accorder en genre (féminin) et en nombre (pluriel) avec le nom sous-entendu ('choses' ou 'ressources'), représenté par 'une'. Le donneur d'accord est 'une des [choses]'.",
+        "suggestions": [
+          "importantes"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "nourriture",
+        "occurenceIndex": 3,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le nom qui suit 'quantité de' est généralement au singulier s'il est non comptable, comme 'nourriture'.",
+        "suggestions": [
+          "nourriture"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "text": "canadienne",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. L'adjectif 'canadienne' doit s'accorder au pluriel avec le nom 'familles' qu'il qualifie.",
+        "suggestions": [
+          "canadiennes"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "ils",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en genre. Le pronom 'ils' doit s'accorder au féminin ('elles') avec son antécédent 'familles'.",
+        "suggestions": [
+          "elles"
+        ],
+        "ruleApplied": "5.3.1.4"
+      },
+      {
+        "text": "acheté",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord du participe passé. Le participe passé 'acheté', conjugué avec l'auxiliaire 'avoir', doit s'accorder en genre et en nombre avec le complément d'objet direct 'qu'' (mis pour 'quantité', féminin singulier) placé avant le verbe.",
+        "suggestions": [
+          "achetée"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "planifier",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion de désinences homophones. Le verbe doit être à l'impératif présent ('planifiez') pour être cohérent avec le contexte de la phrase.",
+        "suggestions": [
+          "planifiez"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "alimente",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le nom 'aliment' doit être au pluriel après le déterminant 'des'.",
+        "suggestions": [
+          "aliments"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "RECYC-QUEBEC",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur dans une dénomination. L'accent aigu est manquant sur le 'E' de 'QUÉBEC'.",
+        "suggestions": [
+          "RECYC-QUÉBEC"
+        ],
+        "ruleApplied": "5.2.4.1.2"
+      },
+      {
+        "text": "aidez",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion de désinences homophones. Après un verbe modal comme 'pouvoir', le verbe qui suit doit être à l'infinitif ('-er') et non conjugué ('-ez').",
+        "suggestions": [
+          "aider"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "agriculteur",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le nom 'agriculteur' doit être au pluriel après le déterminant 'les'.",
+        "suggestions": [
+          "agriculteurs"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "grace",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Accent manquant. Le mot 'grâce' prend un accent circonflexe sur le 'a'.",
+        "suggestions": [
+          "grâce"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "text": "à le",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Absence de la contraction obligatoire de la préposition 'à' et de l'article 'le', qui doivent former 'au'.",
+        "suggestions": [
+          "au"
+        ],
+        "ruleApplied": "5.3.5"
+      },
+      {
+        "text": "aliment",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le nom 'aliment' doit être au pluriel dans ce contexte pour signifier 'des aliments'.",
+        "suggestions": [
+          "aliments"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "text": "banque",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le nom 'banque' doit être au pluriel après le déterminant 'des'.",
+        "suggestions": [
+          "banques"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "alimentaire",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "Erreur d'accord en nombre. L'adjectif 'alimentaire' doit s'accorder au pluriel avec le nom 'banques' qu'il qualifie. Le donneur d'accord est 'banques'.",
+        "suggestions": [
+          "alimentaires"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "le",
+        "occurenceIndex": 2,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le pronom 'le' doit s'accorder au pluriel ('les') avec son référent 'les aliments'.",
+        "suggestions": [
+          "les"
+        ],
+        "ruleApplied": "5.3.1.4"
+      },
+      {
+        "text": "bonne",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en genre et en nombre. L'adjectif 'bonne' doit s'accorder au masculin pluriel ('bons') avec son antécédent 'les aliments'.",
+        "suggestions": [
+          "bons"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "conserves",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion de désinences. Un verbe à l'infinitif ('conserver') est requis après 'comment', et non une forme conjuguée.",
+        "suggestions": [
+          "conserver"
+        ],
+        "ruleApplied": "5.3.2.5"
+      },
+      {
+        "text": "nourriture",
+        "occurenceIndex": 4,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le nom 'nourriture' est généralement utilisé au singulier dans ce contexte.",
+        "suggestions": [
+          "nourriture"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "les",
+        "occurenceIndex": 5,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le déterminant 'les' doit être au singulier ('le') pour s'accorder avec le nom 'gaspillage'.",
+        "suggestions": [
+          "le"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "aliment",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le nom 'aliment' doit être au pluriel pour s'accorder avec le sens général de la phrase.",
+        "suggestions": [
+          "aliments"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "text": "bonne",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en genre. L'adjectif 'bonne' doit s'accorder au masculin ('bon') avec le sujet 'le gaspillage'.",
+        "suggestions": [
+          "bon"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "quantité",
+        "occurenceIndex": 2,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le nom 'quantité' doit être au pluriel après le déterminant possessif 'nos'.",
+        "suggestions": [
+          "quantités"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "d'alimentaire",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'adjectif « alimentaire » et le nom « aliment ». Le nom est requis ici.",
+        "suggestions": [
+          "d'aliments"
+        ],
+        "ruleApplied": "5.3.3.2"
+      },
+      {
+        "text": "des nourriture",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après « quantité de », le nom qui suit est généralement au singulier s'il est indénombrable comme « nourriture ». De plus, l'article « des » est incorrect; on utilise « de ».",
+        "suggestions": [
+          "de nourriture"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "text": "fertilité",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le nom « fertilité » et le verbe « fertiliser ». Le contexte requiert un verbe à l'infinitif.",
+        "suggestions": [
+          "fertiliser"
+        ],
+        "ruleApplied": "5.3.3.2"
+      },
+      {
+        "text": "« veulent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Dans un discours rapporté direct introduit par des guillemets, la première lettre de la citation doit être une majuscule.",
+        "suggestions": [
+          "« Veulent"
+        ],
+        "ruleApplied": "5.3.6.3"
+      },
+      {
+        "text": "d'aliment",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « aliment » doit être au pluriel pour correspondre au sens général de la phrase.",
+        "suggestions": [
+          "d'aliments"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "text": "les nourriture",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « nourriture » est généralement indénombrable et s'emploie au singulier avec l'article « la ».",
+        "suggestions": [
+          "la nourriture"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "les gaspillage",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant « les » (pluriel) ne s'accorde pas en nombre avec le nom « gaspillage » (singulier).",
+        "suggestions": [
+          "le gaspillage"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "quantité",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « quantité » doit s'accorder en nombre avec le déterminant possessif « nos » (pluriel).",
+        "suggestions": [
+          "quantités"
+        ],
+        "ruleApplied": "5.3.1.1"
+      }
+    ],
+    "analyseIADuplicatas": {
+      "critere4": {
+        "analyse": {
+          "totalErreursCritere4": 35,
+          "totalErreursCritere5": 0,
+          "duplicatasCritere4": 7,
+          "duplicatasCritere5": 0
+        },
+        "duplicatasCritere4": [
+          {
+            "groupe": 1,
+            "confiance": 98,
+            "raison": "Même erreur de ponctuation (virgule manquante) au même endroit. L'erreur 23 a un texte plus contextuel.",
+            "erreurs": [
+              {
+                "index": 2,
+                "text": "nourriture",
+                "garder": false
+              },
+              {
+                "index": 23,
+                "text": "nourriture comment",
+                "garder": true
+              }
+            ]
+          },
+          {
+            "groupe": 2,
+            "confiance": 95,
+            "raison": "Même erreur de préposition ('de' au lieu de 'à'). L'erreur 24 a un texte plus complet ('prêts d'arrêter').",
+            "erreurs": [
+              {
+                "index": 3,
+                "text": "d'arrêter",
+                "garder": false
+              },
+              {
+                "index": 24,
+                "text": "prêts d'arrêter",
+                "garder": true
+              }
+            ]
+          },
+          {
+            "groupe": 3,
+            "confiance": 95,
+            "raison": "Même erreur de préposition ('de' au lieu de 'à'). L'erreur 25 a un texte plus complet ('prêts d'arrêter').",
+            "erreurs": [
+              {
+                "index": 6,
+                "text": "d'arrêter",
+                "garder": false
+              },
+              {
+                "index": 25,
+                "text": "prêts d'arrêter",
+                "garder": true
+              }
+            ]
+          },
+          {
+            "groupe": 4,
+            "confiance": 100,
+            "raison": "Même erreur (déterminant manquant), même occurrence. L'erreur 27 a un texte plus complet.",
+            "erreurs": [
+              {
+                "index": 11,
+                "text": "de grande",
+                "garder": false
+              },
+              {
+                "index": 27,
+                "text": "de grande quantité",
+                "garder": true
+              }
+            ]
+          },
+          {
+            "groupe": 5,
+            "confiance": 90,
+            "raison": "L'erreur 28 est une erreur de construction complexe qui englobe l'erreur plus simple de mot superflu (13) à la même occurrence.",
+            "erreurs": [
+              {
+                "index": 13,
+                "text": "n'est pas",
+                "garder": false
+              },
+              {
+                "index": 28,
+                "text": "aider de n'est pas conserver",
+                "garder": true
+              }
+            ]
+          },
+          {
+            "groupe": 6,
+            "confiance": 90,
+            "raison": "Même erreur de négation (mot superflu). L'erreur 29 a un texte plus contextuel. L'incohérence des 'occurenceIndex' réduit légèrement la confiance.",
+            "erreurs": [
+              {
+                "index": 14,
+                "text": "n’est pas",
+                "garder": false
+              },
+              {
+                "index": 29,
+                "text": "n’est pas acheter",
+                "garder": true
+              }
+            ]
+          },
+          {
+            "groupe": 7,
+            "confiance": 100,
+            "raison": "Même erreur de pléonasme, même occurrence. L'erreur 34 a un texte plus complet.",
+            "erreurs": [
+              {
+                "index": 21,
+                "text": "nombre de",
+                "garder": false
+              },
+              {
+                "index": 34,
+                "text": "le nombre de pourcentage",
+                "garder": true
+              }
+            ]
+          }
+        ],
+        "duplicatasCritere5": [],
+        "erreursUniquesCritere4": [
+          {
+            "index": 0,
+            "text": "C'est qu'on",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 1,
+            "text": "pour",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 4,
+            "text": "d'alimentaire",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 5,
+            "text": "sommes jamais",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 7,
+            "text": "des",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 8,
+            "text": "achetons les épiceries sont parfois difficiles",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 9,
+            "text": "est-ce que",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 10,
+            "text": "ont",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 12,
+            "text": "de",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 15,
+            "text": "légumes les",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 16,
+            "text": "fertilité",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 17,
+            "text": "pas seulement",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 18,
+            "text": "pas de choix",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 19,
+            "text": "ont",
+            "raison": "Erreur distincte de l'erreur à l'index 10 (occurrence différente)."
+          },
+          {
+            "index": 20,
+            "text": "pourquoi pas",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 22,
+            "text": "une de plus important",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 26,
+            "text": "gaspillés ont par",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 30,
+            "text": "la moitié des aliments que nous gaspillons comme les légumes les fruits, les oeufs (RECYC-QUEBEC, 2021) sans savoir que nous pouvons éviter de faire cela en faisant du compostage.",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 31,
+            "text": "le chercher les aliments",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 32,
+            "text": "n'ont pas bonne",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 33,
+            "text": "d'épicerie.",
+            "raison": "Aucun duplicata trouvé"
+          }
+        ],
+        "erreursUniquesCritere5": [],
+        "recommandations": {
+          "erreursAConserverCritere4": [
+            0,
+            1,
+            4,
+            5,
+            7,
+            8,
+            9,
+            10,
+            12,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34
+          ],
+          "erreursAConserverCritere5": [],
+          "erreursASupprimer": {
+            "critere4": [
+              2,
+              3,
+              6,
+              11,
+              13,
+              14,
+              21
+            ],
+            "critere5": []
+          }
+        }
+      },
+      "critere5": {
+        "analyse": {
+          "totalErreursCritere4": 0,
+          "totalErreursCritere5": 33,
+          "duplicatasCritere4": 0,
+          "duplicatasCritere5": 5
+        },
+        "duplicatasCritere4": [],
+        "duplicatasCritere5": [
+          {
+            "groupe": 1,
+            "confiance": 90,
+            "raison": "Même erreur d'accord (pluriel manquant) sur le même mot à la même position, avec une légère variation textuelle.",
+            "erreurs": [
+              {
+                "index": 8,
+                "text": "alimente",
+                "garder": true
+              },
+              {
+                "index": 14,
+                "text": "aliment",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 2,
+            "confiance": 95,
+            "raison": "Même erreur d'accord identifiée, une erreur englobant l'autre textuellement et sémantiquement.",
+            "erreurs": [
+              {
+                "index": 31,
+                "text": "les gaspillage",
+                "garder": true
+              },
+              {
+                "index": 21,
+                "text": "les",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 3,
+            "confiance": 85,
+            "raison": "Texte et description quasi identiques, suggérant la même erreur malgré une différence d'index d'occurrence.",
+            "erreurs": [
+              {
+                "index": 24,
+                "text": "quantité",
+                "garder": true
+              },
+              {
+                "index": 32,
+                "text": "quantité",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 4,
+            "confiance": 95,
+            "raison": "Même erreur sémantique et de nombre sur un segment de texte qui se chevauche, à la même position.",
+            "erreurs": [
+              {
+                "index": 25,
+                "text": "d'alimentaire",
+                "garder": true
+              },
+              {
+                "index": 29,
+                "text": "d'aliment",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 5,
+            "confiance": 90,
+            "raison": "Erreurs de déterminant et d'accord sur le même nom à la même position, avec des textes englobants.",
+            "erreurs": [
+              {
+                "index": 26,
+                "text": "des nourriture",
+                "garder": true
+              },
+              {
+                "index": 30,
+                "text": "les nourriture",
+                "garder": false
+              }
+            ]
+          }
+        ],
+        "erreursUniquesCritere4": [],
+        "erreursUniquesCritere5": [
+          {
+            "index": 0,
+            "text": "faison",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 1,
+            "text": "de",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 2,
+            "text": "important",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 3,
+            "text": "nourriture",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 4,
+            "text": "canadienne",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 5,
+            "text": "ils",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 6,
+            "text": "acheté",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 7,
+            "text": "planifier",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 9,
+            "text": "RECYC-QUEBEC",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 10,
+            "text": "aidez",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 11,
+            "text": "agriculteur",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 12,
+            "text": "grace",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 13,
+            "text": "à le",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 15,
+            "text": "banque",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 16,
+            "text": "alimentaire",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 17,
+            "text": "le",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 18,
+            "text": "bonne",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 19,
+            "text": "conserves",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 20,
+            "text": "nourriture",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 22,
+            "text": "aliment",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 23,
+            "text": "bonne",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 27,
+            "text": "fertilité",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 28,
+            "text": "« veulent",
+            "raison": "Aucun duplicata trouvé"
+          }
+        ],
+        "recommandations": {
+          "erreursAConserverCritere4": [],
+          "erreursAConserverCritere5": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            31
+          ],
+          "erreursASupprimer": {
+            "critere4": [],
+            "critere5": [
+              14,
+              21,
+              29,
+              30,
+              32
+            ]
+          }
+        }
+      }
+    }
+  }
+}

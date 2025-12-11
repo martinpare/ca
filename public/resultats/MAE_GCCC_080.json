@@ -1,0 +1,2648 @@
+{
+  "processedAt": "2025-12-10T14:43:43.002Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_080.txt",
+    "originalText": "Notre habitude concernant les aliments ne changera pas\r\n\r\nDans notre société, l'achat des aliments et la consommation des repas sont les éléments importants alors que les humains peuvent vivre une vie saine. Mais à cette génération, la norme d'acheter des produits alimentaires est devenue massive au point que les termes « surconsommation» et «gaspillage» sont toujours associées aux aliments. Notre traitement envers les aliments changera-t-il ? Selon moi, cela ne se passera pas en raisons des changements climatiques et les surachats des produits alimentaires.\r\n\r\nPremièrement, une des raisons pour laquelle je crois que les humains continueront à gaspiller les aliments est à cause des conditions météorologiques. Les changements du climat posent les problèmes avec la production des aliments. Et ces problèmes causent les produits à se déformer aux formes non désirées par les consommateurs. Bien sûr il y auront des difficultés avec la vente de ces aliments dans les marchés. Selon l'étude de Cameron, Daphné « Les conditions météorologiques affectent la forme et la taille des légumes, ce qui les rend difficiles à vendre à une majorité de consommateurs qui recherchent des aliments parfaits.» (Cameron, 2020) À partir de cela, on pouvait voir que ce sont les consommateurs qui décident quels aliments sont parfaits. Pour expliquer en ce qui cause les changements atmosphériques, l'étude de RECYC-QUÉBEC (2021) «Gaspillage alimentaire» indique que les aliments non achetés ou non consommés par les humains sont incinérés. Ce processus produit en conséquence des gaz à effet de serre qui contribuent aux changements climatiques. En somme, le gaspillage des aliments cause l'atmosphère à changer et ce changement cause les produits non voulés à être gaspiller.\r\n\r\nDernièrement, un autre argument donc pourquoi je pense que les humains ne sont pas capable d'arrêter le gaspillage des aliments c'est parce que la plupart du monde surconsomment ou achètent trop de produits. Nous vivons dans une société où les publications des produits sont partout et les acheteurs, avec l'argent prêt, sont toujours préparés de se promener vers les marchés ou épicéries un fois les prix des produits alimentaires baisse. Mais cela indique leur qualité diminue et les vendeurs veulent vendre ces aliments le plus tôt possible, car la date limite de conservation s'approchera. Selon Roy, Mathilde « Plusieurs publicités incitent les consommateurs à acheter des produits en grande quantité.» (Roy, 2018) Cela montre que la publication des aliments et les ventes de bas prix et 2 pour 1 servent comme un motivation pour les consommateurs à acheter les produits en grande somme. Une autre forme de surconsommation d'aliments est montré dans les secteurs d'hôtellerie et restauration. À partir de la recherche de Table Québécoise sur la saine alimentation (2019) il y a beaucoup de gaspillage dans ces secteurs parce que leurs plâts contiennent parfois des imperfections et les portions sont trop grosses. D'abord les publications et les secteurs d'hôtellerie et restauration contribue à l'augmentation du gaspillage alimentaire.",
+    "erreursCritere4": [
+      {
+        "text": "alors que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le subordonnant 'alors que' exprime une opposition ou une simultanéité, ce qui ne convient pas au sens de la phrase qui exprime un but. Il faut utiliser 'pour que' ou 'afin que'.",
+        "suggestions": [
+          "pour que"
+        ],
+        "ruleApplied": "4.1.2.4.2"
+      },
+      {
+        "text": "peuvent",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Le subordonnant 'pour que' exige l'emploi du subjonctif. Le verbe 'pouvoir' doit donc être conjugué au subjonctif présent.",
+        "suggestions": [
+          "puissent"
+        ],
+        "ruleApplied": "4.1.2.2.3"
+      },
+      {
+        "text": "« surconsommation»",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "« P »",
+        "description": "Les guillemets français (« ») doivent être séparés du texte qu'ils encadrent par une espace insécable.",
+        "suggestions": [
+          "« surconsommation »"
+        ],
+        "ruleApplied": "4.2.2.5.1"
+      },
+      {
+        "text": "est à cause des",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction 'être à cause de' est un calque de l'anglais. Il faut utiliser une construction comme 'tient au fait que' ou simplement reformuler en 'réside dans les'.",
+        "suggestions": [
+          "tient aux",
+          "réside dans les"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "causent les produits à se déformer aux formes",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction du verbe 'causer' est incorrecte. On ne dit pas 'causer quelque chose à faire quelque chose'. De plus, la préposition 'aux' est mal choisie. Il faut reformuler, par exemple : 'amènent les produits à se déformer'.",
+        "suggestions": [
+          "amènent les produits à se déformer"
+        ],
+        "ruleApplied": "4.1.2.2.2"
+      },
+      {
+        "text": "« Les conditions météorologiques affectent la forme et la taille des légumes, ce qui les rend difficiles à vendre à une majorité de consommateurs qui recherchent des aliments parfaits.»",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "« P »",
+        "description": "Les guillemets français (« ») doivent être séparés du texte qu'ils encadrent par une espace insécable.",
+        "suggestions": [
+          "« Les conditions météorologiques affectent la forme et la taille des légumes, ce qui les rend difficiles à vendre à une majorité de consommateurs qui recherchent des aliments parfaits. »"
+        ],
+        "ruleApplied": "4.2.2.5.1"
+      },
+      {
+        "text": "(Cameron, 2020)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une phrase se terminant par une référence entre parenthèses doit comporter un point final après la parenthèse fermante.",
+        "suggestions": [
+          "(Cameron, 2020)."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "text": "pouvait",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'emploi de l'imparfait ('pouvait') brise l'harmonie des temps du paragraphe, qui est majoritairement au présent de l'indicatif. Il faut utiliser le présent 'peut'.",
+        "suggestions": [
+          "peut"
+        ],
+        "ruleApplied": "4.1.2.2.4"
+      },
+      {
+        "text": "en ce qui cause",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution 'en ce qui' est superflue et rend la construction de la phrase incorrecte. Il faut simplement utiliser 'ce qui'.",
+        "suggestions": [
+          "ce qui cause"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "«Gaspillage alimentaire»",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "« P »",
+        "description": "Les guillemets français (« ») doivent être séparés du texte qu'ils encadrent par une espace insécable.",
+        "suggestions": [
+          "« Gaspillage alimentaire »"
+        ],
+        "ruleApplied": "4.2.2.5.1"
+      },
+      {
+        "text": "cause l'atmosphère à changer",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction du verbe 'causer' est incorrecte. On ne dit pas 'causer quelque chose à faire quelque chose'. Il faut reformuler, par exemple : 'amène l'atmosphère à changer'.",
+        "suggestions": [
+          "amène l'atmosphère à changer"
+        ],
+        "ruleApplied": "4.1.2.2.2"
+      },
+      {
+        "text": "donc pourquoi",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'enchaînement 'donc pourquoi' est incorrect et redondant. Il faut supprimer 'donc' ou reformuler, par exemple : 'un autre argument qui explique pourquoi'.",
+        "suggestions": [
+          "pour lequel",
+          "qui explique pourquoi"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "s'approchera",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "L'emploi du futur simple ('s'approchera') brise l'harmonie des temps de la phrase, qui est au présent de l'indicatif. Il faut utiliser le présent 's'approche'.",
+        "suggestions": [
+          "s'approche"
+        ],
+        "ruleApplied": "4.1.2.2.4"
+      },
+      {
+        "text": "« Plusieurs publicités incitent les consommateurs à acheter des produits en grande quantité.»",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "« P »",
+        "description": "Les guillemets français (« ») doivent être séparés du texte qu'ils encadrent par une espace insécable.",
+        "suggestions": [
+          "« Plusieurs publicités incitent les consommateurs à acheter des produits en grande quantité. »"
+        ],
+        "ruleApplied": "4.2.2.5.1"
+      },
+      {
+        "text": "(Roy, 2018)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une phrase se terminant par une référence entre parenthèses doit comporter un point final après la parenthèse fermante.",
+        "suggestions": [
+          "(Roy, 2018)."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "text": "servent comme un motivation",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction 'servir comme' est un calque de l'anglais. On utilise 'servir de'. De plus, le nom 'motivation' est féminin ('une motivation').",
+        "suggestions": [
+          "servent de motivation"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "restauration",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition 'de' (ici élidée en 'd'') doit être répétée devant chaque élément de l'énumération.",
+        "suggestions": [
+          "de la restauration"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "(2019) il",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Un complément de phrase en tête de proposition ('À partir de la recherche de...') doit être suivi d'une virgule.",
+        "suggestions": [
+          "(2019), il"
+        ],
+        "ruleApplied": "4.2.2.10.1.b"
+      },
+      {
+        "text": "D'abord",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'organisateur textuel 'D'abord' est mal employé ici. Il signifie 'premièrement', ce qui contredit la structure du texte. Un connecteur de conclusion comme 'Donc' ou 'Ainsi' serait approprié.",
+        "suggestions": [
+          "Donc",
+          "Ainsi"
+        ],
+        "ruleApplied": "4.1.2.4.2"
+      },
+      {
+        "text": "la norme d'acheter des produits alimentaires est devenue massive",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est boiteuse. L'expression « norme massive » est sémantiquement inadéquate. La phrase doit être reformulée pour être idiomatique.",
+        "suggestions": [
+          "l'achat massif de produits alimentaires est devenu la norme"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "en raisons des",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution prépositive correcte est \"en raison de\". L'emploi du pluriel \"raisons\" est incorrect dans cette expression.",
+        "suggestions": [
+          "en raison des"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "et les surachats",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Absence d'un mot essentiel. Dans une énumération introduite par la préposition \"de\" (ici, dans \"en raison des\"), cette préposition doit être répétée devant chaque élément. Il manque donc \"des\" avant \"surachats\". L'erreur n'est pas comptée car il y a déjà une erreur de syntaxe dans cette phrase.",
+        "suggestions": [
+          "et des surachats"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "pour laquelle",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom relatif doit s'accorder en genre et en nombre avec son antécédent. Ici, l'antécédent est \"raisons\", qui est féminin pluriel. Le pronom correct est donc \"lesquelles\".",
+        "suggestions": [
+          "pour lesquelles"
+        ],
+        "ruleApplied": "4.1.2.3.1"
+      },
+      {
+        "text": "posent les problèmes",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'emploi de l'article défini \"les\" suggère que les problèmes sont déjà connus du lecteur, ce qui n'est pas le cas. L'article indéfini \"des\" est plus approprié pour introduire une information nouvelle.",
+        "suggestions": [
+          "posent des problèmes"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "text": "Bien sûr il",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de virgule. Un organisateur textuel ou un adverbe de modalité placé en tête de phrase, comme \"Bien sûr\", doit être suivi d'une virgule.",
+        "suggestions": [
+          "Bien sûr,"
+        ],
+        "ruleApplied": "4.2.2.10.1.k"
+      },
+      {
+        "text": "cause les produits non voulus à être",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction du verbe \"causer\" est incorrecte. Il ne peut être suivi de \"à + infinitif\". Il faut utiliser une autre tournure.",
+        "suggestions": [
+          "fait que les produits non voulus sont"
+        ],
+        "ruleApplied": "4.1.2.2.2"
+      },
+      {
+        "text": "Dernièrement",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Problème de sens. L'adverbe \"dernièrement\" signifie \"récemment\". Pour introduire le dernier argument, il faut utiliser un marqueur de relation comme \"finalement\" ou \"enfin\".",
+        "suggestions": [
+          "Finalement",
+          "Enfin"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": "donc pourquoi",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Présence d'un mot superflu. L'adverbe \"donc\" est redondant avec \"pourquoi\". Il faut le supprimer. L'erreur n'est pas comptée car il y a déjà une erreur de syntaxe dans cette phrase.",
+        "suggestions": [
+          "pourquoi"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "ou épicéries",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence d'un mot essentiel. Dans une énumération, le déterminant doit être répété devant chaque nom. Il manque \"les\" ou \"aux\" devant \"épiceries\".",
+        "suggestions": [
+          "ou les épiceries",
+          "ou aux épiceries"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "indique leur qualité diminue",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence d'un mot essentiel. La conjonction de subordination \"que\" est obligatoire pour introduire la proposition complétive après le verbe \"indique\".",
+        "suggestions": [
+          "indique que leur qualité diminue"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "s'approchera",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur d'harmonisation des temps. Le verbe est au futur simple alors que le contexte de la phrase est au présent (\"diminue\", \"veulent\"). Le présent est requis.",
+        "suggestions": [
+          "s'approche"
+        ],
+        "ruleApplied": "4.1.2.2.4"
+      },
+      {
+        "text": "alimentation (2019) il y a",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de virgule. Un complément de phrase long (plus de trois mots) placé en tête de phrase doit être suivi d'une virgule.",
+        "suggestions": [
+          "alimentation (2019), il y a"
+        ],
+        "ruleApplied": "4.2.2.10.1.l"
+      },
+      {
+        "text": "D'abord les publications",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de virgule. L'organisateur textuel \"D'abord\" en tête de phrase doit être suivi d'une virgule.",
+        "suggestions": [
+          "D'abord,"
+        ],
+        "ruleApplied": "4.2.2.10.1.k"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 24,
+      "note": "E"
+    },
+    "erreursCritere5": [
+      {
+        "text": "associées",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'associées', employé avec l'auxiliaire 'être', doit s'accorder en genre et en nombre avec son sujet 'les termes' (masculin pluriel).",
+        "suggestions": [
+          "associés"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "laquelle",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom relatif 'laquelle' doit s'accorder en genre et en nombre avec son antécédent 'raisons' (féminin pluriel).",
+        "suggestions": [
+          "lesquelles"
+        ],
+        "ruleApplied": "5.3.1.4"
+      },
+      {
+        "text": "auront",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Dans la locution impersonnelle 'il y a', le verbe 'avoir' reste toujours à la troisième personne du singulier, quel que soit le temps.",
+        "suggestions": [
+          "aura"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "gaspiller",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après l'auxiliaire 'être', il faut utiliser le participe passé. De plus, ce participe passé doit s'accorder avec le sujet 'les produits non voulus' (masculin pluriel). Confusion entre l'infinitif '-er' et le participe passé '-é'.",
+        "suggestions": [
+          "gaspillés"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "capable",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'capable' doit s'accorder en nombre avec le nom auquel il se rapporte, 'les humains' (pluriel).",
+        "suggestions": [
+          "capables"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "surconsomment",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec le complément du nom collectif 'la plupart', qui est ici 'monde' (singulier). Le verbe doit donc être au singulier.",
+        "suggestions": [
+          "surconsomme"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "un fois",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'fois' est féminin. Le déterminant doit donc être 'une'.",
+        "suggestions": [
+          "une fois"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "baisse",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'baisser' doit s'accorder en nombre avec son sujet 'les prix des produits alimentaires' (pluriel).",
+        "suggestions": [
+          "baissent"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "montré",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'montré', employé avec l'auxiliaire 'être', doit s'accorder en genre et en nombre avec son sujet 'Une autre forme' (féminin singulier).",
+        "suggestions": [
+          "montrée"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "plâts",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Orthographe d'usage incorrecte pour le mot 'plats'.",
+        "suggestions": [
+          "plats"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "contribue",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'contribuer' doit s'accorder en nombre avec son sujet pluriel 'les publications et les secteurs d'hôtellerie et restauration'.",
+        "suggestions": [
+          "contribuent"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "un motivation",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en genre. Le nom \"motivation\" est féminin. Le déterminant indéfini doit donc être \"une\".",
+        "suggestions": [
+          "une motivation"
+        ],
+        "ruleApplied": "5.3.1.1"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 12,
+      "note": "C"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:38:04.718Z",
+    "endTimestamp": "2025-12-10T14:43:43.002Z",
+    "durationMs": 338284,
+    "durationFormatted": "05:38:284",
+    "cumulParPasse": [
+      {
+        "passe": 1,
+        "erreursCritere4": [
+          {
+            "text": "alors que",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le subordonnant 'alors que' exprime une opposition ou une simultanéité, ce qui ne convient pas au sens de la phrase qui exprime un but. Il faut utiliser 'pour que' ou 'afin que'.",
+            "suggestions": [
+              "pour que"
+            ],
+            "ruleApplied": "4.1.2.4.2"
+          },
+          {
+            "text": "peuvent",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "Le subordonnant 'pour que' exige l'emploi du subjonctif. Le verbe 'pouvoir' doit donc être conjugué au subjonctif présent.",
+            "suggestions": [
+              "puissent"
+            ],
+            "ruleApplied": "4.1.2.2.3"
+          },
+          {
+            "text": "« surconsommation»",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "« P »",
+            "description": "Les guillemets français (« ») doivent être séparés du texte qu'ils encadrent par une espace insécable.",
+            "suggestions": [
+              "« surconsommation »"
+            ],
+            "ruleApplied": "4.2.2.5.1"
+          },
+          {
+            "text": "les surachats",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La préposition 'de' (ici contractée en 'des') doit être répétée devant chaque élément d'une énumération introduite par 'en raison de'.",
+            "suggestions": [
+              "des surachats"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "est à cause des",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction 'être à cause de' est un calque de l'anglais. Il faut utiliser une construction comme 'tient au fait que' ou simplement reformuler en 'réside dans les'.",
+            "suggestions": [
+              "tient aux",
+              "réside dans les"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "les problèmes",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'article défini 'les' n'est pas approprié ici, car il s'agit d'une affirmation générale. L'article indéfini 'des' est requis.",
+            "suggestions": [
+              "des problèmes"
+            ],
+            "ruleApplied": "4.1.2.3.2"
+          },
+          {
+            "text": "causent les produits à se déformer aux formes",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction du verbe 'causer' est incorrecte. On ne dit pas 'causer quelque chose à faire quelque chose'. De plus, la préposition 'aux' est mal choisie. Il faut reformuler, par exemple : 'amènent les produits à se déformer'.",
+            "suggestions": [
+              "amènent les produits à se déformer"
+            ],
+            "ruleApplied": "4.1.2.2.2"
+          },
+          {
+            "text": "« Les conditions météorologiques affectent la forme et la taille des légumes, ce qui les rend difficiles à vendre à une majorité de consommateurs qui recherchent des aliments parfaits.»",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "« P »",
+            "description": "Les guillemets français (« ») doivent être séparés du texte qu'ils encadrent par une espace insécable.",
+            "suggestions": [
+              "« Les conditions météorologiques affectent la forme et la taille des légumes, ce qui les rend difficiles à vendre à une majorité de consommateurs qui recherchent des aliments parfaits. »"
+            ],
+            "ruleApplied": "4.2.2.5.1"
+          },
+          {
+            "text": "(Cameron, 2020)",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Une phrase se terminant par une référence entre parenthèses doit comporter un point final après la parenthèse fermante.",
+            "suggestions": [
+              "(Cameron, 2020)."
+            ],
+            "ruleApplied": "4.2.2.1.1"
+          },
+          {
+            "text": "pouvait",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'emploi de l'imparfait ('pouvait') brise l'harmonie des temps du paragraphe, qui est majoritairement au présent de l'indicatif. Il faut utiliser le présent 'peut'.",
+            "suggestions": [
+              "peut"
+            ],
+            "ruleApplied": "4.1.2.2.4"
+          },
+          {
+            "text": "en ce qui cause",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La locution 'en ce qui' est superflue et rend la construction de la phrase incorrecte. Il faut simplement utiliser 'ce qui'.",
+            "suggestions": [
+              "ce qui cause"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "«Gaspillage alimentaire»",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "« P »",
+            "description": "Les guillemets français (« ») doivent être séparés du texte qu'ils encadrent par une espace insécable.",
+            "suggestions": [
+              "« Gaspillage alimentaire »"
+            ],
+            "ruleApplied": "4.2.2.5.1"
+          },
+          {
+            "text": "cause l'atmosphère à changer",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction du verbe 'causer' est incorrecte. On ne dit pas 'causer quelque chose à faire quelque chose'. Il faut reformuler, par exemple : 'amène l'atmosphère à changer'.",
+            "suggestions": [
+              "amène l'atmosphère à changer"
+            ],
+            "ruleApplied": "4.1.2.2.2"
+          },
+          {
+            "text": "donc pourquoi",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'enchaînement 'donc pourquoi' est incorrect et redondant. Il faut supprimer 'donc' ou reformuler, par exemple : 'un autre argument qui explique pourquoi'.",
+            "suggestions": [
+              "pour lequel",
+              "qui explique pourquoi"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "préparés de",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'adjectif 'préparé' se construit avec la préposition 'à', et non 'de'.",
+            "suggestions": [
+              "préparés à"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "indique leur qualité",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Il manque le subordonnant 'que' pour introduire la proposition subordonnée complétive qui suit le verbe 'indique'.",
+            "suggestions": [
+              "indique que leur qualité"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "s'approchera",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "L'emploi du futur simple ('s'approchera') brise l'harmonie des temps de la phrase, qui est au présent de l'indicatif. Il faut utiliser le présent 's'approche'.",
+            "suggestions": [
+              "s'approche"
+            ],
+            "ruleApplied": "4.1.2.2.4"
+          },
+          {
+            "text": "« Plusieurs publicités incitent les consommateurs à acheter des produits en grande quantité.»",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "« P »",
+            "description": "Les guillemets français (« ») doivent être séparés du texte qu'ils encadrent par une espace insécable.",
+            "suggestions": [
+              "« Plusieurs publicités incitent les consommateurs à acheter des produits en grande quantité. »"
+            ],
+            "ruleApplied": "4.2.2.5.1"
+          },
+          {
+            "text": "(Roy, 2018)",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Une phrase se terminant par une référence entre parenthèses doit comporter un point final après la parenthèse fermante.",
+            "suggestions": [
+              "(Roy, 2018)."
+            ],
+            "ruleApplied": "4.2.2.1.1"
+          },
+          {
+            "text": "servent comme un motivation",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction 'servir comme' est un calque de l'anglais. On utilise 'servir de'. De plus, le nom 'motivation' est féminin ('une motivation').",
+            "suggestions": [
+              "servent de motivation"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "somme",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "Le mot 'somme' est inapproprié dans ce contexte, il renvoie généralement à l'argent. Le mot 'quantité' est correct.",
+            "suggestions": [
+              "quantité"
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          },
+          {
+            "text": "restauration",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La préposition 'de' (ici élidée en 'd'') doit être répétée devant chaque élément de l'énumération.",
+            "suggestions": [
+              "de la restauration"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "(2019) il",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Un complément de phrase en tête de proposition ('À partir de la recherche de...') doit être suivi d'une virgule.",
+            "suggestions": [
+              "(2019), il"
+            ],
+            "ruleApplied": "4.2.2.10.1.b"
+          },
+          {
+            "text": "D'abord",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'organisateur textuel 'D'abord' est mal employé ici. Il signifie 'premièrement', ce qui contredit la structure du texte. Un connecteur de conclusion comme 'Donc' ou 'Ainsi' serait approprié.",
+            "suggestions": [
+              "Donc",
+              "Ainsi"
+            ],
+            "ruleApplied": "4.1.2.4.2"
+          },
+          {
+            "text": "D'abord les",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Un organisateur textuel en tête de phrase doit être suivi d'une virgule.",
+            "suggestions": [
+              "D'abord, les"
+            ],
+            "ruleApplied": "4.2.2.10.1.k"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "associées",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé 'associées', employé avec l'auxiliaire 'être', doit s'accorder en genre et en nombre avec son sujet 'les termes' (masculin pluriel).",
+            "suggestions": [
+              "associés"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "laquelle",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le pronom relatif 'laquelle' doit s'accorder en genre et en nombre avec son antécédent 'raisons' (féminin pluriel).",
+            "suggestions": [
+              "lesquelles"
+            ],
+            "ruleApplied": "5.3.1.4"
+          },
+          {
+            "text": "auront",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Dans la locution impersonnelle 'il y a', le verbe 'avoir' reste toujours à la troisième personne du singulier, quel que soit le temps.",
+            "suggestions": [
+              "aura"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "gaspiller",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Après l'auxiliaire 'être', il faut utiliser le participe passé. De plus, ce participe passé doit s'accorder avec le sujet 'les produits non voulus' (masculin pluriel). Confusion entre l'infinitif '-er' et le participe passé '-é'.",
+            "suggestions": [
+              "gaspillés"
+            ],
+            "ruleApplied": "5.3.2.6"
+          },
+          {
+            "text": "capable",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif 'capable' doit s'accorder en nombre avec le nom auquel il se rapporte, 'les humains' (pluriel).",
+            "suggestions": [
+              "capables"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "surconsomment",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe doit s'accorder avec le complément du nom collectif 'la plupart', qui est ici 'monde' (singulier). Le verbe doit donc être au singulier.",
+            "suggestions": [
+              "surconsomme"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "un fois",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom 'fois' est féminin. Le déterminant doit donc être 'une'.",
+            "suggestions": [
+              "une fois"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "baisse",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe 'baisser' doit s'accorder en nombre avec son sujet 'les prix des produits alimentaires' (pluriel).",
+            "suggestions": [
+              "baissent"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "montré",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé 'montré', employé avec l'auxiliaire 'être', doit s'accorder en genre et en nombre avec son sujet 'Une autre forme' (féminin singulier).",
+            "suggestions": [
+              "montrée"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "plâts",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Orthographe d'usage incorrecte pour le mot 'plats'.",
+            "suggestions": [
+              "plats"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "contribue",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe 'contribuer' doit s'accorder en nombre avec son sujet pluriel 'les publications et les secteurs d'hôtellerie et restauration'.",
+            "suggestions": [
+              "contribuent"
+            ],
+            "ruleApplied": "5.3.2.2"
+          }
+        ],
+        "totalErreursCritere4": 25,
+        "totalErreursCritere5": 11,
+        "scoreCritere4": {
+          "pointsPerdus": 18,
+          "note": "E"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 11,
+          "note": "C"
+        }
+      },
+      {
+        "passe": 2,
+        "erreursCritere4": [
+          {
+            "text": "alors que",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le subordonnant 'alors que' exprime une opposition ou une simultanéité, ce qui ne convient pas au sens de la phrase qui exprime un but. Il faut utiliser 'pour que' ou 'afin que'.",
+            "suggestions": [
+              "pour que"
+            ],
+            "ruleApplied": "4.1.2.4.2"
+          },
+          {
+            "text": "peuvent",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "Le subordonnant 'pour que' exige l'emploi du subjonctif. Le verbe 'pouvoir' doit donc être conjugué au subjonctif présent.",
+            "suggestions": [
+              "puissent"
+            ],
+            "ruleApplied": "4.1.2.2.3"
+          },
+          {
+            "text": "« surconsommation»",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "« P »",
+            "description": "Les guillemets français (« ») doivent être séparés du texte qu'ils encadrent par une espace insécable.",
+            "suggestions": [
+              "« surconsommation »"
+            ],
+            "ruleApplied": "4.2.2.5.1"
+          },
+          {
+            "text": "les surachats",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La préposition 'de' (ici contractée en 'des') doit être répétée devant chaque élément d'une énumération introduite par 'en raison de'.",
+            "suggestions": [
+              "des surachats"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "est à cause des",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction 'être à cause de' est un calque de l'anglais. Il faut utiliser une construction comme 'tient au fait que' ou simplement reformuler en 'réside dans les'.",
+            "suggestions": [
+              "tient aux",
+              "réside dans les"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "les problèmes",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'article défini 'les' n'est pas approprié ici, car il s'agit d'une affirmation générale. L'article indéfini 'des' est requis.",
+            "suggestions": [
+              "des problèmes"
+            ],
+            "ruleApplied": "4.1.2.3.2"
+          },
+          {
+            "text": "causent les produits à se déformer aux formes",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction du verbe 'causer' est incorrecte. On ne dit pas 'causer quelque chose à faire quelque chose'. De plus, la préposition 'aux' est mal choisie. Il faut reformuler, par exemple : 'amènent les produits à se déformer'.",
+            "suggestions": [
+              "amènent les produits à se déformer"
+            ],
+            "ruleApplied": "4.1.2.2.2"
+          },
+          {
+            "text": "« Les conditions météorologiques affectent la forme et la taille des légumes, ce qui les rend difficiles à vendre à une majorité de consommateurs qui recherchent des aliments parfaits.»",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "« P »",
+            "description": "Les guillemets français (« ») doivent être séparés du texte qu'ils encadrent par une espace insécable.",
+            "suggestions": [
+              "« Les conditions météorologiques affectent la forme et la taille des légumes, ce qui les rend difficiles à vendre à une majorité de consommateurs qui recherchent des aliments parfaits. »"
+            ],
+            "ruleApplied": "4.2.2.5.1"
+          },
+          {
+            "text": "(Cameron, 2020)",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Une phrase se terminant par une référence entre parenthèses doit comporter un point final après la parenthèse fermante.",
+            "suggestions": [
+              "(Cameron, 2020)."
+            ],
+            "ruleApplied": "4.2.2.1.1"
+          },
+          {
+            "text": "pouvait",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'emploi de l'imparfait ('pouvait') brise l'harmonie des temps du paragraphe, qui est majoritairement au présent de l'indicatif. Il faut utiliser le présent 'peut'.",
+            "suggestions": [
+              "peut"
+            ],
+            "ruleApplied": "4.1.2.2.4"
+          },
+          {
+            "text": "en ce qui cause",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La locution 'en ce qui' est superflue et rend la construction de la phrase incorrecte. Il faut simplement utiliser 'ce qui'.",
+            "suggestions": [
+              "ce qui cause"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "«Gaspillage alimentaire»",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "« P »",
+            "description": "Les guillemets français (« ») doivent être séparés du texte qu'ils encadrent par une espace insécable.",
+            "suggestions": [
+              "« Gaspillage alimentaire »"
+            ],
+            "ruleApplied": "4.2.2.5.1"
+          },
+          {
+            "text": "cause l'atmosphère à changer",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction du verbe 'causer' est incorrecte. On ne dit pas 'causer quelque chose à faire quelque chose'. Il faut reformuler, par exemple : 'amène l'atmosphère à changer'.",
+            "suggestions": [
+              "amène l'atmosphère à changer"
+            ],
+            "ruleApplied": "4.1.2.2.2"
+          },
+          {
+            "text": "donc pourquoi",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'enchaînement 'donc pourquoi' est incorrect et redondant. Il faut supprimer 'donc' ou reformuler, par exemple : 'un autre argument qui explique pourquoi'.",
+            "suggestions": [
+              "pour lequel",
+              "qui explique pourquoi"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "préparés de",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'adjectif 'préparé' se construit avec la préposition 'à', et non 'de'.",
+            "suggestions": [
+              "préparés à"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "indique leur qualité",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Il manque le subordonnant 'que' pour introduire la proposition subordonnée complétive qui suit le verbe 'indique'.",
+            "suggestions": [
+              "indique que leur qualité"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "s'approchera",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "L'emploi du futur simple ('s'approchera') brise l'harmonie des temps de la phrase, qui est au présent de l'indicatif. Il faut utiliser le présent 's'approche'.",
+            "suggestions": [
+              "s'approche"
+            ],
+            "ruleApplied": "4.1.2.2.4"
+          },
+          {
+            "text": "« Plusieurs publicités incitent les consommateurs à acheter des produits en grande quantité.»",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "« P »",
+            "description": "Les guillemets français (« ») doivent être séparés du texte qu'ils encadrent par une espace insécable.",
+            "suggestions": [
+              "« Plusieurs publicités incitent les consommateurs à acheter des produits en grande quantité. »"
+            ],
+            "ruleApplied": "4.2.2.5.1"
+          },
+          {
+            "text": "(Roy, 2018)",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Une phrase se terminant par une référence entre parenthèses doit comporter un point final après la parenthèse fermante.",
+            "suggestions": [
+              "(Roy, 2018)."
+            ],
+            "ruleApplied": "4.2.2.1.1"
+          },
+          {
+            "text": "servent comme un motivation",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction 'servir comme' est un calque de l'anglais. On utilise 'servir de'. De plus, le nom 'motivation' est féminin ('une motivation').",
+            "suggestions": [
+              "servent de motivation"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "somme",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "Le mot 'somme' est inapproprié dans ce contexte, il renvoie généralement à l'argent. Le mot 'quantité' est correct.",
+            "suggestions": [
+              "quantité"
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          },
+          {
+            "text": "restauration",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La préposition 'de' (ici élidée en 'd'') doit être répétée devant chaque élément de l'énumération.",
+            "suggestions": [
+              "de la restauration"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "(2019) il",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Un complément de phrase en tête de proposition ('À partir de la recherche de...') doit être suivi d'une virgule.",
+            "suggestions": [
+              "(2019), il"
+            ],
+            "ruleApplied": "4.2.2.10.1.b"
+          },
+          {
+            "text": "D'abord",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'organisateur textuel 'D'abord' est mal employé ici. Il signifie 'premièrement', ce qui contredit la structure du texte. Un connecteur de conclusion comme 'Donc' ou 'Ainsi' serait approprié.",
+            "suggestions": [
+              "Donc",
+              "Ainsi"
+            ],
+            "ruleApplied": "4.1.2.4.2"
+          },
+          {
+            "text": "D'abord les",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Un organisateur textuel en tête de phrase doit être suivi d'une virgule.",
+            "suggestions": [
+              "D'abord, les"
+            ],
+            "ruleApplied": "4.2.2.10.1.k"
+          },
+          {
+            "text": "la norme d'acheter des produits alimentaires est devenue massive",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction de la phrase est boiteuse. L'expression « norme massive » est sémantiquement inadéquate. La phrase doit être reformulée pour être idiomatique.",
+            "suggestions": [
+              "l'achat massif de produits alimentaires est devenu la norme"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "en raisons des",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La locution prépositive correcte est \"en raison de\". L'emploi du pluriel \"raisons\" est incorrect dans cette expression.",
+            "suggestions": [
+              "en raison des"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "et les surachats",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "Absence d'un mot essentiel. Dans une énumération introduite par la préposition \"de\" (ici, dans \"en raison des\"), cette préposition doit être répétée devant chaque élément. Il manque donc \"des\" avant \"surachats\". L'erreur n'est pas comptée car il y a déjà une erreur de syntaxe dans cette phrase.",
+            "suggestions": [
+              "et des surachats"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "pour laquelle",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le pronom relatif doit s'accorder en genre et en nombre avec son antécédent. Ici, l'antécédent est \"raisons\", qui est féminin pluriel. Le pronom correct est donc \"lesquelles\".",
+            "suggestions": [
+              "pour lesquelles"
+            ],
+            "ruleApplied": "4.1.2.3.1"
+          },
+          {
+            "text": "est à cause des",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "La construction \"être à cause de\" est un calque de l'anglais (\"to be because of\"). Il faut utiliser une construction française comme \"c'est à cause de\" ou reformuler. L'erreur n'est pas comptée car il y a déjà une erreur de syntaxe dans cette phrase.",
+            "suggestions": [
+              "tient aux",
+              "s'explique par les"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "posent les problèmes",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'emploi de l'article défini \"les\" suggère que les problèmes sont déjà connus du lecteur, ce qui n'est pas le cas. L'article indéfini \"des\" est plus approprié pour introduire une information nouvelle.",
+            "suggestions": [
+              "posent des problèmes"
+            ],
+            "ruleApplied": "4.1.2.3.2"
+          },
+          {
+            "text": "causent les produits à se déformer",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction du verbe \"causer\" est incorrecte. Il ne peut être suivi de \"à + infinitif\". Il faut utiliser une autre tournure, comme \"amener [quelqu'un] à faire [quelque chose]\" ou \"faire en sorte que\".",
+            "suggestions": [
+              "amènent les produits à se déformer",
+              "font que les produits se déforment"
+            ],
+            "ruleApplied": "4.1.2.2.2"
+          },
+          {
+            "text": "Bien sûr il",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Absence de virgule. Un organisateur textuel ou un adverbe de modalité placé en tête de phrase, comme \"Bien sûr\", doit être suivi d'une virgule.",
+            "suggestions": [
+              "Bien sûr,"
+            ],
+            "ruleApplied": "4.2.2.10.1.k"
+          },
+          {
+            "text": "cause les produits non voulus à être",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction du verbe \"causer\" est incorrecte. Il ne peut être suivi de \"à + infinitif\". Il faut utiliser une autre tournure.",
+            "suggestions": [
+              "fait que les produits non voulus sont"
+            ],
+            "ruleApplied": "4.1.2.2.2"
+          },
+          {
+            "text": "Dernièrement",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Problème de sens. L'adverbe \"dernièrement\" signifie \"récemment\". Pour introduire le dernier argument, il faut utiliser un marqueur de relation comme \"finalement\" ou \"enfin\".",
+            "suggestions": [
+              "Finalement",
+              "Enfin"
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          },
+          {
+            "text": "donc pourquoi",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "Présence d'un mot superflu. L'adverbe \"donc\" est redondant avec \"pourquoi\". Il faut le supprimer. L'erreur n'est pas comptée car il y a déjà une erreur de syntaxe dans cette phrase.",
+            "suggestions": [
+              "pourquoi"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "préparés de se promener",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Erreur de préposition. L'adjectif \"préparé\" se construit avec la préposition \"à\" lorsqu'il est suivi d'un infinitif.",
+            "suggestions": [
+              "préparés à se promener"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "ou épicéries",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Absence d'un mot essentiel. Dans une énumération, le déterminant doit être répété devant chaque nom. Il manque \"les\" ou \"aux\" devant \"épiceries\".",
+            "suggestions": [
+              "ou les épiceries",
+              "ou aux épiceries"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "indique leur qualité diminue",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Absence d'un mot essentiel. La conjonction de subordination \"que\" est obligatoire pour introduire la proposition complétive après le verbe \"indique\".",
+            "suggestions": [
+              "indique que leur qualité diminue"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "s'approchera",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Erreur d'harmonisation des temps. Le verbe est au futur simple alors que le contexte de la phrase est au présent (\"diminue\", \"veulent\"). Le présent est requis.",
+            "suggestions": [
+              "s'approche"
+            ],
+            "ruleApplied": "4.1.2.2.4"
+          },
+          {
+            "text": "en grande somme",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Problème de sens. La locution \"en grande somme\" est utilisée pour l'argent. Pour des produits, l'expression correcte est \"en grande quantité\".",
+            "suggestions": [
+              "en grande quantité"
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          },
+          {
+            "text": "alimentation (2019) il y a",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Absence de virgule. Un complément de phrase long (plus de trois mots) placé en tête de phrase doit être suivi d'une virgule.",
+            "suggestions": [
+              "alimentation (2019), il y a"
+            ],
+            "ruleApplied": "4.2.2.10.1.l"
+          },
+          {
+            "text": "D'abord les publications",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Absence de virgule. L'organisateur textuel \"D'abord\" en tête de phrase doit être suivi d'une virgule.",
+            "suggestions": [
+              "D'abord,"
+            ],
+            "ruleApplied": "4.2.2.10.1.k"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "associées",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé 'associées', employé avec l'auxiliaire 'être', doit s'accorder en genre et en nombre avec son sujet 'les termes' (masculin pluriel).",
+            "suggestions": [
+              "associés"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "laquelle",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le pronom relatif 'laquelle' doit s'accorder en genre et en nombre avec son antécédent 'raisons' (féminin pluriel).",
+            "suggestions": [
+              "lesquelles"
+            ],
+            "ruleApplied": "5.3.1.4"
+          },
+          {
+            "text": "auront",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Dans la locution impersonnelle 'il y a', le verbe 'avoir' reste toujours à la troisième personne du singulier, quel que soit le temps.",
+            "suggestions": [
+              "aura"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "gaspiller",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Après l'auxiliaire 'être', il faut utiliser le participe passé. De plus, ce participe passé doit s'accorder avec le sujet 'les produits non voulus' (masculin pluriel). Confusion entre l'infinitif '-er' et le participe passé '-é'.",
+            "suggestions": [
+              "gaspillés"
+            ],
+            "ruleApplied": "5.3.2.6"
+          },
+          {
+            "text": "capable",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif 'capable' doit s'accorder en nombre avec le nom auquel il se rapporte, 'les humains' (pluriel).",
+            "suggestions": [
+              "capables"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "surconsomment",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe doit s'accorder avec le complément du nom collectif 'la plupart', qui est ici 'monde' (singulier). Le verbe doit donc être au singulier.",
+            "suggestions": [
+              "surconsomme"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "un fois",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom 'fois' est féminin. Le déterminant doit donc être 'une'.",
+            "suggestions": [
+              "une fois"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "baisse",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe 'baisser' doit s'accorder en nombre avec son sujet 'les prix des produits alimentaires' (pluriel).",
+            "suggestions": [
+              "baissent"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "montré",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé 'montré', employé avec l'auxiliaire 'être', doit s'accorder en genre et en nombre avec son sujet 'Une autre forme' (féminin singulier).",
+            "suggestions": [
+              "montrée"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "plâts",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Orthographe d'usage incorrecte pour le mot 'plats'.",
+            "suggestions": [
+              "plats"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "contribue",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe 'contribuer' doit s'accorder en nombre avec son sujet pluriel 'les publications et les secteurs d'hôtellerie et restauration'.",
+            "suggestions": [
+              "contribuent"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "un motivation",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en genre. Le nom \"motivation\" est féminin. Le déterminant indéfini doit donc être \"une\".",
+            "suggestions": [
+              "une motivation"
+            ],
+            "ruleApplied": "5.3.1.1"
+          }
+        ],
+        "totalErreursCritere4": 43,
+        "totalErreursCritere5": 12,
+        "scoreCritere4": {
+          "pointsPerdus": 31.5,
+          "note": "E"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 12,
+          "note": "C"
+        }
+      }
+    ],
+    "erreursCritere4AvantAnalyseIA": [
+      {
+        "text": "alors que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le subordonnant 'alors que' exprime une opposition ou une simultanéité, ce qui ne convient pas au sens de la phrase qui exprime un but. Il faut utiliser 'pour que' ou 'afin que'.",
+        "suggestions": [
+          "pour que"
+        ],
+        "ruleApplied": "4.1.2.4.2"
+      },
+      {
+        "text": "peuvent",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Le subordonnant 'pour que' exige l'emploi du subjonctif. Le verbe 'pouvoir' doit donc être conjugué au subjonctif présent.",
+        "suggestions": [
+          "puissent"
+        ],
+        "ruleApplied": "4.1.2.2.3"
+      },
+      {
+        "text": "« surconsommation»",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "« P »",
+        "description": "Les guillemets français (« ») doivent être séparés du texte qu'ils encadrent par une espace insécable.",
+        "suggestions": [
+          "« surconsommation »"
+        ],
+        "ruleApplied": "4.2.2.5.1"
+      },
+      {
+        "text": "les surachats",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition 'de' (ici contractée en 'des') doit être répétée devant chaque élément d'une énumération introduite par 'en raison de'.",
+        "suggestions": [
+          "des surachats"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "est à cause des",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction 'être à cause de' est un calque de l'anglais. Il faut utiliser une construction comme 'tient au fait que' ou simplement reformuler en 'réside dans les'.",
+        "suggestions": [
+          "tient aux",
+          "réside dans les"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "les problèmes",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'article défini 'les' n'est pas approprié ici, car il s'agit d'une affirmation générale. L'article indéfini 'des' est requis.",
+        "suggestions": [
+          "des problèmes"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "text": "causent les produits à se déformer aux formes",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction du verbe 'causer' est incorrecte. On ne dit pas 'causer quelque chose à faire quelque chose'. De plus, la préposition 'aux' est mal choisie. Il faut reformuler, par exemple : 'amènent les produits à se déformer'.",
+        "suggestions": [
+          "amènent les produits à se déformer"
+        ],
+        "ruleApplied": "4.1.2.2.2"
+      },
+      {
+        "text": "« Les conditions météorologiques affectent la forme et la taille des légumes, ce qui les rend difficiles à vendre à une majorité de consommateurs qui recherchent des aliments parfaits.»",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "« P »",
+        "description": "Les guillemets français (« ») doivent être séparés du texte qu'ils encadrent par une espace insécable.",
+        "suggestions": [
+          "« Les conditions météorologiques affectent la forme et la taille des légumes, ce qui les rend difficiles à vendre à une majorité de consommateurs qui recherchent des aliments parfaits. »"
+        ],
+        "ruleApplied": "4.2.2.5.1"
+      },
+      {
+        "text": "(Cameron, 2020)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une phrase se terminant par une référence entre parenthèses doit comporter un point final après la parenthèse fermante.",
+        "suggestions": [
+          "(Cameron, 2020)."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "text": "pouvait",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'emploi de l'imparfait ('pouvait') brise l'harmonie des temps du paragraphe, qui est majoritairement au présent de l'indicatif. Il faut utiliser le présent 'peut'.",
+        "suggestions": [
+          "peut"
+        ],
+        "ruleApplied": "4.1.2.2.4"
+      },
+      {
+        "text": "en ce qui cause",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution 'en ce qui' est superflue et rend la construction de la phrase incorrecte. Il faut simplement utiliser 'ce qui'.",
+        "suggestions": [
+          "ce qui cause"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "«Gaspillage alimentaire»",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "« P »",
+        "description": "Les guillemets français (« ») doivent être séparés du texte qu'ils encadrent par une espace insécable.",
+        "suggestions": [
+          "« Gaspillage alimentaire »"
+        ],
+        "ruleApplied": "4.2.2.5.1"
+      },
+      {
+        "text": "cause l'atmosphère à changer",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction du verbe 'causer' est incorrecte. On ne dit pas 'causer quelque chose à faire quelque chose'. Il faut reformuler, par exemple : 'amène l'atmosphère à changer'.",
+        "suggestions": [
+          "amène l'atmosphère à changer"
+        ],
+        "ruleApplied": "4.1.2.2.2"
+      },
+      {
+        "text": "donc pourquoi",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'enchaînement 'donc pourquoi' est incorrect et redondant. Il faut supprimer 'donc' ou reformuler, par exemple : 'un autre argument qui explique pourquoi'.",
+        "suggestions": [
+          "pour lequel",
+          "qui explique pourquoi"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "préparés de",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'adjectif 'préparé' se construit avec la préposition 'à', et non 'de'.",
+        "suggestions": [
+          "préparés à"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "indique leur qualité",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque le subordonnant 'que' pour introduire la proposition subordonnée complétive qui suit le verbe 'indique'.",
+        "suggestions": [
+          "indique que leur qualité"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "s'approchera",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "L'emploi du futur simple ('s'approchera') brise l'harmonie des temps de la phrase, qui est au présent de l'indicatif. Il faut utiliser le présent 's'approche'.",
+        "suggestions": [
+          "s'approche"
+        ],
+        "ruleApplied": "4.1.2.2.4"
+      },
+      {
+        "text": "« Plusieurs publicités incitent les consommateurs à acheter des produits en grande quantité.»",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "« P »",
+        "description": "Les guillemets français (« ») doivent être séparés du texte qu'ils encadrent par une espace insécable.",
+        "suggestions": [
+          "« Plusieurs publicités incitent les consommateurs à acheter des produits en grande quantité. »"
+        ],
+        "ruleApplied": "4.2.2.5.1"
+      },
+      {
+        "text": "(Roy, 2018)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une phrase se terminant par une référence entre parenthèses doit comporter un point final après la parenthèse fermante.",
+        "suggestions": [
+          "(Roy, 2018)."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "text": "servent comme un motivation",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction 'servir comme' est un calque de l'anglais. On utilise 'servir de'. De plus, le nom 'motivation' est féminin ('une motivation').",
+        "suggestions": [
+          "servent de motivation"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "somme",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Le mot 'somme' est inapproprié dans ce contexte, il renvoie généralement à l'argent. Le mot 'quantité' est correct.",
+        "suggestions": [
+          "quantité"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": "restauration",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition 'de' (ici élidée en 'd'') doit être répétée devant chaque élément de l'énumération.",
+        "suggestions": [
+          "de la restauration"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "(2019) il",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Un complément de phrase en tête de proposition ('À partir de la recherche de...') doit être suivi d'une virgule.",
+        "suggestions": [
+          "(2019), il"
+        ],
+        "ruleApplied": "4.2.2.10.1.b"
+      },
+      {
+        "text": "D'abord",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'organisateur textuel 'D'abord' est mal employé ici. Il signifie 'premièrement', ce qui contredit la structure du texte. Un connecteur de conclusion comme 'Donc' ou 'Ainsi' serait approprié.",
+        "suggestions": [
+          "Donc",
+          "Ainsi"
+        ],
+        "ruleApplied": "4.1.2.4.2"
+      },
+      {
+        "text": "D'abord les",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Un organisateur textuel en tête de phrase doit être suivi d'une virgule.",
+        "suggestions": [
+          "D'abord, les"
+        ],
+        "ruleApplied": "4.2.2.10.1.k"
+      },
+      {
+        "text": "la norme d'acheter des produits alimentaires est devenue massive",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est boiteuse. L'expression « norme massive » est sémantiquement inadéquate. La phrase doit être reformulée pour être idiomatique.",
+        "suggestions": [
+          "l'achat massif de produits alimentaires est devenu la norme"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "en raisons des",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution prépositive correcte est \"en raison de\". L'emploi du pluriel \"raisons\" est incorrect dans cette expression.",
+        "suggestions": [
+          "en raison des"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "et les surachats",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Absence d'un mot essentiel. Dans une énumération introduite par la préposition \"de\" (ici, dans \"en raison des\"), cette préposition doit être répétée devant chaque élément. Il manque donc \"des\" avant \"surachats\". L'erreur n'est pas comptée car il y a déjà une erreur de syntaxe dans cette phrase.",
+        "suggestions": [
+          "et des surachats"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "pour laquelle",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom relatif doit s'accorder en genre et en nombre avec son antécédent. Ici, l'antécédent est \"raisons\", qui est féminin pluriel. Le pronom correct est donc \"lesquelles\".",
+        "suggestions": [
+          "pour lesquelles"
+        ],
+        "ruleApplied": "4.1.2.3.1"
+      },
+      {
+        "text": "est à cause des",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "La construction \"être à cause de\" est un calque de l'anglais (\"to be because of\"). Il faut utiliser une construction française comme \"c'est à cause de\" ou reformuler. L'erreur n'est pas comptée car il y a déjà une erreur de syntaxe dans cette phrase.",
+        "suggestions": [
+          "tient aux",
+          "s'explique par les"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "posent les problèmes",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'emploi de l'article défini \"les\" suggère que les problèmes sont déjà connus du lecteur, ce qui n'est pas le cas. L'article indéfini \"des\" est plus approprié pour introduire une information nouvelle.",
+        "suggestions": [
+          "posent des problèmes"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "text": "causent les produits à se déformer",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction du verbe \"causer\" est incorrecte. Il ne peut être suivi de \"à + infinitif\". Il faut utiliser une autre tournure, comme \"amener [quelqu'un] à faire [quelque chose]\" ou \"faire en sorte que\".",
+        "suggestions": [
+          "amènent les produits à se déformer",
+          "font que les produits se déforment"
+        ],
+        "ruleApplied": "4.1.2.2.2"
+      },
+      {
+        "text": "Bien sûr il",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de virgule. Un organisateur textuel ou un adverbe de modalité placé en tête de phrase, comme \"Bien sûr\", doit être suivi d'une virgule.",
+        "suggestions": [
+          "Bien sûr,"
+        ],
+        "ruleApplied": "4.2.2.10.1.k"
+      },
+      {
+        "text": "cause les produits non voulus à être",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction du verbe \"causer\" est incorrecte. Il ne peut être suivi de \"à + infinitif\". Il faut utiliser une autre tournure.",
+        "suggestions": [
+          "fait que les produits non voulus sont"
+        ],
+        "ruleApplied": "4.1.2.2.2"
+      },
+      {
+        "text": "Dernièrement",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Problème de sens. L'adverbe \"dernièrement\" signifie \"récemment\". Pour introduire le dernier argument, il faut utiliser un marqueur de relation comme \"finalement\" ou \"enfin\".",
+        "suggestions": [
+          "Finalement",
+          "Enfin"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": "donc pourquoi",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Présence d'un mot superflu. L'adverbe \"donc\" est redondant avec \"pourquoi\". Il faut le supprimer. L'erreur n'est pas comptée car il y a déjà une erreur de syntaxe dans cette phrase.",
+        "suggestions": [
+          "pourquoi"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "préparés de se promener",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de préposition. L'adjectif \"préparé\" se construit avec la préposition \"à\" lorsqu'il est suivi d'un infinitif.",
+        "suggestions": [
+          "préparés à se promener"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "ou épicéries",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence d'un mot essentiel. Dans une énumération, le déterminant doit être répété devant chaque nom. Il manque \"les\" ou \"aux\" devant \"épiceries\".",
+        "suggestions": [
+          "ou les épiceries",
+          "ou aux épiceries"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "indique leur qualité diminue",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence d'un mot essentiel. La conjonction de subordination \"que\" est obligatoire pour introduire la proposition complétive après le verbe \"indique\".",
+        "suggestions": [
+          "indique que leur qualité diminue"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "s'approchera",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur d'harmonisation des temps. Le verbe est au futur simple alors que le contexte de la phrase est au présent (\"diminue\", \"veulent\"). Le présent est requis.",
+        "suggestions": [
+          "s'approche"
+        ],
+        "ruleApplied": "4.1.2.2.4"
+      },
+      {
+        "text": "en grande somme",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Problème de sens. La locution \"en grande somme\" est utilisée pour l'argent. Pour des produits, l'expression correcte est \"en grande quantité\".",
+        "suggestions": [
+          "en grande quantité"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": "alimentation (2019) il y a",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de virgule. Un complément de phrase long (plus de trois mots) placé en tête de phrase doit être suivi d'une virgule.",
+        "suggestions": [
+          "alimentation (2019), il y a"
+        ],
+        "ruleApplied": "4.2.2.10.1.l"
+      },
+      {
+        "text": "D'abord les publications",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de virgule. L'organisateur textuel \"D'abord\" en tête de phrase doit être suivi d'une virgule.",
+        "suggestions": [
+          "D'abord,"
+        ],
+        "ruleApplied": "4.2.2.10.1.k"
+      }
+    ],
+    "erreursCritere5AvantAnalyseIA": [
+      {
+        "text": "associées",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'associées', employé avec l'auxiliaire 'être', doit s'accorder en genre et en nombre avec son sujet 'les termes' (masculin pluriel).",
+        "suggestions": [
+          "associés"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "laquelle",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom relatif 'laquelle' doit s'accorder en genre et en nombre avec son antécédent 'raisons' (féminin pluriel).",
+        "suggestions": [
+          "lesquelles"
+        ],
+        "ruleApplied": "5.3.1.4"
+      },
+      {
+        "text": "auront",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Dans la locution impersonnelle 'il y a', le verbe 'avoir' reste toujours à la troisième personne du singulier, quel que soit le temps.",
+        "suggestions": [
+          "aura"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "gaspiller",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après l'auxiliaire 'être', il faut utiliser le participe passé. De plus, ce participe passé doit s'accorder avec le sujet 'les produits non voulus' (masculin pluriel). Confusion entre l'infinitif '-er' et le participe passé '-é'.",
+        "suggestions": [
+          "gaspillés"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "capable",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'capable' doit s'accorder en nombre avec le nom auquel il se rapporte, 'les humains' (pluriel).",
+        "suggestions": [
+          "capables"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "surconsomment",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec le complément du nom collectif 'la plupart', qui est ici 'monde' (singulier). Le verbe doit donc être au singulier.",
+        "suggestions": [
+          "surconsomme"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "un fois",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'fois' est féminin. Le déterminant doit donc être 'une'.",
+        "suggestions": [
+          "une fois"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "baisse",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'baisser' doit s'accorder en nombre avec son sujet 'les prix des produits alimentaires' (pluriel).",
+        "suggestions": [
+          "baissent"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "montré",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'montré', employé avec l'auxiliaire 'être', doit s'accorder en genre et en nombre avec son sujet 'Une autre forme' (féminin singulier).",
+        "suggestions": [
+          "montrée"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "plâts",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Orthographe d'usage incorrecte pour le mot 'plats'.",
+        "suggestions": [
+          "plats"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "contribue",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'contribuer' doit s'accorder en nombre avec son sujet pluriel 'les publications et les secteurs d'hôtellerie et restauration'.",
+        "suggestions": [
+          "contribuent"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "un motivation",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en genre. Le nom \"motivation\" est féminin. Le déterminant indéfini doit donc être \"une\".",
+        "suggestions": [
+          "une motivation"
+        ],
+        "ruleApplied": "5.3.1.1"
+      }
+    ],
+    "analyseIADuplicatas": {
+      "critere4": {
+        "analyse": {
+          "totalErreursCritere4": 44,
+          "totalErreursCritere5": 0,
+          "duplicatasCritere4": 10,
+          "duplicatasCritere5": 0
+        },
+        "duplicatasCritere4": [
+          {
+            "groupe": 1,
+            "confiance": 95,
+            "raison": "Même erreur de syntaxe (répétition de la préposition) sur le même segment de texte. Le texte de la deuxième erreur est plus complet.",
+            "erreurs": [
+              {
+                "index": 27,
+                "text": "et les surachats",
+                "garder": true
+              },
+              {
+                "index": 3,
+                "text": "les surachats",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 2,
+            "confiance": 100,
+            "raison": "Texte, règle et description identiques. Duplicata exact.",
+            "erreurs": [
+              {
+                "index": 4,
+                "text": "est à cause des",
+                "garder": true
+              },
+              {
+                "index": 29,
+                "text": "est à cause des",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 3,
+            "confiance": 95,
+            "raison": "Même erreur d'emploi de l'article sur le même segment de texte. Le texte de la deuxième erreur est plus complet.",
+            "erreurs": [
+              {
+                "index": 30,
+                "text": "posent les problèmes",
+                "garder": true
+              },
+              {
+                "index": 5,
+                "text": "les problèmes",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 4,
+            "confiance": 95,
+            "raison": "Même erreur de construction verbale sur le même segment de texte. Le texte de la première erreur est plus complet et détaillé.",
+            "erreurs": [
+              {
+                "index": 6,
+                "text": "causent les produits à se déformer aux formes",
+                "garder": true
+              },
+              {
+                "index": 31,
+                "text": "causent les produits à se déformer",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 5,
+            "confiance": 100,
+            "raison": "Texte et règle identiques. Duplicata exact.",
+            "erreurs": [
+              {
+                "index": 13,
+                "text": "donc pourquoi",
+                "garder": true
+              },
+              {
+                "index": 36,
+                "text": "donc pourquoi",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 6,
+            "confiance": 95,
+            "raison": "Même erreur de préposition sur le même segment de texte. Le texte de la deuxième erreur est plus complet.",
+            "erreurs": [
+              {
+                "index": 37,
+                "text": "préparés de se promener",
+                "garder": true
+              },
+              {
+                "index": 14,
+                "text": "préparés de",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 7,
+            "confiance": 95,
+            "raison": "Même erreur de syntaxe (absence de 'que') sur le même segment de texte. Le texte de la deuxième erreur est plus complet.",
+            "erreurs": [
+              {
+                "index": 39,
+                "text": "indique leur qualité diminue",
+                "garder": true
+              },
+              {
+                "index": 15,
+                "text": "indique leur qualité",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 8,
+            "confiance": 100,
+            "raison": "Texte et règle identiques. Duplicata exact.",
+            "erreurs": [
+              {
+                "index": 16,
+                "text": "s'approchera",
+                "garder": true
+              },
+              {
+                "index": 40,
+                "text": "s'approchera",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 9,
+            "confiance": 95,
+            "raison": "Même erreur sémantique sur le même segment de texte. Le texte de la deuxième erreur est plus complet.",
+            "erreurs": [
+              {
+                "index": 41,
+                "text": "en grande somme",
+                "garder": true
+              },
+              {
+                "index": 20,
+                "text": "somme",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 10,
+            "confiance": 95,
+            "raison": "Même erreur de ponctuation (virgule manquante) sur le même segment de texte. Le texte de la deuxième erreur est plus complet.",
+            "erreurs": [
+              {
+                "index": 43,
+                "text": "D'abord les publications",
+                "garder": true
+              },
+              {
+                "index": 24,
+                "text": "D'abord les",
+                "garder": false
+              }
+            ]
+          }
+        ],
+        "duplicatasCritere5": [],
+        "erreursUniquesCritere4": [
+          {
+            "index": 0,
+            "text": "alors que",
+            "raison": "Aucun duplicata sémantique ou textuel identifié."
+          },
+          {
+            "index": 1,
+            "text": "peuvent",
+            "raison": "Aucun duplicata sémantique ou textuel identifié."
+          },
+          {
+            "index": 2,
+            "text": "« surconsommation»",
+            "raison": "Aucun duplicata sémantique ou textuel identifié."
+          },
+          {
+            "index": 7,
+            "text": "« Les conditions météorologiques affectent la forme et la taille des légumes, ce qui les rend difficiles à vendre à une majorité de consommateurs qui recherchent des aliments parfaits.»",
+            "raison": "Aucun duplicata sémantique ou textuel identifié."
+          },
+          {
+            "index": 8,
+            "text": "(Cameron, 2020)",
+            "raison": "Aucun duplicata sémantique ou textuel identifié."
+          },
+          {
+            "index": 9,
+            "text": "pouvait",
+            "raison": "Aucun duplicata sémantique ou textuel identifié."
+          },
+          {
+            "index": 10,
+            "text": "en ce qui cause",
+            "raison": "Aucun duplicata sémantique ou textuel identifié."
+          },
+          {
+            "index": 11,
+            "text": "«Gaspillage alimentaire»",
+            "raison": "Aucun duplicata sémantique ou textuel identifié."
+          },
+          {
+            "index": 12,
+            "text": "cause l'atmosphère à changer",
+            "raison": "Aucun duplicata sémantique ou textuel identifié."
+          },
+          {
+            "index": 17,
+            "text": "« Plusieurs publicités incitent les consommateurs à acheter des produits en grande quantité.»",
+            "raison": "Aucun duplicata sémantique ou textuel identifié."
+          },
+          {
+            "index": 18,
+            "text": "(Roy, 2018)",
+            "raison": "Aucun duplicata sémantique ou textuel identifié."
+          },
+          {
+            "index": 19,
+            "text": "servent comme un motivation",
+            "raison": "Aucun duplicata sémantique ou textuel identifié."
+          },
+          {
+            "index": 21,
+            "text": "restauration",
+            "raison": "Aucun duplicata sémantique ou textuel identifié."
+          },
+          {
+            "index": 22,
+            "text": "(2019) il",
+            "raison": "Aucun duplicata sémantique ou textuel identifié."
+          },
+          {
+            "index": 23,
+            "text": "D'abord",
+            "raison": "Aucun duplicata sémantique ou textuel identifié."
+          },
+          {
+            "index": 25,
+            "text": "la norme d'acheter des produits alimentaires est devenue massive",
+            "raison": "Aucun duplicata sémantique ou textuel identifié."
+          },
+          {
+            "index": 26,
+            "text": "en raisons des",
+            "raison": "Aucun duplicata sémantique ou textuel identifié."
+          },
+          {
+            "index": 28,
+            "text": "pour laquelle",
+            "raison": "Aucun duplicata sémantique ou textuel identifié."
+          },
+          {
+            "index": 32,
+            "text": "Bien sûr il",
+            "raison": "Aucun duplicata sémantique ou textuel identifié."
+          },
+          {
+            "index": 33,
+            "text": "cause les produits non voulus à être",
+            "raison": "Aucun duplicata sémantique ou textuel identifié."
+          },
+          {
+            "index": 34,
+            "text": "Dernièrement",
+            "raison": "Aucun duplicata sémantique ou textuel identifié."
+          },
+          {
+            "index": 35,
+            "text": "ou épicéries",
+            "raison": "Aucun duplicata sémantique ou textuel identifié."
+          },
+          {
+            "index": 38,
+            "text": "alimentation (2019) il y a",
+            "raison": "Aucun duplicata sémantique ou textuel identifié."
+          },
+          {
+            "index": 42,
+            "text": "D'abord les publications",
+            "raison": "Aucun duplicata sémantique ou textuel identifié."
+          }
+        ],
+        "erreursUniquesCritere5": [],
+        "recommandations": {
+          "erreursAConserverCritere4": [
+            0,
+            1,
+            2,
+            4,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            16,
+            17,
+            18,
+            19,
+            21,
+            22,
+            23,
+            25,
+            26,
+            27,
+            28,
+            30,
+            32,
+            33,
+            34,
+            35,
+            37,
+            38,
+            39,
+            41,
+            42,
+            43
+          ],
+          "erreursAConserverCritere5": [],
+          "erreursASupprimer": {
+            "critere4": [
+              3,
+              5,
+              14,
+              15,
+              20,
+              24,
+              29,
+              31,
+              36,
+              40
+            ],
+            "critere5": []
+          }
+        }
+      },
+      "critere5": {
+        "analyse": {
+          "totalErreursCritere4": 0,
+          "totalErreursCritere5": 12,
+          "duplicatasCritere4": 0,
+          "duplicatasCritere5": 0
+        },
+        "duplicatasCritere4": [],
+        "duplicatasCritere5": [],
+        "erreursUniquesCritere4": [],
+        "erreursUniquesCritere5": [
+          {
+            "index": 0,
+            "text": "associées",
+            "raison": "Aucun duplicata trouvé. Erreur d'accord de participe passé unique."
+          },
+          {
+            "index": 1,
+            "text": "laquelle",
+            "raison": "Aucun duplicata trouvé. Erreur d'accord de pronom relatif unique."
+          },
+          {
+            "index": 2,
+            "text": "auront",
+            "raison": "Aucun duplicata trouvé. Erreur d'accord de verbe unique (locution impersonnelle)."
+          },
+          {
+            "index": 3,
+            "text": "gaspiller",
+            "raison": "Aucun duplicata trouvé. Erreur de confusion infinitif/participe passé unique."
+          },
+          {
+            "index": 4,
+            "text": "capable",
+            "raison": "Aucun duplicata trouvé. Erreur d'accord d'adjectif unique."
+          },
+          {
+            "index": 5,
+            "text": "surconsomment",
+            "raison": "Aucun duplicata trouvé. Erreur d'accord de verbe unique (nom collectif)."
+          },
+          {
+            "index": 6,
+            "text": "un fois",
+            "raison": "Aucun duplicata trouvé. Erreur d'accord de déterminant unique."
+          },
+          {
+            "index": 7,
+            "text": "baisse",
+            "raison": "Aucun duplicata trouvé. Erreur d'accord de verbe unique."
+          },
+          {
+            "index": 8,
+            "text": "montré",
+            "raison": "Aucun duplicata trouvé. Erreur d'accord de participe passé unique."
+          },
+          {
+            "index": 9,
+            "text": "plâts",
+            "raison": "Aucun duplicata trouvé. Erreur d'orthographe d'usage unique."
+          },
+          {
+            "index": 10,
+            "text": "contribue",
+            "raison": "Aucun duplicata trouvé. Erreur d'accord de verbe unique."
+          },
+          {
+            "index": 11,
+            "text": "un motivation",
+            "raison": "Aucun duplicata trouvé. Erreur d'accord de déterminant unique."
+          }
+        ],
+        "recommandations": {
+          "erreursAConserverCritere4": [],
+          "erreursAConserverCritere5": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "erreursASupprimer": {
+            "critere4": [],
+            "critere5": []
+          }
+        }
+      }
+    }
+  }
+}

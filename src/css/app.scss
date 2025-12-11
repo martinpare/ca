@@ -1,1 +1,9 @@
 // app global css in SCSS form
+
+// Désactiver la sélection de texte sur tout le site
+* {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

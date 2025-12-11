@@ -1,0 +1,2599 @@
+{
+  "processedAt": "2025-12-10T14:47:54.115Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_089.txt",
+    "originalText": "L'imparfait chez les humains\r\n\r\nChers internautes,\r\n\r\nqu'est-ce que nous les humains font à tous les jours concernant nos matinées, nos midis et nos soirées ? Eh bien, pour répondre à la question, nous nourrissons nos corps avec toute substance qui nous sert l'alimentation. Pourtant, dans ce monde, ils existent plusieurs personnes qui prennent l'avantage de la nourriture. Cela remet en question, sommes-nous prêts à lutter contre le gaspillage alimentaire ? Selon moi, nous sommes prêts à lutter contre le gaspillage alimentaire si l'on se base sur l'environnement et être des humains clairvoyants.\r\n\r\nPremièrement, cher public, abordons l'aspect sur l'environnement. Chaque année, ici, à Canada, 2.2 millions de tonnes d'aliments sont gaspillés par plusieurs familles, qui créeent également une conséquence sur l'environnement. Du coup, le transport des aliments affectent consécutivement les routes. L'utilisation inadéquate de l'eau et\r\n\r\nde terres agricoles, composent des gaz à effet de serre. « [...]. Chaque tonne de nourriture gaspillée équivaut à une voiture de plus sur la route chaque année. » (RECYC-QUÉBEC, 2021). De plus, en raison des conditions météorologiques, des fois, la forme et la taille des légumes rendent difficiles à vendre. Daphné Cameron en 2020 dit : «[...] ils sont vendus moins chers [...] alors qu'il en coûte autant pour les produire et les transporter. ». Voilà! Nous, les humains prennent tout cela en avantage. Dans la Table québécoise sur la saine alimentation, 4% fait partit du transport et 20% fait partit du transformation qui donnent preuves à des effets négatives.\r\n\r\nDeuxièmement, chers lecteurs et lectrices, traitons le sujet à être des vivants clairvoyants. Il y a plusieurs façons à limiter le gaspillage. Par exemple, selon RECYC-QUÉBEC, 2021, pour limiter le gaspillage, il est conseillé de planifier les repas, faire une liste d'épicerie, d'achéter en quantités raisonnables, de faire cuire les fruits et les légumes mûrs et de congeler les restes en portions individuelles. Honnêtement, ces procédés à limiter le gaspillage est très raisonnable. Aussi, «[...] les détaillants vendent peu [...] ces aliments dits «moches », car les consommateurs associent [...] l'apparence d'un fruit ou d'un légume à sa fraîcheur et sa qualité. » (Cameron, Daphné, 2020). Eh bien, les légumes et les fruits sont faites pour manger ni pour l'esthétique. Nous devons acceptés que la nature est imparfaite comme les êtres humains. Vous pouvez quand même en manger, de plus cela vous coûterez moins chers.\r\n\r\nEn guise de conclusion, cher le monde entier, le gaspillage alimentaire affecte fortement notre planète pour plusieurs raisons. La raison la plus vraie c'est que nous sommes la raison pour laquelle le gaspillage alimentaire existe et nous devons prendre action. Au lieu de plaindre que les aliments sont moches, dites-vous qu'ils sont rares et que c'est une qualité précieuse que l'on ne rencontre pas souvent. Bénefiez des producteurs agricoles parce qu'ils consacrent tout leur énergie et leur temps pour nous.",
+    "erreursCritere4": [
+      {
+        "text": "sert l'alimentation",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction « servir l'alimentation » est boiteuse. On utilise plutôt « servir d'alimentation ».",
+        "suggestions": [
+          "sert d'alimentation"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": "question,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le deux-points est requis pour introduire une question directe qui suit une phrase introductive. La virgule crée une rupture syntaxique.",
+        "suggestions": [
+          "question :"
+        ],
+        "ruleApplied": "4.2.2.7.1"
+      },
+      {
+        "text": "et être des humains clairvoyants",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La conjonction « et » coordonne des éléments de fonctions différentes : un complément (« sur l'environnement ») et une proposition infinitive. Il faut reformuler, par exemple : « et sur la nécessité d'être des humains clairvoyants ».",
+        "suggestions": [
+          "et sur la nécessité d'être des humains clairvoyants"
+        ],
+        "ruleApplied": "4.1.2.1.8"
+      },
+      {
+        "text": "l'aspect sur l'environnement",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition « sur » est incorrecte ici. On parle de « l'aspect environnemental » ou on reformule la phrase, par exemple avec « la question de l'environnement ».",
+        "suggestions": [
+          "l'aspect environnemental"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "à Canada",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition « à » est incorrecte devant un nom de pays masculin singulier comme « Canada ». Il faut utiliser la préposition contractée « au ».",
+        "suggestions": [
+          "au Canada"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": ",",
+        "occurenceIndex": 3,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule ne doit pas séparer le sujet (« L'utilisation inadéquate de l'eau et de terres agricoles ») du verbe (« composent »).",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.10.2.a"
+      },
+      {
+        "text": "des fois",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression « des fois » est considérée comme familière. Il est préférable d'utiliser « parfois » ou « quelquefois » dans un registre de langue soutenu.",
+        "suggestions": [
+          "parfois",
+          "quelquefois"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "prennent tout cela en avantage",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression « prendre en avantage » est un calque de l'anglais. En français, on utilise « profiter de » ou « tourner cela à son avantage ».",
+        "suggestions": [
+          "profitent de tout cela"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "à être",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction « le sujet à être » est incorrecte. Il faut reformuler, par exemple : « la question d'être » ou « le fait d'être ».",
+        "suggestions": [
+          "d'être"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "à limiter",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition « à » est incorrecte après « façons ». On utilise la préposition « de » : « des façons de limiter ».",
+        "suggestions": [
+          "de limiter"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "Daphné,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "La virgule n'est pas requise entre le prénom et le nom de l'auteur dans une référence bibliographique, sauf en cas d'inversion (Nom, Prénom).",
+        "suggestions": [
+          "Daphné"
+        ],
+        "ruleApplied": "4.2.2.10.2.i"
+      },
+      {
+        "text": "cher le monde entier",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'apostrophe « cher le monde entier » est une construction boiteuse et peu naturelle. Il serait préférable d'utiliser une formulation comme « chers habitants du monde entier » ou de s'adresser directement aux lecteurs.",
+        "suggestions": [
+          "chers habitants du monde entier"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "vraie",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'adjectif « vrai » est difficilement gradable dans ce contexte. L'expression « la plus vraie » est sémantiquement maladroite. Il est préférable d'utiliser « la véritable raison » ou « la raison principale ».",
+        "suggestions": [
+          "véritable"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": "prendre action",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression « prendre action » est un calque de l'anglais « to take action ». En français, on utilise « agir » ou « passer à l'action ».",
+        "suggestions": [
+          "agir",
+          "passer à l'action"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "plaindre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe « plaindre » doit être employé à la forme pronominale dans ce contexte : « se plaindre ». Il faut donc écrire « Au lieu de vous plaindre ».",
+        "suggestions": [
+          "vous plaindre"
+        ],
+        "ruleApplied": "4.1.2.2.2"
+      },
+      {
+        "text": "et leur temps",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le déterminant « tout » doit être répété devant chaque élément de l'énumération, surtout lorsque les genres diffèrent : « toute leur énergie et tout leur temps ».",
+        "suggestions": [
+          "et tout leur temps"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "à tous les jours",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution « à tous les jours » est un calque de l'anglais. L'expression correcte est « tous les jours ».",
+        "suggestions": [
+          "tous les jours"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "ils existent",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Dans cette construction impersonnelle, le pronom « il » est invariable et le verbe s'accorde avec le sujet réel « plusieurs personnes ». Cependant, la construction correcte est « il existe » (singulier) ou simplement « existent » (en supprimant le pronom superflu). La forme « il existe » est la plus courante.",
+        "suggestions": [
+          "il existe"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "consécutivement",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'adverbe « consécutivement » signifie « successivement, à la suite ». Le sens attendu ici est celui de la conséquence, qui s'exprime par « par conséquent » ou « en conséquence ».",
+        "suggestions": [
+          "en conséquence"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": ",",
+        "occurenceIndex": 4,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule ne doit pas séparer le groupe sujet (« L'utilisation inadéquate de l'eau et de terres agricoles ») du verbe (« composent »).",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.10.2.a"
+      },
+      {
+        "text": ".",
+        "occurenceIndex": 3,
+        "criteria": 4,
+        "type": "P",
+        "description": "Un point superflu se trouve après la parenthèse fermante. La ponctuation finale de la phrase doit se placer après la référence entre parenthèses.",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.1.2"
+      },
+      {
+        "text": "rendent difficiles à vendre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est boiteuse. Il serait plus clair d'écrire « rendent leur vente difficile » ou « rendent les légumes difficiles à vendre ».",
+        "suggestions": [
+          "rendent leur vente difficile"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "donnent preuves à",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction « donner preuves à » est incorrecte. Il faut reformuler, par exemple avec « ce qui constitue des preuves » ou « qui prouvent ».",
+        "suggestions": [
+          "sont la preuve d'"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": ",",
+        "occurenceIndex": 11,
+        "criteria": 4,
+        "type": "P",
+        "description": "La virgule est erronée entre le nom de famille et le prénom dans une référence bibliographique lorsque l'ordre n'est pas inversé.",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.10.2.i"
+      },
+      {
+        "text": "sont faites pour manger ni pour l'esthétique",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la négation est incorrecte. Il faut utiliser « ne... ni... ni... ». De plus, le participe passé « faites » devrait être au masculin pluriel « faits » pour s'accorder avec « les légumes et les fruits ». La priorité est accordée à l'erreur de syntaxe.",
+        "suggestions": [
+          "ne sont faits ni pour être mangés, ni pour l'esthétique"
+        ],
+        "ruleApplied": "4.1.2.1.3"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 22,
+      "note": "E"
+    },
+    "erreursCritere5": [
+      {
+        "text": "font",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec son sujet « nous les humains » (1re personne du pluriel).",
+        "suggestions": [
+          "faisons"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "ils",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "La construction impersonnelle « il existe » est invariable. Le pronom « il » ne s'accorde pas avec le complément qui suit.",
+        "suggestions": [
+          "il"
+        ],
+        "ruleApplied": "5.3.1.4"
+      },
+      {
+        "text": "créeent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le verbe « créer » ne prend pas de double « e » à cette forme. Il s'agit d'une erreur de graphie.",
+        "suggestions": [
+          "créent"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "affectent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec son sujet « Le transport des aliments » (3e personne du singulier).",
+        "suggestions": [
+          "affecte"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "composent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec son sujet « L'utilisation inadéquate de l'eau et de terres agricoles » (3e personne du singulier).",
+        "suggestions": [
+          "compose"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "partit",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion entre l'homophone « partit » (verbe partir au passé simple) et le nom féminin « partie ». L'expression correcte est « faire partie de ».",
+        "suggestions": [
+          "partie"
+        ],
+        "ruleApplied": "5.2.2"
+      },
+      {
+        "text": "partit",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Répétition de la confusion entre l'homophone « partit » et le nom « partie ».",
+        "suggestions": [
+          "partie"
+        ],
+        "ruleApplied": "5.2.2"
+      },
+      {
+        "text": "négatives",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « négatives » doit s'accorder en genre et en nombre avec le nom qu'il qualifie, « effets » (masculin pluriel).",
+        "suggestions": [
+          "négatifs"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "est",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec son sujet « ces procédés » (3e personne du pluriel).",
+        "suggestions": [
+          "sont"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "raisonnable",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "L'adjectif « raisonnable » doit s'accorder en nombre avec le nom qu'il qualifie, « procédés » (masculin pluriel). Le donneur d'accord est le même que pour l'erreur précédente sur le verbe « est ».",
+        "suggestions": [
+          "raisonnables"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "faites",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « faites » doit s'accorder en genre et en nombre avec le sujet « les légumes et les fruits ». Le masculin l'emportant sur le féminin, l'accord se fait au masculin pluriel.",
+        "suggestions": [
+          "faits"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "acceptés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après le verbe « devoir », on doit utiliser l'infinitif « accepter » et non le participe passé « acceptés ».",
+        "suggestions": [
+          "accepter"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "coûterez",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec son sujet « cela » (3e personne du singulier). La terminaison « -ez » correspond à la 2e personne du pluriel.",
+        "suggestions": [
+          "coûtera"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "chers",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Dans l'expression « coûter cher », le mot « cher » est un adverbe et est donc invariable. Il ne s'accorde pas.",
+        "suggestions": [
+          "cher"
+        ],
+        "ruleApplied": "5.3.1.6"
+      },
+      {
+        "text": "Bénefiez",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'accent sur le verbe « bénéficier » est incorrect. La graphie correcte est « bénéficiez ».",
+        "suggestions": [
+          "Bénéficiez"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "text": "tout",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant indéfini « tout » doit s'accorder en genre avec le nom qu'il détermine. Devant « énergie » (féminin singulier), il faut écrire « toute ».",
+        "suggestions": [
+          "toute"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "à Canada",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Devant un nom de pays masculin singulier comme « Canada », on utilise la préposition contractée « au » (à + le).",
+        "suggestions": [
+          "au Canada"
+        ],
+        "ruleApplied": "5.3.5"
+      },
+      {
+        "text": "du transformation",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « transformation » est féminin. Le déterminant contracté doit être « de la ».",
+        "suggestions": [
+          "de la transformation"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "d'achéter",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'infinitif du verbe « acheter » s'écrit sans accent aigu sur le premier « e ».",
+        "suggestions": [
+          "d'acheter"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "text": "chers",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adverbe « cher » qui modifie le verbe « coûter » est invariable.",
+        "suggestions": [
+          "cher"
+        ],
+        "ruleApplied": "5.3.1.6"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 18,
+      "note": "D"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:42:23.074Z",
+    "endTimestamp": "2025-12-10T14:47:54.115Z",
+    "durationMs": 331041,
+    "durationFormatted": "05:31:041",
+    "cumulParPasse": [
+      {
+        "passe": 1,
+        "erreursCritere4": [
+          {
+            "text": "sert l'alimentation",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction « servir l'alimentation » est boiteuse. On utilise plutôt « servir d'alimentation ».",
+            "suggestions": [
+              "sert d'alimentation"
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          },
+          {
+            "text": "prennent l'avantage de",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'expression « prendre l'avantage de » est un calque de l'anglais « to take advantage of ». En français, on utilise « profiter de ».",
+            "suggestions": [
+              "profitent de"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "question,",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Le deux-points est requis pour introduire une question directe qui suit une phrase introductive. La virgule crée une rupture syntaxique.",
+            "suggestions": [
+              "question :"
+            ],
+            "ruleApplied": "4.2.2.7.1"
+          },
+          {
+            "text": "et être des humains clairvoyants",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La conjonction « et » coordonne des éléments de fonctions différentes : un complément (« sur l'environnement ») et une proposition infinitive. Il faut reformuler, par exemple : « et sur la nécessité d'être des humains clairvoyants ».",
+            "suggestions": [
+              "et sur la nécessité d'être des humains clairvoyants"
+            ],
+            "ruleApplied": "4.1.2.1.8"
+          },
+          {
+            "text": "l'aspect sur l'environnement",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La préposition « sur » est incorrecte ici. On parle de « l'aspect environnemental » ou on reformule la phrase, par exemple avec « la question de l'environnement ».",
+            "suggestions": [
+              "l'aspect environnemental"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "à Canada",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La préposition « à » est incorrecte devant un nom de pays masculin singulier comme « Canada ». Il faut utiliser la préposition contractée « au ».",
+            "suggestions": [
+              "au Canada"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": ",",
+            "occurenceIndex": 3,
+            "criteria": 4,
+            "type": "P",
+            "description": "Une virgule ne doit pas séparer le sujet (« L'utilisation inadéquate de l'eau et de terres agricoles ») du verbe (« composent »).",
+            "suggestions": [
+              ""
+            ],
+            "ruleApplied": "4.2.2.10.2.a"
+          },
+          {
+            "text": "des fois",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'expression « des fois » est considérée comme familière. Il est préférable d'utiliser « parfois » ou « quelquefois » dans un registre de langue soutenu.",
+            "suggestions": [
+              "parfois",
+              "quelquefois"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "prennent tout cela en avantage",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'expression « prendre en avantage » est un calque de l'anglais. En français, on utilise « profiter de » ou « tourner cela à son avantage ».",
+            "suggestions": [
+              "profitent de tout cela"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "donnent preuves",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Il manque un déterminant devant le nom « preuves ». L'expression correcte est « donnent des preuves » ou « fournissent des preuves ».",
+            "suggestions": [
+              "donnent des preuves"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "à être",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction « le sujet à être » est incorrecte. Il faut reformuler, par exemple : « la question d'être » ou « le fait d'être ».",
+            "suggestions": [
+              "d'être"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "à limiter",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La préposition « à » est incorrecte après « façons ». On utilise la préposition « de » : « des façons de limiter ».",
+            "suggestions": [
+              "de limiter"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "Daphné,",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "La virgule n'est pas requise entre le prénom et le nom de l'auteur dans une référence bibliographique, sauf en cas d'inversion (Nom, Prénom).",
+            "suggestions": [
+              "Daphné"
+            ],
+            "ruleApplied": "4.2.2.10.2.i"
+          },
+          {
+            "text": "ni",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La corrélation est mal employée. On ne peut pas utiliser « ni » seul dans ce contexte. Il faudrait dire « pour manger et non pour l'esthétique ».",
+            "suggestions": [
+              "et non"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "cher le monde entier",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'apostrophe « cher le monde entier » est une construction boiteuse et peu naturelle. Il serait préférable d'utiliser une formulation comme « chers habitants du monde entier » ou de s'adresser directement aux lecteurs.",
+            "suggestions": [
+              "chers habitants du monde entier"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "vraie",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'adjectif « vrai » est difficilement gradable dans ce contexte. L'expression « la plus vraie » est sémantiquement maladroite. Il est préférable d'utiliser « la véritable raison » ou « la raison principale ».",
+            "suggestions": [
+              "véritable"
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          },
+          {
+            "text": "prendre action",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'expression « prendre action » est un calque de l'anglais « to take action ». En français, on utilise « agir » ou « passer à l'action ».",
+            "suggestions": [
+              "agir",
+              "passer à l'action"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "plaindre",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le verbe « plaindre » doit être employé à la forme pronominale dans ce contexte : « se plaindre ». Il faut donc écrire « Au lieu de vous plaindre ».",
+            "suggestions": [
+              "vous plaindre"
+            ],
+            "ruleApplied": "4.1.2.2.2"
+          },
+          {
+            "text": "et leur temps",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le déterminant « tout » doit être répété devant chaque élément de l'énumération, surtout lorsque les genres diffèrent : « toute leur énergie et tout leur temps ».",
+            "suggestions": [
+              "et tout leur temps"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "font",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe doit s'accorder avec son sujet « nous les humains » (1re personne du pluriel).",
+            "suggestions": [
+              "faisons"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "ils",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "La construction impersonnelle « il existe » est invariable. Le pronom « il » ne s'accorde pas avec le complément qui suit.",
+            "suggestions": [
+              "il"
+            ],
+            "ruleApplied": "5.3.1.4"
+          },
+          {
+            "text": "créeent",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Le verbe « créer » ne prend pas de double « e » à cette forme. Il s'agit d'une erreur de graphie.",
+            "suggestions": [
+              "créent"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "affectent",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe doit s'accorder avec son sujet « Le transport des aliments » (3e personne du singulier).",
+            "suggestions": [
+              "affecte"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "composent",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe doit s'accorder avec son sujet « L'utilisation inadéquate de l'eau et de terres agricoles » (3e personne du singulier).",
+            "suggestions": [
+              "compose"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "partit",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Confusion entre l'homophone « partit » (verbe partir au passé simple) et le nom féminin « partie ». L'expression correcte est « faire partie de ».",
+            "suggestions": [
+              "partie"
+            ],
+            "ruleApplied": "5.2.2"
+          },
+          {
+            "text": "partit",
+            "occurenceIndex": 1,
+            "criteria": 5,
+            "type": "(U)",
+            "description": "Répétition de la confusion entre l'homophone « partit » et le nom « partie ».",
+            "suggestions": [
+              "partie"
+            ],
+            "ruleApplied": "5.2.2"
+          },
+          {
+            "text": "du",
+            "occurenceIndex": 1,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom « transformation » est féminin. Le déterminant contracté « du » (de + le) est incorrect. Il faut utiliser « de la ».",
+            "suggestions": [
+              "de la"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "négatives",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif « négatives » doit s'accorder en genre et en nombre avec le nom qu'il qualifie, « effets » (masculin pluriel).",
+            "suggestions": [
+              "négatifs"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "achéter",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "L'accent sur le verbe « acheter » est incorrect. La graphie correcte est « acheter ».",
+            "suggestions": [
+              "acheter"
+            ],
+            "ruleApplied": "5.2.1.1"
+          },
+          {
+            "text": "est",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe doit s'accorder avec son sujet « ces procédés » (3e personne du pluriel).",
+            "suggestions": [
+              "sont"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "raisonnable",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "_",
+            "description": "L'adjectif « raisonnable » doit s'accorder en nombre avec le nom qu'il qualifie, « procédés » (masculin pluriel). Le donneur d'accord est le même que pour l'erreur précédente sur le verbe « est ».",
+            "suggestions": [
+              "raisonnables"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "faites",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé « faites » doit s'accorder en genre et en nombre avec le sujet « les légumes et les fruits ». Le masculin l'emportant sur le féminin, l'accord se fait au masculin pluriel.",
+            "suggestions": [
+              "faits"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "acceptés",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Après le verbe « devoir », on doit utiliser l'infinitif « accepter » et non le participe passé « acceptés ».",
+            "suggestions": [
+              "accepter"
+            ],
+            "ruleApplied": "5.3.2.6"
+          },
+          {
+            "text": "coûterez",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe doit s'accorder avec son sujet « cela » (3e personne du singulier). La terminaison « -ez » correspond à la 2e personne du pluriel.",
+            "suggestions": [
+              "coûtera"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "chers",
+            "occurenceIndex": 1,
+            "criteria": 5,
+            "type": "G",
+            "description": "Dans l'expression « coûter cher », le mot « cher » est un adverbe et est donc invariable. Il ne s'accorde pas.",
+            "suggestions": [
+              "cher"
+            ],
+            "ruleApplied": "5.3.1.6"
+          },
+          {
+            "text": "Bénefiez",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "L'accent sur le verbe « bénéficier » est incorrect. La graphie correcte est « bénéficiez ».",
+            "suggestions": [
+              "Bénéficiez"
+            ],
+            "ruleApplied": "5.2.1.1"
+          },
+          {
+            "text": "tout",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le déterminant indéfini « tout » doit s'accorder en genre avec le nom qu'il détermine. Devant « énergie » (féminin singulier), il faut écrire « toute ».",
+            "suggestions": [
+              "toute"
+            ],
+            "ruleApplied": "5.3.1.1"
+          }
+        ],
+        "totalErreursCritere4": 19,
+        "totalErreursCritere5": 18,
+        "scoreCritere4": {
+          "pointsPerdus": 17.5,
+          "note": "E"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 16,
+          "note": "D"
+        }
+      },
+      {
+        "passe": 2,
+        "erreursCritere4": [
+          {
+            "text": "sert l'alimentation",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction « servir l'alimentation » est boiteuse. On utilise plutôt « servir d'alimentation ».",
+            "suggestions": [
+              "sert d'alimentation"
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          },
+          {
+            "text": "prennent l'avantage de",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'expression « prendre l'avantage de » est un calque de l'anglais « to take advantage of ». En français, on utilise « profiter de ».",
+            "suggestions": [
+              "profitent de"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "question,",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Le deux-points est requis pour introduire une question directe qui suit une phrase introductive. La virgule crée une rupture syntaxique.",
+            "suggestions": [
+              "question :"
+            ],
+            "ruleApplied": "4.2.2.7.1"
+          },
+          {
+            "text": "et être des humains clairvoyants",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La conjonction « et » coordonne des éléments de fonctions différentes : un complément (« sur l'environnement ») et une proposition infinitive. Il faut reformuler, par exemple : « et sur la nécessité d'être des humains clairvoyants ».",
+            "suggestions": [
+              "et sur la nécessité d'être des humains clairvoyants"
+            ],
+            "ruleApplied": "4.1.2.1.8"
+          },
+          {
+            "text": "l'aspect sur l'environnement",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La préposition « sur » est incorrecte ici. On parle de « l'aspect environnemental » ou on reformule la phrase, par exemple avec « la question de l'environnement ».",
+            "suggestions": [
+              "l'aspect environnemental"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "à Canada",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La préposition « à » est incorrecte devant un nom de pays masculin singulier comme « Canada ». Il faut utiliser la préposition contractée « au ».",
+            "suggestions": [
+              "au Canada"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": ",",
+            "occurenceIndex": 3,
+            "criteria": 4,
+            "type": "P",
+            "description": "Une virgule ne doit pas séparer le sujet (« L'utilisation inadéquate de l'eau et de terres agricoles ») du verbe (« composent »).",
+            "suggestions": [
+              ""
+            ],
+            "ruleApplied": "4.2.2.10.2.a"
+          },
+          {
+            "text": "des fois",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'expression « des fois » est considérée comme familière. Il est préférable d'utiliser « parfois » ou « quelquefois » dans un registre de langue soutenu.",
+            "suggestions": [
+              "parfois",
+              "quelquefois"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "prennent tout cela en avantage",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'expression « prendre en avantage » est un calque de l'anglais. En français, on utilise « profiter de » ou « tourner cela à son avantage ».",
+            "suggestions": [
+              "profitent de tout cela"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "donnent preuves",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Il manque un déterminant devant le nom « preuves ». L'expression correcte est « donnent des preuves » ou « fournissent des preuves ».",
+            "suggestions": [
+              "donnent des preuves"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "à être",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction « le sujet à être » est incorrecte. Il faut reformuler, par exemple : « la question d'être » ou « le fait d'être ».",
+            "suggestions": [
+              "d'être"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "à limiter",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La préposition « à » est incorrecte après « façons ». On utilise la préposition « de » : « des façons de limiter ».",
+            "suggestions": [
+              "de limiter"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "Daphné,",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "La virgule n'est pas requise entre le prénom et le nom de l'auteur dans une référence bibliographique, sauf en cas d'inversion (Nom, Prénom).",
+            "suggestions": [
+              "Daphné"
+            ],
+            "ruleApplied": "4.2.2.10.2.i"
+          },
+          {
+            "text": "ni",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La corrélation est mal employée. On ne peut pas utiliser « ni » seul dans ce contexte. Il faudrait dire « pour manger et non pour l'esthétique ».",
+            "suggestions": [
+              "et non"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "cher le monde entier",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'apostrophe « cher le monde entier » est une construction boiteuse et peu naturelle. Il serait préférable d'utiliser une formulation comme « chers habitants du monde entier » ou de s'adresser directement aux lecteurs.",
+            "suggestions": [
+              "chers habitants du monde entier"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "vraie",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'adjectif « vrai » est difficilement gradable dans ce contexte. L'expression « la plus vraie » est sémantiquement maladroite. Il est préférable d'utiliser « la véritable raison » ou « la raison principale ».",
+            "suggestions": [
+              "véritable"
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          },
+          {
+            "text": "prendre action",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'expression « prendre action » est un calque de l'anglais « to take action ». En français, on utilise « agir » ou « passer à l'action ».",
+            "suggestions": [
+              "agir",
+              "passer à l'action"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "plaindre",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le verbe « plaindre » doit être employé à la forme pronominale dans ce contexte : « se plaindre ». Il faut donc écrire « Au lieu de vous plaindre ».",
+            "suggestions": [
+              "vous plaindre"
+            ],
+            "ruleApplied": "4.1.2.2.2"
+          },
+          {
+            "text": "et leur temps",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le déterminant « tout » doit être répété devant chaque élément de l'énumération, surtout lorsque les genres diffèrent : « toute leur énergie et tout leur temps ».",
+            "suggestions": [
+              "et tout leur temps"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "à tous les jours",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La locution « à tous les jours » est un calque de l'anglais. L'expression correcte est « tous les jours ».",
+            "suggestions": [
+              "tous les jours"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "ils existent",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Dans cette construction impersonnelle, le pronom « il » est invariable et le verbe s'accorde avec le sujet réel « plusieurs personnes ». Cependant, la construction correcte est « il existe » (singulier) ou simplement « existent » (en supprimant le pronom superflu). La forme « il existe » est la plus courante.",
+            "suggestions": [
+              "il existe"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "prennent l'avantage de",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "L'expression « prendre l'avantage de » est un calque de l'anglais « to take advantage of ». En français, on utilise « profiter de ». Il s'agit de la deuxième erreur de syntaxe dans la phrase.",
+            "suggestions": [
+              "profitent de"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "être",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La conjonction « et » coordonne des éléments de fonctions différentes : un groupe prépositionnel (« sur l'environnement ») et un verbe à l'infinitif (« être »). La structure doit être parallèle, par exemple en utilisant un autre groupe prépositionnel.",
+            "suggestions": [
+              "sur le fait d'être"
+            ],
+            "ruleApplied": "4.1.2.1.8"
+          },
+          {
+            "text": "sur",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La préposition qui suit le nom « aspect » est « de » et non « sur ».",
+            "suggestions": [
+              "de"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "consécutivement",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'adverbe « consécutivement » signifie « successivement, à la suite ». Le sens attendu ici est celui de la conséquence, qui s'exprime par « par conséquent » ou « en conséquence ».",
+            "suggestions": [
+              "en conséquence"
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          },
+          {
+            "text": ",",
+            "occurenceIndex": 4,
+            "criteria": 4,
+            "type": "P",
+            "description": "Une virgule ne doit pas séparer le groupe sujet (« L'utilisation inadéquate de l'eau et de terres agricoles ») du verbe (« composent »).",
+            "suggestions": [
+              ""
+            ],
+            "ruleApplied": "4.2.2.10.2.a"
+          },
+          {
+            "text": ".",
+            "occurenceIndex": 3,
+            "criteria": 4,
+            "type": "P",
+            "description": "Un point superflu se trouve après la parenthèse fermante. La ponctuation finale de la phrase doit se placer après la référence entre parenthèses.",
+            "suggestions": [
+              ""
+            ],
+            "ruleApplied": "4.2.2.1.2"
+          },
+          {
+            "text": "rendent difficiles à vendre",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction de la phrase est boiteuse. Il serait plus clair d'écrire « rendent leur vente difficile » ou « rendent les légumes difficiles à vendre ».",
+            "suggestions": [
+              "rendent leur vente difficile"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "donnent preuves à",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction « donner preuves à » est incorrecte. Il faut reformuler, par exemple avec « ce qui constitue des preuves » ou « qui prouvent ».",
+            "suggestions": [
+              "sont la preuve d'"
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          },
+          {
+            "text": "à limiter",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "La préposition qui suit le nom « façons » est « de » et non « à ». Il s'agit de la deuxième erreur de syntaxe dans la phrase.",
+            "suggestions": [
+              "de limiter"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": ",",
+            "occurenceIndex": 11,
+            "criteria": 4,
+            "type": "P",
+            "description": "La virgule est erronée entre le nom de famille et le prénom dans une référence bibliographique lorsque l'ordre n'est pas inversé.",
+            "suggestions": [
+              ""
+            ],
+            "ruleApplied": "4.2.2.10.2.i"
+          },
+          {
+            "text": "sont faites pour manger ni pour l'esthétique",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction de la négation est incorrecte. Il faut utiliser « ne... ni... ni... ». De plus, le participe passé « faites » devrait être au masculin pluriel « faits » pour s'accorder avec « les légumes et les fruits ». La priorité est accordée à l'erreur de syntaxe.",
+            "suggestions": [
+              "ne sont faits ni pour être mangés, ni pour l'esthétique"
+            ],
+            "ruleApplied": "4.1.2.1.3"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "font",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe doit s'accorder avec son sujet « nous les humains » (1re personne du pluriel).",
+            "suggestions": [
+              "faisons"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "ils",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "La construction impersonnelle « il existe » est invariable. Le pronom « il » ne s'accorde pas avec le complément qui suit.",
+            "suggestions": [
+              "il"
+            ],
+            "ruleApplied": "5.3.1.4"
+          },
+          {
+            "text": "créeent",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Le verbe « créer » ne prend pas de double « e » à cette forme. Il s'agit d'une erreur de graphie.",
+            "suggestions": [
+              "créent"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "affectent",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe doit s'accorder avec son sujet « Le transport des aliments » (3e personne du singulier).",
+            "suggestions": [
+              "affecte"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "composent",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe doit s'accorder avec son sujet « L'utilisation inadéquate de l'eau et de terres agricoles » (3e personne du singulier).",
+            "suggestions": [
+              "compose"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "partit",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Confusion entre l'homophone « partit » (verbe partir au passé simple) et le nom féminin « partie ». L'expression correcte est « faire partie de ».",
+            "suggestions": [
+              "partie"
+            ],
+            "ruleApplied": "5.2.2"
+          },
+          {
+            "text": "partit",
+            "occurenceIndex": 1,
+            "criteria": 5,
+            "type": "(U)",
+            "description": "Répétition de la confusion entre l'homophone « partit » et le nom « partie ».",
+            "suggestions": [
+              "partie"
+            ],
+            "ruleApplied": "5.2.2"
+          },
+          {
+            "text": "du",
+            "occurenceIndex": 1,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom « transformation » est féminin. Le déterminant contracté « du » (de + le) est incorrect. Il faut utiliser « de la ».",
+            "suggestions": [
+              "de la"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "négatives",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif « négatives » doit s'accorder en genre et en nombre avec le nom qu'il qualifie, « effets » (masculin pluriel).",
+            "suggestions": [
+              "négatifs"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "achéter",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "L'accent sur le verbe « acheter » est incorrect. La graphie correcte est « acheter ».",
+            "suggestions": [
+              "acheter"
+            ],
+            "ruleApplied": "5.2.1.1"
+          },
+          {
+            "text": "est",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe doit s'accorder avec son sujet « ces procédés » (3e personne du pluriel).",
+            "suggestions": [
+              "sont"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "raisonnable",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "_",
+            "description": "L'adjectif « raisonnable » doit s'accorder en nombre avec le nom qu'il qualifie, « procédés » (masculin pluriel). Le donneur d'accord est le même que pour l'erreur précédente sur le verbe « est ».",
+            "suggestions": [
+              "raisonnables"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "faites",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé « faites » doit s'accorder en genre et en nombre avec le sujet « les légumes et les fruits ». Le masculin l'emportant sur le féminin, l'accord se fait au masculin pluriel.",
+            "suggestions": [
+              "faits"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "acceptés",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Après le verbe « devoir », on doit utiliser l'infinitif « accepter » et non le participe passé « acceptés ».",
+            "suggestions": [
+              "accepter"
+            ],
+            "ruleApplied": "5.3.2.6"
+          },
+          {
+            "text": "coûterez",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe doit s'accorder avec son sujet « cela » (3e personne du singulier). La terminaison « -ez » correspond à la 2e personne du pluriel.",
+            "suggestions": [
+              "coûtera"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "chers",
+            "occurenceIndex": 1,
+            "criteria": 5,
+            "type": "G",
+            "description": "Dans l'expression « coûter cher », le mot « cher » est un adverbe et est donc invariable. Il ne s'accorde pas.",
+            "suggestions": [
+              "cher"
+            ],
+            "ruleApplied": "5.3.1.6"
+          },
+          {
+            "text": "Bénefiez",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "L'accent sur le verbe « bénéficier » est incorrect. La graphie correcte est « bénéficiez ».",
+            "suggestions": [
+              "Bénéficiez"
+            ],
+            "ruleApplied": "5.2.1.1"
+          },
+          {
+            "text": "tout",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le déterminant indéfini « tout » doit s'accorder en genre avec le nom qu'il détermine. Devant « énergie » (féminin singulier), il faut écrire « toute ».",
+            "suggestions": [
+              "toute"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "à Canada",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Devant un nom de pays masculin singulier comme « Canada », on utilise la préposition contractée « au » (à + le).",
+            "suggestions": [
+              "au Canada"
+            ],
+            "ruleApplied": "5.3.5"
+          },
+          {
+            "text": "du transformation",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom « transformation » est féminin. Le déterminant contracté doit être « de la ».",
+            "suggestions": [
+              "de la transformation"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "d'achéter",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "L'infinitif du verbe « acheter » s'écrit sans accent aigu sur le premier « e ».",
+            "suggestions": [
+              "d'acheter"
+            ],
+            "ruleApplied": "5.2.1.1"
+          },
+          {
+            "text": "chers",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adverbe « cher » qui modifie le verbe « coûter » est invariable.",
+            "suggestions": [
+              "cher"
+            ],
+            "ruleApplied": "5.3.1.6"
+          }
+        ],
+        "totalErreursCritere4": 32,
+        "totalErreursCritere5": 22,
+        "scoreCritere4": {
+          "pointsPerdus": 27,
+          "note": "E"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 20,
+          "note": "E"
+        }
+      }
+    ],
+    "erreursCritere4AvantAnalyseIA": [
+      {
+        "text": "sert l'alimentation",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction « servir l'alimentation » est boiteuse. On utilise plutôt « servir d'alimentation ».",
+        "suggestions": [
+          "sert d'alimentation"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": "prennent l'avantage de",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression « prendre l'avantage de » est un calque de l'anglais « to take advantage of ». En français, on utilise « profiter de ».",
+        "suggestions": [
+          "profitent de"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "question,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le deux-points est requis pour introduire une question directe qui suit une phrase introductive. La virgule crée une rupture syntaxique.",
+        "suggestions": [
+          "question :"
+        ],
+        "ruleApplied": "4.2.2.7.1"
+      },
+      {
+        "text": "et être des humains clairvoyants",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La conjonction « et » coordonne des éléments de fonctions différentes : un complément (« sur l'environnement ») et une proposition infinitive. Il faut reformuler, par exemple : « et sur la nécessité d'être des humains clairvoyants ».",
+        "suggestions": [
+          "et sur la nécessité d'être des humains clairvoyants"
+        ],
+        "ruleApplied": "4.1.2.1.8"
+      },
+      {
+        "text": "l'aspect sur l'environnement",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition « sur » est incorrecte ici. On parle de « l'aspect environnemental » ou on reformule la phrase, par exemple avec « la question de l'environnement ».",
+        "suggestions": [
+          "l'aspect environnemental"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "à Canada",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition « à » est incorrecte devant un nom de pays masculin singulier comme « Canada ». Il faut utiliser la préposition contractée « au ».",
+        "suggestions": [
+          "au Canada"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": ",",
+        "occurenceIndex": 3,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule ne doit pas séparer le sujet (« L'utilisation inadéquate de l'eau et de terres agricoles ») du verbe (« composent »).",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.10.2.a"
+      },
+      {
+        "text": "des fois",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression « des fois » est considérée comme familière. Il est préférable d'utiliser « parfois » ou « quelquefois » dans un registre de langue soutenu.",
+        "suggestions": [
+          "parfois",
+          "quelquefois"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "prennent tout cela en avantage",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression « prendre en avantage » est un calque de l'anglais. En français, on utilise « profiter de » ou « tourner cela à son avantage ».",
+        "suggestions": [
+          "profitent de tout cela"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "donnent preuves",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque un déterminant devant le nom « preuves ». L'expression correcte est « donnent des preuves » ou « fournissent des preuves ».",
+        "suggestions": [
+          "donnent des preuves"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "à être",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction « le sujet à être » est incorrecte. Il faut reformuler, par exemple : « la question d'être » ou « le fait d'être ».",
+        "suggestions": [
+          "d'être"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "à limiter",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition « à » est incorrecte après « façons ». On utilise la préposition « de » : « des façons de limiter ».",
+        "suggestions": [
+          "de limiter"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "Daphné,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "La virgule n'est pas requise entre le prénom et le nom de l'auteur dans une référence bibliographique, sauf en cas d'inversion (Nom, Prénom).",
+        "suggestions": [
+          "Daphné"
+        ],
+        "ruleApplied": "4.2.2.10.2.i"
+      },
+      {
+        "text": "ni",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La corrélation est mal employée. On ne peut pas utiliser « ni » seul dans ce contexte. Il faudrait dire « pour manger et non pour l'esthétique ».",
+        "suggestions": [
+          "et non"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "cher le monde entier",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'apostrophe « cher le monde entier » est une construction boiteuse et peu naturelle. Il serait préférable d'utiliser une formulation comme « chers habitants du monde entier » ou de s'adresser directement aux lecteurs.",
+        "suggestions": [
+          "chers habitants du monde entier"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "vraie",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'adjectif « vrai » est difficilement gradable dans ce contexte. L'expression « la plus vraie » est sémantiquement maladroite. Il est préférable d'utiliser « la véritable raison » ou « la raison principale ».",
+        "suggestions": [
+          "véritable"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": "prendre action",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression « prendre action » est un calque de l'anglais « to take action ». En français, on utilise « agir » ou « passer à l'action ».",
+        "suggestions": [
+          "agir",
+          "passer à l'action"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "plaindre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe « plaindre » doit être employé à la forme pronominale dans ce contexte : « se plaindre ». Il faut donc écrire « Au lieu de vous plaindre ».",
+        "suggestions": [
+          "vous plaindre"
+        ],
+        "ruleApplied": "4.1.2.2.2"
+      },
+      {
+        "text": "et leur temps",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le déterminant « tout » doit être répété devant chaque élément de l'énumération, surtout lorsque les genres diffèrent : « toute leur énergie et tout leur temps ».",
+        "suggestions": [
+          "et tout leur temps"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "à tous les jours",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution « à tous les jours » est un calque de l'anglais. L'expression correcte est « tous les jours ».",
+        "suggestions": [
+          "tous les jours"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "ils existent",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Dans cette construction impersonnelle, le pronom « il » est invariable et le verbe s'accorde avec le sujet réel « plusieurs personnes ». Cependant, la construction correcte est « il existe » (singulier) ou simplement « existent » (en supprimant le pronom superflu). La forme « il existe » est la plus courante.",
+        "suggestions": [
+          "il existe"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "prennent l'avantage de",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "L'expression « prendre l'avantage de » est un calque de l'anglais « to take advantage of ». En français, on utilise « profiter de ». Il s'agit de la deuxième erreur de syntaxe dans la phrase.",
+        "suggestions": [
+          "profitent de"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "être",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La conjonction « et » coordonne des éléments de fonctions différentes : un groupe prépositionnel (« sur l'environnement ») et un verbe à l'infinitif (« être »). La structure doit être parallèle, par exemple en utilisant un autre groupe prépositionnel.",
+        "suggestions": [
+          "sur le fait d'être"
+        ],
+        "ruleApplied": "4.1.2.1.8"
+      },
+      {
+        "text": "sur",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition qui suit le nom « aspect » est « de » et non « sur ».",
+        "suggestions": [
+          "de"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "consécutivement",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'adverbe « consécutivement » signifie « successivement, à la suite ». Le sens attendu ici est celui de la conséquence, qui s'exprime par « par conséquent » ou « en conséquence ».",
+        "suggestions": [
+          "en conséquence"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": ",",
+        "occurenceIndex": 4,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule ne doit pas séparer le groupe sujet (« L'utilisation inadéquate de l'eau et de terres agricoles ») du verbe (« composent »).",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.10.2.a"
+      },
+      {
+        "text": ".",
+        "occurenceIndex": 3,
+        "criteria": 4,
+        "type": "P",
+        "description": "Un point superflu se trouve après la parenthèse fermante. La ponctuation finale de la phrase doit se placer après la référence entre parenthèses.",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.1.2"
+      },
+      {
+        "text": "rendent difficiles à vendre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est boiteuse. Il serait plus clair d'écrire « rendent leur vente difficile » ou « rendent les légumes difficiles à vendre ».",
+        "suggestions": [
+          "rendent leur vente difficile"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "donnent preuves à",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction « donner preuves à » est incorrecte. Il faut reformuler, par exemple avec « ce qui constitue des preuves » ou « qui prouvent ».",
+        "suggestions": [
+          "sont la preuve d'"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": "à limiter",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "La préposition qui suit le nom « façons » est « de » et non « à ». Il s'agit de la deuxième erreur de syntaxe dans la phrase.",
+        "suggestions": [
+          "de limiter"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": ",",
+        "occurenceIndex": 11,
+        "criteria": 4,
+        "type": "P",
+        "description": "La virgule est erronée entre le nom de famille et le prénom dans une référence bibliographique lorsque l'ordre n'est pas inversé.",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.10.2.i"
+      },
+      {
+        "text": "sont faites pour manger ni pour l'esthétique",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la négation est incorrecte. Il faut utiliser « ne... ni... ni... ». De plus, le participe passé « faites » devrait être au masculin pluriel « faits » pour s'accorder avec « les légumes et les fruits ». La priorité est accordée à l'erreur de syntaxe.",
+        "suggestions": [
+          "ne sont faits ni pour être mangés, ni pour l'esthétique"
+        ],
+        "ruleApplied": "4.1.2.1.3"
+      }
+    ],
+    "erreursCritere5AvantAnalyseIA": [
+      {
+        "text": "font",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec son sujet « nous les humains » (1re personne du pluriel).",
+        "suggestions": [
+          "faisons"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "ils",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "La construction impersonnelle « il existe » est invariable. Le pronom « il » ne s'accorde pas avec le complément qui suit.",
+        "suggestions": [
+          "il"
+        ],
+        "ruleApplied": "5.3.1.4"
+      },
+      {
+        "text": "créeent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le verbe « créer » ne prend pas de double « e » à cette forme. Il s'agit d'une erreur de graphie.",
+        "suggestions": [
+          "créent"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "affectent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec son sujet « Le transport des aliments » (3e personne du singulier).",
+        "suggestions": [
+          "affecte"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "composent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec son sujet « L'utilisation inadéquate de l'eau et de terres agricoles » (3e personne du singulier).",
+        "suggestions": [
+          "compose"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "partit",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion entre l'homophone « partit » (verbe partir au passé simple) et le nom féminin « partie ». L'expression correcte est « faire partie de ».",
+        "suggestions": [
+          "partie"
+        ],
+        "ruleApplied": "5.2.2"
+      },
+      {
+        "text": "partit",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Répétition de la confusion entre l'homophone « partit » et le nom « partie ».",
+        "suggestions": [
+          "partie"
+        ],
+        "ruleApplied": "5.2.2"
+      },
+      {
+        "text": "du",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « transformation » est féminin. Le déterminant contracté « du » (de + le) est incorrect. Il faut utiliser « de la ».",
+        "suggestions": [
+          "de la"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "négatives",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « négatives » doit s'accorder en genre et en nombre avec le nom qu'il qualifie, « effets » (masculin pluriel).",
+        "suggestions": [
+          "négatifs"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "achéter",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'accent sur le verbe « acheter » est incorrect. La graphie correcte est « acheter ».",
+        "suggestions": [
+          "acheter"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "text": "est",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec son sujet « ces procédés » (3e personne du pluriel).",
+        "suggestions": [
+          "sont"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "raisonnable",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "L'adjectif « raisonnable » doit s'accorder en nombre avec le nom qu'il qualifie, « procédés » (masculin pluriel). Le donneur d'accord est le même que pour l'erreur précédente sur le verbe « est ».",
+        "suggestions": [
+          "raisonnables"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "faites",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « faites » doit s'accorder en genre et en nombre avec le sujet « les légumes et les fruits ». Le masculin l'emportant sur le féminin, l'accord se fait au masculin pluriel.",
+        "suggestions": [
+          "faits"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "acceptés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après le verbe « devoir », on doit utiliser l'infinitif « accepter » et non le participe passé « acceptés ».",
+        "suggestions": [
+          "accepter"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "coûterez",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec son sujet « cela » (3e personne du singulier). La terminaison « -ez » correspond à la 2e personne du pluriel.",
+        "suggestions": [
+          "coûtera"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "chers",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Dans l'expression « coûter cher », le mot « cher » est un adverbe et est donc invariable. Il ne s'accorde pas.",
+        "suggestions": [
+          "cher"
+        ],
+        "ruleApplied": "5.3.1.6"
+      },
+      {
+        "text": "Bénefiez",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'accent sur le verbe « bénéficier » est incorrect. La graphie correcte est « bénéficiez ».",
+        "suggestions": [
+          "Bénéficiez"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "text": "tout",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant indéfini « tout » doit s'accorder en genre avec le nom qu'il détermine. Devant « énergie » (féminin singulier), il faut écrire « toute ».",
+        "suggestions": [
+          "toute"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "à Canada",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Devant un nom de pays masculin singulier comme « Canada », on utilise la préposition contractée « au » (à + le).",
+        "suggestions": [
+          "au Canada"
+        ],
+        "ruleApplied": "5.3.5"
+      },
+      {
+        "text": "du transformation",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « transformation » est féminin. Le déterminant contracté doit être « de la ».",
+        "suggestions": [
+          "de la transformation"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "d'achéter",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'infinitif du verbe « acheter » s'écrit sans accent aigu sur le premier « e ».",
+        "suggestions": [
+          "d'acheter"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "text": "chers",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adverbe « cher » qui modifie le verbe « coûter » est invariable.",
+        "suggestions": [
+          "cher"
+        ],
+        "ruleApplied": "5.3.1.6"
+      }
+    ],
+    "analyseIADuplicatas": {
+      "critere4": {
+        "analyse": {
+          "totalErreursCritere4": 32,
+          "totalErreursCritere5": 0,
+          "duplicatasCritere4": 7,
+          "duplicatasCritere5": 0
+        },
+        "duplicatasCritere4": [
+          {
+            "groupe": 1,
+            "confiance": 95,
+            "raison": "Même erreur sémantique (calque de l'anglais 'take advantage'), même occurrence et même règle appliquée. Le texte de l'erreur à conserver est le plus complet.",
+            "erreurs": [
+              {
+                "index": 8,
+                "text": "prennent tout cela en avantage",
+                "garder": true
+              },
+              {
+                "index": 1,
+                "text": "prennent l'avantage de",
+                "garder": false
+              },
+              {
+                "index": 21,
+                "text": "prennent l'avantage de",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 2,
+            "confiance": 98,
+            "raison": "Même erreur de parallélisme, même occurrence et même règle. Une erreur est une version abrégée de l'autre qui est plus complète.",
+            "erreurs": [
+              {
+                "index": 3,
+                "text": "et être des humains clairvoyants",
+                "garder": true
+              },
+              {
+                "index": 22,
+                "text": "être",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 3,
+            "confiance": 98,
+            "raison": "Même erreur de préposition, même occurrence et même règle. Une erreur est une version abrégée de l'autre qui est plus complète.",
+            "erreurs": [
+              {
+                "index": 4,
+                "text": "l'aspect sur l'environnement",
+                "garder": true
+              },
+              {
+                "index": 23,
+                "text": "sur",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 4,
+            "confiance": 100,
+            "raison": "Duplicata exact : même texte, même occurrence et même règle appliquée.",
+            "erreurs": [
+              {
+                "index": 11,
+                "text": "à limiter",
+                "garder": true
+              },
+              {
+                "index": 29,
+                "text": "à limiter",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 5,
+            "confiance": 90,
+            "raison": "Même erreur de construction de phrase, même occurrence. Le texte d'une erreur est inclus dans l'autre, qui est plus complète.",
+            "erreurs": [
+              {
+                "index": 28,
+                "text": "donnent preuves à",
+                "garder": true
+              },
+              {
+                "index": 9,
+                "text": "donnent preuves",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 6,
+            "confiance": 95,
+            "raison": "Même erreur de construction de la négation, même occurrence. Une erreur est une version abrégée de l'autre qui est plus complète.",
+            "erreurs": [
+              {
+                "index": 31,
+                "text": "sont faites pour manger ni pour l'esthétique",
+                "garder": true
+              },
+              {
+                "index": 13,
+                "text": "ni",
+                "garder": false
+              }
+            ]
+          }
+        ],
+        "duplicatasCritere5": [],
+        "erreursUniquesCritere4": [
+          {
+            "index": 0,
+            "text": "sert l'alimentation",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 2,
+            "text": "question,",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 5,
+            "text": "à Canada",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 6,
+            "text": ",",
+            "raison": "Erreur distincte (occurrence 3) d'une erreur similaire (occurrence 4)."
+          },
+          {
+            "index": 7,
+            "text": "des fois",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 10,
+            "text": "à être",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 12,
+            "text": "Daphné,",
+            "raison": "Erreur distincte (occurrence 0) d'une erreur similaire (occurrence 11)."
+          },
+          {
+            "index": 14,
+            "text": "cher le monde entier",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 15,
+            "text": "vraie",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 16,
+            "text": "prendre action",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 17,
+            "text": "plaindre",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 18,
+            "text": "et leur temps",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 19,
+            "text": "à tous les jours",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 20,
+            "text": "ils existent",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 24,
+            "text": "consécutivement",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 25,
+            "text": ",",
+            "raison": "Erreur distincte (occurrence 4) d'une erreur similaire (occurrence 3)."
+          },
+          {
+            "index": 26,
+            "text": ".",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 27,
+            "text": "rendent difficiles à vendre",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 30,
+            "text": ",",
+            "raison": "Erreur distincte (occurrence 11) d'une erreur similaire (occurrence 0)."
+          }
+        ],
+        "erreursUniquesCritere5": [],
+        "recommandations": {
+          "erreursAConserverCritere4": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            24,
+            25,
+            26,
+            27,
+            28,
+            30,
+            31
+          ],
+          "erreursAConserverCritere5": [],
+          "erreursASupprimer": {
+            "critere4": [
+              1,
+              9,
+              13,
+              21,
+              22,
+              23,
+              29
+            ],
+            "critere5": []
+          }
+        }
+      },
+      "critere5": {
+        "analyse": {
+          "totalErreursCritere4": 0,
+          "totalErreursCritere5": 22,
+          "duplicatasCritere4": 0,
+          "duplicatasCritere5": 2
+        },
+        "duplicatasCritere4": [],
+        "duplicatasCritere5": [
+          {
+            "groupe": 1,
+            "confiance": 90,
+            "raison": "Même erreur sémantique d'accord de déterminant avec le nom 'transformation'. Le texte de l'une des erreurs est plus complet. L'index d'occurrence diffère, mais la description est trop spécifique pour qu'il s'agisse de deux erreurs distinctes.",
+            "erreurs": [
+              {
+                "index": 19,
+                "text": "du transformation",
+                "garder": true
+              },
+              {
+                "index": 7,
+                "text": "du",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 2,
+            "confiance": 98,
+            "raison": "Même erreur d'orthographe sur le verbe 'acheter' à la même position. Le texte de l'une des erreurs inclut le contexte de l'élision.",
+            "erreurs": [
+              {
+                "index": 20,
+                "text": "d'achéter",
+                "garder": true
+              },
+              {
+                "index": 9,
+                "text": "achéter",
+                "garder": false
+              }
+            ]
+          }
+        ],
+        "erreursUniquesCritere4": [],
+        "erreursUniquesCritere5": [
+          {
+            "index": 0,
+            "text": "font",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 1,
+            "text": "ils",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 2,
+            "text": "créeent",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 3,
+            "text": "affectent",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 4,
+            "text": "composent",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 5,
+            "text": "partit",
+            "raison": "Erreur distincte de l'index 6 en raison d'un occurenceIndex différent."
+          },
+          {
+            "index": 6,
+            "text": "partit",
+            "raison": "Erreur distincte de l'index 5 en raison d'un occurenceIndex différent."
+          },
+          {
+            "index": 8,
+            "text": "négatives",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 10,
+            "text": "est",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 11,
+            "text": "raisonnable",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 12,
+            "text": "faites",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 13,
+            "text": "acceptés",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 14,
+            "text": "coûterez",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 15,
+            "text": "chers",
+            "raison": "Erreur distincte de l'index 21 en raison d'un occurenceIndex différent."
+          },
+          {
+            "index": 16,
+            "text": "Bénefiez",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 17,
+            "text": "tout",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 18,
+            "text": "à Canada",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 21,
+            "text": "chers",
+            "raison": "Erreur distincte de l'index 15 en raison d'un occurenceIndex différent."
+          }
+        ],
+        "recommandations": {
+          "erreursAConserverCritere4": [],
+          "erreursAConserverCritere5": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            8,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ],
+          "erreursASupprimer": {
+            "critere4": [],
+            "critere5": [
+              7,
+              9
+            ]
+          }
+        }
+      }
+    }
+  }
+}

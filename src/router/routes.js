@@ -1,8 +1,28 @@
 const routes = [
   {
     path: '/',
+    redirect: '/login',
+  },
+  {
+    path: '/login',
+    component: () => import('layouts/AuthLayout.vue'),
+    children: [
+      { path: '', component: () => import('pages/LoginPage.vue') },
+    ],
+  },
+  {
+    path: '/home',
+    component: () => import('layouts/DefaultLayout.vue'),
+    children: [
+      { path: '', component: () => import('pages/TextViewer.vue') },
+    ],
+  },
+  {
+    path: '/analyse',
     component: () => import('layouts/MainLayout.vue'),
-    children: [{ path: '', component: () => import('pages/IndexPage.vue') }],
+    children: [
+      { path: '', component: () => import('pages/IndexPage.vue') },
+    ],
   },
 
   // Always leave this as last one,

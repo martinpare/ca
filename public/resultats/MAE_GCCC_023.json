@@ -1,0 +1,838 @@
+{
+  "processedAt": "2025-12-10T14:14:23.482Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_023.txt",
+    "originalText": "Le gaspillage alimentaire: un combat que nous nous sommes peu préparé\r\n\r\nDepuis les dernières décennies, plusieurs courants de pensées ont vu le jour afin de réduire le gaspillage alimentaire. Par exemple, nous pouvons penser au mouvement «zéro déchet» qui vise à éradiquer toute forme de déchets dont les déchets alimentaires. Ces mouvements sont apparus pour une raison, pour un combat imminent qui questionne notre responsabilité en tant que citoyen la Terre, mais sommes-nous prêts à lutter contre le gaspillage alimentaire? Non! Je suis persuadée que nous ne sommes pas prêts à affronter ce combat. Notre modèle de consommation et notre mécanisme contre le gaspillage alimentaire défaillant sont tous deux des raisons qui prouvent notre incapacité à réduire nos déchets alimentaires.\r\n\r\nPremièrement, nous vivons dans une société de surconsommation, une société qui prône l’abondance et, indirectement, le gaspillage. Le mot «trop» n’existe pas dans notre vocabulaire en tant que «résidents» d’une société de consommation. Les «2 pour 1», les centaines de publicités qui nous entourent ou les immenses formats familiaux, la consommation de masse est au cœur de notre société et les entreprises sont prêtes à tout pour nous inciter à consommer plus. Pourquoi acheter seulement une pomme à l’épicerie alors que le paquet de dix pommes coûte énormément moins cher? Même si une bonne partie du paquet va terminer dans nos estomacs, il reste que quand même quelques pommes vont finir aux poubelles, jetées, gaspillées. C’est en jetant ces petites quantités d’aliments auxquelles, à la base, nous n’avions pas besoin, qui contribue aux monstrueux 2,2 millions de tonnes de denrées gaspillées chaque années par, nous, les familles Canadiennes (1). De plus, soyons honnêtes, qui veut commencer à faire attention au gaspillage alimentaire alors que nous pouvons vivre dans le confort de l’ignorance? Pourquoi nous donner du mal à prévenir, à réduire ce gaspillage alors que nous pouvons seulement manger ce que nous voulons et jeter les restes, les surplus de notre repas à la poubelle? Notre façon de consommer nos aliments est déjà trop enracinée, trop imprégnée en nous, à un tel point que les conséquences néfastes notamment sur notre environnement ne nous font plus cligner des yeux. Bref, notre modèle de société actuelle nous a rendu paresseux et incapable de résister à la tentation de simplement gaspiller nos aliments plutôt que de les sauver.\r\n\r\nDeuxièmement, notre mécanisme contre le gaspillage alimentaire n’est pas assez au point pour gagner ce combat. Nous n’avons toujours pas les moyens pour s’occuper de toutes ces tonnes de résidus alimentaires. Avec le manque d’aide financière, les banques alimentaires sont pleines à craquer. Le même phénomène se produit chez Loop Mission, une compagnie de transformation des surplus alimentaires qui doit refuser plus de 80% des demandes de récupération des aliments gaspillés (2). Si tous ces centres sont déjà à pleine capacité, où les déchets alimentaires terminent-ils? Eh bien, ils se retrouvent sur les piles des sites d’enfouissement et d’incinération, des modes de transformation des déchets qui empoisonnent notre belle planète bleue. De plus, notre mécanisme actuel n’encourage pas la réutilisation des déchets générés par le gaspillage alimentaire, car la récupération de ces déchets se trouve désavantageux pour les entreprises. En effet, tout le temps, tous les efforts et toutes les dépenses nécessaires pour les récupérer rendent le tout plus désavantageux pour les personnes qui essayent de diminuer nos empreintes noires sur l’environnement. En somme, notre système de récupération des denrées gaspillées n’est toujours pas assez développé pour pouvoir combattre le gaspillage alimentaire.\r\n\r\nEn conclusion, nous ne sommes toujours pas prêts à nous battre contre le gaspillage alimentaire. Bien que nous ne soyons pas prêts à affronter ce combat ardu en ce moment, il va falloir vite changer notre mode de fonctionnement pour ne pas laisser des traces permanentes sur la Terre. La sensibilisation de la population à l’égard de nos gestes polluants et l’alimentation durable sont deux pistes de solution à envisager. Après tout, comme le dicton le dit: «Mieux vaut tard que jamais».\r\n\r\n1 Ministère de l’Éducation, Le gaspillage alimentaire, 2022.\r\n2 Idem.",
+    "erreursCritere4": [
+      {
+        "text": "citoyen la Terre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence d'un mot essentiel. Il manque la préposition 'de' pour introduire le complément 'la Terre' qui suit le nom 'citoyen'.",
+        "suggestions": [
+          "citoyen de la Terre"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "auxquelles",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Pronom relatif erroné. Le verbe 'avoir besoin' se construit avec la préposition 'de'. Le pronom relatif correct est donc 'dont'.",
+        "suggestions": [
+          "dont"
+        ],
+        "ruleApplied": "4.1.2.3.1"
+      },
+      {
+        "text": "pour",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "S",
+        "description": "Préposition erronée. L'expression consacrée est 'avoir les moyens de faire quelque chose' et non 'pour faire quelque chose'.",
+        "suggestions": [
+          "de"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "2022",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de ponctuation. Un point est requis à la fin d'une référence bibliographique ou d'un renvoi en bas de page.",
+        "suggestions": [
+          "2022."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "text": "il reste que quand même",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Mot superflu ou construction boiteuse. La locution « quand même » est redondante avec l'expression « il reste que ». Il faut reformuler pour éviter la lourdeur.",
+        "suggestions": [
+          "il n'en reste pas moins que",
+          "il reste que"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "jamais»",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de ponctuation finale. Une phrase doit se terminer par un signe de ponctuation fort (ici, un point).",
+        "suggestions": [
+          "jamais. »"
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 5,
+      "note": "B"
+    },
+    "erreursCritere5": [
+      {
+        "text": "préparé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord du participe passé d'un verbe pronominal. Le participe passé 'préparé' doit s'accorder avec le complément d'objet direct 'nous' (représentant 'nous-mêmes'), placé avant le verbe. Le pronom 'nous' étant au pluriel, l'accord se fait au pluriel.",
+        "suggestions": [
+          "préparés"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "pensées",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord du complément du nom. Dans l'expression 'courant de pensée', le nom 'pensée' est un concept abstrait et doit rester au singulier.",
+        "suggestions": [
+          "pensée"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "text": "années",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord en nombre. Le déterminant 'chaque' est toujours suivi d'un nom au singulier.",
+        "suggestions": [
+          "année"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "Canadiennes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Majuscule erronée. Les adjectifs de nationalité s'écrivent avec une minuscule initiale.",
+        "suggestions": [
+          "canadiennes"
+        ],
+        "ruleApplied": "5.2.4.1"
+      },
+      {
+        "text": "rendu",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord du participe passé avec l'auxiliaire 'avoir'. Le complément d'objet direct 'nous', placé avant le verbe, est le donneur d'accord (pluriel).",
+        "suggestions": [
+          "rendus"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "incapable",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "Accord de l'adjectif attribut du COD. L'adjectif 'incapable' doit s'accorder avec le même donneur que 'rendu', soit le pronom 'nous' (pluriel).",
+        "suggestions": [
+          "incapables"
+        ],
+        "ruleApplied": "5.4.2.1"
+      },
+      {
+        "text": "désavantageux",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord de l'adjectif attribut du sujet. L'adjectif 'désavantageux' doit s'accorder en genre et en nombre avec le sujet 'la récupération' (féminin singulier).",
+        "suggestions": [
+          "désavantageuse"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "défaillant",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord de l'adjectif. L'adjectif « défaillant » qualifie les deux noms masculins singuliers « modèle » et « mécanisme », coordonnés par « et ». Il doit donc s'accorder au masculin pluriel. Donneur : « Notre modèle [...] et notre mécanisme ».",
+        "suggestions": [
+          "défaillants"
+        ],
+        "ruleApplied": "5.3.1.1"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 7,
+      "note": "B"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:10:22.481Z",
+    "endTimestamp": "2025-12-10T14:14:23.482Z",
+    "durationMs": 241001,
+    "durationFormatted": "04:01:001",
+    "cumulParPasse": [
+      {
+        "passe": 1,
+        "erreursCritere4": [
+          {
+            "text": "citoyen la Terre",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Absence d'un mot essentiel. Il manque la préposition 'de' pour introduire le complément 'la Terre' qui suit le nom 'citoyen'.",
+            "suggestions": [
+              "citoyen de la Terre"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "que quand même",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Mot superflu. La locution 'il reste que' exprime déjà une persistance ou une concession. L'ajout de 'quand même' crée une redondance.",
+            "suggestions": [
+              "que",
+              "quand même que"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "auxquelles",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Pronom relatif erroné. Le verbe 'avoir besoin' se construit avec la préposition 'de'. Le pronom relatif correct est donc 'dont'.",
+            "suggestions": [
+              "dont"
+            ],
+            "ruleApplied": "4.1.2.3.1"
+          },
+          {
+            "text": "pour",
+            "occurenceIndex": 1,
+            "criteria": 4,
+            "type": "S",
+            "description": "Préposition erronée. L'expression consacrée est 'avoir les moyens de faire quelque chose' et non 'pour faire quelque chose'.",
+            "suggestions": [
+              "de"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "2022",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Absence de ponctuation. Un point est requis à la fin d'une référence bibliographique ou d'un renvoi en bas de page.",
+            "suggestions": [
+              "2022."
+            ],
+            "ruleApplied": "4.2.2.1.1"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "préparé",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Accord du participe passé d'un verbe pronominal. Le participe passé 'préparé' doit s'accorder avec le complément d'objet direct 'nous' (représentant 'nous-mêmes'), placé avant le verbe. Le pronom 'nous' étant au pluriel, l'accord se fait au pluriel.",
+            "suggestions": [
+              "préparés"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "pensées",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Accord du complément du nom. Dans l'expression 'courant de pensée', le nom 'pensée' est un concept abstrait et doit rester au singulier.",
+            "suggestions": [
+              "pensée"
+            ],
+            "ruleApplied": "5.3.1.5"
+          },
+          {
+            "text": "années",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Accord en nombre. Le déterminant 'chaque' est toujours suivi d'un nom au singulier.",
+            "suggestions": [
+              "année"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "Canadiennes",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Majuscule erronée. Les adjectifs de nationalité s'écrivent avec une minuscule initiale.",
+            "suggestions": [
+              "canadiennes"
+            ],
+            "ruleApplied": "5.2.4.1"
+          },
+          {
+            "text": "rendu",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Accord du participe passé avec l'auxiliaire 'avoir'. Le complément d'objet direct 'nous', placé avant le verbe, est le donneur d'accord (pluriel).",
+            "suggestions": [
+              "rendus"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "incapable",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "_",
+            "description": "Accord de l'adjectif attribut du COD. L'adjectif 'incapable' doit s'accorder avec le même donneur que 'rendu', soit le pronom 'nous' (pluriel).",
+            "suggestions": [
+              "incapables"
+            ],
+            "ruleApplied": "5.4.2.1"
+          },
+          {
+            "text": "désavantageux",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Accord de l'adjectif attribut du sujet. L'adjectif 'désavantageux' doit s'accorder en genre et en nombre avec le sujet 'la récupération' (féminin singulier).",
+            "suggestions": [
+              "désavantageuse"
+            ],
+            "ruleApplied": "5.3.1.1"
+          }
+        ],
+        "totalErreursCritere4": 5,
+        "totalErreursCritere5": 7,
+        "scoreCritere4": {
+          "pointsPerdus": 4.5,
+          "note": "B"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 6,
+          "note": "B"
+        }
+      },
+      {
+        "passe": 2,
+        "erreursCritere4": [
+          {
+            "text": "citoyen la Terre",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Absence d'un mot essentiel. Il manque la préposition 'de' pour introduire le complément 'la Terre' qui suit le nom 'citoyen'.",
+            "suggestions": [
+              "citoyen de la Terre"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "que quand même",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Mot superflu. La locution 'il reste que' exprime déjà une persistance ou une concession. L'ajout de 'quand même' crée une redondance.",
+            "suggestions": [
+              "que",
+              "quand même que"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "auxquelles",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Pronom relatif erroné. Le verbe 'avoir besoin' se construit avec la préposition 'de'. Le pronom relatif correct est donc 'dont'.",
+            "suggestions": [
+              "dont"
+            ],
+            "ruleApplied": "4.1.2.3.1"
+          },
+          {
+            "text": "pour",
+            "occurenceIndex": 1,
+            "criteria": 4,
+            "type": "S",
+            "description": "Préposition erronée. L'expression consacrée est 'avoir les moyens de faire quelque chose' et non 'pour faire quelque chose'.",
+            "suggestions": [
+              "de"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "2022",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Absence de ponctuation. Un point est requis à la fin d'une référence bibliographique ou d'un renvoi en bas de page.",
+            "suggestions": [
+              "2022."
+            ],
+            "ruleApplied": "4.2.2.1.1"
+          },
+          {
+            "text": "il reste que quand même",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Mot superflu ou construction boiteuse. La locution « quand même » est redondante avec l'expression « il reste que ». Il faut reformuler pour éviter la lourdeur.",
+            "suggestions": [
+              "il n'en reste pas moins que",
+              "il reste que"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "jamais»",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Absence de ponctuation finale. Une phrase doit se terminer par un signe de ponctuation fort (ici, un point).",
+            "suggestions": [
+              "jamais. »"
+            ],
+            "ruleApplied": "4.2.2.1.1"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "préparé",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Accord du participe passé d'un verbe pronominal. Le participe passé 'préparé' doit s'accorder avec le complément d'objet direct 'nous' (représentant 'nous-mêmes'), placé avant le verbe. Le pronom 'nous' étant au pluriel, l'accord se fait au pluriel.",
+            "suggestions": [
+              "préparés"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "pensées",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Accord du complément du nom. Dans l'expression 'courant de pensée', le nom 'pensée' est un concept abstrait et doit rester au singulier.",
+            "suggestions": [
+              "pensée"
+            ],
+            "ruleApplied": "5.3.1.5"
+          },
+          {
+            "text": "années",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Accord en nombre. Le déterminant 'chaque' est toujours suivi d'un nom au singulier.",
+            "suggestions": [
+              "année"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "Canadiennes",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Majuscule erronée. Les adjectifs de nationalité s'écrivent avec une minuscule initiale.",
+            "suggestions": [
+              "canadiennes"
+            ],
+            "ruleApplied": "5.2.4.1"
+          },
+          {
+            "text": "rendu",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Accord du participe passé avec l'auxiliaire 'avoir'. Le complément d'objet direct 'nous', placé avant le verbe, est le donneur d'accord (pluriel).",
+            "suggestions": [
+              "rendus"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "incapable",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "_",
+            "description": "Accord de l'adjectif attribut du COD. L'adjectif 'incapable' doit s'accorder avec le même donneur que 'rendu', soit le pronom 'nous' (pluriel).",
+            "suggestions": [
+              "incapables"
+            ],
+            "ruleApplied": "5.4.2.1"
+          },
+          {
+            "text": "désavantageux",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Accord de l'adjectif attribut du sujet. L'adjectif 'désavantageux' doit s'accorder en genre et en nombre avec le sujet 'la récupération' (féminin singulier).",
+            "suggestions": [
+              "désavantageuse"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "défaillant",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Accord de l'adjectif. L'adjectif « défaillant » qualifie les deux noms masculins singuliers « modèle » et « mécanisme », coordonnés par « et ». Il doit donc s'accorder au masculin pluriel. Donneur : « Notre modèle [...] et notre mécanisme ».",
+            "suggestions": [
+              "défaillants"
+            ],
+            "ruleApplied": "5.3.1.1"
+          }
+        ],
+        "totalErreursCritere4": 7,
+        "totalErreursCritere5": 8,
+        "scoreCritere4": {
+          "pointsPerdus": 6,
+          "note": "B"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 7,
+          "note": "B"
+        }
+      }
+    ],
+    "erreursCritere4AvantAnalyseIA": [
+      {
+        "text": "citoyen la Terre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence d'un mot essentiel. Il manque la préposition 'de' pour introduire le complément 'la Terre' qui suit le nom 'citoyen'.",
+        "suggestions": [
+          "citoyen de la Terre"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "que quand même",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Mot superflu. La locution 'il reste que' exprime déjà une persistance ou une concession. L'ajout de 'quand même' crée une redondance.",
+        "suggestions": [
+          "que",
+          "quand même que"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "auxquelles",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Pronom relatif erroné. Le verbe 'avoir besoin' se construit avec la préposition 'de'. Le pronom relatif correct est donc 'dont'.",
+        "suggestions": [
+          "dont"
+        ],
+        "ruleApplied": "4.1.2.3.1"
+      },
+      {
+        "text": "pour",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "S",
+        "description": "Préposition erronée. L'expression consacrée est 'avoir les moyens de faire quelque chose' et non 'pour faire quelque chose'.",
+        "suggestions": [
+          "de"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "2022",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de ponctuation. Un point est requis à la fin d'une référence bibliographique ou d'un renvoi en bas de page.",
+        "suggestions": [
+          "2022."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "text": "il reste que quand même",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Mot superflu ou construction boiteuse. La locution « quand même » est redondante avec l'expression « il reste que ». Il faut reformuler pour éviter la lourdeur.",
+        "suggestions": [
+          "il n'en reste pas moins que",
+          "il reste que"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "jamais»",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de ponctuation finale. Une phrase doit se terminer par un signe de ponctuation fort (ici, un point).",
+        "suggestions": [
+          "jamais. »"
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      }
+    ],
+    "erreursCritere5AvantAnalyseIA": [
+      {
+        "text": "préparé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord du participe passé d'un verbe pronominal. Le participe passé 'préparé' doit s'accorder avec le complément d'objet direct 'nous' (représentant 'nous-mêmes'), placé avant le verbe. Le pronom 'nous' étant au pluriel, l'accord se fait au pluriel.",
+        "suggestions": [
+          "préparés"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "pensées",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord du complément du nom. Dans l'expression 'courant de pensée', le nom 'pensée' est un concept abstrait et doit rester au singulier.",
+        "suggestions": [
+          "pensée"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "text": "années",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord en nombre. Le déterminant 'chaque' est toujours suivi d'un nom au singulier.",
+        "suggestions": [
+          "année"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "Canadiennes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Majuscule erronée. Les adjectifs de nationalité s'écrivent avec une minuscule initiale.",
+        "suggestions": [
+          "canadiennes"
+        ],
+        "ruleApplied": "5.2.4.1"
+      },
+      {
+        "text": "rendu",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord du participe passé avec l'auxiliaire 'avoir'. Le complément d'objet direct 'nous', placé avant le verbe, est le donneur d'accord (pluriel).",
+        "suggestions": [
+          "rendus"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "incapable",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "Accord de l'adjectif attribut du COD. L'adjectif 'incapable' doit s'accorder avec le même donneur que 'rendu', soit le pronom 'nous' (pluriel).",
+        "suggestions": [
+          "incapables"
+        ],
+        "ruleApplied": "5.4.2.1"
+      },
+      {
+        "text": "désavantageux",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord de l'adjectif attribut du sujet. L'adjectif 'désavantageux' doit s'accorder en genre et en nombre avec le sujet 'la récupération' (féminin singulier).",
+        "suggestions": [
+          "désavantageuse"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "défaillant",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord de l'adjectif. L'adjectif « défaillant » qualifie les deux noms masculins singuliers « modèle » et « mécanisme », coordonnés par « et ». Il doit donc s'accorder au masculin pluriel. Donneur : « Notre modèle [...] et notre mécanisme ».",
+        "suggestions": [
+          "défaillants"
+        ],
+        "ruleApplied": "5.3.1.1"
+      }
+    ],
+    "analyseIADuplicatas": {
+      "critere4": {
+        "analyse": {
+          "totalErreursCritere4": 7,
+          "totalErreursCritere5": 0,
+          "duplicatasCritere4": 1,
+          "duplicatasCritere5": 0
+        },
+        "duplicatasCritere4": [
+          {
+            "groupe": 1,
+            "confiance": 95,
+            "raison": "Même erreur de redondance (mot superflu), texte englobant, même règle appliquée et même position.",
+            "erreurs": [
+              {
+                "index": 1,
+                "text": "que quand même",
+                "garder": false
+              },
+              {
+                "index": 5,
+                "text": "il reste que quand même",
+                "garder": true
+              }
+            ]
+          }
+        ],
+        "duplicatasCritere5": [],
+        "erreursUniquesCritere4": [
+          {
+            "index": 0,
+            "text": "citoyen la Terre",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 2,
+            "text": "auxquelles",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 3,
+            "text": "pour",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 4,
+            "text": "2022",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 6,
+            "text": "jamais»",
+            "raison": "Aucun duplicata trouvé"
+          }
+        ],
+        "erreursUniquesCritere5": [],
+        "recommandations": {
+          "erreursAConserverCritere4": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "erreursAConserverCritere5": [],
+          "erreursASupprimer": {
+            "critere4": [
+              1
+            ],
+            "critere5": []
+          }
+        }
+      },
+      "critere5": {
+        "analyse": {
+          "totalErreursCritere4": 0,
+          "totalErreursCritere5": 8,
+          "duplicatasCritere4": 0,
+          "duplicatasCritere5": 0
+        },
+        "duplicatasCritere4": [],
+        "duplicatasCritere5": [],
+        "erreursUniquesCritere4": [],
+        "erreursUniquesCritere5": [
+          {
+            "index": 0,
+            "text": "préparé",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 1,
+            "text": "pensées",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 2,
+            "text": "années",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 3,
+            "text": "Canadiennes",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 4,
+            "text": "rendu",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 5,
+            "text": "incapable",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 6,
+            "text": "désavantageux",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 7,
+            "text": "défaillant",
+            "raison": "Aucun duplicata trouvé"
+          }
+        ],
+        "recommandations": {
+          "erreursAConserverCritere4": [],
+          "erreursAConserverCritere5": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "erreursASupprimer": {
+            "critere4": [],
+            "critere5": []
+          }
+        }
+      }
+    }
+  }
+}

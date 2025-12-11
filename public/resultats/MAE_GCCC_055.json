@@ -1,0 +1,2018 @@
+{
+  "processedAt": "2025-12-10T14:30:29.700Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_055.txt",
+    "originalText": "La prochaine fois\r\n\r\nChers lecteurs,Il y a quelques millénaires, la vie de nos ancêtres était difficile. Ils peuvent seulement chasser, pêcher et manger des légumes et des fruits d'une certaine qualité. De nos jours, la vie est facile, toutes les nourritures que nous voulons sont à l'épicerie, il n'y a pas des limites pour les acheter et ça nous souvent influence à surconsommer. À mon avis, nous ne sommes pas prêts à lutter contre le gaspillage alimentaire parce qu'il survient tout au long de la chaîne d'approvisionnement alimentaire et parce qu'il y a un manque de support par nos gouvernements.\r\n\r\nPremièrement, cher public, parlons du gaspillage, savez-vous que millions de tonnes de nourriture sont gâcher dans le monde ? En effet, plus de 2 millions de tonnes d'aliments sont gaspillés par les familles canadiennes chaque année et d'environ 931 millions tonnes par toute le monde. Selon une statistique dans «Répartition du gaspillage, [...]», 10% est d'étape production, 20% de la transformation, 4% du transport, 19% pour la vente au détail, restauration et hôtellerie et 47% pour la consommation. (Table québécoise sur la saine alimentation, 2019) En outre, à propos des produits aux marchés, «Certains agriculteurs hésitent à distribuer aux épiceries des aliments qui ne répondent pas aux standards esthétiques habituels». (Cameron, 2020) Beaucoup d'aliments sont vendus uniquement en format familial et pour inciter à acheter les produits près de leurs dates limites, des publicités sont fait comme 2 pour 1. Bref, il y a des standards que nous voulons toujours avoir lorsqu'on achète des produits.\r\n\r\nDeuxièmement, cher lectorat, parlons d'argent, savez-vous que la transformation des aliments périssables coûte cher ? «[...] doit refuser environ 80% des demandes reçues et privilégier les grosses entreprises qui génèrent assez de résidus alimentaire pour justifier l'investissement». (Martinez, 2021) En plus, même s'il y a des banques alimentaires où les épiciers peuvents donner les denrées invendues, elles n'ont pas la capacité logistique de les recevoir toutes et nous avons besoin de support des gouvernements comme Corriveau a dit qu'ils doivent nous équiper et aider. Pour finir, leur restauration coûte chère et il n'y a pas des garanties que nos gouvernements nous aide car ils ont des choses plus importantes que sa.\r\n\r\nEn conclusion, chers lecteurs, nous ne somme pas prêts à lutter contre le gaspillage alimentaire, car il est inévitables et il va être toujours là. Bien sûre, qu'il y a des solutions, mais ces solutions ont souvent besoin d'argent et dans un temps de pandémie, la priorité des gouvernements sont de financer les plus importantes comme les vaccines. Je vous suggère quand-même de limiter le gaspillage, achetez en quantités raisonnables, planifiez les repas et faites une liste d'épicerie. Nous ne sommes pas préparer à totalement battre ce gaspillage, mais peut-être dans les prochaines années.",
+    "erreursCritere4": [
+      {
+        "text": "peuvent",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le temps du verbe n'est pas harmonisé avec le temps du verbe de la phrase précédente (« était » à l'imparfait). L'imparfait est requis pour décrire une action passée qui dure.",
+        "suggestions": [
+          "pouvaient"
+        ],
+        "ruleApplied": "4.1.2.2.4"
+      },
+      {
+        "text": "des",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Dans une phrase négative, l'article indéfini ou partitif (« un », « une », « des », « du », « de la ») est remplacé par la préposition « de » (ou « d' »).",
+        "suggestions": [
+          "de"
+        ],
+        "ruleApplied": "4.1.2.1.3"
+      },
+      {
+        "text": "nous souvent influence",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'ordre des mots est incorrect. L'adverbe « souvent » se place généralement après le verbe qu'il modifie.",
+        "suggestions": [
+          "nous influence souvent"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "support",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Utilisation d'un calque de l'anglais (« support »). Le terme français approprié est « soutien ».",
+        "suggestions": [
+          "soutien"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "est d'étape production",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction de phrase boiteuse. Il manque des mots essentiels (articles, préposition) pour que la phrase soit correcte et claire.",
+        "suggestions": [
+          "provient de l'étape de la production"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "standards",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Utilisation d'un calque de l'anglais (« standards »). Le terme français approprié est « normes ».",
+        "suggestions": [
+          "normes"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "standards",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Répétition d'un calque de l'anglais déjà signalé dans le texte.",
+        "suggestions": [
+          "normes"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "des",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "S",
+        "description": "Dans une phrase négative, l'article indéfini « des » est remplacé par la préposition « de ».",
+        "suggestions": [
+          "de"
+        ],
+        "ruleApplied": "4.1.2.1.3"
+      },
+      {
+        "text": "va être toujours",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'ordre des mots est incorrect. Dans une construction avec un verbe au futur proche, l'adverbe « toujours » se place généralement entre l'auxiliaire et l'infinitif.",
+        "suggestions": [
+          "va toujours être"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "achetez",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de syntaxe dans la coordination. La phrase commence par « Je vous suggère de limiter... », ce qui introduit une série d'actions à l'infinitif. Les verbes qui suivent doivent aussi être à l'infinitif (« acheter », « planifier », « faire ») et non à l'impératif.",
+        "suggestions": [
+          "d'acheter"
+        ],
+        "ruleApplied": "4.1.2.1.8"
+      },
+      {
+        "text": "millions tonnes",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence de la préposition 'de' après 'millions'. La construction correcte est 'millions de tonnes'.",
+        "suggestions": [
+          "millions de tonnes"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "comme Corriveau a dit que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Calque de l'anglais ou construction relevant de la langue orale. Une formulation plus correcte serait 'comme l'a dit Corriveau,' ou 'selon Corriveau,'.",
+        "suggestions": [
+          "comme l'a dit Corriveau,",
+          "selon ce que Corriveau a dit,"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "leur restauration",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Problème de sens (impropriété). Le mot 'restauration' est inadéquat dans ce contexte. 'Transformation' ou 'traitement' serait plus approprié pour parler des denrées invendues.",
+        "suggestions": [
+          "leur transformation"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": "Bien sûre, que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le mot 'que' est superflu après la locution 'Bien sûr,'. De plus, 'sûr' est invariable dans cette locution et ne s'accorde pas.",
+        "suggestions": [
+          "Bien sûr,"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 13,
+      "note": "C"
+    },
+    "erreursCritere5": [
+      {
+        "text": "gâcher",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif en « -er » et le participe passé en « -é ». Après l'auxiliaire « être », il faut utiliser le participe passé et l'accorder avec le sujet « millions de tonnes de nourriture » (féminin pluriel).",
+        "suggestions": [
+          "gâchées"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "toute le monde",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en genre. Le nom « monde » est masculin, le déterminant doit donc être « tout ».",
+        "suggestions": [
+          "tout le monde"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "fait",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord du participe passé. Employé avec l'auxiliaire « être », le participe passé « fait » doit s'accorder en genre et en nombre avec le sujet « des publicités » (féminin pluriel).",
+        "suggestions": [
+          "faites"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "alimentaire",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. L'adjectif « alimentaire » doit s'accorder avec le nom « résidus » (masculin pluriel).",
+        "suggestions": [
+          "alimentaires"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "peuvents",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Barbarisme de conjugaison. La terminaison du verbe « pouvoir » à la troisième personne du pluriel du présent de l'indicatif est « -ent », sans « s ».",
+        "suggestions": [
+          "peuvent"
+        ],
+        "ruleApplied": "5.3.2.1"
+      },
+      {
+        "text": "chère",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord. Le mot « cher » est ici un adverbe qui modifie le verbe « coûter », il est donc invariable.",
+        "suggestions": [
+          "cher"
+        ],
+        "ruleApplied": "5.3.1.6"
+      },
+      {
+        "text": "aide",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord du verbe. Le sujet est « nos gouvernements » (troisième personne du pluriel), le verbe « aider » doit donc se terminer par « -ent ».",
+        "suggestions": [
+          "aident"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "sa",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion d'homophones grammaticaux. Il faut utiliser le pronom démonstratif « ça » (contraction de « cela ») et non le déterminant possessif « sa ».",
+        "suggestions": [
+          "ça"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "text": "somme",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Barbarisme de conjugaison. La forme correcte du verbe « être » à la première personne du pluriel du présent de l'indicatif est « sommes ».",
+        "suggestions": [
+          "sommes"
+        ],
+        "ruleApplied": "5.3.2.1"
+      },
+      {
+        "text": "inévitables",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. L'attribut du sujet « inévitables » doit s'accorder avec le pronom sujet « il » (mis pour « le gaspillage alimentaire »), qui est au singulier.",
+        "suggestions": [
+          "inévitable"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "Bien sûre",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord. La locution adverbiale « bien sûr » est invariable.",
+        "suggestions": [
+          "Bien sûr"
+        ],
+        "ruleApplied": "5.3.1.6"
+      },
+      {
+        "text": "sont",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord du verbe. Le sujet est « la priorité » (troisième personne du singulier), le verbe « être » doit donc être « est ».",
+        "suggestions": [
+          "est"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "les plus importantes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en genre et en nombre. Le pronom « les plus importantes » semble se rapporter au sujet « la priorité », qui est féminin singulier. L'accord doit se faire au féminin singulier. Donneur: « la priorité ».",
+        "suggestions": [
+          "la plus importante"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "vaccines",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur lexicale due à un calque de l'anglais. Le mot français correct est « vaccins ».",
+        "suggestions": [
+          "vaccins"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "quand-même",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Barbarisme orthographique. La locution adverbiale « quand même » s'écrit en deux mots, sans trait d'union.",
+        "suggestions": [
+          "quand même"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "text": "préparer",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif en « -er » et le participe passé en « -é ». Après l'auxiliaire « être » (ici, « sommes »), il faut utiliser le participe passé et l'accorder avec le sujet « Nous » (masculin pluriel par défaut).",
+        "suggestions": [
+          "préparés"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "Il",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Majuscule erronée après une virgule à l'intérieur d'une phrase. Une espace est également manquante après la virgule.",
+        "suggestions": [
+          "il"
+        ],
+        "ruleApplied": "5.3.6.1"
+      },
+      {
+        "text": "support",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Anglicisme. Le terme correct en français pour désigner une aide ou un appui est 'soutien'.",
+        "suggestions": [
+          "soutien"
+        ],
+        "ruleApplied": "5.2.6.5"
+      },
+      {
+        "text": "standards",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Anglicisme. Le terme correct en français est 'normes'.",
+        "suggestions": [
+          "normes"
+        ],
+        "ruleApplied": "5.2.6.5"
+      },
+      {
+        "text": "standards",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Répétition de l'anglicisme 'standards', déjà signalé.",
+        "suggestions": [
+          "normes"
+        ],
+        "ruleApplied": "5.1.3"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 19,
+      "note": "E"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:25:26.920Z",
+    "endTimestamp": "2025-12-10T14:30:29.700Z",
+    "durationMs": 302780,
+    "durationFormatted": "05:02:780",
+    "cumulParPasse": [
+      {
+        "passe": 1,
+        "erreursCritere4": [
+          {
+            "text": "peuvent",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le temps du verbe n'est pas harmonisé avec le temps du verbe de la phrase précédente (« était » à l'imparfait). L'imparfait est requis pour décrire une action passée qui dure.",
+            "suggestions": [
+              "pouvaient"
+            ],
+            "ruleApplied": "4.1.2.2.4"
+          },
+          {
+            "text": "des",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Dans une phrase négative, l'article indéfini ou partitif (« un », « une », « des », « du », « de la ») est remplacé par la préposition « de » (ou « d' »).",
+            "suggestions": [
+              "de"
+            ],
+            "ruleApplied": "4.1.2.1.3"
+          },
+          {
+            "text": "nous souvent influence",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'ordre des mots est incorrect. L'adverbe « souvent » se place généralement après le verbe qu'il modifie.",
+            "suggestions": [
+              "nous influence souvent"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "support",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Utilisation d'un calque de l'anglais (« support »). Le terme français approprié est « soutien ».",
+            "suggestions": [
+              "soutien"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "millions",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Absence d'un mot essentiel. La locution correcte est « des millions de ».",
+            "suggestions": [
+              "des millions"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "tonnes",
+            "occurenceIndex": 1,
+            "criteria": 4,
+            "type": "S",
+            "description": "Absence d'un mot essentiel. Après « millions », la préposition « de » est requise avant le nom.",
+            "suggestions": [
+              "millions de tonnes"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "est d'étape production",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Construction de phrase boiteuse. Il manque des mots essentiels (articles, préposition) pour que la phrase soit correcte et claire.",
+            "suggestions": [
+              "provient de l'étape de la production"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "standards",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Utilisation d'un calque de l'anglais (« standards »). Le terme français approprié est « normes ».",
+            "suggestions": [
+              "normes"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "standards",
+            "occurenceIndex": 1,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "Répétition d'un calque de l'anglais déjà signalé dans le texte.",
+            "suggestions": [
+              "normes"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "support",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "Répétition d'un calque de l'anglais (« support ») déjà signalé dans le texte.",
+            "suggestions": [
+              "soutien"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "des",
+            "occurenceIndex": 1,
+            "criteria": 4,
+            "type": "S",
+            "description": "Dans une phrase négative, l'article indéfini « des » est remplacé par la préposition « de ».",
+            "suggestions": [
+              "de"
+            ],
+            "ruleApplied": "4.1.2.1.3"
+          },
+          {
+            "text": "va être toujours",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'ordre des mots est incorrect. Dans une construction avec un verbe au futur proche, l'adverbe « toujours » se place généralement entre l'auxiliaire et l'infinitif.",
+            "suggestions": [
+              "va toujours être"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "que",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Mot superflu. La conjonction « que » n'est pas nécessaire après la locution « Bien sûr, » lorsque celle-ci est suivie d'une phrase complète.",
+            "suggestions": [
+              ""
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "achetez",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Erreur de syntaxe dans la coordination. La phrase commence par « Je vous suggère de limiter... », ce qui introduit une série d'actions à l'infinitif. Les verbes qui suivent doivent aussi être à l'infinitif (« acheter », « planifier », « faire ») et non à l'impératif.",
+            "suggestions": [
+              "d'acheter"
+            ],
+            "ruleApplied": "4.1.2.1.8"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "gâcher",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre l'infinitif en « -er » et le participe passé en « -é ». Après l'auxiliaire « être », il faut utiliser le participe passé et l'accorder avec le sujet « millions de tonnes de nourriture » (féminin pluriel).",
+            "suggestions": [
+              "gâchées"
+            ],
+            "ruleApplied": "5.3.2.6"
+          },
+          {
+            "text": "toute le monde",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en genre. Le nom « monde » est masculin, le déterminant doit donc être « tout ».",
+            "suggestions": [
+              "tout le monde"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "fait",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord du participe passé. Employé avec l'auxiliaire « être », le participe passé « fait » doit s'accorder en genre et en nombre avec le sujet « des publicités » (féminin pluriel).",
+            "suggestions": [
+              "faites"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "alimentaire",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en nombre. L'adjectif « alimentaire » doit s'accorder avec le nom « résidus » (masculin pluriel).",
+            "suggestions": [
+              "alimentaires"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "peuvents",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Barbarisme de conjugaison. La terminaison du verbe « pouvoir » à la troisième personne du pluriel du présent de l'indicatif est « -ent », sans « s ».",
+            "suggestions": [
+              "peuvent"
+            ],
+            "ruleApplied": "5.3.2.1"
+          },
+          {
+            "text": "chère",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord. Le mot « cher » est ici un adverbe qui modifie le verbe « coûter », il est donc invariable.",
+            "suggestions": [
+              "cher"
+            ],
+            "ruleApplied": "5.3.1.6"
+          },
+          {
+            "text": "aide",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord du verbe. Le sujet est « nos gouvernements » (troisième personne du pluriel), le verbe « aider » doit donc se terminer par « -ent ».",
+            "suggestions": [
+              "aident"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "sa",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion d'homophones grammaticaux. Il faut utiliser le pronom démonstratif « ça » (contraction de « cela ») et non le déterminant possessif « sa ».",
+            "suggestions": [
+              "ça"
+            ],
+            "ruleApplied": "5.3.3.1"
+          },
+          {
+            "text": "somme",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Barbarisme de conjugaison. La forme correcte du verbe « être » à la première personne du pluriel du présent de l'indicatif est « sommes ».",
+            "suggestions": [
+              "sommes"
+            ],
+            "ruleApplied": "5.3.2.1"
+          },
+          {
+            "text": "inévitables",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en nombre. L'attribut du sujet « inévitables » doit s'accorder avec le pronom sujet « il » (mis pour « le gaspillage alimentaire »), qui est au singulier.",
+            "suggestions": [
+              "inévitable"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "Bien sûre",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord. La locution adverbiale « bien sûr » est invariable.",
+            "suggestions": [
+              "Bien sûr"
+            ],
+            "ruleApplied": "5.3.1.6"
+          },
+          {
+            "text": "sont",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord du verbe. Le sujet est « la priorité » (troisième personne du singulier), le verbe « être » doit donc être « est ».",
+            "suggestions": [
+              "est"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "les plus importantes",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en genre et en nombre. Le pronom « les plus importantes » semble se rapporter au sujet « la priorité », qui est féminin singulier. L'accord doit se faire au féminin singulier. Donneur: « la priorité ».",
+            "suggestions": [
+              "la plus importante"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "vaccines",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Erreur lexicale due à un calque de l'anglais. Le mot français correct est « vaccins ».",
+            "suggestions": [
+              "vaccins"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "quand-même",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Barbarisme orthographique. La locution adverbiale « quand même » s'écrit en deux mots, sans trait d'union.",
+            "suggestions": [
+              "quand même"
+            ],
+            "ruleApplied": "5.2.6.4"
+          },
+          {
+            "text": "préparer",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre l'infinitif en « -er » et le participe passé en « -é ». Après l'auxiliaire « être » (ici, « sommes »), il faut utiliser le participe passé et l'accorder avec le sujet « Nous » (masculin pluriel par défaut).",
+            "suggestions": [
+              "préparés"
+            ],
+            "ruleApplied": "5.3.2.6"
+          }
+        ],
+        "totalErreursCritere4": 14,
+        "totalErreursCritere5": 16,
+        "scoreCritere4": {
+          "pointsPerdus": 12,
+          "note": "C"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 16,
+          "note": "D"
+        }
+      },
+      {
+        "passe": 2,
+        "erreursCritere4": [
+          {
+            "text": "peuvent",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le temps du verbe n'est pas harmonisé avec le temps du verbe de la phrase précédente (« était » à l'imparfait). L'imparfait est requis pour décrire une action passée qui dure.",
+            "suggestions": [
+              "pouvaient"
+            ],
+            "ruleApplied": "4.1.2.2.4"
+          },
+          {
+            "text": "des",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Dans une phrase négative, l'article indéfini ou partitif (« un », « une », « des », « du », « de la ») est remplacé par la préposition « de » (ou « d' »).",
+            "suggestions": [
+              "de"
+            ],
+            "ruleApplied": "4.1.2.1.3"
+          },
+          {
+            "text": "nous souvent influence",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'ordre des mots est incorrect. L'adverbe « souvent » se place généralement après le verbe qu'il modifie.",
+            "suggestions": [
+              "nous influence souvent"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "support",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Utilisation d'un calque de l'anglais (« support »). Le terme français approprié est « soutien ».",
+            "suggestions": [
+              "soutien"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "millions",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Absence d'un mot essentiel. La locution correcte est « des millions de ».",
+            "suggestions": [
+              "des millions"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "tonnes",
+            "occurenceIndex": 1,
+            "criteria": 4,
+            "type": "S",
+            "description": "Absence d'un mot essentiel. Après « millions », la préposition « de » est requise avant le nom.",
+            "suggestions": [
+              "millions de tonnes"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "est d'étape production",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Construction de phrase boiteuse. Il manque des mots essentiels (articles, préposition) pour que la phrase soit correcte et claire.",
+            "suggestions": [
+              "provient de l'étape de la production"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "standards",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Utilisation d'un calque de l'anglais (« standards »). Le terme français approprié est « normes ».",
+            "suggestions": [
+              "normes"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "standards",
+            "occurenceIndex": 1,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "Répétition d'un calque de l'anglais déjà signalé dans le texte.",
+            "suggestions": [
+              "normes"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "support",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "Répétition d'un calque de l'anglais (« support ») déjà signalé dans le texte.",
+            "suggestions": [
+              "soutien"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "des",
+            "occurenceIndex": 1,
+            "criteria": 4,
+            "type": "S",
+            "description": "Dans une phrase négative, l'article indéfini « des » est remplacé par la préposition « de ».",
+            "suggestions": [
+              "de"
+            ],
+            "ruleApplied": "4.1.2.1.3"
+          },
+          {
+            "text": "va être toujours",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'ordre des mots est incorrect. Dans une construction avec un verbe au futur proche, l'adverbe « toujours » se place généralement entre l'auxiliaire et l'infinitif.",
+            "suggestions": [
+              "va toujours être"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "que",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Mot superflu. La conjonction « que » n'est pas nécessaire après la locution « Bien sûr, » lorsque celle-ci est suivie d'une phrase complète.",
+            "suggestions": [
+              ""
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "achetez",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Erreur de syntaxe dans la coordination. La phrase commence par « Je vous suggère de limiter... », ce qui introduit une série d'actions à l'infinitif. Les verbes qui suivent doivent aussi être à l'infinitif (« acheter », « planifier », « faire ») et non à l'impératif.",
+            "suggestions": [
+              "d'acheter"
+            ],
+            "ruleApplied": "4.1.2.1.8"
+          },
+          {
+            "text": "millions tonnes",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Absence de la préposition 'de' après 'millions'. La construction correcte est 'millions de tonnes'.",
+            "suggestions": [
+              "millions de tonnes"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "comme Corriveau a dit que",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Calque de l'anglais ou construction relevant de la langue orale. Une formulation plus correcte serait 'comme l'a dit Corriveau,' ou 'selon Corriveau,'.",
+            "suggestions": [
+              "comme l'a dit Corriveau,",
+              "selon ce que Corriveau a dit,"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "leur restauration",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Problème de sens (impropriété). Le mot 'restauration' est inadéquat dans ce contexte. 'Transformation' ou 'traitement' serait plus approprié pour parler des denrées invendues.",
+            "suggestions": [
+              "leur transformation"
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          },
+          {
+            "text": "Bien sûre, que",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le mot 'que' est superflu après la locution 'Bien sûr,'. De plus, 'sûr' est invariable dans cette locution et ne s'accorde pas.",
+            "suggestions": [
+              "Bien sûr,"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "gâcher",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre l'infinitif en « -er » et le participe passé en « -é ». Après l'auxiliaire « être », il faut utiliser le participe passé et l'accorder avec le sujet « millions de tonnes de nourriture » (féminin pluriel).",
+            "suggestions": [
+              "gâchées"
+            ],
+            "ruleApplied": "5.3.2.6"
+          },
+          {
+            "text": "toute le monde",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en genre. Le nom « monde » est masculin, le déterminant doit donc être « tout ».",
+            "suggestions": [
+              "tout le monde"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "fait",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord du participe passé. Employé avec l'auxiliaire « être », le participe passé « fait » doit s'accorder en genre et en nombre avec le sujet « des publicités » (féminin pluriel).",
+            "suggestions": [
+              "faites"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "alimentaire",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en nombre. L'adjectif « alimentaire » doit s'accorder avec le nom « résidus » (masculin pluriel).",
+            "suggestions": [
+              "alimentaires"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "peuvents",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Barbarisme de conjugaison. La terminaison du verbe « pouvoir » à la troisième personne du pluriel du présent de l'indicatif est « -ent », sans « s ».",
+            "suggestions": [
+              "peuvent"
+            ],
+            "ruleApplied": "5.3.2.1"
+          },
+          {
+            "text": "chère",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord. Le mot « cher » est ici un adverbe qui modifie le verbe « coûter », il est donc invariable.",
+            "suggestions": [
+              "cher"
+            ],
+            "ruleApplied": "5.3.1.6"
+          },
+          {
+            "text": "aide",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord du verbe. Le sujet est « nos gouvernements » (troisième personne du pluriel), le verbe « aider » doit donc se terminer par « -ent ».",
+            "suggestions": [
+              "aident"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "sa",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion d'homophones grammaticaux. Il faut utiliser le pronom démonstratif « ça » (contraction de « cela ») et non le déterminant possessif « sa ».",
+            "suggestions": [
+              "ça"
+            ],
+            "ruleApplied": "5.3.3.1"
+          },
+          {
+            "text": "somme",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Barbarisme de conjugaison. La forme correcte du verbe « être » à la première personne du pluriel du présent de l'indicatif est « sommes ».",
+            "suggestions": [
+              "sommes"
+            ],
+            "ruleApplied": "5.3.2.1"
+          },
+          {
+            "text": "inévitables",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en nombre. L'attribut du sujet « inévitables » doit s'accorder avec le pronom sujet « il » (mis pour « le gaspillage alimentaire »), qui est au singulier.",
+            "suggestions": [
+              "inévitable"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "Bien sûre",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord. La locution adverbiale « bien sûr » est invariable.",
+            "suggestions": [
+              "Bien sûr"
+            ],
+            "ruleApplied": "5.3.1.6"
+          },
+          {
+            "text": "sont",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord du verbe. Le sujet est « la priorité » (troisième personne du singulier), le verbe « être » doit donc être « est ».",
+            "suggestions": [
+              "est"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "les plus importantes",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en genre et en nombre. Le pronom « les plus importantes » semble se rapporter au sujet « la priorité », qui est féminin singulier. L'accord doit se faire au féminin singulier. Donneur: « la priorité ».",
+            "suggestions": [
+              "la plus importante"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "vaccines",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Erreur lexicale due à un calque de l'anglais. Le mot français correct est « vaccins ».",
+            "suggestions": [
+              "vaccins"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "quand-même",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Barbarisme orthographique. La locution adverbiale « quand même » s'écrit en deux mots, sans trait d'union.",
+            "suggestions": [
+              "quand même"
+            ],
+            "ruleApplied": "5.2.6.4"
+          },
+          {
+            "text": "préparer",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre l'infinitif en « -er » et le participe passé en « -é ». Après l'auxiliaire « être » (ici, « sommes »), il faut utiliser le participe passé et l'accorder avec le sujet « Nous » (masculin pluriel par défaut).",
+            "suggestions": [
+              "préparés"
+            ],
+            "ruleApplied": "5.3.2.6"
+          },
+          {
+            "text": "Il",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Majuscule erronée après une virgule à l'intérieur d'une phrase. Une espace est également manquante après la virgule.",
+            "suggestions": [
+              "il"
+            ],
+            "ruleApplied": "5.3.6.1"
+          },
+          {
+            "text": "support",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Anglicisme. Le terme correct en français pour désigner une aide ou un appui est 'soutien'.",
+            "suggestions": [
+              "soutien"
+            ],
+            "ruleApplied": "5.2.6.5"
+          },
+          {
+            "text": "toute",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en genre. Le nom 'monde' est masculin, le déterminant doit donc être 'tout'.",
+            "suggestions": [
+              "tout"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "standards",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Anglicisme. Le terme correct en français est 'normes'.",
+            "suggestions": [
+              "normes"
+            ],
+            "ruleApplied": "5.2.6.5"
+          },
+          {
+            "text": "standards",
+            "occurenceIndex": 1,
+            "criteria": 5,
+            "type": "(U)",
+            "description": "Répétition de l'anglicisme 'standards', déjà signalé.",
+            "suggestions": [
+              "normes"
+            ],
+            "ruleApplied": "5.1.3"
+          },
+          {
+            "text": "support",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "(U)",
+            "description": "Répétition de l'anglicisme 'support', déjà signalé.",
+            "suggestions": [
+              "soutien"
+            ],
+            "ruleApplied": "5.1.3"
+          },
+          {
+            "text": "somme",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Graphie erronée du verbe 'être' à la première personne du pluriel du présent de l'indicatif. Il manque le 's' final.",
+            "suggestions": [
+              "sommes"
+            ],
+            "ruleApplied": "5.2.1.3"
+          }
+        ],
+        "totalErreursCritere4": 18,
+        "totalErreursCritere5": 23,
+        "scoreCritere4": {
+          "pointsPerdus": 16,
+          "note": "D"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 21,
+          "note": "E"
+        }
+      }
+    ],
+    "erreursCritere4AvantAnalyseIA": [
+      {
+        "text": "peuvent",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le temps du verbe n'est pas harmonisé avec le temps du verbe de la phrase précédente (« était » à l'imparfait). L'imparfait est requis pour décrire une action passée qui dure.",
+        "suggestions": [
+          "pouvaient"
+        ],
+        "ruleApplied": "4.1.2.2.4"
+      },
+      {
+        "text": "des",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Dans une phrase négative, l'article indéfini ou partitif (« un », « une », « des », « du », « de la ») est remplacé par la préposition « de » (ou « d' »).",
+        "suggestions": [
+          "de"
+        ],
+        "ruleApplied": "4.1.2.1.3"
+      },
+      {
+        "text": "nous souvent influence",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'ordre des mots est incorrect. L'adverbe « souvent » se place généralement après le verbe qu'il modifie.",
+        "suggestions": [
+          "nous influence souvent"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "support",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Utilisation d'un calque de l'anglais (« support »). Le terme français approprié est « soutien ».",
+        "suggestions": [
+          "soutien"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "millions",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence d'un mot essentiel. La locution correcte est « des millions de ».",
+        "suggestions": [
+          "des millions"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "tonnes",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence d'un mot essentiel. Après « millions », la préposition « de » est requise avant le nom.",
+        "suggestions": [
+          "millions de tonnes"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "est d'étape production",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction de phrase boiteuse. Il manque des mots essentiels (articles, préposition) pour que la phrase soit correcte et claire.",
+        "suggestions": [
+          "provient de l'étape de la production"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "standards",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Utilisation d'un calque de l'anglais (« standards »). Le terme français approprié est « normes ».",
+        "suggestions": [
+          "normes"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "standards",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Répétition d'un calque de l'anglais déjà signalé dans le texte.",
+        "suggestions": [
+          "normes"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "support",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Répétition d'un calque de l'anglais (« support ») déjà signalé dans le texte.",
+        "suggestions": [
+          "soutien"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "des",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "S",
+        "description": "Dans une phrase négative, l'article indéfini « des » est remplacé par la préposition « de ».",
+        "suggestions": [
+          "de"
+        ],
+        "ruleApplied": "4.1.2.1.3"
+      },
+      {
+        "text": "va être toujours",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'ordre des mots est incorrect. Dans une construction avec un verbe au futur proche, l'adverbe « toujours » se place généralement entre l'auxiliaire et l'infinitif.",
+        "suggestions": [
+          "va toujours être"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Mot superflu. La conjonction « que » n'est pas nécessaire après la locution « Bien sûr, » lorsque celle-ci est suivie d'une phrase complète.",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "achetez",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de syntaxe dans la coordination. La phrase commence par « Je vous suggère de limiter... », ce qui introduit une série d'actions à l'infinitif. Les verbes qui suivent doivent aussi être à l'infinitif (« acheter », « planifier », « faire ») et non à l'impératif.",
+        "suggestions": [
+          "d'acheter"
+        ],
+        "ruleApplied": "4.1.2.1.8"
+      },
+      {
+        "text": "millions tonnes",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence de la préposition 'de' après 'millions'. La construction correcte est 'millions de tonnes'.",
+        "suggestions": [
+          "millions de tonnes"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "comme Corriveau a dit que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Calque de l'anglais ou construction relevant de la langue orale. Une formulation plus correcte serait 'comme l'a dit Corriveau,' ou 'selon Corriveau,'.",
+        "suggestions": [
+          "comme l'a dit Corriveau,",
+          "selon ce que Corriveau a dit,"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "leur restauration",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Problème de sens (impropriété). Le mot 'restauration' est inadéquat dans ce contexte. 'Transformation' ou 'traitement' serait plus approprié pour parler des denrées invendues.",
+        "suggestions": [
+          "leur transformation"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": "Bien sûre, que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le mot 'que' est superflu après la locution 'Bien sûr,'. De plus, 'sûr' est invariable dans cette locution et ne s'accorde pas.",
+        "suggestions": [
+          "Bien sûr,"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      }
+    ],
+    "erreursCritere5AvantAnalyseIA": [
+      {
+        "text": "gâcher",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif en « -er » et le participe passé en « -é ». Après l'auxiliaire « être », il faut utiliser le participe passé et l'accorder avec le sujet « millions de tonnes de nourriture » (féminin pluriel).",
+        "suggestions": [
+          "gâchées"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "toute le monde",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en genre. Le nom « monde » est masculin, le déterminant doit donc être « tout ».",
+        "suggestions": [
+          "tout le monde"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "fait",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord du participe passé. Employé avec l'auxiliaire « être », le participe passé « fait » doit s'accorder en genre et en nombre avec le sujet « des publicités » (féminin pluriel).",
+        "suggestions": [
+          "faites"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "alimentaire",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. L'adjectif « alimentaire » doit s'accorder avec le nom « résidus » (masculin pluriel).",
+        "suggestions": [
+          "alimentaires"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "peuvents",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Barbarisme de conjugaison. La terminaison du verbe « pouvoir » à la troisième personne du pluriel du présent de l'indicatif est « -ent », sans « s ».",
+        "suggestions": [
+          "peuvent"
+        ],
+        "ruleApplied": "5.3.2.1"
+      },
+      {
+        "text": "chère",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord. Le mot « cher » est ici un adverbe qui modifie le verbe « coûter », il est donc invariable.",
+        "suggestions": [
+          "cher"
+        ],
+        "ruleApplied": "5.3.1.6"
+      },
+      {
+        "text": "aide",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord du verbe. Le sujet est « nos gouvernements » (troisième personne du pluriel), le verbe « aider » doit donc se terminer par « -ent ».",
+        "suggestions": [
+          "aident"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "sa",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion d'homophones grammaticaux. Il faut utiliser le pronom démonstratif « ça » (contraction de « cela ») et non le déterminant possessif « sa ».",
+        "suggestions": [
+          "ça"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "text": "somme",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Barbarisme de conjugaison. La forme correcte du verbe « être » à la première personne du pluriel du présent de l'indicatif est « sommes ».",
+        "suggestions": [
+          "sommes"
+        ],
+        "ruleApplied": "5.3.2.1"
+      },
+      {
+        "text": "inévitables",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. L'attribut du sujet « inévitables » doit s'accorder avec le pronom sujet « il » (mis pour « le gaspillage alimentaire »), qui est au singulier.",
+        "suggestions": [
+          "inévitable"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "Bien sûre",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord. La locution adverbiale « bien sûr » est invariable.",
+        "suggestions": [
+          "Bien sûr"
+        ],
+        "ruleApplied": "5.3.1.6"
+      },
+      {
+        "text": "sont",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord du verbe. Le sujet est « la priorité » (troisième personne du singulier), le verbe « être » doit donc être « est ».",
+        "suggestions": [
+          "est"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "les plus importantes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en genre et en nombre. Le pronom « les plus importantes » semble se rapporter au sujet « la priorité », qui est féminin singulier. L'accord doit se faire au féminin singulier. Donneur: « la priorité ».",
+        "suggestions": [
+          "la plus importante"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "vaccines",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur lexicale due à un calque de l'anglais. Le mot français correct est « vaccins ».",
+        "suggestions": [
+          "vaccins"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "quand-même",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Barbarisme orthographique. La locution adverbiale « quand même » s'écrit en deux mots, sans trait d'union.",
+        "suggestions": [
+          "quand même"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "text": "préparer",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif en « -er » et le participe passé en « -é ». Après l'auxiliaire « être » (ici, « sommes »), il faut utiliser le participe passé et l'accorder avec le sujet « Nous » (masculin pluriel par défaut).",
+        "suggestions": [
+          "préparés"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "Il",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Majuscule erronée après une virgule à l'intérieur d'une phrase. Une espace est également manquante après la virgule.",
+        "suggestions": [
+          "il"
+        ],
+        "ruleApplied": "5.3.6.1"
+      },
+      {
+        "text": "support",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Anglicisme. Le terme correct en français pour désigner une aide ou un appui est 'soutien'.",
+        "suggestions": [
+          "soutien"
+        ],
+        "ruleApplied": "5.2.6.5"
+      },
+      {
+        "text": "toute",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en genre. Le nom 'monde' est masculin, le déterminant doit donc être 'tout'.",
+        "suggestions": [
+          "tout"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "standards",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Anglicisme. Le terme correct en français est 'normes'.",
+        "suggestions": [
+          "normes"
+        ],
+        "ruleApplied": "5.2.6.5"
+      },
+      {
+        "text": "standards",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Répétition de l'anglicisme 'standards', déjà signalé.",
+        "suggestions": [
+          "normes"
+        ],
+        "ruleApplied": "5.1.3"
+      },
+      {
+        "text": "support",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Répétition de l'anglicisme 'support', déjà signalé.",
+        "suggestions": [
+          "soutien"
+        ],
+        "ruleApplied": "5.1.3"
+      },
+      {
+        "text": "somme",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Graphie erronée du verbe 'être' à la première personne du pluriel du présent de l'indicatif. Il manque le 's' final.",
+        "suggestions": [
+          "sommes"
+        ],
+        "ruleApplied": "5.2.1.3"
+      }
+    ],
+    "analyseIADuplicatas": {
+      "critere4": {
+        "analyse": {
+          "totalErreursCritere4": 18,
+          "totalErreursCritere5": 0,
+          "duplicatasCritere4": 4,
+          "duplicatasCritere5": 0
+        },
+        "duplicatasCritere4": [
+          {
+            "groupe": 1,
+            "confiance": 100,
+            "raison": "Texte et occurrence identiques, même règle appliquée. La description de l'erreur à l'index 9 confirme qu'il s'agit d'une répétition.",
+            "erreurs": [
+              {
+                "index": 3,
+                "text": "support",
+                "garder": true
+              },
+              {
+                "index": 9,
+                "text": "support",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 2,
+            "confiance": 95,
+            "raison": "Les trois erreurs signalent la même omission de la préposition 'de' dans l'expression 'millions de tonnes'. L'erreur à l'index 14 est la plus complète car elle englobe les deux mots concernés.",
+            "erreurs": [
+              {
+                "index": 14,
+                "text": "millions tonnes",
+                "garder": true
+              },
+              {
+                "index": 4,
+                "text": "millions",
+                "garder": false
+              },
+              {
+                "index": 5,
+                "text": "tonnes",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 3,
+            "confiance": 98,
+            "raison": "Les deux erreurs signalent le mot 'que' superflu au même endroit. L'erreur à l'index 17 est plus complète car elle inclut le contexte 'Bien sûr,' et signale une erreur d'orthographe supplémentaire.",
+            "erreurs": [
+              {
+                "index": 17,
+                "text": "Bien sûre, que",
+                "garder": true
+              },
+              {
+                "index": 12,
+                "text": "que",
+                "garder": false
+              }
+            ]
+          }
+        ],
+        "duplicatasCritere5": [],
+        "erreursUniquesCritere4": [
+          {
+            "index": 0,
+            "text": "peuvent",
+            "raison": "Erreur de concordance des temps unique."
+          },
+          {
+            "index": 1,
+            "text": "des",
+            "raison": "Erreur d'article dans une phrase négative, occurrence 0. Distincte de l'occurrence 1."
+          },
+          {
+            "index": 2,
+            "text": "nous souvent influence",
+            "raison": "Erreur d'ordre des mots unique."
+          },
+          {
+            "index": 6,
+            "text": "est d'étape production",
+            "raison": "Construction de phrase boiteuse unique."
+          },
+          {
+            "index": 7,
+            "text": "standards",
+            "raison": "Calque de l'anglais, occurrence 0. Distinct de l'occurrence 1."
+          },
+          {
+            "index": 8,
+            "text": "standards",
+            "raison": "Calque de l'anglais, occurrence 1. Distinct de l'occurrence 0."
+          },
+          {
+            "index": 10,
+            "text": "des",
+            "raison": "Erreur d'article dans une phrase négative, occurrence 1. Distincte de l'occurrence 0."
+          },
+          {
+            "index": 11,
+            "text": "va être toujours",
+            "raison": "Erreur d'ordre des mots unique."
+          },
+          {
+            "index": 13,
+            "text": "achetez",
+            "raison": "Erreur de syntaxe dans la coordination unique."
+          },
+          {
+            "index": 15,
+            "text": "comme Corriveau a dit que",
+            "raison": "Construction relevant de la langue orale unique."
+          },
+          {
+            "index": 16,
+            "text": "leur restauration",
+            "raison": "Erreur de sens (impropriété) unique."
+          }
+        ],
+        "erreursUniquesCritere5": [],
+        "recommandations": {
+          "erreursAConserverCritere4": [
+            0,
+            1,
+            2,
+            3,
+            6,
+            7,
+            8,
+            10,
+            11,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "erreursAConserverCritere5": [],
+          "erreursASupprimer": {
+            "critere4": [
+              4,
+              5,
+              9,
+              12
+            ],
+            "critere5": []
+          }
+        }
+      },
+      "critere5": {
+        "analyse": {
+          "totalErreursCritere4": 0,
+          "totalErreursCritere5": 23,
+          "duplicatasCritere4": 0,
+          "duplicatasCritere5": 3
+        },
+        "duplicatasCritere4": [],
+        "duplicatasCritere5": [
+          {
+            "groupe": 1,
+            "confiance": 95,
+            "raison": "Même erreur d'accord en genre sur le mot 'monde', même occurrence. L'erreur 1 est plus complète.",
+            "erreurs": [
+              {
+                "index": 1,
+                "text": "toute le monde",
+                "garder": true
+              },
+              {
+                "index": 18,
+                "text": "toute",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 2,
+            "confiance": 100,
+            "raison": "Texte et occurrence identiques, même suggestion de correction. Les deux signalent la graphie erronée de 'sommes'.",
+            "erreurs": [
+              {
+                "index": 8,
+                "text": "somme",
+                "garder": true
+              },
+              {
+                "index": 22,
+                "text": "somme",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 3,
+            "confiance": 100,
+            "raison": "Texte et occurrence identiques. L'erreur 21 est explicitement marquée comme une répétition de l'anglicisme signalé en 17.",
+            "erreurs": [
+              {
+                "index": 17,
+                "text": "support",
+                "garder": true
+              },
+              {
+                "index": 21,
+                "text": "support",
+                "garder": false
+              }
+            ]
+          }
+        ],
+        "erreursUniquesCritere4": [],
+        "erreursUniquesCritere5": [
+          {
+            "index": 0,
+            "text": "gâcher",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 2,
+            "text": "fait",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 3,
+            "text": "alimentaire",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 4,
+            "text": "peuvents",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 5,
+            "text": "chère",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 6,
+            "text": "aide",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 7,
+            "text": "sa",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 9,
+            "text": "inévitables",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 10,
+            "text": "Bien sûre",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 11,
+            "text": "sont",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 12,
+            "text": "les plus importantes",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 13,
+            "text": "vaccines",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 14,
+            "text": "quand-même",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 15,
+            "text": "préparer",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 16,
+            "text": "Il",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 19,
+            "text": "standards",
+            "raison": "Erreur distincte (occurrence 0)"
+          },
+          {
+            "index": 20,
+            "text": "standards",
+            "raison": "Erreur distincte (occurrence 1)"
+          }
+        ],
+        "recommandations": {
+          "erreursAConserverCritere4": [],
+          "erreursAConserverCritere5": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            19,
+            20
+          ],
+          "erreursASupprimer": {
+            "critere4": [],
+            "critere5": [
+              18,
+              22,
+              21
+            ]
+          }
+        }
+      }
+    }
+  }
+}

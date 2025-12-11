@@ -1,0 +1,2534 @@
+{
+  "document": {
+    "titre": "Guide de correction - Critères 4 et 5",
+    "description": "Règles de catégorisation pour l'analyse et la détection d'erreurs en langue française",
+    "version": "1.0"
+  },
+  "criteres": [
+    {
+      "id": 4,
+      "nom": "Construction de phrases et ponctuation appropriées",
+      "description": "Évaluation de la syntaxe et de la ponctuation",
+      "marques_correction": {
+        "S": "Erreur de syntaxe",
+        "(S)": "Erreur de syntaxe non comptabilisée (autre erreur déjà marquée dans la même phrase syntaxique)",
+        "P": "Erreur de ponctuation (compte pour une demi-erreur)",
+        "(P)": "Erreur de ponctuation non comptabilisée",
+        "« P »": "Erreur relative au discours rapporté textuel",
+        "[P]": "Modification non signalée dans un discours rapporté textuel"
+      },
+      "maximum_erreurs": 24,
+      "sections": [
+        {
+          "id": "4.1",
+          "nom": "Erreurs de syntaxe",
+          "sous_sections": [
+            {
+              "id": "4.1.1",
+              "nom": "Principes généraux",
+              "regles": [
+                {
+                  "id": "4.1.1.1",
+                  "nom": "Principe 1 - Une erreur par phrase syntaxique",
+                  "description": "Pénaliser une seule erreur de syntaxe par phrase syntaxique (proposition). S'il y a lieu, mettre les autres erreurs de syntaxe entre parenthèses. Aux fins de l'évaluation, il y a autant de phrases syntaxiques qu'il y a de verbes conjugués. On exclut les infinitives et les participiales.",
+                  "exemples": [
+                    {
+                      "erreur": "Étant pas consciencieux, je m'ai trompé",
+                      "correction": "N'étant pas consciencieux, je me suis trompé",
+                      "explication": "1 phrase syntaxique → 1S",
+                      "type_erreur": "S (S)"
+                    },
+                    {
+                      "erreur": "Si j'aurais su, j'aurais pas venu",
+                      "correction": "Si j'avais su, je ne serais pas venu",
+                      "explication": "2 phrases syntaxiques → 2S",
+                      "type_erreur": "S S (S)"
+                    }
+                  ]
+                },
+                {
+                  "id": "4.1.1.2",
+                  "nom": "Principe 2 - Priorité de la syntaxe sur l'orthographe",
+                  "description": "Quand un mot ou une locution présente à la fois une erreur d'orthographe grammaticale ou d'usage et une erreur de syntaxe, ne pénaliser qu'une erreur de syntaxe, car celle-ci a priorité sur l'orthographe.",
+                  "exemples": [
+                    {
+                      "erreur": "Si j'aurait su [...]",
+                      "correction": "avais",
+                      "type_erreur": "S"
+                    },
+                    {
+                      "erreur": "Du a de mauvaises notes, [...]",
+                      "correction": "À cause de",
+                      "type_erreur": "S"
+                    }
+                  ],
+                  "exceptions": [
+                    {
+                      "condition": "S'il y a plus d'une erreur de syntaxe dans une phrase syntaxique",
+                      "action": "Pénaliser les erreurs d'orthographe grammaticale ou d'usage, peu importe l'ordre d'arrivée",
+                      "exemple": {
+                        "erreur": "Si les technologies serait vraiment utiles envers nous",
+                        "correction": "étaient, pour",
+                        "type_erreur": "G S"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "4.1.1.3",
+                  "nom": "Principe 3 - Ponctuation erronée causant une erreur de syntaxe",
+                  "description": "La présence d'un signe de ponctuation erroné entraîne assez souvent une erreur de syntaxe. On pénalise ce type d'erreur en ponctuation et non en syntaxe.",
+                  "exemples": [
+                    {
+                      "erreur": "Parce que je suis un « fan » du baladeur numérique. J'en aurai un partout où j'irai.",
+                      "correction": ", j'en…",
+                      "type_erreur": "P"
+                    }
+                  ]
+                },
+                {
+                  "id": "4.1.1.4",
+                  "nom": "Principe 4 - Passage nous/on/se",
+                  "description": "Accepter le passage du « nous » au « on » ou du « on » au « nous ». Refuser le passage du « nous » au « se » ou du « se » au « nous ».",
+                  "exemples": [
+                    {
+                      "erreur": "Nous devons absolument se soucier de l'avenir du français.",
+                      "correction": "nous",
+                      "type_erreur": "S"
+                    }
+                  ],
+                  "tolerances": [
+                    "Accepter un adjectif possessif ou pronom possessif de la 1re personne du pluriel avec le pronom on",
+                    "Tolérer le passage du « se » au « nous » dans une phrase impersonnelle"
+                  ]
+                },
+                {
+                  "id": "4.1.1.5",
+                  "nom": "Principe 5 - Erreur répétée avec même référent",
+                  "description": "À l'intérieur d'un paragraphe, une erreur n'est pénalisée qu'une fois s'il s'agit d'une erreur répétée, mais rattachée au même référent ou au même antécédent.",
+                  "exemples": [
+                    {
+                      "erreur": "Plusieurs élèves prétendent que la fin du secondaire est une étape importante pour son choix de carrière. En effet, ses notes finales doivent être excellentes...",
+                      "correction": "leur, leurs",
+                      "type_erreur": "S (S)"
+                    }
+                  ]
+                },
+                {
+                  "id": "4.1.1.6",
+                  "nom": "Principe 6 - Sources",
+                  "description": "Pénaliser un maximum de deux erreurs au critère 4 chaque fois que l'élève introduit une source dans le corps du texte ou la place en bas de page. Privilégier la syntaxe quand il y a des erreurs de syntaxe et de ponctuation.",
+                  "exemples": [
+                    {
+                      "erreur": "Hiroko Akiyama grande spécialiste du vieillissement de la population, et professeure envers l'Institut de gérontologie...",
+                      "correction": "P + P = 1 erreur, S = 1 erreur",
+                      "type_erreur": "P S"
+                    }
+                  ]
+                },
+                {
+                  "id": "4.1.1.7",
+                  "nom": "Principe 7 - Influence de la langue familière ou étrangère",
+                  "description": "L'influence de la langue familière, très familière ou celle d'une langue étrangère peut se manifester dans une erreur de syntaxe lorsque les éléments en cause correspondent à ceux qui sont énumérés au critère 4."
+                }
+              ]
+            },
+            {
+              "id": "4.1.2",
+              "nom": "Exemples d'erreurs de syntaxe",
+              "categories": [
+                {
+                  "id": "4.1.2.1",
+                  "nom": "La phrase et ses constituants (construction de la phrase)",
+                  "regles": [
+                    {
+                      "id": "4.1.2.1.1",
+                      "nom": "Absence d'un mot ou d'un groupe de mots essentiel",
+                      "exemples": [
+                        {
+                          "erreur": "Premièrement, ⭕ le domaine médical.",
+                          "correction": "(abordons)",
+                          "type_erreur": "S"
+                        },
+                        {
+                          "erreur": "La question que je vous pose est ⭕: doit-on [...]",
+                          "correction": "(la suivante)",
+                          "type_erreur": "S"
+                        },
+                        {
+                          "erreur": "Il n'est pas facile de comprendre un problème et ⭕ le régler.",
+                          "correction": "(de)",
+                          "type_erreur": "S"
+                        },
+                        {
+                          "erreur": "⭕ La biométrie permet ⭕ de mieux protéger les citoyens?",
+                          "correction": "(Est-ce que) ou (-elle)",
+                          "type_erreur": "S"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "4.1.2.1.2",
+                      "nom": "Présence d'un mot ou d'un groupe de mots superflu",
+                      "exemples": [
+                        {
+                          "erreur": "J'ai besoin de d'autres solutions.",
+                          "correction": "(de)",
+                          "type_erreur": "S"
+                        },
+                        {
+                          "erreur": "On veut-tu faire la même chose, ici, au Canada?",
+                          "correction": "(tu)",
+                          "type_erreur": "S"
+                        },
+                        {
+                          "erreur": "Selon Giorgio Ruffolo, il dit [...]",
+                          "correction": "(il dit)",
+                          "type_erreur": "S"
+                        },
+                        {
+                          "erreur": "À mon avis, je crois [...]",
+                          "correction": "(je crois)",
+                          "type_erreur": "S"
+                        },
+                        {
+                          "erreur": "Selon moi, je trouve [...]",
+                          "correction": "(je trouve)",
+                          "type_erreur": "S"
+                        }
+                      ],
+                      "tolerances": [
+                        "Pour ma part, je crois [...] → Correct",
+                        "Personnellement, je crois qu'il a raison. → Correct",
+                        "Personnellement, moi, je [...] → Correct"
+                      ]
+                    },
+                    {
+                      "id": "4.1.2.1.3",
+                      "nom": "Marques de la négation ou de la restriction mal employées",
+                      "exemples": [
+                        {
+                          "erreur": "Mais le problème est qu'on entend pas les automobiles arriver.",
+                          "correction": "n'",
+                          "type_erreur": "S"
+                        },
+                        {
+                          "erreur": "D'ailleurs, qui en n'a jamais essayé un?",
+                          "correction": "n'en a",
+                          "type_erreur": "S"
+                        },
+                        {
+                          "erreur": "Je n'ai pas eu aucun échec.",
+                          "correction": "",
+                          "type_erreur": "S"
+                        },
+                        {
+                          "erreur": "Je n'ai seulement qu'une preuve à vous donner.",
+                          "correction": "",
+                          "type_erreur": "S"
+                        }
+                      ],
+                      "tolerances": [
+                        "Accepter la présence ou l'absence du ne explétif",
+                        "Tolérer le ne explétif dans une subordonnée introduite par sans que"
+                      ]
+                    },
+                    {
+                      "id": "4.1.2.1.4",
+                      "nom": "Proposition subordonnée sans phrase matrice",
+                      "exemples": [
+                        {
+                          "erreur": "Premièrement, la mondialisation qui touche les enfants du tiers-monde. Les effets négatifs sont nombreux.",
+                          "correction": "Ajouter une phrase matrice",
+                          "type_erreur": "S"
+                        },
+                        {
+                          "erreur": "En deuxième lieu, parce que c'est épouvantable.",
+                          "correction": "En deuxième lieu, on doit lutter contre l'exploitation des travailleurs parce que c'est épouvantable.",
+                          "type_erreur": "S"
+                        },
+                        {
+                          "erreur": "En espérant que mes arguments vous seront utiles et profitables.",
+                          "correction": "Ajouter une phrase matrice",
+                          "type_erreur": "S"
+                        }
+                      ],
+                      "exceptions": [
+                        "Accepter l'absence de phrase matrice lorsque l'élève donne une réponse à une question",
+                        "Accepter certains pronoms démonstratifs comme phrase matrice (Ce qui m'amène...)"
+                      ]
+                    },
+                    {
+                      "id": "4.1.2.1.5",
+                      "nom": "Ordre incorrect des mots ou construction boiteuse",
+                      "exemples": [
+                        {
+                          "erreur": "Les polluants déchets sont toxiques",
+                          "correction": "Les déchets polluants",
+                          "type_erreur": "S"
+                        },
+                        {
+                          "erreur": "Un endroit le plus fréquenté dans Charlevoix",
+                          "correction": "parmi les plus fréquentés",
+                          "type_erreur": "S"
+                        },
+                        {
+                          "erreur": "On se demande où est-il.",
+                          "correction": "il est",
+                          "type_erreur": "S"
+                        },
+                        {
+                          "erreur": "Dites-moi-le si vous avez froid.",
+                          "correction": "Dites-le-moi",
+                          "type_erreur": "S"
+                        },
+                        {
+                          "erreur": "La Coupe du monde s'agit [...]",
+                          "correction": "Il s'agit",
+                          "type_erreur": "S"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "4.1.2.1.6",
+                      "nom": "Phrase dont la construction pose un problème de sens",
+                      "exemples": [
+                        {
+                          "erreur": "Je suis contre l'efficacité de l'aide humanitaire.",
+                          "correction": "Je pense que l'aide humanitaire n'est pas efficace.",
+                          "type_erreur": "S"
+                        },
+                        {
+                          "erreur": "On signale la disparition d'une grand-mère suspecte.",
+                          "correction": "On signale la disparition suspecte d'une grand-mère.",
+                          "type_erreur": "S"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "4.1.2.1.7",
+                      "nom": "Construction boiteuse avec un participe, un infinitif ou un adjectif",
+                      "exemples": [
+                        {
+                          "erreur": "Étant stupides, je crois que les sujets d'examen ne nous aident guère.",
+                          "correction": "Les sujets d'examen étant stupides, je crois qu'ils ne nous aident guère.",
+                          "type_erreur": "S"
+                        }
+                      ],
+                      "tolerances": [
+                        "Ne pas confondre avec l'organisateur textuel (Pour conclure, pour poursuivre...)",
+                        "Accepter que le participe ou l'infinitif n'ait pas de sujet exprimé s'il est suivi d'une phrase impersonnelle"
+                      ]
+                    },
+                    {
+                      "id": "4.1.2.1.8",
+                      "nom": "Phrases ou groupes de mots juxtaposés ou coordonnés n'ayant pas la même fonction grammaticale",
+                      "exemples": [
+                        {
+                          "erreur": "Elle a parlé du film et que vous aviez rendez-vous.",
+                          "correction": "de son rendez-vous avec toi.",
+                          "type_erreur": "S"
+                        },
+                        {
+                          "erreur": "Je traiterai des aspects social, humanitaire et comment s'en sortir.",
+                          "correction": "je proposerai des moyens pour s'en sortir.",
+                          "type_erreur": "S"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "4.1.2.1.9",
+                      "nom": "Confusion entre des mots de classes différentes presque homophoniques",
+                      "exemples": [
+                        {
+                          "erreur": "Il serait dont nécessaire de la vendre.",
+                          "correction": "donc",
+                          "type_erreur": "S"
+                        },
+                        {
+                          "erreur": "Prenons par exemple vote cellulaire.",
+                          "correction": "votre",
+                          "type_erreur": "S"
+                        },
+                        {
+                          "erreur": "J'accompagne ma grand-mère cher le médecin.",
+                          "correction": "chez",
+                          "type_erreur": "S"
+                        },
+                        {
+                          "erreur": "Il faut faire attention à nous achats.",
+                          "correction": "nos",
+                          "type_erreur": "S"
+                        },
+                        {
+                          "erreur": "Le gras n'est pas très bénéfice pour la santé.",
+                          "correction": "bénéfique",
+                          "type_erreur": "S"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "4.1.2.2",
+                  "nom": "Emploi des verbes",
+                  "regles": [
+                    {
+                      "id": "4.1.2.2.1",
+                      "nom": "Forme ou emploi erroné d'un auxiliaire de conjugaison dans un temps composé",
+                      "exemples": [
+                        {
+                          "erreur": "Un soir un homme avait rentré dans la maison.",
+                          "correction": "était",
+                          "type_erreur": "S"
+                        },
+                        {
+                          "erreur": "Il savait trompé encore une fois.",
+                          "correction": "s'était",
+                          "type_erreur": "S"
+                        },
+                        {
+                          "erreur": "Il s'avait trompé encore une foi",
+                          "correction": "s'était",
+                          "type_erreur": "S"
+                        },
+                        {
+                          "erreur": "Il faut que j'aie entré [...]",
+                          "correction": "je sois",
+                          "type_erreur": "S"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "4.1.2.2.2",
+                      "nom": "Emploi erroné d'un verbe transitif, intransitif ou pronominal",
+                      "exemples": [
+                        {
+                          "erreur": "Pour espérer de réussir [...]",
+                          "correction": "de trop",
+                          "type_erreur": "S"
+                        },
+                        {
+                          "erreur": "Il y a une loi qui interdit le piéton et le cycliste d'utiliser le baladeur numérique.",
+                          "correction": "au, au",
+                          "type_erreur": "S"
+                        },
+                        {
+                          "erreur": "Les élèves sont absentés beaucoup",
+                          "correction": "(se)",
+                          "type_erreur": "S"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "4.1.2.2.3",
+                      "nom": "Emploi erroné d'un mode ou d'un temps (concordance des temps)",
+                      "description": "Pénaliser une erreur par bloc d'erreurs. Mettre les autres erreurs entre parenthèses.",
+                      "exemples": [
+                        {
+                          "erreur": "Il pensait que vous viendrez à une heure.",
+                          "correction": "viendriez",
+                          "type_erreur": "S"
+                        },
+                        {
+                          "erreur": "S'ils n'existeraient pas, nous ne serions pas avancés.",
+                          "correction": "existaient",
+                          "type_erreur": "S"
+                        },
+                        {
+                          "erreur": "[...] j'espère que vous soyez d'accord avec moi.",
+                          "correction": "serez",
+                          "type_erreur": "S"
+                        },
+                        {
+                          "erreur": "Dans ce texte, je vous parlerais [...]",
+                          "correction": "parlerai",
+                          "type_erreur": "S"
+                        },
+                        {
+                          "erreur": "Si nous vendions notre eau, il y aura des pénuries, on manquera d'eau et des gens mourront.",
+                          "correction": "aurait, manquerait, mourraient",
+                          "type_erreur": "S (S) (S)"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "4.1.2.2.4",
+                      "nom": "Emploi erroné d'un mode ou d'un temps entre les phrases graphiques (harmonisation)",
+                      "description": "Compter une erreur par bloc d'erreurs.",
+                      "exemples": [
+                        {
+                          "erreur": "Si nous pouvons modifier le sexe de l'enfant, qui voudra aider les gens dans le besoin? On n'aurait plus de raison d'aider les plus démunis. Dans les familles, le problème s'aggraverait.",
+                          "correction": "aura, aggravera",
+                          "type_erreur": "S (S)"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "4.1.2.3",
+                  "nom": "Emploi des pronoms et des déterminants",
+                  "regles": [
+                    {
+                      "id": "4.1.2.3.1",
+                      "nom": "Emploi erroné d'un pronom d'après sa fonction syntaxique",
+                      "exemples": [
+                        {
+                          "erreur": "Le spectacle que je te parle sera présenté demain.",
+                          "correction": "dont",
+                          "type_erreur": "S"
+                        },
+                        {
+                          "erreur": "Tout ce qui leur intéresse est leur ordinateur.",
+                          "correction": "les",
+                          "type_erreur": "S"
+                        },
+                        {
+                          "erreur": "Je l'ai téléphoné hier soir.",
+                          "correction": "lui",
+                          "type_erreur": "S"
+                        },
+                        {
+                          "erreur": "[...] donner un sourire à ceux qu'ils en ont besoin.",
+                          "correction": "qui",
+                          "type_erreur": "S"
+                        },
+                        {
+                          "erreur": "Faites ce qui faut.",
+                          "correction": "qu'il",
+                          "type_erreur": "S"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "4.1.2.3.2",
+                      "nom": "Emploi erroné d'un déterminant référent ou d'un pronom selon les caractéristiques de son antécédent",
+                      "exemples": [
+                        {
+                          "erreur": "Plusieurs élèves prétendent que la fin du secondaire est une étape importante pour son choix de carrière.",
+                          "correction": "leur",
+                          "type_erreur": "S"
+                        },
+                        {
+                          "erreur": "[...] nous serons capables de s'en servir.",
+                          "correction": "nous",
+                          "type_erreur": "S"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "4.1.2.4",
+                  "nom": "Autres éléments syntaxiques",
+                  "regles": [
+                    {
+                      "id": "4.1.2.4.1",
+                      "nom": "Emploi erroné d'une préposition simple ou complexe",
+                      "exemples": [
+                        {
+                          "erreur": "Un homme attend sur un feu rouge.",
+                          "correction": "à",
+                          "type_erreur": "S"
+                        },
+                        {
+                          "erreur": "[...] donne des informations dans une fraction de seconde.",
+                          "correction": "en",
+                          "type_erreur": "S"
+                        },
+                        {
+                          "erreur": "Je suis en accord avec l'usage qu'on fait de l'ordinateur.",
+                          "correction": "d'accord",
+                          "type_erreur": "S"
+                        },
+                        {
+                          "erreur": "La biométrie, tant qu'à elle, suscite beaucoup de question",
+                          "correction": "quant à",
+                          "type_erreur": "S"
+                        },
+                        {
+                          "erreur": "Il y a plein des nouveaux vêtements.",
+                          "correction": "de",
+                          "type_erreur": "S"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "4.1.2.4.2",
+                      "nom": "Emploi erroné d'un coordonnant ou d'un subordonnant",
+                      "exemples": [
+                        {
+                          "erreur": "[...] les accepter comme qu'ils sont.",
+                          "correction": "comme ils",
+                          "type_erreur": "S"
+                        },
+                        {
+                          "erreur": "Je suis arrivé en retard à cause que j'ai raté l'autobus.",
+                          "correction": "parce que",
+                          "type_erreur": "S"
+                        },
+                        {
+                          "erreur": "Quand qu'on y réfléchit bien [...]",
+                          "correction": "quand on",
+                          "type_erreur": "S"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "4.1.2.4.3",
+                      "nom": "Emploi erroné d'un adverbe de forme simple ou complexe",
+                      "exemples": [
+                        {
+                          "erreur": "[...] nous rendre la tâche la plus facile que possible.",
+                          "correction": "la plus facile possible",
+                          "type_erreur": "S"
+                        },
+                        {
+                          "erreur": "Ils pensent tous pareil.",
+                          "correction": "ainsi",
+                          "type_erreur": "S"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "4.1.2.4.4",
+                      "nom": "Erreur de syntaxe attribuable à un calque de l'oral ou d'une langue étrangère",
+                      "exemples": [
+                        {
+                          "erreur": "Ce n'est pas pareil que d'avoir un ordinateur.",
+                          "correction": "comme",
+                          "type_erreur": "S"
+                        },
+                        {
+                          "erreur": "Je l'ai rencontré, même qu'il m'a autographié son livre.",
+                          "correction": "il m'a même",
+                          "type_erreur": "S"
+                        },
+                        {
+                          "erreur": "Ça fait qu'on doit cesser de surconsommer.",
+                          "correction": "Donc",
+                          "type_erreur": "S"
+                        },
+                        {
+                          "erreur": "Il a retrouvé son ami et il est parti avec.",
+                          "correction": "avec lui",
+                          "type_erreur": "S"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4.2",
+          "nom": "Erreurs de ponctuation",
+          "sous_sections": [
+            {
+              "id": "4.2.1",
+              "nom": "Principes généraux",
+              "regles": [
+                {
+                  "id": "4.2.1.1",
+                  "nom": "Valeur d'une erreur de ponctuation",
+                  "description": "Chaque maladresse de ponctuation compte pour une demi-erreur."
+                },
+                {
+                  "id": "4.2.1.2",
+                  "nom": "Signes en paire",
+                  "description": "Les signes de ponctuation qui doivent être utilisés en paire (guillemets, tirets, parenthèses, certaines virgules) comptent pour une seule erreur.",
+                  "exemples": [
+                    {
+                      "erreur": "L'argent ne règle pas tous les problèmes disait M. Lagacé il en est la cause.",
+                      "correction": "(,) et (,)",
+                      "type_erreur": "P (P)"
+                    }
+                  ]
+                },
+                {
+                  "id": "4.2.1.3",
+                  "nom": "Sources",
+                  "description": "Pénaliser un maximum de deux erreurs au critère 4 chaque fois que l'élève introduit une source. Privilégier la syntaxe quand il y a des erreurs de syntaxe et de ponctuation."
+                },
+                {
+                  "id": "4.2.1.4",
+                  "nom": "Discours rapporté",
+                  "description": "Ne pas pénaliser quand l'élève change la ponctuation dans un discours rapporté textuel, si ce changement n'entraîne pas d'erreur ni de modification de sens."
+                },
+                {
+                  "id": "4.2.1.5",
+                  "nom": "Signe en début de ligne",
+                  "description": "Lorsqu'un signe de ponctuation est placé au début de la ligne plutôt qu'à la fin de la ligne précédente, pénaliser à chaque occurrence."
+                },
+                {
+                  "id": "4.2.1.6",
+                  "nom": "Binettes (émoticônes)",
+                  "description": "Pénaliser les binettes.",
+                  "exemples": [
+                    {
+                      "erreur": "C'est bien! ;-)",
+                      "correction": "1P par texte pour l'ensemble des binettes",
+                      "type_erreur": "P"
+                    }
+                  ]
+                },
+                {
+                  "id": "4.2.1.7",
+                  "nom": "Combinaisons de signes dans les titres",
+                  "description": "N'accepter que certaines combinaisons de signes de ponctuation dans les titres ou intertitres.",
+                  "combinaisons_acceptees": [
+                    "...?",
+                    "...!",
+                    "!!",
+                    "!!!",
+                    "??",
+                    "???",
+                    "?!",
+                    "!?",
+                    "…!",
+                    "!..."
+                  ]
+                },
+                {
+                  "id": "4.2.1.8",
+                  "nom": "Cumul de signes",
+                  "description": "Pénaliser tout cumul de signes de ponctuation à l'intérieur du texte sauf à l'intérieur d'une séquence dialogale.",
+                  "exemples": [
+                    {
+                      "erreur": "Quelle horreur !?!",
+                      "correction": "!",
+                      "type_erreur": "P"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "4.2.2",
+              "nom": "Types d'erreurs de ponctuation",
+              "categories": [
+                {
+                  "id": "4.2.2.1",
+                  "nom": "Le point",
+                  "regles": [
+                    {
+                      "id": "4.2.2.1.1",
+                      "nom": "Absence du point",
+                      "description": "Absence à la fin d'une phrase, dans un renvoi en bas de page",
+                      "exemples": [
+                        {
+                          "erreur": "Les amis, c'est pour la vie⭕",
+                          "correction": ".",
+                          "type_erreur": "P"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "4.2.2.1.2",
+                      "nom": "Présence erronée du point",
+                      "description": "Présence erronée à l'intérieur d'une phrase ou à la fin d'un titre",
+                      "exemples": [
+                        {
+                          "erreur": "Quand je réfléchis à ces jeux. Je ne peux que me demander [...]",
+                          "correction": ", je",
+                          "type_erreur": "P"
+                        },
+                        {
+                          "erreur": "Les droits des animaux.",
+                          "correction": "Ø",
+                          "type_erreur": "P"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "4.2.2.2",
+                  "nom": "Le point d'interrogation",
+                  "regles": [
+                    {
+                      "id": "4.2.2.2.1",
+                      "nom": "Absence du point d'interrogation",
+                      "description": "Absence après toute phrase interrogative directe",
+                      "exemples": [
+                        {
+                          "erreur": "Que peut-on demander de plus.",
+                          "correction": "?",
+                          "type_erreur": "P"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "4.2.2.2.2",
+                      "nom": "Présence erronée du point d'interrogation",
+                      "description": "Présence erronée après un mot qui n'est pas interrogatif ou après une phrase interrogative indirecte",
+                      "exemples": [
+                        {
+                          "erreur": "Je me demande si les grands événements sportifs contribuent à améliorer le monde dans lequel nous vivons?",
+                          "correction": ".",
+                          "type_erreur": "P"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "4.2.2.3",
+                  "nom": "Le point d'exclamation",
+                  "regles": [
+                    {
+                      "id": "4.2.2.3.1",
+                      "nom": "Absence du point d'exclamation",
+                      "description": "Absence après une phrase exclamative ou une interjection",
+                      "exemples": [
+                        {
+                          "erreur": "Que de beaux moments j'ai vécus au secondaire.",
+                          "correction": "!",
+                          "type_erreur": "P"
+                        },
+                        {
+                          "erreur": "La langue française disparaîtra un jour. Hélas.",
+                          "correction": "!",
+                          "type_erreur": "P"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "4.2.2.3.2",
+                      "nom": "Présence erronée du point d'exclamation",
+                      "description": "Présence erronée après une simple affirmation",
+                      "exemples": [
+                        {
+                          "erreur": "Je présenterai deux aspects!",
+                          "correction": ".",
+                          "type_erreur": "P"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "4.2.2.4",
+                  "nom": "Les points de suspension",
+                  "regles": [
+                    {
+                      "id": "4.2.2.4.1",
+                      "nom": "Absence des points de suspension",
+                      "description": "Absence quand l'expression de la pensée est incomplète",
+                      "exemples": [
+                        {
+                          "erreur": "C'est bon pour les professeurs, mais pour les élèves.",
+                          "correction": "…",
+                          "type_erreur": "P"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "4.2.2.4.2",
+                      "nom": "Présence erronée des points de suspension",
+                      "description": "Présence erronée quand ils n'indiquent pas que l'expression de la pensée reste incomplète",
+                      "exemples": [
+                        {
+                          "erreur": "Je vous réponds ceci… Je ne perçois pas la nocivité du baladeur.",
+                          "correction": ": je",
+                          "type_erreur": "P"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "4.2.2.5",
+                  "nom": "Les guillemets",
+                  "regles": [
+                    {
+                      "id": "4.2.2.5.1",
+                      "nom": "Absence de guillemets",
+                      "description": "Pour encadrer un mot étranger ou un discours rapporté textuel",
+                      "exemples": [
+                        {
+                          "erreur": "Déjà, les TIC consomment autant d'énergie que l'ensemble de la circulation aérienne, souligne Brigitte Jaumard.",
+                          "correction": "(«)(»)",
+                          "type_erreur": "P"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "4.2.2.5.2",
+                      "nom": "Présence erronée de guillemets",
+                      "description": "Pour une reformulation ou une interrogation indirecte",
+                      "exemples": [
+                        {
+                          "erreur": "Le professeur a demandé « si nous avions fait notre devoir. »",
+                          "correction": "(Ø)(Ø)",
+                          "type_erreur": "P (P)"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "4.2.2.6",
+                  "nom": "Les points de suspension entre crochets",
+                  "regles": [
+                    {
+                      "id": "4.2.2.6.1",
+                      "nom": "Omission non signalée",
+                      "description": "L'élève doit utiliser [...] ou (...) pour signaler une omission dans un discours rapporté textuel",
+                      "type_erreur": "P"
+                    },
+                    {
+                      "id": "4.2.2.6.2",
+                      "nom": "Modification non signalée",
+                      "description": "L'élève doit mettre entre crochets tout changement ou tout ajout de mots à l'intérieur d'un discours rapporté textuel",
+                      "type_erreur": "[P]"
+                    }
+                  ]
+                },
+                {
+                  "id": "4.2.2.7",
+                  "nom": "Les deux-points",
+                  "regles": [
+                    {
+                      "id": "4.2.2.7.1",
+                      "nom": "Absence des deux-points",
+                      "description": "Absence devant une énumération, un discours rapporté direct, une explication, une définition, une cause ou une conséquence",
+                      "exemples": [
+                        {
+                          "erreur": "Les conditions d'admission sont les suivantes⭕ diplôme universitaire, bonne maîtrise de la langue, trois années d'expérience.",
+                          "correction": "(:)",
+                          "type_erreur": "P"
+                        },
+                        {
+                          "erreur": "Je me pose la question suivante⭕ Les personnes âgées [...]",
+                          "correction": "(: les)",
+                          "type_erreur": "P"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "4.2.2.7.2",
+                      "nom": "Présence erronée des deux-points",
+                      "exemples": [
+                        {
+                          "erreur": "Tous autant que nous sommes(:) nous avons une expérience à souligner.",
+                          "correction": "(,)",
+                          "type_erreur": "P"
+                        },
+                        {
+                          "erreur": "Le comité formé par(:) le directeur, l'adjoint...",
+                          "correction": "(Ø)",
+                          "type_erreur": "P"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "4.2.2.8",
+                  "nom": "Le point-virgule",
+                  "regles": [
+                    {
+                      "id": "4.2.2.8.1",
+                      "nom": "Absence du point-virgule",
+                      "description": "Absence entre deux phrases syntaxiques très liées par le sens",
+                      "exemples": [
+                        {
+                          "erreur": "Pierre et Michel travaillent souvent ensemble à la bibliothèque de l'école(,) Jean, lui, préfère travailler seul à la maison.",
+                          "correction": "(;) ou (.)",
+                          "type_erreur": "P"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "4.2.2.8.2",
+                      "nom": "Présence erronée du point-virgule",
+                      "exemples": [
+                        {
+                          "erreur": "L'une des étapes les plus importantes que nous devons franchir avec fierté(;) c'est notre cours secondaire.",
+                          "correction": "(,)",
+                          "type_erreur": "P"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "4.2.2.9",
+                  "nom": "Les parenthèses et les tirets",
+                  "regles": [
+                    {
+                      "id": "4.2.2.9.1",
+                      "nom": "Absence de parenthèses ou tirets",
+                      "description": "Absence quand il y a insertion de mots détachés pour amener une explication ou une précision",
+                      "exemples": [
+                        {
+                          "erreur": "« Mais qu'est-ce que c'est que ça? » ⭕ c'était son expression favorite ⭕, répétait-il sans arrêt.",
+                          "correction": "( ) ou (- -)",
+                          "type_erreur": "P (P)"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "4.2.2.9.2",
+                      "nom": "Présence erronée de parenthèses",
+                      "exemples": [
+                        {
+                          "erreur": "Voici un exemple [(] le professeur n'est plus là pour te dire d'arrêter de te plaindre [)]",
+                          "correction": "[:] et [Ø]",
+                          "type_erreur": "P P (P)"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "4.2.2.10",
+                  "nom": "La virgule",
+                  "sous_categories": [
+                    {
+                      "id": "4.2.2.10.1",
+                      "nom": "Absence de virgule",
+                      "types": [
+                        {
+                          "id": "4.2.2.10.1.1",
+                          "nom": "Pour marquer la juxtaposition",
+                          "regles": [
+                            {
+                              "id": "4.2.2.10.1.1a",
+                              "nom": "Séparer des mots ou groupes de mots énumérés",
+                              "exemples": [
+                                {
+                                  "erreur": "Je traiterai des aspects social⭕ personnel et professionnel",
+                                  "correction": "(,)",
+                                  "type_erreur": "P"
+                                }
+                              ]
+                            },
+                            {
+                              "id": "4.2.2.10.1.1b",
+                              "nom": "Séparer des compléments de phrase en tête de phrase",
+                              "exemples": [
+                                {
+                                  "erreur": "De nos jours⭕ au Québec⭕ on parle beaucoup de gestion des déchets.",
+                                  "correction": "(,)(,)",
+                                  "type_erreur": "P P"
+                                }
+                              ]
+                            },
+                            {
+                              "id": "4.2.2.10.1.1c",
+                              "nom": "Séparer des phrases syntaxiques de même nature",
+                              "exemples": [
+                                {
+                                  "erreur": "Plus on monte⭕ plus c'est difficile.",
+                                  "correction": "(,)",
+                                  "type_erreur": "P"
+                                }
+                              ]
+                            },
+                            {
+                              "id": "4.2.2.10.1.1d",
+                              "nom": "Séparer des répétitions",
+                              "exemples": [
+                                {
+                                  "erreur": "C'est un examen facile⭕ facile.",
+                                  "correction": "(,)",
+                                  "type_erreur": "P"
+                                }
+                              ]
+                            },
+                            {
+                              "id": "4.2.2.10.1.1e",
+                              "nom": "Après les mots-phrases oui, non, si, bien sûr",
+                              "exemples": [
+                                {
+                                  "erreur": "Oui⭕ je crois que la beauté est d'abord intérieure.",
+                                  "correction": "(,)",
+                                  "type_erreur": "P"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": "4.2.2.10.1.2",
+                          "nom": "Pour marquer le détachement",
+                          "regles": [
+                            {
+                              "id": "4.2.2.10.1.2a",
+                              "nom": "Isoler la phrase incise",
+                              "exemples": [
+                                {
+                                  "erreur": "« Qui s'instruit s'enrichit »⭕ dit le proverbe.",
+                                  "correction": "(,)",
+                                  "type_erreur": "P"
+                                }
+                              ]
+                            },
+                            {
+                              "id": "4.2.2.10.1.2b",
+                              "nom": "Isoler la phrase incidente",
+                              "exemples": [
+                                {
+                                  "erreur": "Cela est important⭕ tout le monde le sait⭕ de ne pas se tromper.",
+                                  "correction": "(,)(,)",
+                                  "type_erreur": "P (P)"
+                                }
+                              ]
+                            },
+                            {
+                              "id": "4.2.2.10.1.2c",
+                              "nom": "Isoler une apostrophe",
+                              "exemples": [
+                                {
+                                  "erreur": "Je démontrerai⭕ chers lecteurs⭕ le bien-fondé de ma position",
+                                  "correction": "(,)(,)",
+                                  "type_erreur": "P (P)"
+                                }
+                              ]
+                            },
+                            {
+                              "id": "4.2.2.10.1.2d",
+                              "nom": "Isoler le complément du nom (apposition)",
+                              "exemples": [
+                                {
+                                  "erreur": "Tous les jeunes du secondaire⭕ garçons et filles⭕ se préparent à quitter l'école.",
+                                  "correction": "(,)(,)",
+                                  "type_erreur": "P (P)"
+                                }
+                              ]
+                            },
+                            {
+                              "id": "4.2.2.10.1.2e",
+                              "nom": "Isoler le pronom de reprise",
+                              "exemples": [
+                                {
+                                  "erreur": "Moi⭕ je crois que [...]",
+                                  "correction": "(,)",
+                                  "type_erreur": "P"
+                                }
+                              ]
+                            },
+                            {
+                              "id": "4.2.2.10.1.2f",
+                              "nom": "Isoler un organisateur textuel ou marqueur de relation en tête de phrase",
+                              "exemples": [
+                                {
+                                  "erreur": "En second lieu⭕ abordons la question économique.",
+                                  "correction": "(,)",
+                                  "type_erreur": "P"
+                                }
+                              ]
+                            },
+                            {
+                              "id": "4.2.2.10.1.2g",
+                              "nom": "Isoler un complément de phrase de plus de trois mots en tête de phrase",
+                              "exemples": [
+                                {
+                                  "erreur": "Depuis un bon nombre d'années⭕ la situation empire.",
+                                  "correction": "(,)",
+                                  "type_erreur": "P"
+                                }
+                              ]
+                            },
+                            {
+                              "id": "4.2.2.10.1.2h",
+                              "nom": "Isoler une subordonnée circonstancielle en tête de phrase",
+                              "exemples": [
+                                {
+                                  "erreur": "Si l'utilisation du baladeur numérique est contrôlée⭕ il est inutile de s'en faire.",
+                                  "correction": "(,)",
+                                  "type_erreur": "P"
+                                }
+                              ]
+                            },
+                            {
+                              "id": "4.2.2.10.1.2i",
+                              "nom": "Isoler un groupe incident ou un adverbe de modalité en tête de phrase",
+                              "exemples": [
+                                {
+                                  "erreur": "À mon avis⭕ il serait bien de vendre notre eau aux pays pauvres.",
+                                  "correction": "(,)",
+                                  "type_erreur": "P"
+                                }
+                              ]
+                            },
+                            {
+                              "id": "4.2.2.10.1.2j",
+                              "nom": "Isoler une suite d'éléments détachables en tête de phrase",
+                              "exemples": [
+                                {
+                                  "erreur": "Premièrement⭕ selon les experts dans⭕ un avenir très proche⭕ il sera plus facile de détecter les terroristes.",
+                                  "correction": "(,)(,)(,)",
+                                  "type_erreur": "P P P"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": "4.2.2.10.1.3",
+                          "nom": "Pour marquer la coordination",
+                          "regles": [
+                            {
+                              "id": "4.2.2.10.1.3a",
+                              "nom": "Devant coordonnants ou adverbes (ainsi, alors, aussi, cependant, donc, or, pourtant, toutefois, etc.)",
+                              "exemples": [
+                                {
+                                  "erreur": "La mondialisation est bénéfique⭕ toutefois elle comporte des risques",
+                                  "correction": "(,)",
+                                  "type_erreur": "P"
+                                }
+                              ]
+                            },
+                            {
+                              "id": "4.2.2.10.1.3b",
+                              "nom": "Devant locutions introduisant une précision (à savoir, entre autres, notamment, par exemple, soit, voire)",
+                              "exemples": [
+                                {
+                                  "erreur": "Le français est parlé dans de nombreux pays africains⭕ par exemple le Maroc, le Liban...",
+                                  "correction": "(,)",
+                                  "type_erreur": "P"
+                                }
+                              ]
+                            },
+                            {
+                              "id": "4.2.2.10.1.3c",
+                              "nom": "Devant et, ou, soit et ni répétés plus de deux fois",
+                              "exemples": [
+                                {
+                                  "erreur": "Ni les terroristes⭕ ni les fraudeurs⭕ ni les trafiquants de drogue ne pourront déjouer les systèmes biométriques.",
+                                  "correction": "(,)(,)",
+                                  "type_erreur": "P P"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": "4.2.2.10.1.4",
+                          "nom": "Pour marquer l'effacement",
+                          "exemples": [
+                            {
+                              "erreur": "Marc étudie la géologie et Marie⭕ la spéléologie.",
+                              "correction": "(,)",
+                              "type_erreur": "P"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "4.2.2.10.2",
+                      "nom": "Présence erronée de virgule",
+                      "regles": [
+                        {
+                          "id": "4.2.2.10.2a",
+                          "nom": "Entre le sujet et le verbe",
+                          "exemples": [
+                            {
+                              "erreur": "L'utilisation du baladeur numérique(,) est certes agréable.",
+                              "correction": "(Ø)",
+                              "type_erreur": "P"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "4.2.2.10.2b",
+                          "nom": "Pour isoler la subordonnée relative déterminative",
+                          "exemples": [
+                            {
+                              "erreur": "C'est un livre(,) qui aura du succès.",
+                              "correction": "(Ø)",
+                              "type_erreur": "P"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "4.2.2.10.2c",
+                          "nom": "Après le complément de phrase s'il y a inversion du sujet",
+                          "exemples": [
+                            {
+                              "erreur": "Lors de cette mobilisation(,) étaient regroupés plusieurs organismes.",
+                              "correction": "(Ø)",
+                              "type_erreur": "P"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "4.2.2.10.2d",
+                          "nom": "Entre le verbe et le complément ou l'attribut",
+                          "exemples": [
+                            {
+                              "erreur": "Ils appellent ça(,) la nouvelle technologie",
+                              "correction": "(Ø)",
+                              "type_erreur": "P"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "4.2.2.10.2e",
+                          "nom": "Entre la phrase matrice et la subordonnée complétive ou corrélative",
+                          "exemples": [
+                            {
+                              "erreur": "Je crois(,) que les cas de ponctuation seront bien compris.",
+                              "correction": "(Ø)",
+                              "type_erreur": "P"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "4.2.2.10.2f",
+                          "nom": "Entre le présentatif et les éléments présentés",
+                          "exemples": [
+                            {
+                              "erreur": "Voici(,) l'horaire de ma journée.",
+                              "correction": "(Ø)",
+                              "type_erreur": "P"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "4.2.2.10.2g",
+                          "nom": "Entre les termes d'une comparaison",
+                          "exemples": [
+                            {
+                              "erreur": "Le travail demande plus d'effort(,) que les études.",
+                              "correction": "(Ø)",
+                              "type_erreur": "P"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "4.2.2.10.2h",
+                          "nom": "Entre une préposition et le complément",
+                          "exemples": [
+                            {
+                              "erreur": "On peut les comparer à(,) deux enfants en mal d'attention.",
+                              "correction": "(Ø)",
+                              "type_erreur": "P"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "4.2.2.10.2i",
+                          "nom": "Entre le nom et son complément",
+                          "exemples": [
+                            {
+                              "erreur": "Les élèves(,) intelligents doivent aussi étudier.",
+                              "correction": "(Ø)",
+                              "type_erreur": "P"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "4.2.2.10.2j",
+                          "nom": "Entre la phrase matrice et la subordonnée introduite par que et parce que",
+                          "exemples": [
+                            {
+                              "erreur": "J'aime l'hiver(,) parce que tout devient silencieux.",
+                              "correction": "(Ø)",
+                              "type_erreur": "P"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "4.2.2.10.2k",
+                          "nom": "Devant et, ou, ni qui n'unissent pas deux phrases syntaxiques ou qui ne sont pas répétés plus de deux fois",
+                          "exemples": [
+                            {
+                              "erreur": "Les objets connectés nous permettent de gagner du temps, de gérer nos avoirs(,) et d'améliorer nos conditions de vie.",
+                              "correction": "(Ø)",
+                              "type_erreur": "P"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "nom": "Respect des normes relatives à l'orthographe",
+      "description": "Orthographe d'usage et orthographe grammaticale",
+      "marques_correction": {
+        "U": "Erreur d'orthographe d'usage",
+        "(U)": "Erreur d'orthographe d'usage répétée (une même erreur n'est pénalisée qu'une seule fois dans tout le texte)",
+        "G": "Erreur d'orthographe grammaticale",
+        "_": "Erreur d'orthographe grammaticale non comptabilisée (erreur d'accord répétée pour le même donneur)"
+      },
+      "maximum_erreurs": 35,
+      "sections": [
+        {
+          "id": "5.1",
+          "nom": "Règles générales",
+          "regles": [
+            {
+              "id": "5.1.1",
+              "nom": "Usage et grammaire",
+              "description": "On ne pénalise qu'une seule erreur par mot. L'orthographe grammaticale a priorité sur l'orthographe d'usage.",
+              "exemples": [
+                {
+                  "erreur": "Les personnes agés",
+                  "correction": "[âgées]",
+                  "type_erreur": "G"
+                },
+                {
+                  "erreur": "Les gens agés",
+                  "correction": "[âgés]",
+                  "type_erreur": "U"
+                }
+              ]
+            },
+            {
+              "id": "5.1.2",
+              "nom": "Dénominations",
+              "description": "Pénaliser une seule erreur au critère 5 par dénomination. Privilégier la grammaire.",
+              "exemples": [
+                {
+                  "erreur": "L'Ordre des psychologue du québec",
+                  "correction": "[L'Ordre des psychologues du Québec]",
+                  "type_erreur": "G (U)"
+                }
+              ],
+              "sous_regles": [
+                {
+                  "id": "5.1.2.1",
+                  "nom": "Dénominations du dossier préparatoire",
+                  "description": "L'élève doit transcrire les dénominations comme elles sont écrites dans le dossier préparatoire."
+                },
+                {
+                  "id": "5.1.2.2",
+                  "nom": "Dénominations hors dossier préparatoire",
+                  "description": "Ne pas pénaliser les erreurs dans les noms propres qui ne font pas partie du dossier préparatoire (sauf repères culturels)."
+                },
+                {
+                  "id": "5.1.2.3",
+                  "nom": "Repères culturels",
+                  "description": "Pénaliser les erreurs dans les dénominations ou noms propres faisant partie des repères culturels.",
+                  "exemples": [
+                    {
+                      "erreur": "État-Unis",
+                      "correction": "[États-Unis]",
+                      "type_erreur": "U"
+                    },
+                    {
+                      "erreur": "Quebec",
+                      "correction": "[Québec]",
+                      "type_erreur": "U"
+                    },
+                    {
+                      "erreur": "Rene Lévesque",
+                      "correction": "[René Lévesque]",
+                      "type_erreur": "U"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "5.1.3",
+              "nom": "Usage seulement",
+              "description": "Ne pénaliser qu'une erreur d'orthographe d'usage par texte pour la même erreur. Chaque modification de la combinaison d'erreurs est pénalisée.",
+              "exemples": [
+                {
+                  "contexte": "Introduction",
+                  "erreur": "libertée",
+                  "type_erreur": "U"
+                },
+                {
+                  "contexte": "1er paragraphe",
+                  "erreur": "libertée",
+                  "type_erreur": "(U)"
+                },
+                {
+                  "contexte": "Conclusion",
+                  "erreur": "libèrté",
+                  "type_erreur": "U"
+                }
+              ]
+            },
+            {
+              "id": "5.1.4",
+              "nom": "Majuscule sans règle",
+              "description": "Majuscule au début d'un mot qui est due à la graphie de l'élève et qui ne fait pas l'objet d'une règle. 1 U par texte pour l'ensemble.",
+              "exemples": [
+                {
+                  "erreur": "Je crois que Cela [...]",
+                  "correction": "[cela]",
+                  "type_erreur": "U"
+                },
+                {
+                  "erreur": "En Septembre, [...]",
+                  "correction": "[septembre]",
+                  "type_erreur": "(U)"
+                }
+              ]
+            },
+            {
+              "id": "5.1.5",
+              "nom": "Source",
+              "description": "Toute erreur de majuscule dans un titre ou une dénomination sera pénalisée en usage.",
+              "exemples": [
+                {
+                  "erreur": "1. Michel David, la langue de demain, le Devoir, 27 mai 2008.",
+                  "correction": "[La, Le]",
+                  "type_erreur": "U U"
+                }
+              ]
+            },
+            {
+              "id": "5.1.6",
+              "nom": "Accents",
+              "description": "Tolérance pour les accents aigus et graves quant à la pente. Tolérance pour les accents circonflexes semblables à un trait horizontal ou à un tilde."
+            },
+            {
+              "id": "5.1.7",
+              "nom": "Barre sur le t",
+              "description": "Barre absente sur le t : pénaliser U par texte (pour tout le texte)"
+            }
+          ]
+        },
+        {
+          "id": "5.2",
+          "nom": "Orthographe d'usage et typographie",
+          "marque": "U",
+          "categories": [
+            {
+              "id": "5.2.1",
+              "nom": "Erreurs relatives aux graphèmes",
+              "regles": [
+                {
+                  "id": "5.2.1.1",
+                  "nom": "Absence ou présence erronée d'un accent",
+                  "exemples": [
+                    {
+                      "erreur": "Ce sont les gens plus agés",
+                      "correction": "[â]",
+                      "type_erreur": "U"
+                    },
+                    {
+                      "erreur": "Les médecins disent que le baladeur detruit les cellules auditives",
+                      "correction": "[é]",
+                      "type_erreur": "U"
+                    },
+                    {
+                      "erreur": "Nous vivons mieux grace à l'évolution technologique",
+                      "correction": "[â]",
+                      "type_erreur": "U"
+                    }
+                  ],
+                  "note": "Les accents ne sont pas exigés sur les majuscules"
+                },
+                {
+                  "id": "5.2.1.2.1",
+                  "nom": "Absence ou présence erronée de la cédille",
+                  "exemples": [
+                    {
+                      "erreur": "Je trouve ca normal",
+                      "correction": "[ça]",
+                      "type_erreur": "U"
+                    },
+                    {
+                      "erreur": "Çela est immoral",
+                      "correction": "[Cela]",
+                      "type_erreur": "U"
+                    }
+                  ]
+                },
+                {
+                  "id": "5.2.1.2.2",
+                  "nom": "Absence ou présence erronée du tréma",
+                  "exemples": [
+                    {
+                      "erreur": "Une réponse ambigue",
+                      "correction": "[ambiguë ou ambigüe]",
+                      "type_erreur": "U"
+                    }
+                  ]
+                },
+                {
+                  "id": "5.2.1.3",
+                  "nom": "Absence ou emploi erroné de lettres",
+                  "exemples": [
+                    {
+                      "erreur": "Il serait mieu de dire la vérité",
+                      "correction": "[mieux]",
+                      "type_erreur": "U"
+                    },
+                    {
+                      "erreur": "aréoport",
+                      "correction": "[aéroport]",
+                      "type_erreur": "U"
+                    },
+                    {
+                      "erreur": "rénumération",
+                      "correction": "[rémunération]",
+                      "type_erreur": "U"
+                    },
+                    {
+                      "erreur": "En faite",
+                      "correction": "[fait]",
+                      "type_erreur": "U"
+                    }
+                  ]
+                },
+                {
+                  "id": "5.2.1.4",
+                  "nom": "Confusion entre deux mots homophoniques de classes différentes",
+                  "description": "Verbe utilisé comme nom, nom utilisé comme adjectif, etc.",
+                  "exemples": [
+                    {
+                      "erreur": "L'arriver s'est bien déroulée",
+                      "correction": "[arrivée]",
+                      "type_erreur": "U"
+                    },
+                    {
+                      "erreur": "J'espère que mon texte est convainquant",
+                      "correction": "[convaincant]",
+                      "type_erreur": "U"
+                    },
+                    {
+                      "erreur": "Un vêtement usager",
+                      "correction": "[usagé]",
+                      "type_erreur": "U"
+                    }
+                  ]
+                },
+                {
+                  "id": "5.2.1.5",
+                  "nom": "Ajout erroné d'un s à un mot invariable",
+                  "exemples": [
+                    {
+                      "erreur": "Parmis les créateurs",
+                      "correction": "[parmi]",
+                      "type_erreur": "U"
+                    },
+                    {
+                      "erreur": "Beaucoups de créateurs",
+                      "correction": "[beaucoup]",
+                      "type_erreur": "U"
+                    },
+                    {
+                      "erreur": "Malgrés",
+                      "correction": "[Malgré]",
+                      "type_erreur": "U"
+                    }
+                  ]
+                },
+                {
+                  "id": "5.2.1.6",
+                  "nom": "Lettre doublée inutilement ou lettre non doublée",
+                  "exemples": [
+                    {
+                      "erreur": "Le dévelloppement des nouvelles technologies",
+                      "correction": "[développement]",
+                      "type_erreur": "U"
+                    },
+                    {
+                      "erreur": "Il apelle le médecin",
+                      "correction": "[appelle]",
+                      "type_erreur": "U"
+                    }
+                  ]
+                },
+                {
+                  "id": "5.2.1.7",
+                  "nom": "Absence ou présence erronée d'un trait d'union dans un mot composé",
+                  "exemples": [
+                    {
+                      "erreur": "à tue tête",
+                      "correction": "[tue-tête]",
+                      "type_erreur": "U"
+                    },
+                    {
+                      "erreur": "c'est à dire",
+                      "correction": "[c'est-à-dire]",
+                      "type_erreur": "U"
+                    },
+                    {
+                      "erreur": "elle même",
+                      "correction": "[elle-même]",
+                      "type_erreur": "U"
+                    },
+                    {
+                      "erreur": "quarante quatre",
+                      "correction": "[quarante-quatre]",
+                      "type_erreur": "U"
+                    }
+                  ],
+                  "sous_regles": [
+                    {
+                      "id": "5.2.1.7.1",
+                      "description": "Pénaliser chaque erreur si l'élève utilise un nouveau mot composé"
+                    },
+                    {
+                      "id": "5.2.1.7.4",
+                      "description": "Lorsque l'absence ou la présence d'un trait d'union cause une confusion homophonique, pénaliser en G",
+                      "exemples": [
+                        {
+                          "erreur": "ce qui peut-être la cause",
+                          "correction": "[peut être]",
+                          "type_erreur": "G"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "5.2.1.8",
+                  "nom": "Lexème mal orthographié",
+                  "description": "Une erreur par lexème pour l'ensemble du texte",
+                  "exemples": [
+                    {
+                      "erreur": "excepter, exception, exceptionnel",
+                      "correction": "une seule erreur par texte",
+                      "type_erreur": "U"
+                    }
+                  ]
+                },
+                {
+                  "id": "5.2.1.9",
+                  "nom": "Erreur liée à l'euphonie",
+                  "exemples": [
+                    {
+                      "erreur": "Ce objet",
+                      "correction": "[Cet]",
+                      "type_erreur": "U"
+                    },
+                    {
+                      "erreur": "Ma argumentation",
+                      "correction": "[Mon]",
+                      "type_erreur": "U"
+                    },
+                    {
+                      "erreur": "Un beau environnement",
+                      "correction": "[bel]",
+                      "type_erreur": "U"
+                    },
+                    {
+                      "erreur": "Doit-t-on",
+                      "correction": "[Doit-on]",
+                      "type_erreur": "U"
+                    },
+                    {
+                      "erreur": "Y a-t'il",
+                      "correction": "[Y a-t-il]",
+                      "type_erreur": "U"
+                    },
+                    {
+                      "erreur": "Limite-elle",
+                      "correction": "[Limite-t-elle]",
+                      "type_erreur": "U"
+                    }
+                  ]
+                },
+                {
+                  "id": "5.2.1.10",
+                  "nom": "Absence du trait d'union pour l'inversion",
+                  "exemples": [
+                    {
+                      "erreur": "limitons nous au secondaire",
+                      "correction": "[limitons-nous]",
+                      "type_erreur": "U"
+                    },
+                    {
+                      "erreur": "Méfiez vous des vendeurs",
+                      "correction": "[Méfiez-vous]",
+                      "type_erreur": "U"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "5.2.2",
+              "nom": "Homophones lexicaux",
+              "description": "Confusion entre mots de même classe (nature)",
+              "exemples": [
+                {
+                  "erreur": "Dans le cour d'histoire",
+                  "correction": "[cours]",
+                  "type_erreur": "U"
+                },
+                {
+                  "erreur": "le transport fait parti de notre quotidien",
+                  "correction": "[partie]",
+                  "type_erreur": "U"
+                },
+                {
+                  "erreur": "Je suis sur qu'il viendra",
+                  "correction": "[sûr]",
+                  "type_erreur": "U"
+                }
+              ]
+            },
+            {
+              "id": "5.2.3",
+              "nom": "Apostrophe",
+              "regles": [
+                {
+                  "id": "5.2.3.1",
+                  "nom": "Utilisation de l'apostrophe pour l'élision",
+                  "exemples": [
+                    {
+                      "erreur": "si il permet",
+                      "correction": "[s'il]",
+                      "type_erreur": "U"
+                    },
+                    {
+                      "erreur": "Il affirme que il est important",
+                      "correction": "[qu'il]",
+                      "type_erreur": "U"
+                    },
+                    {
+                      "erreur": "jusque à demain",
+                      "correction": "[jusqu'à]",
+                      "type_erreur": "U"
+                    }
+                  ]
+                },
+                {
+                  "id": "5.2.3.2",
+                  "nom": "Marque de l'apostrophe absente ou mauvaise",
+                  "exemples": [
+                    {
+                      "erreur": "sagit",
+                      "correction": "[s'agit]",
+                      "type_erreur": "U"
+                    },
+                    {
+                      "erreur": "dabord",
+                      "correction": "[d'abord]",
+                      "type_erreur": "U"
+                    },
+                    {
+                      "erreur": "aujourdhui",
+                      "correction": "[aujourd'hui]",
+                      "type_erreur": "U"
+                    },
+                    {
+                      "erreur": "l'orsque",
+                      "correction": "[lorsque]",
+                      "type_erreur": "U"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "5.2.4",
+              "nom": "Emploi de la majuscule",
+              "regles": [
+                {
+                  "id": "5.2.4.1",
+                  "nom": "Majuscule pour les noms propres",
+                  "description": "Ne pénaliser qu'une erreur par texte pour chaque nom propre répété",
+                  "exemples": [
+                    {
+                      "erreur": "Le Français se parle dans plusieurs provinces",
+                      "correction": "[français]",
+                      "type_erreur": "U"
+                    }
+                  ],
+                  "sous_regles": [
+                    {
+                      "id": "5.2.4.1.1",
+                      "nom": "Terre, homme, humain, points cardinaux",
+                      "description": "Accepter minuscule ou majuscule sauf pour dénominations géographiques"
+                    }
+                  ]
+                },
+                {
+                  "id": "5.2.4.2",
+                  "nom": "Majuscule dans un titre de civilité ou de fonction",
+                  "description": "Accepter quand on s'adresse à la personne, pénaliser quand on parle de la personne",
+                  "exemples": [
+                    {
+                      "erreur": "Le Président de CGA-Canada a affirmé que",
+                      "correction": "[président]",
+                      "type_erreur": "U"
+                    }
+                  ]
+                },
+                {
+                  "id": "5.2.4.3",
+                  "nom": "Majuscule dans le titre du texte",
+                  "description": "Exiger la majuscule initiale, accepter tout le reste"
+                },
+                {
+                  "id": "5.2.4.4",
+                  "nom": "Majuscule dans tout autre titre",
+                  "description": "Exiger majuscule jusqu'au premier substantif incluant celui-ci"
+                }
+              ]
+            },
+            {
+              "id": "5.2.5",
+              "nom": "Coupure d'un mot à la fin d'une ligne",
+              "regles": [
+                {
+                  "id": "5.2.5.1",
+                  "nom": "Coupures intrasyllabiques",
+                  "description": "Toujours fautives. 1 U par mot par texte si la coupure demeure la même"
+                },
+                {
+                  "id": "5.2.5.2",
+                  "nom": "Trait d'union au début de la ligne",
+                  "description": "Pénalisé à chaque occurrence"
+                },
+                {
+                  "id": "5.2.5.3",
+                  "nom": "Apostrophe à la fin d'une ligne",
+                  "description": "Pénalisée pour chaque mot mal coupé (1 U par mot ou locution par texte)"
+                }
+              ]
+            },
+            {
+              "id": "5.2.6",
+              "nom": "Autres fautes",
+              "regles": [
+                {
+                  "id": "5.2.6.1",
+                  "nom": "Abréviations",
+                  "exemples": [
+                    {
+                      "erreur": "_etc. ou _etc… ou et etc.",
+                      "correction": "[etc.]",
+                      "type_erreur": "U"
+                    },
+                    {
+                      "erreur": "Grâce à Mr. Gagnon",
+                      "correction": "[M.]",
+                      "type_erreur": "U"
+                    }
+                  ]
+                },
+                {
+                  "id": "5.2.6.2",
+                  "nom": "Sigles et acronymes",
+                  "exemples": [
+                    {
+                      "erreur": "onu",
+                      "correction": "[ONU]",
+                      "type_erreur": "U"
+                    },
+                    {
+                      "erreur": "Des ONGS",
+                      "correction": "[ONG]",
+                      "type_erreur": "U"
+                    }
+                  ]
+                },
+                {
+                  "id": "5.2.6.3",
+                  "nom": "Signes mathématiques, unités de mesure, chiffres de 1 à 9",
+                  "exemples": [
+                    {
+                      "erreur": "le % des jeunes",
+                      "correction": "[pourcentage]",
+                      "type_erreur": "U"
+                    },
+                    {
+                      "erreur": "l'expérience des 5 dernières années de 4 élèves",
+                      "correction": "[cinq, quatre]",
+                      "type_erreur": "U (1 U par texte)"
+                    }
+                  ]
+                },
+                {
+                  "id": "5.2.6.4",
+                  "nom": "Barbarismes orthographiques",
+                  "description": "Mots fusionnés ou mal séparés",
+                  "exemples": [
+                    {
+                      "erreur": "La plus part",
+                      "correction": "[plupart]",
+                      "type_erreur": "U"
+                    },
+                    {
+                      "erreur": "au par avant",
+                      "correction": "[auparavant]",
+                      "type_erreur": "U"
+                    },
+                    {
+                      "erreur": "tant disque",
+                      "correction": "[tandis que]",
+                      "type_erreur": "U"
+                    },
+                    {
+                      "erreur": "desfois",
+                      "correction": "[des fois]",
+                      "type_erreur": "U"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5.3",
+          "nom": "Orthographe grammaticale",
+          "marque": "G",
+          "categories": [
+            {
+              "id": "5.3.1",
+              "nom": "Nom, adjectif, déterminant, pronom, adverbe",
+              "regles": [
+                {
+                  "id": "5.3.1.1",
+                  "nom": "Accord en genre et en nombre du nom et des mots d'un même groupe",
+                  "exemples": [
+                    {
+                      "erreur": "des années de bonheurs assurés",
+                      "correction": "[bonheur assuré]",
+                      "type_erreur": "G -"
+                    },
+                    {
+                      "erreur": "Une belle habit neuve",
+                      "correction": "[Un bel habit neuf]",
+                      "type_erreur": "G -"
+                    }
+                  ]
+                },
+                {
+                  "id": "5.3.1.2",
+                  "nom": "Accord de l'adjectif qualificatif",
+                  "exemples": [
+                    {
+                      "erreur": "si l'utilisation du baladeur numérique devient trop excessif",
+                      "correction": "[excessive]",
+                      "type_erreur": "G"
+                    },
+                    {
+                      "erreur": "certains points que je juge important",
+                      "correction": "[importants]",
+                      "type_erreur": "G"
+                    }
+                  ]
+                },
+                {
+                  "id": "5.3.1.3",
+                  "nom": "Accord du déterminant",
+                  "exemples": [
+                    {
+                      "erreur": "dans presque tout les domaines",
+                      "correction": "[tous]",
+                      "type_erreur": "G"
+                    },
+                    {
+                      "erreur": "Chaques jours",
+                      "correction": "[chaque jour]",
+                      "type_erreur": "G -"
+                    }
+                  ]
+                },
+                {
+                  "id": "5.3.1.4",
+                  "nom": "Choix du pronom selon les caractéristiques de l'antécédent",
+                  "exemples": [
+                    {
+                      "erreur": "Les valeurs des jeunes ne sont pas disparues. Elle change.",
+                      "correction": "[Elles changent]",
+                      "type_erreur": "G -"
+                    }
+                  ]
+                },
+                {
+                  "id": "5.3.1.5",
+                  "nom": "Accord du complément du nom (groupe prépositionnel)",
+                  "exemples": [
+                    {
+                      "erreur": "le nombre d'étudiant",
+                      "correction": "[étudiants]",
+                      "type_erreur": "G"
+                    },
+                    {
+                      "erreur": "L'homme d'affaire",
+                      "correction": "[affaires]",
+                      "type_erreur": "G"
+                    }
+                  ]
+                },
+                {
+                  "id": "5.3.1.6",
+                  "nom": "Accord fautif d'un mot utilisé comme adverbe",
+                  "exemples": [
+                    {
+                      "erreur": "ces jeunes coûtent très chers",
+                      "correction": "[cher]",
+                      "type_erreur": "G"
+                    },
+                    {
+                      "erreur": "Ils sont mêmes venus",
+                      "correction": "[même]",
+                      "type_erreur": "G"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "5.3.2",
+              "nom": "Verbe",
+              "regles": [
+                {
+                  "id": "5.3.2.1",
+                  "nom": "Barbarisme de conjugaison",
+                  "exemples": [
+                    {
+                      "erreur": "même en fesant attention",
+                      "correction": "[faisant]",
+                      "type_erreur": "G"
+                    },
+                    {
+                      "erreur": "Je n'oublirai jamais",
+                      "correction": "[oublierai]",
+                      "type_erreur": "G"
+                    },
+                    {
+                      "erreur": "Plusieurs interdissent",
+                      "correction": "[interdisent]",
+                      "type_erreur": "G"
+                    }
+                  ]
+                },
+                {
+                  "id": "5.3.2.2",
+                  "nom": "Accord du verbe conjugué",
+                  "exemples": [
+                    {
+                      "erreur": "On leur demandent",
+                      "correction": "[demande]",
+                      "type_erreur": "G"
+                    },
+                    {
+                      "erreur": "Tout le monde veulent",
+                      "correction": "[veut]",
+                      "type_erreur": "G"
+                    },
+                    {
+                      "erreur": "C'est nous qui laissent traîner nos déchets",
+                      "correction": "[laissons]",
+                      "type_erreur": "G"
+                    }
+                  ]
+                },
+                {
+                  "id": "5.3.2.3",
+                  "nom": "Forme et accord du participe passé",
+                  "exemples": [
+                    {
+                      "erreur": "Il a acquéri de l'expérience",
+                      "correction": "[acquis]",
+                      "type_erreur": "G"
+                    },
+                    {
+                      "erreur": "tous les bons moments que j'ai vécu",
+                      "correction": "[vécus]",
+                      "type_erreur": "G"
+                    }
+                  ]
+                },
+                {
+                  "id": "5.3.2.4",
+                  "nom": "Verbe irrégulier",
+                  "exemples": [
+                    {
+                      "erreur": "que le danger croit avec l'usage",
+                      "correction": "[croît]",
+                      "type_erreur": "G"
+                    },
+                    {
+                      "erreur": "En commencant",
+                      "correction": "[commençant]",
+                      "type_erreur": "G"
+                    }
+                  ]
+                },
+                {
+                  "id": "5.3.2.5",
+                  "nom": "Verbe à l'infinitif",
+                  "exemples": [
+                    {
+                      "erreur": "les autos arrivers",
+                      "correction": "[arriver]",
+                      "type_erreur": "G"
+                    },
+                    {
+                      "erreur": "Ces soins peuvent vous rendrent malades",
+                      "correction": "[rendre]",
+                      "type_erreur": "G"
+                    }
+                  ]
+                },
+                {
+                  "id": "5.3.2.6",
+                  "nom": "Désinences verbales homophones",
+                  "exemples": [
+                    {
+                      "erreur": "Ils ont même inventer des baladeurs",
+                      "correction": "[inventé]",
+                      "type_erreur": "G"
+                    },
+                    {
+                      "erreur": "Pour qu'il y est moins de violence",
+                      "correction": "[ait]",
+                      "type_erreur": "G"
+                    },
+                    {
+                      "erreur": "Il a penser à fermer",
+                      "correction": "[a pensé]",
+                      "type_erreur": "G G"
+                    }
+                  ]
+                },
+                {
+                  "id": "5.3.2.7",
+                  "nom": "Accord de l'adjectif verbal et forme du participe présent",
+                  "exemples": [
+                    {
+                      "erreur": "qui ont les yeux bien portant",
+                      "correction": "[portants]",
+                      "type_erreur": "G"
+                    },
+                    {
+                      "erreur": "en reproduisent des œuvres culturelles",
+                      "correction": "[reproduisant]",
+                      "type_erreur": "G"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "5.3.3",
+              "nom": "Homophones grammaticaux et courants",
+              "regles": [
+                {
+                  "id": "5.3.3.1",
+                  "nom": "Homophones grammaticaux",
+                  "description": "Mots de classes différentes",
+                  "liste": [
+                    "a/à",
+                    "ça/sa",
+                    "ce/se",
+                    "ces/c'est/ses",
+                    "et/est",
+                    "la/là/l'a",
+                    "leur/leurs",
+                    "on/ont",
+                    "ou/où",
+                    "son/sont",
+                    "quand/quant/qu'en",
+                    "quel(s)/quelle(s)/qu'elle(s)"
+                  ],
+                  "exemples": [
+                    {
+                      "erreur": "Parfois, se n'est pas facile de choisir",
+                      "correction": "[ce]",
+                      "type_erreur": "G"
+                    },
+                    {
+                      "erreur": "Les filles est les garçons vont",
+                      "correction": "[et]",
+                      "type_erreur": "G"
+                    },
+                    {
+                      "erreur": "Quelque soit leur origine",
+                      "correction": "[Quelle que]",
+                      "type_erreur": "G"
+                    }
+                  ]
+                },
+                {
+                  "id": "5.3.3.2",
+                  "nom": "Homophones courants (liste fermée)",
+                  "description": "Confusion entre le nom et le verbe",
+                  "exemples": [
+                    {
+                      "erreur": "L'accueille des participants",
+                      "correction": "[accueil]",
+                      "type_erreur": "G"
+                    },
+                    {
+                      "erreur": "Il a reçu un appelle",
+                      "correction": "[appel]",
+                      "type_erreur": "G"
+                    },
+                    {
+                      "erreur": "Le travaille que tu m'as remis",
+                      "correction": "[travail]",
+                      "type_erreur": "G"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "5.3.4",
+              "nom": "Barbarismes grammaticaux",
+              "description": "Locutions ou mots mal orthographiés présentant une erreur de grammaire",
+              "exemples": [
+                {
+                  "erreur": "acause",
+                  "correction": "[à cause]",
+                  "type_erreur": "G"
+                },
+                {
+                  "erreur": "grace a",
+                  "correction": "[grâce à]",
+                  "type_erreur": "G"
+                },
+                {
+                  "erreur": "jusqua",
+                  "correction": "[jusqu'à]",
+                  "type_erreur": "G"
+                },
+                {
+                  "erreur": "Vus que",
+                  "correction": "[vu que]",
+                  "type_erreur": "G"
+                }
+              ]
+            },
+            {
+              "id": "5.3.5",
+              "nom": "Contractions",
+              "exemples": [
+                {
+                  "erreur": "argent qui provient de le labeur",
+                  "correction": "[du]",
+                  "type_erreur": "G"
+                },
+                {
+                  "erreur": "à lequel le jeune doit faire face",
+                  "correction": "[auquel]",
+                  "type_erreur": "G"
+                }
+              ]
+            },
+            {
+              "id": "5.3.6",
+              "nom": "Emploi de la majuscule",
+              "regles": [
+                {
+                  "id": "5.3.6.1",
+                  "nom": "En lien avec la ponctuation",
+                  "exemples": [
+                    {
+                      "erreur": "C'est vrai que la première année du secondaire est difficile : Le casier trop haut",
+                      "correction": "[le]",
+                      "type_erreur": "G"
+                    },
+                    {
+                      "erreur": "la censure est un sujet délicat à aborder.",
+                      "correction": "[La]",
+                      "type_erreur": "G"
+                    }
+                  ]
+                },
+                {
+                  "id": "5.3.6.2",
+                  "nom": "En lien avec le sujet posé",
+                  "description": "Majuscule obligatoire quand le sujet posé est encadré de guillemets",
+                  "exemples": [
+                    {
+                      "erreur": "Je me pose la question suivante : « dans l'avenir, la langue française... »",
+                      "correction": "[Dans]",
+                      "type_erreur": "G"
+                    }
+                  ]
+                },
+                {
+                  "id": "5.3.6.3",
+                  "nom": "Dans un discours rapporté textuel",
+                  "description": "Majuscule obligatoire au début d'un discours rapporté direct",
+                  "exemples": [
+                    {
+                      "erreur": "M. Vaillancourt dit : « comme l'air, l'eau [...] »",
+                      "correction": "[Comme]",
+                      "type_erreur": "G"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5.4",
+          "nom": "Clarification du critère 5 - Règles de séquences",
+          "regles": [
+            {
+              "id": "5.4.1",
+              "nom": "Orthographe d'usage répétée",
+              "description": "Ne compter qu'une erreur par texte pour une même erreur. Indiquer la présence d'une erreur répétée en la mettant entre parenthèses.",
+              "exemples": [
+                {
+                  "erreur": "libertée [...] libertée [...] libèrté",
+                  "type_erreur": "U (U) U"
+                }
+              ]
+            },
+            {
+              "id": "5.4.2",
+              "nom": "Orthographe grammaticale - même donneur",
+              "description": "Lorsque plusieurs mots régis par une même règle d'accord ne sont pas accordés, ne compter qu'une seule erreur si même donneur.",
+              "exemples": [
+                {
+                  "erreur": "Toute les filles sont partie",
+                  "correction": "[Toutes les filles sont parties]",
+                  "type_erreur": "G -"
+                }
+              ],
+              "sous_regles": [
+                {
+                  "id": "5.4.2.1",
+                  "nom": "Même type d'erreurs",
+                  "description": "Une seule erreur comptée",
+                  "exemples": [
+                    {
+                      "erreur": "Toute les bonne copies se ressemble",
+                      "type_erreur": "G"
+                    }
+                  ]
+                },
+                {
+                  "id": "5.4.2.2",
+                  "nom": "Modification du type d'erreurs",
+                  "description": "Pénaliser à nouveau quand le type d'erreur change (genre, nombre, personne)",
+                  "exemples": [
+                    {
+                      "erreur": "Toute les bonne copies sont révisé",
+                      "type_erreur": "G - G"
+                    }
+                  ]
+                },
+                {
+                  "id": "5.4.2.3",
+                  "nom": "Erreurs d'un autre type",
+                  "description": "Les erreurs d'un autre type (X) ne brisent pas une séquence",
+                  "exemples": [
+                    {
+                      "erreur": "Toute les filles ont mangées des pommes",
+                      "type_erreur": "G G"
+                    }
+                  ]
+                },
+                {
+                  "id": "5.4.2.4",
+                  "nom": "Erreurs portant sur le verbe",
+                  "description": "L'élève accorde son verbe en fonction du mauvais donneur",
+                  "exemples": [
+                    {
+                      "erreur": "Les personnes consomment trop, donc il s'endette",
+                      "type_erreur": "G -"
+                    }
+                  ]
+                },
+                {
+                  "id": "5.4.2.5",
+                  "nom": "Changement de donneur",
+                  "description": "Nouvelle erreur pour chaque nouveau donneur",
+                  "exemples": [
+                    {
+                      "erreur": "la loi protégeant les droits des créateurs soient respectés et que le téléchargement illégale soit abolis",
+                      "type_erreur": "G G G G"
+                    }
+                  ]
+                },
+                {
+                  "id": "5.4.2.6",
+                  "nom": "Pronom de reprise",
+                  "description": "Un pronom de reprise est considéré comme un deuxième donneur",
+                  "exemples": [
+                    {
+                      "erreur": "Toute les filles sont partie car elle étaient fatiguée et elle sont revenue",
+                      "type_erreur": "G - G - G - -"
+                    }
+                  ]
+                },
+                {
+                  "id": "5.4.2.7",
+                  "nom": "Erreur de grammaire et d'usage combinées",
+                  "description": "Compter les deux si présentes",
+                  "exemples": [
+                    {
+                      "erreur": "Toute les filles sont patie",
+                      "type_erreur": "G U"
+                    }
+                  ]
+                },
+                {
+                  "id": "5.4.2.8",
+                  "nom": "Adjectif invariable en genre ou en nombre",
+                  "description": "On considère qu'il a le même genre/nombre que le donneur",
+                  "exemples": [
+                    {
+                      "erreur": "Les traits comportementale et économique",
+                      "type_erreur": "G G"
+                    }
+                  ]
+                },
+                {
+                  "id": "5.4.2.9",
+                  "nom": "Erreur de grammaire causant une erreur de syntaxe",
+                  "description": "Ne pas pénaliser l'erreur de syntaxe si causée par l'erreur de grammaire et que l'élève est cohérent",
+                  "exemples": [
+                    {
+                      "erreur": "Chacune de ces personnes ont un profil où il est inscrit leur date de naissance",
+                      "type_erreur": "G (S) (S) (S)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "synthese": {
+    "sequences_orthographe": {
+      "donneur_accord": {
+        "regle": "Ne pénaliser qu'une seule erreur pour tout groupe de mots dont aucun n'est accordé en genre et en nombre comme il devrait l'être, si même donneur",
+        "exemple": "Toute les filles sont partie → G -"
+      },
+      "phrase_graphique": {
+        "regle": "Ne pénaliser qu'une seule erreur lorsque les participes ou infinitifs coordonnés ou en énumération ne sont pas orthographiés correctement",
+        "exemple": "J'ai discuter et décider → G -",
+        "exception": "J'ai discuter et j'ai décider → G G (2 donneurs exprimés)"
+      },
+      "bloc_erreurs": {
+        "regle": "Ne pénaliser qu'une seule erreur par bloc pour la confusion sur le genre d'un mot commençant par voyelle ou h muet",
+        "exemple": "La belle argent [...] La grosse argent → G ---"
+      },
+      "tout_texte": {
+        "regle": "Ne pénaliser qu'une seule erreur pour la même erreur d'usage répétée dans tout le texte",
+        "exemple": "libertée [...] libertée [...] libertée → U (U) (U)"
+      }
+    },
+    "problemes_referent": {
+      "pronom_fonction": {
+        "regle": "Emploi erroné d'un déterminant référent ou pronom selon les caractéristiques de son antécédent → S",
+        "exemple": "Plusieurs élèves prétendent que la fin du secondaire est une étape importante pour son choix de carrière → leur → S"
+      },
+      "pronom_genre_nombre": {
+        "regle": "Choix du pronom selon les caractéristiques de l'antécédent (genre et nombre) → G, 1 fois par donneur",
+        "exemple": "Les valeurs des jeunes ne sont pas disparues. Elle change → Elles changent → G -"
+      }
+    }
+  }
+}

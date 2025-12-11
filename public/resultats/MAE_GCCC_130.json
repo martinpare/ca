@@ -1,0 +1,1100 @@
+{
+  "processedAt": "2025-12-10T15:05:28.165Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_130.txt",
+    "originalText": "Chers lecteurs,\r\n\r\nNous savons tous que la nourriture est essentielle à la survie d’un être humain. Depuis toujours, nous faisons le commerce des produits alimentaires pour que nous soyons en santé. Pourtant, le gaspillage de ces aliments ne cesse pas d’augmenter de jour à jour. Sommes-nous prêts à lutter contre cela ? J’ai comme opinion qu’avec l’état de consommation et de la vente détail, nous ne le sommes malheureusement pas.\r\n\r\nTout d’abord, prenons un d’oeuil vers notre façon de consommer quotidiennement. Le gaspillage alimentaire se répartit dans les 5 étapes de la chaîne d’approvisionnement alimentaire, mais la consommation demeure près de la moitié de cela. Chaque année, les familles au Canada gaspillent 2.2 millions de tonnes d’aliments, ce qui a comme conséquence une perte de plus de 17 milliards de dollars. Non seulement est-ce que nous perdons de l’argent, mais chaque tonne de nourriture jetée a l’équivalence d’une voiture mise en route chaque 12 mois. En outre, la date limite de conservation est une des informations les moins bien comprises par ceux qui consomment. Selon Mike von Massow, coauteur d’une étude sur le gaspillage alimentaire dans les maisons, cette information « n’a rien à voir avec la sécurité alimentaire ». Le nombre de produits qui sont dangereux à consommer après la date limite de conservation est bas. Certains aliments peuvent être consommés jusqu’à un an après la date « meilleur avant » si nous ne les altérons pas. Par contre, nous avons l’impression qu’après la date inscrite sur un produit, sa consommation aurait des effets négatifs sur notre corps et ce qui résulte de ce dernier, comme vous le constatez, cher lectorat, est le gaspillage. Bref, nous avons des connaissances importantes à apprendre avant que nous soyons prêts pour la lutte contre le gaspillage alimentaire.\r\n\r\n(RECYC-QUÉBEC, 2021)\r\n\r\nEnsuite, cher public, regardons la vente au détail. La manière dont nous voyons nos fruits et légumes a massivement impacté la vente de ces aliments. Leur apparence est souvent associée, par les consommateurs, à leur fraîcheur et à leur qualité. Selon Pascal Thériault, économiste agricole, le client cherche un produit parfait quand il se trouve à l’épicerie, mais il accepte que la nature soit imparfaite lors d’un achat directement du producteur. Quelle est la logique dans cette décision ? De plus, la gestion des stocks dans les marchés et dans les épiceries, n’est pas assez compétente pour moins gaspiller. Une grande partie des aliments vendus uniquement en format familial se retrouvent souvent au compost. Nous pourrions facilement éviter ce problème et limiter les produits achetés et non-consommés. En somme, les problèmes en vente de détail contribuent grandement au gaspillage des aliments (Cameron, 2020)",
+    "erreursCritere4": [
+      {
+        "text": "de jour à jour",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Calque de l'anglais. L'expression idiomatique correcte en français est « de jour en jour ».",
+        "suggestions": [
+          "de jour en jour"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "J’ai comme opinion que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Calque de l'anglais (« to have as an opinion »). On privilégiera des formulations comme « Je suis d'avis que », « Mon opinion est que » ou « À mon avis, ».",
+        "suggestions": [
+          "Je suis d'avis que",
+          "Mon opinion est que",
+          "À mon avis,"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "vente détail",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Absence de la préposition « au » dans la locution figée « vente au détail ». Une seule erreur de syntaxe est comptée dans cette phrase.",
+        "suggestions": [
+          "vente au détail"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "vers",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de préposition. On jette un coup d'œil « à » ou « sur » quelque chose, et non « vers ».",
+        "suggestions": [
+          "à",
+          "sur"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "Non seulement est-ce que nous perdons",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction de phrase lourde et boiteuse. La construction avec inversion du sujet (« Non seulement perdons-nous... ») ou sans la locution « est-ce que » (« Non seulement nous perdons... ») est préférable.",
+        "suggestions": [
+          "Non seulement perdons-nous",
+          "Non seulement nous perdons"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "a l’équivalence d’",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Calque de l'anglais. On utilise le verbe « équivaloir » : « équivaut à ».",
+        "suggestions": [
+          "équivaut à"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "chaque 12 mois",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "L'adjectif « chaque » s'emploie avec un nom au singulier. Pour indiquer la périodicité avec un pluriel, on utilise « tous les ». Une seule erreur de syntaxe est comptée dans cette phrase.",
+        "suggestions": [
+          "tous les 12 mois"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "ce qui résulte de ce dernier",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction de phrase boiteuse et ambiguë. Le pronom « en » serait plus approprié et allègerait la phrase : « ce qui en résulte ».",
+        "suggestions": [
+          "ce qui en résulte"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "connaissances importantes à apprendre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Pléonasme. On « acquiert » des connaissances, on ne les « apprend » pas.",
+        "suggestions": [
+          "connaissances importantes à acquérir"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": ",",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Virgule erronée entre le groupe sujet (« la gestion des stocks dans les marchés et dans les épiceries ») et le verbe (« est »).",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.10.2.a"
+      },
+      {
+        "text": "compétente",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Problème de sens (impropriété). Une gestion n'est pas « compétente », mais plutôt « efficace », « rigoureuse » ou « optimale ».",
+        "suggestions": [
+          "efficace",
+          "optimale",
+          "rigoureuse"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": "du",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition correcte pour indiquer la provenance d'un achat auprès d'une personne ou d'une entité est « auprès de ».",
+        "suggestions": [
+          "auprès du"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "aliments (Cameron, 2020)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque un point pour marquer la fin de la phrase avant la référence entre parenthèses.",
+        "suggestions": [
+          "aliments. (Cameron, 2020)"
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 10,
+      "note": "C"
+    },
+    "erreursCritere5": [
+      {
+        "text": "un d’oeuil",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Barbarisme orthographique. L'expression correcte est « un coup d'œil ».",
+        "suggestions": [
+          "un coup d'œil"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "text": "soyions",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Barbarisme de conjugaison. La forme correcte du subjonctif présent du verbe « être » à la première personne du pluriel est « soyons ».",
+        "suggestions": [
+          "soyons"
+        ],
+        "ruleApplied": "5.3.2.1"
+      },
+      {
+        "text": "5",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Les nombres inférieurs à dix doivent généralement être écrits en toutes lettres.",
+        "suggestions": [
+          "cinq"
+        ],
+        "ruleApplied": "5.2.6.3"
+      },
+      {
+        "text": "retrouvent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec le sujet « Une grande partie », qui est un singulier collectif. Le verbe doit donc être au singulier.",
+        "suggestions": [
+          "retrouve"
+        ],
+        "ruleApplied": "5.3.2.2"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 4,
+      "note": "A"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T15:01:47.232Z",
+    "endTimestamp": "2025-12-10T15:05:28.165Z",
+    "durationMs": 220933,
+    "durationFormatted": "03:40:933",
+    "cumulParPasse": [
+      {
+        "passe": 1,
+        "erreursCritere4": [
+          {
+            "text": "de jour à jour",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Calque de l'anglais. L'expression idiomatique correcte en français est « de jour en jour ».",
+            "suggestions": [
+              "de jour en jour"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "J’ai comme opinion que",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Calque de l'anglais (« to have as an opinion »). On privilégiera des formulations comme « Je suis d'avis que », « Mon opinion est que » ou « À mon avis, ».",
+            "suggestions": [
+              "Je suis d'avis que",
+              "Mon opinion est que",
+              "À mon avis,"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "vente détail",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "Absence de la préposition « au » dans la locution figée « vente au détail ». Une seule erreur de syntaxe est comptée dans cette phrase.",
+            "suggestions": [
+              "vente au détail"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "vers",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Erreur de préposition. On jette un coup d'œil « à » ou « sur » quelque chose, et non « vers ».",
+            "suggestions": [
+              "à",
+              "sur"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "Non seulement est-ce que nous perdons",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Construction de phrase lourde et boiteuse. La construction avec inversion du sujet (« Non seulement perdons-nous... ») ou sans la locution « est-ce que » (« Non seulement nous perdons... ») est préférable.",
+            "suggestions": [
+              "Non seulement perdons-nous",
+              "Non seulement nous perdons"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "a l’équivalence d’",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Calque de l'anglais. On utilise le verbe « équivaloir » : « équivaut à ».",
+            "suggestions": [
+              "équivaut à"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "chaque 12 mois",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "L'adjectif « chaque » s'emploie avec un nom au singulier. Pour indiquer la périodicité avec un pluriel, on utilise « tous les ». Une seule erreur de syntaxe est comptée dans cette phrase.",
+            "suggestions": [
+              "tous les 12 mois"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "ce qui résulte de ce dernier",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Construction de phrase boiteuse et ambiguë. Le pronom « en » serait plus approprié et allègerait la phrase : « ce qui en résulte ».",
+            "suggestions": [
+              "ce qui en résulte"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "connaissances importantes à apprendre",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Pléonasme. On « acquiert » des connaissances, on ne les « apprend » pas.",
+            "suggestions": [
+              "connaissances importantes à acquérir"
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          },
+          {
+            "text": ",",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Virgule erronée entre le groupe sujet (« la gestion des stocks dans les marchés et dans les épiceries ») et le verbe (« est »).",
+            "suggestions": [
+              ""
+            ],
+            "ruleApplied": "4.2.2.10.2.a"
+          },
+          {
+            "text": "compétente",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Problème de sens (impropriété). Une gestion n'est pas « compétente », mais plutôt « efficace », « rigoureuse » ou « optimale ».",
+            "suggestions": [
+              "efficace",
+              "optimale",
+              "rigoureuse"
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          },
+          {
+            "text": "(Cameron, 2020)",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Absence du point final à la fin de la phrase. La ponctuation finale doit se trouver après la parenthèse de la référence.",
+            "suggestions": [
+              "(Cameron, 2020)."
+            ],
+            "ruleApplied": "4.2.2.1.1"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "un d’oeuil",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Barbarisme orthographique. L'expression correcte est « un coup d'œil ».",
+            "suggestions": [
+              "un coup d'œil"
+            ],
+            "ruleApplied": "5.2.6.4"
+          },
+          {
+            "text": "soyions",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Barbarisme de conjugaison. La forme correcte du subjonctif présent du verbe « être » à la première personne du pluriel est « soyons ».",
+            "suggestions": [
+              "soyons"
+            ],
+            "ruleApplied": "5.3.2.1"
+          }
+        ],
+        "totalErreursCritere4": 12,
+        "totalErreursCritere5": 2,
+        "scoreCritere4": {
+          "pointsPerdus": 9,
+          "note": "B"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 2,
+          "note": "A"
+        }
+      },
+      {
+        "passe": 2,
+        "erreursCritere4": [
+          {
+            "text": "de jour à jour",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Calque de l'anglais. L'expression idiomatique correcte en français est « de jour en jour ».",
+            "suggestions": [
+              "de jour en jour"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "J’ai comme opinion que",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Calque de l'anglais (« to have as an opinion »). On privilégiera des formulations comme « Je suis d'avis que », « Mon opinion est que » ou « À mon avis, ».",
+            "suggestions": [
+              "Je suis d'avis que",
+              "Mon opinion est que",
+              "À mon avis,"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "vente détail",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "Absence de la préposition « au » dans la locution figée « vente au détail ». Une seule erreur de syntaxe est comptée dans cette phrase.",
+            "suggestions": [
+              "vente au détail"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "vers",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Erreur de préposition. On jette un coup d'œil « à » ou « sur » quelque chose, et non « vers ».",
+            "suggestions": [
+              "à",
+              "sur"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "Non seulement est-ce que nous perdons",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Construction de phrase lourde et boiteuse. La construction avec inversion du sujet (« Non seulement perdons-nous... ») ou sans la locution « est-ce que » (« Non seulement nous perdons... ») est préférable.",
+            "suggestions": [
+              "Non seulement perdons-nous",
+              "Non seulement nous perdons"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "a l’équivalence d’",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Calque de l'anglais. On utilise le verbe « équivaloir » : « équivaut à ».",
+            "suggestions": [
+              "équivaut à"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "chaque 12 mois",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "L'adjectif « chaque » s'emploie avec un nom au singulier. Pour indiquer la périodicité avec un pluriel, on utilise « tous les ». Une seule erreur de syntaxe est comptée dans cette phrase.",
+            "suggestions": [
+              "tous les 12 mois"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "ce qui résulte de ce dernier",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Construction de phrase boiteuse et ambiguë. Le pronom « en » serait plus approprié et allègerait la phrase : « ce qui en résulte ».",
+            "suggestions": [
+              "ce qui en résulte"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "connaissances importantes à apprendre",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Pléonasme. On « acquiert » des connaissances, on ne les « apprend » pas.",
+            "suggestions": [
+              "connaissances importantes à acquérir"
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          },
+          {
+            "text": ",",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Virgule erronée entre le groupe sujet (« la gestion des stocks dans les marchés et dans les épiceries ») et le verbe (« est »).",
+            "suggestions": [
+              ""
+            ],
+            "ruleApplied": "4.2.2.10.2.a"
+          },
+          {
+            "text": "compétente",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Problème de sens (impropriété). Une gestion n'est pas « compétente », mais plutôt « efficace », « rigoureuse » ou « optimale ».",
+            "suggestions": [
+              "efficace",
+              "optimale",
+              "rigoureuse"
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          },
+          {
+            "text": "(Cameron, 2020)",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Absence du point final à la fin de la phrase. La ponctuation finale doit se trouver après la parenthèse de la référence.",
+            "suggestions": [
+              "(Cameron, 2020)."
+            ],
+            "ruleApplied": "4.2.2.1.1"
+          },
+          {
+            "text": "vente détail",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Il manque la préposition « au » dans la locution figée « vente au détail ».",
+            "suggestions": [
+              "vente au détail"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "est-ce que",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La locution « est-ce que » est superflue dans cette construction avec « Non seulement ». On peut utiliser l'inversion sujet-verbe (« Non seulement perdons-nous ») ou une construction directe (« Non seulement nous perdons »).",
+            "suggestions": [
+              "(supprimer)"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "et ce qui résulte",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La fin de la phrase est mal construite. Le coordonnant « et » relie de manière incorrecte une proposition subordonnée complétive à une nouvelle proposition principale, ce qui brise la structure syntaxique.",
+            "suggestions": [
+              "et il en résulte"
+            ],
+            "ruleApplied": "4.1.2.1.8"
+          },
+          {
+            "text": "du",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La préposition correcte pour indiquer la provenance d'un achat auprès d'une personne ou d'une entité est « auprès de ».",
+            "suggestions": [
+              "auprès du"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "aliments (Cameron, 2020)",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Il manque un point pour marquer la fin de la phrase avant la référence entre parenthèses.",
+            "suggestions": [
+              "aliments. (Cameron, 2020)"
+            ],
+            "ruleApplied": "4.2.2.1.1"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "un d’oeuil",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Barbarisme orthographique. L'expression correcte est « un coup d'œil ».",
+            "suggestions": [
+              "un coup d'œil"
+            ],
+            "ruleApplied": "5.2.6.4"
+          },
+          {
+            "text": "soyions",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Barbarisme de conjugaison. La forme correcte du subjonctif présent du verbe « être » à la première personne du pluriel est « soyons ».",
+            "suggestions": [
+              "soyons"
+            ],
+            "ruleApplied": "5.3.2.1"
+          },
+          {
+            "text": "5",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Les nombres inférieurs à dix doivent généralement être écrits en toutes lettres.",
+            "suggestions": [
+              "cinq"
+            ],
+            "ruleApplied": "5.2.6.3"
+          },
+          {
+            "text": "retrouvent",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe doit s'accorder avec le sujet « Une grande partie », qui est un singulier collectif. Le verbe doit donc être au singulier.",
+            "suggestions": [
+              "retrouve"
+            ],
+            "ruleApplied": "5.3.2.2"
+          }
+        ],
+        "totalErreursCritere4": 17,
+        "totalErreursCritere5": 4,
+        "scoreCritere4": {
+          "pointsPerdus": 13.5,
+          "note": "C"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 4,
+          "note": "A"
+        }
+      }
+    ],
+    "erreursCritere4AvantAnalyseIA": [
+      {
+        "text": "de jour à jour",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Calque de l'anglais. L'expression idiomatique correcte en français est « de jour en jour ».",
+        "suggestions": [
+          "de jour en jour"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "J’ai comme opinion que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Calque de l'anglais (« to have as an opinion »). On privilégiera des formulations comme « Je suis d'avis que », « Mon opinion est que » ou « À mon avis, ».",
+        "suggestions": [
+          "Je suis d'avis que",
+          "Mon opinion est que",
+          "À mon avis,"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "vente détail",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Absence de la préposition « au » dans la locution figée « vente au détail ». Une seule erreur de syntaxe est comptée dans cette phrase.",
+        "suggestions": [
+          "vente au détail"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "vers",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de préposition. On jette un coup d'œil « à » ou « sur » quelque chose, et non « vers ».",
+        "suggestions": [
+          "à",
+          "sur"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "Non seulement est-ce que nous perdons",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction de phrase lourde et boiteuse. La construction avec inversion du sujet (« Non seulement perdons-nous... ») ou sans la locution « est-ce que » (« Non seulement nous perdons... ») est préférable.",
+        "suggestions": [
+          "Non seulement perdons-nous",
+          "Non seulement nous perdons"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "a l’équivalence d’",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Calque de l'anglais. On utilise le verbe « équivaloir » : « équivaut à ».",
+        "suggestions": [
+          "équivaut à"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "chaque 12 mois",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "L'adjectif « chaque » s'emploie avec un nom au singulier. Pour indiquer la périodicité avec un pluriel, on utilise « tous les ». Une seule erreur de syntaxe est comptée dans cette phrase.",
+        "suggestions": [
+          "tous les 12 mois"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "ce qui résulte de ce dernier",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction de phrase boiteuse et ambiguë. Le pronom « en » serait plus approprié et allègerait la phrase : « ce qui en résulte ».",
+        "suggestions": [
+          "ce qui en résulte"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "connaissances importantes à apprendre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Pléonasme. On « acquiert » des connaissances, on ne les « apprend » pas.",
+        "suggestions": [
+          "connaissances importantes à acquérir"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": ",",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Virgule erronée entre le groupe sujet (« la gestion des stocks dans les marchés et dans les épiceries ») et le verbe (« est »).",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.10.2.a"
+      },
+      {
+        "text": "compétente",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Problème de sens (impropriété). Une gestion n'est pas « compétente », mais plutôt « efficace », « rigoureuse » ou « optimale ».",
+        "suggestions": [
+          "efficace",
+          "optimale",
+          "rigoureuse"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": "(Cameron, 2020)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence du point final à la fin de la phrase. La ponctuation finale doit se trouver après la parenthèse de la référence.",
+        "suggestions": [
+          "(Cameron, 2020)."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "text": "vente détail",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque la préposition « au » dans la locution figée « vente au détail ».",
+        "suggestions": [
+          "vente au détail"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "est-ce que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution « est-ce que » est superflue dans cette construction avec « Non seulement ». On peut utiliser l'inversion sujet-verbe (« Non seulement perdons-nous ») ou une construction directe (« Non seulement nous perdons »).",
+        "suggestions": [
+          "(supprimer)"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "et ce qui résulte",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La fin de la phrase est mal construite. Le coordonnant « et » relie de manière incorrecte une proposition subordonnée complétive à une nouvelle proposition principale, ce qui brise la structure syntaxique.",
+        "suggestions": [
+          "et il en résulte"
+        ],
+        "ruleApplied": "4.1.2.1.8"
+      },
+      {
+        "text": "du",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition correcte pour indiquer la provenance d'un achat auprès d'une personne ou d'une entité est « auprès de ».",
+        "suggestions": [
+          "auprès du"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "aliments (Cameron, 2020)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque un point pour marquer la fin de la phrase avant la référence entre parenthèses.",
+        "suggestions": [
+          "aliments. (Cameron, 2020)"
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      }
+    ],
+    "erreursCritere5AvantAnalyseIA": [
+      {
+        "text": "un d’oeuil",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Barbarisme orthographique. L'expression correcte est « un coup d'œil ».",
+        "suggestions": [
+          "un coup d'œil"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "text": "soyions",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Barbarisme de conjugaison. La forme correcte du subjonctif présent du verbe « être » à la première personne du pluriel est « soyons ».",
+        "suggestions": [
+          "soyons"
+        ],
+        "ruleApplied": "5.3.2.1"
+      },
+      {
+        "text": "5",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Les nombres inférieurs à dix doivent généralement être écrits en toutes lettres.",
+        "suggestions": [
+          "cinq"
+        ],
+        "ruleApplied": "5.2.6.3"
+      },
+      {
+        "text": "retrouvent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec le sujet « Une grande partie », qui est un singulier collectif. Le verbe doit donc être au singulier.",
+        "suggestions": [
+          "retrouve"
+        ],
+        "ruleApplied": "5.3.2.2"
+      }
+    ],
+    "analyseIADuplicatas": {
+      "critere4": {
+        "analyse": {
+          "totalErreursCritere4": 17,
+          "totalErreursCritere5": 0,
+          "duplicatasCritere4": 4,
+          "duplicatasCritere5": 0
+        },
+        "duplicatasCritere4": [
+          {
+            "groupe": 1,
+            "confiance": 100,
+            "raison": "Texte, occurrence et règle appliquée identiques. Les deux erreurs signalent l'absence de la préposition 'au'.",
+            "erreurs": [
+              {
+                "index": 2,
+                "text": "vente détail",
+                "garder": true
+              },
+              {
+                "index": 12,
+                "text": "vente détail",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 2,
+            "confiance": 95,
+            "raison": "Même erreur de construction. L'erreur à l'index 13 ('est-ce que') est une partie de l'erreur plus complète et contextuelle à l'index 4.",
+            "erreurs": [
+              {
+                "index": 4,
+                "text": "Non seulement est-ce que nous perdons",
+                "garder": true
+              },
+              {
+                "index": 13,
+                "text": "est-ce que",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 3,
+            "confiance": 90,
+            "raison": "Les deux erreurs ciblent la même construction de phrase maladroite autour de 'ce qui résulte', avec un chevauchement de texte significatif.",
+            "erreurs": [
+              {
+                "index": 7,
+                "text": "ce qui résulte de ce dernier",
+                "garder": true
+              },
+              {
+                "index": 14,
+                "text": "et ce qui résulte",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 4,
+            "confiance": 100,
+            "raison": "Même erreur de ponctuation (point final manquant) au même endroit. L'erreur à l'index 16 inclut plus de contexte textuel, ce qui est préférable.",
+            "erreurs": [
+              {
+                "index": 16,
+                "text": "aliments (Cameron, 2020)",
+                "garder": true
+              },
+              {
+                "index": 11,
+                "text": "(Cameron, 2020)",
+                "garder": false
+              }
+            ]
+          }
+        ],
+        "duplicatasCritere5": [],
+        "erreursUniquesCritere4": [
+          {
+            "index": 0,
+            "text": "de jour à jour",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 1,
+            "text": "J’ai comme opinion que",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 3,
+            "text": "vers",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 5,
+            "text": "a l’équivalence d’",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 6,
+            "text": "chaque 12 mois",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 8,
+            "text": "connaissances importantes à apprendre",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 9,
+            "text": ",",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 10,
+            "text": "compétente",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 15,
+            "text": "du",
+            "raison": "Aucun duplicata trouvé"
+          }
+        ],
+        "erreursUniquesCritere5": [],
+        "recommandations": {
+          "erreursAConserverCritere4": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            15,
+            16
+          ],
+          "erreursAConserverCritere5": [],
+          "erreursASupprimer": {
+            "critere4": [
+              11,
+              12,
+              13,
+              14
+            ],
+            "critere5": []
+          }
+        }
+      },
+      "critere5": {
+        "analyse": {
+          "totalErreursCritere4": 0,
+          "totalErreursCritere5": 4,
+          "duplicatasCritere4": 0,
+          "duplicatasCritere5": 0
+        },
+        "duplicatasCritere4": [],
+        "duplicatasCritere5": [],
+        "erreursUniquesCritere4": [],
+        "erreursUniquesCritere5": [
+          {
+            "index": 0,
+            "text": "un d’oeuil",
+            "raison": "Aucun duplicata trouvé. Concerne un barbarisme orthographique unique."
+          },
+          {
+            "index": 1,
+            "text": "soyions",
+            "raison": "Aucun duplicata trouvé. Concerne un barbarisme de conjugaison unique."
+          },
+          {
+            "index": 2,
+            "text": "5",
+            "raison": "Aucun duplicata trouvé. Concerne une règle typographique sur l'écriture des nombres."
+          },
+          {
+            "index": 3,
+            "text": "retrouvent",
+            "raison": "Aucun duplicata trouvé. Concerne une erreur d'accord sujet-verbe unique."
+          }
+        ],
+        "recommandations": {
+          "erreursAConserverCritere4": [],
+          "erreursAConserverCritere5": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "erreursASupprimer": {
+            "critere4": [],
+            "critere5": []
+          }
+        }
+      }
+    }
+  }
+}

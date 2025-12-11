@@ -1,0 +1,2098 @@
+{
+  "processedAt": "2025-12-10T15:05:57.573Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_128.txt",
+    "originalText": "La réforme alimentaire !\r\n\r\nMettez-vous dans les chaussures d’un sans-habri qui ne peut pas s’alimenter.Vous voyez les aliments frais dans les poubelles de la ville et des familles qui jettent leurs repas après la première bouchée. Ceci est une réalité quotidienne. Des millions de tonnes de nourriture sont gaspilliés par an. Après toutes ces années de surconsommation et de gaspillage extrême, j’affirme qu’il est temps de prendre de l’action et faire notre part pour notre Terre et la société.\r\n\r\nPremièrement je crois définitivement que notre société est prête à lutter contre le gaspillage alimentaire, car nous possédons les moyens pour arrêter une grande partie de ceci. Tout d’abord, il faut considérer les facteurs qui rendent les familles québécoises plus susceptibles au gaspillage, par exemple : le manque de temps pour cuisiner, une planification de repas qui n’est pas adéquate, etc. Aussi, selon RECYC-QUÉBEC, il y a des moyens efficaces pour limiter la perte de nos biens  ,par exemple : « de planifier les repas et de faire une liste d’épicerie, d’acheter en quantités raisonnables, de faire cuire les fruits et légumes trop mûrs, de congeler les restes en portions individuelles1.» De plus, une grosse somme des membres de notre société favorise les aliments qui leurs plaisent , et négligent ceux qui ont des dommages visibles. Cette situation peut être évitée facilement. À moins que l’aliment en question n’est plus comestible et risque la propagation d’intoxication, les\r\n\r\nne vont pas défavoriser son goût, et donc il n’y a aucune raison pour l’éviter. Selon Mike von Massow, qui est un coauteur d’une étude qui parle du gaspillage alimentaire au domicile, pour la majorité\r\n\r\ndes produits, la date limite de conservation n’est pas nécessairement authentique à sa comestibilité2. En somme, c’est grâce aux recherches et aux articles disponibles que je crois que nous sommes en mesure de lutter contre le gaspillage des aliments.\r\n\r\nDeuxièmement, je suis en faveur avec l’arrêt du gaspillage alimentaire et je crois que nous sommes prêts, parce qu’il y a de nombreuses personnes qui ne détiennent pas les moyens financiers pour se procurer des biens alimentaires. Pensez-vous que ces humains préfèrent consommer des légumes malformés, ou simplement avoir un ventre vide ? Les produits déchiquetés qui proviennent durant ses étapes de production et de transformation finissent aux poubelles de toute manière. Et bien, Stéphane Lacasse, qui est un porte-parole de l’Association des détaillants en alimentation du Québec, affirme que les épiceries devraient offrir davantage du stock aux banques alimentaires, grâce à des restrictions de transportation3. Alors, nous prévoyons la donation provenant d’environ 425 les cinq prochaines années. Ceci peut valoir d’environ 6,7 de kilos de biens ! Donc, comme vous pouvez voir, nous sommes irrévocablement prêts pour la lutte contre le gaspillage alimentaire. Nous sommes sur la bonne voie et ceci va sûrement s’améliorer davantage dans les prochaines années. \r\n\r\nEn conclusion, je crois que nous sommes en mesure de lutter contre gaspillage alimentaire. Pour les raisons suivants, je peux affirmer mon opinion : nous possédons déjà tout ce qu’il faut pour arrêter la d’aliments inutile, et ces aliments peuvent se diriger vers des banques alimentaires, et non dans des poubelles. Bien qu’il y ait déjà des précautions mises en place, le gouvernement devrait les renforcer exponentiellement ! Qui sait où notre société peut aller si toute la communauté avait du respect relatif pour notre environnement…\r\n\r\n(1) RECYC-QUÉBEC (2021). « Gaspillage alimentaire », RECYC-QUÉBEC, [En ligne].\r\n\r\n(2) SIMARD, Valérie (2020). « Sauvetage alimentaire », lapresse.ca, [En ligne], 16 février\r\n\r\n(3) CORRIVEAU, Jeanne (2020) « La fierté de ne pas gaspiller d’aliments », Le Devoir, [En ligne], 23 novembre",
+    "erreursCritere4": [
+      {
+        "text": "prendre de l’action",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression 'prendre de l'action' est un calque de l'anglais 'to take action'. En français, on utilise plutôt 'passer à l'action' ou 'agir'.",
+        "suggestions": [
+          "passer à l'action",
+          "d'agir"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "Premièrement je",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule est requise après un organisateur textuel ('Premièrement') en tête de phrase.",
+        "suggestions": [
+          "Premièrement, je"
+        ],
+        "ruleApplied": "4.2.2.10.1.k"
+      },
+      {
+        "text": "biens ,par",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "L'espace doit suivre le signe de ponctuation (la virgule) et non le précéder.",
+        "suggestions": [
+          "biens, par"
+        ],
+        "ruleApplied": "4.2.1.5"
+      },
+      {
+        "text": "individuelles1.»",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Un point est requis pour marquer la fin de la phrase.",
+        "suggestions": [
+          "individuelles. »¹"
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "text": "une grosse somme des membres",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression 'une grosse somme des membres' est sémantiquement incorrecte pour désigner une quantité de personnes. On utilise plutôt 'un grand nombre de membres'.",
+        "suggestions": [
+          "un grand nombre de membres"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": "plaisent ,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "L'espace doit suivre le signe de ponctuation (la virgule) et non le précéder.",
+        "suggestions": [
+          "plaisent,"
+        ],
+        "ruleApplied": "4.2.1.5"
+      },
+      {
+        "text": "n’est plus",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution conjonctive 'à moins que' exige l'emploi du subjonctif.",
+        "suggestions": [
+          "ne soit plus"
+        ],
+        "ruleApplied": "4.1.2.2.3"
+      },
+      {
+        "text": "les",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "La phrase est incomplète; il manque le sujet du verbe 'vont'. Cette erreur de syntaxe n'est pas comptabilisée, car il y en a déjà une dans la même phrase syntaxique.",
+        "suggestions": [
+          "les dommages visibles"
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "text": "authentique à sa comestibilité",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression 'authentique à' est incorrecte dans ce contexte. Il faut reformuler pour exprimer le lien, par exemple avec 'liée à' ou 'représentative de'.",
+        "suggestions": [
+          "liée à sa comestibilité",
+          "représentative de sa comestibilité"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": "en faveur avec",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution 'en faveur' doit être suivie de la préposition 'de' et non 'avec'.",
+        "suggestions": [
+          "en faveur de"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "ses étapes",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le déterminant possessif doit s'accorder avec le possesseur 'Les produits déchiquetés' (pluriel). Il faut donc utiliser 'leurs'.",
+        "suggestions": [
+          "leurs étapes"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "text": "davantage du stock",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'adverbe de quantité 'davantage' doit être suivi de la préposition 'de' (ou d') sans article.",
+        "suggestions": [
+          "davantage de stock"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "transportation",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Le mot 'transportation' est un anglicisme. Le terme correct en français est 'transport'. Cette erreur de syntaxe n'est pas comptabilisée, car il y en a déjà une dans la même phrase syntaxique.",
+        "suggestions": [
+          "transport"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "425 les cinq prochaines années",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La phrase est mal construite et il manque un mot essentiel après le nombre '425' pour que la phrase ait un sens. Il faut aussi revoir la structure de la fin de la phrase.",
+        "suggestions": [
+          "425 magasins durant les cinq prochaines années"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "valoir d’environ 6,7 de kilos",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction 'valoir de' est incorrecte. De plus, la préposition 'de' est superflue après le nombre. Il faut reformuler, par exemple : 'représenter environ 6,7 millions de kilos'.",
+        "suggestions": [
+          "représenter environ 6,7 kilos"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "contre gaspillage",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque l'article défini 'le' devant le nom 'gaspillage'.",
+        "suggestions": [
+          "contre le gaspillage"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "la d’aliments inutile",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque un mot essentiel (comme 'perte' ou 'destruction') après l'article 'la' pour que la phrase soit syntaxiquement correcte.",
+        "suggestions": [
+          "la perte d'aliments inutile"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "16 février",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Un point est requis pour marquer la fin de la référence bibliographique.",
+        "suggestions": [
+          "16 février."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "text": "(2020) «",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule est requise pour séparer l'année du titre de l'article dans cette notice bibliographique.",
+        "suggestions": [
+          "(2020), «"
+        ],
+        "ruleApplied": "4.2.2.10.1.a"
+      },
+      {
+        "text": "23 novembre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Un point est requis pour marquer la fin de la référence bibliographique.",
+        "suggestions": [
+          "23 novembre."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "text": ",",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "La virgule est superflue avant 'par exemple' lorsque celui-ci est suivi d'un deux-points pour introduire une énumération ou une citation.",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.10.2.h"
+      },
+      {
+        "text": "les",
+        "occurenceIndex": 8,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Il manque un mot essentiel, le sujet du verbe 'vont'. La phrase est incomplète. Puisqu'il y a déjà une erreur de syntaxe (S) dans cette phrase ('n’est'), cette erreur n'est pas comptabilisée.",
+        "suggestions": [
+          "les dommages"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "comme vous pouvez voir",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression 'comme vous pouvez voir' est un calque de l'anglais 'as you can see'. En français, on privilégie 'comme vous pouvez le constater' ou 'comme on peut le voir'.",
+        "suggestions": [
+          "comme vous pouvez le constater"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "où",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Pour exprimer une limite ou une portée, l'interrogatif 'où' doit être précédé de 'jusqu''. Il manque donc le mot 'jusqu''.",
+        "suggestions": [
+          "jusqu'où"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "relatif",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "L'adjectif 'relatif' est utilisé de manière inappropriée et crée un problème de sens. Il devrait probablement être supprimé ou remplacé par 'un certain'. Puisqu'il y a déjà une erreur de syntaxe (S) dans cette phrase ('où'), cette erreur n'est pas comptabilisée.",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 17,
+      "note": "D"
+    },
+    "erreursCritere5": [
+      {
+        "text": "sans-habri",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot 'sans-abri' s'écrit avec un 'a' et non 'ha'.",
+        "suggestions": [
+          "sans-abri"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "gaspilliés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'gaspillé', employé avec l'auxiliaire 'être', s'accorde en genre et en nombre avec le sujet 'Des millions de tonnes de nourriture'. Le noyau du sujet est 'tonnes' (féminin pluriel).",
+        "suggestions": [
+          "gaspillées"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "leurs plaisent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom personnel 'leur' est invariable lorsqu'il est complément d'objet indirect d'un verbe, même si son antécédent ('les membres') est pluriel.",
+        "suggestions": [
+          "leur plaisent"
+        ],
+        "ruleApplied": "5.3.1.4"
+      },
+      {
+        "text": "négligent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'négliger' doit s'accorder avec son sujet 'une grosse somme', qui est au singulier.",
+        "suggestions": [
+          "néglige"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "Et bien",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'interjection s'écrit 'Eh bien'.",
+        "suggestions": [
+          "Eh bien"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "suivants",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'suivant' doit s'accorder en genre et en nombre avec le nom qu'il qualifie, 'raisons' (féminin pluriel).",
+        "suggestions": [
+          "suivantes"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "lapresse.ca",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Les noms propres, y compris les noms de médias, commencent généralement par une majuscule.",
+        "suggestions": [
+          "LaPresse.ca"
+        ],
+        "ruleApplied": "5.2.4.1.2"
+      },
+      {
+        "text": "transportation",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot 'transportation' est un anglicisme. Le terme français correct est 'transport'.",
+        "suggestions": [
+          "transport"
+        ],
+        "ruleApplied": "5.2.1.3"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 8,
+      "note": "B"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T15:01:18.742Z",
+    "endTimestamp": "2025-12-10T15:05:57.573Z",
+    "durationMs": 278831,
+    "durationFormatted": "04:38:831",
+    "cumulParPasse": [
+      {
+        "passe": 1,
+        "erreursCritere4": [
+          {
+            "text": "prendre de l’action",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'expression 'prendre de l'action' est un calque de l'anglais 'to take action'. En français, on utilise plutôt 'passer à l'action' ou 'agir'.",
+            "suggestions": [
+              "passer à l'action",
+              "d'agir"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "Premièrement je",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Une virgule est requise après un organisateur textuel ('Premièrement') en tête de phrase.",
+            "suggestions": [
+              "Premièrement, je"
+            ],
+            "ruleApplied": "4.2.2.10.1.k"
+          },
+          {
+            "text": "biens ,par",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "L'espace doit suivre le signe de ponctuation (la virgule) et non le précéder.",
+            "suggestions": [
+              "biens, par"
+            ],
+            "ruleApplied": "4.2.1.5"
+          },
+          {
+            "text": "individuelles1.»",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Un point est requis pour marquer la fin de la phrase.",
+            "suggestions": [
+              "individuelles. »¹"
+            ],
+            "ruleApplied": "4.2.2.1.1"
+          },
+          {
+            "text": "une grosse somme des membres",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'expression 'une grosse somme des membres' est sémantiquement incorrecte pour désigner une quantité de personnes. On utilise plutôt 'un grand nombre de membres'.",
+            "suggestions": [
+              "un grand nombre de membres"
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          },
+          {
+            "text": "plaisent ,",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "L'espace doit suivre le signe de ponctuation (la virgule) et non le précéder.",
+            "suggestions": [
+              "plaisent,"
+            ],
+            "ruleApplied": "4.2.1.5"
+          },
+          {
+            "text": "n’est plus",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La locution conjonctive 'à moins que' exige l'emploi du subjonctif.",
+            "suggestions": [
+              "ne soit plus"
+            ],
+            "ruleApplied": "4.1.2.2.3"
+          },
+          {
+            "text": "les",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "La phrase est incomplète; il manque le sujet du verbe 'vont'. Cette erreur de syntaxe n'est pas comptabilisée, car il y en a déjà une dans la même phrase syntaxique.",
+            "suggestions": [
+              "les dommages visibles"
+            ],
+            "ruleApplied": "4.1.2.1.4"
+          },
+          {
+            "text": "authentique à sa comestibilité",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'expression 'authentique à' est incorrecte dans ce contexte. Il faut reformuler pour exprimer le lien, par exemple avec 'liée à' ou 'représentative de'.",
+            "suggestions": [
+              "liée à sa comestibilité",
+              "représentative de sa comestibilité"
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          },
+          {
+            "text": "en faveur avec",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La locution 'en faveur' doit être suivie de la préposition 'de' et non 'avec'.",
+            "suggestions": [
+              "en faveur de"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "ses étapes",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le déterminant possessif doit s'accorder avec le possesseur 'Les produits déchiquetés' (pluriel). Il faut donc utiliser 'leurs'.",
+            "suggestions": [
+              "leurs étapes"
+            ],
+            "ruleApplied": "4.1.2.3.2"
+          },
+          {
+            "text": "davantage du stock",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'adverbe de quantité 'davantage' doit être suivi de la préposition 'de' (ou d') sans article.",
+            "suggestions": [
+              "davantage de stock"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "transportation",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "Le mot 'transportation' est un anglicisme. Le terme correct en français est 'transport'. Cette erreur de syntaxe n'est pas comptabilisée, car il y en a déjà une dans la même phrase syntaxique.",
+            "suggestions": [
+              "transport"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "425 les cinq prochaines années",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La phrase est mal construite et il manque un mot essentiel après le nombre '425' pour que la phrase ait un sens. Il faut aussi revoir la structure de la fin de la phrase.",
+            "suggestions": [
+              "425 magasins durant les cinq prochaines années"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "valoir d’environ 6,7 de kilos",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction 'valoir de' est incorrecte. De plus, la préposition 'de' est superflue après le nombre. Il faut reformuler, par exemple : 'représenter environ 6,7 millions de kilos'.",
+            "suggestions": [
+              "représenter environ 6,7 kilos"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "contre gaspillage",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Il manque l'article défini 'le' devant le nom 'gaspillage'.",
+            "suggestions": [
+              "contre le gaspillage"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "la d’aliments inutile",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Il manque un mot essentiel (comme 'perte' ou 'destruction') après l'article 'la' pour que la phrase soit syntaxiquement correcte.",
+            "suggestions": [
+              "la perte d'aliments inutile"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "16 février",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Un point est requis pour marquer la fin de la référence bibliographique.",
+            "suggestions": [
+              "16 février."
+            ],
+            "ruleApplied": "4.2.2.1.1"
+          },
+          {
+            "text": "(2020) «",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Une virgule est requise pour séparer l'année du titre de l'article dans cette notice bibliographique.",
+            "suggestions": [
+              "(2020), «"
+            ],
+            "ruleApplied": "4.2.2.10.1.a"
+          },
+          {
+            "text": "23 novembre",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Un point est requis pour marquer la fin de la référence bibliographique.",
+            "suggestions": [
+              "23 novembre."
+            ],
+            "ruleApplied": "4.2.2.1.1"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "sans-habri",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Le mot 'sans-abri' s'écrit avec un 'a' et non 'ha'.",
+            "suggestions": [
+              "sans-abri"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "gaspilliés",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé 'gaspillé', employé avec l'auxiliaire 'être', s'accorde en genre et en nombre avec le sujet 'Des millions de tonnes de nourriture'. Le noyau du sujet est 'tonnes' (féminin pluriel).",
+            "suggestions": [
+              "gaspillées"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "leurs plaisent",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le pronom personnel 'leur' est invariable lorsqu'il est complément d'objet indirect d'un verbe, même si son antécédent ('les membres') est pluriel.",
+            "suggestions": [
+              "leur plaisent"
+            ],
+            "ruleApplied": "5.3.1.4"
+          },
+          {
+            "text": "négligent",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe 'négliger' doit s'accorder avec son sujet 'une grosse somme', qui est au singulier.",
+            "suggestions": [
+              "néglige"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "Et bien",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "L'interjection s'écrit 'Eh bien'.",
+            "suggestions": [
+              "Eh bien"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "suivants",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif 'suivant' doit s'accorder en genre et en nombre avec le nom qu'il qualifie, 'raisons' (féminin pluriel).",
+            "suggestions": [
+              "suivantes"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "lapresse.ca",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Les noms propres, y compris les noms de médias, commencent généralement par une majuscule.",
+            "suggestions": [
+              "LaPresse.ca"
+            ],
+            "ruleApplied": "5.2.4.1.2"
+          }
+        ],
+        "totalErreursCritere4": 20,
+        "totalErreursCritere5": 7,
+        "scoreCritere4": {
+          "pointsPerdus": 14.5,
+          "note": "D"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 7,
+          "note": "B"
+        }
+      },
+      {
+        "passe": 2,
+        "erreursCritere4": [
+          {
+            "text": "prendre de l’action",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'expression 'prendre de l'action' est un calque de l'anglais 'to take action'. En français, on utilise plutôt 'passer à l'action' ou 'agir'.",
+            "suggestions": [
+              "passer à l'action",
+              "d'agir"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "Premièrement je",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Une virgule est requise après un organisateur textuel ('Premièrement') en tête de phrase.",
+            "suggestions": [
+              "Premièrement, je"
+            ],
+            "ruleApplied": "4.2.2.10.1.k"
+          },
+          {
+            "text": "biens ,par",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "L'espace doit suivre le signe de ponctuation (la virgule) et non le précéder.",
+            "suggestions": [
+              "biens, par"
+            ],
+            "ruleApplied": "4.2.1.5"
+          },
+          {
+            "text": "individuelles1.»",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Un point est requis pour marquer la fin de la phrase.",
+            "suggestions": [
+              "individuelles. »¹"
+            ],
+            "ruleApplied": "4.2.2.1.1"
+          },
+          {
+            "text": "une grosse somme des membres",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'expression 'une grosse somme des membres' est sémantiquement incorrecte pour désigner une quantité de personnes. On utilise plutôt 'un grand nombre de membres'.",
+            "suggestions": [
+              "un grand nombre de membres"
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          },
+          {
+            "text": "plaisent ,",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "L'espace doit suivre le signe de ponctuation (la virgule) et non le précéder.",
+            "suggestions": [
+              "plaisent,"
+            ],
+            "ruleApplied": "4.2.1.5"
+          },
+          {
+            "text": "n’est plus",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La locution conjonctive 'à moins que' exige l'emploi du subjonctif.",
+            "suggestions": [
+              "ne soit plus"
+            ],
+            "ruleApplied": "4.1.2.2.3"
+          },
+          {
+            "text": "les",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "La phrase est incomplète; il manque le sujet du verbe 'vont'. Cette erreur de syntaxe n'est pas comptabilisée, car il y en a déjà une dans la même phrase syntaxique.",
+            "suggestions": [
+              "les dommages visibles"
+            ],
+            "ruleApplied": "4.1.2.1.4"
+          },
+          {
+            "text": "authentique à sa comestibilité",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'expression 'authentique à' est incorrecte dans ce contexte. Il faut reformuler pour exprimer le lien, par exemple avec 'liée à' ou 'représentative de'.",
+            "suggestions": [
+              "liée à sa comestibilité",
+              "représentative de sa comestibilité"
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          },
+          {
+            "text": "en faveur avec",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La locution 'en faveur' doit être suivie de la préposition 'de' et non 'avec'.",
+            "suggestions": [
+              "en faveur de"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "ses étapes",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le déterminant possessif doit s'accorder avec le possesseur 'Les produits déchiquetés' (pluriel). Il faut donc utiliser 'leurs'.",
+            "suggestions": [
+              "leurs étapes"
+            ],
+            "ruleApplied": "4.1.2.3.2"
+          },
+          {
+            "text": "davantage du stock",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'adverbe de quantité 'davantage' doit être suivi de la préposition 'de' (ou d') sans article.",
+            "suggestions": [
+              "davantage de stock"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "transportation",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "Le mot 'transportation' est un anglicisme. Le terme correct en français est 'transport'. Cette erreur de syntaxe n'est pas comptabilisée, car il y en a déjà une dans la même phrase syntaxique.",
+            "suggestions": [
+              "transport"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "425 les cinq prochaines années",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La phrase est mal construite et il manque un mot essentiel après le nombre '425' pour que la phrase ait un sens. Il faut aussi revoir la structure de la fin de la phrase.",
+            "suggestions": [
+              "425 magasins durant les cinq prochaines années"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "valoir d’environ 6,7 de kilos",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction 'valoir de' est incorrecte. De plus, la préposition 'de' est superflue après le nombre. Il faut reformuler, par exemple : 'représenter environ 6,7 millions de kilos'.",
+            "suggestions": [
+              "représenter environ 6,7 kilos"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "contre gaspillage",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Il manque l'article défini 'le' devant le nom 'gaspillage'.",
+            "suggestions": [
+              "contre le gaspillage"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "la d’aliments inutile",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Il manque un mot essentiel (comme 'perte' ou 'destruction') après l'article 'la' pour que la phrase soit syntaxiquement correcte.",
+            "suggestions": [
+              "la perte d'aliments inutile"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "16 février",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Un point est requis pour marquer la fin de la référence bibliographique.",
+            "suggestions": [
+              "16 février."
+            ],
+            "ruleApplied": "4.2.2.1.1"
+          },
+          {
+            "text": "(2020) «",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Une virgule est requise pour séparer l'année du titre de l'article dans cette notice bibliographique.",
+            "suggestions": [
+              "(2020), «"
+            ],
+            "ruleApplied": "4.2.2.10.1.a"
+          },
+          {
+            "text": "23 novembre",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Un point est requis pour marquer la fin de la référence bibliographique.",
+            "suggestions": [
+              "23 novembre."
+            ],
+            "ruleApplied": "4.2.2.1.1"
+          },
+          {
+            "text": "Premièrement",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Un organisateur textuel en tête de phrase, comme 'Premièrement', doit être suivi d'une virgule.",
+            "suggestions": [
+              "Premièrement,"
+            ],
+            "ruleApplied": "4.2.2.10.1.k"
+          },
+          {
+            "text": ",",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "La virgule est superflue avant 'par exemple' lorsque celui-ci est suivi d'un deux-points pour introduire une énumération ou une citation.",
+            "suggestions": [
+              ""
+            ],
+            "ruleApplied": "4.2.2.10.2.h"
+          },
+          {
+            "text": "grosse somme",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'expression 'une grosse somme' s'applique généralement à de l'argent. Pour parler de personnes, il faut utiliser 'un grand nombre' ou 'une grande partie'. L'emploi de 'somme' crée ici un problème de sens.",
+            "suggestions": [
+              "un grand nombre"
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          },
+          {
+            "text": "n’est",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La locution conjonctive 'à moins que' exige l'emploi du subjonctif. Il faut donc écrire 'ne soit' et non 'n'est'.",
+            "suggestions": [
+              "ne soit"
+            ],
+            "ruleApplied": "4.1.2.2.3"
+          },
+          {
+            "text": "les",
+            "occurenceIndex": 8,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "Il manque un mot essentiel, le sujet du verbe 'vont'. La phrase est incomplète. Puisqu'il y a déjà une erreur de syntaxe (S) dans cette phrase ('n’est'), cette erreur n'est pas comptabilisée.",
+            "suggestions": [
+              "les dommages"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "authentique à",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction 'authentique à' est incorrecte. Il faut reformuler pour exprimer l'idée, par exemple avec 'n'est pas nécessairement un indicateur fiable de sa comestibilité'. L'erreur porte sur la construction avec la préposition.",
+            "suggestions": [
+              "un indicateur fiable de"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "ses",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le déterminant possessif 'ses' renvoie à un possesseur singulier. Or, l'antécédent est 'Les produits déchiquetés' (pluriel). Il faut utiliser le déterminant 'leurs' qui renvoie à un possesseur pluriel.",
+            "suggestions": [
+              "leurs"
+            ],
+            "ruleApplied": "4.1.2.3.2"
+          },
+          {
+            "text": "davantage du",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'adverbe de quantité 'davantage' est suivi de la préposition 'de' (ou 'd''). La construction 'davantage du' est incorrecte. Il faut écrire 'davantage de stock'.",
+            "suggestions": [
+              "davantage de"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "425",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Il manque un mot essentiel après le nombre '425' pour que la phrase ait un sens (ex: 425 tonnes, 425 magasins). La phrase est syntaxiquement incomplète.",
+            "suggestions": [
+              "425 magasins dans"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "de kilos",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "Le mot 'de' est superflu dans l'expression '6,7 kilos'. Puisqu'il y a déjà une erreur de syntaxe (S) dans cette phrase ('425'), cette erreur n'est pas comptabilisée.",
+            "suggestions": [
+              "kilos"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "comme vous pouvez voir",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'expression 'comme vous pouvez voir' est un calque de l'anglais 'as you can see'. En français, on privilégie 'comme vous pouvez le constater' ou 'comme on peut le voir'.",
+            "suggestions": [
+              "comme vous pouvez le constater"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "gaspillage",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Il manque un mot essentiel, le déterminant 'le', devant le nom 'gaspillage'. La construction correcte est 'lutter contre le gaspillage'.",
+            "suggestions": [
+              "le gaspillage"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "la",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Il manque un mot essentiel après le déterminant 'la' pour que la phrase ait un sens (ex: la perte, la production). La phrase est syntaxiquement incomplète.",
+            "suggestions": [
+              "la perte"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "où",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Pour exprimer une limite ou une portée, l'interrogatif 'où' doit être précédé de 'jusqu''. Il manque donc le mot 'jusqu''.",
+            "suggestions": [
+              "jusqu'où"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "relatif",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "L'adjectif 'relatif' est utilisé de manière inappropriée et crée un problème de sens. Il devrait probablement être supprimé ou remplacé par 'un certain'. Puisqu'il y a déjà une erreur de syntaxe (S) dans cette phrase ('où'), cette erreur n'est pas comptabilisée.",
+            "suggestions": [
+              ""
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "sans-habri",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Le mot 'sans-abri' s'écrit avec un 'a' et non 'ha'.",
+            "suggestions": [
+              "sans-abri"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "gaspilliés",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé 'gaspillé', employé avec l'auxiliaire 'être', s'accorde en genre et en nombre avec le sujet 'Des millions de tonnes de nourriture'. Le noyau du sujet est 'tonnes' (féminin pluriel).",
+            "suggestions": [
+              "gaspillées"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "leurs plaisent",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le pronom personnel 'leur' est invariable lorsqu'il est complément d'objet indirect d'un verbe, même si son antécédent ('les membres') est pluriel.",
+            "suggestions": [
+              "leur plaisent"
+            ],
+            "ruleApplied": "5.3.1.4"
+          },
+          {
+            "text": "négligent",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe 'négliger' doit s'accorder avec son sujet 'une grosse somme', qui est au singulier.",
+            "suggestions": [
+              "néglige"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "Et bien",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "L'interjection s'écrit 'Eh bien'.",
+            "suggestions": [
+              "Eh bien"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "suivants",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif 'suivant' doit s'accorder en genre et en nombre avec le nom qu'il qualifie, 'raisons' (féminin pluriel).",
+            "suggestions": [
+              "suivantes"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "lapresse.ca",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Les noms propres, y compris les noms de médias, commencent généralement par une majuscule.",
+            "suggestions": [
+              "LaPresse.ca"
+            ],
+            "ruleApplied": "5.2.4.1.2"
+          },
+          {
+            "text": "leurs",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre le pronom personnel 'leur' (invariable, complément d'objet indirect) et le déterminant possessif 'leurs'. Ici, 'plaisent' se construit avec un COI ('plaire à quelqu'un'), il faut donc le pronom 'leur'.",
+            "suggestions": [
+              "leur"
+            ],
+            "ruleApplied": "5.3.3.1"
+          },
+          {
+            "text": "transportation",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Le mot 'transportation' est un anglicisme. Le terme français correct est 'transport'.",
+            "suggestions": [
+              "transport"
+            ],
+            "ruleApplied": "5.2.1.3"
+          }
+        ],
+        "totalErreursCritere4": 35,
+        "totalErreursCritere5": 9,
+        "scoreCritere4": {
+          "pointsPerdus": 25.5,
+          "note": "E"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 9,
+          "note": "B"
+        }
+      }
+    ],
+    "erreursCritere4AvantAnalyseIA": [
+      {
+        "text": "prendre de l’action",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression 'prendre de l'action' est un calque de l'anglais 'to take action'. En français, on utilise plutôt 'passer à l'action' ou 'agir'.",
+        "suggestions": [
+          "passer à l'action",
+          "d'agir"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "Premièrement je",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule est requise après un organisateur textuel ('Premièrement') en tête de phrase.",
+        "suggestions": [
+          "Premièrement, je"
+        ],
+        "ruleApplied": "4.2.2.10.1.k"
+      },
+      {
+        "text": "biens ,par",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "L'espace doit suivre le signe de ponctuation (la virgule) et non le précéder.",
+        "suggestions": [
+          "biens, par"
+        ],
+        "ruleApplied": "4.2.1.5"
+      },
+      {
+        "text": "individuelles1.»",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Un point est requis pour marquer la fin de la phrase.",
+        "suggestions": [
+          "individuelles. »¹"
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "text": "une grosse somme des membres",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression 'une grosse somme des membres' est sémantiquement incorrecte pour désigner une quantité de personnes. On utilise plutôt 'un grand nombre de membres'.",
+        "suggestions": [
+          "un grand nombre de membres"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": "plaisent ,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "L'espace doit suivre le signe de ponctuation (la virgule) et non le précéder.",
+        "suggestions": [
+          "plaisent,"
+        ],
+        "ruleApplied": "4.2.1.5"
+      },
+      {
+        "text": "n’est plus",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution conjonctive 'à moins que' exige l'emploi du subjonctif.",
+        "suggestions": [
+          "ne soit plus"
+        ],
+        "ruleApplied": "4.1.2.2.3"
+      },
+      {
+        "text": "les",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "La phrase est incomplète; il manque le sujet du verbe 'vont'. Cette erreur de syntaxe n'est pas comptabilisée, car il y en a déjà une dans la même phrase syntaxique.",
+        "suggestions": [
+          "les dommages visibles"
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "text": "authentique à sa comestibilité",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression 'authentique à' est incorrecte dans ce contexte. Il faut reformuler pour exprimer le lien, par exemple avec 'liée à' ou 'représentative de'.",
+        "suggestions": [
+          "liée à sa comestibilité",
+          "représentative de sa comestibilité"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": "en faveur avec",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution 'en faveur' doit être suivie de la préposition 'de' et non 'avec'.",
+        "suggestions": [
+          "en faveur de"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "ses étapes",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le déterminant possessif doit s'accorder avec le possesseur 'Les produits déchiquetés' (pluriel). Il faut donc utiliser 'leurs'.",
+        "suggestions": [
+          "leurs étapes"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "text": "davantage du stock",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'adverbe de quantité 'davantage' doit être suivi de la préposition 'de' (ou d') sans article.",
+        "suggestions": [
+          "davantage de stock"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "transportation",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Le mot 'transportation' est un anglicisme. Le terme correct en français est 'transport'. Cette erreur de syntaxe n'est pas comptabilisée, car il y en a déjà une dans la même phrase syntaxique.",
+        "suggestions": [
+          "transport"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "425 les cinq prochaines années",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La phrase est mal construite et il manque un mot essentiel après le nombre '425' pour que la phrase ait un sens. Il faut aussi revoir la structure de la fin de la phrase.",
+        "suggestions": [
+          "425 magasins durant les cinq prochaines années"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "valoir d’environ 6,7 de kilos",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction 'valoir de' est incorrecte. De plus, la préposition 'de' est superflue après le nombre. Il faut reformuler, par exemple : 'représenter environ 6,7 millions de kilos'.",
+        "suggestions": [
+          "représenter environ 6,7 kilos"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "contre gaspillage",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque l'article défini 'le' devant le nom 'gaspillage'.",
+        "suggestions": [
+          "contre le gaspillage"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "la d’aliments inutile",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque un mot essentiel (comme 'perte' ou 'destruction') après l'article 'la' pour que la phrase soit syntaxiquement correcte.",
+        "suggestions": [
+          "la perte d'aliments inutile"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "16 février",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Un point est requis pour marquer la fin de la référence bibliographique.",
+        "suggestions": [
+          "16 février."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "text": "(2020) «",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule est requise pour séparer l'année du titre de l'article dans cette notice bibliographique.",
+        "suggestions": [
+          "(2020), «"
+        ],
+        "ruleApplied": "4.2.2.10.1.a"
+      },
+      {
+        "text": "23 novembre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Un point est requis pour marquer la fin de la référence bibliographique.",
+        "suggestions": [
+          "23 novembre."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "text": "Premièrement",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Un organisateur textuel en tête de phrase, comme 'Premièrement', doit être suivi d'une virgule.",
+        "suggestions": [
+          "Premièrement,"
+        ],
+        "ruleApplied": "4.2.2.10.1.k"
+      },
+      {
+        "text": ",",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "La virgule est superflue avant 'par exemple' lorsque celui-ci est suivi d'un deux-points pour introduire une énumération ou une citation.",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.10.2.h"
+      },
+      {
+        "text": "grosse somme",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression 'une grosse somme' s'applique généralement à de l'argent. Pour parler de personnes, il faut utiliser 'un grand nombre' ou 'une grande partie'. L'emploi de 'somme' crée ici un problème de sens.",
+        "suggestions": [
+          "un grand nombre"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": "n’est",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution conjonctive 'à moins que' exige l'emploi du subjonctif. Il faut donc écrire 'ne soit' et non 'n'est'.",
+        "suggestions": [
+          "ne soit"
+        ],
+        "ruleApplied": "4.1.2.2.3"
+      },
+      {
+        "text": "les",
+        "occurenceIndex": 8,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Il manque un mot essentiel, le sujet du verbe 'vont'. La phrase est incomplète. Puisqu'il y a déjà une erreur de syntaxe (S) dans cette phrase ('n’est'), cette erreur n'est pas comptabilisée.",
+        "suggestions": [
+          "les dommages"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "authentique à",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction 'authentique à' est incorrecte. Il faut reformuler pour exprimer l'idée, par exemple avec 'n'est pas nécessairement un indicateur fiable de sa comestibilité'. L'erreur porte sur la construction avec la préposition.",
+        "suggestions": [
+          "un indicateur fiable de"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "ses",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le déterminant possessif 'ses' renvoie à un possesseur singulier. Or, l'antécédent est 'Les produits déchiquetés' (pluriel). Il faut utiliser le déterminant 'leurs' qui renvoie à un possesseur pluriel.",
+        "suggestions": [
+          "leurs"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "text": "davantage du",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'adverbe de quantité 'davantage' est suivi de la préposition 'de' (ou 'd''). La construction 'davantage du' est incorrecte. Il faut écrire 'davantage de stock'.",
+        "suggestions": [
+          "davantage de"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "425",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque un mot essentiel après le nombre '425' pour que la phrase ait un sens (ex: 425 tonnes, 425 magasins). La phrase est syntaxiquement incomplète.",
+        "suggestions": [
+          "425 magasins dans"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "de kilos",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Le mot 'de' est superflu dans l'expression '6,7 kilos'. Puisqu'il y a déjà une erreur de syntaxe (S) dans cette phrase ('425'), cette erreur n'est pas comptabilisée.",
+        "suggestions": [
+          "kilos"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "comme vous pouvez voir",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression 'comme vous pouvez voir' est un calque de l'anglais 'as you can see'. En français, on privilégie 'comme vous pouvez le constater' ou 'comme on peut le voir'.",
+        "suggestions": [
+          "comme vous pouvez le constater"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "gaspillage",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque un mot essentiel, le déterminant 'le', devant le nom 'gaspillage'. La construction correcte est 'lutter contre le gaspillage'.",
+        "suggestions": [
+          "le gaspillage"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "la",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque un mot essentiel après le déterminant 'la' pour que la phrase ait un sens (ex: la perte, la production). La phrase est syntaxiquement incomplète.",
+        "suggestions": [
+          "la perte"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "où",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Pour exprimer une limite ou une portée, l'interrogatif 'où' doit être précédé de 'jusqu''. Il manque donc le mot 'jusqu''.",
+        "suggestions": [
+          "jusqu'où"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "relatif",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "L'adjectif 'relatif' est utilisé de manière inappropriée et crée un problème de sens. Il devrait probablement être supprimé ou remplacé par 'un certain'. Puisqu'il y a déjà une erreur de syntaxe (S) dans cette phrase ('où'), cette erreur n'est pas comptabilisée.",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      }
+    ],
+    "erreursCritere5AvantAnalyseIA": [
+      {
+        "text": "sans-habri",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot 'sans-abri' s'écrit avec un 'a' et non 'ha'.",
+        "suggestions": [
+          "sans-abri"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "gaspilliés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'gaspillé', employé avec l'auxiliaire 'être', s'accorde en genre et en nombre avec le sujet 'Des millions de tonnes de nourriture'. Le noyau du sujet est 'tonnes' (féminin pluriel).",
+        "suggestions": [
+          "gaspillées"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "leurs plaisent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom personnel 'leur' est invariable lorsqu'il est complément d'objet indirect d'un verbe, même si son antécédent ('les membres') est pluriel.",
+        "suggestions": [
+          "leur plaisent"
+        ],
+        "ruleApplied": "5.3.1.4"
+      },
+      {
+        "text": "négligent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'négliger' doit s'accorder avec son sujet 'une grosse somme', qui est au singulier.",
+        "suggestions": [
+          "néglige"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "Et bien",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'interjection s'écrit 'Eh bien'.",
+        "suggestions": [
+          "Eh bien"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "suivants",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'suivant' doit s'accorder en genre et en nombre avec le nom qu'il qualifie, 'raisons' (féminin pluriel).",
+        "suggestions": [
+          "suivantes"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "lapresse.ca",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Les noms propres, y compris les noms de médias, commencent généralement par une majuscule.",
+        "suggestions": [
+          "LaPresse.ca"
+        ],
+        "ruleApplied": "5.2.4.1.2"
+      },
+      {
+        "text": "leurs",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le pronom personnel 'leur' (invariable, complément d'objet indirect) et le déterminant possessif 'leurs'. Ici, 'plaisent' se construit avec un COI ('plaire à quelqu'un'), il faut donc le pronom 'leur'.",
+        "suggestions": [
+          "leur"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "text": "transportation",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot 'transportation' est un anglicisme. Le terme français correct est 'transport'.",
+        "suggestions": [
+          "transport"
+        ],
+        "ruleApplied": "5.2.1.3"
+      }
+    ],
+    "analyseIADuplicatas": {
+      "critere4": {
+        "analyse": {
+          "totalErreursCritere4": 35,
+          "totalErreursCritere5": 0,
+          "duplicatasCritere4": 10,
+          "duplicatasCritere5": 0
+        },
+        "duplicatasCritere4": [
+          {
+            "groupe": 1,
+            "confiance": 95,
+            "raison": "Même erreur de ponctuation (virgule manquante après 'Premièrement'), texte englobant et même règle appliquée.",
+            "erreurs": [
+              {
+                "index": 1,
+                "text": "Premièrement je",
+                "garder": true
+              },
+              {
+                "index": 20,
+                "text": "Premièrement",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 2,
+            "confiance": 95,
+            "raison": "Même erreur sémantique (usage incorrect de 'somme' pour des personnes), texte englobant et même règle appliquée.",
+            "erreurs": [
+              {
+                "index": 4,
+                "text": "une grosse somme des membres",
+                "garder": true
+              },
+              {
+                "index": 22,
+                "text": "grosse somme",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 3,
+            "confiance": 95,
+            "raison": "Même erreur de mode verbal (indicatif au lieu du subjonctif), texte englobant et même règle appliquée.",
+            "erreurs": [
+              {
+                "index": 6,
+                "text": "n’est plus",
+                "garder": true
+              },
+              {
+                "index": 23,
+                "text": "n’est",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 4,
+            "confiance": 90,
+            "raison": "Même construction de préposition incorrecte ('authentique à'), texte englobant.",
+            "erreurs": [
+              {
+                "index": 8,
+                "text": "authentique à sa comestibilité",
+                "garder": true
+              },
+              {
+                "index": 25,
+                "text": "authentique à",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 5,
+            "confiance": 95,
+            "raison": "Même erreur d'accord du déterminant possessif, texte englobant et même règle appliquée.",
+            "erreurs": [
+              {
+                "index": 10,
+                "text": "ses étapes",
+                "garder": true
+              },
+              {
+                "index": 26,
+                "text": "ses",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 6,
+            "confiance": 95,
+            "raison": "Même construction incorrecte ('davantage du'), texte englobant et même règle appliquée.",
+            "erreurs": [
+              {
+                "index": 11,
+                "text": "davantage du stock",
+                "garder": true
+              },
+              {
+                "index": 27,
+                "text": "davantage du",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 7,
+            "confiance": 95,
+            "raison": "Même erreur de syntaxe (mot manquant après un nombre), texte englobant et même règle appliquée.",
+            "erreurs": [
+              {
+                "index": 13,
+                "text": "425 les cinq prochaines années",
+                "garder": true
+              },
+              {
+                "index": 28,
+                "text": "425",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 8,
+            "confiance": 90,
+            "raison": "Erreur de mot superflu ('de') identifiée dans une erreur de construction plus large concernant la même expression.",
+            "erreurs": [
+              {
+                "index": 14,
+                "text": "valoir d’environ 6,7 de kilos",
+                "garder": true
+              },
+              {
+                "index": 29,
+                "text": "de kilos",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 9,
+            "confiance": 95,
+            "raison": "Même erreur de syntaxe (article défini manquant), texte englobant et même règle appliquée.",
+            "erreurs": [
+              {
+                "index": 15,
+                "text": "contre gaspillage",
+                "garder": true
+              },
+              {
+                "index": 31,
+                "text": "gaspillage",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 10,
+            "confiance": 95,
+            "raison": "Même erreur de syntaxe (mot manquant après un article), texte englobant et même règle appliquée.",
+            "erreurs": [
+              {
+                "index": 16,
+                "text": "la d’aliments inutile",
+                "garder": true
+              },
+              {
+                "index": 32,
+                "text": "la",
+                "garder": false
+              }
+            ]
+          }
+        ],
+        "duplicatasCritere5": [],
+        "erreursUniquesCritere4": [
+          {
+            "index": 0,
+            "text": "prendre de l’action",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 2,
+            "text": "biens ,par",
+            "raison": "Erreur de ponctuation distincte."
+          },
+          {
+            "index": 3,
+            "text": "individuelles1.»",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 5,
+            "text": "plaisent ,",
+            "raison": "Erreur de ponctuation distincte."
+          },
+          {
+            "index": 7,
+            "text": "les",
+            "raison": "Erreur distincte (occurrence 0)."
+          },
+          {
+            "index": 9,
+            "text": "en faveur avec",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 12,
+            "text": "transportation",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 17,
+            "text": "16 février",
+            "raison": "Erreur de ponctuation distincte."
+          },
+          {
+            "index": 18,
+            "text": "(2020) «",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 19,
+            "text": "23 novembre",
+            "raison": "Erreur de ponctuation distincte."
+          },
+          {
+            "index": 21,
+            "text": ",",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 24,
+            "text": "les",
+            "raison": "Erreur distincte (occurrence 8)."
+          },
+          {
+            "index": 30,
+            "text": "comme vous pouvez voir",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 33,
+            "text": "où",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 34,
+            "text": "relatif",
+            "raison": "Aucun duplicata trouvé."
+          }
+        ],
+        "erreursUniquesCritere5": [],
+        "recommandations": {
+          "erreursAConserverCritere4": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            21,
+            24,
+            30,
+            33,
+            34
+          ],
+          "erreursAConserverCritere5": [],
+          "erreursASupprimer": {
+            "critere4": [
+              20,
+              22,
+              23,
+              25,
+              26,
+              27,
+              28,
+              29,
+              31,
+              32
+            ],
+            "critere5": []
+          }
+        }
+      },
+      "critere5": {
+        "analyse": {
+          "totalErreursCritere4": 0,
+          "totalErreursCritere5": 9,
+          "duplicatasCritere4": 0,
+          "duplicatasCritere5": 1
+        },
+        "duplicatasCritere4": [],
+        "duplicatasCritere5": [
+          {
+            "groupe": 1,
+            "confiance": 95,
+            "raison": "Même erreur grammaticale (pronom 'leur' vs 'leurs') au même emplacement. L'erreur 'leurs plaisent' englobe l'erreur plus spécifique 'leurs'.",
+            "erreurs": [
+              {
+                "index": 2,
+                "text": "leurs plaisent",
+                "garder": true
+              },
+              {
+                "index": 7,
+                "text": "leurs",
+                "garder": false
+              }
+            ]
+          }
+        ],
+        "erreursUniquesCritere4": [],
+        "erreursUniquesCritere5": [
+          {
+            "index": 0,
+            "text": "sans-habri",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 1,
+            "text": "gaspilliés",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 3,
+            "text": "négligent",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 4,
+            "text": "Et bien",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 5,
+            "text": "suivants",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 6,
+            "text": "lapresse.ca",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 8,
+            "text": "transportation",
+            "raison": "Aucun duplicata trouvé"
+          }
+        ],
+        "recommandations": {
+          "erreursAConserverCritere4": [],
+          "erreursAConserverCritere5": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            8
+          ],
+          "erreursASupprimer": {
+            "critere4": [],
+            "critere5": [
+              7
+            ]
+          }
+        }
+      }
+    }
+  }
+}

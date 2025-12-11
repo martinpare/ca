@@ -1,0 +1,1167 @@
+{
+  "processedAt": "2025-12-10T15:36:50.275Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_062.txt",
+    "originalText": "Je mange, tu manges, il mange...\r\n\r\nNombreuses sont les épices aux milles couleures qui décorent nos plats et donnent un tout autre sens à notre alimentation. Un petit peu de paprika dans les cuisses de poulet, du sel sur le saumon au prix exorbitant et du bon poivron dans la soupe de grand-maman. Malheureusement, une grande partie des aliments qui nous procurent l'apport d'énergie nécessaire pour fonctionner fin issent à la poubelle. Cela m'amène à me demander : sommes-nous prêts à lutter centre le gaspillage alimentaire? D'après moi, nous sommes prêts au combat!\r\n\r\nTout d'abords, je crois que nous sommes prêts à nous battre car plusieurs restrictions commerciales peuvent être posées pour arriver à nos fin. Nous pouvons mettre des rabais aux denrées périssable. Les grandes épiceries, par exemple, gaspillent car elles n'ont plus de place en magasin pour leur nouveaux produits et se débarrassent des plus vieux, ou à cause de denrées périssable qu'elles jettent avant la date de péremption ou même à cause de denrées non achetées. Pour prévenir ce genre de perte, poser un rabais avec un pourcentage important amènerait à une vente ainsi qu'à une consommation rapide de la denrée, comme le fait le Japon! Aussi, imposer une amende salée aux épiceries, restaurants et caféteriats d'écoles quant au gaspillage de masse. Les policiers qui guettent les rues pour des amendes auront un nouveau coin à espionner, ces ratons-laveurs justiciers! Cela permetterait donc d'éviter la perte alimentaire ainsi qu'une certaine perte monétaire du détaillant, au bonheur des clients et à la santé et au respect de mère nature.\r\n\r\nPour continuer, nous sommes parés à lutter car l'on peut tous apporter un changement à partir du confort de chez soit! En effet, en diminuant notre propre consommation, nous pouvons fortement aider à diminuer le gaspillage alimentaire. Si l'on s'y mets tous, un mouvement de masse pourrait fortement influencer le taux de gaspillage. Comme le dit l'infographie « Le gaspillage alimentaire», près de la moitié du gaspillage alimentaire peut être éviter chez soit si les consommateurs s'informaient sur mieux conserver les aliments. De plus, pour limiter le gaspillage selon cette même infographie, programmer les repas à l'avance, congeler les restants au lieux de les jetter et porter une attention particulière sur la quantité d'aliments et produits acheter sont de très bon conseils quant à l'attitude alimentaire à adopter chez soit.\r\n\r\nPour conclure, je continue à croire que l'on est fin prêts à lutter contre le monstre qu'est le gaspillage alimentaire car on peut poser des restrictions strictes et porter la plus fine attention à nos habitudes de vie à la maison. Traitons les aliments qui nous nourrissent avec soins et gratitude.",
+    "erreursCritere4": [
+      {
+        "text": "centre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Confusion entre les homophones \"centre\" (nom) et \"contre\" (préposition), qui appartiennent à des classes de mots différentes.",
+        "suggestions": [
+          "contre"
+        ],
+        "ruleApplied": "4.1.2.1.9"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 1,
+      "note": "A"
+    },
+    "erreursCritere5": [
+      {
+        "text": "milles",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif numéral cardinal \"mille\" est invariable et ne prend jamais de \"s\".",
+        "suggestions": [
+          "mille"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "couleures",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage. Le mot \"couleur\" ne prend pas de \"e\" avant le \"u\".",
+        "suggestions": [
+          "couleurs"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "fin issent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Barbarisme orthographique. Le mot \"finissent\" a été séparé à tort.",
+        "suggestions": [
+          "finissent"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "text": "Tout d'abords",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage. L'expression correcte est \"Tout d'abord\", au singulier.",
+        "suggestions": [
+          "Tout d'abord"
+        ],
+        "ruleApplied": "5.2.1.5"
+      },
+      {
+        "text": "fin",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom \"fin\" doit s'accorder en nombre avec le déterminant possessif pluriel \"nos\".",
+        "suggestions": [
+          "fins"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "périssable",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif \"périssable\" doit s'accorder en nombre avec le nom pluriel \"denrées\" qu'il qualifie.",
+        "suggestions": [
+          "périssables"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "leur",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant possessif \"leur\" doit s'accorder en nombre avec le nom pluriel \"produits\" qu'il détermine. Il prend un \"s\" au pluriel.",
+        "suggestions": [
+          "leurs"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "périssable",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "_",
+        "description": "L'adjectif \"périssable\" doit s'accorder en nombre avec le nom pluriel \"denrées\" qu'il qualifie. L'erreur est liée au même donneur que la précédente.",
+        "suggestions": [
+          "périssables"
+        ],
+        "ruleApplied": "5.4.2.1"
+      },
+      {
+        "text": "caféteriats",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage. Le mot \"cafétéria\" prend un \"s\" au pluriel, et non \"ts\".",
+        "suggestions": [
+          "cafétérias"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "permetterait",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Barbarisme de conjugaison. Le verbe \"permettre\" au conditionnel présent, à la troisième personne du singulier, s'écrit \"permettrait\".",
+        "suggestions": [
+          "permettrait"
+        ],
+        "ruleApplied": "5.3.2.1"
+      },
+      {
+        "text": "soit",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre les homophones \"soit\" (verbe être au subjonctif) et \"soi\" (pronom personnel). L'expression correcte est \"chez soi\".",
+        "suggestions": [
+          "soi"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "text": "mets",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord du verbe. Le sujet du verbe \"mettre\" est le pronom \"on\" (3e personne du singulier), le verbe doit donc être \"met\".",
+        "suggestions": [
+          "met"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "éviter",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif \"-er\" et le participe passé \"-é\". Après l'auxiliaire \"être\", il faut utiliser le participe passé \"évité\", qui s'accorde avec le sujet \"la moitié du gaspillage alimentaire\" (masculin singulier).",
+        "suggestions": [
+          "évité"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "soit",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre les homophones \"soit\" (verbe être au subjonctif) et \"soi\" (pronom personnel). L'expression correcte est \"chez soi\".",
+        "suggestions": [
+          "soi"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "text": "lieux",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion entre les homophones lexicaux \"lieux\" (nom pluriel) et \"lieu\" (nom singulier). L'expression correcte est \"au lieu de\".",
+        "suggestions": [
+          "lieu"
+        ],
+        "ruleApplied": "5.2.2"
+      },
+      {
+        "text": "jetter",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage dans le radical du verbe à l'infinitif. Le verbe \"jeter\" s'écrit avec un seul \"t\".",
+        "suggestions": [
+          "jeter"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "acheter",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif \"-er\" et le participe passé \"-és\". Le participe passé \"acheté\" est employé comme adjectif et doit s'accorder en genre et en nombre avec \"aliments et produits\" (masculin pluriel).",
+        "suggestions": [
+          "achetés"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "bon",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif \"bon\" doit s'accorder en nombre avec le nom pluriel \"conseils\" qu'il qualifie.",
+        "suggestions": [
+          "bons"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "soit",
+        "occurenceIndex": 2,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre les homophones \"soit\" (verbe être au subjonctif) et \"soi\" (pronom personnel). L'expression correcte est \"chez soi\".",
+        "suggestions": [
+          "soi"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "text": "soins",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage. L'expression idiomatique est \"avec soin\", au singulier.",
+        "suggestions": [
+          "soin"
+        ],
+        "ruleApplied": "5.2.2"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 19,
+      "note": "E"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T15:33:42.015Z",
+    "endTimestamp": "2025-12-10T15:36:50.275Z",
+    "durationMs": 188260,
+    "durationFormatted": "03:08:260",
+    "cumulParPasse": [
+      {
+        "passe": 1,
+        "erreursCritere4": [
+          {
+            "text": "centre",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Confusion entre les homophones \"centre\" (nom) et \"contre\" (préposition), qui appartiennent à des classes de mots différentes.",
+            "suggestions": [
+              "contre"
+            ],
+            "ruleApplied": "4.1.2.1.9"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "milles",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif numéral cardinal \"mille\" est invariable et ne prend jamais de \"s\".",
+            "suggestions": [
+              "mille"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "couleures",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Erreur d'orthographe d'usage. Le mot \"couleur\" ne prend pas de \"e\" avant le \"u\".",
+            "suggestions": [
+              "couleurs"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "fin issent",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Barbarisme orthographique. Le mot \"finissent\" a été séparé à tort.",
+            "suggestions": [
+              "finissent"
+            ],
+            "ruleApplied": "5.2.6.4"
+          },
+          {
+            "text": "Tout d'abords",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Erreur d'orthographe d'usage. L'expression correcte est \"Tout d'abord\", au singulier.",
+            "suggestions": [
+              "Tout d'abord"
+            ],
+            "ruleApplied": "5.2.1.5"
+          },
+          {
+            "text": "fin",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom \"fin\" doit s'accorder en nombre avec le déterminant possessif pluriel \"nos\".",
+            "suggestions": [
+              "fins"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "périssable",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif \"périssable\" doit s'accorder en nombre avec le nom pluriel \"denrées\" qu'il qualifie.",
+            "suggestions": [
+              "périssables"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "leur",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le déterminant possessif \"leur\" doit s'accorder en nombre avec le nom pluriel \"produits\" qu'il détermine. Il prend un \"s\" au pluriel.",
+            "suggestions": [
+              "leurs"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "périssable",
+            "occurenceIndex": 1,
+            "criteria": 5,
+            "type": "_",
+            "description": "L'adjectif \"périssable\" doit s'accorder en nombre avec le nom pluriel \"denrées\" qu'il qualifie. L'erreur est liée au même donneur que la précédente.",
+            "suggestions": [
+              "périssables"
+            ],
+            "ruleApplied": "5.4.2.1"
+          },
+          {
+            "text": "caféteriats",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Erreur d'orthographe d'usage. Le mot \"cafétéria\" prend un \"s\" au pluriel, et non \"ts\".",
+            "suggestions": [
+              "cafétérias"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "permetterait",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Barbarisme de conjugaison. Le verbe \"permettre\" au conditionnel présent, à la troisième personne du singulier, s'écrit \"permettrait\".",
+            "suggestions": [
+              "permettrait"
+            ],
+            "ruleApplied": "5.3.2.1"
+          },
+          {
+            "text": "soit",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre les homophones \"soit\" (verbe être au subjonctif) et \"soi\" (pronom personnel). L'expression correcte est \"chez soi\".",
+            "suggestions": [
+              "soi"
+            ],
+            "ruleApplied": "5.3.3.1"
+          },
+          {
+            "text": "mets",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord du verbe. Le sujet du verbe \"mettre\" est le pronom \"on\" (3e personne du singulier), le verbe doit donc être \"met\".",
+            "suggestions": [
+              "met"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "éviter",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre l'infinitif \"-er\" et le participe passé \"-é\". Après l'auxiliaire \"être\", il faut utiliser le participe passé \"évité\", qui s'accorde avec le sujet \"la moitié du gaspillage alimentaire\" (masculin singulier).",
+            "suggestions": [
+              "évité"
+            ],
+            "ruleApplied": "5.3.2.6"
+          },
+          {
+            "text": "soit",
+            "occurenceIndex": 1,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre les homophones \"soit\" (verbe être au subjonctif) et \"soi\" (pronom personnel). L'expression correcte est \"chez soi\".",
+            "suggestions": [
+              "soi"
+            ],
+            "ruleApplied": "5.3.3.1"
+          },
+          {
+            "text": "lieux",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Confusion entre les homophones lexicaux \"lieux\" (nom pluriel) et \"lieu\" (nom singulier). L'expression correcte est \"au lieu de\".",
+            "suggestions": [
+              "lieu"
+            ],
+            "ruleApplied": "5.2.2"
+          },
+          {
+            "text": "jetter",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Erreur d'orthographe d'usage dans le radical du verbe à l'infinitif. Le verbe \"jeter\" s'écrit avec un seul \"t\".",
+            "suggestions": [
+              "jeter"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "acheter",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre l'infinitif \"-er\" et le participe passé \"-és\". Le participe passé \"acheté\" est employé comme adjectif et doit s'accorder en genre et en nombre avec \"aliments et produits\" (masculin pluriel).",
+            "suggestions": [
+              "achetés"
+            ],
+            "ruleApplied": "5.3.2.6"
+          },
+          {
+            "text": "bon",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif \"bon\" doit s'accorder en nombre avec le nom pluriel \"conseils\" qu'il qualifie.",
+            "suggestions": [
+              "bons"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "soit",
+            "occurenceIndex": 2,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre les homophones \"soit\" (verbe être au subjonctif) et \"soi\" (pronom personnel). L'expression correcte est \"chez soi\".",
+            "suggestions": [
+              "soi"
+            ],
+            "ruleApplied": "5.3.3.1"
+          },
+          {
+            "text": "soins",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Erreur d'orthographe d'usage. L'expression idiomatique est \"avec soin\", au singulier.",
+            "suggestions": [
+              "soin"
+            ],
+            "ruleApplied": "5.2.2"
+          }
+        ],
+        "totalErreursCritere4": 1,
+        "totalErreursCritere5": 20,
+        "scoreCritere4": {
+          "pointsPerdus": 1,
+          "note": "A"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 19,
+          "note": "E"
+        }
+      },
+      {
+        "passe": 2,
+        "erreursCritere4": [
+          {
+            "text": "centre",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Confusion entre les homophones \"centre\" (nom) et \"contre\" (préposition), qui appartiennent à des classes de mots différentes.",
+            "suggestions": [
+              "contre"
+            ],
+            "ruleApplied": "4.1.2.1.9"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "milles",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif numéral cardinal \"mille\" est invariable et ne prend jamais de \"s\".",
+            "suggestions": [
+              "mille"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "couleures",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Erreur d'orthographe d'usage. Le mot \"couleur\" ne prend pas de \"e\" avant le \"u\".",
+            "suggestions": [
+              "couleurs"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "fin issent",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Barbarisme orthographique. Le mot \"finissent\" a été séparé à tort.",
+            "suggestions": [
+              "finissent"
+            ],
+            "ruleApplied": "5.2.6.4"
+          },
+          {
+            "text": "Tout d'abords",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Erreur d'orthographe d'usage. L'expression correcte est \"Tout d'abord\", au singulier.",
+            "suggestions": [
+              "Tout d'abord"
+            ],
+            "ruleApplied": "5.2.1.5"
+          },
+          {
+            "text": "fin",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom \"fin\" doit s'accorder en nombre avec le déterminant possessif pluriel \"nos\".",
+            "suggestions": [
+              "fins"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "périssable",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif \"périssable\" doit s'accorder en nombre avec le nom pluriel \"denrées\" qu'il qualifie.",
+            "suggestions": [
+              "périssables"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "leur",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le déterminant possessif \"leur\" doit s'accorder en nombre avec le nom pluriel \"produits\" qu'il détermine. Il prend un \"s\" au pluriel.",
+            "suggestions": [
+              "leurs"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "périssable",
+            "occurenceIndex": 1,
+            "criteria": 5,
+            "type": "_",
+            "description": "L'adjectif \"périssable\" doit s'accorder en nombre avec le nom pluriel \"denrées\" qu'il qualifie. L'erreur est liée au même donneur que la précédente.",
+            "suggestions": [
+              "périssables"
+            ],
+            "ruleApplied": "5.4.2.1"
+          },
+          {
+            "text": "caféteriats",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Erreur d'orthographe d'usage. Le mot \"cafétéria\" prend un \"s\" au pluriel, et non \"ts\".",
+            "suggestions": [
+              "cafétérias"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "permetterait",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Barbarisme de conjugaison. Le verbe \"permettre\" au conditionnel présent, à la troisième personne du singulier, s'écrit \"permettrait\".",
+            "suggestions": [
+              "permettrait"
+            ],
+            "ruleApplied": "5.3.2.1"
+          },
+          {
+            "text": "soit",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre les homophones \"soit\" (verbe être au subjonctif) et \"soi\" (pronom personnel). L'expression correcte est \"chez soi\".",
+            "suggestions": [
+              "soi"
+            ],
+            "ruleApplied": "5.3.3.1"
+          },
+          {
+            "text": "mets",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord du verbe. Le sujet du verbe \"mettre\" est le pronom \"on\" (3e personne du singulier), le verbe doit donc être \"met\".",
+            "suggestions": [
+              "met"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "éviter",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre l'infinitif \"-er\" et le participe passé \"-é\". Après l'auxiliaire \"être\", il faut utiliser le participe passé \"évité\", qui s'accorde avec le sujet \"la moitié du gaspillage alimentaire\" (masculin singulier).",
+            "suggestions": [
+              "évité"
+            ],
+            "ruleApplied": "5.3.2.6"
+          },
+          {
+            "text": "soit",
+            "occurenceIndex": 1,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre les homophones \"soit\" (verbe être au subjonctif) et \"soi\" (pronom personnel). L'expression correcte est \"chez soi\".",
+            "suggestions": [
+              "soi"
+            ],
+            "ruleApplied": "5.3.3.1"
+          },
+          {
+            "text": "lieux",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Confusion entre les homophones lexicaux \"lieux\" (nom pluriel) et \"lieu\" (nom singulier). L'expression correcte est \"au lieu de\".",
+            "suggestions": [
+              "lieu"
+            ],
+            "ruleApplied": "5.2.2"
+          },
+          {
+            "text": "jetter",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Erreur d'orthographe d'usage dans le radical du verbe à l'infinitif. Le verbe \"jeter\" s'écrit avec un seul \"t\".",
+            "suggestions": [
+              "jeter"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "acheter",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre l'infinitif \"-er\" et le participe passé \"-és\". Le participe passé \"acheté\" est employé comme adjectif et doit s'accorder en genre et en nombre avec \"aliments et produits\" (masculin pluriel).",
+            "suggestions": [
+              "achetés"
+            ],
+            "ruleApplied": "5.3.2.6"
+          },
+          {
+            "text": "bon",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif \"bon\" doit s'accorder en nombre avec le nom pluriel \"conseils\" qu'il qualifie.",
+            "suggestions": [
+              "bons"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "soit",
+            "occurenceIndex": 2,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre les homophones \"soit\" (verbe être au subjonctif) et \"soi\" (pronom personnel). L'expression correcte est \"chez soi\".",
+            "suggestions": [
+              "soi"
+            ],
+            "ruleApplied": "5.3.3.1"
+          },
+          {
+            "text": "soins",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Erreur d'orthographe d'usage. L'expression idiomatique est \"avec soin\", au singulier.",
+            "suggestions": [
+              "soin"
+            ],
+            "ruleApplied": "5.2.2"
+          }
+        ],
+        "totalErreursCritere4": 1,
+        "totalErreursCritere5": 20,
+        "scoreCritere4": {
+          "pointsPerdus": 1,
+          "note": "A"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 19,
+          "note": "E"
+        }
+      }
+    ],
+    "erreursCritere4AvantAnalyseIA": [
+      {
+        "text": "centre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Confusion entre les homophones \"centre\" (nom) et \"contre\" (préposition), qui appartiennent à des classes de mots différentes.",
+        "suggestions": [
+          "contre"
+        ],
+        "ruleApplied": "4.1.2.1.9"
+      }
+    ],
+    "erreursCritere5AvantAnalyseIA": [
+      {
+        "text": "milles",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif numéral cardinal \"mille\" est invariable et ne prend jamais de \"s\".",
+        "suggestions": [
+          "mille"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "couleures",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage. Le mot \"couleur\" ne prend pas de \"e\" avant le \"u\".",
+        "suggestions": [
+          "couleurs"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "fin issent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Barbarisme orthographique. Le mot \"finissent\" a été séparé à tort.",
+        "suggestions": [
+          "finissent"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "text": "Tout d'abords",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage. L'expression correcte est \"Tout d'abord\", au singulier.",
+        "suggestions": [
+          "Tout d'abord"
+        ],
+        "ruleApplied": "5.2.1.5"
+      },
+      {
+        "text": "fin",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom \"fin\" doit s'accorder en nombre avec le déterminant possessif pluriel \"nos\".",
+        "suggestions": [
+          "fins"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "périssable",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif \"périssable\" doit s'accorder en nombre avec le nom pluriel \"denrées\" qu'il qualifie.",
+        "suggestions": [
+          "périssables"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "leur",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant possessif \"leur\" doit s'accorder en nombre avec le nom pluriel \"produits\" qu'il détermine. Il prend un \"s\" au pluriel.",
+        "suggestions": [
+          "leurs"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "périssable",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "_",
+        "description": "L'adjectif \"périssable\" doit s'accorder en nombre avec le nom pluriel \"denrées\" qu'il qualifie. L'erreur est liée au même donneur que la précédente.",
+        "suggestions": [
+          "périssables"
+        ],
+        "ruleApplied": "5.4.2.1"
+      },
+      {
+        "text": "caféteriats",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage. Le mot \"cafétéria\" prend un \"s\" au pluriel, et non \"ts\".",
+        "suggestions": [
+          "cafétérias"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "permetterait",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Barbarisme de conjugaison. Le verbe \"permettre\" au conditionnel présent, à la troisième personne du singulier, s'écrit \"permettrait\".",
+        "suggestions": [
+          "permettrait"
+        ],
+        "ruleApplied": "5.3.2.1"
+      },
+      {
+        "text": "soit",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre les homophones \"soit\" (verbe être au subjonctif) et \"soi\" (pronom personnel). L'expression correcte est \"chez soi\".",
+        "suggestions": [
+          "soi"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "text": "mets",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord du verbe. Le sujet du verbe \"mettre\" est le pronom \"on\" (3e personne du singulier), le verbe doit donc être \"met\".",
+        "suggestions": [
+          "met"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "éviter",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif \"-er\" et le participe passé \"-é\". Après l'auxiliaire \"être\", il faut utiliser le participe passé \"évité\", qui s'accorde avec le sujet \"la moitié du gaspillage alimentaire\" (masculin singulier).",
+        "suggestions": [
+          "évité"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "soit",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre les homophones \"soit\" (verbe être au subjonctif) et \"soi\" (pronom personnel). L'expression correcte est \"chez soi\".",
+        "suggestions": [
+          "soi"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "text": "lieux",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion entre les homophones lexicaux \"lieux\" (nom pluriel) et \"lieu\" (nom singulier). L'expression correcte est \"au lieu de\".",
+        "suggestions": [
+          "lieu"
+        ],
+        "ruleApplied": "5.2.2"
+      },
+      {
+        "text": "jetter",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage dans le radical du verbe à l'infinitif. Le verbe \"jeter\" s'écrit avec un seul \"t\".",
+        "suggestions": [
+          "jeter"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "acheter",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif \"-er\" et le participe passé \"-és\". Le participe passé \"acheté\" est employé comme adjectif et doit s'accorder en genre et en nombre avec \"aliments et produits\" (masculin pluriel).",
+        "suggestions": [
+          "achetés"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "bon",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif \"bon\" doit s'accorder en nombre avec le nom pluriel \"conseils\" qu'il qualifie.",
+        "suggestions": [
+          "bons"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "soit",
+        "occurenceIndex": 2,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre les homophones \"soit\" (verbe être au subjonctif) et \"soi\" (pronom personnel). L'expression correcte est \"chez soi\".",
+        "suggestions": [
+          "soi"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "text": "soins",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage. L'expression idiomatique est \"avec soin\", au singulier.",
+        "suggestions": [
+          "soin"
+        ],
+        "ruleApplied": "5.2.2"
+      }
+    ],
+    "analyseIADuplicatas": {
+      "critere4": {
+        "analyse": {
+          "totalErreursCritere4": 1,
+          "totalErreursCritere5": 0,
+          "duplicatasCritere4": 0,
+          "duplicatasCritere5": 0
+        },
+        "duplicatasCritere4": [],
+        "duplicatasCritere5": [],
+        "erreursUniquesCritere4": [
+          {
+            "index": 0,
+            "text": "centre",
+            "raison": "Seule erreur dans la liste, aucun duplicata possible."
+          }
+        ],
+        "erreursUniquesCritere5": [],
+        "recommandations": {
+          "erreursAConserverCritere4": [
+            0
+          ],
+          "erreursAConserverCritere5": [],
+          "erreursASupprimer": {
+            "critere4": [],
+            "critere5": []
+          }
+        }
+      },
+      "critere5": {
+        "analyse": {
+          "totalErreursCritere4": 0,
+          "totalErreursCritere5": 20,
+          "duplicatasCritere4": 0,
+          "duplicatasCritere5": 0
+        },
+        "duplicatasCritere4": [],
+        "duplicatasCritere5": [],
+        "erreursUniquesCritere4": [],
+        "erreursUniquesCritere5": [
+          {
+            "index": 0,
+            "text": "milles",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 1,
+            "text": "couleures",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 2,
+            "text": "fin issent",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 3,
+            "text": "Tout d'abords",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 4,
+            "text": "fin",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 5,
+            "text": "périssable",
+            "raison": "Erreur distincte de l'indice 7 en raison d'un 'occurenceIndex' différent (0 vs 1)."
+          },
+          {
+            "index": 6,
+            "text": "leur",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 7,
+            "text": "périssable",
+            "raison": "Erreur distincte de l'indice 5 en raison d'un 'occurenceIndex' différent (1 vs 0)."
+          },
+          {
+            "index": 8,
+            "text": "caféteriats",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 9,
+            "text": "permetterait",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 10,
+            "text": "soit",
+            "raison": "Erreur distincte des indices 13 et 18 en raison d'un 'occurenceIndex' différent."
+          },
+          {
+            "index": 11,
+            "text": "mets",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 12,
+            "text": "éviter",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 13,
+            "text": "soit",
+            "raison": "Erreur distincte des indices 10 et 18 en raison d'un 'occurenceIndex' différent."
+          },
+          {
+            "index": 14,
+            "text": "lieux",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 15,
+            "text": "jetter",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 16,
+            "text": "acheter",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 17,
+            "text": "bon",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 18,
+            "text": "soit",
+            "raison": "Erreur distincte des indices 10 et 13 en raison d'un 'occurenceIndex' différent."
+          },
+          {
+            "index": 19,
+            "text": "soins",
+            "raison": "Aucun duplicata trouvé."
+          }
+        ],
+        "recommandations": {
+          "erreursAConserverCritere4": [],
+          "erreursAConserverCritere5": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "erreursASupprimer": {
+            "critere4": [],
+            "critere5": []
+          }
+        }
+      }
+    }
+  }
+}

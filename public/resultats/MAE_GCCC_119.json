@@ -1,0 +1,1183 @@
+{
+  "processedAt": "2025-12-10T15:01:47.210Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_119.txt",
+    "originalText": "Assurez-vous de manger tout\r\n\r\nAimez-vous manger ? Si je vous pose une telle question, on s'entend que la réponse serait toujours « oui. » Après tout, se nourrir est un besoin physiologique. C'est certains, par contre, qu'à un moment on s'est sentis remplis et on n'en voulait plus. Demandez-vous où vient notre nourriture ? Elle vient des agriculteurs et des éleveurs des animaux de fermes qui épuisent leurs ressources pour mettre leurs produits à l'épicerie. Malgré cela, nous, les consommateurs, gaspillons ce qu'ils produisent. Cet gaspillage se fait à une très grande échelle. Sommes-nous prêts à lutter contre le gaspillage alimentaire ? Selon moi, nous ne sommes pas prêts à réaliser cela.\r\n\r\nPremièrement, nous ne sommes pas prêts pour contrer le gaspillage alimentaire parce que nous le faisons de manière abusive. Il a atteint un point où les effets qu'il possède sur l'environnement deviennent de moins en moins réversibles. Comment ? Selon l'article « Gaspillage alimentaire » publié sur RECYC-QUÉBEC en 2021, l’ utilisation inadéquate des ressources, l'enfouissement et l'incinération des aliments non consommés contribuent aux changements climatiques à cause des gaz à effet de serre qu'ils produisent. Chaque tonne de nourriture gaspillée équivaut à une voiture de plus. De plus, selon le même article, chaque année, les familles canadiennes gaspillent environ 2,2 millions de tonnes de nourriture. C'est l'équivalent de la pollution venant de 2.2 millions de voitures. Vous pouvez imaginer la gravité de la situation. Cela prouve que nous ne sommes pas prêts à lutter contre le gaspillage alimentaire.\r\n\r\nDeuxièmement, ce n'est pas dans nos capacité de combattre le gaspillage alimentaire, car une grande partie de cela n'est pas dans notre contrôle. La nourriture ne se rend pas par magie dans les épiceries. Il existe un procédé avant de se rendre là. D'abord, il faut en produire, ensuite, quelques uns sont transformés et finalement ils sont transportés. Lors de cette procédure, quelques produits sont gaspillés. Lors de la production, le manque de main-d'œuvre et l'imperfection des aliments contribuent au gaspillage, des équipements défectueux et les erreurs humaines lors de la transformation sont aussi des facteurs et les aliments peuvent être endommagés ou contaminés quand ils sont transportés (Table québécoise sur la saine alimentation, 2019). Selon la même source d'information, 34% du gaspillage alimentaire canadien appartient à ces trois catégories. Ensemble, le gaspillage total mondial, selon l'Organisation des Nations unies (ONU), est de 931 millions de tonnes de nourriture. Le niveau de gaspillage est trop haut. Nous n'avons pas les moyens, donc, de combattre ce phénomène.\r\n\r\nEn conclusion, nous ne possédons pas l'habileté de lutter contre le gaspillage alimentaire parce qu'on en a déjà beaucoup trop fait et car une grande partie du gaspillage total est hors de notre contrôle. Cependant, avec l'avancement technologique constant, trouvons-nous des moyens de gérer le gaspillage en minimisant les effets néfastes sur l'environnement ?",
+    "erreursCritere4": [
+      {
+        "text": "où",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Pour marquer l'origine ou la provenance, il faut utiliser la locution interrogative \"d'où\" et non l'adverbe de lieu \"où\".",
+        "suggestions": [
+          "d'où"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "réaliser",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'emploi du verbe \"réaliser\" au sens d'« accomplir » ou de « parvenir à un but » est un calque sémantique de l'anglais \"to realize\". En français, \"réaliser\" signifie \"rendre réel\" ou \"comprendre soudainement\".",
+        "suggestions": [
+          "l'accomplir",
+          "y parvenir"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "transportés (Table québécoise sur la saine alimentation, 2019).",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Lorsque la référence entre parenthèses fait partie intégrante de la phrase et n'est pas une phrase complète elle-même, le point final doit être placé après la parenthèse fermante.",
+        "suggestions": [
+          "transportés (Table québécoise sur la saine alimentation, 2019)."
+        ],
+        "ruleApplied": "4.2.2.1.2"
+      },
+      {
+        "text": "on en a déjà beaucoup trop fait",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression est sémantiquement faible et imprécise. Le verbe \"faire\" est un verbe passe-partout qui affaiblit le propos. Il serait préférable d'utiliser un verbe plus précis comme \"gaspiller\".",
+        "suggestions": [
+          "on a déjà beaucoup trop gaspillé"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": "et car",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "La coordination de deux propositions de cause introduites par \"parce que\" et \"car\" est incorrecte. Pour coordonner deux causes, il faut répéter la conjonction \"que\" (\"parce que... et que...\"). Il s'agit de la deuxième erreur de syntaxe dans la même phrase.",
+        "suggestions": [
+          "et que"
+        ],
+        "ruleApplied": "4.1.2.4.2"
+      },
+      {
+        "text": "vient notre nourriture",
+        "occurenceIndex": 250,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'inversion sujet-verbe est incorrecte dans une proposition interrogative indirecte. Il faut utiliser l'ordre 'sujet + verbe'.",
+        "suggestions": [
+          "notre nourriture vient"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": ",",
+        "occurenceIndex": 430,
+        "criteria": 4,
+        "type": "P",
+        "description": "L'emploi de la virgule pour joindre deux phrases syntaxiques indépendantes (asyndète) est incorrect. Il faut utiliser un point ou un point-virgule.",
+        "suggestions": [
+          "."
+        ],
+        "ruleApplied": "4.2.2.1.2"
+      },
+      {
+        "text": "et car",
+        "occurenceIndex": 133,
+        "criteria": 4,
+        "type": "S",
+        "description": "La coordination de deux subordonnants de même nature ('parce que' et 'car') est incorrecte. Il faut répéter le premier subordonnant avec 'que' ('et que') ou le répéter entièrement ('et parce que').",
+        "suggestions": [
+          "et que",
+          "et parce que"
+        ],
+        "ruleApplied": "4.1.2.4.2"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 6,
+      "note": "B"
+    },
+    "erreursCritere5": [
+      {
+        "text": "2.2",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Répétition de l'erreur d'usage. En français, le séparateur décimal est la virgule, et non le point.",
+        "suggestions": [
+          "2,2"
+        ],
+        "ruleApplied": "5.1.3"
+      },
+      {
+        "text": "certains",
+        "occurenceIndex": 154,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif attribut 'certain' doit s'accorder au masculin singulier avec le pronom neutre 'C'' (représentant 'cela').",
+        "suggestions": [
+          "certain"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "fermes",
+        "occurenceIndex": 318,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le complément du nom 'ferme', qui qualifie 'animaux', doit rester au singulier dans l'expression 'animaux de ferme'.",
+        "suggestions": [
+          "ferme"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "text": "Cet",
+        "occurenceIndex": 429,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le déterminant démonstratif 'cet' s'emploie devant un nom masculin commençant par une voyelle ou un 'h' muet. Devant 'gaspillage', qui commence par une consonne, il faut utiliser 'ce'.",
+        "suggestions": [
+          "Ce"
+        ],
+        "ruleApplied": "5.2.1.9.1"
+      },
+      {
+        "text": "l’ utilisation",
+        "occurenceIndex": 303,
+        "criteria": 5,
+        "type": "U",
+        "description": "Une espace superflue sépare l'apostrophe du mot 'utilisation'. Il ne doit pas y avoir d'espace après l'apostrophe de l'élision.",
+        "suggestions": [
+          "l'utilisation"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "text": "capacité",
+        "occurenceIndex": 39,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'capacité' doit s'accorder au pluriel avec son déterminant 'nos'. Donneur: 'nos'.",
+        "suggestions": [
+          "capacités"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "quelques uns",
+        "occurenceIndex": 241,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le pronom indéfini 'quelques-uns' s'écrit avec un trait d'union.",
+        "suggestions": [
+          "quelques-uns"
+        ],
+        "ruleApplied": "5.2.1.7.1"
+      },
+      {
+        "text": "unies",
+        "occurenceIndex": 767,
+        "criteria": 5,
+        "type": "U",
+        "description": "Dans la dénomination 'Organisation des Nations Unies', l'adjectif 'Unies' prend une majuscule.",
+        "suggestions": [
+          "Unies"
+        ],
+        "ruleApplied": "5.2.4.1.2"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 7,
+      "note": "B"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:57:18.280Z",
+    "endTimestamp": "2025-12-10T15:01:47.210Z",
+    "durationMs": 268930,
+    "durationFormatted": "04:28:930",
+    "cumulParPasse": [
+      {
+        "passe": 1,
+        "erreursCritere4": [
+          {
+            "text": "où",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Pour marquer l'origine ou la provenance, il faut utiliser la locution interrogative \"d'où\" et non l'adverbe de lieu \"où\".",
+            "suggestions": [
+              "d'où"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "réaliser",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'emploi du verbe \"réaliser\" au sens d'« accomplir » ou de « parvenir à un but » est un calque sémantique de l'anglais \"to realize\". En français, \"réaliser\" signifie \"rendre réel\" ou \"comprendre soudainement\".",
+            "suggestions": [
+              "l'accomplir",
+              "y parvenir"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "transportés (Table québécoise sur la saine alimentation, 2019).",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Lorsque la référence entre parenthèses fait partie intégrante de la phrase et n'est pas une phrase complète elle-même, le point final doit être placé après la parenthèse fermante.",
+            "suggestions": [
+              "transportés (Table québécoise sur la saine alimentation, 2019)."
+            ],
+            "ruleApplied": "4.2.2.1.2"
+          },
+          {
+            "text": "on en a déjà beaucoup trop fait",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'expression est sémantiquement faible et imprécise. Le verbe \"faire\" est un verbe passe-partout qui affaiblit le propos. Il serait préférable d'utiliser un verbe plus précis comme \"gaspiller\".",
+            "suggestions": [
+              "on a déjà beaucoup trop gaspillé"
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          },
+          {
+            "text": "et car",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "La coordination de deux propositions de cause introduites par \"parce que\" et \"car\" est incorrecte. Pour coordonner deux causes, il faut répéter la conjonction \"que\" (\"parce que... et que...\"). Il s'agit de la deuxième erreur de syntaxe dans la même phrase.",
+            "suggestions": [
+              "et que"
+            ],
+            "ruleApplied": "4.1.2.4.2"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "certains",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif \"certain\" est ici attribut du sujet \"C'\" (pronom démonstratif neutre) et doit s'accorder au masculin singulier.",
+            "suggestions": [
+              "certain"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "fermes",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Dans l'expression \"animaux de ferme\", le nom \"ferme\" est un complément du nom \"animaux\" qui indique la catégorie et reste donc au singulier.",
+            "suggestions": [
+              "ferme"
+            ],
+            "ruleApplied": "5.3.1.5"
+          },
+          {
+            "text": "Cet",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Le déterminant démonstratif \"cet\" s'emploie devant un nom masculin commençant par une voyelle ou un \"h\" muet. Devant le nom \"gaspillage\", qui commence par une consonne, il faut utiliser \"ce\".",
+            "suggestions": [
+              "Ce"
+            ],
+            "ruleApplied": "5.2.1.9.1"
+          },
+          {
+            "text": "l’ utilisation",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "L'apostrophe, qui marque l'élision, doit être collée au mot qui suit. Il ne doit pas y avoir d'espace entre \"l'\" et \"utilisation\".",
+            "suggestions": [
+              "l'utilisation"
+            ],
+            "ruleApplied": "5.2.6.4"
+          },
+          {
+            "text": "2,2",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "En français, le séparateur décimal est la virgule, et non le point qui est utilisé dans le monde anglo-saxon.",
+            "suggestions": [
+              "2,2"
+            ],
+            "ruleApplied": "5.2.6.3"
+          },
+          {
+            "text": "2.2",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "(U)",
+            "description": "Répétition de l'erreur d'usage. En français, le séparateur décimal est la virgule, et non le point.",
+            "suggestions": [
+              "2,2"
+            ],
+            "ruleApplied": "5.1.3"
+          },
+          {
+            "text": "capacité",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom \"capacité\" doit s'accorder au pluriel avec le déterminant possessif pluriel \"nos\".",
+            "suggestions": [
+              "capacités"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "quelques uns",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Le pronom indéfini \"quelques-uns\" s'écrit toujours avec un trait d'union.",
+            "suggestions": [
+              "quelques-uns"
+            ],
+            "ruleApplied": "5.2.1.7.1"
+          },
+          {
+            "text": "unies",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Dans les noms d'organismes et d'institutions, les adjectifs qui les caractérisent prennent généralement une majuscule. L'usage est \"Organisation des Nations Unies\".",
+            "suggestions": [
+              "Unies"
+            ],
+            "ruleApplied": "5.2.4.1.2"
+          }
+        ],
+        "totalErreursCritere4": 5,
+        "totalErreursCritere5": 9,
+        "scoreCritere4": {
+          "pointsPerdus": 3.5,
+          "note": "A"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 8,
+          "note": "B"
+        }
+      },
+      {
+        "passe": 2,
+        "erreursCritere4": [
+          {
+            "text": "où",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Pour marquer l'origine ou la provenance, il faut utiliser la locution interrogative \"d'où\" et non l'adverbe de lieu \"où\".",
+            "suggestions": [
+              "d'où"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "réaliser",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'emploi du verbe \"réaliser\" au sens d'« accomplir » ou de « parvenir à un but » est un calque sémantique de l'anglais \"to realize\". En français, \"réaliser\" signifie \"rendre réel\" ou \"comprendre soudainement\".",
+            "suggestions": [
+              "l'accomplir",
+              "y parvenir"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "transportés (Table québécoise sur la saine alimentation, 2019).",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Lorsque la référence entre parenthèses fait partie intégrante de la phrase et n'est pas une phrase complète elle-même, le point final doit être placé après la parenthèse fermante.",
+            "suggestions": [
+              "transportés (Table québécoise sur la saine alimentation, 2019)."
+            ],
+            "ruleApplied": "4.2.2.1.2"
+          },
+          {
+            "text": "on en a déjà beaucoup trop fait",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'expression est sémantiquement faible et imprécise. Le verbe \"faire\" est un verbe passe-partout qui affaiblit le propos. Il serait préférable d'utiliser un verbe plus précis comme \"gaspiller\".",
+            "suggestions": [
+              "on a déjà beaucoup trop gaspillé"
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          },
+          {
+            "text": "et car",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "La coordination de deux propositions de cause introduites par \"parce que\" et \"car\" est incorrecte. Pour coordonner deux causes, il faut répéter la conjonction \"que\" (\"parce que... et que...\"). Il s'agit de la deuxième erreur de syntaxe dans la même phrase.",
+            "suggestions": [
+              "et que"
+            ],
+            "ruleApplied": "4.1.2.4.2"
+          },
+          {
+            "text": "vient notre nourriture",
+            "occurenceIndex": 250,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'inversion sujet-verbe est incorrecte dans une proposition interrogative indirecte. Il faut utiliser l'ordre 'sujet + verbe'.",
+            "suggestions": [
+              "notre nourriture vient"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": ",",
+            "occurenceIndex": 430,
+            "criteria": 4,
+            "type": "P",
+            "description": "L'emploi de la virgule pour joindre deux phrases syntaxiques indépendantes (asyndète) est incorrect. Il faut utiliser un point ou un point-virgule.",
+            "suggestions": [
+              "."
+            ],
+            "ruleApplied": "4.2.2.1.2"
+          },
+          {
+            "text": "et car",
+            "occurenceIndex": 133,
+            "criteria": 4,
+            "type": "S",
+            "description": "La coordination de deux subordonnants de même nature ('parce que' et 'car') est incorrecte. Il faut répéter le premier subordonnant avec 'que' ('et que') ou le répéter entièrement ('et parce que').",
+            "suggestions": [
+              "et que",
+              "et parce que"
+            ],
+            "ruleApplied": "4.1.2.4.2"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "certains",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif \"certain\" est ici attribut du sujet \"C'\" (pronom démonstratif neutre) et doit s'accorder au masculin singulier.",
+            "suggestions": [
+              "certain"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "fermes",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Dans l'expression \"animaux de ferme\", le nom \"ferme\" est un complément du nom \"animaux\" qui indique la catégorie et reste donc au singulier.",
+            "suggestions": [
+              "ferme"
+            ],
+            "ruleApplied": "5.3.1.5"
+          },
+          {
+            "text": "Cet",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Le déterminant démonstratif \"cet\" s'emploie devant un nom masculin commençant par une voyelle ou un \"h\" muet. Devant le nom \"gaspillage\", qui commence par une consonne, il faut utiliser \"ce\".",
+            "suggestions": [
+              "Ce"
+            ],
+            "ruleApplied": "5.2.1.9.1"
+          },
+          {
+            "text": "l’ utilisation",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "L'apostrophe, qui marque l'élision, doit être collée au mot qui suit. Il ne doit pas y avoir d'espace entre \"l'\" et \"utilisation\".",
+            "suggestions": [
+              "l'utilisation"
+            ],
+            "ruleApplied": "5.2.6.4"
+          },
+          {
+            "text": "2,2",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "En français, le séparateur décimal est la virgule, et non le point qui est utilisé dans le monde anglo-saxon.",
+            "suggestions": [
+              "2,2"
+            ],
+            "ruleApplied": "5.2.6.3"
+          },
+          {
+            "text": "2.2",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "(U)",
+            "description": "Répétition de l'erreur d'usage. En français, le séparateur décimal est la virgule, et non le point.",
+            "suggestions": [
+              "2,2"
+            ],
+            "ruleApplied": "5.1.3"
+          },
+          {
+            "text": "capacité",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom \"capacité\" doit s'accorder au pluriel avec le déterminant possessif pluriel \"nos\".",
+            "suggestions": [
+              "capacités"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "quelques uns",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Le pronom indéfini \"quelques-uns\" s'écrit toujours avec un trait d'union.",
+            "suggestions": [
+              "quelques-uns"
+            ],
+            "ruleApplied": "5.2.1.7.1"
+          },
+          {
+            "text": "unies",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Dans les noms d'organismes et d'institutions, les adjectifs qui les caractérisent prennent généralement une majuscule. L'usage est \"Organisation des Nations Unies\".",
+            "suggestions": [
+              "Unies"
+            ],
+            "ruleApplied": "5.2.4.1.2"
+          },
+          {
+            "text": "certains",
+            "occurenceIndex": 154,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif attribut 'certain' doit s'accorder au masculin singulier avec le pronom neutre 'C'' (représentant 'cela').",
+            "suggestions": [
+              "certain"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "fermes",
+            "occurenceIndex": 318,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le complément du nom 'ferme', qui qualifie 'animaux', doit rester au singulier dans l'expression 'animaux de ferme'.",
+            "suggestions": [
+              "ferme"
+            ],
+            "ruleApplied": "5.3.1.5"
+          },
+          {
+            "text": "Cet",
+            "occurenceIndex": 429,
+            "criteria": 5,
+            "type": "U",
+            "description": "Le déterminant démonstratif 'cet' s'emploie devant un nom masculin commençant par une voyelle ou un 'h' muet. Devant 'gaspillage', qui commence par une consonne, il faut utiliser 'ce'.",
+            "suggestions": [
+              "Ce"
+            ],
+            "ruleApplied": "5.2.1.9.1"
+          },
+          {
+            "text": "l’ utilisation",
+            "occurenceIndex": 303,
+            "criteria": 5,
+            "type": "U",
+            "description": "Une espace superflue sépare l'apostrophe du mot 'utilisation'. Il ne doit pas y avoir d'espace après l'apostrophe de l'élision.",
+            "suggestions": [
+              "l'utilisation"
+            ],
+            "ruleApplied": "5.2.6.4"
+          },
+          {
+            "text": "capacité",
+            "occurenceIndex": 39,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom 'capacité' doit s'accorder au pluriel avec son déterminant 'nos'. Donneur: 'nos'.",
+            "suggestions": [
+              "capacités"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "quelques uns",
+            "occurenceIndex": 241,
+            "criteria": 5,
+            "type": "U",
+            "description": "Le pronom indéfini 'quelques-uns' s'écrit avec un trait d'union.",
+            "suggestions": [
+              "quelques-uns"
+            ],
+            "ruleApplied": "5.2.1.7.1"
+          },
+          {
+            "text": "unies",
+            "occurenceIndex": 767,
+            "criteria": 5,
+            "type": "U",
+            "description": "Dans la dénomination 'Organisation des Nations Unies', l'adjectif 'Unies' prend une majuscule.",
+            "suggestions": [
+              "Unies"
+            ],
+            "ruleApplied": "5.2.4.1.2"
+          }
+        ],
+        "totalErreursCritere4": 8,
+        "totalErreursCritere5": 16,
+        "scoreCritere4": {
+          "pointsPerdus": 6,
+          "note": "B"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 15,
+          "note": "D"
+        }
+      }
+    ],
+    "erreursCritere4AvantAnalyseIA": [
+      {
+        "text": "où",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Pour marquer l'origine ou la provenance, il faut utiliser la locution interrogative \"d'où\" et non l'adverbe de lieu \"où\".",
+        "suggestions": [
+          "d'où"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "réaliser",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'emploi du verbe \"réaliser\" au sens d'« accomplir » ou de « parvenir à un but » est un calque sémantique de l'anglais \"to realize\". En français, \"réaliser\" signifie \"rendre réel\" ou \"comprendre soudainement\".",
+        "suggestions": [
+          "l'accomplir",
+          "y parvenir"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "transportés (Table québécoise sur la saine alimentation, 2019).",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Lorsque la référence entre parenthèses fait partie intégrante de la phrase et n'est pas une phrase complète elle-même, le point final doit être placé après la parenthèse fermante.",
+        "suggestions": [
+          "transportés (Table québécoise sur la saine alimentation, 2019)."
+        ],
+        "ruleApplied": "4.2.2.1.2"
+      },
+      {
+        "text": "on en a déjà beaucoup trop fait",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression est sémantiquement faible et imprécise. Le verbe \"faire\" est un verbe passe-partout qui affaiblit le propos. Il serait préférable d'utiliser un verbe plus précis comme \"gaspiller\".",
+        "suggestions": [
+          "on a déjà beaucoup trop gaspillé"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": "et car",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "La coordination de deux propositions de cause introduites par \"parce que\" et \"car\" est incorrecte. Pour coordonner deux causes, il faut répéter la conjonction \"que\" (\"parce que... et que...\"). Il s'agit de la deuxième erreur de syntaxe dans la même phrase.",
+        "suggestions": [
+          "et que"
+        ],
+        "ruleApplied": "4.1.2.4.2"
+      },
+      {
+        "text": "vient notre nourriture",
+        "occurenceIndex": 250,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'inversion sujet-verbe est incorrecte dans une proposition interrogative indirecte. Il faut utiliser l'ordre 'sujet + verbe'.",
+        "suggestions": [
+          "notre nourriture vient"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": ",",
+        "occurenceIndex": 430,
+        "criteria": 4,
+        "type": "P",
+        "description": "L'emploi de la virgule pour joindre deux phrases syntaxiques indépendantes (asyndète) est incorrect. Il faut utiliser un point ou un point-virgule.",
+        "suggestions": [
+          "."
+        ],
+        "ruleApplied": "4.2.2.1.2"
+      },
+      {
+        "text": "et car",
+        "occurenceIndex": 133,
+        "criteria": 4,
+        "type": "S",
+        "description": "La coordination de deux subordonnants de même nature ('parce que' et 'car') est incorrecte. Il faut répéter le premier subordonnant avec 'que' ('et que') ou le répéter entièrement ('et parce que').",
+        "suggestions": [
+          "et que",
+          "et parce que"
+        ],
+        "ruleApplied": "4.1.2.4.2"
+      }
+    ],
+    "erreursCritere5AvantAnalyseIA": [
+      {
+        "text": "certains",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif \"certain\" est ici attribut du sujet \"C'\" (pronom démonstratif neutre) et doit s'accorder au masculin singulier.",
+        "suggestions": [
+          "certain"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "fermes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Dans l'expression \"animaux de ferme\", le nom \"ferme\" est un complément du nom \"animaux\" qui indique la catégorie et reste donc au singulier.",
+        "suggestions": [
+          "ferme"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "text": "Cet",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le déterminant démonstratif \"cet\" s'emploie devant un nom masculin commençant par une voyelle ou un \"h\" muet. Devant le nom \"gaspillage\", qui commence par une consonne, il faut utiliser \"ce\".",
+        "suggestions": [
+          "Ce"
+        ],
+        "ruleApplied": "5.2.1.9.1"
+      },
+      {
+        "text": "l’ utilisation",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'apostrophe, qui marque l'élision, doit être collée au mot qui suit. Il ne doit pas y avoir d'espace entre \"l'\" et \"utilisation\".",
+        "suggestions": [
+          "l'utilisation"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "text": "2,2",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "En français, le séparateur décimal est la virgule, et non le point qui est utilisé dans le monde anglo-saxon.",
+        "suggestions": [
+          "2,2"
+        ],
+        "ruleApplied": "5.2.6.3"
+      },
+      {
+        "text": "2.2",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Répétition de l'erreur d'usage. En français, le séparateur décimal est la virgule, et non le point.",
+        "suggestions": [
+          "2,2"
+        ],
+        "ruleApplied": "5.1.3"
+      },
+      {
+        "text": "capacité",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom \"capacité\" doit s'accorder au pluriel avec le déterminant possessif pluriel \"nos\".",
+        "suggestions": [
+          "capacités"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "quelques uns",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le pronom indéfini \"quelques-uns\" s'écrit toujours avec un trait d'union.",
+        "suggestions": [
+          "quelques-uns"
+        ],
+        "ruleApplied": "5.2.1.7.1"
+      },
+      {
+        "text": "unies",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Dans les noms d'organismes et d'institutions, les adjectifs qui les caractérisent prennent généralement une majuscule. L'usage est \"Organisation des Nations Unies\".",
+        "suggestions": [
+          "Unies"
+        ],
+        "ruleApplied": "5.2.4.1.2"
+      },
+      {
+        "text": "certains",
+        "occurenceIndex": 154,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif attribut 'certain' doit s'accorder au masculin singulier avec le pronom neutre 'C'' (représentant 'cela').",
+        "suggestions": [
+          "certain"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "fermes",
+        "occurenceIndex": 318,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le complément du nom 'ferme', qui qualifie 'animaux', doit rester au singulier dans l'expression 'animaux de ferme'.",
+        "suggestions": [
+          "ferme"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "text": "Cet",
+        "occurenceIndex": 429,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le déterminant démonstratif 'cet' s'emploie devant un nom masculin commençant par une voyelle ou un 'h' muet. Devant 'gaspillage', qui commence par une consonne, il faut utiliser 'ce'.",
+        "suggestions": [
+          "Ce"
+        ],
+        "ruleApplied": "5.2.1.9.1"
+      },
+      {
+        "text": "l’ utilisation",
+        "occurenceIndex": 303,
+        "criteria": 5,
+        "type": "U",
+        "description": "Une espace superflue sépare l'apostrophe du mot 'utilisation'. Il ne doit pas y avoir d'espace après l'apostrophe de l'élision.",
+        "suggestions": [
+          "l'utilisation"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "text": "capacité",
+        "occurenceIndex": 39,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'capacité' doit s'accorder au pluriel avec son déterminant 'nos'. Donneur: 'nos'.",
+        "suggestions": [
+          "capacités"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "quelques uns",
+        "occurenceIndex": 241,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le pronom indéfini 'quelques-uns' s'écrit avec un trait d'union.",
+        "suggestions": [
+          "quelques-uns"
+        ],
+        "ruleApplied": "5.2.1.7.1"
+      },
+      {
+        "text": "unies",
+        "occurenceIndex": 767,
+        "criteria": 5,
+        "type": "U",
+        "description": "Dans la dénomination 'Organisation des Nations Unies', l'adjectif 'Unies' prend une majuscule.",
+        "suggestions": [
+          "Unies"
+        ],
+        "ruleApplied": "5.2.4.1.2"
+      }
+    ],
+    "analyseIADuplicatas": {
+      "critere4": {
+        "analyse": {
+          "totalErreursCritere4": 8,
+          "totalErreursCritere5": 0,
+          "duplicatasCritere4": 0,
+          "duplicatasCritere5": 0
+        },
+        "duplicatasCritere4": [],
+        "duplicatasCritere5": [],
+        "erreursUniquesCritere4": [
+          {
+            "index": 0,
+            "text": "où",
+            "raison": "Aucun duplicata trouvé. Erreur unique de syntaxe."
+          },
+          {
+            "index": 1,
+            "text": "réaliser",
+            "raison": "Aucun duplicata trouvé. Erreur unique de calque sémantique."
+          },
+          {
+            "index": 2,
+            "text": "transportés (Table québécoise sur la saine alimentation, 2019).",
+            "raison": "Aucun duplicata trouvé. Erreur unique de ponctuation."
+          },
+          {
+            "index": 3,
+            "text": "on en a déjà beaucoup trop fait",
+            "raison": "Aucun duplicata trouvé. Erreur unique de sémantique."
+          },
+          {
+            "index": 4,
+            "text": "et car",
+            "raison": "Aucun duplicata trouvé. Bien que le texte soit identique à l'erreur 7, l'index d'occurrence (0 vs 133) indique deux erreurs distinctes dans le texte."
+          },
+          {
+            "index": 5,
+            "text": "vient notre nourriture",
+            "raison": "Aucun duplicata trouvé. Erreur unique d'inversion sujet-verbe."
+          },
+          {
+            "index": 6,
+            "text": ",",
+            "raison": "Aucun duplicata trouvé. Erreur unique de ponctuation (asyndète)."
+          },
+          {
+            "index": 7,
+            "text": "et car",
+            "raison": "Aucun duplicata trouvé. Bien que le texte soit identique à l'erreur 4, l'index d'occurrence (133 vs 0) indique deux erreurs distinctes dans le texte."
+          }
+        ],
+        "erreursUniquesCritere5": [],
+        "recommandations": {
+          "erreursAConserverCritere4": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "erreursAConserverCritere5": [],
+          "erreursASupprimer": {
+            "critere4": [],
+            "critere5": []
+          }
+        }
+      },
+      "critere5": {
+        "analyse": {
+          "totalErreursCritere4": 0,
+          "totalErreursCritere5": 16,
+          "duplicatasCritere4": 0,
+          "duplicatasCritere5": 8
+        },
+        "duplicatasCritere4": [],
+        "duplicatasCritere5": [
+          {
+            "groupe": 1,
+            "confiance": 95,
+            "raison": "Même erreur (séparateur décimal) à la même position (index 0). L'erreur [5] identifie correctement le texte erroné ('2.2').",
+            "erreurs": [
+              {
+                "index": 5,
+                "text": "2.2",
+                "garder": true
+              },
+              {
+                "index": 4,
+                "text": "2,2",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 2,
+            "confiance": 90,
+            "raison": "Même erreur textuelle et sémantique. L'erreur [9] a un index d'occurrence spécifique (154), suggérant que l'erreur [0] est un duplicata avec un index par défaut.",
+            "erreurs": [
+              {
+                "index": 9,
+                "text": "certains",
+                "garder": true
+              },
+              {
+                "index": 0,
+                "text": "certains",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 3,
+            "confiance": 90,
+            "raison": "Même erreur textuelle et sémantique. L'erreur [10] a un index d'occurrence spécifique (318), suggérant que l'erreur [1] est un duplicata avec un index par défaut.",
+            "erreurs": [
+              {
+                "index": 10,
+                "text": "fermes",
+                "garder": true
+              },
+              {
+                "index": 1,
+                "text": "fermes",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 4,
+            "confiance": 90,
+            "raison": "Même erreur textuelle et sémantique. L'erreur [11] a un index d'occurrence spécifique (429), suggérant que l'erreur [2] est un duplicata avec un index par défaut.",
+            "erreurs": [
+              {
+                "index": 11,
+                "text": "Cet",
+                "garder": true
+              },
+              {
+                "index": 2,
+                "text": "Cet",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 5,
+            "confiance": 90,
+            "raison": "Même erreur textuelle et sémantique. L'erreur [12] a un index d'occurrence spécifique (303), suggérant que l'erreur [3] est un duplicata avec un index par défaut.",
+            "erreurs": [
+              {
+                "index": 12,
+                "text": "l’ utilisation",
+                "garder": true
+              },
+              {
+                "index": 3,
+                "text": "l’ utilisation",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 6,
+            "confiance": 90,
+            "raison": "Même erreur textuelle et sémantique. L'erreur [13] a un index d'occurrence spécifique (39) et une description plus précise.",
+            "erreurs": [
+              {
+                "index": 13,
+                "text": "capacité",
+                "garder": true
+              },
+              {
+                "index": 6,
+                "text": "capacité",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 7,
+            "confiance": 90,
+            "raison": "Même erreur textuelle et sémantique. L'erreur [14] a un index d'occurrence spécifique (241), suggérant que l'erreur [7] est un duplicata avec un index par défaut.",
+            "erreurs": [
+              {
+                "index": 14,
+                "text": "quelques uns",
+                "garder": true
+              },
+              {
+                "index": 7,
+                "text": "quelques uns",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 8,
+            "confiance": 90,
+            "raison": "Même erreur textuelle et sémantique. L'erreur [15] a un index d'occurrence spécifique (767), suggérant que l'erreur [8] est un duplicata avec un index par défaut.",
+            "erreurs": [
+              {
+                "index": 15,
+                "text": "unies",
+                "garder": true
+              },
+              {
+                "index": 8,
+                "text": "unies",
+                "garder": false
+              }
+            ]
+          }
+        ],
+        "erreursUniquesCritere4": [],
+        "erreursUniquesCritere5": [],
+        "recommandations": {
+          "erreursAConserverCritere4": [],
+          "erreursAConserverCritere5": [
+            5,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "erreursASupprimer": {
+            "critere4": [],
+            "critere5": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              6,
+              7,
+              8
+            ]
+          }
+        }
+      }
+    }
+  }
+}

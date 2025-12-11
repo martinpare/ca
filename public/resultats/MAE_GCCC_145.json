@@ -1,0 +1,765 @@
+{
+  "processedAt": "2025-12-10T15:11:19.172Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_145.txt",
+    "originalText": "Une lutte acharnée\r\n\r\nLa nourriture est une ressource essentielle à la vie. Chaque jour, nous en consommons sans vraiment se soucier de quoi faire avec les restes. Ce qui nous amène à la question suivante : sommes-nous prêts à lutter contre le gaspillage alimentaire? Selon moi, avec une bonne récupération des aliments ainsi que l'aide des entreprises, nous sommes prêts à la lutte.\r\n\r\nPremièrement, il faut arrêter de craindre les dates limites de conservation! En effet, yogourt, riz, pâtes et énormément d'autres produits peuvent très bien êtres mangés après la date indiquée sur l'emballage. Alors pourquoi jeter votre yogourt si le goût reste le même? Pourquoi le gaspiller si vous pouvez le consommer sans aucun danger pour votre santé? De plus, certains aliments permettent de faire des choses assez intéressantes avec leur résidus. Qui l'aurait cru? Vous pouvez transformer une simple peau de poisson en délicieuses croustilles. C'est grâce à des sites web comme Sauve ta bouffe et Chic frigo sans fric qu'on peut facilement trouver des recettes avec ce qu'on n'a pas l'habitude de manger. Avec ces simples techniques de conservation, on évite de jeter ce dont on a payé pour. Or ce n'est pas seulement à vous et moi même de faire des efforts. Les restaurants doivent eux aussi jouer leur rôle. Certains restaurateurs permettent aux clients de rapporter avec eux les restes de leur repas, mais cette merveilleuse solution n'est pas offerte par tous et ce n'est pas tout le monde qui prend l'initiative de rapporter leurs restes de table. Donc si chacun applique les solutions nécessaires en plus du travail des restaurateurs pour minimiser les pertes, beaucoup moins de nourriture sera gaspillé.\r\n\r\nDeuxièmement, sans l'aide des entreprises, nous ne pourrons jamais atteindre la clé du succès. Que ferons-nous si personne ne récupère les surplus alimentaires? Qui va s'occuper de faire des paniers pour les plus démunis? C'est grâce à ces généreux groupes communautaires et ces entreprises impliquées que nous pouvons survivre face aux énormes quantités de nourritures que nous jetons chaque jour. Un bon exemple que les entrepreneurs devraient suivre est Loop Mission. L'entreprise transforme des fruits et légumes en d'autres produits comme du savon, du jus et même en alcool. Malheureusement, les coûts de cette transformation demeurent assez élevés. C'est donc une des raisons pourquoi plus d'entreprises doivent s'impliquer dans la cause pour participer à l'amélioration des techniques de transformation. Un autre moyen pour s'impliquer serait de créer une plateforme qui permet d'acheter de la nourriture dont la date de péremption est à venir. Par exemple, Flashfood offre justement ce genre de produit en plus d'offrir des fruits et légumes avec des formes farfelues. Donc en tant que consommateur vous pouvez aussi faire la différence en achetant sur ces plateformes et contribuer à la lutte contre le gaspillage.\r\n\r\nEn fin de compte, la lutte contre le gaspillage ne risque pas d'être facile, mais si nous participons tous à une bonne récupération de nos aliments ainsi qu'avec l'aide de généreuses entreprises, nous avons une chance de gagner ce combat.",
+    "erreursCritere4": [
+      {
+        "text": "se",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom réfléchi doit être de la même personne que le sujet « nous ». On doit donc utiliser « nous » et non « se ».",
+        "suggestions": [
+          "nous"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "text": "pourquoi",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'adverbe interrogatif « pourquoi » ne peut pas être employé comme un pronom relatif. Il faut utiliser le pronom relatif composé « pour lesquelles », qui reprend l'antécédent « raisons » (féminin pluriel).",
+        "suggestions": [
+          "pour lesquelles"
+        ],
+        "ruleApplied": "4.1.2.3.1"
+      },
+      {
+        "text": "ainsi qu'avec",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution « ainsi que » ne peut pas coordonner des éléments de fonctions syntaxiques différentes. La proposition subordonnée « si nous participons... » ne peut être coordonnée au groupe prépositionnel « avec l'aide... ». Il faut utiliser un coordonnant comme « et ».",
+        "suggestions": [
+          "et avec"
+        ],
+        "ruleApplied": "4.1.2.1.8"
+      },
+      {
+        "text": "!",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point d'exclamation est utilisé à tort après une simple affirmation. Un point est requis pour clore la phrase déclarative.",
+        "suggestions": [
+          "."
+        ],
+        "ruleApplied": "4.2.2.3.2"
+      },
+      {
+        "text": "dont on a payé pour",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction 'dont... pour' est incorrecte. Le pronom relatif 'dont' remplace un complément introduit par 'de'. Il faut utiliser 'que' comme pronom relatif complément d'objet direct et supprimer la préposition finale.",
+        "suggestions": [
+          "qu'on a payé"
+        ],
+        "ruleApplied": "4.1.2.3.1"
+      },
+      {
+        "text": "consommateur vous",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Un complément de phrase de plus de trois mots ('en tant que consommateur') placé en tête de phrase doit être suivi d'une virgule.",
+        "suggestions": [
+          "consommateur, vous"
+        ],
+        "ruleApplied": "4.2.2.10.1.l"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 5,
+      "note": "B"
+    },
+    "erreursCritere5": [
+      {
+        "text": "êtres",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe « pouvoir » est suivi d'un verbe à l'infinitif. Il faut écrire « être » et non le nom « êtres ».",
+        "suggestions": [
+          "être"
+        ],
+        "ruleApplied": "5.3.2.5"
+      },
+      {
+        "text": "leur",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant possessif « leur » s'accorde en nombre avec le nom qu'il détermine, « résidus », qui est au pluriel. Il prend donc un « s ».",
+        "suggestions": [
+          "leurs"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "moi même",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le pronom accentué « moi-même » s'écrit avec un trait d'union.",
+        "suggestions": [
+          "moi-même"
+        ],
+        "ruleApplied": "5.2.1.7.1"
+      },
+      {
+        "text": "gaspillé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « gaspillé », employé avec l'auxiliaire « être », s'accorde en genre et en nombre avec le sujet « nourriture », qui est féminin singulier.",
+        "suggestions": [
+          "gaspillée"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "nourritures",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « nourriture » est généralement un nom non comptable et reste au singulier, même après une expression de quantité comme « quantités de ».",
+        "suggestions": [
+          "nourriture"
+        ],
+        "ruleApplied": "5.3.1.5"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 5,
+      "note": "B"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T15:08:17.219Z",
+    "endTimestamp": "2025-12-10T15:11:19.172Z",
+    "durationMs": 181953,
+    "durationFormatted": "03:01:953",
+    "cumulParPasse": [
+      {
+        "passe": 1,
+        "erreursCritere4": [
+          {
+            "text": "se",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le pronom réfléchi doit être de la même personne que le sujet « nous ». On doit donc utiliser « nous » et non « se ».",
+            "suggestions": [
+              "nous"
+            ],
+            "ruleApplied": "4.1.2.3.2"
+          },
+          {
+            "text": "payé pour",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le verbe « payer » est un verbe transitif direct qui se construit sans la préposition « pour ». La construction « payer pour quelque chose » est un calque de l'anglais.",
+            "suggestions": [
+              "payé"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "pourquoi",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'adverbe interrogatif « pourquoi » ne peut pas être employé comme un pronom relatif. Il faut utiliser le pronom relatif composé « pour lesquelles », qui reprend l'antécédent « raisons » (féminin pluriel).",
+            "suggestions": [
+              "pour lesquelles"
+            ],
+            "ruleApplied": "4.1.2.3.1"
+          },
+          {
+            "text": "consommateur",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Un complément de phrase de plus de trois mots placé en tête de phrase, comme « en tant que consommateur », doit être suivi d'une virgule.",
+            "suggestions": [
+              "consommateur,"
+            ],
+            "ruleApplied": "4.2.2.10.1.l"
+          },
+          {
+            "text": "ainsi qu'avec",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La locution « ainsi que » ne peut pas coordonner des éléments de fonctions syntaxiques différentes. La proposition subordonnée « si nous participons... » ne peut être coordonnée au groupe prépositionnel « avec l'aide... ». Il faut utiliser un coordonnant comme « et ».",
+            "suggestions": [
+              "et avec"
+            ],
+            "ruleApplied": "4.1.2.1.8"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "êtres",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe « pouvoir » est suivi d'un verbe à l'infinitif. Il faut écrire « être » et non le nom « êtres ».",
+            "suggestions": [
+              "être"
+            ],
+            "ruleApplied": "5.3.2.5"
+          },
+          {
+            "text": "leur",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le déterminant possessif « leur » s'accorde en nombre avec le nom qu'il détermine, « résidus », qui est au pluriel. Il prend donc un « s ».",
+            "suggestions": [
+              "leurs"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "moi même",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Le pronom accentué « moi-même » s'écrit avec un trait d'union.",
+            "suggestions": [
+              "moi-même"
+            ],
+            "ruleApplied": "5.2.1.7.1"
+          },
+          {
+            "text": "gaspillé",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé « gaspillé », employé avec l'auxiliaire « être », s'accorde en genre et en nombre avec le sujet « nourriture », qui est féminin singulier.",
+            "suggestions": [
+              "gaspillée"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "nourritures",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom « nourriture » est généralement un nom non comptable et reste au singulier, même après une expression de quantité comme « quantités de ».",
+            "suggestions": [
+              "nourriture"
+            ],
+            "ruleApplied": "5.3.1.5"
+          }
+        ],
+        "totalErreursCritere4": 5,
+        "totalErreursCritere5": 5,
+        "scoreCritere4": {
+          "pointsPerdus": 4.5,
+          "note": "B"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 5,
+          "note": "B"
+        }
+      },
+      {
+        "passe": 2,
+        "erreursCritere4": [
+          {
+            "text": "se",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le pronom réfléchi doit être de la même personne que le sujet « nous ». On doit donc utiliser « nous » et non « se ».",
+            "suggestions": [
+              "nous"
+            ],
+            "ruleApplied": "4.1.2.3.2"
+          },
+          {
+            "text": "payé pour",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le verbe « payer » est un verbe transitif direct qui se construit sans la préposition « pour ». La construction « payer pour quelque chose » est un calque de l'anglais.",
+            "suggestions": [
+              "payé"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "pourquoi",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'adverbe interrogatif « pourquoi » ne peut pas être employé comme un pronom relatif. Il faut utiliser le pronom relatif composé « pour lesquelles », qui reprend l'antécédent « raisons » (féminin pluriel).",
+            "suggestions": [
+              "pour lesquelles"
+            ],
+            "ruleApplied": "4.1.2.3.1"
+          },
+          {
+            "text": "consommateur",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Un complément de phrase de plus de trois mots placé en tête de phrase, comme « en tant que consommateur », doit être suivi d'une virgule.",
+            "suggestions": [
+              "consommateur,"
+            ],
+            "ruleApplied": "4.2.2.10.1.l"
+          },
+          {
+            "text": "ainsi qu'avec",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La locution « ainsi que » ne peut pas coordonner des éléments de fonctions syntaxiques différentes. La proposition subordonnée « si nous participons... » ne peut être coordonnée au groupe prépositionnel « avec l'aide... ». Il faut utiliser un coordonnant comme « et ».",
+            "suggestions": [
+              "et avec"
+            ],
+            "ruleApplied": "4.1.2.1.8"
+          },
+          {
+            "text": "!",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Le point d'exclamation est utilisé à tort après une simple affirmation. Un point est requis pour clore la phrase déclarative.",
+            "suggestions": [
+              "."
+            ],
+            "ruleApplied": "4.2.2.3.2"
+          },
+          {
+            "text": "dont on a payé pour",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction 'dont... pour' est incorrecte. Le pronom relatif 'dont' remplace un complément introduit par 'de'. Il faut utiliser 'que' comme pronom relatif complément d'objet direct et supprimer la préposition finale.",
+            "suggestions": [
+              "qu'on a payé"
+            ],
+            "ruleApplied": "4.1.2.3.1"
+          },
+          {
+            "text": "consommateur vous",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Un complément de phrase de plus de trois mots ('en tant que consommateur') placé en tête de phrase doit être suivi d'une virgule.",
+            "suggestions": [
+              "consommateur, vous"
+            ],
+            "ruleApplied": "4.2.2.10.1.l"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "êtres",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe « pouvoir » est suivi d'un verbe à l'infinitif. Il faut écrire « être » et non le nom « êtres ».",
+            "suggestions": [
+              "être"
+            ],
+            "ruleApplied": "5.3.2.5"
+          },
+          {
+            "text": "leur",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le déterminant possessif « leur » s'accorde en nombre avec le nom qu'il détermine, « résidus », qui est au pluriel. Il prend donc un « s ».",
+            "suggestions": [
+              "leurs"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "moi même",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Le pronom accentué « moi-même » s'écrit avec un trait d'union.",
+            "suggestions": [
+              "moi-même"
+            ],
+            "ruleApplied": "5.2.1.7.1"
+          },
+          {
+            "text": "gaspillé",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé « gaspillé », employé avec l'auxiliaire « être », s'accorde en genre et en nombre avec le sujet « nourriture », qui est féminin singulier.",
+            "suggestions": [
+              "gaspillée"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "nourritures",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom « nourriture » est généralement un nom non comptable et reste au singulier, même après une expression de quantité comme « quantités de ».",
+            "suggestions": [
+              "nourriture"
+            ],
+            "ruleApplied": "5.3.1.5"
+          },
+          {
+            "text": "moi même",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le pronom accentué 'moi' suivi de l'adjectif 'même' s'écrit avec un trait d'union pour former le pronom 'moi-même'.",
+            "suggestions": [
+              "moi-même"
+            ],
+            "ruleApplied": "5.3.1.1"
+          }
+        ],
+        "totalErreursCritere4": 8,
+        "totalErreursCritere5": 6,
+        "scoreCritere4": {
+          "pointsPerdus": 6.5,
+          "note": "B"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 6,
+          "note": "B"
+        }
+      }
+    ],
+    "erreursCritere4AvantAnalyseIA": [
+      {
+        "text": "se",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom réfléchi doit être de la même personne que le sujet « nous ». On doit donc utiliser « nous » et non « se ».",
+        "suggestions": [
+          "nous"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "text": "payé pour",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe « payer » est un verbe transitif direct qui se construit sans la préposition « pour ». La construction « payer pour quelque chose » est un calque de l'anglais.",
+        "suggestions": [
+          "payé"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "pourquoi",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'adverbe interrogatif « pourquoi » ne peut pas être employé comme un pronom relatif. Il faut utiliser le pronom relatif composé « pour lesquelles », qui reprend l'antécédent « raisons » (féminin pluriel).",
+        "suggestions": [
+          "pour lesquelles"
+        ],
+        "ruleApplied": "4.1.2.3.1"
+      },
+      {
+        "text": "consommateur",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Un complément de phrase de plus de trois mots placé en tête de phrase, comme « en tant que consommateur », doit être suivi d'une virgule.",
+        "suggestions": [
+          "consommateur,"
+        ],
+        "ruleApplied": "4.2.2.10.1.l"
+      },
+      {
+        "text": "ainsi qu'avec",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution « ainsi que » ne peut pas coordonner des éléments de fonctions syntaxiques différentes. La proposition subordonnée « si nous participons... » ne peut être coordonnée au groupe prépositionnel « avec l'aide... ». Il faut utiliser un coordonnant comme « et ».",
+        "suggestions": [
+          "et avec"
+        ],
+        "ruleApplied": "4.1.2.1.8"
+      },
+      {
+        "text": "!",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point d'exclamation est utilisé à tort après une simple affirmation. Un point est requis pour clore la phrase déclarative.",
+        "suggestions": [
+          "."
+        ],
+        "ruleApplied": "4.2.2.3.2"
+      },
+      {
+        "text": "dont on a payé pour",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction 'dont... pour' est incorrecte. Le pronom relatif 'dont' remplace un complément introduit par 'de'. Il faut utiliser 'que' comme pronom relatif complément d'objet direct et supprimer la préposition finale.",
+        "suggestions": [
+          "qu'on a payé"
+        ],
+        "ruleApplied": "4.1.2.3.1"
+      },
+      {
+        "text": "consommateur vous",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Un complément de phrase de plus de trois mots ('en tant que consommateur') placé en tête de phrase doit être suivi d'une virgule.",
+        "suggestions": [
+          "consommateur, vous"
+        ],
+        "ruleApplied": "4.2.2.10.1.l"
+      }
+    ],
+    "erreursCritere5AvantAnalyseIA": [
+      {
+        "text": "êtres",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe « pouvoir » est suivi d'un verbe à l'infinitif. Il faut écrire « être » et non le nom « êtres ».",
+        "suggestions": [
+          "être"
+        ],
+        "ruleApplied": "5.3.2.5"
+      },
+      {
+        "text": "leur",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant possessif « leur » s'accorde en nombre avec le nom qu'il détermine, « résidus », qui est au pluriel. Il prend donc un « s ».",
+        "suggestions": [
+          "leurs"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "moi même",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le pronom accentué « moi-même » s'écrit avec un trait d'union.",
+        "suggestions": [
+          "moi-même"
+        ],
+        "ruleApplied": "5.2.1.7.1"
+      },
+      {
+        "text": "gaspillé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « gaspillé », employé avec l'auxiliaire « être », s'accorde en genre et en nombre avec le sujet « nourriture », qui est féminin singulier.",
+        "suggestions": [
+          "gaspillée"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "nourritures",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « nourriture » est généralement un nom non comptable et reste au singulier, même après une expression de quantité comme « quantités de ».",
+        "suggestions": [
+          "nourriture"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "text": "moi même",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom accentué 'moi' suivi de l'adjectif 'même' s'écrit avec un trait d'union pour former le pronom 'moi-même'.",
+        "suggestions": [
+          "moi-même"
+        ],
+        "ruleApplied": "5.3.1.1"
+      }
+    ],
+    "analyseIADuplicatas": {
+      "critere4": {
+        "analyse": {
+          "totalErreursCritere4": 8,
+          "totalErreursCritere5": 0,
+          "duplicatasCritere4": 2,
+          "duplicatasCritere5": 0
+        },
+        "duplicatasCritere4": [
+          {
+            "groupe": 1,
+            "confiance": 95,
+            "raison": "Erreur sémantique. L'erreur sur la transitivité du verbe 'payer' (index 1) est incluse dans l'erreur plus large de la construction de la proposition relative (index 6).",
+            "erreurs": [
+              {
+                "index": 6,
+                "text": "dont on a payé pour",
+                "garder": true
+              },
+              {
+                "index": 1,
+                "text": "payé pour",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 2,
+            "confiance": 98,
+            "raison": "Même erreur de ponctuation (virgule manquante) identifiée au même endroit, avec la même règle appliquée. Le texte de l'erreur à l'index 7 est plus contextuel.",
+            "erreurs": [
+              {
+                "index": 7,
+                "text": "consommateur vous",
+                "garder": true
+              },
+              {
+                "index": 3,
+                "text": "consommateur",
+                "garder": false
+              }
+            ]
+          }
+        ],
+        "duplicatasCritere5": [],
+        "erreursUniquesCritere4": [
+          {
+            "index": 0,
+            "text": "se",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 2,
+            "text": "pourquoi",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 4,
+            "text": "ainsi qu'avec",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 5,
+            "text": "!",
+            "raison": "Aucun duplicata trouvé."
+          }
+        ],
+        "erreursUniquesCritere5": [],
+        "recommandations": {
+          "erreursAConserverCritere4": [
+            0,
+            2,
+            4,
+            5,
+            6,
+            7
+          ],
+          "erreursAConserverCritere5": [],
+          "erreursASupprimer": {
+            "critere4": [
+              1,
+              3
+            ],
+            "critere5": []
+          }
+        }
+      },
+      "critere5": {
+        "analyse": {
+          "totalErreursCritere4": 0,
+          "totalErreursCritere5": 6,
+          "duplicatasCritere4": 0,
+          "duplicatasCritere5": 1
+        },
+        "duplicatasCritere4": [],
+        "duplicatasCritere5": [
+          {
+            "groupe": 1,
+            "confiance": 98,
+            "raison": "Même erreur (trait d'union manquant) sur le même texte et à la même position. Les suggestions et la description sémantique sont identiques.",
+            "erreurs": [
+              {
+                "index": 2,
+                "text": "moi même",
+                "garder": true
+              },
+              {
+                "index": 5,
+                "text": "moi même",
+                "garder": false
+              }
+            ]
+          }
+        ],
+        "erreursUniquesCritere4": [],
+        "erreursUniquesCritere5": [
+          {
+            "index": 0,
+            "text": "êtres",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 1,
+            "text": "leur",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 3,
+            "text": "gaspillé",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 4,
+            "text": "nourritures",
+            "raison": "Aucun duplicata trouvé"
+          }
+        ],
+        "recommandations": {
+          "erreursAConserverCritere4": [],
+          "erreursAConserverCritere5": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "erreursASupprimer": {
+            "critere4": [],
+            "critere5": [
+              5
+            ]
+          }
+        }
+      }
+    }
+  }
+}

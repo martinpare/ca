@@ -1,0 +1,1237 @@
+{
+  "processedAt": "2025-12-10T14:20:38.222Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_036.txt",
+    "originalText": "Luttez dès maintenant n'attendez pas à demain\r\n\r\nConnaissez-vous la pyramide de Maslow? C'est une pyramide expliquant les besoins vitaux de l'humain. Au haut de cette dernière, on y retrouve les besoins essentiels à la survie d'un humain : des vêtements, un toît où dormir et évidemment l'accès à de la nourriture. Avoir accès à une alimentation comme celle que nous avons, ici au Québec, représente un énorme privilège pour notre société. Par contre, partout sur le globe et même au Québec, le gaspillage alimentaire devient de plus en plus un problème majeur. Sommes-nous prêts à lutter contre le gaspillage alimentaire? C'est sans aucun doute! La production, la transformation, le transport, la vente au détail, la restauration et enfin la consommation des aliments doivent être modifiés afin de réduire la perte alimentaire. Les données alarmantes de la situation et les multiples solutions présentes démontrent que nous sommes réellement prêts.\r\n\r\nDes données donnant la frousse\r\n\r\nLes statistiques du gaspillage alimentaire pourraient faire peur à la société si elles sortaient au grand public. Ces données alarmantes devraient nous donner une sérieuse tape derrière la tête afin que la société agisse finalement contre la perte d'aliments. En effet, dans un article du ministère de l'Éducation de 2022, les foyers familiaux canadiens gaspillent 2,2 millions de tonnes d'aliments annuellement. Cet énorme gaspillage représente une perte de plus de 17 milliards de dollars (RECYC-QUÉBEC, 2021)! C'est 2200 kilogrammes de nourriture! Dans le monde qu'on le vit présentement, les humains raffolent de l'argent. Les personnes en veulent toujours plus. Pourtant les citoyens canadiens perdent 17 milliards de dollars chaque année. C'est une somme insensée. C'est même inconcevable. De plus, « Selon une étude de l'Organisation des Nations unies, environ 931 millions de tonnes de nourriture ont été gaspillées dans le monde en 2019 », (1) explique Alexandre Shields. Ai-je bien lu? C'est un problème mondial majeur. Encore une fois, c'est bien plus que urgent. C'est alarmant! 931 millions de tonnes de nourriture jetées… Imaginez la quantité d'aliments mis à la poubelle par personne. Bref, les données du gaspillage alimentaire devraient sérieusement nous réveiller et prouver qu'on doit lutter dès maintenant.\r\n\r\nElles sont là\r\n\r\nLes solutions au gaspillage alimentaire ne se font pas rares. Elles sont là! Il suffit seulement de les appliquer. Notre société doit être prête à ajouter ces solutions à nos vies quotidiennes afin de lutter contre cette affreuse perte alimentaire. En effet, les solutions du gaspillage alimentaire sont simples et faciles à superposer dans la vie des citoyens et des commerçants. Les épiceries, les restaurants et les hôtels devraient être obligés de ne pas jeter. Est-ce vraiment réalisable? Oui, en voici un exemple: « En cinq ans, les banques alimentaires du Québec ont conclu des ententes avec 425 épiceries pour récupérer les produits invendus et en faire des paniers alimentaires. Cela représente 6,7 millions de kilos de denrées qui sont ainsi redistribuées », (2) éclaircit Jeanne Corriveau. Imaginez à quel point le gaspillage alimentaire serait réduit s'il y avait davantage de ce concept à travers la province et même le pays. De plus, dans les domiciles de nos chers citoyens de simples actions limiteraient le gaspillage. Il suffit de: planifier ses repas et préparer une liste d'épicerie en conséquence; se limiter à acheter en quantités modérées; congeler des restants pour de futurs repas et finalement cuire les fruits et légumes trop mûrs. (RECYC-QUÉBEC, 2021) Alors, les solutions sont-elles trop compliquées? Bien sûr que non, ces solutions simples et faciles pourraient et limiteraient le démoralisant gaspillage d'aliments.\r\n\r\nPour conclure, la perte de denrées alimentaires comporte de monstrueuses statistiques et des simples solutions mentionnées du problème devraient certainement réveiller le public sur l'enjeu. Agissez pour éviter toutes les conséquences du problème. Faites comme Greta Thunberg. Luttez dès maintenant n'attendez pas à demain.\r\n\r\n1 MINISTÈRE DE L'ÉDUCATION, «Le gaspillage alimentaire », 2022.\r\n2 MINISTÈRE DE L'ÉDUCATION, «Le gaspillage alimentaire », 2022.",
+    "erreursCritere4": [
+      {
+        "text": "n'attendez",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule pour séparer deux propositions impératives coordonnées par juxtaposition.",
+        "suggestions": [
+          ", n'attendez"
+        ],
+        "ruleApplied": "4.2.2.10.1.c"
+      },
+      {
+        "text": "!",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point d'exclamation est inapproprié après une simple affirmation factuelle. Un point est requis.",
+        "suggestions": [
+          "."
+        ],
+        "ruleApplied": "4.2.2.3.2"
+      },
+      {
+        "text": "!",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point d'exclamation est inapproprié après une simple affirmation factuelle. Un point est requis.",
+        "suggestions": [
+          "."
+        ],
+        "ruleApplied": "4.2.2.3.2"
+      },
+      {
+        "text": "qu'on le vit",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom relatif est incorrect. Pour un complément de lieu, il faut utiliser « où » ou « dans lequel ».",
+        "suggestions": [
+          "où l'on vit",
+          "dans lequel on vit"
+        ],
+        "ruleApplied": "4.1.2.3.1"
+      },
+      {
+        "text": "Pourtant",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule après l'organisateur textuel « Pourtant » placé en tête de phrase.",
+        "suggestions": [
+          "Pourtant,"
+        ],
+        "ruleApplied": "4.2.2.10.1.k"
+      },
+      {
+        "text": "suffit seulement",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Pléonasme. L'adverbe « seulement » est superflu car l'idée de suffisance est déjà contenue dans le verbe « suffire ».",
+        "suggestions": [
+          "suffit"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "superposer",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe « superposer » est utilisé de manière sémantiquement incorrecte. Des verbes comme « intégrer » ou « appliquer » seraient plus appropriés pour exprimer l'idée d'adopter des solutions dans la vie quotidienne.",
+        "suggestions": [
+          "intégrer",
+          "appliquer"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": "citoyens",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule pour séparer le complément de phrase « dans les domiciles de nos chers citoyens » placé en tête de phrase du reste de la proposition.",
+        "suggestions": [
+          "citoyens,"
+        ],
+        "ruleApplied": "4.2.2.10.1.b"
+      },
+      {
+        "text": "de:",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le deux-points est incorrectement placé entre la préposition « de » et la liste d'infinitifs qui la complètent.",
+        "suggestions": [
+          "de"
+        ],
+        "ruleApplied": "4.2.2.7.2"
+      },
+      {
+        "text": "pourraient et limiteraient",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de coordination. Le verbe modal « pourraient » ne peut être coordonné directement avec le verbe au conditionnel « limiteraient ». Le premier requiert un infinitif qui n'est pas présent.",
+        "suggestions": [
+          "pourraient limiter",
+          "limiteraient"
+        ],
+        "ruleApplied": "4.1.2.1.8"
+      },
+      {
+        "text": "et",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de coordination. La conjonction « et » relie un complément d'objet direct (« de monstrueuses statistiques ») à une proposition complète (« des simples solutions [...] devraient [...] »), ce qui crée une rupture syntaxique.",
+        "suggestions": [
+          ". Les solutions simples mentionnées pour ce problème devraient"
+        ],
+        "ruleApplied": "4.1.2.1.8"
+      },
+      {
+        "text": "2022.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point final est manquant à la fin de la référence bibliographique.",
+        "suggestions": [
+          "2022.."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "text": "à demain",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de préposition. Le verbe « attendre » est transitif direct dans ce contexte et ne requiert pas la préposition « à ».",
+        "suggestions": [
+          "demain"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "Au haut de",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression « au haut de » est un calque. Il faut utiliser « au sommet de » ou « en haut de ».",
+        "suggestions": [
+          "Au sommet de",
+          "En haut de"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "», (1)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "La ponctuation de l'incise (« explique Alexandre Shields ») doit suivre le guillemet fermant. La virgule est mal placée et devrait se trouver après le guillemet.",
+        "suggestions": [
+          "», explique"
+        ],
+        "ruleApplied": "4.2.2.10.1.f"
+      },
+      {
+        "text": "», (2)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "La ponctuation de l'incise (« éclaircit Jeanne Corriveau ») doit suivre le guillemet fermant. La virgule est mal placée et devrait se trouver après le guillemet.",
+        "suggestions": [
+          "», éclaircit"
+        ],
+        "ruleApplied": "4.2.2.10.1.f"
+      },
+      {
+        "text": "mûrs. (RECYC-QUÉBEC, 2021)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "La référence de la source doit être intégrée à la phrase, avant le point final.",
+        "suggestions": [
+          "mûrs (RECYC-QUÉBEC, 2021)."
+        ],
+        "ruleApplied": "4.2.2.1.2"
+      },
+      {
+        "text": "des simples solutions mentionnées du problème",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction de phrase boiteuse. La structure « mentionnées du problème » est incorrecte et l'article « des » est inapproprié; « les » serait attendu pour référer aux solutions déjà citées.",
+        "suggestions": [
+          "les simples solutions à ce problème",
+          "les simples solutions mentionnées"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 13,
+      "note": "C"
+    },
+    "erreursCritere5": [
+      {
+        "text": "toît",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'accent circonflexe est incorrect sur ce mot. La graphie correcte est « toit ».",
+        "suggestions": [
+          "toit"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "text": "unies",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Une majuscule est requise pour le mot « Unies » qui fait partie de la dénomination officielle « Organisation des Nations Unies ».",
+        "suggestions": [
+          "Unies"
+        ],
+        "ruleApplied": "5.2.4.1.2"
+      },
+      {
+        "text": "que urgent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'élision de la conjonction « que » est obligatoire devant un mot commençant par une voyelle, ici « urgent ».",
+        "suggestions": [
+          "qu'urgent"
+        ],
+        "ruleApplied": "5.2.3.1"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 3,
+      "note": "A"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:16:16.361Z",
+    "endTimestamp": "2025-12-10T14:20:38.222Z",
+    "durationMs": 261861,
+    "durationFormatted": "04:21:861",
+    "cumulParPasse": [
+      {
+        "passe": 1,
+        "erreursCritere4": [
+          {
+            "text": "n'attendez",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Il manque une virgule pour séparer deux propositions impératives coordonnées par juxtaposition.",
+            "suggestions": [
+              ", n'attendez"
+            ],
+            "ruleApplied": "4.2.2.10.1.c"
+          },
+          {
+            "text": "!",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Le point d'exclamation est inapproprié après une simple affirmation factuelle. Un point est requis.",
+            "suggestions": [
+              "."
+            ],
+            "ruleApplied": "4.2.2.3.2"
+          },
+          {
+            "text": "!",
+            "occurenceIndex": 1,
+            "criteria": 4,
+            "type": "P",
+            "description": "Le point d'exclamation est inapproprié après une simple affirmation factuelle. Un point est requis.",
+            "suggestions": [
+              "."
+            ],
+            "ruleApplied": "4.2.2.3.2"
+          },
+          {
+            "text": "qu'on le vit",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le pronom relatif est incorrect. Pour un complément de lieu, il faut utiliser « où » ou « dans lequel ».",
+            "suggestions": [
+              "où l'on vit",
+              "dans lequel on vit"
+            ],
+            "ruleApplied": "4.1.2.3.1"
+          },
+          {
+            "text": "Pourtant",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Il manque une virgule après l'organisateur textuel « Pourtant » placé en tête de phrase.",
+            "suggestions": [
+              "Pourtant,"
+            ],
+            "ruleApplied": "4.2.2.10.1.k"
+          },
+          {
+            "text": "suffit seulement",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Pléonasme. L'adverbe « seulement » est superflu car l'idée de suffisance est déjà contenue dans le verbe « suffire ».",
+            "suggestions": [
+              "suffit"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "superposer",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le verbe « superposer » est utilisé de manière sémantiquement incorrecte. Des verbes comme « intégrer » ou « appliquer » seraient plus appropriés pour exprimer l'idée d'adopter des solutions dans la vie quotidienne.",
+            "suggestions": [
+              "intégrer",
+              "appliquer"
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          },
+          {
+            "text": "citoyens",
+            "occurenceIndex": 1,
+            "criteria": 4,
+            "type": "P",
+            "description": "Il manque une virgule pour séparer le complément de phrase « dans les domiciles de nos chers citoyens » placé en tête de phrase du reste de la proposition.",
+            "suggestions": [
+              "citoyens,"
+            ],
+            "ruleApplied": "4.2.2.10.1.b"
+          },
+          {
+            "text": "de:",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Le deux-points est incorrectement placé entre la préposition « de » et la liste d'infinitifs qui la complètent.",
+            "suggestions": [
+              "de"
+            ],
+            "ruleApplied": "4.2.2.7.2"
+          },
+          {
+            "text": "pourraient et limiteraient",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Erreur de coordination. Le verbe modal « pourraient » ne peut être coordonné directement avec le verbe au conditionnel « limiteraient ». Le premier requiert un infinitif qui n'est pas présent.",
+            "suggestions": [
+              "pourraient limiter",
+              "limiteraient"
+            ],
+            "ruleApplied": "4.1.2.1.8"
+          },
+          {
+            "text": "et",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Erreur de coordination. La conjonction « et » relie un complément d'objet direct (« de monstrueuses statistiques ») à une proposition complète (« des simples solutions [...] devraient [...] »), ce qui crée une rupture syntaxique.",
+            "suggestions": [
+              ". Les solutions simples mentionnées pour ce problème devraient"
+            ],
+            "ruleApplied": "4.1.2.1.8"
+          },
+          {
+            "text": "simples",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "L'ordre des mots est boiteux. L'adjectif qualificatif « simples » se place généralement après le nom « solutions ».",
+            "suggestions": [
+              "solutions simples"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "2022.",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Le point final est manquant à la fin de la référence bibliographique.",
+            "suggestions": [
+              "2022.."
+            ],
+            "ruleApplied": "4.2.2.1.1"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "toît",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "L'accent circonflexe est incorrect sur ce mot. La graphie correcte est « toit ».",
+            "suggestions": [
+              "toit"
+            ],
+            "ruleApplied": "5.2.1.1"
+          },
+          {
+            "text": "unies",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Une majuscule est requise pour le mot « Unies » qui fait partie de la dénomination officielle « Organisation des Nations Unies ».",
+            "suggestions": [
+              "Unies"
+            ],
+            "ruleApplied": "5.2.4.1.2"
+          },
+          {
+            "text": "que urgent",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "L'élision de la conjonction « que » est obligatoire devant un mot commençant par une voyelle, ici « urgent ».",
+            "suggestions": [
+              "qu'urgent"
+            ],
+            "ruleApplied": "5.2.3.1"
+          }
+        ],
+        "totalErreursCritere4": 13,
+        "totalErreursCritere5": 3,
+        "scoreCritere4": {
+          "pointsPerdus": 8.5,
+          "note": "B"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 3,
+          "note": "A"
+        }
+      },
+      {
+        "passe": 2,
+        "erreursCritere4": [
+          {
+            "text": "n'attendez",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Il manque une virgule pour séparer deux propositions impératives coordonnées par juxtaposition.",
+            "suggestions": [
+              ", n'attendez"
+            ],
+            "ruleApplied": "4.2.2.10.1.c"
+          },
+          {
+            "text": "!",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Le point d'exclamation est inapproprié après une simple affirmation factuelle. Un point est requis.",
+            "suggestions": [
+              "."
+            ],
+            "ruleApplied": "4.2.2.3.2"
+          },
+          {
+            "text": "!",
+            "occurenceIndex": 1,
+            "criteria": 4,
+            "type": "P",
+            "description": "Le point d'exclamation est inapproprié après une simple affirmation factuelle. Un point est requis.",
+            "suggestions": [
+              "."
+            ],
+            "ruleApplied": "4.2.2.3.2"
+          },
+          {
+            "text": "qu'on le vit",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le pronom relatif est incorrect. Pour un complément de lieu, il faut utiliser « où » ou « dans lequel ».",
+            "suggestions": [
+              "où l'on vit",
+              "dans lequel on vit"
+            ],
+            "ruleApplied": "4.1.2.3.1"
+          },
+          {
+            "text": "Pourtant",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Il manque une virgule après l'organisateur textuel « Pourtant » placé en tête de phrase.",
+            "suggestions": [
+              "Pourtant,"
+            ],
+            "ruleApplied": "4.2.2.10.1.k"
+          },
+          {
+            "text": "suffit seulement",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Pléonasme. L'adverbe « seulement » est superflu car l'idée de suffisance est déjà contenue dans le verbe « suffire ».",
+            "suggestions": [
+              "suffit"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "superposer",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le verbe « superposer » est utilisé de manière sémantiquement incorrecte. Des verbes comme « intégrer » ou « appliquer » seraient plus appropriés pour exprimer l'idée d'adopter des solutions dans la vie quotidienne.",
+            "suggestions": [
+              "intégrer",
+              "appliquer"
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          },
+          {
+            "text": "citoyens",
+            "occurenceIndex": 1,
+            "criteria": 4,
+            "type": "P",
+            "description": "Il manque une virgule pour séparer le complément de phrase « dans les domiciles de nos chers citoyens » placé en tête de phrase du reste de la proposition.",
+            "suggestions": [
+              "citoyens,"
+            ],
+            "ruleApplied": "4.2.2.10.1.b"
+          },
+          {
+            "text": "de:",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Le deux-points est incorrectement placé entre la préposition « de » et la liste d'infinitifs qui la complètent.",
+            "suggestions": [
+              "de"
+            ],
+            "ruleApplied": "4.2.2.7.2"
+          },
+          {
+            "text": "pourraient et limiteraient",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Erreur de coordination. Le verbe modal « pourraient » ne peut être coordonné directement avec le verbe au conditionnel « limiteraient ». Le premier requiert un infinitif qui n'est pas présent.",
+            "suggestions": [
+              "pourraient limiter",
+              "limiteraient"
+            ],
+            "ruleApplied": "4.1.2.1.8"
+          },
+          {
+            "text": "et",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Erreur de coordination. La conjonction « et » relie un complément d'objet direct (« de monstrueuses statistiques ») à une proposition complète (« des simples solutions [...] devraient [...] »), ce qui crée une rupture syntaxique.",
+            "suggestions": [
+              ". Les solutions simples mentionnées pour ce problème devraient"
+            ],
+            "ruleApplied": "4.1.2.1.8"
+          },
+          {
+            "text": "simples",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "L'ordre des mots est boiteux. L'adjectif qualificatif « simples » se place généralement après le nom « solutions ».",
+            "suggestions": [
+              "solutions simples"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "2022.",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Le point final est manquant à la fin de la référence bibliographique.",
+            "suggestions": [
+              "2022.."
+            ],
+            "ruleApplied": "4.2.2.1.1"
+          },
+          {
+            "text": "à demain",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Erreur de préposition. Le verbe « attendre » est transitif direct dans ce contexte et ne requiert pas la préposition « à ».",
+            "suggestions": [
+              "demain"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "Au haut de",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'expression « au haut de » est un calque. Il faut utiliser « au sommet de » ou « en haut de ».",
+            "suggestions": [
+              "Au sommet de",
+              "En haut de"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "y",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "Le pronom « y » est superflu, car il répète le complément de lieu « Au haut de cette dernière » déjà présent en début de phrase. Une seule erreur de syntaxe est comptée dans cette phrase.",
+            "suggestions": [
+              ""
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "», (1)",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "La ponctuation de l'incise (« explique Alexandre Shields ») doit suivre le guillemet fermant. La virgule est mal placée et devrait se trouver après le guillemet.",
+            "suggestions": [
+              "», explique"
+            ],
+            "ruleApplied": "4.2.2.10.1.f"
+          },
+          {
+            "text": "seulement",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Mot superflu. L'expression « il suffit » signifie déjà « il faut seulement ». L'adverbe « seulement » est donc redondant.",
+            "suggestions": [
+              ""
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "», (2)",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "La ponctuation de l'incise (« éclaircit Jeanne Corriveau ») doit suivre le guillemet fermant. La virgule est mal placée et devrait se trouver après le guillemet.",
+            "suggestions": [
+              "», éclaircit"
+            ],
+            "ruleApplied": "4.2.2.10.1.f"
+          },
+          {
+            "text": "mûrs. (RECYC-QUÉBEC, 2021)",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "La référence de la source doit être intégrée à la phrase, avant le point final.",
+            "suggestions": [
+              "mûrs (RECYC-QUÉBEC, 2021)."
+            ],
+            "ruleApplied": "4.2.2.1.2"
+          },
+          {
+            "text": "des simples solutions mentionnées du problème",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Construction de phrase boiteuse. La structure « mentionnées du problème » est incorrecte et l'article « des » est inapproprié; « les » serait attendu pour référer aux solutions déjà citées.",
+            "suggestions": [
+              "les simples solutions à ce problème",
+              "les simples solutions mentionnées"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "toît",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "L'accent circonflexe est incorrect sur ce mot. La graphie correcte est « toit ».",
+            "suggestions": [
+              "toit"
+            ],
+            "ruleApplied": "5.2.1.1"
+          },
+          {
+            "text": "unies",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Une majuscule est requise pour le mot « Unies » qui fait partie de la dénomination officielle « Organisation des Nations Unies ».",
+            "suggestions": [
+              "Unies"
+            ],
+            "ruleApplied": "5.2.4.1.2"
+          },
+          {
+            "text": "que urgent",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "L'élision de la conjonction « que » est obligatoire devant un mot commençant par une voyelle, ici « urgent ».",
+            "suggestions": [
+              "qu'urgent"
+            ],
+            "ruleApplied": "5.2.3.1"
+          }
+        ],
+        "totalErreursCritere4": 21,
+        "totalErreursCritere5": 3,
+        "scoreCritere4": {
+          "pointsPerdus": 14,
+          "note": "C"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 3,
+          "note": "A"
+        }
+      }
+    ],
+    "erreursCritere4AvantAnalyseIA": [
+      {
+        "text": "n'attendez",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule pour séparer deux propositions impératives coordonnées par juxtaposition.",
+        "suggestions": [
+          ", n'attendez"
+        ],
+        "ruleApplied": "4.2.2.10.1.c"
+      },
+      {
+        "text": "!",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point d'exclamation est inapproprié après une simple affirmation factuelle. Un point est requis.",
+        "suggestions": [
+          "."
+        ],
+        "ruleApplied": "4.2.2.3.2"
+      },
+      {
+        "text": "!",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point d'exclamation est inapproprié après une simple affirmation factuelle. Un point est requis.",
+        "suggestions": [
+          "."
+        ],
+        "ruleApplied": "4.2.2.3.2"
+      },
+      {
+        "text": "qu'on le vit",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom relatif est incorrect. Pour un complément de lieu, il faut utiliser « où » ou « dans lequel ».",
+        "suggestions": [
+          "où l'on vit",
+          "dans lequel on vit"
+        ],
+        "ruleApplied": "4.1.2.3.1"
+      },
+      {
+        "text": "Pourtant",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule après l'organisateur textuel « Pourtant » placé en tête de phrase.",
+        "suggestions": [
+          "Pourtant,"
+        ],
+        "ruleApplied": "4.2.2.10.1.k"
+      },
+      {
+        "text": "suffit seulement",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Pléonasme. L'adverbe « seulement » est superflu car l'idée de suffisance est déjà contenue dans le verbe « suffire ».",
+        "suggestions": [
+          "suffit"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "superposer",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe « superposer » est utilisé de manière sémantiquement incorrecte. Des verbes comme « intégrer » ou « appliquer » seraient plus appropriés pour exprimer l'idée d'adopter des solutions dans la vie quotidienne.",
+        "suggestions": [
+          "intégrer",
+          "appliquer"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": "citoyens",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule pour séparer le complément de phrase « dans les domiciles de nos chers citoyens » placé en tête de phrase du reste de la proposition.",
+        "suggestions": [
+          "citoyens,"
+        ],
+        "ruleApplied": "4.2.2.10.1.b"
+      },
+      {
+        "text": "de:",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le deux-points est incorrectement placé entre la préposition « de » et la liste d'infinitifs qui la complètent.",
+        "suggestions": [
+          "de"
+        ],
+        "ruleApplied": "4.2.2.7.2"
+      },
+      {
+        "text": "pourraient et limiteraient",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de coordination. Le verbe modal « pourraient » ne peut être coordonné directement avec le verbe au conditionnel « limiteraient ». Le premier requiert un infinitif qui n'est pas présent.",
+        "suggestions": [
+          "pourraient limiter",
+          "limiteraient"
+        ],
+        "ruleApplied": "4.1.2.1.8"
+      },
+      {
+        "text": "et",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de coordination. La conjonction « et » relie un complément d'objet direct (« de monstrueuses statistiques ») à une proposition complète (« des simples solutions [...] devraient [...] »), ce qui crée une rupture syntaxique.",
+        "suggestions": [
+          ". Les solutions simples mentionnées pour ce problème devraient"
+        ],
+        "ruleApplied": "4.1.2.1.8"
+      },
+      {
+        "text": "simples",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "L'ordre des mots est boiteux. L'adjectif qualificatif « simples » se place généralement après le nom « solutions ».",
+        "suggestions": [
+          "solutions simples"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "2022.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point final est manquant à la fin de la référence bibliographique.",
+        "suggestions": [
+          "2022.."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "text": "à demain",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de préposition. Le verbe « attendre » est transitif direct dans ce contexte et ne requiert pas la préposition « à ».",
+        "suggestions": [
+          "demain"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "Au haut de",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression « au haut de » est un calque. Il faut utiliser « au sommet de » ou « en haut de ».",
+        "suggestions": [
+          "Au sommet de",
+          "En haut de"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "y",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Le pronom « y » est superflu, car il répète le complément de lieu « Au haut de cette dernière » déjà présent en début de phrase. Une seule erreur de syntaxe est comptée dans cette phrase.",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "», (1)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "La ponctuation de l'incise (« explique Alexandre Shields ») doit suivre le guillemet fermant. La virgule est mal placée et devrait se trouver après le guillemet.",
+        "suggestions": [
+          "», explique"
+        ],
+        "ruleApplied": "4.2.2.10.1.f"
+      },
+      {
+        "text": "seulement",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Mot superflu. L'expression « il suffit » signifie déjà « il faut seulement ». L'adverbe « seulement » est donc redondant.",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "», (2)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "La ponctuation de l'incise (« éclaircit Jeanne Corriveau ») doit suivre le guillemet fermant. La virgule est mal placée et devrait se trouver après le guillemet.",
+        "suggestions": [
+          "», éclaircit"
+        ],
+        "ruleApplied": "4.2.2.10.1.f"
+      },
+      {
+        "text": "mûrs. (RECYC-QUÉBEC, 2021)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "La référence de la source doit être intégrée à la phrase, avant le point final.",
+        "suggestions": [
+          "mûrs (RECYC-QUÉBEC, 2021)."
+        ],
+        "ruleApplied": "4.2.2.1.2"
+      },
+      {
+        "text": "des simples solutions mentionnées du problème",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction de phrase boiteuse. La structure « mentionnées du problème » est incorrecte et l'article « des » est inapproprié; « les » serait attendu pour référer aux solutions déjà citées.",
+        "suggestions": [
+          "les simples solutions à ce problème",
+          "les simples solutions mentionnées"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      }
+    ],
+    "erreursCritere5AvantAnalyseIA": [
+      {
+        "text": "toît",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'accent circonflexe est incorrect sur ce mot. La graphie correcte est « toit ».",
+        "suggestions": [
+          "toit"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "text": "unies",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Une majuscule est requise pour le mot « Unies » qui fait partie de la dénomination officielle « Organisation des Nations Unies ».",
+        "suggestions": [
+          "Unies"
+        ],
+        "ruleApplied": "5.2.4.1.2"
+      },
+      {
+        "text": "que urgent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'élision de la conjonction « que » est obligatoire devant un mot commençant par une voyelle, ici « urgent ».",
+        "suggestions": [
+          "qu'urgent"
+        ],
+        "ruleApplied": "5.2.3.1"
+      }
+    ],
+    "analyseIADuplicatas": {
+      "critere4": {
+        "analyse": {
+          "totalErreursCritere4": 21,
+          "totalErreursCritere5": 0,
+          "duplicatasCritere4": 3,
+          "duplicatasCritere5": 0
+        },
+        "duplicatasCritere4": [
+          {
+            "groupe": 1,
+            "confiance": 100,
+            "raison": "Même erreur de pléonasme identifiée sur le même segment de texte. Les descriptions, la règle appliquée et l'intention de la suggestion sont identiques.",
+            "erreurs": [
+              {
+                "index": 5,
+                "text": "suffit seulement",
+                "garder": true
+              },
+              {
+                "index": 17,
+                "text": "seulement",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 2,
+            "confiance": 95,
+            "raison": "Même erreur de construction de phrase. L'erreur à l'index 20 est plus complète, englobant le problème spécifique de l'ordre des mots de l'erreur à l'index 11.",
+            "erreurs": [
+              {
+                "index": 20,
+                "text": "des simples solutions mentionnées du problème",
+                "garder": true
+              },
+              {
+                "index": 11,
+                "text": "simples",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 3,
+            "confiance": 90,
+            "raison": "Erreurs sémantiquement liées à la même construction de phrase incorrecte (calque). La description de l'erreur à l'index 15 indique qu'elle est une conséquence de la première et ne devrait pas être comptée séparément.",
+            "erreurs": [
+              {
+                "index": 14,
+                "text": "Au haut de",
+                "garder": true
+              },
+              {
+                "index": 15,
+                "text": "y",
+                "garder": false
+              }
+            ]
+          }
+        ],
+        "duplicatasCritere5": [],
+        "erreursUniquesCritere4": [
+          {
+            "index": 0,
+            "text": "n'attendez",
+            "raison": "Erreur de ponctuation unique (virgule manquante)."
+          },
+          {
+            "index": 1,
+            "text": "!",
+            "raison": "Erreur de ponctuation unique (point d'exclamation inapproprié, occurrence 0)."
+          },
+          {
+            "index": 2,
+            "text": "!",
+            "raison": "Erreur de ponctuation distincte (point d'exclamation inapproprié, occurrence 1)."
+          },
+          {
+            "index": 3,
+            "text": "qu'on le vit",
+            "raison": "Erreur de syntaxe unique (pronom relatif incorrect)."
+          },
+          {
+            "index": 4,
+            "text": "Pourtant",
+            "raison": "Erreur de ponctuation unique (virgule manquante après organisateur textuel)."
+          },
+          {
+            "index": 6,
+            "text": "superposer",
+            "raison": "Erreur sémantique unique (verbe inapproprié)."
+          },
+          {
+            "index": 7,
+            "text": "citoyens",
+            "raison": "Erreur de ponctuation unique (virgule manquante après complément de phrase)."
+          },
+          {
+            "index": 8,
+            "text": "de:",
+            "raison": "Erreur de ponctuation unique (deux-points incorrect)."
+          },
+          {
+            "index": 9,
+            "text": "pourraient et limiteraient",
+            "raison": "Erreur de syntaxe unique (coordination incorrecte)."
+          },
+          {
+            "index": 10,
+            "text": "et",
+            "raison": "Erreur de syntaxe unique (rupture de coordination)."
+          },
+          {
+            "index": 12,
+            "text": "2022.",
+            "raison": "Erreur de ponctuation unique (point final manquant)."
+          },
+          {
+            "index": 13,
+            "text": "à demain",
+            "raison": "Erreur de syntaxe unique (préposition superflue)."
+          },
+          {
+            "index": 16,
+            "text": "», (1)",
+            "raison": "Erreur de ponctuation unique (placement de la virgule d'incise)."
+          },
+          {
+            "index": 18,
+            "text": "», (2)",
+            "raison": "Erreur de ponctuation distincte (placement de la virgule d'incise, cas différent)."
+          },
+          {
+            "index": 19,
+            "text": "mûrs. (RECYC-QUÉBEC, 2021)",
+            "raison": "Erreur de ponctuation unique (placement de la référence)."
+          }
+        ],
+        "erreursUniquesCritere5": [],
+        "recommandations": {
+          "erreursAConserverCritere4": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            12,
+            13,
+            14,
+            16,
+            18,
+            19,
+            20
+          ],
+          "erreursAConserverCritere5": [],
+          "erreursASupprimer": {
+            "critere4": [
+              11,
+              15,
+              17
+            ],
+            "critere5": []
+          }
+        }
+      },
+      "critere5": {
+        "analyse": {
+          "totalErreursCritere4": 0,
+          "totalErreursCritere5": 3,
+          "duplicatasCritere4": 0,
+          "duplicatasCritere5": 0
+        },
+        "duplicatasCritere4": [],
+        "duplicatasCritere5": [],
+        "erreursUniquesCritere4": [],
+        "erreursUniquesCritere5": [
+          {
+            "index": 0,
+            "text": "toît",
+            "raison": "Aucun duplicata trouvé. Erreur orthographique unique."
+          },
+          {
+            "index": 1,
+            "text": "unies",
+            "raison": "Aucun duplicata trouvé. Erreur de majuscule unique."
+          },
+          {
+            "index": 2,
+            "text": "que urgent",
+            "raison": "Aucun duplicata trouvé. Erreur d'élision unique."
+          }
+        ],
+        "recommandations": {
+          "erreursAConserverCritere4": [],
+          "erreursAConserverCritere5": [
+            0,
+            1,
+            2
+          ],
+          "erreursASupprimer": {
+            "critere4": [],
+            "critere5": []
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,2397 @@
+{
+  "processedAt": "2025-12-10T14:24:46.653Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_043.txt",
+    "originalText": "NON AU GASPILLAGE ALIMENTAIRE !\r\n\r\nAu Canada, 47% de la nourriture gaspiller est fait par la consommation des familles et personnes à la maison, à cause du manque de connaissance sur comment conserver ses aliments où de ne pas bien planifier ses repas. Il faut faire quelque chose pour changer ces très mauvaises habitudes que nous faisons tous. C'est pour ça que je pense qu'on est prêt à lutter contre le gaspillage alimentaire. Nous pouvons trouver des solutions deconservation pour avoir moins d'exces et trouver de meilleures façons à comment nous pouvons transformer les aliments qui vont devenir pourris et qui pourront être jeter à la poubelle.\r\n\r\nPremièrement, je trouve que notre société peut éviter de gaspiller de la nourriture parce qu'il y a différentes manières de mieux conserver la nourriture pourrait se trouver à la poubelle. Par exemple, même si les aliments ont une date de «meilleur avant», ça ne signifie pas qu'il est expiré. Selon Mike von Massow, coauteur d'une étude sur le gaspillage alimentaire dans les maisons, même si c'était écrit une date de «meilleur avant», ça ne veut pas dire «périmé après», une misantendue par les acheteurs des produits vendus dans les épiceries. Je suis completement d'accords avec ce que M. Massow nous présente. Une autre manière de mieux garder notre nourriture en bonne état est de ne pas les mettre dans des endroits innecessaires et de les enlever de leur emballage. Une experte en lutte contre le gaspillage alimentaire, Florence-Léa Siry suggère : «... de garder hors du réfrigérateur les aliments non refrigérés par le commerçant, de retirer les emballages qui causent un surplus d'humidité et de ne pas tailler les fruits et légumes trop à l'avance.» (Simard, 2020) Bref, nous pourrons trouverbeaucoup de façons de conserver notre nourriture avec les suggestions de Mme Florence-Léa Siry et M. Mike von Massow.\r\n\r\nDeuxièmement, une autre raison pour laquel je trouve qu'on est prêt à diminuer le gaspillage alimentaire est qu'on peut transformer les aliments qui peuvent bientôt êtrepourris. Le restant de nos fruits et légumes peuvent être transformer en beaucoup de produits différents. Créée en 2016, l'entreprise québécoise Loop Mission prend les surplus de récoltes, retailles d'usines, etc. et les change en jus, alcool et savon. Je pense que c'est une magnifique idée et c'est très facile de le faire à la maison aussi. Donc, la transformation des restes de nos fruits et légumes sont une très bonne façon d'éviterle gaspillage de nourriture.\r\n\r\nEn conclusion, je suis positive que nous sommes prêt à se battre contre le gaspillage alimentaire grâce aux différents manières qu'on peut conserver et transformer la nourriture. En prennant ce pas vers cette direction, nous pourrons aussi aider les millions de personnes dans les pays en développement qui n'ont pas toujours accès à tout les aliments que nous pouvons pocéder.",
+    "erreursCritere4": [
+      {
+        "text": "est fait",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Problème de sens. L'expression « est fait par » est sémantiquement incorrecte dans ce contexte. On devrait utiliser une formulation comme « est causé par » ou « est le fait de ».",
+        "suggestions": [
+          "est causé",
+          "est le fait de"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": "ses",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Déterminant possessif erroné. Le déterminant « ses » renvoie à un possesseur singulier, alors que l'antécédent est pluriel (« des familles et personnes »). Il faut utiliser « leurs ». Une erreur de syntaxe (S) a déjà été comptée dans cette phrase.",
+        "suggestions": [
+          "leurs"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "text": "ses",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Déterminant possessif erroné. Le déterminant « ses » renvoie à un possesseur singulier, alors que l'antécédent est pluriel (« des familles et personnes »). Il faut utiliser « leurs ». Une erreur de syntaxe (S) a déjà été comptée dans cette phrase.",
+        "suggestions": [
+          "leurs"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "text": "que nous faisons tous",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Problème de sens / Collocation. L'expression « faire une habitude » n'est pas idiomatique. On dit plutôt « avoir une habitude » ou « prendre une habitude ».",
+        "suggestions": [
+          "que nous avons tous"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": "C'est pour ça que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Calque de l'oral. Cette locution est considérée comme familière à l'écrit. Il est préférable d'utiliser « C'est pourquoi » ou « C'est la raison pour laquelle ».",
+        "suggestions": [
+          "C'est pourquoi"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "la nourriture pourrait se trouver",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence d'un mot essentiel. Il manque le pronom relatif « qui » pour introduire la proposition subordonnée relative et la relier à son antécédent « la nourriture ».",
+        "suggestions": [
+          "la nourriture qui pourrait se trouver"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "qu'il est expiré",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Pronom personnel avec un référent erroné. Le pronom « il » (singulier) est utilisé alors que le référent logique est « les aliments » (pluriel). Il faut utiliser « ils » et accorder le verbe et l'attribut en conséquence.",
+        "suggestions": [
+          "qu'ils sont expirés"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "text": "c'était écrit",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction de phrase boiteuse. La tournure impersonnelle correcte est « il était écrit ».",
+        "suggestions": [
+          "il était écrit"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "une misantendue par les acheteurs des produits vendus dans les épiceries",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Subordonnée sans matrice. Ce groupe de mots est une phrase nominale détachée qui ne se rattache pas syntaxiquement au reste de la phrase. Il faut en faire une phrase complète ou la relier à la principale. Le mot « misantendue » est un barbarisme pour « malentendu ».",
+        "suggestions": [
+          "ce qui est un malentendu pour les acheteurs des produits vendus dans les épiceries."
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "text": "les",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Pronom personnel avec un référent erroné. Le pronom « les » (pluriel) est utilisé pour reprendre « notre nourriture » (singulier). Il faut utiliser « la ».",
+        "suggestions": [
+          "la"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "text": "les",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Pronom personnel avec un référent erroné. Le pronom « les » (pluriel) est utilisé pour reprendre « notre nourriture » (singulier). Il faut utiliser « l' ». Une erreur de syntaxe (S) a déjà été comptée dans cette phrase pour le même référent.",
+        "suggestions": [
+          "l'"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "text": "se battre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Pronom réfléchi erroné. Le pronom réfléchi doit être de la même personne que le sujet « nous ». Il faut donc utiliser « nous battre ».",
+        "suggestions": [
+          "nous battre"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "text": "à comment nous pouvons transformer",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction \"façons à comment\" est une construction boiteuse et redondante. Il faut utiliser \"façons de\" suivi de l'infinitif.",
+        "suggestions": [
+          "de transformer"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 10,
+      "note": "C"
+    },
+    "erreursCritere5": [
+      {
+        "text": "gaspiller",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord du participe passé employé comme adjectif. Le participe passé « gaspiller » doit s'accorder en genre et en nombre avec le nom qu'il qualifie, « nourriture » (féminin singulier).",
+        "suggestions": [
+          "gaspillée"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "où",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion d'homophones grammaticaux. « où » est un pronom relatif ou un adverbe de lieu, alors qu'il faut ici la conjonction de coordination « ou » pour marquer un choix.",
+        "suggestions": [
+          "ou"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "text": "prêt",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord de l'adjectif. L'adjectif « prêt » doit s'accorder avec le pronom « on », qui a ici une valeur de pluriel (équivalent à « nous »).",
+        "suggestions": [
+          "prêts"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "deconservation",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Barbarisme orthographique. Les mots « de » et « conservation » doivent être écrits séparément.",
+        "suggestions": [
+          "de conservation"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "text": "exces",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Absence d'accent. Le mot « excès » prend un accent grave sur le deuxième 'e'.",
+        "suggestions": [
+          "excès"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "text": "jeter",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord du participe passé. Le participe passé « jeter », conjugué avec l'auxiliaire « être », doit s'accorder avec son sujet « qui », qui reprend « les aliments » (masculin pluriel).",
+        "suggestions": [
+          "jetés"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "completement",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Absence d'accent. L'adverbe « complètement » prend un accent grave sur le deuxième 'e'.",
+        "suggestions": [
+          "complètement"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "text": "d'accords",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Ajout d'un 's' à un mot invariable. La locution adverbiale « d'accord » est invariable et ne prend jamais de 's'.",
+        "suggestions": [
+          "d'accord"
+        ],
+        "ruleApplied": "5.2.1.5"
+      },
+      {
+        "text": "bonne état",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord en genre. L'adjectif « bonne » doit s'accorder en genre avec le nom masculin « état ».",
+        "suggestions": [
+          "bon état"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "innecessaires",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Lettre non doublée. Le mot « innécessaires » s'écrit avec deux 'n'.",
+        "suggestions": [
+          "innécessaires"
+        ],
+        "ruleApplied": "5.2.1.6"
+      },
+      {
+        "text": "refrigérés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Absence d'accent. Le mot « réfrigérés » prend un accent aigu sur le premier 'e'.",
+        "suggestions": [
+          "réfrigérés"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "text": "trouverbeaucoup",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Barbarisme orthographique. Les mots « trouver » et « beaucoup » doivent être écrits séparément.",
+        "suggestions": [
+          "trouver beaucoup"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "text": "laquel",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Barbarisme grammatical. Le pronom relatif composé est « laquelle » au féminin singulier pour s'accorder avec « raison ».",
+        "suggestions": [
+          "laquelle"
+        ],
+        "ruleApplied": "5.3.2.1"
+      },
+      {
+        "text": "êtrepourris",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Barbarisme orthographique. Les mots « être » et « pourris » doivent être écrits séparément.",
+        "suggestions": [
+          "être pourris"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "text": "peuvent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord du verbe. Le verbe « peuvent » doit s'accorder avec son sujet « Le restant » (singulier).",
+        "suggestions": [
+          "peut"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "transformer",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord du participe passé. Le participe passé « transformer », conjugué avec l'auxiliaire « être », doit s'accorder avec son sujet « Le restant » (masculin singulier).",
+        "suggestions": [
+          "transformé"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "sont",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord du verbe. Le verbe « sont » doit s'accorder avec son sujet « la transformation » (singulier).",
+        "suggestions": [
+          "est"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "éviterle",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Barbarisme orthographique. Les mots « éviter » et « le » doivent être écrits séparément.",
+        "suggestions": [
+          "éviter le"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "text": "différents manières",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord en genre. L'adjectif « différents » doit s'accorder en genre avec le nom féminin « manières ».",
+        "suggestions": [
+          "différentes manières"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "prennant",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Lettre doublée erronée. Le participe présent du verbe « prendre » s'écrit « prenant », avec un seul 'n'.",
+        "suggestions": [
+          "prenant"
+        ],
+        "ruleApplied": "5.2.1.6"
+      },
+      {
+        "text": "tout les",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord du déterminant. Le déterminant « tout » doit s'accorder en genre et en nombre avec le nom qu'il détermine, « aliments » (masculin pluriel).",
+        "suggestions": [
+          "tous les"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "pocéder",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Lettre erronée. Le verbe « posséder » s'écrit avec deux 's'.",
+        "suggestions": [
+          "posséder"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "il",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom personnel doit s'accorder en genre et en nombre avec son antécédent. Le pronom \"il\" (masculin singulier) reprend \"les aliments\" (masculin pluriel).",
+        "suggestions": [
+          "ils"
+        ],
+        "ruleApplied": "5.3.1.4"
+      },
+      {
+        "text": "est",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "Le verbe doit s'accorder en nombre avec son sujet. Le donneur d'accord est \"aliments\" (repris par \"ils\"), masculin pluriel.",
+        "suggestions": [
+          "sont"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "expiré",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "L'attribut du sujet doit s'accorder en genre et en nombre avec le sujet. Le donneur d'accord est \"aliments\" (repris par \"ils\"), masculin pluriel.",
+        "suggestions": [
+          "expirés"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "misantendue",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Ce mot n'existe pas. Il s'agit probablement d'une confusion avec \"mésentente\" ou \"malentendu\".",
+        "suggestions": [
+          "mésentente"
+        ],
+        "ruleApplied": "5.2.2"
+      },
+      {
+        "text": "peuvent",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec son sujet. Le sujet est \"Le restant\", nom singulier, même s'il est suivi d'un complément au pluriel.",
+        "suggestions": [
+          "peut"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "transformer",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif en \"-er\" et le participe passé en \"-é\". Après l'auxiliaire \"être\", on emploie le participe passé, qui doit s'accorder avec le sujet \"Le restant\" (masculin singulier).",
+        "suggestions": [
+          "transformé"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "prêt",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'attribut du sujet doit s'accorder en nombre avec le sujet. Le sujet est \"nous\", pluriel.",
+        "suggestions": [
+          "prêts"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "différents",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif doit s'accorder en genre et en nombre avec le nom qu'il qualifie. Le nom \"manières\" est féminin pluriel.",
+        "suggestions": [
+          "différentes"
+        ],
+        "ruleApplied": "5.3.1.1"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 28,
+      "note": "E"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:19:19.862Z",
+    "endTimestamp": "2025-12-10T14:24:46.653Z",
+    "durationMs": 326791,
+    "durationFormatted": "05:26:791",
+    "cumulParPasse": [
+      {
+        "passe": 1,
+        "erreursCritere4": [
+          {
+            "text": "est fait",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Problème de sens. L'expression « est fait par » est sémantiquement incorrecte dans ce contexte. On devrait utiliser une formulation comme « est causé par » ou « est le fait de ».",
+            "suggestions": [
+              "est causé",
+              "est le fait de"
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          },
+          {
+            "text": "ses",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "Déterminant possessif erroné. Le déterminant « ses » renvoie à un possesseur singulier, alors que l'antécédent est pluriel (« des familles et personnes »). Il faut utiliser « leurs ». Une erreur de syntaxe (S) a déjà été comptée dans cette phrase.",
+            "suggestions": [
+              "leurs"
+            ],
+            "ruleApplied": "4.1.2.3.2"
+          },
+          {
+            "text": "ses",
+            "occurenceIndex": 1,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "Déterminant possessif erroné. Le déterminant « ses » renvoie à un possesseur singulier, alors que l'antécédent est pluriel (« des familles et personnes »). Il faut utiliser « leurs ». Une erreur de syntaxe (S) a déjà été comptée dans cette phrase.",
+            "suggestions": [
+              "leurs"
+            ],
+            "ruleApplied": "4.1.2.3.2"
+          },
+          {
+            "text": "que nous faisons tous",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Problème de sens / Collocation. L'expression « faire une habitude » n'est pas idiomatique. On dit plutôt « avoir une habitude » ou « prendre une habitude ».",
+            "suggestions": [
+              "que nous avons tous"
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          },
+          {
+            "text": "C'est pour ça que",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Calque de l'oral. Cette locution est considérée comme familière à l'écrit. Il est préférable d'utiliser « C'est pourquoi » ou « C'est la raison pour laquelle ».",
+            "suggestions": [
+              "C'est pourquoi"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "à comment",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Mot superflu. La construction « façons à comment » est redondante. Il faut écrire « façons de » ou simplement « comment ».",
+            "suggestions": [
+              "de"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "la nourriture pourrait se trouver",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Absence d'un mot essentiel. Il manque le pronom relatif « qui » pour introduire la proposition subordonnée relative et la relier à son antécédent « la nourriture ».",
+            "suggestions": [
+              "la nourriture qui pourrait se trouver"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "qu'il est expiré",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Pronom personnel avec un référent erroné. Le pronom « il » (singulier) est utilisé alors que le référent logique est « les aliments » (pluriel). Il faut utiliser « ils » et accorder le verbe et l'attribut en conséquence.",
+            "suggestions": [
+              "qu'ils sont expirés"
+            ],
+            "ruleApplied": "4.1.2.3.2"
+          },
+          {
+            "text": "c'était écrit",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Construction de phrase boiteuse. La tournure impersonnelle correcte est « il était écrit ».",
+            "suggestions": [
+              "il était écrit"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "une misantendue par les acheteurs des produits vendus dans les épiceries",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Subordonnée sans matrice. Ce groupe de mots est une phrase nominale détachée qui ne se rattache pas syntaxiquement au reste de la phrase. Il faut en faire une phrase complète ou la relier à la principale. Le mot « misantendue » est un barbarisme pour « malentendu ».",
+            "suggestions": [
+              "ce qui est un malentendu pour les acheteurs des produits vendus dans les épiceries."
+            ],
+            "ruleApplied": "4.1.2.1.4"
+          },
+          {
+            "text": "les",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Pronom personnel avec un référent erroné. Le pronom « les » (pluriel) est utilisé pour reprendre « notre nourriture » (singulier). Il faut utiliser « la ».",
+            "suggestions": [
+              "la"
+            ],
+            "ruleApplied": "4.1.2.3.2"
+          },
+          {
+            "text": "les",
+            "occurenceIndex": 1,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "Pronom personnel avec un référent erroné. Le pronom « les » (pluriel) est utilisé pour reprendre « notre nourriture » (singulier). Il faut utiliser « l' ». Une erreur de syntaxe (S) a déjà été comptée dans cette phrase pour le même référent.",
+            "suggestions": [
+              "l'"
+            ],
+            "ruleApplied": "4.1.2.3.2"
+          },
+          {
+            "text": "se battre",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Pronom réfléchi erroné. Le pronom réfléchi doit être de la même personne que le sujet « nous ». Il faut donc utiliser « nous battre ».",
+            "suggestions": [
+              "nous battre"
+            ],
+            "ruleApplied": "4.1.2.3.2"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "gaspiller",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Accord du participe passé employé comme adjectif. Le participe passé « gaspiller » doit s'accorder en genre et en nombre avec le nom qu'il qualifie, « nourriture » (féminin singulier).",
+            "suggestions": [
+              "gaspillée"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "où",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion d'homophones grammaticaux. « où » est un pronom relatif ou un adverbe de lieu, alors qu'il faut ici la conjonction de coordination « ou » pour marquer un choix.",
+            "suggestions": [
+              "ou"
+            ],
+            "ruleApplied": "5.3.3.1"
+          },
+          {
+            "text": "prêt",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Accord de l'adjectif. L'adjectif « prêt » doit s'accorder avec le pronom « on », qui a ici une valeur de pluriel (équivalent à « nous »).",
+            "suggestions": [
+              "prêts"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "deconservation",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Barbarisme orthographique. Les mots « de » et « conservation » doivent être écrits séparément.",
+            "suggestions": [
+              "de conservation"
+            ],
+            "ruleApplied": "5.2.6.4"
+          },
+          {
+            "text": "exces",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Absence d'accent. Le mot « excès » prend un accent grave sur le deuxième 'e'.",
+            "suggestions": [
+              "excès"
+            ],
+            "ruleApplied": "5.2.1.1"
+          },
+          {
+            "text": "jeter",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Accord du participe passé. Le participe passé « jeter », conjugué avec l'auxiliaire « être », doit s'accorder avec son sujet « qui », qui reprend « les aliments » (masculin pluriel).",
+            "suggestions": [
+              "jetés"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "completement",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Absence d'accent. L'adverbe « complètement » prend un accent grave sur le deuxième 'e'.",
+            "suggestions": [
+              "complètement"
+            ],
+            "ruleApplied": "5.2.1.1"
+          },
+          {
+            "text": "d'accords",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Ajout d'un 's' à un mot invariable. La locution adverbiale « d'accord » est invariable et ne prend jamais de 's'.",
+            "suggestions": [
+              "d'accord"
+            ],
+            "ruleApplied": "5.2.1.5"
+          },
+          {
+            "text": "bonne état",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Accord en genre. L'adjectif « bonne » doit s'accorder en genre avec le nom masculin « état ».",
+            "suggestions": [
+              "bon état"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "innecessaires",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Lettre non doublée. Le mot « innécessaires » s'écrit avec deux 'n'.",
+            "suggestions": [
+              "innécessaires"
+            ],
+            "ruleApplied": "5.2.1.6"
+          },
+          {
+            "text": "refrigérés",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Absence d'accent. Le mot « réfrigérés » prend un accent aigu sur le premier 'e'.",
+            "suggestions": [
+              "réfrigérés"
+            ],
+            "ruleApplied": "5.2.1.1"
+          },
+          {
+            "text": "trouverbeaucoup",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Barbarisme orthographique. Les mots « trouver » et « beaucoup » doivent être écrits séparément.",
+            "suggestions": [
+              "trouver beaucoup"
+            ],
+            "ruleApplied": "5.2.6.4"
+          },
+          {
+            "text": "laquel",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Barbarisme grammatical. Le pronom relatif composé est « laquelle » au féminin singulier pour s'accorder avec « raison ».",
+            "suggestions": [
+              "laquelle"
+            ],
+            "ruleApplied": "5.3.2.1"
+          },
+          {
+            "text": "êtrepourris",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Barbarisme orthographique. Les mots « être » et « pourris » doivent être écrits séparément.",
+            "suggestions": [
+              "être pourris"
+            ],
+            "ruleApplied": "5.2.6.4"
+          },
+          {
+            "text": "peuvent",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Accord du verbe. Le verbe « peuvent » doit s'accorder avec son sujet « Le restant » (singulier).",
+            "suggestions": [
+              "peut"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "transformer",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Accord du participe passé. Le participe passé « transformer », conjugué avec l'auxiliaire « être », doit s'accorder avec son sujet « Le restant » (masculin singulier).",
+            "suggestions": [
+              "transformé"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "sont",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Accord du verbe. Le verbe « sont » doit s'accorder avec son sujet « la transformation » (singulier).",
+            "suggestions": [
+              "est"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "éviterle",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Barbarisme orthographique. Les mots « éviter » et « le » doivent être écrits séparément.",
+            "suggestions": [
+              "éviter le"
+            ],
+            "ruleApplied": "5.2.6.4"
+          },
+          {
+            "text": "différents manières",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Accord en genre. L'adjectif « différents » doit s'accorder en genre avec le nom féminin « manières ».",
+            "suggestions": [
+              "différentes manières"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "prennant",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Lettre doublée erronée. Le participe présent du verbe « prendre » s'écrit « prenant », avec un seul 'n'.",
+            "suggestions": [
+              "prenant"
+            ],
+            "ruleApplied": "5.2.1.6"
+          },
+          {
+            "text": "tout les",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Accord du déterminant. Le déterminant « tout » doit s'accorder en genre et en nombre avec le nom qu'il détermine, « aliments » (masculin pluriel).",
+            "suggestions": [
+              "tous les"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "pocéder",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Lettre erronée. Le verbe « posséder » s'écrit avec deux 's'.",
+            "suggestions": [
+              "posséder"
+            ],
+            "ruleApplied": "5.2.1.3"
+          }
+        ],
+        "totalErreursCritere4": 13,
+        "totalErreursCritere5": 22,
+        "scoreCritere4": {
+          "pointsPerdus": 10,
+          "note": "C"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 22,
+          "note": "E"
+        }
+      },
+      {
+        "passe": 2,
+        "erreursCritere4": [
+          {
+            "text": "est fait",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Problème de sens. L'expression « est fait par » est sémantiquement incorrecte dans ce contexte. On devrait utiliser une formulation comme « est causé par » ou « est le fait de ».",
+            "suggestions": [
+              "est causé",
+              "est le fait de"
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          },
+          {
+            "text": "ses",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "Déterminant possessif erroné. Le déterminant « ses » renvoie à un possesseur singulier, alors que l'antécédent est pluriel (« des familles et personnes »). Il faut utiliser « leurs ». Une erreur de syntaxe (S) a déjà été comptée dans cette phrase.",
+            "suggestions": [
+              "leurs"
+            ],
+            "ruleApplied": "4.1.2.3.2"
+          },
+          {
+            "text": "ses",
+            "occurenceIndex": 1,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "Déterminant possessif erroné. Le déterminant « ses » renvoie à un possesseur singulier, alors que l'antécédent est pluriel (« des familles et personnes »). Il faut utiliser « leurs ». Une erreur de syntaxe (S) a déjà été comptée dans cette phrase.",
+            "suggestions": [
+              "leurs"
+            ],
+            "ruleApplied": "4.1.2.3.2"
+          },
+          {
+            "text": "que nous faisons tous",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Problème de sens / Collocation. L'expression « faire une habitude » n'est pas idiomatique. On dit plutôt « avoir une habitude » ou « prendre une habitude ».",
+            "suggestions": [
+              "que nous avons tous"
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          },
+          {
+            "text": "C'est pour ça que",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Calque de l'oral. Cette locution est considérée comme familière à l'écrit. Il est préférable d'utiliser « C'est pourquoi » ou « C'est la raison pour laquelle ».",
+            "suggestions": [
+              "C'est pourquoi"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "à comment",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Mot superflu. La construction « façons à comment » est redondante. Il faut écrire « façons de » ou simplement « comment ».",
+            "suggestions": [
+              "de"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "la nourriture pourrait se trouver",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Absence d'un mot essentiel. Il manque le pronom relatif « qui » pour introduire la proposition subordonnée relative et la relier à son antécédent « la nourriture ».",
+            "suggestions": [
+              "la nourriture qui pourrait se trouver"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "qu'il est expiré",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Pronom personnel avec un référent erroné. Le pronom « il » (singulier) est utilisé alors que le référent logique est « les aliments » (pluriel). Il faut utiliser « ils » et accorder le verbe et l'attribut en conséquence.",
+            "suggestions": [
+              "qu'ils sont expirés"
+            ],
+            "ruleApplied": "4.1.2.3.2"
+          },
+          {
+            "text": "c'était écrit",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Construction de phrase boiteuse. La tournure impersonnelle correcte est « il était écrit ».",
+            "suggestions": [
+              "il était écrit"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "une misantendue par les acheteurs des produits vendus dans les épiceries",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Subordonnée sans matrice. Ce groupe de mots est une phrase nominale détachée qui ne se rattache pas syntaxiquement au reste de la phrase. Il faut en faire une phrase complète ou la relier à la principale. Le mot « misantendue » est un barbarisme pour « malentendu ».",
+            "suggestions": [
+              "ce qui est un malentendu pour les acheteurs des produits vendus dans les épiceries."
+            ],
+            "ruleApplied": "4.1.2.1.4"
+          },
+          {
+            "text": "les",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Pronom personnel avec un référent erroné. Le pronom « les » (pluriel) est utilisé pour reprendre « notre nourriture » (singulier). Il faut utiliser « la ».",
+            "suggestions": [
+              "la"
+            ],
+            "ruleApplied": "4.1.2.3.2"
+          },
+          {
+            "text": "les",
+            "occurenceIndex": 1,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "Pronom personnel avec un référent erroné. Le pronom « les » (pluriel) est utilisé pour reprendre « notre nourriture » (singulier). Il faut utiliser « l' ». Une erreur de syntaxe (S) a déjà été comptée dans cette phrase pour le même référent.",
+            "suggestions": [
+              "l'"
+            ],
+            "ruleApplied": "4.1.2.3.2"
+          },
+          {
+            "text": "se battre",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Pronom réfléchi erroné. Le pronom réfléchi doit être de la même personne que le sujet « nous ». Il faut donc utiliser « nous battre ».",
+            "suggestions": [
+              "nous battre"
+            ],
+            "ruleApplied": "4.1.2.3.2"
+          },
+          {
+            "text": "à comment nous pouvons transformer",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction \"façons à comment\" est une construction boiteuse et redondante. Il faut utiliser \"façons de\" suivi de l'infinitif.",
+            "suggestions": [
+              "de transformer"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "la nourriture pourrait",
+            "occurenceIndex": 1,
+            "criteria": 4,
+            "type": "S",
+            "description": "Absence d'un mot essentiel. Il manque le pronom relatif \"qui\" pour introduire la proposition subordonnée relative.",
+            "suggestions": [
+              "la nourriture qui pourrait"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "gaspiller",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Accord du participe passé employé comme adjectif. Le participe passé « gaspiller » doit s'accorder en genre et en nombre avec le nom qu'il qualifie, « nourriture » (féminin singulier).",
+            "suggestions": [
+              "gaspillée"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "où",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion d'homophones grammaticaux. « où » est un pronom relatif ou un adverbe de lieu, alors qu'il faut ici la conjonction de coordination « ou » pour marquer un choix.",
+            "suggestions": [
+              "ou"
+            ],
+            "ruleApplied": "5.3.3.1"
+          },
+          {
+            "text": "prêt",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Accord de l'adjectif. L'adjectif « prêt » doit s'accorder avec le pronom « on », qui a ici une valeur de pluriel (équivalent à « nous »).",
+            "suggestions": [
+              "prêts"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "deconservation",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Barbarisme orthographique. Les mots « de » et « conservation » doivent être écrits séparément.",
+            "suggestions": [
+              "de conservation"
+            ],
+            "ruleApplied": "5.2.6.4"
+          },
+          {
+            "text": "exces",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Absence d'accent. Le mot « excès » prend un accent grave sur le deuxième 'e'.",
+            "suggestions": [
+              "excès"
+            ],
+            "ruleApplied": "5.2.1.1"
+          },
+          {
+            "text": "jeter",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Accord du participe passé. Le participe passé « jeter », conjugué avec l'auxiliaire « être », doit s'accorder avec son sujet « qui », qui reprend « les aliments » (masculin pluriel).",
+            "suggestions": [
+              "jetés"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "completement",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Absence d'accent. L'adverbe « complètement » prend un accent grave sur le deuxième 'e'.",
+            "suggestions": [
+              "complètement"
+            ],
+            "ruleApplied": "5.2.1.1"
+          },
+          {
+            "text": "d'accords",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Ajout d'un 's' à un mot invariable. La locution adverbiale « d'accord » est invariable et ne prend jamais de 's'.",
+            "suggestions": [
+              "d'accord"
+            ],
+            "ruleApplied": "5.2.1.5"
+          },
+          {
+            "text": "bonne état",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Accord en genre. L'adjectif « bonne » doit s'accorder en genre avec le nom masculin « état ».",
+            "suggestions": [
+              "bon état"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "innecessaires",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Lettre non doublée. Le mot « innécessaires » s'écrit avec deux 'n'.",
+            "suggestions": [
+              "innécessaires"
+            ],
+            "ruleApplied": "5.2.1.6"
+          },
+          {
+            "text": "refrigérés",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Absence d'accent. Le mot « réfrigérés » prend un accent aigu sur le premier 'e'.",
+            "suggestions": [
+              "réfrigérés"
+            ],
+            "ruleApplied": "5.2.1.1"
+          },
+          {
+            "text": "trouverbeaucoup",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Barbarisme orthographique. Les mots « trouver » et « beaucoup » doivent être écrits séparément.",
+            "suggestions": [
+              "trouver beaucoup"
+            ],
+            "ruleApplied": "5.2.6.4"
+          },
+          {
+            "text": "laquel",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Barbarisme grammatical. Le pronom relatif composé est « laquelle » au féminin singulier pour s'accorder avec « raison ».",
+            "suggestions": [
+              "laquelle"
+            ],
+            "ruleApplied": "5.3.2.1"
+          },
+          {
+            "text": "êtrepourris",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Barbarisme orthographique. Les mots « être » et « pourris » doivent être écrits séparément.",
+            "suggestions": [
+              "être pourris"
+            ],
+            "ruleApplied": "5.2.6.4"
+          },
+          {
+            "text": "peuvent",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Accord du verbe. Le verbe « peuvent » doit s'accorder avec son sujet « Le restant » (singulier).",
+            "suggestions": [
+              "peut"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "transformer",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Accord du participe passé. Le participe passé « transformer », conjugué avec l'auxiliaire « être », doit s'accorder avec son sujet « Le restant » (masculin singulier).",
+            "suggestions": [
+              "transformé"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "sont",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Accord du verbe. Le verbe « sont » doit s'accorder avec son sujet « la transformation » (singulier).",
+            "suggestions": [
+              "est"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "éviterle",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Barbarisme orthographique. Les mots « éviter » et « le » doivent être écrits séparément.",
+            "suggestions": [
+              "éviter le"
+            ],
+            "ruleApplied": "5.2.6.4"
+          },
+          {
+            "text": "différents manières",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Accord en genre. L'adjectif « différents » doit s'accorder en genre avec le nom féminin « manières ».",
+            "suggestions": [
+              "différentes manières"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "prennant",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Lettre doublée erronée. Le participe présent du verbe « prendre » s'écrit « prenant », avec un seul 'n'.",
+            "suggestions": [
+              "prenant"
+            ],
+            "ruleApplied": "5.2.1.6"
+          },
+          {
+            "text": "tout les",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Accord du déterminant. Le déterminant « tout » doit s'accorder en genre et en nombre avec le nom qu'il détermine, « aliments » (masculin pluriel).",
+            "suggestions": [
+              "tous les"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "pocéder",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Lettre erronée. Le verbe « posséder » s'écrit avec deux 's'.",
+            "suggestions": [
+              "posséder"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "il",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le pronom personnel doit s'accorder en genre et en nombre avec son antécédent. Le pronom \"il\" (masculin singulier) reprend \"les aliments\" (masculin pluriel).",
+            "suggestions": [
+              "ils"
+            ],
+            "ruleApplied": "5.3.1.4"
+          },
+          {
+            "text": "est",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "_",
+            "description": "Le verbe doit s'accorder en nombre avec son sujet. Le donneur d'accord est \"aliments\" (repris par \"ils\"), masculin pluriel.",
+            "suggestions": [
+              "sont"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "expiré",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "_",
+            "description": "L'attribut du sujet doit s'accorder en genre et en nombre avec le sujet. Le donneur d'accord est \"aliments\" (repris par \"ils\"), masculin pluriel.",
+            "suggestions": [
+              "expirés"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "misantendue",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Ce mot n'existe pas. Il s'agit probablement d'une confusion avec \"mésentente\" ou \"malentendu\".",
+            "suggestions": [
+              "mésentente"
+            ],
+            "ruleApplied": "5.2.2"
+          },
+          {
+            "text": "d'accords",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "La locution \"d'accord\" est invariable et ne prend jamais de \"s\".",
+            "suggestions": [
+              "d'accord"
+            ],
+            "ruleApplied": "5.3.1.6"
+          },
+          {
+            "text": "bonne",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif doit s'accorder en genre avec le nom qu'il qualifie. Le nom \"état\" est masculin.",
+            "suggestions": [
+              "bon"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "peuvent",
+            "occurenceIndex": 1,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe doit s'accorder avec son sujet. Le sujet est \"Le restant\", nom singulier, même s'il est suivi d'un complément au pluriel.",
+            "suggestions": [
+              "peut"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "transformer",
+            "occurenceIndex": 1,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre l'infinitif en \"-er\" et le participe passé en \"-é\". Après l'auxiliaire \"être\", on emploie le participe passé, qui doit s'accorder avec le sujet \"Le restant\" (masculin singulier).",
+            "suggestions": [
+              "transformé"
+            ],
+            "ruleApplied": "5.3.2.6"
+          },
+          {
+            "text": "prêt",
+            "occurenceIndex": 1,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'attribut du sujet doit s'accorder en nombre avec le sujet. Le sujet est \"nous\", pluriel.",
+            "suggestions": [
+              "prêts"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "différents",
+            "occurenceIndex": 1,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif doit s'accorder en genre et en nombre avec le nom qu'il qualifie. Le nom \"manières\" est féminin pluriel.",
+            "suggestions": [
+              "différentes"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "prennant",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Barbarisme de conjugaison. Le participe présent du verbe \"prendre\" s'écrit \"prenant\", avec un seul \"n\".",
+            "suggestions": [
+              "prenant"
+            ],
+            "ruleApplied": "5.3.2.1"
+          },
+          {
+            "text": "tout",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le déterminant \"tout\" doit s'accorder en genre et en nombre avec le nom qu'il détermine. Le nom \"aliments\" est masculin pluriel.",
+            "suggestions": [
+              "tous"
+            ],
+            "ruleApplied": "5.3.1.1"
+          }
+        ],
+        "totalErreursCritere4": 15,
+        "totalErreursCritere5": 34,
+        "scoreCritere4": {
+          "pointsPerdus": 12,
+          "note": "C"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 32,
+          "note": "E"
+        }
+      }
+    ],
+    "erreursCritere4AvantAnalyseIA": [
+      {
+        "text": "est fait",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Problème de sens. L'expression « est fait par » est sémantiquement incorrecte dans ce contexte. On devrait utiliser une formulation comme « est causé par » ou « est le fait de ».",
+        "suggestions": [
+          "est causé",
+          "est le fait de"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": "ses",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Déterminant possessif erroné. Le déterminant « ses » renvoie à un possesseur singulier, alors que l'antécédent est pluriel (« des familles et personnes »). Il faut utiliser « leurs ». Une erreur de syntaxe (S) a déjà été comptée dans cette phrase.",
+        "suggestions": [
+          "leurs"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "text": "ses",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Déterminant possessif erroné. Le déterminant « ses » renvoie à un possesseur singulier, alors que l'antécédent est pluriel (« des familles et personnes »). Il faut utiliser « leurs ». Une erreur de syntaxe (S) a déjà été comptée dans cette phrase.",
+        "suggestions": [
+          "leurs"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "text": "que nous faisons tous",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Problème de sens / Collocation. L'expression « faire une habitude » n'est pas idiomatique. On dit plutôt « avoir une habitude » ou « prendre une habitude ».",
+        "suggestions": [
+          "que nous avons tous"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": "C'est pour ça que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Calque de l'oral. Cette locution est considérée comme familière à l'écrit. Il est préférable d'utiliser « C'est pourquoi » ou « C'est la raison pour laquelle ».",
+        "suggestions": [
+          "C'est pourquoi"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "à comment",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Mot superflu. La construction « façons à comment » est redondante. Il faut écrire « façons de » ou simplement « comment ».",
+        "suggestions": [
+          "de"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "la nourriture pourrait se trouver",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence d'un mot essentiel. Il manque le pronom relatif « qui » pour introduire la proposition subordonnée relative et la relier à son antécédent « la nourriture ».",
+        "suggestions": [
+          "la nourriture qui pourrait se trouver"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "qu'il est expiré",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Pronom personnel avec un référent erroné. Le pronom « il » (singulier) est utilisé alors que le référent logique est « les aliments » (pluriel). Il faut utiliser « ils » et accorder le verbe et l'attribut en conséquence.",
+        "suggestions": [
+          "qu'ils sont expirés"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "text": "c'était écrit",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction de phrase boiteuse. La tournure impersonnelle correcte est « il était écrit ».",
+        "suggestions": [
+          "il était écrit"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "une misantendue par les acheteurs des produits vendus dans les épiceries",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Subordonnée sans matrice. Ce groupe de mots est une phrase nominale détachée qui ne se rattache pas syntaxiquement au reste de la phrase. Il faut en faire une phrase complète ou la relier à la principale. Le mot « misantendue » est un barbarisme pour « malentendu ».",
+        "suggestions": [
+          "ce qui est un malentendu pour les acheteurs des produits vendus dans les épiceries."
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "text": "les",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Pronom personnel avec un référent erroné. Le pronom « les » (pluriel) est utilisé pour reprendre « notre nourriture » (singulier). Il faut utiliser « la ».",
+        "suggestions": [
+          "la"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "text": "les",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Pronom personnel avec un référent erroné. Le pronom « les » (pluriel) est utilisé pour reprendre « notre nourriture » (singulier). Il faut utiliser « l' ». Une erreur de syntaxe (S) a déjà été comptée dans cette phrase pour le même référent.",
+        "suggestions": [
+          "l'"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "text": "se battre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Pronom réfléchi erroné. Le pronom réfléchi doit être de la même personne que le sujet « nous ». Il faut donc utiliser « nous battre ».",
+        "suggestions": [
+          "nous battre"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "text": "à comment nous pouvons transformer",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction \"façons à comment\" est une construction boiteuse et redondante. Il faut utiliser \"façons de\" suivi de l'infinitif.",
+        "suggestions": [
+          "de transformer"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "la nourriture pourrait",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence d'un mot essentiel. Il manque le pronom relatif \"qui\" pour introduire la proposition subordonnée relative.",
+        "suggestions": [
+          "la nourriture qui pourrait"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      }
+    ],
+    "erreursCritere5AvantAnalyseIA": [
+      {
+        "text": "gaspiller",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord du participe passé employé comme adjectif. Le participe passé « gaspiller » doit s'accorder en genre et en nombre avec le nom qu'il qualifie, « nourriture » (féminin singulier).",
+        "suggestions": [
+          "gaspillée"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "où",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion d'homophones grammaticaux. « où » est un pronom relatif ou un adverbe de lieu, alors qu'il faut ici la conjonction de coordination « ou » pour marquer un choix.",
+        "suggestions": [
+          "ou"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "text": "prêt",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord de l'adjectif. L'adjectif « prêt » doit s'accorder avec le pronom « on », qui a ici une valeur de pluriel (équivalent à « nous »).",
+        "suggestions": [
+          "prêts"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "deconservation",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Barbarisme orthographique. Les mots « de » et « conservation » doivent être écrits séparément.",
+        "suggestions": [
+          "de conservation"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "text": "exces",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Absence d'accent. Le mot « excès » prend un accent grave sur le deuxième 'e'.",
+        "suggestions": [
+          "excès"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "text": "jeter",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord du participe passé. Le participe passé « jeter », conjugué avec l'auxiliaire « être », doit s'accorder avec son sujet « qui », qui reprend « les aliments » (masculin pluriel).",
+        "suggestions": [
+          "jetés"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "completement",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Absence d'accent. L'adverbe « complètement » prend un accent grave sur le deuxième 'e'.",
+        "suggestions": [
+          "complètement"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "text": "d'accords",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Ajout d'un 's' à un mot invariable. La locution adverbiale « d'accord » est invariable et ne prend jamais de 's'.",
+        "suggestions": [
+          "d'accord"
+        ],
+        "ruleApplied": "5.2.1.5"
+      },
+      {
+        "text": "bonne état",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord en genre. L'adjectif « bonne » doit s'accorder en genre avec le nom masculin « état ».",
+        "suggestions": [
+          "bon état"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "innecessaires",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Lettre non doublée. Le mot « innécessaires » s'écrit avec deux 'n'.",
+        "suggestions": [
+          "innécessaires"
+        ],
+        "ruleApplied": "5.2.1.6"
+      },
+      {
+        "text": "refrigérés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Absence d'accent. Le mot « réfrigérés » prend un accent aigu sur le premier 'e'.",
+        "suggestions": [
+          "réfrigérés"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "text": "trouverbeaucoup",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Barbarisme orthographique. Les mots « trouver » et « beaucoup » doivent être écrits séparément.",
+        "suggestions": [
+          "trouver beaucoup"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "text": "laquel",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Barbarisme grammatical. Le pronom relatif composé est « laquelle » au féminin singulier pour s'accorder avec « raison ».",
+        "suggestions": [
+          "laquelle"
+        ],
+        "ruleApplied": "5.3.2.1"
+      },
+      {
+        "text": "êtrepourris",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Barbarisme orthographique. Les mots « être » et « pourris » doivent être écrits séparément.",
+        "suggestions": [
+          "être pourris"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "text": "peuvent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord du verbe. Le verbe « peuvent » doit s'accorder avec son sujet « Le restant » (singulier).",
+        "suggestions": [
+          "peut"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "transformer",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord du participe passé. Le participe passé « transformer », conjugué avec l'auxiliaire « être », doit s'accorder avec son sujet « Le restant » (masculin singulier).",
+        "suggestions": [
+          "transformé"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "sont",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord du verbe. Le verbe « sont » doit s'accorder avec son sujet « la transformation » (singulier).",
+        "suggestions": [
+          "est"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "éviterle",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Barbarisme orthographique. Les mots « éviter » et « le » doivent être écrits séparément.",
+        "suggestions": [
+          "éviter le"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "text": "différents manières",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord en genre. L'adjectif « différents » doit s'accorder en genre avec le nom féminin « manières ».",
+        "suggestions": [
+          "différentes manières"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "prennant",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Lettre doublée erronée. Le participe présent du verbe « prendre » s'écrit « prenant », avec un seul 'n'.",
+        "suggestions": [
+          "prenant"
+        ],
+        "ruleApplied": "5.2.1.6"
+      },
+      {
+        "text": "tout les",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord du déterminant. Le déterminant « tout » doit s'accorder en genre et en nombre avec le nom qu'il détermine, « aliments » (masculin pluriel).",
+        "suggestions": [
+          "tous les"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "pocéder",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Lettre erronée. Le verbe « posséder » s'écrit avec deux 's'.",
+        "suggestions": [
+          "posséder"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "il",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom personnel doit s'accorder en genre et en nombre avec son antécédent. Le pronom \"il\" (masculin singulier) reprend \"les aliments\" (masculin pluriel).",
+        "suggestions": [
+          "ils"
+        ],
+        "ruleApplied": "5.3.1.4"
+      },
+      {
+        "text": "est",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "Le verbe doit s'accorder en nombre avec son sujet. Le donneur d'accord est \"aliments\" (repris par \"ils\"), masculin pluriel.",
+        "suggestions": [
+          "sont"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "expiré",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "L'attribut du sujet doit s'accorder en genre et en nombre avec le sujet. Le donneur d'accord est \"aliments\" (repris par \"ils\"), masculin pluriel.",
+        "suggestions": [
+          "expirés"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "misantendue",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Ce mot n'existe pas. Il s'agit probablement d'une confusion avec \"mésentente\" ou \"malentendu\".",
+        "suggestions": [
+          "mésentente"
+        ],
+        "ruleApplied": "5.2.2"
+      },
+      {
+        "text": "d'accords",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "La locution \"d'accord\" est invariable et ne prend jamais de \"s\".",
+        "suggestions": [
+          "d'accord"
+        ],
+        "ruleApplied": "5.3.1.6"
+      },
+      {
+        "text": "bonne",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif doit s'accorder en genre avec le nom qu'il qualifie. Le nom \"état\" est masculin.",
+        "suggestions": [
+          "bon"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "peuvent",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec son sujet. Le sujet est \"Le restant\", nom singulier, même s'il est suivi d'un complément au pluriel.",
+        "suggestions": [
+          "peut"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "transformer",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif en \"-er\" et le participe passé en \"-é\". Après l'auxiliaire \"être\", on emploie le participe passé, qui doit s'accorder avec le sujet \"Le restant\" (masculin singulier).",
+        "suggestions": [
+          "transformé"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "prêt",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'attribut du sujet doit s'accorder en nombre avec le sujet. Le sujet est \"nous\", pluriel.",
+        "suggestions": [
+          "prêts"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "différents",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif doit s'accorder en genre et en nombre avec le nom qu'il qualifie. Le nom \"manières\" est féminin pluriel.",
+        "suggestions": [
+          "différentes"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "prennant",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Barbarisme de conjugaison. Le participe présent du verbe \"prendre\" s'écrit \"prenant\", avec un seul \"n\".",
+        "suggestions": [
+          "prenant"
+        ],
+        "ruleApplied": "5.3.2.1"
+      },
+      {
+        "text": "tout",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant \"tout\" doit s'accorder en genre et en nombre avec le nom qu'il détermine. Le nom \"aliments\" est masculin pluriel.",
+        "suggestions": [
+          "tous"
+        ],
+        "ruleApplied": "5.3.1.1"
+      }
+    ],
+    "analyseIADuplicatas": {
+      "critere4": {
+        "analyse": {
+          "totalErreursCritere4": 15,
+          "totalErreursCritere5": 0,
+          "duplicatasCritere4": 2,
+          "duplicatasCritere5": 0
+        },
+        "duplicatasCritere4": [
+          {
+            "groupe": 1,
+            "confiance": 95,
+            "raison": "Même erreur de construction redondante ('façons à comment') au même emplacement. L'erreur avec le texte le plus long a été conservée.",
+            "erreurs": [
+              {
+                "index": 13,
+                "text": "à comment nous pouvons transformer",
+                "garder": true
+              },
+              {
+                "index": 5,
+                "text": "à comment",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 2,
+            "confiance": 90,
+            "raison": "Même erreur (absence du pronom relatif 'qui') identifiée sur des segments de texte qui se chevauchent. Les descriptions et règles appliquées sont identiques. L'erreur avec le texte le plus complet a été conservée.",
+            "erreurs": [
+              {
+                "index": 6,
+                "text": "la nourriture pourrait se trouver",
+                "garder": true
+              },
+              {
+                "index": 14,
+                "text": "la nourriture pourrait",
+                "garder": false
+              }
+            ]
+          }
+        ],
+        "duplicatasCritere5": [],
+        "erreursUniquesCritere4": [
+          {
+            "index": 0,
+            "text": "est fait",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 1,
+            "text": "ses",
+            "raison": "Erreur distincte (occurrence 0)."
+          },
+          {
+            "index": 2,
+            "text": "ses",
+            "raison": "Erreur distincte (occurrence 1)."
+          },
+          {
+            "index": 3,
+            "text": "que nous faisons tous",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 4,
+            "text": "C'est pour ça que",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 7,
+            "text": "qu'il est expiré",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 8,
+            "text": "c'était écrit",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 9,
+            "text": "une misantendue par les acheteurs des produits vendus dans les épiceries",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 10,
+            "text": "les",
+            "raison": "Erreur distincte (occurrence 0)."
+          },
+          {
+            "index": 11,
+            "text": "les",
+            "raison": "Erreur distincte (occurrence 1)."
+          },
+          {
+            "index": 12,
+            "text": "se battre",
+            "raison": "Aucun duplicata trouvé."
+          }
+        ],
+        "erreursUniquesCritere5": [],
+        "recommandations": {
+          "erreursAConserverCritere4": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "erreursAConserverCritere5": [],
+          "erreursASupprimer": {
+            "critere4": [
+              5,
+              14
+            ],
+            "critere5": []
+          }
+        }
+      },
+      "critere5": {
+        "analyse": {
+          "totalErreursCritere4": 0,
+          "totalErreursCritere5": 34,
+          "duplicatasCritere4": 0,
+          "duplicatasCritere5": 4
+        },
+        "duplicatasCritere4": [],
+        "duplicatasCritere5": [
+          {
+            "groupe": 1,
+            "confiance": 100,
+            "raison": "Texte et index d'occurrence identiques, signalant la même erreur sur une locution invariable.",
+            "erreurs": [
+              {
+                "index": 7,
+                "text": "d'accords",
+                "garder": true
+              },
+              {
+                "index": 26,
+                "text": "d'accords",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 2,
+            "confiance": 95,
+            "raison": "Même erreur d'accord au même endroit. L'une des erreurs inclut plus de contexte (nom + adjectif).",
+            "erreurs": [
+              {
+                "index": 8,
+                "text": "bonne état",
+                "garder": true
+              },
+              {
+                "index": 27,
+                "text": "bonne",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 3,
+            "confiance": 100,
+            "raison": "Texte et index d'occurrence identiques, signalant la même erreur orthographique.",
+            "erreurs": [
+              {
+                "index": 19,
+                "text": "prennant",
+                "garder": true
+              },
+              {
+                "index": 32,
+                "text": "prennant",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 4,
+            "confiance": 95,
+            "raison": "Même erreur d'accord au même endroit. L'une des erreurs inclut plus de contexte (déterminant + nom).",
+            "erreurs": [
+              {
+                "index": 20,
+                "text": "tout les",
+                "garder": true
+              },
+              {
+                "index": 33,
+                "text": "tout",
+                "garder": false
+              }
+            ]
+          }
+        ],
+        "erreursUniquesCritere4": [],
+        "erreursUniquesCritere5": [
+          {
+            "index": 0,
+            "text": "gaspiller",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 1,
+            "text": "où",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 2,
+            "text": "prêt",
+            "raison": "Erreur distincte (occurrence 0)."
+          },
+          {
+            "index": 3,
+            "text": "deconservation",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 4,
+            "text": "exces",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 5,
+            "text": "jeter",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 6,
+            "text": "completement",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 9,
+            "text": "innecessaires",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 10,
+            "text": "refrigérés",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 11,
+            "text": "trouverbeaucoup",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 12,
+            "text": "laquel",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 13,
+            "text": "êtrepourris",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 14,
+            "text": "peuvent",
+            "raison": "Erreur distincte (occurrence 0)."
+          },
+          {
+            "index": 15,
+            "text": "transformer",
+            "raison": "Erreur distincte (occurrence 0)."
+          },
+          {
+            "index": 16,
+            "text": "sont",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 17,
+            "text": "éviterle",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 18,
+            "text": "différents manières",
+            "raison": "Erreur distincte (occurrence 0)."
+          },
+          {
+            "index": 21,
+            "text": "pocéder",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 22,
+            "text": "il",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 23,
+            "text": "est",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 24,
+            "text": "expiré",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 25,
+            "text": "misantendue",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 28,
+            "text": "peuvent",
+            "raison": "Erreur distincte (occurrence 1)."
+          },
+          {
+            "index": 29,
+            "text": "transformer",
+            "raison": "Erreur distincte (occurrence 1)."
+          },
+          {
+            "index": 30,
+            "text": "prêt",
+            "raison": "Erreur distincte (occurrence 1)."
+          },
+          {
+            "index": 31,
+            "text": "différents",
+            "raison": "Erreur distincte (occurrence 1)."
+          }
+        ],
+        "recommandations": {
+          "erreursAConserverCritere4": [],
+          "erreursAConserverCritere5": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            28,
+            29,
+            30,
+            31
+          ],
+          "erreursASupprimer": {
+            "critere4": [],
+            "critere5": [
+              26,
+              27,
+              32,
+              33
+            ]
+          }
+        }
+      }
+    }
+  }
+}

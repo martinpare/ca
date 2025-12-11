@@ -1,0 +1,2167 @@
+{
+  "processedAt": "2025-12-10T14:30:04.606Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_056.txt",
+    "originalText": "gaspillage humain\r\n\r\nCher lecteur, la nourriture que nous pouvons consommer et jeter pour plusieurs raisons... Mais somme-nous prêts à lutter contre le gaspillage alimentaire ? Selon moi, nous ne sommes encores prêts se battre contre le gaspillage alimentaire. Dans ce texte, je vais vous parler de la manière que les gens gaspillent la bouffe et ce qu'on peut faire pour lutter le gaspillage.\r\n\r\nPremièrement, cher public, voici les manières que les gens jettent de la nourriture consommable. Dans la chaîne d'approvisionnement alimentaire, il y a plusieurs gaspillages pour différentes raisons. Par exemple. ns l'étape de lationprodu laisse les aliments imparfaits dans les champs et il manque de la main-d'œuvre. Dans l'étape numéro deux la transformation, il y a des équipements avec défauts et il y a aussi des erreurs humains. Lors de la troisième étape le transport, des aliments sont endommagés ou contaminés La quatrième étape qui est la vente au détail, restauration et hôtellerie, il y a des problèmes de gestion des stocks. La dernière étape qui est la consommation, il y a une mauvaise planification des repas et un manque de connaissance sur la façon de conserver les aliments (table québécois sur la saine alimentaire, 2019). Aussi, plusieurs personnes gaspillent la nourriture à la maison. Les consommateurs qui sont pas toujours cuisine ou pas le temps de cuisiner, ne peuvent pas appliquer les techniques pour réduire le gaspillage alimentaire alors, ils doivent jetés la nourriture pour rien (Simard, 2020). En bref, il y a plusieurs façons que les gens font du gaspillage alimentaire.\r\n\r\nDeuxièmement, cher consommateur, ne vous inquiétez pas il y a plusieurs manières d'éviter le gaspillage. Si vous aimez bien mangé et il y a des fruits ou des légumes défraîchis, voici ce que vous pourez faire. Vous pouvez utiliser des sites comme Sauve ta bouffe Chic Frigo sans Fric, J'aime manger pas gaspiller et aussi les livres de recette et des techniques pour réduire le gaspillage à la maison. En plus, Florence-Léa Siry suggère «de garder hors du réfrigérateur les aliments non réfrigérés par le commerçant, de retirer les emballages qui causent un surplus d'humidité et de ne pas tailler les fruits et légumes trop à l'avance.» afin de réduire le gaspillage (Simard, 2020). En ajoutant, pour limiter le gaspillage, il est conseillé de planifier les repas et faire une liste d'épicerie, acheter une quantité raisonnable, faire cuire les fruits et légumes trop mûrs et congeler les restes en portions individuelles. Aussi, il y a des plateformes comme FlashFood, FoodHero ou SecondLife qui nous permettent d'acheter des fruits et légumes moches à de bas prix (RECYC-QUÉBEC, 2021). En somme, on a plusieurs manières d'éviter de gaspiller des aliments.\r\n\r\nEn guise de conclusion, les humains gaspillent la nourriture pas juste à la maison, mais aussi dans les différentes étapes de la chaîne d'approvisionnement. Ne nous inquiétore pas parce qu'il y a plusieurs manières de conserver la nourriture. Êtes-vous prêts à faire un changement dans la façon de consommer sans gaspillage ?",
+    "erreursCritere4": [
+      {
+        "text": "la nourriture que nous pouvons consommer et jeter pour plusieurs raisons...",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase est une subordonnée sans phrase principale (matrice) pour la compléter. Il faut la rattacher à une phrase principale ou la reformuler.",
+        "suggestions": [
+          "la nourriture que nous pouvons consommer et jeter pour plusieurs raisons est un enjeu majeur."
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "text": "prêts se battre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque la préposition « à » après l'adjectif « prêts » et avant le verbe à l'infinitif « se battre ».",
+        "suggestions": [
+          "prêts à se battre"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "lutter le gaspillage",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe « lutter » est un verbe transitif indirect qui se construit avec la préposition « contre ».",
+        "suggestions": [
+          "lutter contre le gaspillage"
+        ],
+        "ruleApplied": "4.1.2.2.2"
+      },
+      {
+        "text": "ns l'étape de lationprodu laisse",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La phrase est mal construite : des mots sont erronés (« ns », « lationprodu ») et le sujet du verbe « laisse » est manquant.",
+        "suggestions": [
+          "Dans l'étape de la production, on laisse"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "avec défauts",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque un déterminant (article indéfini pluriel) devant le nom « défauts ».",
+        "suggestions": [
+          "avec des défauts"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "contaminés La",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque un point pour terminer la phrase avant d'en commencer une nouvelle.",
+        "suggestions": [
+          "contaminés. La"
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "text": "cuisine",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "La construction de la phrase est boiteuse. Le nom « cuisine » est utilisé à la place d'un verbe ou d'une locution verbale.",
+        "suggestions": [
+          "ne cuisinent pas toujours"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "pas juste",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression « pas juste » est un calque de l'anglais. Il faut utiliser « pas seulement » ou « non seulement ».",
+        "suggestions": [
+          "pas seulement",
+          "non seulement"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "manière que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom relatif « que » est incorrect. Il faut utiliser « dont » ou reformuler avec « avec laquelle ».",
+        "suggestions": [
+          "manière dont"
+        ],
+        "ruleApplied": "4.1.2.3.1"
+      },
+      {
+        "text": "Par exemple.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point crée une rupture de phrase fautive. Il devrait être remplacé par un deux-points ou une virgule pour introduire l'exemple.",
+        "suggestions": [
+          "Par exemple,"
+        ],
+        "ruleApplied": "4.2.2.1.2"
+      },
+      {
+        "text": "deux la transformation",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule pour isoler le groupe de mots « la transformation », qui est en apposition à « l'étape numéro deux ».",
+        "suggestions": [
+          "deux, la transformation"
+        ],
+        "ruleApplied": "4.2.2.10.1.i"
+      },
+      {
+        "text": "étape le transport",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule pour isoler le groupe de mots « le transport », qui est en apposition à « la troisième étape ».",
+        "suggestions": [
+          "étape, le transport"
+        ],
+        "ruleApplied": "4.2.2.10.1.i"
+      },
+      {
+        "text": "sont pas",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque l'adverbe de négation « ne » (élidé « n' ») avant le verbe.",
+        "suggestions": [
+          "ne sont pas"
+        ],
+        "ruleApplied": "4.1.2.1.3"
+      },
+      {
+        "text": "pas il y a",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule pour séparer la proposition impérative de la proposition principale qui la suit.",
+        "suggestions": [
+          "pas, il y a"
+        ],
+        "ruleApplied": "4.2.2.10.1.c"
+      },
+      {
+        "text": "bouffe Chic",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule pour séparer les éléments d'une énumération.",
+        "suggestions": [
+          "bouffe, Chic"
+        ],
+        "ruleApplied": "4.2.2.10.1.a"
+      },
+      {
+        "text": "manger pas gaspiller",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(P)",
+        "description": "Il manque une virgule pour séparer les éléments d'une énumération. Cette erreur n'est pas comptée, car il y a déjà une erreur de ponctuation dans cette phrase.",
+        "suggestions": [
+          "manger, pas gaspiller"
+        ],
+        "ruleApplied": "4.2.2.10.1.a"
+      },
+      {
+        "text": "l'avance.»",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point final doit être placé après la référence entre parenthèses, et non à l'intérieur des guillemets, car la citation est intégrée à la phrase.",
+        "suggestions": [
+          "l'avance. »"
+        ],
+        "ruleApplied": "4.2.2.1.2"
+      },
+      {
+        "text": "En ajoutant,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le participe présent « ajoutant » n'est pas rattaché à un sujet logique dans la phrase. Il faut reformuler.",
+        "suggestions": [
+          "De plus,"
+        ],
+        "ruleApplied": "4.1.2.1.7"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 12.5,
+      "note": "C"
+    },
+    "erreursCritere5": [
+      {
+        "text": "gaspillage",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Un titre doit commencer par une majuscule.",
+        "suggestions": [
+          "Gaspillage"
+        ],
+        "ruleApplied": "5.2.4.3"
+      },
+      {
+        "text": "somme-nous",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur de conjugaison du verbe « être » à la première personne du pluriel du présent de l'indicatif.",
+        "suggestions": [
+          "sommes-nous"
+        ],
+        "ruleApplied": "5.3.2.1"
+      },
+      {
+        "text": "encores",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'adverbe « encore » est invariable et ne prend jamais de « s ».",
+        "suggestions": [
+          "encore"
+        ],
+        "ruleApplied": "5.2.1.5"
+      },
+      {
+        "text": "humains",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « humain » doit s'accorder en genre et en nombre avec le nom féminin pluriel « erreurs » qu'il qualifie.",
+        "suggestions": [
+          "humaines"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "table québécois",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « québécois » doit s'accorder en genre avec le nom féminin « table » qu'il qualifie. De plus, une majuscule est attendue pour le premier mot d'une dénomination.",
+        "suggestions": [
+          "Table québécoise"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "alimentaire",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion lexicale. Le mot attendu dans ce contexte est « alimentation ».",
+        "suggestions": [
+          "alimentation"
+        ],
+        "ruleApplied": "5.2.2"
+      },
+      {
+        "text": "jetés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après un verbe modal comme « devoir », le verbe qui suit doit être à l'infinitif (« -er ») et non au participe passé (« -é »).",
+        "suggestions": [
+          "jeter"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "mangé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après le verbe « aimer », le verbe qui suit doit être à l'infinitif (« -er ») et non au participe passé (« -é »).",
+        "suggestions": [
+          "manger"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "pourez",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur de conjugaison (barbarisme) du verbe « pouvoir » au futur simple, à la deuxième personne du pluriel.",
+        "suggestions": [
+          "pourrez"
+        ],
+        "ruleApplied": "5.3.2.1"
+      },
+      {
+        "text": "recette",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le complément du nom « livres » doit être au pluriel, car il s'agit de plusieurs recettes.",
+        "suggestions": [
+          "recettes"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "text": "inquiétore",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur de conjugaison (barbarisme) du verbe « inquiéter » à l'impératif présent, à la première personne du pluriel.",
+        "suggestions": [
+          "inquiétons"
+        ],
+        "ruleApplied": "5.3.2.1"
+      },
+      {
+        "text": "ns",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Ce mot est mal orthographié. Il s'agit d'une faute de frappe pour « dans ».",
+        "suggestions": [
+          "dans"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "lationprodu",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Ce mot est mal orthographié. Il s'agit d'une faute de frappe pour « la production ».",
+        "suggestions": [
+          "la production"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "connaissance",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « connaissance » doit être au pluriel dans ce contexte, car il est complément du nom « manque ».",
+        "suggestions": [
+          "connaissances"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "text": "bas prix",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « bas » doit s'accorder en nombre avec le nom « prix » (pluriel).",
+        "suggestions": [
+          "bas prix"
+        ],
+        "ruleApplied": "5.3.1.1"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 15,
+      "note": "D"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:25:58.043Z",
+    "endTimestamp": "2025-12-10T14:30:04.605Z",
+    "durationMs": 246562,
+    "durationFormatted": "04:06:562",
+    "cumulParPasse": [
+      {
+        "passe": 1,
+        "erreursCritere4": [
+          {
+            "text": "la nourriture que nous pouvons consommer et jeter pour plusieurs raisons...",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Cette phrase est une subordonnée sans phrase principale (matrice) pour la compléter. Il faut la rattacher à une phrase principale ou la reformuler.",
+            "suggestions": [
+              "la nourriture que nous pouvons consommer et jeter pour plusieurs raisons est un enjeu majeur."
+            ],
+            "ruleApplied": "4.1.2.1.4"
+          },
+          {
+            "text": "prêts se battre",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Il manque la préposition « à » après l'adjectif « prêts » et avant le verbe à l'infinitif « se battre ».",
+            "suggestions": [
+              "prêts à se battre"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "que",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le pronom relatif correct pour introduire un complément du nom « manière » est « dont » et non « que ».",
+            "suggestions": [
+              "dont"
+            ],
+            "ruleApplied": "4.1.2.3.1"
+          },
+          {
+            "text": "lutter le gaspillage",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le verbe « lutter » est un verbe transitif indirect qui se construit avec la préposition « contre ».",
+            "suggestions": [
+              "lutter contre le gaspillage"
+            ],
+            "ruleApplied": "4.1.2.2.2"
+          },
+          {
+            "text": ".",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Un point est utilisé à tort pour séparer l'organisateur textuel du reste de la phrase. Une virgule est requise.",
+            "suggestions": [
+              ","
+            ],
+            "ruleApplied": "4.2.2.1.2"
+          },
+          {
+            "text": "ns l'étape de lationprodu laisse",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La phrase est mal construite : des mots sont erronés (« ns », « lationprodu ») et le sujet du verbe « laisse » est manquant.",
+            "suggestions": [
+              "Dans l'étape de la production, on laisse"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "la transformation",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Il manque une virgule pour isoler le groupe de mots « la transformation », qui est en apposition à « l'étape numéro deux ».",
+            "suggestions": [
+              ", la transformation,"
+            ],
+            "ruleApplied": "4.2.2.10.1.i"
+          },
+          {
+            "text": "avec défauts",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Il manque un déterminant (article indéfini pluriel) devant le nom « défauts ».",
+            "suggestions": [
+              "avec des défauts"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "le transport",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Il manque une virgule pour isoler le groupe de mots « le transport », qui est en apposition à « la troisième étape ».",
+            "suggestions": [
+              ", le transport,"
+            ],
+            "ruleApplied": "4.2.2.10.1.i"
+          },
+          {
+            "text": "contaminés La",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Il manque un point pour terminer la phrase avant d'en commencer une nouvelle.",
+            "suggestions": [
+              "contaminés. La"
+            ],
+            "ruleApplied": "4.2.2.1.1"
+          },
+          {
+            "text": "pas",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La négation est incomplète. Il manque l'adverbe « ne » (ou « n' ») avant le verbe.",
+            "suggestions": [
+              "ne sont pas"
+            ],
+            "ruleApplied": "4.1.2.1.3"
+          },
+          {
+            "text": "cuisine",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "La construction de la phrase est boiteuse. Le nom « cuisine » est utilisé à la place d'un verbe ou d'une locution verbale.",
+            "suggestions": [
+              "ne cuisinent pas toujours"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "pas il",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Il manque une virgule après le mot-phrase « pas » pour le séparer du reste de la phrase.",
+            "suggestions": [
+              "pas, il"
+            ],
+            "ruleApplied": "4.2.2.10.1.e"
+          },
+          {
+            "text": "pas gaspiller",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Il manque une virgule pour séparer les deux éléments juxtaposés dans le titre « J'aime manger, pas gaspiller ».",
+            "suggestions": [
+              ", pas gaspiller"
+            ],
+            "ruleApplied": "4.2.2.10.1.a"
+          },
+          {
+            "text": "pas juste",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'expression « pas juste » est un calque de l'anglais. Il faut utiliser « pas seulement » ou « non seulement ».",
+            "suggestions": [
+              "pas seulement",
+              "non seulement"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "gaspillage",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Un titre doit commencer par une majuscule.",
+            "suggestions": [
+              "Gaspillage"
+            ],
+            "ruleApplied": "5.2.4.3"
+          },
+          {
+            "text": "somme-nous",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur de conjugaison du verbe « être » à la première personne du pluriel du présent de l'indicatif.",
+            "suggestions": [
+              "sommes-nous"
+            ],
+            "ruleApplied": "5.3.2.1"
+          },
+          {
+            "text": "encores",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "L'adverbe « encore » est invariable et ne prend jamais de « s ».",
+            "suggestions": [
+              "encore"
+            ],
+            "ruleApplied": "5.2.1.5"
+          },
+          {
+            "text": "humains",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif « humain » doit s'accorder en genre et en nombre avec le nom féminin pluriel « erreurs » qu'il qualifie.",
+            "suggestions": [
+              "humaines"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "table québécois",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif « québécois » doit s'accorder en genre avec le nom féminin « table » qu'il qualifie. De plus, une majuscule est attendue pour le premier mot d'une dénomination.",
+            "suggestions": [
+              "Table québécoise"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "alimentaire",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Confusion lexicale. Le mot attendu dans ce contexte est « alimentation ».",
+            "suggestions": [
+              "alimentation"
+            ],
+            "ruleApplied": "5.2.2"
+          },
+          {
+            "text": "jetés",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Après un verbe modal comme « devoir », le verbe qui suit doit être à l'infinitif (« -er ») et non au participe passé (« -é »).",
+            "suggestions": [
+              "jeter"
+            ],
+            "ruleApplied": "5.3.2.6"
+          },
+          {
+            "text": "mangé",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Après le verbe « aimer », le verbe qui suit doit être à l'infinitif (« -er ») et non au participe passé (« -é »).",
+            "suggestions": [
+              "manger"
+            ],
+            "ruleApplied": "5.3.2.6"
+          },
+          {
+            "text": "pourez",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur de conjugaison (barbarisme) du verbe « pouvoir » au futur simple, à la deuxième personne du pluriel.",
+            "suggestions": [
+              "pourrez"
+            ],
+            "ruleApplied": "5.3.2.1"
+          },
+          {
+            "text": "recette",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le complément du nom « livres » doit être au pluriel, car il s'agit de plusieurs recettes.",
+            "suggestions": [
+              "recettes"
+            ],
+            "ruleApplied": "5.3.1.5"
+          },
+          {
+            "text": "inquiétore",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur de conjugaison (barbarisme) du verbe « inquiéter » à l'impératif présent, à la première personne du pluriel.",
+            "suggestions": [
+              "inquiétons"
+            ],
+            "ruleApplied": "5.3.2.1"
+          }
+        ],
+        "totalErreursCritere4": 15,
+        "totalErreursCritere5": 11,
+        "scoreCritere4": {
+          "pointsPerdus": 11,
+          "note": "C"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 11,
+          "note": "C"
+        }
+      },
+      {
+        "passe": 2,
+        "erreursCritere4": [
+          {
+            "text": "la nourriture que nous pouvons consommer et jeter pour plusieurs raisons...",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Cette phrase est une subordonnée sans phrase principale (matrice) pour la compléter. Il faut la rattacher à une phrase principale ou la reformuler.",
+            "suggestions": [
+              "la nourriture que nous pouvons consommer et jeter pour plusieurs raisons est un enjeu majeur."
+            ],
+            "ruleApplied": "4.1.2.1.4"
+          },
+          {
+            "text": "prêts se battre",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Il manque la préposition « à » après l'adjectif « prêts » et avant le verbe à l'infinitif « se battre ».",
+            "suggestions": [
+              "prêts à se battre"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "que",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le pronom relatif correct pour introduire un complément du nom « manière » est « dont » et non « que ».",
+            "suggestions": [
+              "dont"
+            ],
+            "ruleApplied": "4.1.2.3.1"
+          },
+          {
+            "text": "lutter le gaspillage",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le verbe « lutter » est un verbe transitif indirect qui se construit avec la préposition « contre ».",
+            "suggestions": [
+              "lutter contre le gaspillage"
+            ],
+            "ruleApplied": "4.1.2.2.2"
+          },
+          {
+            "text": ".",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Un point est utilisé à tort pour séparer l'organisateur textuel du reste de la phrase. Une virgule est requise.",
+            "suggestions": [
+              ","
+            ],
+            "ruleApplied": "4.2.2.1.2"
+          },
+          {
+            "text": "ns l'étape de lationprodu laisse",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La phrase est mal construite : des mots sont erronés (« ns », « lationprodu ») et le sujet du verbe « laisse » est manquant.",
+            "suggestions": [
+              "Dans l'étape de la production, on laisse"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "la transformation",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Il manque une virgule pour isoler le groupe de mots « la transformation », qui est en apposition à « l'étape numéro deux ».",
+            "suggestions": [
+              ", la transformation,"
+            ],
+            "ruleApplied": "4.2.2.10.1.i"
+          },
+          {
+            "text": "avec défauts",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Il manque un déterminant (article indéfini pluriel) devant le nom « défauts ».",
+            "suggestions": [
+              "avec des défauts"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "le transport",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Il manque une virgule pour isoler le groupe de mots « le transport », qui est en apposition à « la troisième étape ».",
+            "suggestions": [
+              ", le transport,"
+            ],
+            "ruleApplied": "4.2.2.10.1.i"
+          },
+          {
+            "text": "contaminés La",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Il manque un point pour terminer la phrase avant d'en commencer une nouvelle.",
+            "suggestions": [
+              "contaminés. La"
+            ],
+            "ruleApplied": "4.2.2.1.1"
+          },
+          {
+            "text": "pas",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La négation est incomplète. Il manque l'adverbe « ne » (ou « n' ») avant le verbe.",
+            "suggestions": [
+              "ne sont pas"
+            ],
+            "ruleApplied": "4.1.2.1.3"
+          },
+          {
+            "text": "cuisine",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "La construction de la phrase est boiteuse. Le nom « cuisine » est utilisé à la place d'un verbe ou d'une locution verbale.",
+            "suggestions": [
+              "ne cuisinent pas toujours"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "pas il",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Il manque une virgule après le mot-phrase « pas » pour le séparer du reste de la phrase.",
+            "suggestions": [
+              "pas, il"
+            ],
+            "ruleApplied": "4.2.2.10.1.e"
+          },
+          {
+            "text": "pas gaspiller",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Il manque une virgule pour séparer les deux éléments juxtaposés dans le titre « J'aime manger, pas gaspiller ».",
+            "suggestions": [
+              ", pas gaspiller"
+            ],
+            "ruleApplied": "4.2.2.10.1.a"
+          },
+          {
+            "text": "pas juste",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'expression « pas juste » est un calque de l'anglais. Il faut utiliser « pas seulement » ou « non seulement ».",
+            "suggestions": [
+              "pas seulement",
+              "non seulement"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "raisons...",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Cette phrase est une subordonnée sans phrase matrice pour la compléter. De plus, les points de suspension sont mal employés.",
+            "suggestions": [
+              "raisons."
+            ],
+            "ruleApplied": "4.1.2.1.4"
+          },
+          {
+            "text": "manière que",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le pronom relatif « que » est incorrect. Il faut utiliser « dont » ou reformuler avec « avec laquelle ».",
+            "suggestions": [
+              "manière dont"
+            ],
+            "ruleApplied": "4.1.2.3.1"
+          },
+          {
+            "text": "manières que",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le pronom relatif « que » est incorrect. Il faut utiliser « dont » ou reformuler avec « avec lesquelles ».",
+            "suggestions": [
+              "manières dont"
+            ],
+            "ruleApplied": "4.1.2.3.1"
+          },
+          {
+            "text": "Par exemple.",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Le point crée une rupture de phrase fautive. Il devrait être remplacé par un deux-points ou une virgule pour introduire l'exemple.",
+            "suggestions": [
+              "Par exemple,"
+            ],
+            "ruleApplied": "4.2.2.1.2"
+          },
+          {
+            "text": "lationprodu laisse",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Il manque un sujet avant le verbe « laisse ». Il faudrait ajouter un pronom comme « on ».",
+            "suggestions": [
+              "la production, on laisse"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "deux la transformation",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Il manque une virgule pour isoler le groupe de mots « la transformation », qui est en apposition à « l'étape numéro deux ».",
+            "suggestions": [
+              "deux, la transformation"
+            ],
+            "ruleApplied": "4.2.2.10.1.i"
+          },
+          {
+            "text": "étape le transport",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Il manque une virgule pour isoler le groupe de mots « le transport », qui est en apposition à « la troisième étape ».",
+            "suggestions": [
+              "étape, le transport"
+            ],
+            "ruleApplied": "4.2.2.10.1.i"
+          },
+          {
+            "text": "sont pas",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Il manque l'adverbe de négation « ne » (élidé « n' ») avant le verbe.",
+            "suggestions": [
+              "ne sont pas"
+            ],
+            "ruleApplied": "4.1.2.1.3"
+          },
+          {
+            "text": "façons que",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le pronom relatif « que » est incorrect. Il faut utiliser « dont » ou reformuler avec « avec lesquelles ».",
+            "suggestions": [
+              "façons dont"
+            ],
+            "ruleApplied": "4.1.2.3.1"
+          },
+          {
+            "text": "pas il y a",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Il manque une virgule pour séparer la proposition impérative de la proposition principale qui la suit.",
+            "suggestions": [
+              "pas, il y a"
+            ],
+            "ruleApplied": "4.2.2.10.1.c"
+          },
+          {
+            "text": "bouffe Chic",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Il manque une virgule pour séparer les éléments d'une énumération.",
+            "suggestions": [
+              "bouffe, Chic"
+            ],
+            "ruleApplied": "4.2.2.10.1.a"
+          },
+          {
+            "text": "manger pas gaspiller",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(P)",
+            "description": "Il manque une virgule pour séparer les éléments d'une énumération. Cette erreur n'est pas comptée, car il y a déjà une erreur de ponctuation dans cette phrase.",
+            "suggestions": [
+              "manger, pas gaspiller"
+            ],
+            "ruleApplied": "4.2.2.10.1.a"
+          },
+          {
+            "text": "l'avance.»",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Le point final doit être placé après la référence entre parenthèses, et non à l'intérieur des guillemets, car la citation est intégrée à la phrase.",
+            "suggestions": [
+              "l'avance. »"
+            ],
+            "ruleApplied": "4.2.2.1.2"
+          },
+          {
+            "text": "En ajoutant,",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le participe présent « ajoutant » n'est pas rattaché à un sujet logique dans la phrase. Il faut reformuler.",
+            "suggestions": [
+              "De plus,"
+            ],
+            "ruleApplied": "4.1.2.1.7"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "gaspillage",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Un titre doit commencer par une majuscule.",
+            "suggestions": [
+              "Gaspillage"
+            ],
+            "ruleApplied": "5.2.4.3"
+          },
+          {
+            "text": "somme-nous",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur de conjugaison du verbe « être » à la première personne du pluriel du présent de l'indicatif.",
+            "suggestions": [
+              "sommes-nous"
+            ],
+            "ruleApplied": "5.3.2.1"
+          },
+          {
+            "text": "encores",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "L'adverbe « encore » est invariable et ne prend jamais de « s ».",
+            "suggestions": [
+              "encore"
+            ],
+            "ruleApplied": "5.2.1.5"
+          },
+          {
+            "text": "humains",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif « humain » doit s'accorder en genre et en nombre avec le nom féminin pluriel « erreurs » qu'il qualifie.",
+            "suggestions": [
+              "humaines"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "table québécois",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif « québécois » doit s'accorder en genre avec le nom féminin « table » qu'il qualifie. De plus, une majuscule est attendue pour le premier mot d'une dénomination.",
+            "suggestions": [
+              "Table québécoise"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "alimentaire",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Confusion lexicale. Le mot attendu dans ce contexte est « alimentation ».",
+            "suggestions": [
+              "alimentation"
+            ],
+            "ruleApplied": "5.2.2"
+          },
+          {
+            "text": "jetés",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Après un verbe modal comme « devoir », le verbe qui suit doit être à l'infinitif (« -er ») et non au participe passé (« -é »).",
+            "suggestions": [
+              "jeter"
+            ],
+            "ruleApplied": "5.3.2.6"
+          },
+          {
+            "text": "mangé",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Après le verbe « aimer », le verbe qui suit doit être à l'infinitif (« -er ») et non au participe passé (« -é »).",
+            "suggestions": [
+              "manger"
+            ],
+            "ruleApplied": "5.3.2.6"
+          },
+          {
+            "text": "pourez",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur de conjugaison (barbarisme) du verbe « pouvoir » au futur simple, à la deuxième personne du pluriel.",
+            "suggestions": [
+              "pourrez"
+            ],
+            "ruleApplied": "5.3.2.1"
+          },
+          {
+            "text": "recette",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le complément du nom « livres » doit être au pluriel, car il s'agit de plusieurs recettes.",
+            "suggestions": [
+              "recettes"
+            ],
+            "ruleApplied": "5.3.1.5"
+          },
+          {
+            "text": "inquiétore",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur de conjugaison (barbarisme) du verbe « inquiéter » à l'impératif présent, à la première personne du pluriel.",
+            "suggestions": [
+              "inquiétons"
+            ],
+            "ruleApplied": "5.3.2.1"
+          },
+          {
+            "text": "somme-nous",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Le trait d'union est obligatoire dans l'inversion du pronom sujet.",
+            "suggestions": [
+              "sommes-nous"
+            ],
+            "ruleApplied": "5.2.1.10"
+          },
+          {
+            "text": "ns",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Ce mot est mal orthographié. Il s'agit d'une faute de frappe pour « dans ».",
+            "suggestions": [
+              "dans"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "lationprodu",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Ce mot est mal orthographié. Il s'agit d'une faute de frappe pour « la production ».",
+            "suggestions": [
+              "la production"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "connaissance",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom « connaissance » doit être au pluriel dans ce contexte, car il est complément du nom « manque ».",
+            "suggestions": [
+              "connaissances"
+            ],
+            "ruleApplied": "5.3.1.5"
+          },
+          {
+            "text": "table",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Le premier mot d'une dénomination d'organisme prend une majuscule.",
+            "suggestions": [
+              "Table"
+            ],
+            "ruleApplied": "5.2.4.1.2"
+          },
+          {
+            "text": "québécois",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif « québécois » doit s'accorder en genre avec le nom « table » (féminin).",
+            "suggestions": [
+              "québécoise"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "bas prix",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif « bas » doit s'accorder en nombre avec le nom « prix » (pluriel).",
+            "suggestions": [
+              "bas prix"
+            ],
+            "ruleApplied": "5.3.1.1"
+          }
+        ],
+        "totalErreursCritere4": 29,
+        "totalErreursCritere5": 18,
+        "scoreCritere4": {
+          "pointsPerdus": 21,
+          "note": "E"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 18,
+          "note": "D"
+        }
+      }
+    ],
+    "erreursCritere4AvantAnalyseIA": [
+      {
+        "text": "la nourriture que nous pouvons consommer et jeter pour plusieurs raisons...",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase est une subordonnée sans phrase principale (matrice) pour la compléter. Il faut la rattacher à une phrase principale ou la reformuler.",
+        "suggestions": [
+          "la nourriture que nous pouvons consommer et jeter pour plusieurs raisons est un enjeu majeur."
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "text": "prêts se battre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque la préposition « à » après l'adjectif « prêts » et avant le verbe à l'infinitif « se battre ».",
+        "suggestions": [
+          "prêts à se battre"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom relatif correct pour introduire un complément du nom « manière » est « dont » et non « que ».",
+        "suggestions": [
+          "dont"
+        ],
+        "ruleApplied": "4.1.2.3.1"
+      },
+      {
+        "text": "lutter le gaspillage",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe « lutter » est un verbe transitif indirect qui se construit avec la préposition « contre ».",
+        "suggestions": [
+          "lutter contre le gaspillage"
+        ],
+        "ruleApplied": "4.1.2.2.2"
+      },
+      {
+        "text": ".",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Un point est utilisé à tort pour séparer l'organisateur textuel du reste de la phrase. Une virgule est requise.",
+        "suggestions": [
+          ","
+        ],
+        "ruleApplied": "4.2.2.1.2"
+      },
+      {
+        "text": "ns l'étape de lationprodu laisse",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La phrase est mal construite : des mots sont erronés (« ns », « lationprodu ») et le sujet du verbe « laisse » est manquant.",
+        "suggestions": [
+          "Dans l'étape de la production, on laisse"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "la transformation",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule pour isoler le groupe de mots « la transformation », qui est en apposition à « l'étape numéro deux ».",
+        "suggestions": [
+          ", la transformation,"
+        ],
+        "ruleApplied": "4.2.2.10.1.i"
+      },
+      {
+        "text": "avec défauts",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque un déterminant (article indéfini pluriel) devant le nom « défauts ».",
+        "suggestions": [
+          "avec des défauts"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "le transport",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule pour isoler le groupe de mots « le transport », qui est en apposition à « la troisième étape ».",
+        "suggestions": [
+          ", le transport,"
+        ],
+        "ruleApplied": "4.2.2.10.1.i"
+      },
+      {
+        "text": "contaminés La",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque un point pour terminer la phrase avant d'en commencer une nouvelle.",
+        "suggestions": [
+          "contaminés. La"
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "text": "pas",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La négation est incomplète. Il manque l'adverbe « ne » (ou « n' ») avant le verbe.",
+        "suggestions": [
+          "ne sont pas"
+        ],
+        "ruleApplied": "4.1.2.1.3"
+      },
+      {
+        "text": "cuisine",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "La construction de la phrase est boiteuse. Le nom « cuisine » est utilisé à la place d'un verbe ou d'une locution verbale.",
+        "suggestions": [
+          "ne cuisinent pas toujours"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "pas il",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule après le mot-phrase « pas » pour le séparer du reste de la phrase.",
+        "suggestions": [
+          "pas, il"
+        ],
+        "ruleApplied": "4.2.2.10.1.e"
+      },
+      {
+        "text": "pas gaspiller",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule pour séparer les deux éléments juxtaposés dans le titre « J'aime manger, pas gaspiller ».",
+        "suggestions": [
+          ", pas gaspiller"
+        ],
+        "ruleApplied": "4.2.2.10.1.a"
+      },
+      {
+        "text": "pas juste",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression « pas juste » est un calque de l'anglais. Il faut utiliser « pas seulement » ou « non seulement ».",
+        "suggestions": [
+          "pas seulement",
+          "non seulement"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "raisons...",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase est une subordonnée sans phrase matrice pour la compléter. De plus, les points de suspension sont mal employés.",
+        "suggestions": [
+          "raisons."
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "text": "manière que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom relatif « que » est incorrect. Il faut utiliser « dont » ou reformuler avec « avec laquelle ».",
+        "suggestions": [
+          "manière dont"
+        ],
+        "ruleApplied": "4.1.2.3.1"
+      },
+      {
+        "text": "manières que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom relatif « que » est incorrect. Il faut utiliser « dont » ou reformuler avec « avec lesquelles ».",
+        "suggestions": [
+          "manières dont"
+        ],
+        "ruleApplied": "4.1.2.3.1"
+      },
+      {
+        "text": "Par exemple.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point crée une rupture de phrase fautive. Il devrait être remplacé par un deux-points ou une virgule pour introduire l'exemple.",
+        "suggestions": [
+          "Par exemple,"
+        ],
+        "ruleApplied": "4.2.2.1.2"
+      },
+      {
+        "text": "lationprodu laisse",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque un sujet avant le verbe « laisse ». Il faudrait ajouter un pronom comme « on ».",
+        "suggestions": [
+          "la production, on laisse"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "deux la transformation",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule pour isoler le groupe de mots « la transformation », qui est en apposition à « l'étape numéro deux ».",
+        "suggestions": [
+          "deux, la transformation"
+        ],
+        "ruleApplied": "4.2.2.10.1.i"
+      },
+      {
+        "text": "étape le transport",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule pour isoler le groupe de mots « le transport », qui est en apposition à « la troisième étape ».",
+        "suggestions": [
+          "étape, le transport"
+        ],
+        "ruleApplied": "4.2.2.10.1.i"
+      },
+      {
+        "text": "sont pas",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque l'adverbe de négation « ne » (élidé « n' ») avant le verbe.",
+        "suggestions": [
+          "ne sont pas"
+        ],
+        "ruleApplied": "4.1.2.1.3"
+      },
+      {
+        "text": "façons que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom relatif « que » est incorrect. Il faut utiliser « dont » ou reformuler avec « avec lesquelles ».",
+        "suggestions": [
+          "façons dont"
+        ],
+        "ruleApplied": "4.1.2.3.1"
+      },
+      {
+        "text": "pas il y a",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule pour séparer la proposition impérative de la proposition principale qui la suit.",
+        "suggestions": [
+          "pas, il y a"
+        ],
+        "ruleApplied": "4.2.2.10.1.c"
+      },
+      {
+        "text": "bouffe Chic",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule pour séparer les éléments d'une énumération.",
+        "suggestions": [
+          "bouffe, Chic"
+        ],
+        "ruleApplied": "4.2.2.10.1.a"
+      },
+      {
+        "text": "manger pas gaspiller",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(P)",
+        "description": "Il manque une virgule pour séparer les éléments d'une énumération. Cette erreur n'est pas comptée, car il y a déjà une erreur de ponctuation dans cette phrase.",
+        "suggestions": [
+          "manger, pas gaspiller"
+        ],
+        "ruleApplied": "4.2.2.10.1.a"
+      },
+      {
+        "text": "l'avance.»",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point final doit être placé après la référence entre parenthèses, et non à l'intérieur des guillemets, car la citation est intégrée à la phrase.",
+        "suggestions": [
+          "l'avance. »"
+        ],
+        "ruleApplied": "4.2.2.1.2"
+      },
+      {
+        "text": "En ajoutant,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le participe présent « ajoutant » n'est pas rattaché à un sujet logique dans la phrase. Il faut reformuler.",
+        "suggestions": [
+          "De plus,"
+        ],
+        "ruleApplied": "4.1.2.1.7"
+      }
+    ],
+    "erreursCritere5AvantAnalyseIA": [
+      {
+        "text": "gaspillage",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Un titre doit commencer par une majuscule.",
+        "suggestions": [
+          "Gaspillage"
+        ],
+        "ruleApplied": "5.2.4.3"
+      },
+      {
+        "text": "somme-nous",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur de conjugaison du verbe « être » à la première personne du pluriel du présent de l'indicatif.",
+        "suggestions": [
+          "sommes-nous"
+        ],
+        "ruleApplied": "5.3.2.1"
+      },
+      {
+        "text": "encores",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'adverbe « encore » est invariable et ne prend jamais de « s ».",
+        "suggestions": [
+          "encore"
+        ],
+        "ruleApplied": "5.2.1.5"
+      },
+      {
+        "text": "humains",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « humain » doit s'accorder en genre et en nombre avec le nom féminin pluriel « erreurs » qu'il qualifie.",
+        "suggestions": [
+          "humaines"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "table québécois",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « québécois » doit s'accorder en genre avec le nom féminin « table » qu'il qualifie. De plus, une majuscule est attendue pour le premier mot d'une dénomination.",
+        "suggestions": [
+          "Table québécoise"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "alimentaire",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion lexicale. Le mot attendu dans ce contexte est « alimentation ».",
+        "suggestions": [
+          "alimentation"
+        ],
+        "ruleApplied": "5.2.2"
+      },
+      {
+        "text": "jetés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après un verbe modal comme « devoir », le verbe qui suit doit être à l'infinitif (« -er ») et non au participe passé (« -é »).",
+        "suggestions": [
+          "jeter"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "mangé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après le verbe « aimer », le verbe qui suit doit être à l'infinitif (« -er ») et non au participe passé (« -é »).",
+        "suggestions": [
+          "manger"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "pourez",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur de conjugaison (barbarisme) du verbe « pouvoir » au futur simple, à la deuxième personne du pluriel.",
+        "suggestions": [
+          "pourrez"
+        ],
+        "ruleApplied": "5.3.2.1"
+      },
+      {
+        "text": "recette",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le complément du nom « livres » doit être au pluriel, car il s'agit de plusieurs recettes.",
+        "suggestions": [
+          "recettes"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "text": "inquiétore",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur de conjugaison (barbarisme) du verbe « inquiéter » à l'impératif présent, à la première personne du pluriel.",
+        "suggestions": [
+          "inquiétons"
+        ],
+        "ruleApplied": "5.3.2.1"
+      },
+      {
+        "text": "somme-nous",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le trait d'union est obligatoire dans l'inversion du pronom sujet.",
+        "suggestions": [
+          "sommes-nous"
+        ],
+        "ruleApplied": "5.2.1.10"
+      },
+      {
+        "text": "ns",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Ce mot est mal orthographié. Il s'agit d'une faute de frappe pour « dans ».",
+        "suggestions": [
+          "dans"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "lationprodu",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Ce mot est mal orthographié. Il s'agit d'une faute de frappe pour « la production ».",
+        "suggestions": [
+          "la production"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "connaissance",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « connaissance » doit être au pluriel dans ce contexte, car il est complément du nom « manque ».",
+        "suggestions": [
+          "connaissances"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "text": "table",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le premier mot d'une dénomination d'organisme prend une majuscule.",
+        "suggestions": [
+          "Table"
+        ],
+        "ruleApplied": "5.2.4.1.2"
+      },
+      {
+        "text": "québécois",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « québécois » doit s'accorder en genre avec le nom « table » (féminin).",
+        "suggestions": [
+          "québécoise"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "bas prix",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « bas » doit s'accorder en nombre avec le nom « prix » (pluriel).",
+        "suggestions": [
+          "bas prix"
+        ],
+        "ruleApplied": "5.3.1.1"
+      }
+    ],
+    "analyseIADuplicatas": {
+      "critere4": {
+        "analyse": {
+          "totalErreursCritere4": 29,
+          "totalErreursCritere5": 0,
+          "duplicatasCritere4": 11,
+          "duplicatasCritere5": 0
+        },
+        "duplicatasCritere4": [
+          {
+            "groupe": 1,
+            "confiance": 95,
+            "raison": "Même erreur de phrase subordonnée sans principale (règle 4.1.2.1.4), texte englobant.",
+            "erreurs": [
+              {
+                "index": 0,
+                "text": "la nourriture que nous pouvons consommer et jeter pour plusieurs raisons...",
+                "garder": true
+              },
+              {
+                "index": 15,
+                "text": "raisons...",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 2,
+            "confiance": 98,
+            "raison": "Même erreur de pronom relatif ('que' au lieu de 'dont', règle 4.1.2.3.1) identifiée sur des contextes similaires.",
+            "erreurs": [
+              {
+                "index": 16,
+                "text": "manière que",
+                "garder": true
+              },
+              {
+                "index": 2,
+                "text": "que",
+                "garder": false
+              },
+              {
+                "index": 17,
+                "text": "manières que",
+                "garder": false
+              },
+              {
+                "index": 23,
+                "text": "façons que",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 3,
+            "confiance": 90,
+            "raison": "Même erreur de ponctuation après un organisateur textuel (règle 4.2.2.1.2), texte plus spécifique.",
+            "erreurs": [
+              {
+                "index": 18,
+                "text": "Par exemple.",
+                "garder": true
+              },
+              {
+                "index": 4,
+                "text": ".",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 4,
+            "confiance": 95,
+            "raison": "Même erreur de construction de phrase (règle 4.1.2.1.1) sur le même segment, texte englobant.",
+            "erreurs": [
+              {
+                "index": 5,
+                "text": "ns l'étape de lationprodu laisse",
+                "garder": true
+              },
+              {
+                "index": 19,
+                "text": "lationprodu laisse",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 5,
+            "confiance": 100,
+            "raison": "Même erreur de virgule d'apposition (règle 4.2.2.10.1.i), texte plus contextuel.",
+            "erreurs": [
+              {
+                "index": 20,
+                "text": "deux la transformation",
+                "garder": true
+              },
+              {
+                "index": 6,
+                "text": "la transformation",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 6,
+            "confiance": 100,
+            "raison": "Même erreur de virgule d'apposition (règle 4.2.2.10.1.i), texte plus contextuel.",
+            "erreurs": [
+              {
+                "index": 21,
+                "text": "étape le transport",
+                "garder": true
+              },
+              {
+                "index": 8,
+                "text": "le transport",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 7,
+            "confiance": 95,
+            "raison": "Même erreur de négation incomplète (règle 4.1.2.1.3), texte plus contextuel.",
+            "erreurs": [
+              {
+                "index": 22,
+                "text": "sont pas",
+                "garder": true
+              },
+              {
+                "index": 10,
+                "text": "pas",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 8,
+            "confiance": 100,
+            "raison": "Même erreur de virgule de juxtaposition (règle 4.2.2.10.1.a), texte englobant.",
+            "erreurs": [
+              {
+                "index": 26,
+                "text": "manger pas gaspiller",
+                "garder": true
+              },
+              {
+                "index": 13,
+                "text": "pas gaspiller",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 9,
+            "confiance": 85,
+            "raison": "Même erreur sémantique (virgule manquante après 'pas'), texte plus contextuel.",
+            "erreurs": [
+              {
+                "index": 24,
+                "text": "pas il y a",
+                "garder": true
+              },
+              {
+                "index": 12,
+                "text": "pas il",
+                "garder": false
+              }
+            ]
+          }
+        ],
+        "duplicatasCritere5": [],
+        "erreursUniquesCritere4": [
+          {
+            "index": 1,
+            "text": "prêts se battre",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 3,
+            "text": "lutter le gaspillage",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 7,
+            "text": "avec défauts",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 9,
+            "text": "contaminés La",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 11,
+            "text": "cuisine",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 14,
+            "text": "pas juste",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 25,
+            "text": "bouffe Chic",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 27,
+            "text": "l'avance.»",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 28,
+            "text": "En ajoutant,",
+            "raison": "Aucun duplicata trouvé"
+          }
+        ],
+        "erreursUniquesCritere5": [],
+        "recommandations": {
+          "erreursAConserverCritere4": [
+            0,
+            1,
+            3,
+            5,
+            7,
+            9,
+            11,
+            14,
+            16,
+            18,
+            20,
+            21,
+            22,
+            24,
+            25,
+            26,
+            27,
+            28
+          ],
+          "erreursAConserverCritere5": [],
+          "erreursASupprimer": {
+            "critere4": [
+              15,
+              2,
+              17,
+              23,
+              4,
+              19,
+              6,
+              8,
+              10,
+              13,
+              12
+            ],
+            "critere5": []
+          }
+        }
+      },
+      "critere5": {
+        "analyse": {
+          "totalErreursCritere4": 0,
+          "totalErreursCritere5": 18,
+          "duplicatasCritere4": 0,
+          "duplicatasCritere5": 3
+        },
+        "duplicatasCritere4": [],
+        "duplicatasCritere5": [
+          {
+            "groupe": 1,
+            "confiance": 100,
+            "raison": "Texte et index d'occurrence identiques, signalant la même erreur.",
+            "erreurs": [
+              {
+                "index": 1,
+                "text": "somme-nous",
+                "garder": true
+              },
+              {
+                "index": 11,
+                "text": "somme-nous",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 2,
+            "confiance": 95,
+            "raison": "Erreurs partielles (index 15, 16) d'une erreur plus complète (index 4) au même emplacement.",
+            "erreurs": [
+              {
+                "index": 4,
+                "text": "table québécois",
+                "garder": true
+              },
+              {
+                "index": 15,
+                "text": "table",
+                "garder": false
+              },
+              {
+                "index": 16,
+                "text": "québécois",
+                "garder": false
+              }
+            ]
+          }
+        ],
+        "erreursUniquesCritere4": [],
+        "erreursUniquesCritere5": [
+          {
+            "index": 0,
+            "text": "gaspillage",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 2,
+            "text": "encores",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 3,
+            "text": "humains",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 5,
+            "text": "alimentaire",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 6,
+            "text": "jetés",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 7,
+            "text": "mangé",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 8,
+            "text": "pourez",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 9,
+            "text": "recette",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 10,
+            "text": "inquiétore",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 12,
+            "text": "ns",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 13,
+            "text": "lationprodu",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 14,
+            "text": "connaissance",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 17,
+            "text": "bas prix",
+            "raison": "Aucun duplicata trouvé"
+          }
+        ],
+        "recommandations": {
+          "erreursAConserverCritere4": [],
+          "erreursAConserverCritere5": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            12,
+            13,
+            14,
+            17
+          ],
+          "erreursASupprimer": {
+            "critere4": [],
+            "critere5": [
+              11,
+              15,
+              16
+            ]
+          }
+        }
+      }
+    }
+  }
+}

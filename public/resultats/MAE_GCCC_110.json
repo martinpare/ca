@@ -1,0 +1,2615 @@
+{
+  "processedAt": "2025-12-10T14:58:48.757Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_110.txt",
+    "originalText": "Gaspillage en question\r\n\r\nChers lecteurs et lectrices,\r\n\r\nLa consommation de nourriture augmente durant ces derniers années à cause de la COVID-19 les restaurants ou chez nous, on gaspille notre nourriture très facilement après les dates d'expirations ou quand la nourriture devient pourris. À cause de cela, pensez-vous que nous pouvons combattre contre le gaspillage alimentaire ? À mon avis, nous avons plusieurs méthodes qui nous permet de lutter contre le gaspillage. Aux lieux de jeter notre nourriture, les banques alimentaires et des restaurants nous aident à ne pas gaspiller, des méthods à la maison vous prouves que nous pouvons éviter le gaspillage.\r\n\r\nPremièrement, chers lecteurs, nous pouvons lutter contre le gaspillage alimentaire avec plusieurs méthodes. Les banques alimentaires et les restaurants montrent divers façons que nous sommes prêts pour combattre. La nourriture gaspiller pourra aider les personnes en besoin, c'est pour ça, les banques alimentaires sont utilisés. Ils receuillent des produits de dons et vont les distribuer aux personnes en difficultés. Dans une infographie appelé « le gaspillage alimentaire » publié par le Ministe de l'Éducation en 2022 , il mentionne que les banques alimentaires ont récupéré plusieurs produits invendus dans 425 épiceries et en fait des paniers alimentaires. Elle représente 6,7 millions de kilos de marchandises et les rédistribues. De plus, les restaurants montrent une autre possibilité contre le gaspillage. Plusieurs restaurants ne laissent pas amener le reste de notre plats à la maison mais comme Table québécoise sur la saine alimentation en 2019 nous dit, un restaurant au Québec offre les clients à rapporter les restes de repas à la maison. Bref, nous permettons à plusieurs de ne pas gaspiller l'alimentation avec l'aide des banques alimentaires et les privilèges de certaines restaurants.\r\n\r\nDeuxièmement, il y a encore plusieurs façons d'éviter le gaspillage alimentaire et de montrer notre préparation pour lutter contre le gaspillage. Cela nous amene à donner notre autre solution, le gaspillage pourrait être partout au monde, mais fréquentement à la maison. Par exemple, nous jetons notre nourriture plusieurs fois quand on ne veut plus de notre repas ce qui cause le gaspillage alimentaire. En effet, dans une infographie publié par le Ministre de l'Éducation en 2022 mentionne que dans un site Web, nous pouvons redonner vie à des légumes défraîchis et faire des croustilles avec la peau des poissons. Ce la nous montre que notre nourriture gaspillé peut être utilisé pour la transformation en autres produits. Une autre preuve de RECYC- QUÉBEC en 2021 dit qu'il y a plusieurs façons de limiter le gaspillage. On est conseillé de faire une liste d'épicerie pour planifier les repas, achetés une quantité raisonnables, faire cuire les fruits et légumes trop mûrs et de congeler les restes en portions individuelles. Bref, les méthodes à la maison montrent comment se débrouiller avec plusieurs produits par ailleurs transformer ou organiser nos consommations de nourritures.\r\n\r\nPour conclure, je vous montre plusieurs méthodes de comment éviter le gaspillage alimentaire. Les banques alimentaires, les restaurants et les façons de débrouiller à la maison nous donnent des raisons que nous sommes prêts. Nous oublions pas que ses méthodes donnent des très bonnes exemples de notre préparation.",
+    "erreursCritere4": [
+      {
+        "text": "COVID-19 les",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule pour séparer le complément de phrase « à cause de la COVID-19 » placé en tête de phrase.",
+        "suggestions": [
+          "COVID-19, les"
+        ],
+        "ruleApplied": "4.2.2.10.1.b"
+      },
+      {
+        "text": "les restaurants ou chez nous",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence d'un mot essentiel, la préposition « dans », pour introduire les compléments de lieu.",
+        "suggestions": [
+          "dans les restaurants ou chez nous"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "ça,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction de phrase boiteuse. La virgule ne peut pas lier les deux propositions. Il faut utiliser un subordonnant comme « que ».",
+        "suggestions": [
+          "ça que"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "il mentionne",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom « il » est superflu et crée une rupture de construction (anacoluthe). Le sujet est « une infographie ».",
+        "suggestions": [
+          "on mentionne",
+          "il est mentionné"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "mais comme",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule pour isoler l'incise « comme Table québécoise sur la saine alimentation en 2019 nous dit ».",
+        "suggestions": [
+          "mais, comme"
+        ],
+        "ruleApplied": "4.2.2.10.1.f"
+      },
+      {
+        "text": "offre les clients à rapporter",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction du verbe « offrir » est incorrecte. La structure est « offrir à quelqu'un de faire quelque chose ».",
+        "suggestions": [
+          "offre aux clients de rapporter"
+        ],
+        "ruleApplied": "4.1.2.2.2"
+      },
+      {
+        "text": "mentionne que dans un site Web,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction de phrase boiteuse. L'insertion du complément « dans un site Web » rend la phrase peu claire.",
+        "suggestions": [
+          "mentionne que, selon un site Web,"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "montre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le temps de verbe est inapproprié. Dans une conclusion, il est préférable d'utiliser le passé composé pour faire référence à ce qui a été présenté dans le texte.",
+        "suggestions": [
+          "ai montré"
+        ],
+        "ruleApplied": "4.1.2.2.4"
+      },
+      {
+        "text": "de débrouiller",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence du pronom réfléchi « se » pour le verbe pronominal « se débrouiller ».",
+        "suggestions": [
+          "de se débrouiller"
+        ],
+        "ruleApplied": "4.1.2.2.2"
+      },
+      {
+        "text": "oublions pas",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La négation est mal employée. L'adverbe « ne » (élidé « n' ») est manquant.",
+        "suggestions": [
+          "n'oublions pas"
+        ],
+        "ruleApplied": "4.1.2.1.3"
+      },
+      {
+        "text": "2022",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule après le long complément de phrase \"dans une infographie publié par le Ministre de l'Éducation en 2022\" placé en tête de proposition.",
+        "suggestions": [
+          "2022,"
+        ],
+        "ruleApplied": "4.2.2.10.1.l"
+      },
+      {
+        "text": "par ailleurs transformer",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression \"par ailleurs\" est utilisée de manière incorrecte et crée un problème de sens. Il faudrait reformuler pour clarifier l'idée.",
+        "suggestions": [
+          "pour ensuite les transformer",
+          "en les transformant"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 10.5,
+      "note": "C"
+    },
+    "erreursCritere5": [
+      {
+        "text": "derniers",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « derniers » doit s'accorder en genre et en nombre avec le nom féminin pluriel « années » qu'il qualifie.",
+        "suggestions": [
+          "dernières"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "expirations",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le complément du nom « dates » doit être au singulier. On parle de la date d'expiration de chaque produit.",
+        "suggestions": [
+          "expiration"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "text": "pourris",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'attribut du sujet « pourris » doit s'accorder en genre et en nombre avec le sujet féminin singulier « la nourriture ».",
+        "suggestions": [
+          "pourrie"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "permet",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe « permet » doit s'accorder à la troisième personne du pluriel avec son sujet « qui », pronom relatif qui reprend « plusieurs méthodes ».",
+        "suggestions": [
+          "permettent"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "Aux lieux",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion lexicale. La locution correcte est « Au lieu de ».",
+        "suggestions": [
+          "Au lieu"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "text": "méthods",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Graphie erronée du mot « méthodes ».",
+        "suggestions": [
+          "méthodes"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "prouves",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe « prouves » doit s'accorder à la troisième personne du pluriel avec son sujet « des méthods » (méthodes).",
+        "suggestions": [
+          "prouvent"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "divers",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « divers » doit s'accorder en genre et en nombre avec le nom féminin pluriel « façons ».",
+        "suggestions": [
+          "diverses"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "gaspiller",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif en « -er » et le participe passé en « -é ». Le participe passé « gaspillée » est requis ici et doit s'accorder avec le nom féminin singulier « nourriture ».",
+        "suggestions": [
+          "gaspillée"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "utilisés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « utilisés » doit s'accorder en genre et en nombre avec le sujet féminin pluriel « les banques alimentaires ».",
+        "suggestions": [
+          "utilisées"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "Ils",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom personnel « Ils » doit s'accorder en genre avec son antécédent féminin pluriel « les banques alimentaires ».",
+        "suggestions": [
+          "Elles"
+        ],
+        "ruleApplied": "5.3.1.4"
+      },
+      {
+        "text": "receuillent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Graphie erronée du verbe « recueillir ».",
+        "suggestions": [
+          "recueillent"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "appelé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « appelé » doit s'accorder en genre et en nombre avec le nom féminin singulier « infographie » qu'il qualifie.",
+        "suggestions": [
+          "appelée"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "publié",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "Le participe passé « publié » doit s'accorder en genre et en nombre avec le nom féminin singulier « infographie » qu'il qualifie. Le donneur d'accord est le même que pour l'erreur précédente.",
+        "suggestions": [
+          "publiée"
+        ],
+        "ruleApplied": "5.4.2.1"
+      },
+      {
+        "text": "Ministe",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Graphie erronée du mot « Ministère ».",
+        "suggestions": [
+          "Ministère"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "fait",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe « fait » doit s'accorder à la troisième personne du pluriel avec son sujet sous-entendu « les banques alimentaires ».",
+        "suggestions": [
+          "font"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "Elle",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom « Elle » n'a pas de référent clair ou est mal accordé. Il devrait reprendre l'idée précédente avec un pronom neutre comme « Cela ».",
+        "suggestions": [
+          "Cela"
+        ],
+        "ruleApplied": "5.3.1.4"
+      },
+      {
+        "text": "rédistribues",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe « rédistribues » doit s'accorder à la troisième personne du singulier avec son sujet « Elle ».",
+        "suggestions": [
+          "redistribue"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "notre plats",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant possessif « notre » doit s'accorder en nombre avec le nom pluriel « plats ».",
+        "suggestions": [
+          "nos plats"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "certaines",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant « certaines » doit s'accorder en genre avec le nom masculin pluriel « restaurants ».",
+        "suggestions": [
+          "certains"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "amene",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Absence de l'accent grave sur le « e » du verbe « amène ».",
+        "suggestions": [
+          "amène"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "text": "fréquentement",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Graphie erronée de l'adverbe « fréquemment ».",
+        "suggestions": [
+          "fréquemment"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "Ce la",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le pronom démonstratif « Cela » est écrit en deux mots.",
+        "suggestions": [
+          "Cela"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "text": "utilisé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "Le participe passé « utilisé » doit s'accorder en genre avec le sujet « notre nourriture ». Le donneur d'accord est le même que pour l'erreur précédente.",
+        "suggestions": [
+          "utilisée"
+        ],
+        "ruleApplied": "5.4.2.1"
+      },
+      {
+        "text": "RECYC- QUÉBEC",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Orthographe erronée d'une dénomination. Il ne doit pas y avoir d'espace avant le second élément.",
+        "suggestions": [
+          "RECYC-QUÉBEC"
+        ],
+        "ruleApplied": "5.1.2"
+      },
+      {
+        "text": "achetés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le participe passé en « -é » et l'infinitif en « -er ». Dans cette énumération d'actions à faire, l'infinitif « acheter » est requis.",
+        "suggestions": [
+          "acheter"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "raisonnables",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « raisonnables » doit s'accorder en genre et en nombre avec le nom féminin singulier « quantité ».",
+        "suggestions": [
+          "raisonnable"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "consommations de nourritures",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur de nombre. Les noms « consommation » et « nourriture » sont généralement employés au singulier dans ce contexte.",
+        "suggestions": [
+          "consommation de nourriture"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "text": "ses",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'homophone grammatical « ses » (déterminant possessif) et « ces » (déterminant démonstratif).",
+        "suggestions": [
+          "ces"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "text": "des",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'article indéfini pluriel « des » devient la préposition « de » lorsqu'il est placé devant un adjectif qui précède le nom.",
+        "suggestions": [
+          "de"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "bonnes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « bonnes » doit s'accorder en genre avec le nom masculin pluriel « exemples ».",
+        "suggestions": [
+          "bons"
+        ],
+        "ruleApplied": "5.3.1.1"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 29,
+      "note": "E"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:53:02.598Z",
+    "endTimestamp": "2025-12-10T14:58:48.757Z",
+    "durationMs": 346159,
+    "durationFormatted": "05:46:159",
+    "cumulParPasse": [
+      {
+        "passe": 1,
+        "erreursCritere4": [
+          {
+            "text": "COVID-19 les",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Il manque une virgule pour séparer le complément de phrase « à cause de la COVID-19 » placé en tête de phrase.",
+            "suggestions": [
+              "COVID-19, les"
+            ],
+            "ruleApplied": "4.2.2.10.1.b"
+          },
+          {
+            "text": "les restaurants ou chez nous",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Absence d'un mot essentiel, la préposition « dans », pour introduire les compléments de lieu.",
+            "suggestions": [
+              "dans les restaurants ou chez nous"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "ça,",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Construction de phrase boiteuse. La virgule ne peut pas lier les deux propositions. Il faut utiliser un subordonnant comme « que ».",
+            "suggestions": [
+              "ça que"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "il mentionne",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le pronom « il » est superflu et crée une rupture de construction (anacoluthe). Le sujet est « une infographie ».",
+            "suggestions": [
+              "on mentionne",
+              "il est mentionné"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "mais comme",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Il manque une virgule pour isoler l'incise « comme Table québécoise sur la saine alimentation en 2019 nous dit ».",
+            "suggestions": [
+              "mais, comme"
+            ],
+            "ruleApplied": "4.2.2.10.1.f"
+          },
+          {
+            "text": "offre les clients à rapporter",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction du verbe « offrir » est incorrecte. La structure est « offrir à quelqu'un de faire quelque chose ».",
+            "suggestions": [
+              "offre aux clients de rapporter"
+            ],
+            "ruleApplied": "4.1.2.2.2"
+          },
+          {
+            "text": "mentionne que dans un site Web,",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Construction de phrase boiteuse. L'insertion du complément « dans un site Web » rend la phrase peu claire.",
+            "suggestions": [
+              "mentionne que, selon un site Web,"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "par ailleurs",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'adverbe « par ailleurs » (de plus) est utilisé incorrectement et crée un problème de sens. Il faut une expression qui introduit une manière.",
+            "suggestions": [
+              "en les transformant"
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          },
+          {
+            "text": "montre",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le temps de verbe est inapproprié. Dans une conclusion, il est préférable d'utiliser le passé composé pour faire référence à ce qui a été présenté dans le texte.",
+            "suggestions": [
+              "ai montré"
+            ],
+            "ruleApplied": "4.1.2.2.4"
+          },
+          {
+            "text": "de débrouiller",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Absence du pronom réfléchi « se » pour le verbe pronominal « se débrouiller ».",
+            "suggestions": [
+              "de se débrouiller"
+            ],
+            "ruleApplied": "4.1.2.2.2"
+          },
+          {
+            "text": "oublions pas",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La négation est mal employée. L'adverbe « ne » (élidé « n' ») est manquant.",
+            "suggestions": [
+              "n'oublions pas"
+            ],
+            "ruleApplied": "4.1.2.1.3"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "derniers",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif « derniers » doit s'accorder en genre et en nombre avec le nom féminin pluriel « années » qu'il qualifie.",
+            "suggestions": [
+              "dernières"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "expirations",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le complément du nom « dates » doit être au singulier. On parle de la date d'expiration de chaque produit.",
+            "suggestions": [
+              "expiration"
+            ],
+            "ruleApplied": "5.3.1.5"
+          },
+          {
+            "text": "pourris",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'attribut du sujet « pourris » doit s'accorder en genre et en nombre avec le sujet féminin singulier « la nourriture ».",
+            "suggestions": [
+              "pourrie"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "permet",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe « permet » doit s'accorder à la troisième personne du pluriel avec son sujet « qui », pronom relatif qui reprend « plusieurs méthodes ».",
+            "suggestions": [
+              "permettent"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "Aux lieux",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Confusion lexicale. La locution correcte est « Au lieu de ».",
+            "suggestions": [
+              "Au lieu"
+            ],
+            "ruleApplied": "5.2.6.4"
+          },
+          {
+            "text": "méthods",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Graphie erronée du mot « méthodes ».",
+            "suggestions": [
+              "méthodes"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "prouves",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe « prouves » doit s'accorder à la troisième personne du pluriel avec son sujet « des méthods » (méthodes).",
+            "suggestions": [
+              "prouvent"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "divers",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif « divers » doit s'accorder en genre et en nombre avec le nom féminin pluriel « façons ».",
+            "suggestions": [
+              "diverses"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "gaspiller",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre l'infinitif en « -er » et le participe passé en « -é ». Le participe passé « gaspillée » est requis ici et doit s'accorder avec le nom féminin singulier « nourriture ».",
+            "suggestions": [
+              "gaspillée"
+            ],
+            "ruleApplied": "5.3.2.6"
+          },
+          {
+            "text": "utilisés",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé « utilisés » doit s'accorder en genre et en nombre avec le sujet féminin pluriel « les banques alimentaires ».",
+            "suggestions": [
+              "utilisées"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "Ils",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le pronom personnel « Ils » doit s'accorder en genre avec son antécédent féminin pluriel « les banques alimentaires ».",
+            "suggestions": [
+              "Elles"
+            ],
+            "ruleApplied": "5.3.1.4"
+          },
+          {
+            "text": "receuillent",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Graphie erronée du verbe « recueillir ».",
+            "suggestions": [
+              "recueillent"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "appelé",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé « appelé » doit s'accorder en genre et en nombre avec le nom féminin singulier « infographie » qu'il qualifie.",
+            "suggestions": [
+              "appelée"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "publié",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "_",
+            "description": "Le participe passé « publié » doit s'accorder en genre et en nombre avec le nom féminin singulier « infographie » qu'il qualifie. Le donneur d'accord est le même que pour l'erreur précédente.",
+            "suggestions": [
+              "publiée"
+            ],
+            "ruleApplied": "5.4.2.1"
+          },
+          {
+            "text": "Ministe",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Graphie erronée du mot « Ministère ».",
+            "suggestions": [
+              "Ministère"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "fait",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe « fait » doit s'accorder à la troisième personne du pluriel avec son sujet sous-entendu « les banques alimentaires ».",
+            "suggestions": [
+              "font"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "Elle",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le pronom « Elle » n'a pas de référent clair ou est mal accordé. Il devrait reprendre l'idée précédente avec un pronom neutre comme « Cela ».",
+            "suggestions": [
+              "Cela"
+            ],
+            "ruleApplied": "5.3.1.4"
+          },
+          {
+            "text": "rédistribues",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe « rédistribues » doit s'accorder à la troisième personne du singulier avec son sujet « Elle ».",
+            "suggestions": [
+              "redistribue"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "notre plats",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le déterminant possessif « notre » doit s'accorder en nombre avec le nom pluriel « plats ».",
+            "suggestions": [
+              "nos plats"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "certaines",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le déterminant « certaines » doit s'accorder en genre avec le nom masculin pluriel « restaurants ».",
+            "suggestions": [
+              "certains"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "amene",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Absence de l'accent grave sur le « e » du verbe « amène ».",
+            "suggestions": [
+              "amène"
+            ],
+            "ruleApplied": "5.2.1.1"
+          },
+          {
+            "text": "fréquentement",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Graphie erronée de l'adverbe « fréquemment ».",
+            "suggestions": [
+              "fréquemment"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "publié",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé « publié » doit s'accorder en genre et en nombre avec le nom féminin singulier « infographie » qu'il qualifie.",
+            "suggestions": [
+              "publiée"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "Ministre",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "(U)",
+            "description": "Graphie erronée du mot « Ministère ». Cette erreur d'usage a déjà été signalée dans le texte.",
+            "suggestions": [
+              "Ministère"
+            ],
+            "ruleApplied": "5.1.3"
+          },
+          {
+            "text": "Ce la",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Le pronom démonstratif « Cela » est écrit en deux mots.",
+            "suggestions": [
+              "Cela"
+            ],
+            "ruleApplied": "5.2.6.4"
+          },
+          {
+            "text": "gaspillé",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé « gaspillé » doit s'accorder en genre avec le nom féminin singulier « nourriture ».",
+            "suggestions": [
+              "gaspillée"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "utilisé",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "_",
+            "description": "Le participe passé « utilisé » doit s'accorder en genre avec le sujet « notre nourriture ». Le donneur d'accord est le même que pour l'erreur précédente.",
+            "suggestions": [
+              "utilisée"
+            ],
+            "ruleApplied": "5.4.2.1"
+          },
+          {
+            "text": "RECYC- QUÉBEC",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Orthographe erronée d'une dénomination. Il ne doit pas y avoir d'espace avant le second élément.",
+            "suggestions": [
+              "RECYC-QUÉBEC"
+            ],
+            "ruleApplied": "5.1.2"
+          },
+          {
+            "text": "achetés",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre le participe passé en « -é » et l'infinitif en « -er ». Dans cette énumération d'actions à faire, l'infinitif « acheter » est requis.",
+            "suggestions": [
+              "acheter"
+            ],
+            "ruleApplied": "5.3.2.6"
+          },
+          {
+            "text": "raisonnables",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif « raisonnables » doit s'accorder en genre et en nombre avec le nom féminin singulier « quantité ».",
+            "suggestions": [
+              "raisonnable"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "consommations de nourritures",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur de nombre. Les noms « consommation » et « nourriture » sont généralement employés au singulier dans ce contexte.",
+            "suggestions": [
+              "consommation de nourriture"
+            ],
+            "ruleApplied": "5.3.1.5"
+          },
+          {
+            "text": "ses",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre l'homophone grammatical « ses » (déterminant possessif) et « ces » (déterminant démonstratif).",
+            "suggestions": [
+              "ces"
+            ],
+            "ruleApplied": "5.3.3.1"
+          },
+          {
+            "text": "des",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'article indéfini pluriel « des » devient la préposition « de » lorsqu'il est placé devant un adjectif qui précède le nom.",
+            "suggestions": [
+              "de"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "bonnes",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif « bonnes » doit s'accorder en genre avec le nom masculin pluriel « exemples ».",
+            "suggestions": [
+              "bons"
+            ],
+            "ruleApplied": "5.3.1.1"
+          }
+        ],
+        "totalErreursCritere4": 11,
+        "totalErreursCritere5": 34,
+        "scoreCritere4": {
+          "pointsPerdus": 10,
+          "note": "C"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 31,
+          "note": "E"
+        }
+      },
+      {
+        "passe": 2,
+        "erreursCritere4": [
+          {
+            "text": "COVID-19 les",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Il manque une virgule pour séparer le complément de phrase « à cause de la COVID-19 » placé en tête de phrase.",
+            "suggestions": [
+              "COVID-19, les"
+            ],
+            "ruleApplied": "4.2.2.10.1.b"
+          },
+          {
+            "text": "les restaurants ou chez nous",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Absence d'un mot essentiel, la préposition « dans », pour introduire les compléments de lieu.",
+            "suggestions": [
+              "dans les restaurants ou chez nous"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "ça,",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Construction de phrase boiteuse. La virgule ne peut pas lier les deux propositions. Il faut utiliser un subordonnant comme « que ».",
+            "suggestions": [
+              "ça que"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "il mentionne",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le pronom « il » est superflu et crée une rupture de construction (anacoluthe). Le sujet est « une infographie ».",
+            "suggestions": [
+              "on mentionne",
+              "il est mentionné"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "mais comme",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Il manque une virgule pour isoler l'incise « comme Table québécoise sur la saine alimentation en 2019 nous dit ».",
+            "suggestions": [
+              "mais, comme"
+            ],
+            "ruleApplied": "4.2.2.10.1.f"
+          },
+          {
+            "text": "offre les clients à rapporter",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction du verbe « offrir » est incorrecte. La structure est « offrir à quelqu'un de faire quelque chose ».",
+            "suggestions": [
+              "offre aux clients de rapporter"
+            ],
+            "ruleApplied": "4.1.2.2.2"
+          },
+          {
+            "text": "mentionne que dans un site Web,",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Construction de phrase boiteuse. L'insertion du complément « dans un site Web » rend la phrase peu claire.",
+            "suggestions": [
+              "mentionne que, selon un site Web,"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "par ailleurs",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'adverbe « par ailleurs » (de plus) est utilisé incorrectement et crée un problème de sens. Il faut une expression qui introduit une manière.",
+            "suggestions": [
+              "en les transformant"
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          },
+          {
+            "text": "montre",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le temps de verbe est inapproprié. Dans une conclusion, il est préférable d'utiliser le passé composé pour faire référence à ce qui a été présenté dans le texte.",
+            "suggestions": [
+              "ai montré"
+            ],
+            "ruleApplied": "4.1.2.2.4"
+          },
+          {
+            "text": "de débrouiller",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Absence du pronom réfléchi « se » pour le verbe pronominal « se débrouiller ».",
+            "suggestions": [
+              "de se débrouiller"
+            ],
+            "ruleApplied": "4.1.2.2.2"
+          },
+          {
+            "text": "oublions pas",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La négation est mal employée. L'adverbe « ne » (élidé « n' ») est manquant.",
+            "suggestions": [
+              "n'oublions pas"
+            ],
+            "ruleApplied": "4.1.2.1.3"
+          },
+          {
+            "text": "COVID-19",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Il manque une virgule après le complément de phrase \"à cause de la COVID-19\" qui est placé en tête de proposition.",
+            "suggestions": [
+              "COVID-19,"
+            ],
+            "ruleApplied": "4.2.2.10.1.l"
+          },
+          {
+            "text": "ça,",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "La virgule crée une rupture syntaxique. La locution \"c'est pour ça\" doit être suivie de \"que\" pour introduire la proposition subordonnée.",
+            "suggestions": [
+              "ça que"
+            ],
+            "ruleApplied": "4.2.2.1.2"
+          },
+          {
+            "text": "2022",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Il manque une virgule après le long complément de phrase \"dans une infographie publié par le Ministre de l'Éducation en 2022\" placé en tête de proposition.",
+            "suggestions": [
+              "2022,"
+            ],
+            "ruleApplied": "4.2.2.10.1.l"
+          },
+          {
+            "text": "Web,",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "La virgule est mal placée. Elle sépare le complément de lieu \"dans un site Web\" de la proposition à laquelle il se rattache.",
+            "suggestions": [
+              "Web"
+            ],
+            "ruleApplied": "4.2.2.10.2.h"
+          },
+          {
+            "text": "par ailleurs transformer",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'expression \"par ailleurs\" est utilisée de manière incorrecte et crée un problème de sens. Il faudrait reformuler pour clarifier l'idée.",
+            "suggestions": [
+              "pour ensuite les transformer",
+              "en les transformant"
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          },
+          {
+            "text": "débrouiller",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le verbe \"débrouiller\" est ici pronominal. Le pronom réfléchi \"se\" est manquant.",
+            "suggestions": [
+              "se débrouiller"
+            ],
+            "ruleApplied": "4.1.2.2.2"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "derniers",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif « derniers » doit s'accorder en genre et en nombre avec le nom féminin pluriel « années » qu'il qualifie.",
+            "suggestions": [
+              "dernières"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "expirations",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le complément du nom « dates » doit être au singulier. On parle de la date d'expiration de chaque produit.",
+            "suggestions": [
+              "expiration"
+            ],
+            "ruleApplied": "5.3.1.5"
+          },
+          {
+            "text": "pourris",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'attribut du sujet « pourris » doit s'accorder en genre et en nombre avec le sujet féminin singulier « la nourriture ».",
+            "suggestions": [
+              "pourrie"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "permet",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe « permet » doit s'accorder à la troisième personne du pluriel avec son sujet « qui », pronom relatif qui reprend « plusieurs méthodes ».",
+            "suggestions": [
+              "permettent"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "Aux lieux",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Confusion lexicale. La locution correcte est « Au lieu de ».",
+            "suggestions": [
+              "Au lieu"
+            ],
+            "ruleApplied": "5.2.6.4"
+          },
+          {
+            "text": "méthods",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Graphie erronée du mot « méthodes ».",
+            "suggestions": [
+              "méthodes"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "prouves",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe « prouves » doit s'accorder à la troisième personne du pluriel avec son sujet « des méthods » (méthodes).",
+            "suggestions": [
+              "prouvent"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "divers",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif « divers » doit s'accorder en genre et en nombre avec le nom féminin pluriel « façons ».",
+            "suggestions": [
+              "diverses"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "gaspiller",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre l'infinitif en « -er » et le participe passé en « -é ». Le participe passé « gaspillée » est requis ici et doit s'accorder avec le nom féminin singulier « nourriture ».",
+            "suggestions": [
+              "gaspillée"
+            ],
+            "ruleApplied": "5.3.2.6"
+          },
+          {
+            "text": "utilisés",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé « utilisés » doit s'accorder en genre et en nombre avec le sujet féminin pluriel « les banques alimentaires ».",
+            "suggestions": [
+              "utilisées"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "Ils",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le pronom personnel « Ils » doit s'accorder en genre avec son antécédent féminin pluriel « les banques alimentaires ».",
+            "suggestions": [
+              "Elles"
+            ],
+            "ruleApplied": "5.3.1.4"
+          },
+          {
+            "text": "receuillent",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Graphie erronée du verbe « recueillir ».",
+            "suggestions": [
+              "recueillent"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "appelé",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé « appelé » doit s'accorder en genre et en nombre avec le nom féminin singulier « infographie » qu'il qualifie.",
+            "suggestions": [
+              "appelée"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "publié",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "_",
+            "description": "Le participe passé « publié » doit s'accorder en genre et en nombre avec le nom féminin singulier « infographie » qu'il qualifie. Le donneur d'accord est le même que pour l'erreur précédente.",
+            "suggestions": [
+              "publiée"
+            ],
+            "ruleApplied": "5.4.2.1"
+          },
+          {
+            "text": "Ministe",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Graphie erronée du mot « Ministère ».",
+            "suggestions": [
+              "Ministère"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "fait",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe « fait » doit s'accorder à la troisième personne du pluriel avec son sujet sous-entendu « les banques alimentaires ».",
+            "suggestions": [
+              "font"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "Elle",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le pronom « Elle » n'a pas de référent clair ou est mal accordé. Il devrait reprendre l'idée précédente avec un pronom neutre comme « Cela ».",
+            "suggestions": [
+              "Cela"
+            ],
+            "ruleApplied": "5.3.1.4"
+          },
+          {
+            "text": "rédistribues",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe « rédistribues » doit s'accorder à la troisième personne du singulier avec son sujet « Elle ».",
+            "suggestions": [
+              "redistribue"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "notre plats",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le déterminant possessif « notre » doit s'accorder en nombre avec le nom pluriel « plats ».",
+            "suggestions": [
+              "nos plats"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "certaines",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le déterminant « certaines » doit s'accorder en genre avec le nom masculin pluriel « restaurants ».",
+            "suggestions": [
+              "certains"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "amene",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Absence de l'accent grave sur le « e » du verbe « amène ».",
+            "suggestions": [
+              "amène"
+            ],
+            "ruleApplied": "5.2.1.1"
+          },
+          {
+            "text": "fréquentement",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Graphie erronée de l'adverbe « fréquemment ».",
+            "suggestions": [
+              "fréquemment"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "publié",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé « publié » doit s'accorder en genre et en nombre avec le nom féminin singulier « infographie » qu'il qualifie.",
+            "suggestions": [
+              "publiée"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "Ministre",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "(U)",
+            "description": "Graphie erronée du mot « Ministère ». Cette erreur d'usage a déjà été signalée dans le texte.",
+            "suggestions": [
+              "Ministère"
+            ],
+            "ruleApplied": "5.1.3"
+          },
+          {
+            "text": "Ce la",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Le pronom démonstratif « Cela » est écrit en deux mots.",
+            "suggestions": [
+              "Cela"
+            ],
+            "ruleApplied": "5.2.6.4"
+          },
+          {
+            "text": "gaspillé",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé « gaspillé » doit s'accorder en genre avec le nom féminin singulier « nourriture ».",
+            "suggestions": [
+              "gaspillée"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "utilisé",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "_",
+            "description": "Le participe passé « utilisé » doit s'accorder en genre avec le sujet « notre nourriture ». Le donneur d'accord est le même que pour l'erreur précédente.",
+            "suggestions": [
+              "utilisée"
+            ],
+            "ruleApplied": "5.4.2.1"
+          },
+          {
+            "text": "RECYC- QUÉBEC",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Orthographe erronée d'une dénomination. Il ne doit pas y avoir d'espace avant le second élément.",
+            "suggestions": [
+              "RECYC-QUÉBEC"
+            ],
+            "ruleApplied": "5.1.2"
+          },
+          {
+            "text": "achetés",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre le participe passé en « -é » et l'infinitif en « -er ». Dans cette énumération d'actions à faire, l'infinitif « acheter » est requis.",
+            "suggestions": [
+              "acheter"
+            ],
+            "ruleApplied": "5.3.2.6"
+          },
+          {
+            "text": "raisonnables",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif « raisonnables » doit s'accorder en genre et en nombre avec le nom féminin singulier « quantité ».",
+            "suggestions": [
+              "raisonnable"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "consommations de nourritures",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur de nombre. Les noms « consommation » et « nourriture » sont généralement employés au singulier dans ce contexte.",
+            "suggestions": [
+              "consommation de nourriture"
+            ],
+            "ruleApplied": "5.3.1.5"
+          },
+          {
+            "text": "ses",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre l'homophone grammatical « ses » (déterminant possessif) et « ces » (déterminant démonstratif).",
+            "suggestions": [
+              "ces"
+            ],
+            "ruleApplied": "5.3.3.1"
+          },
+          {
+            "text": "des",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'article indéfini pluriel « des » devient la préposition « de » lorsqu'il est placé devant un adjectif qui précède le nom.",
+            "suggestions": [
+              "de"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "bonnes",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif « bonnes » doit s'accorder en genre avec le nom masculin pluriel « exemples ».",
+            "suggestions": [
+              "bons"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "nourritures",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom \"nourriture\" est généralement employé au singulier dans ce contexte.",
+            "suggestions": [
+              "nourriture"
+            ],
+            "ruleApplied": "5.3.1.5"
+          }
+        ],
+        "totalErreursCritere4": 17,
+        "totalErreursCritere5": 35,
+        "scoreCritere4": {
+          "pointsPerdus": 14,
+          "note": "C"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 32,
+          "note": "E"
+        }
+      }
+    ],
+    "erreursCritere4AvantAnalyseIA": [
+      {
+        "text": "COVID-19 les",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule pour séparer le complément de phrase « à cause de la COVID-19 » placé en tête de phrase.",
+        "suggestions": [
+          "COVID-19, les"
+        ],
+        "ruleApplied": "4.2.2.10.1.b"
+      },
+      {
+        "text": "les restaurants ou chez nous",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence d'un mot essentiel, la préposition « dans », pour introduire les compléments de lieu.",
+        "suggestions": [
+          "dans les restaurants ou chez nous"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "ça,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction de phrase boiteuse. La virgule ne peut pas lier les deux propositions. Il faut utiliser un subordonnant comme « que ».",
+        "suggestions": [
+          "ça que"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "il mentionne",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom « il » est superflu et crée une rupture de construction (anacoluthe). Le sujet est « une infographie ».",
+        "suggestions": [
+          "on mentionne",
+          "il est mentionné"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "mais comme",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule pour isoler l'incise « comme Table québécoise sur la saine alimentation en 2019 nous dit ».",
+        "suggestions": [
+          "mais, comme"
+        ],
+        "ruleApplied": "4.2.2.10.1.f"
+      },
+      {
+        "text": "offre les clients à rapporter",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction du verbe « offrir » est incorrecte. La structure est « offrir à quelqu'un de faire quelque chose ».",
+        "suggestions": [
+          "offre aux clients de rapporter"
+        ],
+        "ruleApplied": "4.1.2.2.2"
+      },
+      {
+        "text": "mentionne que dans un site Web,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction de phrase boiteuse. L'insertion du complément « dans un site Web » rend la phrase peu claire.",
+        "suggestions": [
+          "mentionne que, selon un site Web,"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "par ailleurs",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'adverbe « par ailleurs » (de plus) est utilisé incorrectement et crée un problème de sens. Il faut une expression qui introduit une manière.",
+        "suggestions": [
+          "en les transformant"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": "montre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le temps de verbe est inapproprié. Dans une conclusion, il est préférable d'utiliser le passé composé pour faire référence à ce qui a été présenté dans le texte.",
+        "suggestions": [
+          "ai montré"
+        ],
+        "ruleApplied": "4.1.2.2.4"
+      },
+      {
+        "text": "de débrouiller",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence du pronom réfléchi « se » pour le verbe pronominal « se débrouiller ».",
+        "suggestions": [
+          "de se débrouiller"
+        ],
+        "ruleApplied": "4.1.2.2.2"
+      },
+      {
+        "text": "oublions pas",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La négation est mal employée. L'adverbe « ne » (élidé « n' ») est manquant.",
+        "suggestions": [
+          "n'oublions pas"
+        ],
+        "ruleApplied": "4.1.2.1.3"
+      },
+      {
+        "text": "COVID-19",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule après le complément de phrase \"à cause de la COVID-19\" qui est placé en tête de proposition.",
+        "suggestions": [
+          "COVID-19,"
+        ],
+        "ruleApplied": "4.2.2.10.1.l"
+      },
+      {
+        "text": "ça,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "La virgule crée une rupture syntaxique. La locution \"c'est pour ça\" doit être suivie de \"que\" pour introduire la proposition subordonnée.",
+        "suggestions": [
+          "ça que"
+        ],
+        "ruleApplied": "4.2.2.1.2"
+      },
+      {
+        "text": "2022",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule après le long complément de phrase \"dans une infographie publié par le Ministre de l'Éducation en 2022\" placé en tête de proposition.",
+        "suggestions": [
+          "2022,"
+        ],
+        "ruleApplied": "4.2.2.10.1.l"
+      },
+      {
+        "text": "Web,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "La virgule est mal placée. Elle sépare le complément de lieu \"dans un site Web\" de la proposition à laquelle il se rattache.",
+        "suggestions": [
+          "Web"
+        ],
+        "ruleApplied": "4.2.2.10.2.h"
+      },
+      {
+        "text": "par ailleurs transformer",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression \"par ailleurs\" est utilisée de manière incorrecte et crée un problème de sens. Il faudrait reformuler pour clarifier l'idée.",
+        "suggestions": [
+          "pour ensuite les transformer",
+          "en les transformant"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": "débrouiller",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe \"débrouiller\" est ici pronominal. Le pronom réfléchi \"se\" est manquant.",
+        "suggestions": [
+          "se débrouiller"
+        ],
+        "ruleApplied": "4.1.2.2.2"
+      }
+    ],
+    "erreursCritere5AvantAnalyseIA": [
+      {
+        "text": "derniers",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « derniers » doit s'accorder en genre et en nombre avec le nom féminin pluriel « années » qu'il qualifie.",
+        "suggestions": [
+          "dernières"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "expirations",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le complément du nom « dates » doit être au singulier. On parle de la date d'expiration de chaque produit.",
+        "suggestions": [
+          "expiration"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "text": "pourris",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'attribut du sujet « pourris » doit s'accorder en genre et en nombre avec le sujet féminin singulier « la nourriture ».",
+        "suggestions": [
+          "pourrie"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "permet",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe « permet » doit s'accorder à la troisième personne du pluriel avec son sujet « qui », pronom relatif qui reprend « plusieurs méthodes ».",
+        "suggestions": [
+          "permettent"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "Aux lieux",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion lexicale. La locution correcte est « Au lieu de ».",
+        "suggestions": [
+          "Au lieu"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "text": "méthods",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Graphie erronée du mot « méthodes ».",
+        "suggestions": [
+          "méthodes"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "prouves",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe « prouves » doit s'accorder à la troisième personne du pluriel avec son sujet « des méthods » (méthodes).",
+        "suggestions": [
+          "prouvent"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "divers",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « divers » doit s'accorder en genre et en nombre avec le nom féminin pluriel « façons ».",
+        "suggestions": [
+          "diverses"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "gaspiller",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif en « -er » et le participe passé en « -é ». Le participe passé « gaspillée » est requis ici et doit s'accorder avec le nom féminin singulier « nourriture ».",
+        "suggestions": [
+          "gaspillée"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "utilisés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « utilisés » doit s'accorder en genre et en nombre avec le sujet féminin pluriel « les banques alimentaires ».",
+        "suggestions": [
+          "utilisées"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "Ils",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom personnel « Ils » doit s'accorder en genre avec son antécédent féminin pluriel « les banques alimentaires ».",
+        "suggestions": [
+          "Elles"
+        ],
+        "ruleApplied": "5.3.1.4"
+      },
+      {
+        "text": "receuillent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Graphie erronée du verbe « recueillir ».",
+        "suggestions": [
+          "recueillent"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "appelé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « appelé » doit s'accorder en genre et en nombre avec le nom féminin singulier « infographie » qu'il qualifie.",
+        "suggestions": [
+          "appelée"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "publié",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "Le participe passé « publié » doit s'accorder en genre et en nombre avec le nom féminin singulier « infographie » qu'il qualifie. Le donneur d'accord est le même que pour l'erreur précédente.",
+        "suggestions": [
+          "publiée"
+        ],
+        "ruleApplied": "5.4.2.1"
+      },
+      {
+        "text": "Ministe",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Graphie erronée du mot « Ministère ».",
+        "suggestions": [
+          "Ministère"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "fait",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe « fait » doit s'accorder à la troisième personne du pluriel avec son sujet sous-entendu « les banques alimentaires ».",
+        "suggestions": [
+          "font"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "Elle",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom « Elle » n'a pas de référent clair ou est mal accordé. Il devrait reprendre l'idée précédente avec un pronom neutre comme « Cela ».",
+        "suggestions": [
+          "Cela"
+        ],
+        "ruleApplied": "5.3.1.4"
+      },
+      {
+        "text": "rédistribues",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe « rédistribues » doit s'accorder à la troisième personne du singulier avec son sujet « Elle ».",
+        "suggestions": [
+          "redistribue"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "notre plats",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant possessif « notre » doit s'accorder en nombre avec le nom pluriel « plats ».",
+        "suggestions": [
+          "nos plats"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "certaines",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant « certaines » doit s'accorder en genre avec le nom masculin pluriel « restaurants ».",
+        "suggestions": [
+          "certains"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "amene",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Absence de l'accent grave sur le « e » du verbe « amène ».",
+        "suggestions": [
+          "amène"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "text": "fréquentement",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Graphie erronée de l'adverbe « fréquemment ».",
+        "suggestions": [
+          "fréquemment"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "publié",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « publié » doit s'accorder en genre et en nombre avec le nom féminin singulier « infographie » qu'il qualifie.",
+        "suggestions": [
+          "publiée"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "Ministre",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Graphie erronée du mot « Ministère ». Cette erreur d'usage a déjà été signalée dans le texte.",
+        "suggestions": [
+          "Ministère"
+        ],
+        "ruleApplied": "5.1.3"
+      },
+      {
+        "text": "Ce la",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le pronom démonstratif « Cela » est écrit en deux mots.",
+        "suggestions": [
+          "Cela"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "text": "gaspillé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « gaspillé » doit s'accorder en genre avec le nom féminin singulier « nourriture ».",
+        "suggestions": [
+          "gaspillée"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "utilisé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "Le participe passé « utilisé » doit s'accorder en genre avec le sujet « notre nourriture ». Le donneur d'accord est le même que pour l'erreur précédente.",
+        "suggestions": [
+          "utilisée"
+        ],
+        "ruleApplied": "5.4.2.1"
+      },
+      {
+        "text": "RECYC- QUÉBEC",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Orthographe erronée d'une dénomination. Il ne doit pas y avoir d'espace avant le second élément.",
+        "suggestions": [
+          "RECYC-QUÉBEC"
+        ],
+        "ruleApplied": "5.1.2"
+      },
+      {
+        "text": "achetés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le participe passé en « -é » et l'infinitif en « -er ». Dans cette énumération d'actions à faire, l'infinitif « acheter » est requis.",
+        "suggestions": [
+          "acheter"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "raisonnables",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « raisonnables » doit s'accorder en genre et en nombre avec le nom féminin singulier « quantité ».",
+        "suggestions": [
+          "raisonnable"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "consommations de nourritures",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur de nombre. Les noms « consommation » et « nourriture » sont généralement employés au singulier dans ce contexte.",
+        "suggestions": [
+          "consommation de nourriture"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "text": "ses",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'homophone grammatical « ses » (déterminant possessif) et « ces » (déterminant démonstratif).",
+        "suggestions": [
+          "ces"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "text": "des",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'article indéfini pluriel « des » devient la préposition « de » lorsqu'il est placé devant un adjectif qui précède le nom.",
+        "suggestions": [
+          "de"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "bonnes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « bonnes » doit s'accorder en genre avec le nom masculin pluriel « exemples ».",
+        "suggestions": [
+          "bons"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "nourritures",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom \"nourriture\" est généralement employé au singulier dans ce contexte.",
+        "suggestions": [
+          "nourriture"
+        ],
+        "ruleApplied": "5.3.1.5"
+      }
+    ],
+    "analyseIADuplicatas": {
+      "critere4": {
+        "analyse": {
+          "totalErreursCritere4": 17,
+          "totalErreursCritere5": 0,
+          "duplicatasCritere4": 5,
+          "duplicatasCritere5": 0
+        },
+        "duplicatasCritere4": [
+          {
+            "groupe": 1,
+            "confiance": 95,
+            "raison": "Même erreur de ponctuation (virgule manquante) au même endroit. Le texte de l'erreur 11 est inclus dans celui de l'erreur 0.",
+            "erreurs": [
+              {
+                "index": 0,
+                "text": "COVID-19 les",
+                "garder": true
+              },
+              {
+                "index": 11,
+                "text": "COVID-19",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 2,
+            "confiance": 100,
+            "raison": "Texte identique, même occurrence, descriptions et suggestions équivalentes pointant vers la même erreur de construction de phrase.",
+            "erreurs": [
+              {
+                "index": 2,
+                "text": "ça,",
+                "garder": true
+              },
+              {
+                "index": 12,
+                "text": "ça,",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 3,
+            "confiance": 90,
+            "raison": "Les deux erreurs ciblent la même construction de phrase maladroite et le placement de la virgule. Le texte de l'erreur 14 est une sous-partie de celui de l'erreur 6.",
+            "erreurs": [
+              {
+                "index": 6,
+                "text": "mentionne que dans un site Web,",
+                "garder": true
+              },
+              {
+                "index": 14,
+                "text": "Web,",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 4,
+            "confiance": 98,
+            "raison": "Même règle appliquée, descriptions quasi identiques sur l'usage incorrect de 'par ailleurs', texte englobant et suggestions similaires.",
+            "erreurs": [
+              {
+                "index": 15,
+                "text": "par ailleurs transformer",
+                "garder": true
+              },
+              {
+                "index": 7,
+                "text": "par ailleurs",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 5,
+            "confiance": 100,
+            "raison": "Même règle appliquée, descriptions identiques sur l'absence du pronom réfléchi 'se', texte englobant et suggestions équivalentes.",
+            "erreurs": [
+              {
+                "index": 9,
+                "text": "de débrouiller",
+                "garder": true
+              },
+              {
+                "index": 16,
+                "text": "débrouiller",
+                "garder": false
+              }
+            ]
+          }
+        ],
+        "duplicatasCritere5": [],
+        "erreursUniquesCritere4": [
+          {
+            "index": 1,
+            "text": "les restaurants ou chez nous",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 3,
+            "text": "il mentionne",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 4,
+            "text": "mais comme",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 5,
+            "text": "offre les clients à rapporter",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 8,
+            "text": "montre",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 10,
+            "text": "oublions pas",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 13,
+            "text": "2022",
+            "raison": "Erreur de ponctuation distincte, aucun duplicata sémantique identifié."
+          }
+        ],
+        "erreursUniquesCritere5": [],
+        "recommandations": {
+          "erreursAConserverCritere4": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            8,
+            9,
+            10,
+            13,
+            15
+          ],
+          "erreursAConserverCritere5": [],
+          "erreursASupprimer": {
+            "critere4": [
+              7,
+              11,
+              12,
+              14,
+              16
+            ],
+            "critere5": []
+          }
+        }
+      },
+      "critere5": {
+        "analyse": {
+          "totalErreursCritere4": 0,
+          "totalErreursCritere5": 35,
+          "duplicatasCritere4": 0,
+          "duplicatasCritere5": 4
+        },
+        "duplicatasCritere4": [],
+        "duplicatasCritere5": [
+          {
+            "groupe": 1,
+            "confiance": 95,
+            "raison": "Même erreur sémantique (confusion infinitif/participe passé et accord) concernant le même mot et le même donneur d'accord 'nourriture'.",
+            "erreurs": [
+              {
+                "index": 8,
+                "text": "gaspiller",
+                "garder": true
+              },
+              {
+                "index": 25,
+                "text": "gaspillé",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 2,
+            "confiance": 100,
+            "raison": "Texte identique, même correction suggérée et même problème d'accord avec 'infographie'.",
+            "erreurs": [
+              {
+                "index": 13,
+                "text": "publié",
+                "garder": true
+              },
+              {
+                "index": 22,
+                "text": "publié",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 3,
+            "confiance": 90,
+            "raison": "Graphies erronées très similaires du même mot 'Ministère', avec la même suggestion.",
+            "erreurs": [
+              {
+                "index": 14,
+                "text": "Ministe",
+                "garder": true
+              },
+              {
+                "index": 23,
+                "text": "Ministre",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 4,
+            "confiance": 98,
+            "raison": "L'erreur sur 'nourritures' est une partie de l'erreur plus complète sur 'consommations de nourritures'.",
+            "erreurs": [
+              {
+                "index": 30,
+                "text": "consommations de nourritures",
+                "garder": true
+              },
+              {
+                "index": 34,
+                "text": "nourritures",
+                "garder": false
+              }
+            ]
+          }
+        ],
+        "erreursUniquesCritere4": [],
+        "erreursUniquesCritere5": [
+          {
+            "index": 0,
+            "text": "derniers",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 1,
+            "text": "expirations",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 2,
+            "text": "pourris",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 3,
+            "text": "permet",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 4,
+            "text": "Aux lieux",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 5,
+            "text": "méthods",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 6,
+            "text": "prouves",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 7,
+            "text": "divers",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 9,
+            "text": "utilisés",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 10,
+            "text": "Ils",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 11,
+            "text": "receuillent",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 12,
+            "text": "appelé",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 15,
+            "text": "fait",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 16,
+            "text": "Elle",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 17,
+            "text": "rédistribues",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 18,
+            "text": "notre plats",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 19,
+            "text": "certaines",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 20,
+            "text": "amene",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 21,
+            "text": "fréquentement",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 24,
+            "text": "Ce la",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 26,
+            "text": "utilisé",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 27,
+            "text": "RECYC- QUÉBEC",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 28,
+            "text": "achetés",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 29,
+            "text": "raisonnables",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 31,
+            "text": "ses",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 32,
+            "text": "des",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 33,
+            "text": "bonnes",
+            "raison": "Aucun duplicata trouvé"
+          }
+        ],
+        "recommandations": {
+          "erreursAConserverCritere4": [],
+          "erreursAConserverCritere5": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            24,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33
+          ],
+          "erreursASupprimer": {
+            "critere4": [],
+            "critere5": [
+              25,
+              22,
+              23,
+              34
+            ]
+          }
+        }
+      }
+    }
+  }
+}

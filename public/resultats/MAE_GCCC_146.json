@@ -1,0 +1,2084 @@
+{
+  "processedAt": "2025-12-10T15:14:08.868Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_146.txt",
+    "originalText": "La consommation exagérée\r\n\r\nChers publics,\r\n\r\nDans le monde, certains d'entre nous ne constate pas comment la nourriture est importente à la vie quotidienne. Avec une manque d'alimentation partout dans les pays, la population capoterait. À mon avis, nous sommes prêts à combattre contre le gaspillage de nourriture. La bouffe se pert dans beaucoup de manières possibles. Soit en achetant de grande quantité à l'épicerie ou le gaspillage à la maison.\r\n\r\nTout d'abord, chers lecteurs et lectrices, abordons sur le fait que la bouffe est gaspillé à cause qu'on achète trop et à la fin, on est même pas capable de finir avant la date limite de conservation. Selon l'article Le Gaspillage Alimentaire, « Plusieurs publicités incitent les consommateurs à acheter des produits en grande quantité. » (Roy, 2018). Par contre, même s'il y a des grandes rabais à l'épicerie, certains d'autres commerces ne vont pas réussir à vendre certains aliments. Selon l'auteur, « En cinq ans les banques alimentaires du Québec ont conclu des ententes avec plus de 425 épiceries pour récupérer les produits invendus [...]. Cela représente 6.7 millions de kilos de denrées qui sont ainsi redistribuées. » (Corriveau, 2020) Bref, un achat équitable à l'épicerie est plus favorable que d'en gaspiller. C'était comme si tu gaspillait aussi ton argent.\r\n\r\nDeuxièmement, chers internautes, traitons maintenant du gaspillage à la maison. Plusieurs d'entre nous ne savent pas comment conserver les aliments de manier raisonnable et équitable. Selon l'article Le Gaspillage Alimentaire, « Pour prolonger la durée de vie des aliments [...] il faut garder hors du réfrigirateur les aliments non réfrigérés [...], de retirer les emballages qui causent un surplus d'humidité et de ne pas tailler les fruits et légumes trop d'avance. » (Simard, 2020) Nous les humains ont l'habitude de prendre et prendre sans connaître les conséquences qui se produira. Par ailleurs, il y a des préventions à ses crises. En 2021, RECYC-Québec nous donnes quelques conseils pour limiter le gaspillage. Planifier les repas, acheter en quantité raisonnables et congeler les restes en portions individuelles. En conclusion, prolonger la durée de vie des aliments vous donne en sorte que vous minimisez vos dépenses et vous gaspiller moins d'argent aux aliments.\r\n\r\nSomme toute, chers lecteurs, on comprend que tout le monde n'a pas les mêmes privilèges envers la consommation. Vous et moi sont chanceux qu'on se trouve dans un pays développé et non dans un pays en développement. Je vous invite à changer vos comportements envers comment vous traitez la nourriture. Ce n'est pas trop tard pour agir et de changer nos habitudes. Rêvons-nous d'une belle futur sans famine.",
+    "erreursCritere4": [
+      {
+        "text": "capoterait",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'emploi du verbe 'capoter' relève du registre de langue familier et n'est pas approprié dans ce contexte. Il faut utiliser un verbe de registre courant.",
+        "suggestions": [
+          "paniquerait",
+          "serait désemparée"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "Soit en achetant de grande quantité à l'épicerie ou le gaspillage à la maison.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase est un fragment; elle n'a pas de verbe principal conjugué et constitue une subordonnée sans phrase matrice. De plus, elle coordonne des éléments de nature différente ('en achetant' et 'le gaspillage').",
+        "suggestions": [
+          "Elle se perd soit en achetant de trop grandes quantités à l'épicerie, soit en gaspillant à la maison."
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "text": "abordons sur",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe 'aborder' est un verbe transitif direct et ne doit pas être suivi de la préposition 'sur'.",
+        "suggestions": [
+          "abordons"
+        ],
+        "ruleApplied": "4.1.2.2.2"
+      },
+      {
+        "text": "à cause qu'on",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Le subordonnant 'à cause que' est incorrect. Il faut utiliser 'parce que'. Une erreur de syntaxe (S) a déjà été comptabilisée dans cette phrase.",
+        "suggestions": [
+          "parce qu'on"
+        ],
+        "ruleApplied": "4.1.2.4.2"
+      },
+      {
+        "text": "est même pas",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "La négation est mal employée. Il manque l'adverbe 'n'' avant le verbe. Une erreur de syntaxe (S) a déjà été comptabilisée dans cette phrase.",
+        "suggestions": [
+          "n'est même pas"
+        ],
+        "ruleApplied": "4.1.2.1.3"
+      },
+      {
+        "text": "certains d'autres",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction 'certains d'autres' est redondante. Il faut utiliser soit 'certains autres', soit 'd'autres'.",
+        "suggestions": [
+          "d'autres",
+          "certains autres"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "ans",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule après le complément de phrase 'En cinq ans' placé en tête de phrase.",
+        "suggestions": [
+          "ans,"
+        ],
+        "ruleApplied": "4.2.2.10.1.l"
+      },
+      {
+        "text": "Planifier les repas, acheter en quantité raisonnables et congeler les restes en portions individuelles.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase est un fragment; elle est constituée d'une énumération d'infinitifs sans verbe principal conjugué.",
+        "suggestions": [
+          "Il faut planifier les repas, acheter en quantité raisonnable et congeler les restes en portions individuelles."
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "text": "donne en sorte que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression 'donne en sorte que' est une construction boiteuse. L'expression correcte est 'fait en sorte que'.",
+        "suggestions": [
+          "fait en sorte que"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": "envers comment vous traitez",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction 'envers comment' est boiteuse. Il faut reformuler, par exemple avec 'envers la façon dont vous traitez'.",
+        "suggestions": [
+          "envers la façon dont vous traitez"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "et de changer",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de coordination. On ne peut coordonner 'agir' (infinitif) et 'de changer' (groupe prépositionnel). La préposition 'de' doit être omise.",
+        "suggestions": [
+          "et changer"
+        ],
+        "ruleApplied": "4.1.2.1.8"
+      },
+      {
+        "text": "famine",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque le point final à la fin de la phrase.",
+        "suggestions": [
+          "famine."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "text": "Nous les humains ont",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de construction. Le pronom de reprise 'Nous' impose l'accord du verbe à la première personne du pluriel ('avons'). La construction correcte est 'Nous, les humains, avons...'.",
+        "suggestions": [
+          "Nous, les humains, avons"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "Rêvons-nous",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Construction boiteuse. La forme interrogative 'Rêvons-nous' est inadéquate dans ce contexte d'exhortation. Une forme impérative ('Rêvons') serait plus appropriée. L'erreur n'est pas comptée, car il y a déjà une erreur de syntaxe (S) dans cette phrase.",
+        "suggestions": [
+          "Rêvons"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": ".",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point final est inapproprié pour cette phrase qui exprime un souhait. Un point d'exclamation serait plus juste.",
+        "suggestions": [
+          "!"
+        ],
+        "ruleApplied": "4.2.2.3.1"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 10.5,
+      "note": "C"
+    },
+    "erreursCritere5": [
+      {
+        "text": "constate",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'constater' doit s'accorder à la troisième personne du pluriel avec son sujet 'certains d'entre nous'.",
+        "suggestions": [
+          "constatent"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "importente",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Orthographe d'usage. La graphie correcte est 'importante'.",
+        "suggestions": [
+          "importante"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "une",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant 'une' doit s'accorder en genre avec le nom 'manque' qui est masculin.",
+        "suggestions": [
+          "un"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "pert",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Barbarisme de conjugaison. La forme correcte du verbe 'perdre' à la troisième personne du singulier du présent de l'indicatif est 'perd'.",
+        "suggestions": [
+          "perd"
+        ],
+        "ruleApplied": "5.3.2.1"
+      },
+      {
+        "text": "gaspillé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'gaspillé', employé comme adjectif, doit s'accorder en genre et en nombre avec le nom 'bouffe' (féminin singulier).",
+        "suggestions": [
+          "gaspillée"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "grandes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'grandes' doit s'accorder en genre avec le nom 'rabais' qui est masculin.",
+        "suggestions": [
+          "grands"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "gaspillait",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'gaspiller' à l'imparfait doit s'accorder avec son sujet 'tu' (deuxième personne du singulier).",
+        "suggestions": [
+          "gaspillais"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "manier",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion d'homophones lexicaux. Le nom correct est 'manière'.",
+        "suggestions": [
+          "manière"
+        ],
+        "ruleApplied": "5.2.2"
+      },
+      {
+        "text": "réfrigirateur",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Orthographe d'usage. La graphie correcte est 'réfrigérateur'.",
+        "suggestions": [
+          "réfrigérateur"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "ont",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'avoir' doit s'accorder avec son sujet 'Nous les humains' (première personne du pluriel).",
+        "suggestions": [
+          "avons"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "produira",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'produire' doit s'accorder avec son sujet 'qui', mis pour 'les conséquences' (troisième personne du pluriel).",
+        "suggestions": [
+          "produiront"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "ses",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion d'homophones grammaticaux. Il faut utiliser le déterminant démonstratif 'ces' et non le possessif 'ses'.",
+        "suggestions": [
+          "ces"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "text": "donnes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'donner' doit s'accorder avec son sujet 'RECYC-Québec' (troisième personne du singulier).",
+        "suggestions": [
+          "donne"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "raisonnables",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'raisonnables' doit s'accorder en nombre avec le nom 'quantité' qui est au singulier.",
+        "suggestions": [
+          "raisonnable"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "gaspiller",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'gaspiller' doit s'accorder avec son sujet 'vous' (deuxième personne du pluriel). Il s'agit d'une confusion entre l'infinitif et la forme conjuguée.",
+        "suggestions": [
+          "gaspillez"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "sont",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'être' doit s'accorder avec son sujet 'Vous et moi' (équivalent de 'nous', première personne du pluriel).",
+        "suggestions": [
+          "sommes"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "belle",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "L'adjectif 'belle' doit s'accorder en genre avec le nom 'futur' (masculin). L'erreur découle du même donneur d'accord que l'erreur précédente.",
+        "suggestions": [
+          "beau"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "publics",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'Chers' est au pluriel alors que le nom 'public' est un nom collectif qui s'emploie généralement au singulier dans cette formule d'adresse. La forme correcte est 'Cher public'.",
+        "suggestions": [
+          "public"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "grande quantité",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'quantité' est au pluriel dans ce contexte ('de grandes quantités') et l'adjectif 'grande' doit s'accorder en nombre.",
+        "suggestions": [
+          "de grandes quantités"
+        ],
+        "ruleApplied": "5.3.1.1"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 18,
+      "note": "D"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T15:09:03.413Z",
+    "endTimestamp": "2025-12-10T15:14:08.868Z",
+    "durationMs": 305455,
+    "durationFormatted": "05:05:455",
+    "cumulParPasse": [
+      {
+        "passe": 1,
+        "erreursCritere4": [
+          {
+            "text": "capoterait",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'emploi du verbe 'capoter' relève du registre de langue familier et n'est pas approprié dans ce contexte. Il faut utiliser un verbe de registre courant.",
+            "suggestions": [
+              "paniquerait",
+              "serait désemparée"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "Soit en achetant de grande quantité à l'épicerie ou le gaspillage à la maison.",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Cette phrase est un fragment; elle n'a pas de verbe principal conjugué et constitue une subordonnée sans phrase matrice. De plus, elle coordonne des éléments de nature différente ('en achetant' et 'le gaspillage').",
+            "suggestions": [
+              "Elle se perd soit en achetant de trop grandes quantités à l'épicerie, soit en gaspillant à la maison."
+            ],
+            "ruleApplied": "4.1.2.1.4"
+          },
+          {
+            "text": "abordons sur",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le verbe 'aborder' est un verbe transitif direct et ne doit pas être suivi de la préposition 'sur'.",
+            "suggestions": [
+              "abordons"
+            ],
+            "ruleApplied": "4.1.2.2.2"
+          },
+          {
+            "text": "à cause qu'on",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "Le subordonnant 'à cause que' est incorrect. Il faut utiliser 'parce que'. Une erreur de syntaxe (S) a déjà été comptabilisée dans cette phrase.",
+            "suggestions": [
+              "parce qu'on"
+            ],
+            "ruleApplied": "4.1.2.4.2"
+          },
+          {
+            "text": "est même pas",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "La négation est mal employée. Il manque l'adverbe 'n'' avant le verbe. Une erreur de syntaxe (S) a déjà été comptabilisée dans cette phrase.",
+            "suggestions": [
+              "n'est même pas"
+            ],
+            "ruleApplied": "4.1.2.1.3"
+          },
+          {
+            "text": "certains d'autres",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction 'certains d'autres' est redondante. Il faut utiliser soit 'certains autres', soit 'd'autres'.",
+            "suggestions": [
+              "d'autres",
+              "certains autres"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "ans",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Il manque une virgule après le complément de phrase 'En cinq ans' placé en tête de phrase.",
+            "suggestions": [
+              "ans,"
+            ],
+            "ruleApplied": "4.2.2.10.1.l"
+          },
+          {
+            "text": "Planifier les repas, acheter en quantité raisonnables et congeler les restes en portions individuelles.",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Cette phrase est un fragment; elle est constituée d'une énumération d'infinitifs sans verbe principal conjugué.",
+            "suggestions": [
+              "Il faut planifier les repas, acheter en quantité raisonnable et congeler les restes en portions individuelles."
+            ],
+            "ruleApplied": "4.1.2.1.4"
+          },
+          {
+            "text": "donne en sorte que",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'expression 'donne en sorte que' est une construction boiteuse. L'expression correcte est 'fait en sorte que'.",
+            "suggestions": [
+              "fait en sorte que"
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          },
+          {
+            "text": "envers comment vous traitez",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction 'envers comment' est boiteuse. Il faut reformuler, par exemple avec 'envers la façon dont vous traitez'.",
+            "suggestions": [
+              "envers la façon dont vous traitez"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "et de changer",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Erreur de coordination. On ne peut coordonner 'agir' (infinitif) et 'de changer' (groupe prépositionnel). La préposition 'de' doit être omise.",
+            "suggestions": [
+              "et changer"
+            ],
+            "ruleApplied": "4.1.2.1.8"
+          },
+          {
+            "text": "famine",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Il manque le point final à la fin de la phrase.",
+            "suggestions": [
+              "famine."
+            ],
+            "ruleApplied": "4.2.2.1.1"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "Chers",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif 'Chers' doit s'accorder en genre et en nombre avec le nom 'public' qui est masculin singulier.",
+            "suggestions": [
+              "Cher"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "publics",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "_",
+            "description": "Le nom 'public' est généralement au singulier pour désigner l'ensemble des spectateurs ou auditeurs. L'erreur découle du même donneur d'accord que l'erreur précédente.",
+            "suggestions": [
+              "public"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "constate",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe 'constater' doit s'accorder à la troisième personne du pluriel avec son sujet 'certains d'entre nous'.",
+            "suggestions": [
+              "constatent"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "importente",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Orthographe d'usage. La graphie correcte est 'importante'.",
+            "suggestions": [
+              "importante"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "une",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le déterminant 'une' doit s'accorder en genre avec le nom 'manque' qui est masculin.",
+            "suggestions": [
+              "un"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "pert",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Barbarisme de conjugaison. La forme correcte du verbe 'perdre' à la troisième personne du singulier du présent de l'indicatif est 'perd'.",
+            "suggestions": [
+              "perd"
+            ],
+            "ruleApplied": "5.3.2.1"
+          },
+          {
+            "text": "grande",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif 'grande' doit s'accorder au pluriel avec le nom 'quantités' qu'il qualifie implicitement.",
+            "suggestions": [
+              "grandes"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "quantité",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "_",
+            "description": "Le nom 'quantité' devrait être au pluriel pour correspondre au sens de la phrase. L'erreur découle du même donneur d'accord que l'erreur précédente.",
+            "suggestions": [
+              "quantités"
+            ],
+            "ruleApplied": "5.3.1.5"
+          },
+          {
+            "text": "gaspillé",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé 'gaspillé', employé comme adjectif, doit s'accorder en genre et en nombre avec le nom 'bouffe' (féminin singulier).",
+            "suggestions": [
+              "gaspillée"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "grandes",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif 'grandes' doit s'accorder en genre avec le nom 'rabais' qui est masculin.",
+            "suggestions": [
+              "grands"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "gaspillait",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe 'gaspiller' à l'imparfait doit s'accorder avec son sujet 'tu' (deuxième personne du singulier).",
+            "suggestions": [
+              "gaspillais"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "manier",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Confusion d'homophones lexicaux. Le nom correct est 'manière'.",
+            "suggestions": [
+              "manière"
+            ],
+            "ruleApplied": "5.2.2"
+          },
+          {
+            "text": "réfrigirateur",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Orthographe d'usage. La graphie correcte est 'réfrigérateur'.",
+            "suggestions": [
+              "réfrigérateur"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "ont",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe 'avoir' doit s'accorder avec son sujet 'Nous les humains' (première personne du pluriel).",
+            "suggestions": [
+              "avons"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "produira",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe 'produire' doit s'accorder avec son sujet 'qui', mis pour 'les conséquences' (troisième personne du pluriel).",
+            "suggestions": [
+              "produiront"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "ses",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion d'homophones grammaticaux. Il faut utiliser le déterminant démonstratif 'ces' et non le possessif 'ses'.",
+            "suggestions": [
+              "ces"
+            ],
+            "ruleApplied": "5.3.3.1"
+          },
+          {
+            "text": "donnes",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe 'donner' doit s'accorder avec son sujet 'RECYC-Québec' (troisième personne du singulier).",
+            "suggestions": [
+              "donne"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "raisonnables",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif 'raisonnables' doit s'accorder en nombre avec le nom 'quantité' qui est au singulier.",
+            "suggestions": [
+              "raisonnable"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "gaspiller",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe 'gaspiller' doit s'accorder avec son sujet 'vous' (deuxième personne du pluriel). Il s'agit d'une confusion entre l'infinitif et la forme conjuguée.",
+            "suggestions": [
+              "gaspillez"
+            ],
+            "ruleApplied": "5.3.2.6"
+          },
+          {
+            "text": "sont",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe 'être' doit s'accorder avec son sujet 'Vous et moi' (équivalent de 'nous', première personne du pluriel).",
+            "suggestions": [
+              "sommes"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "belle",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "_",
+            "description": "L'adjectif 'belle' doit s'accorder en genre avec le nom 'futur' (masculin). L'erreur découle du même donneur d'accord que l'erreur précédente.",
+            "suggestions": [
+              "beau"
+            ],
+            "ruleApplied": "5.3.1.1"
+          }
+        ],
+        "totalErreursCritere4": 12,
+        "totalErreursCritere5": 21,
+        "scoreCritere4": {
+          "pointsPerdus": 9,
+          "note": "B"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 18,
+          "note": "D"
+        }
+      },
+      {
+        "passe": 2,
+        "erreursCritere4": [
+          {
+            "text": "capoterait",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'emploi du verbe 'capoter' relève du registre de langue familier et n'est pas approprié dans ce contexte. Il faut utiliser un verbe de registre courant.",
+            "suggestions": [
+              "paniquerait",
+              "serait désemparée"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "Soit en achetant de grande quantité à l'épicerie ou le gaspillage à la maison.",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Cette phrase est un fragment; elle n'a pas de verbe principal conjugué et constitue une subordonnée sans phrase matrice. De plus, elle coordonne des éléments de nature différente ('en achetant' et 'le gaspillage').",
+            "suggestions": [
+              "Elle se perd soit en achetant de trop grandes quantités à l'épicerie, soit en gaspillant à la maison."
+            ],
+            "ruleApplied": "4.1.2.1.4"
+          },
+          {
+            "text": "abordons sur",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le verbe 'aborder' est un verbe transitif direct et ne doit pas être suivi de la préposition 'sur'.",
+            "suggestions": [
+              "abordons"
+            ],
+            "ruleApplied": "4.1.2.2.2"
+          },
+          {
+            "text": "à cause qu'on",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "Le subordonnant 'à cause que' est incorrect. Il faut utiliser 'parce que'. Une erreur de syntaxe (S) a déjà été comptabilisée dans cette phrase.",
+            "suggestions": [
+              "parce qu'on"
+            ],
+            "ruleApplied": "4.1.2.4.2"
+          },
+          {
+            "text": "est même pas",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "La négation est mal employée. Il manque l'adverbe 'n'' avant le verbe. Une erreur de syntaxe (S) a déjà été comptabilisée dans cette phrase.",
+            "suggestions": [
+              "n'est même pas"
+            ],
+            "ruleApplied": "4.1.2.1.3"
+          },
+          {
+            "text": "certains d'autres",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction 'certains d'autres' est redondante. Il faut utiliser soit 'certains autres', soit 'd'autres'.",
+            "suggestions": [
+              "d'autres",
+              "certains autres"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "ans",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Il manque une virgule après le complément de phrase 'En cinq ans' placé en tête de phrase.",
+            "suggestions": [
+              "ans,"
+            ],
+            "ruleApplied": "4.2.2.10.1.l"
+          },
+          {
+            "text": "Planifier les repas, acheter en quantité raisonnables et congeler les restes en portions individuelles.",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Cette phrase est un fragment; elle est constituée d'une énumération d'infinitifs sans verbe principal conjugué.",
+            "suggestions": [
+              "Il faut planifier les repas, acheter en quantité raisonnable et congeler les restes en portions individuelles."
+            ],
+            "ruleApplied": "4.1.2.1.4"
+          },
+          {
+            "text": "donne en sorte que",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'expression 'donne en sorte que' est une construction boiteuse. L'expression correcte est 'fait en sorte que'.",
+            "suggestions": [
+              "fait en sorte que"
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          },
+          {
+            "text": "envers comment vous traitez",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction 'envers comment' est boiteuse. Il faut reformuler, par exemple avec 'envers la façon dont vous traitez'.",
+            "suggestions": [
+              "envers la façon dont vous traitez"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "et de changer",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Erreur de coordination. On ne peut coordonner 'agir' (infinitif) et 'de changer' (groupe prépositionnel). La préposition 'de' doit être omise.",
+            "suggestions": [
+              "et changer"
+            ],
+            "ruleApplied": "4.1.2.1.8"
+          },
+          {
+            "text": "famine",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Il manque le point final à la fin de la phrase.",
+            "suggestions": [
+              "famine."
+            ],
+            "ruleApplied": "4.2.2.1.1"
+          },
+          {
+            "text": "ou le gaspillage",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Erreur de coordination. La conjonction 'ou' relie des éléments qui n'ont pas la même fonction grammaticale ('en achetant', un gérondif, et 'le gaspillage', un groupe nominal). Il faut reformuler pour assurer le parallélisme.",
+            "suggestions": [
+              "ou par le gaspillage"
+            ],
+            "ruleApplied": "4.1.2.1.8"
+          },
+          {
+            "text": "même pas",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "Omission de l'adverbe de négation 'ne' (élidé 'n''). La structure correcte est 'on n'est même pas'. L'erreur n'est pas comptée, car il y a déjà une erreur de syntaxe (S) dans cette phrase.",
+            "suggestions": [
+              "n'est même pas"
+            ],
+            "ruleApplied": "4.1.2.1.3"
+          },
+          {
+            "text": "Nous les humains ont",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Erreur de construction. Le pronom de reprise 'Nous' impose l'accord du verbe à la première personne du pluriel ('avons'). La construction correcte est 'Nous, les humains, avons...'.",
+            "suggestions": [
+              "Nous, les humains, avons"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "envers comment",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Construction boiteuse. La préposition 'envers' ne peut pas être suivie de l'adverbe interrogatif 'comment'. Il faut reformuler, par exemple avec 'envers la manière dont'.",
+            "suggestions": [
+              "envers la manière dont"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "de changer",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "Erreur de coordination. Pour maintenir le parallélisme avec 'agir', il ne faut pas répéter la préposition 'de'. La structure correcte est 'agir et changer'. L'erreur n'est pas comptée, car il y a déjà une erreur de syntaxe (S) dans cette phrase.",
+            "suggestions": [
+              "changer"
+            ],
+            "ruleApplied": "4.1.2.1.8"
+          },
+          {
+            "text": "Rêvons-nous",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "Construction boiteuse. La forme interrogative 'Rêvons-nous' est inadéquate dans ce contexte d'exhortation. Une forme impérative ('Rêvons') serait plus appropriée. L'erreur n'est pas comptée, car il y a déjà une erreur de syntaxe (S) dans cette phrase.",
+            "suggestions": [
+              "Rêvons"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": ".",
+            "occurenceIndex": 1,
+            "criteria": 4,
+            "type": "P",
+            "description": "Le point final est inapproprié pour cette phrase qui exprime un souhait. Un point d'exclamation serait plus juste.",
+            "suggestions": [
+              "!"
+            ],
+            "ruleApplied": "4.2.2.3.1"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "Chers",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif 'Chers' doit s'accorder en genre et en nombre avec le nom 'public' qui est masculin singulier.",
+            "suggestions": [
+              "Cher"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "publics",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "_",
+            "description": "Le nom 'public' est généralement au singulier pour désigner l'ensemble des spectateurs ou auditeurs. L'erreur découle du même donneur d'accord que l'erreur précédente.",
+            "suggestions": [
+              "public"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "constate",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe 'constater' doit s'accorder à la troisième personne du pluriel avec son sujet 'certains d'entre nous'.",
+            "suggestions": [
+              "constatent"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "importente",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Orthographe d'usage. La graphie correcte est 'importante'.",
+            "suggestions": [
+              "importante"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "une",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le déterminant 'une' doit s'accorder en genre avec le nom 'manque' qui est masculin.",
+            "suggestions": [
+              "un"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "pert",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Barbarisme de conjugaison. La forme correcte du verbe 'perdre' à la troisième personne du singulier du présent de l'indicatif est 'perd'.",
+            "suggestions": [
+              "perd"
+            ],
+            "ruleApplied": "5.3.2.1"
+          },
+          {
+            "text": "grande",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif 'grande' doit s'accorder au pluriel avec le nom 'quantités' qu'il qualifie implicitement.",
+            "suggestions": [
+              "grandes"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "quantité",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "_",
+            "description": "Le nom 'quantité' devrait être au pluriel pour correspondre au sens de la phrase. L'erreur découle du même donneur d'accord que l'erreur précédente.",
+            "suggestions": [
+              "quantités"
+            ],
+            "ruleApplied": "5.3.1.5"
+          },
+          {
+            "text": "gaspillé",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé 'gaspillé', employé comme adjectif, doit s'accorder en genre et en nombre avec le nom 'bouffe' (féminin singulier).",
+            "suggestions": [
+              "gaspillée"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "grandes",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif 'grandes' doit s'accorder en genre avec le nom 'rabais' qui est masculin.",
+            "suggestions": [
+              "grands"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "gaspillait",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe 'gaspiller' à l'imparfait doit s'accorder avec son sujet 'tu' (deuxième personne du singulier).",
+            "suggestions": [
+              "gaspillais"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "manier",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Confusion d'homophones lexicaux. Le nom correct est 'manière'.",
+            "suggestions": [
+              "manière"
+            ],
+            "ruleApplied": "5.2.2"
+          },
+          {
+            "text": "réfrigirateur",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Orthographe d'usage. La graphie correcte est 'réfrigérateur'.",
+            "suggestions": [
+              "réfrigérateur"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "ont",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe 'avoir' doit s'accorder avec son sujet 'Nous les humains' (première personne du pluriel).",
+            "suggestions": [
+              "avons"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "produira",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe 'produire' doit s'accorder avec son sujet 'qui', mis pour 'les conséquences' (troisième personne du pluriel).",
+            "suggestions": [
+              "produiront"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "ses",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion d'homophones grammaticaux. Il faut utiliser le déterminant démonstratif 'ces' et non le possessif 'ses'.",
+            "suggestions": [
+              "ces"
+            ],
+            "ruleApplied": "5.3.3.1"
+          },
+          {
+            "text": "donnes",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe 'donner' doit s'accorder avec son sujet 'RECYC-Québec' (troisième personne du singulier).",
+            "suggestions": [
+              "donne"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "raisonnables",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif 'raisonnables' doit s'accorder en nombre avec le nom 'quantité' qui est au singulier.",
+            "suggestions": [
+              "raisonnable"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "gaspiller",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe 'gaspiller' doit s'accorder avec son sujet 'vous' (deuxième personne du pluriel). Il s'agit d'une confusion entre l'infinitif et la forme conjuguée.",
+            "suggestions": [
+              "gaspillez"
+            ],
+            "ruleApplied": "5.3.2.6"
+          },
+          {
+            "text": "sont",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe 'être' doit s'accorder avec son sujet 'Vous et moi' (équivalent de 'nous', première personne du pluriel).",
+            "suggestions": [
+              "sommes"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "belle",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "_",
+            "description": "L'adjectif 'belle' doit s'accorder en genre avec le nom 'futur' (masculin). L'erreur découle du même donneur d'accord que l'erreur précédente.",
+            "suggestions": [
+              "beau"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "publics",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif 'Chers' est au pluriel alors que le nom 'public' est un nom collectif qui s'emploie généralement au singulier dans cette formule d'adresse. La forme correcte est 'Cher public'.",
+            "suggestions": [
+              "public"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "grande quantité",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom 'quantité' est au pluriel dans ce contexte ('de grandes quantités') et l'adjectif 'grande' doit s'accorder en nombre.",
+            "suggestions": [
+              "de grandes quantités"
+            ],
+            "ruleApplied": "5.3.1.1"
+          }
+        ],
+        "totalErreursCritere4": 19,
+        "totalErreursCritere5": 23,
+        "scoreCritere4": {
+          "pointsPerdus": 12.5,
+          "note": "C"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 20,
+          "note": "E"
+        }
+      }
+    ],
+    "erreursCritere4AvantAnalyseIA": [
+      {
+        "text": "capoterait",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'emploi du verbe 'capoter' relève du registre de langue familier et n'est pas approprié dans ce contexte. Il faut utiliser un verbe de registre courant.",
+        "suggestions": [
+          "paniquerait",
+          "serait désemparée"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "Soit en achetant de grande quantité à l'épicerie ou le gaspillage à la maison.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase est un fragment; elle n'a pas de verbe principal conjugué et constitue une subordonnée sans phrase matrice. De plus, elle coordonne des éléments de nature différente ('en achetant' et 'le gaspillage').",
+        "suggestions": [
+          "Elle se perd soit en achetant de trop grandes quantités à l'épicerie, soit en gaspillant à la maison."
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "text": "abordons sur",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe 'aborder' est un verbe transitif direct et ne doit pas être suivi de la préposition 'sur'.",
+        "suggestions": [
+          "abordons"
+        ],
+        "ruleApplied": "4.1.2.2.2"
+      },
+      {
+        "text": "à cause qu'on",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Le subordonnant 'à cause que' est incorrect. Il faut utiliser 'parce que'. Une erreur de syntaxe (S) a déjà été comptabilisée dans cette phrase.",
+        "suggestions": [
+          "parce qu'on"
+        ],
+        "ruleApplied": "4.1.2.4.2"
+      },
+      {
+        "text": "est même pas",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "La négation est mal employée. Il manque l'adverbe 'n'' avant le verbe. Une erreur de syntaxe (S) a déjà été comptabilisée dans cette phrase.",
+        "suggestions": [
+          "n'est même pas"
+        ],
+        "ruleApplied": "4.1.2.1.3"
+      },
+      {
+        "text": "certains d'autres",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction 'certains d'autres' est redondante. Il faut utiliser soit 'certains autres', soit 'd'autres'.",
+        "suggestions": [
+          "d'autres",
+          "certains autres"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "ans",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule après le complément de phrase 'En cinq ans' placé en tête de phrase.",
+        "suggestions": [
+          "ans,"
+        ],
+        "ruleApplied": "4.2.2.10.1.l"
+      },
+      {
+        "text": "Planifier les repas, acheter en quantité raisonnables et congeler les restes en portions individuelles.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase est un fragment; elle est constituée d'une énumération d'infinitifs sans verbe principal conjugué.",
+        "suggestions": [
+          "Il faut planifier les repas, acheter en quantité raisonnable et congeler les restes en portions individuelles."
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "text": "donne en sorte que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression 'donne en sorte que' est une construction boiteuse. L'expression correcte est 'fait en sorte que'.",
+        "suggestions": [
+          "fait en sorte que"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": "envers comment vous traitez",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction 'envers comment' est boiteuse. Il faut reformuler, par exemple avec 'envers la façon dont vous traitez'.",
+        "suggestions": [
+          "envers la façon dont vous traitez"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "et de changer",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de coordination. On ne peut coordonner 'agir' (infinitif) et 'de changer' (groupe prépositionnel). La préposition 'de' doit être omise.",
+        "suggestions": [
+          "et changer"
+        ],
+        "ruleApplied": "4.1.2.1.8"
+      },
+      {
+        "text": "famine",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque le point final à la fin de la phrase.",
+        "suggestions": [
+          "famine."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "text": "ou le gaspillage",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de coordination. La conjonction 'ou' relie des éléments qui n'ont pas la même fonction grammaticale ('en achetant', un gérondif, et 'le gaspillage', un groupe nominal). Il faut reformuler pour assurer le parallélisme.",
+        "suggestions": [
+          "ou par le gaspillage"
+        ],
+        "ruleApplied": "4.1.2.1.8"
+      },
+      {
+        "text": "même pas",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Omission de l'adverbe de négation 'ne' (élidé 'n''). La structure correcte est 'on n'est même pas'. L'erreur n'est pas comptée, car il y a déjà une erreur de syntaxe (S) dans cette phrase.",
+        "suggestions": [
+          "n'est même pas"
+        ],
+        "ruleApplied": "4.1.2.1.3"
+      },
+      {
+        "text": "Nous les humains ont",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de construction. Le pronom de reprise 'Nous' impose l'accord du verbe à la première personne du pluriel ('avons'). La construction correcte est 'Nous, les humains, avons...'.",
+        "suggestions": [
+          "Nous, les humains, avons"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "envers comment",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction boiteuse. La préposition 'envers' ne peut pas être suivie de l'adverbe interrogatif 'comment'. Il faut reformuler, par exemple avec 'envers la manière dont'.",
+        "suggestions": [
+          "envers la manière dont"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "de changer",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Erreur de coordination. Pour maintenir le parallélisme avec 'agir', il ne faut pas répéter la préposition 'de'. La structure correcte est 'agir et changer'. L'erreur n'est pas comptée, car il y a déjà une erreur de syntaxe (S) dans cette phrase.",
+        "suggestions": [
+          "changer"
+        ],
+        "ruleApplied": "4.1.2.1.8"
+      },
+      {
+        "text": "Rêvons-nous",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Construction boiteuse. La forme interrogative 'Rêvons-nous' est inadéquate dans ce contexte d'exhortation. Une forme impérative ('Rêvons') serait plus appropriée. L'erreur n'est pas comptée, car il y a déjà une erreur de syntaxe (S) dans cette phrase.",
+        "suggestions": [
+          "Rêvons"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": ".",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point final est inapproprié pour cette phrase qui exprime un souhait. Un point d'exclamation serait plus juste.",
+        "suggestions": [
+          "!"
+        ],
+        "ruleApplied": "4.2.2.3.1"
+      }
+    ],
+    "erreursCritere5AvantAnalyseIA": [
+      {
+        "text": "Chers",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'Chers' doit s'accorder en genre et en nombre avec le nom 'public' qui est masculin singulier.",
+        "suggestions": [
+          "Cher"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "publics",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "Le nom 'public' est généralement au singulier pour désigner l'ensemble des spectateurs ou auditeurs. L'erreur découle du même donneur d'accord que l'erreur précédente.",
+        "suggestions": [
+          "public"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "constate",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'constater' doit s'accorder à la troisième personne du pluriel avec son sujet 'certains d'entre nous'.",
+        "suggestions": [
+          "constatent"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "importente",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Orthographe d'usage. La graphie correcte est 'importante'.",
+        "suggestions": [
+          "importante"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "une",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant 'une' doit s'accorder en genre avec le nom 'manque' qui est masculin.",
+        "suggestions": [
+          "un"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "pert",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Barbarisme de conjugaison. La forme correcte du verbe 'perdre' à la troisième personne du singulier du présent de l'indicatif est 'perd'.",
+        "suggestions": [
+          "perd"
+        ],
+        "ruleApplied": "5.3.2.1"
+      },
+      {
+        "text": "grande",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'grande' doit s'accorder au pluriel avec le nom 'quantités' qu'il qualifie implicitement.",
+        "suggestions": [
+          "grandes"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "quantité",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "Le nom 'quantité' devrait être au pluriel pour correspondre au sens de la phrase. L'erreur découle du même donneur d'accord que l'erreur précédente.",
+        "suggestions": [
+          "quantités"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "text": "gaspillé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'gaspillé', employé comme adjectif, doit s'accorder en genre et en nombre avec le nom 'bouffe' (féminin singulier).",
+        "suggestions": [
+          "gaspillée"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "grandes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'grandes' doit s'accorder en genre avec le nom 'rabais' qui est masculin.",
+        "suggestions": [
+          "grands"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "gaspillait",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'gaspiller' à l'imparfait doit s'accorder avec son sujet 'tu' (deuxième personne du singulier).",
+        "suggestions": [
+          "gaspillais"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "manier",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion d'homophones lexicaux. Le nom correct est 'manière'.",
+        "suggestions": [
+          "manière"
+        ],
+        "ruleApplied": "5.2.2"
+      },
+      {
+        "text": "réfrigirateur",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Orthographe d'usage. La graphie correcte est 'réfrigérateur'.",
+        "suggestions": [
+          "réfrigérateur"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "ont",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'avoir' doit s'accorder avec son sujet 'Nous les humains' (première personne du pluriel).",
+        "suggestions": [
+          "avons"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "produira",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'produire' doit s'accorder avec son sujet 'qui', mis pour 'les conséquences' (troisième personne du pluriel).",
+        "suggestions": [
+          "produiront"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "ses",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion d'homophones grammaticaux. Il faut utiliser le déterminant démonstratif 'ces' et non le possessif 'ses'.",
+        "suggestions": [
+          "ces"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "text": "donnes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'donner' doit s'accorder avec son sujet 'RECYC-Québec' (troisième personne du singulier).",
+        "suggestions": [
+          "donne"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "raisonnables",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'raisonnables' doit s'accorder en nombre avec le nom 'quantité' qui est au singulier.",
+        "suggestions": [
+          "raisonnable"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "gaspiller",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'gaspiller' doit s'accorder avec son sujet 'vous' (deuxième personne du pluriel). Il s'agit d'une confusion entre l'infinitif et la forme conjuguée.",
+        "suggestions": [
+          "gaspillez"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "sont",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'être' doit s'accorder avec son sujet 'Vous et moi' (équivalent de 'nous', première personne du pluriel).",
+        "suggestions": [
+          "sommes"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "belle",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "L'adjectif 'belle' doit s'accorder en genre avec le nom 'futur' (masculin). L'erreur découle du même donneur d'accord que l'erreur précédente.",
+        "suggestions": [
+          "beau"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "publics",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'Chers' est au pluriel alors que le nom 'public' est un nom collectif qui s'emploie généralement au singulier dans cette formule d'adresse. La forme correcte est 'Cher public'.",
+        "suggestions": [
+          "public"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "grande quantité",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'quantité' est au pluriel dans ce contexte ('de grandes quantités') et l'adjectif 'grande' doit s'accorder en nombre.",
+        "suggestions": [
+          "de grandes quantités"
+        ],
+        "ruleApplied": "5.3.1.1"
+      }
+    ],
+    "analyseIADuplicatas": {
+      "critere4": {
+        "analyse": {
+          "totalErreursCritere4": 19,
+          "totalErreursCritere5": 0,
+          "duplicatasCritere4": 4,
+          "duplicatasCritere5": 0
+        },
+        "duplicatasCritere4": [
+          {
+            "groupe": 1,
+            "confiance": 95,
+            "raison": "Même erreur de coordination. L'erreur principale (index 1) est plus complète, identifiant la phrase comme un fragment.",
+            "erreurs": [
+              {
+                "index": 1,
+                "text": "Soit en achetant de grande quantité à l'épicerie ou le gaspillage à la maison.",
+                "garder": true
+              },
+              {
+                "index": 12,
+                "text": "ou le gaspillage",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 2,
+            "confiance": 99,
+            "raison": "Même erreur de négation (omission de 'ne'). Le texte à l'index 4 est plus contextuel.",
+            "erreurs": [
+              {
+                "index": 4,
+                "text": "est même pas",
+                "garder": true
+              },
+              {
+                "index": 13,
+                "text": "même pas",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 3,
+            "confiance": 99,
+            "raison": "Même construction incorrecte ('envers comment'). Le texte à l'index 9 est plus contextuel.",
+            "erreurs": [
+              {
+                "index": 9,
+                "text": "envers comment vous traitez",
+                "garder": true
+              },
+              {
+                "index": 15,
+                "text": "envers comment",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 4,
+            "confiance": 99,
+            "raison": "Même erreur de parallélisme dans la coordination. Le texte à l'index 10 est plus complet.",
+            "erreurs": [
+              {
+                "index": 10,
+                "text": "et de changer",
+                "garder": true
+              },
+              {
+                "index": 16,
+                "text": "de changer",
+                "garder": false
+              }
+            ]
+          }
+        ],
+        "duplicatasCritere5": [],
+        "erreursUniquesCritere4": [
+          {
+            "index": 0,
+            "text": "capoterait",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 2,
+            "text": "abordons sur",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 3,
+            "text": "à cause qu'on",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 5,
+            "text": "certains d'autres",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 6,
+            "text": "ans",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 7,
+            "text": "Planifier les repas, acheter en quantité raisonnables et congeler les restes en portions individuelles.",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 8,
+            "text": "donne en sorte que",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 11,
+            "text": "famine",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 14,
+            "text": "Nous les humains ont",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 17,
+            "text": "Rêvons-nous",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 18,
+            "text": ".",
+            "raison": "Aucun duplicata trouvé"
+          }
+        ],
+        "erreursUniquesCritere5": [],
+        "recommandations": {
+          "erreursAConserverCritere4": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            14,
+            17,
+            18
+          ],
+          "erreursAConserverCritere5": [],
+          "erreursASupprimer": {
+            "critere4": [
+              12,
+              13,
+              15,
+              16
+            ],
+            "critere5": []
+          }
+        }
+      },
+      "critere5": {
+        "analyse": {
+          "totalErreursCritere4": 0,
+          "totalErreursCritere5": 23,
+          "duplicatasCritere4": 0,
+          "duplicatasCritere5": 4
+        },
+        "duplicatasCritere4": [],
+        "duplicatasCritere5": [
+          {
+            "groupe": 1,
+            "confiance": 95,
+            "raison": "Même erreur d'accord ('Chers publics') identifiée sur les deux mots concernés. L'erreur avec la description la plus complète est conservée.",
+            "erreurs": [
+              {
+                "index": 0,
+                "text": "Chers",
+                "garder": false
+              },
+              {
+                "index": 1,
+                "text": "publics",
+                "garder": false
+              },
+              {
+                "index": 21,
+                "text": "publics",
+                "garder": true
+              }
+            ]
+          },
+          {
+            "groupe": 2,
+            "confiance": 98,
+            "raison": "Même erreur d'accord ('grande quantité') identifiée sur les mots individuels et l'expression complète. L'erreur la plus complète est conservée.",
+            "erreurs": [
+              {
+                "index": 6,
+                "text": "grande",
+                "garder": false
+              },
+              {
+                "index": 7,
+                "text": "quantité",
+                "garder": false
+              },
+              {
+                "index": 22,
+                "text": "grande quantité",
+                "garder": true
+              }
+            ]
+          }
+        ],
+        "erreursUniquesCritere4": [],
+        "erreursUniquesCritere5": [
+          {
+            "index": 2,
+            "text": "constate",
+            "raison": "Erreur d'accord verbe-sujet unique."
+          },
+          {
+            "index": 3,
+            "text": "importente",
+            "raison": "Erreur d'orthographe d'usage unique."
+          },
+          {
+            "index": 4,
+            "text": "une",
+            "raison": "Erreur d'accord de genre unique."
+          },
+          {
+            "index": 5,
+            "text": "pert",
+            "raison": "Erreur de conjugaison unique."
+          },
+          {
+            "index": 8,
+            "text": "gaspillé",
+            "raison": "Erreur d'accord de participe passé unique."
+          },
+          {
+            "index": 9,
+            "text": "grandes",
+            "raison": "Erreur d'accord de genre unique (contexte différent de l'autre erreur 'grande')."
+          },
+          {
+            "index": 10,
+            "text": "gaspillait",
+            "raison": "Erreur d'accord verbe-sujet unique."
+          },
+          {
+            "index": 11,
+            "text": "manier",
+            "raison": "Confusion d'homophones unique."
+          },
+          {
+            "index": 12,
+            "text": "réfrigirateur",
+            "raison": "Erreur d'orthographe d'usage unique."
+          },
+          {
+            "index": 13,
+            "text": "ont",
+            "raison": "Erreur d'accord verbe-sujet unique."
+          },
+          {
+            "index": 14,
+            "text": "produira",
+            "raison": "Erreur d'accord verbe-sujet unique."
+          },
+          {
+            "index": 15,
+            "text": "ses",
+            "raison": "Confusion d'homophones unique."
+          },
+          {
+            "index": 16,
+            "text": "donnes",
+            "raison": "Erreur d'accord verbe-sujet unique."
+          },
+          {
+            "index": 17,
+            "text": "raisonnables",
+            "raison": "Erreur d'accord en nombre unique."
+          },
+          {
+            "index": 18,
+            "text": "gaspiller",
+            "raison": "Erreur de forme verbale (infinitif/conjugué) unique."
+          },
+          {
+            "index": 19,
+            "text": "sont",
+            "raison": "Erreur d'accord verbe-sujet unique."
+          },
+          {
+            "index": 20,
+            "text": "belle",
+            "raison": "Erreur d'accord de genre unique."
+          }
+        ],
+        "recommandations": {
+          "erreursAConserverCritere4": [],
+          "erreursAConserverCritere5": [
+            2,
+            3,
+            4,
+            5,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22
+          ],
+          "erreursASupprimer": {
+            "critere4": [],
+            "critere5": [
+              0,
+              1,
+              6,
+              7
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1274 @@
+{
+  "processedAt": "2025-12-10T14:09:44.765Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_015.txt",
+    "originalText": "Les solutions au gaspillage alimentaire\r\n\r\nComme vous-vous en doutez, notre planète est en crise. Le réchauffement climatique est plus problématique que jamais. Notre niveau de pollution est plus haut qu'il n'a jamais été et la majeure partie de la population mondiale souffre de la famine. Comment est-ce que nous, occidentaux, pouvons venir en aide dans cette situation? Simplement en réduisant notre gaspillage alimentaire, car nous sommes prêts à combattre le gaspillage alimentaire pour le bien de l'humanité et pour le bien de la planète. Nous pouvons par exemple réduire nos déchets dans notre propre maison et encourager le recyclage alimentaire dans nos lieux publics.\r\n\r\nLa réduction des déchets maisons\r\n\r\nPour débuter, nous devons réduire nos déchets dans nos maisons puisqu'il s'agit d'une très grande cause du gaspillage alimentaire. Plus facile à dire qu'à faire, certes, mais le résultat sera positif. Le gaspillage à la maison est en partie causé par le manque de temps, si nous n'avons pas le temps de simplement cuisiner, nous soucier du gaspillage est la moindre de nos priorités. Mais il y a peut-être de l'abus également car, d'après Florence-Léa Siry, une experte en lutte contre le gaspillage alimentaire, 50% du gaspillage alimentaire pourrait être évité si les consommateurs conservaient plus efficacement leurs aliments.De plus, près de 931 millions de tonnes de déchets, dont 2,2 millions de tonnes au Canada, ont été gaspillée en 2019. Sur ce nombre exorbitant de détritus, 47% provient de la consommation dans nos foyers. Si chacun des ses ménages se mettent subitement à faire plus attention à leurs déchets, ce nombre démesuré serait divisé de moitié, ce qui serait alors beaucoup plus facile à gérer. En résumé, les gens devraient essayer de conserver de manière plus productive et le niveau d'ordures qui aurait pu servir à quelqu'un en ayant besoin devrait diminuer.\r\n\r\nLe recyclage alimentaire en lieux publics\r\n\r\nPour continuer, le recyclage alimentaire devrait être de mise au sein de nos lieux publics. Près de 19% de nos déchets alimentaires proviennent de nos restaurants et de nos hôtels. Ce sera aux restaurateurs et aux hôteliers de repenser les portions de nourriture qui sont trop grosses, les normes esthétiques pour la nourriture servie et la fraîcheur des aliments. Ce sont ses problèmes qui nuisent à la bonne utilisation de cette nourriture qui aurait pu être utilisée au lieu d'être gaspillés. D'après Pascal Thériault, les clients acceptent les imperfections lorsqu'ils achètent du producteur directement, mais lorsqu'il s'agit de choisir à l'épicerie, ces mêmes gens choisissent les aliments ayant l'air le plus parfait possible. Certaines plateformes comme Flashfood ou Secondlife permettent à ses denrées délaissées de servir. Si de tels moyens n'existaient pas, toute cette nourriture, pourtant mangeable, aurait été jeté et les plus démunis n'auraient que moins de nourriture à se mettre sous la dent. C'est donc à nos commerces de limiter le gaspillage et de donner les restent aux plateformes tels que Flashfood.\r\n\r\nPour conclure, le gaspillage alimentaire est un fléau pour l'environnement et un énorme gachie de victuailles qui pourrait servir à nos moins bien nantis, pour mettre de la nourriture sur leurs tables. Il suffit de mieux conserver nos aliments et leurs restent et offrir les aliment non vendu aux plus démunis.",
+    "erreursCritere4": [
+      {
+        "text": "aliments.De",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une espace est requise après un point pour séparer deux phrases distinctes.",
+        "suggestions": [
+          "aliments. De"
+        ],
+        "ruleApplied": "4.2.2.1.2"
+      },
+      {
+        "text": "leurs",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'adjectif possessif « leurs » doit s'accorder avec son antécédent « chacun », qui est un pronom singulier. Il faut donc utiliser « ses ».",
+        "suggestions": [
+          "ses"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "text": "en lieux publics",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition « en » est incorrecte ici. Il faut utiliser « dans les » devant « lieux publics ».",
+        "suggestions": [
+          "dans les lieux publics"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "n'auraient que moins de nourriture",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction « ne... que moins » est sémantiquement incorrecte. La locution restrictive « ne... que » ne peut être suivie d'un comparatif comme « moins » de cette manière. Il faut reformuler pour exprimer l'idée d'une quantité encore plus faible.",
+        "suggestions": [
+          "auraient encore moins de nourriture",
+          "n'auraient plus autant de nourriture"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": "démunis",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Un point est requis pour marquer la fin de la phrase et du texte.",
+        "suggestions": [
+          "démunis."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "text": "vous-vous",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom personnel « vous » est répété inutilement. Il s'agit d'un mot superflu.",
+        "suggestions": [
+          "vous"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "en ayant besoin",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction « en ayant besoin » est boiteuse. Il est préférable d'utiliser une proposition relative comme « qui en aurait eu besoin » ou une expression comme « dans le besoin ».",
+        "suggestions": [
+          "qui en aurait eu besoin",
+          "dans le besoin"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 6,
+      "note": "B"
+    },
+    "erreursCritere5": [
+      {
+        "text": "vous-vous",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le pronom personnel répété « vous » ne prend pas de trait d'union.",
+        "suggestions": [
+          "vous vous"
+        ],
+        "ruleApplied": "5.2.1.7.5"
+      },
+      {
+        "text": "maisons",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « maison » employé en complément du nom « déchets » reste au singulier.",
+        "suggestions": [
+          "maison"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "text": "gaspillée",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « gaspillé », employé avec l'auxiliaire « être », s'accorde en genre et en nombre avec son sujet « près de 931 millions de tonnes de déchets » (masculin pluriel).",
+        "suggestions": [
+          "gaspillés"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "ses",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'adjectif possessif « ses » et l'adjectif démonstratif « ces ». Le sens de la phrase requiert le démonstratif.",
+        "suggestions": [
+          "ces"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "text": "gaspillés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « gaspillé », employé avec l'auxiliaire « être », doit s'accorder en genre et en nombre avec son sujet, repris par le pronom « qui » dont l'antécédent est « cette nourriture » (féminin singulier).",
+        "suggestions": [
+          "gaspillée"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "ses",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'adjectif possessif « ses » et l'adjectif démonstratif « ces ». Le sens de la phrase requiert le démonstratif.",
+        "suggestions": [
+          "ces"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "text": "jeté",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « jeté », employé avec l'auxiliaire « être », s'accorde en genre et en nombre avec son sujet « toute cette nourriture » (féminin singulier).",
+        "suggestions": [
+          "jetée"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "restent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le verbe « restent » (3e personne du pluriel du verbe rester) et le nom commun masculin pluriel « restes ».",
+        "suggestions": [
+          "restes"
+        ],
+        "ruleApplied": "5.3.3.2"
+      },
+      {
+        "text": "tels",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « tel » s'accorde en genre et en nombre avec le nom auquel il se rapporte, ici « plateformes » (féminin pluriel).",
+        "suggestions": [
+          "telles"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "gachie",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Orthographe d'usage incorrecte du mot « gâchis ».",
+        "suggestions": [
+          "gâchis"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "pourrait",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe « pouvoir » doit s'accorder avec le sujet « qui », dont l'antécédent est « victuailles » (féminin pluriel). Il faut donc utiliser la 3e personne du pluriel.",
+        "suggestions": [
+          "pourraient"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "restent",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le verbe « restent » (3e personne du pluriel du verbe rester) et le nom commun masculin pluriel « restes ».",
+        "suggestions": [
+          "restes"
+        ],
+        "ruleApplied": "5.3.3.2"
+      },
+      {
+        "text": "aliment",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « aliment » doit s'accorder en nombre avec son déterminant « les » (pluriel).",
+        "suggestions": [
+          "aliments"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "se mettent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe « se mettre » doit s'accorder avec son sujet « chacun », qui est à la troisième personne du singulier.",
+        "suggestions": [
+          "se met"
+        ],
+        "ruleApplied": "5.3.2.2"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 14,
+      "note": "C"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:05:45.574Z",
+    "endTimestamp": "2025-12-10T14:09:44.765Z",
+    "durationMs": 239191,
+    "durationFormatted": "03:59:191",
+    "cumulParPasse": [
+      {
+        "passe": 1,
+        "erreursCritere4": [
+          {
+            "text": "aliments.De",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Une espace est requise après un point pour séparer deux phrases distinctes.",
+            "suggestions": [
+              "aliments. De"
+            ],
+            "ruleApplied": "4.2.2.1.2"
+          },
+          {
+            "text": "leurs",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'adjectif possessif « leurs » doit s'accorder avec son antécédent « chacun », qui est un pronom singulier. Il faut donc utiliser « ses ».",
+            "suggestions": [
+              "ses"
+            ],
+            "ruleApplied": "4.1.2.3.2"
+          },
+          {
+            "text": "en lieux publics",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La préposition « en » est incorrecte ici. Il faut utiliser « dans les » devant « lieux publics ».",
+            "suggestions": [
+              "dans les lieux publics"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "n'auraient que moins de nourriture",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction « ne... que moins » est sémantiquement incorrecte. La locution restrictive « ne... que » ne peut être suivie d'un comparatif comme « moins » de cette manière. Il faut reformuler pour exprimer l'idée d'une quantité encore plus faible.",
+            "suggestions": [
+              "auraient encore moins de nourriture",
+              "n'auraient plus autant de nourriture"
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          },
+          {
+            "text": "démunis",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Un point est requis pour marquer la fin de la phrase et du texte.",
+            "suggestions": [
+              "démunis."
+            ],
+            "ruleApplied": "4.2.2.1.1"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "vous-vous",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Le pronom personnel répété « vous » ne prend pas de trait d'union.",
+            "suggestions": [
+              "vous vous"
+            ],
+            "ruleApplied": "5.2.1.7.5"
+          },
+          {
+            "text": "maisons",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom « maison » employé en complément du nom « déchets » reste au singulier.",
+            "suggestions": [
+              "maison"
+            ],
+            "ruleApplied": "5.3.1.5"
+          },
+          {
+            "text": "gaspillée",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé « gaspillé », employé avec l'auxiliaire « être », s'accorde en genre et en nombre avec son sujet « près de 931 millions de tonnes de déchets » (masculin pluriel).",
+            "suggestions": [
+              "gaspillés"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "ses",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre l'adjectif possessif « ses » et l'adjectif démonstratif « ces ». Le sens de la phrase requiert le démonstratif.",
+            "suggestions": [
+              "ces"
+            ],
+            "ruleApplied": "5.3.3.1"
+          },
+          {
+            "text": "mettent",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe « se mettre » s'accorde avec son sujet « chacun », qui est à la troisième personne du singulier.",
+            "suggestions": [
+              "met"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "gaspillés",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé « gaspillé », employé avec l'auxiliaire « être », doit s'accorder en genre et en nombre avec son sujet, repris par le pronom « qui » dont l'antécédent est « cette nourriture » (féminin singulier).",
+            "suggestions": [
+              "gaspillée"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "ses",
+            "occurenceIndex": 1,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre l'adjectif possessif « ses » et l'adjectif démonstratif « ces ». Le sens de la phrase requiert le démonstratif.",
+            "suggestions": [
+              "ces"
+            ],
+            "ruleApplied": "5.3.3.1"
+          },
+          {
+            "text": "jeté",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé « jeté », employé avec l'auxiliaire « être », s'accorde en genre et en nombre avec son sujet « toute cette nourriture » (féminin singulier).",
+            "suggestions": [
+              "jetée"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "restent",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre le verbe « restent » (3e personne du pluriel du verbe rester) et le nom commun masculin pluriel « restes ».",
+            "suggestions": [
+              "restes"
+            ],
+            "ruleApplied": "5.3.3.2"
+          },
+          {
+            "text": "tels",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif « tel » s'accorde en genre et en nombre avec le nom auquel il se rapporte, ici « plateformes » (féminin pluriel).",
+            "suggestions": [
+              "telles"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "gachie",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Orthographe d'usage incorrecte du mot « gâchis ».",
+            "suggestions": [
+              "gâchis"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "pourrait",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe « pouvoir » doit s'accorder avec le sujet « qui », dont l'antécédent est « victuailles » (féminin pluriel). Il faut donc utiliser la 3e personne du pluriel.",
+            "suggestions": [
+              "pourraient"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "restent",
+            "occurenceIndex": 1,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre le verbe « restent » (3e personne du pluriel du verbe rester) et le nom commun masculin pluriel « restes ».",
+            "suggestions": [
+              "restes"
+            ],
+            "ruleApplied": "5.3.3.2"
+          },
+          {
+            "text": "aliment",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom « aliment » doit s'accorder en nombre avec son déterminant « les » (pluriel).",
+            "suggestions": [
+              "aliments"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "vendu",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "_",
+            "description": "Le participe passé « vendu », employé comme adjectif, doit s'accorder en nombre avec le nom qu'il qualifie, « aliments » (masculin pluriel). L'erreur n'est pas comptabilisée, car elle découle du même donneur d'accord (« les aliment ») que l'erreur précédente.",
+            "suggestions": [
+              "vendus"
+            ],
+            "ruleApplied": "5.3.2.3"
+          }
+        ],
+        "totalErreursCritere4": 5,
+        "totalErreursCritere5": 15,
+        "scoreCritere4": {
+          "pointsPerdus": 4,
+          "note": "A"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 14,
+          "note": "C"
+        }
+      },
+      {
+        "passe": 2,
+        "erreursCritere4": [
+          {
+            "text": "aliments.De",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Une espace est requise après un point pour séparer deux phrases distinctes.",
+            "suggestions": [
+              "aliments. De"
+            ],
+            "ruleApplied": "4.2.2.1.2"
+          },
+          {
+            "text": "leurs",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'adjectif possessif « leurs » doit s'accorder avec son antécédent « chacun », qui est un pronom singulier. Il faut donc utiliser « ses ».",
+            "suggestions": [
+              "ses"
+            ],
+            "ruleApplied": "4.1.2.3.2"
+          },
+          {
+            "text": "en lieux publics",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La préposition « en » est incorrecte ici. Il faut utiliser « dans les » devant « lieux publics ».",
+            "suggestions": [
+              "dans les lieux publics"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "n'auraient que moins de nourriture",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction « ne... que moins » est sémantiquement incorrecte. La locution restrictive « ne... que » ne peut être suivie d'un comparatif comme « moins » de cette manière. Il faut reformuler pour exprimer l'idée d'une quantité encore plus faible.",
+            "suggestions": [
+              "auraient encore moins de nourriture",
+              "n'auraient plus autant de nourriture"
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          },
+          {
+            "text": "démunis",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Un point est requis pour marquer la fin de la phrase et du texte.",
+            "suggestions": [
+              "démunis."
+            ],
+            "ruleApplied": "4.2.2.1.1"
+          },
+          {
+            "text": "vous-vous",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le pronom personnel « vous » est répété inutilement. Il s'agit d'un mot superflu.",
+            "suggestions": [
+              "vous"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "en ayant besoin",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction « en ayant besoin » est boiteuse. Il est préférable d'utiliser une proposition relative comme « qui en aurait eu besoin » ou une expression comme « dans le besoin ».",
+            "suggestions": [
+              "qui en aurait eu besoin",
+              "dans le besoin"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "n'auraient que moins de",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'emploi simultané de la restriction « ne... que » et du comparatif « moins de » est incorrect. Il faut choisir l'une des deux formulations : « auraient moins de nourriture » ou « n'auraient que peu de nourriture ».",
+            "suggestions": [
+              "auraient moins de",
+              "n'auraient que peu de"
+            ],
+            "ruleApplied": "4.1.2.1.3"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "vous-vous",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Le pronom personnel répété « vous » ne prend pas de trait d'union.",
+            "suggestions": [
+              "vous vous"
+            ],
+            "ruleApplied": "5.2.1.7.5"
+          },
+          {
+            "text": "maisons",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom « maison » employé en complément du nom « déchets » reste au singulier.",
+            "suggestions": [
+              "maison"
+            ],
+            "ruleApplied": "5.3.1.5"
+          },
+          {
+            "text": "gaspillée",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé « gaspillé », employé avec l'auxiliaire « être », s'accorde en genre et en nombre avec son sujet « près de 931 millions de tonnes de déchets » (masculin pluriel).",
+            "suggestions": [
+              "gaspillés"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "ses",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre l'adjectif possessif « ses » et l'adjectif démonstratif « ces ». Le sens de la phrase requiert le démonstratif.",
+            "suggestions": [
+              "ces"
+            ],
+            "ruleApplied": "5.3.3.1"
+          },
+          {
+            "text": "mettent",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe « se mettre » s'accorde avec son sujet « chacun », qui est à la troisième personne du singulier.",
+            "suggestions": [
+              "met"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "gaspillés",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé « gaspillé », employé avec l'auxiliaire « être », doit s'accorder en genre et en nombre avec son sujet, repris par le pronom « qui » dont l'antécédent est « cette nourriture » (féminin singulier).",
+            "suggestions": [
+              "gaspillée"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "ses",
+            "occurenceIndex": 1,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre l'adjectif possessif « ses » et l'adjectif démonstratif « ces ». Le sens de la phrase requiert le démonstratif.",
+            "suggestions": [
+              "ces"
+            ],
+            "ruleApplied": "5.3.3.1"
+          },
+          {
+            "text": "jeté",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé « jeté », employé avec l'auxiliaire « être », s'accorde en genre et en nombre avec son sujet « toute cette nourriture » (féminin singulier).",
+            "suggestions": [
+              "jetée"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "restent",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre le verbe « restent » (3e personne du pluriel du verbe rester) et le nom commun masculin pluriel « restes ».",
+            "suggestions": [
+              "restes"
+            ],
+            "ruleApplied": "5.3.3.2"
+          },
+          {
+            "text": "tels",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif « tel » s'accorde en genre et en nombre avec le nom auquel il se rapporte, ici « plateformes » (féminin pluriel).",
+            "suggestions": [
+              "telles"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "gachie",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Orthographe d'usage incorrecte du mot « gâchis ».",
+            "suggestions": [
+              "gâchis"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "pourrait",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe « pouvoir » doit s'accorder avec le sujet « qui », dont l'antécédent est « victuailles » (féminin pluriel). Il faut donc utiliser la 3e personne du pluriel.",
+            "suggestions": [
+              "pourraient"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "restent",
+            "occurenceIndex": 1,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre le verbe « restent » (3e personne du pluriel du verbe rester) et le nom commun masculin pluriel « restes ».",
+            "suggestions": [
+              "restes"
+            ],
+            "ruleApplied": "5.3.3.2"
+          },
+          {
+            "text": "aliment",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom « aliment » doit s'accorder en nombre avec son déterminant « les » (pluriel).",
+            "suggestions": [
+              "aliments"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "vendu",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "_",
+            "description": "Le participe passé « vendu », employé comme adjectif, doit s'accorder en nombre avec le nom qu'il qualifie, « aliments » (masculin pluriel). L'erreur n'est pas comptabilisée, car elle découle du même donneur d'accord (« les aliment ») que l'erreur précédente.",
+            "suggestions": [
+              "vendus"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "se mettent",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe « se mettre » doit s'accorder avec son sujet « chacun », qui est à la troisième personne du singulier.",
+            "suggestions": [
+              "se met"
+            ],
+            "ruleApplied": "5.3.2.2"
+          }
+        ],
+        "totalErreursCritere4": 8,
+        "totalErreursCritere5": 16,
+        "scoreCritere4": {
+          "pointsPerdus": 7,
+          "note": "B"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 15,
+          "note": "D"
+        }
+      }
+    ],
+    "erreursCritere4AvantAnalyseIA": [
+      {
+        "text": "aliments.De",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une espace est requise après un point pour séparer deux phrases distinctes.",
+        "suggestions": [
+          "aliments. De"
+        ],
+        "ruleApplied": "4.2.2.1.2"
+      },
+      {
+        "text": "leurs",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'adjectif possessif « leurs » doit s'accorder avec son antécédent « chacun », qui est un pronom singulier. Il faut donc utiliser « ses ».",
+        "suggestions": [
+          "ses"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "text": "en lieux publics",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition « en » est incorrecte ici. Il faut utiliser « dans les » devant « lieux publics ».",
+        "suggestions": [
+          "dans les lieux publics"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "n'auraient que moins de nourriture",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction « ne... que moins » est sémantiquement incorrecte. La locution restrictive « ne... que » ne peut être suivie d'un comparatif comme « moins » de cette manière. Il faut reformuler pour exprimer l'idée d'une quantité encore plus faible.",
+        "suggestions": [
+          "auraient encore moins de nourriture",
+          "n'auraient plus autant de nourriture"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": "démunis",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Un point est requis pour marquer la fin de la phrase et du texte.",
+        "suggestions": [
+          "démunis."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "text": "vous-vous",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom personnel « vous » est répété inutilement. Il s'agit d'un mot superflu.",
+        "suggestions": [
+          "vous"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "en ayant besoin",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction « en ayant besoin » est boiteuse. Il est préférable d'utiliser une proposition relative comme « qui en aurait eu besoin » ou une expression comme « dans le besoin ».",
+        "suggestions": [
+          "qui en aurait eu besoin",
+          "dans le besoin"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "n'auraient que moins de",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'emploi simultané de la restriction « ne... que » et du comparatif « moins de » est incorrect. Il faut choisir l'une des deux formulations : « auraient moins de nourriture » ou « n'auraient que peu de nourriture ».",
+        "suggestions": [
+          "auraient moins de",
+          "n'auraient que peu de"
+        ],
+        "ruleApplied": "4.1.2.1.3"
+      }
+    ],
+    "erreursCritere5AvantAnalyseIA": [
+      {
+        "text": "vous-vous",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le pronom personnel répété « vous » ne prend pas de trait d'union.",
+        "suggestions": [
+          "vous vous"
+        ],
+        "ruleApplied": "5.2.1.7.5"
+      },
+      {
+        "text": "maisons",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « maison » employé en complément du nom « déchets » reste au singulier.",
+        "suggestions": [
+          "maison"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "text": "gaspillée",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « gaspillé », employé avec l'auxiliaire « être », s'accorde en genre et en nombre avec son sujet « près de 931 millions de tonnes de déchets » (masculin pluriel).",
+        "suggestions": [
+          "gaspillés"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "ses",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'adjectif possessif « ses » et l'adjectif démonstratif « ces ». Le sens de la phrase requiert le démonstratif.",
+        "suggestions": [
+          "ces"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "text": "mettent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe « se mettre » s'accorde avec son sujet « chacun », qui est à la troisième personne du singulier.",
+        "suggestions": [
+          "met"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "gaspillés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « gaspillé », employé avec l'auxiliaire « être », doit s'accorder en genre et en nombre avec son sujet, repris par le pronom « qui » dont l'antécédent est « cette nourriture » (féminin singulier).",
+        "suggestions": [
+          "gaspillée"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "ses",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'adjectif possessif « ses » et l'adjectif démonstratif « ces ». Le sens de la phrase requiert le démonstratif.",
+        "suggestions": [
+          "ces"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "text": "jeté",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « jeté », employé avec l'auxiliaire « être », s'accorde en genre et en nombre avec son sujet « toute cette nourriture » (féminin singulier).",
+        "suggestions": [
+          "jetée"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "restent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le verbe « restent » (3e personne du pluriel du verbe rester) et le nom commun masculin pluriel « restes ».",
+        "suggestions": [
+          "restes"
+        ],
+        "ruleApplied": "5.3.3.2"
+      },
+      {
+        "text": "tels",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « tel » s'accorde en genre et en nombre avec le nom auquel il se rapporte, ici « plateformes » (féminin pluriel).",
+        "suggestions": [
+          "telles"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "gachie",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Orthographe d'usage incorrecte du mot « gâchis ».",
+        "suggestions": [
+          "gâchis"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "pourrait",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe « pouvoir » doit s'accorder avec le sujet « qui », dont l'antécédent est « victuailles » (féminin pluriel). Il faut donc utiliser la 3e personne du pluriel.",
+        "suggestions": [
+          "pourraient"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "restent",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le verbe « restent » (3e personne du pluriel du verbe rester) et le nom commun masculin pluriel « restes ».",
+        "suggestions": [
+          "restes"
+        ],
+        "ruleApplied": "5.3.3.2"
+      },
+      {
+        "text": "aliment",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « aliment » doit s'accorder en nombre avec son déterminant « les » (pluriel).",
+        "suggestions": [
+          "aliments"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "vendu",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "Le participe passé « vendu », employé comme adjectif, doit s'accorder en nombre avec le nom qu'il qualifie, « aliments » (masculin pluriel). L'erreur n'est pas comptabilisée, car elle découle du même donneur d'accord (« les aliment ») que l'erreur précédente.",
+        "suggestions": [
+          "vendus"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "se mettent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe « se mettre » doit s'accorder avec son sujet « chacun », qui est à la troisième personne du singulier.",
+        "suggestions": [
+          "se met"
+        ],
+        "ruleApplied": "5.3.2.2"
+      }
+    ],
+    "analyseIADuplicatas": {
+      "critere4": {
+        "analyse": {
+          "totalErreursCritere4": 8,
+          "totalErreursCritere5": 0,
+          "duplicatasCritere4": 1,
+          "duplicatasCritere5": 0
+        },
+        "duplicatasCritere4": [
+          {
+            "groupe": 1,
+            "confiance": 95,
+            "raison": "Même erreur de construction syntaxique ('ne... que moins'). Le texte de l'erreur à l'index 7 est inclus dans celui de l'index 3 et les descriptions sont sémantiquement équivalentes.",
+            "erreurs": [
+              {
+                "index": 3,
+                "text": "n'auraient que moins de nourriture",
+                "garder": true
+              },
+              {
+                "index": 7,
+                "text": "n'auraient que moins de",
+                "garder": false
+              }
+            ]
+          }
+        ],
+        "duplicatasCritere5": [],
+        "erreursUniquesCritere4": [
+          {
+            "index": 0,
+            "text": "aliments.De",
+            "raison": "Erreur de ponctuation unique (espace manquante)."
+          },
+          {
+            "index": 1,
+            "text": "leurs",
+            "raison": "Erreur d'accord de pronom possessif unique."
+          },
+          {
+            "index": 2,
+            "text": "en lieux publics",
+            "raison": "Erreur de préposition unique."
+          },
+          {
+            "index": 4,
+            "text": "démunis",
+            "raison": "Erreur de ponctuation unique (point final manquant)."
+          },
+          {
+            "index": 5,
+            "text": "vous-vous",
+            "raison": "Erreur de mot superflu unique."
+          },
+          {
+            "index": 6,
+            "text": "en ayant besoin",
+            "raison": "Erreur de construction de phrase unique."
+          }
+        ],
+        "erreursUniquesCritere5": [],
+        "recommandations": {
+          "erreursAConserverCritere4": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "erreursAConserverCritere5": [],
+          "erreursASupprimer": {
+            "critere4": [
+              7
+            ],
+            "critere5": []
+          }
+        }
+      },
+      "critere5": {
+        "analyse": {
+          "totalErreursCritere4": 0,
+          "totalErreursCritere5": 16,
+          "duplicatasCritere4": 0,
+          "duplicatasCritere5": 2
+        },
+        "duplicatasCritere4": [],
+        "duplicatasCritere5": [
+          {
+            "groupe": 1,
+            "confiance": 95,
+            "raison": "Même erreur d'accord verbal sur le même segment de texte. L'erreur à l'index 15 est plus complète.",
+            "erreurs": [
+              {
+                "index": 15,
+                "text": "se mettent",
+                "garder": true
+              },
+              {
+                "index": 4,
+                "text": "mettent",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 2,
+            "confiance": 90,
+            "raison": "Erreur d'accord consécutive. La description de l'erreur à l'index 14 indique qu'elle découle de l'erreur à l'index 13.",
+            "erreurs": [
+              {
+                "index": 13,
+                "text": "aliment",
+                "garder": true
+              },
+              {
+                "index": 14,
+                "text": "vendu",
+                "garder": false
+              }
+            ]
+          }
+        ],
+        "erreursUniquesCritere4": [],
+        "erreursUniquesCritere5": [
+          {
+            "index": 0,
+            "text": "vous-vous",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 1,
+            "text": "maisons",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 2,
+            "text": "gaspillée",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 3,
+            "text": "ses",
+            "raison": "Erreur distincte (occurrence 0)"
+          },
+          {
+            "index": 5,
+            "text": "gaspillés",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 6,
+            "text": "ses",
+            "raison": "Erreur distincte (occurrence 1)"
+          },
+          {
+            "index": 7,
+            "text": "jeté",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 8,
+            "text": "restent",
+            "raison": "Erreur distincte (occurrence 0)"
+          },
+          {
+            "index": 9,
+            "text": "tels",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 10,
+            "text": "gachie",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 11,
+            "text": "pourrait",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 12,
+            "text": "restent",
+            "raison": "Erreur distincte (occurrence 1)"
+          }
+        ],
+        "recommandations": {
+          "erreursAConserverCritere4": [],
+          "erreursAConserverCritere5": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            15
+          ],
+          "erreursASupprimer": {
+            "critere4": [],
+            "critere5": [
+              4,
+              14
+            ]
+          }
+        }
+      }
+    }
+  }
+}

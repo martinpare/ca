@@ -1,0 +1,993 @@
+{
+  "processedAt": "2025-12-10T14:18:35.613Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_033.txt",
+    "originalText": "Quel gâchis!\r\n\r\nD'un continent à un autre, et d'une famille à une autre, il est possible de manger à sa faim tout comme ne pas avoir de quoi se nourrir. Dans les deux cas, un élément est soit délaissé soit pris en compte. Il s'agit du gaspillage alimentaire, habitude et réalité dévastatrice. À quand le changement? C'est bien ce que je me pose comme questionparce que là-dessus, je suis pertinemment certaine que la situation est loin de s'améliorer, et ce, pour très longtemps.\r\n\r\nTout d'abord, je tiens ces propos principalement en me basant sur la mentalité ainsi que l'irrationalité de l'être humain face à certains choix. En effet, il cherche et chercheratoujours les défauts là où il n'y en a pas, à vouloir la perfection lorsqu'il est question d'alimentation. D'ailleurs, Daphné Cameron dans son article publié dans La Presse+, explique en parrallèle que « [...] les consommateurs associent souvent l'apparence d'un fruit ou d'un légume à sa fraîcheur et à sa qualité.». Malheuresement, ce reflèxe qu'on a est difficile à changer. De plus, l'Homme peut très vite devenir influençable face aux influences de la société. Par influence, je veux surtout pointer du doigt les annoncespublicitaires. Vous connaissez sans doute la fameuse promotion du 2 pour 1 n'est-ce pas? Ces panneaux et ces videos nous amènent à acheter certains aliments jugés non-nécessaire, selon ce dont on a besoin, et cela, en grande quantité (Roy, 2018). Cela mène comme vous l'auriez sûrement déviné au gaspillage, pourtant inévitable.\r\n\r\nEnsuite, je ne pense pas seulement que nous sommes loins d'être prêts à lutter contre le gaspillage alimentaire à cause de nous, les consommateurs. Je l'affirme sincèrement parce que le gouvernement a autant une part de responsabilité. Stéphane Lacasse, porte-parole de l'Association des détaillants en alimentation du Québec affirme que les banques alimentaires ne sont pas en mesure de recevoir des aliments invendus de la part des épiciers pour la simple et unique raison que les gouvernements ne les équipent pas ni les aident financièrement. En d'autres termes, ils se doivent de venir en aide à ceux qui s'efforcent de lutter contre ce problème. Autrement, comment aboutir à un réel changement? Le problème est loin d'être réglé.\r\n\r\nEn conclusion, citoyens ainsi que gouvernements sont impliqués dans la problématique qu'est le gaspillage alimentaire. Hélas, nous sommes loins d'en avoir finis si l'un ne pense pas plus loin que son estomac et l'autre à ses poches. Il est important de se le rappeler : nous somme acteurs du changement. Tâchons d'ouvrir les yeux.",
+    "erreursCritere4": [
+      {
+        "text": ".».",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Présence erronée d'un second point final après le guillemet fermant. Le point à l'intérieur de la citation suffit à marquer la fin de la phrase.",
+        "suggestions": [
+          ".»"
+        ],
+        "ruleApplied": "4.2.2.1.2"
+      },
+      {
+        "text": "mène comme",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de la virgule ouvrante pour isoler l'incidente « comme vous l'auriez sûrement déviné ». Une virgule est également manquante après « déviné ».",
+        "suggestions": [
+          "mène, comme"
+        ],
+        "ruleApplied": "4.2.2.10.1.g"
+      },
+      {
+        "text": "et l'autre à ses poches",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de syntaxe dans la coordination. La structure est boiteuse car elle coordonne une proposition verbale (« l'un ne pense pas... ») avec un groupe prépositionnel (« l'autre à ses poches »).",
+        "suggestions": [
+          "et que l'autre ne pense qu'à ses poches"
+        ],
+        "ruleApplied": "4.1.2.1.8"
+      },
+      {
+        "text": "Québec affirme",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule est requise après le groupe en apposition 'porte-parole de l'Association des détaillants en alimentation du Québec' pour le séparer du verbe 'affirme'.",
+        "suggestions": [
+          "Québec, affirme"
+        ],
+        "ruleApplied": "4.2.2.10.1.i"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 2.5,
+      "note": "A"
+    },
+    "erreursCritere5": [
+      {
+        "text": "questionparce",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Fusion fautive des mots « question » et « parce ». Il faut les séparer par un espacement.",
+        "suggestions": [
+          "question parce"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "text": "chercheratoujours",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Fusion fautive du verbe « cherchera » et de l'adverbe « toujours ». Il faut les séparer par un espacement.",
+        "suggestions": [
+          "cherchera toujours"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "text": "parrallèle",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Orthographe d'usage. Le mot « parallèle » s'écrit avec un seul 'r' et deux 'l'.",
+        "suggestions": [
+          "parallèle"
+        ],
+        "ruleApplied": "5.2.1.6"
+      },
+      {
+        "text": "Malheuresement",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Orthographe d'usage. Il manque la lettre 'u' dans l'adverbe « malheureusement ».",
+        "suggestions": [
+          "Malheureusement"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "reflèxe",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Orthographe d'usage. Le mot « réflexe » s'écrit avec un accent aigu sur le premier 'e'.",
+        "suggestions": [
+          "réflexe"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "text": "annoncespublicitaires",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Fusion fautive du nom « annonces » et de l'adjectif « publicitaires ». Il faut les séparer par un espacement.",
+        "suggestions": [
+          "annonces publicitaires"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "text": "videos",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Orthographe d'usage. Le mot « vidéo » prend un accent aigu en français.",
+        "suggestions": [
+          "vidéos"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "text": "non-nécessaire",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. L'adjectif « nécessaire » doit s'accorder au pluriel avec le nom « aliments », qui est le donneur.",
+        "suggestions": [
+          "non-nécessaires"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "déviné",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Orthographe d'usage. Le verbe « deviner » s'écrit avec un 'e' et non un 'é' dans son radical.",
+        "suggestions": [
+          "deviné"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "text": "loins",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'usage. L'adverbe « loin » est invariable et ne prend jamais de 's'.",
+        "suggestions": [
+          "loin"
+        ],
+        "ruleApplied": "5.2.1.5"
+      },
+      {
+        "text": "loins",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Répétition d'une erreur d'usage déjà signalée. L'adverbe « loin » est invariable.",
+        "suggestions": [
+          "loin"
+        ],
+        "ruleApplied": "5.1.3"
+      },
+      {
+        "text": "finis",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord du participe passé. Avec l'auxiliaire « avoir », le participe passé est invariable lorsque le pronom « en » est complément d'objet direct.",
+        "suggestions": [
+          "fini"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "somme",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur de conjugaison. La forme du verbe « être » à la première personne du pluriel du présent de l'indicatif est « sommes ».",
+        "suggestions": [
+          "sommes"
+        ],
+        "ruleApplied": "5.3.2.1"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 12,
+      "note": "C"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:14:49.471Z",
+    "endTimestamp": "2025-12-10T14:18:35.613Z",
+    "durationMs": 226142,
+    "durationFormatted": "03:46:142",
+    "cumulParPasse": [
+      {
+        "passe": 1,
+        "erreursCritere4": [
+          {
+            "text": ".».",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Présence erronée d'un second point final après le guillemet fermant. Le point à l'intérieur de la citation suffit à marquer la fin de la phrase.",
+            "suggestions": [
+              ".»"
+            ],
+            "ruleApplied": "4.2.2.1.2"
+          },
+          {
+            "text": "mène comme",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Absence de la virgule ouvrante pour isoler l'incidente « comme vous l'auriez sûrement déviné ». Une virgule est également manquante après « déviné ».",
+            "suggestions": [
+              "mène, comme"
+            ],
+            "ruleApplied": "4.2.2.10.1.g"
+          },
+          {
+            "text": "et l'autre à ses poches",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Erreur de syntaxe dans la coordination. La structure est boiteuse car elle coordonne une proposition verbale (« l'un ne pense pas... ») avec un groupe prépositionnel (« l'autre à ses poches »).",
+            "suggestions": [
+              "et que l'autre ne pense qu'à ses poches"
+            ],
+            "ruleApplied": "4.1.2.1.8"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "questionparce",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Fusion fautive des mots « question » et « parce ». Il faut les séparer par un espacement.",
+            "suggestions": [
+              "question parce"
+            ],
+            "ruleApplied": "5.2.6.4"
+          },
+          {
+            "text": "chercheratoujours",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Fusion fautive du verbe « cherchera » et de l'adverbe « toujours ». Il faut les séparer par un espacement.",
+            "suggestions": [
+              "cherchera toujours"
+            ],
+            "ruleApplied": "5.2.6.4"
+          },
+          {
+            "text": "parrallèle",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Orthographe d'usage. Le mot « parallèle » s'écrit avec un seul 'r' et deux 'l'.",
+            "suggestions": [
+              "parallèle"
+            ],
+            "ruleApplied": "5.2.1.6"
+          },
+          {
+            "text": "Malheuresement",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Orthographe d'usage. Il manque la lettre 'u' dans l'adverbe « malheureusement ».",
+            "suggestions": [
+              "Malheureusement"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "reflèxe",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Orthographe d'usage. Le mot « réflexe » s'écrit avec un accent aigu sur le premier 'e'.",
+            "suggestions": [
+              "réflexe"
+            ],
+            "ruleApplied": "5.2.1.1"
+          },
+          {
+            "text": "annoncespublicitaires",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Fusion fautive du nom « annonces » et de l'adjectif « publicitaires ». Il faut les séparer par un espacement.",
+            "suggestions": [
+              "annonces publicitaires"
+            ],
+            "ruleApplied": "5.2.6.4"
+          },
+          {
+            "text": "videos",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Orthographe d'usage. Le mot « vidéo » prend un accent aigu en français.",
+            "suggestions": [
+              "vidéos"
+            ],
+            "ruleApplied": "5.2.1.1"
+          },
+          {
+            "text": "non-nécessaire",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en nombre. L'adjectif « nécessaire » doit s'accorder au pluriel avec le nom « aliments », qui est le donneur.",
+            "suggestions": [
+              "non-nécessaires"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "déviné",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Orthographe d'usage. Le verbe « deviner » s'écrit avec un 'e' et non un 'é' dans son radical.",
+            "suggestions": [
+              "deviné"
+            ],
+            "ruleApplied": "5.2.1.1"
+          },
+          {
+            "text": "loins",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Erreur d'usage. L'adverbe « loin » est invariable et ne prend jamais de 's'.",
+            "suggestions": [
+              "loin"
+            ],
+            "ruleApplied": "5.2.1.5"
+          },
+          {
+            "text": "loins",
+            "occurenceIndex": 1,
+            "criteria": 5,
+            "type": "(U)",
+            "description": "Répétition d'une erreur d'usage déjà signalée. L'adverbe « loin » est invariable.",
+            "suggestions": [
+              "loin"
+            ],
+            "ruleApplied": "5.1.3"
+          },
+          {
+            "text": "finis",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord du participe passé. Avec l'auxiliaire « avoir », le participe passé est invariable lorsque le pronom « en » est complément d'objet direct.",
+            "suggestions": [
+              "fini"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "somme",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur de conjugaison. La forme du verbe « être » à la première personne du pluriel du présent de l'indicatif est « sommes ».",
+            "suggestions": [
+              "sommes"
+            ],
+            "ruleApplied": "5.3.2.1"
+          }
+        ],
+        "totalErreursCritere4": 3,
+        "totalErreursCritere5": 13,
+        "scoreCritere4": {
+          "pointsPerdus": 2,
+          "note": "A"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 12,
+          "note": "C"
+        }
+      },
+      {
+        "passe": 2,
+        "erreursCritere4": [
+          {
+            "text": ".».",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Présence erronée d'un second point final après le guillemet fermant. Le point à l'intérieur de la citation suffit à marquer la fin de la phrase.",
+            "suggestions": [
+              ".»"
+            ],
+            "ruleApplied": "4.2.2.1.2"
+          },
+          {
+            "text": "mène comme",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Absence de la virgule ouvrante pour isoler l'incidente « comme vous l'auriez sûrement déviné ». Une virgule est également manquante après « déviné ».",
+            "suggestions": [
+              "mène, comme"
+            ],
+            "ruleApplied": "4.2.2.10.1.g"
+          },
+          {
+            "text": "et l'autre à ses poches",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Erreur de syntaxe dans la coordination. La structure est boiteuse car elle coordonne une proposition verbale (« l'un ne pense pas... ») avec un groupe prépositionnel (« l'autre à ses poches »).",
+            "suggestions": [
+              "et que l'autre ne pense qu'à ses poches"
+            ],
+            "ruleApplied": "4.1.2.1.8"
+          },
+          {
+            "text": "Québec affirme",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Une virgule est requise après le groupe en apposition 'porte-parole de l'Association des détaillants en alimentation du Québec' pour le séparer du verbe 'affirme'.",
+            "suggestions": [
+              "Québec, affirme"
+            ],
+            "ruleApplied": "4.2.2.10.1.i"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "questionparce",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Fusion fautive des mots « question » et « parce ». Il faut les séparer par un espacement.",
+            "suggestions": [
+              "question parce"
+            ],
+            "ruleApplied": "5.2.6.4"
+          },
+          {
+            "text": "chercheratoujours",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Fusion fautive du verbe « cherchera » et de l'adverbe « toujours ». Il faut les séparer par un espacement.",
+            "suggestions": [
+              "cherchera toujours"
+            ],
+            "ruleApplied": "5.2.6.4"
+          },
+          {
+            "text": "parrallèle",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Orthographe d'usage. Le mot « parallèle » s'écrit avec un seul 'r' et deux 'l'.",
+            "suggestions": [
+              "parallèle"
+            ],
+            "ruleApplied": "5.2.1.6"
+          },
+          {
+            "text": "Malheuresement",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Orthographe d'usage. Il manque la lettre 'u' dans l'adverbe « malheureusement ».",
+            "suggestions": [
+              "Malheureusement"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "reflèxe",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Orthographe d'usage. Le mot « réflexe » s'écrit avec un accent aigu sur le premier 'e'.",
+            "suggestions": [
+              "réflexe"
+            ],
+            "ruleApplied": "5.2.1.1"
+          },
+          {
+            "text": "annoncespublicitaires",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Fusion fautive du nom « annonces » et de l'adjectif « publicitaires ». Il faut les séparer par un espacement.",
+            "suggestions": [
+              "annonces publicitaires"
+            ],
+            "ruleApplied": "5.2.6.4"
+          },
+          {
+            "text": "videos",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Orthographe d'usage. Le mot « vidéo » prend un accent aigu en français.",
+            "suggestions": [
+              "vidéos"
+            ],
+            "ruleApplied": "5.2.1.1"
+          },
+          {
+            "text": "non-nécessaire",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en nombre. L'adjectif « nécessaire » doit s'accorder au pluriel avec le nom « aliments », qui est le donneur.",
+            "suggestions": [
+              "non-nécessaires"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "déviné",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Orthographe d'usage. Le verbe « deviner » s'écrit avec un 'e' et non un 'é' dans son radical.",
+            "suggestions": [
+              "deviné"
+            ],
+            "ruleApplied": "5.2.1.1"
+          },
+          {
+            "text": "loins",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Erreur d'usage. L'adverbe « loin » est invariable et ne prend jamais de 's'.",
+            "suggestions": [
+              "loin"
+            ],
+            "ruleApplied": "5.2.1.5"
+          },
+          {
+            "text": "loins",
+            "occurenceIndex": 1,
+            "criteria": 5,
+            "type": "(U)",
+            "description": "Répétition d'une erreur d'usage déjà signalée. L'adverbe « loin » est invariable.",
+            "suggestions": [
+              "loin"
+            ],
+            "ruleApplied": "5.1.3"
+          },
+          {
+            "text": "finis",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord du participe passé. Avec l'auxiliaire « avoir », le participe passé est invariable lorsque le pronom « en » est complément d'objet direct.",
+            "suggestions": [
+              "fini"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "somme",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur de conjugaison. La forme du verbe « être » à la première personne du pluriel du présent de l'indicatif est « sommes ».",
+            "suggestions": [
+              "sommes"
+            ],
+            "ruleApplied": "5.3.2.1"
+          },
+          {
+            "text": "loins",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "(U)",
+            "description": "Répétition de l'erreur sur l'adverbe invariable 'loin'. Il ne prend jamais de 's'.",
+            "suggestions": [
+              "loin"
+            ],
+            "ruleApplied": "5.1.3"
+          }
+        ],
+        "totalErreursCritere4": 4,
+        "totalErreursCritere5": 14,
+        "scoreCritere4": {
+          "pointsPerdus": 2.5,
+          "note": "A"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 12,
+          "note": "C"
+        }
+      }
+    ],
+    "erreursCritere4AvantAnalyseIA": [
+      {
+        "text": ".».",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Présence erronée d'un second point final après le guillemet fermant. Le point à l'intérieur de la citation suffit à marquer la fin de la phrase.",
+        "suggestions": [
+          ".»"
+        ],
+        "ruleApplied": "4.2.2.1.2"
+      },
+      {
+        "text": "mène comme",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de la virgule ouvrante pour isoler l'incidente « comme vous l'auriez sûrement déviné ». Une virgule est également manquante après « déviné ».",
+        "suggestions": [
+          "mène, comme"
+        ],
+        "ruleApplied": "4.2.2.10.1.g"
+      },
+      {
+        "text": "et l'autre à ses poches",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de syntaxe dans la coordination. La structure est boiteuse car elle coordonne une proposition verbale (« l'un ne pense pas... ») avec un groupe prépositionnel (« l'autre à ses poches »).",
+        "suggestions": [
+          "et que l'autre ne pense qu'à ses poches"
+        ],
+        "ruleApplied": "4.1.2.1.8"
+      },
+      {
+        "text": "Québec affirme",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule est requise après le groupe en apposition 'porte-parole de l'Association des détaillants en alimentation du Québec' pour le séparer du verbe 'affirme'.",
+        "suggestions": [
+          "Québec, affirme"
+        ],
+        "ruleApplied": "4.2.2.10.1.i"
+      }
+    ],
+    "erreursCritere5AvantAnalyseIA": [
+      {
+        "text": "questionparce",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Fusion fautive des mots « question » et « parce ». Il faut les séparer par un espacement.",
+        "suggestions": [
+          "question parce"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "text": "chercheratoujours",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Fusion fautive du verbe « cherchera » et de l'adverbe « toujours ». Il faut les séparer par un espacement.",
+        "suggestions": [
+          "cherchera toujours"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "text": "parrallèle",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Orthographe d'usage. Le mot « parallèle » s'écrit avec un seul 'r' et deux 'l'.",
+        "suggestions": [
+          "parallèle"
+        ],
+        "ruleApplied": "5.2.1.6"
+      },
+      {
+        "text": "Malheuresement",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Orthographe d'usage. Il manque la lettre 'u' dans l'adverbe « malheureusement ».",
+        "suggestions": [
+          "Malheureusement"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "reflèxe",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Orthographe d'usage. Le mot « réflexe » s'écrit avec un accent aigu sur le premier 'e'.",
+        "suggestions": [
+          "réflexe"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "text": "annoncespublicitaires",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Fusion fautive du nom « annonces » et de l'adjectif « publicitaires ». Il faut les séparer par un espacement.",
+        "suggestions": [
+          "annonces publicitaires"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "text": "videos",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Orthographe d'usage. Le mot « vidéo » prend un accent aigu en français.",
+        "suggestions": [
+          "vidéos"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "text": "non-nécessaire",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. L'adjectif « nécessaire » doit s'accorder au pluriel avec le nom « aliments », qui est le donneur.",
+        "suggestions": [
+          "non-nécessaires"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "déviné",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Orthographe d'usage. Le verbe « deviner » s'écrit avec un 'e' et non un 'é' dans son radical.",
+        "suggestions": [
+          "deviné"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "text": "loins",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'usage. L'adverbe « loin » est invariable et ne prend jamais de 's'.",
+        "suggestions": [
+          "loin"
+        ],
+        "ruleApplied": "5.2.1.5"
+      },
+      {
+        "text": "loins",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Répétition d'une erreur d'usage déjà signalée. L'adverbe « loin » est invariable.",
+        "suggestions": [
+          "loin"
+        ],
+        "ruleApplied": "5.1.3"
+      },
+      {
+        "text": "finis",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord du participe passé. Avec l'auxiliaire « avoir », le participe passé est invariable lorsque le pronom « en » est complément d'objet direct.",
+        "suggestions": [
+          "fini"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "somme",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur de conjugaison. La forme du verbe « être » à la première personne du pluriel du présent de l'indicatif est « sommes ».",
+        "suggestions": [
+          "sommes"
+        ],
+        "ruleApplied": "5.3.2.1"
+      },
+      {
+        "text": "loins",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Répétition de l'erreur sur l'adverbe invariable 'loin'. Il ne prend jamais de 's'.",
+        "suggestions": [
+          "loin"
+        ],
+        "ruleApplied": "5.1.3"
+      }
+    ],
+    "analyseIADuplicatas": {
+      "critere4": {
+        "analyse": {
+          "totalErreursCritere4": 4,
+          "totalErreursCritere5": 0,
+          "duplicatasCritere4": 0,
+          "duplicatasCritere5": 0
+        },
+        "duplicatasCritere4": [],
+        "duplicatasCritere5": [],
+        "erreursUniquesCritere4": [
+          {
+            "index": 0,
+            "text": ".».",
+            "raison": "Erreur de ponctuation unique (point final en trop)."
+          },
+          {
+            "index": 1,
+            "text": "mène comme",
+            "raison": "Erreur de ponctuation unique (virgule manquante avant une incidente)."
+          },
+          {
+            "index": 2,
+            "text": "et l'autre à ses poches",
+            "raison": "Erreur de syntaxe unique (coordination boiteuse)."
+          },
+          {
+            "index": 3,
+            "text": "Québec affirme",
+            "raison": "Erreur de ponctuation unique (virgule manquante après une apposition)."
+          }
+        ],
+        "erreursUniquesCritere5": [],
+        "recommandations": {
+          "erreursAConserverCritere4": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "erreursAConserverCritere5": [],
+          "erreursASupprimer": {
+            "critere4": [],
+            "critere5": []
+          }
+        }
+      },
+      "critere5": {
+        "analyse": {
+          "totalErreursCritere4": 0,
+          "totalErreursCritere5": 14,
+          "duplicatasCritere4": 0,
+          "duplicatasCritere5": 1
+        },
+        "duplicatasCritere4": [],
+        "duplicatasCritere5": [
+          {
+            "groupe": 1,
+            "confiance": 100,
+            "raison": "Texte et index d'occurrence identiques. Il s'agit de la même erreur signalée deux fois.",
+            "erreurs": [
+              {
+                "index": 9,
+                "text": "loins",
+                "garder": true
+              },
+              {
+                "index": 13,
+                "text": "loins",
+                "garder": false
+              }
+            ]
+          }
+        ],
+        "erreursUniquesCritere4": [],
+        "erreursUniquesCritere5": [
+          {
+            "index": 0,
+            "text": "questionparce",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 1,
+            "text": "chercheratoujours",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 2,
+            "text": "parrallèle",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 3,
+            "text": "Malheuresement",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 4,
+            "text": "reflèxe",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 5,
+            "text": "annoncespublicitaires",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 6,
+            "text": "videos",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 7,
+            "text": "non-nécessaire",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 8,
+            "text": "déviné",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 10,
+            "text": "loins",
+            "raison": "Erreur distincte car l'index d'occurrence est différent (1)."
+          },
+          {
+            "index": 11,
+            "text": "finis",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 12,
+            "text": "somme",
+            "raison": "Aucun duplicata trouvé"
+          }
+        ],
+        "recommandations": {
+          "erreursAConserverCritere4": [],
+          "erreursAConserverCritere5": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "erreursASupprimer": {
+            "critere4": [],
+            "critere5": [
+              13
+            ]
+          }
+        }
+      }
+    }
+  }
+}

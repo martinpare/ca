@@ -1,0 +1,3572 @@
+{
+  "processedAt": "2025-12-10T14:49:09.504Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_090.txt",
+    "originalText": "Limiteez le gaspillage!\r\n\r\nDu champ à l'assiette, chaque élément que nous consommons a des impacts non seulement sur notre santé humaine, mais aussi sur l'environnement. Ainsi que le gaspillage qui est entrain de s'augmenter sans cesse, causant des effets majeurs sur l'atmosphère tout autour du monde. Serait-il pas temps à mettre fin en à cet majeur enjeu? Que Oui ! Selon moi, je persite à croire qu'il est temps à lutter contre le gaspillage alimentaire afin d'éviter de toute sorte de dégradations environnementals.\r\n\r\nPremièrement, chèrs lecteurs, comme on le savais, des milliards et des tonnes de toute sorte de nourriture sont entraines de se dépenser, apportant des conséquences sur notre environnement. Comme le dit une étude de l'Organisation des Nations unies : « environ 931 millions de tonnes de nourriture ont été gaspillées dans le monde en 2019  » (Shields, 2021) Ainsi qu'une autre étude du Conseil national confirme qu'environ deux millions de tonnes de nourriture alimentaire sont gaspillés par de nombreuses familles canadiennes chaque année, ce qui avait amener à une perte de plus de 17 milliards de dollars. (RECYC-Québec, 2021). Vous voyez bien sur quoi ces études appuisent mais êtes-vous en conscience de leurs conséquences ? En effet, la production de nourriture est la cause du quart des émission de serre et contribue de manière significative à la température élevée de notre planète\r\n\r\nDeuxièment, chèrs public, ne serait-il pas mieux de mettre fin à ces différents défauts ou enjeux qui occasionnent du gaspillage ? Que oui ! Je suis persuadé que la majorité d'entre nous veulent certainement réduire ou bien lutter contre le coulage des tonnes de nourriture dans notre vie quotidienne. Ne vous s'inquiétez pas. Beaucoup de sites web comme sauve ta bouffe, chic frigo sans fric, ainsi que j'aime manger pas gaspiller et des livres qui sont spécialisés à offrir des recettes et des trucs pour but de nous aider à lutter contre le dépensement alimentaire à la maison. (Simard, 2020). En effet, selon Florence- Léa Siry, le moitié du gaspillage alimentaire pourrait être ignoré à la maison si les acheteurs ou les vendeurs apprenaient à mieux conserver les aliments (Corriveau, 2020) Vous voyez, il existe des milliards et des tonnes de recettes et des solutions pour réduire le gaspillage dans notre vie, alors pourquoi pas les essayer ?\r\n\r\nEn guise de conclusion, chèrs lecteurs et lectrices, le gaspillage est entrain de prendre beaucoup de risques sur notre planète ainsi à faire des effets graves sur notre vie en quotidien. Certes, il est temps de prendre en positition et à faire face à tout les risques et les conséquences possibles causés par le gaspillage alimentaire, jusqu'on trouve une meilleure solution avec une grande efficacité, afin de réduire cet effet là.",
+    "erreursCritere4": [
+      {
+        "text": "Ainsi que le gaspillage qui est entrain de s'augmenter sans cesse, causant des effets majeurs sur l'atmosphère tout autour du monde.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase est une subordonnée sans phrase principale (matrice). Il faut la reformuler pour en faire une phrase complète.",
+        "suggestions": [
+          "De plus, le gaspillage, qui est en train d'augmenter sans cesse, cause des effets majeurs sur l'atmosphère partout dans le monde."
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "text": "s'augmenter",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Le verbe « augmenter » n'est pas pronominal dans ce contexte. La construction correcte est « d'augmenter ».",
+        "suggestions": [
+          "d'augmenter"
+        ],
+        "ruleApplied": "4.1.2.2.2"
+      },
+      {
+        "text": "Serait-il pas",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La négation est mal employée. Il manque l'adverbe « ne » dans la structure « ne... pas ».",
+        "suggestions": [
+          "Ne serait-il pas"
+        ],
+        "ruleApplied": "4.1.2.1.3"
+      },
+      {
+        "text": "en à cet",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "La préposition « en » est superflue dans cette construction.",
+        "suggestions": [
+          "à cet"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "majeur enjeu",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "L'ordre des mots est incorrect. L'adjectif « majeur » se place généralement après le nom.",
+        "suggestions": [
+          "enjeu majeur"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "Que Oui",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette construction est un calque de l'oral. Il faut simplement utiliser « Oui ».",
+        "suggestions": [
+          "Oui"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "Selon moi, je persite",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il y a une redondance entre « Selon moi » et « je ». Il faut choisir l'une des deux formulations.",
+        "suggestions": [
+          "Selon moi, il est temps",
+          "Je persiste"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "à lutter",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "La préposition est erronée. On dit « il est temps de faire quelque chose ».",
+        "suggestions": [
+          "de lutter"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "de se dépenser",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe « dépenser » est utilisé incorrectement. Il s'applique à l'argent. Pour la nourriture, il faut utiliser un verbe comme « être jetées » ou « être gaspillées ».",
+        "suggestions": [
+          "d'être gaspillées",
+          "d'être jetées"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": "Ainsi qu'une autre étude",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase est une subordonnée sans phrase principale (matrice). Il faut la reformuler pour en faire une phrase complète.",
+        "suggestions": [
+          "De même, une autre étude"
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "text": "(RECYC-Québec, 2021).",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point final de la phrase se place après la parenthèse fermante, pas à l'intérieur. Le point après la parenthèse est donc superflu.",
+        "suggestions": [
+          "(RECYC-Québec, 2021)."
+        ],
+        "ruleApplied": "4.2.2.1.2"
+      },
+      {
+        "text": "êtes-vous en conscience",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est boiteuse. On dit « avoir conscience de quelque chose » ou « être conscient de quelque chose ».",
+        "suggestions": [
+          "avez-vous conscience",
+          "êtes-vous conscients"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "planète",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque un point pour marquer la fin de la phrase.",
+        "suggestions": [
+          "planète."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "text": "Ne vous s'inquiétez pas",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom réfléchi « s' » est superflu. La forme correcte est « Ne vous inquiétez pas ».",
+        "suggestions": [
+          "Ne vous inquiétez pas"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "j'aime manger pas gaspiller",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La négation est mal employée. Il manque l'adverbe « ne » ou une coordination correcte.",
+        "suggestions": [
+          "J'aime manger, pas gaspiller",
+          "J'aime manger et ne pas gaspiller"
+        ],
+        "ruleApplied": "4.1.2.1.3"
+      },
+      {
+        "text": "spécialisés à offrir",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition est erronée. On est « spécialisé dans » quelque chose ou « pour faire » quelque chose.",
+        "suggestions": [
+          "spécialisés pour offrir",
+          "spécialisés dans l'offre de"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "pour but de",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "La construction de la locution est boiteuse. Il faut dire « dans le but de ».",
+        "suggestions": [
+          "dans le but de"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "(Simard, 2020)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque un point pour marquer la fin de la phrase.",
+        "suggestions": [
+          "maison. (Simard, 2020)."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "text": "ignoré",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe « ignorer » est utilisé incorrectement et crée un problème de sens. Le mot juste serait « évité ».",
+        "suggestions": [
+          "évité"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": "pourquoi pas les essayer",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque un mot essentiel à la construction de la négation. Il faut ajouter « ne ».",
+        "suggestions": [
+          "pourquoi ne pas les essayer"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "prendre beaucoup de risques sur notre planète",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette expression crée un problème de sens. On ne « prend » pas de risques sur une planète. Il faut reformuler, par exemple : « fait courir beaucoup de risques à notre planète ».",
+        "suggestions": [
+          "fait courir beaucoup de risques à notre planète"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": "ainsi à faire",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "La coordination est erronée. Pour coordonner deux compléments introduits par « de », il faut utiliser « et de » ou « ainsi que de ».",
+        "suggestions": [
+          "et de faire",
+          "ainsi que de faire"
+        ],
+        "ruleApplied": "4.1.2.1.8"
+      },
+      {
+        "text": "vie en quotidien",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "La construction de cette expression est boiteuse. Il faut dire « vie quotidienne » ou « au quotidien ».",
+        "suggestions": [
+          "vie quotidienne",
+          "vie au quotidien"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "prendre en positition",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de l'expression est boiteuse. La locution correcte est « prendre position ».",
+        "suggestions": [
+          "prendre position"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "jusqu'on",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le subordonnant est erroné. La locution conjonctive correcte est « jusqu'à ce que ».",
+        "suggestions": [
+          "jusqu'à ce qu'on"
+        ],
+        "ruleApplied": "4.1.2.4.2"
+      },
+      {
+        "text": "temps à mettre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de préposition. La locution correcte est « il est temps de » suivie d'un infinitif.",
+        "suggestions": [
+          "temps de mettre"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "temps à lutter",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de préposition. La locution correcte est « il est temps de » suivie d'un infinitif.",
+        "suggestions": [
+          "temps de lutter"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "de toute sorte de",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Présence d'un mot superflu. La première préposition « de » est de trop. Une seule erreur de syntaxe est comptée par phrase syntaxique.",
+        "suggestions": [
+          "toute sorte de"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "2019  » (Shields, 2021)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence du point final qui doit clore la phrase, après la parenthèse.",
+        "suggestions": [
+          "2019  » (Shields, 2021)."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "text": "Ainsi qu'une",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase est une subordonnée sans phrase principale (matrice). L'utilisation de « Ainsi que » en début de phrase crée une construction de phrase incomplète.",
+        "suggestions": [
+          "De plus, une",
+          "Une"
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "text": "Que oui",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "S",
+        "description": "Calque de l'oral. Cette construction n'est pas admise à l'écrit.",
+        "suggestions": [
+          "Oui"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "Beaucoup de sites web comme sauve ta bouffe, chic frigo sans fric, ainsi que j'aime manger pas gaspiller et des livres qui sont spécialisés à offrir des recettes et des trucs pour but de nous aider à lutter contre le dépensement alimentaire à la maison.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase est une subordonnée sans phrase principale (matrice). Elle n'a pas de verbe principal conjugué.",
+        "suggestions": [
+          "Il existe beaucoup de sites web comme Sauve ta bouffe..."
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "text": "aliments (Corriveau, 2020)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence du point final qui doit clore la phrase, après la parenthèse.",
+        "suggestions": [
+          "aliments (Corriveau, 2020)."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 22.5,
+      "note": "E"
+    },
+    "erreursCritere5": [
+      {
+        "text": "Limiteez",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "La terminaison de l'impératif présent à la deuxième personne du pluriel pour les verbes du premier groupe est « -ez » et non « -eez ».",
+        "suggestions": [
+          "Limitez"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "persite",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Une lettre est erronée dans ce mot. Il s'écrit avec un « s ».",
+        "suggestions": [
+          "persiste"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "de toute sorte de",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Dans l'expression « toutes sortes de », le nom « sorte » s'accorde au pluriel.",
+        "suggestions": [
+          "de toutes sortes de"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "text": "environnementals",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif doit s'accorder en genre et en nombre avec le nom qu'il qualifie. Le donneur est « dégradations », féminin pluriel.",
+        "suggestions": [
+          "environnementales"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "savais",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec son sujet. Le donneur est le pronom « on », qui commande l'accord à la troisième personne du singulier.",
+        "suggestions": [
+          "savait"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "entraines",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "La locution verbale « en train de » s'écrit en deux mots et est invariable. Il s'agit d'une répétition de la même erreur d'usage.",
+        "suggestions": [
+          "en train"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "text": "unies",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Dans la dénomination « Organisation des Nations Unies », le mot « Unies » prend une majuscule.",
+        "suggestions": [
+          "Unies"
+        ],
+        "ruleApplied": "5.2.4.1.2"
+      },
+      {
+        "text": "gaspillés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé employé avec l'auxiliaire « être » (sous-entendu ici dans la voix passive) s'accorde en genre et en nombre avec le sujet. Le donneur est « tonnes », féminin pluriel.",
+        "suggestions": [
+          "gaspillées"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "amener",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif en « -er » et le participe passé en « -é ». Après l'auxiliaire « avoir », il faut utiliser le participe passé.",
+        "suggestions": [
+          "amené"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "appuisent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Il s'agit d'un barbarisme de conjugaison. La forme correcte du verbe « appuyer » au présent de l'indicatif, à la troisième personne du pluriel, est « appuient ».",
+        "suggestions": [
+          "appuient"
+        ],
+        "ruleApplied": "5.3.2.1"
+      },
+      {
+        "text": "émission",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom doit s'accorder en nombre avec son déterminant. Le donneur est « des », qui indique le pluriel.",
+        "suggestions": [
+          "émissions"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "Deuxièment",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'accent sur ce mot est erroné. Il faut un accent grave sur le premier « e ».",
+        "suggestions": [
+          "Deuxièmement"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "text": "chèrs public",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif doit s'accorder en nombre avec le nom qu'il qualifie. Le donneur est « public », masculin singulier.",
+        "suggestions": [
+          "cher public"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "veulent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec son sujet. Le donneur est « la majorité », qui commande l'accord à la troisième personne du singulier.",
+        "suggestions": [
+          "veut"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "dépensement",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Ce mot est un barbarisme, il n'existe pas en français. Il faut utiliser « gaspillage ».",
+        "suggestions": [
+          "gaspillage"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "text": "Florence- Léa Siry",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Une espace superflue a été insérée dans le prénom composé.",
+        "suggestions": [
+          "Florence-Léa Siry"
+        ],
+        "ruleApplied": "5.2.1.7.5"
+      },
+      {
+        "text": "le moitié",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant doit s'accorder en genre avec le nom qu'il détermine. Le nom « moitié » est féminin.",
+        "suggestions": [
+          "la moitié"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "positition",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Ce mot contient une lettre doublée en trop. Il s'écrit avec un seul « t ».",
+        "suggestions": [
+          "position"
+        ],
+        "ruleApplied": "5.2.1.6"
+      },
+      {
+        "text": "tout les",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant « tout » doit s'accorder en genre et en nombre avec le nom qu'il détermine. Le donneur est « les risques », masculin pluriel.",
+        "suggestions": [
+          "tous les"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "cet effet là",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Il manque un trait d'union entre le nom et l'adverbe « là » qui le suit.",
+        "suggestions": [
+          "cet effet-là"
+        ],
+        "ruleApplied": "5.2.1.7.1"
+      },
+      {
+        "text": "chèrs",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre et erreur d'accent. L'adjectif « cher » doit s'accorder avec le nom « public » (masculin singulier). La priorité est accordée à l'erreur grammaticale.",
+        "suggestions": [
+          "cher"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "sauve ta bouffe",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Absence de majuscule au début d'un titre d'œuvre ou de site.",
+        "suggestions": [
+          "Sauve ta bouffe"
+        ],
+        "ruleApplied": "5.2.4.4"
+      },
+      {
+        "text": "ignoré",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "Erreur d'accord du participe passé. Le participe passé « ignoré » doit s'accorder avec son donneur « moitié » (féminin singulier).",
+        "suggestions": [
+          "ignorée"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "chèrs",
+        "occurenceIndex": 2,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Erreur d'accent. L'adjectif « cher » ne prend pas d'accent grave. Cette erreur d'usage est déjà comptée une fois dans le texte.",
+        "suggestions": [
+          "chers"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "text": "entrain",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Barbarisme orthographique. La locution s'écrit « en train » en deux mots. Cette erreur d'usage est déjà comptée une fois dans le texte.",
+        "suggestions": [
+          "en train"
+        ],
+        "ruleApplied": "5.2.6.4"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 21,
+      "note": "E"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:42:57.377Z",
+    "endTimestamp": "2025-12-10T14:49:09.504Z",
+    "durationMs": 372127,
+    "durationFormatted": "06:12:127",
+    "cumulParPasse": [
+      {
+        "passe": 1,
+        "erreursCritere4": [
+          {
+            "text": "Ainsi que le gaspillage qui est entrain de s'augmenter sans cesse, causant des effets majeurs sur l'atmosphère tout autour du monde.",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Cette phrase est une subordonnée sans phrase principale (matrice). Il faut la reformuler pour en faire une phrase complète.",
+            "suggestions": [
+              "De plus, le gaspillage, qui est en train d'augmenter sans cesse, cause des effets majeurs sur l'atmosphère partout dans le monde."
+            ],
+            "ruleApplied": "4.1.2.1.4"
+          },
+          {
+            "text": "s'augmenter",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "Le verbe « augmenter » n'est pas pronominal dans ce contexte. La construction correcte est « d'augmenter ».",
+            "suggestions": [
+              "d'augmenter"
+            ],
+            "ruleApplied": "4.1.2.2.2"
+          },
+          {
+            "text": "Serait-il pas",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La négation est mal employée. Il manque l'adverbe « ne » dans la structure « ne... pas ».",
+            "suggestions": [
+              "Ne serait-il pas"
+            ],
+            "ruleApplied": "4.1.2.1.3"
+          },
+          {
+            "text": "à mettre fin",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "La préposition est erronée. On dit « il est temps de faire quelque chose ».",
+            "suggestions": [
+              "de mettre fin"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "en à cet",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "La préposition « en » est superflue dans cette construction.",
+            "suggestions": [
+              "à cet"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "majeur enjeu",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "L'ordre des mots est incorrect. L'adjectif « majeur » se place généralement après le nom.",
+            "suggestions": [
+              "enjeu majeur"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "Que Oui",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Cette construction est un calque de l'oral. Il faut simplement utiliser « Oui ».",
+            "suggestions": [
+              "Oui"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "Selon moi, je persite",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Il y a une redondance entre « Selon moi » et « je ». Il faut choisir l'une des deux formulations.",
+            "suggestions": [
+              "Selon moi, il est temps",
+              "Je persiste"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "à lutter",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "La préposition est erronée. On dit « il est temps de faire quelque chose ».",
+            "suggestions": [
+              "de lutter"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "de se dépenser",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le verbe « dépenser » est utilisé incorrectement. Il s'applique à l'argent. Pour la nourriture, il faut utiliser un verbe comme « être jetées » ou « être gaspillées ».",
+            "suggestions": [
+              "d'être gaspillées",
+              "d'être jetées"
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          },
+          {
+            "text": "(Shields, 2021) Ainsi",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Il manque un point pour marquer la fin de la phrase avant la référence entre parenthèses.",
+            "suggestions": [
+              "2019 ». (Shields, 2021). Ainsi"
+            ],
+            "ruleApplied": "4.2.2.1.1"
+          },
+          {
+            "text": "Ainsi qu'une autre étude",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Cette phrase est une subordonnée sans phrase principale (matrice). Il faut la reformuler pour en faire une phrase complète.",
+            "suggestions": [
+              "De même, une autre étude"
+            ],
+            "ruleApplied": "4.1.2.1.4"
+          },
+          {
+            "text": "(RECYC-Québec, 2021).",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Le point final de la phrase se place après la parenthèse fermante, pas à l'intérieur. Le point après la parenthèse est donc superflu.",
+            "suggestions": [
+              "(RECYC-Québec, 2021)."
+            ],
+            "ruleApplied": "4.2.2.1.2"
+          },
+          {
+            "text": "êtes-vous en conscience",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction de la phrase est boiteuse. On dit « avoir conscience de quelque chose » ou « être conscient de quelque chose ».",
+            "suggestions": [
+              "avez-vous conscience",
+              "êtes-vous conscients"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "planète",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Il manque un point pour marquer la fin de la phrase.",
+            "suggestions": [
+              "planète."
+            ],
+            "ruleApplied": "4.2.2.1.1"
+          },
+          {
+            "text": "Que oui",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Cette construction est un calque de l'oral. Il faut simplement utiliser « Oui ».",
+            "suggestions": [
+              "Oui"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "Ne vous s'inquiétez pas",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le pronom réfléchi « s' » est superflu. La forme correcte est « Ne vous inquiétez pas ».",
+            "suggestions": [
+              "Ne vous inquiétez pas"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "j'aime manger pas gaspiller",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La négation est mal employée. Il manque l'adverbe « ne » ou une coordination correcte.",
+            "suggestions": [
+              "J'aime manger, pas gaspiller",
+              "J'aime manger et ne pas gaspiller"
+            ],
+            "ruleApplied": "4.1.2.1.3"
+          },
+          {
+            "text": "spécialisés à offrir",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La préposition est erronée. On est « spécialisé dans » quelque chose ou « pour faire » quelque chose.",
+            "suggestions": [
+              "spécialisés pour offrir",
+              "spécialisés dans l'offre de"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "pour but de",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "La construction de la locution est boiteuse. Il faut dire « dans le but de ».",
+            "suggestions": [
+              "dans le but de"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "(Simard, 2020)",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Il manque un point pour marquer la fin de la phrase.",
+            "suggestions": [
+              "maison. (Simard, 2020)."
+            ],
+            "ruleApplied": "4.2.2.1.1"
+          },
+          {
+            "text": "ignoré",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le verbe « ignorer » est utilisé incorrectement et crée un problème de sens. Le mot juste serait « évité ».",
+            "suggestions": [
+              "évité"
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          },
+          {
+            "text": "(Corriveau, 2020)",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Il manque un point pour marquer la fin de la phrase.",
+            "suggestions": [
+              "aliments. (Corriveau, 2020)."
+            ],
+            "ruleApplied": "4.2.2.1.1"
+          },
+          {
+            "text": "pourquoi pas les essayer",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Il manque un mot essentiel à la construction de la négation. Il faut ajouter « ne ».",
+            "suggestions": [
+              "pourquoi ne pas les essayer"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "prendre beaucoup de risques sur notre planète",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Cette expression crée un problème de sens. On ne « prend » pas de risques sur une planète. Il faut reformuler, par exemple : « fait courir beaucoup de risques à notre planète ».",
+            "suggestions": [
+              "fait courir beaucoup de risques à notre planète"
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          },
+          {
+            "text": "ainsi à faire",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "La coordination est erronée. Pour coordonner deux compléments introduits par « de », il faut utiliser « et de » ou « ainsi que de ».",
+            "suggestions": [
+              "et de faire",
+              "ainsi que de faire"
+            ],
+            "ruleApplied": "4.1.2.1.8"
+          },
+          {
+            "text": "vie en quotidien",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "La construction de cette expression est boiteuse. Il faut dire « vie quotidienne » ou « au quotidien ».",
+            "suggestions": [
+              "vie quotidienne",
+              "vie au quotidien"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "prendre en positition",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction de l'expression est boiteuse. La locution correcte est « prendre position ».",
+            "suggestions": [
+              "prendre position"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "jusqu'on",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le subordonnant est erroné. La locution conjonctive correcte est « jusqu'à ce que ».",
+            "suggestions": [
+              "jusqu'à ce qu'on"
+            ],
+            "ruleApplied": "4.1.2.4.2"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "Limiteez",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "La terminaison de l'impératif présent à la deuxième personne du pluriel pour les verbes du premier groupe est « -ez » et non « -eez ».",
+            "suggestions": [
+              "Limitez"
+            ],
+            "ruleApplied": "5.3.2.6"
+          },
+          {
+            "text": "entrain",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "La locution verbale « en train de » s'écrit en deux mots.",
+            "suggestions": [
+              "en train"
+            ],
+            "ruleApplied": "5.2.6.4"
+          },
+          {
+            "text": "persite",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Une lettre est erronée dans ce mot. Il s'écrit avec un « s ».",
+            "suggestions": [
+              "persiste"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "de toute sorte de",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Dans l'expression « toutes sortes de », le nom « sorte » s'accorde au pluriel.",
+            "suggestions": [
+              "de toutes sortes de"
+            ],
+            "ruleApplied": "5.3.1.5"
+          },
+          {
+            "text": "environnementals",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif doit s'accorder en genre et en nombre avec le nom qu'il qualifie. Le donneur est « dégradations », féminin pluriel.",
+            "suggestions": [
+              "environnementales"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "chèrs",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "L'accent sur ce mot est erroné. Il ne prend pas d'accent.",
+            "suggestions": [
+              "chers"
+            ],
+            "ruleApplied": "5.2.1.1"
+          },
+          {
+            "text": "savais",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe doit s'accorder avec son sujet. Le donneur est le pronom « on », qui commande l'accord à la troisième personne du singulier.",
+            "suggestions": [
+              "savait"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "entraines",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "(U)",
+            "description": "La locution verbale « en train de » s'écrit en deux mots et est invariable. Il s'agit d'une répétition de la même erreur d'usage.",
+            "suggestions": [
+              "en train"
+            ],
+            "ruleApplied": "5.2.6.4"
+          },
+          {
+            "text": "unies",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Dans la dénomination « Organisation des Nations Unies », le mot « Unies » prend une majuscule.",
+            "suggestions": [
+              "Unies"
+            ],
+            "ruleApplied": "5.2.4.1.2"
+          },
+          {
+            "text": "gaspillés",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé employé avec l'auxiliaire « être » (sous-entendu ici dans la voix passive) s'accorde en genre et en nombre avec le sujet. Le donneur est « tonnes », féminin pluriel.",
+            "suggestions": [
+              "gaspillées"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "amener",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre l'infinitif en « -er » et le participe passé en « -é ». Après l'auxiliaire « avoir », il faut utiliser le participe passé.",
+            "suggestions": [
+              "amené"
+            ],
+            "ruleApplied": "5.3.2.6"
+          },
+          {
+            "text": "appuisent",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Il s'agit d'un barbarisme de conjugaison. La forme correcte du verbe « appuyer » au présent de l'indicatif, à la troisième personne du pluriel, est « appuient ».",
+            "suggestions": [
+              "appuient"
+            ],
+            "ruleApplied": "5.3.2.1"
+          },
+          {
+            "text": "émission",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom doit s'accorder en nombre avec son déterminant. Le donneur est « des », qui indique le pluriel.",
+            "suggestions": [
+              "émissions"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "Deuxièment",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "L'accent sur ce mot est erroné. Il faut un accent grave sur le premier « e ».",
+            "suggestions": [
+              "Deuxièmement"
+            ],
+            "ruleApplied": "5.2.1.1"
+          },
+          {
+            "text": "chèrs",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "(U)",
+            "description": "L'accent sur ce mot est erroné. Il ne prend pas d'accent. Il s'agit d'une répétition de la même erreur d'usage.",
+            "suggestions": [
+              "chers"
+            ],
+            "ruleApplied": "5.2.1.1"
+          },
+          {
+            "text": "chèrs public",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif doit s'accorder en nombre avec le nom qu'il qualifie. Le donneur est « public », masculin singulier.",
+            "suggestions": [
+              "cher public"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "veulent",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe doit s'accorder avec son sujet. Le donneur est « la majorité », qui commande l'accord à la troisième personne du singulier.",
+            "suggestions": [
+              "veut"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "dépensement",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Ce mot est un barbarisme, il n'existe pas en français. Il faut utiliser « gaspillage ».",
+            "suggestions": [
+              "gaspillage"
+            ],
+            "ruleApplied": "5.2.6.4"
+          },
+          {
+            "text": "Florence- Léa Siry",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Une espace superflue a été insérée dans le prénom composé.",
+            "suggestions": [
+              "Florence-Léa Siry"
+            ],
+            "ruleApplied": "5.2.1.7.5"
+          },
+          {
+            "text": "le moitié",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le déterminant doit s'accorder en genre avec le nom qu'il détermine. Le nom « moitié » est féminin.",
+            "suggestions": [
+              "la moitié"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "entrain",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "(U)",
+            "description": "La locution verbale « en train de » s'écrit en deux mots. Il s'agit d'une répétition de la même erreur d'usage.",
+            "suggestions": [
+              "en train"
+            ],
+            "ruleApplied": "5.2.6.4"
+          },
+          {
+            "text": "positition",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Ce mot contient une lettre doublée en trop. Il s'écrit avec un seul « t ».",
+            "suggestions": [
+              "position"
+            ],
+            "ruleApplied": "5.2.1.6"
+          },
+          {
+            "text": "tout les",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le déterminant « tout » doit s'accorder en genre et en nombre avec le nom qu'il détermine. Le donneur est « les risques », masculin pluriel.",
+            "suggestions": [
+              "tous les"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "cet effet là",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Il manque un trait d'union entre le nom et l'adverbe « là » qui le suit.",
+            "suggestions": [
+              "cet effet-là"
+            ],
+            "ruleApplied": "5.2.1.7.1"
+          }
+        ],
+        "totalErreursCritere4": 29,
+        "totalErreursCritere5": 24,
+        "scoreCritere4": {
+          "pointsPerdus": 18.5,
+          "note": "E"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 21,
+          "note": "E"
+        }
+      },
+      {
+        "passe": 2,
+        "erreursCritere4": [
+          {
+            "text": "Ainsi que le gaspillage qui est entrain de s'augmenter sans cesse, causant des effets majeurs sur l'atmosphère tout autour du monde.",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Cette phrase est une subordonnée sans phrase principale (matrice). Il faut la reformuler pour en faire une phrase complète.",
+            "suggestions": [
+              "De plus, le gaspillage, qui est en train d'augmenter sans cesse, cause des effets majeurs sur l'atmosphère partout dans le monde."
+            ],
+            "ruleApplied": "4.1.2.1.4"
+          },
+          {
+            "text": "s'augmenter",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "Le verbe « augmenter » n'est pas pronominal dans ce contexte. La construction correcte est « d'augmenter ».",
+            "suggestions": [
+              "d'augmenter"
+            ],
+            "ruleApplied": "4.1.2.2.2"
+          },
+          {
+            "text": "Serait-il pas",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La négation est mal employée. Il manque l'adverbe « ne » dans la structure « ne... pas ».",
+            "suggestions": [
+              "Ne serait-il pas"
+            ],
+            "ruleApplied": "4.1.2.1.3"
+          },
+          {
+            "text": "à mettre fin",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "La préposition est erronée. On dit « il est temps de faire quelque chose ».",
+            "suggestions": [
+              "de mettre fin"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "en à cet",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "La préposition « en » est superflue dans cette construction.",
+            "suggestions": [
+              "à cet"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "majeur enjeu",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "L'ordre des mots est incorrect. L'adjectif « majeur » se place généralement après le nom.",
+            "suggestions": [
+              "enjeu majeur"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "Que Oui",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Cette construction est un calque de l'oral. Il faut simplement utiliser « Oui ».",
+            "suggestions": [
+              "Oui"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "Selon moi, je persite",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Il y a une redondance entre « Selon moi » et « je ». Il faut choisir l'une des deux formulations.",
+            "suggestions": [
+              "Selon moi, il est temps",
+              "Je persiste"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "à lutter",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "La préposition est erronée. On dit « il est temps de faire quelque chose ».",
+            "suggestions": [
+              "de lutter"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "de se dépenser",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le verbe « dépenser » est utilisé incorrectement. Il s'applique à l'argent. Pour la nourriture, il faut utiliser un verbe comme « être jetées » ou « être gaspillées ».",
+            "suggestions": [
+              "d'être gaspillées",
+              "d'être jetées"
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          },
+          {
+            "text": "(Shields, 2021) Ainsi",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Il manque un point pour marquer la fin de la phrase avant la référence entre parenthèses.",
+            "suggestions": [
+              "2019 ». (Shields, 2021). Ainsi"
+            ],
+            "ruleApplied": "4.2.2.1.1"
+          },
+          {
+            "text": "Ainsi qu'une autre étude",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Cette phrase est une subordonnée sans phrase principale (matrice). Il faut la reformuler pour en faire une phrase complète.",
+            "suggestions": [
+              "De même, une autre étude"
+            ],
+            "ruleApplied": "4.1.2.1.4"
+          },
+          {
+            "text": "(RECYC-Québec, 2021).",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Le point final de la phrase se place après la parenthèse fermante, pas à l'intérieur. Le point après la parenthèse est donc superflu.",
+            "suggestions": [
+              "(RECYC-Québec, 2021)."
+            ],
+            "ruleApplied": "4.2.2.1.2"
+          },
+          {
+            "text": "êtes-vous en conscience",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction de la phrase est boiteuse. On dit « avoir conscience de quelque chose » ou « être conscient de quelque chose ».",
+            "suggestions": [
+              "avez-vous conscience",
+              "êtes-vous conscients"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "planète",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Il manque un point pour marquer la fin de la phrase.",
+            "suggestions": [
+              "planète."
+            ],
+            "ruleApplied": "4.2.2.1.1"
+          },
+          {
+            "text": "Que oui",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Cette construction est un calque de l'oral. Il faut simplement utiliser « Oui ».",
+            "suggestions": [
+              "Oui"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "Ne vous s'inquiétez pas",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le pronom réfléchi « s' » est superflu. La forme correcte est « Ne vous inquiétez pas ».",
+            "suggestions": [
+              "Ne vous inquiétez pas"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "j'aime manger pas gaspiller",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La négation est mal employée. Il manque l'adverbe « ne » ou une coordination correcte.",
+            "suggestions": [
+              "J'aime manger, pas gaspiller",
+              "J'aime manger et ne pas gaspiller"
+            ],
+            "ruleApplied": "4.1.2.1.3"
+          },
+          {
+            "text": "spécialisés à offrir",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La préposition est erronée. On est « spécialisé dans » quelque chose ou « pour faire » quelque chose.",
+            "suggestions": [
+              "spécialisés pour offrir",
+              "spécialisés dans l'offre de"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "pour but de",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "La construction de la locution est boiteuse. Il faut dire « dans le but de ».",
+            "suggestions": [
+              "dans le but de"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "(Simard, 2020)",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Il manque un point pour marquer la fin de la phrase.",
+            "suggestions": [
+              "maison. (Simard, 2020)."
+            ],
+            "ruleApplied": "4.2.2.1.1"
+          },
+          {
+            "text": "ignoré",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le verbe « ignorer » est utilisé incorrectement et crée un problème de sens. Le mot juste serait « évité ».",
+            "suggestions": [
+              "évité"
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          },
+          {
+            "text": "(Corriveau, 2020)",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Il manque un point pour marquer la fin de la phrase.",
+            "suggestions": [
+              "aliments. (Corriveau, 2020)."
+            ],
+            "ruleApplied": "4.2.2.1.1"
+          },
+          {
+            "text": "pourquoi pas les essayer",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Il manque un mot essentiel à la construction de la négation. Il faut ajouter « ne ».",
+            "suggestions": [
+              "pourquoi ne pas les essayer"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "prendre beaucoup de risques sur notre planète",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Cette expression crée un problème de sens. On ne « prend » pas de risques sur une planète. Il faut reformuler, par exemple : « fait courir beaucoup de risques à notre planète ».",
+            "suggestions": [
+              "fait courir beaucoup de risques à notre planète"
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          },
+          {
+            "text": "ainsi à faire",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "La coordination est erronée. Pour coordonner deux compléments introduits par « de », il faut utiliser « et de » ou « ainsi que de ».",
+            "suggestions": [
+              "et de faire",
+              "ainsi que de faire"
+            ],
+            "ruleApplied": "4.1.2.1.8"
+          },
+          {
+            "text": "vie en quotidien",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "La construction de cette expression est boiteuse. Il faut dire « vie quotidienne » ou « au quotidien ».",
+            "suggestions": [
+              "vie quotidienne",
+              "vie au quotidien"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "prendre en positition",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction de l'expression est boiteuse. La locution correcte est « prendre position ».",
+            "suggestions": [
+              "prendre position"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "jusqu'on",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le subordonnant est erroné. La locution conjonctive correcte est « jusqu'à ce que ».",
+            "suggestions": [
+              "jusqu'à ce qu'on"
+            ],
+            "ruleApplied": "4.1.2.4.2"
+          },
+          {
+            "text": "Ainsi que",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Cette phrase est une subordonnée sans phrase principale (matrice). L'utilisation de « Ainsi que » en début de phrase crée une construction de phrase incomplète.",
+            "suggestions": [
+              "De plus, le gaspillage",
+              "Il y a aussi le gaspillage"
+            ],
+            "ruleApplied": "4.1.2.1.4"
+          },
+          {
+            "text": "temps à mettre",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Erreur de préposition. La locution correcte est « il est temps de » suivie d'un infinitif.",
+            "suggestions": [
+              "temps de mettre"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "Selon moi, je",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Redondance. « Selon moi » et « je » expriment tous deux un point de vue personnel. Il faut choisir l'une des deux formulations.",
+            "suggestions": [
+              "Selon moi, il faut persister",
+              "Je persiste"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "temps à lutter",
+            "occurenceIndex": 1,
+            "criteria": 4,
+            "type": "S",
+            "description": "Erreur de préposition. La locution correcte est « il est temps de » suivie d'un infinitif.",
+            "suggestions": [
+              "temps de lutter"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "de toute sorte de",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "Présence d'un mot superflu. La première préposition « de » est de trop. Une seule erreur de syntaxe est comptée par phrase syntaxique.",
+            "suggestions": [
+              "toute sorte de"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "se dépenser",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Problème de sens. Le verbe « dépenser » s'applique à l'argent. Pour la nourriture, il faut utiliser un verbe comme « se perdre » ou une formulation comme « être gaspillées ».",
+            "suggestions": [
+              "se perdre",
+              "être gaspillées"
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          },
+          {
+            "text": "2019  » (Shields, 2021)",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Absence du point final qui doit clore la phrase, après la parenthèse.",
+            "suggestions": [
+              "2019  » (Shields, 2021)."
+            ],
+            "ruleApplied": "4.2.2.1.1"
+          },
+          {
+            "text": "Ainsi qu'une",
+            "occurenceIndex": 1,
+            "criteria": 4,
+            "type": "S",
+            "description": "Cette phrase est une subordonnée sans phrase principale (matrice). L'utilisation de « Ainsi que » en début de phrase crée une construction de phrase incomplète.",
+            "suggestions": [
+              "De plus, une",
+              "Une"
+            ],
+            "ruleApplied": "4.1.2.1.4"
+          },
+          {
+            "text": "en conscience",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Problème de sens dû à une construction fautive. L'expression correcte est « être conscient de ».",
+            "suggestions": [
+              "conscients"
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          },
+          {
+            "text": "Que oui",
+            "occurenceIndex": 1,
+            "criteria": 4,
+            "type": "S",
+            "description": "Calque de l'oral. Cette construction n'est pas admise à l'écrit.",
+            "suggestions": [
+              "Oui"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "s'inquiétez",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Présence d'un mot superflu. Dans la construction « Ne vous inquiétez pas », le pronom réfléchi « s' » est de trop.",
+            "suggestions": [
+              "inquiétez"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "Beaucoup de sites web comme sauve ta bouffe, chic frigo sans fric, ainsi que j'aime manger pas gaspiller et des livres qui sont spécialisés à offrir des recettes et des trucs pour but de nous aider à lutter contre le dépensement alimentaire à la maison.",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Cette phrase est une subordonnée sans phrase principale (matrice). Elle n'a pas de verbe principal conjugué.",
+            "suggestions": [
+              "Il existe beaucoup de sites web comme Sauve ta bouffe..."
+            ],
+            "ruleApplied": "4.1.2.1.4"
+          },
+          {
+            "text": "aliments (Corriveau, 2020)",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Absence du point final qui doit clore la phrase, après la parenthèse.",
+            "suggestions": [
+              "aliments (Corriveau, 2020)."
+            ],
+            "ruleApplied": "4.2.2.1.1"
+          },
+          {
+            "text": "à faire",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Erreur de coordination. La préposition « à » est incorrecte. La structure est « il est temps de [infinitif] et [infinitif] », donc « de prendre [...] et de faire [...] » ou « de prendre [...] et faire [...] ».",
+            "suggestions": [
+              "et de faire",
+              "et faire"
+            ],
+            "ruleApplied": "4.1.2.1.8"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "Limiteez",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "La terminaison de l'impératif présent à la deuxième personne du pluriel pour les verbes du premier groupe est « -ez » et non « -eez ».",
+            "suggestions": [
+              "Limitez"
+            ],
+            "ruleApplied": "5.3.2.6"
+          },
+          {
+            "text": "entrain",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "La locution verbale « en train de » s'écrit en deux mots.",
+            "suggestions": [
+              "en train"
+            ],
+            "ruleApplied": "5.2.6.4"
+          },
+          {
+            "text": "persite",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Une lettre est erronée dans ce mot. Il s'écrit avec un « s ».",
+            "suggestions": [
+              "persiste"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "de toute sorte de",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Dans l'expression « toutes sortes de », le nom « sorte » s'accorde au pluriel.",
+            "suggestions": [
+              "de toutes sortes de"
+            ],
+            "ruleApplied": "5.3.1.5"
+          },
+          {
+            "text": "environnementals",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif doit s'accorder en genre et en nombre avec le nom qu'il qualifie. Le donneur est « dégradations », féminin pluriel.",
+            "suggestions": [
+              "environnementales"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "chèrs",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "L'accent sur ce mot est erroné. Il ne prend pas d'accent.",
+            "suggestions": [
+              "chers"
+            ],
+            "ruleApplied": "5.2.1.1"
+          },
+          {
+            "text": "savais",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe doit s'accorder avec son sujet. Le donneur est le pronom « on », qui commande l'accord à la troisième personne du singulier.",
+            "suggestions": [
+              "savait"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "entraines",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "(U)",
+            "description": "La locution verbale « en train de » s'écrit en deux mots et est invariable. Il s'agit d'une répétition de la même erreur d'usage.",
+            "suggestions": [
+              "en train"
+            ],
+            "ruleApplied": "5.2.6.4"
+          },
+          {
+            "text": "unies",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Dans la dénomination « Organisation des Nations Unies », le mot « Unies » prend une majuscule.",
+            "suggestions": [
+              "Unies"
+            ],
+            "ruleApplied": "5.2.4.1.2"
+          },
+          {
+            "text": "gaspillés",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé employé avec l'auxiliaire « être » (sous-entendu ici dans la voix passive) s'accorde en genre et en nombre avec le sujet. Le donneur est « tonnes », féminin pluriel.",
+            "suggestions": [
+              "gaspillées"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "amener",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre l'infinitif en « -er » et le participe passé en « -é ». Après l'auxiliaire « avoir », il faut utiliser le participe passé.",
+            "suggestions": [
+              "amené"
+            ],
+            "ruleApplied": "5.3.2.6"
+          },
+          {
+            "text": "appuisent",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Il s'agit d'un barbarisme de conjugaison. La forme correcte du verbe « appuyer » au présent de l'indicatif, à la troisième personne du pluriel, est « appuient ».",
+            "suggestions": [
+              "appuient"
+            ],
+            "ruleApplied": "5.3.2.1"
+          },
+          {
+            "text": "émission",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom doit s'accorder en nombre avec son déterminant. Le donneur est « des », qui indique le pluriel.",
+            "suggestions": [
+              "émissions"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "Deuxièment",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "L'accent sur ce mot est erroné. Il faut un accent grave sur le premier « e ».",
+            "suggestions": [
+              "Deuxièmement"
+            ],
+            "ruleApplied": "5.2.1.1"
+          },
+          {
+            "text": "chèrs",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "(U)",
+            "description": "L'accent sur ce mot est erroné. Il ne prend pas d'accent. Il s'agit d'une répétition de la même erreur d'usage.",
+            "suggestions": [
+              "chers"
+            ],
+            "ruleApplied": "5.2.1.1"
+          },
+          {
+            "text": "chèrs public",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif doit s'accorder en nombre avec le nom qu'il qualifie. Le donneur est « public », masculin singulier.",
+            "suggestions": [
+              "cher public"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "veulent",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe doit s'accorder avec son sujet. Le donneur est « la majorité », qui commande l'accord à la troisième personne du singulier.",
+            "suggestions": [
+              "veut"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "dépensement",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Ce mot est un barbarisme, il n'existe pas en français. Il faut utiliser « gaspillage ».",
+            "suggestions": [
+              "gaspillage"
+            ],
+            "ruleApplied": "5.2.6.4"
+          },
+          {
+            "text": "Florence- Léa Siry",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Une espace superflue a été insérée dans le prénom composé.",
+            "suggestions": [
+              "Florence-Léa Siry"
+            ],
+            "ruleApplied": "5.2.1.7.5"
+          },
+          {
+            "text": "le moitié",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le déterminant doit s'accorder en genre avec le nom qu'il détermine. Le nom « moitié » est féminin.",
+            "suggestions": [
+              "la moitié"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "entrain",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "(U)",
+            "description": "La locution verbale « en train de » s'écrit en deux mots. Il s'agit d'une répétition de la même erreur d'usage.",
+            "suggestions": [
+              "en train"
+            ],
+            "ruleApplied": "5.2.6.4"
+          },
+          {
+            "text": "positition",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Ce mot contient une lettre doublée en trop. Il s'écrit avec un seul « t ».",
+            "suggestions": [
+              "position"
+            ],
+            "ruleApplied": "5.2.1.6"
+          },
+          {
+            "text": "tout les",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le déterminant « tout » doit s'accorder en genre et en nombre avec le nom qu'il détermine. Le donneur est « les risques », masculin pluriel.",
+            "suggestions": [
+              "tous les"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "cet effet là",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Il manque un trait d'union entre le nom et l'adverbe « là » qui le suit.",
+            "suggestions": [
+              "cet effet-là"
+            ],
+            "ruleApplied": "5.2.1.7.1"
+          },
+          {
+            "text": "entraines",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur grammaticale. La locution verbale « en train de » est invariable et ne s'accorde pas.",
+            "suggestions": [
+              "en train"
+            ],
+            "ruleApplied": "5.3.1.6"
+          },
+          {
+            "text": "chèrs",
+            "occurenceIndex": 1,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en nombre et erreur d'accent. L'adjectif « cher » doit s'accorder avec le nom « public » (masculin singulier). La priorité est accordée à l'erreur grammaticale.",
+            "suggestions": [
+              "cher"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "sauve ta bouffe",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Absence de majuscule au début d'un titre d'œuvre ou de site.",
+            "suggestions": [
+              "Sauve ta bouffe"
+            ],
+            "ruleApplied": "5.2.4.4"
+          },
+          {
+            "text": "chic frigo sans fric",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "(U)",
+            "description": "Absence de majuscule au début d'un titre d'œuvre ou de site. Cette erreur est déjà comptée une fois dans le texte.",
+            "suggestions": [
+              "Chic frigo sans fric"
+            ],
+            "ruleApplied": "5.2.4.4"
+          },
+          {
+            "text": "j'aime manger pas gaspiller",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "(U)",
+            "description": "Absence de majuscule au début d'un titre d'œuvre ou de site. Cette erreur est déjà comptée une fois dans le texte.",
+            "suggestions": [
+              "J'aime manger, pas gaspiller"
+            ],
+            "ruleApplied": "5.2.4.4"
+          },
+          {
+            "text": "ignoré",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "_",
+            "description": "Erreur d'accord du participe passé. Le participe passé « ignoré » doit s'accorder avec son donneur « moitié » (féminin singulier).",
+            "suggestions": [
+              "ignorée"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "chèrs",
+            "occurenceIndex": 2,
+            "criteria": 5,
+            "type": "(U)",
+            "description": "Erreur d'accent. L'adjectif « cher » ne prend pas d'accent grave. Cette erreur d'usage est déjà comptée une fois dans le texte.",
+            "suggestions": [
+              "chers"
+            ],
+            "ruleApplied": "5.2.1.1"
+          },
+          {
+            "text": "entrain",
+            "occurenceIndex": 1,
+            "criteria": 5,
+            "type": "(U)",
+            "description": "Barbarisme orthographique. La locution s'écrit « en train » en deux mots. Cette erreur d'usage est déjà comptée une fois dans le texte.",
+            "suggestions": [
+              "en train"
+            ],
+            "ruleApplied": "5.2.6.4"
+          }
+        ],
+        "totalErreursCritere4": 43,
+        "totalErreursCritere5": 32,
+        "scoreCritere4": {
+          "pointsPerdus": 30.5,
+          "note": "E"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 24,
+          "note": "E"
+        }
+      }
+    ],
+    "erreursCritere4AvantAnalyseIA": [
+      {
+        "text": "Ainsi que le gaspillage qui est entrain de s'augmenter sans cesse, causant des effets majeurs sur l'atmosphère tout autour du monde.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase est une subordonnée sans phrase principale (matrice). Il faut la reformuler pour en faire une phrase complète.",
+        "suggestions": [
+          "De plus, le gaspillage, qui est en train d'augmenter sans cesse, cause des effets majeurs sur l'atmosphère partout dans le monde."
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "text": "s'augmenter",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Le verbe « augmenter » n'est pas pronominal dans ce contexte. La construction correcte est « d'augmenter ».",
+        "suggestions": [
+          "d'augmenter"
+        ],
+        "ruleApplied": "4.1.2.2.2"
+      },
+      {
+        "text": "Serait-il pas",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La négation est mal employée. Il manque l'adverbe « ne » dans la structure « ne... pas ».",
+        "suggestions": [
+          "Ne serait-il pas"
+        ],
+        "ruleApplied": "4.1.2.1.3"
+      },
+      {
+        "text": "à mettre fin",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "La préposition est erronée. On dit « il est temps de faire quelque chose ».",
+        "suggestions": [
+          "de mettre fin"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "en à cet",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "La préposition « en » est superflue dans cette construction.",
+        "suggestions": [
+          "à cet"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "majeur enjeu",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "L'ordre des mots est incorrect. L'adjectif « majeur » se place généralement après le nom.",
+        "suggestions": [
+          "enjeu majeur"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "Que Oui",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette construction est un calque de l'oral. Il faut simplement utiliser « Oui ».",
+        "suggestions": [
+          "Oui"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "Selon moi, je persite",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il y a une redondance entre « Selon moi » et « je ». Il faut choisir l'une des deux formulations.",
+        "suggestions": [
+          "Selon moi, il est temps",
+          "Je persiste"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "à lutter",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "La préposition est erronée. On dit « il est temps de faire quelque chose ».",
+        "suggestions": [
+          "de lutter"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "de se dépenser",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe « dépenser » est utilisé incorrectement. Il s'applique à l'argent. Pour la nourriture, il faut utiliser un verbe comme « être jetées » ou « être gaspillées ».",
+        "suggestions": [
+          "d'être gaspillées",
+          "d'être jetées"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": "(Shields, 2021) Ainsi",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque un point pour marquer la fin de la phrase avant la référence entre parenthèses.",
+        "suggestions": [
+          "2019 ». (Shields, 2021). Ainsi"
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "text": "Ainsi qu'une autre étude",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase est une subordonnée sans phrase principale (matrice). Il faut la reformuler pour en faire une phrase complète.",
+        "suggestions": [
+          "De même, une autre étude"
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "text": "(RECYC-Québec, 2021).",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point final de la phrase se place après la parenthèse fermante, pas à l'intérieur. Le point après la parenthèse est donc superflu.",
+        "suggestions": [
+          "(RECYC-Québec, 2021)."
+        ],
+        "ruleApplied": "4.2.2.1.2"
+      },
+      {
+        "text": "êtes-vous en conscience",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est boiteuse. On dit « avoir conscience de quelque chose » ou « être conscient de quelque chose ».",
+        "suggestions": [
+          "avez-vous conscience",
+          "êtes-vous conscients"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "planète",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque un point pour marquer la fin de la phrase.",
+        "suggestions": [
+          "planète."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "text": "Que oui",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette construction est un calque de l'oral. Il faut simplement utiliser « Oui ».",
+        "suggestions": [
+          "Oui"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "Ne vous s'inquiétez pas",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom réfléchi « s' » est superflu. La forme correcte est « Ne vous inquiétez pas ».",
+        "suggestions": [
+          "Ne vous inquiétez pas"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "j'aime manger pas gaspiller",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La négation est mal employée. Il manque l'adverbe « ne » ou une coordination correcte.",
+        "suggestions": [
+          "J'aime manger, pas gaspiller",
+          "J'aime manger et ne pas gaspiller"
+        ],
+        "ruleApplied": "4.1.2.1.3"
+      },
+      {
+        "text": "spécialisés à offrir",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition est erronée. On est « spécialisé dans » quelque chose ou « pour faire » quelque chose.",
+        "suggestions": [
+          "spécialisés pour offrir",
+          "spécialisés dans l'offre de"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "pour but de",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "La construction de la locution est boiteuse. Il faut dire « dans le but de ».",
+        "suggestions": [
+          "dans le but de"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "(Simard, 2020)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque un point pour marquer la fin de la phrase.",
+        "suggestions": [
+          "maison. (Simard, 2020)."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "text": "ignoré",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe « ignorer » est utilisé incorrectement et crée un problème de sens. Le mot juste serait « évité ».",
+        "suggestions": [
+          "évité"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": "(Corriveau, 2020)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque un point pour marquer la fin de la phrase.",
+        "suggestions": [
+          "aliments. (Corriveau, 2020)."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "text": "pourquoi pas les essayer",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque un mot essentiel à la construction de la négation. Il faut ajouter « ne ».",
+        "suggestions": [
+          "pourquoi ne pas les essayer"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "prendre beaucoup de risques sur notre planète",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette expression crée un problème de sens. On ne « prend » pas de risques sur une planète. Il faut reformuler, par exemple : « fait courir beaucoup de risques à notre planète ».",
+        "suggestions": [
+          "fait courir beaucoup de risques à notre planète"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": "ainsi à faire",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "La coordination est erronée. Pour coordonner deux compléments introduits par « de », il faut utiliser « et de » ou « ainsi que de ».",
+        "suggestions": [
+          "et de faire",
+          "ainsi que de faire"
+        ],
+        "ruleApplied": "4.1.2.1.8"
+      },
+      {
+        "text": "vie en quotidien",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "La construction de cette expression est boiteuse. Il faut dire « vie quotidienne » ou « au quotidien ».",
+        "suggestions": [
+          "vie quotidienne",
+          "vie au quotidien"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "prendre en positition",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de l'expression est boiteuse. La locution correcte est « prendre position ».",
+        "suggestions": [
+          "prendre position"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "jusqu'on",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le subordonnant est erroné. La locution conjonctive correcte est « jusqu'à ce que ».",
+        "suggestions": [
+          "jusqu'à ce qu'on"
+        ],
+        "ruleApplied": "4.1.2.4.2"
+      },
+      {
+        "text": "Ainsi que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase est une subordonnée sans phrase principale (matrice). L'utilisation de « Ainsi que » en début de phrase crée une construction de phrase incomplète.",
+        "suggestions": [
+          "De plus, le gaspillage",
+          "Il y a aussi le gaspillage"
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "text": "temps à mettre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de préposition. La locution correcte est « il est temps de » suivie d'un infinitif.",
+        "suggestions": [
+          "temps de mettre"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "Selon moi, je",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Redondance. « Selon moi » et « je » expriment tous deux un point de vue personnel. Il faut choisir l'une des deux formulations.",
+        "suggestions": [
+          "Selon moi, il faut persister",
+          "Je persiste"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "temps à lutter",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de préposition. La locution correcte est « il est temps de » suivie d'un infinitif.",
+        "suggestions": [
+          "temps de lutter"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "de toute sorte de",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Présence d'un mot superflu. La première préposition « de » est de trop. Une seule erreur de syntaxe est comptée par phrase syntaxique.",
+        "suggestions": [
+          "toute sorte de"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "se dépenser",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Problème de sens. Le verbe « dépenser » s'applique à l'argent. Pour la nourriture, il faut utiliser un verbe comme « se perdre » ou une formulation comme « être gaspillées ».",
+        "suggestions": [
+          "se perdre",
+          "être gaspillées"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": "2019  » (Shields, 2021)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence du point final qui doit clore la phrase, après la parenthèse.",
+        "suggestions": [
+          "2019  » (Shields, 2021)."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "text": "Ainsi qu'une",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase est une subordonnée sans phrase principale (matrice). L'utilisation de « Ainsi que » en début de phrase crée une construction de phrase incomplète.",
+        "suggestions": [
+          "De plus, une",
+          "Une"
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "text": "en conscience",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Problème de sens dû à une construction fautive. L'expression correcte est « être conscient de ».",
+        "suggestions": [
+          "conscients"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": "Que oui",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "S",
+        "description": "Calque de l'oral. Cette construction n'est pas admise à l'écrit.",
+        "suggestions": [
+          "Oui"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "s'inquiétez",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Présence d'un mot superflu. Dans la construction « Ne vous inquiétez pas », le pronom réfléchi « s' » est de trop.",
+        "suggestions": [
+          "inquiétez"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "Beaucoup de sites web comme sauve ta bouffe, chic frigo sans fric, ainsi que j'aime manger pas gaspiller et des livres qui sont spécialisés à offrir des recettes et des trucs pour but de nous aider à lutter contre le dépensement alimentaire à la maison.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase est une subordonnée sans phrase principale (matrice). Elle n'a pas de verbe principal conjugué.",
+        "suggestions": [
+          "Il existe beaucoup de sites web comme Sauve ta bouffe..."
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "text": "aliments (Corriveau, 2020)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence du point final qui doit clore la phrase, après la parenthèse.",
+        "suggestions": [
+          "aliments (Corriveau, 2020)."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "text": "à faire",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de coordination. La préposition « à » est incorrecte. La structure est « il est temps de [infinitif] et [infinitif] », donc « de prendre [...] et de faire [...] » ou « de prendre [...] et faire [...] ».",
+        "suggestions": [
+          "et de faire",
+          "et faire"
+        ],
+        "ruleApplied": "4.1.2.1.8"
+      }
+    ],
+    "erreursCritere5AvantAnalyseIA": [
+      {
+        "text": "Limiteez",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "La terminaison de l'impératif présent à la deuxième personne du pluriel pour les verbes du premier groupe est « -ez » et non « -eez ».",
+        "suggestions": [
+          "Limitez"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "entrain",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "La locution verbale « en train de » s'écrit en deux mots.",
+        "suggestions": [
+          "en train"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "text": "persite",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Une lettre est erronée dans ce mot. Il s'écrit avec un « s ».",
+        "suggestions": [
+          "persiste"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "de toute sorte de",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Dans l'expression « toutes sortes de », le nom « sorte » s'accorde au pluriel.",
+        "suggestions": [
+          "de toutes sortes de"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "text": "environnementals",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif doit s'accorder en genre et en nombre avec le nom qu'il qualifie. Le donneur est « dégradations », féminin pluriel.",
+        "suggestions": [
+          "environnementales"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "chèrs",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'accent sur ce mot est erroné. Il ne prend pas d'accent.",
+        "suggestions": [
+          "chers"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "text": "savais",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec son sujet. Le donneur est le pronom « on », qui commande l'accord à la troisième personne du singulier.",
+        "suggestions": [
+          "savait"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "entraines",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "La locution verbale « en train de » s'écrit en deux mots et est invariable. Il s'agit d'une répétition de la même erreur d'usage.",
+        "suggestions": [
+          "en train"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "text": "unies",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Dans la dénomination « Organisation des Nations Unies », le mot « Unies » prend une majuscule.",
+        "suggestions": [
+          "Unies"
+        ],
+        "ruleApplied": "5.2.4.1.2"
+      },
+      {
+        "text": "gaspillés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé employé avec l'auxiliaire « être » (sous-entendu ici dans la voix passive) s'accorde en genre et en nombre avec le sujet. Le donneur est « tonnes », féminin pluriel.",
+        "suggestions": [
+          "gaspillées"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "amener",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif en « -er » et le participe passé en « -é ». Après l'auxiliaire « avoir », il faut utiliser le participe passé.",
+        "suggestions": [
+          "amené"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "appuisent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Il s'agit d'un barbarisme de conjugaison. La forme correcte du verbe « appuyer » au présent de l'indicatif, à la troisième personne du pluriel, est « appuient ».",
+        "suggestions": [
+          "appuient"
+        ],
+        "ruleApplied": "5.3.2.1"
+      },
+      {
+        "text": "émission",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom doit s'accorder en nombre avec son déterminant. Le donneur est « des », qui indique le pluriel.",
+        "suggestions": [
+          "émissions"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "Deuxièment",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'accent sur ce mot est erroné. Il faut un accent grave sur le premier « e ».",
+        "suggestions": [
+          "Deuxièmement"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "text": "chèrs",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "L'accent sur ce mot est erroné. Il ne prend pas d'accent. Il s'agit d'une répétition de la même erreur d'usage.",
+        "suggestions": [
+          "chers"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "text": "chèrs public",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif doit s'accorder en nombre avec le nom qu'il qualifie. Le donneur est « public », masculin singulier.",
+        "suggestions": [
+          "cher public"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "veulent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec son sujet. Le donneur est « la majorité », qui commande l'accord à la troisième personne du singulier.",
+        "suggestions": [
+          "veut"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "dépensement",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Ce mot est un barbarisme, il n'existe pas en français. Il faut utiliser « gaspillage ».",
+        "suggestions": [
+          "gaspillage"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "text": "Florence- Léa Siry",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Une espace superflue a été insérée dans le prénom composé.",
+        "suggestions": [
+          "Florence-Léa Siry"
+        ],
+        "ruleApplied": "5.2.1.7.5"
+      },
+      {
+        "text": "le moitié",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant doit s'accorder en genre avec le nom qu'il détermine. Le nom « moitié » est féminin.",
+        "suggestions": [
+          "la moitié"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "entrain",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "La locution verbale « en train de » s'écrit en deux mots. Il s'agit d'une répétition de la même erreur d'usage.",
+        "suggestions": [
+          "en train"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "text": "positition",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Ce mot contient une lettre doublée en trop. Il s'écrit avec un seul « t ».",
+        "suggestions": [
+          "position"
+        ],
+        "ruleApplied": "5.2.1.6"
+      },
+      {
+        "text": "tout les",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant « tout » doit s'accorder en genre et en nombre avec le nom qu'il détermine. Le donneur est « les risques », masculin pluriel.",
+        "suggestions": [
+          "tous les"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "cet effet là",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Il manque un trait d'union entre le nom et l'adverbe « là » qui le suit.",
+        "suggestions": [
+          "cet effet-là"
+        ],
+        "ruleApplied": "5.2.1.7.1"
+      },
+      {
+        "text": "entraines",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur grammaticale. La locution verbale « en train de » est invariable et ne s'accorde pas.",
+        "suggestions": [
+          "en train"
+        ],
+        "ruleApplied": "5.3.1.6"
+      },
+      {
+        "text": "chèrs",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre et erreur d'accent. L'adjectif « cher » doit s'accorder avec le nom « public » (masculin singulier). La priorité est accordée à l'erreur grammaticale.",
+        "suggestions": [
+          "cher"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "sauve ta bouffe",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Absence de majuscule au début d'un titre d'œuvre ou de site.",
+        "suggestions": [
+          "Sauve ta bouffe"
+        ],
+        "ruleApplied": "5.2.4.4"
+      },
+      {
+        "text": "chic frigo sans fric",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Absence de majuscule au début d'un titre d'œuvre ou de site. Cette erreur est déjà comptée une fois dans le texte.",
+        "suggestions": [
+          "Chic frigo sans fric"
+        ],
+        "ruleApplied": "5.2.4.4"
+      },
+      {
+        "text": "j'aime manger pas gaspiller",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Absence de majuscule au début d'un titre d'œuvre ou de site. Cette erreur est déjà comptée une fois dans le texte.",
+        "suggestions": [
+          "J'aime manger, pas gaspiller"
+        ],
+        "ruleApplied": "5.2.4.4"
+      },
+      {
+        "text": "ignoré",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "Erreur d'accord du participe passé. Le participe passé « ignoré » doit s'accorder avec son donneur « moitié » (féminin singulier).",
+        "suggestions": [
+          "ignorée"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "chèrs",
+        "occurenceIndex": 2,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Erreur d'accent. L'adjectif « cher » ne prend pas d'accent grave. Cette erreur d'usage est déjà comptée une fois dans le texte.",
+        "suggestions": [
+          "chers"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "text": "entrain",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Barbarisme orthographique. La locution s'écrit « en train » en deux mots. Cette erreur d'usage est déjà comptée une fois dans le texte.",
+        "suggestions": [
+          "en train"
+        ],
+        "ruleApplied": "5.2.6.4"
+      }
+    ],
+    "analyseIADuplicatas": {
+      "critere4": {
+        "analyse": {
+          "totalErreursCritere4": 43,
+          "totalErreursCritere5": 0,
+          "duplicatasCritere4": 10,
+          "duplicatasCritere5": 0
+        },
+        "duplicatasCritere4": [
+          {
+            "groupe": 1,
+            "confiance": 95,
+            "raison": "Même erreur de phrase subordonnée sans principale. L'erreur 29 est une version moins complète de l'erreur 0.",
+            "erreurs": [
+              {
+                "index": 0,
+                "text": "Ainsi que le gaspillage qui est entrain de s'augmenter sans cesse, causant des effets majeurs sur l'atmosphère tout autour du monde.",
+                "garder": true
+              },
+              {
+                "index": 29,
+                "text": "Ainsi que",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 2,
+            "confiance": 90,
+            "raison": "Les deux erreurs pointent vers la même construction fautive 'temps à + infinitif' au lieu de 'temps de + infinitif'.",
+            "erreurs": [
+              {
+                "index": 30,
+                "text": "temps à mettre",
+                "garder": true
+              },
+              {
+                "index": 3,
+                "text": "à mettre fin",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 3,
+            "confiance": 100,
+            "raison": "Texte quasi-identique (casse), même occurrence et même règle appliquée.",
+            "erreurs": [
+              {
+                "index": 6,
+                "text": "Que Oui",
+                "garder": true
+              },
+              {
+                "index": 15,
+                "text": "Que oui",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 4,
+            "confiance": 95,
+            "raison": "Même erreur de redondance ('Selon moi, je'). L'erreur 31 est une version moins complète de l'erreur 7.",
+            "erreurs": [
+              {
+                "index": 7,
+                "text": "Selon moi, je persite",
+                "garder": true
+              },
+              {
+                "index": 31,
+                "text": "Selon moi, je",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 5,
+            "confiance": 95,
+            "raison": "Même erreur sémantique sur le verbe 'dépenser'. L'erreur 34 est une version moins complète de l'erreur 9.",
+            "erreurs": [
+              {
+                "index": 9,
+                "text": "de se dépenser",
+                "garder": true
+              },
+              {
+                "index": 34,
+                "text": "se dépenser",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 6,
+            "confiance": 95,
+            "raison": "Même erreur de ponctuation (point final manquant) concernant la même référence bibliographique.",
+            "erreurs": [
+              {
+                "index": 35,
+                "text": "2019  » (Shields, 2021)",
+                "garder": true
+              },
+              {
+                "index": 10,
+                "text": "(Shields, 2021) Ainsi",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 7,
+            "confiance": 90,
+            "raison": "Même erreur de construction ('en conscience'). L'erreur 37 est une version moins complète de l'erreur 13.",
+            "erreurs": [
+              {
+                "index": 13,
+                "text": "êtes-vous en conscience",
+                "garder": true
+              },
+              {
+                "index": 37,
+                "text": "en conscience",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 8,
+            "confiance": 95,
+            "raison": "Même erreur de mot superflu (pronom 's''). L'erreur 39 est une version moins complète de l'erreur 16.",
+            "erreurs": [
+              {
+                "index": 16,
+                "text": "Ne vous s'inquiétez pas",
+                "garder": true
+              },
+              {
+                "index": 39,
+                "text": "s'inquiétez",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 9,
+            "confiance": 95,
+            "raison": "Même erreur de ponctuation (point final manquant) concernant la même référence bibliographique.",
+            "erreurs": [
+              {
+                "index": 41,
+                "text": "aliments (Corriveau, 2020)",
+                "garder": true
+              },
+              {
+                "index": 22,
+                "text": "(Corriveau, 2020)",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 10,
+            "confiance": 95,
+            "raison": "Même erreur de coordination. L'erreur 42 est une version moins complète de l'erreur 25.",
+            "erreurs": [
+              {
+                "index": 25,
+                "text": "ainsi à faire",
+                "garder": true
+              },
+              {
+                "index": 42,
+                "text": "à faire",
+                "garder": false
+              }
+            ]
+          }
+        ],
+        "duplicatasCritere5": [],
+        "erreursUniquesCritere4": [
+          {
+            "index": 1,
+            "text": "s'augmenter",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 2,
+            "text": "Serait-il pas",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 4,
+            "text": "en à cet",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 5,
+            "text": "majeur enjeu",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 8,
+            "text": "à lutter",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 11,
+            "text": "Ainsi qu'une autre étude",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 12,
+            "text": "(RECYC-Québec, 2021).",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 14,
+            "text": "planète",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 17,
+            "text": "j'aime manger pas gaspiller",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 18,
+            "text": "spécialisés à offrir",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 19,
+            "text": "pour but de",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 20,
+            "text": "(Simard, 2020)",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 21,
+            "text": "ignoré",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 23,
+            "text": "pourquoi pas les essayer",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 24,
+            "text": "prendre beaucoup de risques sur notre planète",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 26,
+            "text": "vie en quotidien",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 27,
+            "text": "prendre en positition",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 28,
+            "text": "jusqu'on",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 32,
+            "text": "temps à lutter",
+            "raison": "Instance distincte (occurrence 1)"
+          },
+          {
+            "index": 33,
+            "text": "de toute sorte de",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 36,
+            "text": "Ainsi qu'une",
+            "raison": "Instance distincte (occurrence 1)"
+          },
+          {
+            "index": 38,
+            "text": "Que oui",
+            "raison": "Instance distincte (occurrence 1)"
+          },
+          {
+            "index": 40,
+            "text": "Beaucoup de sites web comme sauve ta bouffe, chic frigo sans fric, ainsi que j'aime manger pas gaspiller et des livres qui sont spécialisés à offrir des recettes et des trucs pour but de nous aider à lutter contre le dépensement alimentaire à la maison.",
+            "raison": "Aucun duplicata trouvé"
+          }
+        ],
+        "erreursUniquesCritere5": [],
+        "recommandations": {
+          "erreursAConserverCritere4": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            11,
+            12,
+            13,
+            14,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            30,
+            32,
+            33,
+            35,
+            36,
+            38,
+            40,
+            41
+          ],
+          "erreursAConserverCritere5": [],
+          "erreursASupprimer": {
+            "critere4": [
+              3,
+              10,
+              15,
+              22,
+              29,
+              31,
+              34,
+              37,
+              39,
+              42
+            ],
+            "critere5": []
+          }
+        }
+      },
+      "critere5": {
+        "analyse": {
+          "totalErreursCritere4": 0,
+          "totalErreursCritere5": 32,
+          "duplicatasCritere4": 0,
+          "duplicatasCritere5": 7
+        },
+        "duplicatasCritere4": [],
+        "duplicatasCritere5": [
+          {
+            "groupe": 1,
+            "confiance": 95,
+            "raison": "Même erreur sémantique (locution 'en train') à la même position (occurrence 0), avec des textes et des règles légèrement différents mais une suggestion identique.",
+            "erreurs": [
+              {
+                "index": 7,
+                "text": "entraines",
+                "garder": true
+              },
+              {
+                "index": 1,
+                "text": "entrain",
+                "garder": false
+              },
+              {
+                "index": 20,
+                "text": "entrain",
+                "garder": false
+              },
+              {
+                "index": 24,
+                "text": "entraines",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 2,
+            "confiance": 90,
+            "raison": "Erreurs concernant le même mot ('chèrs') à la même position (occurrence 0). L'erreur conservée est la plus complète, incluant le contexte.",
+            "erreurs": [
+              {
+                "index": 15,
+                "text": "chèrs public",
+                "garder": true
+              },
+              {
+                "index": 5,
+                "text": "chèrs",
+                "garder": false
+              },
+              {
+                "index": 14,
+                "text": "chèrs",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 3,
+            "confiance": 95,
+            "raison": "Même type d'erreur (absence de majuscule sur un titre) signalé plusieurs fois. Les descriptions indiquent qu'il s'agit de répétitions.",
+            "erreurs": [
+              {
+                "index": 26,
+                "text": "sauve ta bouffe",
+                "garder": true
+              },
+              {
+                "index": 27,
+                "text": "chic frigo sans fric",
+                "garder": false
+              },
+              {
+                "index": 28,
+                "text": "j'aime manger pas gaspiller",
+                "garder": false
+              }
+            ]
+          }
+        ],
+        "erreursUniquesCritere4": [],
+        "erreursUniquesCritere5": [
+          {
+            "index": 0,
+            "text": "Limiteez",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 2,
+            "text": "persite",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 3,
+            "text": "de toute sorte de",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 4,
+            "text": "environnementals",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 6,
+            "text": "savais",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 8,
+            "text": "unies",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 9,
+            "text": "gaspillés",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 10,
+            "text": "amener",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 11,
+            "text": "appuisent",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 12,
+            "text": "émission",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 13,
+            "text": "Deuxièment",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 16,
+            "text": "veulent",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 17,
+            "text": "dépensement",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 18,
+            "text": "Florence- Léa Siry",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 19,
+            "text": "le moitié",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 21,
+            "text": "positition",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 22,
+            "text": "tout les",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 23,
+            "text": "cet effet là",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 25,
+            "text": "chèrs",
+            "raison": "Occurrence distincte (index 1) de l'erreur sur 'chèrs'."
+          },
+          {
+            "index": 29,
+            "text": "ignoré",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 30,
+            "text": "chèrs",
+            "raison": "Occurrence distincte (index 2) de l'erreur sur 'chèrs'."
+          },
+          {
+            "index": 31,
+            "text": "entrain",
+            "raison": "Occurrence distincte (index 1) de l'erreur sur 'entrain'."
+          }
+        ],
+        "recommandations": {
+          "erreursAConserverCritere4": [],
+          "erreursAConserverCritere5": [
+            0,
+            2,
+            3,
+            4,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            15,
+            16,
+            17,
+            18,
+            19,
+            21,
+            22,
+            23,
+            25,
+            26,
+            29,
+            30,
+            31
+          ],
+          "erreursASupprimer": {
+            "critere4": [],
+            "critere5": [
+              1,
+              5,
+              14,
+              20,
+              24,
+              27,
+              28
+            ]
+          }
+        }
+      }
+    }
+  }
+}

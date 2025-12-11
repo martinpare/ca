@@ -1,0 +1,1003 @@
+{
+  "processedAt": "2025-12-10T14:31:40.931Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_061.txt",
+    "originalText": "Sauvez les aliments!\r\n\r\nAu fil des années, la population se rend de plus en plus compte de la quantité de nourriture que les agriculteurs, épiceries, restaurants ou encore les consommateurs jettent et gaspillent chaque jour. Simplement en 2019, selon une étude de l'Organisation des Nations unies, c'est presque 950 millions de tonnes de nourriture qui ont été gaspillées partout dans le monde. (1) Ce gaspillage apporte de nombreux problèmes dans l'environnement, alors il est clair qu'il faut commencer à agir. Par contre, sommes-nous réellement prêts à lutter contre le gaspillage de nos aliments? Selon moi, oui. Les entreprises ont déjà commencé à apporter des changements à leurs habitudes, en visant à limiter le gaspillage. De nombreux organismes visant à influencer les consommateurs et les entreprises à faire plus attention à leur gaspillage voient le jour.\r\n\r\nPour commencer, il faut savoir que les endroits ou le gaspillage alimentaire est le plus important sont chez les agriculteurs, dans la restauration ou encore l'hôtellerie. Ces entreprises visent principalement à ce que leurs produits soient frais avec une allure parfaite, alors il est difficile de garder la nourriture imparfaite. Cette nourriture imparfaite est jetée, ce qui est complètement absurde et impensable. Heureusement, plusieurs de ces entreprises s'en rendent compte et apportent des solutions plutôt efficaces. Par exemple, si nous regardons la Tablée des Chefs, un programme de récupération de surplus alimentaires pour les restaurants et hôtels de Montréal fondé en 2002 par le chef Jean-François Archambault, qui vise à récupérer et redistribuer de la nourriture en surplus aux personnes dans le besoin a récupéré 600 000 repas en 2018 (2). C'est très intéressant sachant que ces repas auraient pu se retrouver à la poubelle. Sinon au niveau des épiceries, beaucoup de denrées sont redistribuées, par exemple, les banques alimentaires du Québec ont réussi en quelques années à récupérer des denrées invendues pour en faire des paniers alimentaires. Cela représente 6,7 millions de kilos de nourriture redistribuée (3). Bref, les entreprises sont sur la bonne voie, si elles continuent de distribuer leur nourriture au lieu de la jeter, cela pourrait grandement nous aider à lutter contre notre gaspillage.\r\n\r\nDeuxièmement, il est clair que la plupart du gaspillage alimentaire se fait à la maison. Dans les pays développés, l'accès à la nourriture n'est pas difficile, alors le gaspillage est énormément plus facile à faire. C'est donc pour cela que de nombreuses entreprises tentent de sensibiliser la population. Par exemple, l'entreprise québécoise Loop Mission qui transforme des restes de fruits et légumes en jus, en savon ou en alcool. C'est en 2020 que ses ventes ont grimpé de 116% (4). C'est énorme et cela signifie que la population commence à faire plus attention au gaspillage alimentaire. Selon Florence-Léa Siry, une experte en lutte contre le gaspillage alimentaire dit que 50% du gaspillage à la maison pourrait être évité si les consommateurs apprenaient à mieux conserver les aliments (5). Des sites s'engagent donc à sensibiliser les consommateurs. bref, ces entreprises apportent de bonnes solutions pour lutter contre le gaspillage.\r\n\r\nEn conclusion, il est clair que nous sommes prêts à lutter contre notre gaspillage, il faut tout simplement réussir à sensibiliser la population à réduire son empreinte écologique. Elle peut donc y arriver grâce aux entreprises et aux organismes qui font des efforts considérables pour faire attention à leur gaspillage.\r\n\r\n1 SHIELDS, Alexandre, Les Canadiens gaspillent trois millions de tonnes de nourriture chaque année, 2021.\r\n2 HEBERT, Vanessa, La Tablée des chefs : lutter contre le gaspillage et nourrir les gens dans le besoin, 2019.\r\n3 CORRIVEAU, Jeanne, La fierté de ne pas gaspiller d'aliments, 2020.\r\n4 MARTINEZ, Emmanuel, Investissement de 10M$ : encore plus d'aliments récupérés par Loop Mission, 2021.\r\n5 CORRIVEAU, Jeanne, La fierté de ne pas gaspiller d'aliments, 2020.",
+    "erreursCritere4": [
+      {
+        "text": "Par exemple, si nous regardons la Tablée des Chefs, un programme de récupération de surplus alimentaires pour les restaurants et hôtels de Montréal fondé en 2002 par le chef Jean-François Archambault, qui vise à récupérer et redistribuer de la nourriture en surplus aux personnes dans le besoin a récupéré 600 000 repas en 2018 (2).",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La phrase principale qui devrait suivre la subordonnée conditionnelle « si nous regardons... » est manquante. La phrase est donc syntaxiquement incomplète.",
+        "suggestions": [
+          "Par exemple, la Tablée des Chefs [...] a récupéré 600 000 repas en 2018.",
+          "Par exemple, si nous regardons la Tablée des Chefs [...], nous constatons qu'elle a récupéré 600 000 repas en 2018."
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "text": "Sinon au",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule est requise après un organisateur textuel ou un connecteur logique placé en tête de phrase.",
+        "suggestions": [
+          "Sinon, au"
+        ],
+        "ruleApplied": "4.2.2.10.1.k"
+      },
+      {
+        "text": "Par exemple, l'entreprise québécoise Loop Mission qui transforme des restes de fruits et légumes en jus, en savon ou en alcool.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase est un fragment. Elle est constituée d'un groupe nominal suivi d'une proposition subordonnée relative, mais il manque la proposition principale et son verbe.",
+        "suggestions": [
+          "Par exemple, l'entreprise québécoise Loop Mission transforme des restes...",
+          "Par exemple, il y a l'entreprise québécoise Loop Mission qui transforme..."
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "text": "2021",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point est requis pour marquer la fin d'un élément dans une liste bibliographique.",
+        "suggestions": [
+          "2021."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "text": "2019",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point est requis pour marquer la fin d'un élément dans une liste bibliographique.",
+        "suggestions": [
+          "2019."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "text": "2020",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point est requis pour marquer la fin d'un élément dans une liste bibliographique.",
+        "suggestions": [
+          "2020."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "text": "2021",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point est requis pour marquer la fin d'un élément dans une liste bibliographique.",
+        "suggestions": [
+          "2021."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "text": "2020",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point est requis pour marquer la fin d'un élément dans une liste bibliographique.",
+        "suggestions": [
+          "2020."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "text": "ou",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Confusion entre l'adverbe de lieu 'où' (avec accent) et la conjonction de coordination 'ou' (sans accent).",
+        "suggestions": [
+          "où"
+        ],
+        "ruleApplied": "4.1.2.1.9"
+      },
+      {
+        "text": "besoin a",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de la virgule fermant la proposition relative explicative 'qui vise à récupérer et redistribuer de la nourriture en surplus aux personnes dans le besoin'.",
+        "suggestions": [
+          "besoin, a"
+        ],
+        "ruleApplied": "4.2.2.10.1.g"
+      },
+      {
+        "text": "alimentaire dit",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de la virgule fermant le groupe en apposition 'une experte en lutte contre le gaspillage alimentaire'.",
+        "suggestions": [
+          "alimentaire, dit"
+        ],
+        "ruleApplied": "4.2.2.10.1.i"
+      },
+      {
+        "text": "dit que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Mot superflu. La structure 'Selon X, ... dit que...' est redondante. Il faut choisir entre 'Selon X, ...' et 'X dit que...'.",
+        "suggestions": [
+          "(supprimer)"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 8,
+      "note": "B"
+    },
+    "erreursCritere5": [
+      {
+        "text": "unies",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "La majuscule est requise pour les noms d'organismes. L'« Organisation des Nations Unies » est une dénomination officielle.",
+        "suggestions": [
+          "Unies"
+        ],
+        "ruleApplied": "5.2.4.1.2"
+      },
+      {
+        "text": "ou",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le pronom relatif « où » (qui indique le lieu) et la conjonction de coordination « ou » (qui indique un choix).",
+        "suggestions": [
+          "où"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "text": "bref",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Une majuscule est requise au début d'une phrase, après un point.",
+        "suggestions": [
+          "Bref"
+        ],
+        "ruleApplied": "5.3.6.1"
+      },
+      {
+        "text": "HEBERT",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'accent aigu est requis sur le 'E' dans le nom propre « Hébert ».",
+        "suggestions": [
+          "HÉBERT"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "text": "redistribuée",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'redistribuée' doit s'accorder en genre et en nombre avec son donneur 'kilos' (masculin pluriel).",
+        "suggestions": [
+          "redistribués"
+        ],
+        "ruleApplied": "5.3.2.3"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 5,
+      "note": "B"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:27:31.832Z",
+    "endTimestamp": "2025-12-10T14:31:40.931Z",
+    "durationMs": 249099,
+    "durationFormatted": "04:09:099",
+    "cumulParPasse": [
+      {
+        "passe": 1,
+        "erreursCritere4": [
+          {
+            "text": "Par exemple, si nous regardons la Tablée des Chefs, un programme de récupération de surplus alimentaires pour les restaurants et hôtels de Montréal fondé en 2002 par le chef Jean-François Archambault, qui vise à récupérer et redistribuer de la nourriture en surplus aux personnes dans le besoin a récupéré 600 000 repas en 2018 (2).",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La phrase principale qui devrait suivre la subordonnée conditionnelle « si nous regardons... » est manquante. La phrase est donc syntaxiquement incomplète.",
+            "suggestions": [
+              "Par exemple, la Tablée des Chefs [...] a récupéré 600 000 repas en 2018.",
+              "Par exemple, si nous regardons la Tablée des Chefs [...], nous constatons qu'elle a récupéré 600 000 repas en 2018."
+            ],
+            "ruleApplied": "4.1.2.1.4"
+          },
+          {
+            "text": "Sinon au",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Une virgule est requise après un organisateur textuel ou un connecteur logique placé en tête de phrase.",
+            "suggestions": [
+              "Sinon, au"
+            ],
+            "ruleApplied": "4.2.2.10.1.k"
+          },
+          {
+            "text": "Par exemple, l'entreprise québécoise Loop Mission qui transforme des restes de fruits et légumes en jus, en savon ou en alcool.",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Cette phrase est un fragment. Elle est constituée d'un groupe nominal suivi d'une proposition subordonnée relative, mais il manque la proposition principale et son verbe.",
+            "suggestions": [
+              "Par exemple, l'entreprise québécoise Loop Mission transforme des restes...",
+              "Par exemple, il y a l'entreprise québécoise Loop Mission qui transforme..."
+            ],
+            "ruleApplied": "4.1.2.1.4"
+          },
+          {
+            "text": "dit",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La structure « Selon [quelqu'un], [il/elle] dit que... » est redondante. Il faut choisir soit « Selon [quelqu'un], ... », soit « [Quelqu'un] dit que... ».",
+            "suggestions": [
+              "(supprimer 'dit')"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "2021",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Le point est requis pour marquer la fin d'un élément dans une liste bibliographique.",
+            "suggestions": [
+              "2021."
+            ],
+            "ruleApplied": "4.2.2.1.1"
+          },
+          {
+            "text": "2019",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Le point est requis pour marquer la fin d'un élément dans une liste bibliographique.",
+            "suggestions": [
+              "2019."
+            ],
+            "ruleApplied": "4.2.2.1.1"
+          },
+          {
+            "text": "2020",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Le point est requis pour marquer la fin d'un élément dans une liste bibliographique.",
+            "suggestions": [
+              "2020."
+            ],
+            "ruleApplied": "4.2.2.1.1"
+          },
+          {
+            "text": "2021",
+            "occurenceIndex": 1,
+            "criteria": 4,
+            "type": "P",
+            "description": "Le point est requis pour marquer la fin d'un élément dans une liste bibliographique.",
+            "suggestions": [
+              "2021."
+            ],
+            "ruleApplied": "4.2.2.1.1"
+          },
+          {
+            "text": "2020",
+            "occurenceIndex": 1,
+            "criteria": 4,
+            "type": "P",
+            "description": "Le point est requis pour marquer la fin d'un élément dans une liste bibliographique.",
+            "suggestions": [
+              "2020."
+            ],
+            "ruleApplied": "4.2.2.1.1"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "unies",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "La majuscule est requise pour les noms d'organismes. L'« Organisation des Nations Unies » est une dénomination officielle.",
+            "suggestions": [
+              "Unies"
+            ],
+            "ruleApplied": "5.2.4.1.2"
+          },
+          {
+            "text": "ou",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre le pronom relatif « où » (qui indique le lieu) et la conjonction de coordination « ou » (qui indique un choix).",
+            "suggestions": [
+              "où"
+            ],
+            "ruleApplied": "5.3.3.1"
+          },
+          {
+            "text": "bref",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Une majuscule est requise au début d'une phrase, après un point.",
+            "suggestions": [
+              "Bref"
+            ],
+            "ruleApplied": "5.3.6.1"
+          },
+          {
+            "text": "HEBERT",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "L'accent aigu est requis sur le 'E' dans le nom propre « Hébert ».",
+            "suggestions": [
+              "HÉBERT"
+            ],
+            "ruleApplied": "5.2.1.1"
+          }
+        ],
+        "totalErreursCritere4": 9,
+        "totalErreursCritere5": 4,
+        "scoreCritere4": {
+          "pointsPerdus": 6,
+          "note": "B"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 4,
+          "note": "A"
+        }
+      },
+      {
+        "passe": 2,
+        "erreursCritere4": [
+          {
+            "text": "Par exemple, si nous regardons la Tablée des Chefs, un programme de récupération de surplus alimentaires pour les restaurants et hôtels de Montréal fondé en 2002 par le chef Jean-François Archambault, qui vise à récupérer et redistribuer de la nourriture en surplus aux personnes dans le besoin a récupéré 600 000 repas en 2018 (2).",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La phrase principale qui devrait suivre la subordonnée conditionnelle « si nous regardons... » est manquante. La phrase est donc syntaxiquement incomplète.",
+            "suggestions": [
+              "Par exemple, la Tablée des Chefs [...] a récupéré 600 000 repas en 2018.",
+              "Par exemple, si nous regardons la Tablée des Chefs [...], nous constatons qu'elle a récupéré 600 000 repas en 2018."
+            ],
+            "ruleApplied": "4.1.2.1.4"
+          },
+          {
+            "text": "Sinon au",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Une virgule est requise après un organisateur textuel ou un connecteur logique placé en tête de phrase.",
+            "suggestions": [
+              "Sinon, au"
+            ],
+            "ruleApplied": "4.2.2.10.1.k"
+          },
+          {
+            "text": "Par exemple, l'entreprise québécoise Loop Mission qui transforme des restes de fruits et légumes en jus, en savon ou en alcool.",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Cette phrase est un fragment. Elle est constituée d'un groupe nominal suivi d'une proposition subordonnée relative, mais il manque la proposition principale et son verbe.",
+            "suggestions": [
+              "Par exemple, l'entreprise québécoise Loop Mission transforme des restes...",
+              "Par exemple, il y a l'entreprise québécoise Loop Mission qui transforme..."
+            ],
+            "ruleApplied": "4.1.2.1.4"
+          },
+          {
+            "text": "dit",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La structure « Selon [quelqu'un], [il/elle] dit que... » est redondante. Il faut choisir soit « Selon [quelqu'un], ... », soit « [Quelqu'un] dit que... ».",
+            "suggestions": [
+              "(supprimer 'dit')"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "2021",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Le point est requis pour marquer la fin d'un élément dans une liste bibliographique.",
+            "suggestions": [
+              "2021."
+            ],
+            "ruleApplied": "4.2.2.1.1"
+          },
+          {
+            "text": "2019",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Le point est requis pour marquer la fin d'un élément dans une liste bibliographique.",
+            "suggestions": [
+              "2019."
+            ],
+            "ruleApplied": "4.2.2.1.1"
+          },
+          {
+            "text": "2020",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Le point est requis pour marquer la fin d'un élément dans une liste bibliographique.",
+            "suggestions": [
+              "2020."
+            ],
+            "ruleApplied": "4.2.2.1.1"
+          },
+          {
+            "text": "2021",
+            "occurenceIndex": 1,
+            "criteria": 4,
+            "type": "P",
+            "description": "Le point est requis pour marquer la fin d'un élément dans une liste bibliographique.",
+            "suggestions": [
+              "2021."
+            ],
+            "ruleApplied": "4.2.2.1.1"
+          },
+          {
+            "text": "2020",
+            "occurenceIndex": 1,
+            "criteria": 4,
+            "type": "P",
+            "description": "Le point est requis pour marquer la fin d'un élément dans une liste bibliographique.",
+            "suggestions": [
+              "2020."
+            ],
+            "ruleApplied": "4.2.2.1.1"
+          },
+          {
+            "text": "ou",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Confusion entre l'adverbe de lieu 'où' (avec accent) et la conjonction de coordination 'ou' (sans accent).",
+            "suggestions": [
+              "où"
+            ],
+            "ruleApplied": "4.1.2.1.9"
+          },
+          {
+            "text": "si nous regardons",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Mot superflu. La tournure 'si nous regardons X, X a fait...' est un calque de l'oral qui alourdit la phrase et crée une construction boiteuse. Il faut supprimer l'amorce.",
+            "suggestions": [
+              "(supprimer)"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "besoin a",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Absence de la virgule fermant la proposition relative explicative 'qui vise à récupérer et redistribuer de la nourriture en surplus aux personnes dans le besoin'.",
+            "suggestions": [
+              "besoin, a"
+            ],
+            "ruleApplied": "4.2.2.10.1.g"
+          },
+          {
+            "text": "alimentaire dit",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Absence de la virgule fermant le groupe en apposition 'une experte en lutte contre le gaspillage alimentaire'.",
+            "suggestions": [
+              "alimentaire, dit"
+            ],
+            "ruleApplied": "4.2.2.10.1.i"
+          },
+          {
+            "text": "dit que",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Mot superflu. La structure 'Selon X, ... dit que...' est redondante. Il faut choisir entre 'Selon X, ...' et 'X dit que...'.",
+            "suggestions": [
+              "(supprimer)"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "unies",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "La majuscule est requise pour les noms d'organismes. L'« Organisation des Nations Unies » est une dénomination officielle.",
+            "suggestions": [
+              "Unies"
+            ],
+            "ruleApplied": "5.2.4.1.2"
+          },
+          {
+            "text": "ou",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre le pronom relatif « où » (qui indique le lieu) et la conjonction de coordination « ou » (qui indique un choix).",
+            "suggestions": [
+              "où"
+            ],
+            "ruleApplied": "5.3.3.1"
+          },
+          {
+            "text": "bref",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Une majuscule est requise au début d'une phrase, après un point.",
+            "suggestions": [
+              "Bref"
+            ],
+            "ruleApplied": "5.3.6.1"
+          },
+          {
+            "text": "HEBERT",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "L'accent aigu est requis sur le 'E' dans le nom propre « Hébert ».",
+            "suggestions": [
+              "HÉBERT"
+            ],
+            "ruleApplied": "5.2.1.1"
+          },
+          {
+            "text": "redistribuée",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé 'redistribuée' doit s'accorder en genre et en nombre avec son donneur 'kilos' (masculin pluriel).",
+            "suggestions": [
+              "redistribués"
+            ],
+            "ruleApplied": "5.3.2.3"
+          }
+        ],
+        "totalErreursCritere4": 14,
+        "totalErreursCritere5": 5,
+        "scoreCritere4": {
+          "pointsPerdus": 10,
+          "note": "C"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 5,
+          "note": "B"
+        }
+      }
+    ],
+    "erreursCritere4AvantAnalyseIA": [
+      {
+        "text": "Par exemple, si nous regardons la Tablée des Chefs, un programme de récupération de surplus alimentaires pour les restaurants et hôtels de Montréal fondé en 2002 par le chef Jean-François Archambault, qui vise à récupérer et redistribuer de la nourriture en surplus aux personnes dans le besoin a récupéré 600 000 repas en 2018 (2).",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La phrase principale qui devrait suivre la subordonnée conditionnelle « si nous regardons... » est manquante. La phrase est donc syntaxiquement incomplète.",
+        "suggestions": [
+          "Par exemple, la Tablée des Chefs [...] a récupéré 600 000 repas en 2018.",
+          "Par exemple, si nous regardons la Tablée des Chefs [...], nous constatons qu'elle a récupéré 600 000 repas en 2018."
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "text": "Sinon au",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule est requise après un organisateur textuel ou un connecteur logique placé en tête de phrase.",
+        "suggestions": [
+          "Sinon, au"
+        ],
+        "ruleApplied": "4.2.2.10.1.k"
+      },
+      {
+        "text": "Par exemple, l'entreprise québécoise Loop Mission qui transforme des restes de fruits et légumes en jus, en savon ou en alcool.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase est un fragment. Elle est constituée d'un groupe nominal suivi d'une proposition subordonnée relative, mais il manque la proposition principale et son verbe.",
+        "suggestions": [
+          "Par exemple, l'entreprise québécoise Loop Mission transforme des restes...",
+          "Par exemple, il y a l'entreprise québécoise Loop Mission qui transforme..."
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "text": "dit",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La structure « Selon [quelqu'un], [il/elle] dit que... » est redondante. Il faut choisir soit « Selon [quelqu'un], ... », soit « [Quelqu'un] dit que... ».",
+        "suggestions": [
+          "(supprimer 'dit')"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "2021",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point est requis pour marquer la fin d'un élément dans une liste bibliographique.",
+        "suggestions": [
+          "2021."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "text": "2019",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point est requis pour marquer la fin d'un élément dans une liste bibliographique.",
+        "suggestions": [
+          "2019."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "text": "2020",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point est requis pour marquer la fin d'un élément dans une liste bibliographique.",
+        "suggestions": [
+          "2020."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "text": "2021",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point est requis pour marquer la fin d'un élément dans une liste bibliographique.",
+        "suggestions": [
+          "2021."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "text": "2020",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point est requis pour marquer la fin d'un élément dans une liste bibliographique.",
+        "suggestions": [
+          "2020."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "text": "ou",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Confusion entre l'adverbe de lieu 'où' (avec accent) et la conjonction de coordination 'ou' (sans accent).",
+        "suggestions": [
+          "où"
+        ],
+        "ruleApplied": "4.1.2.1.9"
+      },
+      {
+        "text": "si nous regardons",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Mot superflu. La tournure 'si nous regardons X, X a fait...' est un calque de l'oral qui alourdit la phrase et crée une construction boiteuse. Il faut supprimer l'amorce.",
+        "suggestions": [
+          "(supprimer)"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "besoin a",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de la virgule fermant la proposition relative explicative 'qui vise à récupérer et redistribuer de la nourriture en surplus aux personnes dans le besoin'.",
+        "suggestions": [
+          "besoin, a"
+        ],
+        "ruleApplied": "4.2.2.10.1.g"
+      },
+      {
+        "text": "alimentaire dit",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de la virgule fermant le groupe en apposition 'une experte en lutte contre le gaspillage alimentaire'.",
+        "suggestions": [
+          "alimentaire, dit"
+        ],
+        "ruleApplied": "4.2.2.10.1.i"
+      },
+      {
+        "text": "dit que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Mot superflu. La structure 'Selon X, ... dit que...' est redondante. Il faut choisir entre 'Selon X, ...' et 'X dit que...'.",
+        "suggestions": [
+          "(supprimer)"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      }
+    ],
+    "erreursCritere5AvantAnalyseIA": [
+      {
+        "text": "unies",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "La majuscule est requise pour les noms d'organismes. L'« Organisation des Nations Unies » est une dénomination officielle.",
+        "suggestions": [
+          "Unies"
+        ],
+        "ruleApplied": "5.2.4.1.2"
+      },
+      {
+        "text": "ou",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le pronom relatif « où » (qui indique le lieu) et la conjonction de coordination « ou » (qui indique un choix).",
+        "suggestions": [
+          "où"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "text": "bref",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Une majuscule est requise au début d'une phrase, après un point.",
+        "suggestions": [
+          "Bref"
+        ],
+        "ruleApplied": "5.3.6.1"
+      },
+      {
+        "text": "HEBERT",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'accent aigu est requis sur le 'E' dans le nom propre « Hébert ».",
+        "suggestions": [
+          "HÉBERT"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "text": "redistribuée",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'redistribuée' doit s'accorder en genre et en nombre avec son donneur 'kilos' (masculin pluriel).",
+        "suggestions": [
+          "redistribués"
+        ],
+        "ruleApplied": "5.3.2.3"
+      }
+    ],
+    "analyseIADuplicatas": {
+      "critere4": {
+        "analyse": {
+          "totalErreursCritere4": 14,
+          "totalErreursCritere5": 0,
+          "duplicatasCritere4": 2,
+          "duplicatasCritere5": 0
+        },
+        "duplicatasCritere4": [
+          {
+            "groupe": 1,
+            "confiance": 95,
+            "raison": "Même problème de construction de phrase (tournure 'si nous regardons...'). L'erreur 0 est plus globale, englobe le texte de l'erreur 10 et décrit la conséquence sur toute la phrase.",
+            "erreurs": [
+              {
+                "index": 0,
+                "text": "Par exemple, si nous regardons la Tablée des Chefs, un programme de récupération de surplus alimentaires pour les restaurants et hôtels de Montréal fondé en 2002 par le chef Jean-François Archambault, qui vise à récupérer et redistribuer de la nourriture en surplus aux personnes dans le besoin a récupéré 600 000 repas en 2018 (2).",
+                "garder": true
+              },
+              {
+                "index": 10,
+                "text": "si nous regardons",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 2,
+            "confiance": 100,
+            "raison": "Même erreur de redondance ('Selon... dit que...') à la même position. Les deux erreurs partagent la même règle et une description quasi identique. L'erreur 13 a un texte légèrement plus complet.",
+            "erreurs": [
+              {
+                "index": 13,
+                "text": "dit que",
+                "garder": true
+              },
+              {
+                "index": 3,
+                "text": "dit",
+                "garder": false
+              }
+            ]
+          }
+        ],
+        "duplicatasCritere5": [],
+        "erreursUniquesCritere4": [
+          {
+            "index": 1,
+            "text": "Sinon au",
+            "raison": "Erreur de ponctuation unique (virgule après connecteur)."
+          },
+          {
+            "index": 2,
+            "text": "Par exemple, l'entreprise québécoise Loop Mission qui transforme des restes de fruits et légumes en jus, en savon ou en alcool.",
+            "raison": "Erreur de phrase fragmentée distincte de l'autre."
+          },
+          {
+            "index": 4,
+            "text": "2021",
+            "raison": "Erreur de ponctuation bibliographique unique (occurrence 0)."
+          },
+          {
+            "index": 5,
+            "text": "2019",
+            "raison": "Erreur de ponctuation bibliographique unique."
+          },
+          {
+            "index": 6,
+            "text": "2020",
+            "raison": "Erreur de ponctuation bibliographique unique (occurrence 0)."
+          },
+          {
+            "index": 7,
+            "text": "2021",
+            "raison": "Erreur de ponctuation bibliographique unique (occurrence 1)."
+          },
+          {
+            "index": 8,
+            "text": "2020",
+            "raison": "Erreur de ponctuation bibliographique unique (occurrence 1)."
+          },
+          {
+            "index": 9,
+            "text": "ou",
+            "raison": "Erreur d'homophone unique (ou/où)."
+          },
+          {
+            "index": 11,
+            "text": "besoin a",
+            "raison": "Erreur de ponctuation unique (virgule manquante)."
+          },
+          {
+            "index": 12,
+            "text": "alimentaire dit",
+            "raison": "Erreur de ponctuation unique (virgule manquante)."
+          }
+        ],
+        "erreursUniquesCritere5": [],
+        "recommandations": {
+          "erreursAConserverCritere4": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            11,
+            12,
+            13
+          ],
+          "erreursAConserverCritere5": [],
+          "erreursASupprimer": {
+            "critere4": [
+              3,
+              10
+            ],
+            "critere5": []
+          }
+        }
+      },
+      "critere5": {
+        "analyse": {
+          "totalErreursCritere4": 0,
+          "totalErreursCritere5": 5,
+          "duplicatasCritere4": 0,
+          "duplicatasCritere5": 0
+        },
+        "duplicatasCritere4": [],
+        "duplicatasCritere5": [],
+        "erreursUniquesCritere4": [],
+        "erreursUniquesCritere5": [
+          {
+            "index": 0,
+            "text": "unies",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 1,
+            "text": "ou",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 2,
+            "text": "bref",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 3,
+            "text": "HEBERT",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 4,
+            "text": "redistribuée",
+            "raison": "Aucun duplicata trouvé"
+          }
+        ],
+        "recommandations": {
+          "erreursAConserverCritere4": [],
+          "erreursAConserverCritere5": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "erreursASupprimer": {
+            "critere4": [],
+            "critere5": []
+          }
+        }
+      }
+    }
+  }
+}

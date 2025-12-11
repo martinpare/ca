@@ -1,0 +1,606 @@
+{
+  "processedAt": "2025-12-10T15:09:56.919Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_141.txt",
+    "originalText": "Dilapider la nutrition\r\n\r\nLes quatre seules choses nécessaires à la vie sont l'eau, l'oxygène, le système nerveux et la nourriture. Si l'une de ces choses vous était enlevée, vous mourriez. Dans cette situation, la nourriture est essentielle puisque votre corps a besoin de plus que de l'eau et de l'oxygène. De nombreuses personnes croient qu'il existe une réserve infinie de nourriture et gaspillent alors que d'autres souffrent de la faim. Sommes-nous prêts à nous attaquer au problème du gaspillage alimentaire? Nous sommes prêts à cesser de gaspiller de la nourriture afin d'économiser de l'argent et de vivre mieux, à mon avis.\r\n\r\nPour commencer, il existe de nombreuses stratégies pour réduire le gaspillage alimentaire ; l'internet contient une mine d'informations. De nombreuses personnes âgées pensent que l'internet est réservé aux médias sociaux et qu'elles devraient s'en tenir aux recettes des vieux livres. Si les recettes des vieux livres n'empêchent pas le gaspillage alimentaire, elles fournissent la quantité exacte d'aliments nécessaire pour préparer un délicieux repas. Parallèlement, de nombreux sites web, comme Sauve ta bouffe, Chic frigo sans fric, et d'autres, proposent des recettes qui utilisent des légumes secs et d'autres ingrédients pour réduire les déchets alimentaires. Je pense que l'internet est très utile pour prévenir le gaspillage alimentaire ; ces sites web pourraient être utiles aux personnes nouvellement arrivées à maturité qui tentent de conserver autant de nourriture que possible. En dehors des sites web, il existe des programmes qui utilisent les restes de nourriture des restaurants et des hôtels pour fabriquer des plats supplémentaires et les distribuer au lieu de tout gaspiller et de perdre de l'argent. Les hôtels et de nombreux restaurants perdent de l'argent à cause du gaspillage alimentaire ; ils préparent une grande quantité de nourriture pour en gaspiller la majeure partie ; néanmoins, des programmes comme La Tablée des Chefs permettent d'éviter une grande partie des pertes alimentaires.\r\n\r\nPour continuer, la nourriture est l'un des besoins les plus fondamentaux de la vie. Le gaspillage alimentaire peut être évité en composant et en réutilisant les aliments. Le compostage est le processus qui consiste à utiliser les matières organiques décomposées comme engrais pour les plantes. Le compostage réduit les déchets, notre dépendance visà-vis des décharges et notre empreinte carbone. Par conséquent, le compostage réduit la quantité de déchets que nous envoyons dans les décharges tout en diminuant les émissions de gaz à effet de serre. En extrayant les graines et en les plantant quelque part, vous pouvez les réutiliser. La durée de conservation des aliments doit être prolongée. Florence-Léa Siry conseille d'enlever l'excès d'emballage qui provoque l'humidité et de ne pas prédécoupés les fruits et légumes. La sécurité alimentaire n'est pas affectée par les dates de péremption des produits.\r\n\r\nPour résumer ce qui a été dit, il existe de nombreuses méthodes pour éviter le gaspillage alimentaire, mais les gens doivent d'abord ouvrir les yeux et agir avant que nous ne perdions encore plus d'argent et de nourriture, et que nous finissions par manger des insectes...",
+    "erreursCritere4": [
+      {
+        "text": "nouvellement arrivées à maturité",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette expression est un calque de l'anglais. Il faut utiliser une formulation plus idiomatique en français pour désigner de jeunes adultes.",
+        "suggestions": [
+          "qui viennent d'atteindre la maturité",
+          "jeunes adultes"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "les réutiliser",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Problème de sens. Le verbe 'réutiliser' est inapproprié dans ce contexte. On ne 'réutilise' pas des graines en les plantant, on les sème ou on les fait pousser.",
+        "suggestions": [
+          "les semer",
+          "les faire pousser"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": "Dilapider la nutrition",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression 'dilapider la nutrition' est sémantiquement incorrecte. On dilapide des biens matériels ou une fortune, mais pas un concept comme la nutrition. Il serait plus juste de parler de 'dilapider la nourriture' ou d'utiliser une expression comme 'Le gaspillage alimentaire'.",
+        "suggestions": [
+          "Le gaspillage alimentaire",
+          "Dilapider la nourriture"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": "mieux",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule pour isoler le groupe incident 'à mon avis', qui est placé en fin de phrase et exprime un commentaire de l'auteur.",
+        "suggestions": [
+          "mieux,"
+        ],
+        "ruleApplied": "4.2.2.10.1.g"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 3.5,
+      "note": "A"
+    },
+    "erreursCritere5": [
+      {
+        "text": "l'internet",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot 'Internet' est considéré comme un nom propre et doit commencer par une majuscule.",
+        "suggestions": [
+          "l'Internet"
+        ],
+        "ruleApplied": "5.2.4.1.2"
+      },
+      {
+        "text": "l'internet",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Répétition de la même erreur d'usage. Le mot 'Internet' est considéré comme un nom propre et doit commencer par une majuscule.",
+        "suggestions": [
+          "l'Internet"
+        ],
+        "ruleApplied": "5.1.3"
+      },
+      {
+        "text": "l'internet",
+        "occurenceIndex": 2,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Répétition de la même erreur d'usage. Le mot 'Internet' est considéré comme un nom propre et doit commencer par une majuscule.",
+        "suggestions": [
+          "l'Internet"
+        ],
+        "ruleApplied": "5.1.3"
+      },
+      {
+        "text": "composant",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion entre les homophones lexicaux 'composant' (participe présent de 'composer') et 'compostant' (participe présent de 'composter'). Le contexte du paragraphe indique qu'il s'agit de l'action de composter.",
+        "suggestions": [
+          "compostant"
+        ],
+        "ruleApplied": "5.2.2"
+      },
+      {
+        "text": "visà-vis",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Absence des traits d'union dans la locution adverbiale 'vis-à-vis'.",
+        "suggestions": [
+          "vis-à-vis"
+        ],
+        "ruleApplied": "5.2.1.7.1"
+      },
+      {
+        "text": "prédécoupés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion de désinences homophones. Après la préposition 'de', le verbe doit être à l'infinitif ('précouper') et non au participe passé ('prédécoupés').",
+        "suggestions": [
+          "précouper"
+        ],
+        "ruleApplied": "5.3.2.6"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 4,
+      "note": "A"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T15:07:16.617Z",
+    "endTimestamp": "2025-12-10T15:09:56.919Z",
+    "durationMs": 160302,
+    "durationFormatted": "02:40:302",
+    "cumulParPasse": [
+      {
+        "passe": 1,
+        "erreursCritere4": [
+          {
+            "text": "nouvellement arrivées à maturité",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Cette expression est un calque de l'anglais. Il faut utiliser une formulation plus idiomatique en français pour désigner de jeunes adultes.",
+            "suggestions": [
+              "qui viennent d'atteindre la maturité",
+              "jeunes adultes"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "les réutiliser",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Problème de sens. Le verbe 'réutiliser' est inapproprié dans ce contexte. On ne 'réutilise' pas des graines en les plantant, on les sème ou on les fait pousser.",
+            "suggestions": [
+              "les semer",
+              "les faire pousser"
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "l'internet",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Le mot 'Internet' est considéré comme un nom propre et doit commencer par une majuscule.",
+            "suggestions": [
+              "l'Internet"
+            ],
+            "ruleApplied": "5.2.4.1.2"
+          },
+          {
+            "text": "l'internet",
+            "occurenceIndex": 1,
+            "criteria": 5,
+            "type": "(U)",
+            "description": "Répétition de la même erreur d'usage. Le mot 'Internet' est considéré comme un nom propre et doit commencer par une majuscule.",
+            "suggestions": [
+              "l'Internet"
+            ],
+            "ruleApplied": "5.1.3"
+          },
+          {
+            "text": "l'internet",
+            "occurenceIndex": 2,
+            "criteria": 5,
+            "type": "(U)",
+            "description": "Répétition de la même erreur d'usage. Le mot 'Internet' est considéré comme un nom propre et doit commencer par une majuscule.",
+            "suggestions": [
+              "l'Internet"
+            ],
+            "ruleApplied": "5.1.3"
+          },
+          {
+            "text": "composant",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Confusion entre les homophones lexicaux 'composant' (participe présent de 'composer') et 'compostant' (participe présent de 'composter'). Le contexte du paragraphe indique qu'il s'agit de l'action de composter.",
+            "suggestions": [
+              "compostant"
+            ],
+            "ruleApplied": "5.2.2"
+          },
+          {
+            "text": "visà-vis",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Absence des traits d'union dans la locution adverbiale 'vis-à-vis'.",
+            "suggestions": [
+              "vis-à-vis"
+            ],
+            "ruleApplied": "5.2.1.7.1"
+          },
+          {
+            "text": "prédécoupés",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion de désinences homophones. Après la préposition 'de', le verbe doit être à l'infinitif ('précouper') et non au participe passé ('prédécoupés').",
+            "suggestions": [
+              "précouper"
+            ],
+            "ruleApplied": "5.3.2.6"
+          }
+        ],
+        "totalErreursCritere4": 2,
+        "totalErreursCritere5": 6,
+        "scoreCritere4": {
+          "pointsPerdus": 2,
+          "note": "A"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 4,
+          "note": "A"
+        }
+      },
+      {
+        "passe": 2,
+        "erreursCritere4": [
+          {
+            "text": "nouvellement arrivées à maturité",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Cette expression est un calque de l'anglais. Il faut utiliser une formulation plus idiomatique en français pour désigner de jeunes adultes.",
+            "suggestions": [
+              "qui viennent d'atteindre la maturité",
+              "jeunes adultes"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "les réutiliser",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Problème de sens. Le verbe 'réutiliser' est inapproprié dans ce contexte. On ne 'réutilise' pas des graines en les plantant, on les sème ou on les fait pousser.",
+            "suggestions": [
+              "les semer",
+              "les faire pousser"
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          },
+          {
+            "text": "Dilapider la nutrition",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'expression 'dilapider la nutrition' est sémantiquement incorrecte. On dilapide des biens matériels ou une fortune, mais pas un concept comme la nutrition. Il serait plus juste de parler de 'dilapider la nourriture' ou d'utiliser une expression comme 'Le gaspillage alimentaire'.",
+            "suggestions": [
+              "Le gaspillage alimentaire",
+              "Dilapider la nourriture"
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          },
+          {
+            "text": "mieux",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Il manque une virgule pour isoler le groupe incident 'à mon avis', qui est placé en fin de phrase et exprime un commentaire de l'auteur.",
+            "suggestions": [
+              "mieux,"
+            ],
+            "ruleApplied": "4.2.2.10.1.g"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "l'internet",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Le mot 'Internet' est considéré comme un nom propre et doit commencer par une majuscule.",
+            "suggestions": [
+              "l'Internet"
+            ],
+            "ruleApplied": "5.2.4.1.2"
+          },
+          {
+            "text": "l'internet",
+            "occurenceIndex": 1,
+            "criteria": 5,
+            "type": "(U)",
+            "description": "Répétition de la même erreur d'usage. Le mot 'Internet' est considéré comme un nom propre et doit commencer par une majuscule.",
+            "suggestions": [
+              "l'Internet"
+            ],
+            "ruleApplied": "5.1.3"
+          },
+          {
+            "text": "l'internet",
+            "occurenceIndex": 2,
+            "criteria": 5,
+            "type": "(U)",
+            "description": "Répétition de la même erreur d'usage. Le mot 'Internet' est considéré comme un nom propre et doit commencer par une majuscule.",
+            "suggestions": [
+              "l'Internet"
+            ],
+            "ruleApplied": "5.1.3"
+          },
+          {
+            "text": "composant",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Confusion entre les homophones lexicaux 'composant' (participe présent de 'composer') et 'compostant' (participe présent de 'composter'). Le contexte du paragraphe indique qu'il s'agit de l'action de composter.",
+            "suggestions": [
+              "compostant"
+            ],
+            "ruleApplied": "5.2.2"
+          },
+          {
+            "text": "visà-vis",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Absence des traits d'union dans la locution adverbiale 'vis-à-vis'.",
+            "suggestions": [
+              "vis-à-vis"
+            ],
+            "ruleApplied": "5.2.1.7.1"
+          },
+          {
+            "text": "prédécoupés",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion de désinences homophones. Après la préposition 'de', le verbe doit être à l'infinitif ('précouper') et non au participe passé ('prédécoupés').",
+            "suggestions": [
+              "précouper"
+            ],
+            "ruleApplied": "5.3.2.6"
+          }
+        ],
+        "totalErreursCritere4": 4,
+        "totalErreursCritere5": 6,
+        "scoreCritere4": {
+          "pointsPerdus": 3.5,
+          "note": "A"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 4,
+          "note": "A"
+        }
+      }
+    ],
+    "erreursCritere4AvantAnalyseIA": [
+      {
+        "text": "nouvellement arrivées à maturité",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette expression est un calque de l'anglais. Il faut utiliser une formulation plus idiomatique en français pour désigner de jeunes adultes.",
+        "suggestions": [
+          "qui viennent d'atteindre la maturité",
+          "jeunes adultes"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "les réutiliser",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Problème de sens. Le verbe 'réutiliser' est inapproprié dans ce contexte. On ne 'réutilise' pas des graines en les plantant, on les sème ou on les fait pousser.",
+        "suggestions": [
+          "les semer",
+          "les faire pousser"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": "Dilapider la nutrition",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression 'dilapider la nutrition' est sémantiquement incorrecte. On dilapide des biens matériels ou une fortune, mais pas un concept comme la nutrition. Il serait plus juste de parler de 'dilapider la nourriture' ou d'utiliser une expression comme 'Le gaspillage alimentaire'.",
+        "suggestions": [
+          "Le gaspillage alimentaire",
+          "Dilapider la nourriture"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": "mieux",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule pour isoler le groupe incident 'à mon avis', qui est placé en fin de phrase et exprime un commentaire de l'auteur.",
+        "suggestions": [
+          "mieux,"
+        ],
+        "ruleApplied": "4.2.2.10.1.g"
+      }
+    ],
+    "erreursCritere5AvantAnalyseIA": [
+      {
+        "text": "l'internet",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot 'Internet' est considéré comme un nom propre et doit commencer par une majuscule.",
+        "suggestions": [
+          "l'Internet"
+        ],
+        "ruleApplied": "5.2.4.1.2"
+      },
+      {
+        "text": "l'internet",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Répétition de la même erreur d'usage. Le mot 'Internet' est considéré comme un nom propre et doit commencer par une majuscule.",
+        "suggestions": [
+          "l'Internet"
+        ],
+        "ruleApplied": "5.1.3"
+      },
+      {
+        "text": "l'internet",
+        "occurenceIndex": 2,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Répétition de la même erreur d'usage. Le mot 'Internet' est considéré comme un nom propre et doit commencer par une majuscule.",
+        "suggestions": [
+          "l'Internet"
+        ],
+        "ruleApplied": "5.1.3"
+      },
+      {
+        "text": "composant",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion entre les homophones lexicaux 'composant' (participe présent de 'composer') et 'compostant' (participe présent de 'composter'). Le contexte du paragraphe indique qu'il s'agit de l'action de composter.",
+        "suggestions": [
+          "compostant"
+        ],
+        "ruleApplied": "5.2.2"
+      },
+      {
+        "text": "visà-vis",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Absence des traits d'union dans la locution adverbiale 'vis-à-vis'.",
+        "suggestions": [
+          "vis-à-vis"
+        ],
+        "ruleApplied": "5.2.1.7.1"
+      },
+      {
+        "text": "prédécoupés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion de désinences homophones. Après la préposition 'de', le verbe doit être à l'infinitif ('précouper') et non au participe passé ('prédécoupés').",
+        "suggestions": [
+          "précouper"
+        ],
+        "ruleApplied": "5.3.2.6"
+      }
+    ],
+    "analyseIADuplicatas": {
+      "critere4": {
+        "analyse": {
+          "totalErreursCritere4": 4,
+          "totalErreursCritere5": 0,
+          "duplicatasCritere4": 0,
+          "duplicatasCritere5": 0
+        },
+        "duplicatasCritere4": [],
+        "duplicatasCritere5": [],
+        "erreursUniquesCritere4": [
+          {
+            "index": 0,
+            "text": "nouvellement arrivées à maturité",
+            "raison": "Aucun duplicata trouvé. Erreur de type calque linguistique, distincte des autres."
+          },
+          {
+            "index": 1,
+            "text": "les réutiliser",
+            "raison": "Aucun duplicata trouvé. Erreur sémantique distincte concernant le choix du verbe."
+          },
+          {
+            "index": 2,
+            "text": "Dilapider la nutrition",
+            "raison": "Aucun duplicata trouvé. Bien que la règle appliquée soit la même que pour l'erreur à l'index 1, le segment de texte et le problème sémantique sont différents."
+          },
+          {
+            "index": 3,
+            "text": "mieux",
+            "raison": "Aucun duplicata trouvé. Erreur de ponctuation, unique dans la liste."
+          }
+        ],
+        "erreursUniquesCritere5": [],
+        "recommandations": {
+          "erreursAConserverCritere4": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "erreursAConserverCritere5": [],
+          "erreursASupprimer": {
+            "critere4": [],
+            "critere5": []
+          }
+        }
+      },
+      "critere5": {
+        "analyse": {
+          "totalErreursCritere4": 0,
+          "totalErreursCritere5": 6,
+          "duplicatasCritere4": 0,
+          "duplicatasCritere5": 0
+        },
+        "duplicatasCritere4": [],
+        "duplicatasCritere5": [],
+        "erreursUniquesCritere4": [],
+        "erreursUniquesCritere5": [
+          {
+            "index": 0,
+            "text": "l'internet",
+            "raison": "Aucun duplicata trouvé. Concerne l'occurrence 0 du mot."
+          },
+          {
+            "index": 1,
+            "text": "l'internet",
+            "raison": "Aucun duplicata trouvé. Concerne l'occurrence 1 du mot."
+          },
+          {
+            "index": 2,
+            "text": "l'internet",
+            "raison": "Aucun duplicata trouvé. Concerne l'occurrence 2 du mot."
+          },
+          {
+            "index": 3,
+            "text": "composant",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 4,
+            "text": "visà-vis",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 5,
+            "text": "prédécoupés",
+            "raison": "Aucun duplicata trouvé."
+          }
+        ],
+        "recommandations": {
+          "erreursAConserverCritere4": [],
+          "erreursAConserverCritere5": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "erreursASupprimer": {
+            "critere4": [],
+            "critere5": []
+          }
+        }
+      }
+    }
+  }
+}

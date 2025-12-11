@@ -1,0 +1,2798 @@
+{
+  "processedAt": "2025-12-10T14:54:11.537Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_102.txt",
+    "originalText": "Le gaspillage alimentaire un défie pas monstrueux\r\n\r\nÀ mesure que les années passent, on se rend compte à quel point nos ressources alimentaires ne sont pas infinies. Si on ne fait pas attention à notre façon de consommer nous risquerons de manquer de nourriture dans un futur proche. En vu de cette éventualité, le gouvernement du Québec commence à s’attaquer au gaspillage alimentaire. Avec tous les mesures prisent par, Recyc-Québec et les organismes communautaires, je pense que nous sommes prêts à lutter contre le gaspillage alimentaire. Car les principaux facteurs de ce problème sont les complications que subissent les produits lors de la production les rendant moins attirants dans les épiceries et le nombre de denrées non récupéré à la maison et aux restaurants.\r\n\r\nTout d’abord, il faut bien admettre que nous avons presque tous des standards esthétiques. Heureusement avec l’augmentation de banques alimentaires, beaucoup de produit agricoles « laid » ne sont pas mis à la poubelle et sont distribués aux plus démunie car la plupard d’entre eux savent que les apparences sont parfois trompeuses. En cinq ans les banques alimentaire ont conclu des ententes avec plus de 425 épiceries récuperer plus d 6 million de kilo en denrées qui sont redistribuées aux démunies. Partage et Solidatarité qui prépare des panier alimentaire en es un exemple. Avec tous ces efforts je pense que nous sommes dans la bonne voie.\r\n\r\nJe pense que vous êtes au courant des pertes de nourriture dans les restaurants et celle des \r\n\r\nmaison familliale. Je sais ce que vous allez medemander ce que l’ont peut faire pour réduire \r\n\r\ncela. La réponse est simple, il suffit de conserver ses reste de repas.  La moitier du  gaspillage pourrait être éviter si tout le monde pourrait conserver les reste de repas selon\r\n\r\nFlorence-Léa Siry experte en gaspillage alimentaire. 600000 repas ont été « recyclé » ent 2018 en 2028 nous informe Hébert Vanessa en 2019 dans le journal Métro. Tous ces mesures, tellement facilement aplicable feraient une énorme différence si chacun mettaient son grain de sel.\r\n\r\nAvec un grand éffort collectif je pense que nous pouvons avec plus de considération envisager une épicerie dans une banque alimentaire. Commencer à manger ses restes de repas. Hé oui, manger les croute de pizza compte aussi. Soyez moins capricieux au supermarcher.",
+    "erreursCritere4": [
+      {
+        "text": "pas monstrueux",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction de phrase boiteuse typique de l'oral. La négation 'pas' ne peut être employée de cette manière dans une phrase nominale pour qualifier un nom.",
+        "suggestions": [
+          "qui n'est pas monstrueux",
+          "surmontable"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "consommer nous",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de la virgule pour séparer la subordonnée circonstancielle en tête de phrase de la proposition principale.",
+        "suggestions": [
+          "consommer, nous"
+        ],
+        "ruleApplied": "4.2.2.10.1.m"
+      },
+      {
+        "text": "par,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Présence erronée d'une virgule qui sépare la préposition 'par' de son complément.",
+        "suggestions": [
+          "par"
+        ],
+        "ruleApplied": "4.2.2.10.2.h"
+      },
+      {
+        "text": "Heureusement avec",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de la virgule après l'adverbe de modalité placé en tête de phrase.",
+        "suggestions": [
+          "Heureusement, avec"
+        ],
+        "ruleApplied": "4.2.2.10.1.n"
+      },
+      {
+        "text": "En cinq ans les",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de la virgule pour séparer le complément de phrase en tête de phrase de la proposition principale.",
+        "suggestions": [
+          "En cinq ans, les"
+        ],
+        "ruleApplied": "4.2.2.10.1.l"
+      },
+      {
+        "text": "ce que vous allez medemander ce que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Mot superflu. La répétition de 'ce que' alourdit la phrase et la rend incorrecte. La structure attendue est 'Je sais que vous allez me demander ce que...'.",
+        "suggestions": [
+          "que vous allez me demander ce que"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "pourrait",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur dans l'emploi du mode verbal. Dans une subordonnée conditionnelle introduite par 'si', on emploie l'imparfait, et non le conditionnel.",
+        "suggestions": [
+          "pouvait"
+        ],
+        "ruleApplied": "4.1.2.2.3"
+      },
+      {
+        "text": "Siry experte",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de la virgule pour isoler l'apposition 'experte en gaspillage alimentaire'.",
+        "suggestions": [
+          "Siry, experte"
+        ],
+        "ruleApplied": "4.2.2.10.1.i"
+      },
+      {
+        "text": "Hébert Vanessa",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de la virgule entre le nom de famille et le prénom dans une référence.",
+        "suggestions": [
+          "Hébert, Vanessa"
+        ],
+        "ruleApplied": "4.2.2.10.1.a"
+      },
+      {
+        "text": "collectif je",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de la virgule pour séparer le complément de phrase en tête de phrase de la proposition principale.",
+        "suggestions": [
+          "collectif, je"
+        ],
+        "ruleApplied": "4.2.2.10.1.l"
+      },
+      {
+        "text": "Commencer à manger ses restes de repas.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Phrase non verbale (phrase infinitive). La phrase n'a pas de verbe conjugué et est syntaxiquement incomplète.",
+        "suggestions": [
+          "Il faut commencer à manger ses restes de repas."
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "text": "alimentaire un",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule pour isoler le groupe nominal 'un défi pas monstrueux', qui est en apposition au sujet 'Le gaspillage alimentaire'.",
+        "suggestions": [
+          "alimentaire, un"
+        ],
+        "ruleApplied": "4.2.2.10.1.i"
+      },
+      {
+        "text": "récuperer",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence d'un mot essentiel, la préposition 'pour', afin d'introduire correctement le but de l'action. La forme verbale devrait être l'infinitif 'récupérer'.",
+        "suggestions": [
+          "pour récupérer"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "en",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Emploi d'un subordonnant erroné. La structure 'entre X et Y' requiert le coordonnant 'et', et non la préposition 'en'.",
+        "suggestions": [
+          "et"
+        ],
+        "ruleApplied": "4.1.2.4.2"
+      },
+      {
+        "text": "2028 nous",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule avant l'incise 'nous informe Hébert Vanessa' pour la détacher du reste de la phrase.",
+        "suggestions": [
+          "2028, nous"
+        ],
+        "ruleApplied": "4.2.2.10.1.f"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 10.5,
+      "note": "C"
+    },
+    "erreursCritere5": [
+      {
+        "text": "En vu de",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Barbarisme orthographique. La locution correcte est 'en vue de'.",
+        "suggestions": [
+          "En vue de"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "text": "tous",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en genre. Le déterminant 'tous' doit s'accorder au féminin pluriel avec le nom 'mesures'.",
+        "suggestions": [
+          "toutes"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "prisent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "Erreur d'accord du participe passé. 'Prises' doit s'accorder en genre et en nombre avec le nom 'mesures', qui est le même donneur que pour 'toutes'.",
+        "suggestions": [
+          "prises"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "récupéré",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord du participe passé. 'Récupérées' doit s'accorder en genre et en nombre avec le nom 'denrées'.",
+        "suggestions": [
+          "récupérées"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "produit",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le nom 'produit' doit être au pluriel après la locution 'beaucoup de'.",
+        "suggestions": [
+          "produits"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "text": "la plupard",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Barbarisme orthographique. Le mot correct est 'la plupart'.",
+        "suggestions": [
+          "la plupart"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "text": "alimentaire",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. L'adjectif 'alimentaire' doit s'accorder au pluriel avec le nom 'banques'.",
+        "suggestions": [
+          "alimentaires"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "récuperer",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif en '-er' et le participe passé en '-é'. Après l'auxiliaire 'ont', il faut utiliser le participe passé.",
+        "suggestions": [
+          "récupéré"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "d 6",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Absence de l'apostrophe pour marquer l'élision du 'e' de 'de'.",
+        "suggestions": [
+          "d'"
+        ],
+        "ruleApplied": "5.2.3.1"
+      },
+      {
+        "text": "6",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Les nombres inférieurs à dix doivent être écrits en toutes lettres dans un texte courant.",
+        "suggestions": [
+          "six"
+        ],
+        "ruleApplied": "5.2.6.3"
+      },
+      {
+        "text": "million",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le nom 'million' prend un 's' au pluriel car il est précédé d'un nombre supérieur à un.",
+        "suggestions": [
+          "millions"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "text": "kilo",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le nom 'kilo' prend un 's' au pluriel.",
+        "suggestions": [
+          "kilos"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "text": "démunies",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en genre. Le masculin pluriel 'démunis' est utilisé comme forme générique pour désigner un groupe mixte.",
+        "suggestions": [
+          "démunis"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "Solidatarité",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage. Le mot correct est 'Solidarité'.",
+        "suggestions": [
+          "Solidarité"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "panier",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le nom 'panier' doit être au pluriel après la préposition 'des'.",
+        "suggestions": [
+          "paniers"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "text": "alimentaire",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "_",
+        "description": "Erreur d'accord en nombre. L'adjectif 'alimentaire' doit s'accorder au pluriel avec le nom 'paniers', qui est le même donneur.",
+        "suggestions": [
+          "alimentaires"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "es",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre les homophones grammaticaux 'es' (2e personne du singulier du verbe être) et 'est' (3e personne du singulier).",
+        "suggestions": [
+          "est"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "text": "celle",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le pronom démonstratif 'celle' doit s'accorder au pluriel ('celles') avec son antécédent 'pertes'.",
+        "suggestions": [
+          "celles"
+        ],
+        "ruleApplied": "5.3.1.4"
+      },
+      {
+        "text": "maison",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le nom 'maison' doit être au pluriel après la préposition 'des'.",
+        "suggestions": [
+          "maisons"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "text": "familliale",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "Erreur d'accord en nombre. L'adjectif doit s'accorder au pluriel avec le nom 'maisons'. De plus, l'orthographe correcte est 'familiale'. Le donneur est 'maisons'.",
+        "suggestions": [
+          "familiales"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "medemander",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Barbarisme orthographique. Les mots 'me' et 'demander' doivent être séparés.",
+        "suggestions": [
+          "me demander"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "text": "l’ont",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'apostrophe est incorrecte. 'L'on' est une forme soutenue de 'on', mais ne constitue pas une élision.",
+        "suggestions": [
+          "l'on"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "reste",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le nom 'reste' doit être au pluriel après le déterminant possessif 'ses'.",
+        "suggestions": [
+          "restes"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "moitier",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Absence de l'accent circonflexe. Le mot correct est 'moitié'.",
+        "suggestions": [
+          "moitié"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "text": "éviter",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif en '-er' et le participe passé en '-é'. Après l'auxiliaire 'être', il faut utiliser le participe passé.",
+        "suggestions": [
+          "évité"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "reste",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le nom 'reste' doit être au pluriel après le déterminant 'les'.",
+        "suggestions": [
+          "restes"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "recyclé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord du participe passé. 'Recyclés' doit s'accorder en genre et en nombre avec le nom 'repas'.",
+        "suggestions": [
+          "recyclés"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "ent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage. La préposition correcte est 'entre'.",
+        "suggestions": [
+          "entre"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "Tous",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en genre. Le déterminant 'Tous' doit s'accorder au féminin pluriel avec le nom 'mesures'.",
+        "suggestions": [
+          "Toutes"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "éffort",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage sur le redoublement de la consonne. Le mot 'effort' ne prend qu'un seul 'f'.",
+        "suggestions": [
+          "effort"
+        ],
+        "ruleApplied": "5.2.1.6"
+      },
+      {
+        "text": "croute",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le nom 'croute' doit être au pluriel après le déterminant 'les'. L'orthographe correcte est 'croûtes'.",
+        "suggestions": [
+          "croûtes"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "supermarcher",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif en '-er' et le nom en '-é'. Le mot correct est 'supermarché'.",
+        "suggestions": [
+          "supermarché"
+        ],
+        "ruleApplied": "5.3.3.2"
+      },
+      {
+        "text": "défie",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'homophone grammatical 'défie' (verbe 'défier' au présent) et le nom 'défi'. Dans ce contexte, le nom est requis.",
+        "suggestions": [
+          "défi"
+        ],
+        "ruleApplied": "5.3.3.2"
+      },
+      {
+        "text": "aplicable",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "Le mot 'aplicable' comporte une erreur d'orthographe ('applicable') et doit s'accorder au pluriel avec le nom 'mesures'. La priorité est accordée à l'erreur grammaticale. Donneur d'accord : 'mesures'.",
+        "suggestions": [
+          "applicables"
+        ],
+        "ruleApplied": "5.3.1.1"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 30,
+      "note": "E"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:48:22.859Z",
+    "endTimestamp": "2025-12-10T14:54:11.537Z",
+    "durationMs": 348678,
+    "durationFormatted": "05:48:678",
+    "cumulParPasse": [
+      {
+        "passe": 1,
+        "erreursCritere4": [
+          {
+            "text": "pas monstrueux",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Construction de phrase boiteuse typique de l'oral. La négation 'pas' ne peut être employée de cette manière dans une phrase nominale pour qualifier un nom.",
+            "suggestions": [
+              "qui n'est pas monstrueux",
+              "surmontable"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "consommer nous",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Absence de la virgule pour séparer la subordonnée circonstancielle en tête de phrase de la proposition principale.",
+            "suggestions": [
+              "consommer, nous"
+            ],
+            "ruleApplied": "4.2.2.10.1.m"
+          },
+          {
+            "text": "par,",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Présence erronée d'une virgule qui sépare la préposition 'par' de son complément.",
+            "suggestions": [
+              "par"
+            ],
+            "ruleApplied": "4.2.2.10.2.h"
+          },
+          {
+            "text": "Heureusement avec",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Absence de la virgule après l'adverbe de modalité placé en tête de phrase.",
+            "suggestions": [
+              "Heureusement, avec"
+            ],
+            "ruleApplied": "4.2.2.10.1.n"
+          },
+          {
+            "text": "En cinq ans les",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Absence de la virgule pour séparer le complément de phrase en tête de phrase de la proposition principale.",
+            "suggestions": [
+              "En cinq ans, les"
+            ],
+            "ruleApplied": "4.2.2.10.1.l"
+          },
+          {
+            "text": "ce que vous allez medemander ce que",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Mot superflu. La répétition de 'ce que' alourdit la phrase et la rend incorrecte. La structure attendue est 'Je sais que vous allez me demander ce que...'.",
+            "suggestions": [
+              "que vous allez me demander ce que"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "pourrait",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Erreur dans l'emploi du mode verbal. Dans une subordonnée conditionnelle introduite par 'si', on emploie l'imparfait, et non le conditionnel.",
+            "suggestions": [
+              "pouvait"
+            ],
+            "ruleApplied": "4.1.2.2.3"
+          },
+          {
+            "text": "Siry experte",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Absence de la virgule pour isoler l'apposition 'experte en gaspillage alimentaire'.",
+            "suggestions": [
+              "Siry, experte"
+            ],
+            "ruleApplied": "4.2.2.10.1.i"
+          },
+          {
+            "text": "Hébert Vanessa",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Absence de la virgule entre le nom de famille et le prénom dans une référence.",
+            "suggestions": [
+              "Hébert, Vanessa"
+            ],
+            "ruleApplied": "4.2.2.10.1.a"
+          },
+          {
+            "text": "collectif je",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Absence de la virgule pour séparer le complément de phrase en tête de phrase de la proposition principale.",
+            "suggestions": [
+              "collectif, je"
+            ],
+            "ruleApplied": "4.2.2.10.1.l"
+          },
+          {
+            "text": "Commencer à manger ses restes de repas.",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Phrase non verbale (phrase infinitive). La phrase n'a pas de verbe conjugué et est syntaxiquement incomplète.",
+            "suggestions": [
+              "Il faut commencer à manger ses restes de repas."
+            ],
+            "ruleApplied": "4.1.2.1.4"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "défie",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Confusion entre le nom masculin 'défi' et la forme verbale 'défie'.",
+            "suggestions": [
+              "défi"
+            ],
+            "ruleApplied": "5.2.2"
+          },
+          {
+            "text": "En vu de",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Barbarisme orthographique. La locution correcte est 'en vue de'.",
+            "suggestions": [
+              "En vue de"
+            ],
+            "ruleApplied": "5.2.6.4"
+          },
+          {
+            "text": "tous",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en genre. Le déterminant 'tous' doit s'accorder au féminin pluriel avec le nom 'mesures'.",
+            "suggestions": [
+              "toutes"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "prisent",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "_",
+            "description": "Erreur d'accord du participe passé. 'Prises' doit s'accorder en genre et en nombre avec le nom 'mesures', qui est le même donneur que pour 'toutes'.",
+            "suggestions": [
+              "prises"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "récupéré",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord du participe passé. 'Récupérées' doit s'accorder en genre et en nombre avec le nom 'denrées'.",
+            "suggestions": [
+              "récupérées"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "produit",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en nombre. Le nom 'produit' doit être au pluriel après la locution 'beaucoup de'.",
+            "suggestions": [
+              "produits"
+            ],
+            "ruleApplied": "5.3.1.5"
+          },
+          {
+            "text": "démunie",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en nombre. L'adjectif 'démunie' doit s'accorder au pluriel avec le groupe 'les plus' qui sous-entend un pluriel.",
+            "suggestions": [
+              "démunis"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "la plupard",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Barbarisme orthographique. Le mot correct est 'la plupart'.",
+            "suggestions": [
+              "la plupart"
+            ],
+            "ruleApplied": "5.2.6.4"
+          },
+          {
+            "text": "alimentaire",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en nombre. L'adjectif 'alimentaire' doit s'accorder au pluriel avec le nom 'banques'.",
+            "suggestions": [
+              "alimentaires"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "récuperer",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre l'infinitif en '-er' et le participe passé en '-é'. Après l'auxiliaire 'ont', il faut utiliser le participe passé.",
+            "suggestions": [
+              "récupéré"
+            ],
+            "ruleApplied": "5.3.2.6"
+          },
+          {
+            "text": "d 6",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Absence de l'apostrophe pour marquer l'élision du 'e' de 'de'.",
+            "suggestions": [
+              "d'"
+            ],
+            "ruleApplied": "5.2.3.1"
+          },
+          {
+            "text": "6",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Les nombres inférieurs à dix doivent être écrits en toutes lettres dans un texte courant.",
+            "suggestions": [
+              "six"
+            ],
+            "ruleApplied": "5.2.6.3"
+          },
+          {
+            "text": "million",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en nombre. Le nom 'million' prend un 's' au pluriel car il est précédé d'un nombre supérieur à un.",
+            "suggestions": [
+              "millions"
+            ],
+            "ruleApplied": "5.3.1.5"
+          },
+          {
+            "text": "kilo",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en nombre. Le nom 'kilo' prend un 's' au pluriel.",
+            "suggestions": [
+              "kilos"
+            ],
+            "ruleApplied": "5.3.1.5"
+          },
+          {
+            "text": "démunies",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en genre. Le masculin pluriel 'démunis' est utilisé comme forme générique pour désigner un groupe mixte.",
+            "suggestions": [
+              "démunis"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "Solidatarité",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Erreur d'orthographe d'usage. Le mot correct est 'Solidarité'.",
+            "suggestions": [
+              "Solidarité"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "panier",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en nombre. Le nom 'panier' doit être au pluriel après la préposition 'des'.",
+            "suggestions": [
+              "paniers"
+            ],
+            "ruleApplied": "5.3.1.5"
+          },
+          {
+            "text": "alimentaire",
+            "occurenceIndex": 1,
+            "criteria": 5,
+            "type": "_",
+            "description": "Erreur d'accord en nombre. L'adjectif 'alimentaire' doit s'accorder au pluriel avec le nom 'paniers', qui est le même donneur.",
+            "suggestions": [
+              "alimentaires"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "es",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre les homophones grammaticaux 'es' (2e personne du singulier du verbe être) et 'est' (3e personne du singulier).",
+            "suggestions": [
+              "est"
+            ],
+            "ruleApplied": "5.3.3.1"
+          },
+          {
+            "text": "celle",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en nombre. Le pronom démonstratif 'celle' doit s'accorder au pluriel ('celles') avec son antécédent 'pertes'.",
+            "suggestions": [
+              "celles"
+            ],
+            "ruleApplied": "5.3.1.4"
+          },
+          {
+            "text": "maison",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en nombre. Le nom 'maison' doit être au pluriel après la préposition 'des'.",
+            "suggestions": [
+              "maisons"
+            ],
+            "ruleApplied": "5.3.1.5"
+          },
+          {
+            "text": "familliale",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "_",
+            "description": "Erreur d'accord en nombre. L'adjectif doit s'accorder au pluriel avec le nom 'maisons'. De plus, l'orthographe correcte est 'familiale'. Le donneur est 'maisons'.",
+            "suggestions": [
+              "familiales"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "medemander",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Barbarisme orthographique. Les mots 'me' et 'demander' doivent être séparés.",
+            "suggestions": [
+              "me demander"
+            ],
+            "ruleApplied": "5.2.6.4"
+          },
+          {
+            "text": "l’ont",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "L'apostrophe est incorrecte. 'L'on' est une forme soutenue de 'on', mais ne constitue pas une élision.",
+            "suggestions": [
+              "l'on"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "reste",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en nombre. Le nom 'reste' doit être au pluriel après le déterminant possessif 'ses'.",
+            "suggestions": [
+              "restes"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "moitier",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Absence de l'accent circonflexe. Le mot correct est 'moitié'.",
+            "suggestions": [
+              "moitié"
+            ],
+            "ruleApplied": "5.2.1.1"
+          },
+          {
+            "text": "éviter",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre l'infinitif en '-er' et le participe passé en '-é'. Après l'auxiliaire 'être', il faut utiliser le participe passé.",
+            "suggestions": [
+              "évité"
+            ],
+            "ruleApplied": "5.3.2.6"
+          },
+          {
+            "text": "reste",
+            "occurenceIndex": 1,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en nombre. Le nom 'reste' doit être au pluriel après le déterminant 'les'.",
+            "suggestions": [
+              "restes"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "recyclé",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord du participe passé. 'Recyclés' doit s'accorder en genre et en nombre avec le nom 'repas'.",
+            "suggestions": [
+              "recyclés"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "ent",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Erreur d'orthographe d'usage. La préposition correcte est 'entre'.",
+            "suggestions": [
+              "entre"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "Tous",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en genre. Le déterminant 'Tous' doit s'accorder au féminin pluriel avec le nom 'mesures'.",
+            "suggestions": [
+              "Toutes"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "aplicable",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Erreur d'orthographe d'usage sur le redoublement de la consonne. Le mot correct est 'applicable'.",
+            "suggestions": [
+              "applicable"
+            ],
+            "ruleApplied": "5.2.1.6"
+          },
+          {
+            "text": "mettaient",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord du verbe. Le sujet 'chacun' est à la troisième personne du singulier.",
+            "suggestions": [
+              "mettait"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "éffort",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Erreur d'orthographe d'usage sur le redoublement de la consonne. Le mot 'effort' ne prend qu'un seul 'f'.",
+            "suggestions": [
+              "effort"
+            ],
+            "ruleApplied": "5.2.1.6"
+          },
+          {
+            "text": "croute",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en nombre. Le nom 'croute' doit être au pluriel après le déterminant 'les'. L'orthographe correcte est 'croûtes'.",
+            "suggestions": [
+              "croûtes"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "supermarcher",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre l'infinitif en '-er' et le nom en '-é'. Le mot correct est 'supermarché'.",
+            "suggestions": [
+              "supermarché"
+            ],
+            "ruleApplied": "5.3.3.2"
+          }
+        ],
+        "totalErreursCritere4": 11,
+        "totalErreursCritere5": 36,
+        "scoreCritere4": {
+          "pointsPerdus": 7.5,
+          "note": "B"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 33,
+          "note": "E"
+        }
+      },
+      {
+        "passe": 2,
+        "erreursCritere4": [
+          {
+            "text": "pas monstrueux",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Construction de phrase boiteuse typique de l'oral. La négation 'pas' ne peut être employée de cette manière dans une phrase nominale pour qualifier un nom.",
+            "suggestions": [
+              "qui n'est pas monstrueux",
+              "surmontable"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "consommer nous",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Absence de la virgule pour séparer la subordonnée circonstancielle en tête de phrase de la proposition principale.",
+            "suggestions": [
+              "consommer, nous"
+            ],
+            "ruleApplied": "4.2.2.10.1.m"
+          },
+          {
+            "text": "par,",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Présence erronée d'une virgule qui sépare la préposition 'par' de son complément.",
+            "suggestions": [
+              "par"
+            ],
+            "ruleApplied": "4.2.2.10.2.h"
+          },
+          {
+            "text": "Heureusement avec",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Absence de la virgule après l'adverbe de modalité placé en tête de phrase.",
+            "suggestions": [
+              "Heureusement, avec"
+            ],
+            "ruleApplied": "4.2.2.10.1.n"
+          },
+          {
+            "text": "En cinq ans les",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Absence de la virgule pour séparer le complément de phrase en tête de phrase de la proposition principale.",
+            "suggestions": [
+              "En cinq ans, les"
+            ],
+            "ruleApplied": "4.2.2.10.1.l"
+          },
+          {
+            "text": "ce que vous allez medemander ce que",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Mot superflu. La répétition de 'ce que' alourdit la phrase et la rend incorrecte. La structure attendue est 'Je sais que vous allez me demander ce que...'.",
+            "suggestions": [
+              "que vous allez me demander ce que"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "pourrait",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Erreur dans l'emploi du mode verbal. Dans une subordonnée conditionnelle introduite par 'si', on emploie l'imparfait, et non le conditionnel.",
+            "suggestions": [
+              "pouvait"
+            ],
+            "ruleApplied": "4.1.2.2.3"
+          },
+          {
+            "text": "Siry experte",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Absence de la virgule pour isoler l'apposition 'experte en gaspillage alimentaire'.",
+            "suggestions": [
+              "Siry, experte"
+            ],
+            "ruleApplied": "4.2.2.10.1.i"
+          },
+          {
+            "text": "Hébert Vanessa",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Absence de la virgule entre le nom de famille et le prénom dans une référence.",
+            "suggestions": [
+              "Hébert, Vanessa"
+            ],
+            "ruleApplied": "4.2.2.10.1.a"
+          },
+          {
+            "text": "collectif je",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Absence de la virgule pour séparer le complément de phrase en tête de phrase de la proposition principale.",
+            "suggestions": [
+              "collectif, je"
+            ],
+            "ruleApplied": "4.2.2.10.1.l"
+          },
+          {
+            "text": "Commencer à manger ses restes de repas.",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Phrase non verbale (phrase infinitive). La phrase n'a pas de verbe conjugué et est syntaxiquement incomplète.",
+            "suggestions": [
+              "Il faut commencer à manger ses restes de repas."
+            ],
+            "ruleApplied": "4.1.2.1.4"
+          },
+          {
+            "text": "alimentaire un",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Il manque une virgule pour isoler le groupe nominal 'un défi pas monstrueux', qui est en apposition au sujet 'Le gaspillage alimentaire'.",
+            "suggestions": [
+              "alimentaire, un"
+            ],
+            "ruleApplied": "4.2.2.10.1.i"
+          },
+          {
+            "text": "ans les",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Il manque une virgule après le complément de phrase 'En cinq ans', qui compte plus de trois mots et est placé en tête de phrase.",
+            "suggestions": [
+              "ans, les"
+            ],
+            "ruleApplied": "4.2.2.10.1.l"
+          },
+          {
+            "text": "récuperer",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Absence d'un mot essentiel, la préposition 'pour', afin d'introduire correctement le but de l'action. La forme verbale devrait être l'infinitif 'récupérer'.",
+            "suggestions": [
+              "pour récupérer"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "en",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Emploi d'un subordonnant erroné. La structure 'entre X et Y' requiert le coordonnant 'et', et non la préposition 'en'.",
+            "suggestions": [
+              "et"
+            ],
+            "ruleApplied": "4.1.2.4.2"
+          },
+          {
+            "text": "2028 nous",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Il manque une virgule avant l'incise 'nous informe Hébert Vanessa' pour la détacher du reste de la phrase.",
+            "suggestions": [
+              "2028, nous"
+            ],
+            "ruleApplied": "4.2.2.10.1.f"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "défie",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Confusion entre le nom masculin 'défi' et la forme verbale 'défie'.",
+            "suggestions": [
+              "défi"
+            ],
+            "ruleApplied": "5.2.2"
+          },
+          {
+            "text": "En vu de",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Barbarisme orthographique. La locution correcte est 'en vue de'.",
+            "suggestions": [
+              "En vue de"
+            ],
+            "ruleApplied": "5.2.6.4"
+          },
+          {
+            "text": "tous",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en genre. Le déterminant 'tous' doit s'accorder au féminin pluriel avec le nom 'mesures'.",
+            "suggestions": [
+              "toutes"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "prisent",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "_",
+            "description": "Erreur d'accord du participe passé. 'Prises' doit s'accorder en genre et en nombre avec le nom 'mesures', qui est le même donneur que pour 'toutes'.",
+            "suggestions": [
+              "prises"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "récupéré",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord du participe passé. 'Récupérées' doit s'accorder en genre et en nombre avec le nom 'denrées'.",
+            "suggestions": [
+              "récupérées"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "produit",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en nombre. Le nom 'produit' doit être au pluriel après la locution 'beaucoup de'.",
+            "suggestions": [
+              "produits"
+            ],
+            "ruleApplied": "5.3.1.5"
+          },
+          {
+            "text": "démunie",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en nombre. L'adjectif 'démunie' doit s'accorder au pluriel avec le groupe 'les plus' qui sous-entend un pluriel.",
+            "suggestions": [
+              "démunis"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "la plupard",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Barbarisme orthographique. Le mot correct est 'la plupart'.",
+            "suggestions": [
+              "la plupart"
+            ],
+            "ruleApplied": "5.2.6.4"
+          },
+          {
+            "text": "alimentaire",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en nombre. L'adjectif 'alimentaire' doit s'accorder au pluriel avec le nom 'banques'.",
+            "suggestions": [
+              "alimentaires"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "récuperer",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre l'infinitif en '-er' et le participe passé en '-é'. Après l'auxiliaire 'ont', il faut utiliser le participe passé.",
+            "suggestions": [
+              "récupéré"
+            ],
+            "ruleApplied": "5.3.2.6"
+          },
+          {
+            "text": "d 6",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Absence de l'apostrophe pour marquer l'élision du 'e' de 'de'.",
+            "suggestions": [
+              "d'"
+            ],
+            "ruleApplied": "5.2.3.1"
+          },
+          {
+            "text": "6",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Les nombres inférieurs à dix doivent être écrits en toutes lettres dans un texte courant.",
+            "suggestions": [
+              "six"
+            ],
+            "ruleApplied": "5.2.6.3"
+          },
+          {
+            "text": "million",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en nombre. Le nom 'million' prend un 's' au pluriel car il est précédé d'un nombre supérieur à un.",
+            "suggestions": [
+              "millions"
+            ],
+            "ruleApplied": "5.3.1.5"
+          },
+          {
+            "text": "kilo",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en nombre. Le nom 'kilo' prend un 's' au pluriel.",
+            "suggestions": [
+              "kilos"
+            ],
+            "ruleApplied": "5.3.1.5"
+          },
+          {
+            "text": "démunies",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en genre. Le masculin pluriel 'démunis' est utilisé comme forme générique pour désigner un groupe mixte.",
+            "suggestions": [
+              "démunis"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "Solidatarité",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Erreur d'orthographe d'usage. Le mot correct est 'Solidarité'.",
+            "suggestions": [
+              "Solidarité"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "panier",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en nombre. Le nom 'panier' doit être au pluriel après la préposition 'des'.",
+            "suggestions": [
+              "paniers"
+            ],
+            "ruleApplied": "5.3.1.5"
+          },
+          {
+            "text": "alimentaire",
+            "occurenceIndex": 1,
+            "criteria": 5,
+            "type": "_",
+            "description": "Erreur d'accord en nombre. L'adjectif 'alimentaire' doit s'accorder au pluriel avec le nom 'paniers', qui est le même donneur.",
+            "suggestions": [
+              "alimentaires"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "es",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre les homophones grammaticaux 'es' (2e personne du singulier du verbe être) et 'est' (3e personne du singulier).",
+            "suggestions": [
+              "est"
+            ],
+            "ruleApplied": "5.3.3.1"
+          },
+          {
+            "text": "celle",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en nombre. Le pronom démonstratif 'celle' doit s'accorder au pluriel ('celles') avec son antécédent 'pertes'.",
+            "suggestions": [
+              "celles"
+            ],
+            "ruleApplied": "5.3.1.4"
+          },
+          {
+            "text": "maison",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en nombre. Le nom 'maison' doit être au pluriel après la préposition 'des'.",
+            "suggestions": [
+              "maisons"
+            ],
+            "ruleApplied": "5.3.1.5"
+          },
+          {
+            "text": "familliale",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "_",
+            "description": "Erreur d'accord en nombre. L'adjectif doit s'accorder au pluriel avec le nom 'maisons'. De plus, l'orthographe correcte est 'familiale'. Le donneur est 'maisons'.",
+            "suggestions": [
+              "familiales"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "medemander",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Barbarisme orthographique. Les mots 'me' et 'demander' doivent être séparés.",
+            "suggestions": [
+              "me demander"
+            ],
+            "ruleApplied": "5.2.6.4"
+          },
+          {
+            "text": "l’ont",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "L'apostrophe est incorrecte. 'L'on' est une forme soutenue de 'on', mais ne constitue pas une élision.",
+            "suggestions": [
+              "l'on"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "reste",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en nombre. Le nom 'reste' doit être au pluriel après le déterminant possessif 'ses'.",
+            "suggestions": [
+              "restes"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "moitier",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Absence de l'accent circonflexe. Le mot correct est 'moitié'.",
+            "suggestions": [
+              "moitié"
+            ],
+            "ruleApplied": "5.2.1.1"
+          },
+          {
+            "text": "éviter",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre l'infinitif en '-er' et le participe passé en '-é'. Après l'auxiliaire 'être', il faut utiliser le participe passé.",
+            "suggestions": [
+              "évité"
+            ],
+            "ruleApplied": "5.3.2.6"
+          },
+          {
+            "text": "reste",
+            "occurenceIndex": 1,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en nombre. Le nom 'reste' doit être au pluriel après le déterminant 'les'.",
+            "suggestions": [
+              "restes"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "recyclé",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord du participe passé. 'Recyclés' doit s'accorder en genre et en nombre avec le nom 'repas'.",
+            "suggestions": [
+              "recyclés"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "ent",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Erreur d'orthographe d'usage. La préposition correcte est 'entre'.",
+            "suggestions": [
+              "entre"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "Tous",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en genre. Le déterminant 'Tous' doit s'accorder au féminin pluriel avec le nom 'mesures'.",
+            "suggestions": [
+              "Toutes"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "aplicable",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Erreur d'orthographe d'usage sur le redoublement de la consonne. Le mot correct est 'applicable'.",
+            "suggestions": [
+              "applicable"
+            ],
+            "ruleApplied": "5.2.1.6"
+          },
+          {
+            "text": "mettaient",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord du verbe. Le sujet 'chacun' est à la troisième personne du singulier.",
+            "suggestions": [
+              "mettait"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "éffort",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Erreur d'orthographe d'usage sur le redoublement de la consonne. Le mot 'effort' ne prend qu'un seul 'f'.",
+            "suggestions": [
+              "effort"
+            ],
+            "ruleApplied": "5.2.1.6"
+          },
+          {
+            "text": "croute",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur d'accord en nombre. Le nom 'croute' doit être au pluriel après le déterminant 'les'. L'orthographe correcte est 'croûtes'.",
+            "suggestions": [
+              "croûtes"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "supermarcher",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre l'infinitif en '-er' et le nom en '-é'. Le mot correct est 'supermarché'.",
+            "suggestions": [
+              "supermarché"
+            ],
+            "ruleApplied": "5.3.3.2"
+          },
+          {
+            "text": "défie",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre l'homophone grammatical 'défie' (verbe 'défier' au présent) et le nom 'défi'. Dans ce contexte, le nom est requis.",
+            "suggestions": [
+              "défi"
+            ],
+            "ruleApplied": "5.3.3.2"
+          },
+          {
+            "text": "plupard",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Erreur d'orthographe d'usage sur le mot 'plupart'.",
+            "suggestions": [
+              "plupart"
+            ],
+            "ruleApplied": "5.2.6.4"
+          },
+          {
+            "text": "d",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "La préposition 'de' doit être élidée en 'd'' devant un mot commençant par une voyelle ou un 'h' muet, ici le chiffre '6' (six).",
+            "suggestions": [
+              "d'"
+            ],
+            "ruleApplied": "5.2.3.1"
+          },
+          {
+            "text": "aplicable",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "_",
+            "description": "Le mot 'aplicable' comporte une erreur d'orthographe ('applicable') et doit s'accorder au pluriel avec le nom 'mesures'. La priorité est accordée à l'erreur grammaticale. Donneur d'accord : 'mesures'.",
+            "suggestions": [
+              "applicables"
+            ],
+            "ruleApplied": "5.3.1.1"
+          }
+        ],
+        "totalErreursCritere4": 16,
+        "totalErreursCritere5": 40,
+        "scoreCritere4": {
+          "pointsPerdus": 11,
+          "note": "C"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 36,
+          "note": "E"
+        }
+      }
+    ],
+    "erreursCritere4AvantAnalyseIA": [
+      {
+        "text": "pas monstrueux",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction de phrase boiteuse typique de l'oral. La négation 'pas' ne peut être employée de cette manière dans une phrase nominale pour qualifier un nom.",
+        "suggestions": [
+          "qui n'est pas monstrueux",
+          "surmontable"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "consommer nous",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de la virgule pour séparer la subordonnée circonstancielle en tête de phrase de la proposition principale.",
+        "suggestions": [
+          "consommer, nous"
+        ],
+        "ruleApplied": "4.2.2.10.1.m"
+      },
+      {
+        "text": "par,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Présence erronée d'une virgule qui sépare la préposition 'par' de son complément.",
+        "suggestions": [
+          "par"
+        ],
+        "ruleApplied": "4.2.2.10.2.h"
+      },
+      {
+        "text": "Heureusement avec",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de la virgule après l'adverbe de modalité placé en tête de phrase.",
+        "suggestions": [
+          "Heureusement, avec"
+        ],
+        "ruleApplied": "4.2.2.10.1.n"
+      },
+      {
+        "text": "En cinq ans les",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de la virgule pour séparer le complément de phrase en tête de phrase de la proposition principale.",
+        "suggestions": [
+          "En cinq ans, les"
+        ],
+        "ruleApplied": "4.2.2.10.1.l"
+      },
+      {
+        "text": "ce que vous allez medemander ce que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Mot superflu. La répétition de 'ce que' alourdit la phrase et la rend incorrecte. La structure attendue est 'Je sais que vous allez me demander ce que...'.",
+        "suggestions": [
+          "que vous allez me demander ce que"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "pourrait",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur dans l'emploi du mode verbal. Dans une subordonnée conditionnelle introduite par 'si', on emploie l'imparfait, et non le conditionnel.",
+        "suggestions": [
+          "pouvait"
+        ],
+        "ruleApplied": "4.1.2.2.3"
+      },
+      {
+        "text": "Siry experte",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de la virgule pour isoler l'apposition 'experte en gaspillage alimentaire'.",
+        "suggestions": [
+          "Siry, experte"
+        ],
+        "ruleApplied": "4.2.2.10.1.i"
+      },
+      {
+        "text": "Hébert Vanessa",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de la virgule entre le nom de famille et le prénom dans une référence.",
+        "suggestions": [
+          "Hébert, Vanessa"
+        ],
+        "ruleApplied": "4.2.2.10.1.a"
+      },
+      {
+        "text": "collectif je",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de la virgule pour séparer le complément de phrase en tête de phrase de la proposition principale.",
+        "suggestions": [
+          "collectif, je"
+        ],
+        "ruleApplied": "4.2.2.10.1.l"
+      },
+      {
+        "text": "Commencer à manger ses restes de repas.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Phrase non verbale (phrase infinitive). La phrase n'a pas de verbe conjugué et est syntaxiquement incomplète.",
+        "suggestions": [
+          "Il faut commencer à manger ses restes de repas."
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "text": "alimentaire un",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule pour isoler le groupe nominal 'un défi pas monstrueux', qui est en apposition au sujet 'Le gaspillage alimentaire'.",
+        "suggestions": [
+          "alimentaire, un"
+        ],
+        "ruleApplied": "4.2.2.10.1.i"
+      },
+      {
+        "text": "ans les",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule après le complément de phrase 'En cinq ans', qui compte plus de trois mots et est placé en tête de phrase.",
+        "suggestions": [
+          "ans, les"
+        ],
+        "ruleApplied": "4.2.2.10.1.l"
+      },
+      {
+        "text": "récuperer",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence d'un mot essentiel, la préposition 'pour', afin d'introduire correctement le but de l'action. La forme verbale devrait être l'infinitif 'récupérer'.",
+        "suggestions": [
+          "pour récupérer"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "en",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Emploi d'un subordonnant erroné. La structure 'entre X et Y' requiert le coordonnant 'et', et non la préposition 'en'.",
+        "suggestions": [
+          "et"
+        ],
+        "ruleApplied": "4.1.2.4.2"
+      },
+      {
+        "text": "2028 nous",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule avant l'incise 'nous informe Hébert Vanessa' pour la détacher du reste de la phrase.",
+        "suggestions": [
+          "2028, nous"
+        ],
+        "ruleApplied": "4.2.2.10.1.f"
+      }
+    ],
+    "erreursCritere5AvantAnalyseIA": [
+      {
+        "text": "défie",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion entre le nom masculin 'défi' et la forme verbale 'défie'.",
+        "suggestions": [
+          "défi"
+        ],
+        "ruleApplied": "5.2.2"
+      },
+      {
+        "text": "En vu de",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Barbarisme orthographique. La locution correcte est 'en vue de'.",
+        "suggestions": [
+          "En vue de"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "text": "tous",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en genre. Le déterminant 'tous' doit s'accorder au féminin pluriel avec le nom 'mesures'.",
+        "suggestions": [
+          "toutes"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "prisent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "Erreur d'accord du participe passé. 'Prises' doit s'accorder en genre et en nombre avec le nom 'mesures', qui est le même donneur que pour 'toutes'.",
+        "suggestions": [
+          "prises"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "récupéré",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord du participe passé. 'Récupérées' doit s'accorder en genre et en nombre avec le nom 'denrées'.",
+        "suggestions": [
+          "récupérées"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "produit",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le nom 'produit' doit être au pluriel après la locution 'beaucoup de'.",
+        "suggestions": [
+          "produits"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "text": "démunie",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. L'adjectif 'démunie' doit s'accorder au pluriel avec le groupe 'les plus' qui sous-entend un pluriel.",
+        "suggestions": [
+          "démunis"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "la plupard",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Barbarisme orthographique. Le mot correct est 'la plupart'.",
+        "suggestions": [
+          "la plupart"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "text": "alimentaire",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. L'adjectif 'alimentaire' doit s'accorder au pluriel avec le nom 'banques'.",
+        "suggestions": [
+          "alimentaires"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "récuperer",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif en '-er' et le participe passé en '-é'. Après l'auxiliaire 'ont', il faut utiliser le participe passé.",
+        "suggestions": [
+          "récupéré"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "d 6",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Absence de l'apostrophe pour marquer l'élision du 'e' de 'de'.",
+        "suggestions": [
+          "d'"
+        ],
+        "ruleApplied": "5.2.3.1"
+      },
+      {
+        "text": "6",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Les nombres inférieurs à dix doivent être écrits en toutes lettres dans un texte courant.",
+        "suggestions": [
+          "six"
+        ],
+        "ruleApplied": "5.2.6.3"
+      },
+      {
+        "text": "million",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le nom 'million' prend un 's' au pluriel car il est précédé d'un nombre supérieur à un.",
+        "suggestions": [
+          "millions"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "text": "kilo",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le nom 'kilo' prend un 's' au pluriel.",
+        "suggestions": [
+          "kilos"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "text": "démunies",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en genre. Le masculin pluriel 'démunis' est utilisé comme forme générique pour désigner un groupe mixte.",
+        "suggestions": [
+          "démunis"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "Solidatarité",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage. Le mot correct est 'Solidarité'.",
+        "suggestions": [
+          "Solidarité"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "panier",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le nom 'panier' doit être au pluriel après la préposition 'des'.",
+        "suggestions": [
+          "paniers"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "text": "alimentaire",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "_",
+        "description": "Erreur d'accord en nombre. L'adjectif 'alimentaire' doit s'accorder au pluriel avec le nom 'paniers', qui est le même donneur.",
+        "suggestions": [
+          "alimentaires"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "es",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre les homophones grammaticaux 'es' (2e personne du singulier du verbe être) et 'est' (3e personne du singulier).",
+        "suggestions": [
+          "est"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "text": "celle",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le pronom démonstratif 'celle' doit s'accorder au pluriel ('celles') avec son antécédent 'pertes'.",
+        "suggestions": [
+          "celles"
+        ],
+        "ruleApplied": "5.3.1.4"
+      },
+      {
+        "text": "maison",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le nom 'maison' doit être au pluriel après la préposition 'des'.",
+        "suggestions": [
+          "maisons"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "text": "familliale",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "Erreur d'accord en nombre. L'adjectif doit s'accorder au pluriel avec le nom 'maisons'. De plus, l'orthographe correcte est 'familiale'. Le donneur est 'maisons'.",
+        "suggestions": [
+          "familiales"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "medemander",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Barbarisme orthographique. Les mots 'me' et 'demander' doivent être séparés.",
+        "suggestions": [
+          "me demander"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "text": "l’ont",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'apostrophe est incorrecte. 'L'on' est une forme soutenue de 'on', mais ne constitue pas une élision.",
+        "suggestions": [
+          "l'on"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "reste",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le nom 'reste' doit être au pluriel après le déterminant possessif 'ses'.",
+        "suggestions": [
+          "restes"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "moitier",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Absence de l'accent circonflexe. Le mot correct est 'moitié'.",
+        "suggestions": [
+          "moitié"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "text": "éviter",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif en '-er' et le participe passé en '-é'. Après l'auxiliaire 'être', il faut utiliser le participe passé.",
+        "suggestions": [
+          "évité"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "reste",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le nom 'reste' doit être au pluriel après le déterminant 'les'.",
+        "suggestions": [
+          "restes"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "recyclé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord du participe passé. 'Recyclés' doit s'accorder en genre et en nombre avec le nom 'repas'.",
+        "suggestions": [
+          "recyclés"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "ent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage. La préposition correcte est 'entre'.",
+        "suggestions": [
+          "entre"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "Tous",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en genre. Le déterminant 'Tous' doit s'accorder au féminin pluriel avec le nom 'mesures'.",
+        "suggestions": [
+          "Toutes"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "aplicable",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage sur le redoublement de la consonne. Le mot correct est 'applicable'.",
+        "suggestions": [
+          "applicable"
+        ],
+        "ruleApplied": "5.2.1.6"
+      },
+      {
+        "text": "mettaient",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord du verbe. Le sujet 'chacun' est à la troisième personne du singulier.",
+        "suggestions": [
+          "mettait"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "éffort",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage sur le redoublement de la consonne. Le mot 'effort' ne prend qu'un seul 'f'.",
+        "suggestions": [
+          "effort"
+        ],
+        "ruleApplied": "5.2.1.6"
+      },
+      {
+        "text": "croute",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le nom 'croute' doit être au pluriel après le déterminant 'les'. L'orthographe correcte est 'croûtes'.",
+        "suggestions": [
+          "croûtes"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "supermarcher",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif en '-er' et le nom en '-é'. Le mot correct est 'supermarché'.",
+        "suggestions": [
+          "supermarché"
+        ],
+        "ruleApplied": "5.3.3.2"
+      },
+      {
+        "text": "défie",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'homophone grammatical 'défie' (verbe 'défier' au présent) et le nom 'défi'. Dans ce contexte, le nom est requis.",
+        "suggestions": [
+          "défi"
+        ],
+        "ruleApplied": "5.3.3.2"
+      },
+      {
+        "text": "plupard",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage sur le mot 'plupart'.",
+        "suggestions": [
+          "plupart"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "text": "d",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "La préposition 'de' doit être élidée en 'd'' devant un mot commençant par une voyelle ou un 'h' muet, ici le chiffre '6' (six).",
+        "suggestions": [
+          "d'"
+        ],
+        "ruleApplied": "5.2.3.1"
+      },
+      {
+        "text": "aplicable",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "Le mot 'aplicable' comporte une erreur d'orthographe ('applicable') et doit s'accorder au pluriel avec le nom 'mesures'. La priorité est accordée à l'erreur grammaticale. Donneur d'accord : 'mesures'.",
+        "suggestions": [
+          "applicables"
+        ],
+        "ruleApplied": "5.3.1.1"
+      }
+    ],
+    "analyseIADuplicatas": {
+      "critere4": {
+        "analyse": {
+          "totalErreursCritere4": 16,
+          "totalErreursCritere5": 0,
+          "duplicatasCritere4": 1,
+          "duplicatasCritere5": 0
+        },
+        "duplicatasCritere4": [
+          {
+            "groupe": 1,
+            "confiance": 98,
+            "raison": "Même erreur de ponctuation (virgule manquante après un complément de phrase), texte de l'un inclus dans l'autre, même règle appliquée.",
+            "erreurs": [
+              {
+                "index": 4,
+                "text": "En cinq ans les",
+                "garder": true
+              },
+              {
+                "index": 12,
+                "text": "ans les",
+                "garder": false
+              }
+            ]
+          }
+        ],
+        "duplicatasCritere5": [],
+        "erreursUniquesCritere4": [
+          {
+            "index": 0,
+            "text": "pas monstrueux",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 1,
+            "text": "consommer nous",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 2,
+            "text": "par,",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 3,
+            "text": "Heureusement avec",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 5,
+            "text": "ce que vous allez medemander ce que",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 6,
+            "text": "pourrait",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 7,
+            "text": "Siry experte",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 8,
+            "text": "Hébert Vanessa",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 9,
+            "text": "collectif je",
+            "raison": "Erreur distincte malgré une règle similaire à une autre erreur."
+          },
+          {
+            "index": 10,
+            "text": "Commencer à manger ses restes de repas.",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 11,
+            "text": "alimentaire un",
+            "raison": "Erreur distincte malgré une règle similaire à une autre erreur."
+          },
+          {
+            "index": 13,
+            "text": "récuperer",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 14,
+            "text": "en",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 15,
+            "text": "2028 nous",
+            "raison": "Aucun duplicata trouvé"
+          }
+        ],
+        "erreursUniquesCritere5": [],
+        "recommandations": {
+          "erreursAConserverCritere4": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            14,
+            15
+          ],
+          "erreursAConserverCritere5": [],
+          "erreursASupprimer": {
+            "critere4": [
+              12
+            ],
+            "critere5": []
+          }
+        }
+      },
+      "critere5": {
+        "analyse": {
+          "totalErreursCritere4": 0,
+          "totalErreursCritere5": 40,
+          "duplicatasCritere4": 0,
+          "duplicatasCritere5": 6
+        },
+        "duplicatasCritere4": [],
+        "duplicatasCritere5": [
+          {
+            "groupe": 1,
+            "confiance": 100,
+            "raison": "Même texte, même occurrence, même problème linguistique (confusion nom/verbe).",
+            "erreurs": [
+              {
+                "index": 36,
+                "text": "défie",
+                "garder": true
+              },
+              {
+                "index": 0,
+                "text": "défie",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 2,
+            "confiance": 95,
+            "raison": "Même erreur d'orthographe, le texte de l'un est plus complet et englobe l'autre.",
+            "erreurs": [
+              {
+                "index": 7,
+                "text": "la plupard",
+                "garder": true
+              },
+              {
+                "index": 37,
+                "text": "plupard",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 3,
+            "confiance": 95,
+            "raison": "Même erreur d'élision, le texte de l'un est plus complet et englobe l'autre.",
+            "erreurs": [
+              {
+                "index": 10,
+                "text": "d 6",
+                "garder": true
+              },
+              {
+                "index": 38,
+                "text": "d",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 4,
+            "confiance": 90,
+            "raison": "Cible le même mot avec la même suggestion finale, traitant différentes facettes (genre/nombre) de la même erreur d'accord.",
+            "erreurs": [
+              {
+                "index": 14,
+                "text": "démunies",
+                "garder": true
+              },
+              {
+                "index": 6,
+                "text": "démunie",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 5,
+            "confiance": 100,
+            "raison": "Erreur identique, le texte ne diffère que par la casse, même occurrence.",
+            "erreurs": [
+              {
+                "index": 2,
+                "text": "tous",
+                "garder": true
+              },
+              {
+                "index": 31,
+                "text": "Tous",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 6,
+            "confiance": 95,
+            "raison": "Cible le même mot à la même position; une analyse de l'erreur est un sur-ensemble de l'autre (orthographe + accord).",
+            "erreurs": [
+              {
+                "index": 39,
+                "text": "aplicable",
+                "garder": true
+              },
+              {
+                "index": 32,
+                "text": "aplicable",
+                "garder": false
+              }
+            ]
+          }
+        ],
+        "erreursUniquesCritere4": [],
+        "erreursUniquesCritere5": [
+          {
+            "index": 1,
+            "text": "En vu de",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 3,
+            "text": "prisent",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 4,
+            "text": "récupéré",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 5,
+            "text": "produit",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 8,
+            "text": "alimentaire",
+            "raison": "Erreur distincte (occurrence 0)"
+          },
+          {
+            "index": 9,
+            "text": "récuperer",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 11,
+            "text": "6",
+            "raison": "Erreur distincte (format de nombre) de l'erreur d'élision."
+          },
+          {
+            "index": 12,
+            "text": "million",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 13,
+            "text": "kilo",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 15,
+            "text": "Solidatarité",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 16,
+            "text": "panier",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 17,
+            "text": "alimentaire",
+            "raison": "Erreur distincte (occurrence 1)"
+          },
+          {
+            "index": 18,
+            "text": "es",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 19,
+            "text": "celle",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 20,
+            "text": "maison",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 21,
+            "text": "familliale",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 22,
+            "text": "medemander",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 23,
+            "text": "l’ont",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 24,
+            "text": "reste",
+            "raison": "Erreur distincte (occurrence 0)"
+          },
+          {
+            "index": 25,
+            "text": "moitier",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 26,
+            "text": "éviter",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 27,
+            "text": "reste",
+            "raison": "Erreur distincte (occurrence 1)"
+          },
+          {
+            "index": 28,
+            "text": "recyclé",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 29,
+            "text": "ent",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 30,
+            "text": "mettaient",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 33,
+            "text": "éffort",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 34,
+            "text": "croute",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 35,
+            "text": "supermarcher",
+            "raison": "Aucun duplicata trouvé"
+          }
+        ],
+        "recommandations": {
+          "erreursAConserverCritere4": [],
+          "erreursAConserverCritere5": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            33,
+            34,
+            35,
+            36,
+            39
+          ],
+          "erreursASupprimer": {
+            "critere4": [],
+            "critere5": [
+              0,
+              6,
+              31,
+              32,
+              37,
+              38
+            ]
+          }
+        }
+      }
+    }
+  }
+}

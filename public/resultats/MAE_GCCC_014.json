@@ -1,0 +1,2320 @@
+{
+  "processedAt": "2025-12-10T14:11:18.378Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_014.txt",
+    "originalText": "Manger, ce n'est pas tout!\r\n\r\nChers lectorat,\r\n\r\nCela fait des siècles que l’être humain se nourrit, mais ce n'est pas tout, derrière notre alimentation se cache un visage effroyable. Depuis quelques années, les consommateurs ainsi que les producteurs s’intriguent autour du gaspillage. C'est pour cela qu’aujourd'hui je me pose la question suivante, moi et vous, sommes-nous capable de rivaliser contre le gaspillage alimentaire? Selon mon modeste jugement, nous ne sommes pas prêt à abandonner cette pratique néfaste. Je vous exposerai dans ce texte les multiples raisons tel que l’implication du gouvernement et la sensibilisation des acheteurs.\r\n\r\nTout d’abord, chers public, je trouve que le gouvernement ne s’applique pas où d’au moins ne s’interresse pas assez à cette problématique qui leur coute un désavantage financier. Selon une étude du conseil national zéro dechet, environ 2,2 millions de tonnes d’aliments sont gaspillés par les familles canadiennes chaque année, une donnée qui représente une perte d'un peu près 17 milliards de dollars, affime (RECYC-Québec, 2021). Pour lutter contre ce géant casse-tête, le parti en mandat devrait se pencher et faire de profonde études à propos de ce sujet. Ces étapes sont non-negligeable. Les agricultures et les compagnies luttant contre ce dernier ont besoin d’aider financier car le processus coût trop cher. Les producteurs agricoles qui veulent faire un don d’aliments en surplus ou invendables doivent consacrer de leur temps, énèrgies et ressources à livrer eux-mêmes ces denrées, car plusieurs organismes (par exemple : les banques alimentaires) n’ont pas les moyens nécessaires pour aller les cherchers. (Radio-canada, 2021). Bref, le gouvernement devrait offrir un programme d’aide financier pour limiter le gâchi.\r\n\r\nPar la suite, chers lecteurs, les acheteurs québécois et canadiens ne sont pas assez informer par rapport à tous ce qui concerne la conservation et la maintenance de la nourriture. Selon Florence-Léa Siry, une experte qui combat le galveaudage alimentaire, 50% du gaspillage pourrait être évité si on savait comment mieux conserver nos aliments. (Corriveau, 2020). Des campagnes publicitaires, des articles journalistique et des vidéos interactive devrait être plus à la tendance pour renseigner la population. Selon un article de Simard, il dit : « Pour Mike Von Massow, coauteur d'une étude sur le gaspillage alimentaire dans les maisons, l’une des informations les moins bien comprises par les consommateurs est la date limite de conservation, qui n'a rien à voir avec la sécurité alimentaire : « meilleur avant » ne signifie pas « périme après » ». (Simard, 2020) En effet, en tant que consommateurs québécois, moi-même, je ne suis pas bien informer par rapport à ce sujet. Il faudra donc plus sensibiliser les gens envers le gâchis alimentaire.\r\n\r\nSomme toute, chers lectrices et lecteurs, nous sommes encore loin de vaincre ce monstrueux et redoutable adversaire. Pour y parvenir chacun devrait y mettre du sien. Ce qui compte en ce moment, c'est comment peux-t-on établir des restrictions qui nous menerons à la victoire?",
+    "erreursCritere4": [
+      {
+        "text": "suivante,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le deux-points est requis pour introduire une question directe. La virgule crée une rupture incorrecte.",
+        "suggestions": [
+          "suivante :"
+        ],
+        "ruleApplied": "4.2.2.7.1"
+      },
+      {
+        "text": "où",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Confusion entre l'adverbe de lieu « où » et la conjonction de coordination « ou » qui marque un choix ou une alternative.",
+        "suggestions": [
+          "ou"
+        ],
+        "ruleApplied": "4.1.2.1.9"
+      },
+      {
+        "text": "leur",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Le pronom personnel complément « leur » (pluriel) est utilisé alors que son antécédent, « le gouvernement », est singulier. Il faut utiliser « lui ». Une erreur de syntaxe (S) a déjà été comptée dans cette phrase.",
+        "suggestions": [
+          "lui"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "text": "affime",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de l'incise est boiteuse. Le verbe ne peut être suivi de la source entre parenthèses de cette manière. De plus, le verbe est mal orthographié. La forme correcte est « affirme RECYC-Québec ».",
+        "suggestions": [
+          "affirme RECYC-Québec"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "coût",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Confusion entre le nom « coût » et le verbe « coûte ». La phrase requiert un verbe conjugué.",
+        "suggestions": [
+          "coûte"
+        ],
+        "ruleApplied": "4.1.2.1.9"
+      },
+      {
+        "text": "Selon un article de Simard, il dit",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il y a une redondance (pléonasme) entre « Selon un article de Simard » et « il dit ». Il faut choisir l'une des deux formulations.",
+        "suggestions": [
+          "Selon un article de Simard,",
+          "Simard dit"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": ",",
+        "occurenceIndex": 4,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule ne doit pas séparer le groupe sujet ('moi et vous') du verbe ('sommes-nous').",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.10.2.a"
+      },
+      {
+        "text": "parvenir chacun",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule est requise après le complément de phrase 'Pour y parvenir' placé en tête de phrase.",
+        "suggestions": [
+          "parvenir, chacun"
+        ],
+        "ruleApplied": "4.2.2.10.1.m"
+      },
+      {
+        "text": "comment peux-t-on établir",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de l'interrogative indirecte est incorrecte. Il faut utiliser 'comment nous pouvons établir' ou une structure similaire sans inversion. De plus, le verbe 'pouvoir' est mal conjugué ('peux' au lieu de 'peut'). L'erreur de syntaxe prime.",
+        "suggestions": [
+          "comment nous pouvons établir"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 6.5,
+      "note": "B"
+    },
+    "erreursCritere5": [
+      {
+        "text": "capable",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'attribut du sujet « capable » doit s'accorder en nombre avec le sujet « nous » (pluriel).",
+        "suggestions": [
+          "capables"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "prêt",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "L'attribut du sujet « prêt » doit s'accorder en nombre avec le sujet « nous » (pluriel). Il s'agit de la deuxième erreur d'accord se rapportant au même donneur « nous ».",
+        "suggestions": [
+          "prêts"
+        ],
+        "ruleApplied": "5.4.2.1"
+      },
+      {
+        "text": "tel que",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "La locution « tel que » doit s'accorder en genre et en nombre avec le nom auquel elle se rapporte, « les multiples raisons » (féminin pluriel).",
+        "suggestions": [
+          "telles que"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "chers public",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « chers » doit s'accorder en genre et en nombre avec le nom qu'il qualifie. Le nom « public » est masculin singulier.",
+        "suggestions": [
+          "cher public"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "d’au moins",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Il s'agit d'un barbarisme orthographique. La locution correcte est « du moins ».",
+        "suggestions": [
+          "du moins"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "text": "s’interresse",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage sur le verbe « intéresser » qui s'écrit avec un accent aigu et un seul « r ».",
+        "suggestions": [
+          "s'intéresse"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "text": "dechet",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Il manque l'accent aigu sur le « e » du mot « déchet ».",
+        "suggestions": [
+          "déchet"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "text": "profonde",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « profonde » doit s'accorder en nombre avec le nom qu'il qualifie, « études » (féminin pluriel).",
+        "suggestions": [
+          "profondes"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "non-negligeable",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « négligeable » doit s'accorder en nombre avec le nom qu'il qualifie, « étapes » (féminin pluriel). De plus, il manque un accent aigu. La priorité est accordée à l'erreur grammaticale.",
+        "suggestions": [
+          "non négligeables"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "Les agricultures",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot « agriculture » est généralement un nom singulier et non comptable. Le contexte suggère que l'auteur voulait parler des « agriculteurs ».",
+        "suggestions": [
+          "Les agriculteurs"
+        ],
+        "ruleApplied": "5.2.2"
+      },
+      {
+        "text": "financier",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "L'adjectif « financier » doit s'accorder en genre avec le nom qu'il qualifie, « aide » (féminin singulier). Le donneur d'accord est le nom « aide ».",
+        "suggestions": [
+          "financière"
+        ],
+        "ruleApplied": "5.4.2.1"
+      },
+      {
+        "text": "énèrgies",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'accent sur le premier « e » du mot « énergies » est un accent aigu et non un accent grave.",
+        "suggestions": [
+          "énergies"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "text": "cherchers",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Un verbe qui suit une préposition (ici, « pour aller ») doit être à l'infinitif. La terminaison est « -er ».",
+        "suggestions": [
+          "chercher"
+        ],
+        "ruleApplied": "5.3.2.5"
+      },
+      {
+        "text": "Radio-canada",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur de majuscule dans une dénomination. Le nom propre « Radio-Canada » requiert une majuscule à chaque composant.",
+        "suggestions": [
+          "Radio-Canada"
+        ],
+        "ruleApplied": "5.2.4.1.2"
+      },
+      {
+        "text": "financier",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « financier » doit s'accorder en genre avec le nom qu'il qualifie, « aide » (féminin singulier).",
+        "suggestions": [
+          "financière"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "informer",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif en « -er » et le participe passé en « -é ». Le participe passé employé avec l'auxiliaire « être » doit s'accorder avec le sujet « les acheteurs québécois et canadiens » (masculin pluriel).",
+        "suggestions": [
+          "informés"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "tous ce qui",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom indéfini « tout » doit être au singulier dans la locution « tout ce qui ».",
+        "suggestions": [
+          "tout ce qui"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "galveaudage",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe lexicale. Le mot attendu dans ce contexte est « gaspillage » ou, à la rigueur, « galvaudage ».",
+        "suggestions": [
+          "gaspillage",
+          "galvaudage"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "journalistique",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « journalistique » doit s'accorder en nombre avec le nom qu'il qualifie, « articles » (masculin pluriel).",
+        "suggestions": [
+          "journalistiques"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "interactive",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « interactive » doit s'accorder en nombre avec le nom qu'il qualifie, « vidéos » (féminin pluriel).",
+        "suggestions": [
+          "interactives"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "devrait",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec le sujet pluriel « Des campagnes publicitaires, des articles journalistique et des vidéos interactive ».",
+        "suggestions": [
+          "devraient"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "informer",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif en « -er » et le participe passé en « -é ». Le participe passé employé avec l'auxiliaire « être » doit s'accorder avec le sujet « je » (représenté par « moi-même », masculin singulier).",
+        "suggestions": [
+          "informé"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "peux-t-on",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur de conjugaison. Le verbe « pouvoir » avec le pronom « on » (3e personne du singulier) se conjugue « peut » et non « peux ».",
+        "suggestions": [
+          "peut-on"
+        ],
+        "ruleApplied": "5.3.2.1"
+      },
+      {
+        "text": "menerons",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur de conjugaison. Le verbe « mener » doit s'accorder avec son sujet « qui » (mis pour « des restrictions », 3e personne du pluriel). La terminaison du futur simple est « -ont ».",
+        "suggestions": [
+          "mèneront"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "où",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'adverbe de lieu 'où' et la conjonction de coordination 'ou' qui marque un choix.",
+        "suggestions": [
+          "ou"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "text": "affime",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Graphie erronée du verbe 'affirmer'.",
+        "suggestions": [
+          "affirme"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "d’aider",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le verbe à l'infinitif 'aider' et le nom 'aide'. Le nom est requis ici.",
+        "suggestions": [
+          "d'aide"
+        ],
+        "ruleApplied": "5.3.3.2"
+      },
+      {
+        "text": "gâchi",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Graphie erronée du nom 'gâchis', qui prend un 's' final.",
+        "suggestions": [
+          "gâchis"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "menerons",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le verbe 'mener' au futur simple à la première personne du pluriel prend un accent grave sur le premier 'e'.",
+        "suggestions": [
+          "mènerons"
+        ],
+        "ruleApplied": "5.2.1.1"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 27,
+      "note": "E"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:05:37.782Z",
+    "endTimestamp": "2025-12-10T14:11:18.378Z",
+    "durationMs": 340596,
+    "durationFormatted": "05:40:596",
+    "cumulParPasse": [
+      {
+        "passe": 1,
+        "erreursCritere4": [
+          {
+            "text": "suivante,",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Le deux-points est requis pour introduire une question directe. La virgule crée une rupture incorrecte.",
+            "suggestions": [
+              "suivante :"
+            ],
+            "ruleApplied": "4.2.2.7.1"
+          },
+          {
+            "text": "où",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Confusion entre l'adverbe de lieu « où » et la conjonction de coordination « ou » qui marque un choix ou une alternative.",
+            "suggestions": [
+              "ou"
+            ],
+            "ruleApplied": "4.1.2.1.9"
+          },
+          {
+            "text": "leur",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "Le pronom personnel complément « leur » (pluriel) est utilisé alors que son antécédent, « le gouvernement », est singulier. Il faut utiliser « lui ». Une erreur de syntaxe (S) a déjà été comptée dans cette phrase.",
+            "suggestions": [
+              "lui"
+            ],
+            "ruleApplied": "4.1.2.3.2"
+          },
+          {
+            "text": "affime",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction de l'incise est boiteuse. Le verbe ne peut être suivi de la source entre parenthèses de cette manière. De plus, le verbe est mal orthographié. La forme correcte est « affirme RECYC-Québec ».",
+            "suggestions": [
+              "affirme RECYC-Québec"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "coût",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Confusion entre le nom « coût » et le verbe « coûte ». La phrase requiert un verbe conjugué.",
+            "suggestions": [
+              "coûte"
+            ],
+            "ruleApplied": "4.1.2.1.9"
+          },
+          {
+            "text": "Selon un article de Simard, il dit",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Il y a une redondance (pléonasme) entre « Selon un article de Simard » et « il dit ». Il faut choisir l'une des deux formulations.",
+            "suggestions": [
+              "Selon un article de Simard,",
+              "Simard dit"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "c'est comment peux-t-on",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction de l'interrogative indirecte est incorrecte. Après « c'est », on ne peut pas utiliser l'inversion sujet-verbe. Il faut utiliser une structure comme « c'est de savoir comment on peut ».",
+            "suggestions": [
+              "c'est de savoir comment on peut",
+              "la question est : comment peut-on"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "Chers",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif doit s'accorder en genre et en nombre avec le nom qu'il qualifie. Le nom « lectorat » est masculin singulier, l'adjectif doit donc être « Cher ».",
+            "suggestions": [
+              "Cher"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "capable",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'attribut du sujet « capable » doit s'accorder en nombre avec le sujet « nous » (pluriel).",
+            "suggestions": [
+              "capables"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "prêt",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "_",
+            "description": "L'attribut du sujet « prêt » doit s'accorder en nombre avec le sujet « nous » (pluriel). Il s'agit de la deuxième erreur d'accord se rapportant au même donneur « nous ».",
+            "suggestions": [
+              "prêts"
+            ],
+            "ruleApplied": "5.4.2.1"
+          },
+          {
+            "text": "tel que",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "La locution « tel que » doit s'accorder en genre et en nombre avec le nom auquel elle se rapporte, « les multiples raisons » (féminin pluriel).",
+            "suggestions": [
+              "telles que"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "chers public",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif « chers » doit s'accorder en genre et en nombre avec le nom qu'il qualifie. Le nom « public » est masculin singulier.",
+            "suggestions": [
+              "cher public"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "d’au moins",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Il s'agit d'un barbarisme orthographique. La locution correcte est « du moins ».",
+            "suggestions": [
+              "du moins"
+            ],
+            "ruleApplied": "5.2.6.4"
+          },
+          {
+            "text": "s’interresse",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Erreur d'orthographe d'usage sur le verbe « intéresser » qui s'écrit avec un accent aigu et un seul « r ».",
+            "suggestions": [
+              "s'intéresse"
+            ],
+            "ruleApplied": "5.2.1.1"
+          },
+          {
+            "text": "dechet",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Il manque l'accent aigu sur le « e » du mot « déchet ».",
+            "suggestions": [
+              "déchet"
+            ],
+            "ruleApplied": "5.2.1.1"
+          },
+          {
+            "text": "profonde",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif « profonde » doit s'accorder en nombre avec le nom qu'il qualifie, « études » (féminin pluriel).",
+            "suggestions": [
+              "profondes"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "non-negligeable",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif « négligeable » doit s'accorder en nombre avec le nom qu'il qualifie, « étapes » (féminin pluriel). De plus, il manque un accent aigu. La priorité est accordée à l'erreur grammaticale.",
+            "suggestions": [
+              "non négligeables"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "Les agricultures",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Le mot « agriculture » est généralement un nom singulier et non comptable. Le contexte suggère que l'auteur voulait parler des « agriculteurs ».",
+            "suggestions": [
+              "Les agriculteurs"
+            ],
+            "ruleApplied": "5.2.2"
+          },
+          {
+            "text": "aider",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre le verbe à l'infinitif « aider » et le nom féminin « aide ». La structure correcte est « ont besoin d'aide ».",
+            "suggestions": [
+              "d'aide"
+            ],
+            "ruleApplied": "5.3.3.2"
+          },
+          {
+            "text": "financier",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "_",
+            "description": "L'adjectif « financier » doit s'accorder en genre avec le nom qu'il qualifie, « aide » (féminin singulier). Le donneur d'accord est le nom « aide ».",
+            "suggestions": [
+              "financière"
+            ],
+            "ruleApplied": "5.4.2.1"
+          },
+          {
+            "text": "énèrgies",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "L'accent sur le premier « e » du mot « énergies » est un accent aigu et non un accent grave.",
+            "suggestions": [
+              "énergies"
+            ],
+            "ruleApplied": "5.2.1.1"
+          },
+          {
+            "text": "cherchers",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Un verbe qui suit une préposition (ici, « pour aller ») doit être à l'infinitif. La terminaison est « -er ».",
+            "suggestions": [
+              "chercher"
+            ],
+            "ruleApplied": "5.3.2.5"
+          },
+          {
+            "text": "Radio-canada",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Erreur de majuscule dans une dénomination. Le nom propre « Radio-Canada » requiert une majuscule à chaque composant.",
+            "suggestions": [
+              "Radio-Canada"
+            ],
+            "ruleApplied": "5.2.4.1.2"
+          },
+          {
+            "text": "financier",
+            "occurenceIndex": 1,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif « financier » doit s'accorder en genre avec le nom qu'il qualifie, « aide » (féminin singulier).",
+            "suggestions": [
+              "financière"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "informer",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre l'infinitif en « -er » et le participe passé en « -é ». Le participe passé employé avec l'auxiliaire « être » doit s'accorder avec le sujet « les acheteurs québécois et canadiens » (masculin pluriel).",
+            "suggestions": [
+              "informés"
+            ],
+            "ruleApplied": "5.3.2.6"
+          },
+          {
+            "text": "tous ce qui",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le pronom indéfini « tout » doit être au singulier dans la locution « tout ce qui ».",
+            "suggestions": [
+              "tout ce qui"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "galveaudage",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Erreur d'orthographe lexicale. Le mot attendu dans ce contexte est « gaspillage » ou, à la rigueur, « galvaudage ».",
+            "suggestions": [
+              "gaspillage",
+              "galvaudage"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "journalistique",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif « journalistique » doit s'accorder en nombre avec le nom qu'il qualifie, « articles » (masculin pluriel).",
+            "suggestions": [
+              "journalistiques"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "interactive",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif « interactive » doit s'accorder en nombre avec le nom qu'il qualifie, « vidéos » (féminin pluriel).",
+            "suggestions": [
+              "interactives"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "devrait",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe doit s'accorder avec le sujet pluriel « Des campagnes publicitaires, des articles journalistique et des vidéos interactive ».",
+            "suggestions": [
+              "devraient"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "informer",
+            "occurenceIndex": 1,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre l'infinitif en « -er » et le participe passé en « -é ». Le participe passé employé avec l'auxiliaire « être » doit s'accorder avec le sujet « je » (représenté par « moi-même », masculin singulier).",
+            "suggestions": [
+              "informé"
+            ],
+            "ruleApplied": "5.3.2.6"
+          },
+          {
+            "text": "peux-t-on",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur de conjugaison. Le verbe « pouvoir » avec le pronom « on » (3e personne du singulier) se conjugue « peut » et non « peux ».",
+            "suggestions": [
+              "peut-on"
+            ],
+            "ruleApplied": "5.3.2.1"
+          },
+          {
+            "text": "menerons",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur de conjugaison. Le verbe « mener » doit s'accorder avec son sujet « qui » (mis pour « des restrictions », 3e personne du pluriel). La terminaison du futur simple est « -ont ».",
+            "suggestions": [
+              "mèneront"
+            ],
+            "ruleApplied": "5.3.2.2"
+          }
+        ],
+        "totalErreursCritere4": 7,
+        "totalErreursCritere5": 26,
+        "scoreCritere4": {
+          "pointsPerdus": 5.5,
+          "note": "B"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 24,
+          "note": "E"
+        }
+      },
+      {
+        "passe": 2,
+        "erreursCritere4": [
+          {
+            "text": "suivante,",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Le deux-points est requis pour introduire une question directe. La virgule crée une rupture incorrecte.",
+            "suggestions": [
+              "suivante :"
+            ],
+            "ruleApplied": "4.2.2.7.1"
+          },
+          {
+            "text": "où",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Confusion entre l'adverbe de lieu « où » et la conjonction de coordination « ou » qui marque un choix ou une alternative.",
+            "suggestions": [
+              "ou"
+            ],
+            "ruleApplied": "4.1.2.1.9"
+          },
+          {
+            "text": "leur",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "Le pronom personnel complément « leur » (pluriel) est utilisé alors que son antécédent, « le gouvernement », est singulier. Il faut utiliser « lui ». Une erreur de syntaxe (S) a déjà été comptée dans cette phrase.",
+            "suggestions": [
+              "lui"
+            ],
+            "ruleApplied": "4.1.2.3.2"
+          },
+          {
+            "text": "affime",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction de l'incise est boiteuse. Le verbe ne peut être suivi de la source entre parenthèses de cette manière. De plus, le verbe est mal orthographié. La forme correcte est « affirme RECYC-Québec ».",
+            "suggestions": [
+              "affirme RECYC-Québec"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "coût",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Confusion entre le nom « coût » et le verbe « coûte ». La phrase requiert un verbe conjugué.",
+            "suggestions": [
+              "coûte"
+            ],
+            "ruleApplied": "4.1.2.1.9"
+          },
+          {
+            "text": "Selon un article de Simard, il dit",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Il y a une redondance (pléonasme) entre « Selon un article de Simard » et « il dit ». Il faut choisir l'une des deux formulations.",
+            "suggestions": [
+              "Selon un article de Simard,",
+              "Simard dit"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "c'est comment peux-t-on",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction de l'interrogative indirecte est incorrecte. Après « c'est », on ne peut pas utiliser l'inversion sujet-verbe. Il faut utiliser une structure comme « c'est de savoir comment on peut ».",
+            "suggestions": [
+              "c'est de savoir comment on peut",
+              "la question est : comment peut-on"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": ",",
+            "occurenceIndex": 3,
+            "criteria": 4,
+            "type": "P",
+            "description": "Le deux-points est requis pour introduire une question directe annoncée par l'expression 'la question suivante'.",
+            "suggestions": [
+              ":"
+            ],
+            "ruleApplied": "4.2.2.7.1"
+          },
+          {
+            "text": ",",
+            "occurenceIndex": 4,
+            "criteria": 4,
+            "type": "P",
+            "description": "Une virgule ne doit pas séparer le groupe sujet ('moi et vous') du verbe ('sommes-nous').",
+            "suggestions": [
+              ""
+            ],
+            "ruleApplied": "4.2.2.10.2.a"
+          },
+          {
+            "text": "leur",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le pronom complément d'objet indirect doit reprendre l'antécédent 'gouvernement' (singulier). Il faut utiliser 'lui'.",
+            "suggestions": [
+              "lui"
+            ],
+            "ruleApplied": "4.1.2.3.1"
+          },
+          {
+            "text": "il dit",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Redondance. La locution 'Selon un article de Simard' introduit déjà la source, rendant 'il dit' superflu.",
+            "suggestions": [
+              ""
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "parvenir chacun",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Une virgule est requise après le complément de phrase 'Pour y parvenir' placé en tête de phrase.",
+            "suggestions": [
+              "parvenir, chacun"
+            ],
+            "ruleApplied": "4.2.2.10.1.m"
+          },
+          {
+            "text": "comment peux-t-on établir",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction de l'interrogative indirecte est incorrecte. Il faut utiliser 'comment nous pouvons établir' ou une structure similaire sans inversion. De plus, le verbe 'pouvoir' est mal conjugué ('peux' au lieu de 'peut'). L'erreur de syntaxe prime.",
+            "suggestions": [
+              "comment nous pouvons établir"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "Chers",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif doit s'accorder en genre et en nombre avec le nom qu'il qualifie. Le nom « lectorat » est masculin singulier, l'adjectif doit donc être « Cher ».",
+            "suggestions": [
+              "Cher"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "capable",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'attribut du sujet « capable » doit s'accorder en nombre avec le sujet « nous » (pluriel).",
+            "suggestions": [
+              "capables"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "prêt",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "_",
+            "description": "L'attribut du sujet « prêt » doit s'accorder en nombre avec le sujet « nous » (pluriel). Il s'agit de la deuxième erreur d'accord se rapportant au même donneur « nous ».",
+            "suggestions": [
+              "prêts"
+            ],
+            "ruleApplied": "5.4.2.1"
+          },
+          {
+            "text": "tel que",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "La locution « tel que » doit s'accorder en genre et en nombre avec le nom auquel elle se rapporte, « les multiples raisons » (féminin pluriel).",
+            "suggestions": [
+              "telles que"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "chers public",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif « chers » doit s'accorder en genre et en nombre avec le nom qu'il qualifie. Le nom « public » est masculin singulier.",
+            "suggestions": [
+              "cher public"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "d’au moins",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Il s'agit d'un barbarisme orthographique. La locution correcte est « du moins ».",
+            "suggestions": [
+              "du moins"
+            ],
+            "ruleApplied": "5.2.6.4"
+          },
+          {
+            "text": "s’interresse",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Erreur d'orthographe d'usage sur le verbe « intéresser » qui s'écrit avec un accent aigu et un seul « r ».",
+            "suggestions": [
+              "s'intéresse"
+            ],
+            "ruleApplied": "5.2.1.1"
+          },
+          {
+            "text": "dechet",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Il manque l'accent aigu sur le « e » du mot « déchet ».",
+            "suggestions": [
+              "déchet"
+            ],
+            "ruleApplied": "5.2.1.1"
+          },
+          {
+            "text": "profonde",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif « profonde » doit s'accorder en nombre avec le nom qu'il qualifie, « études » (féminin pluriel).",
+            "suggestions": [
+              "profondes"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "non-negligeable",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif « négligeable » doit s'accorder en nombre avec le nom qu'il qualifie, « étapes » (féminin pluriel). De plus, il manque un accent aigu. La priorité est accordée à l'erreur grammaticale.",
+            "suggestions": [
+              "non négligeables"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "Les agricultures",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Le mot « agriculture » est généralement un nom singulier et non comptable. Le contexte suggère que l'auteur voulait parler des « agriculteurs ».",
+            "suggestions": [
+              "Les agriculteurs"
+            ],
+            "ruleApplied": "5.2.2"
+          },
+          {
+            "text": "aider",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre le verbe à l'infinitif « aider » et le nom féminin « aide ». La structure correcte est « ont besoin d'aide ».",
+            "suggestions": [
+              "d'aide"
+            ],
+            "ruleApplied": "5.3.3.2"
+          },
+          {
+            "text": "financier",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "_",
+            "description": "L'adjectif « financier » doit s'accorder en genre avec le nom qu'il qualifie, « aide » (féminin singulier). Le donneur d'accord est le nom « aide ».",
+            "suggestions": [
+              "financière"
+            ],
+            "ruleApplied": "5.4.2.1"
+          },
+          {
+            "text": "énèrgies",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "L'accent sur le premier « e » du mot « énergies » est un accent aigu et non un accent grave.",
+            "suggestions": [
+              "énergies"
+            ],
+            "ruleApplied": "5.2.1.1"
+          },
+          {
+            "text": "cherchers",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Un verbe qui suit une préposition (ici, « pour aller ») doit être à l'infinitif. La terminaison est « -er ».",
+            "suggestions": [
+              "chercher"
+            ],
+            "ruleApplied": "5.3.2.5"
+          },
+          {
+            "text": "Radio-canada",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Erreur de majuscule dans une dénomination. Le nom propre « Radio-Canada » requiert une majuscule à chaque composant.",
+            "suggestions": [
+              "Radio-Canada"
+            ],
+            "ruleApplied": "5.2.4.1.2"
+          },
+          {
+            "text": "financier",
+            "occurenceIndex": 1,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif « financier » doit s'accorder en genre avec le nom qu'il qualifie, « aide » (féminin singulier).",
+            "suggestions": [
+              "financière"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "informer",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre l'infinitif en « -er » et le participe passé en « -é ». Le participe passé employé avec l'auxiliaire « être » doit s'accorder avec le sujet « les acheteurs québécois et canadiens » (masculin pluriel).",
+            "suggestions": [
+              "informés"
+            ],
+            "ruleApplied": "5.3.2.6"
+          },
+          {
+            "text": "tous ce qui",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le pronom indéfini « tout » doit être au singulier dans la locution « tout ce qui ».",
+            "suggestions": [
+              "tout ce qui"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "galveaudage",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Erreur d'orthographe lexicale. Le mot attendu dans ce contexte est « gaspillage » ou, à la rigueur, « galvaudage ».",
+            "suggestions": [
+              "gaspillage",
+              "galvaudage"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "journalistique",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif « journalistique » doit s'accorder en nombre avec le nom qu'il qualifie, « articles » (masculin pluriel).",
+            "suggestions": [
+              "journalistiques"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "interactive",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif « interactive » doit s'accorder en nombre avec le nom qu'il qualifie, « vidéos » (féminin pluriel).",
+            "suggestions": [
+              "interactives"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "devrait",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe doit s'accorder avec le sujet pluriel « Des campagnes publicitaires, des articles journalistique et des vidéos interactive ».",
+            "suggestions": [
+              "devraient"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "informer",
+            "occurenceIndex": 1,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre l'infinitif en « -er » et le participe passé en « -é ». Le participe passé employé avec l'auxiliaire « être » doit s'accorder avec le sujet « je » (représenté par « moi-même », masculin singulier).",
+            "suggestions": [
+              "informé"
+            ],
+            "ruleApplied": "5.3.2.6"
+          },
+          {
+            "text": "peux-t-on",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur de conjugaison. Le verbe « pouvoir » avec le pronom « on » (3e personne du singulier) se conjugue « peut » et non « peux ».",
+            "suggestions": [
+              "peut-on"
+            ],
+            "ruleApplied": "5.3.2.1"
+          },
+          {
+            "text": "menerons",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Erreur de conjugaison. Le verbe « mener » doit s'accorder avec son sujet « qui » (mis pour « des restrictions », 3e personne du pluriel). La terminaison du futur simple est « -ont ».",
+            "suggestions": [
+              "mèneront"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "prêt",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'attribut du sujet 'prêt' doit s'accorder en nombre avec le sujet 'nous' (pluriel).",
+            "suggestions": [
+              "prêts"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "chers",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif 'cher' doit s'accorder en genre et en nombre avec le nom 'public', qui est masculin singulier.",
+            "suggestions": [
+              "cher"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "où",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre l'adverbe de lieu 'où' et la conjonction de coordination 'ou' qui marque un choix.",
+            "suggestions": [
+              "ou"
+            ],
+            "ruleApplied": "5.3.3.1"
+          },
+          {
+            "text": "affime",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Graphie erronée du verbe 'affirmer'.",
+            "suggestions": [
+              "affirme"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "agricultures",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Confusion lexicale. Le contexte requiert le nom 'agriculteurs' (les personnes) et non 'agricultures' (la pratique).",
+            "suggestions": [
+              "agriculteurs"
+            ],
+            "ruleApplied": "5.2.2"
+          },
+          {
+            "text": "d’aider",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre le verbe à l'infinitif 'aider' et le nom 'aide'. Le nom est requis ici.",
+            "suggestions": [
+              "d'aide"
+            ],
+            "ruleApplied": "5.3.3.2"
+          },
+          {
+            "text": "financier",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif 'financier' doit s'accorder en genre avec le nom 'aide', qui est féminin singulier.",
+            "suggestions": [
+              "financière"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "gâchi",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Graphie erronée du nom 'gâchis', qui prend un 's' final.",
+            "suggestions": [
+              "gâchis"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "menerons",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Le verbe 'mener' au futur simple à la première personne du pluriel prend un accent grave sur le premier 'e'.",
+            "suggestions": [
+              "mènerons"
+            ],
+            "ruleApplied": "5.2.1.1"
+          }
+        ],
+        "totalErreursCritere4": 13,
+        "totalErreursCritere5": 35,
+        "scoreCritere4": {
+          "pointsPerdus": 10,
+          "note": "C"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 33,
+          "note": "E"
+        }
+      }
+    ],
+    "erreursCritere4AvantAnalyseIA": [
+      {
+        "text": "suivante,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le deux-points est requis pour introduire une question directe. La virgule crée une rupture incorrecte.",
+        "suggestions": [
+          "suivante :"
+        ],
+        "ruleApplied": "4.2.2.7.1"
+      },
+      {
+        "text": "où",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Confusion entre l'adverbe de lieu « où » et la conjonction de coordination « ou » qui marque un choix ou une alternative.",
+        "suggestions": [
+          "ou"
+        ],
+        "ruleApplied": "4.1.2.1.9"
+      },
+      {
+        "text": "leur",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Le pronom personnel complément « leur » (pluriel) est utilisé alors que son antécédent, « le gouvernement », est singulier. Il faut utiliser « lui ». Une erreur de syntaxe (S) a déjà été comptée dans cette phrase.",
+        "suggestions": [
+          "lui"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "text": "affime",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de l'incise est boiteuse. Le verbe ne peut être suivi de la source entre parenthèses de cette manière. De plus, le verbe est mal orthographié. La forme correcte est « affirme RECYC-Québec ».",
+        "suggestions": [
+          "affirme RECYC-Québec"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "coût",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Confusion entre le nom « coût » et le verbe « coûte ». La phrase requiert un verbe conjugué.",
+        "suggestions": [
+          "coûte"
+        ],
+        "ruleApplied": "4.1.2.1.9"
+      },
+      {
+        "text": "Selon un article de Simard, il dit",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il y a une redondance (pléonasme) entre « Selon un article de Simard » et « il dit ». Il faut choisir l'une des deux formulations.",
+        "suggestions": [
+          "Selon un article de Simard,",
+          "Simard dit"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "c'est comment peux-t-on",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de l'interrogative indirecte est incorrecte. Après « c'est », on ne peut pas utiliser l'inversion sujet-verbe. Il faut utiliser une structure comme « c'est de savoir comment on peut ».",
+        "suggestions": [
+          "c'est de savoir comment on peut",
+          "la question est : comment peut-on"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": ",",
+        "occurenceIndex": 3,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le deux-points est requis pour introduire une question directe annoncée par l'expression 'la question suivante'.",
+        "suggestions": [
+          ":"
+        ],
+        "ruleApplied": "4.2.2.7.1"
+      },
+      {
+        "text": ",",
+        "occurenceIndex": 4,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule ne doit pas séparer le groupe sujet ('moi et vous') du verbe ('sommes-nous').",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.10.2.a"
+      },
+      {
+        "text": "leur",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom complément d'objet indirect doit reprendre l'antécédent 'gouvernement' (singulier). Il faut utiliser 'lui'.",
+        "suggestions": [
+          "lui"
+        ],
+        "ruleApplied": "4.1.2.3.1"
+      },
+      {
+        "text": "il dit",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Redondance. La locution 'Selon un article de Simard' introduit déjà la source, rendant 'il dit' superflu.",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "parvenir chacun",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule est requise après le complément de phrase 'Pour y parvenir' placé en tête de phrase.",
+        "suggestions": [
+          "parvenir, chacun"
+        ],
+        "ruleApplied": "4.2.2.10.1.m"
+      },
+      {
+        "text": "comment peux-t-on établir",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de l'interrogative indirecte est incorrecte. Il faut utiliser 'comment nous pouvons établir' ou une structure similaire sans inversion. De plus, le verbe 'pouvoir' est mal conjugué ('peux' au lieu de 'peut'). L'erreur de syntaxe prime.",
+        "suggestions": [
+          "comment nous pouvons établir"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      }
+    ],
+    "erreursCritere5AvantAnalyseIA": [
+      {
+        "text": "Chers",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif doit s'accorder en genre et en nombre avec le nom qu'il qualifie. Le nom « lectorat » est masculin singulier, l'adjectif doit donc être « Cher ».",
+        "suggestions": [
+          "Cher"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "capable",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'attribut du sujet « capable » doit s'accorder en nombre avec le sujet « nous » (pluriel).",
+        "suggestions": [
+          "capables"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "prêt",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "L'attribut du sujet « prêt » doit s'accorder en nombre avec le sujet « nous » (pluriel). Il s'agit de la deuxième erreur d'accord se rapportant au même donneur « nous ».",
+        "suggestions": [
+          "prêts"
+        ],
+        "ruleApplied": "5.4.2.1"
+      },
+      {
+        "text": "tel que",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "La locution « tel que » doit s'accorder en genre et en nombre avec le nom auquel elle se rapporte, « les multiples raisons » (féminin pluriel).",
+        "suggestions": [
+          "telles que"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "chers public",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « chers » doit s'accorder en genre et en nombre avec le nom qu'il qualifie. Le nom « public » est masculin singulier.",
+        "suggestions": [
+          "cher public"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "d’au moins",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Il s'agit d'un barbarisme orthographique. La locution correcte est « du moins ».",
+        "suggestions": [
+          "du moins"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "text": "s’interresse",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage sur le verbe « intéresser » qui s'écrit avec un accent aigu et un seul « r ».",
+        "suggestions": [
+          "s'intéresse"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "text": "dechet",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Il manque l'accent aigu sur le « e » du mot « déchet ».",
+        "suggestions": [
+          "déchet"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "text": "profonde",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « profonde » doit s'accorder en nombre avec le nom qu'il qualifie, « études » (féminin pluriel).",
+        "suggestions": [
+          "profondes"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "non-negligeable",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « négligeable » doit s'accorder en nombre avec le nom qu'il qualifie, « étapes » (féminin pluriel). De plus, il manque un accent aigu. La priorité est accordée à l'erreur grammaticale.",
+        "suggestions": [
+          "non négligeables"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "Les agricultures",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot « agriculture » est généralement un nom singulier et non comptable. Le contexte suggère que l'auteur voulait parler des « agriculteurs ».",
+        "suggestions": [
+          "Les agriculteurs"
+        ],
+        "ruleApplied": "5.2.2"
+      },
+      {
+        "text": "aider",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le verbe à l'infinitif « aider » et le nom féminin « aide ». La structure correcte est « ont besoin d'aide ».",
+        "suggestions": [
+          "d'aide"
+        ],
+        "ruleApplied": "5.3.3.2"
+      },
+      {
+        "text": "financier",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "L'adjectif « financier » doit s'accorder en genre avec le nom qu'il qualifie, « aide » (féminin singulier). Le donneur d'accord est le nom « aide ».",
+        "suggestions": [
+          "financière"
+        ],
+        "ruleApplied": "5.4.2.1"
+      },
+      {
+        "text": "énèrgies",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'accent sur le premier « e » du mot « énergies » est un accent aigu et non un accent grave.",
+        "suggestions": [
+          "énergies"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "text": "cherchers",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Un verbe qui suit une préposition (ici, « pour aller ») doit être à l'infinitif. La terminaison est « -er ».",
+        "suggestions": [
+          "chercher"
+        ],
+        "ruleApplied": "5.3.2.5"
+      },
+      {
+        "text": "Radio-canada",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur de majuscule dans une dénomination. Le nom propre « Radio-Canada » requiert une majuscule à chaque composant.",
+        "suggestions": [
+          "Radio-Canada"
+        ],
+        "ruleApplied": "5.2.4.1.2"
+      },
+      {
+        "text": "financier",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « financier » doit s'accorder en genre avec le nom qu'il qualifie, « aide » (féminin singulier).",
+        "suggestions": [
+          "financière"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "informer",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif en « -er » et le participe passé en « -é ». Le participe passé employé avec l'auxiliaire « être » doit s'accorder avec le sujet « les acheteurs québécois et canadiens » (masculin pluriel).",
+        "suggestions": [
+          "informés"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "tous ce qui",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom indéfini « tout » doit être au singulier dans la locution « tout ce qui ».",
+        "suggestions": [
+          "tout ce qui"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "galveaudage",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe lexicale. Le mot attendu dans ce contexte est « gaspillage » ou, à la rigueur, « galvaudage ».",
+        "suggestions": [
+          "gaspillage",
+          "galvaudage"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "journalistique",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « journalistique » doit s'accorder en nombre avec le nom qu'il qualifie, « articles » (masculin pluriel).",
+        "suggestions": [
+          "journalistiques"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "interactive",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « interactive » doit s'accorder en nombre avec le nom qu'il qualifie, « vidéos » (féminin pluriel).",
+        "suggestions": [
+          "interactives"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "devrait",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec le sujet pluriel « Des campagnes publicitaires, des articles journalistique et des vidéos interactive ».",
+        "suggestions": [
+          "devraient"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "informer",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif en « -er » et le participe passé en « -é ». Le participe passé employé avec l'auxiliaire « être » doit s'accorder avec le sujet « je » (représenté par « moi-même », masculin singulier).",
+        "suggestions": [
+          "informé"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "peux-t-on",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur de conjugaison. Le verbe « pouvoir » avec le pronom « on » (3e personne du singulier) se conjugue « peut » et non « peux ».",
+        "suggestions": [
+          "peut-on"
+        ],
+        "ruleApplied": "5.3.2.1"
+      },
+      {
+        "text": "menerons",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur de conjugaison. Le verbe « mener » doit s'accorder avec son sujet « qui » (mis pour « des restrictions », 3e personne du pluriel). La terminaison du futur simple est « -ont ».",
+        "suggestions": [
+          "mèneront"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "prêt",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'attribut du sujet 'prêt' doit s'accorder en nombre avec le sujet 'nous' (pluriel).",
+        "suggestions": [
+          "prêts"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "chers",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'cher' doit s'accorder en genre et en nombre avec le nom 'public', qui est masculin singulier.",
+        "suggestions": [
+          "cher"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "où",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'adverbe de lieu 'où' et la conjonction de coordination 'ou' qui marque un choix.",
+        "suggestions": [
+          "ou"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "text": "affime",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Graphie erronée du verbe 'affirmer'.",
+        "suggestions": [
+          "affirme"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "agricultures",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion lexicale. Le contexte requiert le nom 'agriculteurs' (les personnes) et non 'agricultures' (la pratique).",
+        "suggestions": [
+          "agriculteurs"
+        ],
+        "ruleApplied": "5.2.2"
+      },
+      {
+        "text": "d’aider",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le verbe à l'infinitif 'aider' et le nom 'aide'. Le nom est requis ici.",
+        "suggestions": [
+          "d'aide"
+        ],
+        "ruleApplied": "5.3.3.2"
+      },
+      {
+        "text": "financier",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'financier' doit s'accorder en genre avec le nom 'aide', qui est féminin singulier.",
+        "suggestions": [
+          "financière"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "gâchi",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Graphie erronée du nom 'gâchis', qui prend un 's' final.",
+        "suggestions": [
+          "gâchis"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "menerons",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le verbe 'mener' au futur simple à la première personne du pluriel prend un accent grave sur le premier 'e'.",
+        "suggestions": [
+          "mènerons"
+        ],
+        "ruleApplied": "5.2.1.1"
+      }
+    ],
+    "analyseIADuplicatas": {
+      "critere4": {
+        "analyse": {
+          "totalErreursCritere4": 13,
+          "totalErreursCritere5": 0,
+          "duplicatasCritere4": 4,
+          "duplicatasCritere5": 0
+        },
+        "duplicatasCritere4": [
+          {
+            "groupe": 1,
+            "confiance": 90,
+            "raison": "Même erreur de ponctuation (virgule vs deux-points) identifiée par la même règle, malgré des indices d'occurrence différents.",
+            "erreurs": [
+              {
+                "index": 0,
+                "text": "suivante,",
+                "garder": true
+              },
+              {
+                "index": 7,
+                "text": ",",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 2,
+            "confiance": 100,
+            "raison": "Texte, occurrence et suggestion identiques pour la même erreur d'accord de pronom.",
+            "erreurs": [
+              {
+                "index": 2,
+                "text": "leur",
+                "garder": true
+              },
+              {
+                "index": 9,
+                "text": "leur",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 3,
+            "confiance": 95,
+            "raison": "Même erreur de redondance. Le texte de l'erreur secondaire est inclus dans celui de l'erreur principale.",
+            "erreurs": [
+              {
+                "index": 5,
+                "text": "Selon un article de Simard, il dit",
+                "garder": true
+              },
+              {
+                "index": 10,
+                "text": "il dit",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 4,
+            "confiance": 95,
+            "raison": "Même erreur de construction syntaxique (interrogative indirecte) sur un segment de phrase qui se chevauche.",
+            "erreurs": [
+              {
+                "index": 12,
+                "text": "comment peux-t-on établir",
+                "garder": true
+              },
+              {
+                "index": 6,
+                "text": "c'est comment peux-t-on",
+                "garder": false
+              }
+            ]
+          }
+        ],
+        "duplicatasCritere5": [],
+        "erreursUniquesCritere4": [
+          {
+            "index": 1,
+            "text": "où",
+            "raison": "Erreur de confusion d'homophones unique."
+          },
+          {
+            "index": 3,
+            "text": "affime",
+            "raison": "Erreur de construction d'incise et d'orthographe unique."
+          },
+          {
+            "index": 4,
+            "text": "coût",
+            "raison": "Erreur de confusion nom/verbe unique."
+          },
+          {
+            "index": 8,
+            "text": ",",
+            "raison": "Erreur de ponctuation unique (virgule entre sujet et verbe)."
+          },
+          {
+            "index": 11,
+            "text": "parvenir chacun",
+            "raison": "Erreur de ponctuation unique (virgule manquante)."
+          }
+        ],
+        "erreursUniquesCritere5": [],
+        "recommandations": {
+          "erreursAConserverCritere4": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            8,
+            11,
+            12
+          ],
+          "erreursAConserverCritere5": [],
+          "erreursASupprimer": {
+            "critere4": [
+              7,
+              9,
+              10,
+              6
+            ],
+            "critere5": []
+          }
+        }
+      },
+      "critere5": {
+        "analyse": {
+          "totalErreursCritere4": 0,
+          "totalErreursCritere5": 35,
+          "duplicatasCritere4": 0,
+          "duplicatasCritere5": 6
+        },
+        "duplicatasCritere4": [],
+        "duplicatasCritere5": [
+          {
+            "groupe": 1,
+            "confiance": 95,
+            "raison": "Même erreur d'accord sur l'adjectif 'cher' au même emplacement. L'erreur avec le plus de contexte ('chers public') est conservée.",
+            "erreurs": [
+              {
+                "index": 4,
+                "text": "chers public",
+                "garder": true
+              },
+              {
+                "index": 0,
+                "text": "Chers",
+                "garder": false
+              },
+              {
+                "index": 27,
+                "text": "chers",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 2,
+            "confiance": 100,
+            "raison": "Erreur identique (texte, occurrence, description) concernant l'accord de l'attribut 'prêt'. L'erreur avec la description la plus détaillée est conservée.",
+            "erreurs": [
+              {
+                "index": 2,
+                "text": "prêt",
+                "garder": true
+              },
+              {
+                "index": 26,
+                "text": "prêt",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 3,
+            "confiance": 95,
+            "raison": "Même erreur de confusion lexicale ('agricultures' pour 'agriculteurs') au même emplacement. L'erreur avec le plus de contexte ('Les agricultures') est conservée.",
+            "erreurs": [
+              {
+                "index": 10,
+                "text": "Les agricultures",
+                "garder": true
+              },
+              {
+                "index": 30,
+                "text": "agricultures",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 4,
+            "confiance": 95,
+            "raison": "Même erreur de confusion entre le verbe 'aider' et le nom 'aide' au même emplacement. L'erreur avec le texte le plus complet est conservée.",
+            "erreurs": [
+              {
+                "index": 31,
+                "text": "d’aider",
+                "garder": true
+              },
+              {
+                "index": 11,
+                "text": "aider",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 5,
+            "confiance": 100,
+            "raison": "Erreur identique (texte, occurrence, description) concernant l'accord de l'adjectif 'financier'. L'erreur avec la description la plus détaillée est conservée.",
+            "erreurs": [
+              {
+                "index": 12,
+                "text": "financier",
+                "garder": true
+              },
+              {
+                "index": 32,
+                "text": "financier",
+                "garder": false
+              }
+            ]
+          }
+        ],
+        "erreursUniquesCritere4": [],
+        "erreursUniquesCritere5": [
+          {
+            "index": 1,
+            "text": "capable",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 3,
+            "text": "tel que",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 5,
+            "text": "d’au moins",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 6,
+            "text": "s’interresse",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 7,
+            "text": "dechet",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 8,
+            "text": "profonde",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 9,
+            "text": "non-negligeable",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 13,
+            "text": "énèrgies",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 14,
+            "text": "cherchers",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 15,
+            "text": "Radio-canada",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 16,
+            "text": "financier",
+            "raison": "Occurrence différente (1) de l'autre erreur sur 'financier'."
+          },
+          {
+            "index": 17,
+            "text": "informer",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 18,
+            "text": "tous ce qui",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 19,
+            "text": "galveaudage",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 20,
+            "text": "journalistique",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 21,
+            "text": "interactive",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 22,
+            "text": "devrait",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 23,
+            "text": "informer",
+            "raison": "Occurrence différente (1) de l'autre erreur sur 'informer'."
+          },
+          {
+            "index": 24,
+            "text": "peux-t-on",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 25,
+            "text": "menerons",
+            "raison": "Analyse linguistique (erreur d'accord) distincte de l'autre erreur sur 'menerons'."
+          },
+          {
+            "index": 28,
+            "text": "où",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 29,
+            "text": "affime",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 33,
+            "text": "gâchi",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 34,
+            "text": "menerons",
+            "raison": "Analyse linguistique (erreur d'accent) distincte de l'autre erreur sur 'menerons'."
+          }
+        ],
+        "recommandations": {
+          "erreursAConserverCritere4": [],
+          "erreursAConserverCritere5": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            28,
+            29,
+            31,
+            33,
+            34
+          ],
+          "erreursASupprimer": {
+            "critere4": [],
+            "critere5": [
+              0,
+              11,
+              26,
+              27,
+              30,
+              32
+            ]
+          }
+        }
+      }
+    }
+  }
+}

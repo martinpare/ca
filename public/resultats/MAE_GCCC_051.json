@@ -1,0 +1,720 @@
+{
+  "processedAt": "2025-12-10T14:27:21.588Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_051.txt",
+    "originalText": "Assisterons-nous à « l'exode » du gaspillage alimentaire ?\r\n\r\nDans la société actuelle, nous le savons bien, la majorité des individus vivent pleinement chaque jour, sans forcément réfléchir aux conséquences de leurs actes sur leur environnement, que se soit en socialisant, en effectuant de l'activité physique, en faisant le ménage avec des tonnes de produits, etc. Il en est malheureusement de même lorsque nous nous alimentons. Le gaspillage alimentaire est si présent dans les habitudes de nombreuses personnes ! Celui-ci est une conséquence négative considérable qui affecte notre bel environnement au quotidien. Heureusement quecertaines ressources sont à notre portée et nous préparent à lutter contre ce genre de problème. En s'éduquant sur le sujet, en plus d'avoir recours à ces ressources, nous pouvons définitivement lutter contre le gaspillage petit à petit !\r\n\r\nEn premier lieu, nous devrions reconnaître d'être chanceux d'avoir accès à de nombreuses ressources très intéressantes qui sont présentes autour de nous dans le but de nous aider à nous débarrasser de cette mauvaise habitude : le gaspillage alimentaire. En effet, beaucoup trop de nourriture est jetée, alors qu'elle aurait pu servir à produire bien d'autres aliments ! Notre environnement déborde d'aliments mis à la poubelle qui auraient pu se retrouver dans nos assiettes à plusieurs reprises en étant tout aussi goûteux. Un bon exemple de ressources auxquelles nous avons accès sont les sites Web qui encouragent la réduction du gaspillage. À preuve, dans l'infographie «Le gaspillage alimentaire», mme Valérie Simard, journaliste de lapresse.ca, nous informe qu'il existe des sites Web, tels que Sauve ta bouffe, Chic frigo, sans fric, ou même des livres spécialisés qui nous offrent des astuces pour réduire le gaspillage à la maison comme celle de faire des croustilles avec la peau d'un poisson. Des astuces utiles, simples et gratuites : qui n'en voudrait pas, surtout si cela permettrait de vivre dans un environnement plus sain ? De plus, dans cette même infographie, Jeanne Corriveau, autre journaliste, mentionne, dans un article du Devoir : «En cinq ans, les banques alimentaires du Québec ont conclu des ententes avec plus de 425 épiceries pour récupérer les produits invendus et en faire des paniers alimentaires [...]». Non seulement ces organismes ont aidé des gens dans le besoin de se nourrir, mais ils sont parvenus à éviter le gaspillage de 6,7 millions de produits selon ce même article! Il s'agit d'une démarche exemplaire ! En bref, avec toutes ces ressources qui nous accompagnent dans cette démarche, il serait temps de s'y mettre !\r\n\r\nEn second lieu, nous pouvons parvenir à lutter contre le gaspillage alimentaire en nous éduquant sur le sujet et ainsi, en optant pour de meilleures habitudes alimentaires. Plusieurs personnes se rendent compte qu'elles gaspillent, mais elles n'agissent pas. C'est ici que l'expression «vaut mieux tard que jamais» prend tout son sens ! Voici une statistique qui devrait nous sauter aux yeux et nous permettre de comprendre que nous pouvons dès demain, réduire le gaspillage alimentaire. D'après l'article de Jeanne Corriveau, journaliste du Devoir : «Selon Florence-Léa Siry, experte en lutte contre le gaspillage alimentaire, 50% du gaspillage alimentaire pourrait être évité à la maison si les consommateurs apprenaient à mieux conserver les aliments». En tant qu'individus de la société, nous avons le pouvoir de tout changer rapidement, si cela est fait de manière collective. Voici quelques astuces utiles que Recyc-Québec nous propose : planifier les repas et faire une liste d'épicerie, acheter en quantités raisonnables, faire cuire les fruits et légumes trop mûrs, congeler les restes en portions individuelles, etc. Iln'est pas trop tard pour commencer à faire de bons choix et de bonnes actions, dans le but de conserver le plus longtemps possible notre atmosphère, notre faune et notre flore si précieuses. En bref, il faut s'éduquer sur des problèmes aussi importants qui nous touchent tous, car nous avons suffisamment de ressources pour y parvenir et avec un peu de volonté, cela est définitivement possible.\r\n\r\nPour conclure, je suis convaincue que nous sommes prêts à lutter contre le gaspillage alimentaire petit à petit, grâce aux ressources que nous avons et à la possibilité d'avoir de meilleures habitudes alimentaires facilement. Combien de temps la disparition ou ladiminution du taux de gaspillage alimentaire prendra-t-elle ?",
+    "erreursCritere4": [
+      {
+        "text": "reconnaître d'être chanceux",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction du verbe « reconnaître » est incorrecte. On ne « reconnaît pas d'être », mais on « reconnaît être » ou on « reconnaît que l'on est ». Il s'agit d'une erreur de rection verbale.",
+        "suggestions": [
+          "reconnaître que nous sommes chanceux",
+          "reconnaître être chanceux"
+        ],
+        "ruleApplied": "4.1.2.2.2"
+      },
+      {
+        "text": "!",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point d'exclamation est utilisé de manière erronée après une simple affirmation (« selon ce même article! »). Un point serait plus approprié.",
+        "suggestions": [
+          "."
+        ],
+        "ruleApplied": "4.2.2.3.2"
+      },
+      {
+        "text": "!",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point d'exclamation est utilisé à tort après une simple affirmation (« selon ce même article »). Un point final est requis.",
+        "suggestions": [
+          "."
+        ],
+        "ruleApplied": "4.2.2.3.2"
+      },
+      {
+        "text": "aliments»",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une phrase se terminant par une citation doit se conclure par un point final, placé après le guillemet fermant.",
+        "suggestions": [
+          "aliments»."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 2.5,
+      "note": "A"
+    },
+    "erreursCritere5": [
+      {
+        "text": "se",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le pronom démonstratif « ce » et le pronom réfléchi « se ». L'expression correcte est « que ce soit ».",
+        "suggestions": [
+          "ce"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "text": "quecertaines",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Les mots « que » et « certaines » ont été fusionnés à tort. Il faut les séparer.",
+        "suggestions": [
+          "que certaines"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "text": "mme",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'abréviation du titre de civilité « Madame » est « Mme », avec une majuscule initiale.",
+        "suggestions": [
+          "Mme"
+        ],
+        "ruleApplied": "5.2.6.1"
+      },
+      {
+        "text": "lapresse.ca",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Les noms propres, y compris les noms de médias, prennent une majuscule. Il s'agit ici d'une dénomination.",
+        "suggestions": [
+          "LaPresse.ca",
+          "La Presse.ca"
+        ],
+        "ruleApplied": "5.2.4.1.2"
+      },
+      {
+        "text": "Iln'est",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Les mots « Il » et « n'est » ont été fusionnés à tort. Il faut les séparer.",
+        "suggestions": [
+          "Il n'est"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "text": "ladiminution",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Les mots « la » et « diminution » ont été fusionnés à tort. Il faut les séparer.",
+        "suggestions": [
+          "la diminution"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "text": "«vaut",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Une citation formant une phrase complète doit commencer par une majuscule, même si elle est intégrée dans une autre phrase.",
+        "suggestions": [
+          "«Vaut"
+        ],
+        "ruleApplied": "5.3.6.3"
+      },
+      {
+        "text": "définitivement",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur orthographique dans l'adverbe « définitivement ».",
+        "suggestions": [
+          "définitivement"
+        ],
+        "ruleApplied": "5.2.1.3"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 8,
+      "note": "B"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:24:12.439Z",
+    "endTimestamp": "2025-12-10T14:27:21.588Z",
+    "durationMs": 189149,
+    "durationFormatted": "03:09:149",
+    "cumulParPasse": [
+      {
+        "passe": 1,
+        "erreursCritere4": [
+          {
+            "text": "reconnaître d'être chanceux",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction du verbe « reconnaître » est incorrecte. On ne « reconnaît pas d'être », mais on « reconnaît être » ou on « reconnaît que l'on est ». Il s'agit d'une erreur de rection verbale.",
+            "suggestions": [
+              "reconnaître que nous sommes chanceux",
+              "reconnaître être chanceux"
+            ],
+            "ruleApplied": "4.1.2.2.2"
+          },
+          {
+            "text": "!",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Le point d'exclamation est utilisé de manière erronée après une simple affirmation (« selon ce même article! »). Un point serait plus approprié.",
+            "suggestions": [
+              "."
+            ],
+            "ruleApplied": "4.2.2.3.2"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "se",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre le pronom démonstratif « ce » et le pronom réfléchi « se ». L'expression correcte est « que ce soit ».",
+            "suggestions": [
+              "ce"
+            ],
+            "ruleApplied": "5.3.3.1"
+          },
+          {
+            "text": "quecertaines",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Les mots « que » et « certaines » ont été fusionnés à tort. Il faut les séparer.",
+            "suggestions": [
+              "que certaines"
+            ],
+            "ruleApplied": "5.2.6.4"
+          },
+          {
+            "text": "mme",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "L'abréviation du titre de civilité « Madame » est « Mme », avec une majuscule initiale.",
+            "suggestions": [
+              "Mme"
+            ],
+            "ruleApplied": "5.2.6.1"
+          },
+          {
+            "text": "lapresse.ca",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Les noms propres, y compris les noms de médias, prennent une majuscule. Il s'agit ici d'une dénomination.",
+            "suggestions": [
+              "LaPresse.ca",
+              "La Presse.ca"
+            ],
+            "ruleApplied": "5.2.4.1.2"
+          },
+          {
+            "text": "Iln'est",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Les mots « Il » et « n'est » ont été fusionnés à tort. Il faut les séparer.",
+            "suggestions": [
+              "Il n'est"
+            ],
+            "ruleApplied": "5.2.6.4"
+          },
+          {
+            "text": "ladiminution",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Les mots « la » et « diminution » ont été fusionnés à tort. Il faut les séparer.",
+            "suggestions": [
+              "la diminution"
+            ],
+            "ruleApplied": "5.2.6.4"
+          }
+        ],
+        "totalErreursCritere4": 2,
+        "totalErreursCritere5": 6,
+        "scoreCritere4": {
+          "pointsPerdus": 1.5,
+          "note": "A"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 6,
+          "note": "B"
+        }
+      },
+      {
+        "passe": 2,
+        "erreursCritere4": [
+          {
+            "text": "reconnaître d'être chanceux",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction du verbe « reconnaître » est incorrecte. On ne « reconnaît pas d'être », mais on « reconnaît être » ou on « reconnaît que l'on est ». Il s'agit d'une erreur de rection verbale.",
+            "suggestions": [
+              "reconnaître que nous sommes chanceux",
+              "reconnaître être chanceux"
+            ],
+            "ruleApplied": "4.1.2.2.2"
+          },
+          {
+            "text": "!",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Le point d'exclamation est utilisé de manière erronée après une simple affirmation (« selon ce même article! »). Un point serait plus approprié.",
+            "suggestions": [
+              "."
+            ],
+            "ruleApplied": "4.2.2.3.2"
+          },
+          {
+            "text": "reconnaître d'être",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Construction verbale incorrecte. Le verbe « reconnaître » ne se construit pas avec la préposition « de » suivie d'un infinitif dans ce contexte. On utilise une subordonnée complétive (« reconnaître que... ») ou une construction directe (« reconnaître être »).",
+            "suggestions": [
+              "reconnaître que nous sommes",
+              "reconnaître être"
+            ],
+            "ruleApplied": "4.1.2.2.2"
+          },
+          {
+            "text": "!",
+            "occurenceIndex": 1,
+            "criteria": 4,
+            "type": "P",
+            "description": "Le point d'exclamation est utilisé à tort après une simple affirmation (« selon ce même article »). Un point final est requis.",
+            "suggestions": [
+              "."
+            ],
+            "ruleApplied": "4.2.2.3.2"
+          },
+          {
+            "text": "aliments»",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Une phrase se terminant par une citation doit se conclure par un point final, placé après le guillemet fermant.",
+            "suggestions": [
+              "aliments»."
+            ],
+            "ruleApplied": "4.2.2.1.1"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "se",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre le pronom démonstratif « ce » et le pronom réfléchi « se ». L'expression correcte est « que ce soit ».",
+            "suggestions": [
+              "ce"
+            ],
+            "ruleApplied": "5.3.3.1"
+          },
+          {
+            "text": "quecertaines",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Les mots « que » et « certaines » ont été fusionnés à tort. Il faut les séparer.",
+            "suggestions": [
+              "que certaines"
+            ],
+            "ruleApplied": "5.2.6.4"
+          },
+          {
+            "text": "mme",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "L'abréviation du titre de civilité « Madame » est « Mme », avec une majuscule initiale.",
+            "suggestions": [
+              "Mme"
+            ],
+            "ruleApplied": "5.2.6.1"
+          },
+          {
+            "text": "lapresse.ca",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Les noms propres, y compris les noms de médias, prennent une majuscule. Il s'agit ici d'une dénomination.",
+            "suggestions": [
+              "LaPresse.ca",
+              "La Presse.ca"
+            ],
+            "ruleApplied": "5.2.4.1.2"
+          },
+          {
+            "text": "Iln'est",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Les mots « Il » et « n'est » ont été fusionnés à tort. Il faut les séparer.",
+            "suggestions": [
+              "Il n'est"
+            ],
+            "ruleApplied": "5.2.6.4"
+          },
+          {
+            "text": "ladiminution",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Les mots « la » et « diminution » ont été fusionnés à tort. Il faut les séparer.",
+            "suggestions": [
+              "la diminution"
+            ],
+            "ruleApplied": "5.2.6.4"
+          },
+          {
+            "text": "«vaut",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Une citation formant une phrase complète doit commencer par une majuscule, même si elle est intégrée dans une autre phrase.",
+            "suggestions": [
+              "«Vaut"
+            ],
+            "ruleApplied": "5.3.6.3"
+          },
+          {
+            "text": "définitivement",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Erreur orthographique dans l'adverbe « définitivement ».",
+            "suggestions": [
+              "définitivement"
+            ],
+            "ruleApplied": "5.2.1.3"
+          }
+        ],
+        "totalErreursCritere4": 5,
+        "totalErreursCritere5": 8,
+        "scoreCritere4": {
+          "pointsPerdus": 3.5,
+          "note": "A"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 8,
+          "note": "B"
+        }
+      }
+    ],
+    "erreursCritere4AvantAnalyseIA": [
+      {
+        "text": "reconnaître d'être chanceux",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction du verbe « reconnaître » est incorrecte. On ne « reconnaît pas d'être », mais on « reconnaît être » ou on « reconnaît que l'on est ». Il s'agit d'une erreur de rection verbale.",
+        "suggestions": [
+          "reconnaître que nous sommes chanceux",
+          "reconnaître être chanceux"
+        ],
+        "ruleApplied": "4.1.2.2.2"
+      },
+      {
+        "text": "!",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point d'exclamation est utilisé de manière erronée après une simple affirmation (« selon ce même article! »). Un point serait plus approprié.",
+        "suggestions": [
+          "."
+        ],
+        "ruleApplied": "4.2.2.3.2"
+      },
+      {
+        "text": "reconnaître d'être",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction verbale incorrecte. Le verbe « reconnaître » ne se construit pas avec la préposition « de » suivie d'un infinitif dans ce contexte. On utilise une subordonnée complétive (« reconnaître que... ») ou une construction directe (« reconnaître être »).",
+        "suggestions": [
+          "reconnaître que nous sommes",
+          "reconnaître être"
+        ],
+        "ruleApplied": "4.1.2.2.2"
+      },
+      {
+        "text": "!",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point d'exclamation est utilisé à tort après une simple affirmation (« selon ce même article »). Un point final est requis.",
+        "suggestions": [
+          "."
+        ],
+        "ruleApplied": "4.2.2.3.2"
+      },
+      {
+        "text": "aliments»",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une phrase se terminant par une citation doit se conclure par un point final, placé après le guillemet fermant.",
+        "suggestions": [
+          "aliments»."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      }
+    ],
+    "erreursCritere5AvantAnalyseIA": [
+      {
+        "text": "se",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le pronom démonstratif « ce » et le pronom réfléchi « se ». L'expression correcte est « que ce soit ».",
+        "suggestions": [
+          "ce"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "text": "quecertaines",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Les mots « que » et « certaines » ont été fusionnés à tort. Il faut les séparer.",
+        "suggestions": [
+          "que certaines"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "text": "mme",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'abréviation du titre de civilité « Madame » est « Mme », avec une majuscule initiale.",
+        "suggestions": [
+          "Mme"
+        ],
+        "ruleApplied": "5.2.6.1"
+      },
+      {
+        "text": "lapresse.ca",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Les noms propres, y compris les noms de médias, prennent une majuscule. Il s'agit ici d'une dénomination.",
+        "suggestions": [
+          "LaPresse.ca",
+          "La Presse.ca"
+        ],
+        "ruleApplied": "5.2.4.1.2"
+      },
+      {
+        "text": "Iln'est",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Les mots « Il » et « n'est » ont été fusionnés à tort. Il faut les séparer.",
+        "suggestions": [
+          "Il n'est"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "text": "ladiminution",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Les mots « la » et « diminution » ont été fusionnés à tort. Il faut les séparer.",
+        "suggestions": [
+          "la diminution"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "text": "«vaut",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Une citation formant une phrase complète doit commencer par une majuscule, même si elle est intégrée dans une autre phrase.",
+        "suggestions": [
+          "«Vaut"
+        ],
+        "ruleApplied": "5.3.6.3"
+      },
+      {
+        "text": "définitivement",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur orthographique dans l'adverbe « définitivement ».",
+        "suggestions": [
+          "définitivement"
+        ],
+        "ruleApplied": "5.2.1.3"
+      }
+    ],
+    "analyseIADuplicatas": {
+      "critere4": {
+        "analyse": {
+          "totalErreursCritere4": 5,
+          "totalErreursCritere5": 0,
+          "duplicatasCritere4": 1,
+          "duplicatasCritere5": 0
+        },
+        "duplicatasCritere4": [
+          {
+            "groupe": 1,
+            "confiance": 95,
+            "raison": "Même erreur de rection verbale au même endroit (occurrence 0). Le texte de l'erreur 0 est plus complet et contextuel.",
+            "erreurs": [
+              {
+                "index": 0,
+                "text": "reconnaître d'être chanceux",
+                "garder": true
+              },
+              {
+                "index": 2,
+                "text": "reconnaître d'être",
+                "garder": false
+              }
+            ]
+          }
+        ],
+        "duplicatasCritere5": [],
+        "erreursUniquesCritere4": [
+          {
+            "index": 1,
+            "text": "!",
+            "raison": "Erreur de ponctuation unique à cette position (occurrence 0)."
+          },
+          {
+            "index": 3,
+            "text": "!",
+            "raison": "Erreur de ponctuation unique à cette position (occurrence 1). Non-duplicata car l'index d'occurrence est différent."
+          },
+          {
+            "index": 4,
+            "text": "aliments»",
+            "raison": "Aucun duplicata trouvé pour cette erreur de ponctuation."
+          }
+        ],
+        "erreursUniquesCritere5": [],
+        "recommandations": {
+          "erreursAConserverCritere4": [
+            0,
+            1,
+            3,
+            4
+          ],
+          "erreursAConserverCritere5": [],
+          "erreursASupprimer": {
+            "critere4": [
+              2
+            ],
+            "critere5": []
+          }
+        }
+      },
+      "critere5": {
+        "analyse": {
+          "totalErreursCritere4": 0,
+          "totalErreursCritere5": 8,
+          "duplicatasCritere4": 0,
+          "duplicatasCritere5": 0
+        },
+        "duplicatasCritere4": [],
+        "duplicatasCritere5": [],
+        "erreursUniquesCritere4": [],
+        "erreursUniquesCritere5": [
+          {
+            "index": 0,
+            "text": "se",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 1,
+            "text": "quecertaines",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 2,
+            "text": "mme",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 3,
+            "text": "lapresse.ca",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 4,
+            "text": "Iln'est",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 5,
+            "text": "ladiminution",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 6,
+            "text": "«vaut",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 7,
+            "text": "définitivement",
+            "raison": "Aucun duplicata trouvé"
+          }
+        ],
+        "recommandations": {
+          "erreursAConserverCritere4": [],
+          "erreursAConserverCritere5": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "erreursASupprimer": {
+            "critere4": [],
+            "critere5": []
+          }
+        }
+      }
+    }
+  }
+}

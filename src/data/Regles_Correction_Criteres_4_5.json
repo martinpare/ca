@@ -1,0 +1,1607 @@
+{
+  "document": {
+    "titre": "Guide de correction - Critères 4 et 5",
+    "description": "Règles de catégorisation pour l'analyse et la détection d'erreurs en langue française",
+    "version": "2.0 - Descriptions détaillées"
+  },
+  "criteres": [
+    {
+      "id": 4,
+      "nom": "Construction de phrases et ponctuation appropriées",
+      "description": "Ce critère évalue la maîtrise des structures syntaxiques et l'emploi adéquat de la ponctuation. Il sanctionne les constructions fautives, les erreurs de concordance et les maladresses dans l'usage des signes de ponctuation.",
+      "marques_correction": {
+        "S": "Erreur de syntaxe",
+        "(S)": "Erreur de syntaxe non comptabilisée (autre erreur déjà marquée dans la même phrase syntaxique)",
+        "P": "Erreur de ponctuation (compte pour une demi-erreur)",
+        "(P)": "Erreur de ponctuation non comptabilisée",
+        "« P »": "Erreur relative au discours rapporté textuel",
+        "[P]": "Modification non signalée dans un discours rapporté textuel"
+      },
+      "maximum_erreurs": 24,
+      "sections": [
+        {
+          "id": "4.1",
+          "nom": "Erreurs de syntaxe",
+          "description": "Cette section regroupe toutes les erreurs relatives à la construction des phrases, incluant l'ordre des mots, l'emploi des verbes, des pronoms et des connecteurs logiques.",
+          "sous_sections": [
+            {
+              "id": "4.1.1",
+              "nom": "Principes généraux",
+              "description": "Ces principes fondamentaux établissent le cadre d'évaluation des erreurs syntaxiques, définissant les priorités de correction et les limites de pénalisation par unité textuelle.",
+              "regles": [
+                {
+                  "id": "4.1.1.1",
+                  "nom": "Principe 1 - Une erreur par phrase syntaxique",
+                  "description": "Dans le cadre de l'évaluation syntaxique, une seule erreur est comptabilisée par proposition contenant un verbe conjugué. Les erreurs supplémentaires dans la même proposition sont signalées entre parenthèses mais non pénalisées, évitant ainsi une sanction excessive pour une même unité syntaxique.",
+                  "exemples": [
+                    {
+                      "erreur": "Étant pas consciencieux, je m'ai trompé",
+                      "correction": "N'étant pas consciencieux, je me suis trompé",
+                      "explication": "1 phrase syntaxique → 1S",
+                      "type_erreur": "S (S)"
+                    },
+                    {
+                      "erreur": "Si j'aurais su, j'aurais pas venu",
+                      "correction": "Si j'avais su, je ne serais pas venu",
+                      "explication": "2 phrases syntaxiques → 2S",
+                      "type_erreur": "S S (S)"
+                    }
+                  ]
+                },
+                {
+                  "id": "4.1.1.2",
+                  "nom": "Principe 2 - Priorité de la syntaxe sur l'orthographe",
+                  "description": "Lorsqu'un même mot ou groupe de mots présente simultanément une erreur de syntaxe et une erreur d'orthographe, seule l'erreur syntaxique est sanctionnée. Cette hiérarchisation reconnaît que la syntaxe affecte davantage la compréhension du message que l'orthographe isolée.",
+                  "exemples": [
+                    {
+                      "erreur": "Si j'aurait su [...]",
+                      "correction": "avais",
+                      "type_erreur": "S"
+                    },
+                    {
+                      "erreur": "Du a de mauvaises notes, [...]",
+                      "correction": "À cause de",
+                      "type_erreur": "S"
+                    }
+                  ],
+                  "exceptions": [
+                    {
+                      "condition": "S'il y a plus d'une erreur de syntaxe dans une phrase syntaxique",
+                      "action": "Pénaliser les erreurs d'orthographe grammaticale ou d'usage, peu importe l'ordre d'arrivée",
+                      "exemple": {
+                        "erreur": "Si les technologies serait vraiment utiles envers nous",
+                        "correction": "étaient, pour",
+                        "type_erreur": "G S"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "4.1.1.3",
+                  "nom": "Principe 3 - Ponctuation erronée causant une erreur de syntaxe",
+                  "description": "Quand un signe de ponctuation mal placé crée une rupture syntaxique apparente, l'erreur est classée en ponctuation plutôt qu'en syntaxe. Ce principe reconnaît que la cause première est typographique et non structurelle, évitant une double pénalisation injustifiée.",
+                  "exemples": [
+                    {
+                      "erreur": "Parce que je suis un « fan » du baladeur numérique. J'en aurai un partout où j'irai.",
+                      "correction": ", j'en…",
+                      "type_erreur": "P"
+                    }
+                  ]
+                },
+                {
+                  "id": "4.1.1.4",
+                  "nom": "Principe 4 - Passage nous/on/se",
+                  "description": "L'alternance entre les pronoms « nous » et « on » est tolérée dans un même texte, car elle reflète un usage courant du français contemporain. Toutefois, la confusion entre « nous » et « se » constitue une erreur syntaxique puisqu'elle implique un changement de personne grammaticale incohérent.",
+                  "exemples": [
+                    {
+                      "erreur": "Nous devons absolument se soucier de l'avenir du français.",
+                      "correction": "nous",
+                      "type_erreur": "S"
+                    }
+                  ],
+                  "tolerances": [
+                    "Accepter un adjectif possessif ou pronom possessif de la 1re personne du pluriel avec le pronom on",
+                    "Tolérer le passage du « se » au « nous » dans une phrase impersonnelle"
+                  ]
+                },
+                {
+                  "id": "4.1.1.5",
+                  "nom": "Principe 5 - Erreur répétée avec même référent",
+                  "description": "Au sein d'un même paragraphe, une erreur de référence pronominale ou déterminative n'est sanctionnée qu'une seule fois lorsqu'elle concerne le même antécédent. Cette règle évite de pénaliser excessivement une confusion systématique sur un même référent textuel.",
+                  "exemples": [
+                    {
+                      "erreur": "Plusieurs élèves prétendent que la fin du secondaire est une étape importante pour son choix de carrière. En effet, ses notes finales doivent être excellentes...",
+                      "correction": "leur, leurs",
+                      "type_erreur": "S (S)"
+                    }
+                  ]
+                },
+                {
+                  "id": "4.1.1.6",
+                  "nom": "Principe 6 - Sources",
+                  "description": "Lors de l'introduction d'une source bibliographique ou d'une référence en bas de page, un maximum de deux erreurs du critère 4 est comptabilisé. Cette limitation reconnaît la complexité typographique des citations et privilégie les erreurs syntaxiques sur les erreurs de ponctuation.",
+                  "exemples": [
+                    {
+                      "erreur": "Hiroko Akiyama grande spécialiste du vieillissement de la population, et professeure envers l'Institut de gérontologie...",
+                      "correction": "P + P = 1 erreur, S = 1 erreur",
+                      "type_erreur": "P S"
+                    }
+                  ]
+                },
+                {
+                  "id": "4.1.1.7",
+                  "nom": "Principe 7 - Influence de la langue familière ou étrangère",
+                  "description": "Les constructions syntaxiques calquées sur la langue orale familière ou sur une langue étrangère sont sanctionnées comme erreurs de syntaxe. Ce principe vise à promouvoir le registre standard écrit et à corriger les interférences linguistiques nuisant à la clarté du texte."
+                }
+              ]
+            },
+            {
+              "id": "4.1.2",
+              "nom": "Exemples d'erreurs de syntaxe",
+              "description": "Cette sous-section détaille les différentes catégories d'erreurs syntaxiques, organisées selon les constituants de la phrase affectés : structure globale, verbes, pronoms et autres éléments grammaticaux.",
+              "categories": [
+                {
+                  "id": "4.1.2.1",
+                  "nom": "La phrase et ses constituants (construction de la phrase)",
+                  "description": "Cette catégorie regroupe les erreurs affectant la structure fondamentale de la phrase : présence ou absence d'éléments essentiels, ordre des mots et cohérence sémantique de la construction syntaxique.",
+                  "regles": [
+                    {
+                      "id": "4.1.2.1.1",
+                      "nom": "Absence d'un mot ou d'un groupe de mots essentiel",
+                      "description": "Cette erreur survient lorsqu'un constituant obligatoire de la phrase est omis, rendant la structure grammaticalement incomplète. Il peut s'agir d'un sujet manquant, d'un verbe absent, d'une préposition nécessaire ou d'un élément requis par la construction verbale choisie.",
+                      "exemples": [
+                        {"erreur": "Premièrement, ⭕ le domaine médical.", "correction": "(abordons)", "type_erreur": "S"},
+                        {"erreur": "La question que je vous pose est ⭕: doit-on [...]", "correction": "(la suivante)", "type_erreur": "S"},
+                        {"erreur": "Il n'est pas facile de comprendre un problème et ⭕ le régler.", "correction": "(de)", "type_erreur": "S"},
+                        {"erreur": "⭕ La biométrie permet ⭕ de mieux protéger les citoyens?", "correction": "(Est-ce que) ou (-elle)", "type_erreur": "S"}
+                      ]
+                    },
+                    {
+                      "id": "4.1.2.1.2",
+                      "nom": "Présence d'un mot ou d'un groupe de mots superflu",
+                      "description": "Cette erreur se produit lorsqu'un élément redondant ou grammaticalement injustifié alourdit la phrase. Elle inclut les répétitions inutiles de sujets, les doubles marqueurs d'opinion et les éléments pléonastiques nuisant à la fluidité syntaxique.",
+                      "exemples": [
+                        {"erreur": "J'ai besoin de d'autres solutions.", "correction": "(de)", "type_erreur": "S"},
+                        {"erreur": "On veut-tu faire la même chose, ici, au Canada?", "correction": "(tu)", "type_erreur": "S"},
+                        {"erreur": "Selon Giorgio Ruffolo, il dit [...]", "correction": "(il dit)", "type_erreur": "S"},
+                        {"erreur": "À mon avis, je crois [...]", "correction": "(je crois)", "type_erreur": "S"},
+                        {"erreur": "Selon moi, je trouve [...]", "correction": "(je trouve)", "type_erreur": "S"}
+                      ],
+                      "tolerances": [
+                        "Pour ma part, je crois [...] → Correct",
+                        "Personnellement, je crois qu'il a raison. → Correct",
+                        "Personnellement, moi, je [...] → Correct"
+                      ]
+                    },
+                    {
+                      "id": "4.1.2.1.3",
+                      "nom": "Marques de la négation ou de la restriction mal employées",
+                      "description": "Cette erreur concerne l'emploi incorrect des adverbes de négation ou de restriction. Elle inclut l'omission du « ne » dans la négation standard, la double négation fautive et la confusion entre les structures négatives et restrictives du français écrit.",
+                      "exemples": [
+                        {"erreur": "Mais le problème est qu'on entend pas les automobiles arriver.", "correction": "n'", "type_erreur": "S"},
+                        {"erreur": "D'ailleurs, qui en n'a jamais essayé un?", "correction": "n'en a", "type_erreur": "S"},
+                        {"erreur": "Je n'ai pas eu aucun échec.", "correction": "", "type_erreur": "S"},
+                        {"erreur": "Je n'ai seulement qu'une preuve à vous donner.", "correction": "", "type_erreur": "S"}
+                      ],
+                      "tolerances": [
+                        "Accepter la présence ou l'absence du ne explétif",
+                        "Tolérer le ne explétif dans une subordonnée introduite par sans que"
+                      ]
+                    },
+                    {
+                      "id": "4.1.2.1.4",
+                      "nom": "Proposition subordonnée sans phrase matrice",
+                      "description": "Cette erreur survient lorsqu'une proposition subordonnée est présentée isolément, sans la proposition principale dont elle dépend grammaticalement. La subordonnée orpheline crée une phrase incomplète qui suspend le sens et viole les règles de subordination syntaxique.",
+                      "exemples": [
+                        {"erreur": "Premièrement, la mondialisation qui touche les enfants du tiers-monde. Les effets négatifs sont nombreux.", "correction": "Ajouter une phrase matrice", "type_erreur": "S"},
+                        {"erreur": "En deuxième lieu, parce que c'est épouvantable.", "correction": "En deuxième lieu, on doit lutter contre l'exploitation des travailleurs parce que c'est épouvantable.", "type_erreur": "S"},
+                        {"erreur": "En espérant que mes arguments vous seront utiles et profitables.", "correction": "Ajouter une phrase matrice", "type_erreur": "S"}
+                      ],
+                      "exceptions": [
+                        "Accepter l'absence de phrase matrice lorsque l'élève donne une réponse à une question",
+                        "Accepter certains pronoms démonstratifs comme phrase matrice (Ce qui m'amène...)"
+                      ]
+                    },
+                    {
+                      "id": "4.1.2.1.5",
+                      "nom": "Ordre incorrect des mots ou construction boiteuse",
+                      "description": "Cette erreur résulte d'un agencement fautif des constituants de la phrase, contrevenant aux règles de placement du français. Elle inclut l'inversion incorrecte adjectif-nom, le mauvais positionnement des pronoms et les constructions impersonnelles mal formées.",
+                      "exemples": [
+                        {"erreur": "Les polluants déchets sont toxiques", "correction": "Les déchets polluants", "type_erreur": "S"},
+                        {"erreur": "Un endroit le plus fréquenté dans Charlevoix", "correction": "parmi les plus fréquentés", "type_erreur": "S"},
+                        {"erreur": "On se demande où est-il.", "correction": "il est", "type_erreur": "S"},
+                        {"erreur": "Dites-moi-le si vous avez froid.", "correction": "Dites-le-moi", "type_erreur": "S"},
+                        {"erreur": "La Coupe du monde s'agit [...]", "correction": "Il s'agit", "type_erreur": "S"}
+                      ]
+                    },
+                    {
+                      "id": "4.1.2.1.6",
+                      "nom": "Phrase dont la construction pose un problème de sens",
+                      "description": "Cette erreur survient lorsque l'agencement syntaxique produit un sens ambigu, contradictoire ou contraire à l'intention communicative. La structure grammaticale, bien que parfois correcte formellement, génère une interprétation illogique ou incompréhensible du message.",
+                      "exemples": [
+                        {"erreur": "Je suis contre l'efficacité de l'aide humanitaire.", "correction": "Je pense que l'aide humanitaire n'est pas efficace.", "type_erreur": "S"},
+                        {"erreur": "On signale la disparition d'une grand-mère suspecte.", "correction": "On signale la disparition suspecte d'une grand-mère.", "type_erreur": "S"}
+                      ]
+                    },
+                    {
+                      "id": "4.1.2.1.7",
+                      "nom": "Construction boiteuse avec un participe, un infinitif ou un adjectif",
+                      "description": "Cette erreur se produit lorsqu'un participe, un infinitif ou un adjectif en position détachée ne se rapporte pas logiquement au sujet de la proposition principale. Cette rupture de rattachement crée une incohérence sémantique entre l'élément détaché et son référent grammatical.",
+                      "exemples": [
+                        {"erreur": "Étant stupides, je crois que les sujets d'examen ne nous aident guère.", "correction": "Les sujets d'examen étant stupides, je crois qu'ils ne nous aident guère.", "type_erreur": "S"}
+                      ],
+                      "tolerances": [
+                        "Ne pas confondre avec l'organisateur textuel (Pour conclure, pour poursuivre...)",
+                        "Accepter que le participe ou l'infinitif n'ait pas de sujet exprimé s'il est suivi d'une phrase impersonnelle"
+                      ]
+                    },
+                    {
+                      "id": "4.1.2.1.8",
+                      "nom": "Phrases ou groupes de mots juxtaposés ou coordonnés n'ayant pas la même fonction grammaticale",
+                      "description": "Cette erreur survient lorsque des éléments coordonnés ou juxtaposés n'exercent pas la même fonction syntaxique. La coordination exige un parallélisme grammatical strict : on ne peut coordonner un groupe nominal avec une subordonnée ou un adjectif avec un groupe prépositionnel.",
+                      "exemples": [
+                        {"erreur": "Elle a parlé du film et que vous aviez rendez-vous.", "correction": "de son rendez-vous avec toi.", "type_erreur": "S"},
+                        {"erreur": "Je traiterai des aspects social, humanitaire et comment s'en sortir.", "correction": "je proposerai des moyens pour s'en sortir.", "type_erreur": "S"}
+                      ]
+                    },
+                    {
+                      "id": "4.1.2.1.9",
+                      "nom": "Confusion entre des mots de classes différentes presque homophoniques",
+                      "description": "Cette erreur résulte de la substitution d'un mot par un autre de prononciation similaire mais de catégorie grammaticale différente. Ces confusions entre homophones de classes distinctes affectent la structure syntaxique en introduisant un élément incompatible avec la construction requise.",
+                      "exemples": [
+                        {"erreur": "Il serait dont nécessaire de la vendre.", "correction": "donc", "type_erreur": "S"},
+                        {"erreur": "Prenons par exemple vote cellulaire.", "correction": "votre", "type_erreur": "S"},
+                        {"erreur": "J'accompagne ma grand-mère cher le médecin.", "correction": "chez", "type_erreur": "S"},
+                        {"erreur": "Il faut faire attention à nous achats.", "correction": "nos", "type_erreur": "S"},
+                        {"erreur": "Le gras n'est pas très bénéfice pour la santé.", "correction": "bénéfique", "type_erreur": "S"}
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "4.1.2.2",
+                  "nom": "Emploi des verbes",
+                  "description": "Cette catégorie traite des erreurs liées au système verbal français : choix de l'auxiliaire, transitivité verbale, concordance des temps et harmonisation temporelle entre les phrases.",
+                  "regles": [
+                    {
+                      "id": "4.1.2.2.1",
+                      "nom": "Forme ou emploi erroné d'un auxiliaire de conjugaison dans un temps composé",
+                      "description": "Cette erreur concerne le choix incorrect entre les auxiliaires « être » et « avoir » dans les temps composés. Certains verbes intransitifs de mouvement ou de changement d'état exigent l'auxiliaire « être », tandis que les verbes pronominaux requièrent également cet auxiliaire.",
+                      "exemples": [
+                        {"erreur": "Un soir un homme avait rentré dans la maison.", "correction": "était", "type_erreur": "S"},
+                        {"erreur": "Il savait trompé encore une fois.", "correction": "s'était", "type_erreur": "S"},
+                        {"erreur": "Il s'avait trompé encore une foi", "correction": "s'était", "type_erreur": "S"},
+                        {"erreur": "Il faut que j'aie entré [...]", "correction": "je sois", "type_erreur": "S"}
+                      ]
+                    },
+                    {
+                      "id": "4.1.2.2.2",
+                      "nom": "Emploi erroné d'un verbe transitif, intransitif ou pronominal",
+                      "description": "Cette erreur survient lorsque la construction syntaxique du verbe ne respecte pas sa nature transitive, intransitive ou pronominale. Elle inclut l'ajout ou l'omission fautive de prépositions et l'emploi incorrect de la forme pronominale.",
+                      "exemples": [
+                        {"erreur": "Pour espérer de réussir [...]", "correction": "de trop", "type_erreur": "S"},
+                        {"erreur": "Il y a une loi qui interdit le piéton et le cycliste d'utiliser le baladeur numérique.", "correction": "au, au", "type_erreur": "S"},
+                        {"erreur": "Les élèves sont absentés beaucoup", "correction": "(se)", "type_erreur": "S"}
+                      ]
+                    },
+                    {
+                      "id": "4.1.2.2.3",
+                      "nom": "Emploi erroné d'un mode ou d'un temps (concordance des temps)",
+                      "description": "Cette erreur concerne le non-respect des règles de concordance temporelle au sein d'une phrase complexe. Le temps de la subordonnée doit s'accorder avec celui de la principale selon des règles précises, notamment dans les hypothétiques et les complétives.",
+                      "exemples": [
+                        {"erreur": "Il pensait que vous viendrez à une heure.", "correction": "viendriez", "type_erreur": "S"},
+                        {"erreur": "S'ils n'existeraient pas, nous ne serions pas avancés.", "correction": "existaient", "type_erreur": "S"},
+                        {"erreur": "[...] j'espère que vous soyez d'accord avec moi.", "correction": "serez", "type_erreur": "S"},
+                        {"erreur": "Dans ce texte, je vous parlerais [...]", "correction": "parlerai", "type_erreur": "S"},
+                        {"erreur": "Si nous vendions notre eau, il y aura des pénuries, on manquera d'eau et des gens mourront.", "correction": "aurait, manquerait, mourraient", "type_erreur": "S (S) (S)"}
+                      ]
+                    },
+                    {
+                      "id": "4.1.2.2.4",
+                      "nom": "Emploi erroné d'un mode ou d'un temps entre les phrases graphiques (harmonisation)",
+                      "description": "Cette erreur survient lorsque les temps verbaux ne sont pas harmonisés entre des phrases graphiques successives formant une unité logique. Un passage injustifié du conditionnel à l'indicatif ou inversement rompt la cohérence temporelle du texte.",
+                      "exemples": [
+                        {"erreur": "Si nous pouvons modifier le sexe de l'enfant, qui voudra aider les gens dans le besoin? On n'aurait plus de raison d'aider les plus démunis. Dans les familles, le problème s'aggraverait.", "correction": "aura, aggravera", "type_erreur": "S (S)"}
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "4.1.2.3",
+                  "nom": "Emploi des pronoms et des déterminants",
+                  "description": "Cette catégorie regroupe les erreurs relatives au choix et à l'emploi des pronoms et déterminants, notamment la correspondance avec leur antécédent et leur fonction syntaxique dans la phrase.",
+                  "regles": [
+                    {
+                      "id": "4.1.2.3.1",
+                      "nom": "Emploi erroné d'un pronom d'après sa fonction syntaxique",
+                      "description": "Cette erreur survient lorsque le pronom utilisé ne correspond pas à la fonction grammaticale requise par le verbe ou la préposition. La confusion entre pronoms relatifs, pronoms compléments directs et indirects est particulièrement fréquente.",
+                      "exemples": [
+                        {"erreur": "Le spectacle que je te parle sera présenté demain.", "correction": "dont", "type_erreur": "S"},
+                        {"erreur": "Tout ce qui leur intéresse est leur ordinateur.", "correction": "les", "type_erreur": "S"},
+                        {"erreur": "Je l'ai téléphoné hier soir.", "correction": "lui", "type_erreur": "S"},
+                        {"erreur": "[...] donner un sourire à ceux qu'ils en ont besoin.", "correction": "qui", "type_erreur": "S"},
+                        {"erreur": "Faites ce qui faut.", "correction": "qu'il", "type_erreur": "S"}
+                      ]
+                    },
+                    {
+                      "id": "4.1.2.3.2",
+                      "nom": "Emploi erroné d'un déterminant référent ou d'un pronom selon les caractéristiques de son antécédent",
+                      "description": "Cette erreur concerne l'inadéquation entre un pronom ou déterminant de reprise et les caractéristiques de son antécédent, notamment en termes de personne grammaticale. Elle exclut les erreurs de genre et de nombre, traitées au critère 5.",
+                      "exemples": [
+                        {"erreur": "Plusieurs élèves prétendent que la fin du secondaire est une étape importante pour son choix de carrière.", "correction": "leur", "type_erreur": "S"},
+                        {"erreur": "[...] nous serons capables de s'en servir.", "correction": "nous", "type_erreur": "S"}
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "4.1.2.4",
+                  "nom": "Autres éléments syntaxiques",
+                  "description": "Cette catégorie englobe les erreurs touchant les prépositions, les coordonnants, les subordonnants et les adverbes, ainsi que les calques de structures orales ou étrangères.",
+                  "regles": [
+                    {
+                      "id": "4.1.2.4.1",
+                      "nom": "Emploi erroné d'une préposition simple ou complexe",
+                      "description": "Cette erreur survient lorsque la préposition choisie ne convient pas au contexte syntaxique ou sémantique. Elle inclut les confusions entre prépositions de sens proche, les anglicismes prépositionnels et les emplois non conformes à la norme écrite standard.",
+                      "exemples": [
+                        {"erreur": "Un homme attend sur un feu rouge.", "correction": "à", "type_erreur": "S"},
+                        {"erreur": "[...] donne des informations dans une fraction de seconde.", "correction": "en", "type_erreur": "S"},
+                        {"erreur": "Je suis en accord avec l'usage qu'on fait de l'ordinateur.", "correction": "d'accord", "type_erreur": "S"},
+                        {"erreur": "La biométrie, tant qu'à elle, suscite beaucoup de question", "correction": "quant à", "type_erreur": "S"},
+                        {"erreur": "Il y a plein des nouveaux vêtements.", "correction": "de", "type_erreur": "S"}
+                      ]
+                    },
+                    {
+                      "id": "4.1.2.4.2",
+                      "nom": "Emploi erroné d'un coordonnant ou d'un subordonnant",
+                      "description": "Cette erreur concerne l'utilisation incorrecte des mots de liaison logique, qu'il s'agisse de conjonctions de coordination ou de subordination. Elle inclut les formes fautives et les emplois inappropriés de ces connecteurs syntaxiques.",
+                      "exemples": [
+                        {"erreur": "[...] les accepter comme qu'ils sont.", "correction": "comme ils", "type_erreur": "S"},
+                        {"erreur": "Je suis arrivé en retard à cause que j'ai raté l'autobus.", "correction": "parce que", "type_erreur": "S"},
+                        {"erreur": "Quand qu'on y réfléchit bien [...]", "correction": "quand on", "type_erreur": "S"}
+                      ]
+                    },
+                    {
+                      "id": "4.1.2.4.3",
+                      "nom": "Emploi erroné d'un adverbe de forme simple ou complexe",
+                      "description": "Cette erreur survient lorsque la forme ou l'emploi d'un adverbe ne respecte pas les normes du français écrit standard. Elle inclut les constructions comparatives fautives et les emplois familiers inappropriés dans un registre soutenu.",
+                      "exemples": [
+                        {"erreur": "[...] nous rendre la tâche la plus facile que possible.", "correction": "la plus facile possible", "type_erreur": "S"},
+                        {"erreur": "Ils pensent tous pareil.", "correction": "ainsi", "type_erreur": "S"}
+                      ]
+                    },
+                    {
+                      "id": "4.1.2.4.4",
+                      "nom": "Erreur de syntaxe attribuable à un calque de l'oral ou d'une langue étrangère",
+                      "description": "Cette erreur résulte de la transposition directe de structures propres à la langue parlée familière ou à une autre langue dans le français écrit. Ces calques introduisent des constructions non conformes à la syntaxe normative du français standard.",
+                      "exemples": [
+                        {"erreur": "Ce n'est pas pareil que d'avoir un ordinateur.", "correction": "comme", "type_erreur": "S"},
+                        {"erreur": "Je l'ai rencontré, même qu'il m'a autographié son livre.", "correction": "il m'a même", "type_erreur": "S"},
+                        {"erreur": "Ça fait qu'on doit cesser de surconsommer.", "correction": "Donc", "type_erreur": "S"},
+                        {"erreur": "Il a retrouvé son ami et il est parti avec.", "correction": "avec lui", "type_erreur": "S"}
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4.2",
+          "nom": "Erreurs de ponctuation",
+          "description": "Cette section traite de l'ensemble des erreurs liées à l'emploi des signes de ponctuation, depuis les signes de fin de phrase jusqu'aux virgules et guillemets.",
+          "sous_sections": [
+            {
+              "id": "4.2.1",
+              "nom": "Principes généraux",
+              "description": "Ces principes établissent les règles fondamentales d'évaluation des erreurs de ponctuation, incluant leur valeur, les cas de signes appariés et les limites de pénalisation.",
+              "regles": [
+                {
+                  "id": "4.2.1.1",
+                  "nom": "Valeur d'une erreur de ponctuation",
+                  "description": "Chaque erreur de ponctuation compte pour une demi-erreur dans l'évaluation globale. Ce barème reconnaît que les maladresses de ponctuation, bien que nuisant à la lisibilité, affectent généralement moins la compréhension que les erreurs syntaxiques à proprement parler."
+                },
+                {
+                  "id": "4.2.1.2",
+                  "nom": "Signes en paire",
+                  "description": "Les signes de ponctuation fonctionnant par paires (guillemets ouvrants et fermants, parenthèses, tirets d'incise, virgules encadrantes) sont comptabilisés comme une seule erreur lorsqu'ils sont tous deux absents ou mal employés, évitant une double pénalisation.",
+                  "exemples": [
+                    {"erreur": "L'argent ne règle pas tous les problèmes disait M. Lagacé il en est la cause.", "correction": "(,) et (,)", "type_erreur": "P (P)"}
+                  ]
+                },
+                {
+                  "id": "4.2.1.3",
+                  "nom": "Sources",
+                  "description": "Lors de l'introduction d'une référence bibliographique, un maximum de deux erreurs du critère 4 est comptabilisé. Les erreurs syntaxiques sont prioritaires sur les erreurs de ponctuation dans ce contexte particulier où la complexité typographique est accrue."
+                },
+                {
+                  "id": "4.2.1.4",
+                  "nom": "Discours rapporté",
+                  "description": "Les modifications de ponctuation dans un discours rapporté textuel ne sont pas pénalisées si elles ne créent ni erreur grammaticale ni altération du sens. Cette tolérance reconnaît la flexibilité légitime dans l'intégration des citations au fil du texte."
+                },
+                {
+                  "id": "4.2.1.5",
+                  "nom": "Signe en début de ligne",
+                  "description": "Un signe de ponctuation placé au début d'une ligne plutôt qu'à la fin de la ligne précédente constitue une erreur pénalisée à chaque occurrence. Cette règle vise à maintenir les conventions typographiques standard du français."
+                },
+                {
+                  "id": "4.2.1.6",
+                  "nom": "Binettes (émoticônes)",
+                  "description": "L'utilisation de binettes ou émoticônes dans un texte formel constitue une erreur de ponctuation. L'ensemble des binettes présentes dans un texte est sanctionné globalement par une seule erreur de ponctuation pour l'ensemble du texte.",
+                  "exemples": [
+                    {"erreur": "C'est bien! ;-)", "correction": "1P par texte pour l'ensemble des binettes", "type_erreur": "P"}
+                  ]
+                },
+                {
+                  "id": "4.2.1.7",
+                  "nom": "Combinaisons de signes dans les titres",
+                  "description": "Dans les titres et intertitres uniquement, certaines combinaisons expressives de signes de ponctuation sont acceptées pour leur valeur stylistique. Ces combinaisons ne sont toutefois pas admises dans le corps du texte.",
+                  "combinaisons_acceptees": ["...?", "...!", "!!", "!!!", "??", "???", "?!", "!?", "…!", "!..."]
+                },
+                {
+                  "id": "4.2.1.8",
+                  "nom": "Cumul de signes",
+                  "description": "L'accumulation de signes de ponctuation dans le corps du texte est sanctionnée comme erreur, sauf dans les séquences dialogales où elle peut traduire l'expressivité orale. Cette règle maintient la sobriété typographique du texte argumentatif.",
+                  "exemples": [
+                    {"erreur": "Quelle horreur !?!", "correction": "!", "type_erreur": "P"}
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "4.2.2",
+              "nom": "Types d'erreurs de ponctuation",
+              "description": "Cette sous-section détaille les règles d'emploi de chaque signe de ponctuation, précisant les cas d'absence fautive et de présence erronée pour chacun.",
+              "categories": [
+                {
+                  "id": "4.2.2.1",
+                  "nom": "Le point",
+                  "description": "Le point marque la fin d'une phrase déclarative ou impérative. Son emploi obéit à des règles précises concernant sa position en fin de phrase et son absence dans certains contextes comme les titres.",
+                  "regles": [
+                    {
+                      "id": "4.2.2.1.1",
+                      "nom": "Absence du point",
+                      "description": "Le point est obligatoire à la fin de toute phrase déclarative ou impérative, ainsi que dans les renvois en bas de page. Son omission crée une rupture dans la segmentation du texte et nuit à la lisibilité de l'ensemble.",
+                      "exemples": [
+                        {"erreur": "Les amis, c'est pour la vie⭕", "correction": ".", "type_erreur": "P"}
+                      ]
+                    },
+                    {
+                      "id": "4.2.2.1.2",
+                      "nom": "Présence erronée du point",
+                      "description": "Le point est fautif lorsqu'il segmente une phrase en créant une rupture syntaxique injustifiée, ou lorsqu'il figure à la fin d'un titre. Ces emplois erronés fragmentent inutilement le texte ou contreviennent aux conventions typographiques.",
+                      "exemples": [
+                        {"erreur": "Quand je réfléchis à ces jeux. Je ne peux que me demander [...]", "correction": ", je", "type_erreur": "P"},
+                        {"erreur": "Les droits des animaux.", "correction": "Ø", "type_erreur": "P"}
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "4.2.2.2",
+                  "nom": "Le point d'interrogation",
+                  "description": "Le point d'interrogation clôt les phrases interrogatives directes. Il ne s'emploie pas après les interrogations indirectes, qui relèvent de la modalité déclarative.",
+                  "regles": [
+                    {
+                      "id": "4.2.2.2.1",
+                      "nom": "Absence du point d'interrogation",
+                      "description": "Le point d'interrogation est obligatoire après toute phrase interrogative directe, qu'elle soit totale ou partielle. Son absence prive la phrase de sa modalité interrogative et peut créer une ambiguïté quant à l'intention communicative.",
+                      "exemples": [
+                        {"erreur": "Que peut-on demander de plus.", "correction": "?", "type_erreur": "P"}
+                      ]
+                    },
+                    {
+                      "id": "4.2.2.2.2",
+                      "nom": "Présence erronée du point d'interrogation",
+                      "description": "Le point d'interrogation est fautif après une phrase interrogative indirecte, celle-ci étant enchâssée dans une structure déclarative. L'interrogation indirecte se termine par un point simple, la question étant rapportée et non posée directement.",
+                      "exemples": [
+                        {"erreur": "Je me demande si les grands événements sportifs contribuent à améliorer le monde dans lequel nous vivons?", "correction": ".", "type_erreur": "P"}
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "4.2.2.3",
+                  "nom": "Le point d'exclamation",
+                  "description": "Le point d'exclamation marque l'expression d'une émotion vive ou accompagne les interjections. Son emploi doit se limiter aux contextes véritablement exclamatifs.",
+                  "regles": [
+                    {
+                      "id": "4.2.2.3.1",
+                      "nom": "Absence du point d'exclamation",
+                      "description": "Le point d'exclamation est requis après une phrase exclamative exprimant une émotion intense ou après une interjection. Son absence atténue la force expressive du propos et peut modifier la perception du ton voulu par l'auteur.",
+                      "exemples": [
+                        {"erreur": "Que de beaux moments j'ai vécus au secondaire.", "correction": "!", "type_erreur": "P"},
+                        {"erreur": "La langue française disparaîtra un jour. Hélas.", "correction": "!", "type_erreur": "P"}
+                      ]
+                    },
+                    {
+                      "id": "4.2.2.3.2",
+                      "nom": "Présence erronée du point d'exclamation",
+                      "description": "Le point d'exclamation est inapproprié après une simple affirmation dépourvue de charge émotive. Son emploi abusif dans un texte argumentatif nuit au registre soutenu attendu et peut être perçu comme une emphase injustifiée.",
+                      "exemples": [
+                        {"erreur": "Je présenterai deux aspects!", "correction": ".", "type_erreur": "P"}
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "4.2.2.4",
+                  "nom": "Les points de suspension",
+                  "description": "Les points de suspension indiquent une pensée inachevée, une hésitation ou une interruption volontaire du discours. Leur emploi doit correspondre à une intention communicative précise.",
+                  "regles": [
+                    {
+                      "id": "4.2.2.4.1",
+                      "nom": "Absence des points de suspension",
+                      "description": "Les points de suspension sont nécessaires lorsque l'expression de la pensée reste volontairement incomplète, suggérant une suite implicite ou une réticence. Leur absence dans ce contexte prive le lecteur de cet effet stylistique recherché.",
+                      "exemples": [
+                        {"erreur": "C'est bon pour les professeurs, mais pour les élèves.", "correction": "…", "type_erreur": "P"}
+                      ]
+                    },
+                    {
+                      "id": "4.2.2.4.2",
+                      "nom": "Présence erronée des points de suspension",
+                      "description": "Les points de suspension sont fautifs lorsqu'ils n'indiquent pas une pensée incomplète ou interrompue. Leur emploi injustifié crée une impression d'inachèvement artificiel ou de flou inapproprié dans un texte qui devrait être précis.",
+                      "exemples": [
+                        {"erreur": "Je vous réponds ceci… Je ne perçois pas la nocivité du baladeur.", "correction": ": je", "type_erreur": "P"}
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "4.2.2.5",
+                  "nom": "Les guillemets",
+                  "description": "Les guillemets encadrent les discours rapportés textuellement, les mots étrangers et certains emplois particuliers. Leur usage obéit à des conventions précises dans le contexte de la citation.",
+                  "regles": [
+                    {
+                      "id": "4.2.2.5.1",
+                      "nom": "Absence de guillemets",
+                      "description": "Les guillemets sont obligatoires pour encadrer un discours rapporté textuellement ou un mot étranger non intégré au français courant. Leur absence peut créer une confusion entre les propos de l'auteur et ceux qu'il cite.",
+                      "exemples": [
+                        {"erreur": "Déjà, les TIC consomment autant d'énergie que l'ensemble de la circulation aérienne, souligne Brigitte Jaumard.", "correction": "(«)(»)", "type_erreur": "P"}
+                      ]
+                    },
+                    {
+                      "id": "4.2.2.5.2",
+                      "nom": "Présence erronée de guillemets",
+                      "description": "Les guillemets sont inappropriés pour une reformulation ou une interrogation indirecte, puisque ces constructions ne reproduisent pas textuellement les propos d'autrui. Leur présence suggère faussement une citation littérale.",
+                      "exemples": [
+                        {"erreur": "Le professeur a demandé « si nous avions fait notre devoir. »", "correction": "(Ø)(Ø)", "type_erreur": "P (P)"}
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "4.2.2.6",
+                  "nom": "Les points de suspension entre crochets",
+                  "description": "Les crochets servent à signaler les interventions du citateur dans un discours rapporté textuel : omissions marquées par [...] et modifications ou ajouts signalés par des crochets simples.",
+                  "regles": [
+                    {
+                      "id": "4.2.2.6.1",
+                      "nom": "Omission non signalée",
+                      "description": "Toute omission dans un discours rapporté textuel doit être signalée par des points de suspension entre crochets [...] ou entre parenthèses (...). Cette convention typographique avertit le lecteur que la citation a été tronquée par rapport à l'original.",
+                      "type_erreur": "P"
+                    },
+                    {
+                      "id": "[P]",
+                      "nom": "Modification non signalée",
+                      "description": "Toute modification ou ajout de mots dans un discours rapporté textuel doit être signalé par des crochets. Cette marque distingue les interventions du citateur du texte original et préserve l'intégrité de la citation.",
+                      "type_erreur": "[P]"
+                    }
+                  ]
+                },
+                {
+                  "id": "4.2.2.7",
+                  "nom": "Les deux-points",
+                  "description": "Les deux-points introduisent une énumération, un discours direct, une explication, une définition ou une relation de cause à conséquence. Ils établissent un lien logique fort entre deux segments.",
+                  "regles": [
+                    {
+                      "id": "4.2.2.7.1",
+                      "nom": "Absence des deux-points",
+                      "description": "Les deux-points sont requis pour annoncer une énumération, introduire un discours rapporté direct, présenter une explication, une définition, une cause ou une conséquence. Leur absence rompt le lien logique explicite entre l'annonce et son développement.",
+                      "exemples": [
+                        {"erreur": "Les conditions d'admission sont les suivantes⭕ diplôme universitaire, bonne maîtrise de la langue, trois années d'expérience.", "correction": "(:)", "type_erreur": "P"},
+                        {"erreur": "Je me pose la question suivante⭕ Les personnes âgées [...]", "correction": "(: les)", "type_erreur": "P"}
+                      ]
+                    },
+                    {
+                      "id": "4.2.2.7.2",
+                      "nom": "Présence erronée des deux-points",
+                      "description": "Les deux-points sont fautifs lorsqu'ils ne correspondent pas à l'une de leurs fonctions légitimes ou lorsqu'ils séparent des éléments syntaxiquement liés. Ils ne peuvent notamment pas séparer un verbe de son complément direct.",
+                      "exemples": [
+                        {"erreur": "Tous autant que nous sommes(:) nous avons une expérience à souligner.", "correction": "(,)", "type_erreur": "P"},
+                        {"erreur": "Le comité formé par(:) le directeur, l'adjoint...", "correction": "(Ø)", "type_erreur": "P"}
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "4.2.2.8",
+                  "nom": "Le point-virgule",
+                  "description": "Le point-virgule sépare des phrases syntaxiquement autonomes mais sémantiquement liées. Il marque une pause plus forte que la virgule mais maintient la continuité thématique.",
+                  "regles": [
+                    {
+                      "id": "4.2.2.8.1",
+                      "nom": "Absence du point-virgule",
+                      "description": "Le point-virgule est approprié entre deux phrases syntaxiquement complètes mais étroitement liées par le sens, notamment dans les parallélismes ou les contrastes. Son absence, remplacée par une virgule, crée une ponctuation trop faible entre propositions indépendantes.",
+                      "exemples": [
+                        {"erreur": "Pierre et Michel travaillent souvent ensemble à la bibliothèque de l'école(,) Jean, lui, préfère travailler seul à la maison.", "correction": "(;) ou (.)", "type_erreur": "P"}
+                      ]
+                    },
+                    {
+                      "id": "4.2.2.8.2",
+                      "nom": "Présence erronée du point-virgule",
+                      "description": "Le point-virgule est inapproprié lorsqu'il sépare des éléments qui devraient rester syntaxiquement unis ou lorsque la relation entre les segments ne justifie pas cette pause intermédiaire. Il ne peut remplacer la virgule dans une énumération simple.",
+                      "exemples": [
+                        {"erreur": "L'une des étapes les plus importantes que nous devons franchir avec fierté(;) c'est notre cours secondaire.", "correction": "(,)", "type_erreur": "P"}
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "4.2.2.9",
+                  "nom": "Les parenthèses et les tirets",
+                  "description": "Les parenthèses et les tirets d'incise encadrent des éléments explicatifs ou des précisions détachées du fil principal du discours. Ils signalent une rupture dans la continuité syntaxique.",
+                  "regles": [
+                    {
+                      "id": "4.2.2.9.1",
+                      "nom": "Absence de parenthèses ou tirets",
+                      "description": "Les parenthèses ou tirets sont nécessaires pour isoler un élément incident apportant une explication ou une précision accessoire. Leur absence laisse ces éléments mal délimités, créant une confusion dans la structure de la phrase.",
+                      "exemples": [
+                        {"erreur": "« Mais qu'est-ce que c'est que ça? » ⭕ c'était son expression favorite ⭕, répétait-il sans arrêt.", "correction": "( ) ou (- -)", "type_erreur": "P (P)"}
+                      ]
+                    },
+                    {
+                      "id": "4.2.2.9.2",
+                      "nom": "Présence erronée de parenthèses",
+                      "description": "Les parenthèses sont inappropriées lorsqu'elles encadrent des éléments qui devraient être intégrés à la phrase par d'autres moyens ou lorsqu'elles fragmentent inutilement le propos. Elles ne doivent pas se substituer aux deux-points pour introduire une explication.",
+                      "exemples": [
+                        {"erreur": "Voici un exemple [(] le professeur n'est plus là pour te dire d'arrêter de te plaindre [)]", "correction": "[:] et [Ø]", "type_erreur": "P P (P)"}
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "4.2.2.10",
+                  "nom": "La virgule",
+                  "description": "La virgule est le signe de ponctuation le plus polyvalent, servant à juxtaposer, détacher, coordonner ou marquer l'effacement d'un élément. Son emploi obéit à des règles précises.",
+                  "sous_categories": [
+                    {
+                      "id": "4.2.2.10.1",
+                      "nom": "Absence de virgule",
+                      "description": "Cette catégorie regroupe les cas où la virgule est obligatoire pour assurer la lisibilité et la correction grammaticale de la phrase.",
+                      "types": [
+                        {
+                          "id": "4.2.2.10.1.1",
+                          "nom": "Pour marquer la juxtaposition",
+                          "description": "La virgule de juxtaposition sépare des éléments de même fonction grammaticale placés côte à côte sans coordonnant. Elle structure les énumérations et les accumulations.",
+                          "regles": [
+                            {
+                              "id": "4.2.2.10.1.1a",
+                              "nom": "Séparer des mots ou groupes de mots énumérés",
+                              "description": "La virgule est obligatoire entre les éléments d'une énumération, sauf avant le dernier élément généralement introduit par une conjonction de coordination. Son absence crée une lecture confuse de la série d'éléments juxtaposés.",
+                              "exemples": [{"erreur": "Je traiterai des aspects social⭕ personnel et professionnel", "correction": "(,)", "type_erreur": "P"}]
+                            },
+                            {
+                              "id": "4.2.2.10.1.1b",
+                              "nom": "Séparer des compléments de phrase en tête de phrase",
+                              "description": "Lorsque plusieurs compléments circonstanciels se succèdent en début de phrase, ils doivent être séparés par des virgules. Cette ponctuation facilite la lecture en délimitant clairement chaque complément antéposé.",
+                              "exemples": [{"erreur": "De nos jours⭕ au Québec⭕ on parle beaucoup de gestion des déchets.", "correction": "(,)(,)", "type_erreur": "P P"}]
+                            },
+                            {
+                              "id": "4.2.2.10.1.1c",
+                              "nom": "Séparer des phrases syntaxiques de même nature",
+                              "description": "La virgule sépare des propositions parallèles formant une structure corrélative ou répétitive. Elle marque le rythme et souligne le parallélisme des constructions dans les phrases à structure symétrique.",
+                              "exemples": [{"erreur": "Plus on monte⭕ plus c'est difficile.", "correction": "(,)", "type_erreur": "P"}]
+                            },
+                            {
+                              "id": "4.2.2.10.1.1d",
+                              "nom": "Séparer des répétitions",
+                              "description": "La virgule est requise entre les occurrences d'un mot ou groupe de mots répété pour produire un effet d'insistance. Cette ponctuation distingue la répétition volontaire de la simple accumulation.",
+                              "exemples": [{"erreur": "C'est un examen facile⭕ facile.", "correction": "(,)", "type_erreur": "P"}]
+                            },
+                            {
+                              "id": "4.2.2.10.1.1e",
+                              "nom": "Après les mots-phrases oui, non, si, bien sûr",
+                              "description": "Les mots-phrases affirmatifs ou négatifs placés en début d'énoncé sont suivis d'une virgule qui les détache du reste de la phrase. Cette ponctuation marque la valeur autonome de ces termes réponses.",
+                              "exemples": [{"erreur": "Oui⭕ je crois que la beauté est d'abord intérieure.", "correction": "(,)", "type_erreur": "P"}]
+                            }
+                          ]
+                        },
+                        {
+                          "id": "4.2.2.10.1.2",
+                          "nom": "Pour marquer le détachement",
+                          "description": "La virgule de détachement isole un élément syntaxiquement ou sémantiquement distinct du reste de la phrase, signalant au lecteur une rupture ou une insertion dans le fil du discours.",
+                          "regles": [
+                            {
+                              "id": "4.2.2.10.1.2a",
+                              "nom": "Isoler la phrase incise",
+                              "description": "La phrase incise, contenant le verbe introducteur d'un discours rapporté, doit être encadrée de virgules ou précédée d'une virgule. Cette ponctuation distingue le commentaire du narrateur des propos rapportés.",
+                              "exemples": [{"erreur": "« Qui s'instruit s'enrichit »⭕ dit le proverbe.", "correction": "(,)", "type_erreur": "P"}]
+                            },
+                            {
+                              "id": "4.2.2.10.1.2b",
+                              "nom": "Isoler la phrase incidente",
+                              "description": "La phrase incidente, exprimant une opinion, un commentaire ou un sentiment de l'énonciateur, doit être encadrée de virgules. Cette ponctuation signale l'insertion d'un métadiscours dans le fil du propos principal.",
+                              "exemples": [{"erreur": "Cela est important⭕ tout le monde le sait⭕ de ne pas se tromper.", "correction": "(,)(,)", "type_erreur": "P (P)"}]
+                            },
+                            {
+                              "id": "4.2.2.10.1.2c",
+                              "nom": "Isoler une apostrophe",
+                              "description": "L'apostrophe, terme désignant directement le destinataire du message, doit être encadrée de virgules. Cette ponctuation marque l'adresse au lecteur ou à l'interlocuteur comme un élément détaché du reste de la phrase.",
+                              "exemples": [{"erreur": "Je démontrerai⭕ chers lecteurs⭕ le bien-fondé de ma position", "correction": "(,)(,)", "type_erreur": "P (P)"}]
+                            },
+                            {
+                              "id": "4.2.2.10.1.2d",
+                              "nom": "Isoler le complément du nom (apposition)",
+                              "description": "L'apposition, groupe nominal ou adjectival apportant une précision sur un nom, doit être encadrée de virgules lorsqu'elle est explicative. Cette ponctuation distingue l'information additionnelle du reste du groupe nominal.",
+                              "exemples": [{"erreur": "Tous les jeunes du secondaire⭕ garçons et filles⭕ se préparent à quitter l'école.", "correction": "(,)(,)", "type_erreur": "P (P)"}]
+                            },
+                            {
+                              "id": "4.2.2.10.1.2e",
+                              "nom": "Isoler le pronom de reprise",
+                              "description": "Le pronom personnel tonique placé en tête de phrase pour mettre en évidence le sujet doit être suivi d'une virgule. Cette ponctuation marque le détachement thématique et souligne l'emphase sur le sujet.",
+                              "exemples": [{"erreur": "Moi⭕ je crois que [...]", "correction": "(,)", "type_erreur": "P"}]
+                            },
+                            {
+                              "id": "4.2.2.10.1.2f",
+                              "nom": "Isoler un organisateur textuel ou marqueur de relation en tête de phrase",
+                              "description": "Les organisateurs textuels et marqueurs de relation placés en début de phrase doivent être suivis d'une virgule. Cette ponctuation distingue ces connecteurs logiques du contenu propositionnel qu'ils introduisent.",
+                              "exemples": [{"erreur": "En second lieu⭕ abordons la question économique.", "correction": "(,)", "type_erreur": "P"}]
+                            },
+                            {
+                              "id": "4.2.2.10.1.2g",
+                              "nom": "Isoler un complément de phrase de plus de trois mots en tête de phrase",
+                              "description": "Un complément circonstanciel déplacé en tête de phrase et comportant plus de trois mots doit être suivi d'une virgule. Cette ponctuation facilite la lecture en signalant clairement la frontière avec le reste de la phrase.",
+                              "exemples": [{"erreur": "Depuis un bon nombre d'années⭕ la situation empire.", "correction": "(,)", "type_erreur": "P"}]
+                            },
+                            {
+                              "id": "4.2.2.10.1.2h",
+                              "nom": "Isoler une subordonnée circonstancielle en tête de phrase",
+                              "description": "Une proposition subordonnée circonstancielle antéposée doit être suivie d'une virgule qui la sépare de la principale. Cette ponctuation marque la hiérarchie syntaxique et facilite l'identification de la structure de la phrase.",
+                              "exemples": [{"erreur": "Si l'utilisation du baladeur numérique est contrôlée⭕ il est inutile de s'en faire.", "correction": "(,)", "type_erreur": "P"}]
+                            },
+                            {
+                              "id": "4.2.2.10.1.2i",
+                              "nom": "Isoler un groupe incident ou un adverbe de modalité en tête de phrase",
+                              "description": "Les groupes incidents et adverbes modaux placés en début de phrase doivent être suivis d'une virgule. Cette ponctuation isole le point de vue de l'énonciateur du contenu objectif de la phrase.",
+                              "exemples": [{"erreur": "À mon avis⭕ il serait bien de vendre notre eau aux pays pauvres.", "correction": "(,)", "type_erreur": "P"}]
+                            },
+                            {
+                              "id": "4.2.2.10.1.2j",
+                              "nom": "Isoler une suite d'éléments détachables en tête de phrase",
+                              "description": "Lorsque plusieurs éléments détachables se succèdent en début de phrase, chacun doit être suivi d'une virgule. Cette ponctuation multiple structure les différentes couches d'information préliminaire.",
+                              "exemples": [{"erreur": "Premièrement⭕ selon les experts dans⭕ un avenir très proche⭕ il sera plus facile de détecter les terroristes.", "correction": "(,)(,)(,)", "type_erreur": "P P P"}]
+                            }
+                          ]
+                        },
+                        {
+                          "id": "4.2.2.10.1.3",
+                          "nom": "Pour marquer la coordination",
+                          "description": "La virgule de coordination accompagne certains coordonnants et adverbes de liaison, ou intervient dans les coordinations multiples pour structurer l'enchaînement logique.",
+                          "regles": [
+                            {
+                              "id": "4.2.2.10.1.3a",
+                              "nom": "Devant coordonnants ou adverbes (ainsi, alors, aussi, cependant, donc, or, pourtant, toutefois, etc.)",
+                              "description": "Une virgule précède les adverbes de liaison et certaines conjonctions de coordination lorsqu'ils relient deux propositions. Cette ponctuation marque la frontière entre les deux segments tout en signalant leur relation logique.",
+                              "exemples": [{"erreur": "La mondialisation est bénéfique⭕ toutefois elle comporte des risques", "correction": "(,)", "type_erreur": "P"}]
+                            },
+                            {
+                              "id": "4.2.2.10.1.3b",
+                              "nom": "Devant locutions introduisant une précision (à savoir, entre autres, notamment, par exemple, soit, voire)",
+                              "description": "Les locutions introduisant une précision, une exemplification ou une reformulation sont précédées d'une virgule. Cette ponctuation annonce le caractère explicatif ou illustratif du segment qui suit.",
+                              "exemples": [{"erreur": "Le français est parlé dans de nombreux pays africains⭕ par exemple le Maroc, le Liban...", "correction": "(,)", "type_erreur": "P"}]
+                            },
+                            {
+                              "id": "4.2.2.10.1.3c",
+                              "nom": "Devant et, ou, soit et ni répétés plus de deux fois",
+                              "description": "Lorsque les conjonctions et, ou, soit ou ni sont répétées plus de deux fois dans une énumération, chaque occurrence après la première est précédée d'une virgule. Cette ponctuation rythme l'accumulation expressive.",
+                              "exemples": [{"erreur": "Ni les terroristes⭕ ni les fraudeurs⭕ ni les trafiquants de drogue ne pourront déjouer les systèmes biométriques.", "correction": "(,)(,)", "type_erreur": "P P"}]
+                            }
+                          ]
+                        },
+                        {
+                          "id": "4.2.2.10.1.4",
+                          "nom": "Pour marquer l'effacement",
+                          "description": "La virgule d'effacement signale l'omission d'un élément récupérable dans le contexte, généralement un verbe déjà exprimé dans une proposition précédente coordonnée.",
+                          "exemples": [{"erreur": "Marc étudie la géologie et Marie⭕ la spéléologie.", "correction": "(,)", "type_erreur": "P"}]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "4.2.2.10.2",
+                      "nom": "Présence erronée de virgule",
+                      "description": "Cette catégorie recense les cas où la virgule est fautive car elle sépare des éléments syntaxiquement solidaires ou rompt des liens grammaticaux essentiels.",
+                      "regles": [
+                        {
+                          "id": "4.2.2.10.2a",
+                          "nom": "Entre le sujet et le verbe",
+                          "description": "La virgule est interdite entre le sujet et son verbe, même lorsque le sujet est long ou complexe. Cette règle fondamentale préserve l'unité du couple sujet-verbe, noyau de la proposition.",
+                          "exemples": [{"erreur": "L'utilisation du baladeur numérique(,) est certes agréable.", "correction": "(Ø)", "type_erreur": "P"}]
+                        },
+                        {
+                          "id": "4.2.2.10.2b",
+                          "nom": "Pour isoler la subordonnée relative déterminative",
+                          "description": "La subordonnée relative déterminative, essentielle à l'identification du référent, ne doit pas être encadrée de virgules. Seule la relative explicative, apportant une information accessoire, est isolée par des virgules.",
+                          "exemples": [{"erreur": "C'est un livre(,) qui aura du succès.", "correction": "(Ø)", "type_erreur": "P"}]
+                        },
+                        {
+                          "id": "4.2.2.10.2c",
+                          "nom": "Après le complément de phrase s'il y a inversion du sujet",
+                          "description": "Lorsqu'un complément circonstanciel en tête de phrase entraîne l'inversion du sujet, aucune virgule ne sépare ce complément du verbe. L'inversion crée une structure compacte qui ne tolère pas de rupture.",
+                          "exemples": [{"erreur": "Lors de cette mobilisation(,) étaient regroupés plusieurs organismes.", "correction": "(Ø)", "type_erreur": "P"}]
+                        },
+                        {
+                          "id": "4.2.2.10.2d",
+                          "nom": "Entre le verbe et le complément ou l'attribut",
+                          "description": "La virgule est interdite entre le verbe et ses compléments essentiels ou son attribut. Cette règle préserve l'intégrité du groupe verbal et de ses expansions obligatoires.",
+                          "exemples": [{"erreur": "Ils appellent ça(,) la nouvelle technologie", "correction": "(Ø)", "type_erreur": "P"}]
+                        },
+                        {
+                          "id": "4.2.2.10.2e",
+                          "nom": "Entre la phrase matrice et la subordonnée complétive ou corrélative",
+                          "description": "La virgule est fautive entre le verbe principal et sa subordonnée complétive introduite par « que ». Cette subordonnée, fonction complément essentiel, fait corps avec le verbe dont elle dépend.",
+                          "exemples": [{"erreur": "Je crois(,) que les cas de ponctuation seront bien compris.", "correction": "(Ø)", "type_erreur": "P"}]
+                        },
+                        {
+                          "id": "4.2.2.10.2f",
+                          "nom": "Entre le présentatif et les éléments présentés",
+                          "description": "La virgule est interdite entre un présentatif (voici, voilà, c'est, il y a) et le groupe nominal ou la proposition qu'il introduit. Le présentatif et son expansion forment une unité syntaxique indissociable.",
+                          "exemples": [{"erreur": "Voici(,) l'horaire de ma journée.", "correction": "(Ø)", "type_erreur": "P"}]
+                        },
+                        {
+                          "id": "4.2.2.10.2g",
+                          "nom": "Entre les termes d'une comparaison",
+                          "description": "La virgule est fautive entre les deux termes d'une comparaison introduite par « que ». La structure comparative forme un ensemble syntaxique solidaire que la virgule ne peut rompre.",
+                          "exemples": [{"erreur": "Le travail demande plus d'effort(,) que les études.", "correction": "(Ø)", "type_erreur": "P"}]
+                        },
+                        {
+                          "id": "4.2.2.10.2h",
+                          "nom": "Entre une préposition et le complément",
+                          "description": "La virgule est interdite entre une préposition et le groupe qu'elle introduit, de même qu'entre un subordonnant et la proposition qu'il gouverne. Ces éléments sont syntaxiquement indissociables.",
+                          "exemples": [{"erreur": "On peut les comparer à(,) deux enfants en mal d'attention.", "correction": "(Ø)", "type_erreur": "P"}]
+                        },
+                        {
+                          "id": "4.2.2.10.2i",
+                          "nom": "Entre le nom et son complément",
+                          "description": "La virgule est fautive entre un nom et son complément déterminatif, qu'il s'agisse d'un adjectif restrictif ou d'un complément du nom essentiel à l'identification du référent.",
+                          "exemples": [{"erreur": "Les élèves(,) intelligents doivent aussi étudier.", "correction": "(Ø)", "type_erreur": "P"}]
+                        },
+                        {
+                          "id": "4.2.2.10.2j",
+                          "nom": "Entre la phrase matrice et la subordonnée introduite par que et parce que",
+                          "description": "La virgule est généralement fautive entre la principale et une subordonnée causale introduite par « parce que » lorsque celle-ci apporte une information essentielle non détachable du reste de l'énoncé.",
+                          "exemples": [{"erreur": "J'aime l'hiver(,) parce que tout devient silencieux.", "correction": "(Ø)", "type_erreur": "P"}]
+                        },
+                        {
+                          "id": "4.2.2.10.2k",
+                          "nom": "Devant et, ou, ni qui n'unissent pas deux phrases syntaxiques ou qui ne sont pas répétés plus de deux fois",
+                          "description": "La virgule est fautive devant « et », « ou » ou « ni » lorsque ces conjonctions coordonnent simplement deux éléments de même fonction sans répétition expressive. Seuls les cas de coordination de propositions ou de répétition justifient la virgule.",
+                          "exemples": [{"erreur": "Les objets connectés nous permettent de gagner du temps, de gérer nos avoirs(,) et d'améliorer nos conditions de vie.", "correction": "(Ø)", "type_erreur": "P"}]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "nom": "Respect des normes relatives à l'orthographe",
+      "description": "Ce critère évalue la maîtrise de l'orthographe dans ses deux dimensions : l'orthographe d'usage (graphie conventionnelle des mots) et l'orthographe grammaticale (marques de genre, nombre et accords).",
+      "marques_correction": {
+        "U": "Erreur d'orthographe d'usage",
+        "(U)": "Erreur d'orthographe d'usage répétée (une même erreur n'est pénalisée qu'une seule fois dans tout le texte)",
+        "G": "Erreur d'orthographe grammaticale",
+        "_": "Erreur d'orthographe grammaticale non comptabilisée (erreur d'accord répétée pour le même donneur)"
+      },
+      "maximum_erreurs": 35,
+      "sections": [
+        {
+          "id": "5.1",
+          "nom": "Règles générales",
+          "description": "Ces règles fondamentales établissent les principes de pénalisation des erreurs orthographiques, définissant les priorités entre types d'erreurs et les limites de comptabilisation.",
+          "regles": [
+            {
+              "id": "5.1.1",
+              "nom": "Usage et grammaire",
+              "description": "Une seule erreur est comptabilisée par mot, même si celui-ci présente plusieurs fautes. L'orthographe grammaticale (accords, conjugaisons) prime sur l'orthographe d'usage, car elle témoigne de la maîtrise des règles du système linguistique.",
+              "exemples": [
+                {"erreur": "Les personnes agés", "correction": "[âgées]", "type_erreur": "G"},
+                {"erreur": "Les gens agés", "correction": "[âgés]", "type_erreur": "U"}
+              ]
+            },
+            {
+              "id": "5.1.2",
+              "nom": "Dénominations",
+              "description": "Les noms propres, titres d'ouvrages et dénominations officielles ne sont pénalisés qu'une fois au critère 5, même s'ils comportent plusieurs erreurs. L'orthographe grammaticale reste prioritaire sur l'orthographe d'usage.",
+              "exemples": [
+                {"erreur": "L'Ordre des psychologue du québec", "correction": "[L'Ordre des psychologues du Québec]", "type_erreur": "G (U)"}
+              ],
+              "sous_regles": [
+                {
+                  "id": "5.1.2.1",
+                  "nom": "Dénominations du dossier préparatoire",
+                  "description": "L'élève doit transcrire fidèlement les dénominations telles qu'elles apparaissent dans le dossier préparatoire. Toute modification de la graphie originale constitue une erreur, qu'elle relève de l'usage ou de la grammaire."
+                },
+                {
+                  "id": "5.1.2.2",
+                  "nom": "Dénominations hors dossier préparatoire",
+                  "description": "Les erreurs dans les noms propres ne figurant pas dans le dossier préparatoire ne sont pas pénalisées, sauf s'il s'agit de repères culturels que tout élève devrait connaître à ce niveau de scolarité."
+                },
+                {
+                  "id": "5.1.2.3",
+                  "nom": "Repères culturels",
+                  "description": "Les erreurs orthographiques dans les dénominations faisant partie du bagage culturel commun sont pénalisées. Ces repères incluent les noms de lieux significatifs, les personnages historiques importants et les événements marquants.",
+                  "exemples": [
+                    {"erreur": "État-Unis", "correction": "[États-Unis]", "type_erreur": "U"},
+                    {"erreur": "Quebec", "correction": "[Québec]", "type_erreur": "U"},
+                    {"erreur": "Rene Lévesque", "correction": "[René Lévesque]", "type_erreur": "U"}
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "5.1.3",
+              "nom": "Usage seulement",
+              "description": "Une même erreur d'orthographe d'usage n'est pénalisée qu'une seule fois pour l'ensemble du texte. Cependant, toute modification de la combinaison d'erreurs dans le même mot constitue une nouvelle erreur à comptabiliser.",
+              "exemples": [
+                {"contexte": "Introduction", "erreur": "libertée", "type_erreur": "U"},
+                {"contexte": "1er paragraphe", "erreur": "libertée", "type_erreur": "(U)"},
+                {"contexte": "Conclusion", "erreur": "libèrté", "type_erreur": "U"}
+              ]
+            },
+            {
+              "id": "5.1.4",
+              "nom": "Majuscule sans règle",
+              "description": "L'emploi d'une majuscule en début de mot sans justification grammaticale ou typographique, résultant de la graphie personnelle de l'élève, constitue une erreur d'usage. L'ensemble de ces erreurs n'est pénalisé qu'une fois par texte.",
+              "exemples": [
+                {"erreur": "Je crois que Cela [...]", "correction": "[cela]", "type_erreur": "U"},
+                {"erreur": "En Septembre, [...]", "correction": "[septembre]", "type_erreur": "(U)"}
+              ]
+            },
+            {
+              "id": "5.1.5",
+              "nom": "Source",
+              "description": "Toute erreur de majuscule dans un titre d'ouvrage ou une dénomination officielle figurant dans une référence bibliographique est sanctionnée comme erreur d'usage. Ces éléments doivent respecter les conventions typographiques du français.",
+              "exemples": [
+                {"erreur": "1. Michel David, la langue de demain, le Devoir, 27 mai 2008.", "correction": "[La, Le]", "type_erreur": "U U"}
+              ]
+            },
+            {
+              "id": "5.1.6",
+              "nom": "Accents",
+              "description": "Une certaine tolérance est accordée pour la forme des accents manuscrits. Les accents aigus et graves sont acceptés quelle que soit leur pente exacte, et les accents circonflexes peuvent ressembler à un trait horizontal ou à un tilde."
+            },
+            {
+              "id": "5.1.7",
+              "nom": "Barre sur le t",
+              "description": "L'absence systématique de la barre horizontale sur la lettre t dans l'écriture manuscrite constitue une erreur d'usage. L'ensemble de ces omissions n'est pénalisé qu'une seule fois pour l'ensemble du texte."
+            }
+          ]
+        },
+        {
+          "id": "5.2",
+          "nom": "Orthographe d'usage et typographie",
+          "description": "Cette section traite des erreurs relatives à la graphie conventionnelle des mots, indépendamment des règles d'accord grammatical. Elle couvre les accents, les lettres, les traits d'union et les conventions typographiques.",
+          "marque": "U",
+          "categories": [
+            {
+              "id": "5.2.1",
+              "nom": "Erreurs relatives aux graphèmes",
+              "description": "Cette catégorie regroupe les erreurs touchant les unités graphiques élémentaires : accents, signes diacritiques, lettres et leur agencement dans le mot.",
+              "regles": [
+                {
+                  "id": "5.2.1.1",
+                  "nom": "Absence ou présence erronée d'un accent",
+                  "description": "L'accent aigu, grave ou circonflexe fait partie intégrante de la graphie du mot et modifie souvent sa prononciation. Son omission ou son emploi erroné constitue une faute d'orthographe d'usage, sauf sur les majuscules où il n'est pas exigé.",
+                  "exemples": [
+                    {"erreur": "Ce sont les gens plus agés", "correction": "[â]", "type_erreur": "U"},
+                    {"erreur": "Les médecins disent que le baladeur detruit les cellules auditives", "correction": "[é]", "type_erreur": "U"},
+                    {"erreur": "Nous vivons mieux grace à l'évolution technologique", "correction": "[â]", "type_erreur": "U"}
+                  ],
+                  "note": "Les accents ne sont pas exigés sur les majuscules"
+                },
+                {
+                  "id": "5.2.1.2.1",
+                  "nom": "Absence ou présence erronée de la cédille",
+                  "description": "La cédille sous le c indique que cette lettre se prononce [s] devant a, o ou u. Son omission modifie la valeur phonétique du c, tandis que son ajout erroné constitue une hypercorrection fautive.",
+                  "exemples": [
+                    {"erreur": "Je trouve ca normal", "correction": "[ça]", "type_erreur": "U"},
+                    {"erreur": "Çela est immoral", "correction": "[Cela]", "type_erreur": "U"}
+                  ]
+                },
+                {
+                  "id": "5.2.1.2.2",
+                  "nom": "Absence ou présence erronée du tréma",
+                  "description": "Le tréma signale que deux voyelles consécutives se prononcent séparément plutôt que comme une seule unité vocalique. Son absence ou son mauvais positionnement altère la prononciation correcte du mot.",
+                  "exemples": [
+                    {"erreur": "Une réponse ambigue", "correction": "[ambiguë ou ambigüe]", "type_erreur": "U"}
+                  ]
+                },
+                {
+                  "id": "5.2.1.3",
+                  "nom": "Absence ou emploi erroné de lettres",
+                  "description": "Cette erreur concerne l'omission, l'ajout ou la substitution de lettres à l'intérieur ou à la fin d'un mot. Elle inclut les inversions de lettres, les confusions entre lettres de prononciation proche et les terminaisons incorrectes.",
+                  "exemples": [
+                    {"erreur": "Il serait mieu de dire la vérité", "correction": "[mieux]", "type_erreur": "U"},
+                    {"erreur": "aréoport", "correction": "[aéroport]", "type_erreur": "U"},
+                    {"erreur": "rénumération", "correction": "[rémunération]", "type_erreur": "U"},
+                    {"erreur": "En faite", "correction": "[fait]", "type_erreur": "U"}
+                  ]
+                },
+                {
+                  "id": "5.2.1.4",
+                  "nom": "Confusion entre deux mots homophoniques de classes différentes",
+                  "description": "Cette erreur survient lorsqu'un mot est orthographié selon la graphie d'un autre mot de même prononciation mais de catégorie grammaticale différente. La confusion verbe/nom ou nom/adjectif produit une forme inexistante ou inappropriée.",
+                  "exemples": [
+                    {"erreur": "L'arriver s'est bien déroulée", "correction": "[arrivée]", "type_erreur": "U"},
+                    {"erreur": "J'espère que mon texte est convainquant", "correction": "[convaincant]", "type_erreur": "U"},
+                    {"erreur": "Un vêtement usager", "correction": "[usagé]", "type_erreur": "U"}
+                  ]
+                },
+                {
+                  "id": "5.2.1.5",
+                  "nom": "Ajout erroné d'un s à un mot invariable",
+                  "description": "Certains mots français sont invariables et ne prennent jamais la marque du pluriel. L'ajout d'un s à ces termes constitue une erreur d'usage résultant souvent d'une hypercorrection ou d'une analogie fautive avec des mots variables.",
+                  "exemples": [
+                    {"erreur": "Parmis les créateurs", "correction": "[parmi]", "type_erreur": "U"},
+                    {"erreur": "Beaucoups de créateurs", "correction": "[beaucoup]", "type_erreur": "U"},
+                    {"erreur": "Malgrés", "correction": "[Malgré]", "type_erreur": "U"}
+                  ]
+                },
+                {
+                  "id": "5.2.1.6",
+                  "nom": "Lettre doublée inutilement ou lettre non doublée",
+                  "description": "Le doublement des consonnes en français obéit à des règles complexes souvent d'origine étymologique. L'erreur consiste à doubler une lettre qui ne devrait pas l'être ou à omettre le doublement requis par la graphie correcte.",
+                  "exemples": [
+                    {"erreur": "Le dévelloppement des nouvelles technologies", "correction": "[développement]", "type_erreur": "U"},
+                    {"erreur": "Il apelle le médecin", "correction": "[appelle]", "type_erreur": "U"}
+                  ]
+                },
+                {
+                  "id": "5.2.1.7",
+                  "nom": "Absence ou présence erronée d'un trait d'union dans un mot composé",
+                  "description": "Le trait d'union unit les éléments de certains mots composés selon des conventions lexicales établies. Son absence ou sa présence erronée constitue une faute d'orthographe d'usage, chaque mot composé distinct étant pénalisé séparément.",
+                  "exemples": [
+                    {"erreur": "à tue tête", "correction": "[tue-tête]", "type_erreur": "U"},
+                    {"erreur": "c'est à dire", "correction": "[c'est-à-dire]", "type_erreur": "U"},
+                    {"erreur": "elle même", "correction": "[elle-même]", "type_erreur": "U"},
+                    {"erreur": "quarante quatre", "correction": "[quarante-quatre]", "type_erreur": "U"}
+                  ],
+                  "sous_regles": [
+                    {
+                      "id": "5.2.1.7.1",
+                      "nom": "Mots composés différents",
+                      "description": "Chaque nouveau mot composé mal orthographié est pénalisé séparément. La répétition de la même erreur sur le même mot composé n'est comptée qu'une fois, mais l'erreur sur un mot composé différent constitue une nouvelle faute."
+                    },
+                    {
+                      "id": "5.2.1.7.4",
+                      "nom": "Confusion homophonique par trait d'union",
+                      "description": "Lorsque l'absence ou la présence d'un trait d'union crée une confusion avec un autre mot homophone, l'erreur est classée en grammaire plutôt qu'en usage. Cette confusion affecte le sens et la fonction du mot dans la phrase.",
+                      "exemples": [{"erreur": "ce qui peut-être la cause", "correction": "[peut être]", "type_erreur": "G"}]
+                    }
+                  ]
+                },
+                {
+                  "id": "5.2.1.8",
+                  "nom": "Lexème mal orthographié",
+                  "description": "Un lexème est la racine commune à une famille de mots. Lorsque cette racine est mal orthographiée, l'erreur n'est comptée qu'une fois pour l'ensemble du texte, quelle que soit la forme dérivée dans laquelle elle apparaît.",
+                  "exemples": [
+                    {"erreur": "excepter, exception, exceptionnel", "correction": "une seule erreur par texte", "type_erreur": "U"}
+                  ]
+                },
+                {
+                  "id": "5.2.1.9",
+                  "nom": "Erreur liée à l'euphonie",
+                  "description": "L'euphonie exige certaines modifications graphiques pour éviter le hiatus ou faciliter la prononciation. Ces adaptations concernent les déterminants et adjectifs devant voyelle, ainsi que l'ajout du t euphonique dans les inversions interrogatives.",
+                  "exemples": [
+                    {"erreur": "Ce objet", "correction": "[Cet]", "type_erreur": "U"},
+                    {"erreur": "Ma argumentation", "correction": "[Mon]", "type_erreur": "U"},
+                    {"erreur": "Un beau environnement", "correction": "[bel]", "type_erreur": "U"},
+                    {"erreur": "Doit-t-on", "correction": "[Doit-on]", "type_erreur": "U"},
+                    {"erreur": "Y a-t'il", "correction": "[Y a-t-il]", "type_erreur": "U"},
+                    {"erreur": "Limite-elle", "correction": "[Limite-t-elle]", "type_erreur": "U"}
+                  ]
+                },
+                {
+                  "id": "5.2.1.10",
+                  "nom": "Absence du trait d'union pour l'inversion",
+                  "description": "L'inversion du sujet pronominal après le verbe, notamment dans les formes impératives, exige un trait d'union entre le verbe et le pronom. L'omission de ce trait d'union constitue une erreur d'usage affectant la lisibilité.",
+                  "exemples": [
+                    {"erreur": "limitons nous au secondaire", "correction": "[limitons-nous]", "type_erreur": "U"},
+                    {"erreur": "Méfiez vous des vendeurs", "correction": "[Méfiez-vous]", "type_erreur": "U"}
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "5.2.2",
+              "nom": "Homophones lexicaux",
+              "description": "Les homophones lexicaux sont des mots de même prononciation, de même catégorie grammaticale, mais de sens et d'orthographe différents. Leur confusion constitue une erreur d'usage relevant de la méconnaissance du vocabulaire.",
+              "exemples": [
+                {"erreur": "Dans le cour d'histoire", "correction": "[cours]", "type_erreur": "U"},
+                {"erreur": "le transport fait parti de notre quotidien", "correction": "[partie]", "type_erreur": "U"},
+                {"erreur": "Je suis sur qu'il viendra", "correction": "[sûr]", "type_erreur": "U"}
+              ]
+            },
+            {
+              "id": "5.2.3",
+              "nom": "Apostrophe",
+              "description": "L'apostrophe marque l'élision d'une voyelle finale devant un mot commençant par une voyelle ou un h muet. Son emploi obéit à des règles précises qui touchent à la fois à la phonétique et à la graphie.",
+              "regles": [
+                {
+                  "id": "5.2.3.1",
+                  "nom": "Utilisation de l'apostrophe pour l'élision",
+                  "description": "L'élision est obligatoire pour certains mots monosyllabiques terminés par une voyelle devant un mot commençant par une voyelle ou un h muet. L'omission de cette élision produit un hiatus contraire aux règles phonétiques du français.",
+                  "exemples": [
+                    {"erreur": "si il permet", "correction": "[s'il]", "type_erreur": "U"},
+                    {"erreur": "Il affirme que il est important", "correction": "[qu'il]", "type_erreur": "U"},
+                    {"erreur": "jusque à demain", "correction": "[jusqu'à]", "type_erreur": "U"}
+                  ]
+                },
+                {
+                  "id": "5.2.3.2",
+                  "nom": "Marque de l'apostrophe absente ou mauvaise",
+                  "description": "L'apostrophe est un signe graphique indispensable pour marquer l'élision. Son omission dans un mot élidé ou sa présence dans un mot qui ne devrait pas en comporter constitue une erreur d'orthographe d'usage.",
+                  "exemples": [
+                    {"erreur": "sagit", "correction": "[s'agit]", "type_erreur": "U"},
+                    {"erreur": "dabord", "correction": "[d'abord]", "type_erreur": "U"},
+                    {"erreur": "aujourdhui", "correction": "[aujourd'hui]", "type_erreur": "U"},
+                    {"erreur": "l'orsque", "correction": "[lorsque]", "type_erreur": "U"}
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "5.2.4",
+              "nom": "Emploi de la majuscule",
+              "description": "La majuscule en français répond à des règles précises concernant les noms propres, les titres, les débuts de phrases et certains emplois conventionnels. Son usage erroné relève de l'orthographe d'usage.",
+              "regles": [
+                {
+                  "id": "5.2.4.1",
+                  "nom": "Majuscule pour les noms propres",
+                  "description": "Les noms propres de personnes, de lieux et d'entités prennent une majuscule initiale. Les noms communs dérivés de noms propres (nationalités, langues) ne prennent pas de majuscule. Chaque nom propre répété n'est pénalisé qu'une fois.",
+                  "exemples": [
+                    {"erreur": "Le Français se parle dans plusieurs provinces", "correction": "[français]", "type_erreur": "U"}
+                  ],
+                  "sous_regles": [
+                    {
+                      "id": "5.2.4.1.1",
+                      "nom": "Terre, homme, humain, points cardinaux",
+                      "description": "Les mots « Terre », « homme » et « humain » acceptent la minuscule ou la majuscule selon le contexte. Les points cardinaux prennent la majuscule uniquement dans les dénominations géographiques officielles."
+                    }
+                  ]
+                },
+                {
+                  "id": "5.2.4.2",
+                  "nom": "Majuscule dans un titre de civilité ou de fonction",
+                  "description": "Les titres de civilité et de fonction s'écrivent avec majuscule lorsqu'on s'adresse directement à la personne, mais avec minuscule lorsqu'on parle d'elle. Cette distinction reflète le degré de déférence dans l'énonciation.",
+                  "exemples": [
+                    {"erreur": "Le Président de CGA-Canada a affirmé que", "correction": "[président]", "type_erreur": "U"}
+                  ]
+                },
+                {
+                  "id": "5.2.4.3",
+                  "nom": "Majuscule dans le titre du texte",
+                  "description": "Le titre du texte rédigé par l'élève doit commencer par une majuscule. Le reste du titre peut s'écrire en minuscules ou selon les conventions adoptées, pourvu que la majuscule initiale soit présente."
+                },
+                {
+                  "id": "5.2.4.4",
+                  "nom": "Majuscule dans tout autre titre",
+                  "description": "Les titres d'œuvres, de journaux et de publications suivent la règle de la majuscule au premier mot et à tous les mots jusqu'au premier substantif inclusivement. Cette convention typographique assure l'uniformité des références."
+                }
+              ]
+            },
+            {
+              "id": "5.2.5",
+              "nom": "Coupure d'un mot à la fin d'une ligne",
+              "description": "La coupure d'un mot en fin de ligne obéit à des règles syllabiques précises. Les coupures fautives constituent des erreurs d'orthographe d'usage affectant la lisibilité du texte.",
+              "regles": [
+                {
+                  "id": "5.2.5.1",
+                  "nom": "Coupures intrasyllabiques",
+                  "description": "Les coupures à l'intérieur d'une syllabe sont toujours fautives car elles violent le principe fondamental de la division syllabique. Chaque mot mal coupé n'est pénalisé qu'une fois par texte si la même coupure se répète.",
+                  "type_erreur": "U"
+                },
+                {
+                  "id": "5.2.5.2",
+                  "nom": "Trait d'union au début de la ligne",
+                  "description": "Le trait d'union marquant une coupure de mot doit figurer à la fin de la ligne précédente et non au début de la ligne suivante. Chaque occurrence de cette erreur de positionnement est pénalisée séparément.",
+                  "type_erreur": "U"
+                },
+                {
+                  "id": "5.2.5.3",
+                  "nom": "Apostrophe à la fin d'une ligne",
+                  "description": "L'apostrophe ne peut figurer seule en fin de ligne, séparée du mot qui la suit. Cette coupure après l'apostrophe est fautive et pénalisée une fois par mot ou locution concerné pour l'ensemble du texte.",
+                  "type_erreur": "U"
+                }
+              ]
+            },
+            {
+              "id": "5.2.6",
+              "nom": "Autres fautes",
+              "description": "Cette catégorie regroupe diverses erreurs d'usage touchant aux abréviations, sigles, symboles, chiffres et formes non conformes aux conventions de l'écrit standard.",
+              "regles": [
+                {
+                  "id": "5.2.6.1",
+                  "nom": "Abréviations",
+                  "description": "Les abréviations courantes obéissent à des conventions graphiques précises. L'abréviation « etc. » ne prend qu'un point, « M. » abrège « Monsieur » tandis que « Mr » est un anglicisme. Ces erreurs relèvent de l'orthographe d'usage.",
+                  "exemples": [
+                    {"erreur": "_etc. ou _etc… ou et etc.", "correction": "[etc.]", "type_erreur": "U"},
+                    {"erreur": "Grâce à Mr. Gagnon", "correction": "[M.]", "type_erreur": "U"}
+                  ]
+                },
+                {
+                  "id": "5.2.6.2",
+                  "nom": "Sigles et acronymes",
+                  "description": "Les sigles s'écrivent en majuscules sans points entre les lettres. Ils ne prennent pas la marque du pluriel en français standard. Leur graphie erronée constitue une faute d'orthographe d'usage.",
+                  "exemples": [
+                    {"erreur": "onu", "correction": "[ONU]", "type_erreur": "U"},
+                    {"erreur": "Des ONGS", "correction": "[ONG]", "type_erreur": "U"}
+                  ]
+                },
+                {
+                  "id": "5.2.6.3",
+                  "nom": "Signes mathématiques, unités de mesure, chiffres de 1 à 9",
+                  "description": "Dans un texte courant, les signes mathématiques, les symboles d'unités et les chiffres de un à neuf doivent être écrits en lettres. L'emploi des symboles ou chiffres arabes constitue une erreur d'usage pénalisée une fois par texte.",
+                  "exemples": [
+                    {"erreur": "le % des jeunes", "correction": "[pourcentage]", "type_erreur": "U"},
+                    {"erreur": "l'expérience des 5 dernières années de 4 élèves", "correction": "[cinq, quatre]", "type_erreur": "U (1 U par texte)"}
+                  ]
+                },
+                {
+                  "id": "5.2.6.4",
+                  "nom": "Barbarismes orthographiques",
+                  "description": "Les barbarismes orthographiques sont des déformations de mots ou locutions résultant de fusions erronées ou de séparations injustifiées. Ces formes non conformes témoignent d'une méconnaissance de la graphie conventionnelle des expressions.",
+                  "exemples": [
+                    {"erreur": "La plus part", "correction": "[plupart]", "type_erreur": "U"},
+                    {"erreur": "au par avant", "correction": "[auparavant]", "type_erreur": "U"},
+                    {"erreur": "tant disque", "correction": "[tandis que]", "type_erreur": "U"},
+                    {"erreur": "desfois", "correction": "[des fois]", "type_erreur": "U"}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5.3",
+          "nom": "Orthographe grammaticale",
+          "description": "L'orthographe grammaticale concerne les marques morphologiques traduisant les relations syntaxiques : accords en genre et en nombre, conjugaisons verbales, distinctions entre homophones grammaticaux.",
+          "marque": "G",
+          "categories": [
+            {
+              "id": "5.3.1",
+              "nom": "Nom, adjectif, déterminant, pronom, adverbe",
+              "description": "Cette catégorie traite des erreurs d'accord affectant les classes nominales et leurs déterminants, ainsi que les confusions dans l'emploi des adverbes invariables.",
+              "regles": [
+                {
+                  "id": "5.3.1.1",
+                  "nom": "Accord en genre et en nombre du nom et des mots d'un même groupe",
+                  "description": "Tous les éléments d'un groupe nominal doivent s'accorder en genre et en nombre avec le nom noyau. Les erreurs sur plusieurs mots du même groupe recevant le même donneur ne sont comptées qu'une fois.",
+                  "exemples": [
+                    {"erreur": "des années de bonheurs assurés", "correction": "[bonheur assuré]", "type_erreur": "G -"},
+                    {"erreur": "Une belle habit neuve", "correction": "[Un bel habit neuf]", "type_erreur": "G -"}
+                  ]
+                },
+                {
+                  "id": "5.3.1.2",
+                  "nom": "Accord de l'adjectif qualificatif",
+                  "description": "L'adjectif qualificatif s'accorde en genre et en nombre avec le nom ou le pronom qu'il caractérise, qu'il soit épithète, attribut ou apposé. L'erreur d'accord témoigne d'une rupture dans la chaîne d'accord.",
+                  "exemples": [
+                    {"erreur": "si l'utilisation du baladeur numérique devient trop excessif", "correction": "[excessive]", "type_erreur": "G"},
+                    {"erreur": "certains points que je juge important", "correction": "[importants]", "type_erreur": "G"}
+                  ]
+                },
+                {
+                  "id": "5.3.1.3",
+                  "nom": "Accord du déterminant",
+                  "description": "Le déterminant s'accorde en genre et en nombre avec le nom qu'il introduit. Certains déterminants comme « chaque » sont toujours singuliers, tandis que d'autres comme « tout » varient selon le contexte.",
+                  "exemples": [
+                    {"erreur": "dans presque tout les domaines", "correction": "[tous]", "type_erreur": "G"},
+                    {"erreur": "Chaques jours", "correction": "[chaque jour]", "type_erreur": "G -"}
+                  ]
+                },
+                {
+                  "id": "5.3.1.4",
+                  "nom": "Choix du pronom selon les caractéristiques de l'antécédent",
+                  "description": "Le pronom de reprise doit correspondre en genre et en nombre à son antécédent. Cette erreur grammaticale diffère de l'erreur syntaxique de référence, car elle porte uniquement sur les marques morphologiques.",
+                  "exemples": [
+                    {"erreur": "Les valeurs des jeunes ne sont pas disparues. Elle change.", "correction": "[Elles changent]", "type_erreur": "G -"}
+                  ]
+                },
+                {
+                  "id": "5.3.1.5",
+                  "nom": "Accord du complément du nom (groupe prépositionnel)",
+                  "description": "Le nom complément dans un groupe prépositionnel doit porter les marques de genre et de nombre appropriées au sens. L'accord dépend du contexte sémantique : singulier générique ou pluriel distributif.",
+                  "exemples": [
+                    {"erreur": "le nombre d'étudiant", "correction": "[étudiants]", "type_erreur": "G"},
+                    {"erreur": "L'homme d'affaire", "correction": "[affaires]", "type_erreur": "G"}
+                  ]
+                },
+                {
+                  "id": "5.3.1.6",
+                  "nom": "Accord fautif d'un mot utilisé comme adverbe",
+                  "description": "Certains adjectifs employés comme adverbes restent invariables car ils modifient un verbe et non un nom. L'erreur consiste à leur appliquer les règles d'accord de l'adjectif alors qu'ils fonctionnent comme modificateurs verbaux.",
+                  "exemples": [
+                    {"erreur": "ces jeunes coûtent très chers", "correction": "[cher]", "type_erreur": "G"},
+                    {"erreur": "Ils sont mêmes venus", "correction": "[même]", "type_erreur": "G"}
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "5.3.2",
+              "nom": "Verbe",
+              "description": "Cette catégorie regroupe les erreurs touchant à la morphologie verbale : conjugaisons, accords, formes du participe passé et confusions entre désinences homophones.",
+              "regles": [
+                {
+                  "id": "5.3.2.1",
+                  "nom": "Barbarisme de conjugaison",
+                  "description": "Le barbarisme de conjugaison est une forme verbale inexistante résultant d'une analogie fautive avec d'autres verbes ou d'une méconnaissance des paradigmes de conjugaison. Il diffère de l'erreur d'accord qui porte sur une forme existante mal choisie.",
+                  "exemples": [
+                    {"erreur": "même en fesant attention", "correction": "[faisant]", "type_erreur": "G"},
+                    {"erreur": "Je n'oublirai jamais", "correction": "[oublierai]", "type_erreur": "G"},
+                    {"erreur": "Plusieurs interdissent", "correction": "[interdisent]", "type_erreur": "G"}
+                  ]
+                },
+                {
+                  "id": "5.3.2.2",
+                  "nom": "Accord du verbe conjugué",
+                  "description": "Le verbe conjugué s'accorde en personne et en nombre avec son sujet grammatical. Les difficultés surviennent notamment avec les sujets collectifs, les pronoms relatifs et les tournures impersonnelles.",
+                  "exemples": [
+                    {"erreur": "On leur demandent", "correction": "[demande]", "type_erreur": "G"},
+                    {"erreur": "Tout le monde veulent", "correction": "[veut]", "type_erreur": "G"},
+                    {"erreur": "C'est nous qui laissent traîner nos déchets", "correction": "[laissons]", "type_erreur": "G"}
+                  ]
+                },
+                {
+                  "id": "5.3.2.3",
+                  "nom": "Forme et accord du participe passé",
+                  "description": "Le participe passé obéit à des règles d'accord complexes selon qu'il est employé seul, avec être, avec avoir ou dans une construction pronominale. L'erreur peut porter sur la forme du participe ou sur son accord.",
+                  "exemples": [
+                    {"erreur": "Il a acquéri de l'expérience", "correction": "[acquis]", "type_erreur": "G"},
+                    {"erreur": "tous les bons moments que j'ai vécu", "correction": "[vécus]", "type_erreur": "G"}
+                  ]
+                },
+                {
+                  "id": "5.3.2.4",
+                  "nom": "Verbe irrégulier",
+                  "description": "Les verbes irréguliers présentent des formes qui échappent aux paradigmes réguliers de conjugaison. L'erreur consiste à régulariser ces formes ou à confondre les formes de verbes irréguliers différents.",
+                  "exemples": [
+                    {"erreur": "que le danger croit avec l'usage", "correction": "[croît]", "type_erreur": "G"},
+                    {"erreur": "En commencant", "correction": "[commençant]", "type_erreur": "G"}
+                  ]
+                },
+                {
+                  "id": "5.3.2.5",
+                  "nom": "Verbe à l'infinitif",
+                  "description": "L'infinitif est une forme non conjuguée du verbe qui ne porte ni marque de personne ni marque de nombre. L'erreur consiste à lui appliquer des désinences de conjugaison ou à confondre sa terminaison avec celle du participe.",
+                  "exemples": [
+                    {"erreur": "les autos arrivers", "correction": "[arriver]", "type_erreur": "G"},
+                    {"erreur": "Ces soins peuvent vous rendrent malades", "correction": "[rendre]", "type_erreur": "G"}
+                  ]
+                },
+                {
+                  "id": "5.3.2.6",
+                  "nom": "Désinences verbales homophones",
+                  "description": "Plusieurs désinences verbales se prononcent de la même façon : -é/-er/-ez, -ai/-ais/-ait/-aient, -a/-as. La confusion entre ces terminaisons constitue une erreur de grammaire fréquente portant sur l'identification du mode ou du temps.",
+                  "exemples": [
+                    {"erreur": "Ils ont même inventer des baladeurs", "correction": "[inventé]", "type_erreur": "G"},
+                    {"erreur": "Pour qu'il y est moins de violence", "correction": "[ait]", "type_erreur": "G"},
+                    {"erreur": "Il a penser à fermer", "correction": "[a pensé]", "type_erreur": "G G"}
+                  ]
+                },
+                {
+                  "id": "5.3.2.7",
+                  "nom": "Accord de l'adjectif verbal et forme du participe présent",
+                  "description": "L'adjectif verbal s'accorde avec le nom qu'il qualifie, tandis que le participe présent reste invariable. La distinction entre ces deux formes homophones repose sur des critères syntaxiques et sémantiques précis.",
+                  "exemples": [
+                    {"erreur": "qui ont les yeux bien portant", "correction": "[portants]", "type_erreur": "G"},
+                    {"erreur": "en reproduisent des œuvres culturelles", "correction": "[reproduisant]", "type_erreur": "G"}
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "5.3.3",
+              "nom": "Homophones grammaticaux et courants",
+              "description": "Les homophones grammaticaux sont des mots de même prononciation mais de catégories grammaticales différentes. Leur distinction repose sur l'analyse de leur fonction dans la phrase.",
+              "regles": [
+                {
+                  "id": "5.3.3.1",
+                  "nom": "Homophones grammaticaux",
+                  "description": "Ces homophones appartiennent à des classes grammaticales différentes et leur choix dépend de leur fonction syntaxique. La liste inclut notamment a/à, ça/sa, ce/se, et/est, on/ont, ou/où et bien d'autres paires fréquentes.",
+                  "liste": ["a/à", "ça/sa", "ce/se", "ces/c'est/ses", "et/est", "la/là/l'a", "leur/leurs", "on/ont", "ou/où", "son/sont", "quand/quant/qu'en", "quel(s)/quelle(s)/qu'elle(s)"],
+                  "exemples": [
+                    {"erreur": "Parfois, se n'est pas facile de choisir", "correction": "[ce]", "type_erreur": "G"},
+                    {"erreur": "Les filles est les garçons vont", "correction": "[et]", "type_erreur": "G"},
+                    {"erreur": "Quelque soit leur origine", "correction": "[Quelle que]", "type_erreur": "G"}
+                  ]
+                },
+                {
+                  "id": "5.3.3.2",
+                  "nom": "Homophones courants (liste fermée)",
+                  "description": "Cette catégorie concerne la confusion entre le nom et la forme conjuguée du verbe correspondant pour une liste fermée de mots courants. Ces homophones se distinguent par leur terminaison : le nom se termine généralement par une consonne muette.",
+                  "exemples": [
+                    {"erreur": "L'accueille des participants", "correction": "[accueil]", "type_erreur": "G"},
+                    {"erreur": "Il a reçu un appelle", "correction": "[appel]", "type_erreur": "G"},
+                    {"erreur": "Le travaille que tu m'as remis", "correction": "[travail]", "type_erreur": "G"}
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "5.3.4",
+              "nom": "Barbarismes grammaticaux",
+              "description": "Les barbarismes grammaticaux sont des déformations de locutions ou de mots présentant une erreur qui relève de la grammaire plutôt que de l'usage. Ils résultent souvent de la fusion d'une préposition avec l'article ou d'une confusion entre homophones.",
+              "exemples": [
+                {"erreur": "acause", "correction": "[à cause]", "type_erreur": "G"},
+                {"erreur": "grace a", "correction": "[grâce à]", "type_erreur": "G"},
+                {"erreur": "jusqua", "correction": "[jusqu'à]", "type_erreur": "G"},
+                {"erreur": "Vus que", "correction": "[vu que]", "type_erreur": "G"}
+              ]
+            },
+            {
+              "id": "5.3.5",
+              "nom": "Contractions",
+              "description": "Les contractions obligatoires fusionnent une préposition avec l'article défini qui suit : « de le » devient « du », « à les » devient « aux ». L'omission de cette contraction constitue une erreur grammaticale.",
+              "exemples": [
+                {"erreur": "argent qui provient de le labeur", "correction": "[du]", "type_erreur": "G"},
+                {"erreur": "à lequel le jeune doit faire face", "correction": "[auquel]", "type_erreur": "G"}
+              ]
+            },
+            {
+              "id": "5.3.6",
+              "nom": "Emploi de la majuscule",
+              "description": "Certains emplois de la majuscule relèvent de la grammaire plutôt que de l'usage, notamment lorsqu'ils sont liés à la ponctuation ou aux conventions du discours rapporté.",
+              "regles": [
+                {
+                  "id": "5.3.6.1",
+                  "nom": "En lien avec la ponctuation",
+                  "description": "La majuscule est obligatoire après un point, en début de phrase ou de paragraphe. Après les deux-points, elle n'est requise que dans certains contextes comme le discours direct. Ces règles relèvent de la grammaire de la phrase.",
+                  "exemples": [
+                    {"erreur": "C'est vrai que la première année du secondaire est difficile : Le casier trop haut", "correction": "[le]", "type_erreur": "G"},
+                    {"erreur": "la censure est un sujet délicat à aborder.", "correction": "[La]", "type_erreur": "G"}
+                  ]
+                },
+                {
+                  "id": "5.3.6.2",
+                  "nom": "En lien avec le sujet posé",
+                  "description": "Lorsque le sujet posé est présenté entre guillemets comme une citation, il doit commencer par une majuscule. Cette convention marque le statut autonome de l'énoncé encadré par les guillemets.",
+                  "exemples": [
+                    {"erreur": "Je me pose la question suivante : « dans l'avenir, la langue française... »", "correction": "[Dans]", "type_erreur": "G"}
+                  ]
+                },
+                {
+                  "id": "5.3.6.3",
+                  "nom": "Dans un discours rapporté textuel",
+                  "description": "Le discours rapporté direct, reproduisant textuellement les propos d'autrui, commence obligatoirement par une majuscule après les guillemets ouvrants. Cette règle distingue le discours cité du discours citant.",
+                  "exemples": [
+                    {"erreur": "M. Vaillancourt dit : « comme l'air, l'eau [...] »", "correction": "[Comme]", "type_erreur": "G"}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5.4",
+          "nom": "Clarification du critère 5 - Règles de séquences",
+          "description": "Ces règles précisent le mode de comptabilisation des erreurs répétées ou en série, distinguant les cas où une seule erreur est comptée de ceux où chaque occurrence est pénalisée.",
+          "regles": [
+            {
+              "id": "5.4.1",
+              "nom": "Orthographe d'usage répétée",
+              "description": "Une même erreur d'orthographe d'usage n'est comptabilisée qu'une seule fois pour l'ensemble du texte, quelle que soit sa fréquence d'apparition. Les occurrences supplémentaires sont signalées entre parenthèses mais ne sont pas pénalisées.",
+              "exemples": [
+                {"erreur": "libertée [...] libertée [...] libèrté", "type_erreur": "U (U) U"}
+              ]
+            },
+            {
+              "id": "5.4.2",
+              "nom": "Orthographe grammaticale - même donneur",
+              "description": "Lorsque plusieurs mots régis par une même règle d'accord présentent la même erreur par rapport au même donneur d'accord, une seule erreur est comptabilisée. Le tiret bas signale les erreurs non pénalisées de la séquence.",
+              "exemples": [
+                {"erreur": "Toute les filles sont partie", "correction": "[Toutes les filles sont parties]", "type_erreur": "G -"}
+              ],
+              "sous_regles": [
+                {
+                  "id": "5.4.2.1",
+                  "nom": "Même type d'erreurs",
+                  "description": "Lorsque plusieurs mots présentent le même type d'erreur d'accord (même catégorie de faute : genre, nombre ou personne) par rapport au même donneur, une seule erreur grammaticale est comptabilisée pour l'ensemble.",
+                  "exemples": [{"erreur": "Toute les bonne copies se ressemble", "type_erreur": "G"}]
+                },
+                {
+                  "id": "5.4.2.2",
+                  "nom": "Modification du type d'erreurs",
+                  "description": "Lorsque le type d'erreur change au sein d'une séquence (passage d'une erreur de nombre à une erreur de genre, par exemple), chaque nouveau type d'erreur est pénalisé séparément, même si le donneur reste le même.",
+                  "exemples": [{"erreur": "Toute les bonne copies sont révisé", "type_erreur": "G - G"}]
+                },
+                {
+                  "id": "5.4.2.3",
+                  "nom": "Erreurs d'un autre type",
+                  "description": "Les erreurs d'un type différent (par exemple, erreur d'usage ou erreur d'accord avec un autre donneur) ne brisent pas une séquence d'erreurs grammaticales. La séquence se poursuit pour les mots relevant du même donneur.",
+                  "exemples": [{"erreur": "Toute les filles ont mangées des pommes", "type_erreur": "G G"}]
+                },
+                {
+                  "id": "5.4.2.4",
+                  "nom": "Erreurs portant sur le verbe",
+                  "description": "Lorsque l'élève accorde systématiquement son verbe en fonction d'un mauvais donneur identifié, les erreurs d'accord verbal subséquentes avec ce même donneur erroné ne sont pas pénalisées après la première occurrence.",
+                  "exemples": [{"erreur": "Les personnes consomment trop, donc il s'endette", "type_erreur": "G -"}]
+                },
+                {
+                  "id": "5.4.2.5",
+                  "nom": "Changement de donneur",
+                  "description": "Chaque changement de donneur d'accord entraîne une nouvelle comptabilisation des erreurs. Une nouvelle erreur est pénalisée dès que l'accord fautif concerne un donneur différent du précédent.",
+                  "exemples": [{"erreur": "la loi protégeant les droits des créateurs soient respectés et que le téléchargement illégale soit abolis", "type_erreur": "G G G G"}]
+                },
+                {
+                  "id": "5.4.2.6",
+                  "nom": "Pronom de reprise",
+                  "description": "Un pronom de reprise constitue un nouveau donneur d'accord pour les mots qui en dépendent. Les erreurs d'accord avec ce pronom sont donc comptabilisées séparément des erreurs d'accord avec son antécédent.",
+                  "exemples": [{"erreur": "Toute les filles sont partie car elle étaient fatiguée et elle sont revenue", "type_erreur": "G - G - G - -"}]
+                },
+                {
+                  "id": "5.4.2.7",
+                  "nom": "Erreur de grammaire et d'usage combinées",
+                  "description": "Lorsqu'un même mot présente à la fois une erreur de grammaire et une erreur d'usage distinctes, les deux erreurs sont comptabilisées séparément. Ce cumul ne contrevient pas à la règle d'une erreur par mot.",
+                  "exemples": [{"erreur": "Toute les filles sont patie", "type_erreur": "G U"}]
+                },
+                {
+                  "id": "5.4.2.8",
+                  "nom": "Adjectif invariable en genre ou en nombre",
+                  "description": "Les adjectifs ayant la même forme au masculin et au féminin ou au singulier et au pluriel sont considérés comme correctement accordés avec leur donneur. Seule une erreur manifeste sur une forme distinctive est pénalisée.",
+                  "exemples": [{"erreur": "Les traits comportementale et économique", "type_erreur": "G G"}]
+                },
+                {
+                  "id": "5.4.2.9",
+                  "nom": "Erreur de grammaire causant une erreur de syntaxe",
+                  "description": "Lorsqu'une erreur grammaticale entraîne par cohérence une erreur syntaxique apparente, seule l'erreur grammaticale est pénalisée si l'élève maintient la cohérence de son système fautif. La syntaxe est mise entre parenthèses.",
+                  "exemples": [{"erreur": "Chacune de ces personnes ont un profil où il est inscrit leur date de naissance", "type_erreur": "G (S) (S) (S)"}]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "synthese": {
+    "description": "Cette section synthétise les règles de comptabilisation des erreurs sous forme de tableaux récapitulatifs facilitant l'application uniforme des critères d'évaluation.",
+    "sequences_orthographe": {
+      "donneur_accord": {
+        "regle": "Ne pénaliser qu'une seule erreur pour tout groupe de mots dont aucun n'est accordé en genre et en nombre comme il devrait l'être, si même donneur",
+        "exemple": "Toute les filles sont partie → G -"
+      },
+      "phrase_graphique": {
+        "regle": "Ne pénaliser qu'une seule erreur lorsque les participes ou infinitifs coordonnés ou en énumération ne sont pas orthographiés correctement",
+        "exemple": "J'ai discuter et décider → G -",
+        "exception": "J'ai discuter et j'ai décider → G G (2 donneurs exprimés)"
+      },
+      "bloc_erreurs": {
+        "regle": "Ne pénaliser qu'une seule erreur par bloc pour la confusion sur le genre d'un mot commençant par voyelle ou h muet",
+        "exemple": "La belle argent [...] La grosse argent → G ---"
+      },
+      "tout_texte": {
+        "regle": "Ne pénaliser qu'une seule erreur pour la même erreur d'usage répétée dans tout le texte",
+        "exemple": "libertée [...] libertée [...] libertée → U (U) (U)"
+      }
+    },
+    "problemes_referent": {
+      "pronom_fonction": {
+        "regle": "Emploi erroné d'un déterminant référent ou pronom selon les caractéristiques de son antécédent → S",
+        "exemple": "Plusieurs élèves prétendent que la fin du secondaire est une étape importante pour son choix de carrière → leur → S"
+      },
+      "pronom_genre_nombre": {
+        "regle": "Choix du pronom selon les caractéristiques de l'antécédent (genre et nombre) → G, 1 fois par donneur",
+        "exemple": "Les valeurs des jeunes ne sont pas disparues. Elle change → Elles changent → G -"
+      }
+    }
+  }
+}

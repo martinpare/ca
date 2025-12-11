@@ -1,0 +1,1911 @@
+{
+  "processedAt": "2025-12-10T14:10:54.976Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_017.txt",
+    "originalText": "Préparation pour la future\r\n\r\nChers internautes,\r\n\r\nDans notre société tout le monde aime la nourriture, le goûts délicieuse et la besoin de manger pour voire le lendemain fait qu'on aiment manger, mais pour remplir notre bedaine et soutenir à notre goûts, nous gaspillons beaucoup d’aliments. Il y a des gens qui sont conscients et essayent de gaspiller moins mais plein de gens incluant moi pensent qu’au moment on n'est pas prêt de lutter contre le gaspillage en raison du préparation des aliments et les habitudes des consommateurs.\r\n\r\nPremièrement, chers publics, abordons les étapes de la chaîne d’approvisionnement alimentaire. Je suis sûr que vous aimez avoir de la nourriture sur votre assiette, mais avant de manger votre assiette il y a des étapes à suivre et chaque étapes consomment sans discerne. Ces étapes sont la production (manque de main-d’œuvre, aliments imparfaits laissés dans le champs), la transformation (équipements défectueux, erreurs humaines), le transport (aliments endommagés ou contaminés), la vente ou détail, la restauration et l’hôtellerie (normes esthétiques sévères, problème de gestion des stocks). (Table québécoise sur la saine alimentation, 2019) Chaque phase se répartit de la façon suivant : « Production : 10%, Transformation : 20%, Transport : 4%, Vente au détail restauration et hôtellerie : 19% et Consommation : 47% » (Table québécoise sur la saine alimentation, 2019) Pour sommer, avant que les aliments soient dans nos mains il y a des étapes qui gaspillent des aliments.\r\n\r\nDeuxièmement, chers lecteurs, approchons-nous de nos habitudes. Vous avez sûrement déjà vu des publicités qui veulent que vous achetez un, deux, trois, quatre, cinq ou même vingt produit. Les plateformes comme Flash Food, Food Hero ou SecondLif permettent d’acheter de la nourriture et des produits avec des prix bas, mais dont la date limite et proche. (RCYC-QUÉBEC, 2022) En plus, selon Mik von Massow, même après avoir acheter ces produits nous n’avons pas trop compris la date limite de conservation qui fait qu’après la date : « meilleur avant » les gens les jettent dans la poubelle. (",
+    "erreursCritere4": [
+      {
+        "text": "soutenir à",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe « soutenir » est un verbe transitif direct et ne doit pas être suivi de la préposition « à ».",
+        "suggestions": [
+          "soutenir"
+        ],
+        "ruleApplied": "4.1.2.2.2"
+      },
+      {
+        "text": "qu’au moment",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Calque de l'oral. Il faut utiliser une expression comme « qu'en ce moment » ou « qu'actuellement ».",
+        "suggestions": [
+          "qu'en ce moment"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "vente ou détail",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence d'un mot essentiel. L'expression correcte est « vente au détail ».",
+        "suggestions": [
+          "vente au détail"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "stocks).",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point final doit être placé après la parenthèse fermante de la référence, et non avant.",
+        "suggestions": [
+          "stocks.)"
+        ],
+        "ruleApplied": "4.2.2.1.2"
+      },
+      {
+        "text": "détail restauration",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence d'une virgule dans une énumération pour séparer les éléments.",
+        "suggestions": [
+          "détail, restauration"
+        ],
+        "ruleApplied": "4.2.2.10.1.a"
+      },
+      {
+        "text": "achetez",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution conjonctive « vouloir que » exige l'emploi du subjonctif. La forme correcte est « achetiez ».",
+        "suggestions": [
+          "achetiez"
+        ],
+        "ruleApplied": "4.1.2.2.3"
+      },
+      {
+        "text": "proche.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point final doit être placé après la parenthèse fermante de la référence, et non avant.",
+        "suggestions": [
+          "proche.)"
+        ],
+        "ruleApplied": "4.2.2.1.2"
+      },
+      {
+        "text": ":",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Présence erronée du deux-points qui brise la structure de la phrase. Il ne doit pas être placé entre la matrice et la subordonnée.",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.7.2"
+      },
+      {
+        "text": "avant »",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence d'une virgule pour isoler le complément de phrase « après la date “meilleur avant” » qui est placé en tête de la proposition principale.",
+        "suggestions": [
+          "avant »,"
+        ],
+        "ruleApplied": "4.2.2.10.1.m"
+      },
+      {
+        "text": "prêt de",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "La construction correcte est 'prêt à'. Il s'agit de la deuxième erreur de syntaxe dans la même phrase syntaxique.",
+        "suggestions": [
+          "prêt à"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "restauration",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Dans cette énumération, le déterminant 'la' doit être répété devant 'restauration'.",
+        "suggestions": [
+          "la restauration"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 7.5,
+      "note": "B"
+    },
+    "erreursCritere5": [
+      {
+        "text": "la future",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « futur » est masculin. L'accord du déterminant doit être au masculin singulier.",
+        "suggestions": [
+          "le futur"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "goûts",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant « le » est au masculin singulier. Le nom « goût » doit s'accorder en nombre avec son déterminant.",
+        "suggestions": [
+          "goût"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "délicieuse",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "L'adjectif « délicieuse » doit s'accorder en genre et en nombre avec le nom « goût » (masculin singulier). Le donneur d'accord est « goût ».",
+        "suggestions": [
+          "délicieux"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "la besoin",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « besoin » est masculin. L'accord du déterminant doit être au masculin singulier.",
+        "suggestions": [
+          "le besoin"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "voire",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion entre l'adverbe « voire » (et même) et le verbe à l'infinitif « voir ».",
+        "suggestions": [
+          "voir"
+        ],
+        "ruleApplied": "5.2.2"
+      },
+      {
+        "text": "aiment",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec le pronom « on », qui commande la 3e personne du singulier.",
+        "suggestions": [
+          "aime"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "goûts",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant « notre » est au singulier. Le nom « goût » doit s'accorder en nombre avec son déterminant.",
+        "suggestions": [
+          "goût"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "essayent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Barbarisme de conjugaison. La forme correcte du verbe « essayer » au présent de l'indicatif à la 3e personne du pluriel est « essaient ».",
+        "suggestions": [
+          "essaient"
+        ],
+        "ruleApplied": "5.3.2.1"
+      },
+      {
+        "text": "du préparation",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « préparation » est féminin. La contraction de « de + la » n'existe pas. Il faut utiliser « de la ».",
+        "suggestions": [
+          "de la préparation"
+        ],
+        "ruleApplied": "5.3.5"
+      },
+      {
+        "text": "étapes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant « chaque » est toujours suivi d'un nom au singulier.",
+        "suggestions": [
+          "étape"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "consomment",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "Le verbe doit s'accorder avec le sujet « chaque étape » (singulier). Le donneur d'accord est « chaque étape ».",
+        "suggestions": [
+          "consomme"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "discerne",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le verbe « discerne » et le nom « discernement ». L'expression correcte est « sans discernement ».",
+        "suggestions": [
+          "discernement"
+        ],
+        "ruleApplied": "5.3.3.2"
+      },
+      {
+        "text": "champs",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant « le » est au singulier. Le nom « champ » doit s'accorder en nombre avec son déterminant.",
+        "suggestions": [
+          "champ"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "suivant",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « suivant » doit s'accorder en genre et en nombre avec le nom « façon » (féminin singulier).",
+        "suggestions": [
+          "suivante"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "sommer",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion entre les homophones « sommer » (additionner, ordonner) et « résumer ». L'expression attendue est « Pour résumer ».",
+        "suggestions": [
+          "résumer"
+        ],
+        "ruleApplied": "5.2.2"
+      },
+      {
+        "text": "produit",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom doit s'accorder au pluriel avec le nombre « vingt » qui le précède.",
+        "suggestions": [
+          "produits"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "SecondLif",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe dans une dénomination. Le nom de la plateforme est « SecondLife ».",
+        "suggestions": [
+          "SecondLife"
+        ],
+        "ruleApplied": "5.1.2"
+      },
+      {
+        "text": "acheter",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif en « -er » et le participe passé en « -é ». Après l'auxiliaire « avoir », il faut utiliser le participe passé.",
+        "suggestions": [
+          "acheté"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "notre",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant possessif doit s'accorder en nombre avec le nom 'goûts' (pluriel).",
+        "suggestions": [
+          "nos"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "publics",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'public', lorsqu'il désigne l'audience, est généralement utilisé au singulier.",
+        "suggestions": [
+          "public"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "et",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre la conjonction de coordination 'et' et la forme verbale 'est' (verbe être, 3e personne du singulier).",
+        "suggestions": [
+          "est"
+        ],
+        "ruleApplied": "5.3.3.1"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 19,
+      "note": "E"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:06:27.217Z",
+    "endTimestamp": "2025-12-10T14:10:54.976Z",
+    "durationMs": 267759,
+    "durationFormatted": "04:27:759",
+    "cumulParPasse": [
+      {
+        "passe": 1,
+        "erreursCritere4": [
+          {
+            "text": "soutenir à",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le verbe « soutenir » est un verbe transitif direct et ne doit pas être suivi de la préposition « à ».",
+            "suggestions": [
+              "soutenir"
+            ],
+            "ruleApplied": "4.1.2.2.2"
+          },
+          {
+            "text": "qu’au moment",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Calque de l'oral. Il faut utiliser une expression comme « qu'en ce moment » ou « qu'actuellement ».",
+            "suggestions": [
+              "qu'en ce moment"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "vente ou détail",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Absence d'un mot essentiel. L'expression correcte est « vente au détail ».",
+            "suggestions": [
+              "vente au détail"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "stocks).",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Le point final doit être placé après la parenthèse fermante de la référence, et non avant.",
+            "suggestions": [
+              "stocks.)"
+            ],
+            "ruleApplied": "4.2.2.1.2"
+          },
+          {
+            "text": "détail restauration",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Absence d'une virgule dans une énumération pour séparer les éléments.",
+            "suggestions": [
+              "détail, restauration"
+            ],
+            "ruleApplied": "4.2.2.10.1.a"
+          },
+          {
+            "text": "achetez",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La locution conjonctive « vouloir que » exige l'emploi du subjonctif. La forme correcte est « achetiez ».",
+            "suggestions": [
+              "achetiez"
+            ],
+            "ruleApplied": "4.1.2.2.3"
+          },
+          {
+            "text": "proche.",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Le point final doit être placé après la parenthèse fermante de la référence, et non avant.",
+            "suggestions": [
+              "proche.)"
+            ],
+            "ruleApplied": "4.2.2.1.2"
+          },
+          {
+            "text": ":",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Présence erronée du deux-points qui brise la structure de la phrase. Il ne doit pas être placé entre la matrice et la subordonnée.",
+            "suggestions": [
+              ""
+            ],
+            "ruleApplied": "4.2.2.7.2"
+          },
+          {
+            "text": "avant »",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Absence d'une virgule pour isoler le complément de phrase « après la date “meilleur avant” » qui est placé en tête de la proposition principale.",
+            "suggestions": [
+              "avant »,"
+            ],
+            "ruleApplied": "4.2.2.10.1.m"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "la future",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom « futur » est masculin. L'accord du déterminant doit être au masculin singulier.",
+            "suggestions": [
+              "le futur"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "goûts",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le déterminant « le » est au masculin singulier. Le nom « goût » doit s'accorder en nombre avec son déterminant.",
+            "suggestions": [
+              "goût"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "délicieuse",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "_",
+            "description": "L'adjectif « délicieuse » doit s'accorder en genre et en nombre avec le nom « goût » (masculin singulier). Le donneur d'accord est « goût ».",
+            "suggestions": [
+              "délicieux"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "la besoin",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom « besoin » est masculin. L'accord du déterminant doit être au masculin singulier.",
+            "suggestions": [
+              "le besoin"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "voire",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Confusion entre l'adverbe « voire » (et même) et le verbe à l'infinitif « voir ».",
+            "suggestions": [
+              "voir"
+            ],
+            "ruleApplied": "5.2.2"
+          },
+          {
+            "text": "aiment",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe doit s'accorder avec le pronom « on », qui commande la 3e personne du singulier.",
+            "suggestions": [
+              "aime"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "goûts",
+            "occurenceIndex": 1,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le déterminant « notre » est au singulier. Le nom « goût » doit s'accorder en nombre avec son déterminant.",
+            "suggestions": [
+              "goût"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "essayent",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Barbarisme de conjugaison. La forme correcte du verbe « essayer » au présent de l'indicatif à la 3e personne du pluriel est « essaient ».",
+            "suggestions": [
+              "essaient"
+            ],
+            "ruleApplied": "5.3.2.1"
+          },
+          {
+            "text": "du préparation",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom « préparation » est féminin. La contraction de « de + la » n'existe pas. Il faut utiliser « de la ».",
+            "suggestions": [
+              "de la préparation"
+            ],
+            "ruleApplied": "5.3.5"
+          },
+          {
+            "text": "étapes",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le déterminant « chaque » est toujours suivi d'un nom au singulier.",
+            "suggestions": [
+              "étape"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "consomment",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "_",
+            "description": "Le verbe doit s'accorder avec le sujet « chaque étape » (singulier). Le donneur d'accord est « chaque étape ».",
+            "suggestions": [
+              "consomme"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "discerne",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre le verbe « discerne » et le nom « discernement ». L'expression correcte est « sans discernement ».",
+            "suggestions": [
+              "discernement"
+            ],
+            "ruleApplied": "5.3.3.2"
+          },
+          {
+            "text": "champs",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le déterminant « le » est au singulier. Le nom « champ » doit s'accorder en nombre avec son déterminant.",
+            "suggestions": [
+              "champ"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "suivant",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif « suivant » doit s'accorder en genre et en nombre avec le nom « façon » (féminin singulier).",
+            "suggestions": [
+              "suivante"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "sommer",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Confusion entre les homophones « sommer » (additionner, ordonner) et « résumer ». L'expression attendue est « Pour résumer ».",
+            "suggestions": [
+              "résumer"
+            ],
+            "ruleApplied": "5.2.2"
+          },
+          {
+            "text": "produit",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom doit s'accorder au pluriel avec le nombre « vingt » qui le précède.",
+            "suggestions": [
+              "produits"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "SecondLif",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Erreur d'orthographe dans une dénomination. Le nom de la plateforme est « SecondLife ».",
+            "suggestions": [
+              "SecondLife"
+            ],
+            "ruleApplied": "5.1.2"
+          },
+          {
+            "text": "acheter",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre l'infinitif en « -er » et le participe passé en « -é ». Après l'auxiliaire « avoir », il faut utiliser le participe passé.",
+            "suggestions": [
+              "acheté"
+            ],
+            "ruleApplied": "5.3.2.6"
+          }
+        ],
+        "totalErreursCritere4": 9,
+        "totalErreursCritere5": 18,
+        "scoreCritere4": {
+          "pointsPerdus": 6.5,
+          "note": "B"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 16,
+          "note": "D"
+        }
+      },
+      {
+        "passe": 2,
+        "erreursCritere4": [
+          {
+            "text": "soutenir à",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le verbe « soutenir » est un verbe transitif direct et ne doit pas être suivi de la préposition « à ».",
+            "suggestions": [
+              "soutenir"
+            ],
+            "ruleApplied": "4.1.2.2.2"
+          },
+          {
+            "text": "qu’au moment",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Calque de l'oral. Il faut utiliser une expression comme « qu'en ce moment » ou « qu'actuellement ».",
+            "suggestions": [
+              "qu'en ce moment"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "vente ou détail",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Absence d'un mot essentiel. L'expression correcte est « vente au détail ».",
+            "suggestions": [
+              "vente au détail"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "stocks).",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Le point final doit être placé après la parenthèse fermante de la référence, et non avant.",
+            "suggestions": [
+              "stocks.)"
+            ],
+            "ruleApplied": "4.2.2.1.2"
+          },
+          {
+            "text": "détail restauration",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Absence d'une virgule dans une énumération pour séparer les éléments.",
+            "suggestions": [
+              "détail, restauration"
+            ],
+            "ruleApplied": "4.2.2.10.1.a"
+          },
+          {
+            "text": "achetez",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La locution conjonctive « vouloir que » exige l'emploi du subjonctif. La forme correcte est « achetiez ».",
+            "suggestions": [
+              "achetiez"
+            ],
+            "ruleApplied": "4.1.2.2.3"
+          },
+          {
+            "text": "proche.",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Le point final doit être placé après la parenthèse fermante de la référence, et non avant.",
+            "suggestions": [
+              "proche.)"
+            ],
+            "ruleApplied": "4.2.2.1.2"
+          },
+          {
+            "text": ":",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Présence erronée du deux-points qui brise la structure de la phrase. Il ne doit pas être placé entre la matrice et la subordonnée.",
+            "suggestions": [
+              ""
+            ],
+            "ruleApplied": "4.2.2.7.2"
+          },
+          {
+            "text": "avant »",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Absence d'une virgule pour isoler le complément de phrase « après la date “meilleur avant” » qui est placé en tête de la proposition principale.",
+            "suggestions": [
+              "avant »,"
+            ],
+            "ruleApplied": "4.2.2.10.1.m"
+          },
+          {
+            "text": "prêt de",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "La construction correcte est 'prêt à'. Il s'agit de la deuxième erreur de syntaxe dans la même phrase syntaxique.",
+            "suggestions": [
+              "prêt à"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "ou",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'expression correcte est 'vente au détail'. La préposition 'au' est manquante.",
+            "suggestions": [
+              "au"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "restauration",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Dans cette énumération, le déterminant 'la' doit être répété devant 'restauration'.",
+            "suggestions": [
+              "la restauration"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "la future",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom « futur » est masculin. L'accord du déterminant doit être au masculin singulier.",
+            "suggestions": [
+              "le futur"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "goûts",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le déterminant « le » est au masculin singulier. Le nom « goût » doit s'accorder en nombre avec son déterminant.",
+            "suggestions": [
+              "goût"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "délicieuse",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "_",
+            "description": "L'adjectif « délicieuse » doit s'accorder en genre et en nombre avec le nom « goût » (masculin singulier). Le donneur d'accord est « goût ».",
+            "suggestions": [
+              "délicieux"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "la besoin",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom « besoin » est masculin. L'accord du déterminant doit être au masculin singulier.",
+            "suggestions": [
+              "le besoin"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "voire",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Confusion entre l'adverbe « voire » (et même) et le verbe à l'infinitif « voir ».",
+            "suggestions": [
+              "voir"
+            ],
+            "ruleApplied": "5.2.2"
+          },
+          {
+            "text": "aiment",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe doit s'accorder avec le pronom « on », qui commande la 3e personne du singulier.",
+            "suggestions": [
+              "aime"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "goûts",
+            "occurenceIndex": 1,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le déterminant « notre » est au singulier. Le nom « goût » doit s'accorder en nombre avec son déterminant.",
+            "suggestions": [
+              "goût"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "essayent",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Barbarisme de conjugaison. La forme correcte du verbe « essayer » au présent de l'indicatif à la 3e personne du pluriel est « essaient ».",
+            "suggestions": [
+              "essaient"
+            ],
+            "ruleApplied": "5.3.2.1"
+          },
+          {
+            "text": "du préparation",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom « préparation » est féminin. La contraction de « de + la » n'existe pas. Il faut utiliser « de la ».",
+            "suggestions": [
+              "de la préparation"
+            ],
+            "ruleApplied": "5.3.5"
+          },
+          {
+            "text": "étapes",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le déterminant « chaque » est toujours suivi d'un nom au singulier.",
+            "suggestions": [
+              "étape"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "consomment",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "_",
+            "description": "Le verbe doit s'accorder avec le sujet « chaque étape » (singulier). Le donneur d'accord est « chaque étape ».",
+            "suggestions": [
+              "consomme"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "discerne",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre le verbe « discerne » et le nom « discernement ». L'expression correcte est « sans discernement ».",
+            "suggestions": [
+              "discernement"
+            ],
+            "ruleApplied": "5.3.3.2"
+          },
+          {
+            "text": "champs",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le déterminant « le » est au singulier. Le nom « champ » doit s'accorder en nombre avec son déterminant.",
+            "suggestions": [
+              "champ"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "suivant",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif « suivant » doit s'accorder en genre et en nombre avec le nom « façon » (féminin singulier).",
+            "suggestions": [
+              "suivante"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "sommer",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Confusion entre les homophones « sommer » (additionner, ordonner) et « résumer ». L'expression attendue est « Pour résumer ».",
+            "suggestions": [
+              "résumer"
+            ],
+            "ruleApplied": "5.2.2"
+          },
+          {
+            "text": "produit",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom doit s'accorder au pluriel avec le nombre « vingt » qui le précède.",
+            "suggestions": [
+              "produits"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "SecondLif",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Erreur d'orthographe dans une dénomination. Le nom de la plateforme est « SecondLife ».",
+            "suggestions": [
+              "SecondLife"
+            ],
+            "ruleApplied": "5.1.2"
+          },
+          {
+            "text": "acheter",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre l'infinitif en « -er » et le participe passé en « -é ». Après l'auxiliaire « avoir », il faut utiliser le participe passé.",
+            "suggestions": [
+              "acheté"
+            ],
+            "ruleApplied": "5.3.2.6"
+          },
+          {
+            "text": "future",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom 'futur' est masculin. L'adjectif doit s'accorder en genre.",
+            "suggestions": [
+              "futur"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "le",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le déterminant doit s'accorder en nombre avec le nom 'goûts' (masculin pluriel).",
+            "suggestions": [
+              "les"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "la",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le déterminant doit s'accorder en genre avec le nom 'besoin' (masculin singulier).",
+            "suggestions": [
+              "le"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "voire",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre l'adverbe 'voire' et le verbe à l'infinitif 'voir'.",
+            "suggestions": [
+              "voir"
+            ],
+            "ruleApplied": "5.3.3.1"
+          },
+          {
+            "text": "notre",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le déterminant possessif doit s'accorder en nombre avec le nom 'goûts' (pluriel).",
+            "suggestions": [
+              "nos"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "du",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom 'préparation' est féminin. Il faut utiliser la contraction 'de la'.",
+            "suggestions": [
+              "de la"
+            ],
+            "ruleApplied": "5.3.5"
+          },
+          {
+            "text": "publics",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom 'public', lorsqu'il désigne l'audience, est généralement utilisé au singulier.",
+            "suggestions": [
+              "public"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "discerne",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Confusion entre le verbe 'discerne' et le nom 'discernement'.",
+            "suggestions": [
+              "discernement"
+            ],
+            "ruleApplied": "5.2.1.4"
+          },
+          {
+            "text": "et",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Confusion entre la conjonction de coordination 'et' et la forme verbale 'est' (verbe être, 3e personne du singulier).",
+            "suggestions": [
+              "est"
+            ],
+            "ruleApplied": "5.3.3.1"
+          }
+        ],
+        "totalErreursCritere4": 12,
+        "totalErreursCritere5": 27,
+        "scoreCritere4": {
+          "pointsPerdus": 8.5,
+          "note": "B"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 25,
+          "note": "E"
+        }
+      }
+    ],
+    "erreursCritere4AvantAnalyseIA": [
+      {
+        "text": "soutenir à",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe « soutenir » est un verbe transitif direct et ne doit pas être suivi de la préposition « à ».",
+        "suggestions": [
+          "soutenir"
+        ],
+        "ruleApplied": "4.1.2.2.2"
+      },
+      {
+        "text": "qu’au moment",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Calque de l'oral. Il faut utiliser une expression comme « qu'en ce moment » ou « qu'actuellement ».",
+        "suggestions": [
+          "qu'en ce moment"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "vente ou détail",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence d'un mot essentiel. L'expression correcte est « vente au détail ».",
+        "suggestions": [
+          "vente au détail"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "stocks).",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point final doit être placé après la parenthèse fermante de la référence, et non avant.",
+        "suggestions": [
+          "stocks.)"
+        ],
+        "ruleApplied": "4.2.2.1.2"
+      },
+      {
+        "text": "détail restauration",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence d'une virgule dans une énumération pour séparer les éléments.",
+        "suggestions": [
+          "détail, restauration"
+        ],
+        "ruleApplied": "4.2.2.10.1.a"
+      },
+      {
+        "text": "achetez",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution conjonctive « vouloir que » exige l'emploi du subjonctif. La forme correcte est « achetiez ».",
+        "suggestions": [
+          "achetiez"
+        ],
+        "ruleApplied": "4.1.2.2.3"
+      },
+      {
+        "text": "proche.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point final doit être placé après la parenthèse fermante de la référence, et non avant.",
+        "suggestions": [
+          "proche.)"
+        ],
+        "ruleApplied": "4.2.2.1.2"
+      },
+      {
+        "text": ":",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Présence erronée du deux-points qui brise la structure de la phrase. Il ne doit pas être placé entre la matrice et la subordonnée.",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.7.2"
+      },
+      {
+        "text": "avant »",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence d'une virgule pour isoler le complément de phrase « après la date “meilleur avant” » qui est placé en tête de la proposition principale.",
+        "suggestions": [
+          "avant »,"
+        ],
+        "ruleApplied": "4.2.2.10.1.m"
+      },
+      {
+        "text": "prêt de",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "La construction correcte est 'prêt à'. Il s'agit de la deuxième erreur de syntaxe dans la même phrase syntaxique.",
+        "suggestions": [
+          "prêt à"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "ou",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression correcte est 'vente au détail'. La préposition 'au' est manquante.",
+        "suggestions": [
+          "au"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "restauration",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Dans cette énumération, le déterminant 'la' doit être répété devant 'restauration'.",
+        "suggestions": [
+          "la restauration"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      }
+    ],
+    "erreursCritere5AvantAnalyseIA": [
+      {
+        "text": "la future",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « futur » est masculin. L'accord du déterminant doit être au masculin singulier.",
+        "suggestions": [
+          "le futur"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "goûts",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant « le » est au masculin singulier. Le nom « goût » doit s'accorder en nombre avec son déterminant.",
+        "suggestions": [
+          "goût"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "délicieuse",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "L'adjectif « délicieuse » doit s'accorder en genre et en nombre avec le nom « goût » (masculin singulier). Le donneur d'accord est « goût ».",
+        "suggestions": [
+          "délicieux"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "la besoin",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « besoin » est masculin. L'accord du déterminant doit être au masculin singulier.",
+        "suggestions": [
+          "le besoin"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "voire",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion entre l'adverbe « voire » (et même) et le verbe à l'infinitif « voir ».",
+        "suggestions": [
+          "voir"
+        ],
+        "ruleApplied": "5.2.2"
+      },
+      {
+        "text": "aiment",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec le pronom « on », qui commande la 3e personne du singulier.",
+        "suggestions": [
+          "aime"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "goûts",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant « notre » est au singulier. Le nom « goût » doit s'accorder en nombre avec son déterminant.",
+        "suggestions": [
+          "goût"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "essayent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Barbarisme de conjugaison. La forme correcte du verbe « essayer » au présent de l'indicatif à la 3e personne du pluriel est « essaient ».",
+        "suggestions": [
+          "essaient"
+        ],
+        "ruleApplied": "5.3.2.1"
+      },
+      {
+        "text": "du préparation",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « préparation » est féminin. La contraction de « de + la » n'existe pas. Il faut utiliser « de la ».",
+        "suggestions": [
+          "de la préparation"
+        ],
+        "ruleApplied": "5.3.5"
+      },
+      {
+        "text": "étapes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant « chaque » est toujours suivi d'un nom au singulier.",
+        "suggestions": [
+          "étape"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "consomment",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "Le verbe doit s'accorder avec le sujet « chaque étape » (singulier). Le donneur d'accord est « chaque étape ».",
+        "suggestions": [
+          "consomme"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "discerne",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le verbe « discerne » et le nom « discernement ». L'expression correcte est « sans discernement ».",
+        "suggestions": [
+          "discernement"
+        ],
+        "ruleApplied": "5.3.3.2"
+      },
+      {
+        "text": "champs",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant « le » est au singulier. Le nom « champ » doit s'accorder en nombre avec son déterminant.",
+        "suggestions": [
+          "champ"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "suivant",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « suivant » doit s'accorder en genre et en nombre avec le nom « façon » (féminin singulier).",
+        "suggestions": [
+          "suivante"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "sommer",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion entre les homophones « sommer » (additionner, ordonner) et « résumer ». L'expression attendue est « Pour résumer ».",
+        "suggestions": [
+          "résumer"
+        ],
+        "ruleApplied": "5.2.2"
+      },
+      {
+        "text": "produit",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom doit s'accorder au pluriel avec le nombre « vingt » qui le précède.",
+        "suggestions": [
+          "produits"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "SecondLif",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe dans une dénomination. Le nom de la plateforme est « SecondLife ».",
+        "suggestions": [
+          "SecondLife"
+        ],
+        "ruleApplied": "5.1.2"
+      },
+      {
+        "text": "acheter",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif en « -er » et le participe passé en « -é ». Après l'auxiliaire « avoir », il faut utiliser le participe passé.",
+        "suggestions": [
+          "acheté"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "future",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'futur' est masculin. L'adjectif doit s'accorder en genre.",
+        "suggestions": [
+          "futur"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "le",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant doit s'accorder en nombre avec le nom 'goûts' (masculin pluriel).",
+        "suggestions": [
+          "les"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "la",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant doit s'accorder en genre avec le nom 'besoin' (masculin singulier).",
+        "suggestions": [
+          "le"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "voire",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'adverbe 'voire' et le verbe à l'infinitif 'voir'.",
+        "suggestions": [
+          "voir"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "text": "notre",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant possessif doit s'accorder en nombre avec le nom 'goûts' (pluriel).",
+        "suggestions": [
+          "nos"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "du",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'préparation' est féminin. Il faut utiliser la contraction 'de la'.",
+        "suggestions": [
+          "de la"
+        ],
+        "ruleApplied": "5.3.5"
+      },
+      {
+        "text": "publics",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'public', lorsqu'il désigne l'audience, est généralement utilisé au singulier.",
+        "suggestions": [
+          "public"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "discerne",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion entre le verbe 'discerne' et le nom 'discernement'.",
+        "suggestions": [
+          "discernement"
+        ],
+        "ruleApplied": "5.2.1.4"
+      },
+      {
+        "text": "et",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre la conjonction de coordination 'et' et la forme verbale 'est' (verbe être, 3e personne du singulier).",
+        "suggestions": [
+          "est"
+        ],
+        "ruleApplied": "5.3.3.1"
+      }
+    ],
+    "analyseIADuplicatas": {
+      "critere4": {
+        "analyse": {
+          "totalErreursCritere4": 12,
+          "totalErreursCritere5": 0,
+          "duplicatasCritere4": 1,
+          "duplicatasCritere5": 0
+        },
+        "duplicatasCritere4": [
+          {
+            "groupe": 1,
+            "confiance": 95,
+            "raison": "Même erreur de construction (expression 'vente au détail'). L'erreur à l'index 2 est plus complète et englobe celle à l'index 10.",
+            "erreurs": [
+              {
+                "index": 2,
+                "text": "vente ou détail",
+                "garder": true
+              },
+              {
+                "index": 10,
+                "text": "ou",
+                "garder": false
+              }
+            ]
+          }
+        ],
+        "duplicatasCritere5": [],
+        "erreursUniquesCritere4": [
+          {
+            "index": 0,
+            "text": "soutenir à",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 1,
+            "text": "qu’au moment",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 3,
+            "text": "stocks).",
+            "raison": "Erreur de ponctuation distincte. Bien que la règle soit la même que pour l'erreur 6, le texte concerné est différent."
+          },
+          {
+            "index": 4,
+            "text": "détail restauration",
+            "raison": "Erreur de ponctuation (virgule manquante) distincte de l'erreur de syntaxe (déterminant manquant) au même endroit (erreur 11)."
+          },
+          {
+            "index": 5,
+            "text": "achetez",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 6,
+            "text": "proche.",
+            "raison": "Erreur de ponctuation distincte. Bien que la règle soit la même que pour l'erreur 3, le texte concerné est différent."
+          },
+          {
+            "index": 7,
+            "text": ":",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 8,
+            "text": "avant »",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 9,
+            "text": "prêt de",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 11,
+            "text": "restauration",
+            "raison": "Erreur de syntaxe (déterminant manquant) distincte de l'erreur de ponctuation (virgule manquante) au même endroit (erreur 4)."
+          }
+        ],
+        "erreursUniquesCritere5": [],
+        "recommandations": {
+          "erreursAConserverCritere4": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            11
+          ],
+          "erreursAConserverCritere5": [],
+          "erreursASupprimer": {
+            "critere4": [
+              10
+            ],
+            "critere5": []
+          }
+        }
+      },
+      "critere5": {
+        "analyse": {
+          "totalErreursCritere4": 0,
+          "totalErreursCritere5": 27,
+          "duplicatasCritere4": 0,
+          "duplicatasCritere5": 6
+        },
+        "duplicatasCritere4": [],
+        "duplicatasCritere5": [
+          {
+            "groupe": 1,
+            "confiance": 95,
+            "raison": "Même erreur de genre pour le mot 'futur', texte englobant et même position.",
+            "erreurs": [
+              {
+                "index": 0,
+                "text": "la future",
+                "garder": true
+              },
+              {
+                "index": 18,
+                "text": "future",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 2,
+            "confiance": 90,
+            "raison": "Même erreur d'accord déterminant-nom ('le goûts') décrite sous deux angles à la même position.",
+            "erreurs": [
+              {
+                "index": 1,
+                "text": "goûts",
+                "garder": true
+              },
+              {
+                "index": 19,
+                "text": "le",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 3,
+            "confiance": 95,
+            "raison": "Même erreur de genre pour le mot 'besoin', texte englobant et même position.",
+            "erreurs": [
+              {
+                "index": 3,
+                "text": "la besoin",
+                "garder": true
+              },
+              {
+                "index": 20,
+                "text": "la",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 4,
+            "confiance": 100,
+            "raison": "Texte, position et description sémantique identiques (confusion voire/voir).",
+            "erreurs": [
+              {
+                "index": 4,
+                "text": "voire",
+                "garder": true
+              },
+              {
+                "index": 21,
+                "text": "voire",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 5,
+            "confiance": 95,
+            "raison": "Même erreur d'article pour le nom 'préparation', texte englobant et même position.",
+            "erreurs": [
+              {
+                "index": 8,
+                "text": "du préparation",
+                "garder": true
+              },
+              {
+                "index": 23,
+                "text": "du",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 6,
+            "confiance": 100,
+            "raison": "Texte, position et description sémantique identiques (confusion discerne/discernement).",
+            "erreurs": [
+              {
+                "index": 11,
+                "text": "discerne",
+                "garder": true
+              },
+              {
+                "index": 25,
+                "text": "discerne",
+                "garder": false
+              }
+            ]
+          }
+        ],
+        "erreursUniquesCritere4": [],
+        "erreursUniquesCritere5": [
+          {
+            "index": 2,
+            "text": "délicieuse",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 5,
+            "text": "aiment",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 6,
+            "text": "goûts",
+            "raison": "Aucun duplicata trouvé (occurrence différente)"
+          },
+          {
+            "index": 7,
+            "text": "essayent",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 9,
+            "text": "étapes",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 10,
+            "text": "consomment",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 12,
+            "text": "champs",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 13,
+            "text": "suivant",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 14,
+            "text": "sommer",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 15,
+            "text": "produit",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 16,
+            "text": "SecondLif",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 17,
+            "text": "acheter",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 22,
+            "text": "notre",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 24,
+            "text": "publics",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 26,
+            "text": "et",
+            "raison": "Aucun duplicata trouvé"
+          }
+        ],
+        "recommandations": {
+          "erreursAConserverCritere4": [],
+          "erreursAConserverCritere5": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            22,
+            24,
+            26
+          ],
+          "erreursASupprimer": {
+            "critere4": [],
+            "critere5": [
+              18,
+              19,
+              20,
+              21,
+              23,
+              25
+            ]
+          }
+        }
+      }
+    }
+  }
+}

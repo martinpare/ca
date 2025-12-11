@@ -1,17 +1,786 @@
 <template>
-  <q-page class="flex flex-center">
-    <img
-      alt="Quasar logo"
-      src="~assets/quasar-logo-vertical.svg"
-      style="width: 200px; height: 200px"
-    />
+  <q-page class="q-pa-md">
+    <div class="row justify-center">
+      <div class="col-12 col-md-10">
+        <!-- Section Traitement en Lot -->
+        <q-card class="q-mt-md">
+          <q-card-section>
+            <div class="text-h5">Traitement en Lot - Correction de Textes</div>
+            <div class="text-subtitle2">
+              Traiter tous les fichiers du répertoire 'finaux' en parallèle
+            </div>
+          </q-card-section>
+
+          <q-separator />
+
+          <q-card-section>
+            <!-- Sélection du Modèle IA, Prompt et Nombre de passes -->
+            <div class="row q-gutter-md q-mb-md items-end">
+              <q-select
+                v-model="selectedModel"
+                :options="availableModels"
+                option-value="id"
+                option-label="label"
+                emit-value
+                map-options
+                label="Modèle IA"
+                outlined
+                dense
+                :disable="batchLoading"
+                @update:model-value="changeModel"
+                style="min-width: 180px"
+              />
+              <q-select
+                v-model="selectedPrompt"
+                :options="availablePrompts"
+                option-value="id"
+                option-label="label"
+                emit-value
+                map-options
+                label="Prompt de correction"
+                outlined
+                dense
+                :disable="batchLoading"
+                @update:model-value="changePrompt"
+                style="min-width: 350px"
+              />
+              <q-select
+                v-model="nombrePasses"
+                :options="passesOptions"
+                option-value="value"
+                option-label="label"
+                emit-value
+                map-options
+                label="Nombre de passes"
+                outlined
+                dense
+                :disable="batchLoading"
+                @update:model-value="changeNombrePasses"
+                style="min-width: 150px"
+              />
+            </div>
+            <div class="text-caption text-grey-7 q-mb-md">
+              Sélectionnez le modèle IA, le prompt et le nombre de passes pour l'analyse des textes
+            </div>
+
+            <!-- Checkbox Mode Simulation -->
+            <div class="q-mb-md">
+              <q-checkbox
+                v-model="simulationMode"
+                label="Mode Simulation (ne consomme pas de quota API)"
+                color="primary"
+                :disable="batchLoading"
+                @update:model-value="toggleSimulationMode"
+              />
+              <div class="text-caption text-grey-7 q-ml-lg">
+                En mode simulation, les appels API sont simulés avec des réponses Lorem Ipsum
+              </div>
+            </div>
+
+            <div class="row q-gutter-md q-mb-md items-center">
+              <q-select
+                v-model="selectedFileName"
+                :options="fileOptions"
+                option-value="value"
+                option-label="label"
+                emit-value
+                map-options
+                label="Fichier à analyser"
+                outlined
+                dense
+                :disable="batchLoading"
+                style="min-width: 250px"
+                use-input
+                input-debounce="0"
+                @filter="filterFiles"
+              />
+              <q-btn
+                label="Analyser ce fichier"
+                color="accent"
+                icon="science"
+                :loading="batchLoading"
+                :disable="batchLoading"
+                @click="processSelectedFile"
+              />
+              <q-btn
+                label="Traiter tous (Parallèle)"
+                color="primary"
+                icon="playlist_play"
+                :loading="batchLoading"
+                :disable="batchLoading"
+                @click="processBatchParallel"
+              />
+              <q-btn
+                label="Traiter en séquence"
+                color="secondary"
+                icon="format_list_numbered"
+                :loading="batchLoading"
+                :disable="batchLoading"
+                @click="processBatchSequential"
+              />
+            </div>
+
+            <div class="row q-gutter-md">
+              <q-btn
+                label="Arrêter"
+                color="negative"
+                icon="stop"
+                :disable="!batchLoading"
+                @click="stopProcessing"
+              />
+              <q-btn
+                label="Réinitialiser"
+                color="warning"
+                icon="refresh"
+                :disable="batchLoading || !batchResults"
+                @click="resetBatch"
+              />
+              <q-btn
+                label="Voir les résultats"
+                color="info"
+                icon="summarize"
+                :disable="!batchResults"
+                @click="showResults = true"
+              />
+            </div>
+
+            <div v-if="batchProgress" class="q-mt-md">
+              <div class="row items-center q-mb-sm">
+                <div class="text-subtitle2">
+                  Progression: {{ batchProgress.current }} / {{ batchProgress.total }} étapes
+                  ({{ batchProgress.percentage }}%)
+                </div>
+                <q-space />
+                <q-chip dense color="deep-purple" text-color="white" icon="timer">
+                  {{ formatElapsedTime(elapsedTime) }}
+                </q-chip>
+              </div>
+
+              <!-- Liste des fichiers en cours (mode parallèle) -->
+              <div v-if="batchProgress.activeFiles && batchProgress.activeFiles.length > 0" class="q-mb-md">
+                <div class="text-caption text-weight-bold q-mb-xs">Fichiers en traitement:</div>
+                <div class="row q-gutter-xs">
+                  <q-chip
+                    v-for="file in batchProgress.activeFiles"
+                    :key="file.name"
+                    :color="file.status === 'success' ? 'positive' : file.status === 'error' ? 'negative' : file.status === 'processing' ? 'primary' : 'grey'"
+                    text-color="white"
+                    dense
+                    size="sm"
+                  >
+                    <q-icon
+                      :name="file.status === 'success' ? 'check_circle' : file.status === 'error' ? 'error' : file.status === 'processing' ? 'sync' : 'hourglass_empty'"
+                      class="q-mr-xs"
+                      :class="{ 'animate-spin': file.status === 'processing' }"
+                    />
+                    {{ file.name.substring(0, 15) }}{{ file.name.length > 15 ? '...' : '' }}
+                    <q-tooltip>{{ file.name }} - {{ file.stepLabel }}</q-tooltip>
+                  </q-chip>
+                </div>
+              </div>
+
+              <!-- Mode séquentiel: un seul fichier -->
+              <div v-else class="text-caption q-mb-sm">
+                Fichier en cours: {{ batchProgress.currentFile }}
+              </div>
+
+              <div v-if="batchProgress.stepInfo" class="text-caption q-mb-sm text-primary">
+                <q-icon name="sync" class="q-mr-xs" />
+                {{ batchProgress.stepInfo.stepLabel }}
+              </div>
+              <q-linear-progress
+                :value="batchProgress.percentage / 100"
+                color="primary"
+                size="20px"
+              />
+            </div>
+          </q-card-section>
+
+          <q-card-section v-if="batchResults">
+            <q-banner class="bg-positive text-white" rounded>
+              <template v-slot:avatar>
+                <q-icon name="check_circle" color="white" />
+              </template>
+              <div class="text-subtitle1">Traitement terminé!</div>
+              <div>
+                Total: {{ batchResults.total }} | Succès:
+                {{ batchResults.successful }} | Erreurs:
+                {{ batchResults.failed }}
+                <span v-if="batchResults.cancelled > 0">
+                  | Annulés: {{ batchResults.cancelled }}
+                </span>
+              </div>
+            </q-banner>
+          </q-card-section>
+        </q-card>
+
+      </div>
+    </div>
+
+    <!-- Dialog pour afficher les résultats -->
+    <q-dialog v-model="showResults" maximized>
+      <q-card>
+        <q-card-section class="row items-center q-pb-none">
+          <div class="text-h6">Résultats des Corrections</div>
+          <q-space />
+          <q-btn icon="close" flat round dense v-close-popup />
+        </q-card-section>
+
+        <q-card-section class="q-pt-none" style="max-height: 80vh; overflow-y: auto">
+          <div v-if="batchResults && batchResults.results">
+            <q-list separator>
+              <q-item
+                v-for="(result, index) in batchResults.results"
+                :key="index"
+              >
+                <q-item-section>
+                  <q-item-label class="text-weight-bold">
+                    {{ result.fileName }}
+                    <q-badge
+                      :color="result.status === 'success' ? 'positive' : 'negative'"
+                      :label="result.status"
+                    />
+                  </q-item-label>
+
+                  <!-- Informations de timing -->
+                  <div class="q-mt-sm q-mb-md">
+                    <q-chip dense color="blue-grey-2" text-color="black" icon="schedule">
+                      Début: {{ new Date(result.startTimestamp).toLocaleTimeString('fr-FR') }}
+                    </q-chip>
+                    <q-chip dense color="blue-grey-2" text-color="black" icon="event">
+                      Fin: {{ new Date(result.endTimestamp).toLocaleTimeString('fr-FR') }}
+                    </q-chip>
+                    <q-chip dense color="primary" text-color="white" icon="timer">
+                      Durée: {{ result.durationFormatted }}
+                    </q-chip>
+                  </div>
+
+                  <div v-if="result.status === 'success'" class="q-mt-md">
+                    <div class="text-subtitle2">Texte original:</div>
+                    <q-card class="bg-grey-2 q-pa-sm q-mb-md">
+                      <div style="white-space: pre-wrap; max-height: 200px; overflow-y: auto">
+                        {{ result.originalText }}
+                      </div>
+                    </q-card>
+
+                    <div class="text-subtitle2">Texte corrigé:</div>
+                    <q-card class="bg-light-green-1 q-pa-sm">
+                      <div style="white-space: pre-wrap; max-height: 200px; overflow-y: auto">
+                        {{ result.correctedText }}
+                      </div>
+                    </q-card>
+                  </div>
+
+                  <div v-else class="q-mt-md">
+                    <q-banner class="bg-negative text-white">
+                      Erreur: {{ result.error }}
+                    </q-banner>
+                  </div>
+                </q-item-section>
+              </q-item>
+            </q-list>
+          </div>
+        </q-card-section>
+
+        <q-card-actions align="right">
+          <q-btn
+            label="Télécharger JSON"
+            color="primary"
+            icon="download"
+            @click="downloadResults"
+          />
+          <q-btn label="Fermer" color="secondary" v-close-popup />
+        </q-card-actions>
+      </q-card>
+    </q-dialog>
   </q-page>
 </template>
 
 <script>
-import { defineComponent } from 'vue'
+import { defineComponent, ref } from 'vue';
+import { useQuasar } from 'quasar';
+import batchProcessor from 'src/services/batchProcessor';
 
 export default defineComponent({
   name: 'IndexPage',
-})
+
+  setup() {
+    const $q = useQuasar();
+    const batchLoading = ref(false);
+    const batchProgress = ref(null);
+    const batchResults = ref(null);
+    const showResults = ref(false);
+    const simulationMode = ref(false); // Mode réel par défaut
+
+    // Timer pour le temps d'analyse
+    const elapsedTime = ref(0);
+    const timerInterval = ref(null);
+
+    const formatElapsedTime = (seconds) => {
+      const mins = Math.floor(seconds / 60);
+      const secs = seconds % 60;
+      return `${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
+    };
+
+    const startTimer = () => {
+      elapsedTime.value = 0;
+      timerInterval.value = setInterval(() => {
+        elapsedTime.value++;
+      }, 1000);
+    };
+
+    const stopTimer = () => {
+      if (timerInterval.value) {
+        clearInterval(timerInterval.value);
+        timerInterval.value = null;
+      }
+    };
+
+    // Sélection du fichier à analyser
+    const selectedFileName = ref('');
+    const fileOptions = ref([]);
+    const loadedFiles = ref([]); // Cache des fichiers chargés
+    const allFileOptions = ref([]); // Toutes les options pour le filtre
+
+    // Gestion des modèles IA
+    const availableModels = ref(batchProcessor.getAvailableModels());
+    const selectedModel = ref(batchProcessor.getSelectedModel());
+
+    const changeModel = (modelId) => {
+      batchProcessor.setSelectedModel(modelId);
+      $q.notify({
+        type: 'info',
+        message: `Modèle IA changé: ${availableModels.value.find(m => m.id === modelId)?.label}`,
+        position: 'top',
+      });
+    };
+
+    // Gestion des prompts
+    const availablePrompts = ref(batchProcessor.getAvailablePrompts());
+    const selectedPrompt = ref(batchProcessor.getSelectedPrompt());
+
+    const changePrompt = (promptId) => {
+      batchProcessor.setSelectedPrompt(promptId);
+      $q.notify({
+        type: 'info',
+        message: `Prompt changé: ${availablePrompts.value.find(p => p.id === promptId)?.label}`,
+        position: 'top',
+      });
+    };
+
+    // Gestion du nombre de passes
+    const nombrePasses = ref(batchProcessor.getNombrePasses());
+    const passesOptions = ref([
+      { label: '1 passe', value: 1 },
+      { label: '2 passes', value: 2 },
+      { label: '3 passes', value: 3 },
+      { label: '4 passes', value: 4 },
+      { label: '5 passes', value: 5 },
+    ]);
+
+    const changeNombrePasses = (value) => {
+      batchProcessor.setNombrePasses(value);
+      $q.notify({
+        type: 'info',
+        message: `Nombre de passes: ${value}`,
+        position: 'top',
+      });
+    };
+
+    const loadTextFiles = async () => {
+      try {
+        // Liste des fichiers dans src/finaux
+        const files = [];
+
+        // Utiliser import.meta.glob pour charger tous les fichiers .txt
+        const modules = import.meta.glob('/src/finaux/*.txt', {
+          as: 'raw',
+          eager: true
+        });
+
+        for (const [path, content] of Object.entries(modules)) {
+          const fileName = path.split('/').pop();
+          files.push({
+            name: fileName,
+            content: content,
+          });
+        }
+
+        return files;
+      } catch (error) {
+        console.error('Erreur lors du chargement des fichiers:', error);
+        throw error;
+      }
+    };
+
+    // Charger la liste des fichiers au démarrage
+    const initFileList = async () => {
+      try {
+        const files = await loadTextFiles();
+        loadedFiles.value = files;
+        // Trier par nom de fichier
+        files.sort((a, b) => a.name.localeCompare(b.name));
+        // Créer les options pour le dropdown
+        const options = files.map(f => ({
+          label: f.name.replace('.txt', ''),
+          value: f.name
+        }));
+        fileOptions.value = options;
+        allFileOptions.value = options; // Sauvegarder pour le filtre
+        // Sélectionner le premier fichier par défaut
+        if (files.length > 0) {
+          selectedFileName.value = files[0].name;
+        }
+        console.log(`${files.length} fichiers chargés`);
+      } catch (err) {
+        console.error('Erreur lors du chargement de la liste des fichiers:', err);
+      }
+    };
+
+    // Appeler au montage du composant
+    initFileList();
+
+    const processSelectedFile = async () => {
+      batchLoading.value = true;
+      batchProgress.value = null;
+      batchResults.value = null;
+      // Définir le nom du fichier Excel pour cette session
+      excelFileName.value = `resultats_${new Date().toISOString().replace(/[:.]/g, '-')}.xlsx`;
+      startTimer();
+
+      try {
+        // Vérifier qu'un fichier est sélectionné
+        if (!selectedFileName.value) {
+          $q.notify({
+            type: 'warning',
+            message: 'Veuillez sélectionner un fichier à analyser',
+            position: 'top',
+          });
+          return;
+        }
+
+        // Trouver le fichier sélectionné dans le cache
+        const file = loadedFiles.value.find(f => f.name === selectedFileName.value);
+        if (!file) {
+          $q.notify({
+            type: 'warning',
+            message: `Le fichier ${selectedFileName.value} n'a pas été trouvé`,
+            position: 'top',
+          });
+          return;
+        }
+
+        // Traiter uniquement le fichier sélectionné
+        const selectedFile = [file];
+
+        $q.notify({
+          type: 'info',
+          message: `Analyse du fichier: ${file.name}`,
+          position: 'top',
+        });
+
+        const results = await batchProcessor.processAllFiles(
+          selectedFile,
+          (progress) => {
+            batchProgress.value = progress;
+          },
+          downloadSingleResult
+        );
+
+        batchResults.value = results;
+
+        $q.notify({
+          type: 'positive',
+          message: `Analyse terminée! Statut: ${results.successful > 0 ? 'Succès' : 'Erreur'}`,
+          position: 'top',
+        });
+      } catch (err) {
+        console.error('Erreur lors de l\'analyse:', err);
+        $q.notify({
+          type: 'negative',
+          message: 'Erreur lors de l\'analyse',
+          caption: err.message,
+          position: 'top',
+        });
+      } finally {
+        stopTimer();
+        batchLoading.value = false;
+      }
+    };
+
+    const processBatchParallel = async () => {
+      batchLoading.value = true;
+      batchProgress.value = null;
+      batchResults.value = null;
+      // Définir le nom du fichier Excel pour cette session
+      excelFileName.value = `resultats_${new Date().toISOString().replace(/[:.]/g, '-')}.xlsx`;
+      startTimer();
+
+      try {
+        const files = await loadTextFiles();
+
+        if (files.length === 0) {
+          $q.notify({
+            type: 'warning',
+            message: 'Aucun fichier trouvé dans le répertoire finaux',
+            position: 'top',
+          });
+          return;
+        }
+
+        $q.notify({
+          type: 'info',
+          message: `Traitement de ${files.length} fichiers en parallèle...`,
+          position: 'top',
+        });
+
+        const results = await batchProcessor.processAllFiles(
+          files,
+          (progress) => {
+            batchProgress.value = progress;
+          },
+          downloadSingleResult
+        );
+
+        batchResults.value = results;
+
+        $q.notify({
+          type: 'positive',
+          message: `Traitement terminé! ${results.successful} succès, ${results.failed} erreurs`,
+          position: 'top',
+        });
+      } catch (err) {
+        console.error('Erreur lors du traitement en lot:', err);
+        $q.notify({
+          type: 'negative',
+          message: 'Erreur lors du traitement en lot',
+          caption: err.message,
+          position: 'top',
+        });
+      } finally {
+        stopTimer();
+        batchLoading.value = false;
+      }
+    };
+
+    const processBatchSequential = async () => {
+      batchLoading.value = true;
+      batchProgress.value = null;
+      batchResults.value = null;
+      // Définir le nom du fichier Excel pour cette session
+      excelFileName.value = `resultats_${new Date().toISOString().replace(/[:.]/g, '-')}.xlsx`;
+      startTimer();
+
+      try {
+        const files = await loadTextFiles();
+
+        if (files.length === 0) {
+          $q.notify({
+            type: 'warning',
+            message: 'Aucun fichier trouvé dans le répertoire finaux',
+            position: 'top',
+          });
+          return;
+        }
+
+        $q.notify({
+          type: 'info',
+          message: `Traitement de ${files.length} fichiers en séquence...`,
+          position: 'top',
+        });
+
+        const results = await batchProcessor.processFilesSequentially(
+          files,
+          (progress) => {
+            batchProgress.value = progress;
+          },
+          downloadSingleResult
+        );
+
+        batchResults.value = results;
+
+        $q.notify({
+          type: 'positive',
+          message: `Traitement terminé! ${results.successful} succès, ${results.failed} erreurs`,
+          position: 'top',
+        });
+      } catch (err) {
+        console.error('Erreur lors du traitement en lot:', err);
+        $q.notify({
+          type: 'negative',
+          message: 'Erreur lors du traitement en lot',
+          caption: err.message,
+          position: 'top',
+        });
+      } finally {
+        stopTimer();
+        batchLoading.value = false;
+      }
+    };
+
+    const stopProcessing = () => {
+      batchProcessor.stopProcessing();
+      $q.notify({
+        type: 'warning',
+        message: 'Arrêt du traitement en cours...',
+        position: 'top',
+      });
+    };
+
+    const resetBatch = () => {
+      batchProgress.value = null;
+      batchResults.value = null;
+      batchProcessor.resetStop();
+      $q.notify({
+        type: 'info',
+        message: 'Interface réinitialisée',
+        position: 'top',
+      });
+    };
+
+    // Nom du fichier Excel (fixe pour la session de traitement)
+    const excelFileName = ref('resultats.xlsx');
+
+    // Télécharger un seul résultat (appelé dès qu'un fichier est traité)
+    const downloadSingleResult = (result) => {
+      const baseFileName = batchProcessor.getBaseFileName(result.fileName);
+
+      // 1. Télécharger le JSON individuel
+      const data = batchProcessor.exportSingleResult(result);
+      const jsonBlob = new Blob([JSON.stringify(data, null, 2)], {
+        type: 'application/json',
+      });
+      const jsonUrl = URL.createObjectURL(jsonBlob);
+      const jsonLink = document.createElement('a');
+      jsonLink.href = jsonUrl;
+      jsonLink.download = `${baseFileName}.json`;
+      jsonLink.click();
+      URL.revokeObjectURL(jsonUrl);
+
+      // 2. Télécharger le fichier Excel mis à jour (avec tous les résultats jusqu'à présent)
+      setTimeout(() => {
+        const excelBuffer = batchProcessor.exportCurrentResultsExcel();
+        if (excelBuffer) {
+          const excelBlob = new Blob([excelBuffer], {
+            type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+          });
+          const excelUrl = URL.createObjectURL(excelBlob);
+          const excelLink = document.createElement('a');
+          excelLink.href = excelUrl;
+          excelLink.download = excelFileName.value;
+          excelLink.click();
+          URL.revokeObjectURL(excelUrl);
+        }
+      }, 300); // Petit délai pour éviter les téléchargements simultanés
+    };
+
+    const downloadResults = () => {
+      const timestamp = new Date().toISOString();
+
+      // 1. Télécharger le fichier JSON
+      const data = batchProcessor.exportResults();
+      const jsonBlob = new Blob([JSON.stringify(data)], {
+        type: 'application/json',
+      });
+      const jsonUrl = URL.createObjectURL(jsonBlob);
+      const jsonLink = document.createElement('a');
+      jsonLink.href = jsonUrl;
+      jsonLink.download = `corrections_${timestamp}.json`;
+      jsonLink.click();
+      URL.revokeObjectURL(jsonUrl);
+
+      // 2. Télécharger le fichier Excel
+      const excelBuffer = batchProcessor.exportResultsExcel();
+      const excelBlob = new Blob([excelBuffer], {
+        type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+      });
+      const excelUrl = URL.createObjectURL(excelBlob);
+      const excelLink = document.createElement('a');
+      excelLink.href = excelUrl;
+      excelLink.download = `corrections_${timestamp}.xlsx`;
+      // Petit délai pour éviter que les deux téléchargements ne se chevauchent
+      setTimeout(() => {
+        excelLink.click();
+        URL.revokeObjectURL(excelUrl);
+      }, 500);
+    };
+
+    const toggleSimulationMode = (value) => {
+      batchProcessor.setSimulationMode(value);
+      $q.notify({
+        type: 'info',
+        message: value
+          ? 'Mode simulation activé (ne consomme pas de quota)'
+          : 'Mode réel activé (utilise l\'API Gemini)',
+        position: 'top',
+      });
+    };
+
+    // Filtre pour la recherche dans le dropdown des fichiers
+    const filterFiles = (val, update) => {
+      if (allFileOptions.value.length === 0) {
+        // Sauvegarder toutes les options la première fois
+        allFileOptions.value = [...fileOptions.value];
+      }
+
+      if (val === '') {
+        update(() => {
+          fileOptions.value = allFileOptions.value;
+        });
+        return;
+      }
+
+      update(() => {
+        const needle = val.toLowerCase();
+        fileOptions.value = allFileOptions.value.filter(
+          v => v.label.toLowerCase().includes(needle)
+        );
+      });
+    };
+
+    return {
+      batchLoading,
+      batchProgress,
+      batchResults,
+      showResults,
+      simulationMode,
+      availableModels,
+      selectedModel,
+      availablePrompts,
+      selectedPrompt,
+      selectedFileName,
+      fileOptions,
+      filterFiles,
+      nombrePasses,
+      passesOptions,
+      elapsedTime,
+      formatElapsedTime,
+      processSelectedFile,
+      processBatchParallel,
+      processBatchSequential,
+      stopProcessing,
+      resetBatch,
+      downloadResults,
+      toggleSimulationMode,
+      changeModel,
+      changePrompt,
+      changeNombrePasses,
+    };
+  },
+});
 </script>
+
+<style scoped>
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+</style>

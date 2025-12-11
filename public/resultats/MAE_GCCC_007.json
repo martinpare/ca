@@ -1,0 +1,1763 @@
+{
+  "processedAt": "2025-12-10T14:06:40.103Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_007.txt",
+    "originalText": "Cauchemar de notre planète\r\n\r\nChers lecteurs,\r\n\r\nPour commencer, le gaspillage alimentaire répresente la perte de nourriture destinée à la consommation humain. Environ une milliard de tonnes de nourriture ont été gaspillées et selon les statistiques dont je vais vous parlez aujourd'hui, le gaspillage alimentaire ne cesse pas d’augmenter jour après jour. Non, je ne suis pas d'accord avec cette question, car il y a encore des gens qui ne respectent pas les réglements. Dans ce texte, on va nous en parler à propos de répartition du gaspillage, quantité de nourriture gaspillée et production et transformation des aliments.\r\n\r\nPremièrement, en commençeant par répartition du gaspillage, on peut savoir que les gaspillages peut se produire à différentes étapes de la chaîne d’approvisionnement alimentaire, pour différentes raisons. Par exemple dans production, on peut manquer de main-d'œuvre et alliments imparfaits laissés dans les champs. Dans transformation, il est possible que des équipement vont avoir des problèmes ou ça peut arriver des erreurs humaines. La dernière exemple est dans consommation. Certains ne savent pas qu'on peut faire la conservation des aliments. Comme le mentionne dans l’article : « Une étude de conseil national zéro dechet indique que 2,2 millions de tonnes d’aliments sont gaspillés par les familles canadiennes chaque année, ce qui correspond à une perte de plus de 17 milliards de dollars. » (RECYC-QUÉBEC, 2021). Dans l’article on mentionne aussi que « Au Canada, ce sont surtout les légumes, les fruits, le pain, les produit laitiers, les œufs et les restes de table qui sont gaspillés. » (RECYC-QUÉBEC, 2021). En tout somme, c'est-à-dire d’aliments qui auraient dû être mangés plutôt que jetés. On gaspille aussi des aliments jusqu'à 47% juste à cause de nos mal consommation.\r\n\r\nDeuxièmement, pour production et transformation des aliments, dans certains cas des légumes vont avoir un changement dans la taille ou sa type comme des carottes fourchues donc ça va être difficile à les vendre, car des consommateurs cherchent des aliments propres. Exemple : « les conditions météorologique affectent la forme et la taille des légumes, ce qui les rendre difficiles à vendre à une majorité de consommateurs qui recherchent des aliments parfaits. » (Cameron, 2020). Des agriculteurs ne veulent pas donner ses aliments qui sont mals formés aux épiceries, car ils vont les vendre moins cher que les autre marchés. Comme exemple : « certains agriculteurs hésitent à distribuer aux épiceries des aliments qui ne repondent pas aux standards esthétiques habituels, car ils sont vendues moins cher que les autre alors qu’il en coûte autant pour les produire et les transporter. » (Cameron, 2020). En résumé, on peut perdre ou gaspiller des aliments jusqu'à 20% juste pour la transformation, un erreur humaine.\r\n\r\nPour conclure, le gaspillage alimentaire ne cesse pas d’augmenter pour certains raisons. On peut avoir des conséquences du gaspillage alimentaire sur l’environnement et ils sont très importantes. l’enfouissement et l’incinération des aliments non consommés contribuent aux changement climatiques en raison des gaz à effet de serre qu’ils produisent. Maintenant, pensez-vous vraiment qu’on est prêts à battre avec le gaspillage alimentaire?",
+    "erreursCritere4": [
+      {
+        "text": "on va nous en parler",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction est redondante et mélange les pronoms 'on' et 'nous'. Il faut choisir l'un ou l'autre. De plus, 'en parler à propos de' est un pléonasme.",
+        "suggestions": [
+          "nous allons parler de la",
+          "on va parler de la"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "par répartition",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque un déterminant essentiel ('la') après la préposition 'par' pour compléter le groupe du nom.",
+        "suggestions": [
+          "par la répartition"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "dans production",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque un déterminant essentiel ('la') après la préposition 'dans' pour compléter le groupe du nom.",
+        "suggestions": [
+          "dans la production"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "Dans transformation",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque un déterminant essentiel ('la') après la préposition 'dans' pour compléter le groupe du nom.",
+        "suggestions": [
+          "Dans la transformation"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "ça peut arriver des erreurs humaines",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est boiteuse. Il est préférable d'utiliser une tournure impersonnelle avec 'il' ou de faire de 'des erreurs humaines' le sujet du verbe.",
+        "suggestions": [
+          "il peut arriver des erreurs humaines",
+          "des erreurs humaines peuvent arriver"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "dans consommation",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque un déterminant essentiel ('la') après la préposition 'dans' pour compléter le groupe du nom.",
+        "suggestions": [
+          "dans la consommation"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "Comme le mentionne dans l’article",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe 'mentionne' n'a pas de sujet. Il faut utiliser une tournure impersonnelle ('il est mentionné') ou donner un sujet au verbe ('l'article mentionne').",
+        "suggestions": [
+          "Comme il est mentionné dans l'article",
+          "Comme le mentionne l'article"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "Dans l’article on",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule après le complément de phrase 'Dans l'article' placé en tête de phrase.",
+        "suggestions": [
+          "Dans l'article, on"
+        ],
+        "ruleApplied": "4.2.2.10.1.l"
+      },
+      {
+        "text": "c'est-à-dire d’aliments qui auraient dû être mangés plutôt que jetés",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette proposition est une subordonnée sans phrase matrice. Elle ne se rattache pas logiquement à ce qui précède.",
+        "suggestions": [
+          "Il s'agit d'aliments qui auraient dû être mangés plutôt que jetés."
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "text": "pour production",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque un déterminant essentiel ('la') après la préposition 'pour' pour compléter le groupe du nom.",
+        "suggestions": [
+          "pour la production"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "sa type",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Le déterminant possessif 'sa' ne s'accorde ni en genre (le nom 'type' est masculin) ni en nombre avec le possesseur ('des légumes', pluriel). Il faut utiliser 'leur'.",
+        "suggestions": [
+          "leur type"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "text": "ses",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le déterminant possessif 'ses' renvoie à un possesseur singulier, alors que le possesseur est 'Des agriculteurs' (pluriel). Il faut utiliser 'leurs'.",
+        "suggestions": [
+          "leurs"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "text": "battre avec",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition 'avec' est incorrecte dans ce contexte. L'expression est 'se battre contre' quelque chose.",
+        "suggestions": [
+          "se battre contre"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 11.5,
+      "note": "C"
+    },
+    "erreursCritere5": [
+      {
+        "text": "répresente",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'accent aigu est manquant sur le premier 'e'. Le verbe 'représenter' s'écrit avec un accent aigu.",
+        "suggestions": [
+          "représente"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "text": "humain",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'humain' doit s'accorder en genre et en nombre avec le nom qu'il qualifie, 'consommation', qui est féminin singulier.",
+        "suggestions": [
+          "humaine"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "une milliard",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'milliard' est masculin. Le déterminant doit donc être 'un'.",
+        "suggestions": [
+          "un milliard"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "parlez",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après une forme conjuguée du verbe 'aller' servant de semi-auxiliaire, le verbe qui suit doit être à l'infinitif. Il s'agit d'une confusion de désinences homophones.",
+        "suggestions": [
+          "parler"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "réglements",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'accent grave est manquant sur le premier 'e'. Le nom 'règlements' s'écrit avec un accent grave.",
+        "suggestions": [
+          "règlements"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "text": "commençeant",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "La cédille est utilisée à tort. Pour obtenir le son [s] devant un 'a', il faut utiliser une cédille sous le 'c'. Ici, c'est l'inverse, le 'ç' est utilisé devant un 'e'.",
+        "suggestions": [
+          "commençant"
+        ],
+        "ruleApplied": "5.2.1.2"
+      },
+      {
+        "text": "peut",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'pouvoir' doit s'accorder avec son sujet 'les gaspillages', qui est à la 3e personne du pluriel.",
+        "suggestions": [
+          "peuvent"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "alliments",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur orthographique sur le mot 'aliments'. Une lettre a été ajoutée à tort.",
+        "suggestions": [
+          "aliments"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "équipement",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant 'des' indique que le nom qui suit doit être au pluriel.",
+        "suggestions": [
+          "équipements"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "La dernière exemple",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'exemple' est masculin. Le déterminant et l'adjectif doivent s'accorder en genre.",
+        "suggestions": [
+          "Le dernier exemple"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "conseil national zéro dechet",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur dans une dénomination. Les majuscules sont requises pour les noms propres et l'accent est manquant sur 'déchet'.",
+        "suggestions": [
+          "Conseil national Zéro Déchet"
+        ],
+        "ruleApplied": "5.2.4.1.2"
+      },
+      {
+        "text": "produit",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'produit' doit s'accorder au pluriel, comme l'indique le déterminant 'les' et l'adjectif 'laitiers'.",
+        "suggestions": [
+          "produits"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "En tout somme",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'expression correcte est 'En somme' ou 'Somme toute'.",
+        "suggestions": [
+          "En somme",
+          "Somme toute"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "nos mal consommation",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adverbe 'mal' est utilisé à la place de l'adjectif 'mauvaise'. De plus, le déterminant 'nos' (pluriel) ne s'accorde pas avec 'consommation' (singulier).",
+        "suggestions": [
+          "notre mauvaise consommation"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "« les",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Une citation rapportée directement qui forme une phrase complète doit commencer par une majuscule.",
+        "suggestions": [
+          "« Les"
+        ],
+        "ruleApplied": "5.3.6.3"
+      },
+      {
+        "text": "météorologique",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'météorologique' doit s'accorder en nombre avec le nom qu'il qualifie, 'conditions', qui est au pluriel.",
+        "suggestions": [
+          "météorologiques"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "rendre",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après le pronom relatif 'ce qui', le verbe doit être conjugué à la 3e personne du singulier. Il s'agit d'une confusion entre l'infinitif et la forme conjuguée.",
+        "suggestions": [
+          "rend"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "mals",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adverbe 'mal' est invariable et ne prend jamais de 's'.",
+        "suggestions": [
+          "mal"
+        ],
+        "ruleApplied": "5.3.1.6"
+      },
+      {
+        "text": "les autre",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'autre' doit s'accorder en nombre avec le nom qu'il qualifie, 'marchés', qui est au pluriel.",
+        "suggestions": [
+          "les autres"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "« certains",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Une citation rapportée directement qui forme une phrase complète doit commencer par une majuscule.",
+        "suggestions": [
+          "« Certains"
+        ],
+        "ruleApplied": "5.3.6.3"
+      },
+      {
+        "text": "repondent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'accent aigu est manquant sur le 'e'. Le verbe 'répondre' s'écrit avec un accent aigu.",
+        "suggestions": [
+          "répondent"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "text": "vendues",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'vendues' doit s'accorder avec le sujet 'ils' (mis pour 'aliments'), qui est masculin pluriel.",
+        "suggestions": [
+          "vendus"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "les autre",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'autre' doit s'accorder en nombre avec le nom qu'il qualifie (implicite, 'aliments' ou 'marchés'), qui est au pluriel.",
+        "suggestions": [
+          "les autres"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "un erreur",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'erreur' est féminin. Le déterminant doit donc être 'une'.",
+        "suggestions": [
+          "une erreur"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "certains raisons",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant 'certains' doit s'accorder en genre avec le nom qu'il détermine, 'raisons', qui est féminin pluriel.",
+        "suggestions": [
+          "certaines raisons"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "ils",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom personnel 'ils' doit reprendre son antécédent 'des conséquences', qui est féminin pluriel. Il faut donc utiliser 'elles'.",
+        "suggestions": [
+          "elles"
+        ],
+        "ruleApplied": "5.3.1.4"
+      },
+      {
+        "text": "l’enfouissement",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Chaque nouvelle phrase doit commencer par une majuscule.",
+        "suggestions": [
+          "L'enfouissement"
+        ],
+        "ruleApplied": "5.3.6.1"
+      },
+      {
+        "text": "changement",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'changement' doit être au pluriel pour s'accorder avec l'adjectif 'climatiques'. Il s'agit de l'expression 'les changements climatiques'.",
+        "suggestions": [
+          "changements"
+        ],
+        "ruleApplied": "5.3.1.5"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 28,
+      "note": "E"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:01:43.735Z",
+    "endTimestamp": "2025-12-10T14:06:40.103Z",
+    "durationMs": 296368,
+    "durationFormatted": "04:56:368",
+    "cumulParPasse": [
+      {
+        "passe": 1,
+        "erreursCritere4": [],
+        "erreursCritere5": [],
+        "totalErreursCritere4": 0,
+        "totalErreursCritere5": 0,
+        "scoreCritere4": {
+          "pointsPerdus": 0,
+          "note": "A"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 0,
+          "note": "A"
+        }
+      },
+      {
+        "passe": 2,
+        "erreursCritere4": [
+          {
+            "text": "on va nous en parler",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction est redondante et mélange les pronoms 'on' et 'nous'. Il faut choisir l'un ou l'autre. De plus, 'en parler à propos de' est un pléonasme.",
+            "suggestions": [
+              "nous allons parler de la",
+              "on va parler de la"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "à propos de",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "La locution 'à propos de' est superflue et crée une construction boiteuse avec 'en parler'. De plus, la préposition 'de' (ou 'de la') doit être répétée devant chaque élément de l'énumération.",
+            "suggestions": [
+              "de la répartition [...], de la quantité [...] et de la production"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "par répartition",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Il manque un déterminant essentiel ('la') après la préposition 'par' pour compléter le groupe du nom.",
+            "suggestions": [
+              "par la répartition"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "dans production",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Il manque un déterminant essentiel ('la') après la préposition 'dans' pour compléter le groupe du nom.",
+            "suggestions": [
+              "dans la production"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "Dans transformation",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Il manque un déterminant essentiel ('la') après la préposition 'dans' pour compléter le groupe du nom.",
+            "suggestions": [
+              "Dans la transformation"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "ça peut arriver des erreurs humaines",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction de la phrase est boiteuse. Il est préférable d'utiliser une tournure impersonnelle avec 'il' ou de faire de 'des erreurs humaines' le sujet du verbe.",
+            "suggestions": [
+              "il peut arriver des erreurs humaines",
+              "des erreurs humaines peuvent arriver"
+            ],
+            "ruleApplied": "4.1.2.1.5"
+          },
+          {
+            "text": "dans consommation",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Il manque un déterminant essentiel ('la') après la préposition 'dans' pour compléter le groupe du nom.",
+            "suggestions": [
+              "dans la consommation"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "Comme le mentionne dans l’article",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le verbe 'mentionne' n'a pas de sujet. Il faut utiliser une tournure impersonnelle ('il est mentionné') ou donner un sujet au verbe ('l'article mentionne').",
+            "suggestions": [
+              "Comme il est mentionné dans l'article",
+              "Comme le mentionne l'article"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "Dans l’article on",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Il manque une virgule après le complément de phrase 'Dans l'article' placé en tête de phrase.",
+            "suggestions": [
+              "Dans l'article, on"
+            ],
+            "ruleApplied": "4.2.2.10.1.l"
+          },
+          {
+            "text": "c'est-à-dire d’aliments qui auraient dû être mangés plutôt que jetés",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Cette proposition est une subordonnée sans phrase matrice. Elle ne se rattache pas logiquement à ce qui précède.",
+            "suggestions": [
+              "Il s'agit d'aliments qui auraient dû être mangés plutôt que jetés."
+            ],
+            "ruleApplied": "4.1.2.1.4"
+          },
+          {
+            "text": "pour production",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Il manque un déterminant essentiel ('la') après la préposition 'pour' pour compléter le groupe du nom.",
+            "suggestions": [
+              "pour la production"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "sa type",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "Le déterminant possessif 'sa' ne s'accorde ni en genre (le nom 'type' est masculin) ni en nombre avec le possesseur ('des légumes', pluriel). Il faut utiliser 'leur'.",
+            "suggestions": [
+              "leur type"
+            ],
+            "ruleApplied": "4.1.2.3.2"
+          },
+          {
+            "text": "ses",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le déterminant possessif 'ses' renvoie à un possesseur singulier, alors que le possesseur est 'Des agriculteurs' (pluriel). Il faut utiliser 'leurs'.",
+            "suggestions": [
+              "leurs"
+            ],
+            "ruleApplied": "4.1.2.3.2"
+          },
+          {
+            "text": "battre avec",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La préposition 'avec' est incorrecte dans ce contexte. L'expression est 'se battre contre' quelque chose.",
+            "suggestions": [
+              "se battre contre"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "répresente",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "L'accent aigu est manquant sur le premier 'e'. Le verbe 'représenter' s'écrit avec un accent aigu.",
+            "suggestions": [
+              "représente"
+            ],
+            "ruleApplied": "5.2.1.1"
+          },
+          {
+            "text": "humain",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif 'humain' doit s'accorder en genre et en nombre avec le nom qu'il qualifie, 'consommation', qui est féminin singulier.",
+            "suggestions": [
+              "humaine"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "une milliard",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom 'milliard' est masculin. Le déterminant doit donc être 'un'.",
+            "suggestions": [
+              "un milliard"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "parlez",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Après une forme conjuguée du verbe 'aller' servant de semi-auxiliaire, le verbe qui suit doit être à l'infinitif. Il s'agit d'une confusion de désinences homophones.",
+            "suggestions": [
+              "parler"
+            ],
+            "ruleApplied": "5.3.2.6"
+          },
+          {
+            "text": "réglements",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "L'accent grave est manquant sur le premier 'e'. Le nom 'règlements' s'écrit avec un accent grave.",
+            "suggestions": [
+              "règlements"
+            ],
+            "ruleApplied": "5.2.1.1"
+          },
+          {
+            "text": "commençeant",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "La cédille est utilisée à tort. Pour obtenir le son [s] devant un 'a', il faut utiliser une cédille sous le 'c'. Ici, c'est l'inverse, le 'ç' est utilisé devant un 'e'.",
+            "suggestions": [
+              "commençant"
+            ],
+            "ruleApplied": "5.2.1.2"
+          },
+          {
+            "text": "peut",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le verbe 'pouvoir' doit s'accorder avec son sujet 'les gaspillages', qui est à la 3e personne du pluriel.",
+            "suggestions": [
+              "peuvent"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "alliments",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Erreur orthographique sur le mot 'aliments'. Une lettre a été ajoutée à tort.",
+            "suggestions": [
+              "aliments"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "équipement",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le déterminant 'des' indique que le nom qui suit doit être au pluriel.",
+            "suggestions": [
+              "équipements"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "La dernière exemple",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom 'exemple' est masculin. Le déterminant et l'adjectif doivent s'accorder en genre.",
+            "suggestions": [
+              "Le dernier exemple"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "conseil national zéro dechet",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Erreur dans une dénomination. Les majuscules sont requises pour les noms propres et l'accent est manquant sur 'déchet'.",
+            "suggestions": [
+              "Conseil national Zéro Déchet"
+            ],
+            "ruleApplied": "5.2.4.1.2"
+          },
+          {
+            "text": "produit",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom 'produit' doit s'accorder au pluriel, comme l'indique le déterminant 'les' et l'adjectif 'laitiers'.",
+            "suggestions": [
+              "produits"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "En tout somme",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "L'expression correcte est 'En somme' ou 'Somme toute'.",
+            "suggestions": [
+              "En somme",
+              "Somme toute"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "nos mal consommation",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adverbe 'mal' est utilisé à la place de l'adjectif 'mauvaise'. De plus, le déterminant 'nos' (pluriel) ne s'accorde pas avec 'consommation' (singulier).",
+            "suggestions": [
+              "notre mauvaise consommation"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "« les",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Une citation rapportée directement qui forme une phrase complète doit commencer par une majuscule.",
+            "suggestions": [
+              "« Les"
+            ],
+            "ruleApplied": "5.3.6.3"
+          },
+          {
+            "text": "météorologique",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif 'météorologique' doit s'accorder en nombre avec le nom qu'il qualifie, 'conditions', qui est au pluriel.",
+            "suggestions": [
+              "météorologiques"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "rendre",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Après le pronom relatif 'ce qui', le verbe doit être conjugué à la 3e personne du singulier. Il s'agit d'une confusion entre l'infinitif et la forme conjuguée.",
+            "suggestions": [
+              "rend"
+            ],
+            "ruleApplied": "5.3.2.6"
+          },
+          {
+            "text": "mals",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adverbe 'mal' est invariable et ne prend jamais de 's'.",
+            "suggestions": [
+              "mal"
+            ],
+            "ruleApplied": "5.3.1.6"
+          },
+          {
+            "text": "les autre",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif 'autre' doit s'accorder en nombre avec le nom qu'il qualifie, 'marchés', qui est au pluriel.",
+            "suggestions": [
+              "les autres"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "« certains",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Une citation rapportée directement qui forme une phrase complète doit commencer par une majuscule.",
+            "suggestions": [
+              "« Certains"
+            ],
+            "ruleApplied": "5.3.6.3"
+          },
+          {
+            "text": "repondent",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "L'accent aigu est manquant sur le 'e'. Le verbe 'répondre' s'écrit avec un accent aigu.",
+            "suggestions": [
+              "répondent"
+            ],
+            "ruleApplied": "5.2.1.1"
+          },
+          {
+            "text": "vendues",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé 'vendues' doit s'accorder avec le sujet 'ils' (mis pour 'aliments'), qui est masculin pluriel.",
+            "suggestions": [
+              "vendus"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "les autre",
+            "occurenceIndex": 1,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif 'autre' doit s'accorder en nombre avec le nom qu'il qualifie (implicite, 'aliments' ou 'marchés'), qui est au pluriel.",
+            "suggestions": [
+              "les autres"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "un erreur",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom 'erreur' est féminin. Le déterminant doit donc être 'une'.",
+            "suggestions": [
+              "une erreur"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "certains raisons",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le déterminant 'certains' doit s'accorder en genre avec le nom qu'il détermine, 'raisons', qui est féminin pluriel.",
+            "suggestions": [
+              "certaines raisons"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "ils",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le pronom personnel 'ils' doit reprendre son antécédent 'des conséquences', qui est féminin pluriel. Il faut donc utiliser 'elles'.",
+            "suggestions": [
+              "elles"
+            ],
+            "ruleApplied": "5.3.1.4"
+          },
+          {
+            "text": "l’enfouissement",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Chaque nouvelle phrase doit commencer par une majuscule.",
+            "suggestions": [
+              "L'enfouissement"
+            ],
+            "ruleApplied": "5.3.6.1"
+          },
+          {
+            "text": "changement",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom 'changement' doit être au pluriel pour s'accorder avec l'adjectif 'climatiques'. Il s'agit de l'expression 'les changements climatiques'.",
+            "suggestions": [
+              "changements"
+            ],
+            "ruleApplied": "5.3.1.5"
+          }
+        ],
+        "totalErreursCritere4": 14,
+        "totalErreursCritere5": 28,
+        "scoreCritere4": {
+          "pointsPerdus": 11.5,
+          "note": "C"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 28,
+          "note": "E"
+        }
+      }
+    ],
+    "erreursCritere4AvantAnalyseIA": [
+      {
+        "text": "on va nous en parler",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction est redondante et mélange les pronoms 'on' et 'nous'. Il faut choisir l'un ou l'autre. De plus, 'en parler à propos de' est un pléonasme.",
+        "suggestions": [
+          "nous allons parler de la",
+          "on va parler de la"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "à propos de",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "La locution 'à propos de' est superflue et crée une construction boiteuse avec 'en parler'. De plus, la préposition 'de' (ou 'de la') doit être répétée devant chaque élément de l'énumération.",
+        "suggestions": [
+          "de la répartition [...], de la quantité [...] et de la production"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "par répartition",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque un déterminant essentiel ('la') après la préposition 'par' pour compléter le groupe du nom.",
+        "suggestions": [
+          "par la répartition"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "dans production",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque un déterminant essentiel ('la') après la préposition 'dans' pour compléter le groupe du nom.",
+        "suggestions": [
+          "dans la production"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "Dans transformation",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque un déterminant essentiel ('la') après la préposition 'dans' pour compléter le groupe du nom.",
+        "suggestions": [
+          "Dans la transformation"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "ça peut arriver des erreurs humaines",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est boiteuse. Il est préférable d'utiliser une tournure impersonnelle avec 'il' ou de faire de 'des erreurs humaines' le sujet du verbe.",
+        "suggestions": [
+          "il peut arriver des erreurs humaines",
+          "des erreurs humaines peuvent arriver"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "text": "dans consommation",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque un déterminant essentiel ('la') après la préposition 'dans' pour compléter le groupe du nom.",
+        "suggestions": [
+          "dans la consommation"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "Comme le mentionne dans l’article",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe 'mentionne' n'a pas de sujet. Il faut utiliser une tournure impersonnelle ('il est mentionné') ou donner un sujet au verbe ('l'article mentionne').",
+        "suggestions": [
+          "Comme il est mentionné dans l'article",
+          "Comme le mentionne l'article"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "Dans l’article on",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule après le complément de phrase 'Dans l'article' placé en tête de phrase.",
+        "suggestions": [
+          "Dans l'article, on"
+        ],
+        "ruleApplied": "4.2.2.10.1.l"
+      },
+      {
+        "text": "c'est-à-dire d’aliments qui auraient dû être mangés plutôt que jetés",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette proposition est une subordonnée sans phrase matrice. Elle ne se rattache pas logiquement à ce qui précède.",
+        "suggestions": [
+          "Il s'agit d'aliments qui auraient dû être mangés plutôt que jetés."
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "text": "pour production",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque un déterminant essentiel ('la') après la préposition 'pour' pour compléter le groupe du nom.",
+        "suggestions": [
+          "pour la production"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "sa type",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Le déterminant possessif 'sa' ne s'accorde ni en genre (le nom 'type' est masculin) ni en nombre avec le possesseur ('des légumes', pluriel). Il faut utiliser 'leur'.",
+        "suggestions": [
+          "leur type"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "text": "ses",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le déterminant possessif 'ses' renvoie à un possesseur singulier, alors que le possesseur est 'Des agriculteurs' (pluriel). Il faut utiliser 'leurs'.",
+        "suggestions": [
+          "leurs"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "text": "battre avec",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition 'avec' est incorrecte dans ce contexte. L'expression est 'se battre contre' quelque chose.",
+        "suggestions": [
+          "se battre contre"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      }
+    ],
+    "erreursCritere5AvantAnalyseIA": [
+      {
+        "text": "répresente",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'accent aigu est manquant sur le premier 'e'. Le verbe 'représenter' s'écrit avec un accent aigu.",
+        "suggestions": [
+          "représente"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "text": "humain",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'humain' doit s'accorder en genre et en nombre avec le nom qu'il qualifie, 'consommation', qui est féminin singulier.",
+        "suggestions": [
+          "humaine"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "une milliard",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'milliard' est masculin. Le déterminant doit donc être 'un'.",
+        "suggestions": [
+          "un milliard"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "parlez",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après une forme conjuguée du verbe 'aller' servant de semi-auxiliaire, le verbe qui suit doit être à l'infinitif. Il s'agit d'une confusion de désinences homophones.",
+        "suggestions": [
+          "parler"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "réglements",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'accent grave est manquant sur le premier 'e'. Le nom 'règlements' s'écrit avec un accent grave.",
+        "suggestions": [
+          "règlements"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "text": "commençeant",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "La cédille est utilisée à tort. Pour obtenir le son [s] devant un 'a', il faut utiliser une cédille sous le 'c'. Ici, c'est l'inverse, le 'ç' est utilisé devant un 'e'.",
+        "suggestions": [
+          "commençant"
+        ],
+        "ruleApplied": "5.2.1.2"
+      },
+      {
+        "text": "peut",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'pouvoir' doit s'accorder avec son sujet 'les gaspillages', qui est à la 3e personne du pluriel.",
+        "suggestions": [
+          "peuvent"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "alliments",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur orthographique sur le mot 'aliments'. Une lettre a été ajoutée à tort.",
+        "suggestions": [
+          "aliments"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "équipement",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant 'des' indique que le nom qui suit doit être au pluriel.",
+        "suggestions": [
+          "équipements"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "La dernière exemple",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'exemple' est masculin. Le déterminant et l'adjectif doivent s'accorder en genre.",
+        "suggestions": [
+          "Le dernier exemple"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "conseil national zéro dechet",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur dans une dénomination. Les majuscules sont requises pour les noms propres et l'accent est manquant sur 'déchet'.",
+        "suggestions": [
+          "Conseil national Zéro Déchet"
+        ],
+        "ruleApplied": "5.2.4.1.2"
+      },
+      {
+        "text": "produit",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'produit' doit s'accorder au pluriel, comme l'indique le déterminant 'les' et l'adjectif 'laitiers'.",
+        "suggestions": [
+          "produits"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "En tout somme",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'expression correcte est 'En somme' ou 'Somme toute'.",
+        "suggestions": [
+          "En somme",
+          "Somme toute"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "nos mal consommation",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adverbe 'mal' est utilisé à la place de l'adjectif 'mauvaise'. De plus, le déterminant 'nos' (pluriel) ne s'accorde pas avec 'consommation' (singulier).",
+        "suggestions": [
+          "notre mauvaise consommation"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "« les",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Une citation rapportée directement qui forme une phrase complète doit commencer par une majuscule.",
+        "suggestions": [
+          "« Les"
+        ],
+        "ruleApplied": "5.3.6.3"
+      },
+      {
+        "text": "météorologique",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'météorologique' doit s'accorder en nombre avec le nom qu'il qualifie, 'conditions', qui est au pluriel.",
+        "suggestions": [
+          "météorologiques"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "rendre",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après le pronom relatif 'ce qui', le verbe doit être conjugué à la 3e personne du singulier. Il s'agit d'une confusion entre l'infinitif et la forme conjuguée.",
+        "suggestions": [
+          "rend"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "text": "mals",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adverbe 'mal' est invariable et ne prend jamais de 's'.",
+        "suggestions": [
+          "mal"
+        ],
+        "ruleApplied": "5.3.1.6"
+      },
+      {
+        "text": "les autre",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'autre' doit s'accorder en nombre avec le nom qu'il qualifie, 'marchés', qui est au pluriel.",
+        "suggestions": [
+          "les autres"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "« certains",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Une citation rapportée directement qui forme une phrase complète doit commencer par une majuscule.",
+        "suggestions": [
+          "« Certains"
+        ],
+        "ruleApplied": "5.3.6.3"
+      },
+      {
+        "text": "repondent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'accent aigu est manquant sur le 'e'. Le verbe 'répondre' s'écrit avec un accent aigu.",
+        "suggestions": [
+          "répondent"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "text": "vendues",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'vendues' doit s'accorder avec le sujet 'ils' (mis pour 'aliments'), qui est masculin pluriel.",
+        "suggestions": [
+          "vendus"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "les autre",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'autre' doit s'accorder en nombre avec le nom qu'il qualifie (implicite, 'aliments' ou 'marchés'), qui est au pluriel.",
+        "suggestions": [
+          "les autres"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "un erreur",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'erreur' est féminin. Le déterminant doit donc être 'une'.",
+        "suggestions": [
+          "une erreur"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "certains raisons",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant 'certains' doit s'accorder en genre avec le nom qu'il détermine, 'raisons', qui est féminin pluriel.",
+        "suggestions": [
+          "certaines raisons"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "ils",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom personnel 'ils' doit reprendre son antécédent 'des conséquences', qui est féminin pluriel. Il faut donc utiliser 'elles'.",
+        "suggestions": [
+          "elles"
+        ],
+        "ruleApplied": "5.3.1.4"
+      },
+      {
+        "text": "l’enfouissement",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Chaque nouvelle phrase doit commencer par une majuscule.",
+        "suggestions": [
+          "L'enfouissement"
+        ],
+        "ruleApplied": "5.3.6.1"
+      },
+      {
+        "text": "changement",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'changement' doit être au pluriel pour s'accorder avec l'adjectif 'climatiques'. Il s'agit de l'expression 'les changements climatiques'.",
+        "suggestions": [
+          "changements"
+        ],
+        "ruleApplied": "5.3.1.5"
+      }
+    ],
+    "analyseIADuplicatas": {
+      "critere4": {
+        "analyse": {
+          "totalErreursCritere4": 14,
+          "totalErreursCritere5": 0,
+          "duplicatasCritere4": 1,
+          "duplicatasCritere5": 0
+        },
+        "duplicatasCritere4": [
+          {
+            "groupe": 1,
+            "confiance": 95,
+            "raison": "Les deux erreurs ciblent la même construction pléonastique ('en parler à propos de'). L'erreur principale (index 0) englobe la seconde (index 1) qui en est une conséquence directe.",
+            "erreurs": [
+              {
+                "index": 0,
+                "text": "on va nous en parler",
+                "garder": true
+              },
+              {
+                "index": 1,
+                "text": "à propos de",
+                "garder": false
+              }
+            ]
+          }
+        ],
+        "duplicatasCritere5": [],
+        "erreursUniquesCritere4": [
+          {
+            "index": 2,
+            "text": "par répartition",
+            "raison": "Erreur distincte de manque de déterminant."
+          },
+          {
+            "index": 3,
+            "text": "dans production",
+            "raison": "Erreur distincte de manque de déterminant."
+          },
+          {
+            "index": 4,
+            "text": "Dans transformation",
+            "raison": "Erreur distincte de manque de déterminant."
+          },
+          {
+            "index": 5,
+            "text": "ça peut arriver des erreurs humaines",
+            "raison": "Construction de phrase unique, aucun duplicata trouvé."
+          },
+          {
+            "index": 6,
+            "text": "dans consommation",
+            "raison": "Erreur distincte de manque de déterminant."
+          },
+          {
+            "index": 7,
+            "text": "Comme le mentionne dans l’article",
+            "raison": "Erreur de syntaxe (sujet manquant), distincte de l'erreur de ponctuation proche."
+          },
+          {
+            "index": 8,
+            "text": "Dans l’article on",
+            "raison": "Erreur de ponctuation (virgule manquante), distincte de l'erreur de syntaxe proche."
+          },
+          {
+            "index": 9,
+            "text": "c'est-à-dire d’aliments qui auraient dû être mangés plutôt que jetés",
+            "raison": "Erreur de phrase non autonome, aucun duplicata trouvé."
+          },
+          {
+            "index": 10,
+            "text": "pour production",
+            "raison": "Erreur distincte de manque de déterminant."
+          },
+          {
+            "index": 11,
+            "text": "sa type",
+            "raison": "Erreur d'accord de déterminant possessif, distincte des autres."
+          },
+          {
+            "index": 12,
+            "text": "ses",
+            "raison": "Erreur d'accord de déterminant possessif, distincte des autres."
+          },
+          {
+            "index": 13,
+            "text": "battre avec",
+            "raison": "Erreur de préposition, aucun duplicata trouvé."
+          }
+        ],
+        "erreursUniquesCritere5": [],
+        "recommandations": {
+          "erreursAConserverCritere4": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "erreursAConserverCritere5": [],
+          "erreursASupprimer": {
+            "critere4": [
+              1
+            ],
+            "critere5": []
+          }
+        }
+      },
+      "critere5": {
+        "analyse": {
+          "totalErreursCritere4": 0,
+          "totalErreursCritere5": 28,
+          "duplicatasCritere4": 0,
+          "duplicatasCritere5": 0
+        },
+        "duplicatasCritere4": [],
+        "duplicatasCritere5": [],
+        "erreursUniquesCritere4": [],
+        "erreursUniquesCritere5": [
+          {
+            "index": 0,
+            "text": "répresente",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 1,
+            "text": "humain",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 2,
+            "text": "une milliard",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 3,
+            "text": "parlez",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 4,
+            "text": "réglements",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 5,
+            "text": "commençeant",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 6,
+            "text": "peut",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 7,
+            "text": "alliments",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 8,
+            "text": "équipement",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 9,
+            "text": "La dernière exemple",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 10,
+            "text": "conseil national zéro dechet",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 11,
+            "text": "produit",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 12,
+            "text": "En tout somme",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 13,
+            "text": "nos mal consommation",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 14,
+            "text": "« les",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 15,
+            "text": "météorologique",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 16,
+            "text": "rendre",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 17,
+            "text": "mals",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 18,
+            "text": "les autre",
+            "raison": "Occurrence distincte (index 0) de l'erreur à l'index 22."
+          },
+          {
+            "index": 19,
+            "text": "« certains",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 20,
+            "text": "repondent",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 21,
+            "text": "vendues",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 22,
+            "text": "les autre",
+            "raison": "Occurrence distincte (index 1) de l'erreur à l'index 18."
+          },
+          {
+            "index": 23,
+            "text": "un erreur",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 24,
+            "text": "certains raisons",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 25,
+            "text": "ils",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 26,
+            "text": "l’enfouissement",
+            "raison": "Aucun duplicata trouvé."
+          },
+          {
+            "index": 27,
+            "text": "changement",
+            "raison": "Aucun duplicata trouvé."
+          }
+        ],
+        "recommandations": {
+          "erreursAConserverCritere4": [],
+          "erreursAConserverCritere5": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27
+          ],
+          "erreursASupprimer": {
+            "critere4": [],
+            "critere5": []
+          }
+        }
+      }
+    }
+  }
+}
