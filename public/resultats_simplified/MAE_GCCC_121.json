@@ -1,0 +1,475 @@
+{
+  "processedAt": "2025-12-10T15:02:57.005Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_121.txt",
+    "originalText": "Un changement possible?\r\n\r\n« Ne gaspille pas ta nourriture », une phrase simple et pourtant considéré cruciale à l'éducation d'un enfant par un grand nombre de parents à travers le monde. Certains l'utilisent car ils n'ont pas assez à manger et d'autres parce qu'ils pensent à ceux qui n'ont pas à manger. Ainsi, nombreux sont ceux qui repensent à cette phrase insignifiante et se demandent si l'humanité serait finallement prête à lutter contre le gaspillage alimentaire. Selon moi, l'arrêt du gaspillage de nos aliments est un objectif que nous pouvons atteindre.\r\n\r\nPremièrement, combattre la problématique du déchêt alimentaire est envisageable puisque nous commençons à adopter des habitudes de vie qui pronnent la réduction du gaspillage de nourriture. En effet, les aliments sont un pilier essentiel à notre survie et notre bien-être. La majorité d'entre nous attribuent donc un valeur à celle-ci. Et cela, on nous l'apprend généralement dès l'enfance en nous répetant que la nourriture ne devrait pas finir aux ordures. Plus on grandit, plus on apprend, parfois inconsciemment, l'importance de se qu'on mange et cela se reflète sur les habitudes que certaines personnes ont. D'après « Table québécoise sur la saine alimentation » publié en 2019, \"[...] le concept \"Tout le monde repart avec ses restants\" est privilégié par la plupart des restaurateurs ». Et pourquoi cela? Parce qu'on n'aime pas gaspiller. Depuis longtemps, on essaye de trouver de nouvelles alternatives. Le compostage par exemple. On a trouvé le moyen de réutilisé nos déchêt alimentaire. Je pense que notre conviction à faire changer les choses sera la clé de notre réussite.\r\n\r\nDeuxièmement, il serait possible de lutter contre le gaspillage alimentaire et cela grâce à l'avancé technologique. De toute évidence, la progression des nouvelles technologies ne cèssent d'accroître. Elle offre des moyens de prolonger la durée de vie des aliments. C'est notamment le cas du réfrigérateur. On n'y pense pas à première vue mais c'est une invention extraordinaire qui a changé notre méthode de consommation à tout jamais. C'est le premier pas vers un avenir meilleur mais c'est loin d'être le dérnier. Grâce à l'arrivé d'Internet, on a vu le jour de nombreux site Web qui font la propagande d'une alimentation plus résonnable en donnant des astuces pour diminuer le gaspillage (Sauvetage alimentaire, 2020). Internet, outil de sensibilisation désormais le plus efficace, est de loin notre meilleur allié dans cette lutte. Il a permis la création de plateformes comme FlashFood ou SecondLife qui offrent la possibilité à ses utilisateurs d'acheté à bas prix des fruits et légumes dont la date d'expiration est proche.1 Une opportunité idéal pour ceux et celles qui désirent faire des économies tout en étant éco responsable. En soi , il est innevitable de dire que l'on fait des exploits fulgurants lorsqu'il s'agit d'inovations technologiques. Je crois donc que dans un avenir proche un changement majeur pourra avoir lieux. Qui sait, peux-être une invention qui boulverserra le monde du gaspillage.\r\n\r\nPour conclure, je suis convincue que nous pourront, un jour, mettre fin au gaspillage alimentaire grâce aux geste que nous posons et aux technologie que nous créons. Le progrès est optionel, c'est donc à nous que reviens de faire la bonne decsion.\r\n\r\n(1) : « Gaspillage alimentaire », RECYC-QUÉBEC, [En ligne],",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "\"",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "« P »",
+        "description": "L'utilisation des guillemets anglais (\") est incorrecte. En français, il faut utiliser les guillemets typographiques (« »).",
+        "suggestions": [
+          "«"
+        ],
+        "ruleApplied": "4.2.2.5.1"
+      },
+      {
+        "id": "erreur4.2",
+        "text": ",",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une référence bibliographique ou une note de bas de page doit se terminer par un point.",
+        "suggestions": [
+          "."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "id": "erreur4.3",
+        "text": ",",
+        "occurenceIndex": 2,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une référence bibliographique doit se terminer par un point.",
+        "suggestions": [
+          "."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 1.5,
+      "note": "A"
+    },
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "considéré",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé employé comme adjectif doit s'accorder en genre et en nombre avec le nom qu'il qualifie. Ici, 'considéré' qualifie 'une phrase' (féminin singulier).",
+        "suggestions": [
+          "considérée"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "id": "erreur5.2",
+        "text": "finallement",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'adverbe 'finalement' s'écrit avec un seul 'l'. Il y a une erreur sur le doublement de la consonne.",
+        "suggestions": [
+          "finalement"
+        ],
+        "ruleApplied": "5.2.1.6"
+      },
+      {
+        "id": "erreur5.3",
+        "text": "déchêt",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot 'déchet' ne prend pas d'accent circonflexe.",
+        "suggestions": [
+          "déchet"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.4",
+        "text": "pronnent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le verbe 'prôner' prend un accent circonflexe sur le 'o'.",
+        "suggestions": [
+          "prônent"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.5",
+        "text": "un valeur",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'valeur' est féminin. Le déterminant indéfini doit donc être au féminin.",
+        "suggestions": [
+          "une valeur"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.6",
+        "text": "répetant",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le verbe 'répéter' prend un accent aigu sur le premier 'e'.",
+        "suggestions": [
+          "répétant"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.7",
+        "text": "se qu'on",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Il y a confusion entre le pronom réfléchi 'se' et le pronom démonstratif 'ce'. La forme correcte est 'ce que'.",
+        "suggestions": [
+          "ce qu'on"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "id": "erreur5.8",
+        "text": "publié",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'publié' se rapporte à '« Table québécoise sur la saine alimentation »' (féminin singulier, le nom noyau étant 'Table'). Il doit donc s'accorder au féminin.",
+        "suggestions": [
+          "publiée"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "id": "erreur5.9",
+        "text": "essaye",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Barbarisme de conjugaison. Bien que tolérée, la forme correcte du verbe 'essayer' à la troisième personne du singulier de l'indicatif présent est 'essaie'.",
+        "suggestions": [
+          "essaie"
+        ],
+        "ruleApplied": "5.3.2.1"
+      },
+      {
+        "id": "erreur5.10",
+        "text": "réutilisé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le participe passé '-é' et l'infinitif '-er'. Après la préposition 'de', le verbe doit être à l'infinitif.",
+        "suggestions": [
+          "réutiliser"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "id": "erreur5.11",
+        "text": "déchêt",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Répétition de l'erreur d'usage. Le mot 'déchet' ne prend pas d'accent circonflexe.",
+        "suggestions": [
+          "déchet"
+        ],
+        "ruleApplied": "5.1.3"
+      },
+      {
+        "id": "erreur5.12",
+        "text": "cèssent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec son sujet 'La progression' (troisième personne du singulier).",
+        "suggestions": [
+          "cesse"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.13",
+        "text": "dérnier",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot 'dernier' s'écrit avec un accent grave sur le 'e' et non un accent aigu.",
+        "suggestions": [
+          "dernier"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.14",
+        "text": "site Web",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'site' doit s'accorder au pluriel car il est précédé de 'de nombreux'.",
+        "suggestions": [
+          "sites Web"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.15",
+        "text": "résonnable",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'adjectif 'raisonnable' s'écrit avec 'ai' et non 'é'.",
+        "suggestions": [
+          "raisonnable"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "id": "erreur5.16",
+        "text": "idéal",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'idéal' doit s'accorder en genre avec le nom qu'il qualifie, 'opportunité' (féminin).",
+        "suggestions": [
+          "idéale"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.17",
+        "text": "éco responsable",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Absence du trait d'union dans le mot composé 'écoresponsable'.",
+        "suggestions": [
+          "écoresponsable"
+        ],
+        "ruleApplied": "5.2.1.7.1"
+      },
+      {
+        "id": "erreur5.18",
+        "text": "innevitable",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot 'inévitable' s'écrit avec un seul 'n' et un accent aigu sur le 'e'.",
+        "suggestions": [
+          "inévitable"
+        ],
+        "ruleApplied": "5.2.1.6"
+      },
+      {
+        "id": "erreur5.19",
+        "text": "inovations",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot 'innovations' s'écrit avec deux 'n'.",
+        "suggestions": [
+          "innovations"
+        ],
+        "ruleApplied": "5.2.1.6"
+      },
+      {
+        "id": "erreur5.20",
+        "text": "lieux",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion entre les homophones lexicaux 'lieu' (endroit, moment) et 'lieux' (pluriel d'endroit). L'expression est 'avoir lieu'.",
+        "suggestions": [
+          "lieu"
+        ],
+        "ruleApplied": "5.2.2"
+      },
+      {
+        "id": "erreur5.21",
+        "text": "peux-être",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'adverbe 'peut-être' et la forme verbale 'peux être'. Ici, c'est l'adverbe qui est requis.",
+        "suggestions": [
+          "peut-être"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "id": "erreur5.22",
+        "text": "boulverserra",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le verbe 'bouleverser' s'écrit avec 'le' et non 'l'.",
+        "suggestions": [
+          "bouleversera"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "id": "erreur5.23",
+        "text": "convincue",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot 'convaincue' s'écrit avec 'ain' et non 'in'.",
+        "suggestions": [
+          "convaincue"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "id": "erreur5.24",
+        "text": "pourront",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec son sujet 'nous' (première personne du pluriel). La terminaison du futur simple est '-ons'.",
+        "suggestions": [
+          "pourrons"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.25",
+        "text": "geste",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'geste' doit s'accorder au pluriel car il est précédé de la préposition contractée 'aux' (à + les).",
+        "suggestions": [
+          "gestes"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.26",
+        "text": "technologie",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'technologie' doit s'accorder au pluriel car il est précédé de la préposition contractée 'aux' (à + les).",
+        "suggestions": [
+          "technologies"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.27",
+        "text": "optionel",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'adjectif 'optionnel' s'écrit avec deux 'n'.",
+        "suggestions": [
+          "optionnel"
+        ],
+        "ruleApplied": "5.2.1.6"
+      },
+      {
+        "id": "erreur5.28",
+        "text": "reviens",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec son sujet 'que', mis pour 'faire la bonne décision' (troisième personne du singulier).",
+        "suggestions": [
+          "revient"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.29",
+        "text": "decsion",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot 'décision' s'écrit avec 'ci' et un accent aigu sur le 'e'.",
+        "suggestions": [
+          "décision"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "id": "erreur5.30",
+        "text": "se",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le pronom réfléchi 'se' et le pronom démonstratif 'ce'. Il faut écrire 'ce que'.",
+        "suggestions": [
+          "ce"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "id": "erreur5.31",
+        "text": "l'avancé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion entre le participe passé 'avancé' et le nom féminin 'avancée'.",
+        "suggestions": [
+          "l'avancée"
+        ],
+        "ruleApplied": "5.2.1.4"
+      },
+      {
+        "id": "erreur5.32",
+        "text": "cèssent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le verbe 'cesser' ne prend pas d'accent grave.",
+        "suggestions": [
+          "cessent"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.33",
+        "text": "l'arrivé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion entre le participe passé 'arrivé' et le nom féminin 'arrivée'.",
+        "suggestions": [
+          "l'arrivée"
+        ],
+        "ruleApplied": "5.2.1.4"
+      },
+      {
+        "id": "erreur5.34",
+        "text": "d'acheté",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après la préposition 'de' (élidée), le verbe doit être à l'infinitif. Confusion entre le participe passé '-é' et l'infinitif '-er'.",
+        "suggestions": [
+          "d'acheter"
+        ],
+        "ruleApplied": "5.3.2.6"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 33,
+      "note": "E"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:58:48.780Z",
+    "endTimestamp": "2025-12-10T15:02:57.005Z",
+    "durationMs": 248225,
+    "durationFormatted": "04:08:225"
+  }
+}

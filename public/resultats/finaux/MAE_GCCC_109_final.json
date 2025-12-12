@@ -1,0 +1,402 @@
+{
+  "processedAt": "2025-12-12T11:43:20.484Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_109.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_109.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "oui",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule après l'adverbe « oui » qui est employé comme un mot-phrase en tête de proposition.",
+        "suggestions": [
+          "oui,"
+        ],
+        "ruleApplied": "4.2.2.10.1.e",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "La virgule après un mot-phrase en tête de phrase (« oui », « non », « certes », etc.) est obligatoire en français standard. Règle clairement établie.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "n'est non seulement",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution de négation est mal employée. Il faut utiliser « n'est pas seulement » ou, si l'on omet la négation, « est non seulement ».",
+        "suggestions": [
+          "n'est pas seulement",
+          "est non seulement"
+        ],
+        "ruleApplied": "4.1.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction agrammaticale évidente. On ne peut combiner « n'... » avec « non seulement ». La négation doit être soit « ne... pas seulement », soit absente (« est non seulement »).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "l'avance!",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point d'exclamation est utilisé à tort après une simple affirmation. Un point final est requis.",
+        "suggestions": [
+          "l'avance."
+        ],
+        "ruleApplied": "4.2.2.3.2",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Le point d'exclamation peut exprimer l'insistance ou l'enthousiasme dans un texte persuasif. Cependant, son usage ici semble excessif pour une simple recommandation.",
+        "counterArgument": "Le point d'exclamation peut être un choix stylistique pour marquer l'enthousiasme ou l'insistance sur une recommandation pratique. Dans un texte argumentatif visant à convaincre, ce procédé rhétorique est parfois employé pour dynamiser le discours. Toutefois, le point final serait plus sobre et approprié ici."
+      },
+      {
+        "id": "erreur4.4",
+        "text": "Bref",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule après l'organisateur textuel « Bref » placé en tête de phrase.",
+        "suggestions": [
+          "Bref,"
+        ],
+        "ruleApplied": "4.2.2.10.1.k",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "La virgule après un organisateur textuel en tête de phrase est obligatoire en français standard. Règle de ponctuation claire et systématique.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "sont pour inciter",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction « être pour » suivie d'un infinitif est un calque de l'anglais. Il faut utiliser une formulation comme « visent à », « ont pour but de » ou « servent à ».",
+        "suggestions": [
+          "visent à inciter",
+          "ont pour but d'inciter"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Calque syntaxique évident de l'anglais (« are for »). Construction non idiomatique en français standard. Les suggestions proposées sont les formulations correctes.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "dont leurs",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'emploi simultané du pronom relatif « dont » et du déterminant possessif « leurs » constitue une redondance. Il faut supprimer le mot superflu « leurs ».",
+        "suggestions": [
+          "dont les"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur syntaxique évidente. « Dont » exprime déjà la possession, donc l'ajout de « leurs » crée une redondance grammaticale inacceptable. La correction « dont les » est obligatoire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "alimentaire c'est",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule pour isoler le groupe du nom « la lutte contre le gaspillage alimentaire », mis en relief en tête de phrase et repris par le pronom « c' ».",
+        "suggestions": [
+          "alimentaire, c'est"
+        ],
+        "ruleApplied": "4.2.2.10.1.j",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Quand un groupe nominal est mis en relief en tête de phrase et repris par un pronom, la virgule est obligatoire pour marquer la dislocation syntaxique.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "[En ligne]",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque un point final pour clore la référence bibliographique.",
+        "suggestions": [
+          "[En ligne]."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Toute phrase ou référence bibliographique doit se terminer par un signe de ponctuation final. Le point est obligatoire ici.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "« périmé après »",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Les guillemets français (« ») doivent être utilisés. Le guillemet fermant utilisé est un guillemet anglais (\").",
+        "suggestions": [
+          "« périmé après »"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "En français, les guillemets français (« ») sont obligatoires. L'usage de guillemets anglais constitue une erreur typographique claire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.10",
+        "text": "exemple",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le groupe de mots « par exemple », utilisé comme incise, doit être encadré par des virgules. La virgule fermante est manquante.",
+        "suggestions": [
+          "exemple,"
+        ],
+        "ruleApplied": "4.2.2.10.1.g",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Les incises comme « par exemple » doivent être encadrées de virgules. La virgule fermante est obligatoire pour respecter la symétrie de la ponctuation.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.11",
+        "text": ", c'est",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule ne doit pas séparer le sujet (« la lutte contre le gaspillage alimentaire ») du verbe (« est », dans « c'est »).",
+        "suggestions": [
+          " c'est"
+        ],
+        "ruleApplied": "4.2.2.10.2.a",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Cette erreur contredit l'erreur4.7. Dans le contexte « la lutte contre le gaspillage alimentaire, c'est », la virgule est OBLIGATOIRE car il s'agit d'une mise en relief (dislocation) avec reprise pronominale.",
+        "counterArgument": "Il s'agit ici d'une construction de mise en relief (dislocation syntaxique) où le groupe nominal « la lutte contre le gaspillage alimentaire » est repris par le pronom « c' ». Dans ce cas précis, la virgule est OBLIGATOIRE et non interdite. La règle générale interdisant la virgule entre sujet et verbe ne s'applique pas aux constructions dislocatives avec reprise pronominale. Cette détection est donc un faux positif qui contredit l'erreur4.7 correctement identifiée."
+      },
+      {
+        "id": "erreur4.12",
+        "text": "« Sauvetage alimentaire »",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Les guillemets français (« ») doivent être utilisés. Le guillemet fermant utilisé est un guillemet anglais (\").",
+        "suggestions": [
+          "« Sauvetage alimentaire »"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Même erreur typographique que l'erreur4.9. Les guillemets français sont obligatoires en français.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.13",
+        "text": "« Environnement : au rebut, le gaspillage! »",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Les guillemets français (« ») doivent être utilisés. Le guillemet fermant utilisé est un guillemet anglais (\").",
+        "suggestions": [
+          "« Environnement : au rebut, le gaspillage ! »"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Même erreur typographique répétée. Les guillemets français sont obligatoires.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.14",
+        "text": "« Gaspillage alimentaire »",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(P)",
+        "description": "Les guillemets français (« ») doivent être utilisés. Le guillemet fermant utilisé est un guillemet anglais (\"). Cette erreur de ponctuation n'est pas comptabilisée, car la limite de deux erreurs de ce type par bloc est atteinte.",
+        "suggestions": [
+          "« Gaspillage alimentaire »"
+        ],
+        "ruleApplied": "4.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Même erreur typographique répétée. Bien que non comptabilisée selon la règle des répétitions, c'est bien une erreur.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "réfrégérer",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur dans la graphie du mot. Le verbe est « réfrigérer ».",
+        "suggestions": [
+          "réfrigérer"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe d'usage évidente. Le verbe correct est « réfrigérer » (du latin refrigerare). La forme « réfrégérer » n'existe pas.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "concernants",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe présent « concernant », employé ici comme une préposition, est invariable et ne doit pas s'accorder avec le nom « informations ».",
+        "suggestions": [
+          "concernant"
+        ],
+        "ruleApplied": "5.3.2.7",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle grammaticale claire : le participe présent employé comme préposition est invariable. « Concernant » ne prend jamais de « s » dans cet emploi.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "trouvé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « trouvé », conjugué avec l'auxiliaire « avoir », doit s'accorder avec le complément d'objet direct « que » (mis pour « Une stratégie »), placé avant le verbe. L'accord se fait donc au féminin singulier.",
+        "suggestions": [
+          "trouvée"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle d'accord du participe passé avec « avoir » : accord obligatoire avec le COD placé avant. Ici, « que » reprend « Une stratégie » (féminin singulier).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "Achètez-en",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'accent sur le verbe « acheter » à l'impératif présent. La graphie correcte est « Achetez ».",
+        "suggestions": [
+          "Achetez-en"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. À l'impératif présent (2e personne du pluriel), le verbe « acheter » s'écrit « achetez » sans accent grave. L'accent grave n'apparaît qu'aux formes où le e est suivi d'une syllabe muette (j'achète, tu achètes).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "Achètez-en",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Répétition de la même erreur d'usage (accent sur « Achetez »). La graphie correcte est « Achetez ».",
+        "suggestions": [
+          "Achetez-en"
+        ],
+        "ruleApplied": "5.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de l'erreur5.4. Même faute d'orthographe répétée.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "dates limite",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « limite » doit s'accorder en nombre avec le nom « dates » qu'il qualifie. Il prend donc un « s ».",
+        "suggestions": [
+          "dates limites"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Les deux graphies coexistent dans l'usage. Certaines sources (dont l'OQLF) acceptent « dates limite » (limite invariable, considéré comme nom en apposition), d'autres préfèrent « dates limites » (limite variable, considéré comme adjectif).",
+        "counterArgument": "L'expression « dates limite » est acceptée par plusieurs autorités linguistiques, dont l'OQLF, qui considère « limite » comme un nom en apposition invariable (comme dans « bombes surprise » ou « visites éclair »). Cependant, « dates limites » (avec accord) est également correct si l'on considère « limite » comme un adjectif. Les deux graphies coexistent dans l'usage contemporain. L'expression « date limite » au singulier est d'ailleurs plus courante que « dates limites » au pluriel."
+      },
+      {
+        "id": "erreur5.7",
+        "text": "facilite",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe « faciliter » doit s'accorder avec son sujet « qui », mis pour « des entreprises ». Le sujet étant à la troisième personne du pluriel, le verbe doit prendre la terminaison « -ent ».",
+        "suggestions": [
+          "facilitent"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord sujet-verbe évidente. Le pronom relatif « qui » reprend « des entreprises » (pluriel), donc le verbe doit être au pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "persuader",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif « persuader » et le participe passé « persuadé ». Après l'auxiliaire « être » (ici, « suis »), il faut utiliser le participe passé, qui s'accorde en genre et en nombre avec le sujet « je ».",
+        "suggestions": [
+          "persuadé"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion évidente entre infinitif et participe passé. Avec l'auxiliaire « être », on doit obligatoirement utiliser le participe passé accordé.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "lapress.ca",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le nom propre du média « La Presse » doit commencer par une majuscule. La graphie correcte de la dénomination est « LaPresse.ca » ou « La Presse ».",
+        "suggestions": [
+          "LaPresse.ca"
+        ],
+        "ruleApplied": "5.2.4.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de majuscule sur un nom propre. Le site web du journal La Presse s'écrit officiellement « LaPresse.ca » avec majuscules.",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 12,
+      "note": "C"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 8,
+      "note": "B"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 23,
+      "vraisErreurs": 20,
+      "discutables": 2,
+      "fauxPositifs": 1
+    }
+  },
+  "startTimestamp": "2025-12-12T11:42:06.056Z",
+  "endTimestamp": "2025-12-12T11:43:20.484Z",
+  "durationMs": 74428,
+  "durationFormatted": "01:14:428"
+}

@@ -1,0 +1,405 @@
+{
+  "processedAt": "2025-12-10T14:12:17.927Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_020.txt",
+    "originalText": "Sommes-nous prêts à lutter contre le gaspillage alimentaire?\r\n\r\nIl y a plusieurs types de pollution dans le monde, par exemple, la pollution des mers, des pays en développement, des forêts, des écosystèmes, du plastique, des usines, etc. Mais ceci n’est plus assez parlé. Est-ce qu'on c'est débarrasser? Est-il quand même présent mais d'autres enjeux mondiaux sont plus importantes à resoudre? À cause des problèmes politiques et le COVID-19, le gaspillage alimentaire n'est plus parlé. On n'est pas prêt à ressoudre les problèmes liés au gaspillage car elle affecte notre environnement et la qualité d'un aliment influence le nombre d’achats des consommateurs.\r\n\r\nEn premier lieu, on ne peut pas lutter contre le gaspillage car elle affecte notre environnement. On produit un surplus de CO2 chaque année qui influence gravement le réchauffement climatique. Les usines, les voitures, tout ce qui utilisent le pétrole nuit notre planète. Dans l’article « Gaspillage alimentaire » 2021, RECYC-Québec constate que les aliments qui ne sont pas consommés sont mis dans l’enfouissement et l’incinération qui contribuent aux changements climatiques. On essaie déjà à diminuer les causes des gaz à effet de serre, mais comment pouvons-nous si on augmente toujours le réchauffement de la Terre? Selon une étude en 2019, 931 million de tonnes de nourritures ont été gaspillés (Shields, 2021). « Une tonne de nourriture gaspillée équivaut à une voiture de plus sur la route chaque année » (RECYC-Québec, 2021). En effet, la transformation et la consommation des aliments qu'on ne touche pas provent plus la moitié du gaspillage au Canada. Ce sont surtout les produits laitiers, les œufs, les fruits et légumes qui haussent ce type de pollution. La nourriture qu'on ne touchent pas vont se faire incinérer qui causera une augmentation au changement climatique.\r\n\r\nDeuxièmement, on ne pourra pas réssoudre le gaspillage alimentaire parce que des gens préfèrent avoir des produits et aliments de qualités. Mais l’apparence d'un fruit ou légume n’a aucun lien avec le goût. Il y a des gens qui jugent trop vite avent de manger, alors ils croient que la qualité démontre un goût plus luxueux. Dans l’infographie « Le gaspillage alimentaire », des agriculteurs hésitent à vendre leurs produits car ils ne répondent pas à la qualification des personnes car la météo détermine la forme et la taille d'un fruit et légume. Elle affecte le nombre d’achats des consommateurs car ils sont à la recherche des aliments les plus parfaits. Rien n'est parfait dans ce monde, il y a toujours un côté négatif mais à la fin, une pomme va toujours goûter comme une pomme. Même s'il y a des organisations qui récupèrent les aliments des agriculteurs, des compagnies savent quand même priviléger les demandes des plus grandes entreprises alors ils doivent refuser 80% des demandes qui influencent la pollution alimentaire (Martinez, Emmanuel 2021). Ce sont juste des aliments différents qu'on mange, le goût va dépendre comment une personne va cuisiner son plat.\r\n\r\nPour conclure, on n’est pas près à lutter contre le gaspillage alimentaire car elle affecte notre environnement et des personnes préfèrent la qualité de l’aliment. Pouvons-nous réssoudre la famine mondiale avec les surplus de nourriture qu’on jettent chaque année?",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "parlé",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction passive avec le verbe 'parler' est boiteuse et non idiomatique. Il faut utiliser une tournure active ou une autre expression comme 'n'est plus abordé'.",
+        "suggestions": [
+          "abordé"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "id": "erreur4.2",
+        "text": "et le COVID-19",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Dans une énumération introduite par une préposition ('de' dans 'à cause de'), cette préposition doit être répétée devant chaque élément. Il manque 'de la' devant 'COVID-19'.",
+        "suggestions": [
+          "et de la COVID-19"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "id": "erreur4.3",
+        "text": "nuit notre planète",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe 'nuire' est un verbe transitif indirect qui se construit avec la préposition 'à'.",
+        "suggestions": [
+          "nuit à notre planète"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "id": "erreur4.4",
+        "text": "plus la moitié",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque la préposition 'de' dans la locution 'plus de la moitié'.",
+        "suggestions": [
+          "plus de la moitié"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "id": "erreur4.5",
+        "text": "(Martinez, Emmanuel 2021)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "La virgule est manquante entre le nom de l'auteur et l'année de publication dans cette référence de style parenthétique.",
+        "suggestions": [
+          "(Martinez, Emmanuel, 2021)"
+        ],
+        "ruleApplied": "4.2.2.10.1.a"
+      },
+      {
+        "id": "erreur4.6",
+        "text": "juste",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'adverbe 'juste' dans le sens de 'seulement' est un calque de l'oral. Il est préférable d'utiliser 'seulement' ou la tournure 'ne... que'.",
+        "suggestions": [
+          "seulement"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "id": "erreur4.7",
+        "text": "dépendre comment",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Le verbe 'dépendre' se construit avec la préposition 'de'. Il manque 'de' avant 'comment'. Une seule erreur de syntaxe est comptée par phrase.",
+        "suggestions": [
+          "dépendre de comment"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "id": "erreur4.8",
+        "text": "parlé",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "S",
+        "description": "La tournure passive « est parlé » est incorrecte dans ce contexte. Il faut utiliser une tournure active comme « on ne parle plus du gaspillage alimentaire ».",
+        "suggestions": [
+          "on ne parle plus du gaspillage alimentaire"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "id": "erreur4.9",
+        "text": "» 2021,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule pour isoler l'élément « 2021 » qui est en apposition au titre de l'article.",
+        "suggestions": [
+          "», 2021,"
+        ],
+        "ruleApplied": "4.2.2.10.1.i"
+      },
+      {
+        "id": "erreur4.10",
+        "text": "essaie déjà à",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe « essayer » se construit avec la préposition « de » devant un infinitif, et non « à ».",
+        "suggestions": [
+          "essaie déjà de"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "id": "erreur4.11",
+        "text": "qualification",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le mot « qualification » est inapproprié dans ce contexte. Il faut utiliser un mot comme « exigences », « critères » ou « attentes » pour exprimer l'idée correctement.",
+        "suggestions": [
+          "aux exigences",
+          "aux critères"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "id": "erreur4.12",
+        "text": "d'un fruit et légume",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Dans une énumération, il faut répéter le déterminant (ici « un », élidé en « d'un ») devant chaque nom pour plus de clarté.",
+        "suggestions": [
+          "d'un fruit et d'un légume"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "id": "erreur4.13",
+        "text": "Elle",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom « Elle » a un référent ambigu. Il semble reprendre « la météo », mais le sens logique voudrait qu'il reprenne l'idée de l'apparence des produits. L'utilisation de « Cela » serait plus claire.",
+        "suggestions": [
+          "Cela"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "id": "erreur4.14",
+        "text": "savent",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe « savoir » signifie « avoir la connaissance de » ou « être capable de ». Dans ce contexte, un verbe comme « choisissent de » ou « préfèrent » serait plus approprié pour indiquer une décision ou une préférence.",
+        "suggestions": [
+          "choisissent de",
+          "préfèrent"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "id": "erreur4.15",
+        "text": "2021)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque le point final pour clore la phrase avant la parenthèse de la source.",
+        "suggestions": [
+          "2021)."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 11.5,
+      "note": "C"
+    },
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "c'est",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'homophone grammatical 'c'est' (cela est) et le pronom réfléchi 's'est' qui fait partie du verbe pronominal 'se débarrasser' au passé composé.",
+        "suggestions": [
+          "s'est"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "id": "erreur5.2",
+        "text": "débarrasser",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après l'auxiliaire 'être' (contenu dans 's'est'), le verbe doit être au participe passé. Confusion entre la désinence de l'infinitif '-er' et celle du participe passé '-é'.",
+        "suggestions": [
+          "débarrassé"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "id": "erreur5.3",
+        "text": "importantes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'importantes' doit s'accorder en genre et en nombre avec le nom qu'il qualifie, 'enjeux mondiaux', qui est masculin pluriel.",
+        "suggestions": [
+          "importants"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.4",
+        "text": "elle",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom 'elle' doit s'accorder en genre avec son antécédent, 'le gaspillage', qui est masculin. Il faut utiliser 'il'.",
+        "suggestions": [
+          "il"
+        ],
+        "ruleApplied": "5.3.1.4"
+      },
+      {
+        "id": "erreur5.5",
+        "text": "utilisent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'utilisent' doit s'accorder avec son sujet, le pronom relatif 'qui' qui reprend 'tout ce'. 'Tout ce' est singulier et commande l'accord à la 3e personne du singulier.",
+        "suggestions": [
+          "utilise"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.6",
+        "text": "million",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'million', lorsqu'il est multiplié (ici, par 931), prend la marque du pluriel.",
+        "suggestions": [
+          "millions"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.7",
+        "text": "nourritures",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'nourriture' est généralement indénombrable dans ce contexte et doit rester au singulier.",
+        "suggestions": [
+          "nourriture"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.8",
+        "text": "gaspillés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'gaspillés', employé avec l'auxiliaire 'être', doit s'accorder avec le sujet. Le noyau du groupe sujet est 'tonnes', qui est féminin pluriel.",
+        "suggestions": [
+          "gaspillées"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "id": "erreur5.9",
+        "text": "provent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Barbarisme de conjugaison. La forme correcte du verbe 'provenir' à la troisième personne du pluriel du présent de l'indicatif est 'proviennent'.",
+        "suggestions": [
+          "proviennent"
+        ],
+        "ruleApplied": "5.3.2.1"
+      },
+      {
+        "id": "erreur5.10",
+        "text": "touchent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'touchent' doit s'accorder avec son sujet 'on', qui commande la troisième personne du singulier.",
+        "suggestions": [
+          "touche"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.11",
+        "text": "vont",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'vont' doit s'accorder avec son sujet 'La nourriture', qui est singulier.",
+        "suggestions": [
+          "va"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.12",
+        "text": "réssoudre",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Graphie erronée du verbe 'résoudre'. Il ne prend qu'un seul 's'.",
+        "suggestions": [
+          "résoudre"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "id": "erreur5.13",
+        "text": "qualités",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Dans la locution 'de qualité', le nom 'qualité' reste au singulier car il désigne une caractéristique générale.",
+        "suggestions": [
+          "qualité"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.14",
+        "text": "avent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion entre les homophones 'avent' (période religieuse) et 'avant' (préposition de temps).",
+        "suggestions": [
+          "avant"
+        ],
+        "ruleApplied": "5.2.2"
+      },
+      {
+        "id": "erreur5.15",
+        "text": "près",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'adverbe 'près' (proximité) et l'adjectif 'prêt'. Ici, 'prêt' doit s'accorder avec 'on' (représentant 'nous'), donc au masculin pluriel.",
+        "suggestions": [
+          "prêts"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "id": "erreur5.16",
+        "text": "jettent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'jettent' doit s'accorder avec son sujet 'on', qui commande la troisième personne du singulier.",
+        "suggestions": [
+          "jette"
+        ],
+        "ruleApplied": "5.3.2.2"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 16,
+      "note": "D"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:06:59.249Z",
+    "endTimestamp": "2025-12-10T14:12:17.927Z",
+    "durationMs": 318678,
+    "durationFormatted": "05:18:678"
+  }
+}

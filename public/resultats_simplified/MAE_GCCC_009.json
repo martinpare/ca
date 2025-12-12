@@ -1,0 +1,813 @@
+{
+  "processedAt": "2025-12-10T15:30:42.178Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_009.txt",
+    "originalText": "L’alimentation… au secours!\r\n\r\nCher lecteurs,\r\n\r\nDe nos jours, l’alimentation est très importante pour vivre une vie adéquate. Les gens prennent la décision d'avoir des repas strictement sans produits animaux et même où ils ne tolèrent que la consommation de viande. À ce qui m’amène au gaspillage alimentaire, où il est rendu à une extrimité, que seul les familles canadiennes gaspillent près de trois tonnes d’aliment. Pour lutter contre ce phénomène de gaspillage, des règles et une meuilleur style de vie devrait être imposé. Mais comme société, nous avons de haute standard par rapport à nos fruits et légumes. Quoi que ce soi la taille et forme et bien même une immense cycle de gaspillage dans les restaurants.\r\n\r\nPremierement, chers lecteurs abordont sur l’aspect « Estétiquement parfait ». Les êtres humains, nous voulons des aliments qui nous plait à l’œuil. Nous avons de haute standard surtout pour nos produits d’alimentation, ce qui mène à une gaspillage de nourriture. En terme de production et de la transformation des produits, nous nous rendions pas compte que les produits agricoles sont affectés par les conditions météorologiques, c'est pour cela la forme et la taille des légumes ont tendance à changer. Comme le dit Pascal Thériault, « le client accepte que la nature soit imparfaite l’orsqu’il va au marché […] le même client veut un produit parfait ». (Cameron, 2020) Comment nous avons l’opportunité de même avoir des fruits et des légumes tout au long de l’année, grâce à la mondialisation, montre comment nous sommes ingrate comparé à ceux qui n’ont pas l’opportunité à choisir ce qu’il veulent manger. Bref, comme on le mentionne dans l’article « Le gaspillage alimentaire » mentionne « […] résidus évitables, c'est-à-dire d’aliments qui auraient du être mangés plutôt que jetés » (RECYC-QUÉBEC, 2021) Bref, nos demandes sont assez ridicule.\r\n\r\nDeuxièmement, cher public apprenont sur les domains d’Hôtellerie et de restauration. Comme nous le constatons déja, ces institutions on tendance à avoir une mauvaise réputation concernant le gaspillage de nourriture. Un autre raison pour laquelle la société sera à une désavantage pour lutter contre le gaspillage alimentaire. La question ne vous êtes jamais venu en tête par rapport de où vas la nourriture quand les grandes chaines de « Fast-food ferme? La réponse est simple, à la poubelle. Comme on mentionne dans l’article de Hôtellerie et restauration « Dans l’industrie de la restauration, de très grands quantités de nourriture sont gaspillées pour des raisons sanitaires […] » (Hébert, 2019). De plus, Jean François Archambault et son equipe « Table des chefs », un programme de récuperation de surplus alimentaires des hôtels et restaurants à Montreal, ont récupéres le plus de la moitie d'un million de repas. (Hébert, 2019). Cela est une très bonne amélioration, mais pas assez pour lutter contre le gaspillage de nourriture.\r\n\r\nEn conclusion, chers citoyens, nous sommes venu en réalisation que nos désirs et les reglements des hôtels et des restaurants n’associent pas à la réalisation d'une société prête à lutter contre ce phénomène de gaspillage alimentaire. Bref, en tant que citoyens dans une société moderne, la change est réalisable seulement si nous prenons en considérations des enjeux qu'on fait face. ",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "et même où",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est boiteuse. Le pronom relatif 'où' est utilisé incorrectement pour introduire une alternative. La coordination avec 'et même' est également maladroite.",
+        "suggestions": [
+          "ou, à l'inverse, des repas où"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "id": "erreur4.2",
+        "text": "À ce qui",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition 'À' est superflue en début de phrase. La locution correcte est 'Ce qui'.",
+        "suggestions": [
+          "Ce qui"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "id": "erreur4.3",
+        "text": "Quoi que ce soi la taille et forme et bien même une immense cycle de gaspillage dans les restaurants.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase est une subordonnée sans phrase matrice pour la compléter. Elle est donc syntaxiquement incorrecte.",
+        "suggestions": [
+          "Cela concerne aussi bien la taille et la forme que l'immense cycle de gaspillage dans les restaurants."
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "id": "erreur4.4",
+        "text": "abordont sur",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe 'aborder' est un verbe transitif direct. Il ne doit pas être suivi de la préposition 'sur'.",
+        "suggestions": [
+          "abordons l'aspect"
+        ],
+        "ruleApplied": "4.1.2.2.2"
+      },
+      {
+        "id": "erreur4.5",
+        "text": "nous nous rendions pas",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La négation est mal employée. Il manque l'adverbe 'ne' (ou 'n'') avant le verbe.",
+        "suggestions": [
+          "nous ne nous rendions pas"
+        ],
+        "ruleApplied": "4.1.2.1.3"
+      },
+      {
+        "id": "erreur4.6",
+        "text": "cela la",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Il manque le subordonnant 'que' après la locution 'c'est pour cela'.",
+        "suggestions": [
+          "cela que la"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "id": "erreur4.7",
+        "text": "2020)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque un point final après la référence pour clore la phrase.",
+        "suggestions": [
+          "2020)."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "id": "erreur4.8",
+        "text": "Comment nous avons l’opportunité de même avoir des fruits et des légumes tout au long de l’année, grâce à la mondialisation, montre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est boiteuse. Une proposition interrogative indirecte ('Comment nous avons...') ne peut pas être le sujet du verbe 'montre'. Il faut utiliser une construction comme 'Le fait que...'.",
+        "suggestions": [
+          "Le fait que nous ayons l'opportunité d'avoir..."
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "id": "erreur4.9",
+        "text": "à choisir",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "La préposition correcte après 'l'opportunité' est 'de', et non 'à'.",
+        "suggestions": [
+          "de choisir"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "id": "erreur4.10",
+        "text": "comme on le mentionne dans l’article « Le gaspillage alimentaire » mentionne",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il y a une redondance du verbe 'mentionner'. La construction est incorrecte.",
+        "suggestions": [
+          "comme le mentionne l'article « Le gaspillage alimentaire » :",
+          "comme il est mentionné dans l'article « Le gaspillage alimentaire » :"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "id": "erreur4.11",
+        "text": "2021)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque un point final après la référence pour clore la phrase.",
+        "suggestions": [
+          "2021)."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "id": "erreur4.12",
+        "text": "apprenont sur",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction 'apprendre sur' est un calque de l'anglais ('learn about'). Il faut utiliser une autre tournure comme 'apprenons-en davantage sur' ou 'penchons-nous sur'.",
+        "suggestions": [
+          "penchons-nous sur"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "id": "erreur4.13",
+        "text": "Un autre raison pour laquelle la société sera à une désavantage pour lutter contre le gaspillage alimentaire.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase est nominale et ne contient pas de verbe principal. Elle est donc syntaxiquement incomplète.",
+        "suggestions": [
+          "C'est une autre raison pour laquelle..."
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "id": "erreur4.14",
+        "text": "de",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution prépositive correcte est 'par rapport à', et non 'par rapport de'.",
+        "suggestions": [
+          "à"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "id": "erreur4.15",
+        "text": "ferme?",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point d'interrogation doit se trouver à la fin de la phrase interrogative, et non au milieu.",
+        "suggestions": [
+          "ferment ?"
+        ],
+        "ruleApplied": "4.2.2.2.2"
+      },
+      {
+        "id": "erreur4.16",
+        "text": "sommes venu en réalisation que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression 'venir en réalisation' est un calque de l'anglais. Il faut utiliser une tournure française comme 'avons réalisé que' ou 'nous sommes rendu compte que'.",
+        "suggestions": [
+          "avons réalisé que",
+          "nous sommes rendu compte que"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "id": "erreur4.17",
+        "text": "n’associent pas",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Le verbe 'associer' est ici employé de manière pronominale ('s'associer à'). Il manque le pronom réfléchi 's''.",
+        "suggestions": [
+          "ne s'associent pas"
+        ],
+        "ruleApplied": "4.1.2.2.2"
+      },
+      {
+        "id": "erreur4.18",
+        "text": "qu'on fait face",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction 'faire face' requiert la préposition 'à'. Le pronom relatif correct est donc 'auxquels' (en référence à 'enjeux').",
+        "suggestions": [
+          "auxquels on fait face"
+        ],
+        "ruleApplied": "4.1.2.3.1"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 13.5,
+      "note": "C"
+    },
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "Cher",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'cher' doit s'accorder en genre et en nombre avec le nom 'lecteurs' qu'il qualifie. Le donneur d'accord est 'lecteurs' (masculin pluriel).",
+        "suggestions": [
+          "Chers"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.2",
+        "text": "extrimité",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot 'extrémité' est mal orthographié.",
+        "suggestions": [
+          "extrémité"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "id": "erreur5.3",
+        "text": "seul",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'seul' doit s'accorder en genre et en nombre avec le nom 'familles' qu'il qualifie. Le donneur d'accord est 'familles' (féminin pluriel).",
+        "suggestions": [
+          "seules"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.4",
+        "text": "d’aliment",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'aliment' doit être au pluriel car il est complément du nom 'tonnes', qui exprime une quantité plurielle.",
+        "suggestions": [
+          "d'aliments"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.5",
+        "text": "meuilleur",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot 'meilleur' est mal orthographié.",
+        "suggestions": [
+          "meilleur"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "id": "erreur5.6",
+        "text": "devrait",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'devrait' doit s'accorder avec son sujet pluriel 'des règles et une meuilleur style de vie'. La terminaison correcte est '-aient'.",
+        "suggestions": [
+          "devraient"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.7",
+        "text": "imposé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'imposé', employé avec l'auxiliaire 'être', doit s'accorder en genre et en nombre avec le sujet 'des règles et une meuilleur style de vie' (masculin pluriel).",
+        "suggestions": [
+          "imposés"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "id": "erreur5.8",
+        "text": "haute",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'haut' doit s'accorder en genre et en nombre avec le nom 'standard' qu'il qualifie. Le donneur d'accord est 'standard' (masculin pluriel).",
+        "suggestions": [
+          "hauts"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.9",
+        "text": "standard",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "Le nom 'standard' doit être au pluriel car il est précédé de 'de hauts'. Le donneur d'accord est 'standard'.",
+        "suggestions": [
+          "standards"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.10",
+        "text": "Quoi que ce soi",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre la locution conjonctive 'Que ce soit' et 'Quoi que ce soi'. 'Soi' est un pronom réfléchi, la forme correcte du verbe 'être' au subjonctif présent est 'soit'.",
+        "suggestions": [
+          "Que ce soit"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "id": "erreur5.11",
+        "text": "une",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant 'une' doit s'accorder en genre avec le nom 'cycle' qu'il détermine. Le donneur d'accord est 'cycle' (masculin).",
+        "suggestions": [
+          "un"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.12",
+        "text": "Premierement",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Il manque un accent grave sur le deuxième 'e' de l'adverbe 'premièrement'.",
+        "suggestions": [
+          "Premièrement"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.13",
+        "text": "abordont",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "La terminaison du verbe 'aborder' à la première personne du pluriel de l'indicatif présent ou de l'impératif est '-ons'.",
+        "suggestions": [
+          "abordons"
+        ],
+        "ruleApplied": "5.3.2.1"
+      },
+      {
+        "id": "erreur5.14",
+        "text": "Estétiquement",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot 'esthétiquement' est mal orthographié. Il faut un 'h' après le 't'.",
+        "suggestions": [
+          "Esthétiquement"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "id": "erreur5.15",
+        "text": "plait",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'plaire' doit s'accorder avec son sujet 'aliments' (masculin pluriel). La terminaison correcte à la troisième personne du pluriel du présent de l'indicatif est '-ent'.",
+        "suggestions": [
+          "plaisent"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.16",
+        "text": "œuil",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot 'œil' est mal orthographié.",
+        "suggestions": [
+          "œil"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "id": "erreur5.17",
+        "text": "une",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant 'une' doit s'accorder en genre avec le nom 'gaspillage' qu'il détermine. Le donneur d'accord est 'gaspillage' (masculin).",
+        "suggestions": [
+          "un"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.18",
+        "text": "terme",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'expression correcte est 'en termes de', au pluriel.",
+        "suggestions": [
+          "termes"
+        ],
+        "ruleApplied": "5.2.2"
+      },
+      {
+        "id": "erreur5.19",
+        "text": "l’orsqu’il",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot 'lorsqu'il' est mal orthographié. Il s'agit de la conjonction 'lorsque' élidée devant 'il'.",
+        "suggestions": [
+          "lorsqu'il"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "id": "erreur5.20",
+        "text": "ingrate",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'ingrat' doit s'accorder en nombre avec le pronom 'nous' qu'il qualifie. Le donneur d'accord est 'nous' (pluriel).",
+        "suggestions": [
+          "ingrats"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.21",
+        "text": "comparé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "Le participe passé 'comparé' doit s'accorder en nombre avec le pronom 'nous' qu'il qualifie. Le donneur d'accord est 'nous' (pluriel).",
+        "suggestions": [
+          "comparés"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "id": "erreur5.22",
+        "text": "il veulent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom sujet 'il' (singulier) ne s'accorde pas avec le verbe 'veulent' (pluriel). Le pronom correct est 'ils'.",
+        "suggestions": [
+          "ils veulent"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.23",
+        "text": "du",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'article contracté 'du' et le participe passé 'dû' du verbe 'devoir'. Il faut un accent circonflexe.",
+        "suggestions": [
+          "dû"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "id": "erreur5.24",
+        "text": "ridicule",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'ridicule' doit s'accorder en nombre avec le nom 'demandes' qu'il qualifie. Le donneur d'accord est 'demandes' (féminin pluriel).",
+        "suggestions": [
+          "ridicules"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.25",
+        "text": "apprenont",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "La terminaison du verbe 'apprendre' à la première personne du pluriel de l'indicatif présent ou de l'impératif est '-ons'.",
+        "suggestions": [
+          "apprenons"
+        ],
+        "ruleApplied": "5.3.2.1"
+      },
+      {
+        "id": "erreur5.26",
+        "text": "domains",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot 'domaines' est mal orthographié.",
+        "suggestions": [
+          "domaines"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "id": "erreur5.27",
+        "text": "Hôtellerie",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le nom commun 'hôtellerie' ne prend pas de majuscule dans ce contexte.",
+        "suggestions": [
+          "hôtellerie"
+        ],
+        "ruleApplied": "5.2.4.1"
+      },
+      {
+        "id": "erreur5.28",
+        "text": "déja",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Il manque un accent grave sur le 'a' de l'adverbe 'déjà'.",
+        "suggestions": [
+          "déjà"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.29",
+        "text": "on",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le pronom 'on' et la forme conjuguée 'ont' du verbe 'avoir'. Le sujet 'ces institutions' (pluriel) requiert 'ont'.",
+        "suggestions": [
+          "ont"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "id": "erreur5.30",
+        "text": "Un",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant 'Un' doit s'accorder en genre avec le nom 'raison' qu'il détermine. Le donneur d'accord est 'raison' (féminin).",
+        "suggestions": [
+          "Une"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.31",
+        "text": "êtes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'auxiliaire 'être' doit s'accorder avec le sujet 'La question' (3e personne du singulier). La forme correcte est 'est'.",
+        "suggestions": [
+          "est"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.32",
+        "text": "venu",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "Le participe passé 'venu', employé avec l'auxiliaire 'être', doit s'accorder en genre et en nombre avec le sujet 'La question'. Le donneur d'accord est 'La question' (féminin singulier).",
+        "suggestions": [
+          "venue"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "id": "erreur5.33",
+        "text": "vas",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'aller' doit s'accorder avec son sujet 'la nourriture' (3e personne du singulier). La forme correcte est 'va'.",
+        "suggestions": [
+          "va"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.34",
+        "text": "chaines",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Il manque un accent circonflexe sur le 'i' du mot 'chaînes'.",
+        "suggestions": [
+          "chaînes"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.35",
+        "text": "ferme",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'fermer' doit s'accorder avec son sujet 'les grandes chaines de « Fast-food »' (3e personne du pluriel). La forme correcte est 'ferment'.",
+        "suggestions": [
+          "ferment"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.36",
+        "text": "Hôtellerie",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Le nom commun 'hôtellerie' ne prend pas de majuscule dans ce contexte. Il s'agit d'une erreur répétée.",
+        "suggestions": [
+          "hôtellerie"
+        ],
+        "ruleApplied": "5.1.3"
+      },
+      {
+        "id": "erreur5.37",
+        "text": "grands",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'grand' doit s'accorder en genre et en nombre avec le nom 'quantités' qu'il qualifie. Le donneur d'accord est 'quantités' (féminin pluriel).",
+        "suggestions": [
+          "grandes"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.38",
+        "text": "Jean François",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Les prénoms composés prennent généralement un trait d'union.",
+        "suggestions": [
+          "Jean-François"
+        ],
+        "ruleApplied": "5.2.1.7.1"
+      },
+      {
+        "id": "erreur5.39",
+        "text": "equipe",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Il manque un accent aigu sur le premier 'e' du mot 'équipe'.",
+        "suggestions": [
+          "équipe"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.40",
+        "text": "récuperation",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Il manque un accent aigu sur le 'e' du mot 'récupération'.",
+        "suggestions": [
+          "récupération"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.41",
+        "text": "Montreal",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le nom propre 'Montréal' prend un accent aigu sur le 'e'.",
+        "suggestions": [
+          "Montréal"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.42",
+        "text": "récupéres",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'récupéré', employé avec l'auxiliaire 'avoir', ne s'accorde pas car le complément d'objet direct ('le plus de la moitié...') est placé après le verbe.",
+        "suggestions": [
+          "récupéré"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "id": "erreur5.43",
+        "text": "moitie",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Il manque un accent aigu sur le 'e' du mot 'moitié'.",
+        "suggestions": [
+          "moitié"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.44",
+        "text": "venu",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'venu', employé avec l'auxiliaire 'être', doit s'accorder en nombre avec le sujet 'nous'. Le donneur d'accord est 'nous' (pluriel).",
+        "suggestions": [
+          "venus"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "id": "erreur5.45",
+        "text": "reglements",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Il manque un accent grave sur le premier 'e' du mot 'règlements'.",
+        "suggestions": [
+          "règlements"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.46",
+        "text": "la change",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le nom 'change' (masculin, domaine financier) et le nom 'changement'. Le déterminant 'la' est également incorrect.",
+        "suggestions": [
+          "le changement"
+        ],
+        "ruleApplied": "5.3.3.2"
+      },
+      {
+        "id": "erreur5.47",
+        "text": "considérations",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'expression figée est 'prendre en considération', au singulier.",
+        "suggestions": [
+          "considération"
+        ],
+        "ruleApplied": "5.2.2"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 43,
+      "note": "E"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T15:24:28.014Z",
+    "endTimestamp": "2025-12-10T15:30:42.178Z",
+    "durationMs": 374164,
+    "durationFormatted": "06:14:164"
+  }
+}

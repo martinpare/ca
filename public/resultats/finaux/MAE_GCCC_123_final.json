@@ -1,0 +1,337 @@
+{
+  "processedAt": "2025-12-12T11:44:24.480Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_123.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_123.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "sommes pas",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque l'adverbe de négation 'ne' (ou 'n'') dans la locution 'ne... pas'.",
+        "suggestions": [
+          "ne sommes pas"
+        ],
+        "ruleApplied": "4.1.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Omission de la particule négative 'ne' dans un texte scolaire de registre courant. Bien que l'omission soit courante à l'oral familier, elle constitue une erreur à l'écrit dans ce contexte.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "pensent que à",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la restriction est incorrecte. Pour 'ne... que', la préposition 'à' doit suivre directement 'que'. De plus, la négation 'ne' est manquante.",
+        "suggestions": [
+          "ne pensent qu'à"
+        ],
+        "ruleApplied": "4.1.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double erreur évidente : absence de 'ne' et élision manquante de 'que' devant voyelle. Construction syntaxique fautive.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "prenons pas",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque l'adverbe de négation 'ne' (ou 'n'') dans la locution 'ne... pas'.",
+        "suggestions": [
+          "ne prenons pas"
+        ],
+        "ruleApplied": "4.1.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Omission répétée de la particule négative 'ne'. Erreur systématique dans le texte qui confirme une faute et non un choix stylistique.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "». (",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point final doit être placé avant la référence à la source, et non après.",
+        "suggestions": [
+          ". » ("
+        ],
+        "ruleApplied": "4.2.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de ponctuation dans la citation. Le point doit être placé à l'intérieur des guillemets lorsqu'il termine la citation. Convention typographique claire en français.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "2020)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "La référence à la source entre parenthèses doit être placée avant le point final de la phrase, qui est manquant ici.",
+        "suggestions": [
+          "2020)."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Point final manquant après la référence bibliographique entre parenthèses. Erreur de ponctuation évidente.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "gaspillage (",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque un point pour terminer la phrase avant la référence à la source.",
+        "suggestions": [
+          "gaspillage. ("
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Le contexte suggère que la parenthèse fait partie intégrante de la phrase plutôt qu'une référence bibliographique externe. La structure de cette phrase reste ambiguë.",
+        "counterArgument": "Dans le contexte, la parenthèse semble faire partie intégrante de la phrase et non servir de référence externe. Si le texte entre parenthèses complète le sens de la phrase principale (comme précision sur le type de gaspillage), le point après parenthèse est acceptable. Toutefois, si c'est une référence bibliographique, la ponctuation suggérée serait correcte."
+      },
+      {
+        "id": "erreur4.7",
+        "text": "est pas",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque l'adverbe de négation 'ne' (ou 'n'') dans la locution 'ne... pas'.",
+        "suggestions": [
+          "n'est pas"
+        ],
+        "ruleApplied": "4.1.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Omission répétée systématique de 'ne'. Pattern d'erreur confirmé dans tout le texte.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "pourquoi",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque le point final pour marquer la fin de la phrase.",
+        "suggestions": [
+          "pourquoi."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Point final manquant en fin de phrase. Erreur de ponctuation basique et évidente.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "souligne,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "La virgule est incorrecte entre le verbe ('souligne') et la proposition subordonnée complétive introduite par 'que'.",
+        "suggestions": [
+          "souligne"
+        ],
+        "ruleApplied": "4.2.2.10.2.e",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Virgule erronée séparant le verbe de sa complétive. Règle syntaxique fondamentale : on ne sépare pas le verbe de son complément direct.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.10",
+        "text": "s'en rendent pas compte des enjeux",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction de phrase erronée. L'emploi simultané du pronom 'en' et du complément 'des enjeux' est redondant. De plus, il manque l'adverbe de négation 'ne'. Il faut choisir entre 'ne s'en rendent pas compte' et 'ne se rendent pas compte des enjeux'.",
+        "suggestions": [
+          "ne se rendent pas compte des enjeux",
+          "ne s'en rendent pas compte"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double erreur : redondance pronominale ('en' + 'des enjeux') et omission de 'ne'. Construction syntaxique clairement fautive.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.11",
+        "text": "épiceries",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque le point final pour marquer la fin de la phrase avant la référence entre parenthèses.",
+        "suggestions": [
+          "épiceries."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Point final manquant avant une référence bibliographique. Erreur de ponctuation dans le système de citation.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.12",
+        "text": "gaspillage",
+        "occurenceIndex": 3,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque le point final pour marquer la fin de la phrase.",
+        "suggestions": [
+          "gaspillage."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Point final manquant en fin de phrase. Erreur de ponctuation évidente.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "ingéré",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé employé comme adjectif 'ingéré' doit s'accorder en genre et en nombre avec le nom qu'il qualifie, 'aliments' (masculin pluriel).",
+        "suggestions": [
+          "ingérés"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du participe passé employé comme adjectif. Règle grammaticale fondamentale clairement violée.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "conseil zéro déchet",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Les noms propres qui composent une dénomination ou un nom d'organisme prennent généralement une majuscule.",
+        "suggestions": [
+          "Conseil zéro déchet"
+        ],
+        "ruleApplied": "5.2.4.1.2",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Le nom exact de l'organisme n'a pas été vérifié. Sans accès à la graphie officielle, l'attribution de la majuscule reste incertaine. Il peut s'agir d'un nom commun descriptif dans la citation plutôt que du nom officiel.",
+        "counterArgument": "Dans le contexte de la citation, 'conseil zéro déchet' pourrait être une description générique plutôt que le nom officiel d'un organisme. Si c'est le nom officiel, il faudrait vérifier la graphie exacte (possiblement 'Conseil Zéro Déchet' avec majuscules à chaque mot). Sans source vérifiable, la correction reste incertaine."
+      },
+      {
+        "id": "erreur5.3",
+        "text": "envahi",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'envahir' doit s'accorder avec son sujet 'l'ambivalence' (3e personne du singulier). La terminaison correcte est '-it'.",
+        "suggestions": [
+          "envahit"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de conjugaison évidente. Confusion entre le participe passé 'envahi' et le présent de l'indicatif 'envahit'. Le contexte exige clairement le présent.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "cher",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif attribut 'cher' doit s'accorder en nombre avec le sujet qu'il qualifie, 'aliments' (masculin pluriel).",
+        "suggestions": [
+          "chers"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord de l'adjectif attribut avec le sujet pluriel. Règle grammaticale fondamentale.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "environnementales",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'environnementales' doit s'accorder en genre et en nombre avec le nom qu'il qualifie, 'enjeux' (masculin pluriel).",
+        "suggestions": [
+          "environnementaux"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord de l'adjectif en genre. 'Enjeux' est masculin, donc l'adjectif doit prendre la forme masculine 'environnementaux'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "que à",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "La conjonction 'que' doit s'élider devant une voyelle ou un 'h' muet. Il faut écrire 'qu'à'.",
+        "suggestions": [
+          "qu'à"
+        ],
+        "ruleApplied": "5.2.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'élision évidente. La conjonction 'que' doit obligatoirement s'élider devant voyelle. Règle orthographique fondamentale.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "conscient",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'conscient' doit s'accorder avec le pronom 'On', qui a ici le sens de 'nous' (pluriel).",
+        "suggestions": [
+          "conscients"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Bien que 'on' ait clairement le sens de 'nous' dans le contexte, l'accord au pluriel avec 'on' reste facultatif selon plusieurs grammaires. L'usage standard veut l'accord au singulier, même si le sens est pluriel.",
+        "counterArgument": "Grammaticalement, le pronom 'on' est de la 3e personne du singulier et l'accord au singulier ('conscient') est la norme. Bien que le sens soit pluriel ('nous'), l'accord par syllepse (selon le sens) reste facultatif et non unanimement accepté. Certaines grammaires considèrent l'accord au singulier comme seul correct avec 'on', même quand le sens est clairement pluriel."
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 11,
+      "note": "D"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 6,
+      "note": "C"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 19,
+      "vraisErreurs": 16,
+      "discutables": 3,
+      "fauxPositifs": 0
+    }
+  },
+  "startTimestamp": "2025-12-12T11:43:30.498Z",
+  "endTimestamp": "2025-12-12T11:44:24.480Z",
+  "durationMs": 53982,
+  "durationFormatted": "00:53:982"
+}

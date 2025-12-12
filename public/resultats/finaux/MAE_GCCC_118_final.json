@@ -1,0 +1,656 @@
+{
+  "processedAt": "2025-12-12T11:44:49.728Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_118.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_118.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "jus ce",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule avant le pronom relatif 'ce qui' lorsqu'il introduit une proposition qui apporte une explication ou une conséquence se rapportant à toute la proposition précédente.",
+        "suggestions": [
+          "jus, ce"
+        ],
+        "ruleApplied": "4.2.2.10.1.i",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "La virgule avant 'ce qui' est recommandée mais pas toujours obligatoire selon les sources grammaticales. Certains grammairiens acceptent l'absence de virgule quand le lien avec l'antécédent est étroit.",
+        "counterArgument": "La virgule avant 'ce qui' apporte une clarté, mais son absence n'est pas systématiquement considérée comme une faute. Dans un texte courant, cette construction reste compréhensible sans virgule, surtout quand 'ce qui' suit immédiatement son antécédent."
+      },
+      {
+        "id": "erreur4.2",
+        "text": "2021)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque un point pour marquer la fin de la phrase.",
+        "suggestions": [
+          "2021)."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Absence évidente du point final obligatoire en fin de phrase. Erreur de ponctuation claire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "gaspillage on",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule pour séparer la proposition subordonnée circonstancielle de condition ('si...') de la proposition principale.",
+        "suggestions": [
+          "gaspillage, on"
+        ],
+        "ruleApplied": "4.2.2.10.1.m",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "La virgule après une longue subordonnée circonstancielle placée en début de phrase est obligatoire selon les règles de ponctuation standard.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "Devrions-nous pas",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque l'adverbe de négation 'ne' dans la locution 'ne... pas'. La forme correcte est 'Ne devrions-nous pas'.",
+        "suggestions": [
+          "Ne devrions-nous pas"
+        ],
+        "ruleApplied": "4.1.2.1.3",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "L'omission du 'ne' est très courante à l'oral et de plus en plus acceptée à l'écrit dans un registre courant. Cependant, en contexte scolaire formel, le 'ne' reste attendu.",
+        "counterArgument": "Dans une phrase interrogative à valeur rhétorique, l'omission du 'ne' est de plus en plus acceptée dans la langue courante contemporaine, notamment au Québec. Cette construction reflète l'usage oral et confère un ton plus direct et interpellatif à la question finale."
+      },
+      {
+        "id": "erreur4.5",
+        "text": ")",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "P",
+        "description": "Un point est manquant à la fin de la phrase.",
+        "suggestions": [
+          ")."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Absence évidente du point final obligatoire en fin de phrase. Erreur de ponctuation claire.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "oeuvre",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot 'œuvre' s'écrit avec un 'œ' (e dans l'o) ou, à défaut, 'oeuvre'. Ici, il manque la ligature, mais l'erreur la plus commune est l'oubli de l'accent circonflexe sur le 'e' dans la graphie 'oeuvre'. La graphie correcte est 'œuvre'.",
+        "suggestions": [
+          "œuvre"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "La graphie 'oeuvre' sans ligature est techniquement acceptable selon les rectifications orthographiques de 1990, bien que 'œuvre' reste préférable.",
+        "counterArgument": "Les rectifications orthographiques de 1990 permettent d'écrire 'oeuvre' sans ligature, bien que la forme avec ligature 'œuvre' reste la plus courante et recommandée. Dans le contexte d'une saisie informatique où la ligature n'est pas toujours accessible, cette graphie peut être tolérée."
+      },
+      {
+        "id": "erreur5.2",
+        "text": "trouve-que",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le trait d'union est erroné dans cette construction. Il ne faut pas de trait d'union entre un verbe et la conjonction 'que'.",
+        "suggestions": [
+          "trouve que"
+        ],
+        "ruleApplied": "5.2.1.7.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le trait d'union entre un verbe et la conjonction 'que' est une erreur évidente. Le trait d'union n'est utilisé que dans les inversions verbe-pronom.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "d'entreprise",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'entreprise' doit être au pluriel car il est complément de l'adverbe de quantité 'suffisamment', qui indique une pluralité.",
+        "suggestions": [
+          "d'entreprises"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Après un adverbe de quantité comme 'suffisamment', le nom complément doit être au pluriel. Règle grammaticale claire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "se",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le pronom réfléchi 'se' et le déterminant démonstratif 'ce'. Il faut 'ce fléau'.",
+        "suggestions": [
+          "ce"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion homophonique évidente entre 'se' (pronom) et 'ce' (déterminant). Le contexte exige clairement le déterminant démonstratif.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "Tout",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant 'tout' doit s'accorder en genre et en nombre avec le groupe nominal qu'il détermine, 'ces entreprises et organismes' (masculin pluriel). Il faut donc 'Tous'.",
+        "suggestions": [
+          "Tous"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. 'Tout' doit s'accorder au pluriel devant 'ces entreprises et organismes'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "il",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom 'il' reprend 'les aliments' (masculin pluriel). Il doit donc être au pluriel : 'ils'.",
+        "suggestions": [
+          "ils"
+        ],
+        "ruleApplied": "5.3.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en nombre évidente. L'antécédent 'les aliments' est pluriel, donc le pronom doit l'être aussi.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "parfait",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'parfait' s'accorde avec son donneur 'les aliments' (masculin pluriel), qui est le même que pour le pronom 'ils'. Il faut donc 'parfaits'.",
+        "suggestions": [
+          "parfaits"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. L'adjectif attribut doit s'accorder avec le sujet 'ils' qui reprend 'les aliments' (pluriel).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "offre",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'offre' doit s'accorder avec son sujet 'des plateformes' (3e personne du pluriel). Il faut donc 'offrent'.",
+        "suggestions": [
+          "offrent"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord sujet-verbe évidente. 'Des plateformes' est pluriel, donc le verbe doit être 'offrent'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "a",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le verbe 'a' (avoir) et la préposition 'à'. Il faut 'à leurs clients'.",
+        "suggestions": [
+          "à"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion homophonique évidente. Le contexte exige la préposition 'à' (offrir à quelqu'un), pas le verbe 'avoir'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.10",
+        "text": "possibilités",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'possibilités' doit être au singulier car il est précédé du déterminant 'la'. Il faut 'la possibilité'.",
+        "suggestions": [
+          "possibilité"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. Le déterminant 'la' (singulier) exige un nom au singulier.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.11",
+        "text": "livrés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après la locution verbale 'doivent', le verbe qui suit doit être à l'infinitif. Il faut 'livrer'.",
+        "suggestions": [
+          "livrer"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de mode verbale évidente. Après un verbe modal comme 'devoir', on utilise l'infinitif, pas le participe passé.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.12",
+        "text": "manques",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'manques' doit s'accorder avec son sujet 'les banques alimentaires' (3e personne du pluriel). Il faut donc 'manquent'.",
+        "suggestions": [
+          "manquent"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord sujet-verbe évidente. Le sujet pluriel exige la forme 'manquent'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.13",
+        "text": "remedier",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot 'remédier' prend un accent aigu sur le deuxième 'e'.",
+        "suggestions": [
+          "remédier"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accentuation évidente. Le verbe 'remédier' prend obligatoirement un accent aigu sur le deuxième 'e'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.14",
+        "text": "devraient",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'devraient' doit s'accorder avec son sujet 'le gouvernement' (3e personne du singulier). Il faut donc 'devrait'.",
+        "suggestions": [
+          "devrait"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord sujet-verbe évidente. Le sujet singulier 'le gouvernement' exige la forme 'devrait'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.15",
+        "text": "financierement",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'adverbe 'financièrement' prend un accent grave sur le premier 'e'.",
+        "suggestions": [
+          "financièrement"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accentuation évidente. L'adverbe 'financièrement' prend obligatoirement un accent grave.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.16",
+        "text": "qu'ils",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom 'ils' reprend 'les banques alimentaires' (féminin pluriel). Il doit donc être au féminin pluriel : 'qu'elles'.",
+        "suggestions": [
+          "qu'elles"
+        ],
+        "ruleApplied": "5.3.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en genre évidente. L'antécédent 'les banques alimentaires' est féminin pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.17",
+        "text": "eux-même",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom 'eux-même' doit s'accorder en genre et en nombre avec son donneur 'les banques alimentaires' (féminin pluriel), qui est le même que pour 'qu'elles'. Il faut donc 'elles-mêmes'.",
+        "suggestions": [
+          "elles-mêmes"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en genre et en nombre évidente. Le pronom renforcé doit correspondre à 'les banques alimentaires' (féminin pluriel).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.18",
+        "text": "exploité",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après la préposition 'pour', le verbe qui suit doit être à l'infinitif. Il faut 'exploiter'.",
+        "suggestions": [
+          "exploiter"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de mode verbale évidente. Après la préposition 'pour', on utilise l'infinitif, pas le participe passé.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.19",
+        "text": "potentielle",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'potentiel' s'accorde avec le nom qu'il qualifie, 'potentiel' (sous-entendu), qui est masculin singulier. Il faut donc 'potentiel'.",
+        "suggestions": [
+          "potentiel"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. L'expression est 'à leur plein potentiel' (masculin singulier), donc l'adjectif doit être 'potentiel'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.20",
+        "text": "Deuxièment",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'adverbe 'deuxièmement' prend un accent grave sur le premier 'e' et se termine par '-ement'.",
+        "suggestions": [
+          "Deuxièmement"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'orthographe évidente. L'adverbe 'deuxièmement' prend obligatoirement un 'e' supplémentaire avant la terminaison '-ment'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.21",
+        "text": "asser",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'adverbe 'assez' s'écrit avec un 'z' final.",
+        "suggestions": [
+          "assez"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'orthographe évidente. L'adverbe 'assez' s'écrit obligatoirement avec un 'z' final.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.22",
+        "text": "réaliser",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'réalisé', employé comme adjectif, doit s'accorder en genre et en nombre avec le nom qu'il qualifie, 'une étude' (féminin singulier). Il faut donc 'réalisée'.",
+        "suggestions": [
+          "réalisée"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du participe passé évidente. Employé comme adjectif, il doit s'accorder avec 'une étude' (féminin).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.23",
+        "text": "du",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le déterminant 'du' et le participe passé 'dû' du verbe 'devoir'. Dans l'expression 'être dû à', 'dû' prend un accent circonflexe et s'accorde avec le sujet 'gaspillage' (masculin singulier).",
+        "suggestions": [
+          "dû"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion homophonique évidente. Dans l'expression 'est dû à', il s'agit du participe passé qui prend un accent circonflexe.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.24",
+        "text": "Selon",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le mot 'selon' ne prend pas de majuscule ici, car il suit la conjonction de coordination 'Et' et n'est pas en début de phrase.",
+        "suggestions": [
+          "selon"
+        ],
+        "ruleApplied": "5.3.6.1",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "La majuscule après 'Et' en début de phrase est une question de style. Certains auteurs mettent une majuscule pour marquer une nouvelle phrase, d'autres non.",
+        "counterArgument": "Bien que techniquement 'Et' soit une conjonction de coordination qui ne devrait pas initier une phrase, l'usage moderne accepte de plus en plus cette construction pour créer un effet rhétorique. Dans ce cas, la majuscule après 'Et' peut se justifier si on considère qu'il s'agit d'une nouvelle phrase à part entière."
+      },
+      {
+        "id": "erreur5.25",
+        "text": "corriveau",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Les noms propres de personnes, comme 'Corriveau', prennent une majuscule initiale.",
+        "suggestions": [
+          "Corriveau"
+        ],
+        "ruleApplied": "5.2.4.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de majuscule évidente. Les noms de famille prennent toujours une majuscule initiale.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.26",
+        "text": "raisonnable",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'raisonnable' doit s'accorder en nombre avec le nom qu'il qualifie, 'quantités' (pluriel). Il faut donc 'raisonnables'.",
+        "suggestions": [
+          "raisonnables"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. L'adjectif doit s'accorder avec 'quantités' (pluriel).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.27",
+        "text": "consommateur",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'consommateur' doit être au pluriel car il est précédé du déterminant 'Les'. Il faut donc 'consommateurs'.",
+        "suggestions": [
+          "consommateurs"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. Le déterminant 'Les' (pluriel) exige un nom au pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.28",
+        "text": "n'arrivent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'arrivent' doit s'accorder avec son sujet 'le consommateur' (3e personne du singulier). Il faut donc 'n'arrive'.",
+        "suggestions": [
+          "n'arrive"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord sujet-verbe évidente. Le sujet singulier 'le consommateur' exige la forme 'n'arrive'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.29",
+        "text": "a",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le verbe 'a' (avoir) et la préposition 'à'. Il faut 'à tout consommer'.",
+        "suggestions": [
+          "à"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion homophonique évidente. Le contexte exige la préposition 'à' devant l'infinitif.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.30",
+        "text": "consommés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après la préposition 'à', le verbe qui suit doit être à l'infinitif. Il faut 'consommer'.",
+        "suggestions": [
+          "consommer"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de mode verbale évidente. Après la préposition 'à', on utilise l'infinitif, pas le participe passé.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.31",
+        "text": "fort",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'adjectif 'fort' et la forme verbale 'font' (verbe faire, 3e personne du pluriel). Le sujet est 'les entreprises et le gouvernement'.",
+        "suggestions": [
+          "font"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion homophonique évidente. Le contexte exige clairement le verbe 'faire' conjugué à la 3e personne du pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.32",
+        "text": "d'entreprise",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "(G)",
+        "description": "Le nom 'entreprise' doit être au pluriel car il est complément de l'adverbe de quantité 'beaucoup', qui indique une pluralité.",
+        "suggestions": [
+          "d'entreprises"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur répétée. Après un adverbe de quantité comme 'beaucoup', le nom complément doit être au pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.33",
+        "text": "se",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "(G)",
+        "description": "Confusion entre le pronom réfléchi 'se' et le déterminant démonstratif 'ce'. Il faut 'ce fléau'.",
+        "suggestions": [
+          "ce"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur répétée. Confusion homophonique entre 'se' (pronom) et 'ce' (déterminant).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.34",
+        "text": "fournie",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'fourni', employé comme adjectif, doit s'accorder en genre et en nombre avec le groupe nominal qu'il qualifie, 'un manque d'information' (masculin singulier). Il faut donc 'fourni'.",
+        "suggestions": [
+          "fourni"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du participe passé évidente. Il doit s'accorder avec 'un manque' (masculin singulier).",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 3,
+      "note": "C"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 32,
+      "note": "E"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 39,
+      "vraisErreurs": 35,
+      "discutables": 4,
+      "fauxPositifs": 0
+    }
+  },
+  "startTimestamp": "2025-12-12T11:43:05.076Z",
+  "endTimestamp": "2025-12-12T11:44:49.728Z",
+  "durationMs": 104652,
+  "durationFormatted": "01:44:652"
+}

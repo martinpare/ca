@@ -1,0 +1,534 @@
+{
+  "processedAt": "2025-12-12T11:41:50.247Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_085.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_085.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "toujours",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Un deux-points est requis pour introduire une citation qui constitue une phrase complète.",
+        "suggestions": [
+          "toujours :"
+        ],
+        "ruleApplied": "4.2.2.7.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle de ponctuation établie : un deux-points introduit une citation formant une phrase complète.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "\"",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Les guillemets français (« ») doivent être utilisés pour encadrer une citation. Les guillemets anglais (\") sont incorrects.",
+        "suggestions": [
+          "«"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "En français, l'usage des guillemets français est la norme typographique établie.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "probablement,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "La virgule est superflue ici; elle sépare incorrectement l'adverbe de la proposition interrogative qu'il modifie.",
+        "suggestions": [
+          "probablement"
+        ],
+        "ruleApplied": "4.2.2.10.2.h",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "La virgule après un adverbe est parfois utilisée pour créer une pause oratoire, bien que grammaticalement non nécessaire.",
+        "counterArgument": "La virgule après 'probablement' peut être interprétée comme une pause rhétorique dans une phrase interrogative, créant un effet d'anticipation. Bien que non obligatoire, elle n'est pas strictement fautive dans un registre courant à visée persuasive."
+      },
+      {
+        "id": "erreur4.4",
+        "text": "Au moment que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution conjonctive 'au moment que' est incorrecte. Il faut utiliser 'au moment où' ou 'dès que'.",
+        "suggestions": [
+          "Au moment où",
+          "Dès que"
+        ],
+        "ruleApplied": "4.1.2.4.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "La locution 'au moment que' n'est pas attestée en français standard. 'Au moment où' est la forme correcte.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "tous aliments",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence d'un mot essentiel. Le déterminant 'les' est manquant après 'tous'.",
+        "suggestions": [
+          "tous les aliments"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le déterminant défini 'les' est obligatoire dans la construction 'tous les + nom'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "imparfaite.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Un point d'interrogation est requis à la fin d'une phrase interrogative directe.",
+        "suggestions": [
+          "imparfaite ?"
+        ],
+        "ruleApplied": "4.2.2.2.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Phrase interrogative directe commençant par 'Pourquoi' : le point d'interrogation est obligatoire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "lignée",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression \"sur la même lignée\" est un calque de l'anglais \"in the same line\". On utilisera plutôt \"dans la même voie\" ou \"dans la même direction\".",
+        "suggestions": [
+          "voie",
+          "direction"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Calque de l'anglais identifié. L'expression correcte en français est 'dans la même voie' ou 'sur la même lancée'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "mettre à l'œuvre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Confusion entre les locutions \"mettre en œuvre\" (réaliser, exécuter) et \"mettre à l'œuvre\" (faire travailler quelqu'un). Le contexte requiert \"mettre en œuvre\".",
+        "suggestions": [
+          "mettre en œuvre"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Distinction sémantique claire entre 'mettre en œuvre' (exécuter un plan) et 'mettre à l'œuvre' (faire travailler). Le contexte exige 'mettre en œuvre'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "coïncide au",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe \"coïncider\" se construit avec la préposition \"avec\" et non \"à\". De plus, le sens est inapproprié : il faudrait plutôt 'correspond à' ou 'équivaut à'.",
+        "suggestions": [
+          "correspond aux",
+          "équivaut aux"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double erreur : mauvaise préposition et impropriété sémantique. 'Coïncider' implique une concordance temporelle ou spatiale, non une équivalence monétaire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.10",
+        "text": ",",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule ne doit pas séparer le verbe (\"demandez\") de sa subordonnée complétive interrogative (\"comment fait-on...\").",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.10.2.e",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle établie : on ne sépare pas un verbe de son complément direct par une virgule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.11",
+        "text": "contamination",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule devant le coordonnant \"donc\" lorsqu'il introduit une conséquence et lie deux propositions.",
+        "suggestions": [
+          "contamination,"
+        ],
+        "ruleApplied": "4.2.2.10.1.c",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "La virgule devant 'donc' coordonnant est obligatoire pour séparer les deux propositions.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.12",
+        "text": "Un mode de vie dans lequel une pomme avec une petite taches brune est considéré invalid pour consommer.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase semble être la continuation de la phrase précédente. Le point précédent crée une rupture syntaxique. Il faudrait soit relier les deux phrases, soit reformuler pour créer une phrase autonome.",
+        "suggestions": [
+          "C'est un mode de vie dans lequel une pomme avec une petite tache brune est considérée comme impropre à la consommation."
+        ],
+        "ruleApplied": "4.1.2.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "La phrase manque d'autonomie syntaxique : elle commence par un GN sans verbe principal clair. C'est une continuation inappropriée après un point.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.13",
+        "text": ",",
+        "occurenceIndex": 9,
+        "criteria": 4,
+        "type": "P",
+        "description": "La virgule est insuffisante pour joindre deux phrases syntaxiques indépendantes (asyndète). Il faut utiliser un point ou un point-virgule.",
+        "suggestions": [
+          ". Un"
+        ],
+        "ruleApplied": "4.2.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'asyndète claire : deux phrases indépendantes ne peuvent être reliées par une simple virgule sans coordonnant.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.14",
+        "text": "mises de l'avant",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression \"mettre de l'avant\" est un calque de l'anglais \"to put forward\". On utilisera plutôt \"proposées\", \"avancées\" ou \"mises en avant\".",
+        "suggestions": [
+          "proposées",
+          "avancées"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Bien que 'mettre de l'avant' soit courant au Québec, c'est un calque de l'anglais déconseillé par l'OQLF.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.15",
+        "text": "C'est tout sur la faute de",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction est maladroite. On devrait dire \"C'est entièrement la faute de\" ou \"C'est dû à\".",
+        "suggestions": [
+          "C'est entièrement la faute de",
+          "C'est dû à"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction non idiomatique en français. 'Être sur la faute de' n'est pas une expression reconnue.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.16",
+        "text": "ont pour utilité d'acheter",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Problème de cohérence sémantique. Les plateformes ne servent pas à acheter, mais permettent aux consommateurs d'acheter. Il faut reformuler : \"ces plateformes permettent d'acheter\".",
+        "suggestions": [
+          "permettent d'acheter"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Incohérence logique : une plateforme ne peut pas 'acheter' elle-même. Elle permet aux utilisateurs d'acheter.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.17",
+        "text": "apparence",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque le point final pour clore la phrase.",
+        "suggestions": [
+          "apparence."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Point final obligatoire pour terminer une phrase déclarative.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "il",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "La première lettre d'une citation formant une phrase complète doit être une majuscule.",
+        "suggestions": [
+          "Il"
+        ],
+        "ruleApplied": "5.3.6.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique claire : une citation complète commence par une majuscule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "million",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'million' prend la marque du pluriel lorsqu'il est multiplié, même par un nombre décimal supérieur à 1.",
+        "suggestions": [
+          "millions"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle d'accord des nombres : 'million' s'accorde au pluriel après un nombre supérieur à 1, y compris les décimaux (2.2).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "perdu",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'perdu', employé comme adjectif, doit s'accorder en genre et en nombre avec le nom qu'il qualifie, 'dollars' (masculin pluriel).",
+        "suggestions": [
+          "perdus"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Accord du participe passé employé comme adjectif : 'perdus' doit s'accorder avec 'dollars' (masculin pluriel).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "a",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'auxiliaire 'a' (verbe avoir) et la préposition 'à'. Dans ce contexte, la préposition est requise.",
+        "suggestions": [
+          "à"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion homophonique évidente entre 'a' (auxiliaire) et 'à' (préposition).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "imparfait",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'imparfait' doit s'accorder en nombre avec le nom qu'il qualifie, 'aliments' (masculin pluriel).",
+        "suggestions": [
+          "imparfaits"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Accord de l'adjectif : 'imparfaits' doit s'accorder avec 'aliments' au pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "taches",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'taches' doit être au singulier pour s'accorder avec le déterminant 'une'.",
+        "suggestions": [
+          "tache"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Accord en nombre : 'une petite tache' exige le singulier.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "considéré",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'considéré' doit s'accorder en genre avec le nom auquel il se rapporte, 'pomme' (féminin singulier).",
+        "suggestions": [
+          "considérée"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Accord du participe passé avec le sujet 'pomme' (féminin singulier) : 'considérée'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "invalid",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot 'invalid' est un anglicisme. Il convient d'utiliser un équivalent français comme 'invalide', 'impropre' ou 'non consommable'.",
+        "suggestions": [
+          "invalide",
+          "impropre à la consommation"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Anglicisme évident. Le mot anglais 'invalid' est utilisé tel quel au lieu de son équivalent français.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "côtés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'expression figée est 'de tous bords, tous côtés' ou 'de tout bord, tout côté'. Le singulier coordonné est également attesté.",
+        "suggestions": [
+          "côté"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Les deux formes ('tous côtés' et 'tout côté') sont attestées dans l'usage. Le Petit Robert et le TLFi reconnaissent les deux variantes.",
+        "counterArgument": "L'expression figée 'de tous bords, tous côtés' existe avec les pluriels coordonnés. Bien que 'de tout bord, tout côté' au singulier soit plus fréquent, la forme au pluriel est également attestée dans l'usage et reconnue par plusieurs dictionnaires."
+      },
+      {
+        "id": "erreur5.10",
+        "text": "restant",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'restant' devrait être au pluriel pour désigner les restes ou les surplus. Le contexte évoque les fruits et légumes (pluriel).",
+        "suggestions": [
+          "les restants"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "'Restant' est ici employé comme nom collectif singulier, usage acceptable en français québécois (OQLF reconnaît 'le restant' au sens de 'ce qui reste').",
+        "counterArgument": "En français québécois, 'le restant' (singulier) est un usage reconnu pour désigner l'ensemble des restes. L'OQLF accepte ce québécisme. L'emploi du singulier avec valeur collective est cohérent : 'le restant des fruits et légumes' fonctionne comme 'le reste des fruits et légumes'."
+      },
+      {
+        "id": "erreur5.11",
+        "text": "faite",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'faite' doit s'accorder avec les deux noms coordonnés 'jus' et 'alcool', tous deux masculins.",
+        "suggestions": [
+          "fait"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Accord du participe passé : 'jus' et 'alcool' étant masculins, l'accord est 'fait' (masculin).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.12",
+        "text": "tout bord",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Dans l'expression \"de tous bords, tous côtés\", si on utilise le pluriel pour 'côtés', il faut aussi le pluriel pour 'bords'.",
+        "suggestions": [
+          "tous bords"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "L'expression peut s'écrire au singulier coordonné ('de tout bord, tout côté') ou au pluriel ('de tous bords, tous côtés'). L'erreur serait le mélange des deux formes.",
+        "counterArgument": "Si l'auteur a voulu utiliser la forme au pluriel ('tous côtés'), alors effectivement 'tous bords' serait requis pour la cohérence. Cependant, l'expression au singulier ('de tout bord, tout côté') est la forme figée la plus courante. L'auteur devrait choisir l'une ou l'autre forme, mais ne pas mélanger."
+      },
+      {
+        "id": "erreur5.13",
+        "text": "restant",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "U",
+        "description": "Seconde occurrence de 'restant'. L'emploi du participe présent comme nom est un québécisme acceptable.",
+        "suggestions": [
+          "reste"
+        ],
+        "ruleApplied": "5.2.2",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "'Restant' (nom) est un québécisme reconnu par l'OQLF au sens de 'reste' ou 'surplus'. Usage légitime en contexte québécois.",
+        "counterArgument": "'Restant' comme substantif est un québécisme reconnu et accepté par l'OQLF. Dans un texte d'élève québécois, cet usage est tout à fait légitime et ne constitue pas une erreur. L'OQLF précise que 'restant' au sens de 'reste' ou 'surplus' est acceptable au Québec."
+      },
+      {
+        "id": "erreur5.14",
+        "text": "dû",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Dans la locution prépositive \"du à\" (dans le sens de 'en raison de'), \"du\" ne prend pas d'accent circonflexe car ce n'est pas le participe passé du verbe devoir.",
+        "suggestions": [
+          "du"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "L'accent circonflexe sur 'dû' n'est requis que pour le participe passé masculin singulier du verbe 'devoir'. Dans 'du à' (locution prépositive), pas d'accent.",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 16,
+      "note": "D"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 12,
+      "note": "C"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 31,
+      "vraisErreurs": 26,
+      "discutables": 3,
+      "fauxPositifs": 2
+    }
+  },
+  "startTimestamp": "2025-12-12T11:40:23.468Z",
+  "endTimestamp": "2025-12-12T11:41:50.247Z",
+  "durationMs": 86779,
+  "durationFormatted": "01:26:779"
+}

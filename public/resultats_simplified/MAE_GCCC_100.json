@@ -1,0 +1,504 @@
+{
+  "processedAt": "2025-12-10T14:53:02.586Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_100.txt",
+    "originalText": "Les légumes moches dans nos poches\r\n\r\nPendant ces temps affreux de la pandémie, plusieurs entre nous avons stockés sur certains biens et aliments. Le fameux papier toilet, les aliments en réserves et la nourriture en générale. Les familles à trois membres achetaient des biens qui correspondaient au besoins des familles à 5 cinqs membres. Les aliments qui restaient en surplus se retrouvaient dans la poubelle. Cette situation m'amène à la question : Sommes-nous prêts à lutter contre le gaspillage alimentaire? À mon avis, nous ne sommes pas en mesure de lutter contre le gaspillage alimentaire.\r\n\r\nTout d'abords, notre société n'est pas prête à lutter contre le gaspillage alimentaire à cause des standards esthétiques misent en place par les consommateurs. En effet, la majorité d'entre nous sont inclinés à acheter des produits qui sont esthétiquement plaisantes. En conséquence, les aliments qui n'atteint pas ces standards esthétiques sont éventuellement misent à la poubelle. Selon un article écrit le 2 octobre 2020, par Daphné Cameron, la vente des aliments « moches » est faible, car les consommateurs ont la tendance d'associer l'apparence d'un produit à sa fraîcheur et à sa qualité. Les aliments imparfaits sont laissés derrière sans être consommer et à être gaspiller. Toujours dans l'article de Daphné Cameron, l'écologiste agricole, Pascal Thériault dit «le client accepte que la nature soit imparfaite lorsqu'il va au marché et qu'il achète directement du producteur. Toutefois, quand il est à l'épicerie, le même client veut un produit parfait ». Il est évident que nous ne sommes pas en mesure de lutter contre le gaspillage alimentaire à cause des normes esthétiques exagérés des consommateurs.\r\n\r\nPar la suite, nous ne sommes pas en mesure de lutter contre l'extreme perte d'aliments à cause de sa grande présence dans notre chaîne d'approvisionnement alimentaire. Durant la production, les aliments imparfaits sont laissés dans les champs, durant la transformation, la présence d'équipements defectueux et les erreurs humaines entrainent le gaspillage. Lors du transport, les aliments peuvent être contaminés ou endommagés ce qui entrainent des normes esthétiques dans la restauration, vente et hôtellerie. Finallement, pendant la consommation des biens, les clients peuvent mal conserver les aliments et mal planifier leurs repas ce qui lie au gaspillage. Selon une étude, 10% des aliments sont lors de la production, 20% pendant la transformation, 4% pendant le transport, 19% dans la vente au détail restauration et hôtellerie et 47% lors de la consommation (Table québécoise sur la santé alimentaire, 2019). Il est apparent que nous ne somme pas prêts à lutter contre le gaspillage alimentaire en raison de sa importante présence dans notre chaîne d'approvisionnement alimentaire.\r\n\r\nBref, notre société n'est pas en mesure de lutter contre le gaspillage alimentaire car nous sommes englouties par les normes esthétiques irrationnelles et à cause de son inévitable présence dans la chaîne d'approvisionnement alimentaire. Même si nous étions prêts à lutter, voudrions-nous tous prendre de l'action ?",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "tendance d'associer",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution 'avoir tendance' se construit avec la préposition 'à' et non 'de'.",
+        "suggestions": [
+          "tendance à associer"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "id": "erreur4.2",
+        "text": "restauration",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Dans une énumération, il faut répéter le déterminant devant chaque élément. Ici, il manque le déterminant 'la' devant 'restauration'.",
+        "suggestions": [
+          "la restauration"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "id": "erreur4.3",
+        "text": "détail restauration et hôtellerie",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule est nécessaire pour séparer les éléments d'une énumération.",
+        "suggestions": [
+          "détail, restauration et hôtellerie"
+        ],
+        "ruleApplied": "4.2.2.10.1.a"
+      },
+      {
+        "id": "erreur4.4",
+        "text": "lie",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe 'lier' est mal employé dans ce contexte. Des verbes comme 'mener' ou 'conduire' seraient plus appropriés pour exprimer la conséquence.",
+        "suggestions": [
+          "mène",
+          "conduit"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "id": "erreur4.5",
+        "text": "consommation (Table québécoise sur la santé alimentaire, 2019)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque un point pour marquer la fin de la phrase. La référence entre parenthèses fait partie de la phrase.",
+        "suggestions": [
+          "consommation (Table québécoise sur la santé alimentaire, 2019)."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "id": "erreur4.6",
+        "text": "prendre de l'action",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression 'prendre de l'action' est un calque de l'anglais 'to take action'. En français, on utilise plutôt 'passer à l'action' ou 'agir'.",
+        "suggestions": [
+          "passer à l'action",
+          "agir"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "id": "erreur4.7",
+        "text": "plusieurs entre nous",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction « plusieurs entre nous » est un calque de l'anglais. On utilise plutôt « plusieurs d'entre nous ».",
+        "suggestions": [
+          "plusieurs d'entre nous"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "id": "erreur4.8",
+        "text": "stockés sur",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Le verbe « stocker » est un verbe transitif direct et ne doit pas être suivi de la préposition « sur ».",
+        "suggestions": [
+          "stocké"
+        ],
+        "ruleApplied": "4.1.2.2.2"
+      },
+      {
+        "id": "erreur4.9",
+        "text": "Le fameux papier toilet, les aliments en réserves et la nourriture en générale.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase est une phrase non verbale (sans verbe conjugué). Elle devrait être rattachée à la phrase précédente ou reformulée pour former une phrase complète.",
+        "suggestions": [
+          "Nous avons stocké certains biens et aliments, comme le fameux papier toilette, les aliments en réserve et la nourriture en général."
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "id": "erreur4.10",
+        "text": "5 cinqs",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il y a une redondance entre le chiffre « 5 » et le mot « cinqs ». Il faut choisir l'un ou l'autre. De plus, le mot « cinq » est invariable et ne prend jamais de « s ».",
+        "suggestions": [
+          "cinq",
+          "5"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "id": "erreur4.11",
+        "text": "et à être gaspiller",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La coordination est incorrecte. On ne peut pas coordonner « sans être » et « à être ». Il faut répéter la structure ou la modifier. Par exemple : « sans être consommés ni gaspillés ».",
+        "suggestions": [
+          "ni gaspillés",
+          "et gaspillés"
+        ],
+        "ruleApplied": "4.1.2.1.8"
+      },
+      {
+        "id": "erreur4.12",
+        "text": "dit «le",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque un deux-points (:) pour introduire la citation directe.",
+        "suggestions": [
+          "dit : « le"
+        ],
+        "ruleApplied": "4.2.2.7.1"
+      },
+      {
+        "id": "erreur4.13",
+        "text": "vente et hôtellerie",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Dans une énumération, il est préférable de répéter le déterminant devant chaque nom. Ici, il faudrait écrire « la vente et l'hôtellerie ».",
+        "suggestions": [
+          "la vente et l'hôtellerie"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "id": "erreur4.14",
+        "text": "sont lors de la production",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est incorrecte. Il manque un participe passé comme « gaspillés » après le verbe « sont » pour que la phrase ait un sens complet.",
+        "suggestions": [
+          "sont gaspillés lors de la production"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "id": "erreur4.15",
+        "text": "car nous sommes englouties par les normes esthétiques irrationnelles et à cause de son inévitable présence",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La coordination est incorrecte car elle lie une proposition subordonnée conjonctive (introduite par « car ») et un groupe prépositionnel (introduit par « à cause de »). Il faut utiliser deux structures similaires.",
+        "suggestions": [
+          "parce que nous sommes engloutis par les normes esthétiques irrationnelles et à cause de la présence inévitable du gaspillage"
+        ],
+        "ruleApplied": "4.1.2.1.8"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 12.5,
+      "note": "C"
+    },
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "stockés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé employé avec l'auxiliaire 'avoir' ne s'accorde pas avec le sujet. Il s'accorde avec le complément d'objet direct (COD) si celui-ci est placé avant le verbe, ce qui n'est pas le cas ici ('certains biens et aliments'). Il doit donc rester invariable.",
+        "suggestions": [
+          "stocké"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "id": "erreur5.2",
+        "text": "toilet",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'orthographe correcte du mot est 'toilette'.",
+        "suggestions": [
+          "toilette"
+        ],
+        "ruleApplied": "5.2.1.8"
+      },
+      {
+        "id": "erreur5.3",
+        "text": "réserves",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Dans la locution 'en réserve', le nom 'réserve' reste au singulier.",
+        "suggestions": [
+          "réserve"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.4",
+        "text": "générale",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Dans la locution adverbiale 'en général', l'adjectif 'général' est invariable et reste au masculin singulier.",
+        "suggestions": [
+          "général"
+        ],
+        "ruleApplied": "5.3.1.6"
+      },
+      {
+        "id": "erreur5.5",
+        "text": "au",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'besoins' est au pluriel. La contraction de la préposition 'à' et du déterminant 'les' est 'aux'.",
+        "suggestions": [
+          "aux"
+        ],
+        "ruleApplied": "5.3.5"
+      },
+      {
+        "id": "erreur5.6",
+        "text": "cinqs",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif numéral cardinal 'cinq' est invariable et ne prend jamais de 's'.",
+        "suggestions": [
+          "cinq"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.7",
+        "text": "d'abords",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'adverbe 'd'abord' est invariable et ne prend jamais de 's'.",
+        "suggestions": [
+          "d'abord"
+        ],
+        "ruleApplied": "5.2.1.5"
+      },
+      {
+        "id": "erreur5.8",
+        "text": "misent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'mis', employé comme adjectif, doit s'accorder en genre et en nombre avec le nom qu'il qualifie, 'standards', qui est masculin pluriel.",
+        "suggestions": [
+          "mis"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "id": "erreur5.9",
+        "text": "plaisantes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'plaisantes' doit s'accorder en genre et en nombre avec le nom qu'il qualifie, 'produits', qui est masculin pluriel.",
+        "suggestions": [
+          "plaisants"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.10",
+        "text": "atteint",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'atteindre' doit s'accorder avec son sujet 'les aliments qui', qui est à la 3e personne du pluriel.",
+        "suggestions": [
+          "atteignent"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.11",
+        "text": "misent",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'mis', employé avec l'auxiliaire 'être', doit s'accorder en genre et en nombre avec le sujet 'les aliments', qui est masculin pluriel.",
+        "suggestions": [
+          "mis"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "id": "erreur5.12",
+        "text": "consommer",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Il y a confusion entre l'infinitif (-er) et le participe passé (-é). Après 'sans être', il faut utiliser le participe passé, qui s'accorde ici avec 'Les aliments imparfaits' (masculin pluriel).",
+        "suggestions": [
+          "consommés"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "id": "erreur5.13",
+        "text": "gaspiller",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "Il y a confusion entre l'infinitif (-er) et le participe passé (-é). Le participe passé doit s'accorder avec le même donneur que 'consommés', soit 'Les aliments imparfaits' (masculin pluriel).",
+        "suggestions": [
+          "gaspillés"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "id": "erreur5.14",
+        "text": "le",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Une citation en discours direct, introduite par des guillemets, doit commencer par une majuscule.",
+        "suggestions": [
+          "Le"
+        ],
+        "ruleApplied": "5.3.6.3"
+      },
+      {
+        "id": "erreur5.15",
+        "text": "exagérés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'exagérés' doit s'accorder en genre et en nombre avec le nom qu'il qualifie, 'normes', qui est féminin pluriel.",
+        "suggestions": [
+          "exagérées"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.16",
+        "text": "extreme",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'adjectif 'extrême' requiert un accent circonflexe sur le deuxième 'e'.",
+        "suggestions": [
+          "extrême"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.17",
+        "text": "defectueux",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'adjectif 'défectueux' requiert un accent aigu sur le premier 'e'.",
+        "suggestions": [
+          "défectueux"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.18",
+        "text": "entrainent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le verbe 'entraînent' requiert un accent circonflexe sur le 'i'.",
+        "suggestions": [
+          "entraînent"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.19",
+        "text": "entrainent",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec son sujet 'ce qui', qui est un pronom relatif neutre et commande l'accord à la 3e personne du singulier.",
+        "suggestions": [
+          "entraîne"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.20",
+        "text": "Finallement",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'adverbe 'finalement' s'écrit avec un seul 'l'.",
+        "suggestions": [
+          "Finalement"
+        ],
+        "ruleApplied": "5.2.1.6"
+      },
+      {
+        "id": "erreur5.21",
+        "text": "somme",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'orthographe correcte du verbe 'être' à la première personne du pluriel du présent de l'indicatif est 'sommes'.",
+        "suggestions": [
+          "sommes"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "id": "erreur5.22",
+        "text": "englouties",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'englouties' doit s'accorder avec le sujet 'nous'. Ce pronom, représentant 'notre société' de manière générale, prend l'accord au masculin pluriel par défaut, en cohérence avec l'usage précédent ('inclinés').",
+        "suggestions": [
+          "engloutis"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.23",
+        "text": "sont",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le sujet est « La majorité d'entre nous ». Le verbe peut s'accorder soit avec le collectif « la majorité » (singulier), soit avec son complément « nous ». L'accord correct serait « est » (suivi de « inclinée ») ou « sommes » (suivi de « inclinés »), mais pas « sont ».",
+        "suggestions": [
+          "sommes",
+          "est"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.24",
+        "text": "sa importante",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Devant un nom ou un adjectif féminin commençant par une voyelle ou un « h » muet, l'adjectif possessif « sa » est remplacé par « son » pour des raisons d'euphonie.",
+        "suggestions": [
+          "son importante"
+        ],
+        "ruleApplied": "5.2.1.9.1"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 23,
+      "note": "E"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:47:54.127Z",
+    "endTimestamp": "2025-12-10T14:53:02.586Z",
+    "durationMs": 308459,
+    "durationFormatted": "05:08:459"
+  }
+}

@@ -1,0 +1,642 @@
+{
+  "processedAt": "2025-12-12T11:36:30.461Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_014.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_014.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "suivante,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le deux-points est requis pour introduire une question directe. La virgule crée une rupture incorrecte.",
+        "suggestions": [
+          "suivante :"
+        ],
+        "ruleApplied": "4.2.2.7.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle claire de ponctuation : une question directe doit être introduite par un deux-points, pas une virgule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "où",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Confusion entre l'adverbe de lieu « où » et la conjonction de coordination « ou » qui marque un choix ou une alternative.",
+        "suggestions": [
+          "ou"
+        ],
+        "ruleApplied": "4.1.2.1.9",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion homophonique évidente. Le contexte exige clairement « ou » (alternative), pas « où » (lieu).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "leur",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Le pronom personnel complément « leur » (pluriel) est utilisé alors que son antécédent, « le gouvernement », est singulier. Il faut utiliser « lui ». Une erreur de syntaxe (S) a déjà été comptée dans cette phrase.",
+        "suggestions": [
+          "lui"
+        ],
+        "ruleApplied": "4.1.2.3.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord pronominal claire : « le gouvernement » (singulier) exige « lui », pas « leur ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "affime",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de l'incise est boiteuse. Le verbe ne peut être suivi de la source entre parenthèses de cette manière. De plus, le verbe est mal orthographié. La forme correcte est « affirme RECYC-Québec ».",
+        "suggestions": [
+          "affirme RECYC-Québec"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double problème : orthographe erronée du verbe et construction syntaxique incorrecte de la citation avec parenthèses.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "coût",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Confusion entre le nom « coût » et le verbe « coûte ». La phrase requiert un verbe conjugué.",
+        "suggestions": [
+          "coûte"
+        ],
+        "ruleApplied": "4.1.2.1.9",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur évidente de catégorie grammaticale : le contexte exige un verbe conjugué (« coûte »), pas un nom (« coût »).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "Selon un article de Simard, il dit",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il y a une redondance (pléonasme) entre « Selon un article de Simard » et « il dit ». Il faut choisir l'une des deux formulations.",
+        "suggestions": [
+          "Selon un article de Simard,",
+          "Simard dit"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Redondance évidente : « selon » et « il dit » expriment la même idée d'attribution. C'est un pléonasme à corriger.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": ",",
+        "occurenceIndex": 4,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule ne doit pas séparer le groupe sujet ('moi et vous') du verbe ('sommes-nous').",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.10.2.a",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle fondamentale de ponctuation : le sujet ne doit pas être séparé du verbe par une virgule isolée.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "parvenir chacun",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule est requise après le complément de phrase 'Pour y parvenir' placé en tête de phrase.",
+        "suggestions": [
+          "parvenir, chacun"
+        ],
+        "ruleApplied": "4.2.2.10.1.m",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle claire : un complément de phrase en début de phrase doit être suivi d'une virgule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "comment peux-t-on établir",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de l'interrogative indirecte est incorrecte. Il faut utiliser 'comment nous pouvons établir' ou une structure similaire sans inversion. De plus, le verbe 'pouvoir' est mal conjugué ('peux' au lieu de 'peut'). L'erreur de syntaxe prime.",
+        "suggestions": [
+          "comment nous pouvons établir"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "La construction avec inversion dans une interrogative indirecte est certes non standard, mais le contexte rhétorique peut justifier ce style direct. L'erreur de conjugaison ('peux' pour 'peut') est cependant réelle.",
+        "counterArgument": "L'interrogation directe peut être utilisée stylistiquement dans une conclusion pour interpeller le lecteur, même après 'c'est'. La construction crée un effet rhétorique d'engagement. Cependant, la conjugaison 'peux-t-on' demeure une erreur (devrait être 'peut-on'). Si on accepte la construction directe, seule la conjugaison serait à corriger."
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "capable",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'attribut du sujet « capable » doit s'accorder en nombre avec le sujet « nous » (pluriel).",
+        "suggestions": [
+          "capables"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente : l'attribut doit s'accorder avec le sujet pluriel « nous ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "prêt",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "L'attribut du sujet « prêt » doit s'accorder en nombre avec le sujet « nous » (pluriel). Il s'agit de la deuxième erreur d'accord se rapportant au même donneur « nous ».",
+        "suggestions": [
+          "prêts"
+        ],
+        "ruleApplied": "5.4.2.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente : l'attribut doit s'accorder avec le sujet pluriel « nous ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "tel que",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "La locution « tel que » doit s'accorder en genre et en nombre avec le nom auquel elle se rapporte, « les multiples raisons » (féminin pluriel).",
+        "suggestions": [
+          "telles que"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle d'accord claire : « tel que » s'accorde avec « raisons » (féminin pluriel).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "chers public",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « chers » doit s'accorder en genre et en nombre avec le nom qu'il qualifie. Le nom « public » est masculin singulier.",
+        "suggestions": [
+          "cher public"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente : « chers » (pluriel) ne s'accorde pas avec « public » (singulier).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "d'au moins",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Il s'agit d'un barbarisme orthographique. La locution correcte est « du moins ».",
+        "suggestions": [
+          "du moins"
+        ],
+        "ruleApplied": "5.2.6.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Barbarisme clair : la locution « du moins » ne s'écrit jamais « d'au moins » dans ce contexte concessif.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "s'interresse",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage sur le verbe « intéresser » qui s'écrit avec un accent aigu et un seul « r ».",
+        "suggestions": [
+          "s'intéresse"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double faute d'orthographe : accent manquant et redoublement incorrect du 'r'. Erreur évidente.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "dechet",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Il manque l'accent aigu sur le « e » du mot « déchet ».",
+        "suggestions": [
+          "déchet"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente : accent aigu manquant sur un mot courant.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "profonde",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « profonde » doit s'accorder en nombre avec le nom qu'il qualifie, « études » (féminin pluriel).",
+        "suggestions": [
+          "profondes"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente : l'adjectif doit être au pluriel pour s'accorder avec « études ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "non-negligeable",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « négligeable » doit s'accorder en nombre avec le nom qu'il qualifie, « étapes » (féminin pluriel). De plus, il manque un accent aigu. La priorité est accordée à l'erreur grammaticale.",
+        "suggestions": [
+          "non négligeables"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double erreur : accord manquant au pluriel et accent aigu manquant sur 'négligeable'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.10",
+        "text": "Les agricultures",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot « agriculture » est généralement un nom singulier et non comptable. Le contexte suggère que l'auteur voulait parler des « agriculteurs ».",
+        "suggestions": [
+          "Les agriculteurs"
+        ],
+        "ruleApplied": "5.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur lexicale évidente : « agriculture » désigne le secteur, pas les personnes. Le contexte exige « agriculteurs ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.11",
+        "text": "financier",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "L'adjectif « financier » doit s'accorder en genre avec le nom qu'il qualifie, « aide » (féminin singulier). Le donneur d'accord est le nom « aide ».",
+        "suggestions": [
+          "financière"
+        ],
+        "ruleApplied": "5.4.2.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en genre évidente : l'adjectif doit être au féminin pour s'accorder avec « aide ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.12",
+        "text": "énèrgies",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'accent sur le premier « e » du mot « énergies » est un accent aigu et non un accent grave.",
+        "suggestions": [
+          "énergies"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accentuation évidente : confusion entre accent aigu et accent grave.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.13",
+        "text": "cherchers",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Un verbe qui suit une préposition (ici, « pour aller ») doit être à l'infinitif. La terminaison est « -er ».",
+        "suggestions": [
+          "chercher"
+        ],
+        "ruleApplied": "5.3.2.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de forme verbale : ajout incorrect d'un 's' à l'infinitif.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.14",
+        "text": "Radio-canada",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur de majuscule dans une dénomination. Le nom propre « Radio-Canada » requiert une majuscule à chaque composant.",
+        "suggestions": [
+          "Radio-Canada"
+        ],
+        "ruleApplied": "5.2.4.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de majuscule évidente : « Radio-Canada » est un nom propre d'organisme officiel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.15",
+        "text": "financier",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « financier » doit s'accorder en genre avec le nom qu'il qualifie, « aide » (féminin singulier).",
+        "suggestions": [
+          "financière"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en genre (répétition de la même erreur).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.16",
+        "text": "informer",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif en « -er » et le participe passé en « -é ». Le participe passé employé avec l'auxiliaire « être » doit s'accorder avec le sujet « les acheteurs québécois et canadiens » (masculin pluriel).",
+        "suggestions": [
+          "informés"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion infinitif/participe passé évidente avec auxiliaire 'être'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.17",
+        "text": "tous ce qui",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom indéfini « tout » doit être au singulier dans la locution « tout ce qui ».",
+        "suggestions": [
+          "tout ce qui"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur dans une locution figée : « tout ce qui » ne prend jamais le pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.18",
+        "text": "galveaudage",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe lexicale. Le mot attendu dans ce contexte est « gaspillage » ou, à la rigueur, « galvaudage ».",
+        "suggestions": [
+          "gaspillage",
+          "galvaudage"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur lexicale/orthographique : confusion entre 'gaspillage' et 'galvaudage', avec mauvaise graphie.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.19",
+        "text": "journalistique",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « journalistique » doit s'accorder en nombre avec le nom qu'il qualifie, « articles » (masculin pluriel).",
+        "suggestions": [
+          "journalistiques"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en nombre évidente.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.20",
+        "text": "interactive",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « interactive » doit s'accorder en nombre avec le nom qu'il qualifie, « vidéos » (féminin pluriel).",
+        "suggestions": [
+          "interactives"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en nombre évidente.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.21",
+        "text": "devrait",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec le sujet pluriel « Des campagnes publicitaires, des articles journalistique et des vidéos interactive ».",
+        "suggestions": [
+          "devraient"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord verbal évidente : sujet pluriel exige verbe au pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.22",
+        "text": "informer",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif en « -er » et le participe passé en « -é ». Le participe passé employé avec l'auxiliaire « être » doit s'accorder avec le sujet « je » (représenté par « moi-même », masculin singulier).",
+        "suggestions": [
+          "informé"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion infinitif/participe passé avec auxiliaire 'être'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.23",
+        "text": "peux-t-on",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur de conjugaison. Le verbe « pouvoir » avec le pronom « on » (3e personne du singulier) se conjugue « peut » et non « peux ».",
+        "suggestions": [
+          "peut-on"
+        ],
+        "ruleApplied": "5.3.2.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de conjugaison évidente : 'peux' est la 1re/2e personne, 'peut' est la 3e.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.24",
+        "text": "menerons",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur de conjugaison. Le verbe « mener » doit s'accorder avec son sujet « qui » (mis pour « des restrictions », 3e personne du pluriel). La terminaison du futur simple est « -ont ».",
+        "suggestions": [
+          "mèneront"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord verbal : le pronom relatif 'qui' renvoie à 'restrictions' (pluriel), donc verbe à la 3e personne du pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.25",
+        "text": "où",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'adverbe de lieu 'où' et la conjonction de coordination 'ou' qui marque un choix.",
+        "suggestions": [
+          "ou"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Doublon de l'erreur4.2 : confusion homophonique évidente.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.26",
+        "text": "affime",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Graphie erronée du verbe 'affirmer'.",
+        "suggestions": [
+          "affirme"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Doublon de l'erreur4.4 : faute d'orthographe évidente.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.27",
+        "text": "d'aider",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le verbe à l'infinitif 'aider' et le nom 'aide'. Le nom est requis ici.",
+        "suggestions": [
+          "d'aide"
+        ],
+        "ruleApplied": "5.3.3.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de catégorie grammaticale : le contexte exige un nom ('aide'), pas un verbe.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.28",
+        "text": "gâchi",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Graphie erronée du nom 'gâchis', qui prend un 's' final.",
+        "suggestions": [
+          "gâchis"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'orthographe : le nom 'gâchis' se termine toujours par 's'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.29",
+        "text": "menerons",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le verbe 'mener' au futur simple à la première personne du pluriel prend un accent grave sur le premier 'e'.",
+        "suggestions": [
+          "mènerons"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Cette détection est un doublon de l'erreur5.24, qui identifie correctement le problème comme étant l'accord avec le pronom relatif 'qui' (doit être 'mèneront', 3e pers. pluriel, pas 'mènerons' 1re pers. pluriel). L'erreur n'est pas l'accent mais la personne du verbe.",
+        "counterArgument": "Cette erreur est un doublon mal qualifié. L'erreur5.24 identifie correctement le problème : 'qui' renvoie à 'restrictions', donc le verbe doit être 'mèneront' (3e pers. pluriel), pas 'mènerons' (1re pers. pluriel). Ce n'est pas principalement une question d'accent mais d'accord du verbe avec son sujet."
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 8,
+      "note": "C"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 28,
+      "note": "E"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 38,
+      "vraisErreurs": 36,
+      "discutables": 1,
+      "fauxPositifs": 1
+    }
+  },
+  "startTimestamp": "2025-12-12T11:34:47.754Z",
+  "endTimestamp": "2025-12-12T11:36:30.461Z",
+  "durationMs": 102707,
+  "durationFormatted": "01:42:707"
+}

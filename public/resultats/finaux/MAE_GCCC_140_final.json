@@ -1,0 +1,1040 @@
+{
+  "processedAt": "2025-12-12T11:46:51.407Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_140.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_140.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "Toutefois avouons",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule est requise après un organisateur textuel comme « Toutefois » placé en tête de phrase.",
+        "suggestions": [
+          "Toutefois, avouons"
+        ],
+        "ruleApplied": "4.2.2.10.1.k",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle de ponctuation claire : un organisateur textuel en début de phrase doit être suivi d'une virgule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "car,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "La conjonction « car » ne doit pas être suivie d'une virgule lorsqu'elle introduit une proposition.",
+        "suggestions": [
+          "car"
+        ],
+        "ruleApplied": "4.2.2.10.2.j",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle standard : les conjonctions de coordination comme « car » ne sont pas suivies d'une virgule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "repas mais",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule est requise avant la conjonction « mais » lorsqu'elle unit deux propositions.",
+        "suggestions": [
+          "repas, mais"
+        ],
+        "ruleApplied": "4.2.2.10.1.c",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle de base de la ponctuation : « mais » coordonnant deux propositions doit être précédé d'une virgule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "»,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "La virgule doit être placée après le guillemet fermant, et non avant.",
+        "suggestions": [
+          " »,"
+        ],
+        "ruleApplied": "4.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique claire : les signes de ponctuation faibles se placent après les guillemets fermants.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "l'avance. (Simard 2020).",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point final de la phrase doit être placé après la parenthèse de la référence source.",
+        "suggestions": [
+          "l'avance (Simard 2020)."
+        ],
+        "ruleApplied": "4.2.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle de ponctuation avec les références : le point final se place après la parenthèse fermante.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "ceux ne",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule est requise après la locution « Sur ce » lorsqu'elle est placée en tête de phrase.",
+        "suggestions": [
+          "ce, ne"
+        ],
+        "ruleApplied": "4.2.2.10.1.k",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double erreur : « Sur ce » nécessite une virgule et « ceux » est une erreur lexicale (voir critère 5).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "car,",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "(P)",
+        "description": "La conjonction « car » ne doit pas être suivie d'une virgule lorsqu'elle introduit une proposition.",
+        "suggestions": [
+          "car"
+        ],
+        "ruleApplied": "4.2.2.10.2.j",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Même erreur répétée : « car » ne prend pas de virgule après.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "2021), Ce",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule ne peut pas séparer deux phrases complètes. Elle doit être remplacée par un point pour marquer la fin de la première phrase.",
+        "suggestions": [
+          "2021). Ce"
+        ],
+        "ruleApplied": "4.2.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de juxtaposition de phrases indépendantes. Le point est requis après la référence.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": ",",
+        "occurenceIndex": 2,
+        "criteria": 4,
+        "type": "(P)",
+        "description": "Une virgule ne doit pas séparer un subordonnant comme « car » de la proposition qu'il introduit.",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.10.2.h",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Même type d'erreur répétée avec « car » suivi d'une virgule incorrecte.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.10",
+        "text": "temps?.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le cumul de signes de ponctuation de fin de phrase (ici, le point d'interrogation et le point) est incorrect.",
+        "suggestions": [
+          "temps ?"
+        ],
+        "ruleApplied": "4.2.1.7",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur évidente de double ponctuation finale. Un seul signe suffit.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.11",
+        "text": ",",
+        "occurenceIndex": 5,
+        "criteria": 4,
+        "type": "(P)",
+        "description": "La virgule qui suit une référence entre parenthèses doit être placée après la parenthèse fermante, et non avant.",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Même type d'erreur que erreur4.4 : placement incorrect de la virgule avec le guillemet/parenthèse.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.12",
+        "text": "« pour prolonger la durée de vie des aliments, Florence-Léa Siry suggère de retirer les emballages qui caussent un surplus d'humidité et de ne pas tailler les fruits et légumes trop à l'avance.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Un guillemet fermant (« ») est manquant à la fin de la citation, avant la référence entre parenthèses.",
+        "suggestions": [
+          "« pour prolonger la durée de vie des aliments, Florence-Léa Siry suggère de retirer les emballages qui causent un surplus d'humidité et de ne pas tailler les fruits et légumes trop à l'avance. »"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Citation non fermée. Le guillemet fermant est obligatoire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.13",
+        "text": ",",
+        "occurenceIndex": 4,
+        "criteria": 4,
+        "type": "(P)",
+        "description": "Une virgule ne doit pas séparer un subordonnant comme « car » de la proposition qu'il introduit.",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.10.2.h",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de l'erreur avec « car » suivi d'une virgule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.14",
+        "text": ",",
+        "occurenceIndex": 6,
+        "criteria": 4,
+        "type": "(P)",
+        "description": "Une virgule ne peut pas joindre deux phrases complètes. Il faut utiliser un point pour marquer la fin de la première phrase.",
+        "suggestions": [
+          "."
+        ],
+        "ruleApplied": "4.2.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de juxtaposition de phrases indépendantes avec une simple virgule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.15",
+        "text": "consommer",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de coordination. Le verbe « consommer » est coordonné par « et » à l'impératif « arrêtons ». Il doit donc être à la même forme, soit l'impératif « consommons ».",
+        "suggestions": [
+          "consommons"
+        ],
+        "ruleApplied": "4.1.2.1.8",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Rupture de parallélisme syntaxique évidente. Les éléments coordonnés doivent avoir la même forme.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.16",
+        "text": "bien traité",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction de phrase boiteuse. Pour maintenir le parallélisme avec « à manger », il faut répéter la préposition « à » et utiliser l'infinitif : « et à bien traiter ».",
+        "suggestions": [
+          "à bien traiter"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Rupture de construction : les éléments coordonnés nécessitent la répétition de la préposition.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.17",
+        "text": "par  change",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction de phrase boiteuse. Après la préposition « par », le verbe doit être à l'infinitif.",
+        "suggestions": [
+          "par changer"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur grammaticale : après une préposition, le verbe doit être à l'infinitif.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "Poubelle",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Un nom commun comme « poubelle » ne prend généralement pas de majuscule dans un titre, sauf s'il en est le premier mot.",
+        "suggestions": [
+          "poubelle"
+        ],
+        "ruleApplied": "5.2.4.3",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Les conventions de majuscules dans les titres varient. Certains styles capitalisent tous les noms.",
+        "counterArgument": "Dans un titre, plusieurs conventions coexistent en français. Certaines capitalisent tous les noms significatifs, d'autres seulement le premier mot. L'usage de la majuscule ici peut être un choix stylistique pour donner de l'emphase à « Poubelle » en opposition à « Assiette »."
+      },
+      {
+        "id": "erreur5.2",
+        "text": "savons",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec son sujet « Certains d'entre nous », qui correspond à la 3e personne du pluriel.",
+        "suggestions": [
+          "savent"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. « Certains d'entre nous » = ils/elles (3e personne du pluriel).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "péché",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Dans cette énumération, le verbe doit être à l'infinitif, comme « lutter » et « chasser ».",
+        "suggestions": [
+          "pêcher"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double erreur : forme verbale incorrecte (participe au lieu d'infinitif) et confusion lexicale (péché vs pêcher).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "proccuré",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Après la préposition « de » (dans « afin de »), le verbe doit être à l'infinitif. De plus, le verbe « procurer » s'écrit avec un seul « c ».",
+        "suggestions": [
+          "procurer"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double erreur : orthographe incorrecte (deux « c ») et mauvaise forme verbale.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "passé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé conjugué avec l'auxiliaire « être » doit s'accorder en genre et en nombre avec le sujet « nous » (pluriel).",
+        "suggestions": [
+          "passés"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle d'accord du participe passé avec être : accord obligatoire avec le sujet.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "ainssi",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'adverbe « ainsi » s'écrit avec un seul « s ».",
+        "suggestions": [
+          "ainsi"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "environement",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot « environnement » s'écrit avec deux « n ».",
+        "suggestions": [
+          "environnement"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe courante mais évidente.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "chers public",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « cher » doit s'accorder en genre et en nombre avec le nom qu'il qualifie, « public » (masculin singulier).",
+        "suggestions": [
+          "cher public"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente de l'adjectif avec le nom singulier.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "faisons",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec son sujet « plusieurs d'entre nous », qui correspond à la 3e personne du pluriel.",
+        "suggestions": [
+          "font"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord : « plusieurs d'entre nous » = ils/elles (3e personne).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.10",
+        "text": "esse",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "La forme interrogative correcte est « est-ce », avec un trait d'union.",
+        "suggestions": [
+          "est-ce"
+        ],
+        "ruleApplied": "5.2.6.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur évidente d'orthographe de la locution interrogative.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.11",
+        "text": "nous",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Une majuscule est requise au début d'une phrase.",
+        "suggestions": [
+          "Nous"
+        ],
+        "ruleApplied": "5.3.6.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle de base : majuscule en début de phrase.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.12",
+        "text": "allimentaire",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot « alimentaire » s'écrit avec un seul « l ».",
+        "suggestions": [
+          "alimentaire"
+        ],
+        "ruleApplied": "5.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.13",
+        "text": "evitent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec son sujet « on », qui correspond à la 3e personne du singulier. De plus, le verbe « éviter » prend un accent aigu.",
+        "suggestions": [
+          "évite"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double erreur : accord verbal et accent manquant.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.14",
+        "text": "mangé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après la préposition « de », le verbe doit être à l'infinitif.",
+        "suggestions": [
+          "manger"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle grammaticale de base : infinitif après préposition.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.15",
+        "text": "« pour",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Une majuscule est requise au début d'une citation directe introduite par un deux-points.",
+        "suggestions": [
+          "« Pour"
+        ],
+        "ruleApplied": "5.3.6.3",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Les conventions sur la majuscule après deux-points varient selon que la citation forme une phrase complète ou s'intègre à la phrase.",
+        "counterArgument": "La convention de majuscule après deux-points introduisant une citation varie. Certaines sources acceptent la minuscule si la citation s'intègre syntaxiquement à la phrase introductive. Ici, la citation semble être une phrase complète, mais l'usage n'est pas totalement fixé."
+      },
+      {
+        "id": "erreur5.16",
+        "text": "caussent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le verbe « causer » s'écrit avec un seul « s ».",
+        "suggestions": [
+          "causent"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.17",
+        "text": "d'ailleur",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Une majuscule est requise au début d'une phrase. De plus, l'orthographe correcte est « d'ailleurs ».",
+        "suggestions": [
+          "D'ailleurs"
+        ],
+        "ruleApplied": "5.3.6.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double erreur : majuscule manquante et orthographe incorrecte.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.18",
+        "text": "mais",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Une majuscule est requise au début d'une phrase.",
+        "suggestions": [
+          "Mais"
+        ],
+        "ruleApplied": "5.3.6.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle de base : majuscule en début de phrase.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.19",
+        "text": "cependant,",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Une majuscule est requise au début d'une phrase.",
+        "suggestions": [
+          "Cependant,"
+        ],
+        "ruleApplied": "5.3.6.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle de base : majuscule en début de phrase.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.20",
+        "text": "chanté",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe qui suit « arrêter de » doit être à l'infinitif.",
+        "suggestions": [
+          "chanter"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle grammaticale : infinitif après « arrêter de ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.21",
+        "text": "quotidient",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'orthographe correcte est « quotidien ».",
+        "suggestions": [
+          "quotidien"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.22",
+        "text": "posé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Ce verbe est coordonné à « arrêter » et dépend de « on devrait » ; il doit donc être à l'infinitif.",
+        "suggestions": [
+          "poser"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de parallélisme : forme verbale incorrecte dans une coordination.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.23",
+        "text": "vrai actions",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « vrai » doit s'accorder en genre et en nombre avec le nom qu'il qualifie, « actions » (féminin pluriel).",
+        "suggestions": [
+          "vraies actions"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente de l'adjectif avec le nom féminin pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.24",
+        "text": "constaté",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après la préposition « pour », le verbe doit être à l'infinitif.",
+        "suggestions": [
+          "constater"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle grammaticale : infinitif après préposition.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.25",
+        "text": "tranballe",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'orthographe correcte du verbe est « trimballe ».",
+        "suggestions": [
+          "trimballe"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente sur un verbe familier.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.26",
+        "text": "blai",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'orthographe correcte du nom est « plaie ».",
+        "suggestions": [
+          "plaie"
+        ],
+        "ruleApplied": "5.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.27",
+        "text": "ennorme",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'adjectif « énorme » s'écrit avec un accent aigu et un seul « n ».",
+        "suggestions": [
+          "énorme"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double erreur : orthographe et accent.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.28",
+        "text": "nous",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Une majuscule est requise au début d'une phrase.",
+        "suggestions": [
+          "Nous"
+        ],
+        "ruleApplied": "5.3.6.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle de base : majuscule en début de phrase.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.29",
+        "text": "amosphère",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'orthographe correcte du nom est « atmosphère ».",
+        "suggestions": [
+          "atmosphère"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente : lettre manquante.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.30",
+        "text": "sur ceux",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le pronom « ceux » et le pronom « ce ». L'expression correcte est « Sur ce ». Une majuscule est également requise en début de phrase.",
+        "suggestions": [
+          "Sur ce"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double erreur : confusion lexicale et majuscule manquante.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.31",
+        "text": "meilleur solution",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « meilleur » doit s'accorder en genre avec le nom qu'il qualifie, « solution » (féminin).",
+        "suggestions": [
+          "meilleure solution"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente de l'adjectif avec le nom féminin.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.32",
+        "text": "assiette",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « assiette » doit être au pluriel pour s'accorder avec le déterminant possessif « nos ».",
+        "suggestions": [
+          "assiettes"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord : « nos » requiert le pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.33",
+        "text": "organisation des nations unies",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Les noms propres dans les dénominations d'organismes prennent une majuscule.",
+        "suggestions": [
+          "Organisation des Nations Unies"
+        ],
+        "ruleApplied": "5.2.4.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle claire sur les noms d'organismes internationaux.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.34",
+        "text": "nuire",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit être conjugué à la 3e personne du singulier du présent de l'indicatif pour s'accorder avec le sujet « Ce bazar ».",
+        "suggestions": [
+          "nuit"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de conjugaison évidente.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.35",
+        "text": "consommer",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Ce verbe est coordonné par « et » à « arrêtons ». Il doit donc être conjugué à la même forme, soit la 1re personne du pluriel de l'impératif présent.",
+        "suggestions": [
+          "consommons"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de parallélisme : forme verbale incorrecte dans une coordination (même erreur que 4.15).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.36",
+        "text": "déchet",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le complément du nom « producteur » doit être au pluriel pour indiquer la nature de ce qui est produit.",
+        "suggestions": [
+          "déchets"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord : le sens requiert le pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.37",
+        "text": "mangez",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après la préposition « à », le verbe doit être à l'infinitif.",
+        "suggestions": [
+          "manger"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle grammaticale : infinitif après préposition.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.38",
+        "text": "traité",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Ce verbe est coordonné à « manger » et dépend de la structure « Apprenons à ». Il doit donc être à l'infinitif.",
+        "suggestions": [
+          "traiter"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de parallélisme : forme verbale incorrecte (même problème que 4.16).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.39",
+        "text": "esperé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "La terminaison du verbe à la 2e personne du pluriel du présent de l'indicatif est « -ez ».",
+        "suggestions": [
+          "espérez"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double erreur : accent manquant et terminaison incorrecte.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.40",
+        "text": "change",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après la préposition « par », le verbe doit être à l'infinitif.",
+        "suggestions": [
+          "changer"
+        ],
+        "ruleApplied": "5.3.2.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle grammaticale : infinitif après préposition (même problème que 4.17).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.41",
+        "text": "abitude",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'orthographe correcte du nom est « habitude ».",
+        "suggestions": [
+          "habitude"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente : lettre initiale manquante.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.42",
+        "text": "qu'elle",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom de reprise doit correspondre en genre à son antécédent « le changement » (masculin).",
+        "suggestions": [
+          "qu'il"
+        ],
+        "ruleApplied": "5.3.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du pronom avec son antécédent.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.43",
+        "text": "proccuré",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Ce mot s'écrit avec un seul « c ». De plus, après la préposition « de », le verbe doit être à l'infinitif.",
+        "suggestions": [
+          "procurer"
+        ],
+        "ruleApplied": "5.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Même erreur répétée (voir 5.4).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.44",
+        "text": "chers",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "(G)",
+        "description": "L'adjectif « cher » s'accorde en genre et en nombre avec le nom qu'il qualifie. Le nom « public » est masculin singulier.",
+        "suggestions": [
+          "cher"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Même erreur répétée (voir 5.8).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.45",
+        "text": "nous",
+        "occurenceIndex": 4,
+        "criteria": 5,
+        "type": "(G)",
+        "description": "Une majuscule est requise au début de chaque phrase.",
+        "suggestions": [
+          "Nous"
+        ],
+        "ruleApplied": "5.3.6.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle de base répétée : majuscule en début de phrase.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.46",
+        "text": "cependant",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "(G)",
+        "description": "Une majuscule est requise au début de chaque phrase.",
+        "suggestions": [
+          "Cependant"
+        ],
+        "ruleApplied": "5.3.6.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Même erreur répétée (voir 5.19).",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 17,
+      "note": "E"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 46,
+      "note": "E"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 63,
+      "vraisErreurs": 61,
+      "discutables": 2,
+      "fauxPositifs": 0
+    }
+  },
+  "startTimestamp": "2025-12-12T11:44:37.622Z",
+  "endTimestamp": "2025-12-12T11:46:51.407Z",
+  "durationMs": 133785,
+  "durationFormatted": "02:13:785"
+}

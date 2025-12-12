@@ -1,0 +1,433 @@
+{
+  "processedAt": "2025-12-10T14:22:48.101Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_038.txt",
+    "originalText": "L'avenir alimentaire gaspillé\r\n\r\nCher public,Au cours de la progression des êtres humains, nos populations ne cessent pas de se multiplier exponentiellement. C'est l'alimentation qui permet la croissance démographique sur terre. Cependant, si on consomme des aliments, il y aura le gaspillage alimentaire comme conséquence. Je vous pose la question suivante : sommes-nous prêts à lutter contre le gaspillage alimentaire ? À mon avis, je ne pense pas en raison des normesesthétiques sévères et du coût de récupération et de transformation des aliments biodégradables est très élevé.\r\n\r\nPremièrement, chers internautes, parlons d'aspect esthétique. Savez-vous qu'au Canada, la vente au détail, la restauration et l'hôtellerie est 19% responsable du gaspillage ? Nous avons l'idée d'associer la qualité des produits agricoles avec leur apparence. Selon Table québecoise sur la saine alimentation dans leur article «Gaspillage alimentaire : survol des causes et des interventions en cours en matière de prévention au Québec », « Dans les restaurants et les hôtels, les normes sévères de perfection esthétique et de fraîcheur des aliments, [...], occasionnent du gaspillage ». Notamment, Pascal Thériault, économiste agricole, martèle que les épiceries préfèrentles produits parfaits. Nous pourrions succéder à combattre l'enjeu en question, le gaspillage alimentaire, si on change nos habitudes très critiques par rapport aux aliments imparfaites. Alors, nous ne sommes pas prêts à cause des normes sévères de l'apparence des produits.\r\n\r\nDeuxièmement, chers lecteurs, abordons l'aspect des dépenses. Nous vivons dans un monde qui entoure la profit. Pourtant, il y a des entreprises qui transforment des aliments biodégradables en objets utiles et pratiques, ne font pas assez profits pour se soutenir. C'est parce que « La récupération des aliments périssables est compliquée et leur transformation coûte cher. Loop Mission, [...], doit refuser 80% des demandes [...] pour justifier l'investissement. » (Martinez, 2021). De plus, Emmanuel Martinezdit que les ventes de l'entreprise québecoise Loop Mission en 2020 ont grimpés de 116%. C'est une catastrophe! À ce stade, il est injuste pour ce type d'entreprise de continuer car il ne possède pas les moyennes financières et industrielles. Donc, on est pas prêt parce que le coût de transformation est élevé.\r\n\r\nEn guise de conclusion, je ne suis pas d'accord qu'on est prêt à lutter contre le gaspillage alimentaire parce que nos normes et nos conditions à respecter sont très sévères quand on choisit des produits agricoles et le coût de transformation et de récupération des aliments imparfaites est cher. Personnellement, on aura diminuer le gaspillagealimentaire si les riches investissent plus dans des entreprises comme Loop Mission. Dans les années qui suivent, il sérait interresant de voir les solutions proposées par les organisations internationales lorsque la population mondiale atteint 10 millards de personnes.",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "il y aura le gaspillage alimentaire comme conséquence",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est boiteuse. Une formulation plus directe et idiomatique est préférable.",
+        "suggestions": [
+          "le gaspillage alimentaire en sera la conséquence",
+          "cela entraînera du gaspillage alimentaire"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "id": "erreur4.2",
+        "text": "À mon avis, je ne pense pas",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il y a une redondance entre 'À mon avis' et 'je pense'. Il faut supprimer l'un des deux éléments pour alléger la phrase.",
+        "suggestions": [
+          "À mon avis, non",
+          "Je ne le pense pas"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "id": "erreur4.3",
+        "text": "d'aspect",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque l'article défini 'l'' avant le nom 'aspect'.",
+        "suggestions": [
+          "de l'aspect"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "id": "erreur4.4",
+        "text": "avec",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe 'associer' se construit avec la préposition 'à' et non 'avec'.",
+        "suggestions": [
+          "à"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "id": "erreur4.5",
+        "text": "leur",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le déterminant possessif doit s'accorder avec son antécédent, 'Table québécoise sur la saine alimentation', qui est féminin singulier.",
+        "suggestions": [
+          "son"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "id": "erreur4.6",
+        "text": "change",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "La concordance des temps n'est pas respectée. La proposition principale est au conditionnel ('pourrions'), la subordonnée introduite par 'si' doit donc être à l'imparfait. Une erreur de syntaxe (S) a déjà été comptée dans cette phrase.",
+        "suggestions": [
+          "changeait"
+        ],
+        "ruleApplied": "4.1.2.2.3"
+      },
+      {
+        "id": "erreur4.7",
+        "text": "qui entoure la profit",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase pose un problème de sens. De plus, le nom 'profit' est masculin ('le profit'). La priorité est donnée à l'erreur de syntaxe.",
+        "suggestions": [
+          "centré sur le profit",
+          "qui tourne autour du profit"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "id": "erreur4.8",
+        "text": "assez profits",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Il manque la préposition 'de' après l'adverbe de quantité 'assez'. Une erreur de syntaxe (S) a déjà été comptée dans cette phrase.",
+        "suggestions": [
+          "assez de profits"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "id": "erreur4.9",
+        "text": "C'est une catastrophe!",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il y a un problème de sens. Une augmentation des ventes de 116% est un succès, non une catastrophe. La phrase contredit la logique du propos.",
+        "suggestions": [
+          "C'est un immense succès!",
+          "Voilà une excellente nouvelle!"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "id": "erreur4.10",
+        "text": "d'accord qu'on est",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction 'être d'accord que' suivie de l'indicatif est une construction boiteuse. Il est préférable d'utiliser 'être d'accord pour dire que' ou 'être d'accord avec le fait que'.",
+        "suggestions": [
+          "d'accord pour dire qu'on est",
+          "d'accord avec le fait qu'on est"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "id": "erreur4.11",
+        "text": "est cher",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "L'expression 'le coût est cher' est un pléonasme. On dit que le coût est 'élevé'. Une erreur de syntaxe (S) a déjà été comptée dans cette phrase.",
+        "suggestions": [
+          "est élevé"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "id": "erreur4.12",
+        "text": "aura diminuer",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La structure 'auxiliaire avoir + infinitif' ne correspond à aucun temps verbal en français. Il faut utiliser le futur simple ('diminuera') ou un verbe modal ('pourra diminuer').",
+        "suggestions": [
+          "pourra diminuer",
+          "diminuera"
+        ],
+        "ruleApplied": "4.1.2.2.3"
+      },
+      {
+        "id": "erreur4.13",
+        "text": "est",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La structure de la phrase est boiteuse. La préposition « en raison de » doit être suivie d'un groupe nominal. L'ajout du verbe « est » brise cette structure. Il faudrait reformuler, par exemple : « ...en raison des normes [...] sévères et du coût [...] très élevé. » ou « ...parce que les normes [...] sont sévères et que le coût [...] est très élevé. »",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "id": "erreur4.14",
+        "text": "succéder à",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe « succéder à » signifie « venir après, remplacer ». Dans ce contexte, il s'agit d'un problème de sens. Il faudrait utiliser un verbe comme « réussir à » ou « parvenir à ».",
+        "suggestions": [
+          "réussir à"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "id": "erreur4.15",
+        "text": ", ne font pas",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est boiteuse. Le groupe verbal « ne font pas... » est juxtaposé sans lien syntaxique clair avec la proposition principale. Il manque un sujet ou un coordonnant. Il faudrait reformuler, par exemple : « ..., mais elles ne font pas... ».",
+        "suggestions": [
+          "et ne font pas"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "id": "erreur4.16",
+        "text": "on est pas",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La négation en français standard se construit avec deux éléments : « ne... pas ». L'adverbe « ne » (ou « n' ») a été omis.",
+        "suggestions": [
+          "on n'est pas"
+        ],
+        "ruleApplied": "4.1.2.1.3"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 13,
+      "note": "C"
+    },
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "terre",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le nom de la planète Terre prend une majuscule.",
+        "suggestions": [
+          "Terre"
+        ],
+        "ruleApplied": "5.2.4.1"
+      },
+      {
+        "id": "erreur5.2",
+        "text": "normesesthétiques",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le nom 'normes' et l'adjectif 'esthétiques' ont été fusionnés à tort. Il faut les séparer.",
+        "suggestions": [
+          "normes esthétiques"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "id": "erreur5.3",
+        "text": "est",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec le sujet, qui est une énumération de plusieurs éléments ('la vente au détail, la restauration et l'hôtellerie'). Le verbe doit donc être au pluriel.",
+        "suggestions": [
+          "sont"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.4",
+        "text": "québecoise",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'adjectif 'québécoise' requiert un accent aigu sur le premier 'e'.",
+        "suggestions": [
+          "québécoise"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.5",
+        "text": "préfèrentles",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le verbe 'préfèrent' et l'article 'les' ont été fusionnés à tort. Il faut les séparer.",
+        "suggestions": [
+          "préfèrent les"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "id": "erreur5.6",
+        "text": "imparfaites",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif doit s'accorder en genre et en nombre avec le nom qu'il qualifie, 'aliments', qui est masculin pluriel.",
+        "suggestions": [
+          "imparfaits"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.7",
+        "text": "Martinezdit",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le nom propre 'Martinez' et le verbe 'dit' ont été fusionnés à tort. Il faut les séparer.",
+        "suggestions": [
+          "Martinez dit"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "id": "erreur5.8",
+        "text": "grimpés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé du verbe 'grimper' conjugué avec l'auxiliaire 'avoir' est invariable lorsque le complément d'objet direct n'est pas placé avant le verbe. Ici, 'les ventes' est le sujet.",
+        "suggestions": [
+          "grimpé"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "id": "erreur5.9",
+        "text": "moyennes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion entre les homophones 'moyennes' (valeur intermédiaire) et 'moyens' (ressources). Le contexte requiert 'moyens'.",
+        "suggestions": [
+          "moyens"
+        ],
+        "ruleApplied": "5.2.2"
+      },
+      {
+        "id": "erreur5.10",
+        "text": "gaspillagealimentaire",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le nom 'gaspillage' et l'adjectif 'alimentaire' ont été fusionnés à tort. Il faut les séparer.",
+        "suggestions": [
+          "gaspillage alimentaire"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "id": "erreur5.11",
+        "text": "sérait",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Barbarisme de conjugaison. La forme correcte du verbe 'être' au conditionnel présent, 3e personne du singulier, est 'serait'.",
+        "suggestions": [
+          "serait"
+        ],
+        "ruleApplied": "5.3.2.1"
+      },
+      {
+        "id": "erreur5.12",
+        "text": "interresant",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage. Le mot 'intéressant' s'écrit avec un accent aigu sur le 'e' et un seul 'r'.",
+        "suggestions": [
+          "intéressant"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "id": "erreur5.13",
+        "text": "millards",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage. Le mot 'milliards' s'écrit avec 'illi'.",
+        "suggestions": [
+          "milliards"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "id": "erreur5.14",
+        "text": "Au",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Une majuscule ne doit pas être employée après une virgule, sauf s'il s'agit d'un nom propre.",
+        "suggestions": [
+          "au"
+        ],
+        "ruleApplied": "5.3.6.1"
+      },
+      {
+        "id": "erreur5.15",
+        "text": "la profit",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « profit » est masculin. Le déterminant doit être « le ».",
+        "suggestions": [
+          "le profit"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.16",
+        "text": "prêt",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif attribut du sujet doit s'accorder avec le sujet « on », qui représente ici un pluriel (« nous »).",
+        "suggestions": [
+          "prêts"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.17",
+        "text": "diminuer",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après l'auxiliaire « avoir », il faut utiliser le participe passé « diminué » et non l'infinitif « diminuer ».",
+        "suggestions": [
+          "diminué"
+        ],
+        "ruleApplied": "5.3.2.6"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 17,
+      "note": "D"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:17:54.756Z",
+    "endTimestamp": "2025-12-10T14:22:48.101Z",
+    "durationMs": 293345,
+    "durationFormatted": "04:53:345"
+  }
+}

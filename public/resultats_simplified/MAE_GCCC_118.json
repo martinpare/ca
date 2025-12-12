@@ -1,0 +1,499 @@
+{
+  "processedAt": "2025-12-10T15:01:15.840Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_118.txt",
+    "originalText": "Assez le gaspillage !\r\n\r\nPouvoir nourrir un peuple en constante croissance est un défi. Il est évident que le gaspillage alimentaire fait partie de notre vie et qu'il faut tout mettre en oeuvre pour diminuer son impact face à l'environnement. Selon moi, nous sommes prêts à lutter contre le gaspillage alimentaire.\r\n\r\nPremièrement, je trouve-que nous avons suffisamment d'entreprise qui ont pour but de diminuer se fléau. Tout ces entreprises et organismes ont pour objectif d'aller chercher les aliments que les consommateurs ne veulent pas car il ne sont pas esthétiquement parfait pour leur donner une seconde vie. Comme l'entreprise québécoise Loop Mission qui transforme des restes de fruits et légumes en jus ce qui permet d'éviter de gaspiller les restes de fruits et de légumes (Martinez, 2021). Ou encore des plateformes qui offre a leurs clients la possibilités d'acheter à bas prix des aliments dont la date limite de conservation est proche (RECYC-QUÉBEC 2021) De plus, les producteurs agricoles qui veulent donner des aliments doivent eux-mêmes livrés les denrées car les banques alimentaires manques d'infrastructures (Radio-Canada, 2021). Pour y remedier, le gouvernement devraient aider financierement les banques alimentaires pour qu'ils puissent aller chercher eux-même les aliments. Car à l'heure actuelle, les banques alimentaires n'ont pas une grande capacité à recevoir beaucoup de denrées. En conclusion, les entreprises ont une grande volonté pour diminuer le gaspillage alimentaire mais il manque une aide du gouvernement pour pouvoir exploité ces entreprises à leur plein potentielle.\r\n\r\nDeuxièment, je trouve que le gouvernement et les entreprises n'informent pas asser les consommateurs des différentes façons de limiter le gaspillage à la maison. En effet, selon une étude réaliser, 47% du gaspillage au Canada est du à la consommation (Table québécoise sur la saine alimentation, 2019). Et Selon Florence-Léa Siry « 50% du gaspillage alimentaire pourrait être évité à la maison si les consommateurs apprenaient à mieux conserver les aliments. » (corriveau, 2020). Il existe plusieurs façons de diminuer son impact face au gaspillage alimentaire. Comme par exemple planifier ses repas, acheter des quantités raisonnable ou congeler ses restes. Les consommateur devraient aussi éviter d'acheter des produits en grande quantité car généralement le consommateur n'arrivent pas a tout consommés avant la date limite de consommation donc il est dans l'obligation de jeter ses aliments qui ne sont plus consommables. En conclusion, je pense que si les entreprises et le gouvernement fort l'effort d'informer les consommateurs des différentes façons de diminuer le gaspillage on pourrait voir une baisse du gaspillage alimentaire qui est fait à la maison.\r\n\r\nEn bref, au Québec il y a beaucoup d'entreprise qui ont pour but de diminuer se fléau et il y a un manque d'information fournie au consommateur. Devrions-nous pas faire attention au gaspillage ?",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "jus ce",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule avant le pronom relatif 'ce qui' lorsqu'il introduit une proposition qui apporte une explication ou une conséquence se rapportant à toute la proposition précédente.",
+        "suggestions": [
+          "jus, ce"
+        ],
+        "ruleApplied": "4.2.2.10.1.i"
+      },
+      {
+        "id": "erreur4.2",
+        "text": "2021)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque un point pour marquer la fin de la phrase.",
+        "suggestions": [
+          "2021)."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "id": "erreur4.3",
+        "text": "gaspillage on",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule pour séparer la proposition subordonnée circonstancielle de condition ('si...') de la proposition principale.",
+        "suggestions": [
+          "gaspillage, on"
+        ],
+        "ruleApplied": "4.2.2.10.1.m"
+      },
+      {
+        "id": "erreur4.4",
+        "text": "Devrions-nous pas",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque l'adverbe de négation 'ne' dans la locution 'ne... pas'. La forme correcte est 'Ne devrions-nous pas'.",
+        "suggestions": [
+          "Ne devrions-nous pas"
+        ],
+        "ruleApplied": "4.1.2.1.3"
+      },
+      {
+        "id": "erreur4.5",
+        "text": ")",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "P",
+        "description": "Un point est manquant à la fin de la phrase.",
+        "suggestions": [
+          ")."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 3,
+      "note": "A"
+    },
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "oeuvre",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot 'œuvre' s'écrit avec un 'œ' (e dans l'o) ou, à défaut, 'oeuvre'. Ici, il manque la ligature, mais l'erreur la plus commune est l'oubli de l'accent circonflexe sur le 'e' dans la graphie 'oeuvre'. La graphie correcte est 'œuvre'.",
+        "suggestions": [
+          "œuvre"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.2",
+        "text": "trouve-que",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le trait d'union est erroné dans cette construction. Il ne faut pas de trait d'union entre un verbe et la conjonction 'que'.",
+        "suggestions": [
+          "trouve que"
+        ],
+        "ruleApplied": "5.2.1.7.5"
+      },
+      {
+        "id": "erreur5.3",
+        "text": "d'entreprise",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'entreprise' doit être au pluriel car il est complément de l'adverbe de quantité 'suffisamment', qui indique une pluralité.",
+        "suggestions": [
+          "d'entreprises"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.4",
+        "text": "se",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le pronom réfléchi 'se' et le déterminant démonstratif 'ce'. Il faut 'ce fléau'.",
+        "suggestions": [
+          "ce"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "id": "erreur5.5",
+        "text": "Tout",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant 'tout' doit s'accorder en genre et en nombre avec le groupe nominal qu'il détermine, 'ces entreprises et organismes' (masculin pluriel). Il faut donc 'Tous'.",
+        "suggestions": [
+          "Tous"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.6",
+        "text": "il",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom 'il' reprend 'les aliments' (masculin pluriel). Il doit donc être au pluriel : 'ils'.",
+        "suggestions": [
+          "ils"
+        ],
+        "ruleApplied": "5.3.1.4"
+      },
+      {
+        "id": "erreur5.7",
+        "text": "parfait",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "L'adjectif 'parfait' s'accorde avec son donneur 'les aliments' (masculin pluriel), qui est le même que pour le pronom 'ils'. Il faut donc 'parfaits'.",
+        "suggestions": [
+          "parfaits"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.8",
+        "text": "offre",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'offre' doit s'accorder avec son sujet 'des plateformes' (3e personne du pluriel). Il faut donc 'offrent'.",
+        "suggestions": [
+          "offrent"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.9",
+        "text": "a",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le verbe 'a' (avoir) et la préposition 'à'. Il faut 'à leurs clients'.",
+        "suggestions": [
+          "à"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "id": "erreur5.10",
+        "text": "possibilités",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'possibilités' doit être au singulier car il est précédé du déterminant 'la'. Il faut 'la possibilité'.",
+        "suggestions": [
+          "possibilité"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.11",
+        "text": "livrés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après la locution verbale 'doivent', le verbe qui suit doit être à l'infinitif. Il faut 'livrer'.",
+        "suggestions": [
+          "livrer"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "id": "erreur5.12",
+        "text": "manques",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'manques' doit s'accorder avec son sujet 'les banques alimentaires' (3e personne du pluriel). Il faut donc 'manquent'.",
+        "suggestions": [
+          "manquent"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.13",
+        "text": "remedier",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot 'remédier' prend un accent aigu sur le deuxième 'e'.",
+        "suggestions": [
+          "remédier"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.14",
+        "text": "devraient",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'devraient' doit s'accorder avec son sujet 'le gouvernement' (3e personne du singulier). Il faut donc 'devrait'.",
+        "suggestions": [
+          "devrait"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.15",
+        "text": "financierement",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'adverbe 'financièrement' prend un accent grave sur le premier 'e'.",
+        "suggestions": [
+          "financièrement"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.16",
+        "text": "qu'ils",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom 'ils' reprend 'les banques alimentaires' (féminin pluriel). Il doit donc être au féminin pluriel : 'qu'elles'.",
+        "suggestions": [
+          "qu'elles"
+        ],
+        "ruleApplied": "5.3.1.4"
+      },
+      {
+        "id": "erreur5.17",
+        "text": "eux-même",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "Le pronom 'eux-même' doit s'accorder en genre et en nombre avec son donneur 'les banques alimentaires' (féminin pluriel), qui est le même que pour 'qu'elles'. Il faut donc 'elles-mêmes'.",
+        "suggestions": [
+          "elles-mêmes"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.18",
+        "text": "exploité",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après la préposition 'pour', le verbe qui suit doit être à l'infinitif. Il faut 'exploiter'.",
+        "suggestions": [
+          "exploiter"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "id": "erreur5.19",
+        "text": "potentielle",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'potentiel' s'accorde avec le nom qu'il qualifie, 'potentiel' (sous-entendu), qui est masculin singulier. Il faut donc 'potentiel'.",
+        "suggestions": [
+          "potentiel"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.20",
+        "text": "Deuxièment",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'adverbe 'deuxièmement' prend un accent grave sur le premier 'e' et se termine par '-ement'.",
+        "suggestions": [
+          "Deuxièmement"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.21",
+        "text": "asser",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'adverbe 'assez' s'écrit avec un 'z' final.",
+        "suggestions": [
+          "assez"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "id": "erreur5.22",
+        "text": "réaliser",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'réalisé', employé comme adjectif, doit s'accorder en genre et en nombre avec le nom qu'il qualifie, 'une étude' (féminin singulier). Il faut donc 'réalisée'.",
+        "suggestions": [
+          "réalisée"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "id": "erreur5.23",
+        "text": "du",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le déterminant 'du' et le participe passé 'dû' du verbe 'devoir'. Dans l'expression 'être dû à', 'dû' prend un accent circonflexe et s'accorde avec le sujet 'gaspillage' (masculin singulier).",
+        "suggestions": [
+          "dû"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "id": "erreur5.24",
+        "text": "Selon",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le mot 'selon' ne prend pas de majuscule ici, car il suit la conjonction de coordination 'Et' et n'est pas en début de phrase.",
+        "suggestions": [
+          "selon"
+        ],
+        "ruleApplied": "5.3.6.1"
+      },
+      {
+        "id": "erreur5.25",
+        "text": "corriveau",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Les noms propres de personnes, comme 'Corriveau', prennent une majuscule initiale.",
+        "suggestions": [
+          "Corriveau"
+        ],
+        "ruleApplied": "5.2.4.1.2"
+      },
+      {
+        "id": "erreur5.26",
+        "text": "raisonnable",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'raisonnable' doit s'accorder en nombre avec le nom qu'il qualifie, 'quantités' (pluriel). Il faut donc 'raisonnables'.",
+        "suggestions": [
+          "raisonnables"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.27",
+        "text": "consommateur",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'consommateur' doit être au pluriel car il est précédé du déterminant 'Les'. Il faut donc 'consommateurs'.",
+        "suggestions": [
+          "consommateurs"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.28",
+        "text": "n'arrivent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'arrivent' doit s'accorder avec son sujet 'le consommateur' (3e personne du singulier). Il faut donc 'n'arrive'.",
+        "suggestions": [
+          "n'arrive"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.29",
+        "text": "a",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le verbe 'a' (avoir) et la préposition 'à'. Il faut 'à tout consommer'.",
+        "suggestions": [
+          "à"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "id": "erreur5.30",
+        "text": "consommés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après la préposition 'à', le verbe qui suit doit être à l'infinitif. Il faut 'consommer'.",
+        "suggestions": [
+          "consommer"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "id": "erreur5.31",
+        "text": "fort",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'adjectif 'fort' et la forme verbale 'font' (verbe faire, 3e personne du pluriel). Le sujet est 'les entreprises et le gouvernement'.",
+        "suggestions": [
+          "font"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "id": "erreur5.32",
+        "text": "d'entreprise",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'entreprise' doit être au pluriel car il est complément de l'adverbe de quantité 'beaucoup', qui indique une pluralité.",
+        "suggestions": [
+          "d'entreprises"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.33",
+        "text": "se",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le pronom réfléchi 'se' et le déterminant démonstratif 'ce'. Il faut 'ce fléau'.",
+        "suggestions": [
+          "ce"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "id": "erreur5.34",
+        "text": "fournie",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'fourni', employé comme adjectif, doit s'accorder en genre et en nombre avec le groupe nominal qu'il qualifie, 'un manque d'information' (masculin singulier). Il faut donc 'fourni'.",
+        "suggestions": [
+          "fourni"
+        ],
+        "ruleApplied": "5.3.2.3"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 32,
+      "note": "E"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:56:29.777Z",
+    "endTimestamp": "2025-12-10T15:01:15.840Z",
+    "durationMs": 286063,
+    "durationFormatted": "04:46:063"
+  }
+}

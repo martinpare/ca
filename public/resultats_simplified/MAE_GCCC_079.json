@@ -1,0 +1,452 @@
+{
+  "processedAt": "2025-12-10T14:42:57.368Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_079.txt",
+    "originalText": "Un lamentable effet\r\n\r\nChers lecteurs,\r\n\r\nNous savions tous que notre alimentation contient des graisses, de sodium et du sucre. Nous connaissons les conséquences qu'il peut y arriver à notre santé comme le diabète, l'obésité... Mais notre environnement alors. Avions-nous mis la croix sur ceci? En gaspillons la nourriture, an déclenche des effets malheureux à notre planète. C'est le temps! Nous sommes capables et nous sommes prêts à lutter contre le gaspillage alimentaire. Nous avions accultés beaucoup, ce qui a engendré des crises environnementales et économiques.\r\n\r\nPremièrement, cher public, traitons de l'environnement. Nous admirons l'environnement par la couleur vertes, mais lorsqu'il devient gris comme l'orage nous le négligeons. Mais toute façon, ce sont les marques de nos pitoyables arts. Sommes-nous censées être fières de cette insalubre beauté? Selon des études, le gaspillage alimentaire désavantage beaucoup notre espace tels que augmenter la production des gaz à effet de serre, ce qui provoque des changements climatiques (RECYC-QUÉBEC, 2021). En outre, plusieurs consommateurs veulent des aliments de qualité, mais cela n'est pas facile à obtenir à cause, des conditions météorologiques qui est néfaste à la production (Cameron, 2020). En somme notre santé et notre planète en besoin de nous, soyons responsables envers nos consommation. Dépouillez le vieux chez-soi.\r\n\r\nDeuxièmement, chers lecteurs, abordons sur les crises économiques. La nourriture est une ressource essentielle à notre survie et vous le saviez-tous. Or connaissez-vous la quantité de sueur et d'argent qu'il faut pour produire et transporter des aliments? Oh, seigneur ! En tant qu'êtres humains, je suis étonner de voir ses agriculteurs produirent de telles récompenses mais malheureusement, nous le gaspillons comme s'ils sont de rien. Comme le conclut l'étude du Conseil national zéro déchet, chaque année, environ 2 millions d'aliments sont gaspillés par des familles canadiennes. Cela cause d'avantage une perte d'au moins 15 milliards de dollars (RECYC-QUÉBEC, 2021). D'autre part, plusieurs agriculteurs ne préférent pas vendre leurs aliments aux marchés parce qu'ils ne gagnent pas un profit satisfaisant. La raison de ceci est qu'ils vendent leurs productions à une prix inférieure de ce qu'ils ont investis pour les produires et les transporter (Cameron, 2020). En définitive, mettez la puce à l'oreille et comprenez qu'il s'agit d'une situation dirimante.\r\n\r\nEn guise de conclusion, lectrices et lecteurs, nous sommes prêts à lutter contre le gaspillage alimentaire. Nos comportements écologistes éviterons les crises environnementales et économiques. Même si on réagit à cet instant, il n'y aura pas une grande différence alors, quel est le point, me demanderiez-vous? Faux, il n'est jamais trop tard de commencer. Les petits ruisseaux font les grandes rivières!",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "de sodium",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Dans une énumération, la préposition « de » (ici contractée en « des ») doit être répétée devant chaque terme. Il faut écrire : « des graisses, du sodium et du sucre ».",
+        "suggestions": [
+          "du sodium"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "id": "erreur4.2",
+        "text": "qu'il peut y arriver",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction est fautive. Le pronom relatif correct est « qui », ayant pour antécédent « les conséquences ». Le pronom « y » est superflu et le verbe doit s'accorder avec l'antécédent. Il faut écrire : « les conséquences qui peuvent arriver ».",
+        "suggestions": [
+          "qui peuvent arriver"
+        ],
+        "ruleApplied": "4.1.2.3.1"
+      },
+      {
+        "id": "erreur4.3",
+        "text": "alors.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Un point ne peut terminer une phrase nominale qui a une valeur interrogative. Un point d'interrogation est requis. Il faut écrire : « Mais notre environnement, alors ? ».",
+        "suggestions": [
+          "alors ?"
+        ],
+        "ruleApplied": "4.2.2.1.2"
+      },
+      {
+        "id": "erreur4.4",
+        "text": "Mais toute façon",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression correcte est « de toute façon ». La préposition « de » est manquante.",
+        "suggestions": [
+          "De toute façon"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "id": "erreur4.5",
+        "text": "tels que augmenter",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution « tels que » doit introduire des éléments de même nature grammaticale, généralement des noms. L'infinitif « augmenter » crée une rupture de construction. Il faut reformuler, par exemple : « comme l'augmentation de la production ».",
+        "suggestions": [
+          "comme l'augmentation de"
+        ],
+        "ruleApplied": "4.1.2.1.8"
+      },
+      {
+        "id": "erreur4.6",
+        "text": "cause, des",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule ne doit pas séparer une locution prépositive (« à cause de ») de son complément. Il faut supprimer la virgule.",
+        "suggestions": [
+          "cause des"
+        ],
+        "ruleApplied": "4.2.2.10.2.h"
+      },
+      {
+        "id": "erreur4.7",
+        "text": "en besoin",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction est incorrecte. Le verbe « avoir » est manquant dans l'expression « avoir besoin de ». Il faut écrire : « notre santé et notre planète ont besoin de nous ».",
+        "suggestions": [
+          "ont besoin"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "id": "erreur4.8",
+        "text": "Dépouillez le vieux chez-soi.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le sens de cette phrase est obscur dans le contexte. Elle semble être une traduction littérale ou une expression mal employée, ce qui constitue une erreur de sens.",
+        "suggestions": [
+          "(reformulation)"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "id": "erreur4.9",
+        "text": "abordons sur",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe « aborder » est un verbe transitif direct. Il ne doit pas être suivi de la préposition « sur ». Il faut écrire : « abordons les crises ».",
+        "suggestions": [
+          "abordons"
+        ],
+        "ruleApplied": "4.1.2.2.2"
+      },
+      {
+        "id": "erreur4.10",
+        "text": "s'ils sont de rien",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression « être de rien » n'existe pas dans ce contexte. La construction est boiteuse et le sens est incorrect. Il faut reformuler, par exemple : « comme si cela ne valait rien ».",
+        "suggestions": [
+          "comme si cela ne valait rien"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "id": "erreur4.11",
+        "text": "de commencer",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction correcte de l'expression est « il est trop tard pour... ». La préposition « de » est incorrecte. Il faut écrire : « trop tard pour commencer ».",
+        "suggestions": [
+          "pour commencer"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "id": "erreur4.12",
+        "text": "l'obésité...",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Les points de suspension sont suivis d'une conjonction de coordination, ce qui crée une rupture de phrase. Un point final est requis avant 'Mais' pour former une nouvelle phrase.",
+        "suggestions": [
+          "l'obésité... ."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "id": "erreur4.13",
+        "text": "somme",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule après l'organisateur textuel 'En somme' placé en tête de phrase.",
+        "suggestions": [
+          "somme,"
+        ],
+        "ruleApplied": "4.2.2.10.1.k"
+      },
+      {
+        "id": "erreur4.14",
+        "text": "quel est le point",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression 'quel est le point' est un calque de l'anglais 'what's the point?'. En français, on utiliserait plutôt 'à quoi bon ?' ou 'quel est l'intérêt ?'.",
+        "suggestions": [
+          "à quoi bon",
+          "quel est l'intérêt"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 12,
+      "note": "C"
+    },
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "En gaspillons",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "La préposition « en » doit être suivie d'un participe présent. Il faut écrire : « En gaspillant ».",
+        "suggestions": [
+          "En gaspillant"
+        ],
+        "ruleApplied": "5.3.2.7"
+      },
+      {
+        "id": "erreur5.2",
+        "text": "an",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion entre le nom « an » et le pronom indéfini « on ». Il faut écrire : « on déclenche ».",
+        "suggestions": [
+          "on"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "id": "erreur5.3",
+        "text": "accultés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé du verbe « accumuler » est « accumulé ». Employé avec l'auxiliaire « avoir », il ne s'accorde pas avec le sujet « Nous ». Il faut écrire : « Nous avions accumulé ».",
+        "suggestions": [
+          "accumulé"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "id": "erreur5.4",
+        "text": "vertes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « vertes » doit s'accorder en genre et en nombre avec le nom qu'il qualifie, « couleur », qui est féminin singulier. Il faut écrire : « la couleur verte ».",
+        "suggestions": [
+          "verte"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.5",
+        "text": "censées",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « censées » doit s'accorder avec le sujet « nous ». En l'absence d'indication contraire et par cohérence avec « je suis étonné » plus loin, on suppose un locuteur masculin. L'accord se fait donc au masculin pluriel. Il faut écrire : « Sommes-nous censés ».",
+        "suggestions": [
+          "censés"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.6",
+        "text": "est",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe « est » doit s'accorder avec son sujet « qui », dont l'antécédent est « les conditions météorologiques » (pluriel). Il faut écrire : « qui sont ».",
+        "suggestions": [
+          "sont"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.7",
+        "text": "néfaste",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "L'adjectif « néfaste » doit s'accorder avec le nom qu'il qualifie, « conditions », qui est au féminin pluriel. Le donneur d'accord est « les conditions météorologiques ». Il faut écrire : « néfastes ».",
+        "suggestions": [
+          "néfastes"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.8",
+        "text": "nos consommation",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant possessif « nos » est pluriel, alors que le nom « consommation » est au singulier. Il faut accorder le déterminant avec le nom. Il faut écrire : « notre consommation ».",
+        "suggestions": [
+          "notre consommation"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.9",
+        "text": "saviez-tous",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'adverbe « tous » ne prend pas de trait d'union lorsqu'il est placé après le verbe. Il faut écrire : « vous le saviez tous ».",
+        "suggestions": [
+          "saviez tous"
+        ],
+        "ruleApplied": "5.2.1.7.5"
+      },
+      {
+        "id": "erreur5.10",
+        "text": "étonner",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après le verbe « être », il faut utiliser le participe passé qui s'accorde comme un adjectif. Il s'agit d'une confusion homophonique entre l'infinitif en « -er » et le participe passé en « -é ». Il faut écrire : « je suis étonné ».",
+        "suggestions": [
+          "étonné"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "id": "erreur5.11",
+        "text": "ses",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le déterminant possessif « ses » et le déterminant démonstratif « ces ». Dans ce contexte, il faut utiliser le démonstratif. Il faut écrire : « ces agriculteurs ».",
+        "suggestions": [
+          "ces"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "id": "erreur5.12",
+        "text": "produirent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après un verbe de perception (« voir »), le verbe qui suit doit être à l'infinitif. Il s'agit d'une confusion de désinence. Il faut écrire : « voir ces agriculteurs produire ».",
+        "suggestions": [
+          "produire"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "id": "erreur5.13",
+        "text": "d'avantage",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion homophonique entre la locution « d'avantage » (de avantage) et l'adverbe « davantage » (plus). Ici, c'est l'adverbe qui est requis. Il faut écrire : « Cela cause davantage ».",
+        "suggestions": [
+          "davantage"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "id": "erreur5.14",
+        "text": "préférent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'accent grave est manquant sur le deuxième « e ». Le verbe « préférer » se conjugue avec un accent grave au présent de l'indicatif à cette personne. Il faut écrire : « préfèrent ».",
+        "suggestions": [
+          "préfèrent"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.15",
+        "text": "une",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « prix » est masculin. Le déterminant doit s'accorder en genre. Il faut écrire : « un prix ».",
+        "suggestions": [
+          "un"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.16",
+        "text": "inférieure",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "L'adjectif « inférieure » doit s'accorder en genre avec le nom qu'il qualifie, « prix », qui est masculin. Le donneur d'accord est « prix ». Il faut écrire : « inférieur ».",
+        "suggestions": [
+          "inférieur"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.17",
+        "text": "investis",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « investis », employé avec l'auxiliaire « avoir », ne s'accorde pas, car le complément d'objet direct « ce que » est placé après. Il faut écrire : « ce qu'ils ont investi ».",
+        "suggestions": [
+          "investi"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "id": "erreur5.18",
+        "text": "produires",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe qui suit la préposition « pour » doit être à l'infinitif. Il s'agit d'une confusion de désinence. Il faut écrire : « pour les produire ».",
+        "suggestions": [
+          "produire"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "id": "erreur5.19",
+        "text": "éviterons",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec son sujet, « Nos comportements écologistes », qui est à la troisième personne du pluriel. Il faut écrire : « éviteront ».",
+        "suggestions": [
+          "éviteront"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.20",
+        "text": "est",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'est' doit s'accorder en nombre avec son sujet 'qui', dont l'antécédent est 'les conditions météorologiques' (féminin pluriel).",
+        "suggestions": [
+          "sont"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.21",
+        "text": "le",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom 'le' remplace le COD 'de telles récompenses'. Il doit donc s'accorder en nombre avec son antécédent et être au pluriel.",
+        "suggestions": [
+          "les"
+        ],
+        "ruleApplied": "5.3.1.4"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 19,
+      "note": "E"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:37:55.225Z",
+    "endTimestamp": "2025-12-10T14:42:57.368Z",
+    "durationMs": 302143,
+    "durationFormatted": "05:02:143"
+  }
+}

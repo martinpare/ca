@@ -1,0 +1,391 @@
+{
+  "processedAt": "2025-12-12T11:39:24.401Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_050.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_050.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "des ces",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition 'de' est requise ici, et non l'article contracté 'des' (de + les), car elle est suivie du déterminant démonstratif 'ces'. On doit écrire 'une de ces armes'.",
+        "suggestions": [
+          "de ces"
+        ],
+        "ruleApplied": "4.1.2.1.9",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur grammaticale évidente. L'article contracté 'des' ne peut pas précéder le déterminant démonstratif 'ces'. La préposition 'de' est obligatoire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": " ,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une espace superflue se trouve avant la virgule. La virgule doit être collée au mot qui la précède.",
+        "suggestions": [
+          ","
+        ],
+        "ruleApplied": "4.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur typographique évidente. Les règles de ponctuation française exigent que la virgule soit collée au mot qui la précède.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "redonner au suivant aidant, par le fait même, les gens dans le besoin",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est boiteuse et manque de clarté. Le participe présent 'aidant' est mal rattaché et l'expression 'redonner au suivant' est utilisée de manière ambiguë. Il faudrait reformuler, par exemple : '...qui permettent de faire des dons aux gens dans le besoin'.",
+        "suggestions": [
+          "de faire des dons aux gens dans le besoin",
+          "de redonner aux gens dans le besoin, aidant par le fait même"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction syntaxique déficiente. L'expression 'redonner au suivant' est une locution verbale qui ne peut pas être suivie directement d'un participe présent 'aidant' de cette manière. La phrase manque de clarté structurelle.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": ",",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule ne doit pas séparer le groupe sujet ('Son programme La Tablée des Chefs') du verbe ('a permis').",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.10.2.a",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de ponctuation claire. La règle fondamentale de la ponctuation française interdit de séparer le sujet du verbe par une virgule, sauf en cas d'incise (ce qui n'est pas le cas ici).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "besoin»",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Un point final est manquant à la fin de la référence bibliographique, après le guillemet fermant.",
+        "suggestions": [
+          "besoin»."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de ponctuation évidente. Toute phrase, y compris une référence bibliographique, doit se terminer par un point final.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "à solutions",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition 'à' est incorrecte dans ce contexte pour indiquer une caractéristique ou une solution. Il convient d'utiliser 'avec' ou de reformuler.",
+        "suggestions": [
+          "avec des solutions",
+          "qui a des solutions"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "La construction 'problème à solutions' est inhabituelle mais peut s'interpréter comme un calque du style journalistique ou comme une construction elliptique voulant dire 'un problème pour lequel il existe des solutions'. Cependant, elle n'est pas standard.",
+        "counterArgument": "La construction 'à + nom' après un nom peut parfois indiquer une caractéristique (ex. : 'une tarte à la crème', 'une boîte à outils'). Dans le titre 'un problème à solutions', l'auteur pourrait vouloir créer un effet accrocheur suggérant 'un problème qui a des solutions'. Bien que non standard, cette tournure pourrait être acceptée comme licence stylistique dans un titre."
+      },
+      {
+        "id": "erreur4.7",
+        "text": "toutes des armes pointées sur notre belle planète, tuant notre environnement",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette construction est une phrase non verbale présentée comme une phrase complète. Il manque un verbe principal pour former une phrase syntaxique correcte.",
+        "suggestions": [
+          "Ce sont toutes des armes pointées sur notre belle planète, qui tuent notre environnement."
+        ],
+        "ruleApplied": "4.1.2.1.4",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Cette construction peut être analysée comme une énumération en apposition à la phrase précédente, créant un effet rhétorique. Cependant, elle pourrait aussi être vue comme une phrase incomplète.",
+        "counterArgument": "Dans le contexte, 'La surconsommation, la pollution, l'industrie pétrolière, la déforestation, toutes des armes...' peut être interprété comme une énumération suivie d'une apposition résomptive ('toutes des armes'). Ce procédé stylistique est courant en français à l'écrit pour créer un effet d'accumulation et de dramatisation. La phrase non verbale est acceptable dans un registre expressif, particulièrement dans l'introduction d'un texte argumentatif cherchant à frapper l'imagination."
+      },
+      {
+        "id": "erreur4.8",
+        "text": "à défauts",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction 'aliments à défauts' est boiteuse. Il faut utiliser une construction plus claire comme 'ayant des défauts' ou 'avec des défauts'.",
+        "suggestions": [
+          "ayant des défauts",
+          "avec des défauts"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "La construction 'nom + à + nom' peut indiquer une caractéristique (ex. : 'veste à rayures', 'tarte à la crème'). 'Aliments à défauts' suit ce modèle, bien qu'elle soit moins courante.",
+        "counterArgument": "La préposition 'à' peut introduire une caractéristique distinctive d'un objet (ex. : 'une chemise à carreaux', 'un sac à main'). Dans 'aliments à défauts', la construction suit ce modèle et signifie 'aliments qui ont des défauts'. Bien que moins courante que 'avec des défauts', cette tournure est grammaticalement défendable et s'inscrit dans un registre courant acceptable."
+      },
+      {
+        "id": "erreur4.9",
+        "text": "peut seulement être réglé",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La restriction est mal employée. L'adverbe 'seulement' est souvent utilisé à l'oral, mais la construction correcte à l'écrit est 'ne peut être réglé que'.",
+        "suggestions": [
+          "ne peut être réglé que"
+        ],
+        "ruleApplied": "4.1.2.1.3",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Bien que 'ne... que' soit la forme restrictive classique en français standard, 'seulement' est largement accepté dans le registre courant à l'écrit, particulièrement au Québec.",
+        "counterArgument": "L'emploi de 'seulement' comme adverbe restrictif est attesté et accepté en français standard moderne, particulièrement dans le registre courant. Bien que la forme 'ne... que' soit privilégiée dans un registre soutenu, 'seulement' est reconnue par les dictionnaires et grammaires comme équivalent acceptable. L'OQLF reconnaît cet usage. Dans un texte scolaire de niveau secondaire/collégial en registre courant, cette construction est appropriée."
+      },
+      {
+        "id": "erreur4.10",
+        "text": "se faire juger",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom réfléchi est incorrect. Avec le pronom sujet 'nous', le pronom complément doit être 'nous' et non 'se'.",
+        "suggestions": [
+          "nous faire juger"
+        ],
+        "ruleApplied": "4.1.2.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur grammaticale évidente d'accord pronominal. Le pronom réfléchi doit s'accorder avec le sujet 'nous'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.11",
+        "text": "Une autre jeune entreprise, Partage & Solidarité, qui, afin de les redistribuer aux plus démunis, prépare des paniers de plats avec différents aliments non vendus.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La phrase est construite comme une subordonnée relative (introduite par 'qui') sans phrase matrice. Il faut supprimer le pronom 'qui' pour en faire une phrase principale.",
+        "suggestions": [
+          "Une autre jeune entreprise, Partage & Solidarité, prépare des paniers de plats avec différents aliments non vendus afin de les redistribuer aux plus démunis."
+        ],
+        "ruleApplied": "4.1.2.1.4",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "En relisant le texte original, 'Une autre jeune entreprise, Partage & Solidarité, qui...' constitue bien une phrase complète avec un sujet ('Une autre jeune entreprise') et un verbe principal ('prépare'). Le 'qui' introduit une relative valide.",
+        "counterArgument": "Cette phrase est grammaticalement correcte. La structure est : 'Une autre jeune entreprise [sujet] + Partage & Solidarité [apposition] + qui... prépare [verbe principal avec incise] + des paniers [complément]'. Le pronom relatif 'qui' reprend correctement le sujet 'entreprise', et 'prépare' est le verbe principal de la phrase. L'incise 'afin de les redistribuer aux plus démunis' est correctement placée entre virgules. Il s'agit d'une phrase complexe mais syntaxiquement valide."
+      },
+      {
+        "id": "erreur4.12",
+        "text": "lutter contre ce combat",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette expression relève du problème de sens. On 'mène' un combat ou on 'lutte contre' un problème, mais on ne 'lutte' pas 'contre un combat'.",
+        "suggestions": [
+          "mener ce combat",
+          "poursuivre cette lutte"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Collocation incorrecte. L'expression 'lutter contre un combat' est sémantiquement incohérente. On lutte contre un problème ou on mène un combat, mais pas les deux à la fois.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.13",
+        "text": "aux meilleures de nos capacités",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression correcte est 'au mieux de nos capacités' ou 'au maximum de nos capacités'. La construction 'aux meilleures' est une construction boiteuse.",
+        "suggestions": [
+          "au mieux de nos capacités",
+          "au maximum de nos capacités"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Calque de l'anglais 'to the best of our abilities'. L'expression figée française correcte est 'au mieux de nos capacités' ou 'de notre mieux'.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "terre",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le nom 'Terre', lorsqu'il désigne la planète par opposition à un simple sol, prend une majuscule.",
+        "suggestions": [
+          "Terre"
+        ],
+        "ruleApplied": "5.2.4.1",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Dans le contexte 'des dommages permanents sur terre', l'interprétation est ambiguë : cela peut signifier 'sur la planète' ou 'sur le sol'. La majuscule dépend de l'interprétation.",
+        "counterArgument": "Dans l'expression 'sur terre', le mot peut être interprété comme signifiant 'sur le sol' ou 'sur notre planète de manière générale' plutôt que comme désignant spécifiquement la planète Terre en tant qu'astre. De nombreux auteurs utilisent la minuscule dans ce contexte. L'usage de la majuscule est privilégié quand on parle de la Terre comme corps céleste en contexte astronomique, mais dans un sens plus général de 'monde terrestre', la minuscule est défendable."
+      },
+      {
+        "id": "erreur5.2",
+        "text": "jetage",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot 'jetage' est un néologisme qui n'est pas standard en français. Il faudrait utiliser une autre formulation comme 'le fait de jeter', 'l'élimination' ou 'le gaspillage'.",
+        "suggestions": [
+          "gaspillage",
+          "l'élimination",
+          "le fait de jeter"
+        ],
+        "ruleApplied": "5.2.6.4",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Bien que 'jetage' ne soit pas dans les dictionnaires usuels, la formation du mot suit les règles morphologiques du français (verbe 'jeter' + suffixe '-age'). Dans un contexte informel ou créatif, ce néologisme pourrait être accepté.",
+        "counterArgument": "Le mot 'jetage' est formé selon un processus de dérivation productif en français : verbe + suffixe '-age' (comme 'laver' → 'lavage', 'passer' → 'passage'). Bien qu'absent des dictionnaires standards, ce néologisme est transparent et compréhensible. Dans un texte d'élève cherchant à nominaliser l'action de jeter, cette création lexicale témoigne d'une compétence morphologique et pourrait être acceptée comme choix stylistique, particulièrement au Québec où la créativité lexicale est plus tolérée."
+      },
+      {
+        "id": "erreur5.3",
+        "text": "portées",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Dans l'expression figée 'à portée de main', le nom 'portée' est toujours au singulier.",
+        "suggestions": [
+          "portée"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord dans une locution figée. L'expression correcte est invariablement 'à portée de main' au singulier, même si le contexte évoque plusieurs solutions.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "sanité",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot 'sanité' signifie 'santé mentale'. Le contexte requiert le mot 'salubrité', qui se rapporte à l'hygiène et à la sécurité sanitaire des aliments.",
+        "suggestions": [
+          "salubrité"
+        ],
+        "ruleApplied": "5.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur lexicale claire. 'Sanité' (santé mentale/raison) est un faux-ami de 'salubrité' (hygiène, sécurité sanitaire). Le contexte (normes sur l'esthétique et l'hygiène des repas) exige 'salubrité'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "ceux-ci",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom démonstratif 'ceux-ci' est au pluriel, mais son antécédent, 'le domaine de l'hôtellerie et de la restauration', est un groupe nominal au singulier. Il faut utiliser 'celui-ci'.",
+        "suggestions": [
+          "celui-ci"
+        ],
+        "ruleApplied": "5.3.1.4",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "L'antécédent 'le domaine de l'hôtellerie et de la restauration' peut être interprété comme un collectif représentant deux secteurs distincts, justifiant un pluriel. Cependant, le singulier serait plus rigoureux.",
+        "counterArgument": "Bien que 'le domaine' soit grammaticalement singulier, il englobe ici deux secteurs ('l'hôtellerie et la restauration') coordonnés par 'et'. Le pronom 'ceux-ci' peut renvoyer par syllepse aux deux secteurs mentionnés plutôt qu'au nom collectif 'domaine'. Cette figure grammaticale, qui privilégie le sens sur la forme, est acceptée en français quand le contexte rend l'accord au pluriel plus naturel. Le texte parle ensuite des 'restants' et des 'normes', ce qui suggère une pluralité d'acteurs."
+      },
+      {
+        "id": "erreur5.6",
+        "text": "aux meilleures",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'expression correcte est 'au mieux de nos capacités'. 'Meilleures' est un adjectif au féminin pluriel utilisé à tort à la place de la locution adverbiale 'au mieux de'.",
+        "suggestions": [
+          "au mieux"
+        ],
+        "ruleApplied": "5.3.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur grammaticale et lexicale. Cette construction est un calque de l'anglais 'to the best of'. L'expression française correcte utilise l'adverbe 'mieux' et non l'adjectif 'meilleures'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "chefs",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "La dénomination 'La Tablée des Chefs', mentionnée précédemment dans le texte, doit conserver sa majuscule au mot 'Chefs' pour des raisons de cohérence.",
+        "suggestions": [
+          "Chefs"
+        ],
+        "ruleApplied": "5.2.4.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de cohérence dans l'usage d'un nom propre. L'organisme 'La Tablée des Chefs' s'écrit officiellement avec majuscule à 'Chefs'. Il faut respecter la graphie officielle.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "éclatante",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'éclatant' qualifie ici l'adjectif de couleur 'rouge' et non le nom 'pomme'. Il doit donc rester au masculin singulier.",
+        "suggestions": [
+          "éclatant"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord de l'adjectif. Dans 'rouge éclatante', l'adjectif 'éclatant' modifie l'adjectif de couleur 'rouge' et doit donc rester invariable au masculin singulier.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "nourritures",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'nourriture' est généralement employé au singulier dans ce contexte. L'accord du complément du nom est incorrect.",
+        "suggestions": [
+          "nourriture"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Bien que 'nourriture' soit généralement non comptable et utilisé au singulier, le pluriel 'nourritures' existe et peut désigner différents types d'aliments ou de plats. Le contexte peut justifier les deux.",
+        "counterArgument": "Le nom 'nourriture' peut s'employer au pluriel pour désigner des types variés d'aliments ou de mets, particulièrement dans un contexte où l'on évoque une diversité de plats jetés. Le Petit Robert et le TLFi attestent cet usage au pluriel. Dans 'des records de nourritures jetées', le pluriel peut suggérer la variété des aliments gaspillés. Bien que le singulier soit plus fréquent dans un sens collectif, le pluriel n'est pas fautif."
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 8,
+      "note": "C"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 5,
+      "note": "B"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 22,
+      "vraisErreurs": 13,
+      "discutables": 8,
+      "fauxPositifs": 1
+    }
+  },
+  "startTimestamp": "2025-12-12T11:37:46.623Z",
+  "endTimestamp": "2025-12-12T11:39:24.401Z",
+  "durationMs": 97778,
+  "durationFormatted": "01:37:778"
+}

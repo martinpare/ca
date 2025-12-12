@@ -1,0 +1,694 @@
+{
+  "processedAt": "2025-12-12T11:46:18.083Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_139.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_139.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "Il y en a",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom \"en\" est superflu dans la construction impersonnelle \"il y a\".",
+        "suggestions": [
+          "Il y a"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction non standard en français. Le pronom \"en\" n'a aucun antécédent à reprendre ici et alourdit la construction impersonnelle.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "qu'il vient",
+        "occurenceIndex": 24,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom relatif sujet pour un antécédent non humain (\"aliments\") est \"qui\" et non \"qu'il\". De plus, le verbe doit s'accorder avec son antécédent \"aliments\" (masculin pluriel).",
+        "suggestions": [
+          "qui viennent"
+        ],
+        "ruleApplied": "4.1.2.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur grammaticale évidente. Confusion entre le pronom relatif \"qui\" et la forme \"qu'il\" qui introduit une subordonnée complétive.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "qu'il gaspille",
+        "occurenceIndex": 96,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom relatif sujet est \"qui\" et non \"qu'il\". De plus, le verbe doit s'accorder avec son antécédent \"gens\" (masculin pluriel).",
+        "suggestions": [
+          "qui gaspillent"
+        ],
+        "ruleApplied": "4.1.2.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur grammaticale évidente. Confusion répétée entre le pronom relatif \"qui\" et la forme \"qu'il\".",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "ont doit",
+        "occurenceIndex": 170,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction est boiteuse. Le verbe \"devoir\" doit être conjugué à la troisième personne du pluriel pour s'accorder avec le sujet \"ils\".",
+        "suggestions": [
+          "doivent"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion homophonique entre l'auxiliaire \"ont\" et le verbe \"on\" suivi de \"doit\". La correction \"ils doivent\" s'impose.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "faire des solutions",
+        "occurenceIndex": 380,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression \"faire des solutions\" est un calque qui crée un problème de sens. On \"trouve\" ou on \"met en place\" des solutions.",
+        "suggestions": [
+          "trouver des solutions",
+          "mettre en place des solutions"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Calque de l'anglais ou expression non idiomatique. Les verbes appropriés avec \"solutions\" sont \"trouver\", \"proposer\", \"mettre en place\", etc.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "il y en a",
+        "occurenceIndex": 433,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom \"en\" est superflu dans la construction impersonnelle \"il y a\".",
+        "suggestions": [
+          "il y a"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de la même erreur que erreur4.1. Construction non standard.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "font convaincre à",
+        "occurenceIndex": 107,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction du verbe est erronée. Le verbe \"convaincre\" est transitif direct, et la construction \"faire + infinitif\" ne prend pas la préposition \"à\" ici.",
+        "suggestions": [
+          "convainquent"
+        ],
+        "ruleApplied": "4.1.2.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction factitive erronée. La phrase entière est mal structurée : les magasins ne \"font convaincre\" pas les gens, ils les convainquent directement.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "des épiceries",
+        "occurenceIndex": 172,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Problème de sens. Le mot \"épiceries\" désigne les magasins. L'auteur veut probablement parler des produits vendus en épicerie.",
+        "suggestions": [
+          "des produits d'épicerie",
+          "des aliments"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Impropriété lexicale. On achète des produits d'épicerie, pas des épiceries (qui sont des commerces).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "qu'il",
+        "occurenceIndex": 194,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Le pronom \"il\" (singulier) ne reprend pas correctement son antécédent \"des épiceries\" (pluriel).",
+        "suggestions": [
+          "ils"
+        ],
+        "ruleApplied": "4.1.2.3.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du pronom de reprise. Même si l'antécédent devrait être corrigé (erreur4.8), le pronom doit s'accorder.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.10",
+        "text": "des vont acheter",
+        "occurenceIndex": 220,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence d'un sujet clair. Le déterminant indéfini \"des\" ne peut pas être le sujet du verbe.",
+        "suggestions": [
+          "certains vont acheter",
+          "des gens vont acheter"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Phrase agrammaticale. Le déterminant \"des\" ne peut servir de pronom sujet seul. Il manque le nom ou un pronom indéfini.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.11",
+        "text": ", et",
+        "occurenceIndex": 298,
+        "criteria": 4,
+        "type": "P",
+        "description": "La virgule est erronée devant la conjonction \"et\" dans une énumération simple.",
+        "suggestions": [
+          "et"
+        ],
+        "ruleApplied": "4.2.2.10.2.k",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "La virgule avant \"et\" dans une énumération courte est généralement évitée, mais elle n'est pas toujours fautive, surtout si l'auteur veut marquer une pause ou insister sur le dernier élément.",
+        "counterArgument": "La virgule avant \"et\" dans une énumération n'est pas systématiquement une erreur. Bien qu'on l'évite généralement dans les énumérations courtes, certains auteurs l'emploient pour des raisons stylistiques (virgule sérielle ou virgule d'Oxford). Cependant, dans ce contexte scolaire québécois, l'usage standard préfère son absence."
+      },
+      {
+        "id": "erreur4.12",
+        "text": "il y en a",
+        "occurenceIndex": 353,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom \"en\" est superflu dans la construction impersonnelle \"il y a\".",
+        "suggestions": [
+          "il y a"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de la même erreur. Construction non standard.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.13",
+        "text": "qu'ils donnent",
+        "occurenceIndex": 385,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Le pronom relatif sujet est \"qui\" et non \"qu'ils\".",
+        "suggestions": [
+          "qui donnent"
+        ],
+        "ruleApplied": "4.1.2.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de la confusion entre pronom relatif \"qui\" et forme \"qu'ils\".",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.14",
+        "text": "(Corriveau, 2020).",
+        "occurenceIndex": 581,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point final doit être placé après la parenthèse fermante lorsque la référence s'applique à toute la phrase.",
+        "suggestions": [
+          "(Corriveau, 2020)."
+        ],
+        "ruleApplied": "4.2.2.1.2",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Le point est déjà correctement placé après la parenthèse fermante. Il n'y a pas d'erreur ici.",
+        "counterArgument": "En relisant le texte original, on constate que le point est effectivement placé après la parenthèse : \"(Corriveau, 2020).\". La ponctuation est donc correcte selon la règle typographique standard. Cette détection est un faux positif."
+      },
+      {
+        "id": "erreur4.15",
+        "text": "Il avait",
+        "occurenceIndex": 617,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence du mot essentiel \"y\" dans la construction impersonnelle \"il y avait\".",
+        "suggestions": [
+          "Il y avait"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Omission d'un élément obligatoire dans la locution impersonnelle. \"Il avait\" seul est incorrect pour exprimer l'existence.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.16",
+        "text": "qu'il s'appelait",
+        "occurenceIndex": 636,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Le pronom relatif sujet est \"qui\" et non \"qu'il\".",
+        "suggestions": [
+          "qui s'appelait"
+        ],
+        "ruleApplied": "4.1.2.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de la confusion entre pronom relatif et forme complétive.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.17",
+        "text": "qu'ils ont",
+        "occurenceIndex": 692,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Le pronom relatif sujet est \"qui\" et non \"qu'ils\".",
+        "suggestions": [
+          "qui ont"
+        ],
+        "ruleApplied": "4.1.2.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de l'erreur systématique sur les pronoms relatifs.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.18",
+        "text": "(Corriveau, 2020).",
+        "occurenceIndex": 1111,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point final doit être placé après la parenthèse fermante lorsque la référence s'applique à toute la phrase.",
+        "suggestions": [
+          "(Corriveau, 2020)."
+        ],
+        "ruleApplied": "4.2.2.1.2",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Même situation que erreur4.14. Le point est déjà correctement placé.",
+        "counterArgument": "Le point est correctement placé après la parenthèse fermante. Cette détection est un faux positif identique à erreur4.14."
+      },
+      {
+        "id": "erreur4.19",
+        "text": "qu'ils donnent",
+        "occurenceIndex": 1176,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom relatif sujet est \"qui\" et non \"qu'ils\".",
+        "suggestions": [
+          "qui donnent"
+        ],
+        "ruleApplied": "4.1.2.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de l'erreur sur les pronoms relatifs.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.20",
+        "text": "qu'ils sont",
+        "occurenceIndex": 1200,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Le pronom relatif sujet est \"qui\" et non \"qu'ils\".",
+        "suggestions": [
+          "qui sont"
+        ],
+        "ruleApplied": "4.1.2.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de l'erreur systématique.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.21",
+        "text": "qu'il",
+        "occurenceIndex": 1228,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Le pronom \"il\" (singulier) ne reprend pas correctement son antécédent \"gens\" (pluriel).",
+        "suggestions": [
+          "ils"
+        ],
+        "ruleApplied": "4.1.2.3.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en nombre du pronom de reprise. De plus, le pronom relatif devrait être \"qui\" et non \"qu'il\".",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.22",
+        "text": "prolonger les aliments",
+        "occurenceIndex": 65,
+        "criteria": 4,
+        "type": "S",
+        "description": "Problème de sens. On ne prolonge pas les aliments eux-mêmes, mais leur durée de conservation ou leur fraîcheur.",
+        "suggestions": [
+          "prolonger la durée de conservation des aliments"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Impropriété sémantique. Le verbe \"prolonger\" ne peut s'appliquer directement aux aliments, mais à leur conservation.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.23",
+        "text": "pour qu'ils puissent manger",
+        "occurenceIndex": 94,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Problème de sens. Les aliments ne mangent pas. La phrase devrait indiquer qui mange les aliments.",
+        "suggestions": [
+          "pour qu'on puisse les manger",
+          "pour pouvoir les manger"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Incohérence sémantique évidente. Le pronom \"ils\" reprend incorrectement \"aliments\" alors que ce sont les personnes qui mangent.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.24",
+        "text": "comme de mettre",
+        "occurenceIndex": 122,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "La construction est boiteuse. Pour indiquer le moyen, on utilise généralement \"en + participe présent\".",
+        "suggestions": [
+          "en mettant"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "La construction \"comme\" + infinitif existe en français pour introduire un exemple, bien qu'elle soit moins élégante que \"en + participe présent\".",
+        "counterArgument": "La construction \"comme\" suivie d'un infinitif pour donner un exemple est attestée en français, bien que \"comme\" suivi du participe présent soit plus courant. Cependant, l'expression complète \"prolonger les aliments pour qu'ils puissent manger comme de mettre...\" est maladroite dans son ensemble. La construction \"comme\" + infinitif peut être acceptable dans certains contextes, mais ici elle contribue à l'effet de syntaxe boiteuse."
+      },
+      {
+        "id": "erreur4.25",
+        "text": "ont aussi aller",
+        "occurenceIndex": 188,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de mode ou de temps. Après l'auxiliaire \"avoir\", il faut un participe passé (\"sont allées\"), mais le sens suggère plutôt l'emploi d'un verbe modal comme \"pouvoir\".",
+        "suggestions": [
+          "peuvent aussi aller"
+        ],
+        "ruleApplied": "4.1.2.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction agrammaticale. Confusion entre l'auxiliaire \"ont\" et le verbe modal \"peuvent\", ou erreur dans la forme verbale.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.26",
+        "text": "(RECYC-QUÉBEC, 2021).",
+        "occurenceIndex": 432,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point final doit être placé après la parenthèse fermante lorsque la référence s'applique à toute la phrase.",
+        "suggestions": [
+          "(RECYC-QUÉBEC, 2021)."
+        ],
+        "ruleApplied": "4.2.2.1.2",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Le point est déjà correctement placé après la parenthèse fermante.",
+        "counterArgument": "Comme pour les erreurs 4.14 et 4.18, le point est déjà correctement positionné après la parenthèse fermante. Il s'agit d'un faux positif."
+      },
+      {
+        "id": "erreur4.27",
+        "text": "permettre à des gens de ne pas gaspiller",
+        "occurenceIndex": 18,
+        "criteria": 4,
+        "type": "S",
+        "description": "Problème de sens. Le verbe \"permettre\" n'est pas approprié dans ce contexte. On \"aide\" ou on \"incite\" les gens à ne pas gaspiller.",
+        "suggestions": [
+          "aider les gens à ne pas gaspiller",
+          "inciter les gens à ne pas gaspiller"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Le verbe \"permettre\" peut être acceptable dans le sens de \"rendre possible\", bien que \"aider\" ou \"inciter\" soient plus idiomatiques.",
+        "counterArgument": "Le verbe \"permettre\" signifie \"rendre possible\" et peut être utilisé dans ce contexte : on peut \"permettre aux gens de ne pas gaspiller\" en leur donnant les moyens, les outils ou les connaissances nécessaires. Bien que \"aider\" ou \"inciter\" soient des choix plus courants et plus précis, \"permettre\" n'est pas grammaticalement incorrect. C'est un choix lexical moins idiomatique, mais défendable."
+      },
+      {
+        "id": "erreur4.28",
+        "text": "qu'il",
+        "occurenceIndex": 115,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Le pronom \"il\" (singulier) ne reprend pas correctement son antécédent \"aliments\" (pluriel).",
+        "suggestions": [
+          "ils"
+        ],
+        "ruleApplied": "4.1.2.3.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en nombre. Le pronom doit être au pluriel pour reprendre \"aliments\". De plus, \"qu'il\" devrait être \"qui\".",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.29",
+        "text": "qu'il",
+        "occurenceIndex": 231,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Le pronom \"il\" (singulier) ne reprend pas correctement son antécédent \"des gens\" (pluriel).",
+        "suggestions": [
+          "ils"
+        ],
+        "ruleApplied": "4.1.2.3.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en nombre. Le pronom doit être au pluriel. De plus, \"qu'il\" devrait être \"qui\".",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "soit",
+        "occurenceIndex": 199,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder en nombre avec son sujet \"il\" (qui devrait être \"ils\", reprenant \"des épiceries\").",
+        "suggestions": [
+          "soient"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du verbe avec son sujet. Même si le pronom est incorrect (devrait être \"ils\"), le verbe doit s'accorder avec le pronom utilisé.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "expiré",
+        "occurenceIndex": 208,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'attribut du sujet doit s'accorder en genre et en nombre avec le sujet. Le donneur d'accord est \"il\" (qui devrait être \"ils\", reprenant \"des épiceries\").",
+        "suggestions": [
+          "expirés"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord de l'attribut avec le sujet pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "de fois",
+        "occurenceIndex": 309,
+        "criteria": 5,
+        "type": "U",
+        "description": "Barbarisme orthographique. La locution adverbiale est \"des fois\" ou, dans un registre plus soutenu, \"parfois\".",
+        "suggestions": [
+          "parfois",
+          "des fois"
+        ],
+        "ruleApplied": "5.2.6.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur lexicale évidente. La forme \"de fois\" n'existe pas. Les formes correctes sont \"parfois\" ou \"des fois\".",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "partage",
+        "occurenceIndex": 458,
+        "criteria": 5,
+        "type": "U",
+        "description": "Une majuscule est requise au premier mot d'une dénomination ou d'un nom propre.",
+        "suggestions": [
+          "Partage"
+        ],
+        "ruleApplied": "5.2.4.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de majuscule dans un nom propre d'organisme. Les noms d'organismes prennent une majuscule au premier mot.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "jeunes",
+        "occurenceIndex": 609,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'attribut du sujet doit s'accorder en genre et en nombre avec le sujet \"j'\" (ici, singulier).",
+        "suggestions": [
+          "jeune"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord de l'attribut. Le sujet \"je\" est au singulier, donc l'attribut doit être \"jeune\" au singulier.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "gentils",
+        "occurenceIndex": 754,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'attribut du sujet doit s'accorder avec le sujet \"c'\" (pronom démonstratif neutre singulier).",
+        "suggestions": [
+          "gentil"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord de l'attribut avec le pronom démonstratif singulier \"c'\".",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "Centre",
+        "occurenceIndex": 1162,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom doit s'accorder en nombre avec son déterminant \"les\" (pluriel).",
+        "suggestions": [
+          "Centres"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en nombre. Le déterminant \"les\" impose le pluriel au nom.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "peut",
+        "occurenceIndex": 1234,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder en nombre avec son sujet \"il\" (qui devrait être \"ils\", reprenant \"gens\").",
+        "suggestions": [
+          "peuvent"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du verbe avec son sujet pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "soit",
+        "occurenceIndex": 120,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder en nombre avec son sujet \"il\" (qui devrait être \"ils\", reprenant \"aliments\").",
+        "suggestions": [
+          "soient"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du verbe au subjonctif avec son sujet pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.10",
+        "text": "périmer",
+        "occurenceIndex": 128,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion de désinence homophone. Après le verbe \"être\", il faut un participe passé qui s'accorde avec le sujet. Le donneur d'accord est \"il\" (qui devrait être \"ils\", reprenant \"aliments\").",
+        "suggestions": [
+          "périmés"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion entre l'infinitif et le participe passé. Après \"ne soit pas\", il faut le participe passé \"périmé(s)\".",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.11",
+        "text": "peut",
+        "occurenceIndex": 161,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder en nombre avec son sujet \"qui\", dont l'antécédent est \"des centres\" (pluriel).",
+        "suggestions": [
+          "peuvent"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du verbe avec le pronom relatif \"qui\" dont l'antécédent est pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.12",
+        "text": "peut",
+        "occurenceIndex": 237,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder en nombre avec son sujet \"il\" (qui devrait être \"ils\", reprenant \"des gens\").",
+        "suggestions": [
+          "peuvent"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du verbe avec son sujet pluriel.",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 24,
+      "note": "E"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 12,
+      "note": "E"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 41,
+      "vraisErreurs": 36,
+      "discutables": 3,
+      "fauxPositifs": 3
+    }
+  },
+  "startTimestamp": "2025-12-12T11:44:28.159Z",
+  "endTimestamp": "2025-12-12T11:46:18.082Z",
+  "durationMs": 109923,
+  "durationFormatted": "01:49:923"
+}

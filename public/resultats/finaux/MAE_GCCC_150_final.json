@@ -1,0 +1,336 @@
+{
+  "processedAt": "2025-12-12T11:46:08.896Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_150.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_150.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "son",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom possessif 'son' (3e personne du singulier) ne peut pas référer au pronom sujet 'je' (1re personne du singulier). Il faut utiliser le pronom possessif de la 1re personne.",
+        "suggestions": [
+          "mon"
+        ],
+        "ruleApplied": "4.1.2.3.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de cohérence pronominale claire. Le possessif doit s'accorder avec la personne du locuteur ('je' = 1re personne).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "n'apparait",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La négation 'n'' contredit le sens général du texte, qui vise à démontrer que nous sommes prêts à lutter. Il faut la supprimer. De plus, le verbe 'apparaître' prend un accent circonflexe sur le 'i'.",
+        "suggestions": [
+          "apparaît"
+        ],
+        "ruleApplied": "4.1.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "La négation crée une contradiction logique avec l'argumentation du texte. L'auteur veut affirmer que nous sommes équipés, pas le contraire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "\"Gaspillage alimentaire\"",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Les guillemets anglais (\") doivent être remplacés par des guillemets français (« ») pour encadrer un titre d'article.",
+        "suggestions": [
+          "« Gaspillage alimentaire »"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Norme typographique française claire : les guillemets français sont obligatoires en français, surtout dans un contexte scolaire formel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "fait",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution conjonctive 'il faut que' exige l'emploi du subjonctif. Le verbe 'faire' doit être conjugué au subjonctif présent.",
+        "suggestions": [
+          "fasse"
+        ],
+        "ruleApplied": "4.1.2.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle grammaticale stricte : 'il faut que' est toujours suivi du subjonctif. Erreur de conjugaison évidente.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "et par",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Dans une énumération introduite par la préposition 'par', il faut soit répéter la préposition devant chaque élément ('par..., par... et par...'), soit ne la mentionner que devant le premier ('par..., ... et...'). La construction mixte est incorrecte.",
+        "suggestions": [
+          "et"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Rupture de parallélisme dans l'énumération. Les trois éléments doivent avoir la même structure syntaxique pour respecter la cohérence.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "(1)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Cet indicateur de note de bas de page est superflu car il ne renvoie à aucune note. Il doit être supprimé.",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.9.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Appel de note orphelin sans référence correspondante. Élément superflu qui nuit à la clarté.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "(Martinez, 2021). »",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "La référence de la source doit être placée après le guillemet fermant, et non à l'intérieur de la citation. De plus, le point final de la phrase se place après la parenthèse.",
+        "suggestions": [
+          "» (Martinez, 2021)."
+        ],
+        "ruleApplied": "4.2.2.5.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Norme de citation claire : la référence bibliographique se place après le guillemet fermant. Convention académique stricte.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "mai que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule est nécessaire pour isoler le long complément 'publié dans le Métro, le 13 mai' du reste de la phrase.",
+        "suggestions": [
+          "mai, que"
+        ],
+        "ruleApplied": "4.2.2.10.1.b",
+        "verdict": "ERREUR",
+        "confidence": "MEDIUM",
+        "confidenceReason": "La longueur du complément circonstanciel justifie l'ajout d'une virgule pour faciliter la lecture, bien que certains grammairiens pourraient la juger facultative.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "Que c'est",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La forme exclamative 'Que c'est...' est un calque de l'oral. Dans un registre de langue soutenu, il est préférable d'utiliser 'Comme c'est...' ou 'Combien c'est...'.",
+        "suggestions": [
+          "Comme c'est"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Construction exclamative orale mais répandue à l'écrit informel. Dans un texte argumentatif au ton passionné, elle peut être acceptable.",
+        "counterArgument": "Bien que 'Que c'est' soit considéré comme plus oral, cette construction exclamative est attestée à l'écrit dans un registre expressif. Le Petit Robert la reconnaît comme forme exclamative familière mais correcte. Dans un texte argumentatif cherchant à convaincre avec émotion, ce choix stylistique n'est pas fautif, bien que 'Comme c'est' soit plus élégant."
+      },
+      {
+        "id": "erreur4.10",
+        "text": "termineront",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'emploi du futur simple ('termineront') est trop catégorique dans ce contexte hypothétique. Le conditionnel présent ('termineraient') serait plus approprié pour exprimer une conséquence potentielle.",
+        "suggestions": [
+          "termineraient"
+        ],
+        "ruleApplied": "4.1.2.2.3",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Le futur simple peut exprimer une conséquence certaine ou une prédiction. Le conditionnel marquerait mieux l'hypothèse, mais le futur n'est pas grammaticalement incorrect.",
+        "counterArgument": "Le futur simple peut être utilisé pour exprimer une conséquence jugée inévitable ou une prédiction que l'auteur présente comme certaine. Dans le contexte de la phrase finale ('Il reste à voir si l'humain pourra sauver le monde des phénomènes dangereux qui termineront par nous engloutir'), l'auteur présente cette conséquence comme une certitude advenant l'inaction. Le conditionnel ('termineraient') serait plus nuancé, mais le futur est défendable stylistiquement comme effet rhétorique alarmiste."
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "gazs",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot 'gaz' est invariable et s'écrit de la même façon au singulier et au pluriel.",
+        "suggestions": [
+          "gaz"
+        ],
+        "ruleApplied": "5.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe d'usage évidente. Le mot 'gaz' est invariable, règle bien établie.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "met",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'mettre' doit s'accorder en nombre avec son sujet 'les conséquences du gaspillage alimentaire' (3e personne du pluriel).",
+        "suggestions": [
+          "mettent"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord sujet-verbe claire. Le sujet 'les conséquences' (pluriel) exige 'mettent'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "quelques temps",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Dans la locution 'depuis quelque temps', qui signifie 'depuis un certain temps', l'adjectif indéfini 'quelque' reste au singulier.",
+        "suggestions": [
+          "quelque temps"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Locution figée avec orthographe fixe. 'Quelque temps' au singulier est la seule forme correcte.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "reste",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'reste' doit être au pluriel, car il est sous-entendu qu'il y a plusieurs restes alimentaires.",
+        "suggestions": [
+          "restes"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "En relisant le texte, on trouve 'reste alimentaire' au singulier dans le contexte 'transformation de reste alimentaire', ce qui peut être interprété comme un collectif singulier.",
+        "counterArgument": "Dans la phrase 'la transformation de reste alimentaire', le singulier peut être défendu comme un nom collectif désignant l'ensemble des restes en tant que catégorie. Bien que le pluriel 'restes' soit plus usuel et recommandé, le singulier avec valeur collective n'est pas fautif. De plus, 'restants' (québécisme reconnu par l'OQLF) est acceptable au Québec pour désigner les restes alimentaires."
+      },
+      {
+        "id": "erreur5.5",
+        "text": "denrée",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'denrée' doit être au pluriel, car il est sous-entendu qu'il y a plusieurs denrées alimentaires.",
+        "suggestions": [
+          "denrées"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le contexte de redistribution implique nécessairement plusieurs denrées. Le pluriel est requis.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "québecoise",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'adjectif 'québécois' prend un accent aigu sur le premier 'e'.",
+        "suggestions": [
+          "québécoise"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. L'accent aigu est obligatoire sur 'québécois'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "protège",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'protéger' doit s'accorder en nombre avec son sujet 'qui', pronom relatif qui reprend 'des solutions' (3e personne du pluriel).",
+        "suggestions": [
+          "protègent"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord avec le pronom relatif. 'Qui' reprend 'solutions' (pluriel), donc le verbe doit être au pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "communautaire",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'communautaire' doit s'accorder en nombre avec le nom 'organisations' qu'il qualifie.",
+        "suggestions": [
+          "communautaires"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord adjectif-nom évidente. 'Organisations' (pluriel) exige 'communautaires'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "crée",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre la forme conjuguée 'crée' (présent de l'indicatif) et le participe passé 'créé'. Avec l'auxiliaire 'avoir', il faut utiliser le participe passé.",
+        "suggestions": [
+          "créé"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion de temps verbal claire. Le contexte passé ('a crée' → 'a créé') exige le participe passé avec l'auxiliaire 'avoir'.",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 9,
+      "note": "C"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 8,
+      "note": "B"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 19,
+      "vraisErreurs": 16,
+      "discutables": 2,
+      "fauxPositifs": 1
+    }
+  },
+  "startTimestamp": "2025-12-12T11:45:12.463Z",
+  "endTimestamp": "2025-12-12T11:46:08.896Z",
+  "durationMs": 56433,
+  "durationFormatted": "00:56:433"
+}

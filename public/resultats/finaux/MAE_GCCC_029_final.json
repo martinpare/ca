@@ -1,0 +1,720 @@
+{
+  "processedAt": "2025-12-12T11:38:25.109Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_029.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_029.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "à",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Préposition erronée. La préposition \"à\" est incorrecte dans ce contexte pour introduire un but. Il convient d'utiliser \"pour\" ou \"afin de\".",
+        "suggestions": [
+          "pour"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "La préposition 'à' ne peut pas introduire un infinitif exprimant le but après un nom. La règle est claire : 'des solutions pour moins gaspiller' est la seule construction correcte.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "comment est-ce que peut-on",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Ordre des mots incorrect / construction boiteuse. La structure interrogative est redondante et mal formée. Il faut choisir entre l'inversion du sujet (\"comment peut-on\") ou l'utilisation de \"est-ce que\" (\"comment est-ce qu'on peut\"), mais pas les deux.",
+        "suggestions": [
+          "comment peut-on"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "La structure mélange deux formes interrogatives incompatibles : 'est-ce que' avec l'inversion sujet-verbe. C'est une erreur de syntaxe claire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "Déjà il",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Virgule manquante. Une virgule est requise après un adverbe ou un organisateur textuel placé en tête de phrase.",
+        "suggestions": [
+          "Déjà, il"
+        ],
+        "ruleApplied": "4.2.2.10.1.k",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "La virgule est recommandée après un adverbe court en tête de phrase, mais elle n'est pas toujours obligatoire, surtout avec des adverbes courts comme 'déjà' qui sont étroitement liés au verbe.",
+        "counterArgument": "Bien que la virgule soit généralement recommandée après un adverbe en début de phrase, elle n'est pas systématiquement obligatoire avec des adverbes courts comme 'déjà'. La phrase reste claire et compréhensible sans virgule."
+      },
+      {
+        "id": "erreur4.4",
+        "text": "pourra",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Mode/temps erroné (concordance). Dans une phrase hypothétique, la structure \"si + imparfait\" (\"si on voulait\") doit être suivie du conditionnel présent (\"pourrait\"), et non du futur simple (\"pourra\").",
+        "suggestions": [
+          "pourrait"
+        ],
+        "ruleApplied": "4.1.2.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle stricte de concordance des temps dans le système hypothétique : si + imparfait → conditionnel présent. L'emploi du futur simple est incorrect.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "aurait",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Mode/temps erroné (concordance). Dans une phrase hypothétique, la structure \"si + présent\" (\"si les gens savent\") doit être suivie du futur simple (\"aura\") ou du présent, et non du conditionnel présent (\"aurait\").",
+        "suggestions": [
+          "aura"
+        ],
+        "ruleApplied": "4.1.2.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle stricte de concordance : si + présent → futur ou présent. Le conditionnel présent 'aurait' est incorrect avec une subordonnée au présent.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "on ne pas consommer",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence d'un mot essentiel. Le verbe modal \"peut\" est manquant dans la structure de la négation.",
+        "suggestions": [
+          "on ne peut pas consommer"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Omission d'un verbe modal essentiel qui rend la phrase agrammaticale. L'erreur est évidente.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "réutilisant",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Erreur de syntaxe (coordination). Un verbe à l'impératif (\"réutilisons\") est attendu pour être coordonné correctement avec le premier impératif \"éduquons-nous\", et non un participe présent. Une erreur de syntaxe a déjà été comptée dans cette phrase.",
+        "suggestions": [
+          "réutilisons"
+        ],
+        "ruleApplied": "4.1.2.1.8",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Rupture de parallélisme syntaxique claire : un impératif ne peut pas être coordonné avec un participe présent. La phrase mélange deux modes verbaux incompatibles.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "Non seulement si on apprend à moins gaspiller aussi comment réutiliser ou transformer le résidu des aliments, on pourra tous éviter le gaspillage alimentaire.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La structure de la phrase est boiteuse. La corrélation 'non seulement... mais aussi...' est mal employée et la phrase est mal construite. Il faut la reformuler, par exemple : 'Si l'on apprend non seulement à moins gaspiller, mais aussi à réutiliser...'",
+        "suggestions": [
+          "Si l'on apprend non seulement à moins gaspiller, mais aussi comment réutiliser ou transformer les résidus des aliments, on pourra tous éviter le gaspillage alimentaire."
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "La structure corrélative 'non seulement... mais aussi' est complètement déstructurée. La phrase mélange 'si' avec 'non seulement' et place 'aussi' incorrectement. C'est une construction agrammaticale.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "comment.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Un point est utilisé à tort pour conclure une phrase qui n'est pas terminée. Une explication suit, un deux-points serait plus approprié.",
+        "suggestions": [
+          "comment :"
+        ],
+        "ruleApplied": "4.2.2.1.2",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Le point peut marquer un effet rhétorique de pause. Le deux-points est plus conventionnel, mais le point n'est pas nécessairement fautif si l'auteur recherche un effet d'insistance.",
+        "counterArgument": "Le point peut être considéré comme un choix stylistique créant une pause emphatique avant l'explication. Dans un texte argumentatif cherchant à interpeller le lecteur, cette pause peut être délibérée pour créer un effet d'attente."
+      },
+      {
+        "id": "erreur4.10",
+        "text": "Comme site Florence-Léa Siry «",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule pour isoler l'incise 'Comme cite Florence-Léa Siry' qui introduit la citation.",
+        "suggestions": [
+          "Comme cite Florence-Léa Siry,"
+        ],
+        "ruleApplied": "4.2.2.10.1.f",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Les formules introductives de citation doivent être suivies d'une virgule selon les conventions typographiques. C'est une règle stricte de ponctuation.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.11",
+        "text": "Selon Roy «",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule après le complément de phrase 'Selon Roy' qui introduit la citation.",
+        "suggestions": [
+          "Selon Roy,"
+        ],
+        "ruleApplied": "4.2.2.10.1.f",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Les formules introductives de citation doivent être suivies d'une virgule. Règle de ponctuation claire et systématique.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.12",
+        "text": "savent",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de concordance des temps. Dans une phrase hypothétique introduite par 'si', le verbe de la subordonnée doit être à l'imparfait lorsque le verbe de la principale est au conditionnel ('on aurait').",
+        "suggestions": [
+          "savaient"
+        ],
+        "ruleApplied": "4.1.2.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle stricte de concordance dans le système hypothétique : si + imparfait → conditionnel présent. Le présent 'savent' est incompatible avec 'aurait'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.13",
+        "text": "alcool,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "La virgule est superflue avant la parenthèse qui contient la référence de la source.",
+        "suggestions": [
+          "alcool"
+        ],
+        "ruleApplied": "4.2.2.10.2.h",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Convention typographique claire : pas de virgule avant une parenthèse contenant une référence bibliographique.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.14",
+        "text": "quelque choses autres",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction est incorrecte. La locution est 'quelque chose d'autre'. 'Quelque chose' est invariable et masculin singulier.",
+        "suggestions": [
+          "quelque chose d'autre"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "La locution figée 'quelque chose d'autre' ne peut pas être modifiée. La construction proposée est agrammaticale.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "importante",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord de l'adjectif. L'adjectif \"importante\" doit s'accorder en genre et en nombre avec le pronom indéfini \"quelque chose\", qui est masculin singulier.",
+        "suggestions": [
+          "important"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle d'accord stricte : 'quelque chose' est toujours masculin singulier. L'erreur d'accord au féminin est indiscutable.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "site",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion d'homophones grammaticaux. Le nom \"site\" est utilisé à la place du verbe \"citer\" à la troisième personne du singulier de l'indicatif présent (\"cite\").",
+        "suggestions": [
+          "cite"
+        ],
+        "ruleApplied": "5.3.3.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion évidente d'homophones. Le contexte exige clairement le verbe 'citer' et non le nom 'site'. L'erreur est sans équivoque.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "gasbillés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Graphie erronée. Le mot \"gaspillés\" s'écrit avec un \"p\" et non un \"b\".",
+        "suggestions": [
+          "gaspillés"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe d'usage évidente. Le verbe 'gaspiller' s'écrit toujours avec 'sp'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "co habitants",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Trait d'union manquant. Le mot composé \"cohabitants\" s'écrit avec un trait d'union ou est soudé selon les rectifications orthographiques.",
+        "suggestions": [
+          "co-habitants"
+        ],
+        "ruleApplied": "5.2.1.7.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le préfixe 'co-' doit être relié au nom par un trait d'union ou soudé. L'espace est incorrect.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "voudront",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord du verbe. Le verbe \"voudront\" (3e personne du pluriel) doit s'accorder avec son sujet \"vous\" (2e personne du pluriel).",
+        "suggestions": [
+          "voudrez"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. Le sujet 'vous' exige la 2e personne du pluriel 'voudrez', non la 3e personne 'voudront'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "au tant",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Barbarisme orthographique. La locution adverbiale \"autant\" s'écrit en un seul mot. Erreur déjà signalée.",
+        "suggestions": [
+          "autant"
+        ],
+        "ruleApplied": "5.2.6.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe lexicale claire. 'Autant' est un mot simple qui s'écrit toujours en un seul mot.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "L'entreprise",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Majuscule grammaticale erronée. Une majuscule n'est pas requise après la conjonction \"que\" qui introduit une proposition subordonnée complétive.",
+        "suggestions": [
+          "l'entreprise"
+        ],
+        "ruleApplied": "5.3.6.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle de majuscule claire : pas de majuscule après 'que' dans une subordonnée. La majuscule est injustifiée.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "d'aliment",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord du complément du nom. Le nom \"aliment\" devrait être au pluriel, car il est question du restant de plusieurs aliments.",
+        "suggestions": [
+          "d'aliments"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le contexte (surplus ou restant) implique clairement plusieurs aliments. Le pluriel est nécessaire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "bonne",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord en genre de l'adjectif. L'adjectif \"bonne\" doit s'accorder en genre avec le nom masculin \"exemple\". Le donneur d'accord est \"exemple\".",
+        "suggestions": [
+          "bon"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord claire. 'Exemple' est masculin, l'adjectif doit être au masculin : 'bon exemple'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.10",
+        "text": "d'âgir",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Accent erroné. Le verbe \"agir\" ne prend pas d'accent circonflexe.",
+        "suggestions": [
+          "d'agir"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. Le verbe 'agir' ne comporte jamais d'accent circonflexe.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.11",
+        "text": "d'aliment",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord du complément du nom. Le nom \"aliment\" devrait être au pluriel, car il est complément du nom pluriel \"restes\".",
+        "suggestions": [
+          "d'aliments"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le contexte 'restes d'aliment' implique logiquement plusieurs aliments. Le pluriel est requis.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.12",
+        "text": "quelque choses",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord du nom. Le pronom indéfini \"quelque chose\" est invariable et reste au singulier.",
+        "suggestions": [
+          "quelque chose"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "La locution 'quelque chose' est invariable par définition. L'ajout du 's' est une erreur grammaticale claire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.13",
+        "text": "etc.»",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Abréviation incorrecte. L'abréviation \"etc.\" doit toujours être suivie d'un point.",
+        "suggestions": [
+          "etc..»"
+        ],
+        "ruleApplied": "5.2.6.1",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Le point de l'abréviation 'etc.' est déjà présent. La suggestion avec deux points est incorrecte.",
+        "counterArgument": "L'abréviation 'etc.' contient déjà son point abréviatif. Ajouter un second point serait fautif. Le texte original est correct. La règle veut qu'on ne double pas le point même en fin de phrase : le point de l'abréviation suffit."
+      },
+      {
+        "id": "erreur5.14",
+        "text": "simple",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord de l'adjectif. L'adjectif \"simple\" doit s'accorder en nombre avec le nom pluriel \"recettes\".",
+        "suggestions": [
+          "simples"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. 'Recettes' est au pluriel, l'adjectif doit s'accorder : 'simples'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.15",
+        "text": "ca",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Cédille manquante. Le pronom démonstratif \"ça\" s'écrit avec une cédille.",
+        "suggestions": [
+          "ça"
+        ],
+        "ruleApplied": "5.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. Le pronom démonstratif 'ça' exige toujours une cédille.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.16",
+        "text": "sauvent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord du verbe. Le verbe \"sauvent\" doit s'accorder avec son sujet, le groupe infinitif \"Faire des recettes simple comme ca\", qui est singulier.",
+        "suggestions": [
+          "sauve"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle d'accord claire : un infinitif sujet est toujours singulier. Le verbe doit être à la 3e personne du singulier : 'sauve'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.17",
+        "text": "Peut être",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion d'homophones grammaticaux. L'adverbe \"Peut-être\" en tête de phrase s'écrit avec un trait d'union, à ne pas confondre avec la forme verbale \"peut être\".",
+        "suggestions": [
+          "Peut-être"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion d'homophones claire. Le contexte exige l'adverbe 'peut-être' avec trait d'union, non la forme verbale.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.18",
+        "text": "mènent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord du verbe. Le verbe \"mènent\" doit s'accorder avec son sujet singulier \"le gaspillage alimentaire\".",
+        "suggestions": [
+          "mène"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. Le sujet 'le gaspillage alimentaire' est singulier, le verbe doit être au singulier : 'mène'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.19",
+        "text": "éduquons nous",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Trait d'union manquant. Un trait d'union est requis entre le verbe à l'impératif et le pronom qui le suit.",
+        "suggestions": [
+          "éduquons-nous"
+        ],
+        "ruleApplied": "5.2.1.10",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle stricte : le trait d'union est obligatoire entre un verbe à l'impératif et le pronom personnel qui le suit.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.20",
+        "text": "fort",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord de l'adjectif. L'adjectif attribut \"fort\" doit s'accorder en nombre avec le pronom \"nous\" qu'il qualifie.",
+        "suggestions": [
+          "forts"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord claire. Le pronom 'nous' (pluriel) exige l'accord au pluriel de l'adjectif attribut : 'forts'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.21",
+        "text": "chers publics",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'public', dans le sens d'audience, est un nom singulier. L'adjectif 'chers' doit donc s'accorder au masculin singulier.",
+        "suggestions": [
+          "cher public"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Le nom collectif 'public' peut s'employer au pluriel dans certains contextes, notamment pour désigner différents segments d'audience. L'usage au singulier est plus courant.",
+        "counterArgument": "Bien que l'usage traditionnel privilégie 'cher public' au singulier, le pluriel 'publics' peut se justifier dans certains contextes où l'auteur s'adresse à des groupes distincts. Cependant, dans ce contexte d'apostrophe générale, le singulier est préférable."
+      },
+      {
+        "id": "erreur5.22",
+        "text": "importante",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'importante' doit s'accorder au masculin singulier avec son sujet, l'infinitif 'Apprendre', qui a valeur de nom masculin.",
+        "suggestions": [
+          "important"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle stricte : un infinitif est toujours masculin singulier. L'accord au féminin est incorrect.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.23",
+        "text": "chers",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'chers' doit s'accorder en genre avec le premier nom de l'énumération, 'interlocutrices', qui est féminin pluriel.",
+        "suggestions": [
+          "chères"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Lorsqu'un adjectif qualifie plusieurs noms de genres différents, la règle traditionnelle veut qu'on utilise le masculin pluriel. Cependant, l'accord de proximité (avec le nom le plus proche) est de plus en plus accepté.",
+        "counterArgument": "Dans le cas d'une coordination de noms masculin et féminin ('interlocutrices et interlocuteurs'), la règle traditionnelle privilégie le masculin pluriel. Bien que l'accord de proximité soit une variante acceptable et inclusive, le masculin pluriel 'chers' reste grammaticalement correct selon la règle établie."
+      },
+      {
+        "id": "erreur5.24",
+        "text": "au tant",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Répétition de l'erreur d'usage. L'adverbe 'autant' s'écrit en un seul mot.",
+        "suggestions": [
+          "autant"
+        ],
+        "ruleApplied": "5.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de la même erreur d'orthographe. 'Autant' s'écrit toujours en un seul mot.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.25",
+        "text": "site",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Répétition de l'erreur d'usage. Confusion entre les homophones 'site' et 'cite'.",
+        "suggestions": [
+          "cite"
+        ],
+        "ruleApplied": "5.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de la confusion d'homophones. Le verbe 'citer' est requis.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.26",
+        "text": "restant",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'restant' doit être au pluriel pour s'accorder avec le sens de la phrase qui implique plusieurs restes d'aliments.",
+        "suggestions": [
+          "restants"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "'Le restant' peut désigner collectivement tout ce qui reste. Le singulier n'est pas nécessairement fautif, bien que le pluriel soit plus précis dans ce contexte.",
+        "counterArgument": "Le mot 'restant' au singulier peut avoir une valeur collective désignant l'ensemble de ce qui reste. L'expression 'le restant de vos fruits ou légumes' est acceptable en français québécois où 'restants' est d'ailleurs reconnu comme québécisme. Le singulier n'est pas fautif ici."
+      },
+      {
+        "id": "erreur5.27",
+        "text": "créative",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'créative' doit s'accorder au masculin pluriel pour correspondre au sens général (les gens, nous).",
+        "suggestions": [
+          "créatifs"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le pronom indéfini dans ce contexte est inclusif et au masculin pluriel. L'accord au féminin singulier est incorrect.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.28",
+        "text": "réutilisant les",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le participe présent 'réutilisant' et l'impératif 'réutilisons'. La phrase est à l'impératif. Le pronom 'les' doit être lié par un trait d'union.",
+        "suggestions": [
+          "réutilisons-les"
+        ],
+        "ruleApplied": "5.3.2.7",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Cette erreur est la conséquence directe de l'erreur syntaxique signalée en erreur4.7. Le mode verbal est incorrect.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.29",
+        "text": "peut être",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'adverbe 'peut-être' et la forme verbale 'peut être'. Ici, il s'agit de l'adverbe qui exprime une possibilité.",
+        "suggestions": [
+          "peut-être"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le contexte exige clairement l'adverbe 'peut-être' exprimant l'éventualité, non la forme verbale.",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 13,
+      "note": "E"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 26,
+      "note": "E"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 43,
+      "vraisErreurs": 38,
+      "discutables": 4,
+      "fauxPositifs": 1
+    }
+  },
+  "startTimestamp": "2025-12-12T11:36:10.069Z",
+  "endTimestamp": "2025-12-12T11:38:25.109Z",
+  "durationMs": 135040,
+  "durationFormatted": "02:15:040"
+}

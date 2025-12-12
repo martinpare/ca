@@ -1,0 +1,338 @@
+{
+  "processedAt": "2025-12-12T11:37:36.493Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_034.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_034.txt",
+    "registreIdentifie": "soutenu",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "…",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Les points de suspension sont utilisés de manière erronée pour terminer une phrase déclarative complète. Un point est requis.",
+        "suggestions": [
+          "."
+        ],
+        "ruleApplied": "4.2.2.4.2",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "L'usage des points de suspension à la fin du paragraphe d'introduction crée un effet rhétorique d'ouverture et de suspense, typique des textes argumentatifs accrocheurs.",
+        "counterArgument": "Dans un texte argumentatif au ton persuasif, les points de suspension en fin de paragraphe d'introduction sont un procédé stylistique légitime pour créer un effet de suspense et inviter le lecteur à poursuivre. Cet usage est courant dans le journalisme d'opinion et les essais engagés. Le ton interrogatif et dramatique du texte ('L'apocalypse est à la porte') justifie ce choix rhétorique."
+      },
+      {
+        "id": "erreur4.2",
+        "text": "en mesure de",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution 'en mesure de' signifie 'capable de'. Pour indiquer un critère de décision, il faut utiliser 'en fonction de'.",
+        "suggestions": [
+          "en fonction de"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion sémantique claire entre 'en mesure de' (capable de) et 'en fonction de' (selon, d'après). Le sens voulu est clairement le critère de décision, pas la capacité.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "impliquent être",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe 'impliquer' se construit avec la préposition 'de' avant un infinitif. La construction correcte est 'impliquer d'être'.",
+        "suggestions": [
+          "impliquent d'être"
+        ],
+        "ruleApplied": "4.1.2.2.2",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "La construction 'impliquer + infinitif' sans préposition est attestée dans l'usage moderne, bien que 'impliquer de' soit plus classique.",
+        "counterArgument": "Bien que la construction classique avec 'de' soit préférable ('impliquer de'), l'usage moderne accepte de plus en plus 'impliquer + infinitif' directement, notamment dans le registre courant. Le Petit Robert et d'autres dictionnaires contemporains attestent cette construction sans préposition. Dans le contexte d'un texte d'élève du secondaire/collégial, cette tournure reflète l'évolution de la langue."
+      },
+      {
+        "id": "erreur4.4",
+        "text": "résultant en",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction 'résultant en' est un calque de l'anglais 'resulting in'. On devrait plutôt utiliser 'entraînant' ou une subordonnée comme 'ce qui entraîne'.",
+        "suggestions": [
+          "entraînant"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Calque évident de l'anglais 'resulting in'. En français, 'résulter' se construit avec 'de' (résulter de) et non 'en'. Pour exprimer la conséquence, on utilise 'entraîner', 'causer', ou 'ce qui entraîne'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "cicatrisée",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le mot 'cicatrisée' est utilisé de manière sémantiquement incorrecte. Une mentalité est plutôt 'ancrée' ou 'enracinée' dans une société.",
+        "suggestions": [
+          "ancrée",
+          "enracinée"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "L'usage métaphorique de 'cicatrisée' pour désigner une mentalité figée, marquée comme par une blessure, peut être vu comme un choix stylistique créatif, bien qu'inhabituel.",
+        "counterArgument": "Bien que 'ancrée' ou 'enracinée' soient les collocations attendues, l'usage de 'cicatrisée' peut être interprété comme une métaphore volontaire et créative. L'auteur file la métaphore de la blessure et de la maladie (délavée, cicatrisée, impossible à traiter), suggérant une mentalité blessée et figée. Dans un texte argumentatif au ton dramatique, ce choix lexical audacieux peut être défendu comme procédé stylistique, même s'il est inhabituel."
+      },
+      {
+        "id": "erreur4.6",
+        "text": "Un avenir où la santé de notre maison d'accueil est prise à cœur.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase est une subordonnée sans phrase matrice. Il s'agit d'une phrase incomplète.",
+        "suggestions": [
+          "Avez-vous toujours espoir en un avenir meilleur, un avenir où la santé de notre maison d'accueil est prise à cœur ?"
+        ],
+        "ruleApplied": "4.1.2.1.4",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Cette phrase nominale constitue une apposition explicative à 'un avenir meilleur' de la phrase précédente. Dans un style oratoire, cette construction segmentée est un procédé rhétorique d'insistance.",
+        "counterArgument": "Cette construction constitue une apposition détachée qui précise et amplifie 'un avenir meilleur' de la phrase précédente. Dans le style oratoire et persuasif, la segmentation de l'information en phrases distinctes est un procédé rhétorique courant pour créer de l'emphase et du rythme. La question précédente établit le contexte ('un avenir meilleur ?'), et cette phrase nominale développe cette notion de manière emphatique. Ce procédé est attesté dans les discours et textes argumentatifs."
+      },
+      {
+        "id": "erreur4.7",
+        "text": ",",
+        "occurenceIndex": 5,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule ne doit pas séparer un adverbe (\"principalement\") de l'élément qu'il modifie (\"le gaspillage alimentaire\").",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.10.2.d",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Virgule fautive qui sépare l'adverbe 'principalement' du groupe nominal qu'il modifie. Cette séparation crée une rupture syntaxique incorrecte.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "sur laquelle",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe \"dépendre\" se construit avec la préposition \"de\". Le pronom relatif correct est donc \"de laquelle\" ou \"dont\".",
+        "suggestions": [
+          "de laquelle",
+          "dont"
+        ],
+        "ruleApplied": "4.1.2.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de construction prépositionnelle claire. Le verbe 'dépendre' exige la préposition 'de', jamais 'sur'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": ",",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "P",
+        "description": "La virgule sépare incorrectement le verbe \"Prenons\" de son complément d'objet direct \"la rareté des dons...\".",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.10.2.d",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Virgule fautive qui sépare le verbe de son complément d'objet direct, créant une rupture syntaxique incorrecte.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.10",
+        "text": ".",
+        "occurenceIndex": 2,
+        "criteria": 4,
+        "type": "P",
+        "description": "Ce point crée une rupture de phrase fautive. Le groupe \"par ces producteurs agricoles\" est un complément qui devrait être rattaché à la phrase précédente.",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Phrase incomplète évidente. Le complément d'agent 'par ces producteurs agricoles' doit être rattaché à la phrase précédente avec le passif 'la rareté des dons'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.11",
+        "text": ",",
+        "occurenceIndex": 6,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule ne doit pas séparer le groupe sujet (\"certaines mesures prises [...] alimentaire1\") du verbe (\"sont\").",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.10.2.a",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Virgule fautive qui sépare le sujet du verbe, créant une rupture syntaxique incorrecte. Cette règle est absolue en français standard.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.12",
+        "text": "auprès de",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition \"auprès de\" s'emploie généralement pour des personnes. Pour une chose comme \"cette chaîne\", il est préférable d'utiliser \"à\".",
+        "suggestions": [
+          "à"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Emploi incorrect de 'auprès de' avec un inanimé. Cette préposition s'utilise avec des personnes ou organismes personnifiés. Pour une chose abstraite, on utilise 'à' ou 'dans'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.13",
+        "text": "quelque soit",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Confusion entre l'adverbe \"quelque\" et la locution \"quel que\". Il faut utiliser la locution \"quel que\", où \"quel\" s'accorde avec le sujet (\"notre partenaire, nos amis...\", donc pluriel) et est suivi du verbe \"être\" au subjonctif.",
+        "suggestions": [
+          "quels que soient"
+        ],
+        "ruleApplied": "4.1.2.1.9",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion orthographique et grammaticale classique. 'Quel que' (en deux mots) avec accord est la forme correcte pour la locution concessive.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.14",
+        "text": "une mentalité cicatrisée dans notre société, impossible à traiter…",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase est une phrase nominale sans verbe principal conjugué, ce qui constitue une subordonnée sans matrice. Il faudrait l'intégrer à la phrase précédente ou la reformuler en phrase complète.",
+        "suggestions": [
+          "C'est une mentalité cicatrisée dans notre société, impossible à traiter…"
+        ],
+        "ruleApplied": "4.1.2.1.4",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Cette phrase nominale constitue une apposition explicative à 'notre mentalité délavée' de la phrase précédente. Dans un style oratoire dramatique, ce procédé de répétition amplifiée est rhétorique.",
+        "counterArgument": "Cette construction est une apposition détachée qui reprend et amplifie 'notre mentalité délavée' mentionnée dans la phrase précédente. Le procédé de répétition avec variation et amplification ('une mentalité cicatrisée [...] impossible à traiter') est un effet rhétorique d'insistance typique du style oratoire. La phrase précédente établit le sujet ('c'est notre mentalité délavée qui est le principal danger'), et cette phrase nominale le reformule de manière emphatique pour clore le paragraphe. Ce procédé est courant dans les textes argumentatifs engagés et les discours persuasifs."
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "tel que",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'tel' s'accorde en genre et en nombre avec le nom auquel il se rapporte, ici 'sources' (féminin pluriel).",
+        "suggestions": [
+          "telles que"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. 'Tel' doit s'accorder avec 'sources' (féminin pluriel), donc 'telles que'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "correspondent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'correspondre' doit s'accorder avec son sujet, le pronom relatif 'qui' qui reprend 'la chaîne d'approvisionnement alimentaire' (féminin singulier).",
+        "suggestions": [
+          "correspond"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du verbe avec son sujet. Le pronom relatif 'qui' reprend 'chaîne' (singulier), le verbe doit donc être au singulier.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "affamées",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'mannequin' est masculin, même s'il désigne une femme. L'adjectif 'affamé' doit donc s'accorder au masculin pluriel.",
+        "suggestions": [
+          "affamés"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord de genre. 'Mannequin' est grammaticalement masculin même lorsqu'il désigne une femme. L'adjectif doit s'accorder au masculin.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "quelque soit",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre 'quelque soit' et la locution 'que ce soit'. Dans ce contexte d'alternative, il faut utiliser 'que ce soit'.",
+        "suggestions": [
+          "que ce soit"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion entre deux locutions distinctes. Dans le contexte 'que ce soit chez X, Y ou Z', la locution correcte est 'que ce soit', non 'quelque soit'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "nous-même",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom 'même' s'accorde en nombre avec le pronom personnel auquel il se rapporte, ici 'nous' (pluriel).",
+        "suggestions": [
+          "nous-mêmes"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en nombre. 'Même' s'accorde avec le pronom personnel 'nous' (pluriel), donc 'nous-mêmes'.",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 10,
+      "note": "C"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 5,
+      "note": "B"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 19,
+      "vraisErreurs": 14,
+      "discutables": 5,
+      "fauxPositifs": 0
+    }
+  },
+  "startTimestamp": "2025-12-12T11:36:26.857Z",
+  "endTimestamp": "2025-12-12T11:37:36.492Z",
+  "durationMs": 69635,
+  "durationFormatted": "01:09:635"
+}

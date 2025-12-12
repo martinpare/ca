@@ -1,0 +1,357 @@
+{
+  "processedAt": "2025-12-10T15:08:11.148Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_133.txt",
+    "originalText": "Un avenir sans espoir\r\n\r\nChers lecteurs,\r\n\r\nNous avons que le gouvernement a imposé un passeport de vaccination à tous les grands détaillants, c’est pourquoi de nombreuses personnes dépassent trop en produit. Cependant, maintenant qu’il sera levé, les individus se contenteront d’acheter de nouveaux aliments frais et de jeter les anciens produits. Face à cette réalité, nous nous demandons maintenant si nous sommes prêts à lutter contre le gaspillage alimentaire. Personnellement, je crois que nous pouvons pas lutter à cause de déchet alimentaire et de la surconsommation.\r\n\r\nTout d’abord, chers lecteurs, parlons de déchet alimentaire. Je crois que gaspillage alimentaire a un impact important puisque les déchets qui sont déversés dans l’eau peuvent tuer de nombreux poissons et d’autre créature marines. Par exemple, chaque été, les gens aiment aller à la plage, alors bien sûr ils apporteront de la nourriture pour ne pas mourir de faim, mais parfois les gens laissent des ordures n’importe où, ce qui a un effet sur notre nature. D’ailleurs, « Selon une étude de l’Organisation des Nations (ONU), environ 931 millions de tonnes de nourriture ont été gaspillées dans le monde en 2019. » affirme (Shields, 2021). Par ailleurs, « Une étude du Conseil national zéro déchet indique que 2,2 millions de tonnes d’aliments sont gaspillés par les familles canadiennes chaque année, ce qui correspond à une perte de plus de 17 milliards de dollars. » dit (RECYC- QUÉBEC , 2021). En résumé, chers lecteurs, gardez à l’esprit que le déchet alimentaire peut avoir une influence significative sur l’environnement.\r\n\r\nEnsuite, cher public, abordons la surconsommation. La consommation excessive, à mon avis, est assez similaire au gaspillage alimentaire, dans la mesure où les individus achètent de la nourriture, mais ne la consomment pas. Par exemple, nous achetons trop de produits nous oublierons les autres que nous avions auparavant, ce qui signifie sera jetée. Par conséquent, les déchets ont le potentiel de nuire notre environnement. En fait, dans l’infographie « Le  gaspillage alimentaire », on souligne que le Canada a la plus grande moyenne de 47 % au consommation (Table québécoise sur la saine alimentation, 2019). De plus, les aliments végétales, fruits et œufs sont plus gaspillés au Canada. (RECYC-QUÉBEC , 2021). En outre, « Les conséquences du gaspillage alimentaire sur l’environnement sont importantes. En plus d’occasionner une utilisation inadéquate de nos ressources (terres agricoles, eau, etc.) [...] » affirme (RECYC-QUÉBEC , 2021). Bref, cher public, nous ne devrions acheter que des nourritures que nous avons l’intention de consommer, plutôt que d’acheter celles que nous ne mangeons peut être pas.\r\n\r\nPour terminer, chers lecteurs, le déchet alimentaire et la surconsommation ont un impact sur l’environnement. Nous gaspillons beaucoup de nourriture et la jetons ce qui finit dans une charge et pollue l’environnement. L’élimination des déchets peut également contribuer au changement climatique. Maintenant que j’ai fini d’expliquer mon opinion. Pensez-vous nous sommes prêts à lutter contre le gaspillage alimentaire? Cela ne tient qu’à vous. Mais j’espère que vous avez pris la bonne décision et que nous pouvons espérer un avenir meilleur dans l’écosystème.",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "avons",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe 'avoir' est incorrect dans ce contexte. Il faut utiliser le verbe 'savoir' pour introduire une information. L'emploi de 'avons' crée un problème de sens.",
+        "suggestions": [
+          "savons"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "id": "erreur4.2",
+        "text": "pouvons pas",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution de négation 'ne... pas' est incomplète. Il manque l'adverbe 'ne' (élidé 'n'') devant le verbe.",
+        "suggestions": [
+          "ne pouvons pas"
+        ],
+        "ruleApplied": "4.1.2.1.3"
+      },
+      {
+        "id": "erreur4.3",
+        "text": "de déchet alimentaire",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Il manque le déterminant contracté 'du' (de + le) devant le nom 'déchet alimentaire' pour former un complément de cause correct. L'erreur n'est pas comptée car il y a déjà une erreur de syntaxe (S) dans cette phrase.",
+        "suggestions": [
+          "du gaspillage alimentaire"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "id": "erreur4.4",
+        "text": "de déchet alimentaire",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque le déterminant contracté 'du' (de + le) devant le nom 'déchet alimentaire'.",
+        "suggestions": [
+          "du gaspillage alimentaire"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "id": "erreur4.5",
+        "text": "que gaspillage alimentaire",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque le déterminant 'le' devant le groupe nominal sujet 'gaspillage alimentaire'.",
+        "suggestions": [
+          "que le gaspillage alimentaire"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "id": "erreur4.6",
+        "text": "signifie sera jetée",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque un pronom sujet et la conjonction 'que' pour introduire la proposition subordonnée. Le sujet implicite est probablement 'la nourriture'.",
+        "suggestions": [
+          "signifie qu'elle sera jetée"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "id": "erreur4.7",
+        "text": "nuire notre environnement",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe 'nuire' est un verbe transitif indirect qui se construit avec la préposition 'à'.",
+        "suggestions": [
+          "de nuire à notre environnement"
+        ],
+        "ruleApplied": "4.1.2.2.2"
+      },
+      {
+        "id": "erreur4.8",
+        "text": "affirme (RECYC-QUÉBEC , 2021)",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "S",
+        "description": "Dans une incise rapportant des paroles, le verbe ('affirme') doit être placé avant la source. De plus, une virgule est requise avant l'incise.",
+        "suggestions": [
+          "», affirme RECYC-QUÉBEC (2021)."
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "id": "erreur4.9",
+        "text": "Maintenant que j’ai fini d’expliquer mon opinion.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette proposition subordonnée conjonctive ne peut pas former une phrase à elle seule. Elle doit être rattachée à une proposition principale, par exemple en remplaçant le point par une virgule.",
+        "suggestions": [
+          "Maintenant que j’ai fini d’expliquer mon opinion,"
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "id": "erreur4.10",
+        "text": "Pensez-vous nous sommes prêts",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque la conjonction de subordination 'que' pour introduire la proposition complétive après le verbe 'penser'.",
+        "suggestions": [
+          "Pensez-vous que nous sommes prêts"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "id": "erreur4.11",
+        "text": "dans l’écosystème",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition 'dans' est inappropriée ici. La préposition 'pour' est plus juste pour indiquer le bénéficiaire de l'espoir d'un avenir meilleur.",
+        "suggestions": [
+          "pour l’écosystème"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "id": "erreur4.12",
+        "text": "dépassent trop en produit",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est boiteuse et le sens est imprécis. Il faut reformuler pour clarifier l'idée, par exemple en utilisant 'achètent trop de produits' ou 'font des réserves excessives de produits'.",
+        "suggestions": [
+          "achètent trop de produits"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "id": "erreur4.13",
+        "text": "» affirme (Shields, 2021).",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de l'incise est incorrecte. Le sujet du verbe 'affirme' (Shields) ne peut pas être entièrement entre parenthèses. La source doit être intégrée syntaxiquement, par exemple : '», affirme Shields (2021).'",
+        "suggestions": [
+          "», affirme Shields (2021)."
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "id": "erreur4.14",
+        "text": "» dit (RECYC- QUÉBEC , 2021).",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de l'incise est incorrecte. Le sujet du verbe 'dit' (RECYC-QUÉBEC) ne peut pas être entièrement entre parenthèses. La source doit être intégrée syntaxiquement, par exemple : '», dit RECYC-QUÉBEC (2021).'",
+        "suggestions": [
+          "», dit RECYC-QUÉBEC (2021)."
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "id": "erreur4.15",
+        "text": "produits nous oublierons",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque un coordonnant (comme 'et') ou une ponctuation (comme un point-virgule) pour lier correctement les deux propositions 'nous achetons trop de produits' et 'nous oublierons les autres'.",
+        "suggestions": [
+          "produits et nous oublierons",
+          "produits, si bien que nous oublierons"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "id": "erreur4.16",
+        "text": "RECYC-QUÉBEC ,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une espace ne doit pas précéder la virgule.",
+        "suggestions": [
+          "RECYC-QUÉBEC,"
+        ],
+        "ruleApplied": "4.2.1.5"
+      },
+      {
+        "id": "erreur4.17",
+        "text": "» affirme (RECYC-QUÉBEC , 2021).",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de l'incise est incorrecte. Le sujet du verbe 'affirme' (RECYC-QUÉBEC) ne peut pas être entièrement entre parenthèses. La source doit être intégrée syntaxiquement, par exemple : '», affirme RECYC-QUÉBEC (2021).'",
+        "suggestions": [
+          "», affirme RECYC-QUÉBEC (2021)."
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 15.5,
+      "note": "D"
+    },
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "d’autre",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant indéfini 'autre' doit s'accorder au pluriel avec le nom 'créatures' qu'il détermine.",
+        "suggestions": [
+          "d'autres"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.2",
+        "text": "RECYC- QUÉBEC",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "La graphie de cet acronyme, qui est une dénomination, ne comporte pas d'espace avant 'QUÉBEC'.",
+        "suggestions": [
+          "RECYC-QUÉBEC"
+        ],
+        "ruleApplied": "5.2.4.1.2"
+      },
+      {
+        "id": "erreur5.3",
+        "text": "au consommation",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "La préposition contractée 'au' (à + le) est incorrecte devant le nom féminin 'consommation'. Il faut utiliser 'à la'.",
+        "suggestions": [
+          "à la consommation"
+        ],
+        "ruleApplied": "5.3.5"
+      },
+      {
+        "id": "erreur5.4",
+        "text": "végétales",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'végétales' doit s'accorder en genre (masculin) et en nombre (pluriel) avec le nom 'aliments' qu'il qualifie.",
+        "suggestions": [
+          "végétaux"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.5",
+        "text": "nourritures",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'nourriture' est généralement un nom non comptable et s'emploie au singulier.",
+        "suggestions": [
+          "de la nourriture"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.6",
+        "text": "peut être",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le verbe 'peut être' et l'adverbe 'peut-être' qui exprime le doute. Le trait d'union est requis ici.",
+        "suggestions": [
+          "peut-être"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "id": "erreur5.7",
+        "text": "charge",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot 'charge' est incorrect dans ce contexte. Il s'agit d'une confusion avec 'décharge', qui désigne un lieu où l'on dépose les ordures.",
+        "suggestions": [
+          "décharge"
+        ],
+        "ruleApplied": "5.2.2"
+      },
+      {
+        "id": "erreur5.8",
+        "text": "decision",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Il manque un accent aigu sur le 'e' du mot 'décision'.",
+        "suggestions": [
+          "décision"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.9",
+        "text": "déchet",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après la préposition 'de', le nom 'déchet' devrait être au singulier précédé d'un partitif ('du') pour désigner la notion générale, ou au pluriel ('des déchets'). Le contexte suggère la notion, donc 'du gaspillage' ou 'du déchet'.",
+        "suggestions": [
+          "du déchet",
+          "du gaspillage"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.10",
+        "text": "Le  gaspillage",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Présence d'une double espace superflue, ce qui constitue un barbarisme orthographique.",
+        "suggestions": [
+          "Le gaspillage"
+        ],
+        "ruleApplied": "5.2.6.4"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 10,
+      "note": "C"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T15:03:02.952Z",
+    "endTimestamp": "2025-12-10T15:08:11.147Z",
+    "durationMs": 308195,
+    "durationFormatted": "05:08:195"
+  }
+}

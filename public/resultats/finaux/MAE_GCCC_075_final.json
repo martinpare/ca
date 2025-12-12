@@ -1,0 +1,377 @@
+{
+  "processedAt": "2025-12-12T11:40:50.326Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_075.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_075.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "prince",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le mot 'prince' est utilisé de manière inappropriée dans ce contexte. Le gaspillage alimentaire est un fléau ou un problème majeur, et non une figure noble ou positive. Il s'agit d'une erreur de sens qui nuit à la clarté du propos.",
+        "suggestions": [
+          "fléau",
+          "problème majeur"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de vocabulaire claire : 'prince' évoque la noblesse et une position dominante positive, ce qui est incompatible avec la dénonciation d'un problème grave. Le contexte parle de 'conséquences catastrophiques', ce qui confirme qu'un terme négatif est requis.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "Malgré,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule ne doit pas séparer une préposition ('Malgré') de son complément ('l'effort de gens opiniâtres').",
+        "suggestions": [
+          "Malgré"
+        ],
+        "ruleApplied": "4.2.2.10.2.h",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle de ponctuation claire : une préposition ne doit jamais être séparée de son complément par une virgule. Cette erreur crée une rupture syntaxique inappropriée.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "mettre à pied",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression 'mettre à pied' signifie 'renvoyer quelqu'un de son travail'. Elle est inadéquate pour parler du gaspillage alimentaire. Il s'agit d'une erreur de sens.",
+        "suggestions": [
+          "combattre",
+          "enrayer",
+          "éliminer"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur sémantique évidente : 'mettre à pied' est une expression figée du domaine des relations de travail qui ne peut s'appliquer à un concept abstrait comme le gaspillage alimentaire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "En résultat",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution 'En résultat' est un calque de l'anglais ('as a result'). Il faut utiliser une locution française correcte comme 'En conséquence' ou 'Par conséquent'.",
+        "suggestions": [
+          "En conséquence",
+          "Par conséquent",
+          "En résumé"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Calque de l'anglais non accepté en français standard. La locution 'en résultat' n'existe pas dans les dictionnaires français. Les équivalents corrects sont 'en conséquence', 'par conséquent' ou 'ainsi'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "Malgré que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution conjonctive 'malgré que' est critiquée et doit être suivie du subjonctif. L'indicatif ('ont souligné') est incorrect. Il est préférable d'utiliser 'bien que' (avec subjonctif) ou 'même si' (avec indicatif).",
+        "suggestions": [
+          "Bien que",
+          "Même si",
+          "Quoique"
+        ],
+        "ruleApplied": "4.1.2.2.3",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Bien que 'malgré que' soit critiqué par les puristes, l'usage moderne l'accepte de plus en plus, notamment au Québec. Cependant, l'utilisation avec l'indicatif au lieu du subjonctif reste problématique.",
+        "counterArgument": "L'emploi de 'malgré que' est de plus en plus accepté dans l'usage moderne, notamment au Québec. Cependant, si on conserve cette locution, elle devrait être suivie du subjonctif ('aient souligné') plutôt que de l'indicatif. Les alternatives 'bien que' ou 'même si' sont plus standard et recommandées dans un contexte scolaire."
+      },
+      {
+        "id": "erreur4.6",
+        "text": "les épiceries sont mal planifiées",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression 'les épiceries sont mal planifiées' est sémantiquement incorrecte. Ce ne sont pas les courses ('épiceries') qui sont planifiées, mais plutôt les repas ou les achats. Il s'agit d'un problème de sens.",
+        "suggestions": [
+          "les achats à l'épicerie sont mal planifiés",
+          "les repas sont mal planifiés",
+          "les courses sont mal planifiées"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur sémantique claire : 'épicerie' désigne soit le magasin, soit l'ensemble des courses, mais dans les deux cas, ce ne sont pas les 'épiceries' qui sont planifiées, mais plutôt les achats, les courses ou les repas.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "avec le manque d'implication et d'inaction, qu'au cours des dernières années, les consommateurs, les agriculteurs, les détaillants et plusieurs autres ont démontré, l'espoir est en train de nous échapper.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La structure de la phrase est boiteuse et difficile à suivre en raison de l'insertion d'une longue proposition subordonnée relative qui rompt le lien entre le complément de cause ('avec le manque...') et la proposition principale ('l'espoir est...').",
+        "suggestions": [
+          "avec le manque d'implication et d'inaction que les consommateurs, les agriculteurs, les détaillants et plusieurs autres ont démontré au cours des dernières années, l'espoir est en train de nous échapper."
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Rupture de construction syntaxique évidente. L'insertion de 'qu'au cours des dernières années' entre le complément et sa relative crée une confusion dans la structure de la phrase.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": ",",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "P",
+        "description": "Cette virgule est mal placée. Elle sépare l'antécédent ('manque d'implication et d'inaction') de la proposition relative qui le complète ('qu'au cours... ont démontré').",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.10.2.b",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de ponctuation claire : une virgule ne doit pas séparer un antécédent de sa proposition relative restrictive.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "au travers de",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution prépositive correcte est \"à travers\". L'utilisation de \"au travers de\" est considérée comme une construction fautive dans ce contexte.",
+        "suggestions": [
+          "à travers"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "'Au travers de' existe en français et peut s'utiliser pour exprimer l'idée de traverser quelque chose avec effort ou malgré des obstacles. Cependant, 'à travers' est plus courant et idiomatique dans ce contexte.",
+        "counterArgument": "La locution 'au travers de' existe en français et est attestée dans les dictionnaires (Larousse, Robert). Elle s'emploie pour exprimer l'idée de traverser quelque chose de part en part, souvent avec une connotation d'effort ou d'obstacle. Dans le contexte 'un fléau qui règne au travers de notre planète', l'usage est acceptable, bien que 'à travers' soit plus idiomatique et recommandé."
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "main d'œuvre",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le nom composé 'main-d'œuvre' s'écrit avec un trait d'union.",
+        "suggestions": [
+          "main-d'œuvre"
+        ],
+        "ruleApplied": "5.2.1.7.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'orthographe claire et non contestable. Le terme 'main-d'œuvre' est un nom composé qui requiert obligatoirement les traits d'union selon toutes les sources orthographiques.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "Saviez- vous",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Dans une construction interrogative avec inversion du sujet, le pronom doit être lié au verbe par un trait d'union.",
+        "suggestions": [
+          "Saviez-vous"
+        ],
+        "ruleApplied": "5.2.1.10",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur typographique claire : l'espace avant 'vous' est incorrecte. Dans l'interrogation inversée, le trait d'union doit être collé au verbe et au pronom sans espace.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "endommagé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après la locution verbale 'se faire', le verbe qui suit doit être à l'infinitif. Il y a confusion entre le participe passé '-é' et l'infinitif '-er'.",
+        "suggestions": [
+          "endommager"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle grammaticale claire : après 'se faire' dans une construction factitive/passive, le verbe suivant doit être à l'infinitif. L'expression correcte est 'se faire endommager'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "contaminée",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après la locution verbale 'se fait', le verbe qui suit doit être à l'infinitif. Il y a confusion entre le participe passé '-ée' et l'infinitif '-er'.",
+        "suggestions": [
+          "contaminer"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Même règle que pour 'endommagé' : après 'se fait' dans une construction factitive, le verbe doit être à l'infinitif. L'expression correcte est 'se fait contaminer'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "publicités",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Dans la locution 'campagnes de publicité', le mot 'publicité' est un complément du nom 'campagnes' et reste généralement au singulier, car il désigne le concept de manière générale.",
+        "suggestions": [
+          "publicité"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Les deux formes sont attestées. 'Campagnes de publicité' (singulier collectif) et 'campagnes de publicités' (pluriel pour plusieurs annonces) sont toutes deux acceptables selon le sens voulu.",
+        "counterArgument": "Les deux graphies sont acceptables selon le contexte. 'Campagnes de publicité' (au singulier) désigne le concept général de publicité, tandis que 'campagnes de publicités' (au pluriel) peut faire référence à plusieurs annonces publicitaires distinctes. Dans le contexte du texte qui parle de plusieurs annonces incitant les gens à acheter des produits, le pluriel est justifiable et cohérent."
+      },
+      {
+        "id": "erreur5.6",
+        "text": "contribuons",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec le sujet 'une large partie d'entre nous'. Le noyau du sujet est 'partie' (3e personne du singulier), et non 'nous'. L'accord se fait donc au singulier.",
+        "suggestions": [
+          "contribue"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Avec un nom collectif suivi de 'de nous', l'accord peut se faire soit avec le collectif (singulier), soit avec le complément (pluriel selon le sens). L'accord au pluriel met l'accent sur les individus du groupe.",
+        "counterArgument": "Avec les expressions contenant un nom collectif suivi de 'de nous' ou 'de vous' ('une partie d'entre nous', 'la plupart d'entre nous'), l'accord au pluriel est fréquent et accepté, car il met l'accent sur les individus composant le groupe plutôt que sur le collectif. Le Grevisse reconnaît cette syllepse grammaticale comme acceptable. Dans ce contexte, 'contribuons' souligne que ce sont les individus qui contribuent."
+      },
+      {
+        "id": "erreur5.7",
+        "text": "Également,comme",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Il manque un espace entre la virgule et le mot 'comme'. Les mots doivent être correctement séparés.",
+        "suggestions": [
+          "Également, comme"
+        ],
+        "ruleApplied": "5.2.6.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur typographique évidente : un espace est obligatoire après une virgule en français.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "ce",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Il y a confusion entre le pronom démonstratif 'ce' et le pronom réfléchi 'se'. Le verbe 'se rendre' est un verbe pronominal.",
+        "suggestions": [
+          "se"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur grammaticale claire : confusion entre l'homophone 'ce' (pronom démonstratif) et 'se' (pronom réfléchi). Le verbe 'se rendre' (à un endroit) est pronominal et requiert 'se'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "retrouvent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec le sujet 'une partie remarquable d'aliments'. Le noyau du sujet est 'partie' (3e personne du singulier). L'accord se fait donc au singulier.",
+        "suggestions": [
+          "retrouve"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Avec un nom collectif suivi d'un complément au pluriel, l'accord peut se faire soit avec le collectif (singulier), soit avec le complément (pluriel) selon que l'on considère l'ensemble ou les éléments individuels.",
+        "counterArgument": "Avec les noms collectifs suivis d'un complément au pluriel ('une partie d'aliments', 'une majorité de personnes'), l'accord au pluriel est fréquemment accepté lorsque l'accent est mis sur les éléments individuels plutôt que sur l'ensemble. Le Bon Usage de Grevisse reconnaît cette possibilité d'accord. Ici, 'retrouvent' met l'accent sur les aliments individuels qui se retrouvent aux ordures, ce qui est cohérent avec le sens."
+      },
+      {
+        "id": "erreur5.10",
+        "text": "connaissance",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le mot 'connaissance' s'emploie généralement au pluriel dans l'expression 'manque de connaissances' pour désigner un ensemble de savoirs.",
+        "suggestions": [
+          "connaissances"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Les deux formes sont acceptables selon le sens : 'manque de connaissance' (concept abstrait) ou 'manque de connaissances' (savoirs multiples). Le singulier peut être justifié dans un sens général.",
+        "counterArgument": "'Manque de connaissance' au singulier est acceptable lorsqu'on désigne le concept général de la connaissance ou de l'information sur un sujet. 'Manque de connaissances' au pluriel est préférable quand on fait référence à des savoirs spécifiques et multiples. Dans le contexte 'un manque de connaissance relié à la durée des aliments', le singulier peut se justifier comme désignant la connaissance générale sur ce sujet."
+      },
+      {
+        "id": "erreur5.11",
+        "text": "connaissance",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le mot 'connaissance' s'emploie généralement au pluriel dans l'expression 'manque de connaissance(s)' pour désigner un ensemble de savoirs.",
+        "suggestions": [
+          "connaissances"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Même raisonnement que pour la première occurrence : les deux formes sont défendables selon qu'on considère le concept abstrait ou les savoirs spécifiques.",
+        "counterArgument": "Même argument que pour la première occurrence. Dans 'manque de connaissance de chacun', le singulier peut se justifier comme désignant le déficit général d'information ou de sensibilisation au sujet du gaspillage alimentaire. Cependant, le pluriel 'connaissances' serait effectivement plus courant dans un contexte scolaire."
+      },
+      {
+        "id": "erreur5.12",
+        "text": "tables",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Dans l'expression 'restes de table', le mot 'table' est un complément du nom 'restes' et reste au singulier, car il désigne le concept de la table en général.",
+        "suggestions": [
+          "table"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Expression figée : 'restes de table' s'écrit toujours au singulier. 'Table' désigne ici le concept général du repas à table, non pas plusieurs tables physiques.",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 7,
+      "note": "C"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 9,
+      "note": "C"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 21,
+      "vraisErreurs": 14,
+      "discutables": 7,
+      "fauxPositifs": 0
+    }
+  },
+  "startTimestamp": "2025-12-12T11:39:28.915Z",
+  "endTimestamp": "2025-12-12T11:40:50.326Z",
+  "durationMs": 81411,
+  "durationFormatted": "01:21:411"
+}

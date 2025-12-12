@@ -1,0 +1,417 @@
+{
+  "processedAt": "2025-12-12T11:35:53.645Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_016.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_016.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "ses",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le déterminant possessif 'ses' (3e personne) ne correspond pas à son référent 'plusieurs d'entre nous' (1re personne du pluriel). Il faut utiliser 'nos'.",
+        "suggestions": [
+          "nos"
+        ],
+        "ruleApplied": "4.1.2.3.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Incohérence grammaticale évidente : le possessif doit s'accorder avec le référent 'nous'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "abordons sur",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe 'aborder' est un verbe transitif direct. Il ne doit pas être suivi de la préposition 'sur'. Il faut la supprimer.",
+        "suggestions": [
+          "abordons"
+        ],
+        "ruleApplied": "4.1.2.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de construction verbale courante. Le verbe 'aborder' se construit directement sans préposition.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "y compris,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "La virgule est erronée après la locution 'y compris'. Elle ne doit pas séparer la locution de l'élément qu'elle introduit.",
+        "suggestions": [
+          "y compris"
+        ],
+        "ruleApplied": "4.2.2.10.2.h",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle de ponctuation claire : 'y compris' ne doit pas être séparé de son complément par une virgule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "constater on",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule est nécessaire pour séparer la proposition subordonnée circonstancielle ('comme vous pouvez le constater') de la proposition principale ('on peut éviter...').",
+        "suggestions": [
+          "constater, on"
+        ],
+        "ruleApplied": "4.2.2.10.1.m",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "La virgule est recommandée mais pas toujours obligatoire, surtout si la subordonnée est courte. De plus, cette erreur est identique à erreur4.9 qui signale un problème syntaxique plus profond (absence de 'que').",
+        "counterArgument": "Dans le contexte, l'erreur principale est l'absence du subordonnant 'que' (voir erreur4.9). Si on corrige en 'comme vous pouvez le constater qu'on peut éviter', la virgule devient moins nécessaire. L'absence de virgule ici n'est pas la principale difficulté syntaxique de cette phrase."
+      },
+      {
+        "id": "erreur4.5",
+        "text": "mais manque de connaissances sur la conservation des aliments et d'autres c'est sur la compréhension de la date limite de conservation",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est boiteuse. La deuxième partie de la phrase après 'mais' n'a pas de sujet clair et la coordination avec 'et d'autres c'est' est incorrecte. Une reformulation est nécessaire.",
+        "suggestions": [
+          "mais qu'ils manquent de connaissances sur la conservation des aliments et que pour d'autres, le problème réside dans la compréhension de la date limite de conservation."
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Rupture syntaxique majeure : absence de sujet pour 'manque', coordination défectueuse. Construction grammaticalement incorrecte.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "meilleur avant ne veut pas dire périmé après",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "« P »",
+        "description": "Les guillemets sont absents pour encadrer une citation ou un discours rapporté textuellement.",
+        "suggestions": [
+          "« meilleur avant ne veut pas dire périmé après »"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Il s'agit d'un discours indirect ('selon Mike Von Massow...') et non d'une citation textuelle. Les guillemets sont souvent recommandés pour les formulations mémorables, mais leur absence n'est pas nécessairement fautive en discours indirect.",
+        "counterArgument": "Dans le contexte, l'auteur rapporte l'idée de Mike Von Massow en discours indirect introduit par 'selon'. Les guillemets seraient pertinents si c'était une citation textuelle, mais en discours indirect, ils ne sont pas obligatoires. L'absence de guillemets peut être considérée comme acceptable, bien que leur ajout améliorerait la clarté."
+      },
+      {
+        "id": "erreur4.7",
+        "text": "sa",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le déterminant possessif 'sa' (3e personne du singulier) ne correspond pas à son référent 'le riz et les pâtes' (pluriel). Il faut utiliser 'leur'.",
+        "suggestions": [
+          "leur"
+        ],
+        "ruleApplied": "4.1.2.3.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente : le référent est pluriel, le possessif doit être 'leur'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "Prenons en exemple",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution correcte est \"prenons pour exemple\" ou \"prenons comme exemple\". L'emploi de \"en\" est incorrect dans ce contexte.",
+        "suggestions": [
+          "Prenons pour exemple",
+          "Prenons comme exemple"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Locution figée incorrecte. Les formes correctes sont bien établies : 'prendre pour exemple' ou 'prendre comme exemple'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "constater on",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque le subordonnant \"que\" pour introduire la proposition subordonnée complétive.",
+        "suggestions": [
+          "constater qu'on"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Absence d'un subordonnant obligatoire. La complétive après 'constater' exige 'que'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.10",
+        "text": "s'en débarrasser des emballages",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom \"en\" est superflu, car il reprend le complément \"des emballages\" qui est déjà présent. On se débarrasse \"de quelque chose\".",
+        "suggestions": [
+          "se débarrasser des emballages"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Redondance pronominale claire : 'en' reprend inutilement 'des emballages' qui suit.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.11",
+        "text": "s'en rend compte",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution verbale est \"se rendre compte\". Le pronom \"en\" est erroné. De plus, le verbe \"rend\" devrait s'accorder avec le sujet \"ils\" (\"rendent\").",
+        "suggestions": [
+          "se rendent compte"
+        ],
+        "ruleApplied": "4.1.2.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double erreur : emploi incorrect de 'en' dans la locution 'se rendre compte' et défaut d'accord avec le sujet pluriel. Voir aussi erreur5.9 pour l'accord.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "Cette",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'geste' est masculin. Le déterminant démonstratif doit donc être au masculin : 'Ce'.",
+        "suggestions": [
+          "Ce"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en genre évidente : 'geste' est masculin, le déterminant doit être 'ce'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "font",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'faire' doit s'accorder avec son sujet 'Cette geste néfaste' (corrigé en 'Ce geste néfaste'), qui est à la 3e personne du singulier. La forme correcte est 'fait'.",
+        "suggestions": [
+          "fait"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord sujet-verbe : le sujet 'Ce geste néfaste' est singulier, le verbe doit être 'fait'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "affirme",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le sujet 'La plupart d'entre nous' commande l'accord du verbe au pluriel. La forme correcte est 'affirment'.",
+        "suggestions": [
+          "affirment"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Avec un nom collectif suivi d'un complément au pluriel ('la plupart d'entre nous'), l'accord au pluriel est requis.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "trops",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'adverbe 'trop' est invariable et ne prend jamais de 's'.",
+        "suggestions": [
+          "trop"
+        ],
+        "ruleApplied": "5.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente : les adverbes sont invariables.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "les laitue",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'laitue' est au singulier alors que le déterminant 'les' est au pluriel. Il faut accorder le nom en nombre : 'les laitues'.",
+        "suggestions": [
+          "les laitues"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en nombre : le déterminant pluriel 'les' exige 'laitues'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "utile",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'utile' doit s'accorder en nombre avec le pronom 'ils' (qui reprend 'les aliments'), son donneur. Il faut donc écrire 'utiles'.",
+        "suggestions": [
+          "utiles"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord de l'adjectif attribut : 'utile' doit s'accorder avec le sujet pluriel 'ils'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "jugé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après la préposition 'de', le verbe doit être à l'infinitif. Il faut écrire 'juger'.",
+        "suggestions": [
+          "juger"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de mode verbal : après 'avant de', le verbe doit être à l'infinitif.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "publique",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion entre l'adjectif féminin 'publique' et le nom masculin 'public' (l'auditoire). Il faut écrire 'public'.",
+        "suggestions": [
+          "public"
+        ],
+        "ruleApplied": "5.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion lexicale courante : dans ce contexte, il s'agit du nom masculin 'public' (l'auditoire) et non de l'adjectif 'publique'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "rend",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'rendre' doit s'accorder avec son sujet 'ils' (qui reprend 'un grand nombre de cuisiniers'), qui est à la 3e personne du pluriel. La forme correcte est 'rendent'.",
+        "suggestions": [
+          "rendent"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord sujet-verbe : avec 'un grand nombre de cuisiniers', l'accord au pluriel est préférable. Cette erreur est liée à erreur4.11.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.10",
+        "text": "leur",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant possessif 'leur' doit s'accorder en nombre avec le nom qu'il détermine, 'produits' (pluriel). Il faut donc écrire 'leurs'.",
+        "suggestions": [
+          "leurs"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du déterminant possessif : 'leur' s'accorde en nombre avec le nom déterminé 'produits'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.11",
+        "text": "consommé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'consommé', employé avec l'auxiliaire 'être', doit s'accorder en genre et en nombre avec le sujet 'le riz et les pâtes' (masculin pluriel). Il faut écrire 'consommés'.",
+        "suggestions": [
+          "consommés"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du participe passé avec 'être' : accord obligatoire avec le sujet pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.12",
+        "text": "ans",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'an' doit être au singulier car il est précédé du déterminant 'un'.",
+        "suggestions": [
+          "an"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en nombre : 'plus d'un an' exige le singulier.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.13",
+        "text": "connaissance",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'connaissance' est généralement employé au pluriel dans ce contexte pour désigner un ensemble de savoirs. Il faut écrire 'nos connaissances'.",
+        "suggestions": [
+          "connaissances"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Dans le contexte 'approfondir nos connaissances', le pluriel est requis pour désigner un ensemble de savoirs.",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 10,
+      "note": "D"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 13,
+      "note": "E"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 24,
+      "vraisErreurs": 22,
+      "discutables": 2,
+      "fauxPositifs": 0
+    }
+  },
+  "startTimestamp": "2025-12-12T11:34:47.754Z",
+  "endTimestamp": "2025-12-12T11:35:53.645Z",
+  "durationMs": 65891,
+  "durationFormatted": "01:05:891"
+}

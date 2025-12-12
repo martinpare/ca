@@ -1,0 +1,466 @@
+{
+  "processedAt": "2025-12-12T11:45:16.197Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_133.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_133.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "avons",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe 'avoir' est incorrect dans ce contexte. Il faut utiliser le verbe 'savoir' pour introduire une information. L'emploi de 'avons' crée un problème de sens.",
+        "suggestions": [
+          "savons"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur lexicale évidente : 'avoir que' est incorrect pour exprimer la connaissance d'une information. Le verbe 'savoir' est requis dans ce contexte.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "pouvons pas",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution de négation 'ne... pas' est incomplète. Il manque l'adverbe 'ne' (élidé 'n'') devant le verbe.",
+        "suggestions": [
+          "ne pouvons pas"
+        ],
+        "ruleApplied": "4.1.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Négation incomplète à l'écrit. À l'écrit standard, le 'ne' est obligatoire même si omis à l'oral familier.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "de déchet alimentaire",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Il manque le déterminant contracté 'du' (de + le) devant le nom 'déchet alimentaire' pour former un complément de cause correct. L'erreur n'est pas comptée car il y a déjà une erreur de syntaxe (S) dans cette phrase.",
+        "suggestions": [
+          "du gaspillage alimentaire"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction syntaxique incorrecte : la préposition 'à cause de' requiert un article devant le nom ('du déchet' ou 'des déchets').",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "de déchet alimentaire",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque le déterminant contracté 'du' (de + le) devant le nom 'déchet alimentaire'.",
+        "suggestions": [
+          "du gaspillage alimentaire"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction identique à erreur4.3, cette fois comptée comme erreur distincte. Article manquant après 'parlons de'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "que gaspillage alimentaire",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque le déterminant 'le' devant le groupe nominal sujet 'gaspillage alimentaire'.",
+        "suggestions": [
+          "que le gaspillage alimentaire"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Déterminant obligatoire manquant devant un nom commun en position de sujet.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "signifie sera jetée",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque un pronom sujet et la conjonction 'que' pour introduire la proposition subordonnée. Le sujet implicite est probablement 'la nourriture'.",
+        "suggestions": [
+          "signifie qu'elle sera jetée"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction syntaxique incorrecte : le verbe 'signifier' requiert une complétive introduite par 'que', et le verbe subordonné nécessite un sujet.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "nuire notre environnement",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe 'nuire' est un verbe transitif indirect qui se construit avec la préposition 'à'.",
+        "suggestions": [
+          "de nuire à notre environnement"
+        ],
+        "ruleApplied": "4.1.2.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de construction verbale : 'nuire' est un verbe transitif indirect qui exige la préposition 'à'. Construction figée et non négociable.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "affirme (RECYC-QUÉBEC , 2021)",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "S",
+        "description": "Dans une incise rapportant des paroles, le verbe ('affirme') doit être placé avant la source. De plus, une virgule est requise avant l'incise.",
+        "suggestions": [
+          "», affirme RECYC-QUÉBEC (2021)."
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction incorrecte de l'incise de citation. Le sujet ne peut pas être entièrement entre parenthèses après le verbe. La construction '» affirme RECYC-QUÉBEC (2021)' respecte la syntaxe standard.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "Maintenant que j'ai fini d'expliquer mon opinion.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette proposition subordonnée conjonctive ne peut pas former une phrase à elle seule. Elle doit être rattachée à une proposition principale, par exemple en remplaçant le point par une virgule.",
+        "suggestions": [
+          "Maintenant que j'ai fini d'expliquer mon opinion,"
+        ],
+        "ruleApplied": "4.1.2.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Phrase incomplète évidente : une subordonnée conjonctive introduite par 'Maintenant que' ne peut pas constituer une phrase indépendante.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.10",
+        "text": "Pensez-vous nous sommes prêts",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque la conjonction de subordination 'que' pour introduire la proposition complétive après le verbe 'penser'.",
+        "suggestions": [
+          "Pensez-vous que nous sommes prêts"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Conjonction 'que' obligatoire manquante après un verbe d'opinion à la forme interrogative pour introduire la complétive.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.11",
+        "text": "dans l'écosystème",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition 'dans' est inappropriée ici. La préposition 'pour' est plus juste pour indiquer le bénéficiaire de l'espoir d'un avenir meilleur.",
+        "suggestions": [
+          "pour l'écosystème"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "MEDIUM",
+        "confidenceReason": "La préposition 'dans' est sémantiquement inappropriée : on espère un avenir meilleur 'pour' quelqu'un ou quelque chose (bénéficiaire), non 'dans' quelque chose.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.12",
+        "text": "dépassent trop en produit",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est boiteuse et le sens est imprécis. Il faut reformuler pour clarifier l'idée, par exemple en utilisant 'achètent trop de produits' ou 'font des réserves excessives de produits'.",
+        "suggestions": [
+          "achètent trop de produits"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Expression incohérente : 'dépasser en produit' n'est pas une construction idiomatique française. Le sens est obscur et nécessite une reformulation.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.13",
+        "text": "» affirme (Shields, 2021).",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de l'incise est incorrecte. Le sujet du verbe 'affirme' (Shields) ne peut pas être entièrement entre parenthèses. La source doit être intégrée syntaxiquement, par exemple : '», affirme Shields (2021).'",
+        "suggestions": [
+          "», affirme Shields (2021)."
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction incorrecte de l'incise de citation. Le sujet ne peut pas être entièrement entre parenthèses après le verbe.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.14",
+        "text": "» dit (RECYC- QUÉBEC , 2021).",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de l'incise est incorrecte. Le sujet du verbe 'dit' (RECYC-QUÉBEC) ne peut pas être entièrement entre parenthèses. La source doit être intégrée syntaxiquement, par exemple : '», dit RECYC-QUÉBEC (2021).'",
+        "suggestions": [
+          "», dit RECYC-QUÉBEC (2021)."
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction incorrecte de l'incise de citation identique à erreur4.13.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.15",
+        "text": "produits nous oublierons",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque un coordonnant (comme 'et') ou une ponctuation (comme un point-virgule) pour lier correctement les deux propositions 'nous achetons trop de produits' et 'nous oublierons les autres'.",
+        "suggestions": [
+          "produits et nous oublierons",
+          "produits, si bien que nous oublierons"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Absence de coordonnant ou de subordination entre deux propositions indépendantes. La juxtaposition sans ponctuation appropriée crée une erreur syntaxique.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.16",
+        "text": "RECYC-QUÉBEC ,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une espace ne doit pas précéder la virgule.",
+        "suggestions": [
+          "RECYC-QUÉBEC,"
+        ],
+        "ruleApplied": "4.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique française : aucune espace ne précède la virgule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.17",
+        "text": "» affirme (RECYC-QUÉBEC , 2021).",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de l'incise est incorrecte. Le sujet du verbe 'affirme' (RECYC-QUÉBEC) ne peut pas être entièrement entre parenthèses. La source doit être intégrée syntaxiquement, par exemple : '», affirme RECYC-QUÉBEC (2021).'",
+        "suggestions": [
+          "», affirme RECYC-QUÉBEC (2021)."
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction incorrecte de l'incise de citation identique aux erreurs 4.8, 4.13 et 4.14.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "d'autre",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant indéfini 'autre' doit s'accorder au pluriel avec le nom 'créatures' qu'il détermine.",
+        "suggestions": [
+          "d'autres"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente : 'autre' doit s'accorder en nombre avec 'créatures' (pluriel).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "RECYC- QUÉBEC",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "La graphie de cet acronyme, qui est une dénomination, ne comporte pas d'espace avant 'QUÉBEC'.",
+        "suggestions": [
+          "RECYC-QUÉBEC"
+        ],
+        "ruleApplied": "5.2.4.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "La graphie officielle de l'organisme est 'RECYC-QUÉBEC' sans espace après le trait d'union. Vérifiable sur le site officiel de l'organisme.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "au consommation",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "La préposition contractée 'au' (à + le) est incorrecte devant le nom féminin 'consommation'. Il faut utiliser 'à la'.",
+        "suggestions": [
+          "à la consommation"
+        ],
+        "ruleApplied": "5.3.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en genre : 'au' est la contraction de 'à + le' (masculin), mais 'consommation' est féminin, donc 'à la' est requis.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "végétales",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'végétales' doit s'accorder en genre (masculin) et en nombre (pluriel) avec le nom 'aliments' qu'il qualifie.",
+        "suggestions": [
+          "végétaux"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en genre : 'aliments' est masculin pluriel, donc l'adjectif doit être 'végétaux' (masculin pluriel), non 'végétales' (féminin pluriel).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "nourritures",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'nourriture' est généralement un nom non comptable et s'emploie au singulier.",
+        "suggestions": [
+          "de la nourriture"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le nom 'nourriture' est un nom massif (non comptable) en français standard et s'emploie au singulier. L'emploi au pluriel 'nourritures' est incorrect dans ce contexte.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "peut être",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le verbe 'peut être' et l'adverbe 'peut-être' qui exprime le doute. Le trait d'union est requis ici.",
+        "suggestions": [
+          "peut-être"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion classique entre le verbe 'peut être' (pouvoir + être) et l'adverbe 'peut-être' (qui exprime le doute/la possibilité). Le contexte exige clairement l'adverbe avec trait d'union.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "charge",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot 'charge' est incorrect dans ce contexte. Il s'agit d'une confusion avec 'décharge', qui désigne un lieu où l'on dépose les ordures.",
+        "suggestions": [
+          "décharge"
+        ],
+        "ruleApplied": "5.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur lexicale claire : 'charge' ne désigne pas un dépotoir. Le mot approprié est 'décharge' (lieu d'enfouissement des déchets).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "decision",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Il manque un accent aigu sur le 'e' du mot 'décision'.",
+        "suggestions": [
+          "décision"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente : l'accent aigu est obligatoire sur le 'e' du mot 'décision'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "déchet",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après la préposition 'de', le nom 'déchet' devrait être au singulier précédé d'un partitif ('du') pour désigner la notion générale, ou au pluriel ('des déchets'). Le contexte suggère la notion, donc 'du gaspillage' ou 'du déchet'.",
+        "suggestions": [
+          "du déchet",
+          "du gaspillage"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction grammaticale incorrecte : après 'parlons de', un article est obligatoire ('du déchet alimentaire' ou 'des déchets alimentaires'). Cette erreur est liée à erreur4.4.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.10",
+        "text": "Le  gaspillage",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Présence d'une double espace superflue, ce qui constitue un barbarisme orthographique.",
+        "suggestions": [
+          "Le gaspillage"
+        ],
+        "ruleApplied": "5.2.6.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur typographique évidente : présence d'une double espace entre l'article et le nom.",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 17,
+      "note": "E"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 10,
+      "note": "E"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 27,
+      "vraisErreurs": 27,
+      "discutables": 0,
+      "fauxPositifs": 0
+    }
+  },
+  "startTimestamp": "2025-12-12T11:44:01.271Z",
+  "endTimestamp": "2025-12-12T11:45:16.197Z",
+  "durationMs": 74926,
+  "durationFormatted": "01:14:926"
+}

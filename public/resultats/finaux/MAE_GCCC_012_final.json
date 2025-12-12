@@ -1,0 +1,675 @@
+{
+  "processedAt": "2025-12-12T11:36:36.148Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_012.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_012.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "multiplié",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe 'multiplier' employé avec un sujet comme 'le nombre' est généralement pronominal. La construction correcte est 's'est multiplié'.",
+        "suggestions": [
+          "s'est multiplié"
+        ],
+        "ruleApplied": "4.1.2.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le verbe 'multiplier' au sens de 'augmenter en nombre' requiert la forme pronominale. Construction grammaticale standard claire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "trop des",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'adverbe de quantité 'trop' est suivi de la préposition 'de' (ou 'd'' devant une voyelle), et non de l'article 'des'.",
+        "suggestions": [
+          "trop d'"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle grammaticale claire et sans exception : les adverbes de quantité (trop, beaucoup, peu, etc.) sont suivis de 'de' et non d'un article.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "on pose alors la question si",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction 'poser la question si' est un calque de l'anglais. En français, on utilise 'se demander si' ou 'se poser la question de savoir si'.",
+        "suggestions": [
+          "on se demande alors si",
+          "on se pose alors la question de savoir si"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Calque syntaxique évident de l'anglais ('raise the question whether'). La construction française standard requiert 'se demander si'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "En effet, la irresponsabilité des humains et la manque d'assistance qui nous empêchent à vaincre cet enjeu.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase est incomplète, elle ne possède pas de verbe principal. Il s'agit d'une phrase subordonnée sans phrase matrice.",
+        "suggestions": [
+          "En effet, l'irresponsabilité des humains et le manque d'assistance sont des facteurs qui nous empêchent de vaincre cet enjeu."
+        ],
+        "ruleApplied": "4.1.2.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Phrase syntaxiquement incomplète. Le syntagme nominal suivi d'une relative ne constitue pas une phrase autonome. Il manque un verbe principal.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "empêchent à vaincre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Le verbe 'empêcher' se construit avec la préposition 'de' suivie d'un infinitif, et non 'à'.",
+        "suggestions": [
+          "empêchent de vaincre"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Régime prépositionnel fixe du verbe 'empêcher'. La construction avec 'à' est systématiquement incorrecte.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "de consommation",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence d'un mot essentiel. Le nom 'consommation' doit être précédé d'un déterminant pour que la phrase soit complète et claire.",
+        "suggestions": [
+          "de la consommation"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le nom 'consommation' employé dans un sens déterminé (la consommation domestique) requiert un article. L'absence de déterminant crée une construction agrammaticale.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "éviter à gaspiller",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe 'éviter' se construit avec la préposition 'de' suivie d'un infinitif, et non 'à'.",
+        "suggestions": [
+          "éviter de gaspiller"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Régime prépositionnel fixe du verbe 'éviter'. La construction avec 'à' constitue une faute systématique.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "à cause de la raison que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette construction est un pléonasme (répétition d'idées). Il faut utiliser 'parce que' ou reformuler la phrase.",
+        "suggestions": [
+          "parce que"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Pléonasme évident : 'à cause de' et 'la raison' expriment tous deux la causalité. Construction redondante à éviter.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "coût",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Confusion entre le nom 'coût' et le verbe 'coûter'. Dans ce contexte, il faut utiliser le verbe conjugué à la 3e personne du singulier.",
+        "suggestions": [
+          "coûte"
+        ],
+        "ruleApplied": "4.1.2.1.9",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur catégorielle claire : emploi d'un nom là où la syntaxe requiert un verbe conjugué. Le contexte exige 'coûte' (verbe).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.10",
+        "text": "Une autre raison, plusieurs personnes ne savent pas",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase est mal construite. 'Une autre raison' est un fragment qui n'est pas correctement relié au reste de la phrase.",
+        "suggestions": [
+          "Une autre raison est que plusieurs personnes ne savent pas",
+          "De plus, plusieurs personnes ne savent pas"
+        ],
+        "ruleApplied": "4.1.2.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Rupture syntaxique : le syntagme 'Une autre raison' n'est pas intégré grammaticalement à la phrase qui suit. Construction fragmentaire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.11",
+        "text": "savent pas à mieux conserver",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "La construction est incorrecte. La préposition 'à' est mal employée. Il faut utiliser 'comment' ou enlever la préposition.",
+        "suggestions": [
+          "ne savent pas comment mieux conserver",
+          "ne savent pas mieux conserver"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction agrammaticale : le verbe 'savoir' suivi d'un infinitif ne prend pas la préposition 'à'. Usage incorrect du régime prépositionnel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.12",
+        "text": "suffisamment des",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'adverbe de quantité 'suffisamment' est suivi de la préposition 'de' (ou 'd'' devant une voyelle), et non de l'article 'des'.",
+        "suggestions": [
+          "suffisamment d'"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle grammaticale claire : les adverbes de quantité sont suivis de 'de' sans article. Construction systématiquement fautive.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.13",
+        "text": "mettre une fin",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression correcte est 'mettre fin à'. L'article 'une' est superflu.",
+        "suggestions": [
+          "mettre fin"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Locution figée standard : 'mettre fin à'. L'ajout de l'article indéfini constitue une altération de l'expression consacrée.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.14",
+        "text": "En plus même",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence d'une virgule après un organisateur textuel en tête de phrase. 'En plus' doit être suivi d'une virgule.",
+        "suggestions": [
+          "En plus, même"
+        ],
+        "ruleApplied": "4.2.2.10.1.k",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle de ponctuation claire : les organisateurs textuels en début de phrase doivent être suivis d'une virgule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.15",
+        "text": "ils",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom de reprise est erroné. L'antécédent 'Loop Mission' est un nom de compagnie, généralement considéré comme féminin singulier ('la mission'). Le pronom devrait être 'elle'.",
+        "suggestions": [
+          "elle"
+        ],
+        "ruleApplied": "4.1.2.3.2",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Les noms d'entreprises peuvent être traités au masculin ou au féminin selon qu'on pense à 'l'organisme' (masculin) ou à 'la mission/l'entreprise' (féminin). Usage variable.",
+        "counterArgument": "Les noms d'entreprises et d'organismes peuvent accepter un accord au masculin ou au féminin selon le genre implicite qu'on leur attribue. 'Loop Mission' peut être perçu comme 'l'organisme Loop Mission' (masculin) justifiant 'ils'. Bien que 'elle' soit également défendable, l'usage du masculin pluriel pour les organismes est attesté."
+      },
+      {
+        "id": "erreur4.16",
+        "text": "capable à lutter",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'adjectif 'capable' se construit avec la préposition 'de' suivie d'un infinitif, et non 'à'.",
+        "suggestions": [
+          "capable de lutter"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Régime prépositionnel fixe de l'adjectif 'capable'. La construction avec 'à' est systématiquement incorrecte.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.17",
+        "text": "lutter le gaspillage",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Le verbe 'lutter' est un verbe transitif indirect dans ce sens. Il se construit avec la préposition 'contre'.",
+        "suggestions": [
+          "lutter contre le gaspillage"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Régime verbal fixe : 'lutter contre'. Le verbe 'lutter' ne peut être employé transitivement direct dans ce contexte.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.18",
+        "text": "a",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de concordance des temps. Dans un système hypothétique avec 'si' + imparfait ('si on était'), la proposition principale doit être au conditionnel présent.",
+        "suggestions": [
+          "aurait"
+        ],
+        "ruleApplied": "4.1.2.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle de concordance des temps dans le système hypothétique : 'si' + imparfait → conditionnel présent. Règle grammaticale stricte.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "Cher",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif doit s'accorder en genre et en nombre avec le nom qu'il qualifie. Le nom 'lecteurs' est masculin pluriel, donc l'adjectif 'cher' doit être au masculin pluriel.",
+        "suggestions": [
+          "Chers"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle d'accord élémentaire : l'adjectif s'accorde en genre et en nombre avec le nom qu'il qualifie. Erreur évidente.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "nourrive",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé employé comme adjectif doit s'accorder en genre et en nombre avec le nom qu'il qualifie. Le nom 'personnes' est féminin pluriel, donc 'nourri' doit être au féminin pluriel.",
+        "suggestions": [
+          "nourries"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double erreur : orthographe incorrecte ('nourrive' n'existe pas) et accord manquant. Le participe passé 'nourri' doit s'écrire 'nourries'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "du stocks",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant partitif doit s'accorder avec le nom. 'Stocks' est un nom pluriel, il faut donc utiliser 'des' et non 'du'.",
+        "suggestions": [
+          "des stocks"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente : le déterminant 'du' (masculin singulier) ne peut accompagner le nom pluriel 'stocks'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "gaspille",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder en nombre et en personne avec son sujet. Le sujet 'les humains' est à la 3e personne du pluriel, donc le verbe 'gaspiller' doit se conjuguer à la 3e personne du pluriel.",
+        "suggestions": [
+          "gaspillent"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord sujet-verbe élémentaire : sujet pluriel 'les humains' requiert un verbe au pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "être",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'être' doit s'accorder en nombre avec le déterminant 'les'. Il doit donc être au pluriel.",
+        "suggestions": [
+          "êtres"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Accord déterminant-nom : le déterminant pluriel 'les' requiert un nom au pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "sont",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder en personne avec son sujet. Le sujet 'nous' est à la 1re personne du pluriel, donc le verbe 'être' doit se conjuguer à la 1re personne du pluriel.",
+        "suggestions": [
+          "sommes"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord personne-verbe : le pronom 'nous' requiert la forme verbale de première personne 'sommes'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "prêt",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif doit s'accorder en nombre avec le pronom qu'il qualifie. Le pronom 'nous' est pluriel, donc l'adjectif 'prêt' doit être au pluriel.",
+        "suggestions": [
+          "prêts"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Accord de l'attribut avec le sujet 'nous' : l'adjectif doit être au pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "cette problème",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant démonstratif doit s'accorder en genre avec le nom qu'il détermine. Le nom 'problème' est masculin, donc le déterminant doit être 'ce'.",
+        "suggestions": [
+          "ce problème"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de genre : 'problème' est masculin et requiert le déterminant démonstratif masculin 'ce'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "la irresponsabilité",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'élision de l'article 'la' en 'l'' est obligatoire devant un mot commençant par une voyelle ou un 'h' muet.",
+        "suggestions": [
+          "l'irresponsabilité"
+        ],
+        "ruleApplied": "5.2.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle d'élision obligatoire devant voyelle. Erreur orthographique évidente.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.10",
+        "text": "la manque",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant doit s'accorder en genre avec le nom qu'il détermine. Le nom 'manque' est masculin, donc le déterminant doit être 'le'.",
+        "suggestions": [
+          "le manque"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de genre : 'manque' est masculin et requiert l'article masculin 'le'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.11",
+        "text": "humain",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'humain' doit s'accorder en nombre avec le déterminant 'les'. Il doit donc être au pluriel.",
+        "suggestions": [
+          "humains"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Accord déterminant-nom : le déterminant pluriel 'les' requiert un nom au pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.12",
+        "text": "restante",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif doit s'accorder en genre et en nombre avec le nom qu'il qualifie. Le nom 'aliments' est masculin pluriel, donc l'adjectif 'restant' doit être au masculin pluriel.",
+        "suggestions": [
+          "restants"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord : l'adjectif doit s'accorder avec 'aliments' (masculin pluriel).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.13",
+        "text": "jette",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec son sujet. Le sujet 'la plupart des personnes' est considéré comme un pluriel, donc le verbe 'jeter' doit se conjuguer à la 3e personne du pluriel.",
+        "suggestions": [
+          "jettent"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Avec 'la plupart de + nom pluriel', l'accord du verbe se fait au pluriel. Règle standard de l'accord avec les expressions de quantité.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.14",
+        "text": "la reste",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant doit s'accorder en genre avec le nom qu'il détermine. Le nom 'reste' est masculin, donc le déterminant doit être 'le'.",
+        "suggestions": [
+          "le reste"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de genre : 'reste' est masculin et requiert l'article masculin 'le'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.15",
+        "text": "débarassent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage sur le redoublement de la consonne. Le verbe 'débarrasser' s'écrit avec deux 'r'.",
+        "suggestions": [
+          "débarrassent"
+        ],
+        "ruleApplied": "5.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente : le verbe 'débarrasser' prend deux 'r'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.16",
+        "text": "irresponsable",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif doit s'accorder en nombre avec le pronom qu'il qualifie. Le pronom 'nous' est pluriel, donc l'adjectif 'irresponsable' doit être au pluriel.",
+        "suggestions": [
+          "irresponsables"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Accord de l'attribut avec le sujet 'nous' : l'adjectif doit être au pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.17",
+        "text": "manque",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder en nombre avec son sujet. Le sujet 'les organisations' est à la 3e personne du pluriel, donc le verbe 'manquer' doit se conjuguer à la 3e personne du pluriel.",
+        "suggestions": [
+          "manquent"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord sujet-verbe : sujet pluriel 'les organisations' requiert un verbe au pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.18",
+        "text": "Radio Canada",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe sur une dénomination. Le nom propre 'Radio-Canada' s'écrit avec un trait d'union.",
+        "suggestions": [
+          "Radio-Canada"
+        ],
+        "ruleApplied": "5.2.1.7.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Graphie officielle de l'organisme : 'Radio-Canada' avec trait d'union. Norme orthographique vérifiable.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.19",
+        "text": "supplus",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage. Le mot correct est 'surplus'.",
+        "suggestions": [
+          "surplus"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente : 'surplus' ne prend qu'un seul 'p'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.20",
+        "text": "manque",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder en nombre avec son sujet. Le sujet 'les organismes et les compagnies' est un groupe pluriel, donc le verbe 'manquer' doit se conjuguer à la 3e personne du pluriel.",
+        "suggestions": [
+          "manquent"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Sujet composé de deux groupes nominaux pluriels coordonnés : le verbe doit être au pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.21",
+        "text": "cette casse-tête",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant démonstratif doit s'accorder en genre avec le nom qu'il détermine. Le nom 'casse-tête' est masculin, donc le déterminant doit être 'ce'.",
+        "suggestions": [
+          "ce casse-tête"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de genre : 'casse-tête' est masculin et requiert le déterminant démonstratif masculin 'ce'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.22",
+        "text": "responsable",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion entre l'adjectif 'responsable' et le nom 'responsabilité'. Dans ce contexte, le nom est requis.",
+        "suggestions": [
+          "responsabilité"
+        ],
+        "ruleApplied": "5.2.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "L'expression 'manque de' requiert un nom. L'emploi de l'adjectif 'responsable' est syntaxiquement incorrect dans ce contexte.",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 17,
+      "note": "E"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 22,
+      "note": "E"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 40,
+      "vraisErreurs": 39,
+      "discutables": 1,
+      "fauxPositifs": 0
+    }
+  },
+  "startTimestamp": "2025-12-12T11:34:47.753Z",
+  "endTimestamp": "2025-12-12T11:36:36.148Z",
+  "durationMs": 108395,
+  "durationFormatted": "01:48:395"
+}

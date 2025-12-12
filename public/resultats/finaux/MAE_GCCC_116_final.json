@@ -1,0 +1,464 @@
+{
+  "processedAt": "2025-12-12T11:44:05.868Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_116.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_116.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "vu",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque l'auxiliaire 'ont' pour former le verbe principal de cette phrase. La construction correcte est 'ont vu'.",
+        "suggestions": [
+          "ont vu"
+        ],
+        "ruleApplied": "4.1.2.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Phrase incomplète sans auxiliaire. L'erreur grammaticale est évidente et empêche la compréhension correcte de la phrase.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "''parfait''",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Les guillemets dactylographiques doubles ('') ne sont pas utilisés en français standard. Il faut utiliser les guillemets français (« et »).",
+        "suggestions": [
+          "« parfait »"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur typographique claire. Les guillemets français sont la norme en français québécois dans un contexte scolaire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "ça soit",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction correcte pour exprimer une alternative ou une énumération avec le subjonctif est 'Que ce soit' et non 'Que ça soit'.",
+        "suggestions": [
+          "ce soit"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Registre familier inapproprié dans un texte argumentatif formel. 'Que ce soit' est la forme standard attendue.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "telle quelle",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution 'telle quelle' est mal employée. Pour introduire la conséquence, il faut utiliser 'telle que'.",
+        "suggestions": [
+          "telle que"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion entre deux locutions distinctes. 'Telle quelle' signifie 'sans changement', tandis que 'telle que' introduit une conséquence avec 'devenue'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "mode vie",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque la préposition 'de' dans l'expression 'mode de vie'.",
+        "suggestions": [
+          "mode de vie"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Expression figée incorrecte. La préposition 'de' est obligatoire dans 'mode de vie'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "est-ce-t-il",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction 'pourquoi est-ce-t-il' est une double interrogation redondante. Dans une interrogative indirecte, on utilise 'pourquoi il est'.",
+        "suggestions": [
+          "il est"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double construction interrogative fautive. Après 'Vous vous demandez sûrement pourquoi', l'interrogative indirecte impose l'ordre direct (sujet-verbe).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "suivent à",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe 'suivre' est un verbe transitif direct dans ce contexte. Il ne doit pas être suivi de la préposition 'à'.",
+        "suggestions": [
+          "suivent"
+        ],
+        "ruleApplied": "4.1.2.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de construction verbale. 'Suivre' est transitif direct ; la préposition 'à' est incorrecte dans ce contexte.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "l",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le chiffre '1' est attendu ici, et non la lettre 'l'.",
+        "suggestions": [
+          "19e"
+        ],
+        "ruleApplied": "5.2.6.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur typographique évidente. La lettre 'l' a été tapée à la place du chiffre '1' dans '19e siècle'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "ceux-ci",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom 'ceux-ci' doit s'accorder en genre avec son antécédent 'De nombreuses inventions révolutionnaires', qui est féminin pluriel. Il faut donc utiliser 'celles-ci'.",
+        "suggestions": [
+          "celles-ci"
+        ],
+        "ruleApplied": "5.3.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en genre du pronom démonstratif. L'antécédent 'inventions' est féminin, donc 'celles-ci' est requis.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "paii",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage. Le mot correct est 'part'.",
+        "suggestions": [
+          "part"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur typographique évidente dans l'expression 'pour ma part'. Le mot est méconnaissable.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "désire",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion entre le nom masculin 'désir' et le verbe 'désire'. Le nom s'écrit sans 'e' final.",
+        "suggestions": [
+          "désir"
+        ],
+        "ruleApplied": "5.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion évidente entre le nom et le verbe. Le contexte ('Notre désir envers') exige le nom masculin 'désir'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "retenu",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le nom 'retenue' est féminin. L'expression correcte est 'sans retenue'.",
+        "suggestions": [
+          "retenue"
+        ],
+        "ruleApplied": "5.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en genre. L'expression figée 'sans retenue' exige le nom féminin.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "bonnes qualités",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'expression 'de bonne qualité' est généralement au singulier pour désigner la caractéristique générale.",
+        "suggestions": [
+          "bonne qualité"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "L'expression figée 'de bonne qualité' est normalement au singulier pour désigner une caractéristique abstraite.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "esthétiques",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'esthétique' s'accorde avec 'perfection', qui est un nom singulier. Il doit donc être au singulier.",
+        "suggestions": [
+          "esthétique"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. 'Esthétiques' doit s'accorder avec 'perfection' (singulier) et non avec 'normes'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "fraicheur",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Il manque un accent circonflexe sur le 'i'. Le mot correct est 'fraîcheur'.",
+        "suggestions": [
+          "fraîcheur"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'orthographe d'usage. L'accent circonflexe est obligatoire sur 'fraîcheur'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "pmiions",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur de frappe. Le mot probable est 'portions'.",
+        "suggestions": [
+          "portions"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur typographique majeure rendant le mot méconnaissable. Le contexte suggère clairement 'portions'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.10",
+        "text": "aliment",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'aliment' doit être au pluriel dans ce contexte général. La réutilisation concerne les aliments en général.",
+        "suggestions": [
+          "aliments"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en nombre. Dans un contexte général ('la réutilisation d'aliments'), le pluriel est requis.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.11",
+        "text": "Mai-tinez",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur sur un nom propre. Le nom correct est 'Martinez'.",
+        "suggestions": [
+          "Martinez"
+        ],
+        "ruleApplied": "5.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur typographique sur un nom propre. 'Martinez' s'écrit sans trait d'union et avec 'r'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.12",
+        "text": "ceux",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom 'ceux' doit s'accorder en genre avec son antécédent 'Ces grandes entreprises', qui est féminin pluriel. Il faut donc utiliser 'celles'.",
+        "suggestions": [
+          "celles"
+        ],
+        "ruleApplied": "5.3.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en genre du pronom démonstratif. L'antécédent 'entreprises' est féminin.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.13",
+        "text": "consumés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Anglicisme. Le verbe 'consumer' signifie 'détruire par le feu'. Pour la nourriture, on utilise 'consommer'. Le participe passé correct est 'consommés'.",
+        "suggestions": [
+          "consommés"
+        ],
+        "ruleApplied": "5.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Anglicisme évident. 'Consumer' est un faux-ami de l'anglais 'to consume'. En français, on dit 'consommer' pour la nourriture.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.14",
+        "text": "soutien",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le nom 'soutien' et le verbe 'soutient'. La phrase requiert le verbe conjugué à la troisième personne du singulier.",
+        "suggestions": [
+          "soutient"
+        ],
+        "ruleApplied": "5.3.3.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de conjugaison évidente. Le contexte ('comme le soutient Radio-Canada') exige le verbe conjugué.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.15",
+        "text": "RadioCanada",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le nom propre 'Radio-Canada' s'écrit avec un trait d'union.",
+        "suggestions": [
+          "Radio-Canada"
+        ],
+        "ruleApplied": "5.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur sur le nom officiel d'un organisme. 'Radio-Canada' s'écrit avec un trait d'union selon la graphie officielle.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.16",
+        "text": "don",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'don' devrait être au pluriel pour s'accorder avec l'adjectif 'alimentaires' qui suit. L'expression est 'dons alimentaires'.",
+        "suggestions": [
+          "dons"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en nombre. 'Organismes' et 'alimentaires' sont au pluriel, donc 'dons' doit aussi l'être.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.17",
+        "text": "doit",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'doit' s'accorde avec le sujet 'les producteurs agricoles', qui est à la troisième personne du pluriel. La forme correcte est 'doivent'.",
+        "suggestions": [
+          "doivent"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord sujet-verbe évidente. Le sujet 'les producteurs agricoles' est au pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.18",
+        "text": "due",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'dû', employé comme adjectif, doit s'accorder en genre et en nombre avec le nom qu'il qualifie, 'le gaspillage' (masculin singulier). La forme correcte est 'dû'.",
+        "suggestions": [
+          "dû"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en genre. 'Dû' s'accorde avec 'gaspillage' (masculin), donc la forme féminine 'due' est incorrecte. De plus, l'accent circonflexe est obligatoire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.19",
+        "text": "prédilections",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Dans l'expression 'de prédilection', le nom 'prédilection' reste généralement au singulier.",
+        "suggestions": [
+          "prédilection"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'usage. L'expression figée 'de prédilection' est normalement au singulier, même quand le nom qualifié est au pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.20",
+        "text": "tel",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'tel' dans l'expression 'comme tel' doit s'accorder avec le pronom 'nous' qu'il représente. La forme correcte est 'tels'.",
+        "suggestions": [
+          "tels"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord. 'Tel' dans 'comme tel' doit s'accorder avec le référent 'nous' (pluriel), donc 'tels' est requis.",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 7,
+      "note": "D"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 20,
+      "note": "E"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 27,
+      "vraisErreurs": 27,
+      "discutables": 0,
+      "fauxPositifs": 0
+    }
+  },
+  "startTimestamp": "2025-12-12T11:43:02.199Z",
+  "endTimestamp": "2025-12-12T11:44:05.868Z",
+  "durationMs": 63669,
+  "durationFormatted": "01:03:669"
+}

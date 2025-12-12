@@ -1,0 +1,276 @@
+{
+  "processedAt": "2025-12-12T11:44:10.100Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_120.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_120.txt",
+    "registreIdentifie": "soutenu",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "le mûrement",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'adverbe 'mûrement' est employé ici comme un nom. Il faut utiliser le nom 'la maturité'.",
+        "suggestions": [
+          "la maturité"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Catégorie grammaticale incorrecte : un adverbe ne peut pas être précédé d'un déterminant défini et employé comme nom. Erreur claire de construction syntaxique.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "quelconque action",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Le déterminant est manquant devant le groupe nominal. Il faut écrire 'une quelconque action'.",
+        "suggestions": [
+          "une quelconque action"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "L'adjectif indéfini 'quelconque' ne peut pas fonctionner seul comme déterminant. Il doit obligatoirement être précédé d'un article indéfini ('un/une').",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "odieux le fait puisse-t-il paraître",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la subordonnée de concession est incorrecte. Il faut utiliser une structure comme 'si odieux que cela puisse paraître' ou 'aussi odieux que cela puisse paraître'.",
+        "suggestions": [
+          "si odieux que cela puisse paraître",
+          "aussi odieux que cela puisse paraître",
+          "si odieux le fait puisse-t-il paraître"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Construction archaïsante rare en français moderne, mais attestée en registre très soutenu/littéraire. L'inversion 'puisse-t-il' avec antéposition de l'adjectif est un procédé stylistique ancien.",
+        "counterArgument": "Cette construction avec antéposition de l'adjectif et inversion du sujet ('odieux... puisse-t-il paraître') relève d'un registre très soutenu, voire archaïsant. Elle est attestée dans la langue littéraire classique et demeure grammaticalement correcte, bien que rare en français contemporain. Le texte adopte un ton oratoire et soutenu qui justifie ce choix stylistique. Les suggestions proposées sont plus courantes, mais l'original n'est pas fautif, seulement marqué stylistiquement."
+      },
+      {
+        "id": "erreur4.4",
+        "text": "tel le fait Costco",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution comparative est 'tel que'. Le mot 'que' est manquant.",
+        "suggestions": [
+          "tel que le fait Costco"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Omission d'un élément obligatoire dans la locution comparative 'tel que'. Sans 'que', la construction est incomplète et agrammaticale.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "ait occurrence",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression 'avoir occurrence' est un calque de l'anglais. Il faut utiliser une tournure française comme 'se produise' ou 'survienne'.",
+        "suggestions": [
+          "se produise",
+          "survienne",
+          "se présente"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Calque évident de l'anglais 'to have occurrence'. Cette construction n'existe pas en français idiomatique. Il faut utiliser un verbe pronominal approprié.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "L'autre fruit lui,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule pour isoler le pronom de reprise « lui », qui doit être encadré par des virgules.",
+        "suggestions": [
+          "L'autre fruit, lui,"
+        ],
+        "ruleApplied": "4.2.2.10.1.j",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le pronom de reprise emphatique 'lui' constitue une apposition et doit être encadré par des virgules. La virgule ouvrante est obligatoire.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "controllante",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'adjectif 'contrôlant' ne double pas la consonne 'l'. Il faut écrire 'contrôlante'.",
+        "suggestions": [
+          "contrôlante"
+        ],
+        "ruleApplied": "5.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur orthographique évidente : l'adjectif 'contrôlant' s'écrit avec un seul 'l' en français. Le redoublement du 'l' est une influence de l'anglais 'controlling'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "offrent-t-il",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom de reprise 'il' ne s'accorde pas en nombre avec son antécédent 'certains magasins' (masculin pluriel). Il faut utiliser 'ils'.",
+        "suggestions": [
+          "offrent-ils"
+        ],
+        "ruleApplied": "5.3.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du pronom sujet dans l'inversion interrogative. Le pronom 'ils' doit s'accorder avec l'antécédent pluriel 'certains magasins'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "grande quantité",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'expression 'de si' est généralement suivie d'un pluriel. Le nom 'quantité' devrait être au pluriel et l'adjectif 'grand' devrait s'accorder en conséquence.",
+        "suggestions": [
+          "grandes quantités"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "L'usage du singulier 'si grande quantité' est acceptable en français, notamment quand 'quantité' est envisagé comme un tout. Le pluriel serait plus usuel, mais le singulier n'est pas fautif.",
+        "counterArgument": "Bien que le pluriel 'de si grandes quantités' soit plus fréquent, le singulier 'de si grande quantité' est grammaticalement correct. L'auteur envisage ici la quantité comme un ensemble global plutôt que comme une somme d'unités. Les deux formes coexistent en français selon la nuance sémantique souhaitée. L'OQLF et le TLFi attestent les deux usages. Dans un contexte où l'on parle d'une offre globale, le singulier se justifie."
+      },
+      {
+        "id": "erreur5.4",
+        "text": "denrée",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Dans ce contexte ('la vente de'), le nom 'denrée' est employé dans un sens pluriel et doit donc prendre la marque du pluriel.",
+        "suggestions": [
+          "denrées"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le contexte ('la vente de denrée à l'allure farfelue') évoque clairement des produits alimentaires au pluriel. L'accord au pluriel est nécessaire pour la cohérence sémantique.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "moyen-orient",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Les noms de régions géopolitiques comme 'Moyen-Orient' prennent des majuscules.",
+        "suggestions": [
+          "Moyen-Orient"
+        ],
+        "ruleApplied": "5.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de majuscule évidente. Les noms de régions géopolitiques prennent obligatoirement des majuscules initiales aux deux éléments : 'Moyen-Orient'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "ramassées",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'ramassées', employé dans la construction passive ('peuvent être'), doit s'accorder en genre et en nombre avec le sujet 'des produits' (masculin pluriel).",
+        "suggestions": [
+          "ramassés"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du participe passé avec le sujet dans une construction passive. 'Des produits' est masculin pluriel, donc 'ramassés' est la forme correcte.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "mûrement",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion entre l'adverbe « mûrement » (de manière mûre) et le nom « maturité ». Le contexte, introduit par le déterminant « le », requiert un nom.",
+        "suggestions": [
+          "la maturité"
+        ],
+        "ruleApplied": "5.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Identique à erreur4.1 : confusion de catégorie grammaticale. Un adverbe ne peut pas être employé comme nom précédé d'un déterminant.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "quelconque",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'orthographe correcte de cet adjectif indéfini est « quelconque ».",
+        "suggestions": [
+          "quelconque"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Le mot 'quelconque' est déjà correctement orthographié dans le texte. Cette détection est une erreur du système d'analyse initiale.",
+        "counterArgument": "Le texte contient déjà la graphie correcte 'quelconque'. Il n'y a aucune erreur orthographique sur ce mot. La véritable erreur se situe au niveau syntaxique (absence du déterminant 'une'), qui a déjà été signalée en erreur4.2. Cette détection orthographique est donc un faux positif complet."
+      },
+      {
+        "id": "erreur5.9",
+        "text": "capitalistique",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot « capitalistique » est un néologisme. L'adjectif correct dérivé de « capitalisme » est « capitaliste ».",
+        "suggestions": [
+          "capitaliste"
+        ],
+        "ruleApplied": "5.2.6.4",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Bien que 'capitaliste' soit la forme standard, 'capitalistique' existe en français dans des contextes économiques spécialisés (ratio capitalistique, structure capitalistique). L'emploi ici est inhabituel mais pas nécessairement fautif.",
+        "counterArgument": "Le terme 'capitalistique' existe bel et bien en français, notamment dans le vocabulaire économique et financier (ex. : 'intensité capitalistique', 'structure capitalistique'). Bien que 'capitaliste' soit l'adjectif général standard, l'auteur peut avoir voulu créer un effet stylistique ou insister sur l'aspect systémique et structurel du capitalisme. Dans un texte au registre soutenu avec des ambitions stylistiques, ce choix lexical, bien qu'inhabituel, n'est pas nécessairement une erreur, mais plutôt une licence créative. Les dictionnaires spécialisés attestent l'existence du mot."
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 5,
+      "note": "C"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 7,
+      "note": "D"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 15,
+      "vraisErreurs": 11,
+      "discutables": 3,
+      "fauxPositifs": 1
+    }
+  },
+  "startTimestamp": "2025-12-12T11:43:20.485Z",
+  "endTimestamp": "2025-12-12T11:44:10.100Z",
+  "durationMs": 49615,
+  "durationFormatted": "00:49:615"
+}

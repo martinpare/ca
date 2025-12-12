@@ -1,0 +1,348 @@
+{
+  "processedAt": "2025-12-10T14:38:09.599Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_072.txt",
+    "originalText": "La réduction du gaspillage\r\n\r\nDans notre monde, le gaspillage alimentaire est fortement élévé. Ce coulage se produit à cause de notre production, notre consommation, notre transformation et même notre transport. Normalement, la nourriture qui se gaspille comporte des résidus inévitables. Heureusement, il y a des moyens qui essayent de limiter cela, mais sommes-nous prêts à lutter contre le gaspillage alimentaire? À mon avis, à propos du gaspillage alimentaire, nous sommes prêts à se défendre grâce à nos programmes de récupération et à notre capacité à transformer les aliments.\r\n\r\nEn premier lieu, notre société est prêt à se rivaliser contre le gaspillage alimentaire en raison de nos programmes offerts. Il est donc essentiel que notre ensemble participe à ces programmes. Dans l'industrie de la restauration, les restaurants et les hôtels occasionnent souvent d'excès alors que les restaurateurs proposent les clients d'apporter leurs restes de repas à la maison. D'après la Table québécoise sur la saine alimentation publié en 2019, le concept «Tout le monde repart avec ses restants» est privilégié. Ensuite, un chef cuisinier a créé La Tablée des Chefs en 2002. Selon le site1, c'était Jean-François Archambault qui a fondé ce programme de récupération. Ce projet consiste à redistribuer le surplus alimentaire aux personnes dans la pauvreté. La Tablée des Chefs permet donc à éviter le gaspillage alimentaire. Je crois que ce programme est un excellent exemple qui démontre que nous sommes prêts à lutter contre le gaspillage alimentaire.\r\n\r\nEn deuxième lieu, je pense que le monde est prêt à se défendre contre le gaspillage alimentaire grâce à notre capacité à transformer les aliments. Selon moi, il est important que ses mets jetés se modifient en quelque chose d'autre pour empêcher le gaspillage alimentaire. Les conséquences de ce gaspillage est crucial à notre environnement. Par exemple, les aliments non consommés prennent part aux changements climatiques. Il est donc fondamental pour que les entreprises nous aident. Selon l'article Martinez publié en 2021, l'entreprise québécoise Loop Mission reproduit des restes de fruits et de légumes en jus, en savon et en alcool. Dans l'année 2020, leurs ventes ont augmenté de 116%. Dans notre société, l'alcool est bien connu, ce qui fait en sorte que ce transformation évite le gaspillage alimentaire. Alors, nous avons les moyens pour lutter contre ce gaspillage.\r\n\r\nEn conclusion, il est crucial qu'on évite le gaspillage alimentaire. Nous avons les ressources pour y faire. Notamment, nos programmes de récupération et notre capacité à transformer les aliments nous permettent d'être prêts à se défendre contre le gaspillage alimentaire. Enfin, il y a plusieurs façons qu'on peut faire individuellement chez nous pour limiter le gaspillage comme congeler les restes en portions individuelles.\r\n\r\n1 :HEBERT, Vanessa (2019). «La Tablée des Chefs : lutter contre le gaspillage et nourrir les gens dans le besoin», Métro, [En ligne], 13 mai.",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "se défendre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom réfléchi ne correspond pas au sujet 'nous'. Il faut utiliser 'nous défendre'.",
+        "suggestions": [
+          "nous défendre"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "id": "erreur4.2",
+        "text": "se rivaliser",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe 'rivaliser' n'est pas pronominal dans ce contexte. Il faut écrire 'rivaliser contre'.",
+        "suggestions": [
+          "rivaliser"
+        ],
+        "ruleApplied": "4.1.2.2.2"
+      },
+      {
+        "id": "erreur4.3",
+        "text": "notre ensemble participe",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction 'notre ensemble' est sémantiquement boiteuse. Il faut reformuler pour clarifier le sens, par exemple : 'l'ensemble de notre société participe'.",
+        "suggestions": [
+          "l'ensemble de notre société participe",
+          "nous participions tous"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "id": "erreur4.4",
+        "text": "d'excès",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe 'occasionner' est transitif direct. Il requiert un article partitif 'des' devant 'excès' et non la préposition 'de'.",
+        "suggestions": [
+          "des excès"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "id": "erreur4.5",
+        "text": "proposent les clients",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Le verbe 'proposer' se construit avec la préposition 'à' (proposer quelque chose à quelqu'un). Il manque la préposition 'aux' devant 'clients'. Erreur non comptée car il y a déjà une erreur de syntaxe dans la phrase.",
+        "suggestions": [
+          "proposent aux clients"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "id": "erreur4.6",
+        "text": "«Tout le monde repart avec ses restants»",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "« P »",
+        "description": "Le texte utilise des guillemets droits (\") au lieu des guillemets français (« ») pour encadrer une citation.",
+        "suggestions": [
+          "« Tout le monde repart avec ses restants »"
+        ],
+        "ruleApplied": "4.2.2.5.1"
+      },
+      {
+        "id": "erreur4.7",
+        "text": "c'était",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Rupture dans l'harmonisation des temps. Le texte est majoritairement au présent de l'indicatif, il faut donc utiliser 'c'est' pour maintenir la cohérence temporelle.",
+        "suggestions": [
+          "c'est"
+        ],
+        "ruleApplied": "4.1.2.2.4"
+      },
+      {
+        "id": "erreur4.8",
+        "text": "permet donc à éviter",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe 'permettre' se construit avec la préposition 'de' devant un infinitif. Il faut écrire 'permet donc d'éviter'.",
+        "suggestions": [
+          "permet donc d'éviter"
+        ],
+        "ruleApplied": "4.1.2.2.2"
+      },
+      {
+        "id": "erreur4.9",
+        "text": "pour que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution 'pour que' est superflue et incorrecte dans la construction 'Il est fondamental que...'. Il faut la supprimer.",
+        "suggestions": [
+          "que"
+        ],
+        "ruleApplied": "4.1.2.4.2"
+      },
+      {
+        "id": "erreur4.10",
+        "text": "l'article Martinez",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque la préposition 'de' pour indiquer l'auteur de l'article. La construction correcte est 'l'article de Martinez'.",
+        "suggestions": [
+          "l'article de Martinez"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "id": "erreur4.11",
+        "text": "y faire",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom 'y' est mal employé. Il renvoie généralement à un lieu. Pour remplacer 'faire cela', il faut utiliser le pronom 'le' : 'pour le faire'.",
+        "suggestions": [
+          "le faire",
+          "ce faire"
+        ],
+        "ruleApplied": "4.1.2.3.1"
+      },
+      {
+        "id": "erreur4.12",
+        "text": ":",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le deux-points est erroné après le numéro de la note de bas de page. Il doit être supprimé.",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.7.2"
+      },
+      {
+        "id": "erreur4.13",
+        "text": "«La Tablée des Chefs : lutter contre le gaspillage et nourrir les gens dans le besoin»",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "« P »",
+        "description": "Le texte utilise des guillemets droits (\") au lieu des guillemets français (« ») pour encadrer un titre d'article.",
+        "suggestions": [
+          "« La Tablée des Chefs : lutter contre le gaspillage et nourrir les gens dans le besoin »"
+        ],
+        "ruleApplied": "4.2.2.5.1"
+      },
+      {
+        "id": "erreur4.14",
+        "text": "mai",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Un point final est manquant à la fin de la référence bibliographique.",
+        "suggestions": [
+          "mai."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "id": "erreur4.15",
+        "text": "à",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition \"à\" est incorrecte. On dit que quelque chose est \"crucial pour\" quelque chose d'autre.",
+        "suggestions": [
+          "pour"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "id": "erreur4.16",
+        "text": "reproduit",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe \"reproduire\" est utilisé de manière sémantiquement incorrecte. Le contexte suggère un verbe comme \"transforme\", \"recycle\" ou \"valorise\".",
+        "suggestions": [
+          "transforme",
+          "recycle",
+          "valorise"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "id": "erreur4.17",
+        "text": "plusieurs façons qu'on peut faire",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est boiteuse. On peut dire \"plusieurs choses que l'on peut faire\" ou \"plusieurs façons de limiter le gaspillage\".",
+        "suggestions": [
+          "plusieurs choses que l'on peut faire",
+          "plusieurs façons de faire"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "id": "erreur4.18",
+        "text": "gaspillage comme",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le deux-points est requis pour introduire l'exemple qui suit.",
+        "suggestions": [
+          "gaspillage :"
+        ],
+        "ruleApplied": "4.2.2.7.1"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 14.5,
+      "note": "D"
+    },
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "élévé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'accent aigu est manquant sur le 'e' final. On écrit 'élevé'.",
+        "suggestions": [
+          "élevé"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.2",
+        "text": "essayent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Barbarisme de conjugaison pour le verbe 'essayer' au présent de l'indicatif, 3e personne du pluriel. La forme correcte est 'essaient'.",
+        "suggestions": [
+          "essaient"
+        ],
+        "ruleApplied": "5.3.2.1"
+      },
+      {
+        "id": "erreur5.3",
+        "text": "prêt",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'prêt' doit s'accorder en genre avec son donneur 'notre société' (féminin singulier). On écrit 'prête'.",
+        "suggestions": [
+          "prête"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.4",
+        "text": "publié",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'publié', employé comme adjectif, doit s'accorder en genre et en nombre avec le nom qu'il qualifie, 'la Table' (féminin singulier). On écrit 'publiée'.",
+        "suggestions": [
+          "publiée"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "id": "erreur5.5",
+        "text": "ses",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'adjectif possessif 'ses' et le déterminant démonstratif 'ces'. Pour désigner les mets dont on parle, il faut utiliser 'ces'.",
+        "suggestions": [
+          "ces"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "id": "erreur5.6",
+        "text": "est",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'être' doit s'accorder en nombre avec son sujet 'Les conséquences' (pluriel). On écrit 'sont'.",
+        "suggestions": [
+          "sont"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.7",
+        "text": "crucial",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "L'adjectif 'crucial' doit s'accorder en genre et en nombre avec son donneur 'Les conséquences' (féminin pluriel). On écrit 'cruciales'. Erreur non comptée car elle dépend du même donneur que l'erreur précédente ('est').",
+        "suggestions": [
+          "cruciales"
+        ],
+        "ruleApplied": "5.4.2.1"
+      },
+      {
+        "id": "erreur5.8",
+        "text": "ce transformation",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant démonstratif 'ce' doit s'accorder en genre avec le nom qu'il détermine, 'transformation' (féminin). On écrit 'cette'.",
+        "suggestions": [
+          "cette transformation"
+        ],
+        "ruleApplied": "5.3.1.1"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 7,
+      "note": "B"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:34:02.757Z",
+    "endTimestamp": "2025-12-10T14:38:09.599Z",
+    "durationMs": 246842,
+    "durationFormatted": "04:06:842"
+  }
+}

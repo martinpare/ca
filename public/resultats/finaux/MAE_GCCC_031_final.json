@@ -1,0 +1,578 @@
+{
+  "processedAt": "2025-12-12T11:37:46.621Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_031.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_031.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "dépendante aux",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition attendue avec l'adjectif « dépendant » est « de » et non « à ». Il faut donc écrire « dépendante des » (de + les).",
+        "suggestions": [
+          "dépendante des"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de construction prépositionnelle. L'adjectif 'dépendant' se construit toujours avec 'de', jamais avec 'à'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "mais,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "La virgule est superflue après la conjonction de coordination « mais » lorsqu'elle relie deux propositions.",
+        "suggestions": [
+          "mais"
+        ],
+        "ruleApplied": "4.2.2.10.2.k",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "La virgule après 'mais' est non justifiée ici et crée une pause injustifiée dans le flux de la phrase.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "que,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "La virgule est mal placée. Elle ne doit pas séparer la conjonction « que » du reste de la proposition. L'incidente « à mon avis » doit être encadrée par deux virgules, mais la première doit se situer avant « à ».",
+        "suggestions": [
+          "que"
+        ],
+        "ruleApplied": "4.2.2.10.2.h",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "La virgule sépare incorrectement 'que' de son complément. La ponctuation correcte serait : 'C'est pour cela, à mon avis, que nous sommes...'",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "il possède",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction est boiteuse. Le pronom impersonnel « il » ne peut pas être le sujet du verbe « posséder ». Il faut utiliser une tournure impersonnelle comme « il existe » ou « il y a ».",
+        "suggestions": [
+          "il existe",
+          "il y a"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Calque de l'anglais 'it has'. En français, on utilise 'il existe' ou 'il y a' pour les tournures impersonnelles d'existence.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "(Roy, 2018)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque un point pour clore la phrase après la référence entre parenthèses.",
+        "suggestions": [
+          "(Roy, 2018)."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le point final de la phrase est obligatoire après la parenthèse fermante qui contient la référence.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "et transformation",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Dans une énumération, il est préférable de répéter la préposition « de » et le déterminant « la » devant chaque nom. Il manque « de la » avant « transformation ».",
+        "suggestions": [
+          "et de la transformation"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "La répétition de la préposition et de l'article est préférable pour la clarté, mais l'ellipse est acceptable en français courant.",
+        "counterArgument": "L'ellipse de la préposition et de l'article dans une énumération de deux termes étroitement liés est acceptable en français courant, surtout lorsque les deux noms forment un ensemble conceptuel (production et transformation sont deux étapes d'un même processus). La répétition améliorerait la clarté, mais son absence n'est pas une faute grammaticale."
+      },
+      {
+        "id": "erreur4.7",
+        "text": "de légumes",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Dans une énumération, il est préférable de répéter le déterminant « des » devant chaque nom. Il manque « des » avant « légumes ».",
+        "suggestions": [
+          "des légumes"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "La répétition de l'article partitif est préférable, mais l'ellipse est tolérée dans une énumération courte de termes similaires.",
+        "counterArgument": "L'ellipse de l'article partitif dans une énumération de deux termes très proches sémantiquement (fruits et légumes) est courante et acceptable en français standard. La répétition ('des fruits et des légumes') est certes plus élégante, mais 'des fruits et de légumes' reste grammaticalement valide, bien que moins idiomatique."
+      },
+      {
+        "id": "erreur4.8",
+        "text": "Ça",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'emploi de « Ça » est considéré comme familier dans un écrit formel. Il convient de le remplacer par « Cela ».",
+        "suggestions": [
+          "Cela"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Dans un texte argumentatif scolaire de niveau secondaire/collégial, 'Ça' en début de phrase est trop familier. 'Cela' est requis.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "productions,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "La virgule crée une rupture de phrase (phrase-virgule). Un point est nécessaire pour séparer les deux phrases syntaxiques distinctes.",
+        "suggestions": [
+          "productions."
+        ],
+        "ruleApplied": "4.2.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute de ponctuation classique (comma splice). Deux phrases indépendantes doivent être séparées par un point, non par une virgule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.10",
+        "text": "sur",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition 'entre' est plus idiomatique que 'sur' dans l'expression 'entre nos mains' qui signifie 'sous notre responsabilité'.",
+        "suggestions": [
+          "entre"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "L'expression figée est 'entre nos/les mains'. 'Sur nos mains' n'est pas idiomatique en français.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.11",
+        "text": "significatif envers",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'adjectif 'significatif' ne se construit pas avec la préposition 'envers'. Il s'agit d'un problème de sens. On dirait plutôt 'a un impact significatif sur' ou 'est significatif pour'.",
+        "suggestions": [
+          "a un impact significatif sur"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double erreur : construction incorrecte ('significatif envers') et problème sémantique. 'Envers' s'utilise pour les personnes. Il faut dire 'a un impact sur' ou 'affecte'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.12",
+        "text": "produit»",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le guillemet fermant utilisé (») est un guillemet anglais. Il faut utiliser le guillemet français fermant avec espace insécable avant (« »).",
+        "suggestions": [
+          "produit »"
+        ],
+        "ruleApplied": "4.2.2.5.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "En typographie française, les guillemets fermants doivent être précédés d'une espace insécable.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.13",
+        "text": "très capable",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression 'très capable' est un calque de l'anglais. On utilise plutôt 'tout à fait capable' ou 'parfaitement capable'.",
+        "suggestions": [
+          "tout à fait capables"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Bien que 'très capable' soit souvent considéré comme un anglicisme, l'usage est répandu au Québec et l'adverbe 'très' peut modifier 'capable' en français standard.",
+        "counterArgument": "L'adverbe 'très' peut modifier l'adjectif 'capable' en français. Bien que 'tout à fait capable' ou 'parfaitement capable' soient plus idiomatiques, 'très capable' n'est pas grammaticalement incorrect. Le Multidictionnaire et plusieurs grammaires reconnaissent cet usage, même si certains y voient un anglicisme. Dans un contexte québécois courant, cet usage est largement accepté."
+      },
+      {
+        "id": "erreur4.14",
+        "text": "comme utiliser des stratégies de consommation à la maison et les entreprises de rester attentive à leurs productions",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La structure de l'énumération est boiteuse. Les deux éléments coordonnés par 'et' ne sont pas de même nature ('utiliser...' et 'les entreprises de rester...'). Il faut reformuler pour assurer le parallélisme.",
+        "suggestions": [
+          "comme le fait d'utiliser des stratégies de consommation à la maison et d'inciter les entreprises à rester attentives à leurs productions"
+        ],
+        "ruleApplied": "4.1.2.1.8",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Rupture de parallélisme syntaxique évidente. Les deux membres de la coordination ne sont pas de même structure : infinitif vs groupe nominal + infinitif.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "entouré",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « entouré », employé avec l'auxiliaire « être », doit s'accorder en nombre avec son donneur, le pronom « Nous » (pluriel).",
+        "suggestions": [
+          "entourés"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du participe passé avec l'auxiliaire être. Règle fondamentale : accord obligatoire avec le sujet 'nous'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "permettons",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe « permettre » doit s'accorder avec son sujet « qui », pronom relatif qui reprend « une grande variété de nourriture » (3e personne du singulier).",
+        "suggestions": [
+          "permet"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du verbe. L'antécédent de 'qui' est 'une grande variété' (singulier), donc le verbe doit être à la 3e personne du singulier.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "contrôllable",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'adjectif « contrôlable » s'écrit avec un seul « l ».",
+        "suggestions": [
+          "contrôlable"
+        ],
+        "ruleApplied": "5.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe lexicale. Le mot 'contrôlable' ne double pas le 'l' en français.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "évité",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le participe passé « évité » et l'infinitif « éviter ». Après le verbe modal « peut », l'infinitif est requis.",
+        "suggestions": [
+          "éviter"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion participe passé/infinitif. Après un verbe modal comme 'peut', l'infinitif est obligatoire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "soins",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'expression figée est « prendre soin » (au singulier).",
+        "suggestions": [
+          "soin"
+        ],
+        "ruleApplied": "5.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur lexicale. L'expression figée 'prendre soin de' s'écrit toujours au singulier.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "nombres",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « nombre » doit être au singulier dans ce contexte pour signifier « la quantité ».",
+        "suggestions": [
+          "nombre"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Dans l'expression 'faire attention au nombre de', le mot 'nombre' reste au singulier.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "familliale",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'adjectif « familial » s'écrit avec un seul « l » à la fin. La forme féminine est « familiale ».",
+        "suggestions": [
+          "familiale"
+        ],
+        "ruleApplied": "5.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe lexicale. Le mot 'familial/familiale' ne double jamais le 'l' avant le suffixe '-iale'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "recommendé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le verbe « recommander » s'écrit avec un seul « c ».",
+        "suggestions": [
+          "recommandé"
+        ],
+        "ruleApplied": "5.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe lexicale. 'Recommander' s'écrit avec deux 'm' mais un seul 'c'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "yogurt",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'orthographe correcte en français est « yogourt » (variante canadienne) ou « yaourt » (variante européenne).",
+        "suggestions": [
+          "yogourt",
+          "yaourt"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Anglicisme orthographique. En français québécois, la graphie normalisée est 'yogourt'. La forme 'yogurt' est anglaise.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.10",
+        "text": "capable",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « capable » doit s'accorder en nombre avec son donneur, le pronom « nous » (pluriel).",
+        "suggestions": [
+          "capables"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord de l'adjectif attribut. 'Capable' doit s'accorder avec le sujet 'nous' (pluriel).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.11",
+        "text": "limité",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le participe passé « limité » et l'infinitif « limiter ». Après le verbe modal « pouvons », l'infinitif est requis.",
+        "suggestions": [
+          "limiter"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion participe passé/infinitif. Après le verbe modal 'pouvons', l'infinitif est obligatoire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.12",
+        "text": "observé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le participe passé « observé » et l'infinitif « observer ». Après le verbe modal « peuvent », l'infinitif est requis.",
+        "suggestions": [
+          "observer"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion participe passé/infinitif. Après le verbe modal 'peuvent', l'infinitif est obligatoire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.13",
+        "text": "vente",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « vente » doit être au pluriel car il est précédé de « nombre de », qui implique une pluralité.",
+        "suggestions": [
+          "ventes"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Après 'nombre de', le nom complément doit être au pluriel : 'nombre de ventes'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.14",
+        "text": "diminué",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le participe passé « diminué » et l'infinitif « diminuer ». Après le verbe modal « peuvent », l'infinitif est requis.",
+        "suggestions": [
+          "diminuer"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion participe passé/infinitif. Après le verbe modal 'peuvent', l'infinitif est obligatoire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.15",
+        "text": "transformé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le participe passé « transformé » et l'infinitif « transformer ». Le verbe pronominal « se transformer » est ici à l'infinitif.",
+        "suggestions": [
+          "transformer"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion participe passé/infinitif. Après le verbe modal 'peuvent', l'infinitif est obligatoire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.16",
+        "text": "transformé",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "(G)",
+        "description": "Confusion entre le participe passé « transformé » et l'infinitif « transformer ». Après le verbe modal « peuvent », l'infinitif est requis.",
+        "suggestions": [
+          "transformer"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de la même erreur (confusion participe passé/infinitif). Après le verbe modal 'peuvent', l'infinitif est obligatoire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.17",
+        "text": "parfun",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'orthographe correcte de ce nom est « parfum ».",
+        "suggestions": [
+          "parfum"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe lexicale évidente. Le mot 'parfum' s'écrit avec un 'm' final.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.18",
+        "text": "nombreux",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « nombreux » doit s'accorder en genre avec le nom qu'il qualifie, « solutions » (féminin pluriel).",
+        "suggestions": [
+          "nombreuses"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord de l'adjectif. 'Nombreux' doit s'accorder en genre avec 'solutions' (féminin) : 'nombreuses'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.19",
+        "text": "attentive",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « attentive » doit s'accorder en nombre avec son donneur, le nom « entreprises » (pluriel).",
+        "suggestions": [
+          "attentives"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord de l'adjectif. 'Attentive' doit s'accorder en nombre avec 'entreprises' (pluriel) : 'attentives'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.20",
+        "text": "Ensemble",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le mot 'Ensemble' ne commence pas une phrase et ne doit donc pas porter de majuscule.",
+        "suggestions": [
+          "ensemble"
+        ],
+        "ruleApplied": "5.3.6.1",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Après vérification du texte, 'Ensemble' suit un point et commence bien une nouvelle phrase. La majuscule est donc correcte.",
+        "counterArgument": "Le mot 'Ensemble' apparaît au début de la phrase 'Ensemble, nous pouvons faire une grande différence par rapport au gaspillage alimentaire.' Cette phrase suit un point, donc la majuscule initiale est obligatoire et correcte. Il ne s'agit pas d'une erreur."
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 12,
+      "note": "C"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 19,
+      "note": "D"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 34,
+      "vraisErreurs": 29,
+      "discutables": 4,
+      "fauxPositifs": 1
+    }
+  },
+  "startTimestamp": "2025-12-12T11:36:15.673Z",
+  "endTimestamp": "2025-12-12T11:37:46.621Z",
+  "durationMs": 90948,
+  "durationFormatted": "01:30:948"
+}

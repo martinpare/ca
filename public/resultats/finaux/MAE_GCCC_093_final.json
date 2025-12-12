@@ -1,0 +1,848 @@
+{
+  "processedAt": "2025-12-12T11:43:11.478Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_093.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_093.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "restaurants",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une phrase doit se terminer par un signe de ponctuation forte, comme un point.",
+        "suggestions": [
+          "restaurants."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "La phrase « On peut éviter cela à la maison et dans les restaurants » est grammaticalement complète et doit se terminer par un point.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "leur",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le déterminant possessif doit s'accorder avec le possesseur, « un restaurant », qui est au singulier. Il faut donc utiliser « son ».",
+        "suggestions": [
+          "son"
+        ],
+        "ruleApplied": "4.1.2.3.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "L'antécédent « un restaurant » est au singulier. Le déterminant possessif doit être « son plat » et non « leur plat ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "Cela c'est",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction « Cela c'est » est une redondance. Il faut utiliser soit « Cela est » soit « C'est ».",
+        "suggestions": [
+          "C'est"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double pronom sujet redondant. La construction standard en français écrit est « C'est » ou « Cela est », mais pas « Cela c'est ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "chefs",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "La référence entre parenthèses ne constitue pas une phrase indépendante. Le point final de la phrase précédente doit donc être placé avant la parenthèse ouvrante.",
+        "suggestions": [
+          "chefs."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Selon les conventions typographiques, quand une référence bibliographique est ajoutée entre parenthèses après une phrase, le point se place avant la parenthèse ouvrante.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": ".",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point final de la phrase doit être placé après la proposition principale (« à cause du programme... ») et non à la fin de la citation qui est intégrée à la phrase.",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.1.2",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "La ponctuation des citations intégrées peut varier selon les conventions. Certains guides acceptent le point à l'intérieur des guillemets si la citation est complète.",
+        "counterArgument": "La citation « En 2018, plus de 600 000 repas ont été récupérés et redistribués. » forme une phrase complète. Certaines conventions typographiques acceptent que le point final reste à l'intérieur des guillemets, même lorsque la citation est intégrée à une phrase plus longue. La suggestion de déplacer le point pourrait créer une double ponctuation."
+      },
+      {
+        "id": "erreur4.6",
+        "text": "chefs",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une phrase doit se terminer par un signe de ponctuation forte, comme un point.",
+        "suggestions": [
+          "chefs."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "La phrase se termine sans ponctuation forte. Un point est obligatoire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "lendemain",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une phrase doit se terminer par un signe de ponctuation forte, comme un point.",
+        "suggestions": [
+          "lendemain."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "La phrase « rapporter le chez vous et manger le lendemain » est une proposition complète qui nécessite un point final.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "surplus",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une phrase doit se terminer par un signe de ponctuation forte, comme un point.",
+        "suggestions": [
+          "surplus."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "La dernière phrase du texte doit se terminer par un point.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "Dans nos jour",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression figée correcte est « De nos jours ».",
+        "suggestions": [
+          "De nos jours"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Expression figée incorrecte. La locution adverbiale standard est « De nos jours » et non « Dans nos jour ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.10",
+        "text": "se combattre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom réfléchi doit être de la même personne que le sujet « nous ». Il faut utiliser « nous » et non « se ».",
+        "suggestions": [
+          "nous combattre"
+        ],
+        "ruleApplied": "4.1.2.3.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Incohérence pronominale. Avec le sujet « nous », le pronom réfléchi doit être « nous » et non « se » (3e personne).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.11",
+        "text": "dépense alimentaire",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Problème de sens. Le mot « dépense » (expenditure) est utilisé à la place de « gaspillage » (waste).",
+        "suggestions": [
+          "le gaspillage alimentaire"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion sémantique évidente. « Dépense alimentaire » signifie les coûts liés à l'alimentation, tandis que le contexte exige clairement « gaspillage alimentaire ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.12",
+        "text": "croustilles.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point final doit être placé avant la référence entre parenthèses lorsque celle-ci est ajoutée en fin de phrase.",
+        "suggestions": [
+          "croustilles. (Simard, 2020)"
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Selon les normes typographiques, une référence bibliographique ajoutée après une phrase doit être précédée du point final de cette phrase.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.13",
+        "text": "aliments.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque le point pour marquer la fin de la phrase.",
+        "suggestions": [
+          "aliments."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "En relisant le texte original, la phrase « Cela n'est pas le cas pour la plupart des aliments. » se termine bien par un point.",
+        "counterArgument": "Le texte original contient déjà un point après « aliments ». Cette détection est erronée, il n'y a pas d'erreur à corriger ici."
+      },
+      {
+        "id": "erreur4.14",
+        "text": "Roy Mathilde,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Virgule erronée. On ne sépare pas un nom de son complément (ici, le prénom du nom de famille) par une virgule. L'ordre correct serait « Mathilde Roy ».",
+        "suggestions": [
+          "Mathilde Roy"
+        ],
+        "ruleApplied": "4.2.2.10.2.i",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "L'ordre conventionnel en français est « prénom + nom » (Mathilde Roy). L'ordre inversé « Roy Mathilde » avec virgule suit la convention des références bibliographiques, mais ici c'est dans le corps du texte.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.15",
+        "text": "indiquée »",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point final de la phrase principale est mal placé. Il devrait se trouver avant la référence entre parenthèses.",
+        "suggestions": [
+          "indiquée. »"
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "La ponctuation des citations avec références peut varier. Le point peut rester dans les guillemets si la citation est syntaxiquement complète.",
+        "counterArgument": "La citation « le yogourt conserve ses qualités au moins trois semaines après la date indiquée » est intégrée à la phrase introductive. Plusieurs conventions acceptent que le guillemet fermant soit suivi de la référence, puis du point final de l'ensemble. La suggestion de placer le point avant le guillemet fermant n'est pas universellement requise."
+      },
+      {
+        "id": "erreur4.16",
+        "text": "Herbert Vanessa,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Virgule erronée. On ne sépare pas un nom de son complément par une virgule. L'ordre correct serait « Vanessa Herbert ».",
+        "suggestions": [
+          "Vanessa Herbert"
+        ],
+        "ruleApplied": "4.2.2.10.2.i",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Comme pour l'erreur 4.14, l'ordre « prénom + nom » est conventionnel dans le corps du texte. « Herbert Vanessa » est un ordre bibliographique inapproprié ici.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.17",
+        "text": "» à",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule après le guillemet fermant pour lier la citation au reste de la phrase.",
+        "suggestions": [
+          "», à"
+        ],
+        "ruleApplied": "4.2.2.10.1.f",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "La ponctuation après une citation courte intégrée peut varier. Sans contexte visuel complet, il est difficile de trancher définitivement.",
+        "counterArgument": "La structure « nous dit : « En 2018, plus de 600 000 repas ont été récupérés et redistribués. » à cause du programme » est maladroite, mais la virgule n'est pas strictement obligatoire après le guillemet fermant si la citation se termine par un point. La phrase pourrait être restructurée pour plus de clarté, mais l'absence de virgule n'est pas nécessairement fautive."
+      },
+      {
+        "id": "erreur4.18",
+        "text": "Il y aussi",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence d'un mot essentiel. Il manque le verbe « a » dans l'expression « Il y a ».",
+        "suggestions": [
+          "Il y a aussi"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Omission évidente du verbe « avoir » dans la locution présentative « Il y a ». « Il y aussi » est grammaticalement incorrect.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.19",
+        "text": "commander pas",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Négation mal employée. L'adverbe de négation « ne » est manquant avant le verbe.",
+        "suggestions": [
+          "ne commandez pas"
+        ],
+        "ruleApplied": "4.1.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "La négation française écrite standard requiert la particule « ne » avant le verbe. « Commander pas » est incorrect en français écrit.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "jour",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « jour » doit s'accorder en nombre avec le déterminant pluriel « nos ».",
+        "suggestions": [
+          "jours"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accord évidente. Le déterminant possessif « nos » (pluriel) exige que le nom « jour » soit au pluriel : « nos jours ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "les",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « temps » dans l'expression « le temps des fêtes » est au singulier. Le déterminant doit donc être « le ».",
+        "suggestions": [
+          "le"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "L'expression figée est « le temps des fêtes » (singulier) au Québec. Le déterminant « les » est incorrect.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "speciale",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'adjectif « spéciale » requiert un accent aigu sur le « e ».",
+        "suggestions": [
+          "spéciale"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. L'accent aigu est obligatoire : « spéciale ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "capable",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « capable » doit s'accorder en nombre avec le pronom sujet « nous » (pluriel).",
+        "suggestions": [
+          "capables"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accord. L'attribut « capable » doit s'accorder avec le sujet pluriel « nous » : « capables ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "possibiliters",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'orthographe correcte de ce nom est « possibilités ».",
+        "suggestions": [
+          "possibilités"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. Le mot correct est « possibilités ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "mentionne",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe « mentionner » doit s'accorder en nombre avec son sujet pluriel « des sites web ».",
+        "suggestions": [
+          "mentionnent"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accord sujet-verbe. Le sujet « des sites web comme « Sauve ta bouffe » » est pluriel, le verbe doit être « mentionnent ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "mauvaise",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'attribut du sujet « mauvaise » doit s'accorder en genre avec son sujet masculin « le produit ».",
+        "suggestions": [
+          "mauvais"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accord en genre. Le sujet « le produit » est masculin, l'attribut doit être « mauvais » et non « mauvaise ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "le",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Une citation qui constitue une phrase complète et qui est introduite par un deux-points doit commencer par une majuscule.",
+        "suggestions": [
+          "Le"
+        ],
+        "ruleApplied": "5.3.6.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique claire : après un deux-points introduisant une citation complète, la majuscule est obligatoire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "peuvent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe « pouvoir » doit s'accorder avec son sujet réel, « le contenu », qui est au singulier.",
+        "suggestions": [
+          "peut"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le noyau du sujet est « le contenu » (singulier). Le verbe doit être « peut » même si des compléments au pluriel suivent.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.10",
+        "text": "utilisés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « utilisé », employé avec l'auxiliaire « être », doit s'accorder en genre et en nombre avec son sujet « le contenu » (masculin singulier).",
+        "suggestions": [
+          "utilisé"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle d'accord du participe passé avec « être ». Le sujet « le contenu » est masculin singulier : « utilisé ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.11",
+        "text": "ans",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « an » doit s'accorder en nombre avec le déterminant « un » (singulier).",
+        "suggestions": [
+          "an"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "L'expression « plus d'un an » et « plus d'un ans » coexistent dans l'usage. La logique grammaticale privilégie le singulier, mais certains auteurs utilisent le pluriel par logique sémantique.",
+        "counterArgument": "Bien que la règle grammaticale stricte exige le singulier après « un » (« plus d'un an »), l'expression « plus d'un ans » s'entend parfois dans l'usage populaire, influencée par l'idée de pluralité. La forme « plus d'un an » reste toutefois la norme prescriptive recommandée."
+      },
+      {
+        "id": "erreur5.12",
+        "text": "mesurer",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe est à l'impératif présent, deuxième personne du pluriel (« vous »). La terminaison correcte est « -ez ».",
+        "suggestions": [
+          "mesurez"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le contexte du paragraphe utilise le vouvoiement (« vous cuisinez »). L'infinitif « mesurer » doit être conjugué à l'impératif : « mesurez ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.13",
+        "text": "beau",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'attribut du sujet « beau » doit s'accorder en genre avec son sujet féminin « la présentation ».",
+        "suggestions": [
+          "belle"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accord en genre. Le sujet « la présentation » est féminin, l'attribut doit être « belle ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.14",
+        "text": "majoriter",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'orthographe correcte de ce nom est « majorité ».",
+        "suggestions": [
+          "majorité"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. Le mot correct est « majorité ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.15",
+        "text": "plusieur",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le déterminant indéfini « plusieurs » est invariable et prend toujours un « s » final.",
+        "suggestions": [
+          "plusieurs"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. « Plusieurs » s'écrit toujours avec un « s » final.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.16",
+        "text": "donnes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe « donner » doit s'accorder avec son sujet pluriel « plusieurs restaurants qui ».",
+        "suggestions": [
+          "donnent"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accord sujet-verbe. Le sujet « plusieurs restaurants qui » est pluriel : « donnent ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.17",
+        "text": "manger",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe est à l'impératif présent, deuxième personne du pluriel (implicite). La terminaison correcte est « -ez ».",
+        "suggestions": [
+          "mangez"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le contexte utilise le vouvoiement. L'infinitif « manger » doit être conjugué à l'impératif : « mangez ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.18",
+        "text": "redistribués",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après la préposition « de », le verbe doit être à l'infinitif. Il faut écrire « redistribuer ».",
+        "suggestions": [
+          "redistribuer"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle grammaticale claire. Après « permet de », le verbe doit être à l'infinitif : « redistribuer », non au participe passé.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.19",
+        "text": "à les",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "La contraction de la préposition « à » et de l'article défini « les » est obligatoire. Il faut utiliser « aux ».",
+        "suggestions": [
+          "aux"
+        ],
+        "ruleApplied": "5.3.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle de contraction obligatoire en français. « À les » doit toujours être contracté en « aux ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.20",
+        "text": "familles",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « famille » doit s'accorder en nombre avec le déterminant possessif singulier « votre ».",
+        "suggestions": [
+          "famille"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accord. Le déterminant possessif « votre » (singulier) exige « famille » au singulier.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.21",
+        "text": "partager",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe est à l'impératif présent, deuxième personne du pluriel (« vous »). La terminaison correcte est « -ez ».",
+        "suggestions": [
+          "partagez"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le contexte utilise le vouvoiement. L'infinitif « partager » doit être conjugué à l'impératif : « partagez ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.22",
+        "text": "commander",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe est à l'impératif présent, deuxième personne du pluriel (« vous »). La terminaison correcte est « -ez ».",
+        "suggestions": [
+          "commandez"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le contexte utilise le vouvoiement. L'infinitif « commander » doit être conjugué à l'impératif : « commandez ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.23",
+        "text": "c'est",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe « être » doit s'accorder avec le sujet réel « les temps des fêtes » (pluriel).",
+        "suggestions": [
+          "ce sont"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "L'expression correcte est « le temps des fêtes » (singulier), donc « c'est » serait correct. Mais si on accepte « les temps » (pluriel), alors « ce sont » s'impose.",
+        "counterArgument": "Si l'on corrige d'abord l'erreur 5.2 (« les » → « le »), alors « c'est le temps des fêtes » devient correct. L'accord dépend de la correction préalable du déterminant. Dans l'état actuel avec « les temps », effectivement « ce sont » serait requis, mais l'erreur première est le déterminant."
+      },
+      {
+        "id": "erreur5.24",
+        "text": "l'intension",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion entre les homophones « intension » et « intention ». La graphie correcte est « intention ».",
+        "suggestions": [
+          "l'intention"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion d'homophones. « Intension » (terme philosophique rare) vs « intention » (projet, dessein). Le contexte exige clairement « intention ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.25",
+        "text": "« le",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Une citation rapportée directement et formant une phrase complète doit commencer par une majuscule.",
+        "suggestions": [
+          "« Le"
+        ],
+        "ruleApplied": "5.3.6.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique claire : une citation introduite par un deux-points et formant une phrase complète doit commencer par une majuscule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.26",
+        "text": "Hebert",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Il manque l'accent aigu sur le « e » dans le nom propre « Hébert ».",
+        "suggestions": [
+          "Hébert"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe sur un nom propre. L'orthographe courante du patronyme québécois est « Hébert » avec accent.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.27",
+        "text": "hôtelleries",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « hôtellerie », désignant un secteur d'activité, s'emploie généralement au singulier.",
+        "suggestions": [
+          "l'hôtellerie"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Le terme « hôtellerie » peut désigner soit le secteur (singulier) soit des établissements hôteliers (pluriel acceptable). Le contexte pourrait justifier les deux.",
+        "counterArgument": "Bien que « l'hôtellerie » (singulier) désigne généralement le secteur d'activité dans son ensemble, l'emploi de « les hôtelleries » au pluriel peut se justifier si l'on pense à plusieurs établissements hôteliers distincts. Le contexte « récupérer les surplus alimentaires dans les hôtelleries » peut signifier « dans différents hôtels ». L'usage au singulier reste plus courant, mais le pluriel n'est pas nécessairement fautif."
+      },
+      {
+        "id": "erreur5.28",
+        "text": "La table des chefs",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur dans la dénomination. Le nom correct, mentionné précédemment, est « La tablée des chefs ».",
+        "suggestions": [
+          "La tablée des chefs"
+        ],
+        "ruleApplied": "5.2.4.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur factuelle évidente. Le nom de l'organisme mentionné plus tôt dans le texte est « La tablée des chefs », pas « La table des chefs ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.29",
+        "text": "rapporter le",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe à l'impératif doit être conjugué à la deuxième personne du pluriel (« vous »). La terminaison est « -ez ».",
+        "suggestions": [
+          "rapportez-le"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le contexte utilise le vouvoiement. L'infinitif doit être conjugué à l'impératif avec le trait d'union : « rapportez-le ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.30",
+        "text": "manger le",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe à l'impératif doit être conjugué à la deuxième personne du pluriel (« vous »). La terminaison est « -ez ».",
+        "suggestions": [
+          "mangez-le"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le contexte utilise le vouvoiement. L'infinitif doit être conjugué à l'impératif avec le trait d'union : « mangez-le ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.31",
+        "text": "un portion",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant « un » doit s'accorder en genre avec le nom « portion » (féminin).",
+        "suggestions": [
+          "une portion"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accord en genre. Le nom « portion » est féminin : « une portion ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.32",
+        "text": "donner le",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe à l'impératif doit être conjugué à la deuxième personne du pluriel (« vous »). La terminaison est « -ez ».",
+        "suggestions": [
+          "donnez-le"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le contexte utilise le vouvoiement. L'infinitif doit être conjugué à l'impératif avec le trait d'union : « donnez-le ».",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 15,
+      "note": "D"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 28,
+      "note": "E"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 51,
+      "vraisErreurs": 46,
+      "discutables": 4,
+      "fauxPositifs": 1
+    }
+  },
+  "startTimestamp": "2025-12-12T11:40:51.503Z",
+  "endTimestamp": "2025-12-12T11:43:11.478Z",
+  "durationMs": 139975,
+  "durationFormatted": "02:19:975"
+}

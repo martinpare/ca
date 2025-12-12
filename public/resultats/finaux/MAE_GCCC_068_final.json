@@ -1,0 +1,385 @@
+{
+  "processedAt": "2025-12-12T11:40:12.440Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_068.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_068.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "\"la perte de nourriture destinée à la consommation humaine.\"",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "L'utilisation des guillemets anglais (\" \") est incorrecte. En français, il faut utiliser les guillemets français (« ») avec des espaces insécables à l'intérieur.",
+        "suggestions": [
+          "« la perte de nourriture destinée à la consommation humaine. »"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "L'usage des guillemets français est la norme typographique obligatoire en français. Les guillemets anglais sont considérés comme fautifs dans un texte formel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "suivante \"Sommes-nous",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque un deux-points (:) pour introduire la question qui suit.",
+        "suggestions": [
+          "suivante : « Sommes-nous"
+        ],
+        "ruleApplied": "4.2.2.7.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le deux-points est requis pour introduire une citation directe ou une question annoncée. C'est une règle de ponctuation standard.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "\"Sommes-nous prêts à lutter contre le gaspillage alimentaire?\"",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(P)",
+        "description": "L'utilisation des guillemets anglais (\" \") est incorrecte. En français, il faut utiliser les guillemets français (« ») avec des espaces insécables à l'intérieur.",
+        "suggestions": [
+          "« Sommes-nous prêts à lutter contre le gaspillage alimentaire? »"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Même erreur répétée : guillemets anglais au lieu de guillemets français.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "\"serais-je content s'il en manquait pour moi?\"",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(P)",
+        "description": "L'utilisation des guillemets anglais (\" \") est incorrecte. En français, il faut utiliser les guillemets français (« ») avec des espaces insécables à l'intérieur.",
+        "suggestions": [
+          "« serais-je content s'il en manquait pour moi? »"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Même erreur répétée : guillemets anglais au lieu de guillemets français.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "simples, planifier",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de construction de phrase. Une énumération de verbes à l'infinitif ne peut pas suivre directement un groupe nominal (\"quelques solutions simples\") sans être introduite correctement, par exemple par un deux-points.",
+        "suggestions": [
+          "simples : planifier"
+        ],
+        "ruleApplied": "4.1.2.1.8",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "L'énumération d'infinitifs après l'annonce 'il y a quelques solutions simples' nécessite un deux-points pour introduire la liste de manière claire et conforme à la syntaxe française.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "environ la majorité",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'utilisation simultanée de \"environ\" et \"la majorité\" constitue un pléonasme (mot superflu). Il faut choisir l'un des deux termes.",
+        "suggestions": [
+          "la majorité",
+          "environ la moitié"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "La combinaison 'environ la majorité' est redondante et imprécise. 'Environ' marque l'approximation, tandis que 'la majorité' signifie 'plus de la moitié'. L'usage simultané crée une incohérence logique.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "\"meilleurs avant\"",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(P)",
+        "description": "L'utilisation des guillemets anglais (\" \") est incorrecte. En français, il faut utiliser les guillemets français (« »).",
+        "suggestions": [
+          "« meilleurs avant »"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Même erreur répétée : guillemets anglais au lieu de guillemets français.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "\"à jeter après\"",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(P)",
+        "description": "L'utilisation des guillemets anglais (\" \") est incorrecte. En français, il faut utiliser les guillemets français (« »).",
+        "suggestions": [
+          "« à jeter après »"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Même erreur répétée : guillemets anglais au lieu de guillemets français.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "\"Gaspillage alimentaire\"",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(P)",
+        "description": "L'utilisation des guillemets anglais (\" \") est incorrecte. En français, il faut utiliser les guillemets français (« »).",
+        "suggestions": [
+          "« Gaspillage alimentaire »"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Même erreur répétée : guillemets anglais au lieu de guillemets français.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.10",
+        "text": "[En ligne]",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque un point final à la fin de la référence bibliographique.",
+        "suggestions": [
+          "[En ligne]."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Les références bibliographiques se terminent systématiquement par un point final. C'est une convention normalisée.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.11",
+        "text": "soit dans les poubelles soit ils se retrouvent",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La coordination avec 'soit... soit...' doit relier des éléments de même fonction. Ici, elle relie un complément ('dans les poubelles') et une proposition ('ils se retrouvent...'). La structure est boiteuse.",
+        "suggestions": [
+          "soit dans les poubelles, soit sous forme de dons"
+        ],
+        "ruleApplied": "4.1.2.1.8",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "La construction 'soit... soit...' exige un parallélisme strict entre les éléments coordonnés. Ici, la rupture syntaxique est évidente : complément de lieu vs proposition complète avec sujet-verbe.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.12",
+        "text": "l'avance",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque un point pour marquer la fin de la phrase.",
+        "suggestions": [
+          "l'avance."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "En relisant le texte original, la phrase se termine bien par un point. L'erreur n'existe pas dans le texte fourni.",
+        "counterArgument": "Le texte original contient bien un point après 'l'avance'. La phrase complète est : 'ne pas préparer ces fruits ou ces légumes trop à l'avance.' Il n'y a donc pas d'erreur de ponctuation à cet endroit."
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "Elles",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom personnel \"Elles\" (féminin pluriel) ne s'accorde pas en nombre avec son antécédent \"une source de déchet alimentaire\" (féminin singulier).",
+        "suggestions": [
+          "Elle"
+        ],
+        "ruleApplied": "5.3.1.4",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "L'antécédent direct est 'une source' (singulier), mais le contexte sémantique peut orienter vers 'sources' au pluriel, car l'auteur vient de mentionner qu'il ne faut pas penser longtemps 'avant de trouver UNE source', sous-entendant qu'il y en a plusieurs.",
+        "counterArgument": "Bien que l'antécédent grammatical soit 'une source' (singulier), il est possible que l'auteur ait voulu exprimer l'idée que les sources de déchet alimentaire (au pluriel sémantique) sont fréquentes. C'est une syllepse grammaticale où l'accord se fait selon le sens plutôt que selon la forme stricte. Cependant, la construction reste ambiguë et mériterait une reformulation pour plus de clarté."
+      },
+      {
+        "id": "erreur5.2",
+        "text": "répondu",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé \"répondu\", employé avec l'auxiliaire \"être\" (ici au subjonctif, \"soit\"), doit s'accorder en genre et en nombre avec le sujet \"la demande\" (féminin singulier).",
+        "suggestions": [
+          "répondue"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du participe passé avec l'auxiliaire être. Règle grammaticale fondamentale : le participe passé employé avec 'être' s'accorde avec le sujet.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "comparé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé \"comparé\" doit s'accorder en genre et en nombre avec le nom auquel il se rapporte, \"la consommation\" (féminin singulier).",
+        "suggestions": [
+          "comparée"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le participe passé 'comparé' est employé comme adjectif se rapportant à 'la consommation'. Il doit s'accorder en genre et en nombre.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "à",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'homophone grammatical \"à\" (préposition) et \"a\" (verbe avoir à la 3e personne du singulier de l'indicatif présent). Le sujet \"La population\" requiert le verbe.",
+        "suggestions": [
+          "a"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'homophone évidente. Le contexte exige le verbe 'avoir' conjugué, pas la préposition 'à'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "cause",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe \"cause\" doit s'accorder en nombre avec son sujet, le pronom relatif \"qui\" dont l'antécédent est \"les emballages\" (masculin pluriel).",
+        "suggestions": [
+          "causent"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord sujet-verbe. Le sujet du verbe 'causer' est le pronom relatif 'qui', dont l'antécédent est 'les emballages' (pluriel).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "eux-même",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif \"même\" s'accorde en nombre avec le pronom \"eux\" (pluriel) auquel il se rapporte.",
+        "suggestions": [
+          "eux-mêmes"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. 'Même' accolé à un pronom pluriel doit prendre la marque du pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "prouve",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe \"prouve\" doit s'accorder avec son sujet composé (\"la mentalité capitaliste des gens et leur tendance\"), qui est pluriel.",
+        "suggestions": [
+          "prouvent"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le sujet est composé de deux éléments coordonnés par 'et' : 'la mentalité' et 'leur tendance'. Le verbe doit donc être au pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "leur produits",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant possessif 'leur' s'accorde en nombre avec le nom qu'il détermine, 'produits' (masculin pluriel). Il doit donc prendre un 's'.",
+        "suggestions": [
+          "leurs produits"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du déterminant possessif. 'Leur' prend un 's' quand le nom possédé est au pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "à",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre la préposition 'à' et la forme conjuguée 'a' du verbe 'avoir'. Le sujet 'La population' a pour verbe 'a'.",
+        "suggestions": [
+          "a"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Même erreur qu'erreur5.4 : confusion d'homophone entre la préposition et le verbe avoir.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.10",
+        "text": "au foyers",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "La préposition 'à' suivie de l'article défini pluriel 'les' se contracte en 'aux'.",
+        "suggestions": [
+          "aux foyers"
+        ],
+        "ruleApplied": "5.3.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de contraction. Devant un nom pluriel, 'à + les' devient obligatoirement 'aux'.",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 11,
+      "note": "C"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 10,
+      "note": "D"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 22,
+      "vraisErreurs": 20,
+      "discutables": 1,
+      "fauxPositifs": 1
+    }
+  },
+  "startTimestamp": "2025-12-12T11:39:08.117Z",
+  "endTimestamp": "2025-12-12T11:40:12.440Z",
+  "durationMs": 64323,
+  "durationFormatted": "01:04:323"
+}

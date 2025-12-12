@@ -1,0 +1,723 @@
+{
+  "processedAt": "2025-12-12T11:46:46.773Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_147.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_147.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "Vert",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Confusion entre l'adjectif « vert » et la préposition « vers ». La préposition « vers » est requise ici pour indiquer la direction ou la tendance.",
+        "suggestions": [
+          "Vers"
+        ],
+        "ruleApplied": "4.1.2.1.9",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion homophonique évidente. Le contexte (« Vert un monde ») exige clairement la préposition « vers » pour exprimer une direction ou une tendance.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "apporte",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Confusion entre les verbes « apporter » et « amener ». Dans ce contexte, pour introduire une conséquence logique ou un nouveau point, l'expression correcte est « ce qui nous amène à ».",
+        "suggestions": [
+          "amène"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "L'expression figée correcte en français pour introduire une transition logique est « ce qui nous amène à ». L'emploi d'« apporter » dans ce contexte est incorrect.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "un quelques",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le mot « un » est superflu devant le déterminant « quelques ».",
+        "suggestions": [
+          "quelques"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Accumulation incorrecte de déterminants. On ne peut utiliser « un » et « quelques » ensemble. C'est une erreur syntaxique évidente.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "derrière de",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition « derrière » s'emploie directement sans la préposition « de ». Le mot « de » est superflu.",
+        "suggestions": [
+          "derrière"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Emploi fautif d'une double préposition. « Derrière » se construit sans « de » dans ce contexte. L'usage correct est « se démarquer derrière ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le subordonnant « que » est superflu et crée une construction de phrase incorrecte. La phrase devrait commencer directement par « pour faire des recettes » ou être restructurée.",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le « que » crée une subordination incorrecte. La phrase « Depuis la nuit des temps, que pour faire des recettes... » est syntaxiquement défectueuse.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "dans sur le leurs",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Accumulation de prépositions (« dans », « sur ») et de déterminants (« le », « leurs ») superflus. La structure correcte est « sur leurs sites ».",
+        "suggestions": [
+          "sur leurs"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Accumulation fautive de prépositions et de déterminants incompatibles. Construction syntaxiquement incorrecte.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "ça fait",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression « ça fait » est un calque de l'oral à remplacer par une formulation plus soutenue comme « lorsque cela arrive » ou en reformulant la phrase.",
+        "suggestions": [
+          "cela fait",
+          "il arrive"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Bien que « ça fait » soit une tournure familière, elle est acceptée en français québécois courant à l'oral et dans certains contextes écrits informels.",
+        "counterArgument": "Dans un texte de niveau collégial, l'expression « ça fait » peut être considérée comme trop familière, mais elle n'est pas fautive en français québécois courant. C'est davantage une question de registre que d'erreur grammaticale. Dans un contexte où l'auteur s'adresse à un lectorat jeune avec un ton accessible, ce choix peut être acceptable."
+      },
+      {
+        "id": "erreur4.8",
+        "text": "en",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution correcte est « avoir de la misère à faire quelque chose ». La préposition « en » est incorrecte.",
+        "suggestions": [
+          "à"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "L'expression québécoise « avoir de la misère à » exige la préposition « à », non « en ». Erreur de construction préposition­nelle claire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "tous",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom « tous » ne peut être le sujet direct du verbe « sommes ». Il faut utiliser « nous » ou « nous tous ».",
+        "suggestions": [
+          "nous tous",
+          "nous"
+        ],
+        "ruleApplied": "4.1.2.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction syntaxique incorrecte. Le pronom « tous » ne peut pas être utilisé seul comme sujet. Il doit être accompagné de « nous » : « nous tous sommes capables ».",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "quelques",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'expression figée est « depuis quelque temps », au singulier, signifiant « depuis un certain temps ».",
+        "suggestions": [
+          "quelque"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Expression figée. « Depuis quelque temps » s'écrit toujours au singulier selon toutes les grammaires de référence.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "prêt",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « prêt » s'accorde en nombre avec le pronom « nous », qui est son donneur.",
+        "suggestions": [
+          "prêts"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Accord de l'adjectif évident. « Prêt » doit s'accorder au pluriel avec « nous » (« Sommes-nous prêts »).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "misent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « mis » conjugué avec l'auxiliaire « avoir » reste invariable car il n'y a pas de complément d'objet direct (COD) placé avant le verbe.",
+        "suggestions": [
+          "mis"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle d'accord du participe passé avec « avoir ». Sans COD antéposé, « mis » reste invariable. « Misent » est une confusion avec le présent de l'indicatif.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "chers",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Employé adverbialement avec le verbe « coûter », l'adjectif « cher » est invariable.",
+        "suggestions": [
+          "cher"
+        ],
+        "ruleApplied": "5.3.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle d'invariabilité de l'adverbe. Avec le verbe « coûter », « cher » est adverbial et reste invariable.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "pensé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après la préposition « de », le verbe se met à l'infinitif. Confusion entre le participe passé « pensé » et l'infinitif « penser ».",
+        "suggestions": [
+          "penser"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle de l'infinitif après une préposition. « Façon de penser » exige l'infinitif, non le participe passé.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "augmenter",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe de la proposition principale doit être conjugué. Confusion entre l'infinitif « augmenter » et le participe passé « augmenté » (utilisé avec l'auxiliaire avoir).",
+        "suggestions": [
+          "a augmenté"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Verbe principal non conjugué. La phrase nécessite un verbe conjugué au passé composé : « a augmenté ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "peuvent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le sujet « le monde » est un nom collectif singulier qui commande l'accord du verbe au singulier.",
+        "suggestions": [
+          "peut"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "En français standard, « le monde » (au sens de « les gens ») est un nom collectif singulier exigeant l'accord au singulier. Bien que le pluriel soit courant à l'oral au Québec, il reste fautif à l'écrit.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "sont",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "(G)",
+        "description": "Le verbe doit s'accorder au singulier avec son donneur « le monde ». Il s'agit d'une erreur subséquente liée au même donneur.",
+        "suggestions": [
+          "est"
+        ],
+        "ruleApplied": "5.4.2.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur subséquente. Même problème d'accord avec « le monde » (collectif singulier).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "eux même",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « même » s'accorde en nombre avec le pronom « eux » auquel il se rapporte et est joint par un trait d'union.",
+        "suggestions": [
+          "eux-mêmes"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double erreur : trait d'union manquant et accord manquant. « Même » s'accorde au pluriel et prend un trait d'union : « eux-mêmes ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.10",
+        "text": "des",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "La préposition correcte est « de » et non le déterminant « des » dans la locution « de se démarquer ».",
+        "suggestions": [
+          "de"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion entre préposition et déterminant. Devant un infinitif, on utilise la préposition « de », non l'article « des ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.11",
+        "text": "ce",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le pronom démonstratif « ce » et le pronom réfléchi « se ».",
+        "suggestions": [
+          "se"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion homophonique. Le verbe pronominal « se démarquer » exige le pronom réfléchi « se », non le pronom démonstratif « ce ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.12",
+        "text": "démarqué",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après la préposition « de », le verbe se met à l'infinitif. Confusion entre le participe passé « démarqué » et l'infinitif « démarquer ».",
+        "suggestions": [
+          "démarquer"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle de l'infinitif après préposition. Le verbe après « de » doit être à l'infinitif : « de se démarquer ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.13",
+        "text": "savent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "(G)",
+        "description": "Le verbe doit s'accorder au singulier avec son donneur « le monde ». Il s'agit d'une erreur subséquente liée au même donneur.",
+        "suggestions": [
+          "sait"
+        ],
+        "ruleApplied": "5.4.2.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur subséquente. Même problème d'accord avec « le monde » (collectif singulier).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.14",
+        "text": "produis",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Orthographe d'usage incorrecte pour le nom « produits ».",
+        "suggestions": [
+          "produits"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. Le nom « produits » s'écrit avec un « t ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.15",
+        "text": "anti gaspillages",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif composé avec le préfixe « anti- » est invariable et devrait être lié par un trait d'union ou soudé.",
+        "suggestions": [
+          "antigaspillage",
+          "anti-gaspillage"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Les adjectifs composés avec « anti- » sont invariables et s'écrivent avec trait d'union ou en un seul mot. « Anti gaspillages » est incorrect.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.16",
+        "text": "magasines",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Orthographe d'usage incorrecte pour le nom « magazines ».",
+        "suggestions": [
+          "magazines"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe courante. Le mot emprunté à l'anglais s'écrit « magazines » avec un « z » en français.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.17",
+        "text": "la",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « gaspillage » est masculin. Le déterminant doit donc être « le ».",
+        "suggestions": [
+          "le"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de genre. « Gaspillage » est masculin et exige le déterminant « le ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.18",
+        "text": "liés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion homophonique entre le participe passé « liés » et le nom « lieu ». L'expression correcte est « avoir lieu ».",
+        "suggestions": [
+          "lieu"
+        ],
+        "ruleApplied": "5.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion homophonique évidente. L'expression figée est « avoir lieu », non « avoir liés ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.19",
+        "text": "informé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « informé » s'accorde en nombre avec le pronom « nous », qui est son donneur.",
+        "suggestions": [
+          "informés"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Accord de l'adjectif. « Informé » doit s'accorder au pluriel avec « nous » : « informés ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.20",
+        "text": "telle que",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « tel » s'accorde en genre et en nombre avec son antécédent, « de grands cuisiniers » (masculin pluriel).",
+        "suggestions": [
+          "tels que"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Accord de « tel ». L'adjectif doit s'accorder avec son antécédent « cuisiniers » (masculin pluriel) : « tels que ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.21",
+        "text": "leur",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant possessif « leur » prend un « s » au pluriel lorsqu'il détermine un nom pluriel, ici « revues ».",
+        "suggestions": [
+          "leurs"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Accord du déterminant possessif. « Leur » prend un « s » quand le nom qu'il détermine est au pluriel : « leurs revues ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.22",
+        "text": "certains",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant « certains » s'accorde en genre avec le nom qu'il détermine, « provinces » (féminin pluriel).",
+        "suggestions": [
+          "certaines"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Accord du déterminant. « Certains » doit s'accorder au féminin avec « provinces » : « certaines ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.23",
+        "text": "la",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom propre « Canada » est masculin. Le déterminant doit donc être « le ».",
+        "suggestions": [
+          "le"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de genre. « Canada » est masculin et exige le déterminant « le ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.24",
+        "text": "sont",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le sujet « l'Île-du-Prince-Édouard » est singulier et commande l'accord du verbe au singulier.",
+        "suggestions": [
+          "est"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Accord du verbe. Le sujet « l'Île-du-Prince-Édouard » est singulier et exige le verbe au singulier : « est ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.25",
+        "text": "obligé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « obligé » utilisé comme adjectif s'accorde en genre et en nombre avec le sujet « l'Île-du-Prince-Édouard » (féminin singulier).",
+        "suggestions": [
+          "obligée"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Accord de l'adjectif. « Obligé » doit s'accorder au féminin avec « l'Île-du-Prince-Édouard » : « obligée ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.26",
+        "text": "alimentaire",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « alimentaire » s'accorde en nombre avec le nom qu'il qualifie, « entreprises » (pluriel).",
+        "suggestions": [
+          "alimentaires"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Accord de l'adjectif. « Alimentaire » doit s'accorder au pluriel avec « entreprises » : « alimentaires ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.27",
+        "text": "maisons",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant « chaque » est toujours suivi d'un nom au singulier.",
+        "suggestions": [
+          "maison"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle du déterminant « chaque ». Il est toujours suivi d'un nom au singulier : « chaque maison ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.28",
+        "text": "à",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre la préposition « à » et la forme conjuguée « a » du verbe « avoir ».",
+        "suggestions": [
+          "a"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion homophonique évidente. Le contexte exige le verbe « avoir » conjugué : « a ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.29",
+        "text": "composte",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Orthographe d'usage incorrecte pour le nom « compost ».",
+        "suggestions": [
+          "compost"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe courante. Le mot « compost » s'écrit sans « e » à la fin.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.30",
+        "text": "maisons",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le complément du nom « numéro » devrait être au singulier dans ce contexte.",
+        "suggestions": [
+          "maison"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Accord du complément du nom. On parle d'un numéro propre à chaque maison, donc au singulier : « numéro de maison ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.31",
+        "text": "n'est",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Dans la structure « moi qui », le verbe s'accorde avec le pronom de la première personne du singulier, « je ». La forme correcte est donc « ne suis ».",
+        "suggestions": [
+          "ne suis"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Accord du verbe avec le pronom relatif. Avec « moi qui », le verbe s'accorde à la première personne : « ne suis ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.32",
+        "text": "capable",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « capable » s'accorde en nombre avec le pronom « nous », qui est son donneur.",
+        "suggestions": [
+          "capables"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Accord de l'adjectif. « Capable » doit s'accorder au pluriel avec « nous » : « capables ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.33",
+        "text": "technique là",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'adverbe « là » utilisé pour renforcer un nom doit être lié à celui-ci par un trait d'union.",
+        "suggestions": [
+          "technique-là"
+        ],
+        "ruleApplied": "5.2.1.7.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle du trait d'union avec l'adverbe démonstratif. « Là » doit être lié au nom par un trait d'union : « technique-là ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.34",
+        "text": "tous",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'expression figée est « une fois pour toutes ». L'adjectif « toutes » s'accorde au féminin pluriel avec le nom sous-entendu « fois ».",
+        "suggestions": [
+          "toutes"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Expression figée. La locution correcte est « une fois pour toutes », avec accord au féminin pluriel.",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 8,
+      "note": "C"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 34,
+      "note": "E"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 43,
+      "vraisErreurs": 42,
+      "discutables": 1,
+      "fauxPositifs": 0
+    }
+  },
+  "startTimestamp": "2025-12-12T11:44:57.070Z",
+  "endTimestamp": "2025-12-12T11:46:46.773Z",
+  "durationMs": 109703,
+  "durationFormatted": "01:49:703"
+}

@@ -1,0 +1,433 @@
+{
+  "processedAt": "2025-12-12T11:42:52.980Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_106.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_106.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "mais,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Virgule mal placée. La virgule doit précéder la conjonction de coordination « mais » et non la suivre.",
+        "suggestions": [
+          ", mais"
+        ],
+        "ruleApplied": "4.2.2.10.2.h",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle de ponctuation claire et non ambiguë : la virgule précède toujours « mais » dans une coordination.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "nous pouvons",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "S",
+        "description": "Répétition superflue du verbe et du sujet dans la structure « non seulement... mais aussi... ».",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "La structure « non seulement... mais aussi » exige un parallélisme syntaxique sans répétition du sujet et du verbe.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "dès possible",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Structure incorrecte. Il manque le subordonnant « que » dans la locution « dès que possible ».",
+        "suggestions": [
+          "dès que possible"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Locution figée : « dès que possible » est la seule forme correcte. L'omission de « que » constitue une erreur évidente.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "sa",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de déterminant possessif. Le déterminant doit s'accorder avec le possesseur « ces aliments » (pluriel).",
+        "suggestions": [
+          "leur"
+        ],
+        "ruleApplied": "4.1.2.3.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le référent est « ces aliments » (pluriel), donc le possessif doit être « leur » et non « sa ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "de consommer",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de construction. La préposition « à » doit être répétée devant chaque verbe à l'infinitif dans une énumération dépendant de « apprendre à ».",
+        "suggestions": [
+          "à consommer"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Lorsque deux verbes à l'infinitif dépendent de « apprendre à », la préposition doit être répétée pour éviter l'ambiguïté syntaxique.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "de faire",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de construction. La préposition « de » est superflue. La structure est « nous pouvons [infinitif] et [infinitif] ».",
+        "suggestions": [
+          "faire"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le verbe modal « pouvoir » régit directement l'infinitif sans préposition. L'ajout de « de » est une erreur de construction.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "Bref",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "P",
+        "description": "Virgule manquante. Un organisateur textuel en tête de phrase doit être suivi d'une virgule.",
+        "suggestions": [
+          "Bref,"
+        ],
+        "ruleApplied": "4.2.2.10.1.k",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle de ponctuation claire : les organisateurs textuels en position initiale doivent être suivis d'une virgule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "Or",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de coordonnant. Le mot « Or » introduit une opposition ou un nouvel élément dans un raisonnement, ce qui ne convient pas au sens de la phrase qui est conclusif.",
+        "suggestions": [
+          "Ainsi",
+          "Donc"
+        ],
+        "ruleApplied": "4.1.2.4.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "« Or » marque une transition argumentative ou une opposition, alors que le contexte exige un marqueur de conclusion comme « Ainsi » ou « Donc ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "Bref",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(P)",
+        "description": "Il manque une virgule après l'organisateur textuel \"Bref\" placé en tête de phrase.",
+        "suggestions": [
+          "Bref,"
+        ],
+        "ruleApplied": "4.2.2.10.1.k",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de la même erreur de ponctuation déjà identifiée (erreur4.7). Règle claire et non ambiguë.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.10",
+        "text": "allons changer",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe de souhait \"souhaiter que\" exige l'emploi du subjonctif. L'indicatif futur proche \"allons changer\" est incorrect.",
+        "suggestions": [
+          "changions"
+        ],
+        "ruleApplied": "4.1.2.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "« Souhaiter que » exige obligatoirement le subjonctif. L'emploi de l'indicatif constitue une faute grammaticale claire.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "protéger",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif et le participe passé. Le participe passé « protégé », employé avec l'auxiliaire « être », doit s'accorder avec le sujet « l'environnement » (masculin singulier).",
+        "suggestions": [
+          "protégé"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur classique de confusion infinitif/participe passé. Avec l'auxiliaire « être », le participe passé est obligatoire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "prêts",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en genre. L'adjectif « prêts » doit s'accorder avec le sujet « Certaines personnes » (féminin pluriel).",
+        "suggestions": [
+          "prêtes"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le genre du nom « personnes » est féminin. L'adjectif doit s'accorder au féminin pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "commencés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord du participe passé. Employé avec l'auxiliaire « avoir », le participe passé « commencé » ne s'accorde pas avec le sujet. Le complément d'objet direct « cette méthode efficace » est placé après le verbe.",
+        "suggestions": [
+          "commencé"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Avec « avoir », le participe passé ne s'accorde que si le COD précède. Ici, le COD suit le verbe, donc pas d'accord.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "diminués",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord du participe passé. Employé avec l'auxiliaire « avoir », le participe passé « diminué » ne s'accorde pas avec le sujet. Le complément d'objet direct « le gaspillage des aliments » est placé après le verbe.",
+        "suggestions": [
+          "diminué"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Même règle que pour erreur5.3. Le COD suit le verbe, donc le participe passé reste invariable.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "périmé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en genre. L'adjectif « périmé » doit s'accorder avec son antécédent « la nourriture » (féminin singulier).",
+        "suggestions": [
+          "périmée"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "« La nourriture » est féminin singulier. L'adjectif attribut doit s'accorder en genre.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "périmé",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "(G)",
+        "description": "Erreur d'accord en genre. L'adjectif « périmé » doit s'accorder avec son antécédent « la nourriture » (féminin singulier). Le donneur d'accord est le même que pour l'erreur précédente.",
+        "suggestions": [
+          "périmée"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de la même erreur d'accord avec le même donneur (« la nourriture »).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "aucun preuve",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en genre. Le déterminant « aucun » doit s'accorder avec le nom « preuve » (féminin singulier).",
+        "suggestions": [
+          "aucune preuve"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "« Preuve » est un nom féminin. Le déterminant indéfini négatif doit s'accorder en genre.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "mals",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'usage. L'adverbe « mal » est invariable et ne prend jamais de « s ».",
+        "suggestions": [
+          "mal"
+        ],
+        "ruleApplied": "5.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Les adverbes sont invariables en français. L'ajout d'un « s » constitue une faute d'orthographe évidente.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "périmés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en genre et en nombre. L'adjectif « périmés » doit s'accorder avec le nom « nourritures » (féminin pluriel).",
+        "suggestions": [
+          "périmées"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "« Nourritures » est féminin pluriel. L'adjectif doit s'accorder en genre et en nombre.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.10",
+        "text": "lorsqu'onconsomme",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Barbarisme orthographique. Les mots « lorsqu'on » et « consomme » doivent être séparés par un espace.",
+        "suggestions": [
+          "lorsqu'on consomme"
+        ],
+        "ruleApplied": "5.2.6.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur typographique claire : absence d'espace entre deux mots distincts.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.11",
+        "text": "nuira",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le verbe « nuire » doit s'accorder avec son sujet « qui », pronom relatif qui reprend « des actions » (pluriel).",
+        "suggestions": [
+          "nuiront"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le pronom relatif « qui » reprend « des actions » (pluriel). Le verbe doit s'accorder avec ce sujet pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.12",
+        "text": "diminuer",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif et le participe passé. Dans la construction passive « peut être », il faut utiliser le participe passé « diminué ».",
+        "suggestions": [
+          "diminué"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction passive avec « être » : le participe passé est obligatoire, pas l'infinitif.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.13",
+        "text": "malhabitude",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Barbarisme lexical. Le mot « malhabitude » n'est pas un mot standard en français. Il faut utiliser « mauvaise habitude ».",
+        "suggestions": [
+          "mauvaise habitude"
+        ],
+        "ruleApplied": "5.2.1.8",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "« Malhabitude » est attesté au Québec comme régionalisme, bien qu'il ne soit pas dans les dictionnaires de référence français standard.",
+        "counterArgument": "« Malhabitude » est un québécisme attesté dans l'usage québécois, bien qu'il ne figure pas dans les dictionnaires français de référence. L'OQLF ne le répertorie pas comme erreur, mais comme une forme québécoise familière. Dans un contexte scolaire formel, « mauvaise habitude » serait préférable, mais l'usage québécois rend cette forme compréhensible et acceptable dans un registre courant québécois."
+      },
+      {
+        "id": "erreur5.14",
+        "text": "utilisés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le participe passé et l'infinitif. Après le verbe modal « pouvoir », le verbe qui suit doit être à l'infinitif.",
+        "suggestions": [
+          "utiliser"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Les verbes modaux comme « pouvoir » sont suivis de l'infinitif. L'emploi du participe passé est une erreur grammaticale évidente.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.15",
+        "text": "diminuer",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "(G)",
+        "description": "Confusion entre l'infinitif en \"-er\" et le participe passé en \"-é\". Après l'auxiliaire \"être\", il faut utiliser le participe passé.",
+        "suggestions": [
+          "diminué"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de la même confusion infinitif/participe passé (similaire à erreur5.12). Règle grammaticale claire.",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 10,
+      "note": "D"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 15,
+      "note": "D"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 25,
+      "vraisErreurs": 24,
+      "discutables": 1,
+      "fauxPositifs": 0
+    }
+  },
+  "startTimestamp": "2025-12-12T11:41:50.249Z",
+  "endTimestamp": "2025-12-12T11:42:52.980Z",
+  "durationMs": 62731,
+  "durationFormatted": "01:02:731"
+}

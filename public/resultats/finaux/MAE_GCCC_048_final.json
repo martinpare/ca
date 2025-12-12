@@ -1,0 +1,371 @@
+{
+  "processedAt": "2025-12-12T11:38:44.765Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_048.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_048.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "oui !",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule est requise pour isoler le mot-phrase « oui » qui suit ici un complément de phrase.",
+        "suggestions": [
+          "oui,"
+        ],
+        "ruleApplied": "4.2.2.10.1.e",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Dans un texte au ton exclamatif et expressif, l'usage du point d'exclamation immédiatement après « oui » peut être considéré comme un choix stylistique pour marquer l'emphase plutôt qu'une erreur stricte de ponctuation.",
+        "counterArgument": "Le point d'exclamation après « oui » crée un effet d'emphase cohérent avec le ton interpellatif du texte. Bien que la virgule soit la ponctuation standard, l'exclamation traduit une expressivité volontaire dans ce contexte d'engagement direct avec le lecteur. Cette construction peut être vue comme un choix rhétorique plutôt qu'une faute."
+      },
+      {
+        "id": "erreur4.2",
+        "text": "s'attaquer",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom personnel sujet « nous » commande la reprise par le pronom réfléchi de la même personne, soit « nous ».",
+        "suggestions": [
+          "nous attaquer"
+        ],
+        "ruleApplied": "4.1.2.3.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur grammaticale claire : avec le verbe « devoir » suivi d'un verbe pronominal à l'infinitif, le pronom réfléchi doit s'accorder avec le sujet « nous ». L'utilisation de « s' » est incompatible avec « nous devons ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "juste penser",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'emploi de l'adverbe « juste » dans le sens de « seulement » ou « simplement » est un calque de l'anglais ou un emploi propre à la langue orale. Il convient de le remplacer par une autre formulation.",
+        "suggestions": [
+          "penser seulement",
+          "simplement penser",
+          "suffit de penser"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Bien que « juste » dans ce sens soit familier, l'OQLF reconnaît cet usage comme un québécisme courant à l'oral. Dans un texte de niveau scolaire au ton accessible, cet usage peut être toléré selon le registre visé.",
+        "counterArgument": "L'emploi de « juste » au sens de « seulement » est un québécisme oral largement répandu et reconnu par l'OQLF. Dans un texte au ton accessible et interpellatif visant un public général, cet usage peut être considéré comme un choix de proximité avec le lecteur plutôt qu'une erreur stricte. Cependant, un registre plus soutenu privilégierait effectivement « seulement » ou « il suffit de »."
+      },
+      {
+        "id": "erreur4.4",
+        "text": "ça",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom « ça » est une forme contractée de « cela » et relève du registre familier. Dans un texte de style soutenu, il est préférable d'utiliser « cela ».",
+        "suggestions": [
+          "cela"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Le registre du texte est courant/accessible, avec plusieurs marques d'oralité assumées (interpellations directes, questions rhétoriques). L'usage de « ça » est cohérent avec ce ton.",
+        "counterArgument": "Le texte adopte un registre courant avec un ton accessible et interpellatif (« Cher lecteur », « Pensez-vous que... »). Dans ce contexte, l'usage de « ça » plutôt que « cela » est cohérent avec le niveau de langue global et contribue à la proximité avec le lecteur. Si le texte visait un registre strictement soutenu, « cela » serait préférable, mais le choix de « ça » n'est pas incohérent ici."
+      },
+      {
+        "id": "erreur4.5",
+        "text": "qu'on n'est sûr",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution verbale « être sûr de quelque chose » requiert la préposition « de ». Le pronom relatif approprié est donc « dont » et non « que ».",
+        "suggestions": [
+          "dont on est sûr"
+        ],
+        "ruleApplied": "4.1.2.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur syntaxique évidente : « être sûr » se construit obligatoirement avec la préposition « de », ce qui exige le pronom relatif « dont » et non « que ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "Au lieu d'acheter de grandes quantités lorsqu'il y a des soldes puisque c'est moins cher,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette partie de phrase est une subordonnée sans phrase principale (matrice). Elle constitue un fragment de phrase et doit être rattachée à une phrase principale ou reformulée pour former une phrase complète.",
+        "suggestions": [
+          "Il faut éviter d'acheter de grandes quantités lorsqu'il y a des soldes, même si c'est moins cher."
+        ],
+        "ruleApplied": "4.1.2.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Fragment de phrase évident : une proposition commençant par « Au lieu de » sans phrase principale constitue une phrase syntaxiquement incomplète.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "Puisqu'il y a des populations défavorisées qui manquent d'argent pour subvenir à leurs besoins alimentaires.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase commence par une conjonction de subordination (« Puisque ») mais n'est pas rattachée à une phrase principale. Elle constitue un fragment de phrase.",
+        "suggestions": [
+          "Cette lutte est nécessaire puisqu'il y a des populations défavorisées qui manquent d'argent pour subvenir à leurs besoins alimentaires."
+        ],
+        "ruleApplied": "4.1.2.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Fragment de phrase clair : une subordonnée causale introduite par « Puisque » ne peut constituer une phrase autonome sans phrase principale.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "Métro",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence du point final à la fin de la référence bibliographique.",
+        "suggestions": [
+          "Métro."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de ponctuation évidente dans les normes bibliographiques : toute référence doit se terminer par un point final.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "RECYC-QUÉBEC,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une référence bibliographique complète doit se terminer par un point final, et non par une virgule.",
+        "suggestions": [
+          "RECYC-QUÉBEC."
+        ],
+        "ruleApplied": "4.2.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de ponctuation bibliographique : les références doivent se terminer par un point, non par une virgule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.10",
+        "text": "juin",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence du point final à la fin de la référence bibliographique.",
+        "suggestions": [
+          "juin."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de ponctuation bibliographique : absence du point final obligatoire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.11",
+        "text": ",",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Cette virgule est superflue. Elle sépare le groupe sujet (« l'organisme... 2002 ») du verbe « a permis ».",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.10.2.a",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de ponctuation claire : il est interdit de séparer le sujet du verbe par une virgule en français, sauf en cas d'incise (ce qui n'est pas le cas ici).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.12",
+        "text": "se seront pas gaspillés",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction du verbe « gaspiller » à la voix passive est incorrecte. Il faut utiliser l'auxiliaire « être » (seront gaspillés) ou « avoir » pour le passif (auront été gaspillés), et non la forme pronominale.",
+        "suggestions": [
+          "seront pas gaspillés",
+          "n'auront pas été gaspillés"
+        ],
+        "ruleApplied": "4.1.2.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de construction verbale : « se gaspiller » au sens passif n'existe pas. La forme correcte est « être gaspillé » au passif.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.13",
+        "text": ".",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point final doit être placé avant les références de source en fin de phrase, et non après. Il faut donc le supprimer ici et le placer après « alcool ».",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de ponctuation selon les normes de citation : le point final de la phrase doit précéder l'appel de note ou la référence entre parenthèses.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.14",
+        "text": ",",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule est incorrecte en fin de référence bibliographique. Il faut utiliser un point.",
+        "suggestions": [
+          "."
+        ],
+        "ruleApplied": "4.2.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de ponctuation bibliographique répétée : les références se terminent par un point.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.15",
+        "text": "(2021)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque un point après la parenthèse fermante de l'année de publication dans la référence bibliographique.",
+        "suggestions": [
+          "(2021)."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de ponctuation bibliographique : absence du point final requis.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "à permis",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre la préposition « à » et la forme conjuguée « a » du verbe avoir. Il faut utiliser l'auxiliaire « a ».",
+        "suggestions": [
+          "a permis"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur grammaticale évidente : confusion homophonique classique entre la préposition « à » et l'auxiliaire « a ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "se seront",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec son sujet « qui », dont l'antécédent est « la quantité ». Le sujet est donc à la 3e personne du singulier.",
+        "suggestions": [
+          "se sera"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du verbe avec son sujet : « qui » reprend « la quantité » (singulier), donc le verbe doit être au singulier.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "gaspillés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé employé avec l'auxiliaire « être » (ici, au futur antérieur du verbe pronominal « se gaspiller ») s'accorde en genre et en nombre avec le sujet « qui », qui reprend « la quantité » (féminin singulier).",
+        "suggestions": [
+          "gaspillée"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du participe passé : avec l'auxiliaire être, l'accord se fait avec le sujet « la quantité » (féminin singulier).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "ils existent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe « exister » est ici employé dans une construction impersonnelle. Le pronom sujet est donc « il » (impersonnel) et le verbe doit être au singulier.",
+        "suggestions": [
+          "il existe"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur grammaticale claire : la construction impersonnelle « il existe » requiert le pronom impersonnel « il » au singulier, non « ils ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "Alimentaire",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Dans un titre, seul le premier mot prend une majuscule, ainsi que les noms propres. « Alimentaire » est un adjectif et doit commencer par une minuscule.",
+        "suggestions": [
+          "alimentaire"
+        ],
+        "ruleApplied": "5.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur typographique selon les règles de majusculation des titres : seul le premier mot et les noms propres prennent la majuscule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "Alimentaire",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Répétition de l'erreur de majuscule sur l'adjectif « alimentaire » dans un titre.",
+        "suggestions": [
+          "alimentaire"
+        ],
+        "ruleApplied": "5.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de la même erreur typographique sur la majusculation dans les titres.",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 12,
+      "note": "D"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 5,
+      "note": "B"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 21,
+      "vraisErreurs": 17,
+      "discutables": 4,
+      "fauxPositifs": 0
+    }
+  },
+  "startTimestamp": "2025-12-12T11:37:37.375Z",
+  "endTimestamp": "2025-12-12T11:38:44.765Z",
+  "durationMs": 67390,
+  "durationFormatted": "01:07:390"
+}

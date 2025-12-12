@@ -1,0 +1,368 @@
+{
+  "processedAt": "2025-12-10T15:10:26.408Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_138.txt",
+    "originalText": "Notre ennemi, le gaspillage alimentaire\r\n\r\nOn retrouve cinq principes des besoins humains dans le Pyramide de Maslow : besoin de sécurité, besoin d'appartenance, etc. L'alimentation se catégorise dans la première base du pyramide, les besoins physiologiques. Manger, c'est important. Avec notre nouvelle société qui progresse tranquillement, le gaspillage alimentaire et ses conséquences établissent une place inquiétante. Sommes-nous prêts à lutter contre le gaspillage alimentaire ? Selon moi, le gaspillage des aliments n'est pas quelque chose que notre société est prête à combattre.\r\n\r\nPremièrement, les standards esthétiques pour la nourriture que portent plusieurs générations ne permettent pas la distribution des produits imparfaits. En tant que consommateur, nous visons souvent à acheter et à manger les aliments qu'on trouve les plus beaux parce qu'on pense qu'ils sont plus frais. Toutefois, une carotte fourchue peut être plus frais qu'une carotte droite, belle et sans divisions à l'extrémité. Ainsi dans l'article « Les légumes moches, un marché de niche », publié en 2020, Daphné Cameron explique que plusieurs agriculteurs sont souvent incertains à distribuer des aliments qui ne répondent pas aux standards habituels parce qu'ils sont vendus à un prix plus bas. Pourquoi vendre un produit naturel quand on peut vendre des produits transformer génétiquements et remporter plus d'argent? De plus, à cause des strictes réglementations, plusieurs marchés et restaurants jettent les aliments imparfait pour plaire leurs consommateur et pour garder une réputation. À ce sujet, l'infographie « LE GASPILLAGE ALIMENTAIRE » dans la section « HÔTELLERIE ET RESTAURATION », on constate que « Dans les restaurants et les hôtels, les normes sévères de perfection esthétique et de fraîcheur des aliments, la multitude des plats offerts ainsi que les portions trop grosses occasionnent du gaspillage. » Bref, les normes esthétiques d'un produit parfait entraînent le gaspillage alimentaire.\r\n\r\nDernièrement, nous sommes pas prêts à lutter contre le gaspillage alimentaire à cause des mauvaises habitudes humains. En effet, à cause des planifications inadéquats des repas, le surplus de nourriture sur l'assiette ne peuvent souvent pas être conserver et deviennent plus consomable. Après avoir conduit une étude, Conseil national zero déchet constate que les familles canadiennes gaspilles deux millions de tonnes d'aliment chaque année. Cela équivaut à une perte de 17 milliards de dollars. Malheureusement, ce sont surtout les produits végétaux qui sont gaspillés. Bref ces mauvaises habitudes doivent être arrêter pour diminuer l'impact du gaspillage alimentaire.\r\n\r\nEn conclusion, je pense pas que nous sommes prêts à lutter contre le gaspillage alimentaire en raison des standards esthétiques de nos produits alimentaires et des mauvaises habitudes présentent dans notre société. Avec 47 % du gaspillage provenant de la consommation et 19 % provenant de la vente au détail, il faut commencer à installer des mesures plus affectifs pour que nos future génération resentent pas les conséquences.",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "établissent une place",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction 'établissent une place' est sémantiquement boiteuse. Il serait plus juste d'utiliser 'occupent une place' ou 'prennent une place'.",
+        "suggestions": [
+          "occupent une place"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "id": "erreur4.2",
+        "text": "Ainsi",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule après l'organisateur textuel 'Ainsi' en tête de phrase.",
+        "suggestions": [
+          "Ainsi,"
+        ],
+        "ruleApplied": "4.2.2.10.1.k"
+      },
+      {
+        "id": "erreur4.3",
+        "text": "incertains à distribuer",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition 'à' est incorrecte après l'adjectif 'incertains'. On utilise la préposition 'de' ou on reformule avec un verbe comme 'hésiter à'.",
+        "suggestions": [
+          "incertains de distribuer",
+          "hésitants à distribuer"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "id": "erreur4.4",
+        "text": "plaire leurs",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe 'plaire' est un verbe transitif indirect. Il manque la préposition 'à' avant le complément 'leurs consommateurs'.",
+        "suggestions": [
+          "plaire à leurs"
+        ],
+        "ruleApplied": "4.1.2.2.2"
+      },
+      {
+        "id": "erreur4.5",
+        "text": "sommes pas",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La négation est incomplète. Il manque l'adverbe 'ne' (ou 'n'') avant le verbe 'sommes'.",
+        "suggestions": [
+          "ne sommes pas"
+        ],
+        "ruleApplied": "4.1.2.1.3"
+      },
+      {
+        "id": "erreur4.6",
+        "text": "Bref",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule après l'organisateur textuel 'Bref' en tête de phrase.",
+        "suggestions": [
+          "Bref,"
+        ],
+        "ruleApplied": "4.2.2.10.1.k"
+      },
+      {
+        "id": "erreur4.7",
+        "text": "pense pas",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La négation est incomplète. Il manque l'adverbe 'ne' (ou 'n'') avant le verbe 'pense'.",
+        "suggestions": [
+          "ne pense pas"
+        ],
+        "ruleApplied": "4.1.2.1.3"
+      },
+      {
+        "id": "erreur4.8",
+        "text": "resentent pas",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La négation est incomplète. Il manque l'adverbe 'ne' (ou 'n'') avant le verbe 'ressentent'.",
+        "suggestions": [
+          "ne ressentent pas"
+        ],
+        "ruleApplied": "4.1.2.1.3"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 7,
+      "note": "B"
+    },
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "le",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant 'le' est masculin, mais il accompagne le nom 'Pyramide' qui est féminin. L'accord en genre est incorrect.",
+        "suggestions": [
+          "la"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.2",
+        "text": "consommateur",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'consommateur' est au singulier, mais il se rapporte au pronom 'nous' qui est pluriel. Il faut accorder le nom au pluriel.",
+        "suggestions": [
+          "consommateurs"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.3",
+        "text": "frais",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'frais' est au masculin singulier, mais il qualifie le nom 'carotte' qui est féminin singulier. L'accord en genre est incorrect.",
+        "suggestions": [
+          "fraîche"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.4",
+        "text": "transformer",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "La forme verbale 'transformer' (infinitif) est incorrecte. Il faut utiliser le participe passé 'transformés' qui s'accorde avec le nom 'produits' (donneur).",
+        "suggestions": [
+          "transformés"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "id": "erreur5.5",
+        "text": "génétiquements",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'adverbe 'génétiquement' est mal orthographié. Il ne prend pas de 's' final.",
+        "suggestions": [
+          "génétiquement"
+        ],
+        "ruleApplied": "5.2.1.5"
+      },
+      {
+        "id": "erreur5.6",
+        "text": "imparfait",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'imparfait' est au singulier, mais il qualifie le nom 'aliments' qui est au pluriel. L'accord en nombre est incorrect.",
+        "suggestions": [
+          "imparfaits"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.7",
+        "text": "consommateur",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'consommateur' est au singulier, mais il dépend du déterminant pluriel 'leurs'. L'accord en nombre est incorrect.",
+        "suggestions": [
+          "consommateurs"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.8",
+        "text": "humains",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'humains' est au masculin pluriel, mais il qualifie le nom 'habitudes' qui est féminin pluriel. L'accord en genre est incorrect.",
+        "suggestions": [
+          "humaines"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.9",
+        "text": "inadéquats",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'inadéquats' est au masculin pluriel, mais il qualifie le nom 'planifications' qui est féminin pluriel. L'accord en genre est incorrect.",
+        "suggestions": [
+          "inadéquates"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.10",
+        "text": "peuvent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'peuvent' est à la 3e personne du pluriel, mais son sujet 'le surplus de nourriture' est à la 3e personne du singulier. L'accord en nombre est incorrect.",
+        "suggestions": [
+          "peut"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.11",
+        "text": "conserver",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "La forme verbale 'conserver' (infinitif) est incorrecte après l'auxiliaire 'être'. Il faut utiliser le participe passé 'conservé', qui s'accorde avec le sujet 'le surplus'.",
+        "suggestions": [
+          "conservé"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "id": "erreur5.12",
+        "text": "consomable",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot 'consommable' est mal orthographié. Il s'écrit avec deux 'm'.",
+        "suggestions": [
+          "consommable"
+        ],
+        "ruleApplied": "5.2.1.6"
+      },
+      {
+        "id": "erreur5.13",
+        "text": "zero",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot 'zéro' est mal orthographié. Il manque l'accent aigu sur le 'e'.",
+        "suggestions": [
+          "zéro"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.14",
+        "text": "gaspilles",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "La terminaison du verbe 'gaspilles' (-es) correspond à la 2e personne du singulier, mais le sujet 'les familles canadiennes' est à la 3e personne du pluriel. La terminaison correcte est '-ent'.",
+        "suggestions": [
+          "gaspillent"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.15",
+        "text": "aliment",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'aliment' devrait être au pluriel car il est complément du nom 'tonnes', qui exprime une grande quantité. Il faut écrire 'aliments'.",
+        "suggestions": [
+          "aliments"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.16",
+        "text": "arrêter",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "La forme verbale 'arrêter' (infinitif) est incorrecte après l'auxiliaire 'être'. Il faut utiliser le participe passé 'arrêtées', qui s'accorde avec le sujet 'ces mauvaises habitudes' (donneur).",
+        "suggestions": [
+          "arrêtées"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "id": "erreur5.17",
+        "text": "présentent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "La forme verbale 'présentent' est incorrecte. Il faut utiliser l'adjectif 'présentes', qui s'accorde avec le nom 'habitudes' (donneur).",
+        "suggestions": [
+          "présentes"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.18",
+        "text": "affectifs",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'affectifs' est au masculin pluriel, mais il qualifie le nom 'mesures' qui est féminin pluriel. De plus, le contexte sémantique suggère l'adjectif 'efficaces'.",
+        "suggestions": [
+          "efficaces"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.19",
+        "text": "future",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'future' est au singulier, mais le contexte et le déterminant 'nos' suggèrent un nom pluriel ('générations'). Il faut accorder l'adjectif au pluriel.",
+        "suggestions": [
+          "futures"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.20",
+        "text": "resentent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le verbe 'ressentir' est mal orthographié. Il s'écrit avec deux 's'.",
+        "suggestions": [
+          "ressentent"
+        ],
+        "ruleApplied": "5.2.1.6"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 20,
+      "note": "E"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T15:05:28.179Z",
+    "endTimestamp": "2025-12-10T15:10:26.408Z",
+    "durationMs": 298229,
+    "durationFormatted": "04:58:229"
+  }
+}

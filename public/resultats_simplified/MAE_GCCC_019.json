@@ -1,0 +1,571 @@
+{
+  "processedAt": "2025-12-10T14:11:46.160Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_019.txt",
+    "originalText": "Ici à Montréal, où la population est dense, respecte une grande consommation des aliments. De la production jusqu'à la consommation. On contribue au rechauffements climatiques, lorsqu'on gaspille des aliments. Par contre, il y’en a beaucoup de moyens pour lutter à cette problématique. La vente au détail et la conversation limite le gaspillage. Le gaspillage alimentaire est inévitable, sommes-nous prêts a mener une action contre le gaspillage d’aliments? Pour limiter ses impacts à l’environnement, je suis prêts d’actionner et donner de l’effort.\r\n\r\nTout d’abord, la vente au détail, vente pratiquée par un détaillant. Selon moi, acheter des marchandises pour le revendre par petites quantités sera une grande aide à la problématique. Selon Stéphane Lacasse, porte-parole de l’Association des détaillants en Alimentation du Québec, les commerces d’épices pourraient offrir offrir les aliments invendus aux banques alimentaires. Selon le Ministère de l’Éducation, 2022 et publié par Corriveau en 2020, les banques alimentaires au Québec accumulent les aliments gaspillés dans plusieurs épiceries et en faire des paniers alimentaires pour les personnes dans le besoin. À Montréal, le groupe communautaire Partage et Solidarité prépare ainsi des paniers alimentaires pour les plus démunis avec des denrées invendues dans les commerces locaux. En plus, il consiste beaucoup des plateformes qui offrent des bas prix pour plusieurs sortes des aliments moches ou des produits dont la date de conservation est proche. Bref, Quebec possède plusieurs organismes, ainsi que des plateformes qui recupent des gaspilles alimentaire. Au lieu de dilapider, on pourrait l’offrir pour borner les conséquences du gaspillages alimentaire sur l’environnement. \r\n\r\nEnsuite, la conservation alimentaire. À mon avis, plusieurs entre eux achetent des produits de portions trop grosses qui occasionnent donc du gaspillage. Pour limiter, il faut planifier le repas et faire une liste d’épicerie avant d’acheter. Si possible, acheter seulement les produits dont on a besoin ou acheter en quantité raisonnables. Selon Florence-Léa Siry, experte en lutte contre le gaspillage alimentaire, on pourrait éviter la problème si on apprenne à mieux conserver. Elle nous suggère ainsi de retirer les emballages qui causent un surplus d’humidité et de ne pas tailler les fruits et légumes trop à l’avance. Soyez plus intelligent, les fruits et légumes moches peuvent être transformés. On peut les transformés en jus ou même de shake. Des sites web pourrait aussi vous aider. Ils offrent des recettes que vous pouviez cuire avec les surplus d’aliments. Bref, on apprenne a mieux conserver.",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "respecte",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est boiteuse. Le verbe « respecte » n'a pas de sujet clair dans la proposition principale et le verbe lui-même ne convient pas au contexte. Il faudrait reformuler pour clarifier le sens, par exemple en utilisant « on observe » ou « il y a ».",
+        "suggestions": [
+          "on observe"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "id": "erreur4.2",
+        "text": "De la production jusqu'à la consommation.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase ne contient pas de verbe conjugué, ce qui en fait une phrase non verbale ou un fragment de phrase (subordonnée sans matrice). Il faut l'intégrer à la phrase précédente ou la reformuler pour en faire une phrase complète.",
+        "suggestions": [
+          "de la production jusqu'à la consommation."
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "id": "erreur4.3",
+        "text": "climatiques,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "La virgule est superflue. On ne met généralement pas de virgule avant une subordonnée circonstancielle introduite par « lorsque » si elle est placée après la proposition principale.",
+        "suggestions": [
+          "climatiques"
+        ],
+        "ruleApplied": "4.2.2.10.2.j"
+      },
+      {
+        "id": "erreur4.4",
+        "text": "lutter à",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition « à » est incorrecte après le verbe « lutter ». On utilise la préposition « contre » : lutter contre quelque chose.",
+        "suggestions": [
+          "lutter contre"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "id": "erreur4.5",
+        "text": "d’actionner",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition « de » est incorrecte après l'adjectif « prêt ». La construction correcte est « prêt à » + infinitif.",
+        "suggestions": [
+          "d'actionner"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "id": "erreur4.6",
+        "text": "donner de l’effort",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Cette expression est un calque de l'anglais « to give effort ». En français, l'expression idiomatique correcte est « faire un effort ». Une erreur de syntaxe (S) a déjà été comptée dans cette phrase syntaxique.",
+        "suggestions": [
+          "faire un effort"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "id": "erreur4.7",
+        "text": "Tout d’abord, la vente au détail, vente pratiquée par un détaillant.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase ne contient pas de verbe conjugué, ce qui en fait une phrase non verbale ou un fragment de phrase (subordonnée sans matrice). Il faut la reformuler pour en faire une phrase complète.",
+        "suggestions": [
+          "Tout d’abord, considérons la vente au détail, qui est une vente pratiquée par un détaillant."
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "id": "erreur4.8",
+        "text": "offrir offrir",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le mot « offrir » est répété inutilement. Il faut supprimer l'une des deux occurrences.",
+        "suggestions": [
+          "offrir"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "id": "erreur4.9",
+        "text": "Selon le Ministère de l’Éducation, 2022 et publié par Corriveau en 2020,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est boiteuse. La coordination de deux sources de natures différentes (« Selon le Ministère » et « publié par Corriveau ») avec des dates contradictoires rend la phrase incohérente et difficile à comprendre.",
+        "suggestions": [
+          "Selon une publication de Corriveau (2020) citant le Ministère de l'Éducation (2022),"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "id": "erreur4.10",
+        "text": "et en faire",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Erreur de coordination. Le deuxième verbe devrait être conjugué au même temps que le premier (« accumulent »). L'infinitif « faire » brise la structure parallèle. Il faudrait utiliser « et en font ». Une erreur de syntaxe (S) a déjà été comptée dans cette phrase syntaxique.",
+        "suggestions": [
+          "et en font"
+        ],
+        "ruleApplied": "4.1.2.1.8"
+      },
+      {
+        "id": "erreur4.11",
+        "text": "il consiste",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe « consister » est mal employé. Pour indiquer l'existence, il faut utiliser le verbe « exister » dans la construction impersonnelle « il existe ».",
+        "suggestions": [
+          "il existe"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "id": "erreur4.12",
+        "text": "borner",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe « borner » (limiter, délimiter) est mal employé dans ce contexte. Des verbes comme « limiter » ou « réduire » seraient plus appropriés pour parler des conséquences.",
+        "suggestions": [
+          "limiter"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "id": "erreur4.13",
+        "text": "Ensuite, la conservation alimentaire.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase ne contient pas de verbe conjugué, ce qui en fait une phrase non verbale ou un fragment de phrase (subordonnée sans matrice). Il faut la reformuler pour en faire une phrase complète.",
+        "suggestions": [
+          "Ensuite, parlons de la conservation alimentaire."
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "id": "erreur4.14",
+        "text": "plusieurs entre eux",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom « eux » n'a pas de référent clair dans le texte. Il faudrait préciser de qui on parle, par exemple « plusieurs personnes » ou « plusieurs d'entre nous ».",
+        "suggestions": [
+          "plusieurs personnes"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "id": "erreur4.15",
+        "text": "Pour limiter,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque un mot essentiel après « Pour limiter ». Il faut préciser ce que l'on cherche à limiter, par exemple « Pour limiter cela » ou « Pour limiter le gaspillage ».",
+        "suggestions": [
+          "Pour limiter cela,"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "id": "erreur4.16",
+        "text": "si on apprenne",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur dans l'emploi du mode verbal. Dans une proposition conditionnelle introduite par « si », on emploie l'indicatif imparfait, et non le subjonctif présent. La forme correcte est « si on apprenait ».",
+        "suggestions": [
+          "si on apprenait"
+        ],
+        "ruleApplied": "4.1.2.2.3"
+      },
+      {
+        "id": "erreur4.17",
+        "text": "intelligent,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "La virgule est mal employée. Elle sépare deux propositions indépendantes sans coordonnant, créant une rupture syntaxique. Un point-virgule ou un deux-points serait plus approprié.",
+        "suggestions": [
+          "intelligents :"
+        ],
+        "ruleApplied": "4.2.2.8.1"
+      },
+      {
+        "id": "erreur4.18",
+        "text": "de shake",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque la préposition « en » qui est requise par la construction parallèle « en jus ou même en shake ». La préposition doit être répétée.",
+        "suggestions": [
+          "en shake"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "id": "erreur4.19",
+        "text": "pouviez",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur d'harmonisation des temps. Le verbe de la proposition principale est au présent (« offrent »), le verbe de la subordonnée devrait donc être au présent (« pouvez ») ou au futur pour maintenir la cohérence temporelle.",
+        "suggestions": [
+          "pouvez"
+        ],
+        "ruleApplied": "4.1.2.2.4"
+      },
+      {
+        "id": "erreur4.20",
+        "text": "beaucoup des",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Après l'adverbe de quantité \"beaucoup\", on emploie la préposition \"de\" (ou \"d'\") et non l'article \"des\". Une seule erreur de syntaxe est comptée pour cette phrase.",
+        "suggestions": [
+          "beaucoup de"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "id": "erreur4.21",
+        "text": "shake",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Un mot étranger sans équivalent français courant devrait être mis entre guillemets.",
+        "suggestions": [
+          "« shake »"
+        ],
+        "ruleApplied": "4.2.2.5.1"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 16.5,
+      "note": "D"
+    },
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "rechauffements",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Il manque un accent aigu sur le « e ». Le mot correct est « réchauffements ».",
+        "suggestions": [
+          "réchauffements"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.2",
+        "text": "y’en a",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'apostrophe est incorrecte dans cette expression. Il faut écrire « y en a » en trois mots séparés.",
+        "suggestions": [
+          "y en a"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "id": "erreur5.3",
+        "text": "conversation",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion entre les homophones lexicaux « conversation » (échange de paroles) et « conservation » (action de conserver). Dans ce contexte, il faut utiliser « conservation ».",
+        "suggestions": [
+          "conservation"
+        ],
+        "ruleApplied": "5.2.2"
+      },
+      {
+        "id": "erreur5.4",
+        "text": "limite",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec le sujet pluriel « La vente au détail et la conversation ». Il faut donc utiliser la terminaison de la 3e personne du pluriel : « limitent ».",
+        "suggestions": [
+          "limitent"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.5",
+        "text": "a",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'homophone grammatical « a » (verbe avoir) et « à » (préposition). Ici, il faut la préposition « à ».",
+        "suggestions": [
+          "à"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "id": "erreur5.6",
+        "text": "prêts",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « prêt » doit s'accorder en nombre avec le sujet « je » (1re personne du singulier). Il doit donc être au singulier : « prêt ».",
+        "suggestions": [
+          "prêt"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.7",
+        "text": "le revendre",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom complément « le » doit s'accorder en genre et en nombre avec son antécédent, « marchandises » (féminin pluriel). Il faut donc utiliser « les ».",
+        "suggestions": [
+          "les revendre"
+        ],
+        "ruleApplied": "5.3.1.4"
+      },
+      {
+        "id": "erreur5.8",
+        "text": "beaucoup des plateformes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après l'adverbe de quantité « beaucoup », on emploie la préposition « de » (ou « d' ») sans article. Il faut donc écrire « beaucoup de plateformes ».",
+        "suggestions": [
+          "beaucoup de plateformes"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.9",
+        "text": "sortes des aliments",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après un nom exprimant une quantité comme « sortes », on emploie la préposition « de » (ou « d' ») sans article. Il faut donc écrire « sortes d'aliments ».",
+        "suggestions": [
+          "sortes d'aliments"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.10",
+        "text": "Quebec",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Il manque un accent aigu sur le premier « e ». Le nom propre s'écrit « Québec ».",
+        "suggestions": [
+          "Québec"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.11",
+        "text": "recupent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Barbarisme de conjugaison. Le verbe est « récupérer ». À la 3e personne du pluriel du présent de l'indicatif, la forme correcte est « récupèrent ».",
+        "suggestions": [
+          "récupèrent"
+        ],
+        "ruleApplied": "5.3.2.1"
+      },
+      {
+        "id": "erreur5.12",
+        "text": "gaspilles",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot est mal orthographié. Le nom correct est « gaspillages ».",
+        "suggestions": [
+          "gaspillages"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "id": "erreur5.13",
+        "text": "alimentaire",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « alimentaire » doit s'accorder en nombre avec le nom qu'il qualifie, « gaspilles » (qui devrait être « gaspillages », pluriel). Il faut donc l'écrire au pluriel : « alimentaires ».",
+        "suggestions": [
+          "alimentaires"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.14",
+        "text": "l’offrir",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom complément « l' » doit s'accorder en nombre avec son antécédent, « des gaspilles alimentaire » (pluriel). Il faut donc utiliser « les ».",
+        "suggestions": [
+          "les offrir"
+        ],
+        "ruleApplied": "5.3.1.4"
+      },
+      {
+        "id": "erreur5.15",
+        "text": "alimentaire",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "_",
+        "description": "L'adjectif « alimentaire » doit s'accorder en nombre avec le nom qu'il qualifie, « gaspillages » (pluriel). Il faut donc l'écrire au pluriel : « alimentaires ». Le donneur d'accord est le même que pour une erreur précédente.",
+        "suggestions": [
+          "alimentaires"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.16",
+        "text": "achetent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Barbarisme de conjugaison. Le verbe est « acheter ». À la 3e personne du pluriel du présent de l'indicatif, la forme correcte est « achètent ».",
+        "suggestions": [
+          "achètent"
+        ],
+        "ruleApplied": "5.3.2.1"
+      },
+      {
+        "id": "erreur5.17",
+        "text": "raisonnables",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « raisonnables » doit s'accorder en genre et en nombre avec le nom qu'il qualifie, « quantité » (féminin singulier). Il faut donc l'écrire au singulier : « raisonnable ».",
+        "suggestions": [
+          "raisonnable"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.18",
+        "text": "la problème",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « problème » est masculin. Le déterminant doit donc être « le » et non « la ».",
+        "suggestions": [
+          "le problème"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.19",
+        "text": "intelligent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « intelligent » doit s'accorder avec le sujet sous-entendu de l'impératif « Soyez », qui est « vous » (pluriel). Il faut donc l'écrire au pluriel : « intelligents ».",
+        "suggestions": [
+          "intelligents"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.20",
+        "text": "transformés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le participe passé « transformés » et l'infinitif « transformer ». Après le verbe modal « peut », il faut utiliser l'infinitif.",
+        "suggestions": [
+          "transformer"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "id": "erreur5.21",
+        "text": "pourrait",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec le sujet pluriel « Des sites web ». Il faut donc utiliser la terminaison de la 3e personne du pluriel : « pourraient ».",
+        "suggestions": [
+          "pourraient"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.22",
+        "text": "a",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'auxiliaire \"a\" (verbe avoir) et la préposition \"à\".",
+        "suggestions": [
+          "à"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "id": "erreur5.23",
+        "text": "prêts",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif \"prêts\" doit s'accorder en genre et en nombre avec le sujet \"je\" (masculin singulier par défaut).",
+        "suggestions": [
+          "prêt"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.24",
+        "text": "apprenne",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur de conjugaison. Le verbe \"apprendre\" à la troisième personne du singulier de l'indicatif présent est \"apprend\", non \"apprenne\" (subjonctif).",
+        "suggestions": [
+          "apprend"
+        ],
+        "ruleApplied": "5.3.2.2"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 23,
+      "note": "E"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:06:40.107Z",
+    "endTimestamp": "2025-12-10T14:11:46.160Z",
+    "durationMs": 306053,
+    "durationFormatted": "05:06:053"
+  }
+}

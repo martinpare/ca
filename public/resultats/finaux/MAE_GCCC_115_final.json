@@ -1,0 +1,802 @@
+{
+  "processedAt": "2025-12-12T11:45:11.161Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_115.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_115.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "au même",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Confusion entre la préposition contractée \"au\" et la conjonction de coordination \"ou\". Le contexte requiert \"ou\" pour marquer un choix.",
+        "suggestions": [
+          "ou même"
+        ],
+        "ruleApplied": "4.1.2.1.9",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute évidente de confusion entre deux mots ayant des fonctions grammaticales différentes. 'Au' (à + le) ne peut remplacer 'ou' (conjonction).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "l'économie",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence d'un mot essentiel. La préposition \"dans\" doit être répétée devant chaque élément d'une énumération.",
+        "suggestions": [
+          "dans l'économie"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "La répétition de la préposition est nécessaire pour maintenir la clarté de la coordination entre 'notre société' et 'l'économie'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "Nous,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Présence erronée d'une virgule entre le sujet \"Nous\" et le verbe \"pouvons\".",
+        "suggestions": [
+          "Nous"
+        ],
+        "ruleApplied": "4.2.2.10.2.a",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle de ponctuation fondamentale : on ne sépare jamais le sujet du verbe par une virgule, sauf s'il y a une incise complète (avec deux virgules).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Emploi erroné du pronom relatif. Pour compléter \"la manière\", il faut utiliser le pronom \"dont\".",
+        "suggestions": [
+          "dont"
+        ],
+        "ruleApplied": "4.1.2.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction syntaxique incorrecte. 'La manière que' est un calque fautif; la construction correcte exige 'la manière dont' ou 'la manière par laquelle'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "C'est sans doute que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction de phrase boiteuse. Il faut utiliser une locution adverbiale comme \"Sans doute,\" ou une construction impersonnelle comme \"Il ne fait aucun doute que\".",
+        "suggestions": [
+          "Sans doute"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "La construction 'C'est sans doute que' est incorrecte en français standard. 'Sans doute' est une locution adverbiale qui ne nécessite pas la structure emphatique 'c'est... que'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "envers",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Emploi erroné de la préposition. Dans le contexte de \"lutte\", la préposition correcte est \"contre\".",
+        "suggestions": [
+          "contre"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "La préposition 'envers' exprime une relation de personne à personne (sentiments, attitudes). Pour une lutte contre un phénomène, on utilise 'contre'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "à éviter",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Emploi erroné de la préposition. La construction correcte est \"manières de\" suivi d'un infinitif.",
+        "suggestions": [
+          "d'éviter"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le substantif 'manières' se construit avec la préposition 'de' devant un infinitif. 'Manières à' est incorrect.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "restes portions",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence d'un mot essentiel. La préposition \"en\" est nécessaire pour lier les noms \"restes\" et \"portions\".",
+        "suggestions": [
+          "restes en portions"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "La juxtaposition directe de deux noms est incorrecte. Une préposition est nécessaire pour établir la relation syntaxique entre 'restes' et 'portions'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "devint",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de temps verbal. Pour respecter la concordance des temps dans la phrase hypothétique au présent, il faut utiliser le présent de l'indicatif \"devient\".",
+        "suggestions": [
+          "devient"
+        ],
+        "ruleApplied": "4.1.2.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Dans une phrase hypothétique introduite par 'si' au présent ('si nous pouvons'), la principale doit être au présent ('on devient') ou au futur, mais pas au passé simple.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.10",
+        "text": "proche à vaincre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Emploi erroné de la préposition. La construction correcte est \"proche de\" suivi d'un infinitif. Il s'agit de la deuxième erreur de syntaxe dans la même phrase syntaxique.",
+        "suggestions": [
+          "proche de vaincre"
+        ],
+        "ruleApplied": "4.1.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "L'adjectif 'proche' se construit avec la préposition 'de', jamais avec 'à'. 'Proche à' est un calque de l'anglais 'close to'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.11",
+        "text": "comme a affirmé",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence d'un mot essentiel. Le pronom \"l'\" (le), reprenant l'idée précédente, est requis comme complément d'objet direct du verbe \"a affirmé\".",
+        "suggestions": [
+          "comme l'a affirmé"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le verbe 'affirmer' est transitif direct et exige un complément d'objet. Le pronom 'l'' reprenant l'énoncé précédent est grammaticalement nécessaire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.12",
+        "text": "quand quand",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Mot superflu. La conjonction \"quand\" est répétée inutilement.",
+        "suggestions": [
+          "quand"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition évidente d'un mot par erreur de frappe ou d'inattention. Aucune justification stylistique ou grammaticale possible.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.13",
+        "text": "seulement",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Ordre des mots incorrect. La place de l'adverbe \"seulement\" rend la phrase boiteuse. Il faudrait le déplacer pour clarifier le sens.",
+        "suggestions": [
+          "du Québec ont, à elles seules,"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "La position de 'seulement' crée une ambiguïté sur ce qu'il restreint (le Québec ou les banques alimentaires), mais la phrase reste compréhensible.",
+        "counterArgument": "Bien que la position de 'seulement' puisse prêter à confusion, elle reste grammaticalement acceptable. L'auteur pourrait vouloir dire 'les banques alimentaires du Québec seulement' (par opposition à celles d'autres provinces). La suggestion améliore la clarté mais l'original n'est pas strictement fautif."
+      },
+      {
+        "id": "erreur4.14",
+        "text": "consiste de",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Emploi erroné de la préposition. Le verbe \"consister\" se construit avec la préposition \"en\" (ou \"à\" + infinitif).",
+        "suggestions": [
+          "consiste en"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le verbe 'consister' se construit obligatoirement avec 'en' (ou 'à' + infinitif). 'Consister de' est un anglicisme ('consist of').",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.15",
+        "text": "bénéficier à",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Emploi erroné de la préposition. Le verbe \"bénéficier\" se construit avec la préposition \"de\".",
+        "suggestions": [
+          "bénéficier de"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le verbe 'bénéficier' est intransitif indirect et se construit exclusivement avec 'de'. 'Bénéficier à' est incorrect.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.16",
+        "text": "en relation de",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Emploi d'une locution prépositive incorrecte. Il faut utiliser \"par rapport à\" ou \"en ce qui concerne\".",
+        "suggestions": [
+          "par rapport à"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "La locution 'en relation de' n'existe pas en français standard. C'est probablement un calque de 'in relation to'. Les locutions correctes sont 'par rapport à' ou 'en relation avec'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.17",
+        "text": "mais donc",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Mot superflu. L'utilisation conjointe de \"mais\" et \"donc\" est redondante. Il faut choisir l'un des deux coordonnants.",
+        "suggestions": [
+          "mais",
+          "donc"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "L'utilisation simultanée de deux coordonnants ('mais' pour l'opposition, 'donc' pour la conséquence) crée une incohérence logique. Il faut choisir l'un ou l'autre.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.18",
+        "text": "faire gaffe à ceci",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression 'faire gaffe' est un calque de l'oral et appartient à un registre de langue familier, inapproprié dans ce contexte. Il faut utiliser 'faire attention à cela'.",
+        "suggestions": [
+          "faire attention à cela"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "L'expression 'faire gaffe' appartient au registre familier/oral et est inappropriée dans un texte argumentatif formel. De plus, 'ceci' devrait être 'cela' dans ce contexte.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.19",
+        "text": "on se comprend",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette expression est un tic de langage oral, superflue et inappropriée dans un texte écrit formel.",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "L'expression 'on se comprend' est un tic de langage oral familier totalement inapproprié dans un texte argumentatif écrit. Elle n'apporte rien au sens et nuit à la qualité du registre.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "intolérant",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion entre les homophones de même classe \"intolérant\" (qui ne tolère pas) et \"intolérable\" (qu'on ne peut tolérer). Le contexte requiert \"intolérable\".",
+        "suggestions": [
+          "intolérable"
+        ],
+        "ruleApplied": "5.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion évidente de sens. 'Intolérant' désigne une personne qui ne tolère pas les différences, tandis que 'intolérable' qualifie quelque chose qu'on ne peut accepter. Le gaspillage ne peut être 'intolérant'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "Cher",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif \"cher\" doit s'accorder en genre et en nombre avec les noms qu'il qualifie, \"lecteurs et lectrices\". L'accord se fait au masculin pluriel.",
+        "suggestions": [
+          "Chers"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle d'accord de l'adjectif épithète évidente. 'Cher' doit s'accorder avec 'lecteurs et lectrices' au masculin pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "déja",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Absence de l'accent grave sur l'adverbe \"déjà\".",
+        "suggestions": [
+          "déjà"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. L'adverbe 'déjà' s'écrit obligatoirement avec un accent grave.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "entrer",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion de désinences homophones. Après l'auxiliaire \"avoir\", il faut utiliser le participe passé \"entré\" et non l'infinitif \"entrer\".",
+        "suggestions": [
+          "entré"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion classique entre l'infinitif et le participe passé. Après l'auxiliaire 'avoir', on utilise le participe passé 'entré'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "nourritures",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom \"nourriture\" est généralement non comptable dans ce contexte et doit être au singulier.",
+        "suggestions": [
+          "nourriture"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "'Nourriture' est un nom non comptable (collectif) désignant l'ensemble des aliments. On ne dit pas 'des nourritures' dans ce contexte générique.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "ce établissement",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Pour des raisons d'euphonie, le déterminant démonstratif \"ce\" devient \"cet\" devant un nom masculin commençant par une voyelle ou un \"h\" muet.",
+        "suggestions": [
+          "cet établissement"
+        ],
+        "ruleApplied": "5.2.1.9.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle d'euphonie fondamentale. Devant une voyelle, 'ce' devient obligatoirement 'cet' au masculin singulier.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "résult",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Barbarisme de conjugaison. La forme correcte du verbe \"résulter\" à la troisième personne du singulier du présent de l'indicatif est \"résulte\".",
+        "suggestions": [
+          "résulte"
+        ],
+        "ruleApplied": "5.3.2.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Barbarisme évident. La forme conjuguée correcte est 'résulte', pas 'résult'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "fessant",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Barbarisme de conjugaison. Le participe présent du verbe \"faire\" est \"faisant\".",
+        "suggestions": [
+          "faisant"
+        ],
+        "ruleApplied": "5.3.2.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Barbarisme évident. Le participe présent de 'faire' est 'faisant', jamais 'fessant'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "à",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre la préposition \"à\" et la forme conjuguée \"a\" du verbe \"avoir\" à la troisième personne du singulier.",
+        "suggestions": [
+          "a"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion classique entre l'homophone 'à' (préposition) et 'a' (verbe avoir). Le contexte exige le verbe 'a'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.10",
+        "text": "chaud",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif \"chaud\" doit s'accorder en nombre avec le nom qu'il qualifie, \"emballages\" (masculin pluriel).",
+        "suggestions": [
+          "chauds"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle d'accord de l'adjectif épithète. 'Chaud' doit s'accorder avec 'emballages' au pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.11",
+        "text": "duration",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Anglicisme. Le mot français correct pour désigner la longueur de temps est \"durée\".",
+        "suggestions": [
+          "durée"
+        ],
+        "ruleApplied": "5.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Anglicisme évident. 'Duration' est le mot anglais; le terme français est 'durée'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.12",
+        "text": "ce enjeu",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Répétition de l'erreur d'euphonie. Le déterminant \"ce\" devient \"cet\" devant un nom masculin commençant par une voyelle.",
+        "suggestions": [
+          "cet enjeu"
+        ],
+        "ruleApplied": "5.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Même erreur d'euphonie que précédemment. 'Ce' devient 'cet' devant voyelle.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.13",
+        "text": "individuel",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion de classe de mot. \"Individuel\" est un adjectif. Le nom correspondant est \"individu\".",
+        "suggestions": [
+          "individu"
+        ],
+        "ruleApplied": "5.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion évidente entre l'adjectif 'individuel' et le nom 'individu'. Le contexte exige un nom après 'cher'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.14",
+        "text": "appercoivent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe lexicale sur le verbe \"apercevoir\".",
+        "suggestions": [
+          "aperçoivent"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. Le verbe 'apercevoir' s'écrit avec un seul 'p' et une cédille : 'aperçoivent'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.15",
+        "text": "leurs",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le déterminant possessif \"leurs\" et le pronom personnel complément \"leur\". Le contexte requiert le pronom.",
+        "suggestions": [
+          "leur"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion classique entre 'leur' (pronom personnel invariable) et 'leurs' (déterminant possessif). Devant un verbe, on utilise le pronom 'leur'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.16",
+        "text": "bénéficent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec son sujet \"cela\" (troisième personne du singulier).",
+        "suggestions": [
+          "bénéficie"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord sujet-verbe évidente. 'Cela' est singulier, donc le verbe doit être 'bénéficie'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.17",
+        "text": "encouragé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé \"encouragé\", employé avec l'auxiliaire \"être\", doit s'accorder en genre et en nombre avec le sujet \"ils\" (masculin pluriel).",
+        "suggestions": [
+          "encouragés"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle d'accord du participe passé avec 'être'. Le participe doit s'accorder avec le sujet 'ils' au pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.18",
+        "text": "supporter",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Anglicisme. Le verbe \"supporter\" signifie \"tolérer\". Pour exprimer l'idée d'appuyer une cause, il faut utiliser \"soutenir\" ou \"appuyer\".",
+        "suggestions": [
+          "soutenir",
+          "appuyer"
+        ],
+        "ruleApplied": "5.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Anglicisme sémantique évident. En français, 'supporter' signifie 'tolérer, endurer'. Pour 'support' en anglais (appuyer), on utilise 'soutenir' ou 'appuyer'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.19",
+        "text": "avantageux",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'adjectif \"avantageux\" (qui procure un avantage) et le participe passé adjectivé \"avantagés\" (qui bénéficie d'un avantage). Le contexte requiert le participe.",
+        "suggestions": [
+          "avantagés"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion de sens. 'Avantageux' signifie 'profitable, bénéfique'. Pour désigner les personnes défavorisées, on utilise 'moins avantagés' (participe passé).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.20",
+        "text": "faites",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé \"fait\", employé avec l'auxiliaire \"avoir\", reste invariable car son complément d'objet direct \"des ententes\" est placé après le verbe.",
+        "suggestions": [
+          "fait"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle d'accord du participe passé avec 'avoir'. Le COD 'des ententes' étant placé après le verbe, le participe reste invariable.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.21",
+        "text": "Somme tous",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur sur l'orthographe de la locution adverbiale \"Somme toute\".",
+        "suggestions": [
+          "Somme toute"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'orthographe sur une locution figée. La forme correcte est 'Somme toute' (au singulier), pas 'Somme tous'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.22",
+        "text": "quelqu'un d'autres",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord. Le mot \"autre\" est invariable après \"quelqu'un de\".",
+        "suggestions": [
+          "quelqu'un d'autre"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle d'accord spécifique. Dans l'expression 'quelqu'un d'autre', 'autre' reste toujours au singulier.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.23",
+        "text": "conte",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion entre les homophones \"conte\" (récit) et \"compte\" (calcul). L'expression correcte est \"tenir compte\".",
+        "suggestions": [
+          "compte"
+        ],
+        "ruleApplied": "5.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion évidente entre homophones. 'Conte' = récit; 'compte' = calcul. L'expression est 'tenir compte de'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.24",
+        "text": "preservation",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Absence de l'accent aigu sur le mot \"préservation\".",
+        "suggestions": [
+          "préservation"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. Le mot 'préservation' s'écrit avec un accent aigu sur le premier 'e'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.25",
+        "text": "tous seul",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord. \"Tout\" est ici un adverbe modifiant \"seul\" et est donc invariable. La forme correcte est \"tout seul\".",
+        "suggestions": [
+          "tout seul"
+        ],
+        "ruleApplied": "5.3.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle d'accord de 'tout' adverbe. Devant un adjectif masculin, 'tout' reste invariable (sauf devant un adjectif féminin commençant par une consonne).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.26",
+        "text": "fessons",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Barbarisme de conjugaison. La forme correcte du verbe \"faire\" à la première personne du pluriel du présent de l'indicatif est \"faisons\".",
+        "suggestions": [
+          "faisons"
+        ],
+        "ruleApplied": "5.3.2.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Barbarisme évident. La conjugaison correcte de 'faire' à la 1re personne du pluriel est 'faisons'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.27",
+        "text": "partie",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion entre les homophones \"partie\" (section d'un tout) et \"part\" (portion). L'expression correcte est \"faire sa part\".",
+        "suggestions": [
+          "part"
+        ],
+        "ruleApplied": "5.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion d'homophones. L'expression figée est 'faire sa part' (sa contribution), pas 'faire sa partie'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.28",
+        "text": "sont",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec son sujet \"La distribution\" (troisième personne du singulier).",
+        "suggestions": [
+          "est"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord sujet-verbe évidente. Le sujet 'La distribution' est singulier, donc le verbe doit être 'est'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.29",
+        "text": "savez",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le sujet du verbe est 'la plupart de vous'. Avec 'la plupart', le verbe s'accorde généralement avec le complément, mais l'usage tend à privilégier la 3e personne. Ici, 'sait' (accord avec 'la plupart') est plus formel et attendu que 'savez'.",
+        "suggestions": [
+          "sait"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Avec 'la plupart de + nom', l'accord se fait généralement avec le complément. Cependant, l'accord avec 'vous' (2e personne) est possible mais moins standard.",
+        "counterArgument": "Avec l'expression 'la plupart de vous', deux accords sont possibles : soit avec 'la plupart' (3e personne : sait/savent), soit avec le complément 'vous' (2e personne : savez). Bien que l'accord avec 'la plupart' soit plus formel et recommandé, l'accord avec 'vous' est attesté dans l'usage, surtout à l'oral. Le Grevisse reconnaît les deux possibilités."
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 18,
+      "note": "E"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 28,
+      "note": "E"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 48,
+      "vraisErreurs": 46,
+      "discutables": 2,
+      "fauxPositifs": 0
+    }
+  },
+  "startTimestamp": "2025-12-12T11:42:52.981Z",
+  "endTimestamp": "2025-12-12T11:45:11.161Z",
+  "durationMs": 138180,
+  "durationFormatted": "02:18:180"
+}

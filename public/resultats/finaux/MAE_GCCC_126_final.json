@@ -1,0 +1,356 @@
+{
+  "processedAt": "2025-12-12T11:44:43.090Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_126.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_126.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "à gaspillage",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction du titre est boiteuse et son sens est ambigu. Il faudrait reformuler pour clarifier le lien entre 'l'humain' et 'le gaspillage'.",
+        "suggestions": [
+          "L'humain et le gaspillage",
+          "L'humain face au gaspillage"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "La préposition 'à' est syntaxiquement incorrecte dans ce contexte. Aucune construction française reconnue ne permet de relier deux noms de cette manière avec un deux-points suivi de 'à'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "engendre à",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe 'engendrer' est un verbe transitif direct. Il ne doit pas être suivi de la préposition 'à'.",
+        "suggestions": [
+          "engendre"
+        ],
+        "ruleApplied": "4.1.2.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur claire de régime verbal. 'Engendrer' est toujours transitif direct en français et ne peut être suivi de 'à'. Cette construction est un calque probable de l'anglais ('lead to').",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "s'empirent",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe 'empirer' est généralement utilisé comme verbe intransitif ('les choses empirent'). Son emploi à la forme pronominale ('s'empirer') est une construction fautive.",
+        "suggestions": [
+          "empirent"
+        ],
+        "ruleApplied": "4.1.2.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le verbe 'empirer' n'existe pas à la forme pronominale dans les dictionnaires de référence (Petit Robert, TLFi, Larousse). Cette construction est incorrecte.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "d'en faire ainsi",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression 'en faire ainsi' est une construction boiteuse qui manque de clarté. Il faut reformuler pour exprimer l'idée d'agir de cette manière.",
+        "suggestions": [
+          "d'agir ainsi",
+          "de le faire"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "L'expression 'en faire ainsi' n'est pas idiomatique en français. Le pronom 'en' et l'adverbe 'ainsi' créent une redondance maladroite. Les constructions correctes sont 'agir ainsi' ou 'le faire'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "arrivé",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le participe passé 'arrivé' est mal rattaché. Son sujet logique est 'nous' (implicite), mais le sujet de la proposition principale est 'l'enjeu'. Il faut reformuler la phrase pour que le participe ait un sujet clair ou utiliser une autre construction.",
+        "suggestions": [
+          "Étant arrivés dans un monde",
+          "Puisque nous sommes arrivés dans un monde"
+        ],
+        "ruleApplied": "4.1.2.1.7",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Participe présent ou passé mal rattaché. Le sujet logique de 'arrivé' (nous) ne correspond pas au sujet grammatical de la principale ('l'enjeu'). C'est une erreur classique de syntaxe.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "dont",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Le pronom relatif 'dont' est incorrect. La locution verbale est 'faire face à quelque chose'. Le pronom relatif correct pour remplacer le complément introduit par 'à' est 'auquel'. Cette erreur n'est pas comptabilisée, car il y a déjà une erreur de syntaxe dans la phrase.",
+        "suggestions": [
+          "auquel"
+        ],
+        "ruleApplied": "4.1.2.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur claire de choix du pronom relatif. 'Faire face à' exige 'auquel', pas 'dont'. Cette règle est bien établie en grammaire française.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "qu'on y réfléchit",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction est redondante et incorrecte. Le pronom 'y' est superflu, car le complément est déjà introduit par le pronom relatif. La locution est 'réfléchir à quelque chose', le pronom relatif correct est donc 'auxquels' (en référence à 'Ces choix').",
+        "suggestions": [
+          "auxquels on réfléchit"
+        ],
+        "ruleApplied": "4.1.2.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double marquage du complément : le pronom relatif 'que' et le pronom 'y' créent une redondance fautive. De plus, 'réfléchir à' exige 'auxquels', pas 'que... y'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "prêt de changer",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution adjectivale est 'être prêt à', et non 'être prêt de'. La préposition correcte est 'à'. De plus, l'adjectif 'prêt' devrait s'accorder avec le sujet 'on' (mis pour 'nous'), donc au pluriel.",
+        "suggestions": [
+          "prêts à changer"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de régime prépositionnel claire. 'Être prêt à' est la seule construction correcte. 'Prêt de' est un anglicisme ('ready to').",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "goût de surmonter",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression 'goût de surmonter' est sémantiquement inappropriée. Le mot 'goût' ne convient pas dans ce contexte. Il faut utiliser un terme qui exprime la volonté ou le désir.",
+        "suggestions": [
+          "volonté de surmonter",
+          "désir de surmonter"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "L'expression 'avoir le goût de' est acceptable en français québécois pour exprimer le désir, l'envie ou la motivation. Cependant, elle peut sembler familière dans un contexte scolaire formel.",
+        "counterArgument": "En français québécois, 'avoir le goût de' est une expression courante et acceptée pour exprimer l'envie ou la motivation de faire quelque chose. L'OQLF reconnaît cet usage. Bien que 'volonté' ou 'désir' soient plus soutenus, 'goût' n'est pas fautif dans ce contexte, surtout dans un registre courant. Il s'agit d'un québécisme standard."
+      },
+      {
+        "id": "erreur4.10",
+        "text": "vous",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom sujet 'vous' (2e personne du pluriel) ne correspond pas à la désinence du verbe 'vivons' (1re personne du pluriel). Le pronom sujet doit être 'nous'.",
+        "suggestions": [
+          "nous"
+        ],
+        "ruleApplied": "4.1.2.3.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Incohérence flagrante entre le pronom sujet et la conjugaison verbale. 'Vous vivons' est grammaticalement impossible en français standard.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.11",
+        "text": "se",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom réfléchi doit être de la même personne que le sujet ('nous'). Il faut donc employer 'nous' et non 'se'.",
+        "suggestions": [
+          "nous"
+        ],
+        "ruleApplied": "4.1.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du pronom réfléchi. Le sujet 'nous' exige le pronom réfléchi 'nous', pas 'se'. Cette règle est fondamentale en grammaire française.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "vous",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom sujet 'vous' (2e personne du pluriel) ne s'accorde pas en personne avec le verbe 'vivons' (1re personne du pluriel). Le pronom attendu est 'nous'.",
+        "suggestions": [
+          "nous"
+        ],
+        "ruleApplied": "5.3.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en personne entre le sujet et le verbe. Cette faute est manifeste et ne peut être justifiée par aucun usage stylistique.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "nouveau enjeu",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'nouveau' devient 'nouvel' devant un nom masculin singulier commençant par une voyelle ou un 'h' muet, comme 'enjeu'.",
+        "suggestions": [
+          "nouvel enjeu"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle morphologique claire et systématique en français. L'adjectif 'nouveau' prend obligatoirement la forme 'nouvel' devant voyelle ou h muet au masculin singulier.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "cherches",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'chercher' doit s'accorder avec son sujet 'ce que' (représentant 'la chose que'), qui commande la 3e personne du singulier. La terminaison est donc '-e'.",
+        "suggestions": [
+          "cherche"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord sujet-verbe. Le sujet est 'ce' (pronom relatif représentant une chose), qui est toujours singulier et commande la 3e personne du singulier.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "esthétiquemment",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'adverbe 'esthétiquement' s'écrit avec un seul 'm'.",
+        "suggestions": [
+          "esthétiquement"
+        ],
+        "ruleApplied": "5.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe d'usage. Les adverbes en '-ment' formés sur des adjectifs en '-ique' ne doublent jamais le 'm' : esthétiquement, logiquement, etc.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "mène",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'mener' doit s'accorder avec son sujet 'qui', mis pour 'de stricts règlements' (pluriel). Le verbe doit donc être à la 3e personne du pluriel : 'mènent'.",
+        "suggestions": [
+          "mènent"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord sujet-verbe avec le pronom relatif 'qui'. Le verbe doit s'accorder avec l'antécédent 'règlements' (pluriel), donc 'mènent'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "qu' on",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "La conjonction 'que' et le pronom 'on' ne doivent pas être séparés par une espace. Il s'agit d'une élision correcte : 'qu'on'.",
+        "suggestions": [
+          "qu'on"
+        ],
+        "ruleApplied": "5.2.6.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur typographique claire. L'élision ne doit jamais comporter d'espace entre l'apostrophe et le mot suivant. Cette règle est absolue en français.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "démontre",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'démontrer' doit s'accorder avec son sujet pluriel 'la beauté et la perfection [...] ainsi que nos comportements [...]'. Le verbe doit donc être à la 3e personne du pluriel : 'démontrent'.",
+        "suggestions": [
+          "démontrent"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord avec un sujet multiple coordonné. La coordination de deux groupes nominaux par 'ainsi que' forme un sujet pluriel qui exige le pluriel du verbe.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "désire",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le nom masculin 'désir' et la forme verbale 'désire'. Dans ce contexte, il faut utiliser le nom.",
+        "suggestions": [
+          "désir"
+        ],
+        "ruleApplied": "5.3.3.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion homophonique entre nom et verbe. Le contexte exige clairement un nom ('un désir'), pas une forme verbale. L'article 'un' et le verbe 'possède' le confirment.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "attribuée",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'attribué' doit s'accorder avec le sujet 'Près de la moitié du gaspillage', qui est masculin singulier. Le donneur d'accord est 'gaspillage'.",
+        "suggestions": [
+          "attribué"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du participe passé avec 'être'. Avec une expression de quantité comme 'près de la moitié', l'accord se fait généralement avec le complément introduit par 'de', soit 'gaspillage' (masculin singulier).",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 10,
+      "note": "E"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 9,
+      "note": "E"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 20,
+      "vraisErreurs": 19,
+      "discutables": 1,
+      "fauxPositifs": 0
+    }
+  },
+  "startTimestamp": "2025-12-12T11:43:40.870Z",
+  "endTimestamp": "2025-12-12T11:44:43.090Z",
+  "durationMs": 62220,
+  "durationFormatted": "01:02:220"
+}

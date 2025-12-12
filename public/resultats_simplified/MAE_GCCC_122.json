@@ -1,0 +1,187 @@
+{
+  "processedAt": "2025-12-10T15:02:09.795Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_122.txt",
+    "originalText": "Nous en sommes capables !\r\n\r\nDe nos jours, nous faisons face à plusieurs problématiques liées à l'environnement. L'une d'elles et la surconsommation. Celle-ci peut être reliée à plusieurs sujets, notamment la surconsommation vestimentaire ou encore la surconsommation alimentaire. De plus, la société d'aujourd'hui est constamment en quête de la perfection et malheureusement, les aliments ne sont pas une exception à la règle. Cela nous mène à nous poser la question suivante : sommes-nous prêts à lutter contre le gaspillage alimentaire ? Je pense que nous sommes disposés à faire face à cette problématique.\r\n\r\nEn premier lieu, je pense que nous sommes parés à contrer le gaspillage alimentaire, plusieurs personnes et organismes prennent des initiatives à ce sujet. En effet, certains créent des plateformes mobiles, certains font des compagnes de publicité et d'autres récoltent les aliments invendus pour les redistribuer. Par exemple, des applications comme FlashFood, Food Hero ou SecondLife permettent aux gens de se procurer à un prix raisonnable des fruits et des légumes qui ne sont pas attrayants visuellement ou des produits dont la date de péremption est proche. (RECYC-QUÉBEC, 2021)1 Je pense que l'existence de ces plateformes est une très bonnes idée, car les familles qui ont un faible revenu pourront en profiter pour bien se nourrir et en plus de cela, elles sont bénéfiques pour l'environnement puisqu'elles réduisent le gaspillage et les gaz à effet de serre causés par les aliments non consommés enfouis dans la terre. De plus, les banques alimentaires jouent aussi un très grand rôle dans la lutte contre le gachâge de nourriture. Effectivement, en moins d'une décennie, elles ont collaboré avec plus de 400 épiceries pour saisir les aliments invendus et en faire des paniers alimentaires. Cela représente près de sept millions de kilos de produits redistribués. (Corriveau, 2020)2 Les banques alimentaires sont réellement une belle initiative, car en plus d'aider grandement l'environnement elles offrent aussi une grande aide aux familles immigrantes et aux personnes sans abris. Bref, nous sommes capables de lutter contre le gaspillage si nous continuons à faire des efforts.\r\n\r\nEn deuxième lieu, je crois que nous sommes disposés à combattre contre le gâchage alimentaire en donnant des conseils aux familles. En effet, des gens apprennent aux foyers familiaux comment gérer leur consommation, car cela mènera à une forte réduction de gaspillage. Ils donnent des conseils comme « de planifier ses repas et faire une liste d'épicerie ; d'acheter en quantités raisonnables ; de faire cuire les fruits et légumes trop mûrs ; de congeler les restes en portions individuelles. » (RECYC-QUÉBEC, 2021)3 Je pense que ces suggestions sont simples à suivre et efficaces pour faire face à la problématique, mais il faut qu'un grand nombre d'individus commencent à les suivre pour que cela fonctionne. Je pense que les gens sont prêts à faire des efforts pour le bien de notre planète. En bref, si les familles apprennent à bien s'occuper de leurs aliments et de leurs consommation, cela réduirait de beaucoup le gâchit.\r\n\r\nPour conclure, je suis d'avis que nous sommes enclin à lutter contre le gaspillage d'aliments, car plusieurs groupes de personnes prennent des initiatives telles que la création d'applications mobiles et la redistribution d'aliments invendus et ils donnent aussi des conseils aux familles pour mieux gérer leur consommation. Je pense que d'ici quelques années on réussira à vaincre certaines de nos problématiques actuelles si nous continuont à y mettre autant d'efforts.\r\n\r\n(1) RECYC-QUÉBEC (2021). « Gaspillage alimentaire », RECYC-QUÉBEC, [En ligne].\r\n\r\n(2) CORRIVEAU, Jeanne (2020). « La fierté de ne pas gaspiller d'aliments », Le Devoir, [En ligne].\r\n\r\n(3) RECYC-QUÉBEC (2021). « Gaspillage alimentaire », RECYC-QUÉBEC, [En Ligne].",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": ",",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "P",
+        "description": "La virgule est utilisée incorrectement pour joindre deux phrases syntaxiques indépendantes. Il faut utiliser un point ou un point-virgule pour marquer la fin de la première phrase.",
+        "suggestions": [
+          ". Plusieurs"
+        ],
+        "ruleApplied": "4.2.2.1.2"
+      },
+      {
+        "id": "erreur4.2",
+        "text": "combattre contre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe « combattre » est transitif direct. L'utilisation de la préposition « contre » est superflue et constitue un pléonasme. Il faut écrire « combattre le gâchage ».",
+        "suggestions": [
+          "combattre"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "id": "erreur4.3",
+        "text": "l'environnement elles",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule est requise pour séparer un complément de phrase de plus de trois mots (« en plus d'aider grandement l'environnement ») lorsqu'il est placé en tête de la proposition principale.",
+        "suggestions": [
+          "l'environnement, elles"
+        ],
+        "ruleApplied": "4.2.2.10.1.l"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 2,
+      "note": "A"
+    },
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "et",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre la conjonction de coordination « et » et le verbe « être » à la troisième personne du singulier de l'indicatif présent, « est ». Le sens de la phrase requiert l'emploi du verbe.",
+        "suggestions": [
+          "est"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "id": "erreur5.2",
+        "text": "compagnes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion entre les homophones « compagnes » (personnes qui accompagnent) et « campagnes » (opérations menées pour atteindre un but). Le contexte requiert « campagnes ».",
+        "suggestions": [
+          "campagnes"
+        ],
+        "ruleApplied": "5.2.2"
+      },
+      {
+        "id": "erreur5.3",
+        "text": "bonnes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « bonnes » doit s'accorder en genre et en nombre avec le nom qu'il qualifie, « idée », qui est féminin singulier. La forme correcte est « bonne ».",
+        "suggestions": [
+          "bonne"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.4",
+        "text": "gachâge",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Il manque l'accent circonflexe sur le 'a' du mot « gâchage ».",
+        "suggestions": [
+          "gâchage"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.5",
+        "text": "gâchit",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot « gâchis » se termine par un 's' et non un 't'.",
+        "suggestions": [
+          "gâchis"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "id": "erreur5.6",
+        "text": "enclin",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « enclin » doit s'accorder en nombre avec le pronom « nous », qui est pluriel. La forme correcte est « enclins ».",
+        "suggestions": [
+          "enclins"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.7",
+        "text": "continuont",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "La terminaison du verbe « continuer » à la première personne du pluriel de l'indicatif présent est « -ons » et non « -ont ».",
+        "suggestions": [
+          "continuons"
+        ],
+        "ruleApplied": "5.3.2.1"
+      },
+      {
+        "id": "erreur5.8",
+        "text": "Ligne",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot « ligne » est un nom commun et ne doit pas prendre de majuscule dans l'expression « En ligne ».",
+        "suggestions": [
+          "ligne"
+        ],
+        "ruleApplied": "5.2.4.1"
+      },
+      {
+        "id": "erreur5.9",
+        "text": "sans abris",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le nom composé « sans-abri » s'écrit avec un trait d'union. Il est invariable au pluriel.",
+        "suggestions": [
+          "sans-abri"
+        ],
+        "ruleApplied": "5.2.1.7.1"
+      },
+      {
+        "id": "erreur5.10",
+        "text": "leurs consommation",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant possessif doit s'accorder en nombre avec le nom qu'il détermine, « consommation » (singulier), et non avec le possesseur, « les familles » (pluriel). Il faut donc utiliser « leur ».",
+        "suggestions": [
+          "leur consommation"
+        ],
+        "ruleApplied": "5.3.1.1"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 10,
+      "note": "C"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:59:07.215Z",
+    "endTimestamp": "2025-12-10T15:02:09.795Z",
+    "durationMs": 182580,
+    "durationFormatted": "03:02:580"
+  }
+}

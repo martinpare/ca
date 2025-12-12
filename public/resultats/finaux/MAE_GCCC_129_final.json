@@ -1,0 +1,146 @@
+{
+  "processedAt": "2025-12-12T11:44:20.607Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_129.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_129.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "à pourquoi",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction de phrase boiteuse. La locution \"à pourquoi\" est un calque de l'oral qui doit être remplacé par une formulation comme \"de la raison pour laquelle\" ou \"qui explique pourquoi\".",
+        "suggestions": [
+          "qui explique pourquoi",
+          "de la raison pour laquelle"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction syntaxique non standard et non attestée en français écrit. La préposition 'à' ne peut pas introduire 'pourquoi' dans ce contexte.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "vous cher lecteur, vous",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule pour isoler l'apostrophe 'cher lecteur'.",
+        "suggestions": [
+          "vous, cher lecteur, vous"
+        ],
+        "ruleApplied": "4.2.2.10.1.h",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "L'apostrophe doit être isolée par deux virgules selon les règles de ponctuation standard.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "supporter",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe 'supporter' est un calque de l'anglais 'to support'. En français, il signifie 'endurer, tolérer'. Dans ce contexte, il faut utiliser 'soutenir' ou 'aider'.",
+        "suggestions": [
+          "soutenir"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Bien que 'supporter' soit souvent un anglicisme dans ce sens, le verbe peut signifier 'supporter une charge' en français. Dans le contexte ('supporter un accroissement'), l'usage est ambigu.",
+        "counterArgument": "Le verbe 'supporter' en français peut signifier 'porter, soutenir une charge' (sens étymologique). Dans le contexte 'supporter un si grand accroissement', on peut interpréter qu'il s'agit de 'porter/assumer' une augmentation importante. Cependant, 'soutenir' ou 'gérer' seraient plus idiomatiques. L'usage reste ambigu entre calque et sens français légitime."
+      },
+      {
+        "id": "erreur4.4",
+        "text": "commettre des efforts",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression 'commettre des efforts' est incorrecte. Le verbe 'commettre' s'emploie pour des actions négatives (un crime, une erreur). On 'fait' ou 'déploie' des efforts.",
+        "suggestions": [
+          "faire des efforts",
+          "déployer des efforts"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Collocation erronée évidente. Le verbe 'commettre' ne s'associe pas avec 'efforts' en français standard.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "rentrer en guerre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression correcte est 'entrer en guerre'. Le verbe 'rentrer' implique un mouvement de retour vers l'intérieur.",
+        "suggestions": [
+          "entrer en guerre"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Expression figée. 'Entrer en guerre' est la seule forme correcte. 'Rentrer' implique un retour, ce qui ne correspond pas au sens recherché.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "restants",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur lexicale. Le mot \"restants\" est ici un calque de l'anglais (\"leftovers\"). En français, pour désigner les restes d'un repas, on utilise le nom masculin pluriel \"restes\".",
+        "suggestions": [
+          "restes"
+        ],
+        "ruleApplied": "5.2.2",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Le substantif 'restants' est un québécisme reconnu et accepté par l'OQLF pour désigner les restes alimentaires.",
+        "counterArgument": "Le mot 'restants' employé comme substantif est un québécisme accepté et largement utilisé au Québec pour désigner les restes de nourriture. L'OQLF reconnaît cet usage dans le contexte québécois. Dans le passage 'il est impossible de réutiliser les restants', l'emploi est parfaitement correct selon les normes québécoises. Bien que 'restes' soit la forme standard en français international, 'restants' n'est pas une erreur dans un texte québécois."
+      },
+      {
+        "id": "erreur5.2",
+        "text": "future",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage. Le nom masculin \"futur\" s'écrit sans \"e\" final.",
+        "suggestions": [
+          "futur"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. Le nom masculin 'futur' ne prend jamais de 'e' final.",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 4,
+      "note": "C"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 1,
+      "note": "A"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 7,
+      "vraisErreurs": 5,
+      "discutables": 1,
+      "fauxPositifs": 1
+    }
+  },
+  "startTimestamp": "2025-12-12T11:43:55.488Z",
+  "endTimestamp": "2025-12-12T11:44:20.607Z",
+  "durationMs": 25119,
+  "durationFormatted": "00:25:119"
+}

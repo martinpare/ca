@@ -1,0 +1,292 @@
+{
+  "processedAt": "2025-12-12T11:42:25.921Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_099.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_099.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "C'est pourquoi,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "La locution conjonctive 'c'est pourquoi' n'est généralement pas suivie d'une virgule lorsqu'elle introduit la proposition principale qui exprime la conséquence.",
+        "suggestions": [
+          "C'est pourquoi"
+        ],
+        "ruleApplied": "4.2.2.10.2.f",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "La virgule après 'c'est pourquoi' en début de phrase est acceptée et courante en français québécois pour marquer une pause et créer un effet rhétorique.",
+        "counterArgument": "La virgule après 'c'est pourquoi' en début de phrase est une pratique courante et acceptée, particulièrement en français québécois. Elle permet de marquer une pause oratoire et de souligner la conséquence. Bien que certains puristes la déconseillent, l'usage moderne l'accepte largement, et elle n'entrave aucunement la compréhension. Dans un texte argumentatif comme celui-ci, elle contribue au rythme de la phrase."
+      },
+      {
+        "id": "erreur4.2",
+        "text": "Par après",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution 'Par après' est un calque de l'anglais. Il faut utiliser 'Ensuite', 'Puis' ou 'Par la suite'.",
+        "suggestions": [
+          "Ensuite",
+          "Par la suite"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Calque de l'anglais 'after' clairement identifié. L'OQLF recommande 'ensuite', 'puis' ou 'par la suite'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "telles congeler",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'adjectif 'telles' ne peut pas introduire directement des verbes à l'infinitif. Il faut utiliser une construction comme 'telles que' ou reformuler, par exemple avec 'comme'.",
+        "suggestions": [
+          "telles que congeler",
+          "comme congeler"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction syntaxiquement incorrecte. 'Telles' requiert 'que' pour introduire des exemples avec des infinitifs.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "voire même",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression 'voire même' est un pléonasme, car 'voire' signifie déjà 'et même'. Il faut utiliser soit 'voire', soit 'et même'.",
+        "suggestions": [
+          "voire",
+          "et même"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Bien que techniquement pléonastique, 'voire même' est largement utilisé dans l'usage contemporain et accepté par plusieurs dictionnaires comme Le Petit Robert.",
+        "counterArgument": "Bien que 'voire même' soit techniquement un pléonasme puisque 'voire' signifie déjà 'et même', cette expression est devenue très courante dans l'usage contemporain et est acceptée par plusieurs dictionnaires de référence, dont Le Petit Robert. Elle crée un effet de gradation et d'insistance apprécié dans un style argumentatif. Le Grevisse note que ce pléonasme est fréquent et qu'il tend à s'imposer dans l'usage."
+      },
+      {
+        "id": "erreur4.5",
+        "text": "et n'avons aucun pouvoir de régler",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La coordination est boiteuse. On ne peut coordonner une proposition relative ('sur lesquels nous avons peu de contrôle') avec une proposition qui n'est pas introduite par un pronom relatif. Il faut répéter le pronom relatif ou reformuler. Par exemple : '...sur lesquels nous avons peu de contrôle et que nous ne pouvons régler'.",
+        "suggestions": [
+          "et que nous n'avons aucun pouvoir de régler",
+          "et que nous ne pouvons régler"
+        ],
+        "ruleApplied": "4.1.2.1.8",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Rupture de construction syntaxique claire. La coordination entre une relative et une proposition principale sans pronom relatif est incorrecte.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "contre lequel nous ne sommes point prêt à faire face",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction est incorrecte. La locution verbale est 'faire face à quelque chose'. Le pronom relatif doit donc être 'auquel' pour remplacer 'au problème'. La préposition 'contre' est donc incorrecte. On écrit : 'auquel nous ne sommes point prêts à faire face'.",
+        "suggestions": [
+          "auquel nous ne sommes point prêts à faire face"
+        ],
+        "ruleApplied": "4.1.2.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de construction prépositionnelle évidente. 'Faire face' exige la préposition 'à', donc le relatif doit être 'auquel' et non 'contre lequel'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "2021",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une référence bibliographique ou une note de fin de texte doit se terminer par un point.",
+        "suggestions": [
+          "2021."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique standard pour les références bibliographiques : elles doivent se terminer par un point.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": ". » (1)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point final se place après la référence entre parenthèses qui suit une citation.",
+        "suggestions": [
+          " » (1)."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique claire : le point final d'une phrase se place après l'appel de note ou la référence parenthétique.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "petit",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'petit' doit s'accorder en nombre avec le pronom 'on' qui a le sens de 'nous' (les jeunes), un référent pluriel. On écrit donc 'petits'.",
+        "suggestions": [
+          "petits"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Accord syllepse requis. Quand 'on' = 'nous', l'accord se fait au pluriel. Le contexte ('Depuis tout petit on nous apprend') indique clairement un référent pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "unies",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Dans la dénomination 'Organisation des Nations Unies', l'adjectif 'Unies' prend une majuscule.",
+        "suggestions": [
+          "Unies"
+        ],
+        "ruleApplied": "5.2.4.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique claire pour les noms d'organismes internationaux. 'Nations Unies' prend des majuscules aux deux mots dans la dénomination officielle.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "eux-même",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom 'même' s'accorde en nombre avec le pronom personnel auquel il se rapporte. Ici, 'eux' est pluriel, donc on écrit 'eux-mêmes'.",
+        "suggestions": [
+          "eux-mêmes"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle d'accord évidente. 'Même' doit s'accorder avec 'eux' (pluriel) : 'eux-mêmes'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "faites",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'faites', employé comme adjectif, doit s'accorder avec le sujet 'Ces genres de choses'. Le nom principal du groupe est 'genres', qui est masculin pluriel. On écrit donc 'faits'.",
+        "suggestions": [
+          "faits"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Cas d'accord complexe avec nom collectif. L'accord peut se faire soit avec 'genres' (masculin), soit avec 'choses' (féminin) selon le sens privilégié.",
+        "counterArgument": "Avec l'expression 'ces genres de choses', l'accord peut légitimement se faire soit avec le nom 'genres' (accord grammatical au masculin pluriel : 'faits'), soit avec 'choses' (accord selon le sens au féminin pluriel : 'faites'), car c'est aux 'choses' que l'on pense réellement. Le Grevisse reconnaît cette possibilité d'accord sylleptique avec les expressions formées d'un nom collectif suivi d'un complément. Les deux accords sont défendables."
+      },
+      {
+        "id": "erreur5.5",
+        "text": "habituées",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'habituées' doit s'accorder avec le pronom 'nous'. L'auteur a précédemment utilisé l'accord au masculin pluriel pour ce pronom ('prêts'). Par souci de cohérence, il faut conserver cet accord. On écrit donc 'habitués'.",
+        "suggestions": [
+          "habitués"
+        ],
+        "ruleApplied": "5.3.1.2",
+        "verdict": "ERREUR",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Incohérence interne dans le texte. L'auteur a établi un accord au masculin pluriel pour 'nous' ailleurs dans le texte ('prêts'), l'accord devrait être maintenu.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "dû",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'dû', employé comme adjectif, doit s'accorder avec le sujet 'une tonne de gaspillage'. Le nom principal 'tonne' est féminin singulier. On écrit donc 'due'.",
+        "suggestions": [
+          "due"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Cas d'accord complexe avec nom collectif. L'accord peut se faire soit avec 'tonne' (féminin), soit avec 'gaspillage' (masculin) selon le sens privilégié.",
+        "counterArgument": "Avec l'expression 'une tonne de gaspillage', l'accord peut légitimement se faire soit avec le nom 'tonne' (accord grammatical au féminin singulier : 'due'), soit avec 'gaspillage' (accord selon le sens au masculin singulier : 'dû'), car 'tonne' est utilisé ici comme quantifiant approximatif et c'est au 'gaspillage' que l'on pense réellement. Le Grevisse et d'autres grammairiens reconnaissent cette liberté d'accord avec les noms de mesure employés au figuré."
+      },
+      {
+        "id": "erreur5.7",
+        "text": "prêt",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'prêt' doit s'accorder en nombre avec le sujet 'nous', qui est pluriel. On écrit donc 'prêts'.",
+        "suggestions": [
+          "prêts"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. L'adjectif 'prêt' doit s'accorder au pluriel avec le sujet 'nous' : 'prêts'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "plastiques",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif qui désigne une matière, comme 'plastique', est invariable lorsqu'il est en apposition après 'en'. On écrit donc 'emballages en plastique'.",
+        "suggestions": [
+          "plastique"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "L'invariabilité des noms de matière après 'en' n'est pas absolue. L'accord au pluriel est également attesté dans l'usage contemporain.",
+        "counterArgument": "Bien que la règle traditionnelle veuille que le nom de matière après 'en' reste invariable ('emballages en plastique'), l'accord au pluriel ('emballages en plastiques') est de plus en plus fréquent dans l'usage contemporain et n'est pas considéré comme fautif par tous les grammairiens. Certains y voient une évolution naturelle de la langue où 'plastiques' prend un sens de 'diverses matières plastiques' ou s'accorde par attraction avec le nom qu'il qualifie. Les deux formes coexistent dans l'usage actuel."
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 5,
+      "note": "C"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 5,
+      "note": "C"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 16,
+      "vraisErreurs": 10,
+      "discutables": 5,
+      "fauxPositifs": 1
+    }
+  },
+  "startTimestamp": "2025-12-12T11:41:30.878Z",
+  "endTimestamp": "2025-12-12T11:42:25.920Z",
+  "durationMs": 55042,
+  "durationFormatted": "00:55:042"
+}

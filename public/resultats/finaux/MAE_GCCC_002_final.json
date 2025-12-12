@@ -1,0 +1,176 @@
+{
+  "processedAt": "2025-12-12T11:35:20.567Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_002.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_002.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "les",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom \"les\" est au pluriel alors que son antécédent, \"la population\", est un nom collectif au singulier. Il faut utiliser le pronom singulier \"l'\" (élision de \"la\").",
+        "suggestions": [
+          "l'"
+        ],
+        "ruleApplied": "4.1.2.3.2",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "La syllepse grammaticale avec les noms collectifs est fréquemment acceptée en français lorsqu'on envisage les individus composant le groupe plutôt que le groupe lui-même.",
+        "counterArgument": "La syllepse grammaticale (accord selon le sens plutôt que selon la forme) est courante avec les noms collectifs comme \"population\". Quand l'auteur pense aux individus composant la population, l'accord au pluriel (\"les informer\") est acceptable et souvent préféré pour la clarté. Ce procédé est attesté par Grevisse et couramment utilisé dans la langue journalistique et littéraire. L'accord au singulier serait également correct, mais le pluriel n'est pas fautif."
+      },
+      {
+        "id": "erreur4.2",
+        "text": "à réduire",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition \"à\" est incorrecte dans ce contexte. On donne des conseils \"pour\" atteindre un but (réduire le gaspillage), et non \"à\".",
+        "suggestions": [
+          "pour réduire"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Emploi incorrect de la préposition. \"Conseils pour\" exprime correctement la finalité, alors que \"conseils à\" est un calque de l'anglais (\"advice to\").",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "Si je vous disais qu'il était possible de n'avoir à rien jeter après une longue journée au travail.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase est une subordonnée introduite par \"Si\" et ne possède pas de phrase matrice (principale). Elle est donc incomplète. Il manque la proposition principale ou un signe de ponctuation interrogative pour en faire une question rhétorique.",
+        "suggestions": [
+          "Si je vous disais qu'il était possible de n'avoir à rien jeter après une longue journée au travail?"
+        ],
+        "ruleApplied": "4.1.2.1.4",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "La phrase suspendue est un procédé rhétorique courant dans les textes argumentatifs pour créer un effet d'anticipation. Le point final peut être intentionnel pour créer une pause dramatique.",
+        "counterArgument": "La phrase suspendue (aussi appelée aposiopèse) est un procédé rhétorique reconnu dans les textes argumentatifs et persuasifs. L'auteur utilise \"Si je vous disais que...\" pour créer un effet d'anticipation avant de révéler l'information dans la phrase suivante (\"C'est le cas du chef montréalais...\"). Ce procédé est acceptable en français écrit, particulièrement dans un registre oratoire. Toutefois, le point d'interrogation serait également approprié et clarifierait la nature rhétorique de la question."
+      },
+      {
+        "id": "erreur4.4",
+        "text": "Simard Valérie",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Dans une référence où le nom de famille précède le prénom, une virgule est requise pour les séparer.",
+        "suggestions": [
+          "Simard, Valérie"
+        ],
+        "ruleApplied": "4.2.2.10.1.a",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Dans le corps du texte (non bibliographique), l'ordre naturel est prénom-nom sans virgule. La virgule est requise uniquement dans les listes et bibliographies où l'ordre est inversé.",
+        "counterArgument": "Dans le corps d'un texte courant, l'usage normal est de présenter l'identité dans l'ordre prénom-nom (\"Valérie Simard\") sans virgule. La convention avec virgule (\"Simard, Valérie\") s'applique principalement aux listes alphabétiques, répertoires et références bibliographiques. Ici, l'auteur semble avoir inversé l'ordre, ce qui crée une ambiguïté. La meilleure correction serait de rétablir l'ordre naturel : \"la journaliste Valérie Simard\"."
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "repartition",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'accent aigu est manquant sur le \"e\". Le mot correct est \"répartition\".",
+        "suggestions": [
+          "répartition"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. L'accent aigu est obligatoire sur le premier \"e\" de \"répartition\".",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "lapresse",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "\"La Presse\" est une dénomination (nom propre d'un journal) et doit commencer par une majuscule. De plus, l'article est détaché du nom.",
+        "suggestions": [
+          "La Presse"
+        ],
+        "ruleApplied": "5.2.4.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur évidente : fusion incorrecte de l'article et du nom propre, et absence de majuscule sur le nom du journal québécois \"La Presse\".",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "linitiative",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot \"l'initiative\" a été fusionné à tort. L'apostrophe marquant l'élision de l'article \"la\" est manquante.",
+        "suggestions": [
+          "l'initiative"
+        ],
+        "ruleApplied": "5.2.6.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur typographique évidente : l'apostrophe d'élision est obligatoire entre l'article \"l'\" et le nom \"initiative\".",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "québécois",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le gentilé (nom désignant les habitants d'un lieu) doit prendre une majuscule lorsqu'il est employé comme un nom.",
+        "suggestions": [
+          "Québécois"
+        ],
+        "ruleApplied": "5.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle claire : dans \"en tant que québécois\", le gentilé est employé comme nom et doit prendre la majuscule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "Fast-Food",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'usage de la majuscule est fautif pour ce nom commun composé d'origine étrangère. Il ne s'agit pas d'un nom propre.",
+        "suggestions": [
+          "fast-food"
+        ],
+        "ruleApplied": "5.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Emploi incorrect de la majuscule. \"Fast-food\" est un nom commun désignant un type de restauration, pas un nom propre. L'OQLF recommande la graphie \"restauration rapide\" ou \"fast-food\" en minuscules.",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 2,
+      "note": "A"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 5,
+      "note": "B"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 9,
+      "vraisErreurs": 6,
+      "discutables": 3,
+      "fauxPositifs": 0
+    }
+  },
+  "startTimestamp": "2025-12-12T11:34:47.752Z",
+  "endTimestamp": "2025-12-12T11:35:20.567Z",
+  "durationMs": 32815,
+  "durationFormatted": "00:32:815"
+}

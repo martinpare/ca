@@ -1,0 +1,583 @@
+{
+  "processedAt": "2025-12-10T14:53:15.220Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_101.txt",
+    "originalText": "Le surplus d'aliments\r\n\r\nChers lecteurs,\r\n\r\nAu Canada, le gaspillage alimentaire est un grand probléme qui devrait être régler. La question posé est nous sommes-t-ils prêts à lutter contre le gaspillage alimentaire? Je pense qui oui nous sommes prêts à lutter contre le gaspillage alimentaire parce qu'il y a plusieurs solutions mis en place pour évité ce problème.\r\n\r\nPremièrement, Loop Mission est une entreprise québécoise créée en 2016 qui transforme les restes de fruits et de légumes qui viennent des récoltes ou des usines en savon, en jus et en alcool (Martinez, 2021). Cette entreprise peut réduire le gaspillage\r\n\r\nalimentaire fait par la production et la transformation qui est 10% pour la production et 20% pour la transformation (Table québécoise sur la saine alimentation, 2019). Mais Loop Mission accepte seulement les demandes des grosses entreprises parce que la récupération des aliments est dûr et la transformation est de haut coût. Aussi certains conditions météorologiques affectent la forme des légumes et les personnes veulent seulement des légumes \"parfaits\". Alors à cause de ce problème c'est plus difficile a les vendres. Bref, les personnes devrait acheter les légumes même si c'est pas la forme qu'il désire et je pense que cette entreprise est une des solutions qui peut nous aider à lutter contre le gaspillage alimentaire.\r\n\r\nDeuxièmement, Chers internautes le gaspillage alimentaire est le plus élevée en consommation qui est de 47% (Table québécoise sur la saine alimentation, 2019). À la maison le gaspillage est de 50% et selon Florence-Léa Siry « [...] pourrait être évité [...] si les consommateurs apprenaient à mieux conserver les aliments. » (Corriveau, 2020) Pour diminuer le gaspillage à la maison il faut qu'on ce informe sur ce qu'on peut faire. Par exemple il y a des sites Web comme sauve ta bouffe, Chic frigo sans fric, des livres et d'autres qui nous montre et explique quoi faire pour réduire le gaspillage alimentaire. Ce que plusieurs consommateurs comme nous en mal compris est que le date limite écris meilleur avant ne veut pas dire qu'on ne peut pas le manger après, à cause de sa plusieurs personnes comme moi jête aux déchets le produits. Ce qu'on peut faire pour limite le gaspillage à la maison et qui est conseillé par (RECYC-QUÉBEC, 2021 ) est de faire une liste d'épicerie, ne pas acheter en surplus et de mettre frigo ce qui restes individuellement. En conclusion partielle il faut qu'on prend ce problème aux serieux et diminue le plus possible le gaspillage alimentaire.\r\n\r\nEn conclusion, oui nous sommes prêts à lutter contre le gaspillage alimentaire parce qu'il y a plusieurs solutions ont peut utilisées. Il faut seulement les suivre strictement.",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "est nous sommes-t-ils",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase interrogative est incorrecte. Il manque un élément pour introduire la question et le pronom de reprise est erroné. On pourrait écrire 'est la suivante : sommes-nous...'.",
+        "suggestions": [
+          "est la suivante : sommes-nous"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "id": "erreur4.2",
+        "text": "qui",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "S",
+        "description": "Confusion entre les homophones 'qui' (pronom relatif) et 'que' (conjonction de subordination). Après 'Je pense', il faut utiliser 'que'.",
+        "suggestions": [
+          "que"
+        ],
+        "ruleApplied": "4.1.2.1.9"
+      },
+      {
+        "id": "erreur4.3",
+        "text": "Aussi",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "L'organisateur textuel 'Aussi' en tête de phrase doit être suivi d'une virgule.",
+        "suggestions": [
+          "Aussi,"
+        ],
+        "ruleApplied": "4.2.2.10.1.k"
+      },
+      {
+        "id": "erreur4.4",
+        "text": "c'est pas",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La négation est mal employée. En français standard, la négation se construit avec 'ne... pas'. Il manque l'adverbe 'ne' (élidé 'n'').",
+        "suggestions": [
+          "ce n'est pas"
+        ],
+        "ruleApplied": "4.1.2.1.3"
+      },
+      {
+        "id": "erreur4.5",
+        "text": "Chers internautes",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "L'apostrophe (interpellation) 'Chers internautes' doit être isolée du reste de la phrase par une virgule.",
+        "suggestions": [
+          "Chers internautes,"
+        ],
+        "ruleApplied": "4.2.2.10.1.h"
+      },
+      {
+        "id": "erreur4.6",
+        "text": "mettre frigo",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque un mot essentiel à la construction de la phrase. L'expression correcte est 'mettre au frigo'.",
+        "suggestions": [
+          "mettre au frigo"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "id": "erreur4.7",
+        "text": "qui",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le subordonnant « qui » est incorrect. Il faut utiliser « que ».",
+        "suggestions": [
+          "que"
+        ],
+        "ruleApplied": "4.1.2.4.2"
+      },
+      {
+        "id": "erreur4.8",
+        "text": "en mal compris",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction du verbe au passé composé est incorrecte. Il faut utiliser l'auxiliaire « avoir » (ont).",
+        "suggestions": [
+          "ont mal compris"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "id": "erreur4.9",
+        "text": "meilleur avant",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "« P »",
+        "description": "Les guillemets sont requis pour encadrer une expression ou une mention spécifique.",
+        "suggestions": [
+          "« meilleur avant »"
+        ],
+        "ruleApplied": "4.2.2.5.1"
+      },
+      {
+        "id": "erreur4.10",
+        "text": ")",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il ne faut pas d'espace avant une parenthèse fermante.",
+        "suggestions": [
+          "(RECYC-QUÉBEC, 2021)"
+        ],
+        "ruleApplied": "4.2.1.5"
+      },
+      {
+        "id": "erreur4.11",
+        "text": "En conclusion partielle",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule est requise après un organisateur textuel en début de phrase.",
+        "suggestions": [
+          "En conclusion partielle,"
+        ],
+        "ruleApplied": "4.2.2.10.1.k"
+      },
+      {
+        "id": "erreur4.12",
+        "text": "diminue",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Dans une coordination de deux subordonnées introduites par « que », il faut répéter la conjonction « que ».",
+        "suggestions": [
+          "et qu'on diminue"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "id": "erreur4.13",
+        "text": "ont peut utilisées",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est incorrecte. Il faut utiliser le pronom relatif « que » (élidé « qu' ») pour introduire la subordonnée, et le verbe « utiliser » doit être à l'infinitif après le verbe modal « peut ».",
+        "suggestions": [
+          "qu'on peut utiliser"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 10.5,
+      "note": "C"
+    },
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "probléme",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'accent grave est manquant sur le deuxième 'e'. On écrit 'problème'.",
+        "suggestions": [
+          "problème"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.2",
+        "text": "régler",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif '-er' et le participe passé '-é'. Après l'auxiliaire 'être', on emploie le participe passé, qui s'accorde avec le sujet 'qui' (mis pour 'problème', masculin singulier).",
+        "suggestions": [
+          "réglé"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "id": "erreur5.3",
+        "text": "posé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'posé', employé comme adjectif, doit s'accorder en genre et en nombre avec le nom qu'il qualifie, 'La question' (féminin singulier).",
+        "suggestions": [
+          "posée"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "id": "erreur5.4",
+        "text": "mis",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'mis', employé avec l'auxiliaire 'avoir' (sous-entendu dans 'il y a ... mis'), doit s'accorder avec son complément d'objet direct 'plusieurs solutions' (féminin pluriel) si celui-ci est placé avant. Ici, il est employé comme adjectif et doit s'accorder avec 'solutions'.",
+        "suggestions": [
+          "mises"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "id": "erreur5.5",
+        "text": "évité",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le participe passé '-é' et l'infinitif '-er'. Après la préposition 'pour', le verbe doit être à l'infinitif.",
+        "suggestions": [
+          "éviter"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "id": "erreur5.6",
+        "text": "dûr",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'dûr' est mal orthographié et mal accordé. Il doit s'accorder en genre avec le nom 'récupération' (féminin singulier). On écrit 'dure'.",
+        "suggestions": [
+          "dure"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.7",
+        "text": "a",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'auxiliaire 'a' (verbe avoir) et la préposition 'à'. Ici, il faut la préposition 'à'.",
+        "suggestions": [
+          "à"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "id": "erreur5.8",
+        "text": "vendres",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'vendre' est ici à l'infinitif et ne prend pas de 's' final.",
+        "suggestions": [
+          "vendre"
+        ],
+        "ruleApplied": "5.3.2.5"
+      },
+      {
+        "id": "erreur5.9",
+        "text": "devrait",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'devrait' doit s'accorder en nombre avec son sujet, 'les personnes' (3e personne du pluriel).",
+        "suggestions": [
+          "devraient"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.10",
+        "text": "il",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom 'il' doit s'accorder en nombre avec son antécédent, 'les personnes' (pluriel).",
+        "suggestions": [
+          "ils"
+        ],
+        "ruleApplied": "5.3.1.4"
+      },
+      {
+        "id": "erreur5.11",
+        "text": "désire",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "Le verbe 'désire' doit s'accorder en nombre avec son sujet 'il' (mis pour 'les personnes', 3e personne du pluriel). Le donneur d'accord est 'les personnes'.",
+        "suggestions": [
+          "désirent"
+        ],
+        "ruleApplied": "5.4.2.1"
+      },
+      {
+        "id": "erreur5.12",
+        "text": "élevée",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'élevée' doit s'accorder en genre avec le nom qu'il qualifie, 'le gaspillage' (masculin singulier).",
+        "suggestions": [
+          "élevé"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.13",
+        "text": "ce",
+        "occurenceIndex": 2,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le pronom démonstratif 'ce' et le pronom réfléchi 'se' (élidé 's''). Le verbe est 's'informer'.",
+        "suggestions": [
+          "s'"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "id": "erreur5.14",
+        "text": "montre",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'montre' doit s'accorder avec son sujet 'qui', qui reprend 'des sites Web [...], des livres et d'autres' (pluriel).",
+        "suggestions": [
+          "montrent"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.15",
+        "text": "explique",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "Le verbe 'explique' doit s'accorder avec son sujet 'qui', qui reprend 'des sites Web [...], des livres et d'autres' (pluriel). Le donneur d'accord est 'qui'.",
+        "suggestions": [
+          "expliquent"
+        ],
+        "ruleApplied": "5.4.2.1"
+      },
+      {
+        "id": "erreur5.16",
+        "text": "en",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre la préposition 'en' et la forme verbale 'ont' (auxiliaire avoir à la 3e personne du pluriel). Le sujet est 'plusieurs consommateurs'.",
+        "suggestions": [
+          "ont"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "id": "erreur5.17",
+        "text": "le",
+        "occurenceIndex": 3,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'date' est féminin. Le déterminant doit donc être 'la'.",
+        "suggestions": [
+          "la"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.18",
+        "text": "écris",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "Le participe passé 'écris' doit s'accorder en genre et en nombre avec le nom qu'il qualifie, 'date limite' (féminin singulier). On écrit 'écrite'. Le donneur d'accord est 'date limite'.",
+        "suggestions": [
+          "écrite"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "id": "erreur5.19",
+        "text": "sa",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le déterminant possessif 'sa' et le pronom démonstratif 'ça'.",
+        "suggestions": [
+          "ça"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "id": "erreur5.20",
+        "text": "jête",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur sur le radical du verbe 'jeter' au présent de l'indicatif. Il faut doubler la consonne 't' : 'jette'.",
+        "suggestions": [
+          "jette"
+        ],
+        "ruleApplied": "5.2.1.6"
+      },
+      {
+        "id": "erreur5.21",
+        "text": "le produits",
+        "occurenceIndex": 5,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant 'le' (singulier) ne s'accorde pas avec le nom 'produits' (pluriel).",
+        "suggestions": [
+          "les produits"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.22",
+        "text": "limite",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre la forme conjuguée 'limite' et l'infinitif '-er'. Après la préposition 'pour', le verbe doit être à l'infinitif.",
+        "suggestions": [
+          "limiter"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "id": "erreur5.23",
+        "text": "restes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'restes' doit s'accorder avec son sujet 'ce qui' (3e personne du singulier).",
+        "suggestions": [
+          "reste"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.24",
+        "text": "prend",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après la locution conjonctive 'il faut que', le verbe doit être au subjonctif présent. La forme correcte pour 'prendre' à la 3e personne du singulier est 'prenne'.",
+        "suggestions": [
+          "prenne"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "id": "erreur5.25",
+        "text": "aux serieux",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'expression est 'au sérieux'. Le nom 'sérieux' est ici au singulier.",
+        "suggestions": [
+          "au sérieux"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.26",
+        "text": "utilisées",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le participe passé '-ées' et l'infinitif '-er'. Après le verbe modal 'pouvoir' (peut), le verbe qui suit doit être à l'infinitif.",
+        "suggestions": [
+          "utiliser"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "id": "erreur5.27",
+        "text": "certains conditions",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant « certains » doit s'accorder en genre avec le nom qu'il détermine, « conditions » (féminin pluriel).",
+        "suggestions": [
+          "certaines"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.28",
+        "text": "a",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'auxiliaire « a » (verbe avoir) et la préposition « à ». Il faut utiliser la préposition.",
+        "suggestions": [
+          "à"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "id": "erreur5.29",
+        "text": "ce informe",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le pronom démonstratif « ce » et le pronom réfléchi « se » (élidé « s' »).",
+        "suggestions": [
+          "s'informe"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "id": "erreur5.30",
+        "text": "sauve ta bouffe",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Les titres d'œuvres, de sites web, etc., prennent une majuscule au premier mot.",
+        "suggestions": [
+          "Sauve ta bouffe"
+        ],
+        "ruleApplied": "5.2.4.4"
+      },
+      {
+        "id": "erreur5.31",
+        "text": "Chic frigo sans fric",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Répétition de la même erreur d'usage (absence de majuscule au début d'un titre).",
+        "suggestions": [
+          "Chic frigo sans fric"
+        ],
+        "ruleApplied": "5.1.3"
+      },
+      {
+        "id": "erreur5.32",
+        "text": "le date",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « date » est féminin. Le déterminant doit être « la ».",
+        "suggestions": [
+          "la date"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.33",
+        "text": "le produits",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « produits » est au pluriel, mais le déterminant « le » est au singulier. Le contexte suggère le singulier.",
+        "suggestions": [
+          "le produit"
+        ],
+        "ruleApplied": "5.3.1.1"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 29,
+      "note": "E"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:48:08.155Z",
+    "endTimestamp": "2025-12-10T14:53:15.220Z",
+    "durationMs": 307065,
+    "durationFormatted": "05:07:065"
+  }
+}

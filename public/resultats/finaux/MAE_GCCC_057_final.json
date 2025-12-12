@@ -1,0 +1,368 @@
+{
+  "processedAt": "2025-12-12T11:39:20.279Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_057.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_057.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": ".",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une phrase interrogative directe doit se terminer par un point d'interrogation.",
+        "suggestions": [
+          "?"
+        ],
+        "ruleApplied": "4.2.2.2.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de ponctuation évidente : une question directe doit obligatoirement se terminer par un point d'interrogation selon les règles de base de la ponctuation française.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "en",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom « en » est superflu dans cette construction. L'expression est « être incapable de faire quelque chose ».",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur syntaxique claire : le verbe « être incapable de » se construit sans le pronom « en ». La présence du pronom crée une construction fautive « nous en sommes incapables de lutter ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "se délaisser de",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe « délaisser » est un verbe transitif direct. La construction pronominale « se délaisser de » est incorrecte.",
+        "suggestions": [
+          "délaisser"
+        ],
+        "ruleApplied": "4.1.2.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction verbale incorrecte : « délaisser » est transitif direct et ne se construit pas à la forme pronominale avec la préposition « de ». Il faut dire « les producteurs sont obligés de délaisser certains aliments ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "«",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le guillemet fermant français est « » » et non un second guillemet ouvrant « « ».",
+        "suggestions": [
+          "»"
+        ],
+        "ruleApplied": "4.2.2.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur typographique claire : en français, les guillemets français doivent être appariés correctement (« pour ouvrir, » pour fermer).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "les porter eux-mêmes les victuailles",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom « les » est superflu car le complément d'objet direct « les victuailles » est déjà exprimé.",
+        "suggestions": [
+          "porter eux-mêmes les victuailles"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Redondance syntaxique évidente : le pronom complément « les » fait double emploi avec le COD « les victuailles ». C'est une erreur classique de reprise fautive.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": ".",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point est superflu après le guillemet fermant, car la phrase se poursuit. La citation est un complément de la phrase principale.",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.1.2",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "En relisant le texte original, la citation « Au Canada, ce sont surtout les légumes,les fruits, le pain, les produits laitiers, les œufs et les restes de table qui sont gaspillés. » se termine bien par un point avant la source entre parenthèses. C'est la ponctuation correcte pour une citation complète.",
+        "counterArgument": "La citation constitue une phrase complète intégrée au texte. Le point à l'intérieur du guillemet fermant est approprié selon les règles de ponctuation des citations. La source bibliographique (RECYC-QUÉBEC, 2021) suit ensuite normalement. Cette construction est standard et correcte."
+      },
+      {
+        "id": "erreur4.7",
+        "text": "cette étape",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition « à » est manquante devant le complément circonstanciel « cette étape ».",
+        "suggestions": [
+          "à cette étape"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de préposition évidente : le complément circonstanciel de lieu « cette étape » nécessite la préposition « à » pour être correctement rattaché au verbe « coûtent ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": ", aussi,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule ne peut joindre deux phrases syntaxiques indépendantes (asyndète fautive). Il faut utiliser un point ou un point-virgule pour les séparer correctement.",
+        "suggestions": [
+          ". Aussi,"
+        ],
+        "ruleApplied": "4.2.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de ponctuation classique : deux propositions indépendantes ne peuvent être reliées uniquement par une virgule. Il faut un point, un point-virgule ou une conjonction de coordination.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "Shiels,2021",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une espace est requise après la virgule pour séparer les éléments d'une référence bibliographique.",
+        "suggestions": [
+          "Shiels, 2021"
+        ],
+        "ruleApplied": "4.2.2.10.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur typographique mineure mais réelle : les conventions de ponctuation exigent une espace après toute virgule, y compris dans les références bibliographiques.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "québécois",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Les noms de peuples, ou gentilés, prennent une majuscule.",
+        "suggestions": [
+          "Québécois"
+        ],
+        "ruleApplied": "5.2.4.1",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "L'analyse du contexte montre que « plusieurs québécois » fonctionne ici comme un adjectif qualifiant des personnes implicites, pas comme un nom substantivé désignant les membres du peuple québécois.",
+        "counterArgument": "Dans la phrase « plusieurs québécois ont comme habitude », le mot « québécois » peut être interprété comme un adjectif (sous-entendant « consommateurs québécois » ou « citoyens québécois »). Quand le gentilé est utilisé adjectivement plutôt que comme nom propre, la minuscule est acceptable. Cependant, l'usage dominant est de considérer « plusieurs Québécois » comme un nom et d'appliquer la majuscule. La correction vers « Québécois » reste préférable."
+      },
+      {
+        "id": "erreur5.2",
+        "text": "défois",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Barbarisme orthographique. La locution adverbiale s'écrit en deux mots : « des fois ».",
+        "suggestions": [
+          "des fois"
+        ],
+        "ruleApplied": "5.2.6.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'orthographe lexicale claire : « défois » n'existe pas en français. La locution correcte est « des fois » (ou « parfois »).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "affecté",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé employé avec l'auxiliaire « être » s'accorde en genre et en nombre avec le sujet « la forme » (féminin singulier).",
+        "suggestions": [
+          "affectée"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord grammatical évidente : le participe passé avec l'auxiliaire « être » doit s'accorder avec le sujet « la forme » (féminin singulier).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "Radio Canada",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le nom propre de cet organisme s'écrit avec un trait d'union.",
+        "suggestions": [
+          "Radio-Canada"
+        ],
+        "ruleApplied": "5.2.1.7.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'orthographe d'usage : « Radio-Canada » est la graphie officielle de cet organisme canadien, vérifiable sur son site officiel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "cher",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « cher » doit s'accorder avec le nom qu'il qualifie, « la transformation » (féminin singulier), qui est sous-entendu après la coordination.",
+        "suggestions": [
+          "chère"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente : l'adjectif « cher » coordonné avec « compliquée » doit s'accorder avec le sujet « la transformation » (féminin singulier).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "grosse",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « grosse » doit s'accorder en nombre avec le pronom « ceux » (pluriel) qui sous-entend un nom pluriel.",
+        "suggestions": [
+          "grosses"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en nombre : « ceux de grosse entreprise » devrait être « ceux de grosses entreprises » car le pronom démonstratif « ceux » est pluriel et renvoie à « aliments » (ou « fruits et légumes »).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "entreprise",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « entreprise » doit s'accorder en nombre avec le pronom « ceux » (pluriel). L'erreur découle du même donneur d'accord que « grosse ».",
+        "suggestions": [
+          "entreprises"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en nombre liée à l'erreur précédente : « entreprise » doit être au pluriel pour correspondre au sens de « ceux de grosses entreprises ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "ils",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom « ils » reprend « grosse entreprise » (corrigé en « grosses entreprises »), qui est un nom féminin. Il faut donc utiliser le pronom « elles ».",
+        "suggestions": [
+          "elles"
+        ],
+        "ruleApplied": "5.3.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en genre : le pronom personnel doit reprendre « entreprises » (féminin pluriel), donc « elles » et non « ils ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "aliment",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après la locution de quantité « assez de », le nom qui suit se met au pluriel.",
+        "suggestions": [
+          "aliments"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en nombre : après « assez de » ou toute expression de quantité, le nom complément se met généralement au pluriel lorsqu'il est dénombrable.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.10",
+        "text": "au",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "La préposition contractée « au » (à + le) est incorrecte devant le nom pluriel « étapes ». Il faut utiliser « aux » (à + les).",
+        "suggestions": [
+          "aux"
+        ],
+        "ruleApplied": "5.3.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur grammaticale évidente : la contraction de la préposition « à » avec l'article défini pluriel « les » donne « aux », pas « au » (qui est singulier).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.11",
+        "text": "main d'œuvre",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Un trait d'union est requis dans le nom composé « main-d'œuvre ».",
+        "suggestions": [
+          "main-d'œuvre"
+        ],
+        "ruleApplied": "5.2.1.7.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'orthographe d'usage : « main-d'œuvre » est un mot composé qui s'écrit obligatoirement avec des traits d'union selon tous les dictionnaires de référence.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.12",
+        "text": "Ministre de l'Éducation",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "La dénomination correcte de l'institution est « Ministère de l'Éducation » et non « Ministre », qui désigne la personne.",
+        "suggestions": [
+          "Ministère de l'Éducation"
+        ],
+        "ruleApplied": "5.2.4.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur lexicale claire : « Ministre » désigne la personne à la tête du ministère, tandis que « Ministère » désigne l'institution. Dans une bibliographie, on cite l'organisme (Ministère), pas la personne.",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 8,
+      "note": "C"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 11,
+      "note": "D"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 21,
+      "vraisErreurs": 19,
+      "discutables": 1,
+      "fauxPositifs": 1
+    }
+  },
+  "startTimestamp": "2025-12-12T11:38:19.598Z",
+  "endTimestamp": "2025-12-12T11:39:20.279Z",
+  "durationMs": 60681,
+  "durationFormatted": "01:00:681"
+}

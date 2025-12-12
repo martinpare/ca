@@ -1,0 +1,561 @@
+{
+  "processedAt": "2025-12-12T11:37:51.620Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_035.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_035.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "alcool. (Martinez, 2021)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Dans une référence entre parenthèses en fin de phrase, le point final de la phrase doit être placé après la parenthèse fermante, et non avant.",
+        "suggestions": [
+          "alcool (Martinez, 2021)."
+        ],
+        "ruleApplied": "4.2.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle de ponctuation claire et universellement appliquée en français pour les références entre parenthèses.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "Selon un article publié par lapress.ca, intitulé «Sauvetage alimentaire» par Valérie Simard en 2020, il existe",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est redondante. Après avoir introduit la source (« Selon un article... »), l'utilisation du pronom impersonnel « il » crée une rupture. Il faudrait reformuler, par exemple : « Un article [...] mentionne qu'il existe... ».",
+        "suggestions": [
+          "Dans un article publié par LaPresse.ca, intitulé «Sauvetage alimentaire», Valérie Simard mentionne en 2020 qu'il existe"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "La construction avec 'Selon' + tournure impersonnelle est lourde mais grammaticalement acceptable. C'est davantage une maladresse stylistique qu'une erreur syntaxique.",
+        "counterArgument": "Bien que la construction soit lourde, elle n'est pas grammaticalement incorrecte. La tournure 'Selon [source], il existe...' est attestée en français, même si elle manque d'élégance. La phrase pourrait être améliorée stylistiquement, mais elle respecte les règles syntaxiques."
+      },
+      {
+        "id": "erreur4.3",
+        "text": "spécialiser à",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe pronominal « se spécialiser » se construit avec la préposition « dans » et non « à ». De plus, le pronom réfléchi « se » est manquant.",
+        "suggestions": [
+          "se spécialiser dans l'offre de"
+        ],
+        "ruleApplied": "4.1.2.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double erreur évidente : absence du pronom réfléchi 'se' et mauvaise préposition ('à' au lieu de 'dans').",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "en souffre des conséquences néfastes",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom « en » remplace déjà le complément « des conséquences néfastes ». Il y a une redondance. Il faut choisir l'une des deux constructions : « qui en souffre » ou « qui souffre des conséquences néfastes ».",
+        "suggestions": [
+          "en souffre",
+          "souffre des conséquences néfastes"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Redondance pronominale claire : le pronom 'en' reprend un complément déjà exprimé explicitement.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "ne fait rien qu'endommager",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression de la restriction est incorrecte. Il faut utiliser « ne fait que » et non « ne fait rien que ».",
+        "suggestions": [
+          "ne fait qu'endommager"
+        ],
+        "ruleApplied": "4.1.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Forme restrictive incorrecte. L'expression consacrée est 'ne... que' pour exprimer la restriction, pas 'ne... rien que'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "complémentaire avec",
+        "occurenceIndex": 273,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'adjectif « complémentaire » s'emploie avec la préposition « de » et non « avec ».",
+        "suggestions": [
+          "complémentaire du"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Mauvaise préposition. L'adjectif 'complémentaire' régit la préposition 'de', jamais 'avec'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "Selon mon avis",
+        "occurenceIndex": 503,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il s'agit d'un pléonasme (mot superflu). L'expression « selon moi » ou « à mon avis » est suffisante.",
+        "suggestions": [
+          "À mon avis"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Contamination entre deux expressions idiomatiques ('selon moi' et 'à mon avis'). La forme 'selon mon avis' est un calque fautif.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "Un autre exemple servant à appuyer mon point,",
+        "occurenceIndex": 440,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est boiteuse. Le groupe participial « Un autre exemple servant à appuyer mon point » est mal rattaché au reste de la phrase.",
+        "suggestions": [
+          "Autre exemple :"
+        ],
+        "ruleApplied": "4.1.2.1.7",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Participe présent mal rattaché créant une rupture de construction. La phrase qui suit parle d'une entreprise, pas d'un exemple.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "n'aurait",
+        "occurenceIndex": 871,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le temps du verbe est erroné. Dans un système hypothétique avec « si » + présent, la proposition principale doit être au futur simple, et non au conditionnel présent.",
+        "suggestions": [
+          "n'aura"
+        ],
+        "ruleApplied": "4.1.2.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Concordance des temps incorrecte dans le système hypothétique. Avec 'si' + présent, la principale exige le futur simple.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.10",
+        "text": "se battre",
+        "occurenceIndex": 36,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom réfléchi est erroné. Il doit correspondre à la personne du sujet. Le sujet étant « nous », le pronom doit être « nous ».",
+        "suggestions": [
+          "nous battre"
+        ],
+        "ruleApplied": "4.1.2.3.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Mauvaise forme pronominale. Avec le sujet 'nous', le verbe pronominal exige 'nous battre', pas 'se battre'.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "fondamentaux",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « fondamentaux » doit s'accorder en genre (féminin) et en nombre (pluriel) avec le nom « actions » qu'il qualifie.",
+        "suggestions": [
+          "fondamentales"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. L'adjectif doit s'accorder en genre avec le nom féminin 'actions'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "bleu",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « bleu » doit s'accorder en genre (féminin) avec le nom « planète » qu'il qualifie.",
+        "suggestions": [
+          "bleue"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. L'adjectif de couleur 'bleu' doit s'accorder au féminin avec 'planète'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "vert",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « vert » doit s'accorder en genre (féminin) avec le nom « planète » qu'il qualifie. Le donneur d'accord est le même que pour l'erreur précédente.",
+        "suggestions": [
+          "verte"
+        ],
+        "ruleApplied": "5.4.2.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. L'adjectif de couleur 'vert' doit s'accorder au féminin avec 'planète'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "faitde",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot « fait » et la préposition « de » doivent être séparés par une espace.",
+        "suggestions": [
+          "fait de"
+        ],
+        "ruleApplied": "5.2.6.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur typographique évidente : deux mots distincts fusionnés à tort.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "Cet",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le déterminant démonstratif « ce » est utilisé devant un nom masculin commençant par une consonne. « Cet » est utilisé devant un nom masculin commençant par une voyelle ou un « h » muet.",
+        "suggestions": [
+          "Ce"
+        ],
+        "ruleApplied": "5.2.1.9.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Mauvaise forme du déterminant démonstratif. 'Phénomène' commence par une consonne (ph), donc on utilise 'ce', pas 'cet'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "mondiale",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « mondiale » doit s'accorder en genre (masculin) avec le nom « phénomène » qu'il qualifie.",
+        "suggestions": [
+          "mondial"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. L'adjectif doit s'accorder au masculin avec le nom 'phénomène'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "elle",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom personnel « elle » doit s'accorder en genre (masculin) avec son antécédent, qui est « notre gaspillage ».",
+        "suggestions": [
+          "il"
+        ],
+        "ruleApplied": "5.3.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord pronominal. L'antécédent 'gaspillage' est masculin, le pronom doit être 'il'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "cette",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant démonstratif « cette » (féminin) doit être remplacé par « cet » (masculin) car il précède le nom masculin « enjeu » qui commence par une voyelle.",
+        "suggestions": [
+          "cet"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. Le déterminant démonstratif doit être au masculin ('cet') devant 'enjeu'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "actuels",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « actuels » doit s'accorder en genre (féminin) et en nombre (pluriel) avec le nom « avancées » qu'il qualifie.",
+        "suggestions": [
+          "actuelles"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. L'adjectif doit s'accorder au féminin pluriel avec 'avancées'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.10",
+        "text": "certaines",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant indéfini « certaines » doit s'accorder en genre (masculin) avec le nom « domaines » qu'il qualifie.",
+        "suggestions": [
+          "certains"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. Le déterminant doit être au masculin avec le nom 'domaines'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.11",
+        "text": "commes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot « comme » est invariable et ne prend jamais de « s » final.",
+        "suggestions": [
+          "comme"
+        ],
+        "ruleApplied": "5.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'orthographe évidente. 'Comme' est un mot invariable qui ne prend jamais de marque du pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.12",
+        "text": "rétailles",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot « retailles » ne prend pas d'accent aigu sur le « e ».",
+        "suggestions": [
+          "retailles"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'orthographe. Le québécisme 'retailles' s'écrit sans accent aigu.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.13",
+        "text": "alimentairen'est",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot « alimentaire » et la négation « n'est » doivent être séparés par une espace.",
+        "suggestions": [
+          "alimentaire n'est"
+        ],
+        "ruleApplied": "5.2.6.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur typographique évidente : espace manquante entre deux mots distincts.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.14",
+        "text": "but",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot « but » (objectif) est utilisé à la place de la conjonction de coordination « mais ».",
+        "suggestions": [
+          "mais"
+        ],
+        "ruleApplied": "5.2.2",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Analyse contextuelle confirme que 'but' signifie bien 'objectif' dans l'expression 'dans le but de réduire'.",
+        "counterArgument": "Il n'y a aucune erreur ici. L'expression 'dans le but de' est parfaitement correcte en français et signifie 'dans l'objectif de'. Le mot 'but' est bien utilisé dans son sens de 'objectif', pas à la place de la conjonction 'mais'. Cette détection est un faux positif complet."
+      },
+      {
+        "id": "erreur5.15",
+        "text": "réflechir",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le verbe « réfléchir » prend un accent aigu sur le premier « e ».",
+        "suggestions": [
+          "réfléchir"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'orthographe évidente. Le verbe 'réfléchir' s'écrit avec un accent aigu sur le premier e.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.16",
+        "text": "lapress.ca",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Les noms de publications comme « La Presse » commencent par une majuscule.",
+        "suggestions": [
+          "LaPresse.ca"
+        ],
+        "ruleApplied": "5.2.4.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur typographique. Le nom du journal 'La Presse' requiert des majuscules, même sous forme de domaine web.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.17",
+        "text": "diverses",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « diverses » doit s'accorder en genre (masculin) et en nombre (pluriel) avec le nom « moyens » qu'il qualifie.",
+        "suggestions": [
+          "divers"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. L'adjectif doit être au masculin avec le nom 'moyens'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.18",
+        "text": "prêt",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « prêt » doit s'accorder en nombre (pluriel) avec le nom « gens » auquel il se rapporte.",
+        "suggestions": [
+          "prêts"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. L'adjectif attribut doit s'accorder au pluriel avec 'les gens'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.19",
+        "text": "gaspillés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « gaspillés », employé comme adjectif, doit s'accorder en genre (féminin) et en nombre (pluriel) avec le nom « nourritures » qu'il qualifie.",
+        "suggestions": [
+          "gaspillées"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. Le participe passé épithète doit s'accorder au féminin pluriel avec 'nourritures'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.20",
+        "text": "impactes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le nom masculin « impact » prend un « s » au pluriel, mais pas de « e ».",
+        "suggestions": [
+          "impacts"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'orthographe évidente. Le mot 'impacts' au pluriel ne prend pas de 'e' avant le 's'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.21",
+        "text": "attribue",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe « attribue » doit s'accorder au pluriel avec son sujet composé « l'enfouissement et l'incinération ».",
+        "suggestions": [
+          "attribuent"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. Le verbe doit être au pluriel avec un sujet composé coordonné par 'et'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.22",
+        "text": "plancher",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'expression idiomatique correcte est « avoir du pain sur la planche », signifiant avoir beaucoup de travail à faire.",
+        "suggestions": [
+          "planche"
+        ],
+        "ruleApplied": "5.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur lexicale évidente. L'expression figée consacrée est 'avoir du pain sur la planche', pas 'plancher'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.23",
+        "text": "enjeux",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « enjeu » doit être au singulier car il est précédé du déterminant singulier « un ».",
+        "suggestions": [
+          "enjeu"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. Le nom doit être au singulier pour s'accorder avec le déterminant 'un'.",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 10,
+      "note": "E"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 22,
+      "note": "E"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 33,
+      "vraisErreurs": 31,
+      "discutables": 1,
+      "fauxPositifs": 1
+    }
+  },
+  "startTimestamp": "2025-12-12T11:36:26.948Z",
+  "endTimestamp": "2025-12-12T11:37:51.620Z",
+  "durationMs": 84672,
+  "durationFormatted": "01:24:672"
+}

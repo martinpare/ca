@@ -1,0 +1,1641 @@
+{
+  "processedAt": "2025-12-12T11:39:08.115Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_011.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_011.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "même de ce jour",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression correcte est 'même à ce jour' ou 'aujourd'hui encore'. L'emploi de la préposition 'de' est incorrect dans ce contexte.",
+        "suggestions": [
+          "même à ce jour",
+          "aujourd'hui encore"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Emploi non standard de la préposition. Les expressions figées sont 'à ce jour' ou 'jusqu'à ce jour', jamais 'de ce jour'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "centaines",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque un déterminant indéfini (des) ou un article partitif (de) devant 'centaines'.",
+        "suggestions": [
+          "des centaines"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le nom 'centaines' nécessite obligatoirement un déterminant. L'absence de déterminant constitue une erreur syntaxique évidente.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "Autrement",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'adverbe 'Autrement' est mal employé ici. Pour marquer une opposition, il faudrait utiliser 'À l'inverse', 'Au contraire' ou 'Par contre'.",
+        "suggestions": [
+          "À l'inverse",
+          "Au contraire",
+          "Par contre"
+        ],
+        "ruleApplied": "4.1.2.4.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "'Autrement' signifie 'de manière différente' ou 'sinon', pas 'à l'opposé'. Le contexte exige un marqueur d'opposition.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": ",",
+        "occurenceIndex": 2,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule ne peut séparer deux phrases syntaxiques indépendantes. Il faut utiliser un point pour marquer la fin de la première phrase.",
+        "suggestions": [
+          "."
+        ],
+        "ruleApplied": "4.2.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de ponctuation classique : virgule fautive entre deux phrases complètes. C'est une faute grave de syntaxe.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "Même si les contenants sont quand même frais.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La phrase commençant par 'Même si' est une subordonnée de concession et ne peut pas constituer une phrase à elle seule. Elle doit être rattachée à la proposition principale.",
+        "suggestions": [
+          "faim, même si les contenants sont frais."
+        ],
+        "ruleApplied": "4.1.2.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Phrase syntaxiquement incomplète. Une subordonnée conjonctive ne peut exister seule sans principale.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": ";",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point-virgule est inapproprié ici. Un deux-points serait plus juste pour introduire l'explication qui suit, à savoir 'le gaspillage alimentaire'.",
+        "suggestions": [
+          ":"
+        ],
+        "ruleApplied": "4.2.2.8.2",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Le point-virgule peut se justifier pour marquer une pause forte avant une conclusion, mais le deux-points serait plus naturel pour introduire la précision.",
+        "counterArgument": "Le point-virgule peut être acceptable ici pour marquer une pause significative avant d'introduire l'élément central du texte. Bien que le deux-points soit préférable pour introduire une explication, le point-virgule n'est pas grammaticalement fautif."
+      },
+      {
+        "id": "erreur4.7",
+        "text": "à ceci",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction 'croire à ceci' est incorrecte dans ce contexte. On peut dire 'pourquoi je crois cela' ou 'pourquoi je crois en cela'.",
+        "suggestions": [
+          "cela"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le verbe 'croire' dans ce contexte demande un complément d'objet direct (croire quelque chose), pas une préposition 'à'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "saviez peut-être pas",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'ordre des mots dans la négation est incorrect. Il manque également le 'ne' de la négation. La forme correcte est 'ne saviez peut-être pas'.",
+        "suggestions": [
+          "ne saviez peut-être pas"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Absence de la particule négative 'ne', obligatoire à l'écrit. Erreur grammaticale claire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "qu'est-ce que croyez-vous se passera",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase interrogative est incorrecte. Il faudrait utiliser une interrogative indirecte : 'que croyez-vous qu'il se passera'.",
+        "suggestions": [
+          "que croyez-vous qu'il se passera"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction syntaxique incorrecte mêlant interrogation directe et indirecte. Erreur de syntaxe avérée.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.10",
+        "text": "qui",
+        "occurenceIndex": 4,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom relatif 'qui' est incorrect. Il faut utiliser la conjonction de subordination 'que'.",
+        "suggestions": [
+          "que"
+        ],
+        "ruleApplied": "4.1.2.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Après le verbe 'justifier', il faut une conjonction ('que'), pas un pronom relatif ('qui'). Erreur grammaticale claire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.11",
+        "text": "sera",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Dans un système hypothétique avec 'si' + imparfait ('avaient'), la proposition principale doit être au conditionnel présent ('serait').",
+        "suggestions": [
+          "serait"
+        ],
+        "ruleApplied": "4.1.2.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de concordance des temps dans le système hypothétique. Règle grammaticale fondamentale : si + imparfait → conditionnel présent.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.12",
+        "text": "qu'il est",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "La construction de la comparaison est incorrecte. Il faudrait écrire 'qu'elle ne l'est maintenant', où 'elle' reprend 'notre situation'.",
+        "suggestions": [
+          "qu'elle ne l'est"
+        ],
+        "ruleApplied": "4.1.2.3.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du pronom de reprise. 'Situation' est féminin, donc 'elle', pas 'il'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.13",
+        "text": "n'affectent toujours pas",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'ordre des mots dans la négation est incorrect. La forme correcte est 'n'affectent pas toujours'.",
+        "suggestions": [
+          "n'affectent pas toujours"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Changement de sens important. 'Ne...toujours pas' signifie 'pas encore', tandis que 'ne...pas toujours' signifie 'pas en toutes circonstances'. Le contexte exige la seconde forme.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.14",
+        "text": "que nous appartiennons dedans",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "La construction de la phrase est incorrecte et lourde. Il faudrait utiliser 'dans lequel nous nous trouvons' ou 'où nous nous trouvons'.",
+        "suggestions": [
+          "dans lequel nous nous trouvons"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction syntaxiquement incorrecte. Le verbe 'appartenir' ne convient pas ici, et la redondance 'dans...dedans' est fautive.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.15",
+        "text": "très",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque un mot essentiel après l'adverbe 'très'. Il faut ajouter un adjectif, par exemple 'facile'.",
+        "suggestions": [
+          "très facile"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Phrase syntaxiquement incomplète. L'adverbe 'très' doit obligatoirement modifier un adjectif ou un adverbe.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.16",
+        "text": "current budget",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression 'current budget' est un calque de l'anglais. Il faut utiliser 'budget actuel'.",
+        "suggestions": [
+          "budget actuel"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Anglicisme non intégré au français. Utilisation directe de l'anglais dans un texte français.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.17",
+        "text": "aurez",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Après la conjonction 'si' exprimant une condition réalisable, on emploie le présent de l'indicatif ('avez') et non le futur.",
+        "suggestions": [
+          "avez"
+        ],
+        "ruleApplied": "4.1.2.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle grammaticale fondamentale : après 'si' de condition, on n'utilise jamais le futur en français standard.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.18",
+        "text": "comment",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Confusion entre l'adverbe interrogatif 'comment' et le verbe 'commence'. Il s'agit d'une erreur de syntaxe car la classe grammaticale du mot est erronée.",
+        "suggestions": [
+          "commence"
+        ],
+        "ruleApplied": "4.1.2.1.9",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion lexicale grave changeant le sens et la structure de la phrase. Le contexte exige un verbe, pas un adverbe.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.19",
+        "text": "pouvait",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Dans ce contexte hypothétique dans le passé ('si nous avions pris'), il faut utiliser le conditionnel passé 'aurait pu'.",
+        "suggestions": [
+          "aurait pu"
+        ],
+        "ruleApplied": "4.1.2.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de concordance des temps dans le système hypothétique au passé : si + plus-que-parfait → conditionnel passé.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.20",
+        "text": "meilleures et plus informées décisions",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "L'ordre des mots est incorrect. Il faudrait écrire 'de meilleures décisions et plus informées' ou 'des décisions meilleures et plus informées'.",
+        "suggestions": [
+          "de meilleures décisions et plus informées"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "MEDIUM",
+        "confidenceReason": "L'ordre des adjectifs avant le nom est problématique, mais certaines constructions littéraires acceptent des libertés dans la position des adjectifs coordonnés.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.21",
+        "text": "qu'ils peuvent",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Le mode du verbe est incorrect. La conjonction « pour que » requiert l'emploi du subjonctif. De plus, le pronom doit s'accorder en genre avec son antécédent « personnes » (féminin).",
+        "suggestions": [
+          "qu'elles puissent"
+        ],
+        "ruleApplied": "4.1.2.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double erreur : mode verbal incorrect (indicatif au lieu du subjonctif requis par 'pour que') et accord du pronom (masculin au lieu de féminin).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.22",
+        "text": "énigme équivoque",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'emploi de ces termes crée un problème de sens. Des mots comme « problème » ou « fléau » seraient plus justes.",
+        "suggestions": [
+          "problème",
+          "fléau"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Bien que 'énigme équivoque' soit un choix lexical inhabituel et peu idiomatique, il pourrait s'agir d'un effet stylistique pour exprimer la complexité du problème.",
+        "counterArgument": "L'expression 'énigme équivoque' pourrait être un choix stylistique délibéré pour souligner le caractère complexe et ambigu du problème. Bien que peu conventionnel, ce n'est pas nécessairement une erreur si l'auteur cherche à créer un effet rhétorique."
+      },
+      {
+        "id": "erreur4.23",
+        "text": "pourquoi",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom relatif est mal employé. Après « les raisons », il faut utiliser « pour lesquelles ».",
+        "suggestions": [
+          "pour lesquelles"
+        ],
+        "ruleApplied": "4.1.2.3.1",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Bien que 'pour lesquelles' soit plus correct formellement, l'usage de 'pourquoi' après 'raisons' est attesté dans la langue courante et chez certains auteurs.",
+        "counterArgument": "L'usage de 'pourquoi' après 'raisons' est attesté dans l'usage courant et accepté par plusieurs grammairiens comme une tournure familière mais acceptable, notamment à l'oral et dans un registre courant. Grevisse mentionne cette construction comme courante."
+      },
+      {
+        "id": "erreur4.24",
+        "text": "saviez",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le mode du verbe est incorrect. La locution « il y a une grande chance que » requiert l'emploi du subjonctif.",
+        "suggestions": [
+          "sachiez"
+        ],
+        "ruleApplied": "4.1.2.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Après une expression de probabilité comme 'il y a une grande chance que', le subjonctif est obligatoire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.25",
+        "text": "environnement ce qui",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule pour isoler la proposition subordonnée relative explicative introduite par « ce qui ».",
+        "suggestions": [
+          "environnement, ce qui"
+        ],
+        "ruleApplied": "4.2.2.10.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Virgule obligatoire avant 'ce qui' introduisant une proposition explicative. Règle de ponctuation claire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.26",
+        "text": "Penser le",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de l'impératif est incorrecte. Il faut utiliser la 2e personne du pluriel (« Pensez ») et un pronom approprié comme « y ».",
+        "suggestions": [
+          "Pensez-y"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction syntaxique incorrecte. 'Penser le' n'est pas idiomatique en français. La forme correcte est 'Pensez-y' ou 'Pensez à cela'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.27",
+        "text": "Celui-ci",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom démonstratif est mal employé. « Celui-ci » renvoie à un nom masculin, alors qu'ici il faut un pronom neutre (« Ceci » ou « Cela ») pour reprendre l'idée précédente.",
+        "suggestions": [
+          "Ceci",
+          "Cela"
+        ],
+        "ruleApplied": "4.1.2.3.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "'Celui-ci' reprend un nom, pas une idée ou une proposition. Pour reprendre un fait, il faut utiliser 'Ceci' ou 'Cela'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.28",
+        "text": "d'avoir apprendre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Il y a un mot superflu. La construction correcte est « d'apprendre ».",
+        "suggestions": [
+          "d'apprendre"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction syntaxiquement impossible. On ne peut avoir deux infinitifs successifs de cette manière.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.29",
+        "text": "de plus en plus pire",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Cette construction est un pléonasme. « Pire » signifiant déjà « plus mauvais », il faut utiliser « de pire en pire ».",
+        "suggestions": [
+          "de pire en pire"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "'Pire' est déjà un comparatif et ne peut être modifié par 'plus'. C'est un pléonasme grammaticalement incorrect.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.30",
+        "text": "ils",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom de reprise est erroné. « Loop Mission » est un nom d'entreprise, qui devrait être repris par un pronom singulier (généralement féminin : « elle »).",
+        "suggestions": [
+          "elle"
+        ],
+        "ruleApplied": "4.1.2.3.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du pronom. Un nom d'entreprise est singulier et généralement repris par 'elle' en français.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.31",
+        "text": "qui si",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le subordonnant est mal employé. Il faut utiliser « que si ».",
+        "suggestions": [
+          "que si"
+        ],
+        "ruleApplied": "4.1.2.4.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de construction avec le verbe 'justifier'. La construction correcte est 'justifier que', pas 'justifier qui'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.32",
+        "text": "votre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le déterminant possessif est erroné. L'auteur utilisant « nous », la cohérence exige l'emploi de « notre ».",
+        "suggestions": [
+          "notre"
+        ],
+        "ruleApplied": "4.1.2.3.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Incohérence dans le système d'énonciation. Le texte utilise 'nous' partout, donc 'votre' est incorrect.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.33",
+        "text": "qui nous sommes entraîne",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la proposition relative est incorrecte. Le pronom relatif devrait être « que » (COD) et le verbe devrait être conjugué correctement (« entraînons »).",
+        "suggestions": [
+          "que nous entraînons"
+        ],
+        "ruleApplied": "4.1.2.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double erreur : mauvais pronom relatif et forme passive incorrecte. La structure attendue est 'que nous entraînons'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.34",
+        "text": "les négatives conportements",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "L'ordre des mots est incorrect. En français, l'adjectif qualificatif se place généralement après le nom. De plus, l'adjectif et le nom sont mal orthographiés.",
+        "suggestions": [
+          "les comportements négatifs"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double erreur : ordre des mots incorrect et orthographe erronée. L'adjectif 'négatif' se place après le nom.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.35",
+        "text": "En tout cas",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le coordonnant est mal employé et ne crée pas le lien logique attendu (opposition). Il faudrait utiliser « Pourtant » ou « Or ».",
+        "suggestions": [
+          "Pourtant"
+        ],
+        "ruleApplied": "4.1.2.4.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "'En tout cas' ne convient pas au contexte argumentatif. Il faut un marqueur d'opposition comme 'Pourtant' ou 'Or'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.36",
+        "text": "conseillé fortement",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'ordre des mots est incorrect. L'adverbe se place généralement avant le participe passé qu'il modifie.",
+        "suggestions": [
+          "fortement conseillé"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Bien que 'fortement conseillé' soit plus idiomatique, la postposition de l'adverbe est acceptable dans certains registres, notamment pour créer un effet d'insistance.",
+        "counterArgument": "La postposition de l'adverbe 'fortement' après le participe passé, bien que moins courante, peut être un choix stylistique pour créer un effet d'insistance. Cette construction est attestée en français littéraire."
+      },
+      {
+        "id": "erreur4.37",
+        "text": "pleins d'autres",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Il manque un mot essentiel pour compléter l'énumération, ce qui rend la phrase incomplète.",
+        "suggestions": [
+          "plein d'autres choses"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Phrase syntaxiquement incomplète. L'expression 'plein d'autres' nécessite un complément.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.38",
+        "text": "très",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque un mot essentiel à la phrase. L'adverbe « très » doit modifier un adjectif, qui est absent ici.",
+        "suggestions": [
+          "très facile"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Phrase syntaxiquement incomplète. L'adverbe 'très' requiert obligatoirement un adjectif ou un adverbe à modifier.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.39",
+        "text": "une étude du Conseil national zéro déchet indique",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est fautive (anacoluthe). La préposition « Selon » introduit un complément, mais « une étude » est ensuite utilisé comme sujet du verbe « indique », ce qui brise la structure syntaxique.",
+        "suggestions": [
+          "Selon une étude du Conseil national zéro déchet,"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Anacoluthe claire. 'Selon' introduit un complément, mais 'une étude... indique' fait de ce même élément le sujet. Construction syntaxiquement incohérente.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.40",
+        "text": "RECYC-Québec, 2021)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque le point final après la parenthèse fermante de la référence.",
+        "suggestions": [
+          "(RECYC-QUÉBEC, 2021)."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Absence du point final obligatoire en fin de phrase. Erreur de ponctuation évidente.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.41",
+        "text": "Tous ce que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction est incorrecte. Il faut utiliser le pronom relatif « dont » après la locution « avoir besoin de ». De plus, « Tous » doit être au singulier « Tout ».",
+        "suggestions": [
+          "Tout ce dont"
+        ],
+        "ruleApplied": "4.1.2.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double erreur : 'Tous' au lieu de 'Tout' et construction incorrecte avec 'avoir besoin de' qui requiert 'dont', pas 'que'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.42",
+        "text": "Mes raisons sont parce que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette construction est redondante et incorrecte. Il faut utiliser « Mes raisons sont que » ou reformuler, par exemple avec « C'est parce que ».",
+        "suggestions": [
+          "Mes raisons sont que",
+          "C'est parce que"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Pléonasme et construction syntaxiquement incorrecte. 'Raisons' et 'parce que' expriment tous deux la cause.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.43",
+        "text": "Quand même",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'emploi de « Quand même » en tête de phrase comme connecteur logique relève du langage parlé. Il faut utiliser un adverbe comme « Cependant » ou « Néanmoins ».",
+        "suggestions": [
+          "Cependant",
+          "Néanmoins"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Registre oral inapproprié dans un texte écrit formel. 'Quand même' en début de phrase est une marque d'oralité.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.44",
+        "text": ", un jour de trouver",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est boiteuse. La préposition « de » est mal employée ici.",
+        "suggestions": [
+          ", un jour, à trouver",
+          "à trouver, un jour,"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction syntaxique incorrecte. Après 'réussir', il faut 'à + infinitif', pas 'de + infinitif'.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "Gaslronomique",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'inversion des lettres 'l' et 'r' constitue une erreur d'orthographe d'usage.",
+        "suggestions": [
+          "Gastronomique"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente par inversion de lettres.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "debut",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'accent circonflexe est manquant sur le 'u'.",
+        "suggestions": [
+          "début"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Accent circonflexe manquant sur un mot courant. Erreur d'orthographe claire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "éxistait",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot 'existait' s'écrit avec un 'x' et non 'éx'.",
+        "suggestions": [
+          "existait"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe : le verbe 'exister' ne prend jamais d'accent sur le 'e'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "apparents",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'apparents' doit s'accorder en genre et en nombre avec le nom 'disparités' (féminin pluriel).",
+        "suggestions": [
+          "apparentes"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. L'adjectif doit s'accorder avec 'disparités' (féminin pluriel).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "Un",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant 'Un' doit s'accorder en genre avec le nom 'divisions' (féminin) qu'il introduit via le complément 'de ces divisions'. On doit utiliser 'Une'.",
+        "suggestions": [
+          "Une"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en genre. 'Une' est requis pour s'accorder avec 'division' (féminin).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "travail",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'travailler' doit s'accorder à la troisième personne du pluriel avec son sujet 'centaines de personnes'.",
+        "suggestions": [
+          "travaillent"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du verbe avec un sujet pluriel. Faute grammaticale évidente.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "finnisent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le verbe 'finir' à la troisième personne du pluriel du présent de l'indicatif s'écrit 'finissent'.",
+        "suggestions": [
+          "finissent"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe dans la conjugaison. Le verbe 'finir' prend 'ss' à la 3e personne du pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "normale",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'normal' est attribut du pronom impersonnel 'il' et doit donc être au masculin singulier.",
+        "suggestions": [
+          "normal"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord de l'attribut. Avec le pronom impersonnel 'il', l'adjectif reste au masculin singulier.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "a",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'avoir' doit s'accorder à la deuxième personne du singulier avec son sujet 'tu'.",
+        "suggestions": [
+          "as"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du verbe avec le sujet 'tu'. Faute grammaticale évidente.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.10",
+        "text": "à",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre la préposition 'à' et l'auxiliaire 'avoir' à la troisième personne du singulier ('a').",
+        "suggestions": [
+          "a"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion homophonique classique. Le contexte exige l'auxiliaire 'a', pas la préposition 'à'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.11",
+        "text": "amène",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après l'auxiliaire 'avoir', il faut utiliser le participe passé 'amené' et non la forme conjuguée 'amène'.",
+        "suggestions": [
+          "amené"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de forme verbale. Après l'auxiliaire 'avoir', il faut un participe passé.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.12",
+        "text": "environnementales",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'environnementales' doit s'accorder en genre et en nombre avec le nom 'effets' (masculin pluriel).",
+        "suggestions": [
+          "environnementaux"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en genre. 'Effets' est masculin, donc 'environnementaux'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.13",
+        "text": "réguliers",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'réguliers' doit s'accorder en genre et en nombre avec le nom 'habitudes' (féminin pluriel).",
+        "suggestions": [
+          "régulières"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en genre. 'Habitudes' est féminin, donc 'régulières'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.14",
+        "text": "avait",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'auxiliaire 'avoir' doit s'accorder à la deuxième personne du pluriel avec son sujet 'vous'.",
+        "suggestions": [
+          "avez"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du verbe avec le sujet 'vous'. Faute grammaticale évidente.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.15",
+        "text": "gaspillés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'gaspillé', employé avec l'auxiliaire 'avoir', doit s'accorder avec le complément d'objet direct 'que' (mis pour 'la nourriture', féminin singulier), placé avant le verbe.",
+        "suggestions": [
+          "gaspillée"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du participe passé avec le COD antéposé 'que' (= la nourriture, féminin singulier).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.16",
+        "text": "nefastes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot 'néfaste' s'écrit avec un accent aigu sur le 'e'.",
+        "suggestions": [
+          "néfastes"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Accent manquant sur un mot courant. Faute d'orthographe évidente.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.17",
+        "text": "Penser",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'impératif présent du verbe 'penser' à la deuxième personne du pluriel est 'Pensez'.",
+        "suggestions": [
+          "Pensez"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de conjugaison de l'impératif. La 2e personne du pluriel requiert 'Pensez'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.18",
+        "text": "divers",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'divers' doit s'accorder en genre et en nombre avec le nom 'places' (féminin pluriel).",
+        "suggestions": [
+          "diverses"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en genre. 'Places' est féminin, donc 'diverses'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.19",
+        "text": "apprendre",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après la locution 'd'avoir', il faut utiliser le participe passé 'appris' et non l'infinitif 'apprendre'.",
+        "suggestions": [
+          "appris"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de forme verbale. Après 'avoir', il faut un participe passé.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.20",
+        "text": "tous",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant 'tous' doit s'accorder en genre avec le nom 'années' (féminin pluriel).",
+        "suggestions": [
+          "toutes"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en genre. 'Années' est féminin, donc 'toutes'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.21",
+        "text": "pense",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'penser' doit s'accorder à la deuxième personne du pluriel avec son sujet 'vous'.",
+        "suggestions": [
+          "pensez"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du verbe avec le sujet 'vous'. Faute grammaticale évidente.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.22",
+        "text": "est",
+        "occurenceIndex": 2,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'être' doit s'accorder à la deuxième personne du pluriel avec son sujet 'vous'.",
+        "suggestions": [
+          "êtes"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du verbe avec le sujet 'vous'. Faute grammaticale évidente.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.23",
+        "text": "inclut",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'inclus' doit s'accorder en nombre avec le sujet 'vous' (pluriel). Le donneur d'accord est 'vous'.",
+        "suggestions": [
+          "inclus"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "MEDIUM",
+        "confidenceReason": "La forme 'inclus' est invariable au pluriel masculin, mais le problème est que 'inclut' est une forme conjuguée et non un participe passé. Il faut 'inclus' (participe).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.24",
+        "text": "discussion",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot 'discussion' s'écrit avec un 'c' et deux 's'.",
+        "suggestions": [
+          "discussion"
+        ],
+        "ruleApplied": "5.2.1.6",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Le mot 'discussion' dans le texte original semble correctement orthographié. Il n'y a pas d'erreur visible.",
+        "counterArgument": "Le mot 'discussion' est correctement orthographié dans le texte. Cette détection semble être une erreur du système d'analyse."
+      },
+      {
+        "id": "erreur5.25",
+        "text": "incorrects",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'incorrects' doit s'accorder en genre et en nombre avec le nom 'informations' (féminin pluriel).",
+        "suggestions": [
+          "incorrectes"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en genre. 'Informations' est féminin, donc 'incorrectes'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.26",
+        "text": "réfuser",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le verbe 'refuser' s'écrit sans accent.",
+        "suggestions": [
+          "refuser"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Le verbe 'refuser' est correctement orthographié dans le texte. Cette détection est erronée.",
+        "counterArgument": "Le verbe 'refuser' dans le texte original est correctement orthographié. Il n'y a pas d'accent erroné. Cette détection est un faux positif."
+      },
+      {
+        "id": "erreur5.27",
+        "text": "cet",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant démonstratif 'cet' est utilisé devant un nom masculin commençant par une voyelle. 'Opinion' est un nom féminin, il faut donc utiliser 'cette'.",
+        "suggestions": [
+          "cette"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en genre. 'Opinion' est féminin, donc 'cette'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.28",
+        "text": "préventer",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le verbe 'préventer' n'existe pas en français. Il s'agit d'un anglicisme. Il faut utiliser 'prévenu' ou 'évité'.",
+        "suggestions": [
+          "prévenu",
+          "évité"
+        ],
+        "ruleApplied": "5.2.6.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Anglicisme (de 'prevent'). Le verbe 'préventer' n'existe pas en français. Il faut 'prévenir' ou 'éviter'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.29",
+        "text": "négatives",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'négatives' doit s'accorder en genre et en nombre avec le nom 'comportements' (masculin pluriel).",
+        "suggestions": [
+          "négatifs"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en genre. 'Comportements' est masculin, donc 'négatifs'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.30",
+        "text": "conportements",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot 'comportements' s'écrit avec un 'm' devant le 'p'.",
+        "suggestions": [
+          "comportements"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe. La règle du 'm' devant 'b' et 'p' s'applique.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.31",
+        "text": "appartiennons",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "La conjugaison du verbe 'appartenir' est incorrecte. À la première personne du pluriel du présent de l'indicatif, la forme est 'appartenons'.",
+        "suggestions": [
+          "appartenons"
+        ],
+        "ruleApplied": "5.3.2.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de conjugaison. Le verbe 'appartenir' à la 1re personne du pluriel est 'appartenons', pas 'appartiennons'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.32",
+        "text": "pleins",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Dans l'expression 'plein d'autres', 'plein' est un adjectif qui s'accorde avec le nom qu'il qualifie (sous-entendu, 'choses', 'solutions', etc.). Ici, il est préférable d'utiliser la forme adverbiale invariable 'plein'.",
+        "suggestions": [
+          "plein"
+        ],
+        "ruleApplied": "5.3.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Dans l'expression adverbiale 'plein de', le mot 'plein' est invariable.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.33",
+        "text": "cette",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant démonstratif 'cette' doit s'accorder en genre avec le nom 'changement' (masculin).",
+        "suggestions": [
+          "ce"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en genre. 'Changement' est masculin, donc 'ce'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.34",
+        "text": "Selons",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "La préposition 'selon' est invariable et ne prend jamais de 's'.",
+        "suggestions": [
+          "Selon"
+        ],
+        "ruleApplied": "5.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'orthographe. La préposition 'selon' est invariable.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.35",
+        "text": "miliars",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot 'milliards' s'écrit avec deux 'l'.",
+        "suggestions": [
+          "milliards"
+        ],
+        "ruleApplied": "5.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe. Le mot 'milliards' prend deux 'l'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.36",
+        "text": "d'argents",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'argent', dans le sens de monnaie, est indénombrable et s'emploie au singulier.",
+        "suggestions": [
+          "d'argent"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de nombre. Le nom 'argent' (monnaie) est non comptable et reste au singulier.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.37",
+        "text": "Tous",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom 'Tout' se rapportant à 'ce que' est neutre et doit rester au singulier.",
+        "suggestions": [
+          "Tout"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord. 'Tout ce que' est une expression figée où 'tout' reste au singulier.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.38",
+        "text": "faisez",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "La conjugaison du verbe 'faire' à la deuxième personne du pluriel du présent de l'indicatif est 'faites'.",
+        "suggestions": [
+          "faites"
+        ],
+        "ruleApplied": "5.3.2.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de conjugaison. Le verbe 'faire' à la 2e personne du pluriel est 'faites', pas 'faisez'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.39",
+        "text": "montrer",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après l'auxiliaire 'avoir', il faut utiliser le participe passé 'montré' et non l'infinitif 'montrer'.",
+        "suggestions": [
+          "montré"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de forme verbale. Après 'avoir', il faut un participe passé.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.40",
+        "text": "ce",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant démonstratif 'ce' doit s'accorder en genre avec le nom 'pratique' (féminin).",
+        "suggestions": [
+          "cette"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en genre. 'Pratique' est féminin, donc 'cette'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.41",
+        "text": "dévastatante",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'adjectif 'dévastatrice' est la forme correcte au féminin. 'Dévastatant' n'existe pas.",
+        "suggestions": [
+          "dévastatrice"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe. Le féminin de 'dévastateur' est 'dévastatrice', pas 'dévastatante'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.42",
+        "text": "prit",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé du verbe 'prendre' est 'pris'.",
+        "suggestions": [
+          "pris"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de forme verbale. Le participe passé de 'prendre' est 'pris', pas 'prit' (passé simple).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.43",
+        "text": "présent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif doit s'accorder en genre et en nombre avec le nom qu'il qualifie. Le donneur d'accord est « Une de ces divisions » (féminin singulier).",
+        "suggestions": [
+          "présente"
+        ],
+        "ruleApplied": "5.4.2.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en genre. Le donneur d'accord 'Une... division' est féminin singulier.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.44",
+        "text": "ils",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom doit s'accorder en genre avec son antécédent. Le donneur d'accord est « personnes » (féminin).",
+        "suggestions": [
+          "elles"
+        ],
+        "ruleApplied": "5.3.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en genre. 'Personnes' est féminin, donc le pronom doit être 'elles'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.45",
+        "text": "n'a",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder en personne et en nombre avec son sujet. Le donneur d'accord est « tu » (2e personne du singulier).",
+        "suggestions": [
+          "n'as"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du verbe avec le sujet 'tu'. Faute grammaticale évidente.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.46",
+        "text": "RECYC-Québec",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "La graphie de cette dénomination est incorrecte. Il faut respecter la graphie officielle.",
+        "suggestions": [
+          "RECYC-QUÉBEC"
+        ],
+        "ruleApplied": "5.2.4.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Graphie officielle incorrecte. Le nom de l'organisme s'écrit 'RECYC-QUÉBEC' en majuscules complètes.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.47",
+        "text": "n'est",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder en personne et en nombre avec son sujet. Le donneur d'accord est « vous » (2e personne du pluriel).",
+        "suggestions": [
+          "n'êtes"
+        ],
+        "ruleApplied": "5.4.2.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du verbe avec le sujet 'vous'. Faute grammaticale évidente.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.48",
+        "text": "tous le monde",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'expression correcte est « tout le monde », où « tout » est un déterminant indéfini singulier.",
+        "suggestions": [
+          "tout le monde"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur dans une expression figée. 'Tout le monde' s'écrit toujours au singulier.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.49",
+        "text": "avaient",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder en personne et en nombre avec son sujet. Le donneur d'accord est « tout le monde » (3e personne du singulier).",
+        "suggestions": [
+          "avait"
+        ],
+        "ruleApplied": "5.4.2.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord. 'Tout le monde' est grammaticalement singulier, donc 'avait'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.50",
+        "text": "le quantiter",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant doit s'accorder en genre avec le nom qu'il introduit. Le donneur d'accord est « quantité » (féminin). De plus, le nom « quantiter » est mal orthographié.",
+        "suggestions": [
+          "la quantité"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double erreur : accord du déterminant et orthographe du nom. 'Quantité' est féminin et s'écrit avec un 'é'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.51",
+        "text": "n'affectent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder en personne et en nombre avec son sujet. Le donneur d'accord est « leur choix de vie » (3e personne du singulier).",
+        "suggestions": [
+          "n'affecte"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord. Le sujet 'leur choix de vie' est singulier, donc 'n'affecte'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.52",
+        "text": "manger?",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif « manger » et la forme conjuguée « mangez ». Le donneur d'accord est « vous ».",
+        "suggestions": [
+          "mangez ?"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de forme verbale. Le contexte exige un verbe conjugué ('mangez'), pas un infinitif.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.53",
+        "text": "comment",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion avec l'adverbe « comment ». Le verbe correct est « commence ».",
+        "suggestions": [
+          "commence"
+        ],
+        "ruleApplied": "5.2.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion homophonique. Le contexte exige le verbe 'commence', pas l'adverbe 'comment'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.54",
+        "text": "dévastatante",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif doit s'accorder en genre et en nombre avec le nom qu'il qualifie. Le donneur d'accord est « état » (masculin singulier).",
+        "suggestions": [
+          "dévastateur"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double erreur : orthographe et accord. 'État' est masculin, donc 'dévastateur' (et non 'dévastatante').",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.55",
+        "text": "tous ceci",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom « ceci » est neutre et singulier, il doit être précédé de « tout » au singulier.",
+        "suggestions": [
+          "tout ceci"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord. 'Ceci' est singulier, donc 'tout ceci'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.56",
+        "text": "positive",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif doit s'accorder en genre avec le locuteur. En l'absence d'indication, l'accord se fait au masculin par défaut.",
+        "suggestions": [
+          "positif"
+        ],
+        "ruleApplied": "5.3.1.2",
+        "verdict": "DISCUTABLE",
+        "confidence": "LOW",
+        "confidenceReason": "L'accord de l'attribut avec 'je' dépend du genre du locuteur, qui est inconnu. Par convention, le masculin est utilisé par défaut, mais l'auteur pourrait être féminin.",
+        "counterArgument": "Sans indication du genre de l'auteur, l'accord au féminin ('positive') pourrait être correct si l'auteur est une femme. Par convention, on utilise le masculin générique, mais ce n'est pas nécessairement une erreur si l'auteur s'identifie au féminin."
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 44,
+      "note": "E"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 54,
+      "note": "E"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 100,
+      "vraisErreurs": 94,
+      "discutables": 4,
+      "fauxPositifs": 2
+    }
+  },
+  "startTimestamp": "2025-12-12T11:34:47.753Z",
+  "endTimestamp": "2025-12-12T11:39:08.115Z",
+  "durationMs": 260362,
+  "durationFormatted": "04:20:362"
+}

@@ -1,0 +1,187 @@
+{
+  "processedAt": "2025-12-10T14:46:39.732Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_092.txt",
+    "originalText": "Une lutte contre le gaspillage alimentaire? C'est possible!\r\n\r\nDans la vie, on a parfois des choses de trop. Il s'arrive qu'on achète trop de vêtements, qu'on donne trop de jouets aux enfants et qu'on regarde trop la télévision. On sait qu'on peut contrôler notre consommation, mais avoir un surplus de nourriture semble inévitable. J'y crois le contraire. À mon avis, nous sommes prêts à lutter contre le gaspillage alimentaire. Dans le texte qui suit, je vais vous démontrer ma position.\r\n\r\nPremièrement, la présence des organismes et d'entreprises qui aident à gérer les surplus de nourriture me fait croire que c'est possible de mettre fin à notre gaspillage alimentaire. Evidemment, le grand surplus d'allments des entreprises présente une opportunité qui peut bénéficier ceux qui en ont vraiment besoin. Les organismes aident à éviter d'importants gaspillages en intervenant dans les secteurs de la vente au détail, de la restauration et de l'hôtellerie. Pour prouver leur travail, Jeanne Corriveau, dans son article « La fierté de ne pas gaspiller d'aliments» publié dans Le Devoir en 2019, indique que plus de 425 épiceries ont accepté, en cinq ans, de donner leurs surplus de produits aux banques alimentaires québécoises, ce qui constitue plus de six millions de kilos de nourriture. C'est une énorme quantité de nourriture pour ceux qui ont de la difficulté à se nourrir. Selon moi, ces organismes peuvent également intervenir dans la production, la transformation et le transport des aliments, où des produits demeurent encore gaspillés. En plus, Vanessa Hébert, dans son article « La Tablée des chefs : lutter contre le gaspillage et nourrir les gens dans le besoin» publié dans le journal Métro en 2019, dit qu'en 2018, un programme fondé par Jean-François Archambault avait réussi à récupérer et à redistribuer 600 000 plats provenant des restaurants et des hôtels de Montréal. En effet, cet accomplissement démontre que n'importe quel secteur de l'économie peut gérer ses surplus de nourriture. En somme, la lutte contre le gaspillage alimentaire est possible grâce aux organismes et aux entreprises.\r\n\r\nDeuxièmement, le pouvoir des consommateurs est assez grand pour agir collectivement, ce qui les rend prêts pour la lutte contre le gaspillage alimentaire. Effectivement, ils causent près de la moitié des des aliments gaspillés au Canada (Table québécoise sur la saine alimentation, 2019), mais ils sont aussi assez savants pour faire des bons choix. Comme le dit Florence-Léa Siry, une experte qui lutte contre le gaspillage des aliments, les consommateurs pourraient éviter de gaspiller la moitié de leurs aliments s'ils savaient comment de les mieux préserver (Corriveau, 2020). Ce fait montre que nous avons le pouvoir collectif de faire mieux. À mon avis, en informant les gens sur les effets de leur alimentation, il est possible d'améliorer notre situation actuelle. De plus, le gouvernement nous donne plusieurs conseils pour réduire notre gaspillage comme « congeler les restes en portions individuelles » et « planifier les repas» (RECYC-QUÉBEC,2021). Si l'État peut faire ça, il peut faire encore plus. En somme, nous pouvons freiner notre gaspillage de la nourriture puisque le gouvernement peut informer les gens à faire des meilleurs choix.\r\n\r\nEn conclusion, nous sommes prêts à lutter contre le gaspillage alimentaire puisque les organismes et les entreprises peuvent déjà redistribuer les surplus de nourriture et le gouvernement a le pouvoir de mobiliser les gens à faire des meilleurs choix. La surconsommation demeure un enjeu problématique. Acheter de la nourriture est un choix individuel, mais une lutte contre son gaspillage est collective.",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "s'arrive",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe « arriver » employé impersonnellement ne se construit pas à la forme pronominale.",
+        "suggestions": [
+          "arrive"
+        ],
+        "ruleApplied": "4.1.2.2.2"
+      },
+      {
+        "id": "erreur4.2",
+        "text": "J'y crois",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom « y » est superflu dans cette construction. On dit « croire quelque chose ».",
+        "suggestions": [
+          "Je crois"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "id": "erreur4.3",
+        "text": "des des",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le déterminant « des » est répété inutilement.",
+        "suggestions": [
+          "des"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "id": "erreur4.4",
+        "text": "comment de les",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition « de » est superflue dans la construction « savoir comment + infinitif ».",
+        "suggestions": [
+          "comment les"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "id": "erreur4.5",
+        "text": "RECYC-QUÉBEC,2021",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une espace est requise après la virgule pour séparer les éléments.",
+        "suggestions": [
+          "RECYC-QUÉBEC, 2021"
+        ],
+        "ruleApplied": "4.2.2.10.1.a"
+      },
+      {
+        "id": "erreur4.6",
+        "text": "bénéficier ceux",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe 'bénéficier' est intransitif dans ce sens et doit être suivi de la préposition 'à'. On dit 'bénéficier à quelqu'un'.",
+        "suggestions": [
+          "bénéficier à ceux"
+        ],
+        "ruleApplied": "4.1.2.2.2"
+      },
+      {
+        "id": "erreur4.7",
+        "text": "aliments»",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "En typographie française, une espace insécable est requise avant un guillemet fermant.",
+        "suggestions": [
+          "aliments »"
+        ],
+        "ruleApplied": "4.2.1.5"
+      },
+      {
+        "id": "erreur4.8",
+        "text": "besoin»",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "En typographie française, une espace insécable est requise avant un guillemet fermant.",
+        "suggestions": [
+          "besoin »"
+        ],
+        "ruleApplied": "4.2.1.5"
+      },
+      {
+        "id": "erreur4.9",
+        "text": "repas»",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "En typographie française, une espace insécable est requise avant un guillemet fermant.",
+        "suggestions": [
+          "repas »"
+        ],
+        "ruleApplied": "4.2.1.5"
+      },
+      {
+        "id": "erreur4.10",
+        "text": ",2021",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une espace est requise après la virgule pour séparer les éléments.",
+        "suggestions": [
+          ", 2021"
+        ],
+        "ruleApplied": "4.2.2.10.1.a"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 7.5,
+      "note": "B"
+    },
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "Evidemment",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'adverbe « évidemment » s'écrit avec un accent aigu sur le « e » initial.",
+        "suggestions": [
+          "Évidemment"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.2",
+        "text": "d'allments",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Ce mot est mal orthographié. Il manque la lettre 'i'.",
+        "suggestions": [
+          "d'aliments"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "id": "erreur5.3",
+        "text": "des meilleurs choix",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant indéfini 'des' devient 'de' (ou 'd'') lorsqu'il est placé devant un adjectif qui précède un nom pluriel.",
+        "suggestions": [
+          "de meilleurs choix"
+        ],
+        "ruleApplied": "5.3.1.1"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 3,
+      "note": "A"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:43:36.506Z",
+    "endTimestamp": "2025-12-10T14:46:39.732Z",
+    "durationMs": 183226,
+    "durationFormatted": "03:03:226"
+  }
+}

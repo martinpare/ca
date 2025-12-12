@@ -1,0 +1,304 @@
+{
+  "processedAt": "2025-12-12T11:37:00.760Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_033.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_033.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": ".».",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Présence erronée d'un second point final après le guillemet fermant. Le point à l'intérieur de la citation suffit à marquer la fin de la phrase.",
+        "suggestions": [
+          ".»"
+        ],
+        "ruleApplied": "4.2.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de ponctuation claire : double point final est une redondance évidente. Les normes typographiques interdisent explicitement cette construction.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "mène comme",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de la virgule ouvrante pour isoler l'incidente « comme vous l'auriez sûrement déviné ». Une virgule est également manquante après « déviné ».",
+        "suggestions": [
+          "mène, comme"
+        ],
+        "ruleApplied": "4.2.2.10.1.g",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "L'incidente « comme vous l'auriez sûrement déviné » doit obligatoirement être encadrée de virgules. C'est une règle stricte de ponctuation des incises.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "et l'autre à ses poches",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de syntaxe dans la coordination. La structure est boiteuse car elle coordonne une proposition verbale (« l'un ne pense pas... ») avec un groupe prépositionnel (« l'autre à ses poches »).",
+        "suggestions": [
+          "et que l'autre ne pense qu'à ses poches"
+        ],
+        "ruleApplied": "4.1.2.1.8",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Rupture de parallélisme syntaxique claire. La coordination par « et » exige des structures grammaticales parallèles : proposition + proposition, ou groupe nominal + groupe nominal, mais pas un mélange.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "Québec affirme",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule est requise après le groupe en apposition 'porte-parole de l'Association des détaillants en alimentation du Québec' pour le séparer du verbe 'affirme'.",
+        "suggestions": [
+          "Québec, affirme"
+        ],
+        "ruleApplied": "4.2.2.10.1.i",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "L'apposition « porte-parole de l'Association des détaillants en alimentation du Québec » doit être fermée par une virgule avant le verbe. C'est une règle obligatoire de ponctuation des appositions.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "questionparce",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Fusion fautive des mots « question » et « parce ». Il faut les séparer par un espacement.",
+        "suggestions": [
+          "question parce"
+        ],
+        "ruleApplied": "5.2.6.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur typographique évidente : deux mots distincts sont fusionnés sans espace. Faute claire de saisie.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "chercheratoujours",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Fusion fautive du verbe « cherchera » et de l'adverbe « toujours ». Il faut les séparer par un espacement.",
+        "suggestions": [
+          "cherchera toujours"
+        ],
+        "ruleApplied": "5.2.6.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur typographique évidente : deux mots distincts sont fusionnés sans espace. Faute claire de saisie.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "parrallèle",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Orthographe d'usage. Le mot « parallèle » s'écrit avec un seul 'r' et deux 'l'.",
+        "suggestions": [
+          "parallèle"
+        ],
+        "ruleApplied": "5.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. L'orthographe normalisée de « parallèle » (1 r, 2 l) est bien établie et vérifiable dans tous les dictionnaires.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "Malheuresement",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Orthographe d'usage. Il manque la lettre 'u' dans l'adverbe « malheureusement ».",
+        "suggestions": [
+          "Malheureusement"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. L'adverbe « malheureusement » dérive de l'adjectif « malheureux » et conserve le 'u'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "reflèxe",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Orthographe d'usage. Le mot « réflexe » s'écrit avec un accent aigu sur le premier 'e'.",
+        "suggestions": [
+          "réflexe"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accent évidente. Le mot « réflexe » prend un accent aigu sur le premier 'e' selon l'orthographe normalisée.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "annoncespublicitaires",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Fusion fautive du nom « annonces » et de l'adjectif « publicitaires ». Il faut les séparer par un espacement.",
+        "suggestions": [
+          "annonces publicitaires"
+        ],
+        "ruleApplied": "5.2.6.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur typographique évidente : deux mots distincts sont fusionnés sans espace. Faute claire de saisie.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "videos",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Orthographe d'usage. Le mot « vidéo » prend un accent aigu en français.",
+        "suggestions": [
+          "vidéos"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accent évidente. Le mot « vidéo » emprunté de l'anglais a été francisé avec un accent aigu. Orthographe normalisée dans tous les dictionnaires.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "non-nécessaire",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. L'adjectif « nécessaire » doit s'accorder au pluriel avec le nom « aliments », qui est le donneur.",
+        "suggestions": [
+          "non-nécessaires"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord claire. L'adjectif « non-nécessaire » qualifie « aliments » (pluriel) et doit donc s'accorder au pluriel : « non-nécessaires ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "déviné",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Orthographe d'usage. Le verbe « deviner » s'écrit avec un 'e' et non un 'é' dans son radical.",
+        "suggestions": [
+          "deviné"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. Le verbe « deviner » conserve le 'e' du radical dans toutes ses conjugaisons. Le participe passé est « deviné ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.10",
+        "text": "loins",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'usage. L'adverbe « loin » est invariable et ne prend jamais de 's'.",
+        "suggestions": [
+          "loin"
+        ],
+        "ruleApplied": "5.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur grammaticale évidente. Les adverbes sont invariables en français. « Loin » ne prend jamais de marque de pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.11",
+        "text": "loins",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Répétition d'une erreur d'usage déjà signalée. L'adverbe « loin » est invariable.",
+        "suggestions": [
+          "loin"
+        ],
+        "ruleApplied": "5.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de la même erreur. L'adverbe « loin » est invariable en français et ne prend jamais de 's'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.12",
+        "text": "finis",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord du participe passé. Avec l'auxiliaire « avoir », le participe passé est invariable lorsque le pronom « en » est complément d'objet direct.",
+        "suggestions": [
+          "fini"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle grammaticale claire : avec l'auxiliaire « avoir », le participe passé ne s'accorde pas avec le pronom « en » (même si celui-ci est COD). « Avoir fini » reste invariable.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.13",
+        "text": "somme",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur de conjugaison. La forme du verbe « être » à la première personne du pluriel du présent de l'indicatif est « sommes ».",
+        "suggestions": [
+          "sommes"
+        ],
+        "ruleApplied": "5.3.2.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de conjugaison évidente. Le verbe « être » à la première personne du pluriel (nous) prend obligatoirement deux 'm' : « sommes ».",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 4,
+      "note": "C"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 13,
+      "note": "D"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 17,
+      "vraisErreurs": 17,
+      "discutables": 0,
+      "fauxPositifs": 0
+    }
+  },
+  "startTimestamp": "2025-12-12T11:36:23.323Z",
+  "endTimestamp": "2025-12-12T11:37:00.760Z",
+  "durationMs": 37437,
+  "durationFormatted": "00:37:437"
+}

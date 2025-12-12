@@ -1,0 +1,320 @@
+{
+  "processedAt": "2025-12-12T11:44:48.091Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_136.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_136.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "comme rien ne se passe",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution conjonctive correcte pour introduire une comparaison hypothétique est « comme si », suivie de l'imparfait de l'indicatif. L'emploi de « comme » seul constitue une erreur de syntaxe.",
+        "suggestions": [
+          "comme si rien ne se passait"
+        ],
+        "ruleApplied": "4.1.2.4.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur syntaxique claire. La comparaison hypothétique exige « comme si » + imparfait, pas « comme » seul avec le présent.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "au Montréal",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition « à » s'emploie devant les noms de villes. « Au » est la contraction de « à le » et ne convient pas ici.",
+        "suggestions": [
+          "à Montréal"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle de base en français : les noms de villes sont précédés de « à » sans article (sauf exceptions comme Le Havre).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "formée des chefs",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction correcte est « être formé de quelque chose/quelqu'un ». L'emploi de l'article contracté « des » est incorrect; il faut utiliser la préposition « de ».",
+        "suggestions": [
+          "formée de chefs"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "La locution verbale « être formé de » exige la préposition « de » seule, sans article contracté.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "en les redistribuer",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition « en » est obligatoirement suivie d'un participe présent. L'infinitif « redistribuer » est incorrect dans cette construction.",
+        "suggestions": [
+          "en les redistribuant"
+        ],
+        "ruleApplied": "4.1.2.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle grammaticale stricte : « en » + verbe = gérondif (participe présent), jamais l'infinitif.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "tellement de la nourriture",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'adverbe de quantité « tellement de » est suivi d'un nom sans article. L'article « la » est superflu.",
+        "suggestions": [
+          "tellement de nourriture"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle stricte des adverbes de quantité : « beaucoup de », « tellement de », « peu de » + nom sans article.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "affirme que :",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il ne faut pas mettre de deux-points après la conjonction « que » lorsqu'elle introduit une citation ou une proposition subordonnée.",
+        "suggestions": [
+          "affirme que"
+        ],
+        "ruleApplied": "4.2.2.7.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de ponctuation claire : les deux-points sont redondants après « que ». Soit « que » + citation entre guillemets, soit deux-points + citation, mais pas les deux.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "des nombreuses",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'article indéfini pluriel « des » devient « de » (ou « d' ») lorsqu'il est placé devant un adjectif qui précède le nom.",
+        "suggestions": [
+          "de nombreuses"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle grammaticale stricte : « des » → « de » devant adjectif antéposé (sauf expressions figées).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "des meilleures",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'article indéfini pluriel « des » devient « de » (ou « d' ») lorsqu'il est placé devant un adjectif qui précède le nom.",
+        "suggestions": [
+          "de meilleures"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle grammaticale stricte : « des » → « de » devant adjectif antéposé.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "récupéré",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé conjugué avec l'auxiliaire « avoir » s'accorde avec le complément d'objet direct (COD) si celui-ci est placé avant le verbe. Le COD est le pronom « qu' » (mis pour « la nourriture », féminin singulier).",
+        "suggestions": [
+          "récupérée"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Accord du participe passé avec COD antéposé « qu' » (= « la nourriture », féminin singulier) est obligatoire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "affamée",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « affamée » doit s'accorder en genre et en nombre avec le nom qu'il qualifie, « personnes » (féminin pluriel).",
+        "suggestions": [
+          "affamées"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accord évidente : « personnes » (pluriel) exige « affamées ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "resolver",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Ce mot est un barbarisme. Le verbe correct en français est « résoudre ».",
+        "suggestions": [
+          "résoudre"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Barbarisme évident, probablement calque de l'anglais « resolve ». Le verbe français est « résoudre ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "québecoises",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'adjectif « québécoises » prend un accent aigu sur le premier « e ».",
+        "suggestions": [
+          "québécoises"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe d'usage : l'accent aigu est obligatoire sur « québécois(e)(s) ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "les",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom personnel « les » (pluriel) ne correspond pas à son antécédent, « le gaspillage alimentaire » (masculin singulier). Le pronom correct est « le ».",
+        "suggestions": [
+          "le"
+        ],
+        "ruleApplied": "5.3.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de reprise pronominale : l'antécédent « le gaspillage alimentaire » est singulier, donc « le » et non « les ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "onconserve",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Barbarisme orthographique. Le pronom « on » et le verbe « conserve » doivent être séparés par un espace.",
+        "suggestions": [
+          "on conserve"
+        ],
+        "ruleApplied": "5.2.6.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur typographique évidente : fusion de deux mots qui doivent être séparés.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "legaspillage",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Barbarisme orthographique. L'article « le » et le nom « gaspillage » doivent être séparés par un espace.",
+        "suggestions": [
+          "le gaspillage"
+        ],
+        "ruleApplied": "5.2.6.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur typographique évidente : fusion de deux mots qui doivent être séparés.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.10",
+        "text": "mondiale",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « mondiale » doit s'accorder en genre avec le nom qu'il qualifie, « problème » (masculin singulier).",
+        "suggestions": [
+          "mondial"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accord évidente : « problème » est masculin, donc « mondial ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.11",
+        "text": "de Le Devoir",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "La préposition « de » et l'article défini « le » se contractent en « du ».",
+        "suggestions": [
+          "du Devoir"
+        ],
+        "ruleApplied": "5.3.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle grammaticale stricte : « de » + « le » = « du » (contraction obligatoire).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.12",
+        "text": "en les redistribuer",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "La préposition « en » est suivie du gérondif (forme en -ant), et non de l'infinitif.",
+        "suggestions": [
+          "en les redistribuant"
+        ],
+        "ruleApplied": "5.3.2.7",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle grammaticale stricte : « en » + verbe = gérondif (participe présent), jamais l'infinitif. Identique à erreur4.4.",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 6,
+      "note": "C"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 12,
+      "note": "D"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 18,
+      "vraisErreurs": 18,
+      "discutables": 0,
+      "fauxPositifs": 0
+    }
+  },
+  "startTimestamp": "2025-12-12T11:44:10.101Z",
+  "endTimestamp": "2025-12-12T11:44:48.091Z",
+  "durationMs": 37990,
+  "durationFormatted": "00:37:990"
+}

@@ -1,0 +1,443 @@
+{
+  "processedAt": "2025-12-10T14:10:37.610Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_013.txt",
+    "originalText": "La révolution des poubelles\r\n\r\nNous sommes de plus en plus sensibles à l'enjeu du gaspillage alimentaire. Que ce soit à la télévision, à la radio ou même à l'école, nous sommes rappelés de l'importance de ne pas gaspiller. La question n'est plus<< Pourquoi ?>>, mais bien <<Comment ?>>. Sommes-nous prêts à lutter contre le gaspillage alimentaire? Il est clair qu'avec l'importance accordée à l'environnement de nos jours et la détermination que nous avons en matière d'écologie, la question est vite répondue par le oui. Les supermarchés, détaillants et jeunes entreprises sont à l'avant plan de ce défi, d'autres préfèrent simplement faire les poubelles et créer de la valeur à partir de rien.\r\n\r\nLe supermarché\r\nEn premier lieu, les détaillants sont de plus en plus créatifs en matière de réduction du gaspillage alimentaire. Puisque chaque pomme ou cerise jetée représente une perte de revenus pour celui-ci. Donc, l'enjeu du gaspillage n'est pas seulement environnemental, mais aussi économique. La nourriture gaspillée par les familles représente une perte de 17 000 000 000$ par an (1). Imaginez tout ce qu'on pourrait faire avec cet argent. Voilà pourquoi, les détaillants voient le rendement d'investir dans du marketing pour inciter les clients à acheter ces aliments dits laids ou indésirables. <<Toutefois, quand il est à l'épicerie, le même client veut un produit parfait (ex.:des pommes sans meurtrissure).>> (2). Car, bien tristement, le trie est le plus souvent fait par vous et moi toujours à la recherche de cette sacrée pastèque parfaite qu'on va découper deux secondes plus tard en morceaux. De nombreuses compagnies ont trouvé leur créneau dans la vente d'aliments rejetés. Le modèle d'affaire de ces Flashfood, FoodHero et SecondLife de ce monde est de vendre à l'aide de l'internet ces produits frais, moins désirables, directement au consommateur et pour moins cher. En somme, les épiciers sont prêts à réduire leur gaspillage, non par conviction écologique, mais par souci de bonne gestion, afin de rester le plus compétitif possible, car ce sont des entreprises après tout.\r\n\r\nDeuxième vie\r\nEn deuxième lieu, il existe de nombreux moyens de réutiliser les déchets alimentaires. Plusieurs villes du Québec ont adopté le bac brun, un bac où les citoyens peuvent jeter leurs résidus alimentaires et organiques pour qu'ils soient transformés en compost et ensuite revendus aux fermiers et jardiniers amateurs. Puisque nous savons que 47% des déchets alimentaires proviennent directement de la consommation (3). Faire du compost directement à la maison n'est pas très compliqué non plus et si vous ne savez pas par où commencer, il ne suffit que de consulter une des milliers de ressources disponibles sur l'internet. Saviez-vous que les restes de fruits et légumes pouvaient être aussi transformés en jus, savon et alcool? Et oui, c'est ce que Loop Mission fait ici même au Québec (4). Nous avons de nombreuses façons de redonner une deuxième vie à nos soi-disant déchets à porter de mains. En résumé, les avantages ne sont pas difficiles à discerner: production de nouveaux produits avec moins de ressources, moins grande utilisation des décharges publiques, etc… Ce sont tous des atouts qui seront de plus en plus privilégiés, alors que la population mondiale ne fait que grandir et que le manque de terres et de ressources deviendront des enjeux à l'échelle planétaire.\r\n\r\nEn conclusion, nous sommes choyés, au Québec, d'avoir de la nourriture à gaspiller, malgré cela la population et les entreprises comprennent les raisons pour lesquelles le gaspillage est nocif. Surtout pour les compagnies, jeter de la nourriture pouvant toujours être consommée va à l'encontre de leur modèle d'affaires. Pour aider avec l'enjeu, les détaillants font plus que jamais, usage d'inventivité et de créativité. De plus, même quand un fruit ou un légumes est perdu dans le gouffre, nous avons la possibilité de le transformer. Voyez, nous pouvons réduire le gaspillage en augmentant le recyclage et la réutilisation des déchets organiques en compost, savons, jus, alcool et bien plus. Comment se fait-il que la ville de Québec n'a toujours pas de bac à compost? Nous sommes prêts à réduire nos déchets, mais si on y met plus d'effort, ça ira beaucoup plus vite.\r\n\r\n1 (RECYC-QUÉBEC, 2021)\r\n2 (Cameron, 2020)\r\n3 (Table québécoise sur la saine alimentation, 2019)\r\n4 (Martinez, 2021)",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "<<",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Les guillemets français à utiliser sont les guillemets typographiques (« ») et non les chevrons doubles (<< >>). La paire de guillemets incorrecte compte pour une seule erreur de ponctuation.",
+        "suggestions": [
+          "«"
+        ],
+        "ruleApplied": "4.2.2.5.1"
+      },
+      {
+        "id": "erreur4.2",
+        "text": "<<",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "P",
+        "description": "Les guillemets français à utiliser sont les guillemets typographiques (« ») et non les chevrons doubles (<< >>). La paire de guillemets incorrecte compte pour une seule erreur de ponctuation.",
+        "suggestions": [
+          "«"
+        ],
+        "ruleApplied": "4.2.2.5.1"
+      },
+      {
+        "id": "erreur4.3",
+        "text": "est vite répondue",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe \"répondre\" est transitif indirect (on répond à une question). La construction à la voix passive \"la question est répondue\" est donc incorrecte.",
+        "suggestions": [
+          "trouve vite sa réponse",
+          "reçoit vite une réponse affirmative"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "id": "erreur4.4",
+        "text": "Voilà pourquoi,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il ne faut pas mettre de virgule après la locution \"Voilà pourquoi\" lorsqu'elle introduit directement une proposition.",
+        "suggestions": [
+          "Voilà pourquoi"
+        ],
+        "ruleApplied": "4.2.2.10.2.f"
+      },
+      {
+        "id": "erreur4.5",
+        "text": "<<",
+        "occurenceIndex": 2,
+        "criteria": 4,
+        "type": "P",
+        "description": "Les guillemets français à utiliser sont les guillemets typographiques (« ») et non les chevrons doubles (<< >>). La paire de guillemets incorrecte compte pour une seule erreur de ponctuation.",
+        "suggestions": [
+          "«"
+        ],
+        "ruleApplied": "4.2.2.5.1"
+      },
+      {
+        "id": "erreur4.6",
+        "text": "Puisque nous savons que 47% des déchets alimentaires proviennent directement de la consommation (3).",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Une proposition subordonnée introduite par \"Puisque\" ne peut pas former une phrase complète seule. Elle doit être rattachée à une proposition principale ou la phrase doit être reformulée.",
+        "suggestions": [
+          "Il faut savoir que 47 % des déchets alimentaires proviennent directement de la consommation (3)."
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "id": "erreur4.7",
+        "text": "Et oui,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction \"Et oui\" est un calque de l'oral. Il est préférable d'utiliser une formulation plus formelle comme \"En effet\" ou l'interjection correcte \"Eh oui\".",
+        "suggestions": [
+          "Eh oui,",
+          "En effet,"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "id": "erreur4.8",
+        "text": "malgré cela la",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule est nécessaire après la locution \"malgré cela\" pour la détacher du reste de la phrase.",
+        "suggestions": [
+          "malgré cela, la"
+        ],
+        "ruleApplied": "4.2.2.10.1.k"
+      },
+      {
+        "id": "erreur4.9",
+        "text": "aider avec",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction \"aider avec\" est un calque de l'anglais (\"to help with\"). En français, la préposition correcte est \"à\" (\"aider à\") ou la phrase doit être reformulée.",
+        "suggestions": [
+          "aider à résoudre",
+          "contribuer à"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "id": "erreur4.10",
+        "text": "jamais, usage",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il ne faut pas insérer de virgule entre le verbe (\"font\") et son complément d'objet direct (\"usage\"), même s'ils sont séparés par une locution adverbiale.",
+        "suggestions": [
+          "jamais usage"
+        ],
+        "ruleApplied": "4.2.2.10.2.d"
+      },
+      {
+        "id": "erreur4.11",
+        "text": "Voyez,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'emploi de l'impératif \"Voyez\" en début de phrase est une marque d'oralité. Il est préférable de l'omettre ou de le remplacer par un organisateur textuel.",
+        "suggestions": [
+          "En effet,",
+          "Ainsi,"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "id": "erreur4.12",
+        "text": "2021)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une référence bibliographique doit se terminer par un point final.",
+        "suggestions": [
+          "2021)."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "id": "erreur4.13",
+        "text": "2020)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une référence bibliographique doit se terminer par un point final.",
+        "suggestions": [
+          "2020)."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "id": "erreur4.14",
+        "text": "2019)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une référence bibliographique doit se terminer par un point final.",
+        "suggestions": [
+          "2019)."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "id": "erreur4.15",
+        "text": "2021)",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une référence bibliographique doit se terminer par un point final.",
+        "suggestions": [
+          "2021)."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "id": "erreur4.16",
+        "text": "rappelés",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction passive « nous sommes rappelés de » est une construction boiteuse. Il faut utiliser une tournure active comme « on nous rappelle » ou une tournure impersonnelle « il nous est rappelé ».",
+        "suggestions": [
+          "on nous rappelle"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "id": "erreur4.17",
+        "text": "<< Pourquoi ?>>",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Les guillemets français sont « et » (avec des espaces insécables). Les chevrons doubles sans espace sont incorrects.",
+        "suggestions": [
+          "« Pourquoi ? »"
+        ],
+        "ruleApplied": "4.2.2.5.1"
+      },
+      {
+        "id": "erreur4.18",
+        "text": "<<Comment ?>>",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Les guillemets français sont « et » (avec des espaces insécables). Les chevrons doubles sans espace sont incorrects.",
+        "suggestions": [
+          "« Comment ? »"
+        ],
+        "ruleApplied": "4.2.2.5.1"
+      },
+      {
+        "id": "erreur4.19",
+        "text": "Puisque chaque pomme ou cerise jetée représente une perte de revenus pour celui-ci.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase est une subordonnée de cause introduite par « Puisque » qui n'est pas rattachée à une phrase principale (matrice).",
+        "suggestions": [
+          "Cette situation s'explique par le fait que chaque pomme ou cerise jetée représente une perte de revenus pour celui-ci."
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "id": "erreur4.20",
+        "text": "argent",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque le point final à la fin de cette phrase.",
+        "suggestions": [
+          "argent."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "id": "erreur4.21",
+        "text": "<<Toutefois, quand il est à l'épicerie, le même client veut un produit parfait (ex.:des pommes sans meurtrissure).>>",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "« P »",
+        "description": "Les guillemets français sont « et » (avec des espaces insécables). Les chevrons doubles sans espace sont incorrects.",
+        "suggestions": [
+          "« Toutefois, quand il est à l'épicerie, le même client veut un produit parfait (ex. : des pommes sans meurtrissure). »"
+        ],
+        "ruleApplied": "4.2.2.5.1"
+      },
+      {
+        "id": "erreur4.22",
+        "text": "il ne suffit que de",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction restrictive « ne... que » est mal employée ici. Il faut utiliser « il suffit de ».",
+        "suggestions": [
+          "il suffit de"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 15,
+      "note": "D"
+    },
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "l'avant plan",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le nom composé \"avant-plan\" s'écrit avec un trait d'union.",
+        "suggestions": [
+          "l'avant-plan"
+        ],
+        "ruleApplied": "5.2.1.7.1"
+      },
+      {
+        "id": "erreur5.2",
+        "text": "le trie",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le verbe \"trie\" (conjugué) et le nom masculin \"tri\". Le déterminant \"le\" indique qu'il faut utiliser le nom.",
+        "suggestions": [
+          "le tri"
+        ],
+        "ruleApplied": "5.3.3.2"
+      },
+      {
+        "id": "erreur5.3",
+        "text": "affaire",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Dans l'expression \"modèle d'affaires\", le complément du nom \"affaires\" doit être au pluriel.",
+        "suggestions": [
+          "affaires"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.4",
+        "text": "l'internet",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot \"Internet\" est considéré comme un nom propre et doit commencer par une majuscule.",
+        "suggestions": [
+          "l'Internet"
+        ],
+        "ruleApplied": "5.2.4.1.2"
+      },
+      {
+        "id": "erreur5.5",
+        "text": "l'internet",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Le mot \"Internet\" est considéré comme un nom propre et doit commencer par une majuscule. Il s'agit d'une répétition de la même erreur d'usage.",
+        "suggestions": [
+          "l'Internet"
+        ],
+        "ruleApplied": "5.1.3"
+      },
+      {
+        "id": "erreur5.6",
+        "text": "porter de mains",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'expression figée est \"à portée de main\". Il y a une confusion sur le nom (\"porter\" au lieu de \"portée\") et sur le nombre (\"mains\" au lieu de \"main\").",
+        "suggestions": [
+          "portée de main"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.7",
+        "text": "etc…",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'abréviation \"etc.\" (et cetera) ne doit pas être suivie de points de suspension, car cela constitue une redondance.",
+        "suggestions": [
+          "etc."
+        ],
+        "ruleApplied": "5.2.6.1"
+      },
+      {
+        "id": "erreur5.8",
+        "text": "deviendront",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec son sujet \"le manque de terres et de ressources\". Le noyau du groupe sujet est \"manque\", un nom singulier. Le verbe doit donc être au singulier.",
+        "suggestions": [
+          "deviendra"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.9",
+        "text": "légumes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom \"légume\" doit être au singulier car il est précédé du déterminant indéfini \"un\".",
+        "suggestions": [
+          "légume"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.10",
+        "text": "effort",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Dans l'expression \"mettre plus d'effort\", le nom \"effort\" est comptable et doit être au pluriel.",
+        "suggestions": [
+          "efforts"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.11",
+        "text": "compétitif",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « compétitif » doit s'accorder en nombre avec le sujet implicite « les épiciers » (masculin pluriel).",
+        "suggestions": [
+          "compétitifs"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.12",
+        "text": "is",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Utilisation du mot anglais « is » à la place du verbe français « est ».",
+        "suggestions": [
+          "est"
+        ],
+        "ruleApplied": "5.2.1.3"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 11,
+      "note": "C"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:05:11.109Z",
+    "endTimestamp": "2025-12-10T14:10:37.610Z",
+    "durationMs": 326501,
+    "durationFormatted": "05:26:501"
+  }
+}

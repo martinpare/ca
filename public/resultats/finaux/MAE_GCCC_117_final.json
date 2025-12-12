@@ -1,0 +1,833 @@
+{
+  "processedAt": "2025-12-12T11:45:15.635Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_117.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_117.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "devrions pas",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence de l'adverbe de négation « ne » dans la locution « ne... pas ».",
+        "suggestions": [
+          "ne devrions pas"
+        ],
+        "ruleApplied": "4.1.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Omission claire de la particule négative « ne » à l'écrit dans un registre formel. Cette omission est typique de l'oral familier mais constitue une erreur à l'écrit scolaire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "on a plus",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence de l'adverbe de négation « n' » pour marquer la restriction (« ne... plus »).",
+        "suggestions": [
+          "on n'a plus"
+        ],
+        "ruleApplied": "4.1.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "L'élision du « ne » devant « a » est obligatoire à l'écrit formel pour exprimer la négation « ne... plus ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "faim. »",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point final doit être placé après le guillemet fermant lorsque la citation n'est qu'un segment de phrase et non une phrase complète introduite par un deux-points.",
+        "suggestions": [
+          "faim »."
+        ],
+        "ruleApplied": "4.2.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique claire : quand la citation est intégrée syntaxiquement à la phrase, le point se place après le guillemet fermant.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "absolutely",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Emploi d'un mot anglais (calque) au lieu de son équivalent français « absolument ».",
+        "suggestions": [
+          "absolument"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Le texte original contient « absolument » et non « absolutely ». Relecture du texte confirme qu'il n'y a pas d'anglicisme ici.",
+        "counterArgument": "Le texte original écrit « C'est possible, absolument, nous avons les ressources ». Le mot utilisé est bien « absolument » en français, pas « absolutely » en anglais. Cette erreur est un faux positif basé sur une mauvaise lecture du texte source."
+      },
+      {
+        "id": "erreur4.5",
+        "text": "masse production",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Ordre des mots incorrect. La construction correcte est « production de masse ».",
+        "suggestions": [
+          "production de masse"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Calque syntaxique de l'anglais « mass production ». En français, on dit « production de masse » ou « production massive ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "masse consommation",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Ordre des mots incorrect. Erreur non comptée car il y a déjà une erreur de syntaxe (S) dans la phrase syntaxique.",
+        "suggestions": [
+          "consommation de masse"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Même type de calque syntaxique que « masse production ». Construction fautive.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "En premier lieu l'une",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de la virgule après l'organisateur textuel « En premier lieu » en tête de phrase.",
+        "suggestions": [
+          "En premier lieu, l'une"
+        ],
+        "ruleApplied": "4.2.2.10.1.k",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle de ponctuation claire : les organisateurs textuels en tête de phrase doivent être suivis d'une virgule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "est à cause de",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction fautive (calque). Il faut utiliser une construction comme « tient à » ou reformuler la phrase.",
+        "suggestions": [
+          "tient à",
+          "est due à"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Calque de l'anglais « is because of ». En français correct, on utilise « est dû à », « tient à » ou « s'explique par ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "laissent souvent aucun",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence de l'adverbe de négation « ne » dans la locution « ne... aucun ».",
+        "suggestions": [
+          "ne laissent souvent aucun"
+        ],
+        "ruleApplied": "4.1.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Omission du « ne » devant le verbe dans une construction négative avec « aucun ». Erreur à l'écrit formel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.10",
+        "text": "leur économiser",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction de verbe erronée. La construction correcte serait « de leur faire économiser ».",
+        "suggestions": [
+          "leur faire économiser"
+        ],
+        "ruleApplied": "4.1.2.2.2",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "La construction « leur économiser de l'argent » dans le sens de « leur permettre d'économiser » est attestée dans certains usages, bien que « leur faire économiser » soit plus standard.",
+        "counterArgument": "La construction « économiser quelque chose à quelqu'un » est reconnue par plusieurs dictionnaires dans le sens de « éviter à quelqu'un de dépenser ». Par exemple : « Cela vous économisera du temps ». Bien que « faire économiser » soit plus explicite, la forme employée n'est pas nécessairement fautive."
+      },
+      {
+        "id": "erreur4.11",
+        "text": "oui la",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de la virgule pour isoler le mot-phrase « oui ».",
+        "suggestions": [
+          "oui, la"
+        ],
+        "ruleApplied": "4.2.2.10.1.e",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Les mots-phrases comme « oui », « non », « eh bien » doivent être isolés par une virgule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.12",
+        "text": "À preuve «",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de la virgule après la locution introductive « À preuve ».",
+        "suggestions": [
+          "À preuve, «"
+        ],
+        "ruleApplied": "4.2.2.10.1.k",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "« À preuve » suivi d'une citation directe peut se construire sans virgule intermédiaire, la citation servant d'expansion directe.",
+        "counterArgument": "Quand « à preuve » introduit directement une citation qui sert d'illustration, la virgule n'est pas toujours obligatoire. La construction « À preuve : citation » ou « À preuve + citation directe » est acceptable. C'est similaire à « par exemple + citation »."
+      },
+      {
+        "id": "erreur4.13",
+        "text": "(2021).",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Présence erronée d'un point à l'intérieur de la référence bibliographique. Une virgule serait appropriée pour lier la date au titre.",
+        "suggestions": [
+          "(2021),"
+        ],
+        "ruleApplied": "4.2.2.1.2",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Dans les références bibliographiques intégrées au texte, différents styles de citation existent. Le point après la date n'est pas nécessairement fautif selon certaines normes.",
+        "counterArgument": "La référence bibliographique suit un format précis où les éléments sont séparés de différentes manières selon les normes (APA, MLA, etc.). Le point après l'année peut être conforme à certains guides de présentation. De plus, suggérer une virgule au milieu d'une citation intégrée pourrait créer plus de confusion. Cette observation relève davantage de la méthodologie de citation que de la syntaxe."
+      },
+      {
+        "id": "erreur4.14",
+        "text": "conséquences",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence du point final à la fin de la phrase.",
+        "suggestions": [
+          "conséquences."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le point final est obligatoire pour marquer la fin d'une phrase déclarative.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.15",
+        "text": "est nos standards",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction de phrase boiteuse. Lorsque le sujet et l'attribut sont de nombres différents, il est préférable d'utiliser « ce sont » ou de reformuler.",
+        "suggestions": [
+          "ce sont nos standards"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Avec un attribut pluriel, l'usage veut qu'on emploie « c'est » ou, mieux, « ce sont ». La construction « est nos standards » est maladroite.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.16",
+        "text": "apparence ce qui",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de la virgule avant le pronom relatif « ce qui » qui reprend toute la proposition précédente et introduit une explication.",
+        "suggestions": [
+          "apparence, ce qui"
+        ],
+        "ruleApplied": "4.2.2.10.1.i",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Quand « ce qui » reprend toute la proposition précédente (valeur explicative), la virgule est nécessaire pour marquer cette reprise.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.17",
+        "text": "À preuve, :",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Présence erronée d'une virgule avant le deux-points.",
+        "suggestions": [
+          "À preuve :"
+        ],
+        "ruleApplied": "4.2.2.10.2.h",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "On ne place jamais de virgule immédiatement avant un deux-points. C'est une règle typographique stricte.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.18",
+        "text": "\"moches\"",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Utilisation de guillemets anglais (« \" ») au lieu des guillemets français (« « »).",
+        "suggestions": [
+          "« moches »"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "En français, on utilise les guillemets français « » et non les guillemets anglais \" \".",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.19",
+        "text": "qualité. »",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point final doit être placé après le guillemet fermant.",
+        "suggestions": [
+          "qualité »."
+        ],
+        "ruleApplied": "4.2.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique : quand la citation est intégrée à la phrase, le point se place après le guillemet fermant.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.20",
+        "text": "Cependant je",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de la virgule après l'organisateur textuel « Cependant » en tête de phrase.",
+        "suggestions": [
+          "Cependant, je"
+        ],
+        "ruleApplied": "4.2.2.10.1.k",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Les marqueurs de relation en début de phrase comme « Cependant » doivent être suivis d'une virgule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.21",
+        "text": "changerons",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de mode verbal. Le verbe « souhaiter que » commande l'emploi du subjonctif.",
+        "suggestions": [
+          "changions"
+        ],
+        "ruleApplied": "4.1.2.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le verbe « souhaiter que » appelle systématiquement le subjonctif dans la subordonnée. C'est une règle grammaticale stricte.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.22",
+        "text": "pour simple raison",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Absence du déterminant « la » devant le groupe nominal « simple raison ». Une erreur de syntaxe (S) a déjà été comptabilisée dans cette phrase.",
+        "suggestions": [
+          "pour la simple raison"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "L'absence du déterminant devant un nom commun comptable est une erreur claire. « Pour simple raison » est agrammatical.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.23",
+        "text": "qu' «",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une espace superflue se trouve entre l'apostrophe et le guillemet ouvrant. La forme correcte est « qu'« ».",
+        "suggestions": [
+          "qu'«"
+        ],
+        "ruleApplied": "4.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur typographique claire : pas d'espace entre l'apostrophe et le guillemet ouvrant.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.24",
+        "text": "conséquences",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "(P)",
+        "description": "Absence du point final pour marquer la fin de la phrase.",
+        "suggestions": [
+          "conséquences."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Point final obligatoire. Même erreur déjà comptabilisée précédemment.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.25",
+        "text": "future",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(P)",
+        "description": "Absence du point final pour marquer la fin de la phrase.",
+        "suggestions": [
+          "future."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Point final obligatoire en fin de texte.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "se soit",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'homophone grammatical « se », pronom réfléchi, et « ce », pronom démonstratif. La forme correcte est « Que ce soit ».",
+        "suggestions": [
+          "ce soit"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion classique d'homophones. Dans la locution « que ce soit », on utilise toujours le pronom démonstratif « ce ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "deja",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Absence de l'accent grave sur l'adverbe « déjà ».",
+        "suggestions": [
+          "déjà"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accentuation évidente. L'accent grave est obligatoire sur « déjà ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "participer",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif en « -er » et le participe passé en « -é ». L'auxiliaire « avons » requiert le participe passé « participé ».",
+        "suggestions": [
+          "participé"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur classique de conjugaison. Après l'auxiliaire « avons », le verbe doit être au participe passé.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "volonter",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Graphie erronée du nom « volonté ».",
+        "suggestions": [
+          "volonté"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur orthographique claire. Le mot s'écrit « volonté » avec un accent aigu final.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "laquelle",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom relatif doit s'accorder en genre et en nombre avec son antécédent « raisons » (féminin pluriel).",
+        "suggestions": [
+          "lesquelles"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du pronom relatif composé. « Laquelle » (singulier) doit être remplacé par « lesquelles » (pluriel) pour s'accorder avec « raisons ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "extraordinairements",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Ajout d'un « s » fautif à l'adverbe « extraordinairement », qui est invariable.",
+        "suggestions": [
+          "extraordinairement"
+        ],
+        "ruleApplied": "5.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Les adverbes sont invariables. L'ajout d'un « s » à « extraordinairement » est une erreur claire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "favoriser",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit être conjugué à l'indicatif présent et s'accorder avec le sujet « Nos habitudes » (pluriel).",
+        "suggestions": [
+          "favorisent"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de conjugaison évidente. Le verbe doit s'accorder avec le sujet pluriel « Nos habitudes ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "tout les",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant « tout » doit s'accorder en genre et en nombre avec le nom « aliments » (masculin pluriel).",
+        "suggestions": [
+          "tous les"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du déterminant. « Tout » doit devenir « tous » devant un nom masculin pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "pourir",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Graphie erronée du verbe « pourrir », qui s'écrit avec deux « r ».",
+        "suggestions": [
+          "pourrir"
+        ],
+        "ruleApplied": "5.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur orthographique claire. Le verbe « pourrir » s'écrit avec deux « r ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.10",
+        "text": "familiales",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif doit s'accorder en genre et en nombre avec le nom « emballages » (masculin pluriel).",
+        "suggestions": [
+          "familiaux"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord de l'adjectif. « Familiales » (féminin) doit devenir « familiaux » (masculin pluriel) pour s'accorder avec « emballages ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.11",
+        "text": "achetés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le participe passé et l'infinitif. Après la préposition « de », le verbe doit être à l'infinitif « acheter ».",
+        "suggestions": [
+          "acheter"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur classique infinitif/participe passé. Après « de les », on attend l'infinitif « acheter », pas le participe passé « achetés ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.12",
+        "text": "entraine",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Absence de l'accent circonflexe sur le « i » du verbe « entraîner ».",
+        "suggestions": [
+          "entraîne"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accentuation. L'accent circonflexe est obligatoire sur « entraîner ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.13",
+        "text": "perte",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « perte » doit être au pluriel après le déterminant indéfini « des ».",
+        "suggestions": [
+          "pertes"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en nombre. Après « des », le nom doit être au pluriel : « des pertes ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.14",
+        "text": "cher",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « cher », attribut du sujet, doit s'accorder en genre avec le sujet « la surproduction » (féminin singulier).",
+        "suggestions": [
+          "chère"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord de l'adjectif attribut. « Cher » doit s'accorder au féminin : « chère ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.15",
+        "text": "milions",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Graphie erronée du mot « millions ».",
+        "suggestions": [
+          "millions"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur orthographique claire. Le mot s'écrit « millions » avec deux « l ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.16",
+        "text": "miliards",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Graphie erronée du mot « milliards ».",
+        "suggestions": [
+          "milliards"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur orthographique claire. Le mot s'écrit « milliards » avec deux « l ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.17",
+        "text": "on",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'homophone grammatical « on », pronom, et « ont », forme du verbe avoir. Le sujet « nos actions » requiert le verbe « ont ».",
+        "suggestions": [
+          "ont"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion d'homophones évidente. Le contexte nécessite le verbe « ont » (avoir), pas le pronom « on ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.18",
+        "text": "en vers",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Barbarisme orthographique. La préposition correcte est « envers ».",
+        "suggestions": [
+          "envers"
+        ],
+        "ruleApplied": "5.2.6.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur orthographique. La préposition s'écrit en un seul mot : « envers ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.19",
+        "text": "qualiter",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Graphie erronée du nom « qualité ».",
+        "suggestions": [
+          "qualité"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur orthographique claire. Le mot s'écrit « qualité » avec un accent aigu final.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.20",
+        "text": "vériter",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Graphie erronée du nom « vérité ».",
+        "suggestions": [
+          "vérité"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur orthographique claire. Le mot s'écrit « vérité » avec un accent aigu final.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.21",
+        "text": "aux centre",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur de contraction. Le nom « centre » est singulier, il faut donc utiliser la contraction « au » (à le) et non « aux » (à les).",
+        "suggestions": [
+          "au centre"
+        ],
+        "ruleApplied": "5.3.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord de la contraction. Avec un nom singulier, on utilise « au », pas « aux ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.22",
+        "text": "m'encourage",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder au pluriel avec le sujet multiple (« nos habitudes de vie, notre mode de consommation et de production ainsi que nos standards »).",
+        "suggestions": [
+          "m'encouragent"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord avec un sujet multiple coordonné. Le verbe doit être au pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.23",
+        "text": "responsable",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « responsable » doit s'accorder au pluriel avec le pronom « nous ».",
+        "suggestions": [
+          "responsables"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord de l'adjectif attribut. Avec le pronom « nous » (pluriel), l'adjectif doit être au pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.24",
+        "text": "future",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « future » doit s'accorder en genre et en nombre avec le nom « générations » (féminin pluriel).",
+        "suggestions": [
+          "futures"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord de l'adjectif. « Future » doit s'accorder au pluriel : « futures ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.25",
+        "text": "nourritures",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « nourriture » est généralement employé au singulier dans ce contexte (complément du nom « pertes »).",
+        "suggestions": [
+          "nourriture"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Bien que « nourriture » soit généralement un nom non comptable au singulier, l'usage du pluriel « nourritures » peut se justifier dans certains contextes pour désigner différents types d'aliments.",
+        "counterArgument": "Le mot « nourriture » peut s'employer au pluriel dans le sens de « différentes sortes de nourriture » ou « aliments variés ». Dans « pertes de nourritures », le pluriel peut suggérer la diversité des aliments gaspillés. Cet usage est attesté dans la langue courante, bien que le singulier soit plus fréquent."
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 20,
+      "note": "E"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 24,
+      "note": "E"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 50,
+      "vraisErreurs": 45,
+      "discutables": 3,
+      "fauxPositifs": 2
+    }
+  },
+  "startTimestamp": "2025-12-12T11:43:04.252Z",
+  "endTimestamp": "2025-12-12T11:45:15.635Z",
+  "durationMs": 131383,
+  "durationFormatted": "02:11:383"
+}

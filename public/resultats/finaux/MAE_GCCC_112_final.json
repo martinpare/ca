@@ -1,0 +1,785 @@
+{
+  "processedAt": "2025-12-12T11:44:37.621Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_112.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_112.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "savions",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'emploi de l'imparfait ('savions') est inapproprié pour énoncer une vérité générale. Le présent de l'indicatif ('savons') est requis.",
+        "suggestions": [
+          "savons"
+        ],
+        "ruleApplied": "4.1.2.2.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de temps verbal claire. Une vérité générale requiert le présent de l'indicatif, pas l'imparfait.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "dont nous voulons tout parfait mais qu'aussi nous ne dispossons pas de temps",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est boiteuse. La coordination entre la relative introduite par 'dont' et la proposition introduite par 'mais qu'aussi' est incorrecte et rend la phrase difficile à comprendre.",
+        "suggestions": [
+          "selon laquelle nous voulons que tout soit parfait, combinée au fait que nous ne disposons pas de temps,"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction syntaxique boiteuse. L'emploi de 'dont' suivi de 'mais qu'aussi' est incorrect et crée une rupture de construction.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "mais je ne vous dirais pas que plus qu'on la cherche, c'est donc plus qu'elle s'éloigne",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est boiteuse et relève du calque. La formulation 'plus que..., c'est donc plus que...' est incorrecte. De plus, l'adverbe 'donc' est superflu et mal placé.",
+        "suggestions": [
+          "mais plus on la cherche, plus elle s'éloigne"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Calque évident d'une construction espagnole ou anglaise. La structure comparative française standard est 'plus... plus...'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "ses",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le déterminant possessif 'ses' (3e personne du singulier) est incorrect. Le référent est 'les restaurants et les hôtels' (pluriel), ce qui exige l'emploi de 'leurs'.",
+        "suggestions": [
+          "leurs"
+        ],
+        "ruleApplied": "4.1.2.3.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. Le possesseur est pluriel ('les restaurants et les hôtels'), donc le déterminant doit être 'leurs'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "a déjà dépassée",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur d'auxiliaire. Pour indiquer que la date est passée, il faut utiliser l'auxiliaire 'être' : 'est déjà dépassée'.",
+        "suggestions": [
+          "est déjà dépassée"
+        ],
+        "ruleApplied": "4.1.2.2.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le verbe 'dépasser' au sens passif (la date est dépassée) requiert l'auxiliaire 'être', pas 'avoir'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "d'eux",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Le pronom 'eux' s'utilise généralement pour des personnes. Pour des choses ('articles'), il est préférable d'utiliser 'd'entre eux'.",
+        "suggestions": [
+          "d'entre eux"
+        ],
+        "ruleApplied": "4.1.2.3.1",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "L'usage de 'peu d'eux' pour des choses est attesté en français, bien que 'd'entre eux' soit plus élégant.",
+        "counterArgument": "Bien que 'd'entre eux' soit plus soigné, la construction 'peu d'eux' est acceptable en français courant, même pour des choses. Le Grevisse reconnaît l'usage de 'eux' pour des inanimés dans certaines constructions partitives."
+      },
+      {
+        "id": "erreur4.7",
+        "text": "yogourt ,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une espace ne doit pas précéder une virgule.",
+        "suggestions": [
+          "yogourt,"
+        ],
+        "ruleApplied": "4.2.2.10",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur typographique évidente. Aucune espace ne doit précéder une virgule en français.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "(Roy, 2018)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque un point pour terminer la phrase.",
+        "suggestions": [
+          "(Roy, 2018)."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "La phrase se termine par une référence bibliographique, mais le point final est absent.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "que pasent que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction est incorrecte. Il faut utiliser le pronom relatif sujet 'qui' et non 'que'. De plus, le verbe 'passent' est mal orthographié.",
+        "suggestions": [
+          "qui ne passent que"
+        ],
+        "ruleApplied": "4.1.2.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de pronom relatif. 'Que' ne peut être sujet; il faut 'qui'. L'orthographe du verbe est également erronée.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.10",
+        "text": "lui",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Le pronom 'lui' (singulier) est incorrect. Le référent est 'Les personnes' (pluriel), ce qui exige l'emploi de 'leur'.",
+        "suggestions": [
+          "leur"
+        ],
+        "ruleApplied": "4.1.2.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du pronom complément. Le référent pluriel 'Les personnes' requiert 'leur'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.11",
+        "text": "son",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Le déterminant possessif 'son' (singulier) est incorrect. Le référent est 'Les personnes' (pluriel), ce qui exige l'emploi de 'leur'.",
+        "suggestions": [
+          "leur"
+        ],
+        "ruleApplied": "4.1.2.3.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du possessif. Le possesseur pluriel 'Les personnes' requiert 'leur produit'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.12",
+        "text": "comme,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule ne doit pas être placée après 'comme' lorsqu'il introduit une énumération.",
+        "suggestions": [
+          "comme"
+        ],
+        "ruleApplied": "4.2.2.10.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de ponctuation. 'Comme' introduisant une énumération ne doit pas être suivi d'une virgule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.13",
+        "text": "), Bref",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule ne peut pas joindre deux phrases syntaxiques indépendantes. Il faut utiliser un point pour marquer la fin de la phrase précédente.",
+        "suggestions": [
+          "). Bref"
+        ],
+        "ruleApplied": "4.2.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de ponctuation. Deux phrases indépendantes doivent être séparées par un point, pas une virgule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.14",
+        "text": "y",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom « y » est superflu dans cette construction. La locution correcte est « que l'être humain pourrait avoir ».",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le pronom 'y' est redondant et incorrect dans cette construction. Le verbe 'avoir' est transitif direct et ne requiert pas 'y'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.15",
+        "text": "infinités des",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "L'expression « infinités des plats » est incorrecte. On utilise l'expression « une infinité de plats » (au singulier).",
+        "suggestions": [
+          "une infinité de"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'usage figé. L'expression française standard est 'une infinité de' (singulier), jamais au pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.16",
+        "text": "confirme (Table québécoise sur la saine alimentation, 2019)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase est incomplète (subordonnée sans matrice). Il manque un sujet pour le verbe « confirme ». Il faudrait l'intégrer à la phrase précédente, par exemple : « ..., comme le confirme la Table québécoise sur la saine alimentation (2019) ».",
+        "suggestions": [
+          "comme le confirme la Table québécoise sur la saine alimentation (2019)"
+        ],
+        "ruleApplied": "4.1.2.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Phrase syntaxiquement incomplète. Le verbe 'confirme' n'a pas de sujet, ce qui rend la phrase agrammaticale.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.17",
+        "text": "nous tous on sait",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction est redondante. Il faut choisir entre « nous savons tous » ou « on sait tous ».",
+        "suggestions": [
+          "nous savons tous",
+          "on sait tous"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Redondance évidente des pronoms sujets. L'utilisation simultanée de 'nous' et 'on' est incorrecte en français écrit standard.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.18",
+        "text": "sa",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le déterminant possessif doit s'accorder avec le possesseur pluriel « les boîtes de conserve, le riz et les pâtes ». Il faut utiliser « leur ».",
+        "suggestions": [
+          "leur"
+        ],
+        "ruleApplied": "4.1.2.3.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du possessif. Le possesseur est pluriel (trois éléments coordonnés), donc 'leur' est requis.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.19",
+        "text": "le temps que nous consacrons pour d'autres choses ce sont les écrans",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est boiteuse. La préposition correcte est « consacrer à ». De plus, le verbe « être » devrait s'accorder avec le sujet singulier « le temps » (« c'est » et non « ce sont »). Une reformulation est nécessaire.",
+        "suggestions": [
+          "Le temps que nous consacrons aux écrans et à d'autres choses"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction syntaxique boiteuse avec préposition incorrecte ('consacrer pour' au lieu de 'consacrer à') et problème de logique sémantique.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.20",
+        "text": "lui",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom « lui » est superflu dans cette construction. La forme correcte est « le temps qu'il reste à son produit ».",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le pronom 'lui' est redondant dans cette construction impersonnelle avec 'il reste'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.21",
+        "text": "la réussite de ce gaspillage alimentaire",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression « la réussite de ce gaspillage » est un contresens. L'auteur veut probablement parler de la « lutte contre ce gaspillage » ou de la « réduction de ce gaspillage ».",
+        "suggestions": [
+          "la réduction de ce gaspillage alimentaire"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Contresens évident. On ne parle pas de 'réussir' un gaspillage, mais de le 'combattre' ou de le 'réduire'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.22",
+        "text": "cela qui",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La tournure « cela qui » est lourde. Il est préférable d'utiliser « ce qui ».",
+        "suggestions": [
+          "ce qui"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "La construction 'cela qui' est incorrecte en français standard. La forme correcte est 'ce qui'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.23",
+        "text": "Nous nous faisons qu'un mal, aussi qu'en ne pas consacrer le temps necessaire pour utiliser nos produits.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est boiteuse. La locution restrictive « ne... que » est mal employée (« Nous ne nous faisons qu'un mal ») et la coordination avec « aussi qu'en » est incorrecte. Une reformulation est nécessaire.",
+        "suggestions": [
+          "Nous ne nous faisons que du mal en ne consacrant pas le temps nécessaire pour utiliser nos produits."
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction syntaxique fortement boiteuse avec plusieurs erreurs : négation restrictive mal formée, coordination incorrecte avec 'aussi qu'en', infinitif mal construit.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.24",
+        "text": "non?",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression « non? » est un calque de l'oral. Il est préférable d'utiliser une formulation comme « n'est-ce pas ? » ou de reformuler la phrase.",
+        "suggestions": [
+          "n'est-ce pas ?"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Bien que 'non?' soit familier et relève de l'oral, il s'agit d'un procédé rhétorique parfois accepté dans un texte visant un effet de proximité avec le lecteur.",
+        "counterArgument": "L'expression 'non?' est un procédé rhétorique qui crée un effet de dialogue avec le lecteur. Bien que familier, il peut être accepté dans un texte argumentatif au registre courant visant à interpeller directement le lectorat. La formulation 'n'est-ce pas?' serait plus soutenue, mais 'non?' n'est pas nécessairement fautif dans ce contexte."
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "Victoire",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "La majuscule n'est requise que pour le premier mot d'un titre, sauf si un nom propre est utilisé. 'Victoire' est ici un nom commun et doit commencer par une minuscule.",
+        "suggestions": [
+          "victoire"
+        ],
+        "ruleApplied": "5.2.4.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Dans un titre, seul le premier mot prend la majuscule (sauf noms propres). 'Victoire' est un nom commun ici.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "prèsque",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Graphie erronée de l'adverbe 'presque'. Il ne prend pas d'accent grave.",
+        "suggestions": [
+          "presque"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accentuation évidente. L'adverbe 'presque' ne prend jamais d'accent.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "Parcontre",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot 'parcontre' n'existe pas. Il s'agit de la locution 'par contre', en deux mots.",
+        "suggestions": [
+          "Par contre"
+        ],
+        "ruleApplied": "5.2.6.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'usage évidente. 'Par contre' s'écrit toujours en deux mots.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "presente",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'présente' doit s'accorder en genre et en nombre avec le nom qu'il qualifie, 'la dilapidation' (féminin singulier). Il manque également l'accent aigu.",
+        "suggestions": [
+          "présente"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accentuation. L'adjectif 'présent' requiert un accent aigu sur le 'e'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "Canadienne",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Les adjectifs de nationalité s'écrivent avec une minuscule. La majuscule est réservée au gentilé (nom des habitants).",
+        "suggestions": [
+          "canadienne"
+        ],
+        "ruleApplied": "5.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle claire : les adjectifs de nationalité prennent une minuscule. Seuls les gentilés (noms) prennent la majuscule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "Cette",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Une majuscule ne doit pas être utilisée après une virgule, sauf s'il s'agit d'un nom propre. Le mot 'cette' doit commencer par une minuscule.",
+        "suggestions": [
+          "cette"
+        ],
+        "ruleApplied": "5.3.6.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Après un point d'interrogation suivi d'une minuscule ('savons'), il y a continuation de phrase. La majuscule sur 'Cette' est incorrecte.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "dispossons",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Graphie erronée du verbe 'disposer'. Il ne prend qu'un seul 's'.",
+        "suggestions": [
+          "disposons"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur orthographique évidente. Le verbe 'disposer' ne contient qu'un seul 's'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "facil",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Graphie erronée de l'adjectif 'facile'.",
+        "suggestions": [
+          "facile"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur orthographique évidente. L'adjectif 'facile' se termine par 'e'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "sprit",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Graphie erronée du mot 'esprit'.",
+        "suggestions": [
+          "esprit"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur orthographique évidente. Le mot 'esprit' commence par 'e'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.10",
+        "text": "ce",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le pronom démonstratif 'ce' et le pronom réfléchi 'se'. Le verbe est pronominal : 'se fait'.",
+        "suggestions": [
+          "se"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion d'homophones. Le verbe pronominal 'se faire' requiert 'se', pas 'ce'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.11",
+        "text": "present",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Il manque l'accent aigu sur l'adjectif 'présent'.",
+        "suggestions": [
+          "présent"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accentuation évidente. L'adjectif 'présent' requiert un accent aigu.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.12",
+        "text": "jetter",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Graphie erronée de l'infinitif 'jeter'. Il ne prend qu'un seul 't'.",
+        "suggestions": [
+          "jeter"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur orthographique. Le verbe 'jeter' à l'infinitif ne prend qu'un seul 't'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.13",
+        "text": "perfectionistes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Graphie erronée du mot 'perfectionnistes'. Il s'écrit avec 'nn'.",
+        "suggestions": [
+          "perfectionnistes"
+        ],
+        "ruleApplied": "5.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur orthographique. Le mot 'perfectionniste' dérivé de 'perfection' conserve les deux 'n'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.14",
+        "text": "ce sont",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord. Le sujet est 'le temps' (singulier), le verbe 'être' doit donc être au singulier : 'c'est'.",
+        "suggestions": [
+          "c'est"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord sujet-verbe. Le sujet 'le temps' est singulier, donc 'c'est' est requis.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.15",
+        "text": "d'avantage",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'adverbe 'davantage' (plus) et la locution 'd'avantage' (de profit).",
+        "suggestions": [
+          "davantage"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion d'homophones. Le sens requis ici est 'plus' (davantage), pas 'de profit' (d'avantage).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.16",
+        "text": "pasent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur de conjugaison du verbe 'passer' à la 3e personne du pluriel du présent de l'indicatif. La graphie correcte est 'passent'.",
+        "suggestions": [
+          "passent"
+        ],
+        "ruleApplied": "5.3.2.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de conjugaison évidente. Le verbe 'passer' à la 3e personne du pluriel s'écrit 'passent'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.17",
+        "text": "comprenent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur de conjugaison du verbe 'comprendre' à la 3e personne du pluriel du présent de l'indicatif. La graphie correcte est 'comprennent'.",
+        "suggestions": [
+          "comprennent"
+        ],
+        "ruleApplied": "5.3.2.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de conjugaison évidente. Le verbe 'comprendre' à la 3e personne du pluriel prend 'nn' : 'comprennent'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.18",
+        "text": "simard",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Les noms propres, comme les noms de famille, doivent commencer par une majuscule.",
+        "suggestions": [
+          "Simard"
+        ],
+        "ruleApplied": "5.2.4.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur évidente. Les noms de famille prennent toujours une majuscule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.19",
+        "text": "temp",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Graphie erronée du mot 'temps'.",
+        "suggestions": [
+          "temps"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur orthographique évidente. Le mot 'temps' se termine par 'ps'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.20",
+        "text": "necessaire",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Il manque l'accent aigu sur la première syllabe et l'accent grave sur la deuxième syllabe du mot 'nécessaire'.",
+        "suggestions": [
+          "nécessaire"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accentuation évidente. Le mot 'nécessaire' requiert un accent aigu sur le premier 'e'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.21",
+        "text": "des",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Une nouvelle phrase doit commencer par une majuscule, surtout après un point d'interrogation.",
+        "suggestions": [
+          "Des"
+        ],
+        "ruleApplied": "5.3.6.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Après un point d'interrogation marquant la fin d'une phrase, la phrase suivante doit commencer par une majuscule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.22",
+        "text": "dépassée",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé conjugué avec l'auxiliaire « avoir » ne s'accorde pas avec le sujet « celle-ci ». Il reste invariable. Le mot correct est « dépassé ».",
+        "suggestions": [
+          "dépassé"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "L'analyse est erronée. Avec l'auxiliaire 'être' (correction précédente : 'est déjà dépassée'), le participe s'accorde avec le sujet. L'accord au féminin est donc correct.",
+        "counterArgument": "Cette erreur est liée à l'erreur 4.5 qui identifie correctement que l'auxiliaire devrait être 'être' et non 'avoir'. Une fois corrigé en 'est déjà dépassée', le participe passé DOIT s'accorder avec le sujet 'celle-ci' (féminin singulier). L'accord 'dépassée' est donc correct avec l'auxiliaire 'être'. Il s'agit d'un faux positif : l'erreur réelle est l'auxiliaire, pas l'accord du participe."
+      },
+      {
+        "id": "erreur5.23",
+        "text": "des",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le début d'une phrase commence par une majuscule. Le mot correct est « Des ».",
+        "suggestions": [
+          "Des"
+        ],
+        "ruleApplied": "5.3.6.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Après un point d'interrogation marquant la fin d'une phrase, la phrase suivante doit commencer par une majuscule.",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 23,
+      "note": "E"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 22,
+      "note": "E"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 47,
+      "vraisErreurs": 44,
+      "discutables": 2,
+      "fauxPositifs": 1
+    }
+  },
+  "startTimestamp": "2025-12-12T11:42:25.923Z",
+  "endTimestamp": "2025-12-12T11:44:37.621Z",
+  "durationMs": 131698,
+  "durationFormatted": "02:11:698"
+}

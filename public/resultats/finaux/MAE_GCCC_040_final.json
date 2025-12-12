@@ -1,0 +1,979 @@
+{
+  "processedAt": "2025-12-12T11:39:28.344Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_040.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_040.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "mettrai",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de concordance des temps dans une phrase hypothétique. Après « si », on emploie l'imparfait (« mettait ») pour exprimer une condition dans le passé ou une hypothèse, et non le conditionnel.",
+        "suggestions": [
+          "mettait"
+        ],
+        "ruleApplied": "4.1.2.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle grammaticale fondamentale : après « si » conditionnel, jamais de conditionnel. L'imparfait est obligatoire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "d'aujourd'hui la",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de la virgule après le complément de phrase « À l'heure d'aujourd'hui » placé en tête de phrase.",
+        "suggestions": [
+          "d'aujourd'hui, la"
+        ],
+        "ruleApplied": "4.2.2.10.1.l",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle de ponctuation claire : un complément de phrase en début de phrase doit être suivi d'une virgule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "Comme par exemple",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Redondance. « Comme » et « par exemple » ont une fonction similaire. Il faut choisir l'un ou l'autre.",
+        "suggestions": [
+          "Par exemple,",
+          "Comme"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Redondance évidente. Les deux marqueurs introduisent un exemple et sont incompatibles dans cette position.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "De plus comme",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de la virgule après l'organisateur textuel « De plus » placé en tête de phrase.",
+        "suggestions": [
+          "De plus, comme"
+        ],
+        "ruleApplied": "4.2.2.10.1.k",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Les organisateurs textuels en début de phrase sont systématiquement suivis d'une virgule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "déclaré «50%",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence du deux-points (:) pour introduire une citation directe.",
+        "suggestions": [
+          "déclaré : « 50%"
+        ],
+        "ruleApplied": "4.2.2.7.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Convention typographique : le deux-points est requis pour introduire une citation directe après un verbe déclaratif.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "d'avantage",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Confusion entre la locution « d'avantage » (de profit) et l'adverbe « davantage » (plus). Ici, c'est l'adverbe qui est requis.",
+        "suggestions": [
+          "davantage"
+        ],
+        "ruleApplied": "4.1.2.1.9",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion classique d'homophones. Le contexte exige clairement l'adverbe « davantage » (= plus).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "sera",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de concordance des temps. La proposition principale d'une phrase hypothétique introduite par « si » + imparfait (« si nous commencions ») doit être au conditionnel présent (« serait ») et non au futur simple.",
+        "suggestions": [
+          "serait"
+        ],
+        "ruleApplied": "4.1.2.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle de concordance : si + imparfait → conditionnel présent. Le futur simple est incompatible avec cette structure hypothétique.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "ainsi que les conséquences",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence de la préposition « des » devant « conséquences ». Dans une énumération, la préposition « de » doit être répétée devant chaque élément.",
+        "suggestions": [
+          "ainsi que des conséquences"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "MEDIUM",
+        "confidenceReason": "La répétition de la préposition est généralement requise, mais certains auteurs l'omettent quand les éléments sont étroitement liés.",
+        "counterArgument": "Dans certains contextes, lorsque les éléments coordonnés forment un ensemble sémantique cohérent (« risques » et « conséquences »), la préposition peut ne pas être répétée. Cependant, la répétition reste préférable pour la clarté."
+      },
+      {
+        "id": "erreur4.9",
+        "text": "pour",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Confusion entre la préposition « pour » et le verbe « pouvoir ». La structure de la phrase requiert un verbe conjugué comme « peuvent » ou « pourraient ». Cette erreur est dans la même phrase syntaxique que la précédente.",
+        "suggestions": [
+          "peuvent",
+          "pourraient"
+        ],
+        "ruleApplied": "4.1.2.1.9",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur syntaxique claire. La phrase a besoin d'un verbe conjugué, pas d'une préposition.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.10",
+        "text": "commencer",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de concordance des temps. Après « si », on emploie l'imparfait (« commençaient ») pour exprimer une hypothèse, et non l'infinitif.",
+        "suggestions": [
+          "commençaient"
+        ],
+        "ruleApplied": "4.1.2.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de construction. Après « si » dans une hypothétique, un verbe conjugué est obligatoire, pas un infinitif.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.11",
+        "text": "en reste de fruit",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition « en » est mal employée. Il faut utiliser une locution comme « à partir de » ou « avec des ».",
+        "suggestions": [
+          "à partir de restes de fruits",
+          "avec des restes de fruits"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Calque probable de l'anglais ou construction non idiomatique. « En reste » ne correspond pas à l'usage français standard.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.12",
+        "text": "en même conclu",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence de l'auxiliaire « ont » pour former le passé composé du verbe « conclure ».",
+        "suggestions": [
+          "ont même conclu"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion homophonique « en »/« ont ». Le contexte exige clairement le passé composé avec l'auxiliaire « ont ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.13",
+        "text": "commence",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de mode verbal. Après la locution « Il manquerait juste que », le verbe doit être au subjonctif présent (« commencent ») et non à l'indicatif.",
+        "suggestions": [
+          "commencent"
+        ],
+        "ruleApplied": "4.1.2.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle du subjonctif obligatoire après « il faut que », « il manquerait que ». L'indicatif est incorrect.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.14",
+        "text": "Bien que de nombreux individus prennent à cœur ce problème et consacre du temps afin de trouver une solution.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase est une subordonnée sans phrase matrice. Une phrase débutant par « Bien que » doit être suivie d'une proposition principale pour être complète.",
+        "suggestions": [
+          "Bien que de nombreux individus prennent à cœur ce problème et consacrent du temps afin de trouver une solution, la majeure partie de la population reste inactive."
+        ],
+        "ruleApplied": "4.1.2.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Phrase syntaxiquement incomplète. Une subordonnée concessive introduite par « Bien que » ne peut pas constituer une phrase autonome.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.15",
+        "text": "avis nous",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de la virgule après un groupe incident en tête de phrase. Le groupe « De mon humble avis » doit être suivi d'une virgule.",
+        "suggestions": [
+          "avis, nous"
+        ],
+        "ruleApplied": "4.2.2.10.1.n",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Les incises et compléments de phrase en tête de phrase doivent être suivis d'une virgule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.16",
+        "text": "aliments » Donc",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence du point pour marquer la fin de la phrase. Le mot « Donc » commence une nouvelle phrase et doit être précédé d'un point.",
+        "suggestions": [
+          "aliments. » Donc"
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de ponctuation évidente. Deux phrases indépendantes doivent être séparées par un point.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.17",
+        "text": "Comme le «meilleur avant» qui est pour la majorité des habitants très incompris.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase est une subordonnée relative sans phrase matrice. Elle ne constitue pas une phrase complète.",
+        "suggestions": [
+          "C'est le cas de la mention « meilleur avant », qui est très incomprise par la majorité des habitants."
+        ],
+        "ruleApplied": "4.1.2.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Fragment de phrase. Une subordonnée relative ne peut pas constituer une phrase autonome sans antécédent dans une principale.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.18",
+        "text": "2019» Donc",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence du point pour marquer la fin de la phrase. Le mot « Donc » commence une nouvelle phrase et doit être précédé d'un point.",
+        "suggestions": [
+          "2019». Donc"
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de ponctuation. Deux phrases distinctes doivent être séparées par un point.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.19",
+        "text": "sont",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de mode verbal. La conjonction « bien que » exige l'emploi du subjonctif.",
+        "suggestions": [
+          "soient"
+        ],
+        "ruleApplied": "4.1.2.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle grammaticale stricte : « bien que » exige le subjonctif. L'indicatif est incorrect.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.20",
+        "text": "entreprises nous",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de la virgule après un long complément de phrase en tête de phrase.",
+        "suggestions": [
+          "entreprises, nous"
+        ],
+        "ruleApplied": "4.2.2.10.1.l",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Complément circonstanciel long en tête de phrase. La virgule est nécessaire pour marquer la séparation.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "parti",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion entre les homophones lexicaux « parti » (nom ou participe passé) et « partie » (nom féminin). Dans l'expression « faire partie de », le mot « partie » est un nom féminin et s'écrit toujours ainsi.",
+        "suggestions": [
+          "partie"
+        ],
+        "ruleApplied": "5.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Expression figée « faire partie de ». L'orthographe « partie » est invariable dans cette locution.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "flaure",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur orthographique sur le mot « faune ». Le graphème correct est « au » et non « lau ».",
+        "suggestions": [
+          "faune"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. « Faune » est un mot usuel avec une graphie unique.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "aprovisionnement",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur orthographique sur le mot « approvisionnement » qui requiert un double « p ».",
+        "suggestions": [
+          "approvisionnement"
+        ],
+        "ruleApplied": "5.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe. Le préfixe « ap- » devant « p » double toujours la consonne.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "consacre",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe « consacre » doit s'accorder en nombre avec son sujet « de nombreux individus », qui est au pluriel. La terminaison de la troisième personne du pluriel au présent de l'indicatif est « -ent ».",
+        "suggestions": [
+          "consacrent"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. Le sujet « individus » est clairement au pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "Est ce que",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "La locution interrogative « est-ce que » requiert un trait d'union entre « est » et « ce ».",
+        "suggestions": [
+          "Est-ce que"
+        ],
+        "ruleApplied": "5.2.1.7.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique stricte. La locution figée « est-ce que » prend toujours un trait d'union.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "ajustement",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « ajustement » doit s'accorder en nombre avec le déterminant « quelques », qui indique le pluriel.",
+        "suggestions": [
+          "ajustements"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Accord évident. « Quelques » impose le pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "reseaux",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Absence de l'accent aigu sur le « e » du mot « réseaux ».",
+        "suggestions": [
+          "réseaux"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe. L'accent aigu est obligatoire sur « réseaux ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "solution",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « solution » doit s'accorder en nombre avec le déterminant « de multiples », qui indique le pluriel.",
+        "suggestions": [
+          "solutions"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Accord obligatoire. « Multiples » impose le pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "offerte",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « offerte », employé avec l'auxiliaire « être », doit s'accorder en genre et en nombre avec son sujet « de multiples solutions » (féminin pluriel). Le donneur d'accord est « solutions ».",
+        "suggestions": [
+          "offertes"
+        ],
+        "ruleApplied": "5.4.2.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle d'accord du participe passé avec « être ». Le sujet « solutions » (féminin pluriel) impose l'accord.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.10",
+        "text": "démontre",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe « démontre » doit s'accorder en nombre avec son sujet « des sites Web comme «Chic frigo sans fric» ou bien «Sauve ta bouffe» », qui est au pluriel.",
+        "suggestions": [
+          "démontrent"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le sujet est composé de plusieurs sites (pluriel), le verbe doit s'accorder au pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.11",
+        "text": "offerte",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "(G)",
+        "description": "Le participe passé « offerte », employé avec l'auxiliaire « être », doit s'accorder en genre et en nombre avec son sujet « les nombreuses sources » (féminin pluriel).",
+        "suggestions": [
+          "offertes"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Même erreur répétée. Accord du participe passé avec « sources » (féminin pluriel).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.12",
+        "text": "pourrai",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur de désinence verbale. Le verbe « pouvoir » au conditionnel présent à la troisième personne du singulier (sujet « chaque individu ») se termine par « -ait ».",
+        "suggestions": [
+          "pourrait"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion avec le futur simple. Le conditionnel de « pouvoir » à la 3e personne du singulier est « pourrait ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.13",
+        "text": "utilisé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « utilisé », employé avec l'auxiliaire « être », doit s'accorder en genre avec son sujet « La technologie » (féminin singulier).",
+        "suggestions": [
+          "utilisée"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Accord du participe passé avec « être ». « La technologie » est féminin, l'accord est obligatoire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.14",
+        "text": "il",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom de reprise « il » doit s'accorder en genre avec son antécédent « La technologie » (féminin). Le donneur d'accord est « La technologie ».",
+        "suggestions": [
+          "elle"
+        ],
+        "ruleApplied": "5.4.2.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Accord du pronom avec son antécédent. « La technologie » étant féminin, le pronom doit être « elle ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.15",
+        "text": "clée",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur orthographique sur le mot « clé » qui ne prend pas de « e » final.",
+        "suggestions": [
+          "clé"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "L'orthographe moderne privilégie « clé » sans « e » final. La forme « clef » existe aussi, mais « clée » est incorrecte.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.16",
+        "text": "commençions",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Absence de la cédille sous le « c » du verbe « commencer » à l'imparfait (« commencions ») pour conserver le son /s/ devant la voyelle « o ».",
+        "suggestions": [
+          "commencions"
+        ],
+        "ruleApplied": "5.2.1.2",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Le texte contient « commençions » avec cédille. Cette erreur semble être une détection erronée.",
+        "counterArgument": "En relisant le texte, on trouve « si nous commençions » écrit correctement avec la cédille. Cette détection est un faux positif : l'orthographe dans le texte est correcte."
+      },
+      {
+        "id": "erreur5.17",
+        "text": "dû",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « dû », employé comme adjectif, doit s'accorder en genre avec le nom qu'il qualifie, « la cause majeure » (féminin singulier).",
+        "suggestions": [
+          "due"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Dans l'expression « est due à », le participe passé s'accorde avec le sujet féminin « la cause ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.18",
+        "text": "météorologique",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « météorologique » doit s'accorder en nombre avec le nom qu'il qualifie, « les conditions » (pluriel).",
+        "suggestions": [
+          "météorologiques"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Accord adjectif-nom. « Conditions » étant au pluriel, l'adjectif doit suivre.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.19",
+        "text": "vendu",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « vendu », employé avec l'auxiliaire « être » (sous-entendu), doit s'accorder en nombre avec son sujet « les aliments » (masculin pluriel).",
+        "suggestions": [
+          "vendus"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Dans « sont soit vendus... ou jetés », le participe passé doit s'accorder avec « les aliments » (pluriel).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.20",
+        "text": "moin",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur orthographique sur l'adverbe « moins ».",
+        "suggestions": [
+          "moins"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. « Moins » s'écrit toujours avec un « s » final.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.21",
+        "text": "jeter",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif « jeter » et le participe passé « jetés ». Après « sont soit... ou... », il faut un participe passé qui s'accorde avec le sujet « les aliments » (masculin pluriel). Le donneur d'accord est « aliments ».",
+        "suggestions": [
+          "jetés"
+        ],
+        "ruleApplied": "5.4.2.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Dans la construction passive « sont soit vendus... ou jetés », il faut un participe passé accordé.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.22",
+        "text": "on",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le pronom « on » et l'auxiliaire « ont » (verbe avoir à la 3e personne du pluriel).",
+        "suggestions": [
+          "ont"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion d'homophones. Le contexte « environ 931 millions de tonnes... ont été gaspillés » exige l'auxiliaire « ont ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.23",
+        "text": "environnante",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « environnante » doit s'accorder en genre et en nombre avec le nom qu'il qualifie, « les aspects » (masculin pluriel).",
+        "suggestions": [
+          "environnementaux"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "MEDIUM",
+        "confidenceReason": "L'accord est nécessaire, mais la suggestion « environnementaux » change légèrement le sens (« environnante » → « environnants » serait plus proche).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.24",
+        "text": "régler",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif « régler » et le participe passé « réglés ». Après l'auxiliaire « être » (ici, « seraient »), il faut un participe passé qui s'accorde avec le sujet pluriel.",
+        "suggestions": [
+          "réglés"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Avec « seraient » (conditionnel passif), il faut un participe passé, pas un infinitif.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.25",
+        "text": "d'autre",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom indéfini « autres » doit être au pluriel dans ce contexte.",
+        "suggestions": [
+          "d'autres"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le contexte (« certaines entreprises... d'autres ») indique clairement le pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.26",
+        "text": "québecoise",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Absence de l'accent aigu sur le premier « e » de l'adjectif « québécoise ».",
+        "suggestions": [
+          "québécoise"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. L'accent aigu sur « québécois » est obligatoire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.27",
+        "text": "fruit",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « fruit », complément de « reste », doit être au pluriel car il s'agit de plusieurs fruits.",
+        "suggestions": [
+          "fruits"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le contexte (« restes de fruits et légumes ») indique clairement le pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.28",
+        "text": "récuperer",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Absence de l'accent aigu sur le deuxième « e » de l'infinitif « récupérer ».",
+        "suggestions": [
+          "récupérer"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe. L'accent aigu sur « récupérer » est obligatoire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.29",
+        "text": "positive",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « positive » doit s'accorder en nombre avec le nom qu'il qualifie, « des actions » (pluriel).",
+        "suggestions": [
+          "positives"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Accord adjectif-nom obligatoire. « Actions » étant au pluriel, l'adjectif doit suivre.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.30",
+        "text": "entierement",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Absence de l'accent grave sur le deuxième « e » de l'adverbe « entièrement ».",
+        "suggestions": [
+          "entièrement"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. L'accent grave est obligatoire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.31",
+        "text": "probleme",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Absence de l'accent grave sur le deuxième « e » du mot « problème ».",
+        "suggestions": [
+          "problème"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe courante. L'accent grave est obligatoire sur « problème ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.32",
+        "text": "individus",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « individus » doit être au singulier après le déterminant « chaque ».",
+        "suggestions": [
+          "individu"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle stricte : « chaque » impose le singulier.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.33",
+        "text": "dèrriere",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'accent. La préposition « derrière » s'écrit avec un accent grave sur le deuxième « e ».",
+        "suggestions": [
+          "derrière"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe. « Derrière » prend un accent grave, pas aigu.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.34",
+        "text": "d'avantage",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre les homophones grammaticaux « d'avantage » (de + nom) et « davantage » (adverbe de quantité).",
+        "suggestions": [
+          "davantage"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'homophone. Le contexte exige l'adverbe « davantage » (= plus).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.35",
+        "text": "il",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "(G)",
+        "description": "Erreur d'accord du pronom de reprise. Le pronom « il » reprend « La technologie » (féminin singulier) et doit donc être au féminin.",
+        "suggestions": [
+          "elle"
+        ],
+        "ruleApplied": "5.3.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de l'erreur 5.14. Même justification.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.36",
+        "text": "écologique",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord de l'adjectif. L'adjectif « écologique » doit s'accorder en nombre avec le nom qu'il qualifie, « aspects » (pluriel).",
+        "suggestions": [
+          "écologiques"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Accord adjectif-nom. « Aspects » étant au pluriel, l'adjectif doit suivre.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.37",
+        "text": "environnante",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord de l'adjectif. L'adjectif « environnante » doit s'accorder en genre et en nombre avec le même donneur « aspects » (masculin pluriel).",
+        "suggestions": [
+          "environnants"
+        ],
+        "ruleApplied": "5.4.2.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Accord avec le nom « aspects » (masculin pluriel). Ici, « environnants » est plus approprié que « environnementaux ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.38",
+        "text": "reste",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "(G)",
+        "description": "Erreur d'accord en nombre. Le nom « reste » doit être au pluriel pour correspondre à la pluralité des fruits et légumes.",
+        "suggestions": [
+          "restes"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le contexte (plusieurs fruits et légumes) impose le pluriel « restes ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.39",
+        "text": "en même conclu",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "(G)",
+        "description": "Confusion entre le pronom « en » et l'auxiliaire « ont ». La forme correcte est « ont même conclu ».",
+        "suggestions": [
+          "ont même conclu"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de l'erreur 4.12. Confusion homophonique « en »/« ont ».",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 20,
+      "note": "E"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 38,
+      "note": "E"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 59,
+      "vraisErreurs": 58,
+      "discutables": 0,
+      "fauxPositifs": 1
+    }
+  },
+  "startTimestamp": "2025-12-12T11:36:55.092Z",
+  "endTimestamp": "2025-12-12T11:39:28.344Z",
+  "durationMs": 153252,
+  "durationFormatted": "02:33:252"
+}

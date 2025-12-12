@@ -1,0 +1,290 @@
+{
+  "processedAt": "2025-12-12T11:44:04.452Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_119.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_119.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "où",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Pour marquer l'origine ou la provenance, il faut utiliser la locution interrogative \"d'où\" et non l'adverbe de lieu \"où\".",
+        "suggestions": [
+          "d'où"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur grammaticale claire. L'interrogation sur la provenance exige la préposition \"de\" : \"d'où vient notre nourriture\".",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "réaliser",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'emploi du verbe \"réaliser\" au sens d'« accomplir » ou de « parvenir à un but » est un calque sémantique de l'anglais \"to realize\". En français, \"réaliser\" signifie \"rendre réel\" ou \"comprendre soudainement\".",
+        "suggestions": [
+          "l'accomplir",
+          "y parvenir"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "L'usage de \"réaliser\" au sens de \"se rendre compte\" est critiqué, mais l'OQLF reconnaît son emploi au sens de \"prendre conscience\" depuis plusieurs années. Le contexte suggère plutôt \"accomplir\", ce qui serait effectivement un calque.",
+        "counterArgument": "Le verbe \"réaliser\" au sens de \"prendre conscience\" ou \"se rendre compte\" est accepté par l'OQLF et largement utilisé au Québec. Dans le contexte \"nous ne sommes pas prêts à réaliser cela\", si l'auteur voulait dire \"prendre conscience de cela\", l'usage serait défendable. Toutefois, si le sens visé était \"accomplir\", alors c'est effectivement un calque de l'anglais."
+      },
+      {
+        "id": "erreur4.3",
+        "text": "transportés (Table québécoise sur la saine alimentation, 2019).",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Lorsque la référence entre parenthèses fait partie intégrante de la phrase et n'est pas une phrase complète elle-même, le point final doit être placé après la parenthèse fermante.",
+        "suggestions": [
+          "transportés (Table québécoise sur la saine alimentation, 2019)."
+        ],
+        "ruleApplied": "4.2.2.1.2",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "La ponctuation actuelle est correcte. Le point est déjà après la parenthèse fermante dans le texte original.",
+        "counterArgument": "En vérifiant le texte original, la phrase se termine par \"transportés (Table québécoise sur la saine alimentation, 2019).\" avec le point APRÈS la parenthèse fermante. C'est exactement la forme recommandée. Il n'y a donc aucune erreur ici."
+      },
+      {
+        "id": "erreur4.4",
+        "text": "on en a déjà beaucoup trop fait",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression est sémantiquement faible et imprécise. Le verbe \"faire\" est un verbe passe-partout qui affaiblit le propos. Il serait préférable d'utiliser un verbe plus précis comme \"gaspiller\".",
+        "suggestions": [
+          "on a déjà beaucoup trop gaspillé"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "DISCUTABLE",
+        "confidence": "LOW",
+        "confidenceReason": "Il s'agit d'une suggestion stylistique, non d'une erreur grammaticale. L'expression \"en faire trop\" est idiomatique en français et grammaticalement correcte.",
+        "counterArgument": "L'expression \"on en a déjà beaucoup trop fait\" est une construction française parfaitement valide. Le pronom \"en\" reprend \"gaspillage alimentaire\", et \"en faire trop\" est une locution verbale idiomatique courante. Même si un verbe plus précis pourrait renforcer le style, l'original n'est pas fautif. C'est un choix stylistique, pas une erreur de syntaxe."
+      },
+      {
+        "id": "erreur4.5",
+        "text": "et car",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "La coordination de deux propositions de cause introduites par \"parce que\" et \"car\" est incorrecte. Pour coordonner deux causes, il faut répéter la conjonction \"que\" (\"parce que... et que...\"). Il s'agit de la deuxième erreur de syntaxe dans la même phrase.",
+        "suggestions": [
+          "et que"
+        ],
+        "ruleApplied": "4.1.2.4.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de coordination entre deux subordonnées causales. On ne peut pas coordonner \"parce que\" avec \"car\". Il faut utiliser \"et que\" pour parallélisme syntaxique.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "vient notre nourriture",
+        "occurenceIndex": 250,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'inversion sujet-verbe est incorrecte dans une proposition interrogative indirecte. Il faut utiliser l'ordre 'sujet + verbe'.",
+        "suggestions": [
+          "notre nourriture vient"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "L'inversion est acceptable en français dans les interrogatives indirectes introduites par un adverbe interrogatif comme \"où\". C'est un usage courant et correct.",
+        "counterArgument": "Dans une interrogative indirecte introduite par un adverbe interrogatif (ici \"où\"), l'inversion du sujet est parfaitement acceptable en français standard. \"Demandez-vous où vient notre nourriture\" est aussi correct que \"Demandez-vous où notre nourriture vient\". Les deux constructions coexistent, l'inversion étant même privilégiée dans un registre soutenu. Grevisse confirme cette possibilité."
+      },
+      {
+        "id": "erreur4.7",
+        "text": ",",
+        "occurenceIndex": 430,
+        "criteria": 4,
+        "type": "P",
+        "description": "L'emploi de la virgule pour joindre deux phrases syntaxiques indépendantes (asyndète) est incorrect. Il faut utiliser un point ou un point-virgule.",
+        "suggestions": [
+          "."
+        ],
+        "ruleApplied": "4.2.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "MEDIUM",
+        "confidenceReason": "La virgule séparant deux phrases indépendantes complètes sans coordonnant constitue une erreur de ponctuation (virgule fautive). Un point serait plus approprié.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "et car",
+        "occurenceIndex": 133,
+        "criteria": 4,
+        "type": "S",
+        "description": "La coordination de deux subordonnants de même nature ('parce que' et 'car') est incorrecte. Il faut répéter le premier subordonnant avec 'que' ('et que') ou le répéter entièrement ('et parce que').",
+        "suggestions": [
+          "et que",
+          "et parce que"
+        ],
+        "ruleApplied": "4.1.2.4.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Duplication de l'erreur4.5. Coordination fautive entre deux conjonctions causales de nature différente.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "2.2",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Répétition de l'erreur d'usage. En français, le séparateur décimal est la virgule, et non le point.",
+        "suggestions": [
+          "2,2"
+        ],
+        "ruleApplied": "5.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur typographique claire. En français, le séparateur décimal est la virgule. Cette norme est établie par l'Office québécois de la langue française.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "certains",
+        "occurenceIndex": 154,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif attribut 'certain' doit s'accorder au masculin singulier avec le pronom neutre 'C'' (représentant 'cela').",
+        "suggestions": [
+          "certain"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord. \"C'est certain\" est la forme correcte, car \"c'\" est un pronom neutre singulier. L'accord au pluriel est incorrect.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "fermes",
+        "occurenceIndex": 318,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le complément du nom 'ferme', qui qualifie 'animaux', doit rester au singulier dans l'expression 'animaux de ferme'.",
+        "suggestions": [
+          "ferme"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Les deux formes coexistent. \"Animaux de ferme\" (générique) et \"animaux de fermes\" (pluriel de fermes concrètes) sont toutes deux défendables selon le sens voulu.",
+        "counterArgument": "Bien que \"animaux de ferme\" (singulier générique) soit plus courant, l'expression \"animaux de fermes\" au pluriel n'est pas nécessairement fautive si l'auteur voulait faire référence aux animaux provenant de plusieurs fermes différentes. Les deux usages sont attestés, bien que le singulier soit généralement privilégié pour sa valeur générique."
+      },
+      {
+        "id": "erreur5.4",
+        "text": "Cet",
+        "occurenceIndex": 429,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le déterminant démonstratif 'cet' s'emploie devant un nom masculin commençant par une voyelle ou un 'h' muet. Devant 'gaspillage', qui commence par une consonne, il faut utiliser 'ce'.",
+        "suggestions": [
+          "Ce"
+        ],
+        "ruleApplied": "5.2.1.9.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur grammaticale évidente. \"Cet\" ne s'emploie que devant voyelle ou h muet. Devant \"gaspillage\", il faut \"ce\".",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "l' utilisation",
+        "occurenceIndex": 303,
+        "criteria": 5,
+        "type": "U",
+        "description": "Une espace superflue sépare l'apostrophe du mot 'utilisation'. Il ne doit pas y avoir d'espace après l'apostrophe de l'élision.",
+        "suggestions": [
+          "l'utilisation"
+        ],
+        "ruleApplied": "5.2.6.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur typographique claire. L'apostrophe ne doit jamais être suivie d'une espace.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "capacité",
+        "occurenceIndex": 39,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'capacité' doit s'accorder au pluriel avec son déterminant 'nos'. Donneur: 'nos'.",
+        "suggestions": [
+          "capacités"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord élémentaire. Le déterminant pluriel \"nos\" exige le pluriel du nom : \"nos capacités\".",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "quelques uns",
+        "occurenceIndex": 241,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le pronom indéfini 'quelques-uns' s'écrit avec un trait d'union.",
+        "suggestions": [
+          "quelques-uns"
+        ],
+        "ruleApplied": "5.2.1.7.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur orthographique claire. \"Quelques-uns\" prend toujours un trait d'union selon toutes les références.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "unies",
+        "occurenceIndex": 767,
+        "criteria": 5,
+        "type": "U",
+        "description": "Dans la dénomination 'Organisation des Nations Unies', l'adjectif 'Unies' prend une majuscule.",
+        "suggestions": [
+          "Unies"
+        ],
+        "ruleApplied": "5.2.4.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de majuscule dans un nom propre officiel. \"Organisation des Nations Unies\" s'écrit avec majuscule à \"Unies\".",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 4,
+      "note": "C"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 7,
+      "note": "D"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 16,
+      "vraisErreurs": 11,
+      "discutables": 3,
+      "fauxPositifs": 2
+    }
+  },
+  "startTimestamp": "2025-12-12T11:43:11.479Z",
+  "endTimestamp": "2025-12-12T11:44:04.452Z",
+  "durationMs": 52973,
+  "durationFormatted": "00:52:973"
+}

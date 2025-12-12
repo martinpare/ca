@@ -1,0 +1,354 @@
+{
+  "processedAt": "2025-12-12T11:37:36.353Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_039.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_039.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "prendre compte",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque la préposition 'en' dans l'expression consacrée 'prendre en compte'.",
+        "suggestions": [
+          "prendre en compte"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Expression figée en français. L'omission de 'en' est une erreur manifeste.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "vaut à",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction 'valoir à' est incorrecte dans ce contexte. Il faut utiliser 'équivaut à' ou reformuler la phrase, par exemple avec 'ce qui représente'.",
+        "suggestions": [
+          "équivaut à",
+          "représente"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "La construction 'cela vaut à des milliards' est incorrecte. Le verbe 'valoir' ne se construit pas ainsi dans ce contexte.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "moyens à réduire",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition 'à' est incorrecte après 'moyens'. On utilise la préposition 'de' : 'des moyens de réduire'.",
+        "suggestions": [
+          "moyens de réduire"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de préposition claire. L'expression standard est 'moyens de + infinitif'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "gaspillés",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque un point pour marquer la fin de la phrase avant la référence entre parenthèses.",
+        "suggestions": [
+          "gaspillés."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "La phrase doit se terminer par un point avant la référence bibliographique entre parenthèses.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "temps en main",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression 'avoir du temps en main' est un calque de l'anglais 'to have time in hand'. En français, on dirait plutôt 'ont peu de temps' ou 'ont peu de temps devant eux'.",
+        "suggestions": [
+          "peu de temps"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Calque de l'anglais évident. L'expression 'avoir du temps en main' n'existe pas en français standard.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "en tant qu'humain,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "La locution incidente 'en tant qu'humains' doit être encadrée par des virgules. Il manque la virgule ouvrante avant 'en tant que'.",
+        "suggestions": [
+          ", en tant qu'humains,"
+        ],
+        "ruleApplied": "4.2.2.10.1.g",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "La virgule ouvrante pourrait être considérée facultative selon l'interprétation de la construction. L'incise n'est pas fortement détachée du reste de la phrase.",
+        "counterArgument": "La locution 'en tant qu'humain' peut être considérée comme faisant partie intégrante du complément du verbe 'être conscient' plutôt que comme une incise détachée. Dans ce cas, la virgule ouvrante ne serait pas nécessaire. La construction 'Nous devons en tant qu'humain être conscient' pourrait se lire comme 'Nous devons être conscient en tant qu'humain', où 'en tant qu'humain' qualifie directement le sujet sans constituer une véritable incise."
+      },
+      {
+        "id": "erreur4.7",
+        "text": ":survol",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une espace est requise après le deux-points.",
+        "suggestions": [
+          ": survol"
+        ],
+        "ruleApplied": "4.2.2.7.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique claire et universelle en français : une espace est obligatoire après le deux-points.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": ") En",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque un point pour marquer la fin de la phrase avant l'élément entre parenthèses.",
+        "suggestions": [
+          "). En"
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "En relisant le texte, la référence '(RECYC-QUÉBEC, 2021)' fait partie intégrante de la phrase qui la précède. Le point doit venir après la parenthèse fermante, pas avant.",
+        "counterArgument": "La référence bibliographique entre parenthèses fait partie de la phrase. Selon les normes de citation, la ponctuation finale se place après la parenthèse fermante. Le texte original devrait être : 'gaspillés (RECYC-QUÉBEC, 2021).' avec le point après la parenthèse. L'erreur n'est donc pas l'absence de point avant la parenthèse, mais l'absence de point après."
+      },
+      {
+        "id": "erreur4.9",
+        "text": "leur achat",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le déterminant possessif 'leur' renvoie à 'Les travailleurs' (pluriel) et doit donc être au pluriel ('leurs'). Par conséquent, le nom 'achat' devrait aussi être au pluriel.",
+        "suggestions": [
+          "leurs achats"
+        ],
+        "ruleApplied": "4.1.2.3.2",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "L'accord au singulier peut se justifier si l'auteur pense à l'achat comme un phénomène collectif. Toutefois, le pluriel serait plus standard.",
+        "counterArgument": "Le singulier 'leur achat' peut s'interpréter comme un nom collectif désignant l'ensemble de l'activité d'achat des travailleurs, pris comme un tout. Dans ce contexte, 'leur achat de nourriture' signifie 'le phénomène d'achat de nourriture qui les caractérise'. Cependant, le pluriel 'leurs achats' serait effectivement plus standard et naturel en français."
+      },
+      {
+        "id": "erreur4.10",
+        "text": "lorsque ça vient aux surplus",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression 'quand ça vient à' est un calque de l'anglais 'when it comes to'. Il faut utiliser 'lorsqu'il s'agit de', 'en matière de' ou 'pour ce qui est de'.",
+        "suggestions": [
+          "lorsqu'il s'agit des surplus",
+          "en matière de surplus"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Calque de l'anglais manifeste. L'expression 'quand ça vient à' n'existe pas en français standard.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.11",
+        "text": "endroits.¹",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point final doit être placé après l'appel de note, et non avant.",
+        "suggestions": [
+          "endroits¹."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Norme typographique claire : l'appel de note se place avant le point final.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.12",
+        "text": "Québec »",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une référence bibliographique complète doit se terminer par un point final.",
+        "suggestions": [
+          "Québec »."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Norme bibliographique universelle : toute référence complète se termine par un point final.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "pénêtre",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'accent circonflexe est incorrect. Le verbe 'pénétrer' se conjugue 'pénètre' à la troisième personne du singulier du présent de l'indicatif.",
+        "suggestions": [
+          "pénètre"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accentuation claire. Le verbe 'pénétrer' prend un accent grave, pas circonflexe.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "jétée",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'accent aigu est incorrect. Le participe passé du verbe 'jeter' s'écrit 'jetée' au féminin singulier.",
+        "suggestions": [
+          "jetée"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accentuation évidente. Le verbe 'jeter' ne prend jamais d'accent aigu.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "productions",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'production' doit être au singulier pour suivre la logique de l'énumération 'taux de consommation et de production'.",
+        "suggestions": [
+          "production"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Les deux interprétations sont défendables selon que l'auteur parle des multiples productions (secteurs différents) ou du concept général de production.",
+        "counterArgument": "Le pluriel 'productions' peut se justifier si l'auteur pense aux différentes productions alimentaires (production de fruits, de légumes, de viande, etc.). Dans le premier paragraphe, l'auteur écrit 'nos productions augmentent', ce qui suggère cette interprétation plurielle. Le singulier 'taux de production' serait plus standard dans une expression technique, mais le pluriel n'est pas fautif s'il renvoie à une pluralité de productions concrètes."
+      },
+      {
+        "id": "erreur5.4",
+        "text": "ils",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom 'ils' reprend 'les familles canadiennes', qui est un groupe nominal féminin pluriel. Le pronom de reprise doit donc être 'elles'.",
+        "suggestions": [
+          "elles"
+        ],
+        "ruleApplied": "5.3.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en genre. Le pronom doit reprendre le genre du nom antécédent 'familles' (féminin).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "lapresse.ca",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Les noms propres, y compris ceux des médias, prennent généralement une majuscule initiale. Il faudrait écrire 'LaPresse.ca' ou 'La Presse.ca'.",
+        "suggestions": [
+          "LaPresse.ca"
+        ],
+        "ruleApplied": "5.2.4.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de majuscule évidente. 'La Presse' est un nom propre qui doit prendre une majuscule initiale.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "préssés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'accent aigu est incorrect. Le participe passé du verbe 'presser' s'écrit 'pressés' au masculin pluriel.",
+        "suggestions": [
+          "pressés"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accentuation claire. Le verbe 'presser' ne prend jamais d'accent aigu.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "conscient",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'conscient' se rapporte au pronom 'Nous' (pluriel). Il doit donc s'accorder au pluriel : 'conscients'.",
+        "suggestions": [
+          "conscients"
+        ],
+        "ruleApplied": "5.4.2.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. L'adjectif attribut doit s'accorder avec le sujet 'Nous' (pluriel).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "conservations",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'conservation', complément du nom 'moyens', devrait être au singulier pour désigner le concept général dans l'expression 'moyens de conservation'.",
+        "suggestions": [
+          "conservation"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Dans l'expression 'moyens de conservation', le nom abstrait 'conservation' doit rester au singulier.",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 10,
+      "note": "C"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 7,
+      "note": "B"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 20,
+      "vraisErreurs": 16,
+      "discutables": 3,
+      "fauxPositifs": 1
+    }
+  },
+  "startTimestamp": "2025-12-12T11:36:38.850Z",
+  "endTimestamp": "2025-12-12T11:37:36.353Z",
+  "durationMs": 57503,
+  "durationFormatted": "00:57:503"
+}

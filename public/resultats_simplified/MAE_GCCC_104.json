@@ -1,0 +1,500 @@
+{
+  "processedAt": "2025-12-10T14:54:52.302Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_104.txt",
+    "originalText": "Il faut agir : maintenant ou jamais\r\n\r\nLa plupart de nous sont assez chanceux de pouvoir manger de la nourriture saine contrairement à ceux qui viennent de pays peu développés. Certains ne peuvent même pas se procurer de quelque chose à manger pour une semaine. Pourtant, nous jetons beaucoup trop d'aliments chaque année. C'est le temps de réaliser qu'on est privilégié et qu'on peut réduire le gaspillage évitable. On est prêt à lutter contre le gaspillage alimentaire.\r\n\r\nPour débuter, il existe plusieurs solutions possibles qu'on peut appliquer chez nous pour limiter le gaspillage. En effet, la moitié d'un milliard de tonnes de nourritures gaspillées peut être éviter chez nous si on connaissait à mieux conserver les aliments (Corriveau, 2020) Ce sont des moyens très simples que tout le monde pourrait faire pour aider. Comme cela est mentionné dans « RECYC-QUÉBEC, 2021 », il est conseillé : « de planifier les repas et de faire une liste d'épicerie, d'acheter en quantité raisonnables, de faire cuire les fruits et légumes trop mûrs, de congeler les restes en portions individuelles. » De plus, pour plus d'informations, il y a des Site Web dans lequel vous pouvez consulter comme Sauve ta bouffe, Chic Frigo sans fric, J'aime manger pas gaspiller. Non seulement ça, mais il y a aussi des livres qui nous aide à limiter le gaspillage chez nous. (Simard, 2020) À l'aide de ces solutions, on pourrait réduire le nombre de tonnes de résidus évitables.\r\n\r\nDeuxièmement, il existe des programmes qui récupèrent des nourritures dans les restaurants avant qu'ils les jètent. C'est un bon moyen qui aide énormement à réduire le gaspillage alimentaire. À preuve, en 2002, le fondateur de La Tablée des Chefs, Jean-\r\n\r\nFrançois Archambault ont pu récupérés et ridistribués plus de la moitié d'un million de repas. (Hébert, 2019) La raison pourquoi c'est un grand nombre est le fait que dans les restaurants, c'est important que les plats sont parfaits ainsi que les grosses portions causent du gaspillage évitable. (Table québecoise sur la saine alimentation, 2019) Si on avait beaucoup plus de programmes comme cela, nous pouvons avoir un impacte qui aidera à limiter le gaspillage de nourriture. De plus, il faudrait avoir plus de restaurants qui donne la possibilité de nous laisser partir avec nos restants. C'est meilleur de nous laisser manger chez nous plutôt que de le jeter. Il y a plusieurs restaurants partout dans le monde et s'ils font tous le même erreur, le gaspillage alimentaire augmentera plus.\r\n\r\nPour conclure, je crois qu'avec toutes les solutions mentionnées, nous sommes prêts à lutter contre le gaspillage alimentaire. Si tout le monde savait comment limiter le gaspillage alimentaire à la maison et s'il y avait plusieurs programmes de récupération aux restaurants, on peut éviter d'avoir un milliard de tonnes de nourritures gaspillées dans le futur. Si on ne commence pas aujourd'hui, alors quand ? Le gaspillage alimentaire contribuent aux changements climatiques et c'est un problème majeur. Il\r\n\r\nfaut prendre action maintenant.",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "de quelque chose",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition \"de\" est superflue dans la construction du verbe pronominal \"se procurer quelque chose\".",
+        "suggestions": [
+          "quelque chose"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "id": "erreur4.2",
+        "text": "« RECYC-QUÉBEC, 2021 »",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Les guillemets ne sont pas nécessaires pour encadrer le nom d'un organisme servant de source.",
+        "suggestions": [
+          "RECYC-QUÉBEC (2021)"
+        ],
+        "ruleApplied": "4.2.2.5.2"
+      },
+      {
+        "id": "erreur4.3",
+        "text": "lequel",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom relatif \"lequel\" doit s'accorder en genre et en nombre avec son antécédent, \"des Sites Web\" (masculin pluriel).",
+        "suggestions": [
+          "lesquels"
+        ],
+        "ruleApplied": "4.1.2.3.1"
+      },
+      {
+        "id": "erreur4.4",
+        "text": "gaspiller",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque un point pour terminer la phrase.",
+        "suggestions": [
+          "gaspiller."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "id": "erreur4.5",
+        "text": "(Simard, 2020)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette référence entre parenthèses constitue une phrase incomplète (subordonnée sans matrice). Elle devrait être rattachée à la phrase précédente.",
+        "suggestions": [
+          "chez nous (Simard, 2020)."
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "id": "erreur4.6",
+        "text": "La raison pourquoi",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction \"la raison pourquoi\" est un calque de l'anglais. Il faut utiliser \"la raison pour laquelle\" ou reformuler la phrase.",
+        "suggestions": [
+          "La raison pour laquelle"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "id": "erreur4.7",
+        "text": "sont",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Après la locution impersonnelle \"il est important que\", le verbe de la subordonnée doit être au subjonctif.",
+        "suggestions": [
+          "soient"
+        ],
+        "ruleApplied": "4.1.2.2.3"
+      },
+      {
+        "id": "erreur4.8",
+        "text": ")",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque un point pour terminer la phrase avant la référence entre parenthèses.",
+        "suggestions": [
+          "évitable. (Table québécoise...)"
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "id": "erreur4.9",
+        "text": "pouvons",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Dans un système hypothétique avec \"si\", une subordonnée à l'imparfait (\"si on avait\") commande l'emploi du conditionnel présent dans la principale.",
+        "suggestions": [
+          "pourrions"
+        ],
+        "ruleApplied": "4.1.2.2.3"
+      },
+      {
+        "id": "erreur4.10",
+        "text": "C'est meilleur de",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La tournure \"C'est meilleur de\" est une tournure orale ou un anglicisme. On privilégiera \"Il est préférable de\" ou \"Il vaut mieux\".",
+        "suggestions": [
+          "Il est préférable de"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "id": "erreur4.11",
+        "text": "augmentera plus",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'adverbe \"plus\" est ambigu. Pour indiquer une augmentation, il faudrait utiliser \"davantage\" ou \"encore plus\".",
+        "suggestions": [
+          "augmentera davantage"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "id": "erreur4.12",
+        "text": "prendre action",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression \"prendre action\" est un calque de l'anglais \"to take action\". Les expressions françaises correctes sont \"agir\" ou \"passer à l'action\".",
+        "suggestions": [
+          "agir"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "id": "erreur4.13",
+        "text": "connaissait à mieux conserver",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction 'connaître à' est incorrecte. Il faut utiliser un autre verbe ou une autre structure, comme 'savait mieux conserver' ou 'apprenait à mieux conserver'.",
+        "suggestions": [
+          "savait mieux conserver",
+          "apprenait à mieux conserver"
+        ],
+        "ruleApplied": "4.1.2.2.2"
+      },
+      {
+        "id": "erreur4.14",
+        "text": "(Corriveau, 2020)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque un point pour terminer la phrase principale avant la référence entre parenthèses.",
+        "suggestions": [
+          "aliments. (Corriveau, 2020)"
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "id": "erreur4.15",
+        "text": "(Hébert, 2019)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque un point pour terminer la phrase principale avant la référence entre parenthèses.",
+        "suggestions": [
+          "repas. (Hébert, 2019)"
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "id": "erreur4.16",
+        "text": "sont",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution impersonnelle 'il est important que' exige l'emploi du subjonctif. Le verbe doit être 'soient'.",
+        "suggestions": [
+          "soient"
+        ],
+        "ruleApplied": "4.1.2.2.3"
+      },
+      {
+        "id": "erreur4.17",
+        "text": "(Table québecoise sur la saine alimentation, 2019)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque un point pour terminer la phrase principale avant la référence entre parenthèses.",
+        "suggestions": [
+          "évitable. (Table québécoise sur la saine alimentation, 2019)"
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "id": "erreur4.18",
+        "text": "on peut éviter",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Dans une phrase hypothétique introduite par 'si' + imparfait, la proposition principale doit être au conditionnel présent.",
+        "suggestions": [
+          "on pourrait éviter"
+        ],
+        "ruleApplied": "4.1.2.2.3"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 15,
+      "note": "D"
+    },
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "privilégié",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif \"privilégié\" doit s'accorder en nombre avec le pronom \"on\" qui a ici le sens de \"nous\" (pluriel).",
+        "suggestions": [
+          "privilégiés"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.2",
+        "text": "prêt",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "L'adjectif \"prêt\" doit s'accorder en nombre avec le pronom \"on\" (donneur : \"on\" mis pour \"nous\").",
+        "suggestions": [
+          "prêts"
+        ],
+        "ruleApplied": "5.4.2.1"
+      },
+      {
+        "id": "erreur5.3",
+        "text": "nourritures",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom \"nourriture\" est généralement non comptable et s'emploie au singulier comme complément de la locution de quantité \"tonnes de\".",
+        "suggestions": [
+          "nourriture"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.4",
+        "text": "éviter",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif \"-er\" et le participe passé \"-é\". Après l'auxiliaire \"être\", il faut utiliser le participe passé, qui doit s'accorder avec le sujet \"la moitié\" (féminin singulier).",
+        "suggestions": [
+          "évitée"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "id": "erreur5.5",
+        "text": "raisonnables",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif \"raisonnables\" doit s'accorder en genre et en nombre avec le nom qu'il qualifie, \"quantité\" (féminin singulier).",
+        "suggestions": [
+          "raisonnable"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.6",
+        "text": "aide",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe \"aide\" doit s'accorder en nombre avec son sujet \"qui\", dont l'antécédent est \"des livres\" (pluriel).",
+        "suggestions": [
+          "aident"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.7",
+        "text": "jètent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur de conjugaison (barbarisme) du verbe \"jeter\" au subjonctif présent. La forme correcte est \"jettent\".",
+        "suggestions": [
+          "jettent"
+        ],
+        "ruleApplied": "5.3.2.1"
+      },
+      {
+        "id": "erreur5.8",
+        "text": "énormement",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Il manque un accent aigu sur le deuxième \"e\" de l'adverbe \"énormément\".",
+        "suggestions": [
+          "énormément"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.9",
+        "text": "ont",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe \"ont\" (avoir) doit s'accorder en nombre avec son sujet \"le fondateur [...] Jean-François Archambault\" (singulier).",
+        "suggestions": [
+          "a"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.10",
+        "text": "récupérés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé \"récupérés\", conjugué avec l'auxiliaire \"avoir\", ne s'accorde pas car le complément d'objet direct (\"plus de la moitié...\") est placé après le verbe.",
+        "suggestions": [
+          "récupéré"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "id": "erreur5.11",
+        "text": "ridistribués",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "Le participe passé \"ridistribués\" (mal orthographié pour \"redistribués\"), coordonné au précédent, suit la même règle d'accord et doit rester invariable (donneur : auxiliaire avoir avec COD postposé).",
+        "suggestions": [
+          "redistribué"
+        ],
+        "ruleApplied": "5.4.2.1"
+      },
+      {
+        "id": "erreur5.12",
+        "text": "québecoise",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Il manque un accent aigu sur le premier \"e\" de l'adjectif \"québécoise\".",
+        "suggestions": [
+          "québécoise"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.13",
+        "text": "impacte",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le nom \"impact\" est masculin et s'écrit sans \"e\" final.",
+        "suggestions": [
+          "impact"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "id": "erreur5.14",
+        "text": "donne",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe \"donne\" doit s'accorder en nombre avec son sujet \"qui\", dont l'antécédent est \"restaurants\" (pluriel).",
+        "suggestions": [
+          "donnent"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.15",
+        "text": "contribuent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe \"contribuent\" doit s'accorder en nombre avec son sujet \"Le gaspillage alimentaire\" (singulier).",
+        "suggestions": [
+          "contribue"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.16",
+        "text": "Site Web",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'Site' doit s'accorder en nombre avec le déterminant 'des' (pluriel). De plus, la majuscule n'est pas justifiée.",
+        "suggestions": [
+          "sites Web"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.17",
+        "text": "lequel",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "Le pronom relatif 'lequel' doit s'accorder en genre et en nombre avec son antécédent 'sites Web', qui est masculin pluriel. Le donneur d'accord est 'Site Web'.",
+        "suggestions": [
+          "lesquels"
+        ],
+        "ruleApplied": "5.3.1.4"
+      },
+      {
+        "id": "erreur5.18",
+        "text": "nourritures",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'nourriture' est généralement un nom non comptable et s'emploie au singulier dans ce contexte.",
+        "suggestions": [
+          "nourriture"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.19",
+        "text": "restants",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot 'restants' pour désigner les restes d'un repas est un calque de l'anglais 'leftovers'. Le terme correct en français est 'restes'.",
+        "suggestions": [
+          "restes"
+        ],
+        "ruleApplied": "5.2.2"
+      },
+      {
+        "id": "erreur5.20",
+        "text": "même erreur",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'erreur' est féminin. Le déterminant et l'adjectif doivent s'accorder au féminin.",
+        "suggestions": [
+          "la même erreur"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.21",
+        "text": "nourritures",
+        "occurenceIndex": 2,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'nourriture' est généralement un nom non comptable et s'emploie au singulier dans ce contexte.",
+        "suggestions": [
+          "nourriture"
+        ],
+        "ruleApplied": "5.3.1.5"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 18,
+      "note": "D"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:49:14.400Z",
+    "endTimestamp": "2025-12-10T14:54:52.302Z",
+    "durationMs": 337902,
+    "durationFormatted": "05:37:902"
+  }
+}

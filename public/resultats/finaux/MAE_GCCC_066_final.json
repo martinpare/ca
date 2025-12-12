@@ -1,0 +1,352 @@
+{
+  "processedAt": "2025-12-12T11:39:58.825Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_066.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_066.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "\"moches\"",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "En français, les guillemets typographiques à utiliser sont les guillemets français (« »), et non les guillemets anglais (\" \").",
+        "suggestions": [
+          "« moches »"
+        ],
+        "ruleApplied": "4.2.2.5.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Les normes typographiques du français québécois exigent l'utilisation des guillemets français dans les textes formels.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "mis de l'avant",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression \"mis de l'avant\" est un calque de l'anglais \"put forward\". L'expression correcte en français est \"mis en avant\".",
+        "suggestions": [
+          "mis en avant"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "L'expression \"mettre de l'avant\" est très courante au Québec et largement acceptée dans l'usage courant, bien qu'elle soit un calque de l'anglais.",
+        "counterArgument": "L'expression \"mettre de l'avant\" est un québécisme extrêmement répandu et bien établi dans l'usage québécois. Bien qu'il s'agisse d'un calque de l'anglais, l'OQLF reconnaît que cette expression fait partie de l'usage courant au Québec. Dans un contexte scolaire québécois, cette expression peut être considérée comme acceptable, même si \"mis en avant\" reste préférable en français standard."
+      },
+      {
+        "id": "erreur4.3",
+        "text": "engendre d'après moi,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Un groupe de mots incident, comme \"d'après moi\", doit être encadré par des virgules lorsqu'il est placé à l'intérieur de la phrase. Il manque la virgule avant \"d'après moi\".",
+        "suggestions": [
+          "engendre, d'après moi,"
+        ],
+        "ruleApplied": "4.2.2.10.1.g",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle de ponctuation claire : les incises doivent être encadrées de virgules.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "à chaque année",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression \"à chaque année\" est un calque. La préposition \"à\" est superflue. Il faut dire \"chaque année\".",
+        "suggestions": [
+          "chaque année"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Bien que \"chaque année\" soit préférable en français standard, l'expression \"à chaque année\" est courante au Québec.",
+        "counterArgument": "L'expression \"à chaque année\" est un québécisme très répandu dans l'usage courant au Québec, bien qu'elle soit considérée comme un calque de l'anglais. Dans un contexte scolaire québécois, cette formulation peut être tolérée, même si \"chaque année\" reste la forme standard recommandée."
+      },
+      {
+        "id": "erreur4.5",
+        "text": "?",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "La phrase \"Vous imaginez...\" est une phrase déclarative et non une interrogation directe. Elle doit se terminer par un point ou un point d'exclamation, mais pas par un point d'interrogation.",
+        "suggestions": [
+          "."
+        ],
+        "ruleApplied": "4.2.2.2.2",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "La phrase peut être interprétée comme une question rhétorique invitant le lecteur à une réflexion, ce qui justifierait le point d'interrogation.",
+        "counterArgument": "La phrase \"Vous imaginez le nombre de tonnes de nourriture qui est perdu par année?\" peut être interprétée comme une question rhétorique adressée directement au lecteur. Dans un texte argumentatif au ton persuasif, l'utilisation du point d'interrogation pour interpeller le lecteur est un procédé stylistique acceptable, même si la forme grammaticale pourrait être considérée comme déclarative."
+      },
+      {
+        "id": "erreur4.6",
+        "text": "par les années",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression \"par les années\" est une construction boiteuse. On utilise plutôt \"par an\", \"par année\" ou \"chaque année\".",
+        "suggestions": [
+          "par an"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "L'expression \"par les années\" est incorrecte. L'utilisation du pluriel et de l'article défini rend la construction agrammaticale.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "!",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point d'exclamation est utilisé de manière erronée après une simple affirmation factuelle. Un point serait plus approprié.",
+        "suggestions": [
+          "."
+        ],
+        "ruleApplied": "4.2.2.3.2",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Dans un texte argumentatif, le point d'exclamation peut servir à souligner l'importance d'un argument choc basé sur des statistiques impressionnantes.",
+        "counterArgument": "Le point d'exclamation après \"neuf cent trente-et-un millions de tonnes d'aliments qui sont gâchés par les années\" sert à exprimer l'indignation de l'auteur face à ce chiffre considérable et à insister sur l'ampleur du problème. Dans un texte argumentatif visant à convaincre, l'utilisation du point d'exclamation pour souligner une statistique alarmante est un procédé rhétorique acceptable."
+      },
+      {
+        "id": "erreur4.8",
+        "text": "ennui",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le mot \"ennui\" (boredom, trouble) est inadéquat dans ce contexte. Il s'agit d'un problème de sens. Des mots comme \"problème\", \"enjeu\" ou \"fléau\" seraient plus justes.",
+        "suggestions": [
+          "problème"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le mot \"ennui\" est inadéquat pour désigner le gaspillage alimentaire. Il s'agit d'un choix lexical incorrect qui nuit à la clarté du propos.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "mais",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La structure de corrélation \"ne... pas seulement\" appelle \"mais aussi\" ou \"mais encore\". L'absence de \"aussi\" ou \"encore\" constitue une erreur de construction de phrase par absence d'un mot essentiel.",
+        "suggestions": [
+          "mais aussi"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "La corrélation \"non seulement... mais\" est incomplète sans \"aussi\" ou \"également\". Règle de syntaxe claire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.10",
+        "text": "porteraient plus attention",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression \"porter attention\" est un calque de l'anglais \"to pay attention\". L'expression idiomatique correcte en français est \"faire attention\".",
+        "suggestions": [
+          "feraient plus attention"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "L'expression \"porter attention\" est très répandue au Québec et est largement comprise, bien qu'elle soit un calque de l'anglais.",
+        "counterArgument": "L'expression \"porter attention\" est un québécisme bien établi dans l'usage courant au Québec. Bien qu'il s'agisse d'un calque de l'anglais \"to pay attention\", cette expression est si répandue qu'elle fait partie de l'usage quotidien québécois. Dans un contexte scolaire québécois, cette formulation peut être tolérée, même si \"faire attention\" ou \"prêter attention\" restent préférables en français standard."
+      },
+      {
+        "id": "erreur4.11",
+        "text": "alimentation,2019",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une espace est requise après la virgule pour séparer les éléments dans une référence.",
+        "suggestions": [
+          "alimentation, 2019"
+        ],
+        "ruleApplied": "4.2.2.10.1.a",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique claire : une espace doit suivre la virgule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.12",
+        "text": "RECYC-QUÉBEC,2021",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une espace est requise après la virgule pour séparer les éléments dans une référence.",
+        "suggestions": [
+          "RECYC-QUÉBEC, 2021"
+        ],
+        "ruleApplied": "4.2.2.10.1.a",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique claire : une espace doit suivre la virgule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.13",
+        "text": "Shields,2021",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une espace est requise après la virgule pour séparer les éléments dans une référence.",
+        "suggestions": [
+          "Shields, 2021"
+        ],
+        "ruleApplied": "4.2.2.10.1.a",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique claire : une espace doit suivre la virgule.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "souffrent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le sujet du verbe est \"Un nombre incalculable\", dont le noyau \"nombre\" est au singulier. Le verbe doit donc s'accorder au singulier.",
+        "suggestions": [
+          "souffre"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Avec les noms collectifs suivis d'un complément au pluriel, l'accord peut se faire au singulier (accord grammatical) ou au pluriel (accord par syllepse, selon le sens).",
+        "counterArgument": "Avec les expressions de quantité comme \"un nombre de\", l'accord du verbe peut se faire au pluriel par syllepse lorsque l'attention porte sur les éléments dénombrés plutôt que sur le collectif lui-même. Ici, \"personnes\" est le complément au pluriel qui attire l'accord. Le Bon Usage de Grevisse reconnaît cette possibilité d'accord au pluriel dans de tels cas, surtout quand le sens l'exige. L'accord au singulier serait également correct, mais le pluriel est défendable."
+      },
+      {
+        "id": "erreur5.2",
+        "text": "perdu",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé \"perdu\", employé comme adjectif, doit s'accorder en genre et en nombre avec le nom qu'il qualifie, \"nourriture\" (féminin singulier).",
+        "suggestions": [
+          "perdue"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle d'accord du participe passé employé comme adjectif : accord obligatoire avec le nom qualifié.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "qu' un",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'élision de la conjonction \"que\" devant un mot commençant par une voyelle (\"un\") est obligatoire. L'apostrophe remplace le \"e\" et se soude au mot suivant.",
+        "suggestions": [
+          "qu'un"
+        ],
+        "ruleApplied": "5.2.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur typographique : l'apostrophe doit être soudée au mot suivant sans espace.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "qu' une",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'élision de la conjonction \"que\" devant un mot commençant par une voyelle (\"une\") est obligatoire. L'apostrophe remplace le \"e\" et se soude au mot suivant.",
+        "suggestions": [
+          "qu'une"
+        ],
+        "ruleApplied": "5.2.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur typographique : l'apostrophe doit être soudée au mot suivant sans espace.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "denrée",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après une expression de quantité comme \"une certaine quantité de\", le nom qui suit se met généralement au pluriel s'il est comptable.",
+        "suggestions": [
+          "denrées"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Après \"une certaine quantité de\", le singulier collectif est possible, bien que le pluriel soit plus fréquent.",
+        "counterArgument": "Après \"une certaine quantité de\", le singulier peut être utilisé pour exprimer une notion globale, indénombrable. Bien que \"denrées\" au pluriel soit plus courant (car les denrées sont comptables), l'usage du singulier \"denrée\" peut se justifier si l'auteur considère la denrée comme une matière collective. Le pluriel reste préférable, mais le singulier n'est pas foncièrement incorrect dans ce contexte."
+      },
+      {
+        "id": "erreur5.6",
+        "text": "à",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'auxiliaire \"avoir\" à la troisième personne du singulier (\"a\") et la préposition \"à\". Il s'agit ici du verbe.",
+        "suggestions": [
+          "a"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion classique entre le verbe \"avoir\" (a) et la préposition (à). Erreur grammaticale évidente.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "perdu",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "(G)",
+        "description": "Le participe passé \"perdu\", employé comme adjectif, doit s'accorder en genre et en nombre avec le nom qu'il qualifie, \"nourriture\" (féminin singulier).",
+        "suggestions": [
+          "perdue"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle d'accord du participe passé employé comme adjectif : accord obligatoire avec le nom qualifié. Répétition de l'erreur précédente.",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 8,
+      "note": "C"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 5,
+      "note": "B"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 20,
+      "vraisErreurs": 13,
+      "discutables": 7,
+      "fauxPositifs": 0
+    }
+  },
+  "startTimestamp": "2025-12-12T11:38:56.873Z",
+  "endTimestamp": "2025-12-12T11:39:58.824Z",
+  "durationMs": 61951,
+  "durationFormatted": "01:01:951"
+}

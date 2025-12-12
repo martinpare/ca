@@ -1,0 +1,977 @@
+{
+  "processedAt": "2025-12-12T11:38:17.782Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_024.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_024.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": ".",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Un point ne doit pas terminer un titre ou un intertitre qui ne comporte aucune autre ponctuation.",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique standard : les titres sans ponctuation interne ne prennent pas de point final.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "à chaque jour",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'emploi de la locution « à chaque jour » est un calque de l'anglais. Il faut plutôt utiliser « chaque jour ».",
+        "suggestions": [
+          "chaque jour"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Calque évident de l'anglais « each day ». La locution correcte en français est « chaque jour » sans préposition.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "suivante.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le deux-points est requis pour introduire la question qui suit.",
+        "suggestions": [
+          "suivante :"
+        ],
+        "ruleApplied": "4.2.2.7.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique claire : après une formule introductive comme « la suivante », le deux-points est obligatoire pour introduire une citation ou une question directe.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "2020/",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "La parenthèse fermante est manquante pour clore la référence bibliographique.",
+        "suggestions": [
+          "2020)"
+        ],
+        "ruleApplied": "4.2.2.9.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur typographique manifeste : une parenthèse ouverte doit être fermée.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "fatiguant, vous consommera",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La coordination entre un adjectif (« fatiguant ») et un groupe verbal (« vous consommera ») est incorrecte. Il faut coordonner des éléments de même nature, par exemple en ajoutant une conjonction et en harmonisant le temps du verbe : « serait trop fatiguant et vous consommerait ».",
+        "suggestions": [
+          "fatiguant et vous consommerait"
+        ],
+        "ruleApplied": "4.1.2.1.8",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Rupture de construction évidente. On ne peut pas coordonner un adjectif attribut et une proposition verbale sans conjonction de coordination et sans harmonisation syntaxique.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "Selon Florence-Léa Siry [...] 50%",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule est requise après un complément de phrase de plus de trois mots placé en tête de phrase.",
+        "suggestions": [
+          "Selon Florence-Léa Siry [...],"
+        ],
+        "ruleApplied": "4.2.2.10.1.l",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle de ponctuation standard : un complément de phrase long en début de phrase doit être suivi d'une virgule pour faciliter la lecture.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "ne tient aucune chance",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Problème de sens ou de lexique. L'expression idiomatique correcte est « n'avoir aucune chance ».",
+        "suggestions": [
+          "n'a aucune chance"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur lexicale claire. On « tient » quelque chose de concret, mais on « a » une chance. L'expression figée est « n'avoir aucune chance ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "Il ne faut aussi jamais oublier",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'ordre des mots est incorrect. Dans une phrase négative, l'adverbe « aussi » est souvent remplacé par « non plus » et placé différemment. Suggestion : « Il ne faut jamais non plus oublier ».",
+        "suggestions": [
+          "Il ne faut jamais non plus oublier"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle syntaxique : dans une phrase négative, « aussi » devient « non plus » en français standard.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "aucun problème nous bloquera",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La négation est mal employée. Avec « aucun », la négation requiert l'adverbe « ne » devant le verbe.",
+        "suggestions": [
+          "aucun problème ne nous bloquera"
+        ],
+        "ruleApplied": "4.1.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle grammaticale fondamentale : « aucun » est un déterminant négatif qui requiert obligatoirement l'adverbe « ne » devant le verbe.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.10",
+        "text": ".",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le deux-points est requis pour introduire une question directe ou une citation après une phrase introductive comme 'la suivante'.",
+        "suggestions": [
+          ":"
+        ],
+        "ruleApplied": "4.2.2.7.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Même erreur que erreur4.3 : règle typographique standard pour introduire une question directe.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.11",
+        "text": "sont en besoin",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression correcte est 'être dans le besoin'.",
+        "suggestions": [
+          "sont dans le besoin"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Calque de l'anglais « to be in need ». L'expression idiomatique française est « être dans le besoin ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.12",
+        "text": "/",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "P",
+        "description": "La parenthèse de la source n'est pas correctement fermée. Un signe de ponctuation inapproprié ('/') est utilisé à la place de la parenthèse fermante.",
+        "suggestions": [
+          ")"
+        ],
+        "ruleApplied": "4.2.2.9.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur typographique évidente : les parenthèses doivent être appariées. La barre oblique ne peut pas fermer une parenthèse.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.13",
+        "text": ",",
+        "occurenceIndex": 5,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une ponctuation forte (point ou point d'exclamation) est nécessaire après l'interjection 'Et oui' pour marquer la fin de la phrase exclamative.",
+        "suggestions": [
+          "!",
+          "."
+        ],
+        "ruleApplied": "4.2.2.1.2",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Dans un texte argumentatif au ton persuasif, « Et oui » peut être considéré comme une interjection intégrée à la phrase plutôt qu'une phrase exclamative autonome.",
+        "counterArgument": "L'auteur peut avoir choisi d'intégrer « Et oui » comme transition emphatique sans en faire une phrase indépendante. Dans un registre oral retranscrit ou un style persuasif familier, cette virgule peut être acceptable pour créer un effet de continuité. Cependant, la ponctuation forte serait plus conforme aux normes typographiques."
+      },
+      {
+        "id": "erreur4.14",
+        "text": "/ ",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il ne doit pas y avoir d'espace après la barre oblique dans une référence de source.",
+        "suggestions": [
+          "/"
+        ],
+        "ruleApplied": "4.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique : pas d'espace après une barre oblique utilisée comme séparateur dans une référence bibliographique.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.15",
+        "text": "Cela je ne sait pas",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Dans cette construction avec mise en relief du COD ('Cela'), une virgule est nécessaire après l'élément détaché et un pronom de reprise ('le') est requis avant le verbe. Erreur non comptée car il y a déjà une erreur de syntaxe dans la phrase.",
+        "suggestions": [
+          "Cela, je ne le sais pas"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de construction syntaxique claire : dans une mise en relief avec détachement en tête de phrase, un pronom de reprise est obligatoire, et la virgule marque le détachement.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "décenies",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Une lettre a été omise. Le mot « décennies » s'écrit avec deux « n ».",
+        "suggestions": [
+          "décennies"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente : le mot « décennie » s'écrit toujours avec deux « n ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "grace",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'accent circonflexe est manquant sur le « a ». Le mot « grâce » prend un accent circonflexe.",
+        "suggestions": [
+          "grâce"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Accent circonflexe obligatoire : « grâce » est l'orthographe normalisée en français.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "est gaspiller",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif en « -er » et le participe passé en « -é ». Après l'auxiliaire « être », il faut utiliser le participe passé « gaspillée », qui s'accorde en genre et en nombre avec le sujet « nourriture » (féminin singulier).",
+        "suggestions": [
+          "est gaspillée"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur grammaticale fondamentale : après l'auxiliaire « être », on utilise toujours le participe passé accordé, jamais l'infinitif.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "aux fils",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre les homophones « aux » et « au ». La locution correcte est « au fil des années ».",
+        "suggestions": [
+          "au fil"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'homophone et de locution figée : « au fil de » est une expression idiomatique au singulier.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "Sommes nous",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le trait d'union est obligatoire entre le verbe et le pronom sujet inversé.",
+        "suggestions": [
+          "Sommes-nous"
+        ],
+        "ruleApplied": "5.2.1.10",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle orthographique formelle : le trait d'union est obligatoire dans l'inversion interrogative.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "cette objectif",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant démonstratif « cette » (féminin) ne s'accorde pas en genre avec le nom « objectif » (masculin). Il faut utiliser « cet ».",
+        "suggestions": [
+          "cet objectif"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en genre évidente : « objectif » est masculin, donc le déterminant doit être « cet ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "survécus",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé conjugué avec l'auxiliaire « avoir » ne s'accorde pas avec le sujet « nous ». Il reste invariable en l'absence d'un complément d'objet direct placé avant le verbe.",
+        "suggestions": [
+          "survécu"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle d'accord du participe passé avec « avoir » : pas d'accord avec le sujet, seulement avec un COD antéposé (absent ici).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "soutenaitent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Barbarisme de conjugaison. La terminaison de l'imparfait à la troisième personne du pluriel est « -aient ».",
+        "suggestions": [
+          "soutenaient"
+        ],
+        "ruleApplied": "5.3.2.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Barbarisme évident : la terminaison correcte de l'imparfait à la 3e personne du pluriel est « -aient » et non « -aitent ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "un",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom « un » doit s'accorder au pluriel dans la locution « les uns les autres ».",
+        "suggestions": [
+          "uns"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur dans une locution figée : « les uns les autres » est la forme correcte, avec accord au pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.10",
+        "text": "non-gouvernemental",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « non-gouvernemental » doit s'accorder en genre et en nombre avec le nom « organisations » (féminin pluriel).",
+        "suggestions": [
+          "non-gouvernementales"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente : l'adjectif doit s'accorder en genre (féminin) et en nombre (pluriel) avec « organisations ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.11",
+        "text": "Quebec",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'accent aigu est manquant sur le « e ». Le nom propre « Québec » prend un accent.",
+        "suggestions": [
+          "Québec"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe sur un nom propre : « Québec » s'écrit toujours avec un accent aigu.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.12",
+        "text": "conclut",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "La forme du participe passé du verbe « conclure » est « conclu ».",
+        "suggestions": [
+          "conclu"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de conjugaison : le participe passé de « conclure » est « conclu » (sans « t »).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.13",
+        "text": "Jean Francois",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le trait d'union est requis dans le prénom composé « Jean-François ».",
+        "suggestions": [
+          "Jean-François"
+        ],
+        "ruleApplied": "5.2.1.7.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle orthographique : les prénoms composés prennent un trait d'union. De plus, l'accent manque sur « François ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.14",
+        "text": "programe",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Une lettre a été omise. Le mot « programme » s'écrit avec deux « m ».",
+        "suggestions": [
+          "programme"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente : « programme » s'écrit toujours avec deux « m ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.15",
+        "text": "surmonté",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le participe passé en « -é » et l'infinitif en « -er ». Après le verbe modal « pouvons », il faut utiliser l'infinitif « surmonter ».",
+        "suggestions": [
+          "surmonter"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur grammaticale claire : après « pouvoir », on utilise toujours l'infinitif, jamais le participe passé.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.16",
+        "text": "personelle",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur sur le doublement de la consonne. L'adjectif « personnelle » s'écrit avec deux « n ».",
+        "suggestions": [
+          "personnelle"
+        ],
+        "ruleApplied": "5.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe : « personnel(le) » s'écrit toujours avec deux « n ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.17",
+        "text": "desirent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'accent aigu est manquant sur le « e ». Le verbe « désirent » prend un accent aigu.",
+        "suggestions": [
+          "désirent"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Accent manquant évident : « désirer » prend un accent aigu sur le premier « e ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.18",
+        "text": "combatre",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur sur le doublement de la consonne. Le verbe « combattre » s'écrit avec deux « t ».",
+        "suggestions": [
+          "combattre"
+        ],
+        "ruleApplied": "5.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe : « combattre » s'écrit toujours avec deux « t ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.19",
+        "text": "où",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le pronom relatif ou adverbe « où » (lieu) et la conjonction de coordination « ou » (choix).",
+        "suggestions": [
+          "ou"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'homophone claire : le contexte indique un choix (« le temps ou les moyens »), donc « ou » sans accent.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.20",
+        "text": "personelles",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « personnelles » doit s'accorder en genre et en nombre avec le nom « problèmes » (masculin pluriel). Il faut écrire « personnels ».",
+        "suggestions": [
+          "personnels"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double erreur : faute d'orthographe (un seul « n ») et faute d'accord en genre (masculin requis).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.21",
+        "text": "a",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre la préposition « à » et le verbe « avoir » (a). Il faut utiliser la préposition « à » devant un verbe à l'infinitif.",
+        "suggestions": [
+          "à"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'homophone : devant un infinitif (« régler »), on utilise la préposition « à » avec accent.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.22",
+        "text": "regler",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'accent aigu est manquant sur le « e ». Le verbe « régler » prend un accent aigu.",
+        "suggestions": [
+          "régler"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Accent manquant évident : « régler » prend un accent aigu sur le premier « e ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.23",
+        "text": "feriez vous",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le trait d'union est obligatoire entre le verbe et le pronom sujet inversé.",
+        "suggestions": [
+          "feriez-vous"
+        ],
+        "ruleApplied": "5.2.1.10",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle orthographique formelle : le trait d'union est obligatoire dans l'inversion interrogative.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.24",
+        "text": "facons",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "La cédille est manquante sous le « c ». Le mot « façons » prend une cédille pour conserver le son /s/ devant un « o ».",
+        "suggestions": [
+          "façons"
+        ],
+        "ruleApplied": "5.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle orthographique : la cédille est obligatoire sous le « c » devant « o » pour conserver le son /s/.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.25",
+        "text": "comfort",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Graphie erronée, probablement un calque de l'anglais. Le mot français est « confort ».",
+        "suggestions": [
+          "confort"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Calque évident de l'anglais « comfort ». En français, c'est « confort » (sans « m »).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.26",
+        "text": "diminuer",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif en « -er » et le participe passé en « -é ». Après l'auxiliaire « être », il faut utiliser le participe passé « diminué ».",
+        "suggestions": [
+          "diminué"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur grammaticale : après « être » (ici « peut être »), on utilise le participe passé, pas l'infinitif.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.27",
+        "text": "dépendents",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « dépendants » doit s'accorder en genre et en nombre avec le nom « qualités » (féminin pluriel).",
+        "suggestions": [
+          "dépendantes"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en genre : l'adjectif doit s'accorder au féminin avec « qualités ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.28",
+        "text": "formes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « forme » devrait être au singulier, car le déterminant possessif « leur » a un sens distributif ici (chaque fruit ou légume a une forme).",
+        "suggestions": [
+          "forme"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Le contexte permet les deux interprétations : sens distributif (une forme par élément) ou sens collectif (plusieurs formes variées).",
+        "counterArgument": "Dans le contexte « les fruits et légumes... dépendant de leurs formes », le pluriel peut être justifié si l'auteur pense à la variété des formes (pommes rondes, carottes tordues, etc.). Le sens distributif privilégierait le singulier, mais le pluriel n'est pas incorrect si on envisage la pluralité des formes possibles."
+      },
+      {
+        "id": "erreur5.29",
+        "text": "jeter",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif en « -er » et le participe passé en « -é ». Après l'auxiliaire « être » (ici, « seront »), il faut utiliser le participe passé « jetés », qui s'accorde avec le sujet « ils » (masculin pluriel).",
+        "suggestions": [
+          "jetés"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur grammaticale claire : après « seront » (auxiliaire être), on utilise le participe passé accordé, pas l'infinitif.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.30",
+        "text": "esthetiques",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'accent aigu est manquant sur le premier « e ». Le mot « esthétiques » prend un accent aigu.",
+        "suggestions": [
+          "esthétiques"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Accent manquant évident : « esthétique » prend un accent aigu sur le premier « e ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.31",
+        "text": "tout les",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant « tout » doit s'accorder en genre et en nombre avec le nom qu'il détermine, « pays » (masculin pluriel). Il faut écrire « tous les ».",
+        "suggestions": [
+          "tous les"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente : devant un pluriel, « tout » prend la marque du pluriel : « tous ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.32",
+        "text": "benefique",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'accent aigu est manquant sur le premier « e ». Le mot « bénéfique » prend un accent aigu.",
+        "suggestions": [
+          "bénéfique"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Accent manquant évident : « bénéfique » prend un accent aigu sur le premier « e ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.33",
+        "text": "d'autre",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « autre » doit s'accorder en nombre avec le nom « pays » (pluriel).",
+        "suggestions": [
+          "d'autres"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en nombre : « autre » doit s'accorder au pluriel avec « pays ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.34",
+        "text": "pauvre",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "L'adjectif « pauvre » doit s'accorder en nombre avec le nom « pays » (pluriel). Le donneur d'accord est le même que pour l'erreur précédente sur « autre ».",
+        "suggestions": [
+          "pauvres"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en nombre (non comptée car même donneur d'accord que erreur5.33).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.35",
+        "text": "demenderiez",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Graphie erronée. Le verbe « demander » ne prend pas de « e » après le « d ».",
+        "suggestions": [
+          "demanderiez"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe : « demander » s'écrit avec un seul « e » après le « d ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.36",
+        "text": "sait",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur de conjugaison. À la première personne du singulier du présent de l'indicatif, le verbe « savoir » se conjugue « sais ».",
+        "suggestions": [
+          "sais"
+        ],
+        "ruleApplied": "5.3.2.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de conjugaison évidente : « je sais » (pas « je sait »).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.37",
+        "text": "sait",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur de conjugaison. À la première personne du singulier du présent de l'indicatif, le verbe « savoir » se conjugue « sais ».",
+        "suggestions": [
+          "sais"
+        ],
+        "ruleApplied": "5.3.2.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Même erreur répétée : « je sais » (pas « je sait »).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.38",
+        "text": "éducation",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Dans la dénomination 'Ministère de l'Éducation', le mot 'Éducation' prend une majuscule.",
+        "suggestions": [
+          "Éducation"
+        ],
+        "ruleApplied": "5.2.4.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique pour les noms d'institutions : « Ministère de l'Éducation » prend une majuscule à « Éducation ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.39",
+        "text": "éducation",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Dans la dénomination 'Ministère de l'Éducation', le mot 'Éducation' prend une majuscule. Erreur répétée.",
+        "suggestions": [
+          "Éducation"
+        ],
+        "ruleApplied": "5.2.4.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Même erreur répétée.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.40",
+        "text": "ils",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom de reprise 'ils' doit s'accorder en genre et en nombre avec son antécédent 'certaines personnes' (féminin pluriel).",
+        "suggestions": [
+          "elles"
+        ],
+        "ruleApplied": "5.3.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en genre : « personnes » est féminin, donc le pronom de reprise doit être « elles ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.41",
+        "text": "éducation",
+        "occurenceIndex": 2,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Dans la dénomination 'Ministère de l'Éducation', le mot 'Éducation' prend une majuscule. Erreur répétée.",
+        "suggestions": [
+          "Éducation"
+        ],
+        "ruleApplied": "5.2.4.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Même erreur répétée.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.42",
+        "text": "qualités",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Dans l'expression 'de mauvaise qualité', le nom 'qualité' est au singulier.",
+        "suggestions": [
+          "qualité"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Expression figée : « de mauvaise qualité » prend un singulier (concept abstrait, non comptable).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.43",
+        "text": "éducation",
+        "occurenceIndex": 3,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Dans la dénomination 'Ministère de l'Éducation', le mot 'Éducation' prend une majuscule. Erreur répétée.",
+        "suggestions": [
+          "Éducation"
+        ],
+        "ruleApplied": "5.2.4.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Même erreur répétée.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.44",
+        "text": "que ensemble",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'élision de la conjonction 'que' est obligatoire devant un mot commençant par une voyelle, comme 'ensemble'.",
+        "suggestions": [
+          "qu'ensemble"
+        ],
+        "ruleApplied": "5.2.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle d'élision obligatoire : « que » devient « qu' » devant une voyelle.",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 14,
+      "note": "D"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 40,
+      "note": "E"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 58,
+      "vraisErreurs": 56,
+      "discutables": 2,
+      "fauxPositifs": 0
+    }
+  },
+  "startTimestamp": "2025-12-12T11:35:50.505Z",
+  "endTimestamp": "2025-12-12T11:38:17.782Z",
+  "durationMs": 147277,
+  "durationFormatted": "02:27:277"
+}

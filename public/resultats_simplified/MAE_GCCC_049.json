@@ -1,0 +1,273 @@
+{
+  "processedAt": "2025-12-10T14:26:44.011Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_049.txt",
+    "originalText": "Gaspiller, il faut arrêter\r\n\r\nLa quantité de nourriture gaspillée augmente chaque jour. La production, la transformation, le transport, la vente au détail, la vente au restauration, la vente à l'hôtellerie et la consommation des aliments contribuent au réchauffement de la planète. À tous les étapes, les inpacts sont là. Mais, sommes-nous prêts à faire quelque chose et lutter contre le gaspillage alimentaire qui tue notre environnement ? Je crois qu'on est capable si on apprend comment mieux conserver et utiliser les aliments le plus possible et distribue des aliments aux banques alimentaires du Québec.\r\n\r\nPremièrement, lutter contre le gaspillage alimentaire est faisable en mieux conservant et utilisant lesproduits alimentaires. Pour prolonger la durée de vie des aliments, Florence-Lea Siry suggère de garder hors du réfrigérateur les aliments non réfrigérés par le commerçant, [...] et de ne pas tailler les\r\n\r\nfruits et légumes trop à l'avance. (Simard, 2020) En effet, ces conseils doublent la durée de vie des aliments et sauvent de l'argent. Par exemple, des fruits et légumes coupés à l'avance risquent d'être jetés parce qu'ils ont tendance à décolorer après un jour et ses qualités diminuent plus vite. En plus, selon la même source mentionnée avant, il existe des sites Web et des livres spécialisés qui nous offrent des recettes et des trucs afin d'utiliser plus de nos aliments chez nous comme faire des croustilles avec la peau d'un poisson, etc. En réalité, les différentes parties d'un poisson ont beaucoup d'usages. Par exemple, la tête peut être ajoutée dans la soupe, elle donne actuellement un goût vraiment satisfaisant. Bref, la lutte contre le gaspillage des aliments est possible en conservant mieux les aliments pour prolonger la durée de vie et en utilisant le plus possible des parties des aliments.\r\n\r\nDeuxièmement, nous sommes capables et prêts d'agir pour supporter la lutte contre le gaspillage des aliments parce que le don aux banques alimentaires est une option. Selon Mme Stéphane Lacasse, une porte-parole de l'Association des détaillants en alimentation du Québec, des marchés et des épiciers peuvent donner des produits aux banques alimentaires. (Corriveau, 2020) Certes, le don permet aux marchés de débarrasser des produits invendus et au même temps, aider la communauté et l'environnement Par exemple, les personnes qui ont besoin de la nourriture mais, n'ont pas les moyens d'acheter ou les personnes sans-abris vont aller aux banques alimentaires. De plus, on aide notre planète parce que moins de nourriture vont se retrouver à la poubelle. Et selon la même sourcementionnée, un groupe communautaire qui s'appelle Partage et Solidarité à Montréal prépare des paniers qui contiennent des aliments pour les plus démunis avec des produits invendus près des commerces locaux. En agissant ainsi, on aide encore la publique et nos alentours. Enfin, c'est évident qu'on est prêt à lutter contre le gaspillage simplement par contribuant au don.\r\n\r\nEn conclusion, je crois que nous sommes prêts d'agir contre le gaspillage des aliments parce que nouspouvons apprendre à mieux conserver et utiliser nos aliments et nous pouvons faire le don. Sinon, croyez-vous que la croissance continue de la population peut être soutenue par les ressources naturelles ?",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "distribue",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe \"distribue\" est coordonné par \"et\" à deux verbes à l'infinitif (\"conserver\", \"utiliser\") qui dépendent de la locution \"comment\". Il doit donc aussi être à l'infinitif.",
+        "suggestions": [
+          "distribuer"
+        ],
+        "ruleApplied": "4.1.2.1.8"
+      },
+      {
+        "id": "erreur4.2",
+        "text": "2020)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque un point pour marquer la fin de la phrase après la référence entre parenthèses.",
+        "suggestions": [
+          "2020)."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "id": "erreur4.3",
+        "text": "ses",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le déterminant possessif \"ses\" (3e personne du singulier) renvoie à l'antécédent pluriel \"des fruits et légumes\". Il faut utiliser le déterminant \"leurs\".",
+        "suggestions": [
+          "leurs"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "id": "erreur4.4",
+        "text": "actuellement",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'adverbe \"actuellement\" est un faux ami (calque de l'anglais \"actually\"). Il signifie \"en ce moment\" en français. Pour exprimer l'idée de \"en réalité\" ou \"effectivement\", il faut utiliser \"en fait\" ou \"effectivement\".",
+        "suggestions": [
+          "en fait",
+          "effectivement"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "id": "erreur4.5",
+        "text": "d'agir",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'adjectif \"prêt\" se construit avec la préposition \"à\" et non \"de\" lorsqu'il est suivi d'un infinitif.",
+        "suggestions": [
+          "à agir"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "id": "erreur4.6",
+        "text": "supporter",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Le verbe \"supporter\" est un faux ami (calque de l'anglais \"to support\"). Il signifie \"endurer\" en français. Pour exprimer l'idée d'aide ou de soutien, il faut utiliser le verbe \"soutenir\". Une erreur de syntaxe (S) a déjà été comptée dans cette phrase.",
+        "suggestions": [
+          "soutenir"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "id": "erreur4.7",
+        "text": "au même temps",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression correcte est \"en même temps\" et non \"au même temps\".",
+        "suggestions": [
+          "en même temps"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "id": "erreur4.8",
+        "text": "l'environnement Par",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque un point et un espace pour séparer les deux phrases.",
+        "suggestions": [
+          "l'environnement. Par"
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "id": "erreur4.9",
+        "text": ",",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "P",
+        "description": "Cette virgule est erronée car elle sépare le sujet complexe (\"les personnes qui ont besoin de la nourriture mais... ou les personnes sans-abris\") du verbe (\"vont\").",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.10.2.a"
+      },
+      {
+        "id": "erreur4.10",
+        "text": "par contribuant",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition \"par\" ne peut être suivie d'un participe présent. Il faut utiliser la préposition \"en\" (\"en contribuant\") pour exprimer la manière.",
+        "suggestions": [
+          "en contribuant"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "id": "erreur4.11",
+        "text": "faire le don",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "L'expression idiomatique est \"faire un don\". L'utilisation de l'article défini \"le\" est incorrecte dans ce contexte général. Une erreur de syntaxe (S) a déjà été comptée dans cette phrase.",
+        "suggestions": [
+          "faire un don",
+          "faire des dons"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 7.5,
+      "note": "B"
+    },
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "au",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom \"restauration\" est féminin. La contraction \"au\" (à + le) est donc incorrecte. Il faut utiliser la préposition \"à\" suivie du déterminant \"la\".",
+        "suggestions": [
+          "à la"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.2",
+        "text": "tous",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant \"tous\" doit s'accorder en genre avec le nom féminin \"étapes\".",
+        "suggestions": [
+          "toutes"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.3",
+        "text": "inpacts",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage. Le mot \"impact\" s'écrit avec un \"m\" et non un \"n\" devant la lettre \"p\".",
+        "suggestions": [
+          "impacts"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "id": "erreur5.4",
+        "text": "utilisant lesproduits",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Les mots \"utilisant\" et \"les\" doivent être séparés par un espace.",
+        "suggestions": [
+          "utilisant les produits"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "id": "erreur5.5",
+        "text": "sans-abris",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le nom composé \"sans-abri\" est invariable au pluriel.",
+        "suggestions": [
+          "sans-abri"
+        ],
+        "ruleApplied": "5.2.1.5"
+      },
+      {
+        "id": "erreur5.6",
+        "text": "vont",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec le sujet \"moins de nourriture\", dont le noyau \"nourriture\" est au singulier.",
+        "suggestions": [
+          "va"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.7",
+        "text": "sourcementionnée",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Les mots \"source\" et \"mentionnée\" doivent être séparés par un espace. Cette erreur de fusion de mots a déjà été comptée dans le texte.",
+        "suggestions": [
+          "source mentionnée"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "id": "erreur5.8",
+        "text": "la publique",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'adjectif \"publique\" (féminin) et le nom \"public\" (masculin). Le nom correct est \"le public\".",
+        "suggestions": [
+          "le public"
+        ],
+        "ruleApplied": "5.3.3.2"
+      },
+      {
+        "id": "erreur5.9",
+        "text": "nouspouvons",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Les mots \"nous\" et \"pouvons\" doivent être séparés par un espace. Cette erreur de fusion de mots a déjà été comptée dans le texte.",
+        "suggestions": [
+          "nous pouvons"
+        ],
+        "ruleApplied": "5.2.6.4"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 7,
+      "note": "B"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:22:48.108Z",
+    "endTimestamp": "2025-12-10T14:26:44.010Z",
+    "durationMs": 235902,
+    "durationFormatted": "03:55:902"
+  }
+}

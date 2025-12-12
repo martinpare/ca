@@ -1,0 +1,320 @@
+{
+  "processedAt": "2025-12-10T14:10:18.433Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_016.txt",
+    "originalText": "Un changement de cœur\r\n\r\nChers lecteurs,\r\n\r\nNous savons tous qu'on doit manger au moins trois fois par jour : le petit déjeuner, le dîner et le souper. Après avoir dégusté ses plats savoureux, plusieurs d’entre nous gaspillent nos restants en les jetant à la poubelle. Cette geste néfaste nous font questionner si nous sommes prêts à lutter contre le gaspillage alimentaire. Oh que oui! Je suis certaine qu'il y a plusieurs solutions pour cette problématique comme la transformation et la consommation des aliments. Premièrement, cher lectorat, abordons sur la transformation de la nourriture. La plupart d’entre nous affirme que les aliments qui ne sont plus esthétiques : les carottes trops courtes, les laitue qui deviennent brunes ou même les fruits qui semblent moches n’ont plus d’utilité, mais nous avons tort! En effet, ils sont encore utile dans de nombreux secteurs comme la reproduction, la création des denrées aux banques alimentaires y compris, la transformation. Prenons en exemple l’entreprise québécoise Loop Mission, cette organisation a transformé les surplus de récoltes des fruits et des végétaux en jus, en savon et en alcool (Martinez, 2021). Avez-vous déjà réfléchi à cette magnifique idée avant de jugé que vos déchets alimentaires sont inutiles? J’assume que non! Bref, comme vous pouvez le constater on peut éviter le gaspillage de nourriture en contribuant à des actions qui peuvent changer la vie des autres.\r\n\r\nDeuxièmement, cher publique, évoquons la façon dont nous consommons les aliments. Je sais que beaucoup de gens aiment cuisiner, mais manque de connaissances sur la conservation des aliments et d'autres c'est sur la compréhension de la date limite de conservation. Florence-Léa Siry qui est une experte en lutte contre le gaspillage alimentaire, vous propose de garder hors du réfrigérateur les aliments non réfrigérés, de s’en débarrasser des emballages du marché et de ne pas tailler vos légumes s’ils ne seront pas utilisés le jour même afin d’éviter le gaspillage (Simard, 2020). Maintenant, en ce qui concerne la date d’expiration, un grand nombre de cuisiniers paniquent lorsqu'ils s’en rend compte que leur produits alimentaires sont expirés. Savez-vous que selon Mike Von Massow, meilleur avant ne veut pas dire périmé après? (Simard, 2020). Après la date limite de conservation, le yogourt est encore mangeable pour trois semaines. De plus, le riz et les pâtes peuvent être consommé plus d’un ans après sa date d’expiration (Roy, 2018). Pour récapituler, afin de réduire nos gaspillages d’aliments, nous devons approfondir nos connaissance sur la préservation des produits et faire des recherches sur les limites.",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "ses",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le déterminant possessif 'ses' (3e personne) ne correspond pas à son référent 'plusieurs d’entre nous' (1re personne du pluriel). Il faut utiliser 'nos'.",
+        "suggestions": [
+          "nos"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "id": "erreur4.2",
+        "text": "abordons sur",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe 'aborder' est un verbe transitif direct. Il ne doit pas être suivi de la préposition 'sur'. Il faut la supprimer.",
+        "suggestions": [
+          "abordons"
+        ],
+        "ruleApplied": "4.1.2.2.2"
+      },
+      {
+        "id": "erreur4.3",
+        "text": "y compris,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "La virgule est erronée après la locution 'y compris'. Elle ne doit pas séparer la locution de l'élément qu'elle introduit.",
+        "suggestions": [
+          "y compris"
+        ],
+        "ruleApplied": "4.2.2.10.2.h"
+      },
+      {
+        "id": "erreur4.4",
+        "text": "constater on",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule est nécessaire pour séparer la proposition subordonnée circonstancielle ('comme vous pouvez le constater') de la proposition principale ('on peut éviter...').",
+        "suggestions": [
+          "constater, on"
+        ],
+        "ruleApplied": "4.2.2.10.1.m"
+      },
+      {
+        "id": "erreur4.5",
+        "text": "mais manque de connaissances sur la conservation des aliments et d'autres c'est sur la compréhension de la date limite de conservation",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est boiteuse. La deuxième partie de la phrase après 'mais' n'a pas de sujet clair et la coordination avec 'et d'autres c'est' est incorrecte. Une reformulation est nécessaire.",
+        "suggestions": [
+          "mais qu'ils manquent de connaissances sur la conservation des aliments et que pour d'autres, le problème réside dans la compréhension de la date limite de conservation."
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "id": "erreur4.6",
+        "text": "meilleur avant ne veut pas dire périmé après",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "« P »",
+        "description": "Les guillemets sont absents pour encadrer une citation ou un discours rapporté textuellement.",
+        "suggestions": [
+          "« meilleur avant ne veut pas dire périmé après »"
+        ],
+        "ruleApplied": "4.2.2.5.1"
+      },
+      {
+        "id": "erreur4.7",
+        "text": "sa",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le déterminant possessif 'sa' (3e personne du singulier) ne correspond pas à son référent 'le riz et les pâtes' (pluriel). Il faut utiliser 'leur'.",
+        "suggestions": [
+          "leur"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "id": "erreur4.8",
+        "text": "Prenons en exemple",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution correcte est \"prenons pour exemple\" ou \"prenons comme exemple\". L'emploi de \"en\" est incorrect dans ce contexte.",
+        "suggestions": [
+          "Prenons pour exemple",
+          "Prenons comme exemple"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "id": "erreur4.9",
+        "text": "constater on",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque le subordonnant \"que\" pour introduire la proposition subordonnée complétive.",
+        "suggestions": [
+          "constater qu'on"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "id": "erreur4.10",
+        "text": "s’en débarrasser des emballages",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom \"en\" est superflu, car il reprend le complément \"des emballages\" qui est déjà présent. On se débarrasse \"de quelque chose\".",
+        "suggestions": [
+          "se débarrasser des emballages"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "id": "erreur4.11",
+        "text": "s’en rend compte",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution verbale est \"se rendre compte\". Le pronom \"en\" est erroné. De plus, le verbe \"rend\" devrait s'accorder avec le sujet \"ils\" (\"rendent\").",
+        "suggestions": [
+          "se rendent compte"
+        ],
+        "ruleApplied": "4.1.2.2.2"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 9.5,
+      "note": "C"
+    },
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "Cette",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'geste' est masculin. Le déterminant démonstratif doit donc être au masculin : 'Ce'.",
+        "suggestions": [
+          "Ce"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.2",
+        "text": "font",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'faire' doit s'accorder avec son sujet 'Cette geste néfaste' (corrigé en 'Ce geste néfaste'), qui est à la 3e personne du singulier. La forme correcte est 'fait'.",
+        "suggestions": [
+          "fait"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.3",
+        "text": "affirme",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le sujet 'La plupart d’entre nous' commande l'accord du verbe au pluriel. La forme correcte est 'affirment'.",
+        "suggestions": [
+          "affirment"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.4",
+        "text": "trops",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'adverbe 'trop' est invariable et ne prend jamais de 's'.",
+        "suggestions": [
+          "trop"
+        ],
+        "ruleApplied": "5.2.1.5"
+      },
+      {
+        "id": "erreur5.5",
+        "text": "les laitue",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'laitue' est au singulier alors que le déterminant 'les' est au pluriel. Il faut accorder le nom en nombre : 'les laitues'.",
+        "suggestions": [
+          "les laitues"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.6",
+        "text": "utile",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'utile' doit s'accorder en nombre avec le pronom 'ils' (qui reprend 'les aliments'), son donneur. Il faut donc écrire 'utiles'.",
+        "suggestions": [
+          "utiles"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.7",
+        "text": "jugé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après la préposition 'de', le verbe doit être à l'infinitif. Il faut écrire 'juger'.",
+        "suggestions": [
+          "juger"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "id": "erreur5.8",
+        "text": "publique",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion entre l'adjectif féminin 'publique' et le nom masculin 'public' (l'auditoire). Il faut écrire 'public'.",
+        "suggestions": [
+          "public"
+        ],
+        "ruleApplied": "5.2.2"
+      },
+      {
+        "id": "erreur5.9",
+        "text": "rend",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'rendre' doit s'accorder avec son sujet 'ils' (qui reprend 'un grand nombre de cuisiniers'), qui est à la 3e personne du pluriel. La forme correcte est 'rendent'.",
+        "suggestions": [
+          "rendent"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.10",
+        "text": "leur",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant possessif 'leur' doit s'accorder en nombre avec le nom qu'il détermine, 'produits' (pluriel). Il faut donc écrire 'leurs'.",
+        "suggestions": [
+          "leurs"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.11",
+        "text": "consommé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'consommé', employé avec l'auxiliaire 'être', doit s'accorder en genre et en nombre avec le sujet 'le riz et les pâtes' (masculin pluriel). Il faut écrire 'consommés'.",
+        "suggestions": [
+          "consommés"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "id": "erreur5.12",
+        "text": "ans",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'an' doit être au singulier car il est précédé du déterminant 'un'.",
+        "suggestions": [
+          "an"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.13",
+        "text": "connaissance",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'connaissance' est généralement employé au pluriel dans ce contexte pour désigner un ensemble de savoirs. Il faut écrire 'nos connaissances'.",
+        "suggestions": [
+          "connaissances"
+        ],
+        "ruleApplied": "5.3.1.5"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 13,
+      "note": "C"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:05:57.096Z",
+    "endTimestamp": "2025-12-10T14:10:18.433Z",
+    "durationMs": 261337,
+    "durationFormatted": "04:21:337"
+  }
+}

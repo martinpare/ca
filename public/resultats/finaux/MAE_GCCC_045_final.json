@@ -1,0 +1,432 @@
+{
+  "processedAt": "2025-12-12T11:38:19.596Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_045.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_045.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "la la",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le déterminant \"la\" est répété inutilement.",
+        "suggestions": [
+          "la"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition évidente d'un mot. Coquille typographique sans ambiguïté.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": ",",
+        "occurenceIndex": 3,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule ne doit pas séparer le verbe (\"expliquerai\") de son complément d'objet direct, ici la proposition subordonnée \"comment lutter contre le gaspillage alimentaire\".",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.10.2.e",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle de ponctuation fondamentale : pas de virgule entre le verbe et son COD.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "que",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe \"avoir besoin\" se construit avec la préposition \"de\". Le pronom relatif correct est donc \"dont\".",
+        "suggestions": [
+          "dont"
+        ],
+        "ruleApplied": "4.1.2.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de construction verbale claire. \"Avoir besoin de\" impose l'usage de \"dont\" ou \"de laquelle/duquel\".",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "emportait",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La coordination entre les verbes de la subordonnée conditionnelle est boiteuse. Il manque un coordonnant comme \"et\" pour lier les verbes \"terminait\" et \"emportait\".",
+        "suggestions": [
+          "et emportait"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "La juxtaposition de trois propositions conditionnelles parallèles nécessite des coordonnants pour être claire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "réduira",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'harmonisation des temps verbaux n'est pas respectée. Le verbe \"faciliterait\" est au conditionnel présent, donc le verbe coordonné \"réduira\" devrait aussi être au conditionnel présent.",
+        "suggestions": [
+          "réduirait"
+        ],
+        "ruleApplied": "4.1.2.2.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute de concordance des temps évidente dans une phrase hypothétique. Le conditionnel est requis après \"si\" + imparfait.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "d'après(",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une espace avant la parenthèse ouvrante qui introduit la source.",
+        "suggestions": [
+          "d'après ("
+        ],
+        "ruleApplied": "4.2.2.9.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique standard : espace insécable avant une parenthèse ouvrante.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "en réduisant",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il y a une rupture de construction (anacoluthe). Le sujet logique du participe présent \"réduisant\" (nous/on) n'est pas le sujet du verbe principal \"faciliterait\" (cela).",
+        "suggestions": [
+          "Donc, si nous réduisions notre quantité d'aliments et si nous les conservions, [...] cela faciliterait"
+        ],
+        "ruleApplied": "4.1.2.1.7",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Anacoluthe claire : le sujet sous-entendu du gérondif ne correspond pas au sujet grammatical de la principale.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "contribura",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le temps du verbe est incorrect. Pour respecter la concordance des temps avec \"faciliterait\" et \"réduirait\", il faut utiliser le conditionnel présent. De plus, la forme du futur simple est \"contribuera\".",
+        "suggestions": [
+          "contribuerait"
+        ],
+        "ruleApplied": "4.1.2.2.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double erreur : faute d'orthographe du verbe (\"contribura\") et non-respect de la concordance des temps.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "assez",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'adverbe \"assez\" est mal employé. Il faudrait utiliser un adjectif comme \"assez nombreux\" pour qualifier les travailleurs.",
+        "suggestions": [
+          "assez nombreux"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "MEDIUM",
+        "confidenceReason": "L'ellipse de l'adjectif est incorrecte ici car \"assez\" seul ne peut fonctionner comme attribut.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "Chaqu'un",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'apostrophe est utilisée à tort dans le pronom indéfini \"chacun\".",
+        "suggestions": [
+          "Chacun"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. \"Chacun\" ne prend jamais d'apostrophe.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "prêt",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif attribut \"prêt\" doit s'accorder en nombre avec le sujet \"nous\" (pluriel).",
+        "suggestions": [
+          "prêts"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accord évidente. L'attribut doit s'accorder avec le sujet pluriel \"nous\".",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "capable",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif attribut \"capable\" doit s'accorder en nombre avec le sujet \"nous\" (pluriel).",
+        "suggestions": [
+          "capables"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accord évidente. L'attribut doit s'accorder avec le sujet pluriel \"nous\".",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "graçe",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'accent sur le \"a\" doit être circonflexe.",
+        "suggestions": [
+          "grâce"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. Le mot \"grâce\" prend toujours un accent circonflexe.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "y'en",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'apostrophe est utilisée à tort. La forme correcte est \"y en a\".",
+        "suggestions": [
+          "y en"
+        ],
+        "ruleApplied": "5.2.6.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'apostrophation. \"Y\" ne s'élide pas devant \"en\".",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "gazs",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot \"gaz\" est invariable au pluriel et ne prend pas de \"s\" final.",
+        "suggestions": [
+          "gaz"
+        ],
+        "ruleApplied": "5.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. \"Gaz\" est invariable, se terminant déjà par \"z\".",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "éffet",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Ce mot s'écrit avec deux \"f\".",
+        "suggestions": [
+          "effet"
+        ],
+        "ruleApplied": "5.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. \"Effet\" prend deux \"f\" et pas d'accent sur le \"e\".",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "y'a",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'apostrophe est utilisée à tort. La forme correcte est \"y a\".",
+        "suggestions": [
+          "y a"
+        ],
+        "ruleApplied": "5.2.6.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'apostrophation. \"Y\" ne s'élide pas devant \"a\".",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "quelques un",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le pronom indéfini composé \"quelques-uns\" requiert un trait d'union.",
+        "suggestions": [
+          "quelques-uns"
+        ],
+        "ruleApplied": "5.2.1.7.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. \"Quelques-uns\" s'écrit toujours avec trait d'union et \"s\" à \"uns\".",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.10",
+        "text": "biens'occuper",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'adverbe \"bien\" et le verbe pronominal \"s'occuper\" ont été fusionnés à tort. De plus, l'adverbe \"bien\" est invariable et ne prend pas de \"s\".",
+        "suggestions": [
+          "bien s'occuper"
+        ],
+        "ruleApplied": "5.2.6.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double erreur : soudure fautive et accord incorrect de l'adverbe \"bien\".",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.11",
+        "text": "gaspilleés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé \"gaspillé\", employé avec l'auxiliaire \"être\", doit s'accorder en genre et en nombre avec le sujet \"931 millions de tonnes de nourriture\" (féminin pluriel). La graphie du participe est également erronée.",
+        "suggestions": [
+          "gaspillées"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double erreur : faute d'orthographe du participe (accent incorrect) et faute d'accord (manque le féminin).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.12",
+        "text": "alimentaireet",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Les mots \"alimentaire\" et \"et\" ont été fusionnés à tort.",
+        "suggestions": [
+          "alimentaire et"
+        ],
+        "ruleApplied": "5.2.6.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Soudure fautive évidente. Coquille typographique sans ambiguïté.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.13",
+        "text": "l'état",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot \"État\", lorsqu'il désigne l'institution politique, prend une majuscule.",
+        "suggestions": [
+          "l'État"
+        ],
+        "ruleApplied": "5.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle de majuscule claire : \"État\" prend une majuscule quand il désigne l'institution gouvernementale.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.14",
+        "text": "s y met",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le pronom réfléchi \"se\" doit être élidé devant une voyelle ou un \"y\". La forme correcte est \"s'y met\".",
+        "suggestions": [
+          "s'y met"
+        ],
+        "ruleApplied": "5.2.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle d'élision obligatoire. \"Se\" devient \"s'\" devant \"y\".",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.15",
+        "text": "main d'œuvreassez",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Une espace est manquante entre \"œuvre\" et \"assez\". Il s'agit d'une soudure fautive.",
+        "suggestions": [
+          "main d'œuvre assez"
+        ],
+        "ruleApplied": "5.2.6.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Soudure fautive évidente. Coquille typographique sans ambiguïté.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.16",
+        "text": "gaspilleés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'accent aigu sur le premier \"e\" est incorrect. Le participe passé du verbe \"gaspiller\" est \"gaspillées\".",
+        "suggestions": [
+          "gaspillées"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. Le participe \"gaspillé\" ne prend pas d'accent aigu sur le \"e\" du radical.",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 9,
+      "note": "C"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 16,
+      "note": "E"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 25,
+      "vraisErreurs": 25,
+      "discutables": 0,
+      "fauxPositifs": 0
+    }
+  },
+  "startTimestamp": "2025-12-12T11:37:23.819Z",
+  "endTimestamp": "2025-12-12T11:38:19.596Z",
+  "durationMs": 55777,
+  "durationFormatted": "00:55:777"
+}

@@ -1,0 +1,481 @@
+{
+  "processedAt": "2025-12-12T11:40:22.624Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_065.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_065.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "voir",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Confusion entre le verbe \"voir\" et l'adverbe \"voire\" qui signifie \"et même\". Dans ce contexte, c'est l'adverbe qui est attendu.",
+        "suggestions": [
+          "voire"
+        ],
+        "ruleApplied": "4.1.2.1.9",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion lexicale évidente entre deux homophones avec des sens distincts. Le contexte « des millions voir des milliards » requiert clairement l'adverbe d'amplification « voire ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "me demander la question suivante",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Pléonasme. Le verbe \"se demander\" signifie déjà \"se poser une question\". Il faut utiliser \"me poser la question\" ou reformuler, par exemple avec \"me demander si...\".",
+        "suggestions": [
+          "me poser la question suivante"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Pléonasme reconnu : « se demander » inclut déjà la notion de question. L'usage de « demander une question » est clairement redondant.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "restauration et l'hotellerie",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Dans une énumération, il faut répéter le déterminant (\"la\") devant chaque élément pour plus de clarté.",
+        "suggestions": [
+          "la restauration et l'hôtellerie"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "L'absence de répétition du déterminant dans une énumération de deux éléments est acceptable en français courant, surtout quand les deux notions sont étroitement liées (restauration et hôtellerie forment un domaine d'activité commun).",
+        "counterArgument": "Dans une énumération coordonnée par « et », la non-répétition du déterminant est stylistiquement acceptable et courante quand les éléments sont perçus comme un ensemble cohérent. Cette construction allège la phrase sans nuire à la clarté. La répétition du déterminant est préférable mais non obligatoire dans ce contexte."
+      },
+      {
+        "id": "erreur4.4",
+        "text": "alimentaire, ils",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule ne peut pas joindre deux phrases indépendantes (juxtaposition). Il faut utiliser un point ou un point-virgule.",
+        "suggestions": [
+          "alimentaire. Ils",
+          "alimentaire; ils"
+        ],
+        "ruleApplied": "4.2.2.8.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute de ponctuation évidente : virgule fautive reliant deux propositions indépendantes sans coordination. Cette erreur, appelée « comma splice » en anglais, est considérée comme une faute de syntaxe majeure.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "ses",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Confusion entre le déterminant possessif \"ses\" et le déterminant démonstratif \"ces\". Le contexte requiert un démonstratif pour désigner les millions de tonnes de nourriture.",
+        "suggestions": [
+          "ces"
+        ],
+        "ruleApplied": "4.1.2.3.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion grammaticale claire entre le possessif « ses » (qui exprime l'appartenance) et le démonstratif « ces » (qui désigne). Le contexte exige un démonstratif.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "c'est pour ça que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette locution est un calque de la langue orale. Il est préférable d'utiliser 'c'est pourquoi' ou 'c'est la raison pour laquelle'.",
+        "suggestions": [
+          "c'est pourquoi"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "L'expression « c'est pour ça que » appartient au registre familier/courant et est largement acceptée à l'oral. Dans un texte scolaire au registre courant, elle peut être tolérée, bien qu'une formulation plus soutenue soit préférable.",
+        "counterArgument": "Bien que « c'est pour ça que » soit une marque d'oralité, cette locution est très courante en français québécois courant et n'est pas incorrecte grammaticalement. Dans un texte argumentatif de niveau secondaire, ce niveau de langue peut être acceptable. La suggestion « c'est pourquoi » améliorerait le registre sans que l'original constitue une véritable faute."
+      },
+      {
+        "id": "erreur4.7",
+        "text": "alimentation la vente",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule après le complément de phrase 'selon la table quebecoise sur la saine alimentation' placé en tête de phrase.",
+        "suggestions": [
+          "alimentation, la vente"
+        ],
+        "ruleApplied": "4.2.2.10.1.l",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle de ponctuation claire : un complément circonstanciel long placé en début de phrase doit être suivi d'une virgule pour marquer la séparation avec le groupe sujet-verbe.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "De plus les restaurants",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule après l'organisateur textuel 'De plus' placé en tête de phrase.",
+        "suggestions": [
+          "De plus, les restaurants"
+        ],
+        "ruleApplied": "4.2.2.10.1.k",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle de ponctuation systématique : les marqueurs de relation (organisateurs textuels) en début de phrase doivent être suivis d'une virgule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "nous les humains on est",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction de phrase boiteuse et rupture de construction. La juxtaposition des pronoms 'nous' et 'on' pour le même sujet est une marque de la langue orale à éviter. Il faut choisir l'un ou l'autre et assurer la cohérence.",
+        "suggestions": [
+          "nous, les humains, sommes"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Rupture de construction évidente avec double sujet « nous... on ». Cette construction est typique de l'oral familier et constitue une faute de syntaxe à l'écrit.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "l'élèvage",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'orthographe correcte est \"élevage\" avec un accent aigu sur le premier \"e\".",
+        "suggestions": [
+          "l'élevage"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe lexicale évidente. Le mot « élevage » s'écrit avec un accent aigu sur le premier « e », pas un accent grave.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "prêt",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif \"prêt\" doit s'accorder en nombre avec le pronom \"nous\", qui est le sujet. Le sujet étant pluriel, l'adjectif doit l'être aussi.",
+        "suggestions": [
+          "prêts"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle d'accord de l'adjectif attribut claire et non ambiguë. L'adjectif doit s'accorder avec le sujet pluriel « nous ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "qu'a",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'homophone grammatical \"qu'a\" (pronom relatif + verbe avoir) et \"qu'à\" (pronom relatif + préposition). L'expression correcte est \"n'en faire qu'à sa tête\".",
+        "suggestions": [
+          "qu'à"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion d'homophones dans une locution figée. L'expression « n'en faire qu'à sa tête » s'écrit toujours avec la préposition « à » et non le verbe « avoir ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "citait",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé \"cité\", employé avec l'auxiliaire \"être\", doit s'accorder en genre et en nombre avec le sujet \"le sujet\" (masculin singulier). L'imparfait \"citait\" est incorrect dans cette construction passive.",
+        "suggestions": [
+          "cité"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion entre un temps simple (imparfait « citait ») et une forme composée passive (« est cité »). Le contexte exige clairement une forme passive au présent.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "Florence-léa-Siry",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Les prénoms composés prennent généralement un trait d'union. De plus, chaque partie d'un nom propre commence par une majuscule.",
+        "suggestions": [
+          "Florence-Léa Siry"
+        ],
+        "ruleApplied": "5.2.4.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle de capitalisation des noms propres : chaque élément d'un prénom composé doit commencer par une majuscule. La minuscule à « léa » est une erreur orthographique.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "aliment",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom \"aliment\" doit s'accorder en nombre avec le déterminant \"les\" (pluriel).",
+        "suggestions": [
+          "aliments"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en nombre évidente. Le déterminant pluriel « les » exige que le nom soit également au pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "person",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Orthographe erronée de l'adjectif \"personnelle\", qui doit s'accorder avec le nom \"consommation\" (féminin singulier).",
+        "suggestions": [
+          "personnelle"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur lexicale et grammaticale double : orthographe du mot tronquée et absence d'accord en genre. « Person » n'est pas un mot français.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "cause",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe \"causer\" doit s'accorder en nombre avec son sujet \"qui\", pronom relatif dont l'antécédent est \"ceux\" (pluriel).",
+        "suggestions": [
+          "causent"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du verbe avec son sujet. Le pronom relatif « qui » reprend « ceux », qui est pluriel, donc le verbe doit être conjugué au pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "quebecoise",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'adjectif \"québécoise\" dérivé d'un nom propre prend une majuscule dans une dénomination et un accent aigu.",
+        "suggestions": [
+          "québécoise"
+        ],
+        "ruleApplied": "5.2.4.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double erreur d'orthographe : absence de l'accent aigu obligatoire et absence de majuscule dans une dénomination officielle (« la table québécoise »).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.10",
+        "text": "l'hotellerie",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot \"hôtellerie\" prend un accent circonflexe sur le \"o\" et s'écrit avec deux \"l\".",
+        "suggestions": [
+          "l'hôtellerie"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe lexicale évidente. L'accent circonflexe sur « hôtellerie » est obligatoire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.11",
+        "text": "cause",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe \"causer\" doit s'accorder en nombre avec son sujet, qui est une énumération de plusieurs groupes nominaux (\"la vente au détail, [la] restauration et l'hôtellerie\"), ce qui correspond à un pluriel.",
+        "suggestions": [
+          "causent"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du verbe avec un sujet multiple. Quand plusieurs groupes nominaux coordonnés forment le sujet, le verbe se met au pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.12",
+        "text": "manger",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif \"manger\" et le participe passé \"mangées\". Employé avec l'auxiliaire \"être\", le participe passé doit s'accorder en genre et en nombre avec le sujet \"des grosses portions\" (féminin pluriel).",
+        "suggestions": [
+          "mangées"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion évidente entre infinitif et participe passé dans une construction passive. Le contexte « qui ne sont finalement pas... » exige un participe passé accordé.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.13",
+        "text": "réutilisé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé \"réutilisé\", employé avec l'auxiliaire \"être\", doit s'accorder en genre et en nombre avec le sujet \"ils\" (mis pour \"ces aliments\", masculin pluriel).",
+        "suggestions": [
+          "réutilisés"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du participe passé employé avec l'auxiliaire « être ». L'accord avec le sujet pluriel « ils » est obligatoire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.14",
+        "text": "l'hotellerie",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Répétition de la même erreur d'usage. Le mot \"hôtellerie\" prend un accent circonflexe sur le \"o\" et s'écrit avec deux \"l\".",
+        "suggestions": [
+          "l'hôtellerie"
+        ],
+        "ruleApplied": "5.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de la même faute d'orthographe lexicale (absence d'accent circonflexe sur « hôtellerie »).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.15",
+        "text": "personnes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom indéfini \"personne\", utilisé dans une phrase négative avec le sens de \"nul individu\", est toujours au singulier.",
+        "suggestions": [
+          "personne"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle grammaticale stricte : le pronom indéfini négatif « personne » est invariable et toujours singulier.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.16",
+        "text": "s'appliques",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe \"s'appliquer\" doit s'accorder à la troisième personne du singulier avec son sujet \"personne\".",
+        "suggestions": [
+          "s'applique"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord verbal. Le sujet « personne » étant singulier, le verbe ne peut prendre le « s » de la deuxième personne.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.17",
+        "text": "luttent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe \"lutter\" doit s'accorder au singulier avec son sujet \"une petite minorité\", qui est un nom collectif au singulier.",
+        "suggestions": [
+          "lutte"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Cas de syllepse grammaticale avec nom collectif. Bien que l'accord au singulier avec « minorité » soit la règle de base, l'accord au pluriel (accord par syllepse) est accepté quand l'auteur pense aux individus qui composent le groupe.",
+        "counterArgument": "Avec les noms collectifs comme « minorité », l'accord au pluriel (syllepse) est souvent accepté quand le sens porte sur les individus plutôt que sur l'ensemble. Ici, « une petite minorité luttent » peut être compris comme « les individus qui forment cette minorité luttent ». Grevisse et d'autres grammairiens reconnaissent cette construction, particulièrement en français contemporain. L'accord au singulier reste préférable, mais le pluriel n'est pas fautif."
+      },
+      {
+        "id": "erreur5.18",
+        "text": "sa change",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'homophone 'sa' (déterminant possessif) et 'ça' (pronom démonstratif).",
+        "suggestions": [
+          "ça change"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion d'homophones évidente. Le pronom démonstratif « ça » (cela) est requis comme sujet du verbe « change », pas le déterminant possessif « sa ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.19",
+        "text": "ses millions",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'homophone 'ses' (déterminant possessif) et 'ces' (déterminant démonstratif).",
+        "suggestions": [
+          "ces millions"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion d'homophones. Le contexte exige le démonstratif « ces » (pour désigner les millions de tonnes) et non le possessif « ses » (qui indiquerait une appartenance).",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 8,
+      "note": "C"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 18,
+      "note": "D"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 28,
+      "vraisErreurs": 25,
+      "discutables": 3,
+      "fauxPositifs": 0
+    }
+  },
+  "startTimestamp": "2025-12-12T11:38:56.278Z",
+  "endTimestamp": "2025-12-12T11:40:22.624Z",
+  "durationMs": 86346,
+  "durationFormatted": "01:26:346"
+}

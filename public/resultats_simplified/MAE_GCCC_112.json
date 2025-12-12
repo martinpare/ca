@@ -1,0 +1,596 @@
+{
+  "processedAt": "2025-12-10T14:59:20.205Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_112.txt",
+    "originalText": "Une guerre sans Victoire\r\n\r\nComme nous le savions, manger c'est un des meilleurs plaisirs que l'être humain pourrait y avoir, c'est donc pour cela que la nourriture ne manque prèsque jamais chez nous. Parcontre, la dilapidation des aliments est fortement presente dans la vie Canadienne. En effet, sommes-nous prêts à baisser les bras ? À mon avis, Cette mentalité dont nous voulons tout parfait mais qu'aussi nous ne dispossons pas de temps ne nous laissera le chemin facil.\r\n\r\nPremièrement, chers lecteurs, notre sprit d'être humain cherche toujours la perfection sur les choses : les personnes, les histoires et même les aliments, mais je ne vous dirais pas que plus qu'on la cherche, c'est donc plus qu'elle s'éloigne. Déjà, les restaurants et les hôtels cherchent la perle et la pureté des aliments pour faire ses infinités des plats, c'est donc à ce moment que le gaspillage ce fait present une fois de plus, confirme (Table québécoise sur la saine alimentation, 2019). Par ailleurs, nous tous on sait que les articles ont une date limite et quand nous remarquons que celle-ci a déjà dépassée nous tentons à les jetter, sans même savoir que peu d'eux sont dangereux à la consommation, par exemple, le yogourt , qui peut durer encore trois semaines et encore mieux pour les boîtes de conserve, le riz et les pâtes qui ont une durée d'environ un an après sa date limite. Affirmé (Roy, 2018) En somme, arrêtons-nous d'être perfectionistes et soyons plutôt contents pour ce que la nature nous donne.\r\n\r\nDeuxièmement, cher public, le temps que nous consacrons pour d'autres choses ce sont les écrans, on pourrait aussi le consacrer pour cuisiner. Selon Simard, « Les consommateurs qui ont très peu de temps pour cuisiner n'en ont pas d'avantage pour appliquer les trucs en vue de réduire le gaspillage alimentaire » (Simard, 2020). Les personnes que pasent que des secondes à la cuisine ne regardent pas le temps qu'il lui reste à son produit, par contre ce sont eux qui ne comprenent pas les informations que celui-ci a, comme, la date limite, le « meilleur avant » entre autres, confirmé (simard, 2020), Bref, l'organisation du temp est ce qui nuit à la réussite de ce gaspillage alimentaire. Donc il est très important de bien le gérer pour ne pas continuer avec cette catastrophe.\r\n\r\nEn conclusion, cher lectorat, nous croyons que tout devrait être parfait, même cela qui ne devrait pas l'être. Nous nous faisons qu'un mal, aussi qu'en ne pas consacrer le temps necessaire pour utiliser nos produits. Que sommes-nous finalement? des humains non?",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "savions",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'emploi de l'imparfait ('savions') est inapproprié pour énoncer une vérité générale. Le présent de l'indicatif ('savons') est requis.",
+        "suggestions": [
+          "savons"
+        ],
+        "ruleApplied": "4.1.2.2.4"
+      },
+      {
+        "id": "erreur4.2",
+        "text": "dont nous voulons tout parfait mais qu'aussi nous ne dispossons pas de temps",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est boiteuse. La coordination entre la relative introduite par 'dont' et la proposition introduite par 'mais qu'aussi' est incorrecte et rend la phrase difficile à comprendre.",
+        "suggestions": [
+          "selon laquelle nous voulons que tout soit parfait, combinée au fait que nous ne disposons pas de temps,"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "id": "erreur4.3",
+        "text": "mais je ne vous dirais pas que plus qu'on la cherche, c'est donc plus qu'elle s'éloigne",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est boiteuse et relève du calque. La formulation 'plus que..., c'est donc plus que...' est incorrecte. De plus, l'adverbe 'donc' est superflu et mal placé.",
+        "suggestions": [
+          "mais plus on la cherche, plus elle s'éloigne"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "id": "erreur4.4",
+        "text": "ses",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le déterminant possessif 'ses' (3e personne du singulier) est incorrect. Le référent est 'les restaurants et les hôtels' (pluriel), ce qui exige l'emploi de 'leurs'.",
+        "suggestions": [
+          "leurs"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "id": "erreur4.5",
+        "text": "a déjà dépassée",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur d'auxiliaire. Pour indiquer que la date est passée, il faut utiliser l'auxiliaire 'être' : 'est déjà dépassée'.",
+        "suggestions": [
+          "est déjà dépassée"
+        ],
+        "ruleApplied": "4.1.2.2.1"
+      },
+      {
+        "id": "erreur4.6",
+        "text": "d'eux",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Le pronom 'eux' s'utilise généralement pour des personnes. Pour des choses ('articles'), il est préférable d'utiliser 'd'entre eux'.",
+        "suggestions": [
+          "d'entre eux"
+        ],
+        "ruleApplied": "4.1.2.3.1"
+      },
+      {
+        "id": "erreur4.7",
+        "text": "yogourt ,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une espace ne doit pas précéder une virgule.",
+        "suggestions": [
+          "yogourt,"
+        ],
+        "ruleApplied": "4.2.2.10"
+      },
+      {
+        "id": "erreur4.8",
+        "text": "(Roy, 2018)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque un point pour terminer la phrase.",
+        "suggestions": [
+          "(Roy, 2018)."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "id": "erreur4.9",
+        "text": "que pasent que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction est incorrecte. Il faut utiliser le pronom relatif sujet 'qui' et non 'que'. De plus, le verbe 'passent' est mal orthographié.",
+        "suggestions": [
+          "qui ne passent que"
+        ],
+        "ruleApplied": "4.1.2.3.1"
+      },
+      {
+        "id": "erreur4.10",
+        "text": "lui",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Le pronom 'lui' (singulier) est incorrect. Le référent est 'Les personnes' (pluriel), ce qui exige l'emploi de 'leur'.",
+        "suggestions": [
+          "leur"
+        ],
+        "ruleApplied": "4.1.2.3.1"
+      },
+      {
+        "id": "erreur4.11",
+        "text": "son",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Le déterminant possessif 'son' (singulier) est incorrect. Le référent est 'Les personnes' (pluriel), ce qui exige l'emploi de 'leur'.",
+        "suggestions": [
+          "leur"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "id": "erreur4.12",
+        "text": "comme,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule ne doit pas être placée après 'comme' lorsqu'il introduit une énumération.",
+        "suggestions": [
+          "comme"
+        ],
+        "ruleApplied": "4.2.2.10.2"
+      },
+      {
+        "id": "erreur4.13",
+        "text": "), Bref",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule ne peut pas joindre deux phrases syntaxiques indépendantes. Il faut utiliser un point pour marquer la fin de la phrase précédente.",
+        "suggestions": [
+          "). Bref"
+        ],
+        "ruleApplied": "4.2.2.1.2"
+      },
+      {
+        "id": "erreur4.14",
+        "text": "y",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom « y » est superflu dans cette construction. La locution correcte est « que l'être humain pourrait avoir ».",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "id": "erreur4.15",
+        "text": "infinités des",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "L'expression « infinités des plats » est incorrecte. On utilise l'expression « une infinité de plats » (au singulier).",
+        "suggestions": [
+          "une infinité de"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "id": "erreur4.16",
+        "text": "confirme (Table québécoise sur la saine alimentation, 2019)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase est incomplète (subordonnée sans matrice). Il manque un sujet pour le verbe « confirme ». Il faudrait l'intégrer à la phrase précédente, par exemple : « ..., comme le confirme la Table québécoise sur la saine alimentation (2019) ».",
+        "suggestions": [
+          "comme le confirme la Table québécoise sur la saine alimentation (2019)"
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "id": "erreur4.17",
+        "text": "nous tous on sait",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction est redondante. Il faut choisir entre « nous savons tous » ou « on sait tous ».",
+        "suggestions": [
+          "nous savons tous",
+          "on sait tous"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "id": "erreur4.18",
+        "text": "sa",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le déterminant possessif doit s'accorder avec le possesseur pluriel « les boîtes de conserve, le riz et les pâtes ». Il faut utiliser « leur ».",
+        "suggestions": [
+          "leur"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "id": "erreur4.19",
+        "text": "le temps que nous consacrons pour d'autres choses ce sont les écrans",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est boiteuse. La préposition correcte est « consacrer à ». De plus, le verbe « être » devrait s'accorder avec le sujet singulier « le temps » (« c'est » et non « ce sont »). Une reformulation est nécessaire.",
+        "suggestions": [
+          "Le temps que nous consacrons aux écrans et à d'autres choses"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "id": "erreur4.20",
+        "text": "lui",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom « lui » est superflu dans cette construction. La forme correcte est « le temps qu'il reste à son produit ».",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "id": "erreur4.21",
+        "text": "la réussite de ce gaspillage alimentaire",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression « la réussite de ce gaspillage » est un contresens. L'auteur veut probablement parler de la « lutte contre ce gaspillage » ou de la « réduction de ce gaspillage ».",
+        "suggestions": [
+          "la réduction de ce gaspillage alimentaire"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "id": "erreur4.22",
+        "text": "cela qui",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La tournure « cela qui » est lourde. Il est préférable d'utiliser « ce qui ».",
+        "suggestions": [
+          "ce qui"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "id": "erreur4.23",
+        "text": "Nous nous faisons qu'un mal, aussi qu'en ne pas consacrer le temps necessaire pour utiliser nos produits.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est boiteuse. La locution restrictive « ne... que » est mal employée (« Nous ne nous faisons qu'un mal ») et la coordination avec « aussi qu'en » est incorrecte. Une reformulation est nécessaire.",
+        "suggestions": [
+          "Nous ne nous faisons que du mal en ne consacrant pas le temps nécessaire pour utiliser nos produits."
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "id": "erreur4.24",
+        "text": "non?",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression « non? » est un calque de l'oral. Il est préférable d'utiliser une formulation comme « n'est-ce pas ? » ou de reformuler la phrase.",
+        "suggestions": [
+          "n'est-ce pas ?"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 18,
+      "note": "E"
+    },
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "Victoire",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "La majuscule n'est requise que pour le premier mot d'un titre, sauf si un nom propre est utilisé. 'Victoire' est ici un nom commun et doit commencer par une minuscule.",
+        "suggestions": [
+          "victoire"
+        ],
+        "ruleApplied": "5.2.4.3"
+      },
+      {
+        "id": "erreur5.2",
+        "text": "prèsque",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Graphie erronée de l'adverbe 'presque'. Il ne prend pas d'accent grave.",
+        "suggestions": [
+          "presque"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.3",
+        "text": "Parcontre",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot 'parcontre' n'existe pas. Il s'agit de la locution 'par contre', en deux mots.",
+        "suggestions": [
+          "Par contre"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "id": "erreur5.4",
+        "text": "presente",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'présente' doit s'accorder en genre et en nombre avec le nom qu'il qualifie, 'la dilapidation' (féminin singulier). Il manque également l'accent aigu.",
+        "suggestions": [
+          "présente"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.5",
+        "text": "Canadienne",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Les adjectifs de nationalité s'écrivent avec une minuscule. La majuscule est réservée au gentilé (nom des habitants).",
+        "suggestions": [
+          "canadienne"
+        ],
+        "ruleApplied": "5.2.4.1"
+      },
+      {
+        "id": "erreur5.6",
+        "text": "Cette",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Une majuscule ne doit pas être utilisée après une virgule, sauf s'il s'agit d'un nom propre. Le mot 'cette' doit commencer par une minuscule.",
+        "suggestions": [
+          "cette"
+        ],
+        "ruleApplied": "5.3.6.1"
+      },
+      {
+        "id": "erreur5.7",
+        "text": "dispossons",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Graphie erronée du verbe 'disposer'. Il ne prend qu'un seul 's'.",
+        "suggestions": [
+          "disposons"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "id": "erreur5.8",
+        "text": "facil",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Graphie erronée de l'adjectif 'facile'.",
+        "suggestions": [
+          "facile"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "id": "erreur5.9",
+        "text": "sprit",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Graphie erronée du mot 'esprit'.",
+        "suggestions": [
+          "esprit"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "id": "erreur5.10",
+        "text": "ce",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le pronom démonstratif 'ce' et le pronom réfléchi 'se'. Le verbe est pronominal : 'se fait'.",
+        "suggestions": [
+          "se"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "id": "erreur5.11",
+        "text": "present",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Il manque l'accent aigu sur l'adjectif 'présent'.",
+        "suggestions": [
+          "présent"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.12",
+        "text": "jetter",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Graphie erronée de l'infinitif 'jeter'. Il ne prend qu'un seul 't'.",
+        "suggestions": [
+          "jeter"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "id": "erreur5.13",
+        "text": "perfectionistes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Graphie erronée du mot 'perfectionnistes'. Il s'écrit avec 'nn'.",
+        "suggestions": [
+          "perfectionnistes"
+        ],
+        "ruleApplied": "5.2.1.6"
+      },
+      {
+        "id": "erreur5.14",
+        "text": "ce sont",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord. Le sujet est 'le temps' (singulier), le verbe 'être' doit donc être au singulier : 'c'est'.",
+        "suggestions": [
+          "c'est"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.15",
+        "text": "d'avantage",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'adverbe 'davantage' (plus) et la locution 'd'avantage' (de profit).",
+        "suggestions": [
+          "davantage"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "id": "erreur5.16",
+        "text": "pasent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur de conjugaison du verbe 'passer' à la 3e personne du pluriel du présent de l'indicatif. La graphie correcte est 'passent'.",
+        "suggestions": [
+          "passent"
+        ],
+        "ruleApplied": "5.3.2.1"
+      },
+      {
+        "id": "erreur5.17",
+        "text": "comprenent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur de conjugaison du verbe 'comprendre' à la 3e personne du pluriel du présent de l'indicatif. La graphie correcte est 'comprennent'.",
+        "suggestions": [
+          "comprennent"
+        ],
+        "ruleApplied": "5.3.2.1"
+      },
+      {
+        "id": "erreur5.18",
+        "text": "simard",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Les noms propres, comme les noms de famille, doivent commencer par une majuscule.",
+        "suggestions": [
+          "Simard"
+        ],
+        "ruleApplied": "5.2.4.1.2"
+      },
+      {
+        "id": "erreur5.19",
+        "text": "temp",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Graphie erronée du mot 'temps'.",
+        "suggestions": [
+          "temps"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "id": "erreur5.20",
+        "text": "necessaire",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Il manque l'accent aigu sur la première syllabe et l'accent grave sur la deuxième syllabe du mot 'nécessaire'.",
+        "suggestions": [
+          "nécessaire"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.21",
+        "text": "des",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Une nouvelle phrase doit commencer par une majuscule, surtout après un point d'interrogation.",
+        "suggestions": [
+          "Des"
+        ],
+        "ruleApplied": "5.3.6.1"
+      },
+      {
+        "id": "erreur5.22",
+        "text": "dépassée",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé conjugué avec l'auxiliaire « avoir » ne s'accorde pas avec le sujet « celle-ci ». Il reste invariable. Le mot correct est « dépassé ».",
+        "suggestions": [
+          "dépassé"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "id": "erreur5.23",
+        "text": "des",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le début d'une phrase commence par une majuscule. Le mot correct est « Des ».",
+        "suggestions": [
+          "Des"
+        ],
+        "ruleApplied": "5.3.6.1"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 23,
+      "note": "E"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:53:15.232Z",
+    "endTimestamp": "2025-12-10T14:59:20.205Z",
+    "durationMs": 364973,
+    "durationFormatted": "06:04:973"
+  }
+}

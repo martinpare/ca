@@ -1,0 +1,286 @@
+{
+  "processedAt": "2025-12-10T15:14:00.701Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_148.txt",
+    "originalText": "Le gaspillage: Tout un problème\r\n\r\nAu Canada, nous consommons beaucoup de nourriture tous les jours. Pourtant de nombreux aliments non consommés sont jetés. Sommes-nous prêts à lutter contre le gaspillage alimentaire? Certainement pas! Il y a du gaspillage dans les étapes de la chaîne d'approvisionnement alimentaire, et il y a de l'absurdité dans les standards esthétiques des aliments. \r\n\r\nTout d'abord, je pense sincèrement que nous ne sommes pas prêts à lutter contre le gaspillage alimentaire en raison du gaspillage qui est produit dans la chaîne d'approvisionnement alimentaire. En effet, plusieurs aliments sont jetés durant cette chaîne d'approvisionnement. Par exemple, durant l'étape de la production des aliments, il peut y avoir un manque de main-d'œuvre. Cela fait qu'il y a des aliments non ramassée dans les champs. C'est terrible de savoir qu'il y a du gaspillage dans cette étape de la chaîne d'approvisionnement. Déjà que nous même on gaspille beaucoup chez soi. Cela veut dire qu'il y en a plus que l'on pense. Pour être plus précise, *«Selon une étude de l'Organisation des Nations unies, environ 931 millions de tonnes de nourriture ont été gaspillées dans le monde en 2019». Comment vouloir arrêter de gaspiller des aliments, si l'on en gaspille qu'en les produisant? Je crois que si l'État encourage avec des sommes d'argent des agriculteurs à travailler dans les champs de production, il y aurait moins de gaspillage. Sinon, on ne sera jamais prêts à y lutter. Alors, présentement, nous ne sommes pas prêts à lutter contre le gaspillage alimentaire. \r\n\r\nDeuxièmement, je crois que nous ne sommes pas prêts à lutter contre le gaspillage alimentaire, à cause de l'absurdité du standards esthétiques des aliments. Effectivement, certains agriculteurs hésitent à distribuer aux épiceries des aliments qui ne répondent pas aux standards esthétiques, car ils sont vendus moins cher que les autres, même s'il coûte le même prix pour les produire et les transporter. Je pense qu'on ne devrait pas limiter de vendre des aliments même si c'est une question d'argent. En plus, l'imperfection est dans tout. Si un aliment est trop gros ou trop petit qu'un autre aliment dit d'une parfaite taille, ils auront quand même le même goût. Par la suite, l'enfouissement et l'incinération des aliments produisent du gaz à effet de serre. Notre précieux environnement devrait être plus important que notre porte-monnaie. Comment lutter contre le gaspillage alimentaire si nous n'avons pas les priorités à la bonne place? De plus, les conditions météorologiques ont un impact sur la forme et la taille des légumes, ce qui rend difficile de les vendre. Les consommateurs veulent aussi en grande majorité la perfection des aliments. Ce n'ai pas le comportement à avoir si nous voulons lutter contre le gaspillage alimentaire. Donc, je pense que nous ne sommes pas prêts à lutter contre le gaspillage alimentaire. \r\n\r\nEn conclusion, je crois que nous ne sommes pas prêts à lutter contre le gaspillage alimentaire en raison du gaspillage produit dans la chaîne d'approvisionnement alimentaire et à cause de l'absurdité des standards esthétiques des aliments. Arriverons-nous un jour à arrêter de gaspiller des aliments?\r\n\r\n*Shields Alexandre, Le devoir, 2",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "Pourtant",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Un organisateur textuel en tête de phrase, comme « Pourtant », doit être suivi d'une virgule.",
+        "suggestions": [
+          "Pourtant,"
+        ],
+        "ruleApplied": "4.2.2.10.1.k"
+      },
+      {
+        "id": "erreur4.2",
+        "text": "chez soi",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom indéfini « soi » est utilisé avec un sujet indéterminé. Ici, le sujet est « nous même on », qui réfère à « nous ». Le pronom correct est donc « nous ».",
+        "suggestions": [
+          "chez nous"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "id": "erreur4.3",
+        "text": "*«Selon",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "L'utilisation d'un astérisque pour introduire une citation n'est pas une pratique standard en ponctuation française.",
+        "suggestions": [
+          "« Selon"
+        ],
+        "ruleApplied": "4.2.1.6"
+      },
+      {
+        "id": "erreur4.4",
+        "text": "si l'on en gaspille qu'en les produisant",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est boiteuse. La restriction « ne... que » est incomplète (le « ne » est manquant) et mal employée. Il faut reformuler pour clarifier le sens, par exemple en utilisant « dès » ou « rien que ».",
+        "suggestions": [
+          "si l'on en gaspille dès leur production",
+          "si l'on en gaspille rien qu'en les produisant"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "id": "erreur4.5",
+        "text": "encourage avec des sommes d'argent des agriculteurs",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'ordre des compléments rend la phrase lourde et peu naturelle. Il est préférable de placer le complément d'objet direct « des agriculteurs » directement après le verbe.",
+        "suggestions": [
+          "encourage des agriculteurs avec des sommes d'argent"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "id": "erreur4.6",
+        "text": "y lutter",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom « y » remplace un complément de lieu ou un complément introduit par « à ». Le verbe « lutter » se construit avec la préposition « contre ». Le pronom est donc mal employé.",
+        "suggestions": [
+          "lutter contre cela",
+          "lutter contre ce fléau"
+        ],
+        "ruleApplied": "4.1.2.3.1"
+      },
+      {
+        "id": "erreur4.7",
+        "text": "limiter de vendre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe « limiter » est un verbe transitif direct. Il ne se construit pas avec la préposition « de » suivie d'un infinitif. On limite quelque chose.",
+        "suggestions": [
+          "limiter la vente"
+        ],
+        "ruleApplied": "4.1.2.2.2"
+      },
+      {
+        "id": "erreur4.8",
+        "text": "trop petit qu'un autre aliment",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La structure de comparaison est incorrecte. On ne dit pas « trop... que... » mais « plus... que... ». L'adverbe « trop » indique un excès et ne s'emploie pas dans une comparaison directe de ce type.",
+        "suggestions": [
+          "plus petit qu'un autre aliment"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "id": "erreur4.9",
+        "text": "Shields Alexandre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Dans une référence bibliographique où le nom de famille précède le prénom, une virgule est requise pour les séparer.",
+        "suggestions": [
+          "Shields, Alexandre"
+        ],
+        "ruleApplied": "4.2.2.10.1.a"
+      },
+      {
+        "id": "erreur4.10",
+        "text": "2",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une référence bibliographique doit se terminer par un point.",
+        "suggestions": [
+          "2."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "id": "erreur4.11",
+        "text": ",",
+        "occurenceIndex": 6,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque un deux-points pour introduire la citation qui suit.",
+        "suggestions": [
+          ":"
+        ],
+        "ruleApplied": "4.2.2.7.1"
+      },
+      {
+        "id": "erreur4.12",
+        "text": "dit d'une parfaite taille",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "La construction de la phrase est boiteuse et manque de clarté. Une formulation comme 'considéré comme ayant une taille parfaite' serait plus correcte. Cette erreur se trouve dans la même phrase syntaxique qu'une erreur 'S' déjà comptabilisée.",
+        "suggestions": [
+          "considéré de taille parfaite"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 8.5,
+      "note": "B"
+    },
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "nous même",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « même » s'accorde en nombre avec le pronom « nous » qu'il renforce. De plus, un trait d'union est requis entre le pronom et « même ».",
+        "suggestions": [
+          "nous-mêmes"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.2",
+        "text": "unies",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Dans une dénomination officielle comme « Organisation des Nations Unies », les adjectifs prennent une majuscule.",
+        "suggestions": [
+          "Unies"
+        ],
+        "ruleApplied": "5.2.4.1.2"
+      },
+      {
+        "id": "erreur5.3",
+        "text": "du standards",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « standards » est au pluriel. Le déterminant contracté « du » (de + le) est singulier. Il faut utiliser la forme plurielle « des » (de + les).",
+        "suggestions": [
+          "des standards"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.4",
+        "text": "s'il coûte",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe « coûte » doit s'accorder avec son sujet « ils » (implicite, référant aux aliments). Le sujet réel est pluriel, donc le verbe doit être à la troisième personne du pluriel.",
+        "suggestions": [
+          "s'ils coûtent"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.5",
+        "text": "Ce n'ai pas",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre les homophones « ai » (verbe avoir, 1re personne du singulier) et « est » (verbe être, 3e personne du singulier). La forme correcte avec le pronom « Ce » est « est ».",
+        "suggestions": [
+          "Ce n'est pas"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "id": "erreur5.6",
+        "text": "àarrêter",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "La préposition « à » et le verbe « arrêter » ont été fusionnés à tort. Il s'agit d'un barbarisme orthographique.",
+        "suggestions": [
+          "à arrêter"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "id": "erreur5.7",
+        "text": "devoir",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le nom propre « Devoir », qui fait partie du titre du journal « Le Devoir », doit commencer par une majuscule.",
+        "suggestions": [
+          "Devoir"
+        ],
+        "ruleApplied": "5.2.4.1.2"
+      },
+      {
+        "id": "erreur5.8",
+        "text": "standards",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'emprunt à l'anglais 'standards' devrait être remplacé par un équivalent français comme 'normes' ou 'critères'.",
+        "suggestions": [
+          "normes",
+          "critères"
+        ],
+        "ruleApplied": "5.2.6.5"
+      },
+      {
+        "id": "erreur5.9",
+        "text": "non ramassée",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'ramassé', employé comme adjectif, doit s'accorder en genre et en nombre avec son donneur 'aliments' (masculin pluriel).",
+        "suggestions": [
+          "non ramassés"
+        ],
+        "ruleApplied": "5.3.2.3"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 9,
+      "note": "B"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T15:09:56.946Z",
+    "endTimestamp": "2025-12-10T15:14:00.701Z",
+    "durationMs": 243755,
+    "durationFormatted": "04:03:755"
+  }
+}

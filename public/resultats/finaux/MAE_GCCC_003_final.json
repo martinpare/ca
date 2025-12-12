@@ -1,0 +1,371 @@
+{
+  "processedAt": "2025-12-12T11:36:15.672Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_003.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_003.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "planète!",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Un titre ou un intertitre ne doit généralement pas se terminer par un signe de ponctuation forte comme le point d'exclamation, à moins qu'il ne s'agisse d'une citation ou d'une interjection. La ponctuation finale est habituellement omise.",
+        "suggestions": [
+          "planète"
+        ],
+        "ruleApplied": "4.2.2.3.2",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Les titres accrocheurs et persuasifs peuvent légitimement utiliser des points d'exclamation pour créer un effet rhétorique, surtout dans un texte argumentatif visant à mobiliser le lecteur.",
+        "counterArgument": "Le point d'exclamation dans un titre peut être un choix stylistique délibéré pour créer un effet persuasif et accrocheur, particulièrement dans un texte argumentatif destiné à sensibiliser. Cette ponctuation renforce le caractère urgent et mobilisateur du message. Bien que la norme traditionnelle préconise l'absence de ponctuation finale dans les titres, l'usage moderne accepte cette ponctuation dans un contexte rhétorique."
+      },
+      {
+        "id": "erreur4.2",
+        "text": "prendre action",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette expression est un calque de l'anglais « to take action ». En français, on utilise plutôt des expressions comme « passer à l'action », « agir » ou « prendre des mesures ».",
+        "suggestions": [
+          "passer à l'action",
+          "agir"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Calque manifeste de l'anglais « to take action », non accepté en français standard. Les expressions françaises correctes sont bien établies.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "non seulement sommes-nous prêts à prendre les mesures nécessaires pour réduire notre gaspillage alimentaire, il existe déjà",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La structure de la phrase est incorrecte. La locution « non seulement » doit être suivie d'une conjonction de coordination comme « mais » ou « mais aussi » pour introduire le second élément. Il manque le mot « mais » après la virgule.",
+        "suggestions": [
+          "non seulement sommes-nous prêts à prendre les mesures nécessaires pour réduire notre gaspillage alimentaire, mais il existe aussi déjà"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Rupture de construction syntaxique évidente. La corrélation « non seulement... mais aussi » est obligatoire en français standard.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "Parlant d'utiliser des restes,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le participe présent « Parlant » est mal rattaché. Le sujet de la phrase principale (« FlashFood, SecondLife et FoodHero ») ne peut pas accomplir l'action de parler. La construction est boiteuse.",
+        "suggestions": [
+          "En ce qui concerne l'utilisation des restes,",
+          "À propos de l'utilisation des restes,"
+        ],
+        "ruleApplied": "4.1.2.1.7",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Participe présent sans sujet logique approprié. Les sites web ne peuvent pas « parler ». Erreur syntaxique classique.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "personnes en besoin",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression correcte est « personnes dans le besoin ». L'utilisation de la préposition « en » est incorrecte dans ce contexte.",
+        "suggestions": [
+          "personnes dans le besoin"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Mauvais emploi de préposition. L'expression figée est « dans le besoin », jamais « en besoin ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "gaspiller, sont",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "La virgule après « gaspiller » est erronée car elle sépare le groupe sujet (« des sites web, tels que Chic frigo sans fric, ou J'aime manger sans gaspiller ») du verbe « sont ».",
+        "suggestions": [
+          "gaspiller sont"
+        ],
+        "ruleApplied": "4.2.2.10.2.a",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "La virgule ferme correctement l'incise exemplificative « tels que Chic frigo sans fric, ou J'aime manger sans gaspiller ». Elle n'isole pas le sujet du verbe.",
+        "counterArgument": "La virgule après « gaspiller » est correcte : elle ferme l'incise qui commence par « tels que ». La structure complète est : « des sites web, tels que Chic frigo sans fric, ou J'aime manger sans gaspiller, sont mis en place ». Les deux virgules encadrent correctement l'apposition exemplificative. Le sujet complet (« des sites web... gaspiller ») est ainsi délimité avant le verbe « sont ». Cette construction respecte les règles de ponctuation des appositions."
+      },
+      {
+        "id": "erreur4.7",
+        "text": "il y beaucoup",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque le verbe « avoir » dans la locution impersonnelle « il y a ». La forme correcte est « il y a beaucoup ».",
+        "suggestions": [
+          "il y a beaucoup"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Omission évidente du verbe « a » dans la locution impersonnelle « il y a ». Erreur grammaticale manifeste.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "pointent vers la théorie que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression « pointer vers » est un calque de l'anglais « to point to ». On devrait utiliser des verbes comme « indiquer », « suggérer » ou « montrer ».",
+        "suggestions": [
+          "indiquent que",
+          "suggèrent que"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Calque de l'anglais « to point to ». En français, on utilise « indiquer », « montrer », « tendre à montrer », mais pas « pointer vers » dans ce contexte abstrait.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "2020.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une référence bibliographique ou une source présentée sous cette forme ne doit pas se terminer par un point.",
+        "suggestions": [
+          "2020"
+        ],
+        "ruleApplied": "4.2.2.1.2",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Cette référence fait partie du texte courant (en exposant) et non d'une bibliographie isolée. Le point termine la phrase qui précède, pas la référence elle-même.",
+        "counterArgument": "Cette référence bibliographique « (3) » avec l'attribution « Jeanne Corriveau, 2020. » apparaît en fin de liste de références en bas de page, où le point final est conventionnel et approprié. Il ne s'agit pas d'une référence intégrée au corps du texte, mais d'une liste de sources où chaque entrée se termine normalement par un point. Cette ponctuation est conforme aux normes bibliographiques."
+      },
+      {
+        "id": "erreur4.10",
+        "text": "cela",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence du point final qui est obligatoire pour marquer la fin d'une phrase déclarative.",
+        "suggestions": [
+          "cela."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Relecture du texte nécessaire : l'erreur n'existe pas dans le texte fourni. Toutes les phrases se terminent correctement.",
+        "counterArgument": "Après vérification du texte original, il n'y a pas de phrase se terminant par « cela » sans ponctuation finale. Toutes les phrases du texte sont correctement ponctuées. Cette erreur semble être un faux positif généré sans correspondance dans le texte réel."
+      },
+      {
+        "id": "erreur4.11",
+        "text": "à la place de prendre direction vers",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction de phrase boiteuse. L'expression « à la place de » est un calque de l'oral à remplacer par « au lieu de ». De plus, il manque le déterminant « la » devant « direction ».",
+        "suggestions": [
+          "au lieu de prendre la direction de"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double erreur : calque de l'oral (« à la place de ») et omission du déterminant (« prendre direction » au lieu de « prendre la direction de »).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.12",
+        "text": "seulement avec",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Mot superflu. L'adverbe « seulement » est répété inutilement dans la même phrase, ce qui alourdit la construction. Le premier adverbe suffit.",
+        "suggestions": [
+          "avec"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Les deux occurrences de « seulement » ont des portées différentes. La première porte sur « au Canada », la seconde renforce l'idée que c'est « uniquement » avec le gaspillage alimentaire. La redondance est stylistique plutôt qu'erronée.",
+        "counterArgument": "La phrase complète est : « En effet, au Canada seulement, plus de 17 milliards de dollars sont perdus chaque année, seulement avec le gaspillage alimentaire. » Les deux « seulement » ont des fonctions différentes : le premier restreint la portée géographique (« seulement au Canada »), tandis que le second insiste sur la cause unique (« seulement à cause du gaspillage »). Bien qu'il soit possible d'alléger la phrase, cette répétition peut être considérée comme un effet d'emphase délibéré."
+      },
+      {
+        "id": "erreur4.13",
+        "text": "pollution!",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Présence erronée d'un point d'exclamation. La phrase est une affirmation et ne contient pas de marqueur exclamatif justifiant ce signe de ponctuation. Un point est requis.",
+        "suggestions": [
+          "pollution."
+        ],
+        "ruleApplied": "4.2.2.3.2",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Dans un texte argumentatif, particulièrement en conclusion, le point d'exclamation peut servir à renforcer l'engagement et l'élan persuasif, surtout dans une phrase-slogan.",
+        "counterArgument": "La phrase conclusive « Baisser notre gaspillage, c'est un pas de plus dans notre lutte contre l'ennemi numéro un en ce moment, la pollution! » utilise le point d'exclamation pour créer un effet de mobilisation final, typique des conclusions persuasives. Dans un texte argumentatif visant à sensibiliser des jeunes, cette ponctuation expressive renforce le ton engagé et l'appel à l'action. C'est un choix stylistique cohérent avec le registre du texte."
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "sites web",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot « Web », lorsqu'il est utilisé en apposition comme ici, est considéré comme un nom propre et doit commencer par une majuscule.",
+        "suggestions": [
+          "sites Web"
+        ],
+        "ruleApplied": "5.2.4.1.2",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "L'OQLF reconnaît explicitement les deux graphies « site web » et « site Web ». L'usage moderne privilégie la minuscule depuis la lexicalisation du terme.",
+        "counterArgument": "L'Office québécois de la langue française (OQLF) reconnaît les deux graphies : « site web » et « site Web ». Bien que la graphie avec majuscule ait été historiquement recommandée (lorsque « Web » était considéré comme abréviation de « World Wide Web »), l'usage moderne accepte largement la minuscule depuis la lexicalisation complète du terme. La graphie « web » en minuscule est désormais courante et acceptée dans les dictionnaires français contemporains."
+      },
+      {
+        "id": "erreur5.2",
+        "text": "sites web",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Répétition de l'erreur d'usage sur le mot « web » qui devrait prendre une majuscule. Le mot « Web » est considéré comme un nom propre.",
+        "suggestions": [
+          "sites Web"
+        ],
+        "ruleApplied": "5.1.3",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Même justification que pour l'occurrence précédente : les deux graphies sont reconnues par l'OQLF.",
+        "counterArgument": "Même justification que pour erreur5.1 : l'OQLF reconnaît les deux graphies « site web » et « site Web ». L'usage avec minuscule est accepté et répandu."
+      },
+      {
+        "id": "erreur5.3",
+        "text": "sites web",
+        "occurenceIndex": 2,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Répétition de l'erreur d'usage sur le mot « web » qui devrait prendre une majuscule. Le mot « Web » est considéré comme un nom propre.",
+        "suggestions": [
+          "sites Web"
+        ],
+        "ruleApplied": "5.1.3",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Même justification que pour les occurrences précédentes : les deux graphies sont reconnues par l'OQLF.",
+        "counterArgument": "Même justification que pour erreur5.1 : l'OQLF reconnaît les deux graphies « site web » et « site Web ». L'usage avec minuscule est accepté et répandu."
+      },
+      {
+        "id": "erreur5.4",
+        "text": "sites webs",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le mot « web », emprunté à l'anglais, est invariable en nombre lorsqu'il est en apposition. On écrit « des sites web ». L'erreur d'accord prime sur l'erreur de majuscule.",
+        "suggestions": [
+          "sites web"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. Le mot « web » en apposition reste invariable. On écrit « des sites web », jamais « des sites webs ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "numéro un",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'expression « numéro un », employée comme adjectif, doit comporter un trait d'union.",
+        "suggestions": [
+          "numéro-un"
+        ],
+        "ruleApplied": "5.2.1.7.1",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "L'usage du trait d'union dans cette expression varie. Plusieurs sources acceptent « numéro un » sans trait d'union, surtout dans l'expression « l'ennemi numéro un » où « numéro un » a valeur d'apposition.",
+        "counterArgument": "L'expression « l'ennemi numéro un » peut s'écrire avec ou sans trait d'union selon les sources. Le trait d'union est recommandé lorsque l'expression a clairement valeur d'adjectif composé (« un produit numéro-un »), mais dans « l'ennemi numéro un », « numéro un » a davantage valeur d'apposition ou de complément, et l'absence de trait d'union est largement acceptée. Le Petit Robert et d'autres dictionnaires attestent les deux graphies."
+      },
+      {
+        "id": "erreur5.6",
+        "text": "restants",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion lexicale. Pour désigner les restes d'un repas, on emploie le nom « restes » au pluriel, et non l'adjectif « restants ».",
+        "suggestions": [
+          "restes"
+        ],
+        "ruleApplied": "5.2.2",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "« Restants » est un québécisme reconnu par l'OQLF et les dictionnaires québécois pour désigner les restes alimentaires. C'est un usage légitime au Québec.",
+        "counterArgument": "« Restants » est un québécisme reconnu et accepté au Québec pour désigner les restes alimentaires. L'OQLF et le dictionnaire Usito (dictionnaire du français québécois) attestent cet usage. Bien qu'en français de France on utilise plutôt « restes », le mot « restants » (substantif) est parfaitement correct en français québécois. Dans un contexte scolaire québécois, cet usage doit être accepté."
+      },
+      {
+        "id": "erreur5.7",
+        "text": "restants",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Répétition de la confusion lexicale entre « restants » (adjectif) et « restes » (nom).",
+        "suggestions": [
+          "restes"
+        ],
+        "ruleApplied": "5.1.3",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Même justification que pour l'occurrence précédente : québécisme reconnu et acceptable.",
+        "counterArgument": "Même justification que pour erreur5.6 : « restants » est un québécisme reconnu par l'OQLF pour désigner les restes alimentaires. Usage légitime en contexte québécois."
+      },
+      {
+        "id": "erreur5.8",
+        "text": "RECYC-QUÉBEC",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur de majuscules dans une dénomination. Selon la graphie officielle de l'organisme, seul le 'R' initial prend une majuscule.",
+        "suggestions": [
+          "Recyc-Québec"
+        ],
+        "ruleApplied": "5.2.4.1.2",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "RECYC-QUÉBEC est la graphie officielle de cet organisme gouvernemental québécois, vérifiable sur son site officiel et dans les documents gouvernementaux.",
+        "counterArgument": "RECYC-QUÉBEC est bien la graphie officielle de cet organisme gouvernemental québécois. Sur son site officiel (www.recyc-quebec.gouv.qc.ca) et dans tous les documents officiels, l'organisme utilise systématiquement les majuscules complètes : RECYC-QUÉBEC. Il s'agit d'un choix graphique institutionnel qu'il faut respecter, comme pour tout nom propre d'organisme. La suggestion « Recyc-Québec » ne correspond pas à la dénomination officielle."
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 5,
+      "note": "B"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 1,
+      "note": "A"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 21,
+      "vraisErreurs": 6,
+      "discutables": 4,
+      "fauxPositifs": 11
+    }
+  },
+  "startTimestamp": "2025-12-12T11:34:47.752Z",
+  "endTimestamp": "2025-12-12T11:36:15.672Z",
+  "durationMs": 87920,
+  "durationFormatted": "01:27:920"
+}

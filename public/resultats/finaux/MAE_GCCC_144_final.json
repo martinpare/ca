@@ -1,0 +1,449 @@
+{
+  "processedAt": "2025-12-12T11:46:12.705Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_144.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_144.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "à cette source de problème",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition « à » est incorrecte dans ce contexte. On est un élément « de » quelque chose.",
+        "suggestions": [
+          "de cette source de problème"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de préposition claire. On ne dit pas « élément à une source » mais « élément de cette source » ou mieux « élément contribuant à ce problème ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": ", et",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "La virgule est généralement considérée comme superflue devant la conjonction « et » dans une énumération simple.",
+        "suggestions": [
+          "et"
+        ],
+        "ruleApplied": "4.2.2.10.2.k",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Cette virgule avant « et » dans une énumération de trois éléments (virgule sérielle ou virgule d'Oxford) est acceptée en français, particulièrement au Québec. Elle aide à clarifier la structure de l'énumération.",
+        "counterArgument": "La virgule avant le dernier « et » d'une énumération (virgule sérielle) est une pratique reconnue et acceptée en français, notamment au Québec. Elle permet de bien distinguer les trois éléments énumérés et évite toute ambiguïté. Bien que facultative, elle n'est pas fautive."
+      },
+      {
+        "id": "erreur4.3",
+        "text": "<< Les canadiens gaspillent trois millions de tonnes de nourriture chaque année >>",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Les guillemets anglais (« << » et « >> ») doivent être remplacés par des guillemets français (« »).",
+        "suggestions": [
+          "« Les Canadiens gaspillent trois millions de tonnes de nourriture chaque année »"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Les guillemets français typographiques sont obligatoires en français. Les chevrons doubles << >> sont incorrects.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "mais qu'on peut y remédier!",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La conjonction de subordination « que » est superflue et crée une rupture syntaxique. Une simple coordination avec « mais » est requise.",
+        "suggestions": [
+          "mais on peut y remédier!"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction syntaxique incorrecte. Le « que » crée une subordination inappropriée après « mais ». La coordination simple est requise.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "Par exemple, la nourriture que nous cuisinons à la maison.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase est une subordonnée sans phrase principale (matrice). Il s'agit d'une phrase non finie.",
+        "suggestions": [
+          "Par exemple, nous pouvons réutiliser la nourriture que nous cuisinons à la maison."
+        ],
+        "ruleApplied": "4.1.2.1.4",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Bien que techniquement incomplète, cette construction peut être vue comme une phrase averbale d'introduction thématique, acceptable dans un style moins formel.",
+        "counterArgument": "Cette construction pourrait être interprétée comme une phrase averbale introduisant le thème développé dans les phrases suivantes. C'est un procédé stylistique qui crée un effet d'annonce. Dans un texte argumentatif de niveau secondaire/collégial, ce type de construction peut être toléré, bien qu'une phrase complète soit préférable."
+      },
+      {
+        "id": "erreur4.6",
+        "text": "qui vont offrir",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe devrait être au présent de l'indicatif pour être en harmonie avec le verbe « existent » de la phrase principale.",
+        "suggestions": [
+          "qui offrent"
+        ],
+        "ruleApplied": "4.1.2.2.4",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "L'utilisation du futur périphrastique « vont offrir » peut exprimer une valeur aspectuelle (action future proche ou garantie) plutôt qu'une simple incohérence temporelle.",
+        "counterArgument": "Le futur périphrastique « qui vont offrir » peut être justifié pour exprimer que ces sites offriront des ressources à l'utilisateur qui les consultera (valeur de futur proche dans la perspective du lecteur). Bien que le présent soit plus neutre et recommandé, le futur périphrastique n'est pas nécessairement fautif dans ce contexte où l'auteur anticipe l'action du lecteur."
+      },
+      {
+        "id": "erreur4.7",
+        "text": "<< La fierté de ne pas gaspiller d'aliments >>",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Les guillemets anglais (« << » et « >> ») doivent être remplacés par des guillemets français (« »).",
+        "suggestions": [
+          "« La fierté de ne pas gaspiller d'aliments »"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Les guillemets français typographiques sont obligatoires en français. Les chevrons doubles << >> sont incorrects.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "<< Tout le monde repart avec ses restants >>",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Les guillemets anglais (« << » et « >> ») doivent être remplacés par des guillemets français (« »).",
+        "suggestions": [
+          "« Tout le monde repart avec ses restants »"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Les guillemets français typographiques sont obligatoires en français. Les chevrons doubles << >> sont incorrects.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "et qui diminue le gaspillage",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La coordination est boiteuse. On ne peut coordonner un groupe nominal (« un concept appelé... ») et une proposition relative (« qui diminue... »). Il faut reformuler, par exemple : « C'est un concept [...] qui diminue... ».",
+        "suggestions": [
+          "qui diminue le gaspillage"
+        ],
+        "ruleApplied": "4.1.2.1.8",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de coordination évidente. On coordonne avec « et » deux éléments de natures différentes : un participe passé (« appelé ») et une proposition relative (« qui diminue »).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.10",
+        "text": "aide au problème",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression « aider au problème » est sémantiquement incorrecte. On aide à résoudre un problème. Il faut reformuler.",
+        "suggestions": [
+          "aide à résoudre le problème"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur sémantique claire. « Aider au problème » signifierait contribuer au problème, ce qui est le contraire du sens voulu.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.11",
+        "text": "liste épicerie",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque la préposition « d' » pour introduire le complément du nom « liste ».",
+        "suggestions": [
+          "liste d'épicerie"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Préposition obligatoire manquante. « Liste d'épicerie » est la locution correcte en français québécois.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.12",
+        "text": "acheter",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "La structure de l'énumération est rompue. Après les gérondifs « en planifiant » et « en faisant », il faudrait continuer avec des gérondifs (« en achetant », etc.). Une erreur de syntaxe (S) a déjà été comptée dans cette phrase.",
+        "suggestions": [
+          "en achetant"
+        ],
+        "ruleApplied": "4.1.2.1.8",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Rupture de parallélisme évidente dans l'énumération. Les structures doivent être homogènes.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.13",
+        "text": "Le Devoir .",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une espace superflue se trouve avant le point final. La ponctuation finale doit être collée au mot qui la précède.",
+        "suggestions": [
+          "Le Devoir."
+        ],
+        "ruleApplied": "4.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur typographique évidente. En français, le point final est collé au mot qui le précède.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.14",
+        "text": "C'est comment les gens vont faire",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La tournure 'C'est comment...' est un calque de l'oral qui constitue une construction de phrase boiteuse. Il faut reformuler la phrase, par exemple en utilisant 'Voici comment...' ou 'Cela illustre la manière dont...'.",
+        "suggestions": [
+          "Voici comment les gens peuvent agir",
+          "Cela illustre la manière dont les gens agissent"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Calque de l'oral familier inadmissible à l'écrit. Construction syntaxiquement incorrecte en français standard.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.15",
+        "text": "<<",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "P",
+        "description": "Les guillemets français typographiques (« ») doivent être utilisés pour encadrer une citation, et non les chevrons doubles (<< >>).",
+        "suggestions": [
+          "«"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Les guillemets français typographiques sont obligatoires en français. Les chevrons doubles << >> sont incorrects.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.16",
+        "text": ">>",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "(P)",
+        "description": "Les guillemets français typographiques (« ») doivent être utilisés. Ceci est le guillemet fermant correspondant au guillemet ouvrant fautif. L'erreur est comptée une seule fois pour la paire.",
+        "suggestions": [
+          "»"
+        ],
+        "ruleApplied": "4.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur liée à l'erreur4.15. Les guillemets français sont obligatoires.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.17",
+        "text": "faire cuire",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Erreur de parallélisme dans une énumération. La phrase contient déjà une erreur de syntaxe (S). Les actions sont introduites par le gérondif ('en planifiant', 'en faisant'). Pour maintenir la structure parallèle, il faut utiliser 'en faisant cuire'.",
+        "suggestions": [
+          "en faisant cuire"
+        ],
+        "ruleApplied": "4.1.2.1.8",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Rupture de parallélisme dans l'énumération. Les structures doivent être homogènes.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.18",
+        "text": "congeler",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Erreur de parallélisme dans une énumération. La phrase contient déjà une erreur de syntaxe (S). Les actions sont introduites par le gérondif ('en planifiant', 'en faisant'). Pour maintenir la structure parallèle, il faut utiliser 'en congelant'.",
+        "suggestions": [
+          "en congelant"
+        ],
+        "ruleApplied": "4.1.2.1.8",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Rupture de parallélisme dans l'énumération. Les structures doivent être homogènes.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "d'extinctions",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le complément du nom « voies » devrait être au singulier, car il s'agit du concept général de l'extinction.",
+        "suggestions": [
+          "d'extinction"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Le pluriel peut se justifier si l'auteur pense à plusieurs processus d'extinction distincts (extinction de différentes espèces). Les deux accords sont défendables selon l'interprétation.",
+        "counterArgument": "Le pluriel « voies d'extinctions » peut se justifier si l'on considère que chaque espèce suit sa propre voie d'extinction. Bien que le singulier soit plus courant pour désigner le concept général, le pluriel n'est pas nécessairement fautif dans une interprétation où l'on pense aux multiples processus d'extinction en cours."
+      },
+      {
+        "id": "erreur5.2",
+        "text": "nocif",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « nocif » doit s'accorder en genre et en nombre avec le sujet pluriel (« les changements climatiques, les voies d'extinctions chez les animaux et la pollution de l'air »); le masculin pluriel l'emporte.",
+        "suggestions": [
+          "nocifs"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. Le sujet est pluriel (trois éléments coordonnés), l'adjectif attribut doit s'accorder au pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "unies",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Dans la dénomination « Organisation des Nations Unies », l'adjectif « Unies » prend une majuscule.",
+        "suggestions": [
+          "Unies"
+        ],
+        "ruleApplied": "5.2.4.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique claire pour les noms d'organismes internationaux. « Unies » prend la majuscule dans « Organisation des Nations Unies ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "canadiens",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Les noms de peuples et d'habitants, utilisés comme noms, prennent une majuscule.",
+        "suggestions": [
+          "Canadiens"
+        ],
+        "ruleApplied": "5.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique claire. Les gentilés employés comme noms prennent une majuscule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "peut",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe « peut » doit s'accorder avec le sujet pluriel, qui est une énumération d'infinitifs (« Planifier », « faire », « acheter »).",
+        "suggestions": [
+          "peuvent"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord sujet-verbe. Trois infinitifs coordonnés forment un sujet pluriel qui exige l'accord au pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "qui vont redistribuer",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec son sujet « qui », mis pour « un autre organisme appelé la Tablée des Chefs » (singulier). L'incohérence avec l'accord au singulier dans la phrase suivante (« C'est un organisme... qui a récupéré ») rend la syllepse fautive.",
+        "suggestions": [
+          "qui va redistribuer"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Incohérence d'accord. L'auteur accorde au singulier juste après (« qui a récupéré »), ce qui montre que le pluriel « vont » est une erreur et non un choix de syllepse.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "ces",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'homophone « ces » (déterminant démonstratif) et « ses » (déterminant possessif). Le contexte requiert le possessif qui renvoie à « tout le monde ».",
+        "suggestions": [
+          "ses"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion homophonique claire. Le contexte exige « ses » (possessif) et non « ces » (démonstratif).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "leur reste",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'restes' (au sens de 'nourriture restante') est pluriel. Le déterminant possessif 'leur' doit donc s'accorder au pluriel : 'leurs'.",
+        "suggestions": [
+          "leurs restes"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord. « Restes » au sens de « nourriture restante » est toujours pluriel. Le déterminant doit s'accorder.",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 16,
+      "note": "E"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 8,
+      "note": "C"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 26,
+      "vraisErreurs": 21,
+      "discutables": 3,
+      "fauxPositifs": 1
+    }
+  },
+  "startTimestamp": "2025-12-12T11:44:48.092Z",
+  "endTimestamp": "2025-12-12T11:46:12.705Z",
+  "durationMs": 84613,
+  "durationFormatted": "01:24:613"
+}

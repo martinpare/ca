@@ -1,0 +1,562 @@
+{
+  "processedAt": "2025-12-12T11:45:20.138Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_128.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_128.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "prendre de l'action",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression 'prendre de l'action' est un calque de l'anglais 'to take action'. En français, on utilise plutôt 'passer à l'action' ou 'agir'.",
+        "suggestions": [
+          "passer à l'action",
+          "d'agir"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Calque évident de l'anglais, non reconnu en français standard. Les équivalents corrects sont bien établis.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "Premièrement je",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule est requise après un organisateur textuel ('Premièrement') en tête de phrase.",
+        "suggestions": [
+          "Premièrement, je"
+        ],
+        "ruleApplied": "4.2.2.10.1.k",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle de ponctuation claire : les organisateurs textuels en début de phrase doivent être suivis d'une virgule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "biens ,par",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "L'espace doit suivre le signe de ponctuation (la virgule) et non le précéder.",
+        "suggestions": [
+          "biens, par"
+        ],
+        "ruleApplied": "4.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur typographique évidente : l'espace avant la virgule est une faute de frappe claire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "individuelles1.»",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Un point est requis pour marquer la fin de la phrase.",
+        "suggestions": [
+          "individuelles. »¹"
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de ponctuation claire : l'appel de note doit être après le guillemet fermant, et un point est nécessaire avant celui-ci.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "une grosse somme des membres",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression 'une grosse somme des membres' est sémantiquement incorrecte pour désigner une quantité de personnes. On utilise plutôt 'un grand nombre de membres'.",
+        "suggestions": [
+          "un grand nombre de membres"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur lexicale évidente : 'somme' s'applique à l'argent, pas aux personnes. 'Nombre' est le terme approprié.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "plaisent ,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "L'espace doit suivre le signe de ponctuation (la virgule) et non le précéder.",
+        "suggestions": [
+          "plaisent,"
+        ],
+        "ruleApplied": "4.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur typographique évidente : l'espace avant la virgule est une faute de frappe claire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "n'est plus",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution conjonctive 'à moins que' exige l'emploi du subjonctif.",
+        "suggestions": [
+          "ne soit plus"
+        ],
+        "ruleApplied": "4.1.2.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle grammaticale stricte : 'à moins que' est toujours suivi du subjonctif.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "les",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "La phrase est incomplète; il manque le sujet du verbe 'vont'. Cette erreur de syntaxe n'est pas comptabilisée, car il y en a déjà une dans la même phrase syntaxique.",
+        "suggestions": [
+          "les dommages visibles"
+        ],
+        "ruleApplied": "4.1.2.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Phrase manifestement incomplète : le texte passe d'une phrase à une autre avec un fragment isolé.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "authentique à sa comestibilité",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression 'authentique à' est incorrecte dans ce contexte. Il faut reformuler pour exprimer le lien, par exemple avec 'liée à' ou 'représentative de'.",
+        "suggestions": [
+          "liée à sa comestibilité",
+          "représentative de sa comestibilité"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Mauvais choix lexical : 'authentique' ne se construit pas avec 'à' et le sens recherché demande un autre terme.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.10",
+        "text": "en faveur avec",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution 'en faveur' doit être suivie de la préposition 'de' et non 'avec'.",
+        "suggestions": [
+          "en faveur de"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de préposition : 'en faveur de' est une locution figée qui n'accepte pas la substitution par 'avec'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.11",
+        "text": "ses étapes",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le déterminant possessif doit s'accorder avec le possesseur 'Les produits déchiquetés' (pluriel). Il faut donc utiliser 'leurs'.",
+        "suggestions": [
+          "leurs étapes"
+        ],
+        "ruleApplied": "4.1.2.3.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du déterminant possessif : 'ses' (singulier) ne peut renvoyer à un antécédent pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.12",
+        "text": "davantage du stock",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'adverbe de quantité 'davantage' doit être suivi de la préposition 'de' (ou d') sans article.",
+        "suggestions": [
+          "davantage de stock"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle grammaticale stricte : les adverbes de quantité sont suivis de 'de' sans article contracté.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.13",
+        "text": "transportation",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Le mot 'transportation' est un anglicisme. Le terme correct en français est 'transport'. Cette erreur de syntaxe n'est pas comptabilisée, car il y en a déjà une dans la même phrase syntaxique.",
+        "suggestions": [
+          "transport"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Anglicisme évident : 'transportation' n'existe pas en français. Le terme correct est 'transport'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.14",
+        "text": "425 les cinq prochaines années",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La phrase est mal construite et il manque un mot essentiel après le nombre '425' pour que la phrase ait un sens. Il faut aussi revoir la structure de la fin de la phrase.",
+        "suggestions": [
+          "425 magasins durant les cinq prochaines années"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Phrase manifestement incomplète : il manque le complément du nombre '425' pour que la phrase soit compréhensible.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.15",
+        "text": "valoir d'environ 6,7 de kilos",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction 'valoir de' est incorrecte. De plus, la préposition 'de' est superflue après le nombre. Il faut reformuler, par exemple : 'représenter environ 6,7 millions de kilos'.",
+        "suggestions": [
+          "représenter environ 6,7 kilos"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction syntaxique erronée : 'valoir de' n'existe pas et 'de' est superflu après le nombre.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.16",
+        "text": "contre gaspillage",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque l'article défini 'le' devant le nom 'gaspillage'.",
+        "suggestions": [
+          "contre le gaspillage"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Article manquant : le nom commun 'gaspillage' nécessite un déterminant dans ce contexte.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.17",
+        "text": "la d'aliments inutile",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque un mot essentiel (comme 'perte' ou 'destruction') après l'article 'la' pour que la phrase soit syntaxiquement correcte.",
+        "suggestions": [
+          "la perte d'aliments inutile"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Phrase manifestement incomplète : l'article 'la' n'est pas suivi d'un nom, rendant la structure agrammaticale.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.18",
+        "text": "16 février",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Un point est requis pour marquer la fin de la référence bibliographique.",
+        "suggestions": [
+          "16 février."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Les normes bibliographiques varient selon les guides. Certains acceptent l'absence de point final dans les références.",
+        "counterArgument": "Dans plusieurs guides de présentation bibliographique, notamment certains guides universitaires québécois, le point final n'est pas systématiquement exigé pour les références entre parenthèses ou en fin de texte. L'absence de point peut être un choix stylistique conforme au guide adopté par l'institution."
+      },
+      {
+        "id": "erreur4.19",
+        "text": "(2020) «",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule est requise pour séparer l'année du titre de l'article dans cette notice bibliographique.",
+        "suggestions": [
+          "(2020), «"
+        ],
+        "ruleApplied": "4.2.2.10.1.a",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Les normes bibliographiques varient : certains guides n'exigent pas de virgule après l'année entre parenthèses.",
+        "counterArgument": "Plusieurs formats bibliographiques (notamment des adaptations de l'APA) n'exigent pas de virgule après l'année entre parenthèses avant le titre. La présentation peut être conforme au guide bibliographique adopté par l'établissement."
+      },
+      {
+        "id": "erreur4.20",
+        "text": "23 novembre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Un point est requis pour marquer la fin de la référence bibliographique.",
+        "suggestions": [
+          "23 novembre."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Les normes bibliographiques varient selon les guides. Certains acceptent l'absence de point final dans les références.",
+        "counterArgument": "Dans plusieurs guides de présentation bibliographique, notamment certains guides universitaires québécois, le point final n'est pas systématiquement exigé pour les références entre parenthèses ou en fin de texte. L'absence de point peut être un choix stylistique conforme au guide adopté par l'institution."
+      },
+      {
+        "id": "erreur4.21",
+        "text": ",",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "La virgule est superflue avant 'par exemple' lorsque celui-ci est suivi d'un deux-points pour introduire une énumération ou une citation.",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.10.2.h",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "La virgule avant 'par exemple' suivi de deux-points n'est pas systématiquement fautive selon tous les grammairiens.",
+        "counterArgument": "Plusieurs grammairiens acceptent la virgule avant 'par exemple' même quand il introduit une énumération ou citation. La virgule permet de marquer une pause et séparer clairement l'expression introductive. Cette ponctuation peut être vue comme un choix stylistique acceptable."
+      },
+      {
+        "id": "erreur4.22",
+        "text": "les",
+        "occurenceIndex": 8,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Il manque un mot essentiel, le sujet du verbe 'vont'. La phrase est incomplète. Puisqu'il y a déjà une erreur de syntaxe (S) dans cette phrase ('n'est'), cette erreur n'est pas comptabilisée.",
+        "suggestions": [
+          "les dommages"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Phrase manifestement incomplète : le texte passe d'une phrase à une autre avec un fragment isolé.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.23",
+        "text": "comme vous pouvez voir",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression 'comme vous pouvez voir' est un calque de l'anglais 'as you can see'. En français, on privilégie 'comme vous pouvez le constater' ou 'comme on peut le voir'.",
+        "suggestions": [
+          "comme vous pouvez le constater"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Calque de l'anglais : 'voir' nécessite un complément d'objet ('le') en français. L'omission est une influence de l'anglais.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.24",
+        "text": "où",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Pour exprimer une limite ou une portée, l'interrogatif 'où' doit être précédé de 'jusqu''. Il manque donc le mot 'jusqu''.",
+        "suggestions": [
+          "jusqu'où"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Mot manquant : pour exprimer la limite dans une interrogative indirecte, 'jusqu'où' est requis, pas seulement 'où'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.25",
+        "text": "relatif",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "L'adjectif 'relatif' est utilisé de manière inappropriée et crée un problème de sens. Il devrait probablement être supprimé ou remplacé par 'un certain'. Puisqu'il y a déjà une erreur de syntaxe (S) dans cette phrase ('où'), cette erreur n'est pas comptabilisée.",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Choix lexical maladroit : 'respect relatif' n'est pas idiomatique. Probablement une confusion ou une mauvaise utilisation de l'adjectif.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "sans-habri",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot 'sans-abri' s'écrit avec un 'a' et non 'ha'.",
+        "suggestions": [
+          "sans-abri"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur orthographique évidente : la graphie correcte est bien attestée dans tous les dictionnaires.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "gaspilliés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'gaspillé', employé avec l'auxiliaire 'être', s'accorde en genre et en nombre avec le sujet 'Des millions de tonnes de nourriture'. Le noyau du sujet est 'tonnes' (féminin pluriel).",
+        "suggestions": [
+          "gaspillées"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente : le participe passé avec 'être' doit s'accorder avec le sujet féminin pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "leurs plaisent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom personnel 'leur' est invariable lorsqu'il est complément d'objet indirect d'un verbe, même si son antécédent ('les membres') est pluriel.",
+        "suggestions": [
+          "leur plaisent"
+        ],
+        "ruleApplied": "5.3.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur grammaticale évidente : le pronom COI 'leur' est invariable (sans 's' même au pluriel).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "négligent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'négliger' doit s'accorder avec son sujet 'une grosse somme', qui est au singulier.",
+        "suggestions": [
+          "néglige"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord sujet-verbe : le noyau du sujet 'une grosse somme' est singulier, le verbe doit l'être aussi.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "Et bien",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'interjection s'écrit 'Eh bien'.",
+        "suggestions": [
+          "Eh bien"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur orthographique courante mais bien documentée : l'interjection s'écrit 'Eh' et non 'Et'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "suivants",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'suivant' doit s'accorder en genre et en nombre avec le nom qu'il qualifie, 'raisons' (féminin pluriel).",
+        "suggestions": [
+          "suivantes"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente : l'adjectif doit s'accorder avec 'raisons' (féminin pluriel).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "lapresse.ca",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Les noms propres, y compris les noms de médias, commencent généralement par une majuscule.",
+        "suggestions": [
+          "LaPresse.ca"
+        ],
+        "ruleApplied": "5.2.4.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de majuscule : 'La Presse' est un nom propre (média) qui s'écrit avec majuscules. Le format Web est 'lapresse.ca' ou 'LaPresse.ca' selon les conventions, mais dans une référence formelle, la majuscule s'impose.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "transportation",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot 'transportation' est un anglicisme. Le terme français correct est 'transport'.",
+        "suggestions": [
+          "transport"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Anglicisme évident : 'transportation' n'existe pas en français. Le terme correct est 'transport'.",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 19,
+      "note": "E"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 8,
+      "note": "C"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 33,
+      "vraisErreurs": 29,
+      "discutables": 4,
+      "fauxPositifs": 0
+    }
+  },
+  "startTimestamp": "2025-12-12T11:43:52.747Z",
+  "endTimestamp": "2025-12-12T11:45:20.138Z",
+  "durationMs": 87391,
+  "durationFormatted": "01:27:391"
+}

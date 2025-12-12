@@ -1,0 +1,369 @@
+{
+  "processedAt": "2025-12-10T14:59:21.883Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_113.txt",
+    "originalText": "Le gaspillage alimentaire : Un cercle vicieux\r\n\r\nCher lectorat,\r\n\r\nSaviez-vous que des études démontrent que près de la moitié des canadiens sont irresponsables sur leur consommation alimentaire. (Table québécoise sur la saine alimentation, 2019) ? À l'heure d'aujourd'hui, nous avons raison de craindre que le Canada ne soit pas prêt à s'unir contre le gaspillage alimentaire. Malheureusement, notre génération tourne autour du marketting et, vous en conviendrez avec moi, la plupart d'entre nous sommes égoïstes peut être- même sans s'en rendre compte…\r\n\r\nD'une part, les méthodes de commercialisation des aliments sont des raisons qui expliquent pourquoi esperer un mouvement de lutte contre le gaspillage alimentaire, est comme esperer trouver une aiguille dans une botte de foin. Les aliments que nous nous devons de respecter se retrouvent transformer en vulgaires produits de marketting qui encouragent la surconsommation. Prenons pour exemple: les offres au supermarché. N'importe qui serait tenté d'acheter un produit rentable financièrement mais le problème est que façe à une belle offre, peu se demanderont si celui-ci l'est, écologiquement. Il a été un jour rapporté qu'une bonne partie des aliments qui sont vendus en format familial se retrouvent très souvent au compost (Simard, 2020). Tout comme la vente en gros, le deux pour un est également une technique de marketting qui pousse les consommateurs vers la surconsommation. Cela dit, ce sont peut-être des erreurs que nous faisons tous mais peut-on nous en vouloir pour ça? Je pense que si nous devons blâmer quelqu'un, ce sont les détaillants qui sont probablement conscients de leur actes.\r\n\r\nD'autre part, l'égoïsme du canadien est aussi un facteur qui nous éloigne, encore une fois, de la lumière. Sans même penser à ceux qui rêveraient d'être à notre place ou encore à notre prochain, nous faisons preuve d'ingratitude. Nous sommes aveugles façe à la chance que nous avons, tellement que nous cherchons toujours à avoir plus. Ce défaut que nous avons avons, participe à la dégradation écologïque et parfois cela arrive sans qu'on en prenne conscience. C'est également pour ça, cher lectorat, que je vous invite à suivre cette suite attentivement. Nous vivons dans un pays qui est soumit à des conditions météorologiques non-favorables à l'esthéticité de nos aliments, ce qui les rends plus difficiles à l'achat (Cameron, 2020). Nous devons en prendre conscience et arrêter de chercher la perfection. En restauration et en détail, il est inutile de rechercher des produits parfaits alors que les autres qui le sont un peu moins ont très probablement la même saveur et fraicheur. La Table québécoise sur la saine alimentation nous indique en 2019 que les normes de perfection esthétique en restauration occasionnent régulièrement du gaspillage. Ceci est le monde dans lequel nous vivons actuellement. Nous pouvons en vouloir qu'à nous même.\r\n\r\nPour conclure, il y aurait des tonnes de raisons qui expliqueraient pourquoi selon moi, le Canada ne serait pas prêt à lutter contre le gaspillage alimentaire mais j'espère vous avoir fait réfléchir sur la question avec à mon avis les deux plus gros facteurs : le marketting et l'égoïsme canadien. Peut-être sommes nous tous fautifs. Que serait le Canada si nous ne serions pas tombés dans ces pièges commerciaux ou que serait-il sans ces derniers?",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "sur",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Préposition erronée. La préposition « sur » est inadéquate dans ce contexte. On est « irresponsable dans » sa consommation.",
+        "suggestions": [
+          "dans"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "id": "erreur4.2",
+        "text": "À l'heure d'aujourd'hui",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Mot superflu. L'expression « à l'heure d'aujourd'hui » est un pléonasme. Il faut employer « aujourd'hui » ou « à l'heure actuelle ».",
+        "suggestions": [
+          "Aujourd'hui",
+          "À l'heure actuelle"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "id": "erreur4.3",
+        "text": ",",
+        "occurenceIndex": 4,
+        "criteria": 4,
+        "type": "P",
+        "description": "Présence erronée d'une virgule entre le verbe (« est ») et l'adverbe complément (« écologiquement »).",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.10.2.d"
+      },
+      {
+        "id": "erreur4.4",
+        "text": "tellement que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Subordonnant erroné. La locution « tellement que » est un calque de l'oral. Il faut utiliser « à tel point que » ou « si bien que ».",
+        "suggestions": [
+          "à tel point que",
+          "si bien que"
+        ],
+        "ruleApplied": "4.1.2.4.2"
+      },
+      {
+        "id": "erreur4.5",
+        "text": "avons avons",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Mot superflu. Le verbe « avons » est répété inutilement.",
+        "suggestions": [
+          "avons"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "id": "erreur4.6",
+        "text": "serions",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Mode erroné. Dans une phrase hypothétique introduite par « si », la proposition subordonnée est à l'imparfait (si nous n'étions pas tombés) lorsque la principale est au conditionnel (Que serait le Canada).",
+        "suggestions": [
+          "étions"
+        ],
+        "ruleApplied": "4.1.2.2.3"
+      },
+      {
+        "id": "erreur4.7",
+        "text": "?",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Ponctuation mal placée. Le point d'interrogation doit être placé avant la parenthèse fermante qui contient la référence.",
+        "suggestions": [
+          ")?"
+        ],
+        "ruleApplied": "4.2.1.5"
+      },
+      {
+        "id": "erreur4.8",
+        "text": ",",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Virgule erronée. Une virgule ne doit pas séparer le groupe sujet (ici, la proposition infinitive « esperer un mouvement... ») du verbe « est ».",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.10.2.a"
+      },
+      {
+        "id": "erreur4.9",
+        "text": "pouvons en vouloir qu'à",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction de phrase erronée. La négation restrictive « ne... que » est incomplète (absence du « ne »). De plus, le verbe pronominal « s'en vouloir » requiert le pronom réfléchi « nous ».",
+        "suggestions": [
+          "ne pouvons nous en vouloir qu'à"
+        ],
+        "ruleApplied": "4.1.2.1.3"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 7.5,
+      "note": "B"
+    },
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "Un",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Dans un titre, après un deux-points, la majuscule n'est généralement pas requise pour le mot qui suit, à moins qu'il ne s'agisse d'un nom propre.",
+        "suggestions": [
+          "un"
+        ],
+        "ruleApplied": "5.2.4.3"
+      },
+      {
+        "id": "erreur5.2",
+        "text": "canadiens",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Les gentilés (noms d'habitants) prennent une majuscule.",
+        "suggestions": [
+          "Canadiens"
+        ],
+        "ruleApplied": "5.2.4.1"
+      },
+      {
+        "id": "erreur5.3",
+        "text": "peut être-",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le trait d'union de l'adverbe « peut-être » est mal placé. Il doit unir « peut » et « être ».",
+        "suggestions": [
+          "peut-être"
+        ],
+        "ruleApplied": "5.2.1.7.1"
+      },
+      {
+        "id": "erreur5.4",
+        "text": "esperer",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Absence d'accent. L'infinitif du verbe « espérer » prend un accent aigu sur le deuxième « e ».",
+        "suggestions": [
+          "espérer"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.5",
+        "text": "esperer",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Absence d'accent. L'infinitif du verbe « espérer » prend un accent aigu sur le deuxième « e ». Il s'agit d'une répétition de la même erreur d'usage.",
+        "suggestions": [
+          "espérer"
+        ],
+        "ruleApplied": "5.1.3"
+      },
+      {
+        "id": "erreur5.6",
+        "text": "transformer",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « transformé », employé avec le verbe pronominal à sens passif « se retrouver », doit s'accorder en genre et en nombre avec le sujet « Les aliments ». Donneur: « Les aliments ».",
+        "suggestions": [
+          "transformés"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "id": "erreur5.7",
+        "text": "marketting",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Graphie erronée. Le mot d'origine anglaise « marketing » s'écrit avec un seul « t ».",
+        "suggestions": [
+          "marketing"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "id": "erreur5.8",
+        "text": "façe",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "La lettre « c » devant un « e » se prononce /s/ et ne prend donc jamais de cédille.",
+        "suggestions": [
+          "face"
+        ],
+        "ruleApplied": "5.2.1.2"
+      },
+      {
+        "id": "erreur5.9",
+        "text": "deux pour un",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Absence de trait d'union. L'expression nominale « deux-pour-un » s'écrit avec des traits d'union.",
+        "suggestions": [
+          "deux-pour-un"
+        ],
+        "ruleApplied": "5.2.1.7.1"
+      },
+      {
+        "id": "erreur5.10",
+        "text": "marketting",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Graphie erronée. Le mot d'origine anglaise « marketing » s'écrit avec un seul « t ». Il s'agit d'une répétition de la même erreur d'usage.",
+        "suggestions": [
+          "marketing"
+        ],
+        "ruleApplied": "5.1.3"
+      },
+      {
+        "id": "erreur5.11",
+        "text": "leur",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant possessif « leur » devient « leurs » lorsqu'il détermine un nom pluriel, ici « actes ».",
+        "suggestions": [
+          "leurs"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.12",
+        "text": "écologïque",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Graphie erronée. L'adjectif « écologique » ne prend pas de tréma sur le « i ».",
+        "suggestions": [
+          "écologique"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "id": "erreur5.13",
+        "text": "soumit",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Barbarisme de conjugaison. Le participe passé du verbe « soumettre » est « soumis ».",
+        "suggestions": [
+          "soumis"
+        ],
+        "ruleApplied": "5.3.2.1"
+      },
+      {
+        "id": "erreur5.14",
+        "text": "rends",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe « rendre » doit s'accorder à la 3e personne du singulier avec son sujet, le pronom relatif « qui » (mis pour « ce »).",
+        "suggestions": [
+          "rend"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.15",
+        "text": "fraicheur",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Absence d'accent. Le mot « fraîcheur » prend un accent circonflexe sur le « i ».",
+        "suggestions": [
+          "fraîcheur"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.16",
+        "text": "même",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « même » s'accorde en nombre avec le pronom « nous » auquel il se rapporte.",
+        "suggestions": [
+          "mêmes"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.17",
+        "text": "sommes nous",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Absence de trait d'union. L'inversion du pronom sujet après le verbe requiert un trait d'union.",
+        "suggestions": [
+          "sommes-nous"
+        ],
+        "ruleApplied": "5.2.1.10"
+      },
+      {
+        "id": "erreur5.18",
+        "text": "etarrêter",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Barbarisme orthographique. Les mots « et » et « arrêter » ont été fusionnés à tort.",
+        "suggestions": [
+          "et arrêter"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "id": "erreur5.19",
+        "text": "même",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord. L'adjectif « même » doit s'accorder en nombre avec le pronom « nous » qu'il renforce.",
+        "suggestions": [
+          "mêmes"
+        ],
+        "ruleApplied": "5.3.1.1"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 17,
+      "note": "D"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:54:11.551Z",
+    "endTimestamp": "2025-12-10T14:59:21.883Z",
+    "durationMs": 310332,
+    "durationFormatted": "05:10:332"
+  }
+}

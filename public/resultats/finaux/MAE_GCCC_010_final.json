@@ -1,0 +1,321 @@
+{
+  "processedAt": "2025-12-12T11:35:37.795Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_010.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_010.txt",
+    "registreIdentifie": "soutenu",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "de remédier",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution 'détermination' est suivie de la préposition 'à' et non 'de' lorsqu'elle est complétée par un verbe à l'infinitif.",
+        "suggestions": [
+          "à remédier"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction figée bien documentée. Le nom 'détermination' se construit avec 'à' devant un infinitif selon les dictionnaires de référence.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "Que ce soit en ressource ou en argent.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase est une subordonnée sans phrase matrice pour la compléter. Il faudrait l'intégrer à la phrase précédente.",
+        "suggestions": [
+          "...dispendieuse, que ce soit en ressources ou en argent."
+        ],
+        "ruleApplied": "4.1.2.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Phrase syntaxiquement incomplète. Une subordonnée circonstancielle ne peut exister seule sans phrase principale.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "Sans être surpris",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le participe 'surpris' est mal rattaché. Le sujet implicite du participe ('je' ou 'nous') n'est pas le sujet de la phrase principale ('peu d'entre eux'). Il faut reformuler.",
+        "suggestions": [
+          "Sans surprise"
+        ],
+        "ruleApplied": "4.1.2.1.7",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Participe présent détaché classique. Le sujet implicite du participe ne correspond pas au sujet de la phrase principale, créant une rupture de construction.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "leur",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom personnel 'leur' est incorrect. L'antécédent est 'L'entreprise Loop Mission', qui est un nom singulier. Il faut utiliser le pronom 'lui'.",
+        "suggestions": [
+          "lui"
+        ],
+        "ruleApplied": "4.1.2.3.2",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "L'antécédent 'L'entreprise Loop Mission' est grammaticalement singulier, mais peut être perçu comme un collectif désignant l'équipe ou les membres de l'entreprise.",
+        "counterArgument": "Bien que 'L'entreprise Loop Mission' soit grammaticalement singulier, il peut y avoir ici une syllepse où l'auteur pense aux personnes qui composent l'entreprise plutôt qu'à l'entité juridique elle-même. Dans ce cas, le pronom pluriel 'leur' serait acceptable. Cependant, la construction avec 'lui' reste préférable pour la cohérence grammaticale stricte."
+      },
+      {
+        "id": "erreur4.5",
+        "text": ",",
+        "occurenceIndex": 3,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une référence bibliographique se termine par un point, et non par une virgule.",
+        "suggestions": [
+          "."
+        ],
+        "ruleApplied": "4.2.2.1.2",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Dans le contexte du texte, cette référence est insérée entre parenthèses dans une phrase en cours. La virgule fait partie de la ponctuation de la phrase principale, pas de la référence.",
+        "counterArgument": "La référence bibliographique abrégée '(1)' est intégrée dans le corps du texte entre parenthèses, ce qui est une pratique courante pour les appels de note. La virgule qui suit appartient à la phrase principale et non à la référence elle-même. La référence complète en fin de texte se termine bien par un point. Cette construction est conforme aux normes de citation dans le corps du texte."
+      },
+      {
+        "id": "erreur4.6",
+        "text": "de remédier",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "La locution verbale 'avoir la détermination' se construit avec la préposition 'à' et non 'de'.",
+        "suggestions": [
+          "à remédier"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Même erreur que erreur4.1. Construction figée identique qui nécessite la préposition 'à'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "nous combattre contre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe 'combattre' est transitif direct. La construction pronominale 'se combattre' signifie 'se battre l'un contre l'autre'. Pour lutter contre un problème, on utilise 'combattre' ou 'se battre contre'.",
+        "suggestions": [
+          "combattre",
+          "nous battre contre"
+        ],
+        "ruleApplied": "4.1.2.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Emploi pronominal incorrect du verbe 'combattre'. La construction 'se combattre contre quelque chose' est redondante et fautive. On combat quelque chose ou on se bat contre quelque chose.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": ",",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une référence bibliographique se termine par un point, et non par une virgule.",
+        "suggestions": [
+          "."
+        ],
+        "ruleApplied": "4.2.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Dans la bibliographie finale, chaque référence doit se terminer par un point. Ici, la virgule avant le crochet fermant est incorrecte dans le format bibliographique.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "«Gaspillage",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une espace insécable est requise après le guillemet français ouvrant.",
+        "suggestions": [
+          "« Gaspillage"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique française claire et sans exception. Un guillemet français ouvrant doit être suivi d'une espace insécable.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.10",
+        "text": "au quebec]",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une référence bibliographique doit se terminer par un point final.",
+        "suggestions": [
+          "au quebec]."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Norme bibliographique claire. Toute référence bibliographique en fin de liste doit se terminer par un point.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "ressource",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'ressource' doit être au pluriel dans ce contexte pour signifier les différents types de ressources.",
+        "suggestions": [
+          "ressources"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le contexte 'Que ce soit en ressource ou en argent' présente une coordination parallèle où les deux termes représentent des catégories générales. Le pluriel s'impose pour 'ressources' comme terme générique.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "offerts",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'offert', employé avec l'auxiliaire 'être', s'accorde en genre et en nombre avec son sujet 'qui', mis pour 'les demandes' (féminin pluriel).",
+        "suggestions": [
+          "offertes"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle d'accord du participe passé avec l'auxiliaire être. L'antécédent 'demandes' est clairement féminin pluriel, l'accord est obligatoire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "prouve",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'prouver' doit s'accorder avec son sujet pluriel, composé de deux groupes nominaux coordonnés par 'et' : 'les importants sacrifices [...] et l'infime volonté'.",
+        "suggestions": [
+          "prouvent"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Sujet composé de deux groupes nominaux coordonnés par 'et'. L'accord au pluriel est obligatoire selon les règles de grammaire française.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "enjeux",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant 'cet' indique que le nom qui suit est au singulier. Le nom 'enjeu' doit donc être au singulier.",
+        "suggestions": [
+          "enjeu"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Discordance évidente entre le déterminant démonstratif singulier 'cet' et le nom pluriel 'enjeux'. L'accord est obligatoire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "le ⅘",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Dans un texte courant, il est préférable d'écrire les fractions en toutes lettres.",
+        "suggestions": [
+          "les quatre cinquièmes"
+        ],
+        "ruleApplied": "5.2.6.3",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "L'usage des symboles de fractions est généralement déconseillé dans les textes littéraires ou académiques, mais reste compréhensible et utilisé dans certains contextes journalistiques ou informatifs.",
+        "counterArgument": "Bien que l'écriture en toutes lettres soit préférable dans un texte formel, l'usage du symbole de fraction '⅘' reste acceptable dans certains contextes, notamment dans les textes informatifs ou journalistiques où la lisibilité visuelle peut être privilégiée. De plus, la correction suggère 'les quatre cinquièmes' (pluriel) alors que le texte utilise 'le' (singulier), ce qui nécessiterait également une correction de l'article."
+      },
+      {
+        "id": "erreur5.6",
+        "text": "terre",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le nom 'Terre', lorsqu'il désigne la planète, prend une majuscule.",
+        "suggestions": [
+          "Terre"
+        ],
+        "ruleApplied": "5.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique claire. Lorsque 'terre' désigne la planète (contexte astronomique ou écologique global), la majuscule est obligatoire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "enmatiere",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "La locution 'en matière' s'écrit en deux mots.",
+        "suggestions": [
+          "en matière"
+        ],
+        "ruleApplied": "5.2.6.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur typographique évidente. La locution prépositive 'en matière de' s'écrit toujours en mots séparés.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "en-cours",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "La locution 'en cours' s'écrit en deux mots, sans trait d'union.",
+        "suggestions": [
+          "en cours"
+        ],
+        "ruleApplied": "5.2.6.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur orthographique claire. La locution adverbiale 'en cours' ne prend jamais de trait d'union.",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 9,
+      "note": "C"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 7,
+      "note": "B"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 18,
+      "vraisErreurs": 15,
+      "discutables": 2,
+      "fauxPositifs": 1
+    }
+  },
+  "startTimestamp": "2025-12-12T11:34:47.753Z",
+  "endTimestamp": "2025-12-12T11:35:37.795Z",
+  "durationMs": 50042,
+  "durationFormatted": "00:50:042"
+}

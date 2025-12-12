@@ -1,0 +1,258 @@
+{
+  "processedAt": "2025-12-12T11:45:04.692Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_137.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_137.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "?».",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Présence erronée du point final. Lorsqu'une citation se termine par un point d'interrogation ou d'exclamation, celui-ci sert de ponctuation finale pour la phrase et il ne faut pas ajouter de point.",
+        "suggestions": [
+          "?»"
+        ],
+        "ruleApplied": "4.2.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique claire et non ambiguë en français : le point d'interrogation dans une citation remplace le point final.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "consistent",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Problème de sens. Le verbe \"consister\" est mal employé. Pour exprimer la conformité à des normes, il faut utiliser le verbe \"correspondre\".",
+        "suggestions": [
+          "correspondent"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'usage sémantique évidente. \"Consister\" signifie \"être composé de\" ou \"résider dans\", pas \"être conforme à\". Le verbe approprié est \"correspondre\".",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "au courant de",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Emploi d'une préposition erronée. L'expression correcte pour indiquer une période de temps est \"dans le courant de\" et non \"au courant de\".",
+        "suggestions": [
+          "dans le courant de"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion entre deux locutions figées : \"être au courant de\" (être informé) et \"dans le courant de\" (pendant la période). Le contexte exige clairement la seconde.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "montréalais.» (2)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence du point final. La phrase doit se terminer par un point, même si elle contient une citation et une référence entre parenthèses.",
+        "suggestions": [
+          "montréalais.» (2)."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Le point à l'intérieur des guillemets termine déjà la citation. La référence parenthétique fait partie intégrante de la citation dans le système de documentation auteur-date.",
+        "counterArgument": "Dans le système de citation auteur-date (style APA ou similaire), la référence parenthétique fait partie de la phrase et le point final de la citation sert également de ponctuation pour l'ensemble. Ajouter un second point après la parenthèse serait redondant et non conforme aux normes bibliographiques courantes. La construction actuelle est correcte."
+      },
+      {
+        "id": "erreur4.5",
+        "text": "mettent l'effort",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Calque de l'anglais. L'expression \"mettre l'effort\" est un calque de \"to put in the effort\". L'expression correcte en français est \"faire un effort\" ou \"fournir un effort\".",
+        "suggestions": [
+          "font l'effort",
+          "fournissent l'effort"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Calque manifeste de l'anglais. En français standard, on ne \"met\" pas un effort, on le \"fait\" ou on le \"fournit\".",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "2021)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence du point final à la fin de la référence bibliographique.",
+        "suggestions": [
+          "2021)."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Les références bibliographiques en liste ne requièrent généralement pas de point final dans la plupart des systèmes de citation (APA, MLA, Chicago abrégé).",
+        "counterArgument": "Dans une liste de références bibliographiques distincte du corps du texte, le point final n'est pas obligatoire selon plusieurs guides de style (notamment APA 7e édition pour les références courtes). La présence ou l'absence de point relève du choix du système de documentation adopté. Sans indication contraire, cette construction est acceptable."
+      },
+      {
+        "id": "erreur4.7",
+        "text": "2019)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence du point final à la fin de la référence bibliographique.",
+        "suggestions": [
+          "2019)."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Les références bibliographiques en liste ne requièrent généralement pas de point final dans la plupart des systèmes de citation (APA, MLA, Chicago abrégé).",
+        "counterArgument": "Dans une liste de références bibliographiques distincte du corps du texte, le point final n'est pas obligatoire selon plusieurs guides de style (notamment APA 7e édition pour les références courtes). La présence ou l'absence de point relève du choix du système de documentation adopté. Sans indication contraire, cette construction est acceptable."
+      },
+      {
+        "id": "erreur4.8",
+        "text": "maison.«En",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Un point est requis pour marquer la fin de la phrase avant d'introduire une citation qui constitue elle-même une phrase complète. Une espace est également nécessaire avant le guillemet ouvrant.",
+        "suggestions": [
+          "maison. «En"
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique française claire : une espace insécable doit précéder le guillemet ouvrant. Le point final est déjà présent, seule l'espace manque.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "d'avantage",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion entre l'adverbe \"davantage\" (signifiant \"plus\") et la locution nominale \"d'avantage\" (signifiant \"de profit\"). Dans ce contexte, c'est l'adverbe qui est requis.",
+        "suggestions": [
+          "davantage"
+        ],
+        "ruleApplied": "5.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion homophonique classique. Le contexte (protéger la planète \"plus\") exige clairement l'adverbe \"davantage\" en un seul mot.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "retailles",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Emploi d'un québécisme. Le mot \"retailles\" est un régionalisme. En français standard, on utilise \"rognures\" ou \"découpes\".",
+        "suggestions": [
+          "rognures",
+          "découpes"
+        ],
+        "ruleApplied": "5.2.1.8",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Le terme \"retailles\" est un québécisme légitime et largement utilisé au Québec dans le domaine alimentaire. L'OQLF reconnaît cet usage.",
+        "counterArgument": "Le mot \"retailles\" est un québécisme reconnu et couramment employé au Québec, notamment dans l'industrie alimentaire et textile. Dans le contexte d'un texte d'élève québécois portant sur une entreprise québécoise (Loop Mission), l'usage de ce régionalisme est tout à fait approprié et reflète la réalité linguistique locale. L'OQLF ne le condamne pas. Imposer \"rognures\" ou \"découpes\" serait artificiel dans ce contexte."
+      },
+      {
+        "id": "erreur5.3",
+        "text": "transformés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le participe passé et l'infinitif. La préposition \"de\" est suivie d'un verbe à l'infinitif (\"transformer\") et non d'un participe passé (\"transformés\").",
+        "suggestions": [
+          "transformer"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur grammaticale claire. Après la locution \"permettre de\", on doit utiliser l'infinitif, pas le participe passé.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "esthétiques",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord. L'adjectif \"esthétique\" doit s'accorder en genre et en nombre avec le nom qu'il qualifie, \"perfection\", qui est féminin singulier.",
+        "suggestions": [
+          "esthétique"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accord évidente. \"Perfection\" est féminin singulier, donc l'adjectif doit être \"esthétique\" au singulier, pas \"esthétiques\" au pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "produit",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord. Le verbe doit s'accorder avec le sujet pluriel \"Les normes trop sévères de perfection esthétique ou même la fraîcheur des aliments\". Le verbe se met donc à la 3e personne du pluriel.",
+        "suggestions": [
+          "produisent"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accord du verbe avec son sujet. Les deux groupes nominaux coordonnés par \"ou\" forment un sujet pluriel qui exige l'accord au pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "restants",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion lexicale. Il faut utiliser le nom masculin pluriel \"restes\" (ce qui reste d'un repas) et non l'adjectif \"restants\".",
+        "suggestions": [
+          "restes"
+        ],
+        "ruleApplied": "5.2.1.4",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Le terme \"restants\" au sens de \"restes alimentaires\" est un québécisme légitime et reconnu par l'OQLF. Dans le contexte québécois, les deux formes coexistent.",
+        "counterArgument": "Le mot \"restants\" employé comme substantif pour désigner les restes d'un repas est un québécisme reconnu et couramment utilisé au Québec. L'OQLF accepte cet usage qui fait partie intégrante du français québécois standard. Dans le contexte d'un texte d'élève québécois, cette forme est parfaitement légitime et ne constitue pas une erreur. Imposer systématiquement \"restes\" nierait la réalité linguistique québécoise."
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 5,
+      "note": "B"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 4,
+      "note": "B"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 14,
+      "vraisErreurs": 9,
+      "discutables": 0,
+      "fauxPositifs": 5
+    }
+  },
+  "startTimestamp": "2025-12-12T11:44:20.609Z",
+  "endTimestamp": "2025-12-12T11:45:04.692Z",
+  "durationMs": 44083,
+  "durationFormatted": "00:44:083"
+}

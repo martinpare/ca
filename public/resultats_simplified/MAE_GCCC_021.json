@@ -1,0 +1,824 @@
+{
+  "processedAt": "2025-12-10T14:16:16.353Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_021.txt",
+    "originalText": "Nombre de mot :\r\n\r\nRevendiquer contre le gaspillage alimentaire\r\n\r\nChers lecteurs,\r\n\r\nDepuis plusieurs années, le gaspillage alimentaire avait toujours des conséquences néfastes envers l'environnement et la réalité de s'en sortir n'est pas comme-même atteint. Avec tout les manières qu'on a pour éviter le gaspillage, sommes-nous prêts à s'opposer contre le gaspillage alimentaire ? À mon avis, nous sommes prêts à lutter contre le gaspillage. Je vais vous citer les façons d'éviter cette problème et l'importance de ne pas gaspiller les nourritures.\r\n\r\nPremièrement, nous n'avons pas de raisons de ne pas être prêts à lutter contre le gaspillage alimentaire avec tous les solutions qu’on a. À preuve, signaler dans une infographie « Le Gaspillage Alimentaire» ça mentionne que c'est suggéré qu'on achète des produits en grande quantité et il y a même des applications sur nos appareils comme Flash Food, FoodHero ou SecondLife qui permettent à acheter des nourritures dont la date d'expiration est proche (Ministère de l'Éducation 2022). Vous ne pensez pas que ces façons d'éviter sont superbe ? De plus, dans une article « À la Maison» mentionner par Florence-Léa Siry qui est une spécialiste en lutte contre le gaspillage alimentaire, la moitié du gaspillage alimentaire sont évitables chez nous (Corriveau, 2020). C'est fou comment on peut changer l'environnement dans notre planète avec des façons faciles. Bref, tous les manières d'éviter le gaspillage alimentaire que j'ai cité son quelques exemples qui peut s'appliquer dans notre vie pour aider l'environnement et j'en suis sûr qu'il y en a plus.\r\n\r\nDeuxièmement, le gaspillage alimentaire est tellement néfaste à l'environnement que ça créant des gaz à éffets de serres (GES) et défois j'oublie l'importance de ne pas gaspiller la nourriture. Avec la façon de recycler les produits citer dans une article « Production et Transformation des Aliments » monsieur Emmanuel Martinez mentionne que l'industrie québécoise Loop Mission transforme des produits gaspiller en jus, en savon et en alcool, mais mon problème avec ça est l'utilisation des machines pour transformer les restes parce que ça va causé encore plus de polutions. Que pensez-vous ?\r\n\r\nEn somme, je suis convaincu que nous sommes prêts à lutter contre le gaspillage alimentaire, à améliorer  l'environnement avec tout les solutions mentionné. Je vous souhaite que vous prendrez les habitudes de ne pas gaspiller l'alimentation . J'espère que vous avez appris certains informations citer dans cette lettre.",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "Revendiquer contre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe 'revendiquer' signifie 'réclamer ce qui est dû'. L'utiliser avec 'contre' crée une redondance ou un non-sens. Il serait plus juste d'utiliser un verbe comme 'lutter' ou 'agir'.",
+        "suggestions": [
+          "Lutter contre",
+          "Agir contre"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "id": "erreur4.2",
+        "text": "avait",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'indicateur de temps 'Depuis plusieurs années' requiert l'emploi du présent de l'indicatif pour une action qui a commencé dans le passé et qui continue dans le présent.",
+        "suggestions": [
+          "a"
+        ],
+        "ruleApplied": "4.1.2.2.3"
+      },
+      {
+        "id": "erreur4.3",
+        "text": "envers",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "La préposition 'envers' s'emploie généralement pour des personnes. Pour une chose comme 'l'environnement', il est préférable d'utiliser 'pour' ou 'sur'. L'erreur n'est pas comptée car il y a déjà une erreur de syntaxe dans cette phrase.",
+        "suggestions": [
+          "pour"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "id": "erreur4.4",
+        "text": "la réalité de s'en sortir",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette construction de phrase est boiteuse et manque de clarté. Il serait préférable de reformuler pour exprimer l'idée d'un objectif non atteint, par exemple.",
+        "suggestions": [
+          "l'objectif de régler ce problème"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "id": "erreur4.5",
+        "text": "s'opposer contre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe 's'opposer' se construit avec la préposition 'à'. L'emploi de 'contre' est incorrect.",
+        "suggestions": [
+          "s'opposer au"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "id": "erreur4.6",
+        "text": "signaler",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La phrase commence par un verbe à l'infinitif sans sujet ni verbe principal, ce qui constitue une rupture de construction. Il faut reformuler la phrase, par exemple en utilisant une tournure comme 'Comme le signale...'.",
+        "suggestions": [
+          "comme le signale"
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "id": "erreur4.7",
+        "text": "Alimentaire»",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une espace insécable avant le guillemet fermant.",
+        "suggestions": [
+          "Alimentaire »"
+        ],
+        "ruleApplied": "4.2.1.5"
+      },
+      {
+        "id": "erreur4.8",
+        "text": "ça mentionne",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "L'emploi du pronom 'ça' est familier. Dans un écrit formel, il est préférable d'utiliser un pronom de reprise comme 'celle-ci' (en référence à l'infographie) ou de reformuler. L'erreur n'est pas comptée car il y a déjà une erreur de syntaxe dans cette phrase.",
+        "suggestions": [
+          "celle-ci mentionne"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "id": "erreur4.9",
+        "text": "c'est suggéré",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "La tournure impersonnelle correcte est 'il est suggéré' et non 'c'est suggéré'. L'erreur n'est pas comptée car il y a déjà une erreur de syntaxe dans cette phrase.",
+        "suggestions": [
+          "il est suggéré"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "id": "erreur4.10",
+        "text": "permettent à acheter",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Le verbe 'permettre' se construit avec la préposition 'de' suivie de l'infinitif. L'erreur n'est pas comptée car il y a déjà une erreur de syntaxe dans cette phrase.",
+        "suggestions": [
+          "permettent d'acheter"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "id": "erreur4.11",
+        "text": "dans notre planète",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition correcte pour parler de la surface de la Terre est 'sur'.",
+        "suggestions": [
+          "sur notre planète"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "id": "erreur4.12",
+        "text": "ça créant",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la subordonnée est incorrecte. Il faut un pronom sujet ('il') et un verbe conjugué ('crée') à la place de 'ça' et du participe présent 'créant'.",
+        "suggestions": [
+          "qu'il crée"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "id": "erreur4.13",
+        "text": "prendrez",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe 'souhaiter' suivi de 'que' commande l'emploi du subjonctif dans la proposition subordonnée.",
+        "suggestions": [
+          "preniez"
+        ],
+        "ruleApplied": "4.1.2.2.3"
+      },
+      {
+        "id": "erreur4.14",
+        "text": "alimentation .",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une espace superflue se trouve avant le point final.",
+        "suggestions": [
+          "alimentation."
+        ],
+        "ruleApplied": "4.2.1.5"
+      },
+      {
+        "id": "erreur4.15",
+        "text": "s'appliquer dans",
+        "occurenceIndex": 149,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction 's'appliquer dans' est incorrecte. Le verbe 's'appliquer' se construit avec la préposition 'à'.",
+        "suggestions": [
+          "s'appliquer à"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 10,
+      "note": "C"
+    },
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "mot",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'mot' doit être au pluriel car il est précédé de 'Nombre de', qui implique une pluralité. La règle est que le nom qui suit 'nombre de' se met au pluriel.",
+        "suggestions": [
+          "mots"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.2",
+        "text": "comme-même",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "La locution 'comme-même' est un barbarisme. L'orthographe correcte est 'quand même'.",
+        "suggestions": [
+          "quand même"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "id": "erreur5.3",
+        "text": "atteint",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'atteint', employé comme adjectif, doit s'accorder en genre et en nombre avec le nom qu'il qualifie, 'la réalité' (féminin singulier).",
+        "suggestions": [
+          "atteinte"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "id": "erreur5.4",
+        "text": "tout",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant 'tout' doit s'accorder en genre et en nombre avec le nom qu'il détermine, 'manières' (féminin pluriel).",
+        "suggestions": [
+          "toutes"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.5",
+        "text": "cette",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant démonstratif 'cette' est féminin. Il doit s'accorder en genre avec le nom 'problème', qui est masculin.",
+        "suggestions": [
+          "ce"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.6",
+        "text": "les nourritures",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le nom 'nourriture' est généralement employé au singulier car il est indénombrable. L'emploi du pluriel est incorrect dans ce contexte.",
+        "suggestions": [
+          "la nourriture"
+        ],
+        "ruleApplied": "5.2.2"
+      },
+      {
+        "id": "erreur5.7",
+        "text": "tous",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant 'tous' doit s'accorder en genre et en nombre avec le nom qu'il détermine, 'solutions' (féminin pluriel).",
+        "suggestions": [
+          "toutes"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.8",
+        "text": "superbe",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'superbe' doit s'accorder en genre et en nombre avec le nom qu'il qualifie, 'façons' (féminin pluriel).",
+        "suggestions": [
+          "superbes"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.9",
+        "text": "une",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'article' est masculin. Le déterminant indéfini doit donc être 'un'.",
+        "suggestions": [
+          "un"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.10",
+        "text": "mentionner",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif '-er' et le participe passé '-é'. Ici, il faut le participe passé 'mentionné' qui s'accorde avec 'un article' (masculin singulier).",
+        "suggestions": [
+          "mentionné"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "id": "erreur5.11",
+        "text": "sont",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec son sujet 'la moitié', qui est un nom singulier. Le donneur d'accord est 'la moitié'.",
+        "suggestions": [
+          "est"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.12",
+        "text": "tous",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant 'tous' doit s'accorder en genre et en nombre avec le nom qu'il détermine, 'manières' (féminin pluriel).",
+        "suggestions": [
+          "toutes"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.13",
+        "text": "cité",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'cité', employé avec l'auxiliaire 'avoir', doit s'accorder avec le complément d'objet direct 'que' (mis pour 'manières', féminin pluriel) placé avant le verbe.",
+        "suggestions": [
+          "citées"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "id": "erreur5.14",
+        "text": "son",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'homophone grammatical 'son' (déterminant possessif) et 'sont' (verbe être à la 3e personne du pluriel).",
+        "suggestions": [
+          "sont"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "id": "erreur5.15",
+        "text": "peut",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'peut' doit s'accorder avec son sujet 'qui', qui reprend 'quelques exemples' (pluriel).",
+        "suggestions": [
+          "peuvent"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.16",
+        "text": "éffets",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage. Le mot 'effets' s'écrit avec un 'e' initial et deux 'f'.",
+        "suggestions": [
+          "effets"
+        ],
+        "ruleApplied": "5.2.1.6"
+      },
+      {
+        "id": "erreur5.17",
+        "text": "serres",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Dans l'expression 'gaz à effet de serre', le complément 'serre' reste au singulier car il qualifie 'effet'.",
+        "suggestions": [
+          "serre"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.18",
+        "text": "défois",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Barbarisme orthographique. La locution adverbiale 'des fois' s'écrit en deux mots.",
+        "suggestions": [
+          "des fois"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "id": "erreur5.19",
+        "text": "citer",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif '-er' et le participe passé '-ée'. Ici, il faut le participe passé 'citée' qui s'accorde avec 'la façon' (féminin singulier).",
+        "suggestions": [
+          "citée"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "id": "erreur5.20",
+        "text": "monsieur",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le titre de civilité 'monsieur' prend une majuscule lorsqu'il précède un nom propre.",
+        "suggestions": [
+          "Monsieur"
+        ],
+        "ruleApplied": "5.2.4.2"
+      },
+      {
+        "id": "erreur5.21",
+        "text": "gaspiller",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif '-er' et le participe passé '-és'. Ici, il faut le participe passé 'gaspillés' qui s'accorde avec 'produits' (masculin pluriel).",
+        "suggestions": [
+          "gaspillés"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "id": "erreur5.22",
+        "text": "causé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le participe passé '-é' et l'infinitif '-er'. Après le verbe semi-auxiliaire 'aller' (ici 'va'), on emploie l'infinitif.",
+        "suggestions": [
+          "causer"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "id": "erreur5.23",
+        "text": "polutions",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage. Le mot 'pollutions' s'écrit avec deux 'l'.",
+        "suggestions": [
+          "pollutions"
+        ],
+        "ruleApplied": "5.2.1.6"
+      },
+      {
+        "id": "erreur5.24",
+        "text": "mentionné",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "Le participe passé 'mentionné' doit s'accorder avec le nom qu'il qualifie, 'solutions' (féminin pluriel). Le donneur d'accord étant 'solutions', cette erreur n'est pas comptée.",
+        "suggestions": [
+          "mentionnées"
+        ],
+        "ruleApplied": "5.4.2.1"
+      },
+      {
+        "id": "erreur5.25",
+        "text": "certains",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant 'certains' doit s'accorder en genre et en nombre avec le nom qu'il détermine, 'informations' (féminin pluriel). Le donneur d'accord est 'informations'.",
+        "suggestions": [
+          "certaines"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.26",
+        "text": "citer",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "Confusion entre l'infinitif '-er' et le participe passé '-ées'. Ici, il faut le participe passé 'citées' qui s'accorde avec 'informations' (féminin pluriel). Le donneur d'accord étant 'informations', cette erreur n'est pas comptée.",
+        "suggestions": [
+          "citées"
+        ],
+        "ruleApplied": "5.4.2.1"
+      },
+      {
+        "id": "erreur5.27",
+        "text": "comme-même",
+        "occurenceIndex": 20,
+        "criteria": 5,
+        "type": "U",
+        "description": "Barbarisme orthographique. La locution adverbiale correcte est 'quand même'.",
+        "suggestions": [
+          "quand même"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "id": "erreur5.28",
+        "text": "atteint",
+        "occurenceIndex": 21,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'atteint' doit s'accorder en genre avec son sujet 'la réalité' (féminin singulier).",
+        "suggestions": [
+          "atteinte"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "id": "erreur5.29",
+        "text": "tout",
+        "occurenceIndex": 24,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant 'tout' doit s'accorder en genre et en nombre avec le nom qu'il détermine, 'manières' (féminin pluriel).",
+        "suggestions": [
+          "toutes"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.30",
+        "text": "cette",
+        "occurenceIndex": 52,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant démonstratif 'cette' (féminin) ne s'accorde pas en genre avec le nom 'problème' (masculin).",
+        "suggestions": [
+          "ce"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.31",
+        "text": "les nourritures",
+        "occurenceIndex": 60,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'nourriture' est généralement un nom non comptable et s'emploie au singulier dans ce contexte.",
+        "suggestions": [
+          "la nourriture"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.32",
+        "text": "tous",
+        "occurenceIndex": 18,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant 'tous' doit s'accorder en genre et en nombre avec le nom qu'il détermine, 'solutions' (féminin pluriel).",
+        "suggestions": [
+          "toutes"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.33",
+        "text": "superbe",
+        "occurenceIndex": 86,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif attribut 'superbe' doit s'accorder en nombre avec le sujet 'ces façons d'éviter' (pluriel).",
+        "suggestions": [
+          "superbes"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.34",
+        "text": "une",
+        "occurenceIndex": 91,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant 'une' (féminin) ne s'accorde pas en genre avec le nom 'article' (masculin).",
+        "suggestions": [
+          "un"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.35",
+        "text": "mentionner",
+        "occurenceIndex": 96,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif en '-er' et le participe passé en '-é'. Le participe passé 'mentionné' est requis ici.",
+        "suggestions": [
+          "mentionné"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "id": "erreur5.36",
+        "text": "sont",
+        "occurenceIndex": 114,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec le sujet 'la moitié' (singulier).",
+        "suggestions": [
+          "est"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.37",
+        "text": "tous",
+        "occurenceIndex": 134,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant 'tous' doit s'accorder en genre et en nombre avec le nom qu'il détermine, 'manières' (féminin pluriel).",
+        "suggestions": [
+          "toutes"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.38",
+        "text": "cité",
+        "occurenceIndex": 143,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'cité', employé avec l'auxiliaire 'avoir', doit s'accorder avec le complément d'objet direct 'que' (mis pour 'manières', féminin pluriel) qui le précède.",
+        "suggestions": [
+          "citées"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "id": "erreur5.39",
+        "text": "son",
+        "occurenceIndex": 144,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'homophone grammatical 'son' (déterminant possessif) et 'sont' (verbe être).",
+        "suggestions": [
+          "sont"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "id": "erreur5.40",
+        "text": "peut",
+        "occurenceIndex": 147,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'peut' doit s'accorder avec son sujet 'qui' (mis pour 'quelques exemples', pluriel).",
+        "suggestions": [
+          "peuvent"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.41",
+        "text": "éffets",
+        "occurenceIndex": 15,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage sur le redoublement de la consonne. Le mot 'effets' s'écrit avec deux 'f'.",
+        "suggestions": [
+          "effets"
+        ],
+        "ruleApplied": "5.2.1.6"
+      },
+      {
+        "id": "erreur5.42",
+        "text": "serres",
+        "occurenceIndex": 17,
+        "criteria": 5,
+        "type": "G",
+        "description": "Dans l'expression 'gaz à effet de serre', le complément 'serre' reste au singulier.",
+        "suggestions": [
+          "serre"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.43",
+        "text": "défois",
+        "occurenceIndex": 21,
+        "criteria": 5,
+        "type": "U",
+        "description": "Barbarisme orthographique. La locution 'des fois' s'écrit en deux mots.",
+        "suggestions": [
+          "des fois"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "id": "erreur5.44",
+        "text": "citer",
+        "occurenceIndex": 35,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif en '-er' et le participe passé en '-é'. Le participe passé 'citée' est requis, en accord avec 'la façon'.",
+        "suggestions": [
+          "citée"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "id": "erreur5.45",
+        "text": "une",
+        "occurenceIndex": 37,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant 'une' (féminin) ne s'accorde pas en genre avec le nom 'article' (masculin).",
+        "suggestions": [
+          "un"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.46",
+        "text": "gaspiller",
+        "occurenceIndex": 61,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif en '-er' et le participe passé en '-é'. Le participe passé 'gaspillés' est requis, en accord avec 'produits'.",
+        "suggestions": [
+          "gaspillés"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "id": "erreur5.47",
+        "text": "causé",
+        "occurenceIndex": 83,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif en '-er' et le participe passé en '-é'. Après le verbe 'aller' au futur proche, l'infinitif 'causer' est requis.",
+        "suggestions": [
+          "causer"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "id": "erreur5.48",
+        "text": "polutions",
+        "occurenceIndex": 86,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage. Le mot 'pollutions' s'écrit avec deux 'l'.",
+        "suggestions": [
+          "pollutions"
+        ],
+        "ruleApplied": "5.2.1.6"
+      },
+      {
+        "id": "erreur5.49",
+        "text": "tout",
+        "occurenceIndex": 20,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant 'tout' doit s'accorder en genre et en nombre avec le nom qu'il détermine, 'solutions' (féminin pluriel).",
+        "suggestions": [
+          "toutes"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.50",
+        "text": "certains",
+        "occurenceIndex": 45,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant 'certains' doit s'accorder en genre avec le nom 'informations' (féminin).",
+        "suggestions": [
+          "certaines"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.51",
+        "text": "citer",
+        "occurenceIndex": 47,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif en '-er' et le participe passé en '-é'. Le participe passé 'citées' est requis, en accord avec 'informations'.",
+        "suggestions": [
+          "citées"
+        ],
+        "ruleApplied": "5.3.2.6"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 49,
+      "note": "E"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:09:44.769Z",
+    "endTimestamp": "2025-12-10T14:16:16.353Z",
+    "durationMs": 391584,
+    "durationFormatted": "06:31:584"
+  }
+}

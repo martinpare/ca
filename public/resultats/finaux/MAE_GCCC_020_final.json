@@ -1,0 +1,530 @@
+{
+  "processedAt": "2025-12-12T11:36:10.068Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_020.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_020.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "parlé",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction passive avec le verbe 'parler' est boiteuse et non idiomatique. Il faut utiliser une tournure active ou une autre expression comme 'n'est plus abordé'.",
+        "suggestions": [
+          "abordé"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le verbe 'parler' ne se construit pas au passif en français standard. Cette construction est incorrecte et doit être corrigée.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "et le COVID-19",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Dans une énumération introduite par une préposition ('de' dans 'à cause de'), cette préposition doit être répétée devant chaque élément. Il manque 'de la' devant 'COVID-19'.",
+        "suggestions": [
+          "et de la COVID-19"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle de répétition de la préposition dans une énumération. L'omission crée une rupture de construction.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "nuit notre planète",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe 'nuire' est un verbe transitif indirect qui se construit avec la préposition 'à'.",
+        "suggestions": [
+          "nuit à notre planète"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de construction verbale. Le verbe 'nuire' exige toujours la préposition 'à'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "plus la moitié",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque la préposition 'de' dans la locution 'plus de la moitié'.",
+        "suggestions": [
+          "plus de la moitié"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "La locution figée 'plus de la moitié' exige la préposition 'de'. Son absence constitue une faute syntaxique.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "(Martinez, Emmanuel 2021)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "La virgule est manquante entre le nom de l'auteur et l'année de publication dans cette référence de style parenthétique.",
+        "suggestions": [
+          "(Martinez, Emmanuel, 2021)"
+        ],
+        "ruleApplied": "4.2.2.10.1.a",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Les conventions de citation varient selon les guides de style. Certains styles acceptent l'absence de virgule avant l'année.",
+        "counterArgument": "Les conventions bibliographiques varient selon les guides de style (APA, MLA, Chicago, etc.). Certains styles n'exigent pas de virgule avant l'année. Dans un texte scolaire, cette référence informelle peut être acceptable si elle respecte les consignes données par l'enseignant."
+      },
+      {
+        "id": "erreur4.6",
+        "text": "juste",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'adverbe 'juste' dans le sens de 'seulement' est un calque de l'oral. Il est préférable d'utiliser 'seulement' ou la tournure 'ne... que'.",
+        "suggestions": [
+          "seulement"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "L'emploi de 'juste' au sens de 'seulement' est largement répandu au Québec et commence à être accepté dans certains contextes.",
+        "counterArgument": "L'usage de 'juste' au sens de 'seulement' est un québécisme oral très répandu. Bien que considéré comme familier, il est de plus en plus toléré dans un registre courant au Québec. Dans un texte scolaire, cela pourrait être considéré comme un choix stylistique reflétant la langue régionale, bien que 'seulement' soit préférable en registre soutenu."
+      },
+      {
+        "id": "erreur4.7",
+        "text": "dépendre comment",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Le verbe 'dépendre' se construit avec la préposition 'de'. Il manque 'de' avant 'comment'. Une seule erreur de syntaxe est comptée par phrase.",
+        "suggestions": [
+          "dépendre de comment"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le verbe 'dépendre' exige la préposition 'de' dans sa construction. L'omission est une faute syntaxique.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "parlé",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "S",
+        "description": "La tournure passive « est parlé » est incorrecte dans ce contexte. Il faut utiliser une tournure active comme « on ne parle plus du gaspillage alimentaire ».",
+        "suggestions": [
+          "on ne parle plus du gaspillage alimentaire"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de la même erreur identifiée en erreur4.1. Le verbe 'parler' ne se construit pas au passif.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "» 2021,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule pour isoler l'élément « 2021 » qui est en apposition au titre de l'article.",
+        "suggestions": [
+          "», 2021,"
+        ],
+        "ruleApplied": "4.2.2.10.1.i",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Les conventions de citation varient. La virgule après le guillemet fermant n'est pas toujours exigée dans tous les styles.",
+        "counterArgument": "Dans une citation informelle intégrée au texte, la ponctuation peut varier selon les conventions adoptées. Certains guides acceptent que l'année suive directement le guillemet fermant sans virgule intermédiaire, surtout dans un contexte scolaire où les normes bibliographiques strictes ne sont pas toujours exigées."
+      },
+      {
+        "id": "erreur4.10",
+        "text": "essaie déjà à",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe « essayer » se construit avec la préposition « de » devant un infinitif, et non « à ».",
+        "suggestions": [
+          "essaie déjà de"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de construction verbale. Le verbe 'essayer' exige la préposition 'de' devant un infinitif.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.11",
+        "text": "qualification",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le mot « qualification » est inapproprié dans ce contexte. Il faut utiliser un mot comme « exigences », « critères » ou « attentes » pour exprimer l'idée correctement.",
+        "suggestions": [
+          "aux exigences",
+          "aux critères"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Impropriété lexicale. 'Qualification' ne convient pas au contexte où l'on parle de normes ou de critères de qualité.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.12",
+        "text": "d'un fruit et légume",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Dans une énumération, il faut répéter le déterminant (ici « un », élidé en « d'un ») devant chaque nom pour plus de clarté.",
+        "suggestions": [
+          "d'un fruit et d'un légume"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "La répétition du déterminant est recommandée mais non obligatoire dans tous les contextes, surtout quand les éléments forment un ensemble conceptuel.",
+        "counterArgument": "Bien que la répétition du déterminant soit généralement préférable pour la clarté, l'expression 'fruits et légumes' est si couramment utilisée comme une unité conceptuelle qu'elle peut accepter un seul déterminant. Cette construction est fréquente dans l'usage courant et ne nuit pas à la compréhension."
+      },
+      {
+        "id": "erreur4.13",
+        "text": "Elle",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom « Elle » a un référent ambigu. Il semble reprendre « la météo », mais le sens logique voudrait qu'il reprenne l'idée de l'apparence des produits. L'utilisation de « Cela » serait plus claire.",
+        "suggestions": [
+          "Cela"
+        ],
+        "ruleApplied": "4.1.2.3.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Ambiguïté référentielle créant un problème de cohérence textuelle. Le pronom ne reprend pas clairement son antécédent.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.14",
+        "text": "savent",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe « savoir » signifie « avoir la connaissance de » ou « être capable de ». Dans ce contexte, un verbe comme « choisissent de » ou « préfèrent » serait plus approprié pour indiquer une décision ou une préférence.",
+        "suggestions": [
+          "choisissent de",
+          "préfèrent"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Impropriété lexicale. Le verbe 'savoir' ne convient pas pour exprimer un choix délibéré ou une préférence.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.15",
+        "text": "2021)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque le point final pour clore la phrase avant la parenthèse de la source.",
+        "suggestions": [
+          "2021)."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Absence du point final obligatoire pour clore une phrase déclarative. Erreur de ponctuation évidente.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "c'est",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'homophone grammatical 'c'est' (cela est) et le pronom réfléchi 's'est' qui fait partie du verbe pronominal 'se débarrasser' au passé composé.",
+        "suggestions": [
+          "s'est"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion évidente entre homophones. Le contexte exige clairement le verbe pronominal 'se débarrasser' au passé composé.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "débarrasser",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après l'auxiliaire 'être' (contenu dans 's'est'), le verbe doit être au participe passé. Confusion entre la désinence de l'infinitif '-er' et celle du participe passé '-é'.",
+        "suggestions": [
+          "débarrassé"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de conjugaison évidente. Après l'auxiliaire être, le verbe doit être au participe passé, non à l'infinitif.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "importantes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'importantes' doit s'accorder en genre et en nombre avec le nom qu'il qualifie, 'enjeux mondiaux', qui est masculin pluriel.",
+        "suggestions": [
+          "importants"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en genre. L'adjectif doit s'accorder avec 'enjeux', nom masculin pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "elle",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom 'elle' doit s'accorder en genre avec son antécédent, 'le gaspillage', qui est masculin. Il faut utiliser 'il'.",
+        "suggestions": [
+          "il"
+        ],
+        "ruleApplied": "5.3.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en genre du pronom avec son antécédent. 'Le gaspillage' est masculin.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "utilisent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'utilisent' doit s'accorder avec son sujet, le pronom relatif 'qui' qui reprend 'tout ce'. 'Tout ce' est singulier et commande l'accord à la 3e personne du singulier.",
+        "suggestions": [
+          "utilise"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du verbe avec son sujet. 'Tout ce qui' est singulier et exige la troisième personne du singulier.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "million",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'million', lorsqu'il est multiplié (ici, par 931), prend la marque du pluriel.",
+        "suggestions": [
+          "millions"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en nombre. Le nom numéral 'million' prend le pluriel quand il est multiplié.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "nourritures",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'nourriture' est généralement indénombrable dans ce contexte et doit rester au singulier.",
+        "suggestions": [
+          "nourriture"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'usage. 'Nourriture' est un nom massif qui reste généralement au singulier dans ce type de contexte.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "gaspillés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'gaspillés', employé avec l'auxiliaire 'être', doit s'accorder avec le sujet. Le noyau du groupe sujet est 'tonnes', qui est féminin pluriel.",
+        "suggestions": [
+          "gaspillées"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du participe passé avec le sujet. 'Tonnes' est féminin pluriel et commande l'accord.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "provent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Barbarisme de conjugaison. La forme correcte du verbe 'provenir' à la troisième personne du pluriel du présent de l'indicatif est 'proviennent'.",
+        "suggestions": [
+          "proviennent"
+        ],
+        "ruleApplied": "5.3.2.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Barbarisme de conjugaison. La forme 'provent' n'existe pas en français.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.10",
+        "text": "touchent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'touchent' doit s'accorder avec son sujet 'on', qui commande la troisième personne du singulier.",
+        "suggestions": [
+          "touche"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du verbe avec le pronom 'on', qui est toujours singulier.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.11",
+        "text": "vont",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'vont' doit s'accorder avec son sujet 'La nourriture', qui est singulier.",
+        "suggestions": [
+          "va"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du verbe avec son sujet singulier 'La nourriture'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.12",
+        "text": "réssoudre",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Graphie erronée du verbe 'résoudre'. Il ne prend qu'un seul 's'.",
+        "suggestions": [
+          "résoudre"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe d'usage. Le verbe 'résoudre' ne prend qu'un seul 's'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.13",
+        "text": "qualités",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Dans la locution 'de qualité', le nom 'qualité' reste au singulier car il désigne une caractéristique générale.",
+        "suggestions": [
+          "qualité"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur dans une locution figée. 'De qualité' reste au singulier dans ce contexte.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.14",
+        "text": "avent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion entre les homophones 'avent' (période religieuse) et 'avant' (préposition de temps).",
+        "suggestions": [
+          "avant"
+        ],
+        "ruleApplied": "5.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion évidente entre homophones. Le contexte exige la préposition temporelle 'avant'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.15",
+        "text": "près",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'adverbe 'près' (proximité) et l'adjectif 'prêt'. Ici, 'prêt' doit s'accorder avec 'on' (représentant 'nous'), donc au masculin pluriel.",
+        "suggestions": [
+          "prêts"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion entre homophones et erreur d'accord. Dans 'on n'est pas prêt', l'adjectif 'prêt' doit s'accorder avec le référent de 'on' (nous), donc 'prêts'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.16",
+        "text": "jettent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'jettent' doit s'accorder avec son sujet 'on', qui commande la troisième personne du singulier.",
+        "suggestions": [
+          "jette"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du verbe avec le pronom 'on', qui est toujours singulier.",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 12,
+      "note": "D"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 16,
+      "note": "E"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 31,
+      "vraisErreurs": 27,
+      "discutables": 4,
+      "fauxPositifs": 0
+    }
+  },
+  "startTimestamp": "2025-12-12T11:34:47.754Z",
+  "endTimestamp": "2025-12-12T11:36:10.068Z",
+  "durationMs": 82314,
+  "durationFormatted": "01:22:314"
+}

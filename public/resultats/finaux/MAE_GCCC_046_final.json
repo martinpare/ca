@@ -1,0 +1,584 @@
+{
+  "processedAt": "2025-12-12T11:39:13.322Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_046.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_046.txt",
+    "registreIdentifie": "soutenu",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "inévidente",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'adjectif 'inévidente' (qui n'est pas évidente) crée un contresens dans le titre. Le contexte du texte, qui traite du gaspillage alimentaire, suggère plutôt l'emploi de 'évidente' (manifeste) ou 'inévitable' (à laquelle on ne peut échapper).",
+        "suggestions": [
+          "évidente",
+          "inévitable"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le mot 'inévidente' existe mais crée un contresens évident dans le contexte. L'auteur cherche manifestement à exprimer une responsabilité 'inévitable' ou 'évidente', et non 'qui n'est pas évidente'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "était inventée",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'emploi de l'imparfait passif ('était inventée') est inadéquat pour décrire un événement achevé au XXe siècle. Le passé composé ('a été inventée') ou le passé simple ('fut inventée') sont plus appropriés pour marquer l'accomplissement de l'action.",
+        "suggestions": [
+          "a été inventée",
+          "fut inventée"
+        ],
+        "ruleApplied": "4.1.2.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "L'imparfait ne convient pas pour un événement historique ponctuel et achevé. Le passé composé ou le passé simple sont requis pour marquer l'aspect accompli.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "il possède",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom de reprise 'il' est superflu et crée une rupture syntaxique (anacoluthe). Le sujet 'chaque dépanneur' devrait être directement suivi de son verbe.",
+        "suggestions": [
+          "possède"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Anacoluthe claire. La phrase correcte est : 'À chaque dépanneur qu'on rencontre aujourd'hui, on trouve presque tous les aliments' ou 'Chaque dépanneur qu'on rencontre possède...'",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "battre contre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction 'battre contre' est incorrecte. On peut 'se battre contre' quelque chose, 'lutter contre' quelque chose, ou encore 'battre' quelque chose (le vaincre).",
+        "suggestions": [
+          "lutter contre",
+          "se battre contre"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de construction verbale. Le verbe 'battre' transitif direct (vaincre) ne se construit pas avec 'contre'. Il faut 'lutter contre' ou 'se battre contre'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "sur",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition 'sur' est incorrecte dans ce contexte. On parle de 'la gestion de la nourriture par les consommateurs'.",
+        "suggestions": [
+          "de la nourriture par les consommateurs"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Mauvais emploi de la préposition. 'Gestion' se construit avec 'de' (gestion de quelque chose), pas 'sur'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "je m'oppose à notre compétence de lutter",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression 's'opposer à une compétence' est sémantiquement incorrecte. Il serait plus juste de dire 'je doute de notre capacité à lutter' ou 'je ne crois pas en notre capacité de lutter'.",
+        "suggestions": [
+          "je doute de notre capacité à lutter"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction sémantiquement incohérente. On s'oppose à une action, à une décision, mais pas à une compétence. Le sens visé est clairement 'douter de' ou 'nier'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "elle indique",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom de reprise 'elle' est superflu et crée une rupture syntaxique. Le complément de phrase 'Selon une étude...' devrait être directement suivi de la proposition principale.",
+        "suggestions": [
+          "indique"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Anacoluthe. La phrase correcte est : 'Selon une étude du Conseil, 2,2 millions de tonnes...' Le pronom de reprise crée une rupture fautive.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "aux années futures",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition 'à' (contractée en 'aux') est incorrecte. On parle de ce qui se passera 'dans' les années futures ou 'pour' les années futures.",
+        "suggestions": [
+          "dans les années futures",
+          "pour les années futures"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Mauvaise préposition. La localisation temporelle requiert 'dans' ou 'pour', pas 'à'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "de nombre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "L'expression 'croissance rapide de nombre' est incomplète. Il manque un déterminant ou un adjectif pour préciser le nom 'nombre', par exemple 'de notre nombre' ou 'démographique'. L'erreur n'est pas comptée, car il y a déjà une erreur de syntaxe dans cette phrase.",
+        "suggestions": [
+          "de notre nombre",
+          "démographique"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Expression incomplète. 'Croissance rapide de nombre' est elliptique et peu idiomatique. Il faut 'croissance démographique' ou 'croissance de notre nombre'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.10",
+        "text": "lutter ces pertes",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe 'lutter' est un verbe transitif indirect qui se construit avec la préposition 'contre'. Il manque donc la préposition 'contre' devant le complément 'ces pertes'.",
+        "suggestions": [
+          "lutter contre ces pertes"
+        ],
+        "ruleApplied": "4.1.2.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction verbale incorrecte. 'Lutter' requiert obligatoirement la préposition 'contre'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.11",
+        "text": "connaissance sur",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution 'manque de connaissance' se construit avec la préposition 'de' et non 'sur'. On a un manque de connaissance 'de' quelque chose.",
+        "suggestions": [
+          "connaissance de"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Mauvaise préposition. 'Connaissance' se construit avec 'de', pas 'sur'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.12",
+        "text": "un facteur le moins bien compris",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'emploi du superlatif 'le moins bien compris' requiert l'utilisation de l'article défini 'le' devant le nom 'facteur'. Il faut écrire 'le facteur le moins bien compris'.",
+        "suggestions": [
+          "le facteur le moins bien compris"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'article avec superlatif. L'article indéfini 'un' est incompatible avec le superlatif 'le moins bien compris' qui requiert l'article défini.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.13",
+        "text": "En addition",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution 'En addition' est un calque de l'anglais 'In addition'. En français, on utilise 'De plus' ou 'En outre'.",
+        "suggestions": [
+          "De plus",
+          "En outre"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Calque évident de l'anglais. 'En addition' n'existe pas en français comme marqueur de relation.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.14",
+        "text": "dans les marchés",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "La préposition correcte pour indiquer la disponibilité d'un produit est 'sur'. On trouve des denrées 'sur' les marchés. L'erreur n'est pas comptée, car il y a déjà une erreur de syntaxe dans cette phrase.",
+        "suggestions": [
+          "sur les marchés"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Bien que 'sur les marchés' soit plus idiomatique, 'dans les marchés' peut se défendre pour désigner l'intérieur des commerces.",
+        "counterArgument": "La préposition 'dans' est acceptable pour désigner l'intérieur d'un lieu commercial. Bien que 'sur les marchés' soit plus fréquent dans le sens abstrait de 'disponible commercialement', 'dans les marchés' peut se justifier pour désigner physiquement l'intérieur des magasins ou épiceries."
+      },
+      {
+        "id": "erreur4.15",
+        "text": "comme surplus",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition 'comme' est incorrecte ici. On achète des aliments 'en' surplus.",
+        "suggestions": [
+          "en surplus"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Mauvaise préposition. L'expression correcte est 'en surplus' et non 'comme surplus'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.16",
+        "text": "en avance",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "L'expression correcte est 'à l'avance'. L'erreur n'est pas comptée, car il y a déjà une erreur de syntaxe dans cette phrase.",
+        "suggestions": [
+          "à l'avance"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Expression figée incorrecte. On planifie 'à l'avance', pas 'en avance' dans ce contexte.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.17",
+        "text": "résister contre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe 'résister' est un verbe transitif indirect qui se construit avec la préposition 'à'. On résiste 'à' quelque chose.",
+        "suggestions": [
+          "résister au"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction verbale incorrecte. 'Résister' se construit obligatoirement avec 'à', pas 'contre'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.18",
+        "text": "manières à gérer",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "La préposition 'à' est incorrecte. On parle de 'manières de gérer'. L'erreur n'est pas comptée, car il y a déjà une erreur de syntaxe dans cette phrase.",
+        "suggestions": [
+          "manières de gérer"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Mauvaise préposition. 'Manière' se construit avec 'de' devant un infinitif, pas 'à'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.19",
+        "text": "accessibilité sur",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le nom 'accessibilité' se construit avec la préposition 'à'. On parle de l'accessibilité 'à' la nourriture.",
+        "suggestions": [
+          "accessibilité à"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Mauvaise préposition. 'Accessibilité' se construit avec 'à', pas 'sur'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.20",
+        "text": "reste",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "L'indicateur de temps 'au futur' exige l'emploi du futur simple. Le verbe devrait être 'restera'. L'erreur n'est pas comptée, car il y a déjà une erreur de syntaxe dans cette phrase.",
+        "suggestions": [
+          "restera"
+        ],
+        "ruleApplied": "4.1.2.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de temps verbal. La référence au futur requiert le futur simple 'restera', pas le présent 'reste'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.21",
+        "text": "au futur",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "L'expression 'au futur' est incorrecte. On utilise 'dans le futur' ou 'à l'avenir'. L'erreur n'est pas comptée, car il y a déjà une erreur de syntaxe dans cette phrase.",
+        "suggestions": [
+          "dans le futur",
+          "à l'avenir"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Mauvaise préposition. L'expression correcte est 'dans le futur' ou 'à l'avenir', pas 'au futur'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.22",
+        "text": ".",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "P",
+        "description": "La phrase est une question directe introduite par 'Pensez-vous'. Elle doit se terminer par un point d'interrogation et non par un point.",
+        "suggestions": [
+          "?"
+        ],
+        "ruleApplied": "4.2.2.2.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de ponctuation évidente. Une question directe doit se terminer par un point d'interrogation.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "majeurement",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Cet adverbe est un néologisme, souvent considéré comme un calque de l'anglais 'majorly'. Il est préférable d'utiliser des adverbes comme 'considérablement', 'grandement' ou 'fortement'.",
+        "suggestions": [
+          "considérablement",
+          "grandement"
+        ],
+        "ruleApplied": "5.2.1.8",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Anglicisme évident. 'Majeurement' est un calque de 'majorly' qui n'est pas accepté en français standard.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "toute ce",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant démonstratif 'ce' doit s'accorder en genre avec le nom 'nourriture', qui est féminin. Il faut utiliser 'cette'.",
+        "suggestions": [
+          "toute cette"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. 'Nourriture' est féminin, donc 'cette' est requis.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "capabilité",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot 'capabilité' est un anglicisme. Le terme correct en français est 'capacité'.",
+        "suggestions": [
+          "capacité"
+        ],
+        "ruleApplied": "5.2.1.8",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Anglicisme clair. 'Capabilité' (de l'anglais 'capability') n'existe pas en français. Le terme correct est 'capacité'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "ce chaîne",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant démonstratif 'ce' doit s'accorder en genre avec le nom 'chaîne', qui est féminin. Il faut utiliser 'cette'.",
+        "suggestions": [
+          "cette chaîne"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. 'Chaîne' est féminin, donc 'cette' est requis.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "une gaspillage croissante",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'gaspillage' est masculin. Le déterminant indéfini doit être 'un' et non 'une'. L'adjectif 'croissante' doit aussi s'accorder au masculin : 'croissant'.",
+        "suggestions": [
+          "un gaspillage croissant"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. 'Gaspillage' est masculin, donc 'un' et 'croissant' sont requis.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "étégaspillées",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Il manque une espace entre l'auxiliaire 'été' et le participe passé 'gaspillées'.",
+        "suggestions": [
+          "été gaspillées"
+        ],
+        "ruleApplied": "5.2.6.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur typographique évidente. Les mots doivent être séparés par une espace.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "toute le monde",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant 'toute' doit s'accorder en genre avec le nom 'monde', qui est masculin. Il faut écrire 'tout'.",
+        "suggestions": [
+          "tout le monde"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. 'Monde' est masculin, donc 'tout' est requis.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "organise",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le sujet du verbe est 'la plupart des consommateurs'. 'La plupart de' suivi d'un nom pluriel commande l'accord du verbe au pluriel. Il faut donc écrire 'organisent'.",
+        "suggestions": [
+          "organisent"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord claire. Avec 'la plupart de' + nom pluriel, le verbe s'accorde au pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "datelimite",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "La locution 'date limite' s'écrit en deux mots.",
+        "suggestions": [
+          "date limite"
+        ],
+        "ruleApplied": "5.2.6.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur typographique évidente. 'Date limite' s'écrit en deux mots séparés.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.10",
+        "text": "gâchage",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le terme 'gâchage' est familier. Le mot 'gaspillage', utilisé dans le reste du texte, est plus approprié dans un registre de langue soutenu.",
+        "suggestions": [
+          "gaspillage"
+        ],
+        "ruleApplied": "5.2.1.8",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Bien que 'gâchage' soit moins fréquent dans ce contexte, c'est un terme français légitime qui peut être utilisé pour varier le vocabulaire.",
+        "counterArgument": "'Gâchage' est un terme français correct qui figure dans les dictionnaires (action de gâcher). Bien que 'gaspillage' soit plus idiomatique dans le contexte alimentaire, 'gâchage' peut se défendre comme variation stylistique pour éviter la répétition du mot 'gaspillage' utilisé tout au long du texte."
+      },
+      {
+        "id": "erreur5.11",
+        "text": "reste-t-il",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom de reprise 'il' doit s'accorder en genre avec son antécédent, 'notre accessibilité', qui est féminin. Il faut utiliser le pronom 'elle'. De plus, l'indicateur 'au futur' requiert le futur simple 'restera'.",
+        "suggestions": [
+          "restera-t-elle"
+        ],
+        "ruleApplied": "5.3.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double erreur : accord du pronom (féminin requis) et temps verbal (futur requis).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.12",
+        "text": "au fils des années",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion entre les homophones 'fils' (le descendant) et 'fil' (le déroulement). L'expression correcte est 'au fil des années'.",
+        "suggestions": [
+          "au fil des années"
+        ],
+        "ruleApplied": "5.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion d'homophones évidente. L'expression figée est 'au fil des années' (comme le fil qui se déroule).",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 18,
+      "note": "E"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 11,
+      "note": "D"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 34,
+      "vraisErreurs": 32,
+      "discutables": 2,
+      "fauxPositifs": 0
+    }
+  },
+  "startTimestamp": "2025-12-12T11:37:36.354Z",
+  "endTimestamp": "2025-12-12T11:39:13.322Z",
+  "durationMs": 96968,
+  "durationFormatted": "01:36:968"
+}

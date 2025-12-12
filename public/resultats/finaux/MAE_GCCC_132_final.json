@@ -1,0 +1,401 @@
+{
+  "processedAt": "2025-12-12T11:44:53.013Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_132.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_132.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": ".",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une phrase interrogative directe doit se terminer par un point d'interrogation.",
+        "suggestions": [
+          "?"
+        ],
+        "ruleApplied": "4.2.2.2.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Phrase interrogative directe (« Sommes-nous prêts à lutter contre le gaspillage alimentaire. ») qui se termine incorrectement par un point au lieu d'un point d'interrogation. Erreur de ponctuation évidente.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "oui il",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le mot-phrase « oui » doit être suivi d'une virgule.",
+        "suggestions": [
+          "oui, il"
+        ],
+        "ruleApplied": "4.2.2.10.1.e",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le mot-phrase « oui » en début de phrase doit être suivi d'une virgule selon les règles de ponctuation standard.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "%.».",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Lorsque la citation est intégrée à la phrase, sa ponctuation finale s'efface au profit de celle de la phrase principale, qui se place après la référence.",
+        "suggestions": [
+          "% » (1)."
+        ],
+        "ruleApplied": "4.2.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "La ponctuation finale de la citation doit être supprimée et placée après la référence bibliographique. Erreur technique de citation.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "non seulement elle permet d'être écologique, elle est québécoise",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution corrélative « non seulement » doit être suivie de « mais aussi » ou « mais encore » pour introduire le second élément.",
+        "suggestions": [
+          "non seulement elle permet d'être écologique, mais elle est aussi québécoise"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "La structure corrélative « non seulement... mais aussi » est incomplète. Le second terme de la corrélation est absent, ce qui constitue une rupture de construction syntaxique.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "en même temps d'éviter",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution « en même temps de » est un calque de l'oral. Il faut utiliser « en même temps que » suivi d'une proposition, ou une autre formulation comme « tout en évitant ».",
+        "suggestions": [
+          "tout en évitant",
+          "en même temps qu'elle évite"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction incorrecte. La préposition « de » après « en même temps » est non standard. La formulation correcte exige « tout en » + participe présent, ou « en même temps que » + proposition.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "évité».",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Lorsque la citation est intégrée à la phrase, sa ponctuation finale s'efface au profit de celle de la phrase principale, qui se place après la référence.",
+        "suggestions": [
+          "évité » (2)."
+        ],
+        "ruleApplied": "4.2.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Même erreur que erreur4.3 : la ponctuation finale de la citation doit être placée après la référence bibliographique.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "utilisées depuis déjà queleques années et la sensibilisation",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La conjonction « et » coordonne ici des éléments de fonction différente (un groupe participial et un groupe nominal). Il faut reformuler, par exemple en répétant la préposition « à » : « grâce aux nouvelles méthodes [...] et à la sensibilisation ».",
+        "suggestions": [
+          "grâce aux nouvelles méthodes [...] et à la sensibilisation"
+        ],
+        "ruleApplied": "4.1.2.1.8",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Rupture de parallélisme syntaxique. La coordination relie « aux nouvelles méthodes... utilisées » (complément de « grâce ») et « la sensibilisation » (sans préposition), ce qui crée une construction boiteuse.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "juin",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une référence bibliographique doit se terminer par un point.",
+        "suggestions": [
+          "juin."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Référence bibliographique incomplète. Toute référence doit se terminer par un point final selon les normes de présentation.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "novembre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une référence bibliographique doit se terminer par un point.",
+        "suggestions": [
+          "novembre."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Même erreur que erreur4.8 : point final manquant dans la référence bibliographique.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.10",
+        "text": "février",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une référence bibliographique doit se terminer par un point.",
+        "suggestions": [
+          "février."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Même erreur que erreur4.8 : point final manquant dans la référence bibliographique.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.11",
+        "text": ".",
+        "occurenceIndex": 3,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une phrase interrogative directe doit se terminer par un point d'interrogation et non par un point.",
+        "suggestions": [
+          "?"
+        ],
+        "ruleApplied": "4.2.2.2.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de l'erreur4.1. Phrase interrogative directe se terminant incorrectement par un point au lieu d'un point d'interrogation.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.12",
+        "text": "moi",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule est manquante après le groupe incident « Selon moi » placé en tête de phrase.",
+        "suggestions": [
+          "moi,"
+        ],
+        "ruleApplied": "4.2.2.10.1.n",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Un groupe incident (« Selon moi ») placé en tête de phrase doit être suivi d'une virgule. Règle de ponctuation standard.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.13",
+        "text": "et encore bien plus",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'ordre des mots dans cette expression est boiteux. La formulation correcte est « et bien plus encore ».",
+        "suggestions": [
+          "et bien plus encore"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Expression figée dont l'ordre standard est « et bien plus encore ». Cependant, l'ordre « et encore bien plus » pourrait être perçu comme une variation emphatique, bien que non standard.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "alimnentaire",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "La graphie correcte du mot est « alimentaire ».",
+        "suggestions": [
+          "alimentaire"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. Inversion de lettres : « alimnentaire » au lieu de « alimentaire ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "fraicheurs",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot « fraîcheur » s'écrit avec un accent circonflexe sur le « i ».",
+        "suggestions": [
+          "fraîcheur"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Accent circonflexe manquant sur « fraîcheur ». Erreur orthographique évidente.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "au",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "La contraction de la préposition « à » et de l'article pluriel « les » est « aux », car le nom « yeux » est au pluriel.",
+        "suggestions": [
+          "aux"
+        ],
+        "ruleApplied": "5.3.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur grammaticale évidente. « Yeux » est au pluriel, donc la contraction correcte est « aux » et non « au ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "refrigerés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot « réfrigérés » s'écrit avec un accent aigu sur le premier « e ».",
+        "suggestions": [
+          "réfrigérés"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Accent aigu manquant sur « réfrigérés ». Erreur orthographique évidente.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "apprenent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe « apprendre » au subjonctif présent, à la troisième personne du pluriel, s'écrit « apprennent ».",
+        "suggestions": [
+          "apprennent"
+        ],
+        "ruleApplied": "5.3.2.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de conjugaison. Le verbe « apprendre » au subjonctif présent (3e personne du pluriel) prend deux « n » : « apprennent ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "réelement",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'adverbe « réellement » s'écrit avec un accent aigu sur le premier « e » et deux « l ».",
+        "suggestions": [
+          "réellement"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double erreur orthographique : accent aigu manquant et un seul « l » au lieu de deux dans « réellement ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "passés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Employé comme préposition avec le sens de « après, au-delà de », le mot « passé » est invariable.",
+        "suggestions": [
+          "passé"
+        ],
+        "ruleApplied": "5.3.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur grammaticale. Dans « passé la date », le mot « passé » a valeur de préposition et doit rester invariable.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "queleques",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "La graphie correcte du mot est « quelques ».",
+        "suggestions": [
+          "quelques"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. Inversion de lettres : « queleques » au lieu de « quelques ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "trouver",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après l'auxiliaire « avoir », il faut utiliser le participe passé « trouvé » et non l'infinitif « trouver ».",
+        "suggestions": [
+          "trouvé"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur grammaticale évidente. Après l'auxiliaire « ont », le verbe doit être au participe passé : « ont trouvé » et non « ont trouver ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.10",
+        "text": "problèmatique",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot « problématique » s'écrit avec un « é » et non un « è ».",
+        "suggestions": [
+          "problématique"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Après vérification, le mot « problématique » s'écrit bien avec un accent grave « è ». La graphie du texte est correcte.",
+        "counterArgument": "Le mot « problématique » s'écrit bien avec un accent grave sur le « e » : « problématique ». La graphie utilisée dans le texte est conforme à l'orthographe correcte du mot. Cette détection est une erreur de l'analyse initiale."
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 13,
+      "note": "D"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 9,
+      "note": "C"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 23,
+      "vraisErreurs": 22,
+      "discutables": 0,
+      "fauxPositifs": 1
+    }
+  },
+  "startTimestamp": "2025-12-12T11:43:59.738Z",
+  "endTimestamp": "2025-12-12T11:44:53.013Z",
+  "durationMs": 53275,
+  "durationFormatted": "00:53:275"
+}

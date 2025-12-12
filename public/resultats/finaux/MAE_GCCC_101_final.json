@@ -1,0 +1,768 @@
+{
+  "processedAt": "2025-12-12T11:43:37.389Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_101.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_101.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "est nous sommes-t-ils",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase interrogative est incorrecte. Il manque un élément pour introduire la question et le pronom de reprise est erroné. On pourrait écrire 'est la suivante : sommes-nous...'.",
+        "suggestions": [
+          "est la suivante : sommes-nous"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double erreur : absence de transition claire et pronom de reprise 'ils' incompatible avec le sujet 'nous'. Construction syntaxique totalement fautive.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "qui",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "S",
+        "description": "Confusion entre les homophones 'qui' (pronom relatif) et 'que' (conjonction de subordination). Après 'Je pense', il faut utiliser 'que'.",
+        "suggestions": [
+          "que"
+        ],
+        "ruleApplied": "4.1.2.1.9",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur grammaticale claire. Après 'penser', la complétive est introduite par la conjonction 'que', non par le pronom relatif 'qui'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "Aussi",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "L'organisateur textuel 'Aussi' en tête de phrase doit être suivi d'une virgule.",
+        "suggestions": [
+          "Aussi,"
+        ],
+        "ruleApplied": "4.2.2.10.1.k",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle de ponctuation standard : les organisateurs textuels en début de phrase sont suivis d'une virgule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "c'est pas",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La négation est mal employée. En français standard, la négation se construit avec 'ne... pas'. Il manque l'adverbe 'ne' (élidé 'n'').",
+        "suggestions": [
+          "ce n'est pas"
+        ],
+        "ruleApplied": "4.1.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Dans un texte scolaire écrit de registre courant, l'omission de 'ne' dans la négation constitue une erreur relevant du registre familier oral.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "Chers internautes",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "L'apostrophe (interpellation) 'Chers internautes' doit être isolée du reste de la phrase par une virgule.",
+        "suggestions": [
+          "Chers internautes,"
+        ],
+        "ruleApplied": "4.2.2.10.1.h",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle de ponctuation claire : une apostrophe (interpellation) doit être suivie d'une virgule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "mettre frigo",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque un mot essentiel à la construction de la phrase. L'expression correcte est 'mettre au frigo'.",
+        "suggestions": [
+          "mettre au frigo"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Préposition manquante. Le verbe 'mettre' exige la préposition 'au' devant 'frigo' (mettre quelque chose au frigo).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "qui",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le subordonnant « qui » est incorrect. Il faut utiliser « que ».",
+        "suggestions": [
+          "que"
+        ],
+        "ruleApplied": "4.1.2.4.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Après l'expression 'je pense', on utilise la conjonction 'que' pour introduire une complétive, non le pronom relatif 'qui'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "en mal compris",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction du verbe au passé composé est incorrecte. Il faut utiliser l'auxiliaire « avoir » (ont).",
+        "suggestions": [
+          "ont mal compris"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de construction verbale. Le verbe 'comprendre' se conjugue avec l'auxiliaire 'avoir' au passé composé, non avec 'en'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "meilleur avant",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Les guillemets sont requis pour encadrer une expression ou une mention spécifique.",
+        "suggestions": [
+          "« meilleur avant »"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "L'expression 'meilleur avant' est une mention d'étiquetage citée, elle doit être encadrée de guillemets pour marquer sa nature de citation.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.10",
+        "text": ")",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il ne faut pas d'espace avant une parenthèse fermante.",
+        "suggestions": [
+          "(RECYC-QUÉBEC, 2021)"
+        ],
+        "ruleApplied": "4.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique standard : pas d'espace insécable avant la parenthèse fermante.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.11",
+        "text": "En conclusion partielle",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule est requise après un organisateur textuel en début de phrase.",
+        "suggestions": [
+          "En conclusion partielle,"
+        ],
+        "ruleApplied": "4.2.2.10.1.k",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle de ponctuation claire : les organisateurs textuels en début de phrase sont suivis d'une virgule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.12",
+        "text": "diminue",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Dans une coordination de deux subordonnées introduites par « que », il faut répéter la conjonction « que ».",
+        "suggestions": [
+          "et qu'on diminue"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "En français standard, dans la coordination de deux complétives, la conjonction 'que' doit être répétée devant chaque verbe.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.13",
+        "text": "ont peut utilisées",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est incorrecte. Il faut utiliser le pronom relatif « que » (élidé « qu' ») pour introduire la subordonnée, et le verbe « utiliser » doit être à l'infinitif après le verbe modal « peut ».",
+        "suggestions": [
+          "qu'on peut utiliser"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Triple erreur : confusion 'ont/on', absence du pronom relatif 'que', et mauvaise forme verbale (participe au lieu de l'infinitif).",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "probléme",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'accent grave est manquant sur le deuxième 'e'. On écrit 'problème'.",
+        "suggestions": [
+          "problème"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe d'usage évidente. Le mot 'problème' prend un accent grave sur le deuxième 'e'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "régler",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif '-er' et le participe passé '-é'. Après l'auxiliaire 'être', on emploie le participe passé, qui s'accorde avec le sujet 'qui' (mis pour 'problème', masculin singulier).",
+        "suggestions": [
+          "réglé"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur grammaticale claire. Après 'devrait être', il faut le participe passé 'réglé', non l'infinitif.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "posé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'posé', employé comme adjectif, doit s'accorder en genre et en nombre avec le nom qu'il qualifie, 'La question' (féminin singulier).",
+        "suggestions": [
+          "posée"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du participe passé employé comme adjectif. Il doit s'accorder avec 'question' (féminin).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "mis",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'mis', employé avec l'auxiliaire 'avoir' (sous-entendu dans 'il y a ... mis'), doit s'accorder avec son complément d'objet direct 'plusieurs solutions' (féminin pluriel) si celui-ci est placé avant. Ici, il est employé comme adjectif et doit s'accorder avec 'solutions'.",
+        "suggestions": [
+          "mises"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le participe passé 'mis' employé comme adjectif doit s'accorder avec 'solutions' (féminin pluriel).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "évité",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le participe passé '-é' et l'infinitif '-er'. Après la préposition 'pour', le verbe doit être à l'infinitif.",
+        "suggestions": [
+          "éviter"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle grammaticale claire : après la préposition 'pour', on utilise l'infinitif, non le participe passé.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "dûr",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'dûr' est mal orthographié et mal accordé. Il doit s'accorder en genre avec le nom 'récupération' (féminin singulier). On écrit 'dure'.",
+        "suggestions": [
+          "dure"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double erreur : l'accent circonflexe est incorrect (confusion avec 'dû', participe passé de 'devoir'), et l'accord féminin est manquant.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "a",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'auxiliaire 'a' (verbe avoir) et la préposition 'à'. Ici, il faut la préposition 'à'.",
+        "suggestions": [
+          "à"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion homophonique classique. Le contexte ('difficile à les vendre') exige la préposition 'à', non le verbe 'avoir'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "vendres",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'vendre' est ici à l'infinitif et ne prend pas de 's' final.",
+        "suggestions": [
+          "vendre"
+        ],
+        "ruleApplied": "5.3.2.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'orthographe grammaticale. L'infinitif 'vendre' ne prend jamais de 's' final.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "devrait",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'devrait' doit s'accorder en nombre avec son sujet, 'les personnes' (3e personne du pluriel).",
+        "suggestions": [
+          "devraient"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du verbe avec son sujet pluriel 'les personnes'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.10",
+        "text": "il",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom 'il' doit s'accorder en nombre avec son antécédent, 'les personnes' (pluriel).",
+        "suggestions": [
+          "ils"
+        ],
+        "ruleApplied": "5.3.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du pronom avec son antécédent pluriel 'les personnes'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.11",
+        "text": "désire",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'désire' doit s'accorder en nombre avec son sujet 'il' (mis pour 'les personnes', 3e personne du pluriel). Le donneur d'accord est 'les personnes'.",
+        "suggestions": [
+          "désirent"
+        ],
+        "ruleApplied": "5.4.2.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du verbe. Le sujet réel est 'les personnes' (pluriel), donc 'désirent'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.12",
+        "text": "élevée",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'élevée' doit s'accorder en genre avec le nom qu'il qualifie, 'le gaspillage' (masculin singulier).",
+        "suggestions": [
+          "élevé"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord de l'adjectif attribut avec le sujet masculin 'le gaspillage'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.13",
+        "text": "ce",
+        "occurenceIndex": 2,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le pronom démonstratif 'ce' et le pronom réfléchi 'se' (élidé 's''). Le verbe est 's'informer'.",
+        "suggestions": [
+          "s'"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion homophonique. Le verbe pronominal 's'informer' exige le pronom réfléchi 's'', non le démonstratif 'ce'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.14",
+        "text": "montre",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'montre' doit s'accorder avec son sujet 'qui', qui reprend 'des sites Web [...], des livres et d'autres' (pluriel).",
+        "suggestions": [
+          "montrent"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du verbe avec son sujet pluriel (antécédent du pronom relatif 'qui').",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.15",
+        "text": "explique",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'explique' doit s'accorder avec son sujet 'qui', qui reprend 'des sites Web [...], des livres et d'autres' (pluriel). Le donneur d'accord est 'qui'.",
+        "suggestions": [
+          "expliquent"
+        ],
+        "ruleApplied": "5.4.2.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du verbe coordonné avec le même sujet pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.16",
+        "text": "en",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre la préposition 'en' et la forme verbale 'ont' (auxiliaire avoir à la 3e personne du pluriel). Le sujet est 'plusieurs consommateurs'.",
+        "suggestions": [
+          "ont"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion homophonique. Le contexte exige l'auxiliaire 'ont' (passé composé), non la préposition 'en'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.17",
+        "text": "le",
+        "occurenceIndex": 3,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'date' est féminin. Le déterminant doit donc être 'la'.",
+        "suggestions": [
+          "la"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en genre du déterminant. Le nom 'date' est féminin.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.18",
+        "text": "écris",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'écris' doit s'accorder en genre et en nombre avec le nom qu'il qualifie, 'date limite' (féminin singulier). On écrit 'écrite'. Le donneur d'accord est 'date limite'.",
+        "suggestions": [
+          "écrite"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double erreur : forme verbale incorrecte ('écris' est un présent, non un participe) et absence d'accord avec le féminin.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.19",
+        "text": "sa",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le déterminant possessif 'sa' et le pronom démonstratif 'ça'.",
+        "suggestions": [
+          "ça"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion homophonique. Le contexte ('à cause de ça') exige le pronom démonstratif 'ça', non le possessif 'sa'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.20",
+        "text": "jête",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur sur le radical du verbe 'jeter' au présent de l'indicatif. Il faut doubler la consonne 't' : 'jette'.",
+        "suggestions": [
+          "jette"
+        ],
+        "ruleApplied": "5.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'orthographe d'usage. Le verbe 'jeter' double le 't' devant un 'e' muet à la première personne du présent.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.21",
+        "text": "le produits",
+        "occurenceIndex": 5,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant 'le' (singulier) ne s'accorde pas avec le nom 'produits' (pluriel).",
+        "suggestions": [
+          "les produits"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en nombre du déterminant avec le nom pluriel 'produits'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.22",
+        "text": "limite",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre la forme conjuguée 'limite' et l'infinitif '-er'. Après la préposition 'pour', le verbe doit être à l'infinitif.",
+        "suggestions": [
+          "limiter"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle grammaticale : après la préposition 'pour', on utilise l'infinitif, non une forme conjuguée.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.23",
+        "text": "restes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'restes' doit s'accorder avec son sujet 'ce qui' (3e personne du singulier).",
+        "suggestions": [
+          "reste"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du verbe. Le sujet 'ce qui' est de la 3e personne du singulier.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.24",
+        "text": "prend",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après la locution conjonctive 'il faut que', le verbe doit être au subjonctif présent. La forme correcte pour 'prendre' à la 3e personne du singulier est 'prenne'.",
+        "suggestions": [
+          "prenne"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de mode verbal. Après 'il faut que', on utilise le subjonctif, non l'indicatif.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.25",
+        "text": "aux serieux",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'expression est 'au sérieux'. Le nom 'sérieux' est ici au singulier.",
+        "suggestions": [
+          "au sérieux"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur lexicale. L'expression figée est 'prendre au sérieux' (singulier), non 'aux sérieux'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.26",
+        "text": "utilisées",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le participe passé '-ées' et l'infinitif '-er'. Après le verbe modal 'pouvoir' (peut), le verbe qui suit doit être à l'infinitif.",
+        "suggestions": [
+          "utiliser"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur grammaticale. Après le verbe modal 'peut', on utilise l'infinitif, non le participe passé.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.27",
+        "text": "certains conditions",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant « certains » doit s'accorder en genre avec le nom qu'il détermine, « conditions » (féminin pluriel).",
+        "suggestions": [
+          "certaines"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en genre du déterminant indéfini avec le nom féminin 'conditions'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.28",
+        "text": "a",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'auxiliaire « a » (verbe avoir) et la préposition « à ». Il faut utiliser la préposition.",
+        "suggestions": [
+          "à"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion homophonique. Le contexte ('difficile à les vendre') exige la préposition 'à'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.29",
+        "text": "ce informe",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le pronom démonstratif « ce » et le pronom réfléchi « se » (élidé « s' »).",
+        "suggestions": [
+          "s'informe"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion homophonique. Le verbe pronominal 's'informer' exige le pronom réfléchi 's''.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.30",
+        "text": "sauve ta bouffe",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Les titres d'œuvres, de sites web, etc., prennent une majuscule au premier mot.",
+        "suggestions": [
+          "Sauve ta bouffe"
+        ],
+        "ruleApplied": "5.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique : les titres de sites web prennent une majuscule initiale au premier mot.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.31",
+        "text": "Chic frigo sans fric",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Répétition de la même erreur d'usage (absence de majuscule au début d'un titre).",
+        "suggestions": [
+          "Chic frigo sans fric"
+        ],
+        "ruleApplied": "5.1.3",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "La suggestion est identique au texte original. Il n'y a pas d'erreur à corriger ici.",
+        "counterArgument": "Le texte original 'Chic frigo sans fric' est déjà écrit avec une majuscule initiale. La suggestion proposée est identique au texte signalé comme erroné, ce qui confirme qu'il s'agit d'un faux positif. Aucune correction n'est nécessaire."
+      },
+      {
+        "id": "erreur5.32",
+        "text": "le date",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « date » est féminin. Le déterminant doit être « la ».",
+        "suggestions": [
+          "la date"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en genre du déterminant. Le nom 'date' est féminin. (Répétition de l'erreur5.17)",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.33",
+        "text": "le produits",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « produits » est au pluriel, mais le déterminant « le » est au singulier. Le contexte suggère le singulier.",
+        "suggestions": [
+          "le produit"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Désaccord en nombre entre le déterminant et le nom. Le contexte suggère effectivement le singulier 'le produit'.",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 13,
+      "note": "E"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 32,
+      "note": "E"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 46,
+      "vraisErreurs": 45,
+      "discutables": 0,
+      "fauxPositifs": 1
+    }
+  },
+  "startTimestamp": "2025-12-12T11:41:37.332Z",
+  "endTimestamp": "2025-12-12T11:43:37.389Z",
+  "durationMs": 120057,
+  "durationFormatted": "02:00:057"
+}

@@ -1,0 +1,416 @@
+{
+  "processedAt": "2025-12-12T11:42:44.392Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_103.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_103.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "Par ce fait",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Préposition erronée. L'expression correcte pour introduire une conséquence est \"De ce fait\".",
+        "suggestions": [
+          "De ce fait"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "L'expression consacrée en français est « De ce fait ». « Par ce fait » n'est pas attesté dans les ouvrages de référence.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "que",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "S",
+        "description": "Mot superflu. La construction \"je crois que... que...\" est incorrecte. La conjonction \"que\" est de trop après la proposition circonstancielle introduite par \"malgré\".",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le premier « que » introduit déjà la complétive dépendant de « je crois ». Le second « que » après la circonstancielle « malgré le nombre d'efforts... » crée une rupture syntaxique.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "2020",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence du point final. Une référence bibliographique doit se terminer par un point.",
+        "suggestions": [
+          "2020."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Les références bibliographiques doivent systématiquement se terminer par un point final selon les normes bibliographiques.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "!",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Un point d'exclamation est utilisé à la fin d'un titre qui est une simple affirmation. Un point final est plus approprié.",
+        "suggestions": [
+          "."
+        ],
+        "ruleApplied": "4.2.2.3.2",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Le point d'exclamation dans un titre accrocheur peut être considéré comme un choix stylistique visant à créer un effet persuasif ou expressif.",
+        "counterArgument": "Le point d'exclamation dans le titre « Manger moche ou manger beau, c'est manger pareil ! » peut être un choix stylistique délibéré pour créer un effet d'emphase et de conviction dès le début du texte argumentatif. Dans les titres accrocheurs ou slogans, cette ponctuation expressive est couramment acceptée pour marquer le ton du propos."
+      },
+      {
+        "id": "erreur4.5",
+        "text": "De mon humble avis",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution correcte pour introduire une opinion est « À mon avis » et non « De mon avis ».",
+        "suggestions": [
+          "À mon humble avis"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "La locution figée en français est « À mon avis ». « De mon avis » constitue un calque fautif ou une confusion avec d'autres expressions comme « de mon point de vue ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "ou",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Confusion entre l'adverbe de lieu « où » (avec un accent) qui indique un endroit, et la conjonction de coordination « ou » (sans accent) qui indique un choix. Ici, il faut indiquer le lieu.",
+        "suggestions": [
+          "où"
+        ],
+        "ruleApplied": "4.1.2.1.9",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le contexte exige clairement le pronom relatif de lieu « où » : « plusieurs parties différentes où la nourriture peut être abîmée ». C'est une confusion d'homophones.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "«un",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une espace insécable après le guillemet français ouvrant.",
+        "suggestions": [
+          "« un"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "La typographie française exige une espace insécable après le guillemet ouvrant. C'est une règle stricte de ponctuation.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "»",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence du point final qui doit clore la phrase.",
+        "suggestions": [
+          "»."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Une phrase déclarative doit se terminer par un point final. L'absence est une erreur de ponctuation évidente.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "Car,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "La virgule est superflue entre la conjonction « Car » et la subordonnée « si » qui suit immédiatement.",
+        "suggestions": [
+          "Car"
+        ],
+        "ruleApplied": "4.2.2.10.2.h",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "La conjonction de coordination « Car » ne doit pas être suivie d'une virgule lorsqu'elle introduit directement une subordonnée conditionnelle.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.10",
+        "text": "«les",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une espace insécable après le guillemet français ouvrant.",
+        "suggestions": [
+          "« les"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique stricte du français : espace insécable obligatoire après le guillemet ouvrant.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.11",
+        "text": "«Gaspillage",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une espace insécable après le guillemet français ouvrant.",
+        "suggestions": [
+          "« Gaspillage"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique stricte du français : espace insécable obligatoire après le guillemet ouvrant.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.12",
+        "text": "2",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque un point après le numéro de la référence bibliographique.",
+        "suggestions": [
+          "2."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Les numéros de référence bibliographique doivent être suivis d'un point selon les normes de présentation bibliographique.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.13",
+        "text": "«Les",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une espace insécable après le guillemet français ouvrant.",
+        "suggestions": [
+          "« Les"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique stricte du français : espace insécable obligatoire après le guillemet ouvrant.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "Diverses",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord en genre de l'adjectif. L'adjectif \"Diverses\" doit s'accorder en genre et en nombre avec le nom masculin pluriel \"dilemmes\".",
+        "suggestions": [
+          "Divers"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le nom « dilemme » est masculin. L'adjectif « diverses » au féminin constitue une erreur d'accord en genre évidente.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "ou",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion d'homophones grammaticaux. Il faut utiliser le pronom relatif de lieu \"où\" et non la conjonction de coordination \"ou\".",
+        "suggestions": [
+          "où"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion d'homophones évidente. Le contexte exige le pronom relatif de lieu « où » et non la conjonction « ou ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "en terme de",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Orthographe d'usage. L'expression correcte est \"en termes de\", au pluriel.",
+        "suggestions": [
+          "en termes de"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "L'expression figée est « en termes de », toujours au pluriel. C'est une erreur d'usage courante mais claire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "évite",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord du verbe avec le sujet. Le sujet \"la plupart\" (sous-entendu \"la plupart des cultivateurs\") commande l'accord du verbe à la troisième personne du pluriel.",
+        "suggestions": [
+          "évitent"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Avec « la plupart » suivi d'un complément au pluriel, l'accord se fait au pluriel. « La plupart évite » est incorrect.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "ressource",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord en nombre du nom. Dans l'énumération \"temps, d'énergie et de ressource\", le nom \"ressource\" doit être au pluriel.",
+        "suggestions": [
+          "ressources"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Dans ce contexte, on parle nécessairement de plusieurs ressources (matérielles, financières, etc.). Le pluriel s'impose.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "à",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion d'homophones grammaticaux. Il faut utiliser le verbe \"avoir\" à la troisième personne du singulier (\"a\") et non la préposition \"à\".",
+        "suggestions": [
+          "a"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion claire entre le verbe avoir (« cela a un gros impact ») et la préposition « à ». Erreur fréquente mais évidente.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "compagnie",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord en nombre du complément du nom. Le nom \"compagnie\" doit être au pluriel car il est sous-entendu qu'il y a plusieurs compagnies (\"les gérants de\").",
+        "suggestions": [
+          "compagnies"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "« Les gérants de compagnie » est ambigu mais incorrect. La logique veut qu'il s'agisse de plusieurs gérants provenant de plusieurs compagnies, d'où « compagnies » au pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "nouvelle façon",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord en nombre. L'expression correcte est \"de nouvelles façons\". L'adjectif \"nouvelle\" et le nom \"façon\" doivent être au pluriel.",
+        "suggestions": [
+          "nouvelles façons"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le contexte (« de nouvelle façon de faire de l'agriculture ») suggère plusieurs méthodes nouvelles. Le pluriel « nouvelles façons » est requis.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "TABLE QUÉBÉCOISE SUR LA SAINE ALIMENTATION",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Majuscules erronées dans une dénomination. Seul le premier mot et les noms propres prennent une majuscule dans le nom d'un organisme.",
+        "suggestions": [
+          "Table québécoise sur la saine alimentation"
+        ],
+        "ruleApplied": "5.2.4.1.2",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Certains organismes utilisent des majuscules complètes dans leur graphie officielle. Il faudrait vérifier la graphie officielle de cet organisme avant de corriger.",
+        "counterArgument": "Certains organismes adoptent une graphie officielle en capitales complètes pour leurs documents officiels. Sans vérification sur le site officiel de la Table québécoise sur la saine alimentation, il est possible que cette graphie soit la forme institutionnelle voulue, bien que la règle générale recommande les minuscules sauf pour le premier mot et les noms propres."
+      },
+      {
+        "id": "erreur5.10",
+        "text": "est",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec le sujet composé « La sévérité de l'esthétique [...] et la perfection des aliments », qui est au pluriel.",
+        "suggestions": [
+          "sont"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Sujet composé de deux noms coordonnés par « et » : « La sévérité... et la perfection ». L'accord au pluriel est obligatoire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.11",
+        "text": "connaissance",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Dans l'expression « le manque de », le complément qui suit est généralement au pluriel. On parle ici de l'ensemble des connaissances sur le sujet.",
+        "suggestions": [
+          "connaissances"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "« Connaissance » au singulier peut être acceptable selon le sens voulu (manque de connaissance = manque de savoir en général). Le pluriel « connaissances » (savoirs spécifiques) est également valide.",
+        "counterArgument": "Le mot « connaissance » peut s'employer au singulier avec un sens collectif désignant le savoir en général (« le manque de connaissance » = manque de savoir), ou au pluriel pour désigner des savoirs spécifiques (« le manque de connaissances » = manque de savoirs particuliers). Les deux sont défendables selon la nuance sémantique voulue. Dans le contexte (conservation des aliments), le pluriel est plus naturel, mais le singulier n'est pas fautif."
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 12,
+      "note": "C"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 9,
+      "note": "B"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 24,
+      "vraisErreurs": 21,
+      "discutables": 3,
+      "fauxPositifs": 0
+    }
+  },
+  "startTimestamp": "2025-12-12T11:41:38.826Z",
+  "endTimestamp": "2025-12-12T11:42:44.392Z",
+  "durationMs": 65566,
+  "durationFormatted": "01:05:566"
+}

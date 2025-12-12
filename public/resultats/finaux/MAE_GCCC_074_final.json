@@ -1,0 +1,661 @@
+{
+  "processedAt": "2025-12-12T11:41:22.584Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_074.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_074.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "«Le",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une espace insécable est requise après un guillemet français ouvrant.",
+        "suggestions": [
+          "« Le"
+        ],
+        "ruleApplied": "4.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique claire en français : les guillemets français requièrent une espace insécable après l'ouverture.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "restaurées",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe \"restaurer\" (remettre en état) est sémantiquement inadéquat dans ce contexte. Il faut utiliser un verbe qui exprime l'idée de création ou d'établissement, comme \"instaurer\" ou \"mettre en place\".",
+        "suggestions": [
+          "instaurées",
+          "mises en place"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur sémantique évidente : on ne peut pas 'restaurer' (remettre en état ce qui existait) des façons nouvelles.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "« Des",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une espace insécable est requise après un guillemet français ouvrant.",
+        "suggestions": [
+          "« Des"
+        ],
+        "ruleApplied": "4.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique claire en français : les guillemets français requièrent une espace insécable après l'ouverture.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "Soit inclus dans un potage, une soupe ou une sauce créée.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase est un fragment; elle ne contient ni sujet ni verbe conjugué principal. Elle devrait être rattachée à la phrase précédente ou reformulée en phrase complète.",
+        "suggestions": [
+          "Soit en les incluant dans un potage...",
+          "Ils sont inclus soit dans un potage..."
+        ],
+        "ruleApplied": "4.1.2.1.4",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Peut être interprété comme une phrase elliptique stylistique plutôt qu'un fragment accidentel.",
+        "counterArgument": "Cette construction peut être considérée comme une ellipse stylistique où le sujet 'Ils' est sous-entendu. Dans un contexte narratif ou explicatif, de telles constructions elliptiques ne sont pas rares, surtout quand le référent est clair (les aliments mentionnés dans la phrase précédente). Cependant, pour plus de clarté, une reformulation serait préférable."
+      },
+      {
+        "id": "erreur4.5",
+        "text": "« De",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une espace insécable est requise après un guillemet français ouvrant.",
+        "suggestions": [
+          "« De"
+        ],
+        "ruleApplied": "4.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique claire en français : les guillemets français requièrent une espace insécable après l'ouverture.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "« De planifier les repas, de faire une liste d'épiceries, d'acheter en quantités raisonnables, de faire cuire les fruits et légumes trop mûrs et de congeler les restes en portions individuelles.»",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase est un fragment; elle est constituée d'une énumération de groupes infinitifs sans verbe principal. Elle devrait être introduite par une phrase matrice.",
+        "suggestions": [
+          "Il est suggéré « de planifier..."
+        ],
+        "ruleApplied": "4.1.2.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Fragment de phrase clair : énumération d'infinitifs sans verbe principal, même dans le contexte d'une citation.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "sauver le gaspillage",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression \"sauver le gaspillage\" est sémantiquement incorrecte. On lutte contre le gaspillage, on l'évite ou on le réduit, mais on ne le \"sauve\" pas.",
+        "suggestions": [
+          "éviter le gaspillage",
+          "réduire le gaspillage"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur sémantique évidente : le verbe 'sauver' implique de préserver quelque chose de positif, ce qui contredit l'objectif visé.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "démunis.«",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une espace est requise avant un guillemet français ouvrant.",
+        "suggestions": [
+          "démunis. «"
+        ],
+        "ruleApplied": "4.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique claire en français : les guillemets français requièrent une espace avant l'ouverture.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "« 6,7",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une espace insécable est requise après un guillemet français ouvrant.",
+        "suggestions": [
+          "« 6,7"
+        ],
+        "ruleApplied": "4.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique claire en français : les guillemets français requièrent une espace insécable après l'ouverture.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.10",
+        "text": "Plus de « 6,7 millions de kilos de denrées qui sont ainsi redistribuées.»",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase est un fragment; elle n'a pas de verbe principal et commence par une locution de quantité. Elle devrait être intégrée à une phrase complète.",
+        "suggestions": [
+          "Ce sont plus de « 6,7 millions...",
+          "On compte plus de « 6,7 millions..."
+        ],
+        "ruleApplied": "4.1.2.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Fragment de phrase évident : absence de verbe principal. La locution 'Plus de' ne peut pas commencer une phrase indépendante.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.11",
+        "text": "de nouvelle façon",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le groupe nominal \"nouvelle façon\" doit être introduit par un déterminant. Le verbe \"vient\" étant au singulier, le sujet doit l'être aussi. L'emploi de \"de\" est incorrect ici.",
+        "suggestions": [
+          "une nouvelle façon"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur grammaticale claire : le nom 'façon' requiert un déterminant ('une', 'des') et non la préposition 'de' seule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.12",
+        "text": "autres.C'est",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une espace est requise après un point pour séparer les phrases.",
+        "suggestions": [
+          "autres. C'est"
+        ],
+        "ruleApplied": "4.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique de base : une espace est obligatoire après un point.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.13",
+        "text": "poursuivre à épargner",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe \"poursuivre\" est un verbe transitif direct (poursuivre quelque chose). Il ne se construit pas avec la préposition \"à\" suivie d'un infinitif.",
+        "suggestions": [
+          "continuer à épargner",
+          "poursuivre l'épargne de"
+        ],
+        "ruleApplied": "4.1.2.2.2",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "La construction 'poursuivre à + infinitif' est attestée dans certains usages, bien que moins standard que 'continuer à'.",
+        "counterArgument": "Bien que 'poursuivre' soit traditionnellement transitif direct, la construction 'poursuivre à + infinitif' est attestée dans l'usage québécois contemporain, notamment dans le sens de 'continuer à'. Le Multidictionnaire de la langue française accepte cette construction. Cependant, 'continuer à' reste plus standard."
+      },
+      {
+        "id": "erreur4.14",
+        "text": "1",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Un point est requis après le numéro dans une liste numérotée.",
+        "suggestions": [
+          "1."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Les références bibliographiques n'utilisent pas systématiquement de point après le numéro, surtout dans un format simplifié comme celui-ci.",
+        "counterArgument": "Dans les références bibliographiques, l'usage du point après le numéro de référence n'est pas obligatoire et varie selon les styles (APA, MLA, etc.). Le format présenté ici est cohérent et acceptable pour un travail scolaire de niveau secondaire/collégial. L'absence de point ne nuit pas à la compréhension."
+      },
+      {
+        "id": "erreur4.15",
+        "text": "2",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Un point est requis après le numéro dans une liste numérotée.",
+        "suggestions": [
+          "2."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Les références bibliographiques n'utilisent pas systématiquement de point après le numéro, surtout dans un format simplifié comme celui-ci.",
+        "counterArgument": "Dans les références bibliographiques, l'usage du point après le numéro de référence n'est pas obligatoire et varie selon les styles (APA, MLA, etc.). Le format présenté ici est cohérent et acceptable pour un travail scolaire de niveau secondaire/collégial. L'absence de point ne nuit pas à la compréhension."
+      },
+      {
+        "id": "erreur4.16",
+        "text": "3",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Un point est requis après le numéro dans une liste numérotée.",
+        "suggestions": [
+          "3."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Les références bibliographiques n'utilisent pas systématiquement de point après le numéro, surtout dans un format simplifié comme celui-ci.",
+        "counterArgument": "Dans les références bibliographiques, l'usage du point après le numéro de référence n'est pas obligatoire et varie selon les styles (APA, MLA, etc.). Le format présenté ici est cohérent et acceptable pour un travail scolaire de niveau secondaire/collégial. L'absence de point ne nuit pas à la compréhension."
+      },
+      {
+        "id": "erreur4.17",
+        "text": ",2021",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une espace est requise après une virgule.",
+        "suggestions": [
+          ", 2021"
+        ],
+        "ruleApplied": "4.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique de base : une espace est obligatoire après une virgule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.18",
+        "text": "2021",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une source bibliographique se termine par un point.",
+        "suggestions": [
+          "2021."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Norme bibliographique standard : chaque référence doit se terminer par un point final.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.19",
+        "text": "4",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Un point est requis après le numéro dans une liste numérotée.",
+        "suggestions": [
+          "4."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Les références bibliographiques n'utilisent pas systématiquement de point après le numéro, surtout dans un format simplifié comme celui-ci.",
+        "counterArgument": "Dans les références bibliographiques, l'usage du point après le numéro de référence n'est pas obligatoire et varie selon les styles (APA, MLA, etc.). Le format présenté ici est cohérent et acceptable pour un travail scolaire de niveau secondaire/collégial. L'absence de point ne nuit pas à la compréhension."
+      },
+      {
+        "id": "erreur4.20",
+        "text": "5",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Un point est requis après le numéro dans une liste numérotée.",
+        "suggestions": [
+          "5."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Les références bibliographiques n'utilisent pas systématiquement de point après le numéro, surtout dans un format simplifié comme celui-ci.",
+        "counterArgument": "Dans les références bibliographiques, l'usage du point après le numéro de référence n'est pas obligatoire et varie selon les styles (APA, MLA, etc.). Le format présenté ici est cohérent et acceptable pour un travail scolaire de niveau secondaire/collégial. L'absence de point ne nuit pas à la compréhension."
+      },
+      {
+        "id": "erreur4.21",
+        "text": "dans « Des site Web comme Sauve ta bouffe,chic frigo sans fric, j'aime manger pas gaspiller et des livres spécialisés offrent des recettes et des trucs pour réduire le gaspillage à la maison.»",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de construction de phrase. La citation est une phrase complète qui ne peut pas servir de complément à la préposition 'dans'. Il faudrait reformuler, par exemple : 'On trouve ces conseils sur des sites Web...'",
+        "suggestions": [
+          "sur des sites Web comme Sauve ta bouffe..."
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur syntaxique claire : une phrase complète avec sujet et verbe ne peut pas servir de complément prépositionnel après 'dans'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.22",
+        "text": "pour recycler",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de préposition. L'expression correcte est 'façons de faire quelque chose'.",
+        "suggestions": [
+          "de recycler"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de préposition claire : le nom 'façon' se construit avec 'de' + infinitif, non avec 'pour'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.23",
+        "text": ",",
+        "occurenceIndex": 3,
+        "criteria": 4,
+        "type": "P",
+        "description": "Virgule erronée entre le groupe sujet ('Faire cuire les fruits') et le verbe ('permet').",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.10.2.a",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle fondamentale de ponctuation : on ne sépare jamais le sujet du verbe par une virgule, sauf en présence d'une incise.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.24",
+        "text": "se préoccuper s'ils",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence d'un mot essentiel. La construction du verbe 'se préoccuper' requiert la préposition 'de' et souvent un verbe comme 'savoir' ou 'se demander' avant la subordonnée interrogative indirecte.",
+        "suggestions": [
+          "se préoccuper de savoir s'ils"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction syntaxique incomplète : 'se préoccuper' exige la préposition 'de' avant une complétive ou interrogative indirecte.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "site",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom \"site\" doit s'accorder en nombre avec le déterminant \"Des\" qui l'introduit.",
+        "suggestions": [
+          "sites"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente : le déterminant pluriel 'Des' exige un nom au pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "chic frigo sans fric",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "La majuscule est requise au premier mot d'un titre d'œuvre ou d'une dénomination.",
+        "suggestions": [
+          "Chic frigo sans fric"
+        ],
+        "ruleApplied": "5.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique standard : les titres prennent une majuscule au premier mot.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "j'aime manger pas gaspiller",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "La majuscule est requise au premier mot d'un titre d'œuvre ou d'une dénomination.",
+        "suggestions": [
+          "J'aime manger, pas gaspiller"
+        ],
+        "ruleApplied": "5.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique standard : les titres prennent une majuscule au premier mot.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "inclus",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé \"inclus\" doit s'accorder en genre et en nombre avec le pronom \"Ils\" (mis pour \"aliments\"), qui est le sujet sous-entendu de ce fragment de phrase. Le donneur est masculin pluriel.",
+        "suggestions": [
+          "inclus"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "La forme 'inclus' est déjà correctement accordée au masculin pluriel. Il n'y a pas d'erreur.",
+        "counterArgument": "Le participe passé 'inclus' est déjà au masculin pluriel, ce qui correspond au référent 'aliments' (masculin pluriel). L'accord est correct. La suggestion proposée est identique au texte original, confirmant qu'il n'y a pas d'erreur."
+      },
+      {
+        "id": "erreur5.5",
+        "text": "d'épiceries",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'expression consacrée est \"liste d'épicerie\", au singulier, car il s'agit d'une liste pour l'acte d'aller à l'épicerie.",
+        "suggestions": [
+          "d'épicerie"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Les deux formes coexistent dans l'usage québécois contemporain, bien que le singulier soit plus fréquent.",
+        "counterArgument": "Bien que 'liste d'épicerie' (singulier) soit plus courant, la forme 'liste d'épiceries' (pluriel) est également attestée dans l'usage québécois, notamment quand on pense à plusieurs articles à acheter. L'OQLF ne condamne pas cette variante. Cependant, le singulier reste préférable."
+      },
+      {
+        "id": "erreur5.6",
+        "text": "son",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le déterminant possessif \"son\" et le verbe \"sont\" (être à la 3e personne du pluriel). Le sujet est \"Toutes ces façons\".",
+        "suggestions": [
+          "sont"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur homophonique évidente : le contexte exige le verbe 'sont' avec un sujet pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "ses",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le déterminant possessif \"ses\" et le déterminant démonstratif \"ces\". Le contexte requiert de désigner les manières mentionnées précédemment.",
+        "suggestions": [
+          "ces"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur homophonique évidente : le contexte exige le démonstratif 'ces' pour reprendre les manières déjà mentionnées.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "permets",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe \"permettre\" doit s'accorder à la 3e personne du singulier avec son sujet, le groupe infinitif \"de donner au(x) autres\". La terminaison est \"-et\".",
+        "suggestions": [
+          "permet"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de conjugaison évidente : avec un sujet infinitif, le verbe doit être à la 3e personne du singulier.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "au aliments",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "La préposition \"à\" suivie de l'article pluriel \"les\" (sous-entendu devant \"aliments\") se contracte en \"aux\".",
+        "suggestions": [
+          "aux aliments"
+        ],
+        "ruleApplied": "5.3.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de contraction obligatoire : 'à' + 'les' = 'aux'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.10",
+        "text": "au première",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "La forme \"au\" est la contraction de \"à le\". Le nom \"vision\" est féminin, il faut donc utiliser \"à la\".",
+        "suggestions": [
+          "à la première"
+        ],
+        "ruleApplied": "5.3.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de genre évidente : 'vision' est féminin, donc 'à la' et non 'au'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.11",
+        "text": "noir",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif de couleur \"noir\" doit s'accorder en genre avec le nom qu'il qualifie, \"tache\" (féminin singulier).",
+        "suggestions": [
+          "noire"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente : l'adjectif 'noir' doit s'accorder avec le nom féminin 'tache'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.12",
+        "text": "ajouter",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé \"ajouté\", employé comme adjectif, doit s'accorder en genre et en nombre avec le nom qu'il qualifie, \"solution\" (féminin singulier).",
+        "suggestions": [
+          "ajoutée"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du participe passé employé comme adjectif : 'ajoutée' doit s'accorder avec 'solution' (féminin).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.13",
+        "text": "À LA MAISON",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Dans un titre ou un sous-titre, seule la première lettre du premier mot prend une majuscule (sauf pour les noms propres).",
+        "suggestions": [
+          "À la maison"
+        ],
+        "ruleApplied": "5.2.4.4",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Dans les références bibliographiques, les titres en majuscules sont parfois utilisés pour marquer les sections ou sous-sections.",
+        "counterArgument": "Dans certains styles bibliographiques et dans les documents officiels, les sous-titres ou sections peuvent être en majuscules pour des raisons de hiérarchisation visuelle. Bien que la règle standard veuille qu'on ne mette qu'une majuscule initiale, cette présentation peut être un choix stylistique délibéré dans un contexte de référencement. Cependant, pour un travail scolaire standard, la minuscule reste préférable."
+      },
+      {
+        "id": "erreur5.14",
+        "text": "Vente Au Détail",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Dans un titre ou un sous-titre, seule la première lettre du premier mot prend une majuscule (sauf pour les noms propres).",
+        "suggestions": [
+          "Vente au détail"
+        ],
+        "ruleApplied": "5.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur typographique claire : les majuscules à chaque mot ne sont pas justifiées en français (contrairement à l'anglais).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.15",
+        "text": "nouvelle façon",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. L'adjectif 'nouvelle' et le nom 'façon' devraient être au pluriel pour correspondre au sens de la phrase ('de trouver des façons').",
+        "suggestions": [
+          "nouvelles façons"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en nombre : le contexte ('De trouver de...') suggère un pluriel. De plus, cette erreur est liée à l'erreur syntaxique 4.11 (manque de déterminant).",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 15,
+      "note": "C"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 11,
+      "note": "C"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 39,
+      "vraisErreurs": 30,
+      "discutables": 4,
+      "fauxPositifs": 5
+    }
+  },
+  "startTimestamp": "2025-12-12T11:39:28.347Z",
+  "endTimestamp": "2025-12-12T11:41:22.584Z",
+  "durationMs": 114237,
+  "durationFormatted": "01:54:237"
+}

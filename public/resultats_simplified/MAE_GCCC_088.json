@@ -1,0 +1,1113 @@
+{
+  "processedAt": "2025-12-10T14:49:14.386Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_088.txt",
+    "originalText": "L'AGRANDISSEMENT DES DÉCHETS ALIMENTAIRE\r\n\r\nLa développement agriculturelle. Les technique agriculture qui améliore nous donne plus de production. Cela nous amène des problèmes de surproduction. En effet, les nourritures devient mauvais qui cause des gaspillage alimentaire. Sommes-nous capable d'arranger cette problème? À mon avis, ce n'est pas possible parce que le cause de tous ça est la surproduction qui causse aussi une problème financière.\r\n\r\nPremièrement, chers lecteur, parlons de surproductions. Pour le voir regardons les épicerie pour un exemple; des jus, des laits, des œufs, des yogurts ont des date limite de conservation. Les épiceries vont donc diminué les prix de ces produits, pour que les consommateurs achetent plus. Selon Recyc-Québec, « acheter à bas prix des fruits et légumes moche ou des produit donc la date limite de conservation est proche. » Pensez vous que tous ces produits vont être vendu? Non, les produits qui ne sont pas vendu se retrouve dans le poubelle. Les aliments que les restaurants et hôtels achetent ne sont pas tous utiliser qui montre un surplus de produit. Ils choisissent les produit selon l'esthétique et des raison sanitaire, Table québécoise sur la saine alimentation, 2019) et (Hébert ; 2019). En bref, l'épicerie, l'hôtel et restaurant ont des effect sur l'accumulation\r\n\r\ndes déchêt.\r\n\r\nDeuxièmement, cher public, regardons l'économie. Nous somme tous des gens qui paient du taxes pour que notre société fonctionne. Une partie de notre argent sera utilisée pour enlevé des déchets. Une recherche fait par conseil national zéro déchet montre qu'il y a 2,2 millions de tonnes d'aliments gaspillés et sa coûte 17 milliards de dollards pour le débaraser (Recyc-Québec; 2021). Avec cette information, nous voyons\r\n\r\nqu'on a beaucoup de déchet. Comment peut-on le diminuer? il y a quelque organismes qui aide avec ça, par exemple, les banques alimentaires du Quebec. Cette façon de reduire le déchet va en coûter plus d'argents. Selon Corriveau, « Il faudrait que les gouvernements les équipent et les aident financièrement ». En résumé, le coût pour transporter les déchet à leur destination, des travailleurs ou commencer une organisation pour aider la diminution des déchets vont augmenter le prix besoin pour reduire le gaspillage alimentaire.\r\n\r\nPour conclure, plusieurs entre nous ne penses même pas à notre gaspillage alimentaire. Pour beaucoup, ils disent que sa ne me concernent pas. Si, on veut vraiment changer notre déchet alimentaire tous les gens doivent aussi changer leur mentalité, mais sa c'est presque impossible. Le surproduction fait que les déchet est inévitable et en essayant de diminuer le gaspillage va augmenter le coût sociale. En bref, si la production ne diminue pas ou la nombre de consommateur n'augmente pas le déchet diminuera pas.",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "La développement agriculturelle.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase ne contient pas de verbe conjugué, elle est donc incomplète (phrase averbale). Il s'agit d'une subordonnée sans phrase matrice.",
+        "suggestions": [
+          "Le développement agricole."
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "id": "erreur4.2",
+        "text": "qui",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom relatif 'qui' ne peut avoir pour antécédent une phrase entière. Il faut utiliser 'ce qui'.",
+        "suggestions": [
+          "ce qui"
+        ],
+        "ruleApplied": "4.1.2.3.1"
+      },
+      {
+        "id": "erreur4.3",
+        "text": "Pour le voir",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom 'le' n'a pas de référent clair. La formulation est boiteuse et cause un problème de sens.",
+        "suggestions": [
+          "Pour le constater",
+          "Pour illustrer ce fait"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "id": "erreur4.4",
+        "text": ";",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point-virgule est mal employé. Pour introduire une énumération ou un exemple, il faut utiliser le deux-points.",
+        "suggestions": [
+          ":"
+        ],
+        "ruleApplied": "4.2.2.8.2"
+      },
+      {
+        "id": "erreur4.5",
+        "text": "donc",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "S",
+        "description": "Confusion entre l'adverbe 'donc' (conséquence) et le pronom relatif 'dont' (complément du nom 'la date limite').",
+        "suggestions": [
+          "dont"
+        ],
+        "ruleApplied": "4.1.2.1.9"
+      },
+      {
+        "id": "erreur4.6",
+        "text": ",",
+        "occurenceIndex": 5,
+        "criteria": 4,
+        "type": "P",
+        "description": "La virgule est mal employée pour introduire une référence bibliographique. Il faudrait utiliser des parenthèses.",
+        "suggestions": [
+          " ("
+        ],
+        "ruleApplied": "4.2.2.10.2"
+      },
+      {
+        "id": "erreur4.7",
+        "text": ";",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point-virgule est mal employé à l'intérieur d'une référence. Il faut utiliser une virgule.",
+        "suggestions": [
+          ","
+        ],
+        "ruleApplied": "4.2.2.8.2"
+      },
+      {
+        "id": "erreur4.8",
+        "text": "restaurant",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence d'un mot essentiel. Dans une énumération, il faut répéter le déterminant ('le') devant chaque nom.",
+        "suggestions": [
+          "le restaurant"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "id": "erreur4.9",
+        "text": "en",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom 'en' est superflu dans cette construction. Le verbe 'coûter' est ici transitif direct.",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "id": "erreur4.10",
+        "text": "»",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence du point final qui doit marquer la fin de la phrase.",
+        "suggestions": [
+          "»."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "id": "erreur4.11",
+        "text": "le coût pour transporter les déchet à leur destination, des travailleurs ou commencer une organisation pour aider la diminution des déchets",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La coordination d'éléments de fonctions grammaticales différentes ('le coût', 'des travailleurs', 'commencer') rend la phrase syntaxiquement incorrecte.",
+        "suggestions": [
+          "le coût du transport des déchets, l'embauche de travailleurs et la création d'une organisation"
+        ],
+        "ruleApplied": "4.1.2.1.8"
+      },
+      {
+        "id": "erreur4.12",
+        "text": "prix besoin",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Construction boiteuse. Le nom 'besoin' ne peut pas être utilisé comme adjectif ici. Il faut utiliser un adjectif comme 'nécessaire' ou 'requis'.",
+        "suggestions": [
+          "prix nécessaire",
+          "montant requis"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "id": "erreur4.13",
+        "text": "Pour beaucoup, ils disent",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction est redondante. Le pronom 'ils' est superflu et répète l'idée de 'beaucoup'.",
+        "suggestions": [
+          "Beaucoup disent"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "id": "erreur4.14",
+        "text": "me",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Le pronom complément 'me' ne correspond pas au sujet 'ils'. Le pronom correct serait 'les'.",
+        "suggestions": [
+          "les"
+        ],
+        "ruleApplied": "4.1.2.3.1"
+      },
+      {
+        "id": "erreur4.15",
+        "text": "Si,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Présence erronée d'une virgule après la conjonction de subordination 'Si' lorsqu'elle introduit directement la proposition.",
+        "suggestions": [
+          "Si"
+        ],
+        "ruleApplied": "4.2.2.10.2.h"
+      },
+      {
+        "id": "erreur4.16",
+        "text": "en essayant de diminuer le gaspillage va augmenter le coût sociale",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction de phrase incorrecte. Un groupe au gérondif ('en essayant...') ne peut pas être le sujet du verbe 'va augmenter'. Il s'agit d'un participe mal rattaché.",
+        "suggestions": [
+          "le fait d'essayer de diminuer le gaspillage va augmenter le coût social"
+        ],
+        "ruleApplied": "4.1.2.1.7"
+      },
+      {
+        "id": "erreur4.17",
+        "text": "diminuera pas",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La négation est mal employée. L'adverbe 'ne' est manquant avant le verbe.",
+        "suggestions": [
+          "ne diminuera pas"
+        ],
+        "ruleApplied": "4.1.2.1.3"
+      },
+      {
+        "id": "erreur4.18",
+        "text": ", Table québécoise sur la saine alimentation, 2019) et (Hébert ; 2019).",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "La ponctuation de la citation des sources est incorrecte. La parenthèse ouvrante manque pour la première source, la virgule qui la précède est mal placée, et le point-virgule dans la seconde source est inapproprié.",
+        "suggestions": [
+          "(Table québécoise sur la saine alimentation, 2019; Hébert, 2019)."
+        ],
+        "ruleApplied": "4.2.2.9.1"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 13,
+      "note": "C"
+    },
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "ALIMENTAIRE",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif doit s'accorder en nombre avec le nom 'DÉCHETS' (masculin pluriel) qu'il qualifie.",
+        "suggestions": [
+          "ALIMENTAIRES"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.2",
+        "text": "La",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant doit s'accorder en genre avec le nom 'développement' (masculin).",
+        "suggestions": [
+          "Le"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.3",
+        "text": "agriculturelle",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Ce mot n'existe pas. L'adjectif correspondant au nom 'agriculture' est 'agricole'.",
+        "suggestions": [
+          "agricole"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "id": "erreur5.4",
+        "text": "technique",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom doit s'accorder en nombre avec le déterminant 'Les' (pluriel).",
+        "suggestions": [
+          "techniques"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.5",
+        "text": "améliore",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder en nombre avec son sujet 'qui', dont l'antécédent est 'Les techniques' (pluriel).",
+        "suggestions": [
+          "améliorent"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.6",
+        "text": "donne",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder en nombre avec son sujet 'Les technique agriculture qui améliore' (pluriel).",
+        "suggestions": [
+          "donnent"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.7",
+        "text": "devient",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder en nombre avec son sujet 'les nourritures' (pluriel).",
+        "suggestions": [
+          "deviennent"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.8",
+        "text": "mauvais",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "L'attribut du sujet doit s'accorder en genre et en nombre avec le sujet 'les nourritures' (féminin pluriel). Le donneur est 'nourritures'.",
+        "suggestions": [
+          "mauvaises"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.9",
+        "text": "gaspillage",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom doit s'accorder en nombre avec le déterminant 'des' (pluriel).",
+        "suggestions": [
+          "gaspillages"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.10",
+        "text": "alimentaire",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "_",
+        "description": "L'adjectif doit s'accorder en nombre avec le nom 'gaspillages' (pluriel) qu'il qualifie. Le donneur est 'gaspillage'.",
+        "suggestions": [
+          "alimentaires"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.11",
+        "text": "capable",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'attribut du sujet doit s'accorder en nombre avec le sujet 'nous' (pluriel).",
+        "suggestions": [
+          "capables"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.12",
+        "text": "cette",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant démonstratif doit s'accorder en genre avec le nom 'problème' (masculin).",
+        "suggestions": [
+          "ce"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.13",
+        "text": "le",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant doit s'accorder en genre avec le nom 'cause' (féminin).",
+        "suggestions": [
+          "la"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.14",
+        "text": "tous",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom 'ça' est singulier. Le déterminant indéfini doit donc être au singulier.",
+        "suggestions": [
+          "tout"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.15",
+        "text": "causse",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur sur le graphème du verbe 'causer'.",
+        "suggestions": [
+          "cause"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "id": "erreur5.16",
+        "text": "une",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant doit s'accorder en genre avec le nom 'problème' (masculin).",
+        "suggestions": [
+          "un"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.17",
+        "text": "financière",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "L'adjectif doit s'accorder en genre avec le nom 'problème' (masculin) qu'il qualifie. Le donneur est 'problème'.",
+        "suggestions": [
+          "financier"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.18",
+        "text": "lecteur",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom doit s'accorder en nombre avec le déterminant 'chers' (pluriel).",
+        "suggestions": [
+          "lecteurs"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.19",
+        "text": "épicerie",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom doit s'accorder en nombre avec le déterminant 'les' (pluriel).",
+        "suggestions": [
+          "épiceries"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.20",
+        "text": "yogurts",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'orthographe de ce mot est 'yaourts' en français.",
+        "suggestions": [
+          "yaourts"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "id": "erreur5.21",
+        "text": "date limite",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le groupe nominal doit s'accorder en nombre avec le déterminant 'des' (pluriel).",
+        "suggestions": [
+          "dates limites"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.22",
+        "text": "diminué",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après le verbe 'vont' (futur proche), le verbe qui suit doit être à l'infinitif. Confusion entre le participe passé '-é' et l'infinitif '-er'.",
+        "suggestions": [
+          "diminuer"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "id": "erreur5.23",
+        "text": "achetent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'accent grave est manquant sur le 'e' à la troisième personne du pluriel du subjonctif présent du verbe 'acheter'.",
+        "suggestions": [
+          "achètent"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.24",
+        "text": "moche",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif doit s'accorder en nombre avec le groupe nominal 'des fruits et légumes' (pluriel) qu'il qualifie.",
+        "suggestions": [
+          "moches"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.25",
+        "text": "produit",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom doit s'accorder en nombre avec le déterminant 'des' (pluriel).",
+        "suggestions": [
+          "produits"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.26",
+        "text": "Pensez vous",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Dans une phrase interrogative avec inversion du sujet, un trait d'union est requis entre le verbe et le pronom sujet.",
+        "suggestions": [
+          "Pensez-vous"
+        ],
+        "ruleApplied": "5.2.1.10"
+      },
+      {
+        "id": "erreur5.27",
+        "text": "vendu",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé employé avec l'auxiliaire 'être' doit s'accorder en genre et en nombre avec le sujet 'tous ces produits' (masculin pluriel).",
+        "suggestions": [
+          "vendus"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "id": "erreur5.28",
+        "text": "vendu",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé employé avec l'auxiliaire 'sont' (être) doit s'accorder en genre et en nombre avec le sujet 'qui', dont l'antécédent est 'les produits' (masculin pluriel).",
+        "suggestions": [
+          "vendus"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "id": "erreur5.29",
+        "text": "se retrouve",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder en nombre avec son sujet 'les produits qui ne sont pas vendu' (pluriel).",
+        "suggestions": [
+          "se retrouvent"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.30",
+        "text": "le",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant doit s'accorder en genre avec le nom 'poubelle' (féminin).",
+        "suggestions": [
+          "la"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.31",
+        "text": "achetent",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Répétition de la même erreur d'usage (accent manquant). L'orthographe correcte est 'achètent'.",
+        "suggestions": [
+          "achètent"
+        ],
+        "ruleApplied": "5.1.3"
+      },
+      {
+        "id": "erreur5.32",
+        "text": "utiliser",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé employé avec l'auxiliaire 'sont' (être) doit s'accorder avec le sujet 'tous' (masculin pluriel). Confusion entre l'infinitif '-er' et le participe passé '-é'.",
+        "suggestions": [
+          "utilisés"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "id": "erreur5.33",
+        "text": "produit",
+        "occurenceIndex": 2,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après 'un surplus de', le nom qui suit est généralement au pluriel.",
+        "suggestions": [
+          "produits"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.34",
+        "text": "produit",
+        "occurenceIndex": 3,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom doit s'accorder en nombre avec le déterminant 'les' (pluriel).",
+        "suggestions": [
+          "produits"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.35",
+        "text": "raison",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom doit s'accorder en nombre avec le déterminant 'des' (pluriel).",
+        "suggestions": [
+          "raisons"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.36",
+        "text": "sanitaire",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "L'adjectif doit s'accorder en genre et en nombre avec le nom 'raisons' (féminin pluriel) qu'il qualifie. Le donneur est 'raison'.",
+        "suggestions": [
+          "sanitaires"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.37",
+        "text": "déchêt",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe sur l'accent et la lettre finale. Le mot est 'déchets'.",
+        "suggestions": [
+          "déchets"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.38",
+        "text": "somme",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Barbarisme de conjugaison. La forme correcte du verbe 'être' à la première personne du pluriel est 'sommes'.",
+        "suggestions": [
+          "sommes"
+        ],
+        "ruleApplied": "5.3.2.1"
+      },
+      {
+        "id": "erreur5.39",
+        "text": "du",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant partitif doit s'accorder en genre et en nombre avec le nom 'taxes' (féminin pluriel).",
+        "suggestions": [
+          "des"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.40",
+        "text": "enlevé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après la préposition 'pour', le verbe doit être à l'infinitif. Confusion entre le participe passé '-é' et l'infinitif '-er'.",
+        "suggestions": [
+          "enlever"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "id": "erreur5.41",
+        "text": "fait",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé employé comme adjectif doit s'accorder en genre et en nombre avec le nom qu'il qualifie, 'recherche' (féminin singulier).",
+        "suggestions": [
+          "faite"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "id": "erreur5.42",
+        "text": "conseil national zéro déchet",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Les noms propres formant une dénomination officielle prennent généralement une majuscule.",
+        "suggestions": [
+          "Conseil national Zéro Déchet"
+        ],
+        "ruleApplied": "5.2.4.1.2"
+      },
+      {
+        "id": "erreur5.43",
+        "text": "sa",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'homophone grammatical 'sa' (déterminant possessif) et 'ça' (pronom démonstratif).",
+        "suggestions": [
+          "ça"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "id": "erreur5.44",
+        "text": "dollards",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe. Le mot 'dollar' ne prend qu'un seul 'l'.",
+        "suggestions": [
+          "dollars"
+        ],
+        "ruleApplied": "5.2.1.6"
+      },
+      {
+        "id": "erreur5.45",
+        "text": "débaraser",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe. Le verbe 'débarrasser' s'écrit avec deux 'r'.",
+        "suggestions": [
+          "débarrasser"
+        ],
+        "ruleApplied": "5.2.1.6"
+      },
+      {
+        "id": "erreur5.46",
+        "text": "déchet",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après l'adverbe de quantité 'beaucoup de', le nom qui suit doit être au pluriel.",
+        "suggestions": [
+          "déchets"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.47",
+        "text": "il",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Une phrase doit commencer par une majuscule. Ici, la phrase débute après un point d'interrogation.",
+        "suggestions": [
+          "Il"
+        ],
+        "ruleApplied": "5.3.6.1"
+      },
+      {
+        "id": "erreur5.48",
+        "text": "quelque",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant indéfini 'quelque' doit s'accorder en nombre avec le nom 'organismes' (pluriel).",
+        "suggestions": [
+          "quelques"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.49",
+        "text": "aide",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder en nombre avec son sujet 'qui', dont l'antécédent est 'quelques organismes' (pluriel).",
+        "suggestions": [
+          "aident"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.50",
+        "text": "Quebec",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le nom propre 'Québec' prend un accent aigu sur le premier 'e'.",
+        "suggestions": [
+          "Québec"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.51",
+        "text": "reduire",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe. Le verbe 'réduire' prend un accent aigu sur le 'e'.",
+        "suggestions": [
+          "réduire"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.52",
+        "text": "argents",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'argent' est généralement indénombrable et reste au singulier dans ce contexte.",
+        "suggestions": [
+          "argent"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.53",
+        "text": "déchet",
+        "occurenceIndex": 3,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom doit s'accorder en nombre avec le déterminant 'les' (pluriel).",
+        "suggestions": [
+          "déchets"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.54",
+        "text": "vont",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder en nombre avec le sujet principal de la phrase, 'le coût' (singulier).",
+        "suggestions": [
+          "va"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.55",
+        "text": "reduire",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Répétition de la même erreur d'usage (accent manquant). L'orthographe correcte est 'réduire'.",
+        "suggestions": [
+          "réduire"
+        ],
+        "ruleApplied": "5.1.3"
+      },
+      {
+        "id": "erreur5.56",
+        "text": "penses",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder en personne et en nombre avec son sujet 'plusieurs entre nous' (3e personne du pluriel).",
+        "suggestions": [
+          "pensent"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.57",
+        "text": "notre déchet alimentaire",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant possessif et le nom doivent s'accorder en nombre avec le référent 'tous les gens' (pluriel).",
+        "suggestions": [
+          "nos déchets alimentaires"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.58",
+        "text": "sa",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'homophone grammatical 'sa' (déterminant possessif) et 'ça' (pronom démonstratif).",
+        "suggestions": [
+          "ça"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "id": "erreur5.59",
+        "text": "Le",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant doit s'accorder en genre avec le nom 'surproduction' (féminin).",
+        "suggestions": [
+          "La"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.60",
+        "text": "déchet",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom doit s'accorder en nombre avec le déterminant 'les' (pluriel).",
+        "suggestions": [
+          "déchets"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.61",
+        "text": "est",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "_",
+        "description": "Le verbe doit s'accorder en nombre avec son sujet 'les déchet' (pluriel). Le donneur est 'déchet'.",
+        "suggestions": [
+          "sont"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.62",
+        "text": "inévitable",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "L'attribut du sujet doit s'accorder en nombre avec le sujet 'les déchet' (pluriel). Le donneur est 'déchet'.",
+        "suggestions": [
+          "inévitables"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.63",
+        "text": "sociale",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif doit s'accorder en genre avec le nom 'coût' (masculin) qu'il qualifie.",
+        "suggestions": [
+          "social"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.64",
+        "text": "la",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant doit s'accorder en genre avec le nom 'nombre' (masculin).",
+        "suggestions": [
+          "le"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.65",
+        "text": "consommateur",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après la locution 'le nombre de', le nom qui suit doit être au pluriel.",
+        "suggestions": [
+          "consommateurs"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.66",
+        "text": "agriculture",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom \"agriculture\" est utilisé comme adjectif. Il faut utiliser l'adjectif \"agricoles\" qui s'accorde en genre et en nombre avec le nom \"techniques\". Le donneur est \"techniques\" (féminin pluriel).",
+        "suggestions": [
+          "agricoles"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.67",
+        "text": "alimentaire",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "L'adjectif \"alimentaire\" doit s'accorder en nombre avec le nom \"gaspillages\" qu'il qualifie. Le donneur est \"gaspillages\" (masculin pluriel). Il s'agit d'une deuxième erreur d'accord liée au même donneur.",
+        "suggestions": [
+          "alimentaires"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.68",
+        "text": "produit",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom \"produit\" devrait être au pluriel pour indiquer une diversité de produits après \"un surplus de\".",
+        "suggestions": [
+          "produits"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.69",
+        "text": "effect",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom \"effet\" doit être au pluriel pour s'accorder avec le déterminant \"des\". De plus, la graphie correcte est \"effets\".",
+        "suggestions": [
+          "effets"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.70",
+        "text": "me concernent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe \"concernent\" doit s'accorder avec son sujet \"ça\" (singulier) : \"concerne\". De plus, le pronom \"me\" est incorrect; il devrait être \"les\" pour faire référence à \"beaucoup\".",
+        "suggestions": [
+          "les concerne"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.71",
+        "text": "est",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "Le verbe \"est\" doit s'accorder en nombre avec son sujet \"les déchets\". Le donneur est \"les déchets\" (3e personne du pluriel). Il s'agit d'une deuxième erreur d'accord liée au même donneur.",
+        "suggestions": [
+          "sont"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.72",
+        "text": "la",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant \"la\" doit s'accorder en genre avec le nom \"nombre\" qu'il détermine. Le donneur est \"nombre\" (masculin singulier).",
+        "suggestions": [
+          "le"
+        ],
+        "ruleApplied": "5.3.1.1"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 62,
+      "note": "E"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:40:41.297Z",
+    "endTimestamp": "2025-12-10T14:49:14.386Z",
+    "durationMs": 513089,
+    "durationFormatted": "08:33:089"
+  }
+}

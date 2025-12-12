@@ -1,0 +1,418 @@
+{
+  "processedAt": "2025-12-12T11:37:03.891Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_027.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_027.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "aliments. puisque",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Présence erronée d'un point. Le point crée une rupture fautive et une phrase incomplète. Une virgule est requise pour lier la proposition principale à la subordonnée causale introduite par 'puisque'.",
+        "suggestions": [
+          "aliments, puisque"
+        ],
+        "ruleApplied": "4.2.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de ponctuation évidente créant une phrase incomplète. La conjonction 'puisque' ne peut pas introduire une phrase indépendante.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "se finissent",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Emploi erroné du verbe pronominal. Le verbe 'finir par' n'est pas pronominal dans ce contexte.",
+        "suggestions": [
+          "finissent"
+        ],
+        "ruleApplied": "4.1.2.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction fautive. 'Finir par' + infinitif ne se conjugue jamais à la forme pronominale dans ce sens.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "entraîne à",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe 'entraîner' est transitif direct dans ce sens et ne doit pas être suivi de la préposition 'à'.",
+        "suggestions": [
+          "entraîne"
+        ],
+        "ruleApplied": "4.1.2.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de construction verbale claire. 'Entraîner' au sens de 'causer, provoquer' est transitif direct et ne prend pas la préposition 'à'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "(Cameron, 2020) Bref",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence du point qui doit marquer la fin de la phrase précédente, avant le mot 'Bref'.",
+        "suggestions": [
+          "(Cameron, 2020). Bref"
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de ponctuation évidente. Le point final est obligatoire après une référence parenthétique clôturant une phrase.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "prêt pour éliminer",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Préposition erronée. La locution adjectivale est 'prêt à' suivie d'un infinitif.",
+        "suggestions": [
+          "prêt à éliminer"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de préposition claire. 'Prêt à' est la construction standard et obligatoire devant un infinitif.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "(RECYC-QUÉBEC,2021)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence du point qui doit marquer la fin de la phrase.",
+        "suggestions": [
+          "(RECYC-QUÉBEC, 2021)."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Absence claire du point final après une référence parenthétique en fin de phrase.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "Cela donc conduit",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Ordre des mots incorrect. L'adverbe 'donc' se place après le verbe qu'il modifie.",
+        "suggestions": [
+          "Cela conduit donc"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "L'ordre 'sujet + donc + verbe' existe en français, notamment dans un registre soutenu, bien que 'sujet + verbe + donc' soit plus courant.",
+        "counterArgument": "La position de 'donc' entre le sujet et le verbe, bien que moins fréquente, est attestée en français soutenu et littéraire. La Banque de dépannage linguistique de l'OQLF reconnaît cette position comme acceptable. Dans un texte argumentatif, cet ordre peut créer un effet d'emphase."
+      },
+      {
+        "id": "erreur4.8",
+        "text": "va se mettre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Problème de sens. Le verbe 'se mettre' est inapproprié dans ce contexte. 'Se retrouver' ou 'être mises' seraient plus justes. Erreur non comptée car il y a déjà une erreur de syntaxe (S) dans la phrase.",
+        "suggestions": [
+          "vont se retrouver",
+          "seront mises"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Choix lexical inapproprié. 'Se mettre dans' ne convient pas dans ce contexte pour parler d'ordures allant à la décharge.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "prêt de refuser",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Préposition erronée. La locution adjectivale est 'prêt à' suivie d'un infinitif.",
+        "suggestions": [
+          "prêt à refuser"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de préposition claire. 'Prêt à' est la construction standard et obligatoire devant un infinitif.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.10",
+        "text": ":",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le deux-points ne doit pas être utilisé après la conjonction de subordination 'que' pour introduire une citation.",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.7.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de ponctuation claire. Le deux-points est incompatible avec 'que' dans l'introduction d'une citation.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.11",
+        "text": ")",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une phrase doit se terminer par un point. Le point final se place après la parenthèse de la référence.",
+        "suggestions": [
+          ")."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Absence claire du point final après une référence parenthétique en fin de phrase.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.12",
+        "text": "éviter les légumes, les fruits, les produits laitiers et les restes de table d'arriver à terme",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction 'éviter [complément] de [infinitif]' est boiteuse. Il est préférable d'utiliser 'éviter que [complément] + [subjonctif]'.",
+        "suggestions": [
+          "d'éviter que les légumes, les fruits, les produits laitiers et les restes de table n'arrivent à terme"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction syntaxique fautive. Le verbe 'éviter' avec complément d'objet direct ne peut pas être suivi de 'de + infinitif' avec un sujet différent.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "transportation",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Anglicisme. Le mot correct est 'transport'.",
+        "suggestions": [
+          "transport"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Anglicisme évident. Le terme français standard est 'transport', unanimement reconnu par les ouvrages de référence.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "préférance",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'accent sur le deuxième 'e' doit être un accent aigu.",
+        "suggestions": [
+          "préférence"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. Le mot 'préférence' prend un accent aigu sur le deuxième 'e'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "alimentaires",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif doit s'accorder en genre et en nombre avec le nom 'gaspillage', qui est masculin singulier.",
+        "suggestions": [
+          "alimentaire"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. Dans l'expression 'le gaspillage alimentaire', l'adjectif doit être au singulier pour s'accorder avec 'gaspillage'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "conservées",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le participe passé et l'infinitif. Après 'comment', un verbe à l'infinitif est requis.",
+        "suggestions": [
+          "conserver"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de mode verbale claire. Après 'comment' dans une interrogative indirecte, l'infinitif est requis : 'comment les conserver'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "sont gaspillés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'gaspillés' doit s'accorder avec le nom 'tonnes' (donneur), qui est féminin pluriel.",
+        "suggestions": [
+          "sont gaspillées"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du participe passé évidente. Avec l'auxiliaire 'être', 'gaspillées' doit s'accorder avec 'tonnes' (féminin pluriel).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "notres",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Forme incorrecte du déterminant possessif pluriel. La forme correcte est 'nos'.",
+        "suggestions": [
+          "nos"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute grammaticale évidente. Le déterminant possessif de la première personne du pluriel est 'nos', jamais 'notres'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "contradictoirs",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Faute d'orthographe d'usage. Le mot s'écrit 'contradictoires'.",
+        "suggestions": [
+          "contradictoires"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. Le mot 'contradictoires' prend un 'e' final au pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "standard",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Anglicisme. Il est préférable d'utiliser un équivalent français comme 'norme' ou 'critère'.",
+        "suggestions": [
+          "norme",
+          "critère"
+        ],
+        "ruleApplied": "5.2.6.5",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Le mot 'standard' est intégré au français et accepté dans les dictionnaires usuels, bien que des équivalents français soient préférables.",
+        "counterArgument": "Le mot 'standard' est accepté en français et figure dans les dictionnaires usuels (Le Petit Robert, Larousse). Bien que l'OQLF recommande des équivalents comme 'norme' ou 'critère', l'emploi de 'standard' au sens de 'niveau de référence' n'est pas considéré comme fautif dans l'usage contemporain. Il s'agit davantage d'une recommandation stylistique que d'une erreur."
+      },
+      {
+        "id": "erreur5.9",
+        "text": "carateristiques",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Faute d'orthographe d'usage. Il manque un 'c' et un accent aigu. Le mot correct est 'caractéristiques'.",
+        "suggestions": [
+          "caractéristiques"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. Le mot correct est 'caractéristiques' avec deux 'c' et un accent aigu.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.10",
+        "text": "puisque",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Un mot en début de phrase doit commencer par une majuscule. Cette erreur découle de l'erreur de ponctuation précédente.",
+        "suggestions": [
+          "Puisque"
+        ],
+        "ruleApplied": "5.3.6.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur découlant directement de l'erreur de ponctuation 4.1. Une fois le point corrigé, la majuscule devient obligatoire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.11",
+        "text": "le",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "La majuscule est requise au premier mot d'un titre d'œuvre entre guillemets.",
+        "suggestions": [
+          "Le"
+        ],
+        "ruleApplied": "5.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique claire. Le premier mot d'un titre d'œuvre prend toujours une majuscule, même s'il s'agit d'un article.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.12",
+        "text": "nourritures",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le nom 'nourriture' est le plus souvent employé au singulier comme nom non comptable. L'emploi du pluriel est rare et peu idiomatique dans ce contexte.",
+        "suggestions": [
+          "nourriture"
+        ],
+        "ruleApplied": "5.2.2",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Bien que l'emploi au singulier soit plus fréquent, le pluriel 'nourritures' existe et peut désigner différents types d'aliments.",
+        "counterArgument": "Le pluriel 'nourritures' est attesté dans les dictionnaires et peut être employé pour désigner divers types d'aliments ou des denrées variées. Le Petit Robert reconnaît cet emploi. Bien que le singulier soit plus courant dans un sens générique, le pluriel n'est pas fautif dans ce contexte où l'on peut comprendre 'différents types de nourritures' ou 'denrées alimentaires diverses'."
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 10,
+      "note": "C"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 11,
+      "note": "C"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 24,
+      "vraisErreurs": 21,
+      "discutables": 3,
+      "fauxPositifs": 0
+    }
+  },
+  "startTimestamp": "2025-12-12T11:35:59.016Z",
+  "endTimestamp": "2025-12-12T11:37:03.891Z",
+  "durationMs": 64875,
+  "durationFormatted": "01:04:875"
+}

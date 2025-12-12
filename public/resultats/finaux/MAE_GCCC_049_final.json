@@ -1,0 +1,354 @@
+{
+  "processedAt": "2025-12-12T11:38:24.270Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_049.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_049.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "distribue",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe \"distribue\" est coordonné par \"et\" à deux verbes à l'infinitif (\"conserver\", \"utiliser\") qui dépendent de la locution \"comment\". Il doit donc aussi être à l'infinitif.",
+        "suggestions": [
+          "distribuer"
+        ],
+        "ruleApplied": "4.1.2.1.8",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de parallélisme grammatical évidente. Les trois verbes coordonnés doivent avoir la même forme (infinitif).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "2020)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque un point pour marquer la fin de la phrase après la référence entre parenthèses.",
+        "suggestions": [
+          "2020)."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Omission claire de la ponctuation finale. Le point doit suivre la parenthèse fermante.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "ses",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le déterminant possessif \"ses\" (3e personne du singulier) renvoie à l'antécédent pluriel \"des fruits et légumes\". Il faut utiliser le déterminant \"leurs\".",
+        "suggestions": [
+          "leurs"
+        ],
+        "ruleApplied": "4.1.2.3.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du déterminant possessif avec son antécédent pluriel. Règle grammaticale claire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "actuellement",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'adverbe \"actuellement\" est un faux ami (calque de l'anglais \"actually\"). Il signifie \"en ce moment\" en français. Pour exprimer l'idée de \"en réalité\" ou \"effectivement\", il faut utiliser \"en fait\" ou \"effectivement\".",
+        "suggestions": [
+          "en fait",
+          "effectivement"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faux ami évident. Le contexte confirme que l'auteur veut dire \"en réalité\" et non \"en ce moment\".",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "d'agir",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'adjectif \"prêt\" se construit avec la préposition \"à\" et non \"de\" lorsqu'il est suivi d'un infinitif.",
+        "suggestions": [
+          "à agir"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de construction prépositionnelle. \"Prêt à\" + infinitif est la seule construction correcte.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "supporter",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Le verbe \"supporter\" est un faux ami (calque de l'anglais \"to support\"). Il signifie \"endurer\" en français. Pour exprimer l'idée d'aide ou de soutien, il faut utiliser le verbe \"soutenir\". Une erreur de syntaxe (S) a déjà été comptée dans cette phrase.",
+        "suggestions": [
+          "soutenir"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Anglicisme lexical évident. \"Supporter\" ne peut signifier \"appuyer\" en français standard.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "au même temps",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression correcte est \"en même temps\" et non \"au même temps\".",
+        "suggestions": [
+          "en même temps"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Locution figée. \"En même temps\" est la seule forme correcte en français.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "l'environnement Par",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque un point et un espace pour séparer les deux phrases.",
+        "suggestions": [
+          "l'environnement. Par"
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Omission claire de ponctuation entre deux phrases complètes. Erreur typographique évidente.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": ",",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "P",
+        "description": "Cette virgule est erronée car elle sépare le sujet complexe (\"les personnes qui ont besoin de la nourriture mais... ou les personnes sans-abris\") du verbe (\"vont\").",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.10.2.a",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle de base en ponctuation : on ne sépare jamais le sujet du verbe par une virgule seule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.10",
+        "text": "par contribuant",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition \"par\" ne peut être suivie d'un participe présent. Il faut utiliser la préposition \"en\" (\"en contribuant\") pour exprimer la manière.",
+        "suggestions": [
+          "en contribuant"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de construction grammaticale. Seule la préposition \"en\" peut introduire un gérondif en français.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.11",
+        "text": "faire le don",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "L'expression idiomatique est \"faire un don\". L'utilisation de l'article défini \"le\" est incorrecte dans ce contexte général. Une erreur de syntaxe (S) a déjà été comptée dans cette phrase.",
+        "suggestions": [
+          "faire un don",
+          "faire des dons"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'usage de l'article. Dans un contexte générique, on utilise l'article indéfini \"un don\" ou le pluriel \"des dons\".",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "au",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom \"restauration\" est féminin. La contraction \"au\" (à + le) est donc incorrecte. Il faut utiliser la préposition \"à\" suivie du déterminant \"la\".",
+        "suggestions": [
+          "à la"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord de genre évidente. \"Restauration\" est un nom féminin qui exige \"à la\".",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "tous",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant \"tous\" doit s'accorder en genre avec le nom féminin \"étapes\".",
+        "suggestions": [
+          "toutes"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en genre du déterminant avec le nom féminin \"étapes\".",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "inpacts",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage. Le mot \"impact\" s'écrit avec un \"m\" et non un \"n\" devant la lettre \"p\".",
+        "suggestions": [
+          "impacts"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. La règle orthographique exige \"m\" devant \"b\" et \"p\".",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "utilisant lesproduits",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Les mots \"utilisant\" et \"les\" doivent être séparés par un espace.",
+        "suggestions": [
+          "utilisant les produits"
+        ],
+        "ruleApplied": "5.2.6.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur typographique claire : fusion de mots qui doivent être séparés.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "sans-abris",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le nom composé \"sans-abri\" est invariable au pluriel.",
+        "suggestions": [
+          "sans-abri"
+        ],
+        "ruleApplied": "5.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle d'invariabilité des noms composés avec \"sans\". \"Sans-abri\" ne prend pas de \"s\" au pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "vont",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec le sujet \"moins de nourriture\", dont le noyau \"nourriture\" est au singulier.",
+        "suggestions": [
+          "va"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du verbe. Avec \"moins de + nom singulier\", le verbe se met au singulier.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "sourcementionnée",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Les mots \"source\" et \"mentionnée\" doivent être séparés par un espace. Cette erreur de fusion de mots a déjà été comptée dans le texte.",
+        "suggestions": [
+          "source mentionnée"
+        ],
+        "ruleApplied": "5.2.6.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur typographique : fusion de mots qui doivent être séparés.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "la publique",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'adjectif \"publique\" (féminin) et le nom \"public\" (masculin). Le nom correct est \"le public\".",
+        "suggestions": [
+          "le public"
+        ],
+        "ruleApplied": "5.3.3.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de genre et de catégorie grammaticale. \"Public\" est un nom masculin, pas un adjectif.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "nouspouvons",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Les mots \"nous\" et \"pouvons\" doivent être séparés par un espace. Cette erreur de fusion de mots a déjà été comptée dans le texte.",
+        "suggestions": [
+          "nous pouvons"
+        ],
+        "ruleApplied": "5.2.6.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur typographique : fusion de mots qui doivent être séparés.",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 8,
+      "note": "C"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 7,
+      "note": "C"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 20,
+      "vraisErreurs": 20,
+      "discutables": 0,
+      "fauxPositifs": 0
+    }
+  },
+  "startTimestamp": "2025-12-12T11:37:41.177Z",
+  "endTimestamp": "2025-12-12T11:38:24.270Z",
+  "durationMs": 43093,
+  "durationFormatted": "00:43:093"
+}

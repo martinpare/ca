@@ -1,0 +1,237 @@
+{
+  "processedAt": "2025-12-10T14:43:36.490Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_086.txt",
+    "originalText": "Le gaspillage alimentaire, un enjeu simple?\r\n\r\nLa survie de l'humanité en dépend, cet enjeu qui pourrait être éradiqué mais que personne n'en discute. C'est évidemment le gaspillage alimentaire qui pourrait étouffer les générations futures. Je pense que nous sommes prêts à le réduire en changeant beaucoup de nos habitudes alimentaires pour sauver la planète et la race humaine. Seulement quelques gestes simples à plusieurs auraient un gros impact sur le futur de l'humanité.\r\n\r\nPremièrement, il est évident que nous pourrions changer les habitudes alimentaires de la population en éduquant et sensibilisant les enfants. Ils pourraient avoir plusieurs cours par semaine avec des spécialistes pour que le gaspillage se réduise de façon phénoménale. C'est une manière simple qui nécéssiterait peu de temps et d'argent pour une si grande cause. Les bénéfices seraient fulgurant et nous pourrions les voir dans des décennies. Mais, il y aurait une façon de contrer cet enjeu plus rapidement. Nous pourrions l'apprendre à la population au complet. De cette manière, «50% du gaspillage alimentaire pourrait être évité à la maison si les consommateurs apprenaient à mieux conserver les aliments.» (1). C'est un chiffre gigantesque qui sauverait la planète si tout le monde pouvait être éduqué sur le sujet. Il est certain que cela serait bénéfique pour tout le monde. Le gouvernement pourrait faire des annonces ou proposer des cours gratuit offert à tous. Par exemple, la population aurait plus d'argent vu qu'elle n'aurait pas à acheter plus de nourriture et pourraient donc consommer plus de produits ou de biens ce qui rendrait la population plus heureuse.\r\n\r\nDeuxièmement, la population n'est pas la seule criminelle mais bien d'autres gaspillent d'énormes quantités tel les restaurants ou bien les épiceries. Ces petites imperfections sur un fruit qui vont faire que celui-ci ne sera pas sur le marché et qu'il ne sera plus comestible dans les jours à suivre sont très courants. Il est bien difficile de pouvoir déterminer la quantité nécessaire de nourriture que les restaurants ou les épiceries devraient acheter parce que le concept d'offre et de la demande ne peut pas être cent pour cent précis. C'est donc sûr que le gaspillage est inévitable mais nous pouvons le réduire. Pour les épiceries, ils devraient faire de gros rabais sur les produits qui vont expirer très bientôt pour inciter le consommateur à les acheter et ainsi aider à réduire le gaspillage alimentaire. Sinon, la solution la plus simple et efficace serait de donner les restants aux personnes dans le besoin ou alors la nourriture qui n'est pas assez belle aux standards des épiceries. Cela causerait moins de pertes et serait semblable à une œuvre caritative.\r\n\r\nPour conclure, je pense sincèrement que réduire le gaspillage alimentaire est un objectif facilement réalisable et que tout le monde devrait se mettre à la tâche. Ce sont de petits changements pour nous qui pourrons causer la survie de la race humaine. Et vous, seriez vous prêt à changer vos habitudes de vie pour sauver la planète du gaspillage?\r\n\r\n1 CORRIVEAU, Jeanne(2020). « La fierté de ne pas gaspiller d'aliments », Le Devoir, [En ligne], 23 novembre.",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "à plusieurs",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction 'gestes simples à plusieurs' est boiteuse. Il faut reformuler pour clarifier que les gestes sont faits par plusieurs personnes.",
+        "suggestions": [
+          "faits par plusieurs",
+          "posés par plusieurs"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "id": "erreur4.2",
+        "text": "Jeanne(2020)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une espace est manquante avant la parenthèse ouvrante.",
+        "suggestions": [
+          "Jeanne (2020)"
+        ],
+        "ruleApplied": "4.2.2.9.1"
+      },
+      {
+        "id": "erreur4.3",
+        "text": "cet enjeu qui pourrait être éradiqué mais que personne n'en discute",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette construction constitue une phrase non autonome (subordonnée sans matrice), ce qui est une erreur de syntaxe. De plus, l'emploi du pronom relatif « que » suivi de « en » est incorrect pour introduire le complément du verbe « discuter » ; il fallait utiliser « dont ».",
+        "suggestions": [
+          "C'est un enjeu qui pourrait être éradiqué, mais dont personne ne discute."
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "id": "erreur4.4",
+        "text": "au complet",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression « au complet » est un calque de l'anglais qui est considéré comme un usage familier. Il est préférable d'utiliser « entière » ou « en entier ».",
+        "suggestions": [
+          "entière",
+          "en entier"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "id": "erreur4.5",
+        "text": "«50% du gaspillage alimentaire pourrait être évité à la maison si les consommateurs apprenaient à mieux conserver les aliments.»",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Les guillemets français (« ») doivent être séparés du texte qu'ils encadrent par une espace insécable. L'espace est manquante après le guillemet ouvrant et avant le guillemet fermant.",
+        "suggestions": [
+          "« 50% du gaspillage alimentaire pourrait être évité à la maison si les consommateurs apprenaient à mieux conserver les aliments. »"
+        ],
+        "ruleApplied": "4.2.2.5.1"
+      },
+      {
+        "id": "erreur4.6",
+        "text": "(1).",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Dans une citation suivie d'une référence entre parenthèses, le point final se place avant la référence.",
+        "suggestions": [
+          ". (1)"
+        ],
+        "ruleApplied": "4.2.2.1.2"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 4.5,
+      "note": "B"
+    },
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "nécéssiterait",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage. Le mot 'nécessiterait' s'écrit avec un 'e' et non un 'é' après le 'c'.",
+        "suggestions": [
+          "nécessiterait"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.2",
+        "text": "fulgurant",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en genre et en nombre. L'adjectif 'fulgurant' doit s'accorder avec son donneur 'Les bénéfices', qui est masculin pluriel.",
+        "suggestions": [
+          "fulgurants"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.3",
+        "text": "gratuit",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en genre et en nombre. L'adjectif 'gratuit' doit s'accorder avec son donneur 'cours', qui est masculin pluriel.",
+        "suggestions": [
+          "gratuits"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.4",
+        "text": "offert",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "Erreur d'accord en genre et en nombre. Le participe passé 'offert', employé comme adjectif, doit s'accorder avec son donneur 'cours', qui est masculin pluriel.",
+        "suggestions": [
+          "offerts"
+        ],
+        "ruleApplied": "5.4.2.1"
+      },
+      {
+        "id": "erreur5.5",
+        "text": "pourraient",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord du verbe. Le verbe 'pourraient' doit s'accorder avec son sujet 'la population', qui est à la 3e personne du singulier.",
+        "suggestions": [
+          "pourrait"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.6",
+        "text": "tel",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en genre et en nombre. L'adjectif 'tel' doit s'accorder avec le nom auquel il se rapporte, 'restaurants', qui est masculin pluriel.",
+        "suggestions": [
+          "tels"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.7",
+        "text": "courants",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en genre et en nombre. L'adjectif 'courants' doit s'accorder avec son donneur 'Ces petites imperfections', qui est féminin pluriel.",
+        "suggestions": [
+          "courantes"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.8",
+        "text": "ils",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en genre du pronom. Le pronom de reprise 'ils' doit s'accorder en genre avec son antécédent 'Les épiceries', qui est féminin.",
+        "suggestions": [
+          "elles"
+        ],
+        "ruleApplied": "5.3.1.4"
+      },
+      {
+        "id": "erreur5.9",
+        "text": "pourrons",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord du verbe. Le verbe 'pourrons' doit s'accorder avec son sujet 'qui' (mis pour 'de petits changements'), qui est à la 3e personne du pluriel.",
+        "suggestions": [
+          "pourront"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.10",
+        "text": "seriez vous",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Absence du trait d'union obligatoire dans une construction interrogative avec inversion du sujet pronominal.",
+        "suggestions": [
+          "seriez-vous"
+        ],
+        "ruleApplied": "5.2.1.10"
+      },
+      {
+        "id": "erreur5.11",
+        "text": "standards",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'emploi de l'anglicisme 'standards' est déconseillé lorsqu'un équivalent français comme 'normes' existe.",
+        "suggestions": [
+          "normes"
+        ],
+        "ruleApplied": "5.2.6.5"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 10,
+      "note": "C"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:39:44.749Z",
+    "endTimestamp": "2025-12-10T14:43:36.490Z",
+    "durationMs": 231741,
+    "durationFormatted": "03:51:741"
+  }
+}

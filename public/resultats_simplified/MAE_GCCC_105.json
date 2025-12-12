@@ -1,0 +1,839 @@
+{
+  "processedAt": "2025-12-10T14:57:18.257Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_105.txt",
+    "originalText": "Jeter plus que manger.\r\n\r\nChers lecteurs et lectrices,\r\n\r\nde nos jour il y a plusieurs enjeux dans l'environnement . On ne fait pas tous attention à notre planète. On peut régler se problème si tout le monde met de l'effort . L'enjeux sur lequel je vais m'appuyer dessus est le gaspillage alimentaire . Selon moi, je pense qu'on est loin d'être prêt à lutter contre le gaspillage alimentaire . C'est à cause de la mentalité et des cultures différentes . Il y a aussi Les problèmes au nivaux de la production et transformation .\r\n\r\nEn premier lieu, Selon une étude du conseil National Zéro déchet qu'il ya environ 2,2 millions de tonnes d'alliments qui sont gaspillés par des familles canadiennes et cette quantité de perte d'aliments correspond à 17 milliards de dollars. C'est vraiment beaucoups d'aliments gaspillé. Le Canada accueille plusieurs imigrants de cultures et de races différentes. La façon que chaque personne prépare ces aliments diffère de personne en personne et de culture et et traditions . Il y a des types de plats qui consome énormément d'aliment, puis on jette les restes et parfois il reste beaucoups dans le plat mais on le jette comme même. Chez nous on garde mal les aliments c'est pour cela il ya des fruit et des légumes qui deviennent immangeable. On gaspille énormément avec ça. On ne peut pas imposer au gens de manger que des choses bien précises, car il y a dans des tations des plats qu'il mange régulièrement. C'est une habitude pour eux. Dans Notre entourage qui veut acheter des fruits ou légumes qui sont pas belle (avec des tache ou qui à l'air d'être magané)? Moi je vous dit que presque tout le monde de notre entourage veut avoir de beau propre et des frais fruits et légumes. C'est ainsi l'un des problèmes qui causent le gaspillages d'aliment en jetant les moins comme que les clients n'aime pas. La majorité du gaspillage provient de la maison et si on veut améliorer ça faudra trouver une solution à mieux cuisiner et que tout le monde approuve.\r\n\r\nEn second lieu, à cause des problèmes de transformation les productions s’habîmes parfois dû a des problèmes d'équipements ou d'erreurs humaines. Les condition météorologique on un facteur important sur le gaspillage alimentaire, car c'est appartir de la météo qu'on aura une bonne ou une mauvaise production pour que ça puisse se vendre. Si elle est mauvaise les consomateurs vont pas l'acheter et tout cela sera jeté. Tout dépend de la production et la météo. Lors de la transformation il se pourrait qu'un seul aliment pourissent plusieurs d'autres et dans ce cas la il faudras tous les jété. C'est pour cela c'est difficile de moin gaspiller a moin que on met plus de ressource pour la transformation et la production.\r\n\r\nEn conclusion, comme je l'ai mentionné je pense qu'on est encore loin de pouvoir lutter contre le gaspillage alimentaire. On devra faire comprendre ça aux gens qui ont des traditions et des cultures pour qu'il puissent changer et faudras trouver des manière pour minimiser les pertes d’aliments. Dans combien d'année feron nous face à une famine à cause de ce gaspillages alimentaire ?",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "environnement .",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Présence erronée d'une espace avant le point. En français, le point final est collé au mot qui le précède.",
+        "suggestions": [
+          "environnement."
+        ],
+        "ruleApplied": "4.2.1.5"
+      },
+      {
+        "id": "erreur4.2",
+        "text": "l'effort .",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Présence erronée d'une espace avant le point. En français, le point final est collé au mot qui le précède.",
+        "suggestions": [
+          "l'effort."
+        ],
+        "ruleApplied": "4.2.1.5"
+      },
+      {
+        "id": "erreur4.3",
+        "text": "sur lequel je vais m'appuyer dessus",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Mot superflu (redondance). La locution 'sur lequel' et l'adverbe 'dessus' ont le même sens. Il faut supprimer l'un des deux.",
+        "suggestions": [
+          "sur lequel je vais m'appuyer",
+          "auquel je vais m'attarder"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "id": "erreur4.4",
+        "text": "alimentaire .",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Présence erronée d'une espace avant le point. En français, le point final est collé au mot qui le précède.",
+        "suggestions": [
+          "alimentaire."
+        ],
+        "ruleApplied": "4.2.1.5"
+      },
+      {
+        "id": "erreur4.5",
+        "text": "Selon moi, je pense",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Mot superflu (redondance). L'expression 'Selon moi' et le verbe 'je pense' expriment la même idée d'opinion personnelle. Il faut en supprimer un.",
+        "suggestions": [
+          "Selon moi, on est loin",
+          "Je pense qu'on est loin"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "id": "erreur4.6",
+        "text": "alimentaire .",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "P",
+        "description": "Présence erronée d'une espace avant le point. En français, le point final est collé au mot qui le précède.",
+        "suggestions": [
+          "alimentaire."
+        ],
+        "ruleApplied": "4.2.1.5"
+      },
+      {
+        "id": "erreur4.7",
+        "text": "différentes .",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Présence erronée d'une espace avant le point. En français, le point final est collé au mot qui le précède.",
+        "suggestions": [
+          "différentes."
+        ],
+        "ruleApplied": "4.2.1.5"
+      },
+      {
+        "id": "erreur4.8",
+        "text": "transformation .",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Présence erronée d'une espace avant le point. En français, le point final est collé au mot qui le précède.",
+        "suggestions": [
+          "transformation."
+        ],
+        "ruleApplied": "4.2.1.5"
+      },
+      {
+        "id": "erreur4.9",
+        "text": "que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Pronom relatif erroné. Pour exprimer la manière, il faut utiliser le pronom 'dont' après 'la façon'.",
+        "suggestions": [
+          "dont"
+        ],
+        "ruleApplied": "4.1.2.3.1"
+      },
+      {
+        "id": "erreur4.10",
+        "text": "et",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Mot superflu. Le coordonnant 'et' est répété inutilement.",
+        "suggestions": [
+          "et traditions"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "id": "erreur4.11",
+        "text": "traditions .",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Présence erronée d'une espace avant le point. En français, le point final est collé au mot qui le précède.",
+        "suggestions": [
+          "traditions."
+        ],
+        "ruleApplied": "4.2.1.5"
+      },
+      {
+        "id": "erreur4.12",
+        "text": "cela",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de virgule. Il manque une virgule après l'organisateur textuel 'c'est pour cela'.",
+        "suggestions": [
+          "cela,"
+        ],
+        "ruleApplied": "4.2.2.10.1.k"
+      },
+      {
+        "id": "erreur4.13",
+        "text": "de beau propre et des frais fruits et légumes",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction de phrase boiteuse. L'ordre des mots et la structure sont incorrects. Il faudrait réorganiser les adjectifs et les noms.",
+        "suggestions": [
+          "de beaux fruits et légumes propres et frais"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "id": "erreur4.14",
+        "text": "comme que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Subordonnant erroné. La locution 'comme que' n'existe pas. Le contexte suggère 'parce que' ou 'puisque'.",
+        "suggestions": [
+          "parce que",
+          "puisque"
+        ],
+        "ruleApplied": "4.1.2.4.2"
+      },
+      {
+        "id": "erreur4.15",
+        "text": "vont pas",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Négation mal employée. Il manque l'adverbe de négation 'ne' avant le verbe.",
+        "suggestions": [
+          "ne vont pas"
+        ],
+        "ruleApplied": "4.1.2.1.3"
+      },
+      {
+        "id": "erreur4.16",
+        "text": "plusieurs d'autres",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Mot superflu (redondance). Il faut utiliser soit 'plusieurs autres', soit 'd'autres'.",
+        "suggestions": [
+          "plusieurs autres",
+          "d'autres"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "id": "erreur4.17",
+        "text": "on met",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de mode verbal. La locution conjonctive 'à moins que' exige l'emploi du subjonctif.",
+        "suggestions": [
+          "on ne mette"
+        ],
+        "ruleApplied": "4.1.2.2.3"
+      },
+      {
+        "id": "erreur4.18",
+        "text": "mentionné",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de virgule. Une virgule est nécessaire pour séparer la proposition subordonnée circonstancielle en tête de phrase de la proposition principale.",
+        "suggestions": [
+          "mentionné,"
+        ],
+        "ruleApplied": "4.2.2.10.1.m"
+      },
+      {
+        "id": "erreur4.19",
+        "text": "faudras",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence d'un mot essentiel et erreur de conjugaison. Il manque le pronom impersonnel 'il' devant le verbe 'faudra'. De plus, 'faudra' ne prend pas de 's' au futur simple.",
+        "suggestions": [
+          "il faudra"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 13.5,
+      "note": "C"
+    },
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "de",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Absence de majuscule en début de paragraphe. Le premier mot d'un paragraphe doit commencer par une majuscule.",
+        "suggestions": [
+          "De"
+        ],
+        "ruleApplied": "5.3.6.1"
+      },
+      {
+        "id": "erreur5.2",
+        "text": "jour",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le nom 'jour' doit être au pluriel dans la locution 'de nos jours'.",
+        "suggestions": [
+          "jours"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.3",
+        "text": "se",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'homophone grammatical 'se' (pronom réfléchi) et 'ce' (déterminant démonstratif). Devant le nom 'problème', il faut utiliser le déterminant 'ce'.",
+        "suggestions": [
+          "ce"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "id": "erreur5.4",
+        "text": "L'enjeux",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le nom 'enjeu' est au singulier, comme l'indique l'élision 'L''. Il ne doit donc pas prendre de 'x' final.",
+        "suggestions": [
+          "L'enjeu"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.5",
+        "text": "Les",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Majuscule erronée à l'intérieur d'une phrase. Le mot 'Les' ne commence pas une nouvelle phrase et ne doit donc pas avoir de majuscule.",
+        "suggestions": [
+          "les"
+        ],
+        "ruleApplied": "5.1.4"
+      },
+      {
+        "id": "erreur5.6",
+        "text": "nivaux",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur de graphie. Le mot 'niveaux' s'écrit avec 'eaux' à la fin.",
+        "suggestions": [
+          "niveaux"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "id": "erreur5.7",
+        "text": "Selon",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Majuscule erronée après une virgule. Le mot 'selon' ne commence pas une nouvelle phrase et doit donc être en minuscule.",
+        "suggestions": [
+          "selon"
+        ],
+        "ruleApplied": "5.3.6.1"
+      },
+      {
+        "id": "erreur5.8",
+        "text": "National",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur de majuscule dans une dénomination. L'adjectif 'national' dans 'conseil national' ne prend généralement pas de majuscule.",
+        "suggestions": [
+          "national"
+        ],
+        "ruleApplied": "5.2.4.1.2"
+      },
+      {
+        "id": "erreur5.9",
+        "text": "qu'il ya",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Absence d'apostrophe. Il faut une apostrophe pour marquer l'élision dans 'qu'il y a'.",
+        "suggestions": [
+          "qu'il y a"
+        ],
+        "ruleApplied": "5.2.3.1"
+      },
+      {
+        "id": "erreur5.10",
+        "text": "beaucoups",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Ajout d'un 's' erroné à un mot invariable. L'adverbe 'beaucoup' est invariable et ne prend jamais de 's'.",
+        "suggestions": [
+          "beaucoup"
+        ],
+        "ruleApplied": "5.2.1.5"
+      },
+      {
+        "id": "erreur5.11",
+        "text": "gaspillé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord du participe passé. Le participe passé 'gaspillé', employé comme adjectif, doit s'accorder en genre et en nombre avec le nom qu'il qualifie, 'aliments' (masculin pluriel).",
+        "suggestions": [
+          "gaspillés"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "id": "erreur5.12",
+        "text": "imigrants",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur de graphie (lettre non doublée). Le mot 'immigrants' s'écrit avec deux 'm'.",
+        "suggestions": [
+          "immigrants"
+        ],
+        "ruleApplied": "5.2.1.6"
+      },
+      {
+        "id": "erreur5.13",
+        "text": "ces",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'homophone grammatical 'ces' (déterminant démonstratif) et 'ses' (déterminant possessif). Le sens indique que les aliments appartiennent à 'chaque personne'.",
+        "suggestions": [
+          "ses"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "id": "erreur5.14",
+        "text": "consome",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord du verbe. Le verbe 'consommer' doit s'accorder avec son sujet 'des types de plats' (3e personne du pluriel). De plus, la graphie correcte est 'consomment'.",
+        "suggestions": [
+          "consomment"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.15",
+        "text": "d'aliment",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Après 'énormément d'', le nom 'aliment' doit être au pluriel.",
+        "suggestions": [
+          "d'aliments"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.16",
+        "text": "beaucoups",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Ajout d'un 's' erroné à un mot invariable. L'adverbe 'beaucoup' est invariable et ne prend jamais de 's'.",
+        "suggestions": [
+          "beaucoup"
+        ],
+        "ruleApplied": "5.2.1.5"
+      },
+      {
+        "id": "erreur5.17",
+        "text": "comme même",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur sur le lexème. La locution correcte est 'quand même'.",
+        "suggestions": [
+          "quand même"
+        ],
+        "ruleApplied": "5.2.1.8"
+      },
+      {
+        "id": "erreur5.18",
+        "text": "fruit",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le nom 'fruit' doit être au pluriel car il est introduit par 'des'.",
+        "suggestions": [
+          "fruits"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.19",
+        "text": "gens",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur de contraction. La préposition 'à' et l'article 'les' doivent être contractés en 'aux'.",
+        "suggestions": [
+          "aux gens"
+        ],
+        "ruleApplied": "5.3.5"
+      },
+      {
+        "id": "erreur5.20",
+        "text": "tations",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur de graphie (mot incomplet). Le contexte suggère le mot 'traditions'.",
+        "suggestions": [
+          "traditions"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "id": "erreur5.21",
+        "text": "qu'il",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord du pronom. Le pronom 'il' doit s'accorder en nombre avec son antécédent 'des plats' (masculin pluriel), devenant 'ils'.",
+        "suggestions": [
+          "qu'ils"
+        ],
+        "ruleApplied": "5.3.1.4"
+      },
+      {
+        "id": "erreur5.22",
+        "text": "mange",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "Erreur d'accord du verbe. Le verbe 'manger' doit s'accorder avec son sujet 'ils' (donneur: 'des plats'), qui est à la 3e personne du pluriel.",
+        "suggestions": [
+          "mangent"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.23",
+        "text": "Notre",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Majuscule erronée à l'intérieur d'une phrase. Le mot 'Notre' ne commence pas une nouvelle phrase et ne doit donc pas avoir de majuscule.",
+        "suggestions": [
+          "notre"
+        ],
+        "ruleApplied": "5.1.4"
+      },
+      {
+        "id": "erreur5.24",
+        "text": "belle",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord de l'adjectif. L'adjectif 'beau' doit s'accorder en genre et en nombre avec le nom qu'il qualifie, 'fruits ou légumes' (masculin pluriel).",
+        "suggestions": [
+          "beaux"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.25",
+        "text": "tache",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le nom 'tache' doit être au pluriel car il est introduit par 'des'.",
+        "suggestions": [
+          "taches"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.26",
+        "text": "à",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'homophone grammatical 'à' (préposition) et 'a' (verbe avoir). Dans l'expression 'avoir l'air', il faut utiliser le verbe.",
+        "suggestions": [
+          "a"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "id": "erreur5.27",
+        "text": "magané",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "Erreur d'accord de l'adjectif. L'adjectif 'magané' doit s'accorder en genre et en nombre avec le nom qu'il qualifie, 'fruits ou légumes' (donneur), qui est masculin pluriel.",
+        "suggestions": [
+          "maganés"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.28",
+        "text": "dit",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur de conjugaison. Le verbe 'dire' à la première personne du singulier du présent de l'indicatif se conjugue 'dis'.",
+        "suggestions": [
+          "dis"
+        ],
+        "ruleApplied": "5.3.2.1"
+      },
+      {
+        "id": "erreur5.29",
+        "text": "gaspillages",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le nom 'gaspillage' est au singulier, comme l'indique le déterminant 'le'. Il ne doit donc pas prendre de 's' final.",
+        "suggestions": [
+          "gaspillage"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.30",
+        "text": "n'aime",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord du verbe. Le verbe 'aimer' doit s'accorder avec son sujet 'les clients' (3e personne du pluriel).",
+        "suggestions": [
+          "n'aiment"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.31",
+        "text": "s’habîmes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Barbarisme de conjugaison et erreur de lexique. Le verbe est 's'abîmer' et non 's'habîmer'. Il doit s'accorder avec le sujet 'les productions' (3e personne du pluriel) au présent de l'indicatif.",
+        "suggestions": [
+          "s'abîment"
+        ],
+        "ruleApplied": "5.3.2.1"
+      },
+      {
+        "id": "erreur5.32",
+        "text": "a",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'homophone grammatical 'a' (verbe avoir) et 'à' (préposition). Dans la locution 'dû à', il faut utiliser la préposition avec un accent grave.",
+        "suggestions": [
+          "à"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "id": "erreur5.33",
+        "text": "condition",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le nom 'condition' doit être au pluriel car il est déterminé par 'Les'.",
+        "suggestions": [
+          "conditions"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.34",
+        "text": "météorologique",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "Erreur d'accord de l'adjectif. L'adjectif 'météorologique' doit s'accorder en genre et en nombre avec le nom qu'il qualifie, 'conditions' (donneur), qui est féminin pluriel.",
+        "suggestions": [
+          "météorologiques"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.35",
+        "text": "on",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'homophone grammatical 'on' (pronom) et 'ont' (verbe avoir). Le sujet 'Les conditions météorologiques' requiert le verbe 'ont'.",
+        "suggestions": [
+          "ont"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "id": "erreur5.36",
+        "text": "appartir",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Barbarisme grammatical. La locution correcte est 'à partir', en deux mots.",
+        "suggestions": [
+          "à partir"
+        ],
+        "ruleApplied": "5.3.4"
+      },
+      {
+        "id": "erreur5.37",
+        "text": "consomateurs",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur de graphie. Le mot 'consommateurs' s'écrit avec deux 'm'.",
+        "suggestions": [
+          "consommateurs"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "id": "erreur5.38",
+        "text": "pourissent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord du verbe. Le verbe 'pourrir' doit s'accorder avec son sujet 'un seul aliment' (3e personne du singulier) au subjonctif présent ('pourrisse'). De plus, la graphie correcte est 'pourrissent' au pluriel.",
+        "suggestions": [
+          "pourrisse"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.39",
+        "text": "la",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'homophone grammatical 'la' (article ou pronom) et 'là' (adverbe de lieu). Dans l'expression 'dans ce cas-là', il faut utiliser l'adverbe.",
+        "suggestions": [
+          "là"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "id": "erreur5.40",
+        "text": "faudras",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Barbarisme de conjugaison. Le verbe 'falloir' au futur simple, 3e personne du singulier, se conjugue 'faudra', sans 's'.",
+        "suggestions": [
+          "faudra"
+        ],
+        "ruleApplied": "5.3.2.1"
+      },
+      {
+        "id": "erreur5.41",
+        "text": "jété",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion de désinence homophone. Après un verbe conjugué ('faudra'), le verbe qui suit se met à l'infinitif ('jeter').",
+        "suggestions": [
+          "jeter"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "id": "erreur5.42",
+        "text": "moin",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur de graphie. Le mot 'moins' s'écrit avec un 's' final.",
+        "suggestions": [
+          "moins"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "id": "erreur5.43",
+        "text": "a",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'homophone grammatical 'a' (verbe avoir) et 'à' (préposition). La locution 'à moins que' commence par la préposition.",
+        "suggestions": [
+          "à"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "id": "erreur5.44",
+        "text": "ressource",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Après 'plus de', le nom 'ressource' doit être au pluriel.",
+        "suggestions": [
+          "ressources"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.45",
+        "text": "qu'il",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord du pronom. Le pronom 'il' doit s'accorder en nombre avec son antécédent 'gens' (pluriel), devenant 'ils'.",
+        "suggestions": [
+          "qu'ils"
+        ],
+        "ruleApplied": "5.3.1.4"
+      },
+      {
+        "id": "erreur5.46",
+        "text": "manière",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le nom 'manière' doit être au pluriel car il est introduit par 'des'.",
+        "suggestions": [
+          "manières"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.47",
+        "text": "d'année",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Après 'combien d'', le nom 'année' doit être au pluriel.",
+        "suggestions": [
+          "d'années"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.48",
+        "text": "feron",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Barbarisme de conjugaison. Le verbe 'faire' au futur simple, 1re personne du pluriel, se conjugue 'ferons'.",
+        "suggestions": [
+          "ferons"
+        ],
+        "ruleApplied": "5.3.2.1"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 43,
+      "note": "E"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:49:30.168Z",
+    "endTimestamp": "2025-12-10T14:57:18.257Z",
+    "durationMs": 468089,
+    "durationFormatted": "07:48:089"
+  }
+}

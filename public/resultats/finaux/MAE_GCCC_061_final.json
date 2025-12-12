@@ -1,0 +1,307 @@
+{
+  "processedAt": "2025-12-12T11:39:39.543Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_061.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_061.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "Par exemple, si nous regardons la Tablée des Chefs, un programme de récupération de surplus alimentaires pour les restaurants et hôtels de Montréal fondé en 2002 par le chef Jean-François Archambault, qui vise à récupérer et redistribuer de la nourriture en surplus aux personnes dans le besoin a récupéré 600 000 repas en 2018 (2).",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La structure « si nous regardons X [...] a récupéré » crée une rupture syntaxique. La subordonnée conditionnelle « si nous regardons » annonce une principale (verbe de conclusion) qui n'apparaît pas. Au lieu de cela, le verbe « a récupéré » se rattache directement au GN « la Tablée des Chefs ».",
+        "suggestions": [
+          "Par exemple, la Tablée des Chefs, un programme de récupération de surplus alimentaires pour les restaurants et hôtels de Montréal fondé en 2002 par le chef Jean-François Archambault, qui vise à récupérer et redistribuer de la nourriture en surplus aux personnes dans le besoin, a récupéré 600 000 repas en 2018 (2).",
+          "Par exemple, si nous regardons la Tablée des Chefs, un programme de récupération de surplus alimentaires pour les restaurants et hôtels de Montréal fondé en 2002 par le chef Jean-François Archambault, qui vise à récupérer et redistribuer de la nourriture en surplus aux personnes dans le besoin, nous constatons qu'elle a récupéré 600 000 repas en 2018 (2)."
+        ],
+        "ruleApplied": "4.1.2.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Rupture de construction claire : la subordonnée conditionnelle « si nous regardons » n'est jamais complétée par une principale. Le verbe « a récupéré » se rattache au GN « la Tablée des Chefs », ce qui crée une incohérence syntaxique.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "Sinon au",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule est requise après un organisateur textuel ou un connecteur logique placé en tête de phrase.",
+        "suggestions": [
+          "Sinon, au"
+        ],
+        "ruleApplied": "4.2.2.10.1.k",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle de ponctuation standard : les organisateurs textuels en début de phrase doivent être suivis d'une virgule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "Par exemple, l'entreprise québécoise Loop Mission qui transforme des restes de fruits et légumes en jus, en savon ou en alcool.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase est un fragment syntaxique. Elle est constituée d'un groupe nominal étendu (« l'entreprise québécoise Loop Mission ») suivi d'une proposition subordonnée relative (« qui transforme... »), mais il manque le verbe principal de la phrase.",
+        "suggestions": [
+          "Par exemple, l'entreprise québécoise Loop Mission transforme des restes de fruits et légumes en jus, en savon ou en alcool.",
+          "Par exemple, il y a l'entreprise québécoise Loop Mission qui transforme des restes de fruits et légumes en jus, en savon ou en alcool."
+        ],
+        "ruleApplied": "4.1.2.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Fragment de phrase évident : absence de verbe principal. La structure GN + relative ne constitue pas une phrase complète.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "2021",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point est requis pour marquer la fin d'un élément dans une liste bibliographique.",
+        "suggestions": [
+          "2021."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Convention bibliographique standard : chaque référence doit se terminer par un point final.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "2019",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point est requis pour marquer la fin d'un élément dans une liste bibliographique.",
+        "suggestions": [
+          "2019."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Convention bibliographique standard : chaque référence doit se terminer par un point final.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "2020",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point est requis pour marquer la fin d'un élément dans une liste bibliographique.",
+        "suggestions": [
+          "2020."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Convention bibliographique standard : chaque référence doit se terminer par un point final.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "2021",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point est requis pour marquer la fin d'un élément dans une liste bibliographique.",
+        "suggestions": [
+          "2021."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Convention bibliographique standard : chaque référence doit se terminer par un point final.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "2020",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point est requis pour marquer la fin d'un élément dans une liste bibliographique.",
+        "suggestions": [
+          "2020."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Convention bibliographique standard : chaque référence doit se terminer par un point final.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "ou",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Confusion entre l'adverbe de lieu 'où' (avec accent) et la conjonction de coordination 'ou' (sans accent). Dans le contexte « les endroits ou le gaspillage », il s'agit du lieu, donc « où » est requis.",
+        "suggestions": [
+          "où"
+        ],
+        "ruleApplied": "4.1.2.1.9",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur grammaticale claire : « les endroits ou le gaspillage » n'a pas de sens logique. Le pronom relatif de lieu « où » est nécessaire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.10",
+        "text": "besoin a",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de la virgule fermant la proposition relative explicative 'qui vise à récupérer et redistribuer de la nourriture en surplus aux personnes dans le besoin'.",
+        "suggestions": [
+          "besoin, a"
+        ],
+        "ruleApplied": "4.2.2.10.1.g",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "La phrase présente déjà une erreur structurelle majeure (erreur4.1). La virgule manquante est une conséquence de cette rupture de construction, non une erreur indépendante. De plus, la relative « qui vise... » pourrait être interprétée comme déterminative (identifiant le programme spécifique), auquel cas aucune virgule ne serait requise.",
+        "counterArgument": "Cette détection est liée à l'erreur4.1. La phrase entière présente une rupture syntaxique (« si nous regardons X [...] a récupéré »). Une fois cette erreur corrigée, la ponctuation de la relative devra être révisée en fonction du sens : si la relative est déterminative (elle identifie quel programme), aucune virgule n'est nécessaire; si elle est explicative, des virgules sont requises. Dans le contexte actuel, signaler une virgule manquante est prématuré tant que la structure de base n'est pas corrigée."
+      },
+      {
+        "id": "erreur4.11",
+        "text": "alimentaire dit",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de la virgule fermant le groupe en apposition 'une experte en lutte contre le gaspillage alimentaire'.",
+        "suggestions": [
+          "alimentaire, dit"
+        ],
+        "ruleApplied": "4.2.2.10.1.i",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "L'apposition « une experte en lutte contre le gaspillage alimentaire » est correctement encadrée par des virgules. La virgule ouvrante apparaît après « Siry » et la virgule fermante n'est pas nécessaire avant « dit » car le verbe fait partie intégrante de la construction « Selon X, ... dit que ». La structure complète est : « Selon Florence-Léa Siry, une experte [...], dit que ». Le problème réside dans la redondance « Selon X... dit que » (erreur4.12), non dans la ponctuation de l'apposition.",
+        "counterArgument": "L'apposition « une experte en lutte contre le gaspillage alimentaire » est déjà correctement encadrée : virgule après « Siry » (ouvrante) et virgule avant « dit » serait incorrecte car elle séparerait le sujet du verbe dans la structure « Florence-Léa Siry [...] dit que ». Le vrai problème est la redondance « Selon X... dit que » (voir erreur4.12). Une fois corrigée, on obtiendrait soit « Selon X, ... » (sans verbe « dit »), soit « X dit que... » (sans « Selon »). Dans les deux cas, la ponctuation de l'apposition serait adéquate."
+      },
+      {
+        "id": "erreur4.12",
+        "text": "dit que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Redondance syntaxique. La structure 'Selon X, ... dit que...' combine deux constructions incompatibles : « Selon X » (locution prépositive introduisant une source) et « X dit que » (proposition indépendante). Il faut choisir l'une ou l'autre.",
+        "suggestions": [
+          "Selon Florence-Léa Siry, une experte en lutte contre le gaspillage alimentaire, 50% du gaspillage à la maison pourrait être évité...",
+          "Florence-Léa Siry, une experte en lutte contre le gaspillage alimentaire, dit que 50% du gaspillage à la maison pourrait être évité..."
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Redondance syntaxique claire : on ne peut combiner « Selon X » et « X dit que » dans la même structure. L'un des deux éléments doit être supprimé.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "unies",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "La majuscule est requise pour les noms d'organismes officiels internationaux. L'« Organisation des Nations Unies » (ONU) est une dénomination officielle dont tous les mots principaux prennent la majuscule.",
+        "suggestions": [
+          "Unies"
+        ],
+        "ruleApplied": "5.2.4.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique standard : les noms d'organismes internationaux officiels prennent la majuscule à tous leurs éléments significatifs. « Organisation des Nations Unies » est le nom officiel de l'ONU.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "ou",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le pronom relatif « où » (qui indique le lieu) et la conjonction de coordination « ou » (qui indique un choix). Dans « les endroits ou le gaspillage », le sens exige « où » (lieu où le gaspillage se produit).",
+        "suggestions": [
+          "où"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur grammaticale évidente : confusion homophonique. Le contexte « les endroits ou le gaspillage » exige le pronom relatif de lieu « où », non la conjonction de coordination « ou ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "bref",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Une majuscule est requise au début d'une phrase, après un point.",
+        "suggestions": [
+          "Bref"
+        ],
+        "ruleApplied": "5.3.6.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle de base de la ponctuation : toute phrase commence par une majuscule. Le mot « bref » ouvre une nouvelle phrase après un point.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "HEBERT",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'accent aigu est requis sur le 'E' dans le nom propre « Hébert ». Même en majuscules, les accents doivent être conservés en français.",
+        "suggestions": [
+          "HÉBERT"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle orthographique claire : en français, les majuscules doivent porter les accents. Le nom « Hébert » s'écrit avec un accent aigu, même en capitales.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "redistribuée",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'redistribuée' employé avec l'auxiliaire être (forme passive « ont été redistribuées ») doit s'accorder en genre et en nombre avec son donneur d'accord, qui est ici « denrées » (féminin pluriel). La forme correcte dans la phrase « beaucoup de denrées sont redistribuées » est « redistribuées ». Toutefois, dans la phrase suivante « Cela représente 6,7 millions de kilos de nourriture redistribuée », le participe s'accorde avec « nourriture » (féminin singulier), donc « redistribuée » est correct.",
+        "suggestions": [
+          "redistribués"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Après vérification du texte original, le participe « redistribuée » s'accorde correctement avec son donneur « nourriture » (féminin singulier) dans la phrase « Cela représente 6,7 millions de kilos de nourriture redistribuée ». L'accord est correct. La suggestion « redistribués » serait une erreur car elle tenterait d'accorder avec « kilos » au lieu de « nourriture ».",
+        "counterArgument": "Le participe passé « redistribuée » dans « 6,7 millions de kilos de nourriture redistribuée » s'accorde correctement avec « nourriture » (féminin singulier), qui est le véritable donneur d'accord. Même si « kilos » est plus proche, c'est « nourriture » qui est qualifiée par le participe. La règle d'accord stipule que le participe s'accorde avec le nom qu'il qualifie : ici, c'est la nourriture qui a été redistribuée, pas les kilos en tant qu'unité de mesure. L'accord au féminin singulier est donc approprié."
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 3,
+      "note": "C"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 2,
+      "note": "B"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 17,
+      "vraisErreurs": 12,
+      "discutables": 0,
+      "fauxPositifs": 3
+    }
+  },
+  "startTimestamp": "2025-12-12T11:38:31.754Z",
+  "endTimestamp": "2025-12-12T11:39:39.543Z",
+  "durationMs": 67789,
+  "durationFormatted": "01:07:789"
+}

@@ -1,0 +1,371 @@
+{
+  "processedAt": "2025-12-12T11:46:18.896Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_148.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_148.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "Pourtant",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Un organisateur textuel en tête de phrase, comme « Pourtant », doit être suivi d'une virgule.",
+        "suggestions": [
+          "Pourtant,"
+        ],
+        "ruleApplied": "4.2.2.10.1.k",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle de ponctuation claire et systématique. Les organisateurs textuels en début de phrase doivent être suivis d'une virgule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "chez soi",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom indéfini « soi » est utilisé avec un sujet indéterminé. Ici, le sujet est « nous même on », qui réfère à « nous ». Le pronom correct est donc « nous ».",
+        "suggestions": [
+          "chez nous"
+        ],
+        "ruleApplied": "4.1.2.3.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute de concordance pronominale. Le sujet « nous » (même si mal construit) exige « chez nous », pas « chez soi » qui s'utilise avec un sujet indéfini.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "*«Selon",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "L'utilisation d'un astérisque pour introduire une citation n'est pas une pratique standard en ponctuation française.",
+        "suggestions": [
+          "« Selon"
+        ],
+        "ruleApplied": "4.2.1.6",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "L'astérisque semble être un appel de note pour référencer la source citée en fin de texte. C'est une pratique courante en contexte scolaire.",
+        "counterArgument": "L'astérisque peut servir d'appel de note pour indiquer que la source est citée en fin de texte (comme c'est le cas ici : « *Shields Alexandre, Le devoir, 2 »). Cette pratique, bien que non standard dans un texte académique formel, est acceptable dans un contexte scolaire pour référencer des sources."
+      },
+      {
+        "id": "erreur4.4",
+        "text": "si l'on en gaspille qu'en les produisant",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est boiteuse. La restriction « ne... que » est incomplète (le « ne » est manquant) et mal employée. Il faut reformuler pour clarifier le sens, par exemple en utilisant « dès » ou « rien que ».",
+        "suggestions": [
+          "si l'on en gaspille dès leur production",
+          "si l'on en gaspille rien qu'en les produisant"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction syntaxique incorrecte. Le « qu' » de « qu'en les produisant » ne peut exister sans le « ne » de la restriction « ne... que ». La phrase est agrammaticale.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "encourage avec des sommes d'argent des agriculteurs",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'ordre des compléments rend la phrase lourde et peu naturelle. Il est préférable de placer le complément d'objet direct « des agriculteurs » directement après le verbe.",
+        "suggestions": [
+          "encourage des agriculteurs avec des sommes d'argent"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Bien que l'ordre suggéré soit plus idiomatique, l'ordre original n'est pas syntaxiquement incorrect en français.",
+        "counterArgument": "En français, l'ordre des compléments peut varier selon l'emphase recherchée. La construction « encourage avec des sommes d'argent des agriculteurs » met l'accent sur le moyen (les sommes d'argent) avant le bénéficiaire. Bien que moins fluide, cette construction n'est pas fautive grammaticalement."
+      },
+      {
+        "id": "erreur4.6",
+        "text": "y lutter",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom « y » remplace un complément de lieu ou un complément introduit par « à ». Le verbe « lutter » se construit avec la préposition « contre ». Le pronom est donc mal employé.",
+        "suggestions": [
+          "lutter contre cela",
+          "lutter contre ce fléau"
+        ],
+        "ruleApplied": "4.1.2.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de construction pronominale. Le verbe « lutter » se construit avec « contre », pas « à ». Le pronom « y » ne peut donc pas le remplacer.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "limiter de vendre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe « limiter » est un verbe transitif direct. Il ne se construit pas avec la préposition « de » suivie d'un infinitif. On limite quelque chose.",
+        "suggestions": [
+          "limiter la vente"
+        ],
+        "ruleApplied": "4.1.2.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de construction verbale. Le verbe « limiter » est transitif direct et ne peut être suivi de « de + infinitif » dans ce contexte.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "trop petit qu'un autre aliment",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La structure de comparaison est incorrecte. On ne dit pas « trop... que... » mais « plus... que... ». L'adverbe « trop » indique un excès et ne s'emploie pas dans une comparaison directe de ce type.",
+        "suggestions": [
+          "plus petit qu'un autre aliment"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de structure comparative. L'adverbe « trop » ne s'utilise pas dans une comparaison avec « que ». On doit utiliser « plus... que » ou « moins... que ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "Shields Alexandre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Dans une référence bibliographique où le nom de famille précède le prénom, une virgule est requise pour les séparer.",
+        "suggestions": [
+          "Shields, Alexandre"
+        ],
+        "ruleApplied": "4.2.2.10.1.a",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "La référence bibliographique est déjà non conventionnelle et incomplète. Dans ce contexte scolaire informel, la virgule peut être absente.",
+        "counterArgument": "Bien que la virgule soit attendue dans une référence bibliographique formelle, cette citation est déjà atypique (format incomplet, absence de guillemets fermants, etc.). Dans un contexte de texte scolaire où l'élève a tenté de citer une source avec un astérisque en appel de note, l'absence de virgule est un problème mineur de formatage plutôt qu'une erreur de ponctuation syntaxique à proprement parler."
+      },
+      {
+        "id": "erreur4.10",
+        "text": "2",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une référence bibliographique doit se terminer par un point.",
+        "suggestions": [
+          "2."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Le « 2 » semble indiquer une année ou une page. La référence est déjà atypique et incomplète. L'absence de point final est cohérente avec le format informel adopté.",
+        "counterArgument": "La référence bibliographique est manifestement incomplète et non conventionnelle. Le « 2 » pourrait être une année (2021, 2022) tronquée ou un numéro de page. Dans ce contexte scolaire où l'élève n'a pas suivi un format bibliographique standard, exiger un point final relève plus de la forme que d'une erreur de ponctuation syntaxique majeure."
+      },
+      {
+        "id": "erreur4.11",
+        "text": ",",
+        "occurenceIndex": 6,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque un deux-points pour introduire la citation qui suit.",
+        "suggestions": [
+          ":"
+        ],
+        "ruleApplied": "4.2.2.7.1",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Le deux-points est préférable mais la virgule peut être acceptable avec certaines constructions introduisant une citation.",
+        "counterArgument": "Bien que le deux-points soit la ponctuation standard pour introduire une citation formelle, l'emploi d'une virgule n'est pas totalement incorrect, particulièrement quand la citation est intégrée syntaxiquement à la phrase. Certains guides acceptent la virgule avant un guillemet ouvrant, surtout dans un contexte moins formel."
+      },
+      {
+        "id": "erreur4.12",
+        "text": "dit d'une parfaite taille",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "La construction de la phrase est boiteuse et manque de clarté. Une formulation comme 'considéré comme ayant une taille parfaite' serait plus correcte. Cette erreur se trouve dans la même phrase syntaxique qu'une erreur 'S' déjà comptabilisée.",
+        "suggestions": [
+          "considéré de taille parfaite"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Construction elliptique mais compréhensible. Le participe « dit » peut introduire une qualification de manière littéraire.",
+        "counterArgument": "La construction « dit d'une parfaite taille » est une forme elliptique de « qu'on dit d'une parfaite taille » ou « considéré comme étant d'une parfaite taille ». Bien qu'elle soit condensée, ce type de construction avec le participe « dit » existe en français pour qualifier quelque chose de façon concise. Elle n'est pas grammaticalement fautive, même si elle manque d'élégance."
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "nous même",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « même » s'accorde en nombre avec le pronom « nous » qu'il renforce. De plus, un trait d'union est requis entre le pronom et « même ».",
+        "suggestions": [
+          "nous-mêmes"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double erreur claire : absence du trait d'union et défaut d'accord du pluriel. Règle grammaticale fondamentale.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "unies",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Dans une dénomination officielle comme « Organisation des Nations Unies », les adjectifs prennent une majuscule.",
+        "suggestions": [
+          "Unies"
+        ],
+        "ruleApplied": "5.2.4.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique claire pour les noms d'organismes internationaux. L'ONU est une dénomination officielle bien établie.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "du standards",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « standards » est au pluriel. Le déterminant contracté « du » (de + le) est singulier. Il faut utiliser la forme plurielle « des » (de + les).",
+        "suggestions": [
+          "des standards"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente entre le déterminant singulier et le nom pluriel. Faute grammaticale fondamentale.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "s'il coûte",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe « coûte » doit s'accorder avec son sujet « ils » (implicite, référant aux aliments). Le sujet réel est pluriel, donc le verbe doit être à la troisième personne du pluriel.",
+        "suggestions": [
+          "s'ils coûtent"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord sujet-verbe. Le référent « aliments » est pluriel, donc le pronom et le verbe doivent être au pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "Ce n'ai pas",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre les homophones « ai » (verbe avoir, 1re personne du singulier) et « est » (verbe être, 3e personne du singulier). La forme correcte avec le pronom « Ce » est « est ».",
+        "suggestions": [
+          "Ce n'est pas"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'homophone évidente. « Ce » ne peut être suivi que de « est », jamais de « ai ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "àarrêter",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "La préposition « à » et le verbe « arrêter » ont été fusionnés à tort. Il s'agit d'un barbarisme orthographique.",
+        "suggestions": [
+          "à arrêter"
+        ],
+        "ruleApplied": "5.2.6.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de saisie évidente. Fusion indue de deux mots distincts.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "devoir",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le nom propre « Devoir », qui fait partie du titre du journal « Le Devoir », doit commencer par une majuscule.",
+        "suggestions": [
+          "Devoir"
+        ],
+        "ruleApplied": "5.2.4.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le journal montréalais « Le Devoir » est un nom propre bien établi qui exige une majuscule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "standards",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'emprunt à l'anglais 'standards' devrait être remplacé par un équivalent français comme 'normes' ou 'critères'.",
+        "suggestions": [
+          "normes",
+          "critères"
+        ],
+        "ruleApplied": "5.2.6.5",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Le mot « standard » est accepté en français dans les dictionnaires usuels. L'OQLF reconnaît son usage, bien qu'elle recommande des équivalents.",
+        "counterArgument": "Le mot « standard » (pluriel : « standards ») figure dans tous les dictionnaires français (Larousse, Robert) et est largement utilisé au Québec. Bien que l'OQLF recommande « norme » ou « critère » comme équivalents français, elle reconnaît l'usage de « standard ». Dans un contexte courant et non technique, cet emprunt lexicalisé n'est pas considéré comme une faute."
+      },
+      {
+        "id": "erreur5.9",
+        "text": "non ramassée",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'ramassé', employé comme adjectif, doit s'accorder en genre et en nombre avec son donneur 'aliments' (masculin pluriel).",
+        "suggestions": [
+          "non ramassés"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. Le participe passé employé comme adjectif doit s'accorder avec « aliments » (masculin pluriel).",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 8,
+      "note": "C"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 8,
+      "note": "C"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 21,
+      "vraisErreurs": 14,
+      "discutables": 7,
+      "fauxPositifs": 0
+    }
+  },
+  "startTimestamp": "2025-12-12T11:45:04.693Z",
+  "endTimestamp": "2025-12-12T11:46:18.896Z",
+  "durationMs": 74203,
+  "durationFormatted": "01:14:203"
+}

@@ -1,0 +1,273 @@
+{
+  "processedAt": "2025-12-10T14:22:19.986Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_039.txt",
+    "originalText": "Nous devons doubler nos efforts\r\n\r\nLa croissance de la population fait en sorte que nos productions augmentent aussi : ces deux choses varient proportionnellement. Les compagnies alimentaires ne cessent de naître et le gaspillage pénêtre dans cette multiplication. Nous devons prendre compte des résidus évitables : c'est de la nourriture jétée intentionnellement. J'affirme que nous sommes vraiment loin de gagner cette bataille. Nous faisons toujours ce que nous voulons et jamais l'essentiel.\r\n\r\nEn premier lieu, je déclare que notre lutte contre le gaspillage alimentaire est loin d'être finie, car nos taux de consommation et de productions augmentent. En effet, il y a beaucoup plus de familles créées, alors l'achat des denrées monte en même temps. De plus, nous avons tendance à ne pas finir la nourriture à la maison et cela est très courant dans notre société. Selon l'article «Gaspillage alimentaire» de RECYC-QUÉBEC, les familles canadiennes jettent plusieurs millions de tonnes de bouffe dans les poubelles et cela vaut à des milliards de dollars dissipés dans le vide. Par contre, ils ne sont pas les seules coupables : il y a les marchés et les épicéries. Une grande quantité des produits qu'ils possèdent finit dans les ordures à cause d'un taux faible de vente. Ces compagnies doivent penser à transformer ces restes ou les donner aux gens qui en ont besoin. Il faut qu'ils trouvent des moyens à réduire ces pertes au lieu de penser à l'argent seulement. Au Canada, ce sont surtout les légumes, les fruits, le pain, les produits laitiers, les œufs et les restes de table qui sont gaspillés (RECYC-QUÉBEC, 2021) En bref : nous ne réduisons pas assez nos consommations face aux aliments.\r\n\r\nEn deuxième lieu, nous augmentons notre distance par rapport à la victoire, car les gens ne conservent pas assez. Les personnes qui occupent un emploi achètent beaucoup à l'extérieur au lieu de cuisiner. Les travailleurs ont peu de temps en main, alors leur achat de nourriture dans les restaurants est en hausse. Beaucoup n'ont pas le réflexe de conserver le reste et cela mène à un gaspillage inutile. Selon l'article «Sauvetage alimentaire» de lapresse.ca, les individus préssés par l'horloge prennent moins de mesures de conservation. Ensuite, les restaurants et les hôtels sont connus lorsque ça vient aux surplus. Parfois, nous ne pouvons pas vraiment contrôler les quantités offertes dans ces deux endroits.¹ À cause de leurs règles, de grandes parts de nourriture et des plats offerts finissent aux vidanges. En gros, nos moyens de conservations doivent s'intensifier.\r\n\r\nEn conclusion, si nous développons des façons efficaces pour diminuer le gaspillage alimentaire, la victoire sera de plus en plus proche. Nous devons en tant qu'humain, être conscient de nos actions face aux repas restants. Est-ce que le monde se réveillera?\r\n\r\n1. TABLE QUÉBÉCOISE SUR LA SAINE ALIMENTATION (2019). « Gaspillage alimentaire :survol des causes et des interventions en cours en matière de prévention au Québec »",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "prendre compte",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque la préposition 'en' dans l'expression consacrée 'prendre en compte'.",
+        "suggestions": [
+          "prendre en compte"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "id": "erreur4.2",
+        "text": "vaut à",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction 'valoir à' est incorrecte dans ce contexte. Il faut utiliser 'équivaut à' ou reformuler la phrase, par exemple avec 'ce qui représente'.",
+        "suggestions": [
+          "équivaut à",
+          "représente"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "id": "erreur4.3",
+        "text": "moyens à réduire",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition 'à' est incorrecte après 'moyens'. On utilise la préposition 'de' : 'des moyens de réduire'.",
+        "suggestions": [
+          "moyens de réduire"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "id": "erreur4.4",
+        "text": "gaspillés",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque un point pour marquer la fin de la phrase avant la référence entre parenthèses.",
+        "suggestions": [
+          "gaspillés."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "id": "erreur4.5",
+        "text": "temps en main",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression 'avoir du temps en main' est un calque de l'anglais 'to have time in hand'. En français, on dirait plutôt 'ont peu de temps' ou 'ont peu de temps devant eux'.",
+        "suggestions": [
+          "peu de temps"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "id": "erreur4.6",
+        "text": "en tant qu'humain,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "La locution incidente 'en tant qu'humains' doit être encadrée par des virgules. Il manque la virgule ouvrante avant 'en tant que'.",
+        "suggestions": [
+          ", en tant qu'humains,"
+        ],
+        "ruleApplied": "4.2.2.10.1.g"
+      },
+      {
+        "id": "erreur4.7",
+        "text": ":survol",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une espace est requise après le deux-points.",
+        "suggestions": [
+          ": survol"
+        ],
+        "ruleApplied": "4.2.2.7.2"
+      },
+      {
+        "id": "erreur4.8",
+        "text": ") En",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque un point pour marquer la fin de la phrase avant l'élément entre parenthèses.",
+        "suggestions": [
+          "). En"
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "id": "erreur4.9",
+        "text": "leur achat",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le déterminant possessif 'leur' renvoie à 'Les travailleurs' (pluriel) et doit donc être au pluriel ('leurs'). Par conséquent, le nom 'achat' devrait aussi être au pluriel.",
+        "suggestions": [
+          "leurs achats"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "id": "erreur4.10",
+        "text": "lorsque ça vient aux surplus",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression 'quand ça vient à' est un calque de l'anglais 'when it comes to'. Il faut utiliser 'lorsqu'il s'agit de', 'en matière de' ou 'pour ce qui est de'.",
+        "suggestions": [
+          "lorsqu'il s'agit des surplus",
+          "en matière de surplus"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "id": "erreur4.11",
+        "text": "endroits.¹",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point final doit être placé après l'appel de note, et non avant.",
+        "suggestions": [
+          "endroits¹."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "id": "erreur4.12",
+        "text": "Québec »",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une référence bibliographique complète doit se terminer par un point final.",
+        "suggestions": [
+          "Québec »."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 9,
+      "note": "B"
+    },
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "pénêtre",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'accent circonflexe est incorrect. Le verbe 'pénétrer' se conjugue 'pénètre' à la troisième personne du singulier du présent de l'indicatif.",
+        "suggestions": [
+          "pénètre"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.2",
+        "text": "jétée",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'accent aigu est incorrect. Le participe passé du verbe 'jeter' s'écrit 'jetée' au féminin singulier.",
+        "suggestions": [
+          "jetée"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.3",
+        "text": "productions",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'production' doit être au singulier pour suivre la logique de l'énumération 'taux de consommation et de production'.",
+        "suggestions": [
+          "production"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.4",
+        "text": "ils",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom 'ils' reprend 'les familles canadiennes', qui est un groupe nominal féminin pluriel. Le pronom de reprise doit donc être 'elles'.",
+        "suggestions": [
+          "elles"
+        ],
+        "ruleApplied": "5.3.1.4"
+      },
+      {
+        "id": "erreur5.5",
+        "text": "lapresse.ca",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Les noms propres, y compris ceux des médias, prennent généralement une majuscule initiale. Il faudrait écrire 'LaPresse.ca' ou 'La Presse.ca'.",
+        "suggestions": [
+          "LaPresse.ca"
+        ],
+        "ruleApplied": "5.2.4.1.2"
+      },
+      {
+        "id": "erreur5.6",
+        "text": "préssés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'accent aigu est incorrect. Le participe passé du verbe 'presser' s'écrit 'pressés' au masculin pluriel.",
+        "suggestions": [
+          "pressés"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.7",
+        "text": "conscient",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "L'adjectif 'conscient' se rapporte au pronom 'Nous' (pluriel). Il doit donc s'accorder au pluriel : 'conscients'. L'erreur découle du même donneur d'accord ('Nous') que pour 'humain'.",
+        "suggestions": [
+          "conscients"
+        ],
+        "ruleApplied": "5.4.2.1"
+      },
+      {
+        "id": "erreur5.8",
+        "text": "conservations",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'conservation', complément du nom 'moyens', devrait être au singulier pour désigner le concept général dans l'expression 'moyens de conservation'.",
+        "suggestions": [
+          "conservation"
+        ],
+        "ruleApplied": "5.3.1.5"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 7,
+      "note": "B"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:18:35.619Z",
+    "endTimestamp": "2025-12-10T14:22:19.986Z",
+    "durationMs": 224367,
+    "durationFormatted": "03:44:367"
+  }
+}

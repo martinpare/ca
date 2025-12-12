@@ -1,0 +1,289 @@
+{
+  "processedAt": "2025-12-10T14:39:31.600Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_075.txt",
+    "originalText": "Le gaspillage alimentaire, une cause perdue\r\n\r\nÉtant coupable de conséquences comme la famine, le réchauffement climatique et plusieurs autres catastrophes humaines, le gaspillage alimentaire est un prince dans notre société. Malgré, l’effort de gens opiniâtres pour le mettre à pied, je crois malheureusement que nous ne sommes pas prêts à lutter contre ce fléau qui règne au travers de notre planète. En effet, la production et la vente d’aliments sont loin d’être exemplaires et la plupart des habitants n’ont pas assez de volonté pour changer.\r\n\r\nPremièrement, avec la population vieillissante, un manque de main d'œuvre est présent dans les champs. Avec cette quantité d'employés insuffisante, les aliments ne sont pas tous récoltés, et dès le début du processus, une perte est occasionnée. Lors de la transformation de nos aliments, un taux de gaspillage élevé est occasionné à cause de mauvais équipements ou bien encore d’erreurs humaines, qui nous coûtent cher! Le transport crée aussi des pertes considérables. Saviez- vous qu'en plus de se faire endommagé, la nourriture se fait aussi contaminée? Ainsi, plusieurs aliments n’arriveront jamais à nos étagères. De plus, l'image que se font les consommateurs d’un produit parfait est dommageable, car elle est associée à son apparence. En effet, malgré les campagnes de publicités qui incitent les gens à acheter des aliments considérés comme hideux, une grande majorité de la population continue de mêler qualité et aspect physique. En résultat, sans même s’en rendre compte, une large partie d’entre nous contribuons au gaspillage avant même d’acheter. Cette conséquence est loin d’être étonnante avec les normes esthétiques qui sont, selon moi, beaucoup trop sévères. Aussi, les quantités d’aliments, souvent mal gérées par les détaillants, engendrent des pertes inutiles. Également,comme la redistribution et la récupération de repas sont peu acceptées ou pratiquées, elles contrent peu la problématique de gaspillage. Alors, avant même de ce rendre à la maison, une partie remarquable d’aliments se retrouvent aux vidanges. Avec toute cette mauvaise logistique en place, il m’est trop difficile de croire que nous sommes prêts à lutter contre le gaspillage alimentaire.\r\n\r\nDeuxièmement, bien que de plus en plus de chefs cuisiniers, d’auteurs, d’experts environnementaux et d’autres partagent des solutions créatives et faciles pour essayer de s'opposer au gaspillage alimentaire, une énorme part de la population reste mal éduquée à ce sujet. En effet, un manque de connaissance relié à la durée des aliments se fait trop présent. Malgré que plusieurs ont souligné que les aliments étaient toujours bons après leur date limite de conservation, peu les ont écoutés, causant des pertes fâchantes. Par exemple, le yogourt peut être consommé encore longtemps après sa date limite, mais rares sont ceux qui le font! Aussi, malgré la multitude d’idées proposées pour bien conserver les aliments, comme de congeler les restes, l’intérêt général n'y est pas, ce qui perpétue la perte de nourriture causée par le manque de connaissance de chacun. En effet, comme les gens ne semblent pas vouloir s’instruire sur ce sujet, le gaspillage ne fait que s'empiler dans nos sites comme notre linge sale dans nos paniers. Cette fois-ci, une simple brassée ne pourra tristement pas nous sauver! De plus, fréquemment, les épiceries sont mal planifiées et des repas complets se retrouvent à la poubelle. En effet, les restes de tables représentent l’Everest à eux seuls. Cette cause d’envergure se retrouve notamment dans les restaurants, où énormément de restes sont jetés plutôt que d’être rapportés à la maison. Il est donc clair que le problème de gaspillage alimentaire provient principalement d’un manque d’implication et non pas d’un manque de ressources. Avec cette réalisation désolante, il m’est trop difficile d'espérer résister à notre enfant roi.\r\n\r\nEn conclusion, avec le manque d’implication et d'inaction, qu’au cours des dernières années, les consommateurs, les agriculteurs, les détaillants et plusieurs autres ont démontré, l’espoir est en train de nous échapper. Enfin, cela m’incite à croire que les catastrophes monstrueuses et effrayantes qui se multiplient deviendront bientôt partie de notre quotidien.",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "prince",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le mot 'prince' est utilisé de manière inappropriée dans ce contexte. Le gaspillage alimentaire est un fléau ou un problème majeur, et non une figure noble ou positive. Il s'agit d'une erreur de sens qui nuit à la clarté du propos.",
+        "suggestions": [
+          "fléau",
+          "problème majeur"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "id": "erreur4.2",
+        "text": "Malgré,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule ne doit pas séparer une préposition ('Malgré') de son complément ('l’effort de gens opiniâtres').",
+        "suggestions": [
+          "Malgré"
+        ],
+        "ruleApplied": "4.2.2.10.2.h"
+      },
+      {
+        "id": "erreur4.3",
+        "text": "mettre à pied",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression 'mettre à pied' signifie 'renvoyer quelqu'un de son travail'. Elle est inadéquate pour parler du gaspillage alimentaire. Il s'agit d'une erreur de sens.",
+        "suggestions": [
+          "combattre",
+          "enrayer",
+          "éliminer"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "id": "erreur4.4",
+        "text": "En résultat",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution 'En résultat' est un calque de l'anglais ('as a result'). Il faut utiliser une locution française correcte comme 'En conséquence' ou 'Par conséquent'.",
+        "suggestions": [
+          "En conséquence",
+          "Par conséquent"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "id": "erreur4.5",
+        "text": "Malgré que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution conjonctive 'malgré que' est critiquée et doit être suivie du subjonctif. L'indicatif ('ont souligné') est incorrect. Il est préférable d'utiliser 'bien que' (avec subjonctif) ou 'même si' (avec indicatif).",
+        "suggestions": [
+          "Bien que",
+          "Même si"
+        ],
+        "ruleApplied": "4.1.2.2.3"
+      },
+      {
+        "id": "erreur4.6",
+        "text": "les épiceries sont mal planifiées",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression 'les épiceries sont mal planifiées' est sémantiquement incorrecte. Ce ne sont pas les courses ('épiceries') qui sont planifiées, mais plutôt les repas ou les achats. Il s'agit d'un problème de sens.",
+        "suggestions": [
+          "les achats à l'épicerie sont mal planifiés",
+          "les repas sont mal planifiés"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "id": "erreur4.7",
+        "text": "avec le manque d’implication et d'inaction, qu’au cours des dernières années, les consommateurs, les agriculteurs, les détaillants et plusieurs autres ont démontré, l’espoir est en train de nous échapper.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La structure de la phrase est boiteuse et difficile à suivre en raison de l'insertion d'une longue proposition subordonnée relative qui rompt le lien entre le complément de cause ('avec le manque...') et la proposition principale ('l’espoir est...').",
+        "suggestions": [
+          "avec le manque d’implication et d'inaction que les consommateurs, les agriculteurs, les détaillants et plusieurs autres ont démontré au cours des dernières années, l’espoir est en train de nous échapper."
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "id": "erreur4.8",
+        "text": ",",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "P",
+        "description": "Cette virgule est mal placée. Elle sépare l'antécédent ('manque d’implication et d'inaction') de la proposition relative qui le complète ('qu’au cours... ont démontré').",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.10.2.b"
+      },
+      {
+        "id": "erreur4.9",
+        "text": "au travers de",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution prépositive correcte est \"à travers\". L'utilisation de \"au travers de\" est considérée comme une construction fautive dans ce contexte.",
+        "suggestions": [
+          "à travers"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 8,
+      "note": "B"
+    },
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "main d'œuvre",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le nom composé 'main-d'œuvre' s'écrit avec un trait d'union.",
+        "suggestions": [
+          "main-d'œuvre"
+        ],
+        "ruleApplied": "5.2.1.7.1"
+      },
+      {
+        "id": "erreur5.2",
+        "text": "Saviez- vous",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Dans une construction interrogative avec inversion du sujet, le pronom doit être lié au verbe par un trait d'union.",
+        "suggestions": [
+          "Saviez-vous"
+        ],
+        "ruleApplied": "5.2.1.10"
+      },
+      {
+        "id": "erreur5.3",
+        "text": "endommagé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après la locution verbale 'se faire', le verbe qui suit doit être à l'infinitif. Il y a confusion entre le participe passé '-é' et l'infinitif '-er'.",
+        "suggestions": [
+          "endommager"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "id": "erreur5.4",
+        "text": "contaminée",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après la locution verbale 'se fait', le verbe qui suit doit être à l'infinitif. Il y a confusion entre le participe passé '-ée' et l'infinitif '-er'.",
+        "suggestions": [
+          "contaminer"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "id": "erreur5.5",
+        "text": "publicités",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Dans la locution 'campagnes de publicité', le mot 'publicité' est un complément du nom 'campagnes' et reste généralement au singulier, car il désigne le concept de manière générale.",
+        "suggestions": [
+          "publicité"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.6",
+        "text": "contribuons",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec le sujet 'une large partie d’entre nous'. Le noyau du sujet est 'partie' (3e personne du singulier), et non 'nous'. L'accord se fait donc au singulier.",
+        "suggestions": [
+          "contribue"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.7",
+        "text": "Également,comme",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Il manque un espace entre la virgule et le mot 'comme'. Les mots doivent être correctement séparés.",
+        "suggestions": [
+          "Également, comme"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "id": "erreur5.8",
+        "text": "ce",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Il y a confusion entre le pronom démonstratif 'ce' et le pronom réfléchi 'se'. Le verbe 'se rendre' est un verbe pronominal.",
+        "suggestions": [
+          "se"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "id": "erreur5.9",
+        "text": "retrouvent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec le sujet 'une partie remarquable d’aliments'. Le noyau du sujet est 'partie' (3e personne du singulier). L'accord se fait donc au singulier.",
+        "suggestions": [
+          "retrouve"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.10",
+        "text": "connaissance",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le mot 'connaissance' s'emploie généralement au pluriel dans l'expression 'manque de connaissances' pour désigner un ensemble de savoirs.",
+        "suggestions": [
+          "connaissances"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.11",
+        "text": "connaissance",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le mot 'connaissance' s'emploie généralement au pluriel dans l'expression 'manque de connaissance(s)' pour désigner un ensemble de savoirs.",
+        "suggestions": [
+          "connaissances"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.12",
+        "text": "tables",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Dans l'expression 'restes de table', le mot 'table' est un complément du nom 'restes' et reste au singulier, car il désigne le concept de la table en général.",
+        "suggestions": [
+          "table"
+        ],
+        "ruleApplied": "5.3.1.5"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 12,
+      "note": "C"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:35:08.069Z",
+    "endTimestamp": "2025-12-10T14:39:31.600Z",
+    "durationMs": 263531,
+    "durationFormatted": "04:23:531"
+  }
+}

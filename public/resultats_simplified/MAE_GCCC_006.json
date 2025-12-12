@@ -1,0 +1,427 @@
+{
+  "processedAt": "2025-12-10T14:06:59.244Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_006.txt",
+    "originalText": "Sommes-nous prêts à lutter contre le gaspillage alimentaire\r\n\r\nSavez-vous que selon une étude de l’Organisation des Nations unies (ONU), une somme d’environ 931 millions de tonnes de nourriture ont été gaspillées dans le monde en 2019? En regardant cette somme, beaucoup de personnes se posent la question suivante : Sommes-nous prêts à lutter contre le gaspillage alimentaire? Selon moi, nous ne sommes pas vraiment prêts à lutter contre ceci en raison d’aspect esthétique et des difficultés présentes.\r\n\r\nTout d’abord, je trouve que nous ne sommes pas prêts pour cette lutte en raison des standards esthétiques des épiceries. La majorité des personnes veulent seulement acheter ce qui plait leur yeux. Même si les aliments ont le même goût, les personnes refusent de les acheter ce qui fait en sorte qu’on gaspille beaucoup d’aliments juste à cause de leur état physique. Par exemple, dans l’article « Les légumes moche, un marché de niche » écrit par Daphné Cameron, la Presse +, on peut voir que plusieurs agriculteurs hésitent à distribuer leur aliments aux épicerie à cause qu’elles ne répondent pas aux standard esthétique habituel. Les récoltes se déforment à cause des conditions météorologiques alors nous ne pouvons pas éviter ses changements. Malgré ce fait, on cherche toujours la perfection comme dans les hôtels. Dans l’article « Gaspillage alimentaire : survol des causes et des interventions en cours en matière de prévention au Québec », on dit à cause des normes sévères de perfection esthétique, les aliments qui ne sont pas parfaits sont gaspillés. Bref, on peut très bien voir qu'on n'est pas prêts à cause problèmes liées au standards esthétiques.\r\n\r\nEnsuite, une autre raison qui montre qu'on n'est pas prêt est les difficultés qui apportent la récolte des aliments non-vendus. La récolte de ces produits nécessitent beaucoup de temps, énergie et d’argent. Alors vu qu’elle nécessite beaucoup d’effort et d’argent, plusieurs producteurs ne le font pas. Selon Emmanuel Martinez dans l’article « Investissement de 10M$ : encore plus d’aliments récupérés par Loop Mission ». La récupération des aliments périssables est compliqué et leur transformation coûte cher. L’organisation, Loop mission, récupère les aliments de ce type et réussis seulement à accepter 20% de demandes reçues. Non seulement les producteurs ne mettent pas l’effort, mais les organisations ne sont pas en mesures de gérer les surplus.\r\n\r\nEn conclusion, nous ne sommes vraiment pas prêts à lutter contre le gaspillage alimentaire en raison des standards esthétiques et d'autres difficultés présentes. On y arrivera un jour…",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "à cause qu’elles",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution conjonctive « à cause que » est un calque ou un usage populaire. Il faut utiliser « parce que » pour exprimer la cause.",
+        "suggestions": [
+          "parce qu'elles"
+        ],
+        "ruleApplied": "4.1.2.4.2"
+      },
+      {
+        "id": "erreur4.2",
+        "text": "est les difficultés qui apportent la récolte",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est boiteuse et le sens est confus. Le verbe « est » s'accorde avec le sujet « une autre raison », mais l'ensemble est maladroit. De plus, les difficultés n'« apportent » pas la récolte. Il faudrait reformuler, par exemple : « réside dans les difficultés que présente la récolte ».",
+        "suggestions": [
+          "réside dans les difficultés que présente la récolte"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "id": "erreur4.3",
+        "text": "énergie",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Dans une énumération, la préposition « de » (ici élidée en « d' ») doit être répétée devant chaque élément. Il manque « d' » avant « énergie ».",
+        "suggestions": [
+          "d'énergie"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "id": "erreur4.4",
+        "text": "Mission ».",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase est une subordonnée sans phrase matrice. Il s'agit d'un fragment de phrase qui devrait être intégré à une phrase complète.",
+        "suggestions": [
+          "Mission », il est mentionné que..."
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "id": "erreur4.5",
+        "text": "alimentaire",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque un point d'interrogation à la fin de cette phrase interrogative directe pour marquer la fin de la question.",
+        "suggestions": [
+          "alimentaire?"
+        ],
+        "ruleApplied": "4.2.2.2.1"
+      },
+      {
+        "id": "erreur4.6",
+        "text": "leur yeux",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe « plaire » est un verbe transitif indirect qui se construit avec la préposition « à ». De plus, le déterminant possessif « leur » doit s'accorder avec le nom pluriel « yeux ».",
+        "suggestions": [
+          "à leurs yeux"
+        ],
+        "ruleApplied": "4.1.2.2.2"
+      },
+      {
+        "id": "erreur4.7",
+        "text": "la Presse +",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule pour fermer l'incise qui précise la source de l'article.",
+        "suggestions": [
+          "la Presse +,"
+        ],
+        "ruleApplied": "4.2.2.10.1.g"
+      },
+      {
+        "id": "erreur4.8",
+        "text": "on dit à cause",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque le subordonnant « que » pour introduire correctement le discours indirect. La construction « on dit à cause » est incorrecte.",
+        "suggestions": [
+          "on dit qu'à cause"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "id": "erreur4.9",
+        "text": "à cause problèmes",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque le déterminant contracté « des » (de + les) après la locution prépositive « à cause ».",
+        "suggestions": [
+          "à cause des problèmes"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "id": "erreur4.10",
+        "text": "Alors vu qu’elle",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'adverbe « Alors » est superflu, car la locution conjonctive « vu que » introduit déjà la cause. Il y a redondance.",
+        "suggestions": [
+          "Vu qu'elle"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "id": "erreur4.11",
+        "text": "Mission ».",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Un point est utilisé à tort pour séparer le complément de phrase (la source) de la phrase principale. Une virgule est requise pour lier les deux éléments.",
+        "suggestions": [
+          "Mission »,"
+        ],
+        "ruleApplied": "4.2.2.1.2"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 9.5,
+      "note": "C"
+    },
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "ont été",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec son sujet « une somme », qui est à la 3e personne du singulier.",
+        "suggestions": [
+          "a été"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.2",
+        "text": "gaspillées",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "Le participe passé, employé avec l'auxiliaire avoir, s'accorde ici avec le sujet « une somme » (féminin singulier) car le verbe est à la voix passive. L'erreur principale d'accord (verbe) est déjà comptée pour ce donneur.",
+        "suggestions": [
+          "gaspillée"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "id": "erreur5.3",
+        "text": "d’aspect",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « aspect » doit être au pluriel, car il est question de plusieurs aspects (esthétique et difficultés).",
+        "suggestions": [
+          "d'aspects"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.4",
+        "text": "esthétique",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "L'adjectif « esthétique » doit s'accorder en nombre avec le nom « aspects » qu'il qualifie (masculin pluriel). L'erreur principale d'accord (nom) est déjà comptée pour ce donneur.",
+        "suggestions": [
+          "esthétiques"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.5",
+        "text": "plait",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le verbe « plaire » à la 3e personne du singulier de l'indicatif présent s'écrit « plaît » avec un accent circonflexe.",
+        "suggestions": [
+          "plaît"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.6",
+        "text": "leur",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant possessif doit s'accorder en nombre avec le nom qu'il détermine, « yeux », qui est au pluriel.",
+        "suggestions": [
+          "leurs"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.7",
+        "text": "moche",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « moche » doit s'accorder en nombre avec le nom qu'il qualifie, « légumes », qui est au pluriel.",
+        "suggestions": [
+          "moches"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.8",
+        "text": "la Presse +",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Les noms propres formant une dénomination prennent une majuscule. Il faut écrire « La Presse+ ».",
+        "suggestions": [
+          "La Presse+"
+        ],
+        "ruleApplied": "5.2.4.1.2"
+      },
+      {
+        "id": "erreur5.9",
+        "text": "leur",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant possessif doit s'accorder en nombre avec le nom qu'il détermine, « aliments », qui est au pluriel.",
+        "suggestions": [
+          "leurs"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.10",
+        "text": "épicerie",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « épicerie » doit être au pluriel après la préposition contractée « aux » (à + les).",
+        "suggestions": [
+          "épiceries"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.11",
+        "text": "standard",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « standard » doit être au pluriel pour s'accorder avec le sens de la phrase qui réfère à plusieurs standards.",
+        "suggestions": [
+          "standards"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.12",
+        "text": "esthétique",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "_",
+        "description": "L'adjectif « esthétique » doit s'accorder en nombre avec le nom « standards » qu'il qualifie (masculin pluriel). L'erreur principale d'accord (nom) est déjà comptée pour ce donneur.",
+        "suggestions": [
+          "esthétiques"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.13",
+        "text": "habituel",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "L'adjectif « habituel » doit s'accorder en nombre avec le nom « standards » qu'il qualifie (masculin pluriel). L'erreur principale d'accord (nom) est déjà comptée pour ce donneur.",
+        "suggestions": [
+          "habituels"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.14",
+        "text": "liées",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « liées » doit s'accorder en genre et en nombre avec le nom qu'il qualifie, « problèmes », qui est masculin pluriel.",
+        "suggestions": [
+          "liés"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "id": "erreur5.15",
+        "text": "nécessitent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec son sujet « La récolte », qui est à la 3e personne du singulier.",
+        "suggestions": [
+          "nécessite"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.16",
+        "text": "compliqué",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif attribut « compliqué » doit s'accorder en genre et en nombre avec le sujet qu'il qualifie, « La récupération », qui est féminin singulier.",
+        "suggestions": [
+          "compliquée"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.17",
+        "text": "réussis",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec son sujet « L’organisation », qui est à la 3e personne du singulier.",
+        "suggestions": [
+          "réussit"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.18",
+        "text": "mesures",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'expression « en mesure de » est figée et le nom « mesure » reste au singulier.",
+        "suggestions": [
+          "mesure"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.19",
+        "text": "leur aliments",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant possessif « leur » s'accorde en nombre avec le nom qu'il détermine, « aliments » (masculin pluriel).",
+        "suggestions": [
+          "leurs aliments"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.20",
+        "text": "ses changements",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le déterminant possessif « ses » et le déterminant démonstratif « ces ».",
+        "suggestions": [
+          "ces changements"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "id": "erreur5.21",
+        "text": "Loop mission",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le nom propre « Mission », qui fait partie de la dénomination de l'organisation, doit commencer par une majuscule pour être cohérent avec son écriture dans le titre de l'article cité.",
+        "suggestions": [
+          "Loop Mission"
+        ],
+        "ruleApplied": "5.2.4.1.2"
+      },
+      {
+        "id": "erreur5.22",
+        "text": "de demandes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après un pourcentage suivi d'un nom, on utilise généralement le déterminant contracté « des » pour indiquer une partie d'un ensemble défini.",
+        "suggestions": [
+          "des demandes"
+        ],
+        "ruleApplied": "5.3.1.5"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 18,
+      "note": "D"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:01:43.735Z",
+    "endTimestamp": "2025-12-10T14:06:59.244Z",
+    "durationMs": 315509,
+    "durationFormatted": "05:15:509"
+  }
+}

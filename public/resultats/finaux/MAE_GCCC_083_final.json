@@ -1,0 +1,419 @@
+{
+  "processedAt": "2025-12-12T11:41:25.239Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_083.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_083.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "le lutter",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe \"lutter\" est intransitif et s'emploie avec la préposition \"contre\". On ne peut pas l'utiliser avec un pronom complément d'objet direct comme \"le\". Il faut dire \"lutter contre cela\" ou \"le combattre\".",
+        "suggestions": [
+          "lutter contre ce phénomène",
+          "le combattre"
+        ],
+        "ruleApplied": "4.1.2.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur syntaxique claire : le verbe « lutter » est intransitif et ne peut pas recevoir de complément d'objet direct.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "n'utilisent pas",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le sujet du verbe \"utilisent\" est manquant. Il faut ajouter un pronom de reprise, comme \"ils\", pour référer à \"certains gens\".",
+        "suggestions": [
+          "ils ne les utilisent pas"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Rupture de construction évidente : le verbe « utilisent » manque d'un sujet explicite après la virgule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "Non seulement le gaspillage alimentaire, cela provoque aussi un gaspillage d'argent.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La structure de la phrase avec \"Non seulement\" est incorrecte. \"Non seulement\" doit être intégré dans une structure corrélative \"non seulement... mais aussi...\" ou être suivi d'un verbe.",
+        "suggestions": [
+          "Cela provoque non seulement le gaspillage alimentaire, mais aussi un gaspillage d'argent."
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction syntaxique fautive. La locution corrélative « non seulement... mais aussi » est mal formée.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "Une solution d'éviter la qualité de devenir moins bonne",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est boiteuse. On dirait plutôt \"Une solution pour éviter que la qualité ne se dégrade\".",
+        "suggestions": [
+          "Une solution pour éviter que la qualité se dégrade"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de construction syntaxique : la préposition « de » est incorrecte, et la structure « la qualité de devenir » est fautive.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "cité par la Table québécoise sur la saine alimentation en 2019",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le participe passé \"cité\" est mal rattaché. Il n'a pas de sujet grammatical clair dans la phrase. Il faudrait reformuler en utilisant une locution comme \"selon\" ou \"comme le cite\".",
+        "suggestions": [
+          "selon la Table québécoise sur la saine alimentation (2019)."
+        ],
+        "ruleApplied": "4.1.2.1.7",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Participe présent ou passé mal rattaché : « cité » n'a pas de rattachement grammatical clair dans la phrase.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "qu'on n'a plus besoin",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom relatif est incorrect. L'expression est \"avoir besoin de quelque chose\", donc le pronom relatif correct est \"dont\".",
+        "suggestions": [
+          "dont on n'a plus besoin"
+        ],
+        "ruleApplied": "4.1.2.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de pronom relatif évidente : « avoir besoin de » exige le pronom « dont », non « que ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "J'aime manger pas gaspiller",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule dans le nom du site \"J'aime manger, pas gaspiller\", qui fait partie de la citation.",
+        "suggestions": [
+          "J'aime manger, pas gaspiller"
+        ],
+        "ruleApplied": "4.2.2.10.1.a",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Il s'agit d'un nom propre (site web). Si l'orthographe officielle du site est sans virgule, c'est correct. Vérification nécessaire.",
+        "counterArgument": "S'il s'agit du nom officiel du site web, la graphie doit respecter l'orthographe choisie par l'organisme. Certains noms de marques ou de sites adoptent des orthographes non standard volontairement. Sans vérification de la graphie officielle, on ne peut conclure à une erreur."
+      },
+      {
+        "id": "erreur4.8",
+        "text": "(Simard 2020)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "La ponctuation finale de la phrase est manquante. Le point doit être placé après la référence entre parenthèses.",
+        "suggestions": [
+          "(Simard 2020)."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de ponctuation claire : le point final de la phrase est absent.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "Ce n'est pas gaspiller",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est boiteuse. L'infinitif \"gaspiller\" ne peut pas être utilisé comme attribut du sujet \"Ce\". Il faudrait utiliser un nom (\"du gaspillage\").",
+        "suggestions": [
+          "Ce n'est pas du gaspillage"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "L'infinitif peut être utilisé comme attribut dans certains contextes, notamment dans un registre familier ou pour créer un effet stylistique.",
+        "counterArgument": "L'infinitif utilisé comme attribut est acceptable en français, particulièrement dans un registre familier ou courant : « Ce n'est pas mentir que de... », « Souffler n'est pas jouer ». Bien que « Ce n'est pas du gaspillage » soit plus standard, la construction avec l'infinitif n'est pas fautive."
+      },
+      {
+        "id": "erreur4.10",
+        "text": "les nourrit aux plantes",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction \"nourrir quelque chose à quelqu'un\" est incorrecte. On dit \"nourrir les plantes avec quelque chose\" ou \"donner quelque chose à manger aux plantes\".",
+        "suggestions": [
+          "si on nourrit les plantes avec",
+          "si on les donne à manger aux plantes"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de construction avec préposition : « nourrir à » est incorrect. On dit « nourrir quelqu'un/quelque chose avec ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.11",
+        "text": "éviter moins le gaspillage",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression \"éviter moins\" n'a pas de sens. Il faut reformuler pour exprimer l'idée de réduction du gaspillage.",
+        "suggestions": [
+          "réduire le gaspillage",
+          "permettre de moins gaspiller"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Incohérence sémantique : « éviter moins » est une construction illogique.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.12",
+        "text": "gaspillage",
+        "occurenceIndex": 3,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque un point à la fin de la phrase.",
+        "suggestions": [
+          "gaspillage."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de ponctuation évidente : absence du point final.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.13",
+        "text": "sur",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition \"sur\" est incorrecte dans ce contexte. On parle de problèmes \"pour\" l'environnement ou de \"problèmes environnementaux\".",
+        "suggestions": [
+          "pour"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de préposition : « des problèmes sur l'environnement » est un calque de l'anglais. On dit « pour l'environnement ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.14",
+        "text": "pourquoi pas le composter?",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La forme correcte de la question négative est \"Pourquoi ne pas...?\" Le \"ne\" est manquant.",
+        "suggestions": [
+          "pourquoi ne pas le composter?"
+        ],
+        "ruleApplied": "4.1.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de négation : « pourquoi pas » est incomplet. La négation correcte est « pourquoi ne pas ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.15",
+        "text": "et de ne pas tailler",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de syntaxe. La coordination est fautive. Les deux éléments coordonnés par « et » doivent avoir la même structure. On coordonne ici « retirer » (infinitif) et « de ne pas tailler » (préposition + infinitif). Il faut supprimer le « de ».",
+        "suggestions": [
+          "et ne pas tailler"
+        ],
+        "ruleApplied": "4.1.2.1.8",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de parallélisme syntaxique : les éléments coordonnés doivent avoir la même structure grammaticale.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.16",
+        "text": "donc arrêter d'acheter des produits\n\nque vous ne pouvez pas utiliser ou finir.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de syntaxe. La construction de la phrase est boiteuse. La proposition infinitive « arrêter d'acheter... » ne peut pas être coordonnée par « donc » à la proposition principale.",
+        "suggestions": [
+          "donc arrêtez d'acheter des produits que vous ne pouvez pas utiliser ou finir."
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Phrase incomplète : « donc » introduit ici une proposition sans verbe conjugué, créant une rupture syntaxique.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.17",
+        "text": "utiliser des plats pour créer d'autres, comme les whoppers de Burger King en pâtes à chinois",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de syntaxe. L'exemple donné est confus et semble incohérent, ce qui crée un problème de sens.",
+        "suggestions": [
+          "(reformuler l'exemple pour qu'il soit compréhensible)"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "L'exemple est maladroit mais compréhensible dans le contexte. Il s'agit davantage d'un problème de clarté que d'une erreur syntaxique stricte.",
+        "counterArgument": "Bien que l'exemple soit inhabituel et peu clair, la structure syntaxique est grammaticalement correcte. L'auteur veut dire qu'on peut transformer des restes de Whoppers en pâté chinois. C'est un problème de clarté de l'expression et de pertinence de l'exemple plutôt qu'une erreur syntaxique formelle."
+      },
+      {
+        "id": "erreur4.18",
+        "text": "etc.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Erreur de ponctuation. L'abréviation « etc. » doit toujours être suivie d'un point.",
+        "suggestions": [
+          "etc."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "L'abréviation « etc. » contient déjà son point final. Dans la citation, elle est suivie de guillemets et ne nécessite pas de point additionnel.",
+        "counterArgument": "L'abréviation « etc. » se termine par un point qui fait partie de l'abréviation elle-même. Dans le contexte de la citation (« ...peau d'un poisson, etc.» (Simard 2020)), le point de « etc. » sert aussi de ponctuation finale pour la phrase citée. Il n'y a pas d'erreur ici."
+      },
+      {
+        "id": "erreur4.19",
+        "text": "gaspillage",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Erreur de ponctuation. Il manque le point final à la fin de la phrase.",
+        "suggestions": [
+          "gaspillage."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de ponctuation claire : absence du point final de la phrase.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "des",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'article indéfini pluriel \"des\" devient \"de\" (ou \"d'\") lorsqu'il est suivi d'un adjectif placé avant le nom.",
+        "suggestions": [
+          "de"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle grammaticale standard : « des » devient « de » devant un adjectif antéposé (« de mauvaises conséquences »).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "des nouvelles recettes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "(G)",
+        "description": "L'article indéfini pluriel \"des\" devient \"de\" (ou \"d'\") lorsque l'adjectif \"nouveau\" est placé avant le nom.",
+        "suggestions": [
+          "de nouvelles recettes"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Même règle que l'erreur précédente : « des » devient « de » devant un adjectif antéposé.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "refrigérés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Il manque un accent aigu sur le premier \"e\". Le mot correct est \"réfrigérés\".",
+        "suggestions": [
+          "réfrigérés"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente : accent aigu manquant sur « réfrigérés ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "refrigérés",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Il manque un accent aigu sur le premier \"e\". Le mot correct est \"réfrigérés\".",
+        "suggestions": [
+          "réfrigérés"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de la même faute d'orthographe.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "le",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord. Le pronom « le » est masculin, mais il reprend « la nourriture », qui est un nom féminin. Il faut utiliser le pronom « la ».",
+        "suggestions": [
+          "la"
+        ],
+        "ruleApplied": "5.3.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en genre : le pronom doit s'accorder avec son antécédent « la nourriture » (féminin).",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 16,
+      "note": "E"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 5,
+      "note": "C"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 24,
+      "vraisErreurs": 20,
+      "discutables": 3,
+      "fauxPositifs": 1
+    }
+  },
+  "startTimestamp": "2025-12-12T11:40:12.440Z",
+  "endTimestamp": "2025-12-12T11:41:25.239Z",
+  "durationMs": 72799,
+  "durationFormatted": "01:12:799"
+}

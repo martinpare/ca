@@ -1,0 +1,371 @@
+{
+  "processedAt": "2025-12-12T11:43:24.491Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_108.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_108.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "et à élever",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition \"à\" est incorrecte. Le verbe \"permettre\" se construit avec la préposition \"de\" devant l'infinitif. La coordination de deux infinitifs compléments de \"permettre de\" doit conserver la même structure prépositionnelle (\"de faire [...] et d'élever\").",
+        "suggestions": [
+          "et d'élever"
+        ],
+        "ruleApplied": "4.1.2.1.8",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de construction verbale claire. Le verbe 'permettre' exige 'de' devant l'infinitif, et la coordination doit conserver la même préposition.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "tenterais à",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction du verbe \"tenter\" est incorrecte. Il faut utiliser la préposition \"de\" et non \"à\". De plus, le temps de verbe est erroné; le futur simple (\"tenterai\") est requis pour exprimer une action à venir, et non le conditionnel présent (\"tenterais\").",
+        "suggestions": [
+          "tenterai de"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double erreur évidente : mauvaise préposition ('tenter de', non 'tenter à') et mauvais temps verbal (futur au lieu de conditionnel).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "nos épiceries",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression \"faire nos épiceries\" est un calque de l'anglais \"to do our groceries\". Les expressions correctes en français sont \"faire notre épicerie\", \"faire nos courses\" ou \"faire l'épicerie\".",
+        "suggestions": [
+          "notre épicerie",
+          "nos courses"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Bien que considéré comme un calque de l'anglais, l'expression 'faire ses épiceries' (au pluriel) est très courante au Québec et pourrait être vue comme un québécisme d'usage familier.",
+        "counterArgument": "L'expression 'faire ses épiceries' au pluriel est extrêmement répandue au Québec dans le langage courant et familier. Bien qu'elle soit considérée comme un calque de l'anglais par les puristes, elle fait partie de l'usage québécois quotidien. Dans un texte scolaire visant un registre plus standard, la forme 'faire son épicerie' (singulier) serait préférable, mais l'usage pluriel n'est pas totalement fautif dans un contexte québécois informel."
+      },
+      {
+        "id": "erreur4.4",
+        "text": "À la place de",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution prépositive \"à la place de\" est un calque de l'anglais \"in place of\". Il faut utiliser \"au lieu de\".",
+        "suggestions": [
+          "Au lieu de"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Calque de l'anglais bien identifié. 'À la place de' dans le sens de 'au lieu de' (substitution temporelle/logique) est clairement incorrect. 'À la place de' ne s'emploie correctement que pour indiquer un remplacement physique de position.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "Non seulement que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le subordonnant \"que\" est superflu dans la locution \"Non seulement\". La structure correcte est \"Non seulement cela évite...\".",
+        "suggestions": [
+          "Non seulement cela"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur syntaxique claire. La locution 'non seulement' ne prend pas 'que' après elle. Structure incorrecte bien documentée.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "par",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "La préposition \"par\" est incorrecte dans ce contexte. On est \"reconnu pour\" une qualité ou une caractéristique. Une erreur de syntaxe (S) ayant déjà été comptabilisée dans cette phrase syntaxique, celle-ci n'est pas comptée.",
+        "suggestions": [
+          "pour"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Mauvais choix de préposition. On dit 'reconnu pour' (qualité/caractéristique) et non 'reconnu par' dans ce contexte.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "leur",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le déterminant possessif \"leur\" (pluriel) renvoie à un antécédent singulier, \"le magasin Walmart\". Il faut utiliser le déterminant singulier \"son\".",
+        "suggestions": [
+          "son"
+        ],
+        "ruleApplied": "4.1.2.3.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. L'antécédent 'le magasin Walmart' est singulier, donc le possessif doit être 'son', non 'leur'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "Même si que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le subordonnant \"que\" est superflu dans la locution conjonctive \"Même si\".",
+        "suggestions": [
+          "Même si"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur syntaxique claire. La locution conjonctive 'même si' ne prend jamais 'que' après elle.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "ça veut dire",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression \"ça veut dire\" relève du registre familier. Dans un texte de niveau de langue standard ou soutenu, il est préférable d'utiliser \"cela veut dire\" ou \"ce qui signifie\".",
+        "suggestions": [
+          "cela veut dire",
+          "ce qui signifie"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Question de registre de langue. Le texte oscille entre le courant et le familier. L'usage de 'ça' est fréquent à l'oral et dans l'écrit courant québécois.",
+        "counterArgument": "L'emploi de 'ça' au lieu de 'cela' relève davantage du registre de langue que de l'erreur grammaticale. Dans un texte argumentatif d'élève du secondaire/collégial au Québec, le registre courant avec quelques touches familières est acceptable. 'Ça' est largement utilisé à l'oral et dans l'écrit informel. Bien que 'cela' soit préférable pour un registre plus soutenu, 'ça' n'est pas fautif en soi dans ce contexte."
+      },
+      {
+        "id": "erreur4.10",
+        "text": "en mieux conservant",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'ordre des mots est incorrect. L'adverbe \"mieux\" doit être placé après le verbe au gérondif qu'il modifie.",
+        "suggestions": [
+          "en conservant mieux"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de placement de l'adverbe. Avec le gérondif, l'adverbe se place après le verbe : 'en conservant mieux', non 'en mieux conservant'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.11",
+        "text": "conseil recommandé",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il s'agit d'un pléonasme, une répétition d'idées. Un conseil est par nature une recommandation. Il faut utiliser soit \"le conseil de\", soit \"la recommandation de\".",
+        "suggestions": [
+          "le conseil de",
+          "la recommandation de"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Bien qu'il y ait une redondance sémantique, l'expression 'conseil recommandé' peut servir à insister sur l'autorité ou l'officialité du conseil. Pléonasme léger mais pas nécessairement fautif.",
+        "counterArgument": "Bien qu'il y ait une certaine redondance entre 'conseil' et 'recommandé', cette expression peut se justifier dans un contexte où l'auteur souhaite insister sur le fait qu'il s'agit d'un conseil officiel, approuvé ou particulièrement suggéré par une autorité (ici RECYC-QUÉBEC). L'usage de 'recommandé' ajoute une nuance d'officialité. Ce n'est pas un pléonasme aussi flagrant que 'monter en haut' par exemple. La formulation pourrait être améliorée, mais elle n'est pas totalement incorrecte."
+      },
+      {
+        "id": "erreur4.12",
+        "text": "ça permet",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'emploi du pronom \"ça\" est familier. Dans un registre de langue soutenu, il est préférable d'utiliser \"cela\".",
+        "suggestions": [
+          "cela permet"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Même justification que pour erreur4.9 : question de registre de langue plutôt qu'erreur grammaticale dans un texte scolaire de registre courant.",
+        "counterArgument": "Même argumentation que pour l'erreur4.9. L'emploi de 'ça' relève du registre courant/familier plutôt que de l'erreur. Dans un texte d'élève québécois, cet usage est acceptable, bien que 'cela' soit préférable pour élever le registre."
+      },
+      {
+        "id": "erreur4.13",
+        "text": "ça permet",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'emploi du pronom \"ça\" est familier. Dans un registre de langue soutenu, il est préférable d'utiliser \"cela\". Cette erreur se trouve dans une nouvelle phrase syntaxique et est donc comptée.",
+        "suggestions": [
+          "cela permet"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Même justification que pour erreur4.9 et erreur4.12 : question de registre de langue dans un contexte scolaire québécois.",
+        "counterArgument": "Même argumentation que pour les erreurs 4.9 et 4.12. Registre courant acceptable dans ce contexte, bien que 'cela' soit préférable."
+      },
+      {
+        "id": "erreur4.14",
+        "text": "ressources dépendantes",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression \"ressources dépendantes\" est sémantiquement incorrecte et ne veut rien dire dans ce contexte. Il est probable que l'auteur voulait dire \"ressources dont nous dépendons\" ou faisait référence à des ressources non renouvelables.",
+        "suggestions": [
+          "ressources dont nous dépendons"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "L'expression 'ressources dépendantes' est sémantiquement incohérente. Les ressources ne sont pas dépendantes ; c'est nous qui dépendons d'elles. Erreur de logique sémantique claire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.15",
+        "text": "mais un respect",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction met en parallèle \"privilège\" et \"respect\", ce qui est sémantiquement boiteux. Le nom \"respect\" ne s'oppose pas logiquement à \"privilège\" dans cette phrase. Une reformulation est nécessaire pour clarifier le sens, par exemple : \"La nourriture n'est pas un privilège; elle mérite le respect.\"",
+        "suggestions": [
+          "; elle doit être respectée"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Incohérence sémantique dans la parallèle logique. 'Privilège' et 'respect' ne sont pas sur le même plan conceptuel. La phrase manque de logique.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.16",
+        "text": "des",
+        "occurenceIndex": 5,
+        "criteria": 4,
+        "type": "S",
+        "description": "Après un adverbe de quantité comme \"le plus\", on emploie la préposition \"de\" (ou \"d'\") et non l'article partitif \"des\".",
+        "suggestions": [
+          "de"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle grammaticale claire : après un superlatif avec adverbe de quantité ('le plus'), on utilise 'de' et non 'des'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.17",
+        "text": ":",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "[P]",
+        "description": "Ajout d'un signe de ponctuation (deux-points) dans une citation sans le signaler par des crochets. La construction \"il est conseillé de\" ne requiert généralement pas de deux-points avant l'énumération.",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.6",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Le deux-points fait partie de la citation originale de RECYC-QUÉBEC. Il n'a pas été ajouté par l'élève, donc aucune modification n'est requise. La citation est fidèle à la source.",
+        "counterArgument": "Le deux-points apparaît dans la citation textuelle de RECYC-QUÉBEC et fait donc partie du contenu original cité. L'élève reproduit fidèlement la source, ce qui est correct. Il n'y a pas d'ajout illégitime de ponctuation par l'élève. Dans une citation entre guillemets, on conserve la ponctuation originale de la source. Cette détection est un faux positif."
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "certains",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant indéfini \"certains\" doit s'accorder en genre avec le nom qu'il détermine, \"épiceries\" (féminin pluriel).",
+        "suggestions": [
+          "certaines"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en genre évidente. 'Épiceries' est féminin pluriel, donc 'certains' doit devenir 'certaines'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "l'un",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom \"l'un\" doit s'accorder en genre avec le nom qu'il représente, \"épiceries\" (féminin pluriel).",
+        "suggestions": [
+          "l'une"
+        ],
+        "ruleApplied": "5.3.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en genre. Le pronom 'l'un' reprend 'épiceries' (féminin), donc doit être 'l'une'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "Seconlife",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe dans le nom propre de la plateforme, qui est \"SecondLife\".",
+        "suggestions": [
+          "SecondLife"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "DISCUTABLE",
+        "confidence": "LOW",
+        "confidenceReason": "L'orthographe du nom de cette plateforme n'est pas facilement vérifiable. Il existe plusieurs services avec des noms similaires. Sans accès à la source RECYC-QUÉBEC citée, difficile de confirmer l'orthographe exacte.",
+        "counterArgument": "L'orthographe exacte de cette plateforme n'est pas facilement vérifiable sans consulter directement la source citée (RECYC-QUÉBEC, 2021). Il existe plusieurs services et applications avec des noms similaires dans le domaine anti-gaspillage. 'SecondLife' pourrait être correct, mais 'Seconlife' pourrait aussi être une graphie variant ou un nom différent. Sans accès à la documentation officielle, il est difficile de confirmer qu'il s'agit d'une erreur. L'élève pourrait avoir correctement reproduit le nom tel qu'indiqué dans sa source."
+      },
+      {
+        "id": "erreur5.4",
+        "text": "compostable",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif \"compostable\" doit s'accorder en nombre avec le nom qu'il qualifie, \"résidus\" (masculin pluriel).",
+        "suggestions": [
+          "compostables"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en nombre évidente. 'Résidus' est au pluriel, donc l'adjectif 'compostable' doit s'accorder : 'compostables'.",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 12,
+      "note": "C"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 4,
+      "note": "B"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 21,
+      "vraisErreurs": 14,
+      "discutables": 6,
+      "fauxPositifs": 1
+    }
+  },
+  "startTimestamp": "2025-12-12T11:42:05.110Z",
+  "endTimestamp": "2025-12-12T11:43:24.491Z",
+  "durationMs": 79381,
+  "durationFormatted": "01:19:381"
+}

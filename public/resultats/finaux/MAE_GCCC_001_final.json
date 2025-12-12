@@ -1,0 +1,114 @@
+{
+  "processedAt": "2025-12-12T11:35:10.908Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_001.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_001.txt",
+    "registreIdentifie": "soutenu",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "ne sera selon moi pas possible",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'ordre des mots est boiteux. La négation « ne... pas » ne devrait pas être séparée par l'incise « selon moi ». Il est préférable de placer l'incise avant ou après le bloc verbal ou de l'encadrer de virgules.",
+        "suggestions": [
+          "ne sera pas, selon moi, possible",
+          "selon moi, ne sera pas possible"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Construction attestée en français soutenu, bien que non standard dans la langue courante.",
+        "counterArgument": "L'insertion d'une incise entre les éléments de la négation « ne... pas » est un procédé stylistique parfaitement acceptable en français soutenu et littéraire. Cette construction permet d'intégrer fluidement un commentaire personnel tout en conservant l'emphase de la négation. De nombreux auteurs classiques et contemporains utilisent ce type d'insertion. Dans un texte argumentatif au registre soutenu comme celui-ci, ce choix est cohérent et grammaticalement défendable."
+      },
+      {
+        "id": "erreur4.2",
+        "text": "Ainsi, ces derniers doivent donc",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'adverbe « Ainsi » et la conjonction « donc » ont tous deux une valeur de conséquence, ce qui crée une redondance. Il faut supprimer l'un des deux mots.",
+        "suggestions": [
+          "Ainsi, ces derniers doivent",
+          "Ces derniers doivent donc"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Redondance avérée de deux marqueurs de conséquence dans la même proposition, ce qui alourdit inutilement la phrase.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "société, nous contrôle",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Deux éléments de même fonction (ici, les verbes « est enraciné » et « contrôle » ayant le même sujet « le gaspillage alimentaire ») doivent être coordonnés par une conjonction comme « et ». La juxtaposition par une virgule est incorrecte.",
+        "suggestions": [
+          "société et nous contrôle"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "La juxtaposition crée un effet stylistique délibéré, bien que la coordination explicite soit préférable selon la norme stricte.",
+        "counterArgument": "Cette juxtaposition sans coordination peut être interprétée comme un procédé rhétorique visant à créer un effet d'accumulation ou d'emphase. Dans un texte au registre soutenu cherchant à produire un effet persuasif, cette rupture syntaxique peut être un choix délibéré pour marquer une pause et renforcer l'impact du second verbe. Bien que la coordination par « et » soit plus conforme à la norme académique, la construction originale n'est pas dénuée de justification stylistique."
+      },
+      {
+        "id": "erreur4.4",
+        "text": "pouvoir rien faire",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'ordre des mots est incorrect. Dans une négation portant sur un verbe à l'infinitif, le pronom 'rien' se place généralement avant cet infinitif.",
+        "suggestions": [
+          "rien pouvoir faire"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction littéraire attestée chez de nombreux auteurs classiques et reconnue par les grammairiens comme Grevisse. L'ordre « verbe + rien + infinitif » est une forme soutenue parfaitement correcte.",
+        "counterArgument": "La construction « ne pouvoir rien faire » est une forme littéraire attestée et reconnue par Grevisse (Le Bon Usage). Dans les constructions avec verbe modal à l'infinitif suivi d'un autre infinitif, le placement de « rien » après le premier infinitif est une variante soutenue parfaitement grammaticale. Cette construction se trouve chez de nombreux auteurs classiques (Racine, Voltaire, Hugo) et contemporains. Dans le contexte d'un texte au registre soutenu comme celui-ci, ce choix est non seulement acceptable, mais cohérent avec le niveau de langue global. La suggestion « rien pouvoir faire » n'est pas plus correcte, simplement plus courante dans le registre standard."
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "attendons nous",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Dans une construction interrogative avec inversion du sujet pronominal, un trait d'union est requis entre le verbe et le pronom.",
+        "suggestions": [
+          "attendons-nous"
+        ],
+        "ruleApplied": "5.2.1.10",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique claire et systématique : le trait d'union est obligatoire dans l'inversion interrogative.",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 1,
+      "note": "A"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 1,
+      "note": "A"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 5,
+      "vraisErreurs": 2,
+      "discutables": 2,
+      "fauxPositifs": 1
+    }
+  },
+  "startTimestamp": "2025-12-12T11:34:47.750Z",
+  "endTimestamp": "2025-12-12T11:35:10.907Z",
+  "durationMs": 23157,
+  "durationFormatted": "00:23:157"
+}

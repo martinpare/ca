@@ -1,0 +1,208 @@
+{
+  "processedAt": "2025-12-12T11:45:22.630Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_145.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_145.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "se",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom réfléchi doit être de la même personne que le sujet « nous ». On doit donc utiliser « nous » et non « se ».",
+        "suggestions": [
+          "nous"
+        ],
+        "ruleApplied": "4.1.2.3.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Discordance évidente de personne grammaticale. Le sujet « nous » (1re personne du pluriel) exige le pronom réfléchi « nous », pas « se » (3e personne).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "pourquoi",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'adverbe interrogatif « pourquoi » ne peut pas être employé comme un pronom relatif. Il faut utiliser le pronom relatif composé « pour lesquelles », qui reprend l'antécédent « raisons » (féminin pluriel).",
+        "suggestions": [
+          "pour lesquelles"
+        ],
+        "ruleApplied": "4.1.2.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Emploi fautif d'un adverbe interrogatif en fonction de pronom relatif. « Pourquoi » ne peut pas introduire une relative avec un antécédent nominal.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "ainsi qu'avec",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution « ainsi que » ne peut pas coordonner des éléments de fonctions syntaxiques différentes. La proposition subordonnée « si nous participons... » ne peut être coordonnée au groupe prépositionnel « avec l'aide... ». Il faut utiliser un coordonnant comme « et ».",
+        "suggestions": [
+          "et avec"
+        ],
+        "ruleApplied": "4.1.2.1.8",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Coordination incorrecte entre une subordonnée conditionnelle et un complément circonstanciel. « Ainsi que » ne peut coordonner des structures de niveaux syntaxiques différents.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "!",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point d'exclamation est utilisé à tort après une simple affirmation. Un point est requis pour clore la phrase déclarative.",
+        "suggestions": [
+          "."
+        ],
+        "ruleApplied": "4.2.2.3.2",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Le point d'exclamation peut être justifié par le registre persuasif du texte. L'auteur cherche à convaincre et à susciter une réaction émotionnelle.",
+        "counterArgument": "Dans un texte argumentatif à visée persuasive, le point d'exclamation après « Premièrement, il faut arrêter de craindre les dates limites de conservation! » peut être considéré comme un procédé rhétorique légitime pour marquer l'emphase et interpeller le lecteur. Il souligne l'urgence de l'action recommandée et renforce le ton engagé de l'argumentation. Ce choix stylistique est cohérent avec le registre incitatif du texte."
+      },
+      {
+        "id": "erreur4.5",
+        "text": "dont on a payé pour",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction 'dont... pour' est incorrecte. Le pronom relatif 'dont' remplace un complément introduit par 'de'. Il faut utiliser 'que' comme pronom relatif complément d'objet direct et supprimer la préposition finale.",
+        "suggestions": [
+          "qu'on a payé"
+        ],
+        "ruleApplied": "4.1.2.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction syntaxique incorrecte avec double marquage de la préposition. « Dont » inclut déjà la préposition « de », donc « pour » crée une incohérence. La structure correcte est « ce que l'on a payé » (payer quelque chose, pas payer pour quelque chose dans ce contexte).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "consommateur vous",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Un complément de phrase de plus de trois mots ('en tant que consommateur') placé en tête de phrase doit être suivi d'une virgule.",
+        "suggestions": [
+          "consommateur, vous"
+        ],
+        "ruleApplied": "4.2.2.10.1.l",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle de ponctuation standard : un complément circonstanciel en tête de phrase de plus de trois mots doit être détaché par une virgule pour faciliter la lecture.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "êtres",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe « pouvoir » est suivi d'un verbe à l'infinitif. Il faut écrire « être » et non le nom « êtres ».",
+        "suggestions": [
+          "être"
+        ],
+        "ruleApplied": "5.3.2.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion homophonique évidente entre l'infinitif « être » et le nom pluriel « êtres ». Dans la construction « peuvent très bien êtres mangés », seul l'infinitif est grammaticalement possible.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "leur",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant possessif « leur » s'accorde en nombre avec le nom qu'il détermine, « résidus », qui est au pluriel. Il prend donc un « s ».",
+        "suggestions": [
+          "leurs"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle d'accord du déterminant possessif : « leur » doit s'accorder en nombre avec le nom déterminé « résidus » (pluriel).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "moi même",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le pronom accentué « moi-même » s'écrit avec un trait d'union.",
+        "suggestions": [
+          "moi-même"
+        ],
+        "ruleApplied": "5.2.1.7.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle orthographique fixe : les pronoms renforcés avec « même » s'écrivent obligatoirement avec trait d'union (moi-même, toi-même, lui-même, etc.).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "gaspillé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « gaspillé », employé avec l'auxiliaire « être », s'accorde en genre et en nombre avec le sujet « nourriture », qui est féminin singulier.",
+        "suggestions": [
+          "gaspillée"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle d'accord du participe passé avec l'auxiliaire « être » : accord obligatoire avec le sujet « nourriture » (féminin singulier).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "nourritures",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « nourriture » est généralement un nom non comptable et reste au singulier, même après une expression de quantité comme « quantités de ».",
+        "suggestions": [
+          "nourriture"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le nom « nourriture » est un nom massif (non comptable) qui ne prend généralement pas la marque du pluriel, sauf dans des contextes très spécifiques (types de nourritures). Ici, le contexte demande le singulier.",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 5,
+      "note": "C"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 5,
+      "note": "C"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 11,
+      "vraisErreurs": 10,
+      "discutables": 1,
+      "fauxPositifs": 0
+    }
+  },
+  "startTimestamp": "2025-12-12T11:44:49.730Z",
+  "endTimestamp": "2025-12-12T11:45:22.630Z",
+  "durationMs": 32900,
+  "durationFormatted": "00:32:900"
+}

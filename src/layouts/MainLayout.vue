@@ -39,6 +39,16 @@
             <q-item-label caption>Lire les textes corrigés</q-item-label>
           </q-item-section>
         </q-item>
+
+        <q-item clickable to="/comparaison">
+          <q-item-section avatar>
+            <q-icon name="rate_review" color="deep-purple" />
+          </q-item-section>
+          <q-item-section>
+            <q-item-label>Comparaison des révisions</q-item-label>
+            <q-item-label caption>Analyser les verdicts du réviseur</q-item-label>
+          </q-item-section>
+        </q-item>
       </q-list>
     </q-drawer>
 

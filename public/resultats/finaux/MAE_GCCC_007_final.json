@@ -1,0 +1,692 @@
+{
+  "processedAt": "2025-12-12T11:36:26.855Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_007.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_007.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "on va nous en parler",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction est redondante et mélange les pronoms 'on' et 'nous'. Il faut choisir l'un ou l'autre. De plus, 'en parler à propos de' est un pléonasme.",
+        "suggestions": [
+          "nous allons parler de la",
+          "on va parler de la"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction syntaxique incohérente avec mélange de pronoms et pléonasme évident ('en parler à propos de').",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "par répartition",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque un déterminant essentiel ('la') après la préposition 'par' pour compléter le groupe du nom.",
+        "suggestions": [
+          "par la répartition"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Omission du déterminant obligatoire devant un nom commun déterminé. Faute syntaxique évidente.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "dans production",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque un déterminant essentiel ('la') après la préposition 'dans' pour compléter le groupe du nom.",
+        "suggestions": [
+          "dans la production"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Omission du déterminant obligatoire devant un nom commun déterminé. Faute syntaxique évidente.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "Dans transformation",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque un déterminant essentiel ('la') après la préposition 'dans' pour compléter le groupe du nom.",
+        "suggestions": [
+          "Dans la transformation"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Omission du déterminant obligatoire devant un nom commun déterminé. Faute syntaxique évidente.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "ça peut arriver des erreurs humaines",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est boiteuse. Il est préférable d'utiliser une tournure impersonnelle avec 'il' ou de faire de 'des erreurs humaines' le sujet du verbe.",
+        "suggestions": [
+          "il peut arriver des erreurs humaines",
+          "des erreurs humaines peuvent arriver"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction syntaxique incorrecte avec 'ça' au lieu de 'il' dans une tournure impersonnelle avec 'arriver'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "dans consommation",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque un déterminant essentiel ('la') après la préposition 'dans' pour compléter le groupe du nom.",
+        "suggestions": [
+          "dans la consommation"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Omission du déterminant obligatoire devant un nom commun déterminé. Faute syntaxique évidente.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "Comme le mentionne dans l'article",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe 'mentionne' n'a pas de sujet. Il faut utiliser une tournure impersonnelle ('il est mentionné') ou donner un sujet au verbe ('l'article mentionne').",
+        "suggestions": [
+          "Comme il est mentionné dans l'article",
+          "Comme le mentionne l'article"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Verbe transitif sans sujet explicite. Construction syntaxiquement incomplète.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "Dans l'article on",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule après le complément de phrase 'Dans l'article' placé en tête de phrase.",
+        "suggestions": [
+          "Dans l'article, on"
+        ],
+        "ruleApplied": "4.2.2.10.1.l",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Virgule obligatoire après un complément de phrase en tête de phrase. Règle de ponctuation claire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "c'est-à-dire d'aliments qui auraient dû être mangés plutôt que jetés",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette proposition est une subordonnée sans phrase matrice. Elle ne se rattache pas logiquement à ce qui précède.",
+        "suggestions": [
+          "Il s'agit d'aliments qui auraient dû être mangés plutôt que jetés."
+        ],
+        "ruleApplied": "4.1.2.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Fragment de phrase sans verbe principal. La construction 'c'est-à-dire' nécessite une phrase matrice complète.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.10",
+        "text": "pour production",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque un déterminant essentiel ('la') après la préposition 'pour' pour compléter le groupe du nom.",
+        "suggestions": [
+          "pour la production"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Omission du déterminant obligatoire devant un nom commun déterminé. Faute syntaxique évidente.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.11",
+        "text": "sa type",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Le déterminant possessif 'sa' ne s'accorde ni en genre (le nom 'type' est masculin) ni en nombre avec le possesseur ('des légumes', pluriel). Il faut utiliser 'leur'.",
+        "suggestions": [
+          "leur type"
+        ],
+        "ruleApplied": "4.1.2.3.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du déterminant possessif. Le possesseur est pluriel ('légumes'), donc 'leur' est requis.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.12",
+        "text": "ses",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le déterminant possessif 'ses' renvoie à un possesseur singulier, alors que le possesseur est 'Des agriculteurs' (pluriel). Il faut utiliser 'leurs'.",
+        "suggestions": [
+          "leurs"
+        ],
+        "ruleApplied": "4.1.2.3.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du déterminant possessif. Le possesseur est pluriel ('agriculteurs'), donc 'leurs' est requis.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.13",
+        "text": "battre avec",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition 'avec' est incorrecte dans ce contexte. L'expression est 'se battre contre' quelque chose.",
+        "suggestions": [
+          "se battre contre"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Préposition incorrecte. 'Se battre contre' est l'expression figée appropriée dans ce contexte.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "répresente",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'accent aigu est manquant sur le premier 'e'. Le verbe 'représenter' s'écrit avec un accent aigu.",
+        "suggestions": [
+          "représente"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. L'accent aigu est obligatoire sur le premier 'e' de 'représente'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "humain",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'humain' doit s'accorder en genre et en nombre avec le nom qu'il qualifie, 'consommation', qui est féminin singulier.",
+        "suggestions": [
+          "humaine"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accord de l'adjectif. 'Consommation' est féminin, donc 'humaine' est requis.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "une milliard",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'milliard' est masculin. Le déterminant doit donc être 'un'.",
+        "suggestions": [
+          "un milliard"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accord du déterminant. 'Milliard' est masculin, donc 'un' est requis.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "parlez",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après une forme conjuguée du verbe 'aller' servant de semi-auxiliaire, le verbe qui suit doit être à l'infinitif. Il s'agit d'une confusion de désinences homophones.",
+        "suggestions": [
+          "parler"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion homophonique. Après 'aller' semi-auxiliaire, l'infinitif est requis, pas le présent de l'indicatif.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "réglements",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'accent grave est manquant sur le premier 'e'. Le nom 'règlements' s'écrit avec un accent grave.",
+        "suggestions": [
+          "règlements"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. L'accent grave est obligatoire sur le premier 'e' de 'règlements'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "commençeant",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "La cédille est utilisée à tort. Pour obtenir le son [s] devant un 'a', il faut utiliser une cédille sous le 'c'. Ici, c'est l'inverse, le 'ç' est utilisé devant un 'e'.",
+        "suggestions": [
+          "commençant"
+        ],
+        "ruleApplied": "5.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. La forme correcte du participe présent est 'commençant' (sans 'e' après 'ç').",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "peut",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'pouvoir' doit s'accorder avec son sujet 'les gaspillages', qui est à la 3e personne du pluriel.",
+        "suggestions": [
+          "peuvent"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accord sujet-verbe. 'Les gaspillages' (pluriel) exige 'peuvent'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "alliments",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur orthographique sur le mot 'aliments'. Une lettre a été ajoutée à tort.",
+        "suggestions": [
+          "aliments"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. Le mot s'écrit 'aliments' avec un seul 'l'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "équipement",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant 'des' indique que le nom qui suit doit être au pluriel.",
+        "suggestions": [
+          "équipements"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accord en nombre. 'Des' exige le pluriel 'équipements'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.10",
+        "text": "La dernière exemple",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'exemple' est masculin. Le déterminant et l'adjectif doivent s'accorder en genre.",
+        "suggestions": [
+          "Le dernier exemple"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accord en genre. 'Exemple' est masculin, donc 'Le dernier' est requis.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.11",
+        "text": "conseil national zéro dechet",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur dans une dénomination. Les majuscules sont requises pour les noms propres et l'accent est manquant sur 'déchet'.",
+        "suggestions": [
+          "Conseil national Zéro Déchet"
+        ],
+        "ruleApplied": "5.2.4.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute de majuscule et d'accent. Les noms d'organismes exigent les majuscules appropriées, et 'déchet' nécessite un accent aigu.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.12",
+        "text": "produit",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'produit' doit s'accorder au pluriel, comme l'indique le déterminant 'les' et l'adjectif 'laitiers'.",
+        "suggestions": [
+          "produits"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accord en nombre. 'Les' et 'laitiers' (pluriel) exigent 'produits'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.13",
+        "text": "En tout somme",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'expression correcte est 'En somme' ou 'Somme toute'.",
+        "suggestions": [
+          "En somme",
+          "Somme toute"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur lexicale. L'expression figée est 'En somme' ou 'Somme toute', pas 'En tout somme'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.14",
+        "text": "nos mal consommation",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adverbe 'mal' est utilisé à la place de l'adjectif 'mauvaise'. De plus, le déterminant 'nos' (pluriel) ne s'accorde pas avec 'consommation' (singulier).",
+        "suggestions": [
+          "notre mauvaise consommation"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double faute grammaticale. Confusion entre adverbe et adjectif, et accord incorrect du déterminant possessif.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.15",
+        "text": "« les",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Une citation rapportée directement qui forme une phrase complète doit commencer par une majuscule.",
+        "suggestions": [
+          "« Les"
+        ],
+        "ruleApplied": "5.3.6.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique claire. Une citation formant une phrase complète commence par une majuscule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.16",
+        "text": "météorologique",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'météorologique' doit s'accorder en nombre avec le nom qu'il qualifie, 'conditions', qui est au pluriel.",
+        "suggestions": [
+          "météorologiques"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accord de l'adjectif. 'Conditions' est pluriel, donc 'météorologiques' est requis.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.17",
+        "text": "rendre",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après le pronom relatif 'ce qui', le verbe doit être conjugué à la 3e personne du singulier. Il s'agit d'une confusion entre l'infinitif et la forme conjuguée.",
+        "suggestions": [
+          "rend"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion entre infinitif et forme conjuguée. 'Ce qui' exige un verbe conjugué ('rend').",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.18",
+        "text": "mals",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adverbe 'mal' est invariable et ne prend jamais de 's'.",
+        "suggestions": [
+          "mal"
+        ],
+        "ruleApplied": "5.3.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute grammaticale évidente. Les adverbes sont invariables, 'mal' ne prend jamais de 's'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.19",
+        "text": "les autre",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'autre' doit s'accorder en nombre avec le nom qu'il qualifie, 'marchés', qui est au pluriel.",
+        "suggestions": [
+          "les autres"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accord de l'adjectif. 'Les' (pluriel) exige 'autres'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.20",
+        "text": "« certains",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Une citation rapportée directement qui forme une phrase complète doit commencer par une majuscule.",
+        "suggestions": [
+          "« Certains"
+        ],
+        "ruleApplied": "5.3.6.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique claire. Une citation formant une phrase complète commence par une majuscule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.21",
+        "text": "repondent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'accent aigu est manquant sur le 'e'. Le verbe 'répondre' s'écrit avec un accent aigu.",
+        "suggestions": [
+          "répondent"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. L'accent aigu est obligatoire sur le premier 'e' de 'répondent'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.22",
+        "text": "vendues",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'vendues' doit s'accorder avec le sujet 'ils' (mis pour 'aliments'), qui est masculin pluriel.",
+        "suggestions": [
+          "vendus"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accord du participe passé. 'Ils' (masculin) exige 'vendus'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.23",
+        "text": "les autre",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'autre' doit s'accorder en nombre avec le nom qu'il qualifie (implicite, 'aliments' ou 'marchés'), qui est au pluriel.",
+        "suggestions": [
+          "les autres"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accord de l'adjectif. 'Les' (pluriel) exige 'autres'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.24",
+        "text": "un erreur",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'erreur' est féminin. Le déterminant doit donc être 'une'.",
+        "suggestions": [
+          "une erreur"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accord du déterminant. 'Erreur' est féminin, donc 'une' est requis.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.25",
+        "text": "certains raisons",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant 'certains' doit s'accorder en genre avec le nom qu'il détermine, 'raisons', qui est féminin pluriel.",
+        "suggestions": [
+          "certaines raisons"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accord du déterminant. 'Raisons' est féminin, donc 'certaines' est requis.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.26",
+        "text": "ils",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom personnel 'ils' doit reprendre son antécédent 'des conséquences', qui est féminin pluriel. Il faut donc utiliser 'elles'.",
+        "suggestions": [
+          "elles"
+        ],
+        "ruleApplied": "5.3.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accord du pronom. L'antécédent 'conséquences' est féminin, donc 'elles' est requis.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.27",
+        "text": "l'enfouissement",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Chaque nouvelle phrase doit commencer par une majuscule.",
+        "suggestions": [
+          "L'enfouissement"
+        ],
+        "ruleApplied": "5.3.6.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique de base. Toute phrase doit commencer par une majuscule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.28",
+        "text": "changement",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'changement' doit être au pluriel pour s'accorder avec l'adjectif 'climatiques'. Il s'agit de l'expression 'les changements climatiques'.",
+        "suggestions": [
+          "changements"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accord en nombre. L'expression figée est 'changements climatiques' (pluriel).",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 13,
+      "note": "D"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 28,
+      "note": "E"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 41,
+      "vraisErreurs": 41,
+      "discutables": 0,
+      "fauxPositifs": 0
+    }
+  },
+  "startTimestamp": "2025-12-12T11:34:47.752Z",
+  "endTimestamp": "2025-12-12T11:36:26.855Z",
+  "durationMs": 99103,
+  "durationFormatted": "01:39:103"
+}

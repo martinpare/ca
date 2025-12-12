@@ -1,0 +1,226 @@
+{
+  "processedAt": "2025-12-12T11:38:31.753Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_051.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_051.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "reconnaître d'être chanceux",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction du verbe « reconnaître » est incorrecte. On ne « reconnaît pas d'être », mais on « reconnaît être » ou on « reconnaît que l'on est ». Il s'agit d'une erreur de rection verbale.",
+        "suggestions": [
+          "reconnaître que nous sommes chanceux",
+          "reconnaître être chanceux"
+        ],
+        "ruleApplied": "4.1.2.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le verbe « reconnaître » suivi de l'infinitif se construit sans préposition « de ». La construction « reconnaître de + infinitif » n'est pas attestée en français standard.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "!",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point d'exclamation est utilisé de manière erronée après une simple affirmation (« selon ce même article! »). Un point serait plus approprié.",
+        "suggestions": [
+          "."
+        ],
+        "ruleApplied": "4.2.2.3.2",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Dans un texte argumentatif à visée persuasive, l'emphase par point d'exclamation peut être un choix stylistique pour souligner l'importance d'une information. Le contexte suggère un enthousiasme délibéré.",
+        "counterArgument": "Dans un texte argumentatif visant à convaincre le lecteur, l'utilisation du point d'exclamation après « selon ce même article! » peut être un choix stylistique délibéré pour exprimer l'enthousiasme de l'auteure face aux données positives (6,7 millions de produits sauvés). Cette ponctuation expressive, bien que non neutre, est cohérente avec le ton engagé du texte. La phrase suivante « Il s'agit d'une démarche exemplaire ! » confirme ce registre persuasif."
+      },
+      {
+        "id": "erreur4.3",
+        "text": "!",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "(P)",
+        "description": "Le point d'exclamation est utilisé à tort après une simple affirmation (« selon ce même article »). Un point final est requis.",
+        "suggestions": [
+          "."
+        ],
+        "ruleApplied": "4.2.2.3.2",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Répétition de l'erreur précédente. Même justification stylistique dans un contexte argumentatif persuasif.",
+        "counterArgument": "Même justification que pour erreur4.2. L'utilisation répétée du point d'exclamation dans ce paragraphe crée une cohérence stylistique exprimant l'enthousiasme face aux solutions au gaspillage alimentaire. Dans un texte d'élève au ton engagé, ce choix est défendable."
+      },
+      {
+        "id": "erreur4.4",
+        "text": "aliments»",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une phrase se terminant par une citation doit se conclure par un point final, placé après le guillemet fermant.",
+        "suggestions": [
+          "aliments»."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique claire : lorsqu'une phrase se termine par une citation, le point final doit être placé après le guillemet fermant. L'absence de ponctuation finale constitue une erreur manifeste.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "se",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le pronom démonstratif « ce » et le pronom réfléchi « se ». L'expression correcte est « que ce soit ».",
+        "suggestions": [
+          "ce"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur grammaticale claire. L'expression « que se soit » est incorrecte ; la locution conjonctive requiert le pronom démonstratif « ce » : « que ce soit ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "quecertaines",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Les mots « que » et « certaines » ont été fusionnés à tort. Il faut les séparer.",
+        "suggestions": [
+          "que certaines"
+        ],
+        "ruleApplied": "5.2.6.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur typographique évidente. Deux mots distincts ont été fusionnés, rendant le texte illisible à cet endroit.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "mme",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'abréviation du titre de civilité « Madame » est « Mme », avec une majuscule initiale.",
+        "suggestions": [
+          "Mme"
+        ],
+        "ruleApplied": "5.2.6.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'usage claire. L'abréviation des titres de civilité prend toujours une majuscule initiale en français : « Mme » et non « mme ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "lapresse.ca",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Les noms propres, y compris les noms de médias, prennent une majuscule. Il s'agit ici d'une dénomination.",
+        "suggestions": [
+          "LaPresse.ca",
+          "La Presse.ca"
+        ],
+        "ruleApplied": "5.2.4.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur claire concernant un nom propre. « La Presse » est le nom d'un journal québécois réputé qui s'écrit en deux mots avec majuscules. La graphie « lapresse.ca » (tout attaché, en minuscules) ne respecte pas la dénomination officielle.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "Iln'est",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Les mots « Il » et « n'est » ont été fusionnés à tort. Il faut les séparer.",
+        "suggestions": [
+          "Il n'est"
+        ],
+        "ruleApplied": "5.2.6.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur typographique évidente. Fusion incorrecte de deux mots distincts rendant le texte illisible.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "ladiminution",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Les mots « la » et « diminution » ont été fusionnés à tort. Il faut les séparer.",
+        "suggestions": [
+          "la diminution"
+        ],
+        "ruleApplied": "5.2.6.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur typographique évidente. Fusion incorrecte de deux mots distincts rendant le texte illisible.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "«vaut",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Une citation formant une phrase complète doit commencer par une majuscule, même si elle est intégrée dans une autre phrase.",
+        "suggestions": [
+          "«Vaut"
+        ],
+        "ruleApplied": "5.3.6.3",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "L'expression « vaut mieux tard que jamais » est intégrée syntaxiquement dans la phrase de l'auteure (« C'est ici que l'expression... prend tout son sens ! »). Elle n'est pas présentée comme une citation autonome mais comme un complément du nom « expression ».",
+        "counterArgument": "Cette prétendue erreur est en réalité correcte. Lorsqu'une expression ou citation est intégrée syntaxiquement dans la phrase englobante (ici comme complément du nom « expression »), elle ne prend pas de majuscule initiale. La règle de la majuscule s'applique aux citations autonomes qui forment une phrase complète indépendante, ce qui n'est pas le cas ici. La construction « l'expression « vaut mieux tard que jamais » prend tout son sens » est grammaticalement correcte avec la minuscule."
+      },
+      {
+        "id": "erreur5.8",
+        "text": "définitivement",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur orthographique dans l'adverbe « définitivement ».",
+        "suggestions": [
+          "définitivement"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Le texte original contient bien « définitivement » avec l'orthographe correcte. Il n'y a pas d'erreur à cet endroit. La suggestion proposée est identique au texte source.",
+        "counterArgument": "Cette erreur n'existe pas dans le texte. En vérifiant le texte original, on trouve « nous pouvons définitivement lutter » et « cela est définitivement possible », les deux occurrences étant correctement orthographiées. Il s'agit d'un faux positif généré par erreur lors de l'analyse initiale."
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 2,
+      "note": "A"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 6,
+      "note": "B"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 12,
+      "vraisErreurs": 8,
+      "discutables": 2,
+      "fauxPositifs": 2
+    }
+  },
+  "startTimestamp": "2025-12-12T11:37:51.621Z",
+  "endTimestamp": "2025-12-12T11:38:31.753Z",
+  "durationMs": 40132,
+  "durationFormatted": "00:40:132"
+}

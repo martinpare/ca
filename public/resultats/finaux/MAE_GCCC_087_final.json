@@ -1,0 +1,439 @@
+{
+  "processedAt": "2025-12-12T11:41:44.268Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_087.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_087.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "parvenir",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe 'parvenir' est intransitif et s'emploie avec la préposition 'à'. La construction 'parvenir quelque chose' est incorrecte. Il faut utiliser un verbe transitif direct comme 'franchir' ou reformuler la proposition.",
+        "suggestions": [
+          "qu'il doit franchir"
+        ],
+        "ruleApplied": "4.1.2.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de construction verbale évidente. Le verbe 'parvenir' ne peut pas avoir de complément d'objet direct. Le contexte exige un verbe transitif.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "De mon humble avis, je trouve",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La tournure 'De mon humble avis, je trouve' est redondante. Il faut choisir l'une des deux formulations pour éviter le pléonasme. De plus, la locution correcte est 'À mon humble avis'.",
+        "suggestions": [
+          "À mon humble avis,",
+          "Je trouve"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double erreur : préposition incorrecte ('De' au lieu de 'À') et redondance évidente avec 'je trouve' qui suit immédiatement.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "Dû à",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'emploi de la locution 'Dû à' en tête de phrase est considéré comme un calque de l'anglais. Il est préférable d'utiliser 'En raison de' ou 'À cause de'.",
+        "suggestions": [
+          "En raison de"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Calque de l'anglais 'due to' largement reconnu comme incorrect en français standard. L'OQLF recommande d'éviter cette tournure.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "jetés ce",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule avant le pronom relatif 'ce qui' lorsqu'il introduit une proposition qui a pour antécédent toute la proposition précédente.",
+        "suggestions": [
+          "jetés, ce"
+        ],
+        "ruleApplied": "4.2.2.10.1.i",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle de ponctuation claire : la virgule est obligatoire avant 'ce qui' lorsqu'il reprend une proposition entière.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "Ce qui fait en sorte que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution 'ce qui fait en sorte que' est un calque de l'oral ou de l'anglais. Il est préférable d'utiliser des connecteurs comme 'C'est pourquoi', 'Par conséquent' ou 'Donc'.",
+        "suggestions": [
+          "C'est pourquoi",
+          "Par conséquent,"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Bien que cette tournure soit critiquée comme calque de l'anglais 'which makes it so that', elle est largement employée au Québec et commence à être acceptée dans certains contextes.",
+        "counterArgument": "La locution 'faire en sorte que' est attestée dans les dictionnaires français (Larousse, Robert) au sens de 's'arranger pour que'. Son utilisation avec 'ce qui' est courante en français québécois oral et écrit. Bien que les puristes préfèrent d'autres connecteurs, cette construction n'est pas incorrecte grammaticalement, simplement moins élégante."
+      },
+      {
+        "id": "erreur4.6",
+        "text": "D'après moi, je pense",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La tournure 'D'après moi, je pense' est redondante. Il faut choisir l'une des deux formulations pour éviter le pléonasme.",
+        "suggestions": [
+          "D'après moi,",
+          "Je pense"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Redondance évidente. Les deux expressions expriment la même idée d'opinion personnelle et ne devraient pas être juxtaposées.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "défiler",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe 'défiler' est utilisé de manière inappropriée et crée un problème de sens. Il signifie 'marcher en file'. Il faudrait un verbe comme 'augmenter' ou 'se poursuivre'.",
+        "suggestions": [
+          "d'augmenter",
+          "de se poursuivre"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Choix lexical inapproprié. Le verbe 'défiler' ne convient pas sémantiquement dans ce contexte où il est question de perte d'aliments qui continue.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "prêt de",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de préposition. La locution adjectivale est 'prêt à' et non 'prêt de'.",
+        "suggestions": [
+          "prêt à"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de préposition standard. La locution 'être prêt à' est la seule forme correcte. 'Prêt de' est une confusion avec 'près de'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "alimentaire?De",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une espace est requise après un signe de ponctuation final comme le point d'interrogation pour séparer les phrases.",
+        "suggestions": [
+          "alimentaire? De"
+        ],
+        "ruleApplied": "4.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique de base : une espace est obligatoire après tout signe de ponctuation final.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.10",
+        "text": "Ce qui fait en sorte que plusieurs fruits et légumes sont gaspillés et mis aux poubelles.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase est une subordonnée sans phrase principale (matrice). Elle devrait être rattachée à la phrase précédente ou reformulée pour être une phrase complète.",
+        "suggestions": [
+          "...denrées alimentaires, ce qui fait en sorte que...",
+          "Par conséquent, plusieurs fruits et légumes sont gaspillés..."
+        ],
+        "ruleApplied": "4.1.2.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Fragment de phrase. Une subordonnée relative ne peut pas constituer une phrase indépendante. Elle doit être rattachée à une proposition principale.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.11",
+        "text": "procéder»",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "La citation rapportée est une phrase complète. Elle doit donc se terminer par un point avant le guillemet fermant.",
+        "suggestions": [
+          "procéder.»"
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "La règle typographique varie selon les conventions. En français européen, le point se place avant le guillemet fermant si la citation est une phrase complète. Cependant, certaines conventions acceptent l'absence de point si la citation s'intègre à la phrase.",
+        "counterArgument": "Dans certaines conventions typographiques, notamment au Québec, on peut omettre le point final à l'intérieur des guillemets lorsque la citation est intégrée dans une phrase qui se termine par un autre signe de ponctuation. La citation ici s'intègre dans le paragraphe argumentatif et pourrait être considérée comme un élément de la phrase englobante."
+      },
+      {
+        "id": "erreur4.12",
+        "text": "Le fait que les personnes ne fassent pas assez attention à ce sujet,cette crise majeure continuera de chambouler.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de construction de phrase (anacoluthe). Le sujet 'Le fait que...' n'est pas correctement rattaché au verbe principal. La phrase doit être restructurée.",
+        "suggestions": [
+          "Le fait que les personnes ne fassent pas assez attention à ce sujet explique pourquoi cette crise majeure continuera de chambouler.",
+          "Comme les personnes ne font pas assez attention à ce sujet, cette crise majeure continuera de chambouler."
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Anacoluthe évidente. Le sujet 'Le fait que...' est abandonné et un nouveau sujet 'cette crise' apparaît sans lien syntaxique. Rupture de construction manifeste.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.13",
+        "text": "2020",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une référence bibliographique doit se terminer par un point.",
+        "suggestions": [
+          "2020."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Convention bibliographique standard : toute référence doit se terminer par un point final.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.14",
+        "text": "2019",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une référence bibliographique doit se terminer par un point.",
+        "suggestions": [
+          "2019."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Convention bibliographique standard : toute référence doit se terminer par un point final.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "essentiel",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'essentiel' doit s'accorder en nombre avec le nom 'besoins' qu'il qualifie, qui est au masculin pluriel.",
+        "suggestions": [
+          "essentiels"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord élémentaire. L'adjectif doit s'accorder en genre et en nombre avec le nom qu'il qualifie.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "tous",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant 'tous' doit s'accorder en genre avec le nom 'étapes' qu'il détermine, qui est au féminin pluriel.",
+        "suggestions": [
+          "toutes"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en genre. Le déterminant 'tous/toutes' doit s'accorder avec le nom qu'il détermine.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "quelques choses",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le déterminant 'quelques' (pluriel) et le pronom indéfini 'quelque chose' (singulier et invariable).",
+        "suggestions": [
+          "quelque chose"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur grammaticale courante. 'Quelque chose' est une locution figée invariable qui ne prend jamais de 's'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "goûter",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion entre le nom 'goûter' (repas de l'après-midi) et le nom 'goût' (saveur).",
+        "suggestions": [
+          "goût"
+        ],
+        "ruleApplied": "5.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion lexicale évidente. Le contexte (odeur ou saveur) exige le nom 'goût', non 'goûter' qui désigne un repas.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "reposent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion lexicale. Le verbe 'reposer' est incorrect dans ce contexte. Il faut utiliser le verbe 'répondre' (répondre à des standards).",
+        "suggestions": [
+          "répondent"
+        ],
+        "ruleApplied": "5.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur lexicale claire. L'expression consacrée est 'répondre à des standards', non 'reposer à des standards'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "attente",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'attente' doit être au pluriel dans l'expression 'se faire des attentes'.",
+        "suggestions": [
+          "attentes"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord. Le déterminant 'des' exige le pluriel du nom qui suit.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "réel",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'réel' doit s'accorder en genre avec le nom 'taille' qu'il qualifie, qui est au féminin singulier.",
+        "suggestions": [
+          "réelle"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en genre. L'adjectif doit s'accorder avec le nom féminin 'taille'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "invendable",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'invendable' doit s'accorder en nombre avec le nom 'aliments' qu'il qualifie, qui est au masculin pluriel.",
+        "suggestions": [
+          "invendables"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en nombre. L'adjectif doit s'accorder avec le nom pluriel 'aliments'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "Octobre",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Les noms de mois ne prennent pas de majuscule, sauf en début de phrase.",
+        "suggestions": [
+          "octobre"
+        ],
+        "ruleApplied": "5.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique claire : les noms de mois prennent une minuscule en français, sauf en début de phrase.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.10",
+        "text": "doit",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'devoir' doit s'accorder en nombre avec son sujet 'qui', pronom relatif qui reprend 'les étapes' (pluriel).",
+        "suggestions": [
+          "doivent"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord sujet-verbe. Le pronom relatif 'qui' reprend 'étapes' (pluriel), donc le verbe doit être au pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.11",
+        "text": "Dû à",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Lorsque la locution 'dû à' est placée en tête de phrase, le participe passé 'dû' perd son accent et sa majuscule.",
+        "suggestions": [
+          "Du fait de",
+          "En raison de"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double erreur : calque de l'anglais (voir erreur4.3) et erreur d'accentuation. La forme 'dû à' avec accent ne s'emploie que dans des cas précis (participe passé du verbe 'devoir').",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 13,
+      "note": "E"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 11,
+      "note": "E"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 25,
+      "vraisErreurs": 23,
+      "discutables": 2,
+      "fauxPositifs": 0
+    }
+  },
+  "startTimestamp": "2025-12-12T11:40:34.355Z",
+  "endTimestamp": "2025-12-12T11:41:44.268Z",
+  "durationMs": 69913,
+  "durationFormatted": "01:09:913"
+}

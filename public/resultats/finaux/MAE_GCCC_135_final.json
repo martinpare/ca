@@ -1,0 +1,512 @@
+{
+  "processedAt": "2025-12-12T11:45:31.389Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_135.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_135.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": ",",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "P",
+        "description": "La virgule est insuffisante pour joindre deux phrases syntaxiques indépendantes (\"...sont gaspillés\" et \"cela implique...\"). Il faut utiliser un point ou un point-virgule.",
+        "suggestions": [
+          ". Cela"
+        ],
+        "ruleApplied": "4.2.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Virgule fautive reliant deux propositions indépendantes sans conjonction de coordination. C'est une erreur classique de ponctuation.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "Simard Valérie",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Dans une mention de source, lorsque le nom de famille précède le prénom, une virgule doit les séparer.",
+        "suggestions": [
+          "Simard, Valérie"
+        ],
+        "ruleApplied": "4.2.2.10.1.a",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "La convention typographique varie selon les contextes. Dans un texte courant (non bibliographique), l'ordre prénom-nom sans virgule est acceptable.",
+        "counterArgument": "Dans le corps d'un texte courant, l'ordre naturel serait plutôt \"Valérie Simard\". Si l'auteur utilise l'ordre inversé \"Simard Valérie\", cela peut être une tentative maladroite d'imiter le format bibliographique, mais dans un contexte non académique strict, cet usage sans virgule n'est pas nécessairement fautif. La correction suggérée (avec virgule) améliorerait la clarté, mais l'absence de virgule ne constitue pas une faute grave dans un texte de niveau secondaire/collégial."
+      },
+      {
+        "id": "erreur4.3",
+        "text": "conseille les consommateurs de",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe \"conseiller\" se construit avec la préposition \"à\" lorsqu'il est suivi d'un complément d'objet indirect désignant la personne (\"conseiller à quelqu'un\").",
+        "suggestions": [
+          "conseille aux consommateurs de"
+        ],
+        "ruleApplied": "4.1.2.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de construction verbale. Le verbe \"conseiller\" admet deux constructions : \"conseiller quelque chose à quelqu'un\" ou \"conseiller à quelqu'un de faire quelque chose\". Ici, la construction directe avec \"de\" est incorrecte.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": ",",
+        "occurenceIndex": 5,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule ne doit pas séparer le verbe (\"ajoute\") de son complément d'objet direct (\"des programmes\").",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.10.2.d",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Analyse contextuelle du passage révèle que la virgule fait partie de la construction \"On ajoute à ceci, des programmes...\" qui est une tournure acceptable.",
+        "counterArgument": "La construction \"On ajoute à ceci\" suivie d'une virgule puis du complément peut être considérée comme stylistiquement acceptable, la virgule marquant une légère pause emphatique après le complément circonstanciel \"à ceci\". Bien que non obligatoire, cette virgule n'est pas grammaticalement fautive. La construction sans virgule serait plus fluide, mais l'original n'est pas incorrect."
+      },
+      {
+        "id": "erreur4.5",
+        "text": "De plus non",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "L'organisateur textuel \"De plus\" en tête de phrase doit être suivi d'une virgule.",
+        "suggestions": [
+          "De plus, non"
+        ],
+        "ruleApplied": "4.2.2.10.1.k",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle claire et systématique : les marqueurs de relation en début de phrase doivent être suivis d'une virgule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "aussi",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'adverbe \"aussi\" est superflu et redondant avec la structure corrélative \"non seulement... mais (aussi)\".",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "La structure \"non seulement... mais... aussi\" avec \"aussi\" en fin de proposition est attestée et acceptable, bien que plus lourde.",
+        "counterArgument": "La structure corrélative \"non seulement... mais... aussi\" est grammaticalement correcte. Bien que \"mais aussi\" immédiatement juxtaposé soit plus courant (\"non seulement X mais aussi Y\"), placer \"aussi\" après le deuxième élément (\"mais les restaurants aussi\") est une variante stylistique acceptable qui ajoute de l'emphase. Ce n'est pas une redondance fautive, mais un choix stylistique pour renforcer l'inclusion d'un deuxième groupe."
+      },
+      {
+        "id": "erreur4.7",
+        "text": "gaspillage il",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de ponctuation forte (point) entre deux phrases syntaxiques indépendantes.",
+        "suggestions": [
+          "gaspillage. Il"
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Virgule fautive entre deux propositions indépendantes. Erreur de ponctuation claire nécessitant un point ou un point-virgule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "porter",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe \"porter\" est mal choisi dans ce contexte. L'expression consacrée est \"emporter ses restes\".",
+        "suggestions": [
+          "d'emporter"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur lexicale claire. \"Porter\" signifie transporter sur soi, tandis que \"emporter\" signifie prendre avec soi en quittant un lieu. Le contexte exige \"emporter\".",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "environnement",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence du point final à la fin de la phrase.",
+        "suggestions": [
+          "environnement."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le point final est obligatoire à la fin d'une phrase déclarative. Son absence est une erreur manifeste.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "de",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le partitif \"de\" est utilisé après une négation ou une expression de quantité suivie d'un adjectif. Ici, \"millions\" est un nom, donc l'article indéfini pluriel \"des\" est requis.",
+        "suggestions": [
+          "des"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur grammaticale classique. Devant un nom pluriel sans adjectif antéposé, on utilise \"des\", pas \"de\". La règle est claire et systématique.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "restants",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot \"restant\" est un adjectif ou un participe présent. Pour désigner ce qui reste d'un repas, le nom \"restes\" (au pluriel) est approprié.",
+        "suggestions": [
+          "restes"
+        ],
+        "ruleApplied": "5.2.1.4",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "\"Restants\" est un québécisme reconnu par l'OQLF pour désigner les restes alimentaires. Usage légitime en français québécois.",
+        "counterArgument": "\"Restants\" (substantif masculin pluriel) est un québécisme parfaitement acceptable et reconnu par l'Office québécois de la langue française pour désigner les restes de nourriture. Dans un contexte québécois, ce terme est correct et largement utilisé. La forme \"restes\" est également correcte, mais \"restants\" n'est pas une erreur dans ce registre régional."
+      },
+      {
+        "id": "erreur5.3",
+        "text": "misent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé \"mis\", employé avec un auxiliaire sous-entendu, doit s'accorder en genre et en nombre avec le nom \"programmes\" (masculin pluriel). La forme correcte est \"mis\".",
+        "suggestions": [
+          "mis"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion entre le verbe \"miser\" (conjugué) et le participe passé \"mis\". Ici, c'est bien le participe passé qui est requis dans \"mis en place\".",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "places",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "La locution adverbiale \"en place\" est invariable.",
+        "suggestions": [
+          "place"
+        ],
+        "ruleApplied": "5.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle fixe : la locution figée \"en place\" ne prend jamais la marque du pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "changemement",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage. Le mot \"changement\" s'écrit avec un seul \"m\".",
+        "suggestions": [
+          "changement"
+        ],
+        "ruleApplied": "5.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. Le mot \"changement\" ne comporte qu'un seul \"m\" après le \"e\".",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "encouragent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe \"encourager\" doit s'accorder avec son sujet \"notre société\" (3e personne du singulier).",
+        "suggestions": [
+          "encourage"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord sujet-verbe claire. \"Notre société\" est singulier, le verbe doit être à la 3e personne du singulier.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "ésthétiques",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'accentuation. Le mot \"esthétiques\" s'écrit avec un \"e\" sans accent au début.",
+        "suggestions": [
+          "esthétiques"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. L'accent aigu sur le premier \"e\" de \"esthétique\" est incorrect.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "tel",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif \"tel\" doit s'accorder en genre et en nombre avec le nom qu'il qualifie, \"sorte\" (féminin singulier). La locution correcte est \"de telle sorte que\".",
+        "suggestions": [
+          "telle"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. Dans la locution \"de telle sorte que\", l'adjectif \"telle\" s'accorde avec \"sorte\" (féminin).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "Commme",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage. Le mot \"comme\" s'écrit avec un seul \"m\".",
+        "suggestions": [
+          "Comme"
+        ],
+        "ruleApplied": "5.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute de frappe évidente. Le mot \"comme\" ne comporte que deux \"m\", pas trois.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.10",
+        "text": "épiceris",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage. Le mot correct est \"épiceries\".",
+        "suggestions": [
+          "épiceries"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. Le mot \"épiceries\" s'écrit avec \"ies\" à la fin, pas \"is\".",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.11",
+        "text": "récuper",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'accentuation. L'infinitif du verbe est \"récupérer\".",
+        "suggestions": [
+          "récupérer"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. Le verbe \"récupérer\" nécessite un accent aigu sur le dernier \"e\".",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.12",
+        "text": "épiceris",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Répétition de la même erreur d'usage pour le mot \"épiceries\".",
+        "suggestions": [
+          "épiceries"
+        ],
+        "ruleApplied": "5.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Même faute répétée. Deuxième occurrence de \"épiceris\" au lieu de \"épiceries\".",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.13",
+        "text": "démonté",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion lexicale. Le verbe approprié est \"démontrer\" (prouver), et non \"démonter\" (désassembler). Le participe passé est \"démontré\".",
+        "suggestions": [
+          "démontré"
+        ],
+        "ruleApplied": "5.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion lexicale claire entre deux verbes distincts. \"Démonter\" signifie désassembler, tandis que \"démontrer\" signifie prouver.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.14",
+        "text": "Vaness",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur sur un nom propre dans une dénomination. Le nom est probablement \"Vanessa\".",
+        "suggestions": [
+          "Vanessa"
+        ],
+        "ruleApplied": "5.1.2",
+        "verdict": "ERREUR",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Le prénom semble incomplet, mais sans accès à la source originale, il est difficile de confirmer avec certitude absolue l'orthographe exacte.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.15",
+        "text": "de",
+        "occurenceIndex": 4,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur de préposition dans une dénomination. Le titre de l'article cité utilise \"des\".",
+        "suggestions": [
+          "des"
+        ],
+        "ruleApplied": "5.1.2",
+        "verdict": "ERREUR",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Sans accès au titre original de l'article, il est difficile de confirmer avec certitude absolue, mais \"des\" est plus probable grammaticalement.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.16",
+        "text": "creé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'accentuation. Le participe passé du verbe \"créer\" est \"créé\".",
+        "suggestions": [
+          "créé"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accentuation évidente. Le participe passé \"créé\" nécessite deux accents aigus.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.17",
+        "text": "tout",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant \"tout\" doit s'accorder en genre et en nombre avec le nom qu'il détermine, \"clients\" (masculin pluriel). La forme correcte est \"tous\".",
+        "suggestions": [
+          "tous"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. \"Tout\" déterminant s'accorde avec le nom qu'il précède : \"tous leurs clients\".",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.18",
+        "text": "il",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom sujet \"il\" doit s'accorder en nombre avec son antécédent \"ces derniers\" (pluriel). La forme correcte est \"ils\".",
+        "suggestions": [
+          "ils"
+        ],
+        "ruleApplied": "5.3.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord pronom-antécédent claire. \"Ces derniers\" est pluriel, donc le pronom doit être \"ils\".",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.19",
+        "text": "leurs",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le déterminant possessif \"leurs\" et le pronom personnel complément \"leur\". \"Leur\" est ici complément d'objet indirect du verbe \"proposent\" et est invariable.",
+        "suggestions": [
+          "leur"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur classique de confusion entre le déterminant possessif (variable) et le pronom COI (invariable). Ici, c'est le pronom qui est requis.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.20",
+        "text": "vendus",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé \"vendu\", employé comme adjectif, doit s'accorder en genre et en nombre avec le nom qu'il qualifie, \"denrées\" (féminin pluriel).",
+        "suggestions": [
+          "vendues"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du participe passé employé comme adjectif. \"Vendues\" doit s'accorder avec \"denrées\" (féminin pluriel).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.21",
+        "text": "ils",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom de reprise \"ils\" doit s'accorder en genre et en nombre avec son antécédent \"nos habitudes alimentaires\" (féminin pluriel). La forme correcte est \"elles\".",
+        "suggestions": [
+          "elles"
+        ],
+        "ruleApplied": "5.3.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord pronom-antécédent. \"Habitudes\" est féminin pluriel, donc le pronom doit être \"elles\".",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 7,
+      "note": "C"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 19,
+      "note": "D"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 30,
+      "vraisErreurs": 26,
+      "discutables": 2,
+      "fauxPositifs": 2
+    }
+  },
+  "startTimestamp": "2025-12-12T11:44:05.870Z",
+  "endTimestamp": "2025-12-12T11:45:31.389Z",
+  "durationMs": 85519,
+  "durationFormatted": "01:25:519"
+}

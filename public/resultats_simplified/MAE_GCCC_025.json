@@ -1,0 +1,259 @@
+{
+  "processedAt": "2025-12-10T14:15:05.178Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_025.txt",
+    "originalText": "Du garde-manger à la poubelle\r\n\r\nLe soir, en allant porter les poubelles à l'extérieur, j'entends une voix. Une petite voix qui parle, qui crie, qui hurle. C'est la voix de toute cette nourriture, tous ces fruits, tous ces légumes qui auraient pu être consommés, mais qui, malheureusement, se retrouvent dans mon grand sac noir. On gaspille quotidiennement tant d'aliments que s'en est devenue une normalité, une habitude. Sommes-nous prêts à lutter contre le gaspillage alimentaire? La réponse est bien malheureuse, mais non. Notre système de production incompatible avec une alimentation verte ainsi que nos habitudes de consommations trop bien ancrées enchaînent notre future et nous condamne à l'avance.\r\n\r\nDans notre sang\r\n\r\nUne pomme bossée. Une laitue un peu terreuse. Une banane difforme. Vous est-il déjà arrivé de laisser un produit dans le fond du bacs parce qu'il n'était pas parfait? Une grande part du gaspillage alimentaire est causé par ces petits mal aimés. Malheureusement, c'est la poubelle qui les attend… Les agriculteurs n'osent même plus vendre ces «vilains petits canards» aux épiceries, sachant pertinemment que ces derniers ne veulent pas d'un fruit qui ne rapporte rien. Les normes esthétiques des aliments sont une barrière, un mur, un gouffre entre nous et notre espoir d'un avenir meilleur. Ces normes sont intégrées à notre société, incrustées dans notre personne, dans nos gênes et transmises de générations en générations telles une maladie incurable. Malheureusement, je crois que le remède à cette maladie est encore inconnu. Encore pire, pour se débarrasser de leurs citrons, les producteurs doivent déployer leurs propres ressources. Les organismes n'ont même pas l'envergure nécessaire pour aller chercher les vivres qui ne correspondent pas aux dites normes. Comment voulons-nous avancer dans notre quête contre le gaspillage si même les organismes qui décident d'y dévouer corps et âmes n'obtiennent pas les ressources pour le faire? Nous affrontons un monstre avec une brindille en espérant le faire fuir…\r\n\r\nConsommation rime avec exagération\r\n\r\nChaque semaine, me promener à travers les allées du Costco me rend fou. Un paquet de 20 cuisses de poulets, des briques de fromages assez grosses pour deux familles complètes ou bien des chaudières pleines de mayonnaise! On nous propose des quantités démesurées de produits périssables que l'on n'aurait probablement jamais achetés. Deux pour le prix d'un! Trois morceaux et le quatrième est gratuit! Ces dictons vous sont familier? Et bien, selon Recyc-Québec, les familles canadiennes gaspillent 2,2 millions de tonnes d'aliments chaque année (1). Des océans de denrées consommables jetés par les fenêtres! Imaginez les bouches que nous pourrions nourrir. Ce genre d'habitudes ne changent pas du jour au lendemain. De plus, nous sommes, en tant que consommateurs, nourris de publicités comme des animaux de fermes. Levez les yeux et je vous parie que vous en trouverez une en moins de cinq minutes. Qu'on le veuille ou non, tout le monde est touché par leur omniprésence. Croyez-vous vraiment que cette publicité disparaîtra en un clin d'œil? Que des chaînes comme Costco décideront de renoncer à leurs chiffres d'affaires indécents? Quand les poules auront des dents! D'ici là, aucune avancée majeure ne pourra être faite.\r\n\r\nFinalement, nous sommes malheureusement en train de perdre cette guerre contre le gaspillage alimentaire. Notre système de production ne peut s'adapter à temps et nos habitudes de consommations laissent trop de place aux pertes. Ces manières de faire trop bien ancrées dans notre quotidien ne laissent malheureusement pas de place au changement soudain.\r\n\r\n1 RECYC-QUÉBEC, «Gaspillage alimentaire», 7 juin 2021.",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "s'en est devenue",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction 's'en est' est incorrecte pour 'c'est'. Le pronom 'en' est superflu. De plus, le participe passé s'accorde avec le sujet 'c'' (cela), qui est masculin neuter, et non avec l'attribut 'normalité'.",
+        "suggestions": [
+          "c'est devenu"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "id": "erreur4.2",
+        "text": "attend…",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Les points de suspension sont employés à tort. Un point final est requis pour clore cette phrase déclarative.",
+        "suggestions": [
+          "attend."
+        ],
+        "ruleApplied": "4.2.2.4.2"
+      },
+      {
+        "id": "erreur4.3",
+        "text": "fuir…",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Les points de suspension sont employés à tort. Un point final est requis pour clore cette phrase déclarative.",
+        "suggestions": [
+          "fuir."
+        ],
+        "ruleApplied": "4.2.2.4.2"
+      },
+      {
+        "id": "erreur4.4",
+        "text": "leur",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le déterminant possessif doit s'accorder avec l'antécédent 'tout le monde', qui est un singulier. Il s'agit d'une syllepse non admise.",
+        "suggestions": [
+          "son"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 3,
+      "note": "A"
+    },
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "consommations",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'consommation', employé comme complément du nom 'habitudes', doit être au singulier pour désigner le concept général.",
+        "suggestions": [
+          "consommation"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.2",
+        "text": "future",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion entre le nom masculin 'futur' (l'avenir) et l'adjectif féminin 'future'.",
+        "suggestions": [
+          "futur"
+        ],
+        "ruleApplied": "5.2.2"
+      },
+      {
+        "id": "erreur5.3",
+        "text": "condamne",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder au pluriel avec le sujet composé 'Notre système de production [...] ainsi que nos habitudes de consommation [...]'.",
+        "suggestions": [
+          "condamnent"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.4",
+        "text": "bacs",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'bac' doit être au singulier, car il est précédé de l'article contracté 'du' (de le).",
+        "suggestions": [
+          "bac"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.5",
+        "text": "causé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'causé', employé avec l'auxiliaire 'être', doit s'accorder en genre avec le sujet féminin 'Une grande part'.",
+        "suggestions": [
+          "causée"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "id": "erreur5.6",
+        "text": "mal aimés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot composé 'mal-aimé' requiert un trait d'union.",
+        "suggestions": [
+          "mal-aimés"
+        ],
+        "ruleApplied": "5.2.1.7.1"
+      },
+      {
+        "id": "erreur5.7",
+        "text": "générations en générations",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'expression figée est 'de génération en génération'. Les noms restent au singulier.",
+        "suggestions": [
+          "génération en génération"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.8",
+        "text": "âmes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'expression figée est 'corps et âme'. Le nom 'âme' reste au singulier.",
+        "suggestions": [
+          "âme"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.9",
+        "text": "poulets",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'poulet', employé comme complément du nom 'cuisses', doit être au singulier pour désigner l'animal en général.",
+        "suggestions": [
+          "poulet"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.10",
+        "text": "fromages",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'fromage', employé comme complément du nom 'briques', doit être au singulier pour désigner la matière en général.",
+        "suggestions": [
+          "fromage"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.11",
+        "text": "familier",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif attribut 'familier' doit s'accorder au pluriel avec le sujet 'Ces dictons'.",
+        "suggestions": [
+          "familiers"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.12",
+        "text": "Et bien",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion entre la conjonction 'et' suivie de l'adverbe 'bien', et l'interjection 'eh bien'.",
+        "suggestions": [
+          "Eh bien"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "id": "erreur5.13",
+        "text": "fermes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'ferme', employé comme complément du nom 'animaux', doit être au singulier pour désigner le lieu en général.",
+        "suggestions": [
+          "ferme"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.14",
+        "text": "telles",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « tel » s'accorde ici avec le nom qui suit, « une maladie », qui est féminin singulier.",
+        "suggestions": [
+          "telle"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.15",
+        "text": "changent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe « changer » s'accorde avec le sujet « Ce genre », qui est masculin singulier. L'accord se fait avec le noyau du groupe sujet.",
+        "suggestions": [
+          "change"
+        ],
+        "ruleApplied": "5.3.2.2"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 15,
+      "note": "D"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:10:54.980Z",
+    "endTimestamp": "2025-12-10T14:15:05.178Z",
+    "durationMs": 250198,
+    "durationFormatted": "04:10:198"
+  }
+}

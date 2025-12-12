@@ -1,0 +1,427 @@
+{
+  "processedAt": "2025-12-10T14:30:11.914Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_054.txt",
+    "originalText": "Le gaspillage alimentaire doit s'arrêter maintenant !\r\n\r\nChers lecteurs,Pendant les deux dernières décennies, nous avons produit et consommé des billions de tonnes d'aliments. Par contre, une grande quantité de nourriture sont fait gaspiller. Cela nous amène a nous questionner si nous sommes prêts à lutter contre le gaspillage alimentaire. Une grande partie de la population sont en accord et je me trouve dans cette population. Lorsqu'on jete de la nourriture, non seulement nous gaspillons de l'argent mais, nous contribuons aussi aux changements climatiques.\r\n\r\nTout d'abord, chers internautes, on doit arrêter le gaspillage alimentaire pour sauver de l'argent. Chaque jour, nous dépensons trop sur des produits alimentaires qui iront dans la poubelle dans quelques jours. Pourmoi nous achetons de la nourriture qu'on n'a pas besoin ? Selon une étude de l'Organisation des Nations unies (ONU), ils précisent que : «environ 931 millions de tonnes de nourriture ont été gaspillées dans le monde en 2019.» (Shields, 2021). De plus, selon une étude du Conseil national zéro déchet, ils dissent que chaque année, les familles canadiennes gaspillent environ deux millions de tonnes d'aliments ce qui correspond à environ 17 milliards de dollars (RECYC-QUÉBEC, 2021). En résumé, chers lecteurs, au lieu de jeter nos produits alimentaires, on peut congeler les restes pour consommer le lendemain pour qu'on puisse économiser de l'argent.\r\n\r\nPour continuer, chers publics, traitons l'environnement. À cause de notre irresponsabilité,notre Terre est en danger. Le gaspillage entraîne des conséquences importantes sur l'environnement. Dans l'infographie intitulé «Le gaspillage alimentaire», il explique que : «l'enfouissement et l'incinération des aliments non consommes contribuent aux changements climatiques en raison des gaz à effet de serre qu'ils produisent.» (RECYC-QUÉBEC, 2021). Par ailleurs, à cause du changement climatique, cela entraîne des mauvaises conditions météorologiques ce qui affectent la taille et la forme des légumes et ils seront difficiles à vendre (Cameron, 2020). En bref, cher lectorat, nous devons prendre la responsabilité d'arrêter de jeter de la nourriture pour sauver notre planète. On doit s’avoir comment utiliser le bac à compostage pour lutter contre la pollution.\r\n\r\nEn guise de conclusion, chers lectrices et lecteurs, le gaspillage allimentaire doit s'arrêter maintenant. Si on arrête de jetée de la nourriture, nous économisons de l'argent mais, nous sauvons aussi notre planète. C'est pourquoi en tant que citoyens canadiens, on doit avoir la gratitude d'avoir l'accès à la nourriture parce que, beaucoup de personnes ailleurs dans le monde n'ont pas la capacité de se nourrir. On veut tous vivre dans un monde avec l'égalité et sans problèmes donc, avant de jeter votre nourriture, pensez aux enfants qui n'ont pas encore manger.",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "mais,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "La virgule est mal placée. Dans la structure « non seulement... mais... », la virgule, si elle est utilisée, précède la conjonction « mais » et ne la suit pas.",
+        "suggestions": [
+          "mais"
+        ],
+        "ruleApplied": "4.2.1.5"
+      },
+      {
+        "id": "erreur4.2",
+        "text": "ils",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de reprise pronominale. Le pronom « ils » ne peut pas reprendre « une étude » (féminin singulier). Il faut utiliser « elle ».",
+        "suggestions": [
+          "elle"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "id": "erreur4.3",
+        "text": "ils",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de reprise pronominale. Le pronom « ils » ne peut pas reprendre « une étude » (féminin singulier). Il faut utiliser « elle ».",
+        "suggestions": [
+          "elle"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "id": "erreur4.4",
+        "text": "il",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de reprise pronominale. Le pronom « il » ne peut pas reprendre « l'infographie » (féminin singulier). Il faut utiliser « elle ».",
+        "suggestions": [
+          "elle"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "id": "erreur4.5",
+        "text": "s’avoir",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction de phrase boiteuse. La forme correcte est le verbe « savoir ». La forme pronominale « s'avoir » n'existe pas dans ce contexte.",
+        "suggestions": [
+          "savoir"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "id": "erreur4.6",
+        "text": "parce que,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Présence erronée d'une virgule. On ne met pas de virgule entre la conjonction « parce que » et la suite de la phrase.",
+        "suggestions": [
+          "parce que"
+        ],
+        "ruleApplied": "4.2.2.10.2.j"
+      },
+      {
+        "id": "erreur4.7",
+        "text": "sont fait gaspiller",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction de phrase boiteuse. La forme passive correcte du verbe « gaspiller » est « est gaspillée ». Le sujet « une grande quantité de nourriture » (noyau « quantité ») est au singulier.",
+        "suggestions": [
+          "est gaspillée"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "id": "erreur4.8",
+        "text": "Pourmoi",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "La locution « Pour moi » en tête de phrase doit être suivie d'une virgule pour l'isoler.",
+        "suggestions": [
+          "Pour moi,"
+        ],
+        "ruleApplied": "4.2.2.10.1.n"
+      },
+      {
+        "id": "erreur4.9",
+        "text": "qu'on n'a pas besoin",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur dans l'emploi du pronom relatif. La locution verbale est « avoir besoin de quelque chose ». Le pronom relatif correct pour remplacer le complément introduit par « de » est « dont ».",
+        "suggestions": [
+          "dont on n'a pas besoin"
+        ],
+        "ruleApplied": "4.1.2.3.1"
+      },
+      {
+        "id": "erreur4.10",
+        "text": "?",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Présence erronée du point d'interrogation. Cette phrase est une affirmation et non une question directe. Elle doit se terminer par un point.",
+        "suggestions": [
+          "."
+        ],
+        "ruleApplied": "4.2.2.2.2"
+      },
+      {
+        "id": "erreur4.11",
+        "text": "aliments ce",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule avant le pronom relatif « ce qui » lorsqu'il introduit une proposition explicative qui commente l'ensemble de la proposition précédente.",
+        "suggestions": [
+          "aliments, ce"
+        ],
+        "ruleApplied": "4.2.2.10.1.g"
+      },
+      {
+        "id": "erreur4.12",
+        "text": "donc,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "La virgule est mal placée. Elle devrait précéder la conjonction « donc » pour marquer la conséquence, et non la suivre.",
+        "suggestions": [
+          "donc"
+        ],
+        "ruleApplied": "4.2.2.10.2.h"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 9,
+      "note": "B"
+    },
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "sont",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec le noyau du groupe sujet « une grande quantité de nourriture », qui est « quantité » (féminin singulier, 3e personne).",
+        "suggestions": [
+          "est"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.2",
+        "text": "gaspiller",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif en « -er » et le participe passé en « -é ». Après l'auxiliaire « être », il faut utiliser le participe passé qui s'accorde avec le sujet « quantité » (féminin singulier).",
+        "suggestions": [
+          "gaspillée"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "id": "erreur5.3",
+        "text": "a",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'auxiliaire « a » (verbe avoir) et la préposition « à ».",
+        "suggestions": [
+          "à"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "id": "erreur5.4",
+        "text": "sont",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec le noyau du groupe sujet « Une grande partie de la population », qui est « partie » (féminin singulier, 3e personne).",
+        "suggestions": [
+          "est"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.5",
+        "text": "jete",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le verbe « jeter » prend deux « t » devant un « e » muet à certaines personnes, comme la 3e personne du singulier du présent de l'indicatif.",
+        "suggestions": [
+          "jette"
+        ],
+        "ruleApplied": "5.2.1.6"
+      },
+      {
+        "id": "erreur5.6",
+        "text": "Pourmoi",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Barbarisme orthographique. Les mots « Pour » et « moi » doivent être séparés. Il est probable que le mot attendu soit « Pourquoi » pour former une question, ce qui correspondrait au point d'interrogation final.",
+        "suggestions": [
+          "Pourquoi"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "id": "erreur5.7",
+        "text": "«environ",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Une citation qui constitue une phrase complète et qui est introduite par un deux-points doit commencer par une majuscule.",
+        "suggestions": [
+          "«Environ"
+        ],
+        "ruleApplied": "5.3.6.3"
+      },
+      {
+        "id": "erreur5.8",
+        "text": "dissent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Barbarisme de conjugaison. La forme correcte du verbe « dire » à la troisième personne du pluriel du présent de l'indicatif est « disent ».",
+        "suggestions": [
+          "disent"
+        ],
+        "ruleApplied": "5.3.2.1"
+      },
+      {
+        "id": "erreur5.9",
+        "text": "publics",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'expression consacrée pour s'adresser à un auditoire est « cher public », au singulier.",
+        "suggestions": [
+          "public"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.10",
+        "text": "intitulé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé employé comme adjectif doit s'accorder en genre et en nombre avec le nom qu'il qualifie, ici « infographie » (féminin singulier).",
+        "suggestions": [
+          "intitulée"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "id": "erreur5.11",
+        "text": "«l'enfouissement",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Une citation qui constitue une phrase complète et qui est introduite par un deux-points doit commencer par une majuscule.",
+        "suggestions": [
+          "«L'enfouissement"
+        ],
+        "ruleApplied": "5.3.6.3"
+      },
+      {
+        "id": "erreur5.12",
+        "text": "consommes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé employé comme adjectif doit s'accorder en genre et en nombre avec le nom qu'il qualifie, ici « aliments » (masculin pluriel).",
+        "suggestions": [
+          "consommés"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "id": "erreur5.13",
+        "text": "des mauvaises",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'article indéfini pluriel « des » devient « de » (ou « d' ») lorsqu'il est placé devant un adjectif qui précède le nom.",
+        "suggestions": [
+          "de mauvaises"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.14",
+        "text": "affectent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec son sujet « ce qui », pronom relatif qui a pour antécédent la proposition précédente et qui commande l'accord au singulier.",
+        "suggestions": [
+          "affecte"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.15",
+        "text": "chers lectrices",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif doit s'accorder en genre avec le nom qu'il qualifie. Devant « lectrices » (féminin pluriel), il faut utiliser « chères ».",
+        "suggestions": [
+          "chères lectrices"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.16",
+        "text": "allimentaire",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage sur le mot « alimentaire ».",
+        "suggestions": [
+          "alimentaire"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "id": "erreur5.17",
+        "text": "jetée",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le participe passé en « -ée » et l'infinitif en « -er ». Après la préposition « de », le verbe doit être à l'infinitif.",
+        "suggestions": [
+          "jeter"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "id": "erreur5.18",
+        "text": "manger",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif en « -er » et le participe passé en « -é ». Avec l'auxiliaire « avoir » dans « n'ont pas encore », il faut utiliser le participe passé.",
+        "suggestions": [
+          "mangé"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "id": "erreur5.19",
+        "text": "ils",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom « ils » reprend « une étude », qui est un groupe nominal féminin singulier. Le pronom de reprise doit être « elle ».",
+        "suggestions": [
+          "elle"
+        ],
+        "ruleApplied": "5.3.1.4"
+      },
+      {
+        "id": "erreur5.20",
+        "text": "ils",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom « ils » reprend « une étude », qui est un groupe nominal féminin singulier. Le pronom de reprise doit être « elle ».",
+        "suggestions": [
+          "elle"
+        ],
+        "ruleApplied": "5.3.1.4"
+      },
+      {
+        "id": "erreur5.21",
+        "text": "il",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom « il » reprend « l'infographie », qui est un nom féminin. Le pronom de reprise doit être « elle ».",
+        "suggestions": [
+          "elle"
+        ],
+        "ruleApplied": "5.3.1.4"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 21,
+      "note": "E"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:25:16.180Z",
+    "endTimestamp": "2025-12-10T14:30:11.914Z",
+    "durationMs": 295734,
+    "durationFormatted": "04:55:734"
+  }
+}

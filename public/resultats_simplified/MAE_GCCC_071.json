@@ -1,0 +1,571 @@
+{
+  "processedAt": "2025-12-10T14:38:37.756Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_071.txt",
+    "originalText": "AH quelle odeur !\r\n\r\nCher auditoire,\r\n\r\nComme vous le savez déjà, l'être humain à besoin d'aux moins 2 à 3 repas par jour pour être en forme et en santé, mais certain d'entre nous ont tendance à trop consommés. Face à cette réalité horrible, nous nous demandons maintenant si nous sommes prêts à lutter contre le gaspillage alimentaire. Pour ma part, je ne pense pas que les gens sont prêts à lutter contre le gaspillage alimentaire pour de nombreuse raison telle que les conséquences alimentaires sur l'environnement et l'incapacité de conserver à la maison.\r\n\r\nPremièrement, chers lecteurs et lectrices, abordons l'aspect environnemental. Le monde entier n'est pas encore prêts à combattre le gaspillage alimentaire puisqu'il nuit à l'environnement. En fait, l'être humain n'est pas responsable pour les actions négatifs qu'ils ont sur l'environnement. Eh Bien! Si nous continuons de cette façon à l'avenir les conséquences seraient encore plus graves. Selon l'article « le gaspillage alimentaire », «Les conséquences du gaspillage alimentaire sur l'environnement sont importantes. En plus d'occassionner une utilisation inadéquate de nos ressources [...], l'enfouissement et l'incinération des aliments non consommés contribuent aux changements climatiques en raison des gaz à effet de serre qu'ils produisent». (RECYC-QUEBEC,2021). En outre, en 2019, 47% des consommations correspond aux gaspillage alimentaire, affirme (Table québecoise sur la saine alimentation, 2019). Bref, comme vous le constatez, nous sommes pas prêts\r\n\r\nà lutter contre le gaspillage de la nourriture, car personne d'entre nous est entrain d'utilisé notre voie!\r\n\r\nDeuxièmement, cher public, parlons nous ensuite de l'incapacité de conserver chez soi. Les individus n'ont pas la puissance pour vaincre le gaspillage alimentaire, en raison de l'incapacité de conserver à la maison. En effet, plusieurs d'entre nous consommes presque tout les alimentations qui se trouve chez soi. Aimeriez-vous vraiment que votre réfrigérateur soi vide? Mais non, c'est du gaspillage! Selon Florence-Léa Siry, experte en lutte contre le gaspillage alimentaire, «50% de gaspillage alimentaire pourrait être évité a la maison si les consommateurs apprenaient à mieux conserver les aliments». (Corriveau, 2020). Bien plus, comme le dit Mike von Massow, coauteur d'une étude sur le gaspillage alimentaire dans les maisons, «l'une des informations les moins biens comprises par les consommateurs est la date limite de conservation qui n'a rien à voir avec la sécurité alimentaire : meilleur avant» ne signifie pas «périmé après». (Simard, 2020). Alors, cher lectorat, enlevez votre lunette rose, nous sommes toujours pas prêts tant qu'il y a aucune personne qui veut changer leurs façons de faire.\r\n\r\nEn guise de conclusion je ne pense pas que l'humanité est assez à l'aise pour mettre fin au gaspillage alimentaire, parce qu'il ne fait pas attention à l'environnement et à cause de leurs incapacité d'en consommer moin. Bref, à vous de jouer maintenant, pensez-vous qu'il y aurait encore assez de nourriture pour les futures générations? ",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "pour",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression correcte est « être responsable de quelque chose » et non « pour ». Il s'agit d'une erreur de préposition.",
+        "suggestions": [
+          "de"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "id": "erreur4.2",
+        "text": "seraient",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de concordance des temps. Dans une phrase hypothétique avec « si » + présent de l'indicatif, la proposition principale doit être au futur simple, et non au conditionnel présent.",
+        "suggestions": [
+          "seront"
+        ],
+        "ruleApplied": "4.1.2.2.3"
+      },
+      {
+        "id": "erreur4.3",
+        "text": "affirme (Table québecoise sur la saine alimentation, 2019)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est boiteuse. L'incise avec le verbe « affirme » et la source entre parenthèses rend la phrase difficile à comprendre. Il serait préférable d'intégrer la source plus clairement.",
+        "suggestions": [
+          "selon la Table québécoise sur la saine alimentation (2019)."
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "id": "erreur4.4",
+        "text": "est",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "S",
+        "description": "La forme négative avec « personne » requiert l'adverbe « ne » (élidé en « n' ») avant le verbe.",
+        "suggestions": [
+          "n'est"
+        ],
+        "ruleApplied": "4.1.2.1.3"
+      },
+      {
+        "id": "erreur4.5",
+        "text": "alimentations",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Problème de sens. Le mot « alimentation » désigne l'action de se nourrir, alors que le contexte requiert le mot « aliments » pour désigner la nourriture elle-même.",
+        "suggestions": [
+          "aliments"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "id": "erreur4.6",
+        "text": "sommes toujours pas",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La forme négative requiert l'adverbe « ne » avant le verbe.",
+        "suggestions": [
+          "ne sommes toujours pas"
+        ],
+        "ruleApplied": "4.1.2.1.3"
+      },
+      {
+        "id": "erreur4.7",
+        "text": "il y a aucune",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La forme négative avec « aucun(e) » requiert l'adverbe « ne » (élidé en « n' ») avant le verbe.",
+        "suggestions": [
+          "il n'y a aucune"
+        ],
+        "ruleApplied": "4.1.2.1.3"
+      },
+      {
+        "id": "erreur4.8",
+        "text": "leurs",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de déterminant possessif. Le déterminant doit s'accorder avec le possesseur « aucune personne », qui est singulier. Le déterminant correct est « sa ».",
+        "suggestions": [
+          "sa"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "id": "erreur4.9",
+        "text": "conclusion je",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule est requise après un complément de phrase ou un organisateur textuel placé en tête de phrase.",
+        "suggestions": [
+          "conclusion, je"
+        ],
+        "ruleApplied": "4.2.2.10.1.b"
+      },
+      {
+        "id": "erreur4.10",
+        "text": "qu'ils ont",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Le pronom « ils » et le verbe « ont » doivent s'accorder avec l'antécédent « l'être humain » (3e personne du singulier). Une erreur de syntaxe a déjà été comptée dans cette phrase.",
+        "suggestions": [
+          "qu'il a"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "id": "erreur4.11",
+        "text": ":",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le deux-points est mal employé ici. Il ne introduit ni une citation, ni une énumération, ni une explication. Une virgule serait plus appropriée pour séparer la proposition principale de l'apposition.",
+        "suggestions": [
+          ","
+        ],
+        "ruleApplied": "4.2.2.7.2"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 9,
+      "note": "B"
+    },
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "AH",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'interjection « ah » s'écrit avec une minuscule initiale, sauf en début de phrase où elle prend la majuscule comme tout premier mot.",
+        "suggestions": [
+          "Ah"
+        ],
+        "ruleApplied": "5.2.4.1"
+      },
+      {
+        "id": "erreur5.2",
+        "text": "quelle",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Une majuscule est requise au début d'une phrase.",
+        "suggestions": [
+          "Quelle"
+        ],
+        "ruleApplied": "5.3.6.1"
+      },
+      {
+        "id": "erreur5.3",
+        "text": "à",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'homophone « a », forme du verbe avoir, et « à », la préposition. Ici, il s'agit du verbe.",
+        "suggestions": [
+          "a"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "id": "erreur5.4",
+        "text": "aux",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "La locution est « au moins ». L'utilisation de « aux » (à + les) est incorrecte ici.",
+        "suggestions": [
+          "au"
+        ],
+        "ruleApplied": "5.3.5"
+      },
+      {
+        "id": "erreur5.5",
+        "text": "certain",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom indéfini « certain » s'accorde en nombre avec le pronom « nous » qu'il représente. Il doit donc être au pluriel.",
+        "suggestions": [
+          "certains"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.6",
+        "text": "consommés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après la préposition « à », le verbe doit être à l'infinitif. Confusion entre le participe passé « consommé » et l'infinitif « consommer ».",
+        "suggestions": [
+          "consommer"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "id": "erreur5.7",
+        "text": "nombreuse",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « nombreuse » doit s'accorder en genre et en nombre avec le nom « raison » qu'il qualifie. Le nom « raison » doit être au pluriel, donc l'adjectif aussi.",
+        "suggestions": [
+          "nombreuses"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.8",
+        "text": "raison",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "Le nom « raison » doit être au pluriel car il est qualifié par « nombreuses ». L'erreur d'accord découle du même donneur que « nombreuse ».",
+        "suggestions": [
+          "raisons"
+        ],
+        "ruleApplied": "5.4.2.1"
+      },
+      {
+        "id": "erreur5.9",
+        "text": "telle que",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "La locution « telle que » doit s'accorder avec le nom auquel elle se rapporte, ici « raisons » (féminin pluriel). L'erreur d'accord découle du même donneur que « nombreuse ».",
+        "suggestions": [
+          "telles que"
+        ],
+        "ruleApplied": "5.4.2.1"
+      },
+      {
+        "id": "erreur5.10",
+        "text": "prêts",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « prêt » doit s'accorder avec son sujet « Le monde entier », qui est au masculin singulier.",
+        "suggestions": [
+          "prêt"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.11",
+        "text": "négatifs",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « négatifs » doit s'accorder en genre et en nombre avec le nom « actions », qui est au féminin pluriel.",
+        "suggestions": [
+          "négatives"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.12",
+        "text": "qu'ils",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom « ils » reprend « l'être humain », qui est un singulier. Le pronom correct est « il ».",
+        "suggestions": [
+          "qu'il"
+        ],
+        "ruleApplied": "5.3.1.4"
+      },
+      {
+        "id": "erreur5.13",
+        "text": "Bien",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Dans l'interjection « Eh bien ! », le mot « bien » ne prend pas de majuscule.",
+        "suggestions": [
+          "bien"
+        ],
+        "ruleApplied": "5.2.4.1"
+      },
+      {
+        "id": "erreur5.14",
+        "text": "le",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le premier mot d'un titre d'œuvre ou d'article prend une majuscule.",
+        "suggestions": [
+          "Le"
+        ],
+        "ruleApplied": "5.2.4.4"
+      },
+      {
+        "id": "erreur5.15",
+        "text": "occassionner",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage. Le verbe « occasionner » s'écrit avec un seul « s ».",
+        "suggestions": [
+          "occasionner"
+        ],
+        "ruleApplied": "5.2.1.6"
+      },
+      {
+        "id": "erreur5.16",
+        "text": "RECYC-QUEBEC",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe sur une dénomination. Le nom propre « Québec » requiert un accent aigu sur le premier « e ».",
+        "suggestions": [
+          "RECYC-QUÉBEC"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.17",
+        "text": "correspond",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe « correspondre » doit s'accorder avec son sujet « 47% des consommations », qui commande le pluriel.",
+        "suggestions": [
+          "correspondent"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.18",
+        "text": "québecoise",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe sur une dénomination. L'adjectif « québécoise » requiert un accent aigu sur le premier « e ».",
+        "suggestions": [
+          "québécoise"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.19",
+        "text": "entrain",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Barbarisme orthographique. La locution correcte est « en train ».",
+        "suggestions": [
+          "en train"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "id": "erreur5.20",
+        "text": "utilisé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après la préposition « de » (élidée en « d' »), le verbe doit être à l'infinitif. Confusion entre le participe passé « utilisé » et l'infinitif « utiliser ».",
+        "suggestions": [
+          "utiliser"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "id": "erreur5.21",
+        "text": "voie",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion entre les homophones lexicaux « voie » (chemin) et « voix » (son produit par les cordes vocales). Le contexte requiert « voix ».",
+        "suggestions": [
+          "voix"
+        ],
+        "ruleApplied": "5.2.2"
+      },
+      {
+        "id": "erreur5.22",
+        "text": "parlons nous",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Dans une construction interrogative ou impérative avec inversion du sujet, un trait d'union est requis entre le verbe et le pronom sujet.",
+        "suggestions": [
+          "parlons-nous"
+        ],
+        "ruleApplied": "5.2.1.10"
+      },
+      {
+        "id": "erreur5.23",
+        "text": "consommes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec son sujet « plusieurs d'entre nous », qui correspond à la troisième personne du pluriel.",
+        "suggestions": [
+          "consomment"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.24",
+        "text": "tout",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant « tout » s'accorde en genre et en nombre avec le nom qu'il détermine. Devant « les alimentations » (pluriel), il doit être « tous ».",
+        "suggestions": [
+          "tous"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.25",
+        "text": "se trouve",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe « se trouver » doit s'accorder avec son sujet, le pronom relatif « qui », dont l'antécédent est « aliments » (pluriel).",
+        "suggestions": [
+          "se trouvent"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.26",
+        "text": "soi",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion d'homophones. Après « que », le verbe « être » doit être au subjonctif présent, « soit », et non le pronom « soi ».",
+        "suggestions": [
+          "soit"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "id": "erreur5.27",
+        "text": "a",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'homophone « a », forme du verbe avoir, et « à », la préposition. Le contexte requiert la préposition.",
+        "suggestions": [
+          "à"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "id": "erreur5.28",
+        "text": "biens",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adverbe « bien » est invariable et ne prend jamais de « s ».",
+        "suggestions": [
+          "bien"
+        ],
+        "ruleApplied": "5.3.1.6"
+      },
+      {
+        "id": "erreur5.29",
+        "text": "lunette",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le mot « lunettes », lorsqu'il désigne l'objet servant à la vision, est un nom qui s'emploie généralement au pluriel.",
+        "suggestions": [
+          "lunettes"
+        ],
+        "ruleApplied": "5.3.1.3"
+      },
+      {
+        "id": "erreur5.30",
+        "text": "qu'il",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom « il » reprend « l'humanité », qui est un nom féminin. Le pronom correct est « elle ».",
+        "suggestions": [
+          "qu'elle"
+        ],
+        "ruleApplied": "5.3.1.4"
+      },
+      {
+        "id": "erreur5.31",
+        "text": "moin",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage. L'adverbe « moins » s'écrit avec un « s » final.",
+        "suggestions": [
+          "moins"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "id": "erreur5.32",
+        "text": "d'aux",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "La locution correcte est « d'au moins ». L'emploi de « d'aux » est un barbarisme orthographique.",
+        "suggestions": [
+          "d'au"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "id": "erreur5.33",
+        "text": "le",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le premier mot d'un titre d'œuvre ou d'article prend une majuscule.",
+        "suggestions": [
+          "Le"
+        ],
+        "ruleApplied": "5.2.4.4"
+      },
+      {
+        "id": "erreur5.34",
+        "text": "rose",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "L'adjectif « rose » doit s'accorder en nombre avec le nom « lunettes ». L'erreur d'accord découle du même donneur « lunettes ».",
+        "suggestions": [
+          "roses"
+        ],
+        "ruleApplied": "5.4.2.1"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 31,
+      "note": "E"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:33:11.406Z",
+    "endTimestamp": "2025-12-10T14:38:37.756Z",
+    "durationMs": 326350,
+    "durationFormatted": "05:26:350"
+  }
+}

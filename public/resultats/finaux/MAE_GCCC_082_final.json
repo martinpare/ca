@@ -1,0 +1,276 @@
+{
+  "processedAt": "2025-12-12T11:40:44.254Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_082.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_082.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": ".",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une phrase interrogative directe, introduite par 'pourquoi', doit se terminer par un point d'interrogation.",
+        "suggestions": [
+          "?"
+        ],
+        "ruleApplied": "4.2.2.2.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Phrase interrogative directe commençant par 'pourquoi' : le point d'interrogation est obligatoire selon les règles de ponctuation standard.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "serez",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'emploi du futur simple est incorrect dans ce contexte hypothétique introduit par le conditionnel 'pourriez'. Il faut utiliser le conditionnel présent pour maintenir la concordance des temps.",
+        "suggestions": [
+          "seriez"
+        ],
+        "ruleApplied": "4.1.2.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Rupture de concordance des temps dans un système hypothétique : le conditionnel 'pourriez' exige le conditionnel 'seriez' dans la subordonnée interrogative indirecte.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "comme par exemple",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression 'comme par exemple' est un pléonasme. Il faut utiliser soit 'comme', soit 'par exemple'.",
+        "suggestions": [
+          "comme",
+          "par exemple"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Pléonasme reconnu : 'comme' et 'par exemple' ont la même fonction d'exemplification et ne doivent pas être juxtaposés.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "La première est les équipements défectueux",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est boiteuse. L'attribut du sujet 'La première' (qui sous-entend 'raison') ne peut pas être le groupe nominal 'les équipements défectueux'. Il faut reformuler pour que la structure soit correcte.",
+        "suggestions": [
+          "La première est liée aux équipements défectueux",
+          "La première raison est la présence d'équipements défectueux"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Incohérence logique : le sujet elliptique 'La première [raison]' (singulier, abstrait) ne peut avoir comme attribut 'les équipements défectueux' (pluriel, concret). Rupture de construction syntaxique.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "comme par exemple",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "L'expression 'comme par exemple' est un pléonasme. Il faut utiliser soit 'comme', soit 'par exemple'.",
+        "suggestions": [
+          "comme",
+          "par exemple"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Même pléonasme que l'occurrence précédente, répétition de la même erreur dans le texte.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "Selon mes connaissances, je ne crois pas",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Pléonasme. L'expression 'Selon mes connaissances' et le verbe 'je crois' expriment tous deux une opinion personnelle. Il faut supprimer l'un des deux éléments.",
+        "suggestions": [
+          "Selon mes connaissances, nous ne sommes pas prêts",
+          "Je ne crois pas que nous sommes prêts"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Bien qu'il y ait une redondance sémantique, la construction peut être vue comme un renforcement de la modalisation (connaissances + croyance). Usage acceptable dans un texte argumentatif pour marquer la prudence de l'auteur.",
+        "counterArgument": "La combinaison 'Selon mes connaissances, je ne crois pas' peut être considérée comme un renforcement rhétorique plutôt qu'un pléonasme strict. L'auteur base sa croyance sur ses connaissances, ce qui est une nuance légitime dans un texte argumentatif. Toutefois, la formulation pourrait être allégée pour plus d'élégance stylistique."
+      },
+      {
+        "id": "erreur4.7",
+        "text": "qu'il",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom relatif 'que' est incorrect pour introduire un complément de lieu. Il faut utiliser 'où'.",
+        "suggestions": [
+          "où il"
+        ],
+        "ruleApplied": "4.1.2.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur grammaticale claire : le pronom relatif 'où' est requis pour reprendre un antécédent de lieu ('l'étape de la chaîne d'approvisionnement alimentaire'). L'emploi de 'que' est incorrect dans ce contexte.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "2019.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence du point final à la fin de la référence bibliographique. Le point fourni dans le texte est celui de la fin de la phrase précédente et non de la référence.",
+        "suggestions": [
+          "2019."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "En relisant le texte, la référence '1 Table québécoise sur la saine alimentation, 2019.' possède déjà un point final. Il n'y a pas d'erreur de ponctuation.",
+        "counterArgument": "La référence bibliographique en bas de page se termine effectivement par '2019.' avec un point. L'analyse a confondu la structure du texte : la phrase se termine avant la référence bibliographique numérotée. Aucune correction n'est nécessaire."
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "assiètte",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'accent correct est un accent aigu et le mot ne prend qu'un seul 't'.",
+        "suggestions": [
+          "assiette"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'orthographe évidente : le mot 'assiette' s'écrit avec un accent grave sur le 'e' et deux 't'. La forme 'assiètte' est incorrecte.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "récuperé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'accent aigu est manquant sur le 'e' final du participe passé 'récupéré'.",
+        "suggestions": [
+          "récupéré"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe claire : le participe passé 'récupéré' prend un accent aigu sur le deuxième 'e'. L'omission de cet accent est une erreur.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "sont",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'être' doit s'accorder avec le sujet 'Beaucoup de gaspillage alimentaire', qui est au singulier. Le nom 'gaspillage' est le noyau du groupe sujet.",
+        "suggestions": [
+          "est"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du verbe : avec 'beaucoup de' + nom singulier non comptable ('gaspillage'), l'accord se fait au singulier. Le verbe doit être 'est'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "produits",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'produit' doit s'accorder avec le sujet 'Beaucoup de gaspillage alimentaire' (donneur), qui est au masculin singulier.",
+        "suggestions": [
+          "produit"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du participe passé avec l'auxiliaire 'être' : le sujet 'Beaucoup de gaspillage alimentaire' est au singulier, donc le participe doit être 'produit'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "gaspilles",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'gaspiller' doit s'accorder avec le sujet 'la restauration et l'hôtellerie' (repris par 'eux'), qui correspond à la troisième personne du pluriel.",
+        "suggestions": [
+          "gaspillent"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du verbe : le sujet composé 'la restauration et l'hôtellerie' est au pluriel, le verbe doit être 'gaspillent'. La forme 'gaspilles' (2e personne du singulier) est incorrecte.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "devront",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'devoir' doit s'accorder avec le sujet 'la vente de nourriture publique', dont le noyau 'vente' est à la troisième personne du singulier.",
+        "suggestions": [
+          "devra"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Le noyau du sujet est effectivement 'vente' (singulier), mais le complément énumère trois entités ('les épiceries, les restaurants et les hôtels') qui peuvent justifier un accord au pluriel par syllepse sémantique.",
+        "counterArgument": "Bien que le noyau syntaxique soit 'la vente' (singulier), le contexte sémantique réfère clairement aux trois types d'établissements mentionnés précédemment ('les épiceries, les restaurants et les hôtels'). L'accord au pluriel peut être justifié par une syllepse grammaticale où l'auteur pense aux acteurs multiples plutôt qu'au concept abstrait de 'vente'. Cette construction est acceptable en français courant."
+      },
+      {
+        "id": "erreur5.7",
+        "text": "sont",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "(G)",
+        "description": "Erreur d'accord du verbe. Le sujet 'Beaucoup de gaspillage alimentaire' est au singulier.",
+        "suggestions": [
+          "est"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de la même erreur d'accord (erreur5.3) : avec 'beaucoup de' + nom singulier, l'accord se fait au singulier.",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 6,
+      "note": "C"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 6,
+      "note": "C"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 15,
+      "vraisErreurs": 12,
+      "discutables": 2,
+      "fauxPositifs": 1
+    }
+  },
+  "startTimestamp": "2025-12-12T11:39:58.826Z",
+  "endTimestamp": "2025-12-12T11:40:44.254Z",
+  "durationMs": 45428,
+  "durationFormatted": "00:45:428"
+}

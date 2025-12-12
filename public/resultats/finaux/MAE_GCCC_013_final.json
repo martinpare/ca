@@ -1,0 +1,580 @@
+{
+  "processedAt": "2025-12-12T11:36:22.238Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_013.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_013.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "<<",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Les guillemets français à utiliser sont les guillemets typographiques (« ») et non les chevrons doubles (<< >>). La paire de guillemets incorrecte compte pour une seule erreur de ponctuation.",
+        "suggestions": [
+          "«"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur typographique claire. Les guillemets français standard sont « » avec espaces insécables, pas << >>.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "<<",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "P",
+        "description": "Les guillemets français à utiliser sont les guillemets typographiques (« ») et non les chevrons doubles (<< >>). La paire de guillemets incorrecte compte pour une seule erreur de ponctuation.",
+        "suggestions": [
+          "«"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de l'erreur typographique sur les guillemets.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "est vite répondue",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe \"répondre\" est transitif indirect (on répond à une question). La construction à la voix passive \"la question est répondue\" est donc incorrecte.",
+        "suggestions": [
+          "trouve vite sa réponse",
+          "reçoit vite une réponse affirmative"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction syntaxique incorrecte. Le verbe répondre ne peut pas être utilisé directement au passif avec un COD.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "Voilà pourquoi,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il ne faut pas mettre de virgule après la locution \"Voilà pourquoi\" lorsqu'elle introduit directement une proposition.",
+        "suggestions": [
+          "Voilà pourquoi"
+        ],
+        "ruleApplied": "4.2.2.10.2.f",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle de ponctuation claire : pas de virgule après une locution conjonctive qui introduit directement la proposition.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "<<",
+        "occurenceIndex": 2,
+        "criteria": 4,
+        "type": "P",
+        "description": "Les guillemets français à utiliser sont les guillemets typographiques (« ») et non les chevrons doubles (<< >>). La paire de guillemets incorrecte compte pour une seule erreur de ponctuation.",
+        "suggestions": [
+          "«"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de l'erreur typographique sur les guillemets.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "Puisque nous savons que 47% des déchets alimentaires proviennent directement de la consommation (3).",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Une proposition subordonnée introduite par \"Puisque\" ne peut pas former une phrase complète seule. Elle doit être rattachée à une proposition principale ou la phrase doit être reformulée.",
+        "suggestions": [
+          "Il faut savoir que 47 % des déchets alimentaires proviennent directement de la consommation (3)."
+        ],
+        "ruleApplied": "4.1.2.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Phrase subordonnée isolée sans principale. C'est une phrase grammaticalement incomplète.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "Et oui,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction \"Et oui\" est un calque de l'oral. Il est préférable d'utiliser une formulation plus formelle comme \"En effet\" ou l'interjection correcte \"Eh oui\".",
+        "suggestions": [
+          "Eh oui,",
+          "En effet,"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion orthographique entre la conjonction 'et' et l'interjection 'eh'. L'orthographe correcte de l'interjection est 'eh'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "malgré cela la",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule est nécessaire après la locution \"malgré cela\" pour la détacher du reste de la phrase.",
+        "suggestions": [
+          "malgré cela, la"
+        ],
+        "ruleApplied": "4.2.2.10.1.k",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle de ponctuation standard : les compléments de phrase en début de phrase doivent être suivis d'une virgule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "aider avec",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction \"aider avec\" est un calque de l'anglais (\"to help with\"). En français, la préposition correcte est \"à\" (\"aider à\") ou la phrase doit être reformulée.",
+        "suggestions": [
+          "aider à résoudre",
+          "contribuer à"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Calque de l'anglais évident. Le verbe 'aider' se construit avec 'à' en français, pas 'avec'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.10",
+        "text": "jamais, usage",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il ne faut pas insérer de virgule entre le verbe (\"font\") et son complément d'objet direct (\"usage\"), même s'ils sont séparés par une locution adverbiale.",
+        "suggestions": [
+          "jamais usage"
+        ],
+        "ruleApplied": "4.2.2.10.2.d",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle fondamentale de ponctuation : on ne sépare jamais le verbe de son complément d'objet direct par une virgule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.11",
+        "text": "Voyez,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'emploi de l'impératif \"Voyez\" en début de phrase est une marque d'oralité. Il est préférable de l'omettre ou de le remplacer par un organisateur textuel.",
+        "suggestions": [
+          "En effet,",
+          "Ainsi,"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Procédé rhétorique accepté dans un texte argumentatif qui interpelle le lecteur. Marque d'oralité, mais cohérente avec le ton engagé du texte.",
+        "counterArgument": "L'utilisation de l'impératif 'Voyez' est un procédé rhétorique d'interpellation du lecteur, fréquent dans les textes argumentatifs et persuasifs. Bien qu'il marque une certaine oralité, il reste grammaticalement correct et stylistiquement approprié dans un texte qui cherche à convaincre. Ce n'est pas une erreur syntaxique mais un choix stylistique cohérent avec le ton engagé de la conclusion."
+      },
+      {
+        "id": "erreur4.12",
+        "text": "2021)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une référence bibliographique doit se terminer par un point final.",
+        "suggestions": [
+          "2021)."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Norme bibliographique claire : toute référence se termine par un point.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.13",
+        "text": "2020)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une référence bibliographique doit se terminer par un point final.",
+        "suggestions": [
+          "2020)."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de l'erreur de ponctuation sur les références bibliographiques.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.14",
+        "text": "2019)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une référence bibliographique doit se terminer par un point final.",
+        "suggestions": [
+          "2019)."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de l'erreur de ponctuation sur les références bibliographiques.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.15",
+        "text": "2021)",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une référence bibliographique doit se terminer par un point final.",
+        "suggestions": [
+          "2021)."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de l'erreur de ponctuation sur les références bibliographiques.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.16",
+        "text": "rappelés",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction passive « nous sommes rappelés de » est une construction boiteuse. Il faut utiliser une tournure active comme « on nous rappelle » ou une tournure impersonnelle « il nous est rappelé ».",
+        "suggestions": [
+          "on nous rappelle"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction syntaxique incorrecte. Le verbe 'rappeler' dans ce sens se construit différemment au passif.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.17",
+        "text": "<< Pourquoi ?>>",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Les guillemets français sont « et » (avec des espaces insécables). Les chevrons doubles sans espace sont incorrects.",
+        "suggestions": [
+          "« Pourquoi ? »"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur typographique sur les guillemets et les espaces insécables.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.18",
+        "text": "<<Comment ?>>",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Les guillemets français sont « et » (avec des espaces insécables). Les chevrons doubles sans espace sont incorrects.",
+        "suggestions": [
+          "« Comment ? »"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de l'erreur typographique sur les guillemets.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.19",
+        "text": "Puisque chaque pomme ou cerise jetée représente une perte de revenus pour celui-ci.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase est une subordonnée de cause introduite par « Puisque » qui n'est pas rattachée à une phrase principale (matrice).",
+        "suggestions": [
+          "Cette situation s'explique par le fait que chaque pomme ou cerise jetée représente une perte de revenus pour celui-ci."
+        ],
+        "ruleApplied": "4.1.2.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Phrase subordonnée isolée sans principale. Structure grammaticalement incomplète.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.20",
+        "text": "argent",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque le point final à la fin de cette phrase.",
+        "suggestions": [
+          "argent."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Ponctuation finale manquante. Erreur évidente.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.21",
+        "text": "<<Toutefois, quand il est à l'épicerie, le même client veut un produit parfait (ex.:des pommes sans meurtrissure).>>",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Les guillemets français sont « et » (avec des espaces insécables). Les chevrons doubles sans espace sont incorrects.",
+        "suggestions": [
+          "« Toutefois, quand il est à l'épicerie, le même client veut un produit parfait (ex. : des pommes sans meurtrissure). »"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Multiple erreurs : guillemets incorrects, espace manquante après 'ex.', espace manquante avant les deux-points.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.22",
+        "text": "il ne suffit que de",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction restrictive « ne... que » est mal employée ici. Il faut utiliser « il suffit de ».",
+        "suggestions": [
+          "il suffit de"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction syntaxique incorrecte. L'expression figée est 'il suffit de', la négation restrictive crée une tournure fautive.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "l'avant plan",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le nom composé \"avant-plan\" s'écrit avec un trait d'union.",
+        "suggestions": [
+          "l'avant-plan"
+        ],
+        "ruleApplied": "5.2.1.7.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur orthographique claire. L'expression 'avant-plan' prend toujours un trait d'union.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "le trie",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le verbe \"trie\" (conjugué) et le nom masculin \"tri\". Le déterminant \"le\" indique qu'il faut utiliser le nom.",
+        "suggestions": [
+          "le tri"
+        ],
+        "ruleApplied": "5.3.3.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion grammaticale évidente entre verbe et nom. Le contexte exige le nom 'tri'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "affaire",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Dans l'expression \"modèle d'affaires\", le complément du nom \"affaires\" doit être au pluriel.",
+        "suggestions": [
+          "affaires"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Expression figée en français : 'modèle d'affaires' prend toujours un 's' (calque de l'anglais 'business model').",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "l'internet",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot \"Internet\" est considéré comme un nom propre et doit commencer par une majuscule.",
+        "suggestions": [
+          "l'Internet"
+        ],
+        "ruleApplied": "5.2.4.1.2",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "L'OQLF accepte les deux graphies : 'Internet' (nom propre) et 'internet' (nom commun lexicalisé). L'usage moderne tend vers la minuscule.",
+        "counterArgument": "L'OQLF reconnaît aujourd'hui les deux graphies : 'Internet' avec majuscule (considéré comme nom propre) et 'internet' avec minuscule (lexicalisé comme nom commun). L'usage moderne, notamment depuis 2016, tend largement vers la minuscule pour marquer la banalisation du terme. Les deux formes sont acceptables en français québécois contemporain."
+      },
+      {
+        "id": "erreur5.5",
+        "text": "l'internet",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Le mot \"Internet\" est considéré comme un nom propre et doit commencer par une majuscule. Il s'agit d'une répétition de la même erreur d'usage.",
+        "suggestions": [
+          "l'Internet"
+        ],
+        "ruleApplied": "5.1.3",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Répétition du cas précédent. Les deux graphies sont acceptées par l'OQLF.",
+        "counterArgument": "Même justification que pour erreur5.4 : l'OQLF accepte les deux graphies. L'usage de la minuscule est de plus en plus courant et considéré comme acceptable."
+      },
+      {
+        "id": "erreur5.6",
+        "text": "porter de mains",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'expression figée est \"à portée de main\". Il y a une confusion sur le nom (\"porter\" au lieu de \"portée\") et sur le nombre (\"mains\" au lieu de \"main\").",
+        "suggestions": [
+          "portée de main"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double erreur dans l'expression figée : confusion lexicale (porter/portée) et erreur de nombre (mains/main).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "etc…",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'abréviation \"etc.\" (et cetera) ne doit pas être suivie de points de suspension, car cela constitue une redondance.",
+        "suggestions": [
+          "etc."
+        ],
+        "ruleApplied": "5.2.6.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique claire : 'etc.' et points de suspension sont redondants. On utilise l'un ou l'autre.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "deviendront",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec son sujet \"le manque de terres et de ressources\". Le noyau du groupe sujet est \"manque\", un nom singulier. Le verbe doit donc être au singulier.",
+        "suggestions": [
+          "deviendra"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Le sujet peut être interprété de deux manières : accord avec le noyau 'manque' (singulier) ou accord sémantique avec 'terres et ressources' (pluriel).",
+        "counterArgument": "Bien que le noyau grammatical du sujet soit 'manque' (singulier), l'accord au pluriel avec 'terres et ressources' relève de la syllepse grammaticale, acceptable quand on privilégie le sens sur la forme stricte. Le complément coordonné 'de terres et de ressources' représente deux éléments distincts qui deviendront des enjeux. L'accord au pluriel, bien que non standard, n'est pas totalement fautif dans une interprétation sémantique."
+      },
+      {
+        "id": "erreur5.9",
+        "text": "légumes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom \"légume\" doit être au singulier car il est précédé du déterminant indéfini \"un\".",
+        "suggestions": [
+          "légume"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. 'Un' (singulier) + 'légumes' (pluriel) = incohérence grammaticale.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.10",
+        "text": "effort",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Dans l'expression \"mettre plus d'effort\", le nom \"effort\" est comptable et doit être au pluriel.",
+        "suggestions": [
+          "efforts"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Les deux formes existent : 'mettre de l'effort' (collectif, québécisme) et 'mettre des efforts' (comptable, standard). Le singulier est accepté au Québec.",
+        "counterArgument": "L'expression 'mettre de l'effort' au singulier est un québécisme reconnu et courant, où 'effort' est traité comme un nom collectif abstrait (similaire à 'mettre du temps'). Bien que 'mettre des efforts' soit plus standard en français international, la forme singulière est largement acceptée et utilisée au Québec. L'OQLF ne condamne pas cet usage."
+      },
+      {
+        "id": "erreur5.11",
+        "text": "compétitif",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « compétitif » doit s'accorder en nombre avec le sujet implicite « les épiciers » (masculin pluriel).",
+        "suggestions": [
+          "compétitifs"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord de l'attribut. Le sujet 'les épiciers' est au pluriel, donc 'compétitifs' est obligatoire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.12",
+        "text": "is",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Utilisation du mot anglais « is » à la place du verbe français « est ».",
+        "suggestions": [
+          "est"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "En relisant le texte original, le mot 'is' n'apparaît nulle part. C'est une erreur de détection.",
+        "counterArgument": "Après vérification complète du texte fourni, le mot anglais 'is' n'apparaît nulle part. Cette erreur est un faux positif de détection. Le texte ne contient pas cette faute."
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 21,
+      "note": "D"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 9,
+      "note": "C"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 34,
+      "vraisErreurs": 28,
+      "discutables": 5,
+      "fauxPositifs": 1
+    }
+  },
+  "startTimestamp": "2025-12-12T11:34:47.753Z",
+  "endTimestamp": "2025-12-12T11:36:22.238Z",
+  "durationMs": 94485,
+  "durationFormatted": "01:34:485"
+}

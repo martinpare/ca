@@ -1,0 +1,336 @@
+{
+  "processedAt": "2025-12-12T11:36:55.091Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_025.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_025.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "s'en est devenue",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction 's'en est' est incorrecte pour 'c'est'. Le pronom 'en' est superflu. De plus, le participe passé s'accorde avec le sujet 'c'' (cela), qui est masculin neutre, et non avec l'attribut 'normalité'.",
+        "suggestions": [
+          "c'est devenu"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction syntaxique fautive évidente. Le pronom 'en' n'a pas de fonction ici et le participe passé doit s'accorder avec le sujet neutre.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "attend…",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Les points de suspension sont employés à tort. Un point final est requis pour clore cette phrase déclarative.",
+        "suggestions": [
+          "attend."
+        ],
+        "ruleApplied": "4.2.2.4.2",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Les points de suspension peuvent créer un effet stylistique d'attente dramatique cohérent avec le ton du texte.",
+        "counterArgument": "Les points de suspension peuvent être un choix stylistique délibéré pour créer un effet de suspense ou d'inachèvement dramatique. Dans le contexte de ce texte engagé, l'auteur peut vouloir suggérer une destinée inéluctable et triste pour ces aliments. C'est un procédé rhétorique acceptable dans un texte argumentatif pour renforcer l'aspect émotionnel du propos."
+      },
+      {
+        "id": "erreur4.3",
+        "text": "fuir…",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Les points de suspension sont employés à tort. Un point final est requis pour clore cette phrase déclarative.",
+        "suggestions": [
+          "fuir."
+        ],
+        "ruleApplied": "4.2.2.4.2",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Les points de suspension peuvent renforcer le sentiment d'impuissance exprimé par l'auteur, créant un effet stylistique cohérent avec le ton du texte.",
+        "counterArgument": "Les points de suspension peuvent être un choix stylistique délibéré pour souligner l'absurdité de la situation décrite (affronter un monstre avec une brindille). L'effet de suspension renforce le pathétique de l'image et l'impuissance ressentie. Dans un texte argumentatif et persuasif, ce procédé est acceptable pour marquer une pause réflexive."
+      },
+      {
+        "id": "erreur4.4",
+        "text": "leur",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le déterminant possessif doit s'accorder avec l'antécédent 'tout le monde', qui est un singulier. Il s'agit d'une syllepse non admise.",
+        "suggestions": [
+          "son"
+        ],
+        "ruleApplied": "4.1.2.3.2",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "La syllepse avec 'tout le monde' pensé au pluriel (= toutes les personnes) est fréquente et acceptée dans l'usage courant, même si grammaticalement 'tout le monde' est singulier.",
+        "counterArgument": "Bien que 'tout le monde' soit grammaticalement singulier, la syllepse (accord selon le sens plutôt que selon la grammaire stricte) est couramment acceptée et même recommandée par certains grammairiens quand on pense à la pluralité des individus. L'expression 'tout le monde' évoque mentalement un ensemble de personnes, justifiant l'accord au pluriel. Cette construction est largement attestée dans l'usage contemporain et ne constitue pas une faute grave."
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "consommations",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'consommation', employé comme complément du nom 'habitudes', doit être au singulier pour désigner le concept général.",
+        "suggestions": [
+          "consommation"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Le pluriel 'consommations' peut se justifier si l'auteur pense à différents types de consommation (alimentaire, vestimentaire, etc.). Les deux formes sont défendables selon l'intention.",
+        "counterArgument": "Le pluriel 'habitudes de consommations' peut se justifier si l'auteur fait référence à plusieurs types ou pratiques de consommation distinctes. Dans le contexte du texte qui traite de diverses habitudes liées à l'achat et à l'utilisation des aliments, le pluriel n'est pas nécessairement fautif. Les deux formes (singulier et pluriel) sont attestées dans l'usage, selon que l'on considère la consommation comme un concept global ou comme un ensemble de pratiques variées."
+      },
+      {
+        "id": "erreur5.2",
+        "text": "future",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion entre le nom masculin 'futur' (l'avenir) et l'adjectif féminin 'future'.",
+        "suggestions": [
+          "futur"
+        ],
+        "ruleApplied": "5.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'usage claire. Le mot 'futur' employé comme nom (notre avenir) est toujours masculin. La forme 'future' est exclusivement adjectivale.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "condamne",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder au pluriel avec le sujet composé 'Notre système de production [...] ainsi que nos habitudes de consommation [...]'.",
+        "suggestions": [
+          "condamnent"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. Le sujet composé coordonné par 'ainsi que' implique un accord au pluriel quand les deux éléments sont mis sur le même plan.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "bacs",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'bac' doit être au singulier, car il est précédé de l'article contracté 'du' (de le).",
+        "suggestions": [
+          "bac"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Incohérence grammaticale claire. L'article contracté 'du' (singulier) est incompatible avec le nom pluriel 'bacs'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "causé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'causé', employé avec l'auxiliaire 'être', doit s'accorder en genre avec le sujet féminin 'Une grande part'.",
+        "suggestions": [
+          "causée"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du participe passé évidente. Avec l'auxiliaire 'être', l'accord avec le sujet féminin singulier est obligatoire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "mal aimés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot composé 'mal-aimé' requiert un trait d'union.",
+        "suggestions": [
+          "mal-aimés"
+        ],
+        "ruleApplied": "5.2.1.7.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur typographique claire. Le terme 'mal-aimé' est un adjectif composé qui s'écrit avec trait d'union selon les dictionnaires usuels.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "générations en générations",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'expression figée est 'de génération en génération'. Les noms restent au singulier.",
+        "suggestions": [
+          "génération en génération"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur sur une locution figée. L'expression consacrée 'de génération en génération' utilise toujours le singulier.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "âmes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'expression figée est 'corps et âme'. Le nom 'âme' reste au singulier.",
+        "suggestions": [
+          "âme"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur sur une locution figée. L'expression consacrée 'corps et âme' utilise toujours le singulier pour 'âme'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "poulets",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'poulet', employé comme complément du nom 'cuisses', doit être au singulier pour désigner l'animal en général.",
+        "suggestions": [
+          "poulet"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Le pluriel peut se justifier si l'auteur pense à plusieurs animaux distincts dont on prend les cuisses. Les deux formes sont défendables selon l'interprétation.",
+        "counterArgument": "Le pluriel 'cuisses de poulets' peut se justifier par le fait qu'un paquet de 20 cuisses provient nécessairement de plusieurs poulets distincts (chaque poulet ayant deux cuisses). Si l'on pense aux animaux réels d'origine, le pluriel est logique et acceptable. Bien que le singulier 'de poulet' (valeur générique) soit plus courant, le pluriel n'est pas fautif dans ce contexte concret où l'on évoque effectivement la viande de plusieurs animaux."
+      },
+      {
+        "id": "erreur5.10",
+        "text": "fromages",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'fromage', employé comme complément du nom 'briques', doit être au singulier pour désigner la matière en général.",
+        "suggestions": [
+          "fromage"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Le pluriel peut se justifier si l'auteur pense à différentes sortes de fromages. Dans le contexte d'un magasin comme Costco, l'interprétation plurielle est défendable.",
+        "counterArgument": "Le pluriel 'briques de fromages' peut se justifier si l'auteur fait référence à différents types de fromages (cheddar, mozzarella, etc.) vendus en briques chez Costco. Dans un contexte commercial où plusieurs variétés sont offertes, le pluriel est logique et acceptable. Bien que le singulier (valeur de matière) soit une option, le pluriel (valeur de variété) n'est pas fautif."
+      },
+      {
+        "id": "erreur5.11",
+        "text": "familier",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif attribut 'familier' doit s'accorder au pluriel avec le sujet 'Ces dictons'.",
+        "suggestions": [
+          "familiers"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. L'adjectif attribut doit s'accorder avec le sujet pluriel 'Ces dictons'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.12",
+        "text": "Et bien",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion entre la conjonction 'et' suivie de l'adverbe 'bien', et l'interjection 'eh bien'.",
+        "suggestions": [
+          "Eh bien"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion orthographique courante mais claire. L'interjection s'écrit 'eh bien' avec 'eh' et non 'et'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.13",
+        "text": "fermes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'ferme', employé comme complément du nom 'animaux', doit être au singulier pour désigner le lieu en général.",
+        "suggestions": [
+          "ferme"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Le pluriel 'fermes' peut se justifier si l'on pense à plusieurs fermes distinctes. Dans le contexte de 'animaux de fermes', les deux formes sont défendables.",
+        "counterArgument": "Le pluriel 'animaux de fermes' peut se justifier si l'auteur pense à des animaux provenant de différentes fermes. L'expression 'animaux de ferme' (singulier, valeur générique) et 'animaux de fermes' (pluriel, plusieurs lieux distincts) sont toutes deux attestées dans l'usage. Le choix dépend de la nuance voulue et aucune des deux formes n'est absolument fautive."
+      },
+      {
+        "id": "erreur5.14",
+        "text": "telles",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « tel » s'accorde ici avec le nom qui suit, « une maladie », qui est féminin singulier.",
+        "suggestions": [
+          "telle"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. 'Tel' s'accorde avec le nom qui suit ('une maladie', féminin singulier) et non avec ce qui précède.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.15",
+        "text": "changent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe « changer » s'accorde avec le sujet « Ce genre », qui est masculin singulier. L'accord se fait avec le noyau du groupe sujet.",
+        "suggestions": [
+          "change"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. Le verbe doit s'accorder avec le noyau du sujet 'genre' (singulier) et non avec le complément 'habitudes' (pluriel).",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 2,
+      "note": "B"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 11,
+      "note": "C"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 19,
+      "vraisErreurs": 12,
+      "discutables": 7,
+      "fauxPositifs": 0
+    }
+  },
+  "startTimestamp": "2025-12-12T11:35:53.086Z",
+  "endTimestamp": "2025-12-12T11:36:55.091Z",
+  "durationMs": 62005,
+  "durationFormatted": "01:02:005"
+}

@@ -1,0 +1,643 @@
+{
+  "processedAt": "2025-12-12T11:40:34.354Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_064.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_064.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "nombreux de gens",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction de phrase boiteuse. 'Nombreux' est un adjectif et ne peut être employé comme le déterminant 'beaucoup'. Il faut utiliser une construction comme 'de nombreuses personnes' ou 'beaucoup de gens'.",
+        "suggestions": [
+          "de nombreuses personnes",
+          "beaucoup de gens"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction syntaxique clairement incorrecte. 'Nombreux' ne peut fonctionner comme déterminant quantitatif devant 'de gens'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "de nourriture",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence d'un mot essentiel. L'article partitif 'de la' est requis devant 'nourriture' dans ce contexte.",
+        "suggestions": [
+          "de la nourriture"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Omission de l'article partitif obligatoire. Le verbe 'jeter' exige un complément d'objet direct avec article : 'jeter de la nourriture'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "d'acheter",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Préposition erronée. Le verbe 'influencer' se construit avec la préposition 'à' lorsqu'il est suivi d'un infinitif.",
+        "suggestions": [
+          "à acheter"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Les deux constructions existent en français moderne : 'influencer qqn à faire' (plus ancien) et 'influencer qqn de faire' (influence de l'anglais mais en voie d'acceptation).",
+        "counterArgument": "Bien que 'influencer à' soit la construction traditionnelle, l'usage moderne accepte de plus en plus 'influencer de'. Plusieurs grammairiens notent cette évolution. Dans un contexte passif ('être influencé de'), la construction est attestée, bien que moins classique."
+      },
+      {
+        "id": "erreur4.4",
+        "text": "éviter l'humanité à gaspillage",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction de phrase boiteuse. La construction correcte du verbe 'éviter' dans ce contexte est 'éviter à quelqu'un de faire quelque chose' ou 'éviter quelque chose à quelqu'un'.",
+        "suggestions": [
+          "éviter à l'humanité de gaspiller",
+          "éviter le gaspillage à l'humanité"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double erreur : construction verbale incorrecte et 'gaspillage' utilisé comme verbe alors que c'est un nom. La phrase est agrammaticale.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "etc",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de ponctuation. Un point est requis pour marquer la fin de la phrase avant la référence entre parenthèses.",
+        "suggestions": [
+          "etc."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "L'abréviation 'etc.' exige toujours un point. Il s'agit d'une règle typographique absolue.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "aliment",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de ponctuation. Un point est requis pour marquer la fin de la phrase avant la référence entre parenthèses.",
+        "suggestions": [
+          "aliments."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Absence évidente du point final de phrase. De plus, 'aliment' doit être au pluriel (voir erreur de grammaire associée).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "de gaspillage",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence d'un mot essentiel. L'article contracté 'du' (de + le) est requis devant 'gaspillage' dans ce contexte.",
+        "suggestions": [
+          "du gaspillage"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Omission de l'article défini contracté obligatoire. 'La réduction du gaspillage' est la seule construction correcte.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "« Les aliments ne sont toujours pas jétables »",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Présence injustifiée de guillemets pour un titre.",
+        "suggestions": [
+          "Les aliments ne sont toujours pas jetables"
+        ],
+        "ruleApplied": "4.2.2.5.2",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Les guillemets peuvent être utilisés pour un titre accrocheur dans certains contextes journalistiques ou pour marquer une distance ironique.",
+        "counterArgument": "Les guillemets autour d'un titre peuvent indiquer un effet de style, une citation fictive, ou un slogan. Dans un texte argumentatif moderne, particulièrement d'inspiration journalistique, cette utilisation est acceptable pour créer un effet accrocheur. Ce n'est pas une erreur absolue."
+      },
+      {
+        "id": "erreur4.9",
+        "text": "de conseils",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence de l'article partitif 'des' après le verbe 'donner'. On donne 'des' conseils.",
+        "suggestions": [
+          "des conseils"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Expression figée : 'donner des conseils'. L'omission de l'article est incorrecte en français standard.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.10",
+        "text": ".",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point final de la phrase doit être placé après la parenthèse de la référence, et non avant.",
+        "suggestions": [
+          "quantité (Roy, 2018)."
+        ],
+        "ruleApplied": "4.2.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique claire : quand la référence fait partie de la phrase, le point se place après la parenthèse fermante.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.11",
+        "text": "etc.)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de la parenthèse fermante pour l'incise introduite par '(ex :'.",
+        "suggestions": [
+          "légumes, etc.)"
+        ],
+        "ruleApplied": "4.2.2.9.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de ponctuation évidente : toute parenthèse ouverte doit être fermée. La structure est déséquilibrée.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.12",
+        "text": ".",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point final de la phrase doit être placé après la parenthèse de la référence, et non avant.",
+        "suggestions": [
+          "prix (RECYC-QUÉBEC, 2021)."
+        ],
+        "ruleApplied": "4.2.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Même erreur typographique que erreur4.10 : le point doit être placé après la parenthèse fermante.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.13",
+        "text": "ne jugerons pas",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence du pronom sujet 'nous' pour le futur de l'indicatif, ou forme verbale incorrecte pour l'impératif présent ('jugeons').",
+        "suggestions": [
+          "ne jugeons pas",
+          "nous ne jugerons pas"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur syntaxique claire : confusion entre l'impératif (sans pronom) et le futur (avec pronom). La forme 'jugerons' exige le pronom 'nous'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.14",
+        "text": "etc.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence du point final à la fin de la phrase.",
+        "suggestions": [
+          "etc."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Le point de l'abréviation 'etc.' fait également office de point final de phrase. Aucun second point n'est nécessaire.",
+        "counterArgument": "Règle typographique établie : quand une abréviation avec point (comme 'etc.') termine une phrase, son point sert également de point final. On ne double jamais le point. L'original est donc correct."
+      },
+      {
+        "id": "erreur4.15",
+        "text": "ça",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Emploi d'un pronom du registre familier ('ça') dans un texte formel.",
+        "suggestions": [
+          "cela"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Bien que 'cela' soit préférable en contexte formel, 'ça' est de plus en plus accepté dans les textes de registre courant, notamment au Québec.",
+        "counterArgument": "Le pronom 'ça' appartient au registre courant et est largement accepté dans les textes contemporains de niveau secondaire/collégial. Bien que 'cela' soit plus soutenu, le choix de 'ça' n'est pas fautif dans ce contexte, particulièrement au Québec où son usage est très répandu à l'écrit courant."
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "jétables",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Accent erroné. Le mot 'jetable' ne prend pas d'accent aigu.",
+        "suggestions": [
+          "jetables"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. Le mot 'jetable' s'écrit sans accent aigu sur le 'e'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "Dépuis",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Orthographe d'usage incorrecte. L'adverbe s'écrit 'Depuis'.",
+        "suggestions": [
+          "Depuis"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. La préposition 'depuis' s'écrit sans accent aigu.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "cette problème",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en genre. Le nom 'problème' est masculin. Le déterminant démonstratif doit donc être 'ce'.",
+        "suggestions": [
+          "ce problème"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en genre évidente. 'Problème' est masculin, donc 'ce problème' est obligatoire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "réduir",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Orthographe d'usage incorrecte du verbe à l'infinitif. Le verbe s'écrit 'réduire'.",
+        "suggestions": [
+          "réduire"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. L'infinitif du verbe est 'réduire' avec terminaison '-re'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "influencé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord du participe passé. Employé avec l'auxiliaire 'être', le participe passé 'influencé' doit s'accorder en genre et en nombre avec le sujet 'la société' (féminin singulier).",
+        "suggestions": [
+          "influencée"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du participe passé avec 'être'. Le sujet 'la société' est féminin singulier, donc 'influencée' est obligatoire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "attirantes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en genre. L'adjectif 'attirantes' se rapporte au nom 'produits' qui est masculin pluriel.",
+        "suggestions": [
+          "attirants"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en genre claire. 'Produits' est masculin pluriel, donc 'attirants' est obligatoire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "tels que",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en genre. La locution 'tels que' doit s'accorder avec son antécédent 'les plateformes' (féminin pluriel).",
+        "suggestions": [
+          "telles que"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en genre évidente. 'Tel' s'accorde avec 'plateformes' (féminin pluriel), donc 'telles que' est obligatoire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "permit",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur sur la forme du participe passé. Le participe passé du verbe 'permettre' est 'permis'.",
+        "suggestions": [
+          "permis"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de forme verbale. Le participe passé de 'permettre' est toujours 'permis' (invariable au masculin).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "etc.",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Abréviation incorrecte. L'abréviation 'etc.' doit toujours être suivie d'un point.",
+        "suggestions": [
+          "etc."
+        ],
+        "ruleApplied": "5.2.6.1",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "L'abréviation 'etc.' contient déjà un point dans le texte original. Cette erreur semble être une mauvaise détection.",
+        "counterArgument": "En relisant le texte original, l'abréviation 'etc.' est déjà suivie d'un point. Il n'y a pas d'erreur ici. Il s'agit d'une fausse détection."
+      },
+      {
+        "id": "erreur5.10",
+        "text": "jugerons",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur de conjugaison. Pour une phrase à l'impératif à la première personne du pluriel, la forme correcte est 'jugeons'.",
+        "suggestions": [
+          "jugeons"
+        ],
+        "ruleApplied": "5.3.2.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion entre le futur de l'indicatif et l'impératif. Le contexte exhortatif exige l'impératif 'jugeons'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.11",
+        "text": "nous",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Absence de majuscule en début de phrase. Toute phrase doit commencer par une majuscule.",
+        "suggestions": [
+          "Nous"
+        ],
+        "ruleApplied": "5.3.6.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Absence évidente de la majuscule en début de phrase. Règle typographique absolue.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.12",
+        "text": "reccomandation",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Orthographe d'usage incorrecte. Le mot 'recommandation' s'écrit avec un seul 'c' et deux 'm'.",
+        "suggestions": [
+          "recommandation"
+        ],
+        "ruleApplied": "5.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. Le mot s'écrit 'recommandation' avec un seul 'c' initial et deux 'm'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.13",
+        "text": "pourraient",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord du verbe. Le verbe 'pourraient' doit s'accorder avec son sujet 'la reccomandation' (singulier).",
+        "suggestions": [
+          "pourrait"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. Le sujet est 'la recommandation' (singulier), donc le verbe doit être 'pourrait'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.14",
+        "text": "façon",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le nom 'façon' doit être au pluriel car il est précédé du déterminant 'plusieurs'.",
+        "suggestions": [
+          "façons"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en nombre évidente. 'Plusieurs' exige toujours un nom au pluriel : 'plusieurs façons'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.15",
+        "text": "suffisantes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en genre. L'adjectif 'suffisantes' se rapporte au nom 'produits' qui est masculin pluriel.",
+        "suggestions": [
+          "suffisants"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en genre claire. 'Produits' est masculin pluriel, donc 'suffisants' est obligatoire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.16",
+        "text": "cuir",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion d'homophones lexicaux. Le verbe pour préparer des aliments par la chaleur est 'cuire', et non 'cuir' (peau d'animal).",
+        "suggestions": [
+          "cuire"
+        ],
+        "ruleApplied": "5.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion d'homophones évidente. 'Cuir' (nom) vs 'cuire' (verbe). Le contexte exige clairement l'infinitif 'cuire'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.17",
+        "text": "éxcédentaires",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Accent erroné. Le mot 'excédentaires' s'écrit avec un 'e' sans accent au début.",
+        "suggestions": [
+          "excédentaires"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. Le mot 'excédentaires' ne prend pas d'accent aigu sur le premier 'e'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.18",
+        "text": "reccomandé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Orthographe d'usage incorrecte. Le mot 'recommandé' s'écrit avec un seul 'c' et deux 'm'. Il s'agit d'une répétition de la même erreur d'usage dans le texte.",
+        "suggestions": [
+          "recommandé"
+        ],
+        "ruleApplied": "5.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de la même faute d'orthographe (erreur5.12). Même mot mal orthographié.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.19",
+        "text": "conseillé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord de l'attribut du sujet. L'attribut 'conseillé' doit s'accorder avec le sujet 'l'utilisation' (féminin singulier).",
+        "suggestions": [
+          "conseillée"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du participe passé attribut. Le sujet 'l'utilisation' est féminin singulier, donc 'conseillée' est obligatoire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.20",
+        "text": "aliment",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le nom 'aliment' doit être au pluriel car il est complément de 'la durée de vie des...'.",
+        "suggestions": [
+          "aliments"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en nombre évidente. Le déterminant 'des' exige le pluriel : 'des aliments'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.21",
+        "text": "reccomandation",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Orthographe d'usage incorrecte. Le mot 'recommandation' s'écrit avec un seul 'c' et deux 'm'. Il s'agit d'une répétition de la même erreur d'usage dans le texte.",
+        "suggestions": [
+          "recommandation"
+        ],
+        "ruleApplied": "5.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de la même faute d'orthographe (erreur5.12). Troisième occurrence du même mot mal orthographié.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.22",
+        "text": "apprenent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Barbarisme de conjugaison. La terminaison correcte pour la 3e personne du pluriel du présent de l'indicatif du verbe 'apprendre' est '-ennent'.",
+        "suggestions": [
+          "apprennent"
+        ],
+        "ruleApplied": "5.3.2.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de conjugaison évidente. Le verbe 'apprendre' à la 3e personne du pluriel est 'apprennent' avec double 'n'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.23",
+        "text": "de gaspillage",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Absence de la contraction obligatoire de la préposition 'de' et de l'article 'le'.",
+        "suggestions": [
+          "du gaspillage"
+        ],
+        "ruleApplied": "5.3.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de contraction obligatoire. 'De + le' doit toujours se contracter en 'du'.",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 13,
+      "note": "D"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 21,
+      "note": "E"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 38,
+      "vraisErreurs": 34,
+      "discutables": 3,
+      "fauxPositifs": 2
+    }
+  },
+  "startTimestamp": "2025-12-12T11:38:50.858Z",
+  "endTimestamp": "2025-12-12T11:40:34.354Z",
+  "durationMs": 103496,
+  "durationFormatted": "01:43:496"
+}

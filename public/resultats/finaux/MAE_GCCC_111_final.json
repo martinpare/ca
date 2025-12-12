@@ -1,0 +1,502 @@
+{
+  "processedAt": "2025-12-12T11:43:55.487Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_111.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_111.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "leurs",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le déterminant possessif se rapporte au sujet singulier 'chacun et chacune' et doit donc être au singulier. Comme il détermine le nom pluriel 'assiettes', la forme correcte est 'ses'.",
+        "suggestions": [
+          "ses"
+        ],
+        "ruleApplied": "4.1.2.3.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accord grammatical évidente. 'Chacun et chacune' impose le singulier pour le possessif.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "?.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "L'accumulation de signes de ponctuation différents à la fin d'une phrase est une erreur. Un seul point d'interrogation est requis.",
+        "suggestions": [
+          "?"
+        ],
+        "ruleApplied": "4.2.1.7",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de ponctuation évidente. L'accumulation de signes est contraire aux règles typographiques.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "pourraient et font",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il y a une rupture dans l'harmonisation des temps verbaux. Les deux verbes coordonnés par 'et' devraient être au même temps ou mode pour assurer la cohérence. Le conditionnel ('pourraient') est mêlé à l'indicatif présent ('font').",
+        "suggestions": [
+          "peuvent et font",
+          "pourraient et feraient"
+        ],
+        "ruleApplied": "4.1.2.2.4",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Le mélange de temps peut être intentionnel pour exprimer une nuance : la possibilité (conditionnel) et la réalité actuelle (présent).",
+        "counterArgument": "Cette construction peut être défendable stylistiquement. Le conditionnel 'pourraient' exprime la capacité potentielle, tandis que 'font' exprime l'action concrète déjà en cours. L'auteur semble vouloir dire : 'certains auraient la capacité de faire une différence ET font déjà une différence'. Le mélange des modes n'est pas nécessairement fautif s'il traduit une nuance sémantique voulue."
+      },
+      {
+        "id": "erreur4.4",
+        "text": "exubérante",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'adjectif 'exubérant' (qui manifeste une grande abondance, une grande vivacité) est utilisé à mauvais escient. Pour qualifier une statistique de très élevée, il fallait utiliser 'exorbitante' ou 'effarante'.",
+        "suggestions": [
+          "exorbitante",
+          "effarante"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Impropriété lexicale évidente. 'Exubérant' ne s'applique pas aux statistiques.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "« Gaspillage alimentaire »",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le guillemet ouvrant « doit être refermé par un guillemet fermant ».",
+        "suggestions": [
+          "« Gaspillage alimentaire »"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Vérification du texte : le guillemet est correctement ouvert et fermé dans la référence bibliographique.",
+        "counterArgument": "En relisant la référence bibliographique '1 RECYC-QUÉBEC :« Gaspillage alimentaire », 2021.', les guillemets sont correctement placés. Le guillemet ouvrant « est suivi d'un guillemet fermant » après 'alimentaire'. Il n'y a pas d'erreur."
+      },
+      {
+        "id": "erreur4.6",
+        "text": "« Gaspillage alimentaire »",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le guillemet ouvrant « doit être refermé par un guillemet fermant ».",
+        "suggestions": [
+          "« Gaspillage alimentaire »"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Vérification du texte : le guillemet est correctement ouvert et fermé dans la référence bibliographique.",
+        "counterArgument": "Dans la référence '3 RECYC-QUÉBEC :« Gaspillage alimentaire », 2021.', les guillemets sont correctement utilisés. Cette signalisation est un faux positif."
+      },
+      {
+        "id": "erreur4.7",
+        "text": "oui, et non",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "La virgule est erronée devant la conjonction « et » lorsque celle-ci relie deux éléments courts et de même fonction.",
+        "suggestions": [
+          "oui et non"
+        ],
+        "ruleApplied": "4.2.2.10.2.k",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "La virgule peut créer un effet d'insistance ou de pause rhétorique dans un contexte argumentatif.",
+        "counterArgument": "Bien que la règle générale soit de ne pas mettre de virgule devant 'et' coordonnant deux éléments courts, l'auteur peut vouloir créer une pause rhétorique pour souligner la dualité de la réponse. Dans un texte argumentatif, cette virgule peut être un choix stylistique pour dramatiser l'ambivalence. Cependant, la forme sans virgule reste préférable."
+      },
+      {
+        "id": "erreur4.8",
+        "text": "donnent des paniers de nourritures vendues",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La phrase présente un problème de sens. L'action de « donner » des paniers est en contradiction avec le fait que les nourritures sont « vendues ». La phrase doit être reformulée pour être cohérente.",
+        "suggestions": [
+          "vendent des paniers de nourriture",
+          "préparent des paniers de nourriture qu'ils vendent"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Contradiction sémantique évidente entre 'donnent' et 'vendues'. Incohérence logique dans la phrase.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "n'agissons pas",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Dans une phrase interrogative avec inversion du verbe, le pronom sujet doit être présent. Il manque le pronom « nous ».",
+        "suggestions": [
+          "n'agissons-nous pas"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur syntaxique claire. L'interrogation avec inversion exige le pronom sujet avec trait d'union.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.10",
+        "text": "Dire qu'il y a tellement de solutions, mais si peu de personnes qui les emploient à leur quotidien.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase est une subordonnée sans phrase matrice. Une construction commençant par « Dire que... » ne peut constituer une phrase complète à elle seule.",
+        "suggestions": [
+          "Il est navrant de constater qu'il y a tellement de solutions...",
+          "Et dire qu'il y a tellement de solutions..."
+        ],
+        "ruleApplied": "4.1.2.1.4",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Cette construction peut être un procédé rhétorique expressif, proche de l'exclamation indirecte.",
+        "counterArgument": "Cette construction, bien qu'elliptique, est courante à l'oral et peut être acceptée comme un procédé expressif à l'écrit. L'infinitif 'Dire que...' fonctionne ici comme une exclamation indignée (équivalent de 'Et dire que...' ou 'Quand on pense que...'). C'est un procédé rhétorique qui crée un effet d'indignation ou de déploration. Dans un texte argumentatif visant à émouvoir le lecteur, ce choix peut se défendre."
+      },
+      {
+        "id": "erreur4.11",
+        "text": "Même que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression « Même que » en début de phrase est un calque de l'oral. Il faut utiliser un organisateur textuel approprié.",
+        "suggestions": [
+          "De plus,",
+          "En outre,"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Calque de l'oral québécois non acceptable à l'écrit formel de niveau secondaire/collégial.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.12",
+        "text": "réellement,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "La virgule est erronée après l'adverbe « réellement » qui suit directement la locution conjonctive « même si ».",
+        "suggestions": [
+          "réellement"
+        ],
+        "ruleApplied": "4.2.2.10.2.h",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "La virgule coupe incorrectement la locution conjonctive de l'adverbe qui suit immédiatement.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.13",
+        "text": "ses",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Dans une construction impersonnelle avec « il faut », le déterminant possessif « ses » n'a pas de référent clair. Il faut reformuler pour préciser à qui appartiennent les habitudes.",
+        "suggestions": [
+          "ses propres",
+          "nos"
+        ],
+        "ruleApplied": "4.1.2.3.2",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Le référent peut être inféré du contexte ('chacun et chacune'), mais l'ambiguïté existe.",
+        "counterArgument": "Le possessif 'ses' peut être compris par le contexte comme référant à 'chacun et chacune' mentionné plus tôt dans la conclusion. L'utilisation de 'ses' avec une construction impersonnelle est courante en français : 'il faut changer ses habitudes' est une formulation usuelle où 'ses' renvoie implicitement à chaque individu concerné. Cependant, la clarté serait améliorée avec 'ses propres' ou en remplaçant par 'nos'."
+      },
+      {
+        "id": "erreur4.14",
+        "text": "alimentaire », 2021",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule pour séparer le titre de l'année dans la référence bibliographique.",
+        "suggestions": [
+          "alimentaire », 2021"
+        ],
+        "ruleApplied": "4.2.2.10.1.a",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Les références bibliographiques ne doivent pas être corrigées selon les critères de ponctuation du corps du texte.",
+        "counterArgument": "Les références bibliographiques suivent leurs propres conventions de formatage. Bien qu'une virgule après le guillemet fermant soit souvent recommandée dans certains styles, l'absence de virgule dans ce contexte de référence simplifiée (niveau secondaire/collégial) n'est pas une erreur à comptabiliser pour le critère 4. Les conventions bibliographiques varient selon les normes (APA, MLA, Chicago, etc.)."
+      },
+      {
+        "id": "erreur4.15",
+        "text": "d'aliments », 23",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule pour séparer le titre de la date dans la référence bibliographique.",
+        "suggestions": [
+          "d'aliments », 23"
+        ],
+        "ruleApplied": "4.2.2.10.1.a",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Les références bibliographiques suivent leurs propres conventions de formatage.",
+        "counterArgument": "Comme pour l'erreur précédente, les conventions bibliographiques ne doivent pas être évaluées selon les règles de ponctuation du corps du texte. Cette signalisation est un faux positif."
+      },
+      {
+        "id": "erreur4.16",
+        "text": "alimentaire », 2021",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule pour séparer le titre de l'année dans la référence bibliographique. C'est la deuxième erreur de ce type pour la source RECYC-QUÉBEC.",
+        "suggestions": [
+          "alimentaire », 2021"
+        ],
+        "ruleApplied": "4.2.2.10.1.a",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Les références bibliographiques suivent leurs propres conventions de formatage.",
+        "counterArgument": "Même justification que pour les erreurs 4.14 et 4.15. Les conventions bibliographiques varient et ne constituent pas des erreurs de ponctuation au sens du critère 4."
+      },
+      {
+        "id": "erreur4.17",
+        "text": "alimentaire », 2021",
+        "occurenceIndex": 2,
+        "criteria": 4,
+        "type": "(P)",
+        "description": "Il manque une virgule pour séparer le titre de l'année dans la référence bibliographique. Le maximum de 2 erreurs de critère 4 pour la source RECYC-QUÉBEC est atteint, cette erreur n'est donc pas comptabilisée.",
+        "suggestions": [
+          "alimentaire », 2021"
+        ],
+        "ruleApplied": "4.2.2.10.1.a",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Les références bibliographiques suivent leurs propres conventions de formatage.",
+        "counterArgument": "Même justification que pour les erreurs précédentes concernant les références bibliographiques."
+      },
+      {
+        "id": "erreur4.18",
+        "text": "niches », 2",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule pour séparer le titre de la date dans la référence bibliographique.",
+        "suggestions": [
+          "niches », 2"
+        ],
+        "ruleApplied": "4.2.2.10.1.a",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Les références bibliographiques suivent leurs propres conventions de formatage.",
+        "counterArgument": "Les conventions bibliographiques ne constituent pas des erreurs de ponctuation au sens du critère 4."
+      },
+      {
+        "id": "erreur4.19",
+        "text": "alimentaire », 16",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule pour séparer le titre de la date dans la référence bibliographique.",
+        "suggestions": [
+          "alimentaire », 16"
+        ],
+        "ruleApplied": "4.2.2.10.1.a",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Les références bibliographiques suivent leurs propres conventions de formatage.",
+        "counterArgument": "Les conventions bibliographiques ne constituent pas des erreurs de ponctuation au sens du critère 4."
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "finissent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le sujet 'chacun et chacune d'entre nous' est un sujet singulier (distributif) qui commande l'accord du verbe à la 3e personne du singulier.",
+        "suggestions": [
+          "finit"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord grammatical évidente. 'Chacun et chacune' impose systématiquement le singulier.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "nourritures",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'nourriture' est généralement un nom non comptable et s'emploie au singulier dans ce contexte.",
+        "suggestions": [
+          "nourriture"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le nom 'nourriture' est un nom massif qui ne prend généralement pas la marque du pluriel dans ce contexte.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "vendues",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'vendu' doit s'accorder en genre et en nombre avec le nom 'paniers' (masculin pluriel), qu'il qualifie.",
+        "suggestions": [
+          "vendus"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du participe passé employé comme adjectif. 'Vendues' devrait s'accorder avec 'paniers' (masculin pluriel).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "nous-même",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'même' s'accorde en nombre avec le pronom 'nous' auquel il se rapporte.",
+        "suggestions": [
+          "nous-mêmes"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. 'Même' s'accorde toujours en nombre avec le pronom pluriel 'nous'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "devinez",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre la terminaison de l'infinitif (-ez) et celle du participe passé (-é). Après l'auxiliaire 'avoir' (ici, 'aurez'), il faut utiliser le participe passé.",
+        "suggestions": [
+          "deviné"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur classique de confusion entre infinitif et participe passé. Après 'aurez', seul le participe passé est acceptable.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "si tôt",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion entre l'adverbe 'si tôt' (so early) et la locution adverbiale 'de sitôt' (anytime soon), qui est requise dans ce contexte.",
+        "suggestions": [
+          "de sitôt"
+        ],
+        "ruleApplied": "5.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion lexicale évidente. Le contexte ('nous ne sommes pas prêts à nous relever') exige 'de sitôt' (pas avant longtemps).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "n'aurons",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le sujet du verbe est 'certains d'entre nous', qui correspond à la 3e personne du pluriel. Le verbe doit donc être 'auront'.",
+        "suggestions": [
+          "n'auront"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. 'Certains' est à la 3e personne du pluriel, pas à la 1re.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "à",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre la préposition 'à' et la forme conjuguée 'a' du verbe 'avoir' à la 3e personne du singulier de l'indicatif présent. Le sujet est 'chacun et chacune de nous'.",
+        "suggestions": [
+          "a"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion homophonique évidente entre la préposition et le verbe avoir conjugué.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "niches",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'expression consacrée est 'marché de niche'. Le complément du nom 'marché' doit être au singulier.",
+        "suggestions": [
+          "niche"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur dans une expression figée. L'expression correcte est 'marché de niche' (singulier), même pour parler de plusieurs marchés de niche.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.10",
+        "text": "leurs",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant possessif doit s'accorder avec le sujet « chacun et chacune d'entre nous », qui est de la 3e personne du singulier.",
+        "suggestions": [
+          "son"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord grammatical. 'Chacun et chacune' impose le possessif singulier 'son/sa/ses', pas 'leur/leurs'.",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 8,
+      "note": "C"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 10,
+      "note": "E"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 29,
+      "vraisErreurs": 19,
+      "discutables": 4,
+      "fauxPositifs": 6
+    }
+  },
+  "startTimestamp": "2025-12-12T11:42:24.973Z",
+  "endTimestamp": "2025-12-12T11:43:55.487Z",
+  "durationMs": 90514,
+  "durationFormatted": "01:30:514"
+}

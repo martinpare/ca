@@ -1,0 +1,432 @@
+{
+  "processedAt": "2025-12-12T11:41:37.331Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_084.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_084.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "il y a de ça",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression 'il y a de ça' est un calque de l'oral. Il faut utiliser la forme standard 'il y a'.",
+        "suggestions": [
+          "il y a"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Expression orale familière inappropriée à l'écrit scolaire. La forme standard 'il y a' suivi d'une durée est obligatoire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "Puisque que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le mot 'que' est superflu après la conjonction de subordination 'Puisque'.",
+        "suggestions": [
+          "Puisque"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Redondance évidente. La conjonction 'puisque' contient déjà 'que' et ne doit pas être suivie d'un second 'que'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "Selon moi oui",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule pour isoler le groupe incident 'Selon moi' en tête de phrase.",
+        "suggestions": [
+          "Selon moi, oui"
+        ],
+        "ruleApplied": "4.2.2.10.1.n",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle de ponctuation claire : un complément de phrase en tête doit être suivi d'une virgule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "récemment une",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule après l'adverbe 'récemment' placé en tête de phrase pour le détacher du reste de la phrase.",
+        "suggestions": [
+          "récemment, une"
+        ],
+        "ruleApplied": "4.2.2.10.1.k",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "La virgule après un adverbe court en début de phrase n'est pas toujours obligatoire, surtout quand il modifie directement le verbe.",
+        "counterArgument": "L'adverbe 'récemment' modifie directement le verbe de la phrase principale et forme un tout avec elle. La virgule n'est pas systématiquement requise pour les adverbes courts et étroitement liés au verbe. Plusieurs grammairiens acceptent l'absence de virgule dans ce contexte."
+      },
+      {
+        "id": "erreur4.5",
+        "text": "en regardant ces statistiques le",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule après la subordonnée participiale 'en regardant ces statistiques' placée en tête de phrase.",
+        "suggestions": [
+          "en regardant ces statistiques, le"
+        ],
+        "ruleApplied": "4.2.2.10.1.m",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle claire : une subordonnée participiale en début de phrase doit être suivie d'une virgule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "à cause que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution conjonctive 'à cause que' est incorrecte. Il faut utiliser 'parce que'.",
+        "suggestions": [
+          "parce que"
+        ],
+        "ruleApplied": "4.1.2.4.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Calque de l'anglais ('because') et usage oral familier. La forme standard est 'parce que' ou 'du fait que'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "<<meilleur avant>>",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Les guillemets dactylographiques doubles (`<< >>`) sont incorrects. Il faut utiliser les guillemets français (« »).",
+        "suggestions": [
+          "« meilleur avant »"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Norme typographique française claire : les guillemets français (« ») sont obligatoires en français.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "<<périmé après>>",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(P)",
+        "description": "Les guillemets dactylographiques doubles (`<< >>`) sont incorrects. Il faut utiliser les guillemets français (« »).",
+        "suggestions": [
+          "« périmé après »"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Même erreur répétée. Norme typographique française.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "après!",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "L'emploi du point d'exclamation est inapproprié ici, car il s'agit d'une simple affirmation et non d'une exclamation. Un point final est requis.",
+        "suggestions": [
+          "après."
+        ],
+        "ruleApplied": "4.2.2.3.2",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Le point d'exclamation peut exprimer la surprise face à cette durée étonnamment longue (un an après la date).",
+        "counterArgument": "Le point d'exclamation peut être justifié ici comme procédé rhétorique pour souligner le caractère surprenant de l'information (un an après la date!). Dans un texte argumentatif visant à convaincre, ce choix stylistique renforce l'effet persuasif et attire l'attention sur un fait méconnu."
+      },
+      {
+        "id": "erreur4.10",
+        "text": "<<Les Canadiens gaspillent trois millions de tonnes de nourriture chaque année>>",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(P)",
+        "description": "Les guillemets dactylographiques doubles (`<< >>`) sont incorrects. Il faut utiliser les guillemets français (« »).",
+        "suggestions": [
+          "« Les Canadiens gaspillent trois millions de tonnes de nourriture chaque année »"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur répétée dans la bibliographie. Norme typographique.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.11",
+        "text": "<<Gaspillage alimentaire>>",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(P)",
+        "description": "Les guillemets dactylographiques doubles (`<< >>`) sont incorrects. Il faut utiliser les guillemets français (« »).",
+        "suggestions": [
+          "« Gaspillage alimentaire »"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur répétée dans la bibliographie. Norme typographique.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.12",
+        "text": "<<Les légumes moches, un marché de niche>>",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(P)",
+        "description": "Les guillemets dactylographiques doubles (`<< >>`) sont incorrects. Il faut utiliser les guillemets français (« »). L'erreur n'est pas comptée car la limite de 2 erreurs de ponctuation par phrase (ici, la liste des sources) est atteinte.",
+        "suggestions": [
+          "« Les légumes moches, un marché de niche »"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur répétée dans la bibliographie. Norme typographique.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.13",
+        "text": "<<Sauvetage alimentaire>>",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(P)",
+        "description": "Les guillemets dactylographiques doubles (`<< >>`) sont incorrects. Il faut utiliser les guillemets français (« »). L'erreur n'est pas comptée car la limite de 2 erreurs de ponctuation par phrase (ici, la liste des sources) est atteinte.",
+        "suggestions": [
+          "« Sauvetage alimentaire »"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur répétée dans la bibliographie. Norme typographique.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.14",
+        "text": "<<Environnement: au rebut, le gaspillage!>>",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(P)",
+        "description": "Les guillemets dactylographiques doubles (`<< >>`) sont incorrects. Il faut utiliser les guillemets français (« »). L'erreur n'est pas comptée car la limite de 2 erreurs de ponctuation par phrase (ici, la liste des sources) est atteinte.",
+        "suggestions": [
+          "« Environnement: au rebut, le gaspillage! »"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur répétée dans la bibliographie. Norme typographique.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.15",
+        "text": ",",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule ne doit pas séparer le groupe sujet du verbe. Le sujet est \"les enjeux planétaire comme la pollution\".",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.10.2.a",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "La virgule pourrait marquer une incise ('comme la pollution'), mais l'absence de virgule fermante rend la construction ambiguë.",
+        "counterArgument": "Si l'auteur considère 'comme la pollution' comme une incise explicative, une virgule d'ouverture est justifiable. Cependant, l'absence de virgule fermante crée une asymétrie. Il faudrait soit deux virgules (encadrant l'incise), soit aucune. La construction actuelle est donc boiteuse, mais l'intention stylistique pourrait être de mettre en relief 'la pollution'."
+      },
+      {
+        "id": "erreur4.16",
+        "text": "yogourt",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule pour isoler le complément de phrase (\"Pour le yogourt\") placé en tête de phrase.",
+        "suggestions": [
+          "yogourt,"
+        ],
+        "ruleApplied": "4.2.2.10.1.b",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle claire : un complément de phrase en tête doit être suivi d'une virgule.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "planétaire",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'planétaire' doit s'accorder en nombre avec le nom 'enjeux' (masculin pluriel) auquel il se rapporte.",
+        "suggestions": [
+          "planétaires"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. L'adjectif doit s'accorder avec le nom pluriel 'enjeux'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "unies",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Dans la dénomination 'Nations Unies', l'adjectif 'Unies' prend une majuscule.",
+        "suggestions": [
+          "Unies"
+        ],
+        "ruleApplied": "5.2.4.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Nom propre d'organisation internationale. La majuscule est obligatoire selon les conventions internationales.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "gaspillées",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'gaspillé', employé avec l'auxiliaire 'être', doit s'accorder en genre et en nombre avec son sujet '931 millions de tonnes de nourriture' (féminin singulier, car 'nourriture' est le noyau du groupe sujet).",
+        "suggestions": [
+          "gaspillée"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Avec les expressions de quantité, l'accord peut se faire avec le collectif ou avec le complément. Les deux sont défendables.",
+        "counterArgument": "Avec une expression de quantité comme '931 millions de tonnes', l'accord du participe peut se faire soit avec le nom collectif de quantité ('tonnes', féminin pluriel), soit avec le complément ('nourriture', féminin singulier). Le pluriel 'gaspillées' s'accorde avec 'tonnes' et met l'accent sur la quantité massive, ce qui est stylistiquement cohérent dans un texte sur le gaspillage. Grevisse reconnaît les deux accords comme acceptables."
+      },
+      {
+        "id": "erreur5.4",
+        "text": "équivalant",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Il y a confusion entre le participe présent 'équivalant' et l'adjectif verbal 'équivalent'. Ici, c'est l'adjectif qui convient.",
+        "suggestions": [
+          "équivalent"
+        ],
+        "ruleApplied": "5.2.1.4",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Le participe présent 'équivalant' exprime une action en cours et peut être défendu ici, bien que l'adjectif soit plus courant.",
+        "counterArgument": "Le participe présent 'équivalant' peut se justifier si on considère qu'il exprime une action simultanée : les tonnes sont gaspillées, ce qui équivaut (action en cours) à une perte de 17 milliards. L'adjectif 'équivalent' serait plus statique. Les deux formes sont grammaticalement correctes, mais avec des nuances sémantiques différentes."
+      },
+      {
+        "id": "erreur5.5",
+        "text": "rémunérant",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Il y a confusion entre le participe présent 'rémunérant' et l'adjectif 'rémunérateur'. Ici, c'est l'adjectif qui convient.",
+        "suggestions": [
+          "rémunérateur"
+        ],
+        "ruleApplied": "5.2.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "L'adjectif consacré pour qualifier quelque chose de profitable est 'rémunérateur', pas 'rémunérant'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "ont",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'homophone grammatical 'ont' (verbe avoir) et 'on' (pronom indéfini). Le sujet de 'peut' est le pronom 'on'.",
+        "suggestions": [
+          "on"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'homophone évidente. Le contexte exige le pronom 'on', pas le verbe 'avoir'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "LaPresse+",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le nom propre du média 'La Presse+' a été fusionné à tort. Il s'agit d'un barbarisme orthographique.",
+        "suggestions": [
+          "La Presse+"
+        ],
+        "ruleApplied": "5.2.6.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Nom propre de média. La graphie officielle est 'La Presse+' (avec espace).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "lapresse.ca",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Il manque une majuscule au début de cette dénomination, qui est un nom propre de média.",
+        "suggestions": [
+          "Lapresse.ca"
+        ],
+        "ruleApplied": "5.2.4.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Nom propre de média. La majuscule initiale est obligatoire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "conserves",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord dans un nom composé. Dans l'expression \"boîtes de conserve\", le complément \"conserve\" reste au singulier.",
+        "suggestions": [
+          "conserve"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Les deux graphies ('boîtes de conserve' et 'boîtes de conserves') coexistent dans l'usage.",
+        "counterArgument": "Bien que 'boîtes de conserve' (singulier collectif) soit recommandé par certains grammairiens, l'usage 'boîtes de conserves' (pluriel) est largement répandu et accepté, car il y a plusieurs conserves dans plusieurs boîtes. Les dictionnaires actuels reconnaissent les deux formes. Le Petit Robert et le Larousse admettent 'conserves' au pluriel dans ce contexte."
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 10,
+      "note": "C"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 7,
+      "note": "B"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 25,
+      "vraisErreurs": 18,
+      "discutables": 6,
+      "fauxPositifs": 1
+    }
+  },
+  "startTimestamp": "2025-12-12T11:40:22.625Z",
+  "endTimestamp": "2025-12-12T11:41:37.331Z",
+  "durationMs": 74706,
+  "durationFormatted": "01:14:706"
+}

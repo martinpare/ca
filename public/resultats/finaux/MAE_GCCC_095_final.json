@@ -1,0 +1,225 @@
+{
+  "processedAt": "2025-12-12T11:42:07.453Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_095.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_095.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "(1)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "L'ajout d'un appel de note à l'intérieur d'une citation textuelle constitue une modification non signalée. Idéalement, l'appel de note devrait être placé après les guillemets.",
+        "suggestions": [
+          "» (1)."
+        ],
+        "ruleApplied": "4.2.2.6",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "La convention pour l'emplacement des appels de note dans les citations varie selon les guides de rédaction. Certains acceptent l'appel à l'intérieur si le renvoi concerne spécifiquement la citation.",
+        "counterArgument": "Bien que placer l'appel de note après les guillemets soit souvent préféré, plusieurs guides stylistiques acceptent l'appel à l'intérieur de la citation lorsque celui-ci renvoie directement et exclusivement à la source citée. Dans ce contexte, l'étudiant pourrait justifier son choix en arguant que l'appel (1) identifie clairement la source de cette citation spécifique. Ce n'est pas une faute absolue, mais une variation de pratique."
+      },
+      {
+        "id": "erreur4.2",
+        "text": "comme par exemple",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Mot superflu. L'utilisation conjointe de « comme » et « par exemple » constitue un pléonasme. Il faut employer l'un ou l'autre.",
+        "suggestions": [
+          "comme",
+          "par exemple"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Pléonasme évident et largement reconnu. Les deux expressions ont exactement la même fonction d'exemplification.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "lutte au",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de préposition. L'expression consacrée est « lutte contre ». L'emploi de la préposition « à » (contractée en « au ») est incorrect dans ce contexte.",
+        "suggestions": [
+          "lutte contre le"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "En français québécois, « lutte à » est un usage répandu et accepté dans certains contextes, bien que « lutte contre » soit la forme standard recommandée.",
+        "counterArgument": "Bien que « lutte contre » soit la préposition standard et recommandée par les ouvrages de référence, l'expression « lutte à » (ou « lutte au ») est couramment employée au Québec et fait partie des usages régionaux tolérés. On la retrouve dans les médias québécois et dans le discours courant. Il s'agit davantage d'un québécisme que d'une véritable faute, bien que la forme « lutte contre » soit préférable en contexte formel ou scolaire."
+      },
+      {
+        "id": "erreur4.4",
+        "text": "«Les légumes moches, un marché de niche »",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Les règles typographiques du français exigent une espace insécable après le guillemet ouvrant («). Il manque cette espace.",
+        "suggestions": [
+          "« Les légumes moches, un marché de niche »"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique claire et normative en français. L'espace insécable après le guillemet ouvrant est obligatoire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "«La fierté de ne pas gaspiller d'aliments»",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Les règles typographiques du français exigent une espace insécable après le guillemet ouvrant («) et avant le guillemet fermant (»). Il manque ces deux espaces.",
+        "suggestions": [
+          "« La fierté de ne pas gaspiller d'aliments »"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique claire et normative en français. Les espaces insécables autour des guillemets français sont obligatoires.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "».",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "La présence d'un point à la fois à l'intérieur et à l'extérieur des guillemets fermants constitue une double ponctuation fautive. Un seul point final est nécessaire.",
+        "suggestions": [
+          "»"
+        ],
+        "ruleApplied": "4.2.2.1.2",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Après vérification du texte original, il n'y a pas de double ponctuation. Le point fait partie de la citation et clôt correctement la phrase.",
+        "counterArgument": "En vérifiant le passage dans le texte original : « ... car ils sont vendus moins cher que les autres alors qu'il en coûte autant pour les produire et les transporter. ». Il n'y a qu'un seul point, celui qui termine la citation. Il n'y a pas de double ponctuation ici. Le point à l'intérieur des guillemets est correct puisque la citation constitue une phrase complète. Cette détection est erronée."
+      },
+      {
+        "id": "erreur4.7",
+        "text": "Pour conclure le tout",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression « Pour conclure le tout » est une formulation lourde et redondante. L'organisateur textuel « Pour conclure » est suffisant.",
+        "suggestions": [
+          "Pour conclure"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Bien que « le tout » ajoute un élément légèrement redondant, l'expression complète est attestée dans l'usage courant et peut avoir une valeur emphatique voulue.",
+        "counterArgument": "L'expression « Pour conclure le tout » est certes moins concise que « Pour conclure », mais elle n'est pas grammaticalement fautive. Le complément « le tout » peut être considéré comme un renforcement emphatique qui récapitule l'ensemble du propos. Dans un texte argumentatif où l'auteur souhaite marquer clairement la clôture de son raisonnement, cette formulation peut être un choix stylistique délibéré. Il ne s'agit pas d'une redondance au sens strict, mais d'une amplification rhétorique."
+      },
+      {
+        "id": "erreur4.8",
+        "text": "2020",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque un point final pour clore la référence bibliographique.",
+        "suggestions": [
+          "2020."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Les références bibliographiques doivent se terminer par un point final. C'est une convention normative claire.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "doit-être",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre la locution verbale « doit être » et l'adverbe « peut-être ». Le trait d'union est fautif et crée une confusion grammaticale entre des mots de classes différentes.",
+        "suggestions": [
+          "doit être"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'orthographe grammaticale évidente. Le verbe « devoir » suivi de l'infinitif « être » ne prend jamais de trait d'union. Seul l'adverbe « peut-être » s'écrit avec trait d'union.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "unies",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Dans la dénomination « Organisation des Nations Unies », l'adjectif « Unies » prend une majuscule car il fait partie intégrante du nom propre.",
+        "suggestions": [
+          "Unies"
+        ],
+        "ruleApplied": "5.2.4.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle claire concernant les majuscules dans les noms d'organismes internationaux. « Nations Unies » est un nom propre où les deux mots prennent la majuscule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "de gaspillage",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Absence de la contraction obligatoire de la préposition « de » et de l'article défini « le ». Devant un nom masculin singulier, « de le » se contracte en « du ».",
+        "suggestions": [
+          "du gaspillage"
+        ],
+        "ruleApplied": "5.3.5",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Après vérification du contexte dans le texte original, l'expression « de gaspillage » est correcte car elle fait partie d'une locution nominale sans article défini.",
+        "counterArgument": "En vérifiant le passage complet dans le texte : « la réduction de gaspillage ». Dans ce contexte, l'absence d'article est grammaticalement correcte. L'expression « réduction de gaspillage » fonctionne comme une locution où le complément du nom n'exige pas nécessairement l'article défini. On peut dire « réduction du gaspillage » (avec article défini, sens général) ou « réduction de gaspillage » (sans article, sens de matière/abstraction). Les deux formes sont acceptables, la seconde étant moins spécifique. Il ne s'agit pas d'une erreur de contraction manquante."
+      },
+      {
+        "id": "erreur5.4",
+        "text": "La Presse +",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le nom de cette publication est « La Presse+ », sans espace avant le signe plus.",
+        "suggestions": [
+          "La Presse+"
+        ],
+        "ruleApplied": "5.2.4.1.2",
+        "verdict": "ERREUR",
+        "confidence": "MEDIUM",
+        "confidenceReason": "La graphie officielle de cette publication est « La Presse+ » sans espace, bien que les deux formes puissent être observées dans l'usage.",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 4,
+      "note": "B"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 3,
+      "note": "A"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 12,
+      "vraisErreurs": 7,
+      "discutables": 3,
+      "fauxPositifs": 2
+    }
+  },
+  "startTimestamp": "2025-12-12T11:41:22.586Z",
+  "endTimestamp": "2025-12-12T11:42:07.453Z",
+  "durationMs": 44867,
+  "durationFormatted": "00:44:867"
+}

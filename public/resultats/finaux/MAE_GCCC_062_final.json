@@ -1,0 +1,368 @@
+{
+  "processedAt": "2025-12-12T11:39:28.913Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_062.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_062.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "centre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Confusion entre les homophones \"centre\" (nom) et \"contre\" (préposition). Le contexte exige la préposition \"contre\" pour exprimer l'opposition.",
+        "suggestions": [
+          "contre"
+        ],
+        "ruleApplied": "4.1.2.1.9",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur lexicale claire. Le contexte « lutter centre le gaspillage » ne fait aucun sens. La préposition « contre » est obligatoire pour exprimer l'opposition.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "milles",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif numéral cardinal \"mille\" est invariable et ne prend jamais de \"s\".",
+        "suggestions": [
+          "mille"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle grammaticale absolue : l'adjectif numéral « mille » est toujours invariable en français.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "couleures",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage. Le mot \"couleur\" s'écrit sans \"e\" avant le \"u\" : \"couleurs\".",
+        "suggestions": [
+          "couleurs"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. Le mot « couleur » a une graphie fixe en français.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "fin issent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Barbarisme orthographique. Le verbe \"finissent\" a été séparé à tort par une espace.",
+        "suggestions": [
+          "finissent"
+        ],
+        "ruleApplied": "5.2.6.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur typographique évidente : le mot « finissent » ne peut être séparé par une espace.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "Tout d'abords",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage. La locution adverbiale correcte est \"Tout d'abord\", toujours au singulier.",
+        "suggestions": [
+          "Tout d'abord"
+        ],
+        "ruleApplied": "5.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "La locution figée « tout d'abord » s'écrit toujours au singulier en français normé.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "fin",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom \"fin\" doit s'accorder en nombre avec le déterminant possessif pluriel \"nos\" : \"nos fins\".",
+        "suggestions": [
+          "fins"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord manifeste. Le déterminant « nos » impose le pluriel au nom « fin ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "périssable",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif \"périssable\" doit s'accorder en nombre avec le nom pluriel \"denrées\" : \"denrées périssables\".",
+        "suggestions": [
+          "périssables"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente : l'adjectif épithète doit s'accorder avec le nom pluriel « denrées ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "leur",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant possessif \"leur\" doit prendre la marque du pluriel devant le nom pluriel \"produits\" : \"leurs nouveaux produits\".",
+        "suggestions": [
+          "leurs"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle d'accord obligatoire : le déterminant possessif « leur » prend un « s » devant un nom pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "périssable",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "(G)",
+        "description": "L'adjectif \"périssable\" doit s'accorder en nombre avec le nom pluriel \"denrées\" : \"denrées périssables\". Deuxième occurrence de la même erreur.",
+        "suggestions": [
+          "périssables"
+        ],
+        "ruleApplied": "5.4.2.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de la même erreur d'accord (deuxième occurrence dans le texte).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "caféteriats",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage. Le pluriel du nom \"cafétéria\" est \"cafétérias\" (avec \"s\", non \"ts\").",
+        "suggestions": [
+          "cafétérias"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Barbarisme évident : le mot « cafétéria » suit la règle générale du pluriel en français (-s).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.10",
+        "text": "permetterait",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Barbarisme de conjugaison. Le verbe \"permettre\" au conditionnel présent, 3e personne du singulier, s'écrit \"permettrait\" (sans \"e\").",
+        "suggestions": [
+          "permettrait"
+        ],
+        "ruleApplied": "5.3.2.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de conjugaison claire : « permetterait » contient un « e » superflu. La forme correcte est « permettrait ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.11",
+        "text": "soit",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre homophones. L'expression \"chez soi\" (pronom personnel) ne s'écrit pas \"chez soit\" (forme verbale).",
+        "suggestions": [
+          "soi"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'homophonie évidente. L'expression figée « chez soi » exige le pronom « soi ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.12",
+        "text": "mets",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord du verbe. Avec le sujet \"on\" (3e personne du singulier), le verbe \"mettre\" doit s'écrire \"met\" (sans \"s\").",
+        "suggestions": [
+          "met"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de conjugaison : le pronom « on » exige un verbe à la 3e personne du singulier (« met », non « mets »).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.13",
+        "text": "éviter",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion infinitif/participe passé. Après l'auxiliaire \"être\", il faut le participe passé \"évité\" (non l'infinitif \"éviter\"). Le participe reste invariable ici car le sujet est masculin singulier.",
+        "suggestions": [
+          "évité"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur grammaticale classique : avec l'auxiliaire « être » à la forme passive, on doit utiliser le participe passé, non l'infinitif.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.14",
+        "text": "soit",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "(G)",
+        "description": "Confusion entre homophones. L'expression \"chez soi\" (pronom personnel) ne s'écrit pas \"chez soit\" (forme verbale). Deuxième occurrence.",
+        "suggestions": [
+          "soi"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de l'erreur d'homophonie « soit/soi » (deuxième occurrence).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.15",
+        "text": "lieux",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion entre homophones. La locution prépositionnelle est \"au lieu de\" (singulier), non \"au lieux de\".",
+        "suggestions": [
+          "lieu"
+        ],
+        "ruleApplied": "5.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'usage : l'expression figée « au lieu de » s'écrit toujours au singulier.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.16",
+        "text": "jetter",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage. Le verbe \"jeter\" s'écrit avec un seul \"t\" à l'infinitif.",
+        "suggestions": [
+          "jeter"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente : le verbe « jeter » ne prend qu'un seul « t » à l'infinitif.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.17",
+        "text": "acheter",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion infinitif/participe passé. Le participe passé \"achetés\" (employé comme adjectif) doit s'accorder avec \"aliments et produits\" (masculin pluriel).",
+        "suggestions": [
+          "achetés"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur grammaticale : le participe passé employé comme épithète doit s'accorder avec le nom pluriel « aliments et produits ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.18",
+        "text": "bon",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif \"bon\" doit s'accorder en nombre avec le nom pluriel \"conseils\" : \"de très bons conseils\".",
+        "suggestions": [
+          "bons"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord manifeste : l'adjectif épithète doit s'accorder avec le nom pluriel « conseils ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.19",
+        "text": "soit",
+        "occurenceIndex": 2,
+        "criteria": 5,
+        "type": "(G)",
+        "description": "Confusion entre homophones. L'expression \"chez soi\" (pronom personnel) ne s'écrit pas \"chez soit\" (forme verbale). Troisième occurrence.",
+        "suggestions": [
+          "soi"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de l'erreur d'homophonie « soit/soi » (troisième occurrence).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.20",
+        "text": "soins",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage. L'expression idiomatique \"avec soin\" s'écrit au singulier.",
+        "suggestions": [
+          "soin"
+        ],
+        "ruleApplied": "5.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "L'expression figée « avec soin » s'emploie au singulier en français standard.",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 1,
+      "note": "A"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 20,
+      "note": "E"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 21,
+      "vraisErreurs": 21,
+      "discutables": 0,
+      "fauxPositifs": 0
+    }
+  },
+  "startTimestamp": "2025-12-12T11:38:42.217Z",
+  "endTimestamp": "2025-12-12T11:39:28.913Z",
+  "durationMs": 46696,
+  "durationFormatted": "00:46:696"
+}

@@ -1,0 +1,209 @@
+{
+  "processedAt": "2025-12-12T11:38:15.443Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_047.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_047.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "»,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une espace superflue sépare le guillemet fermant de la virgule qui le suit. La virgule doit être collée au mot ou au signe de ponctuation qui la précède.",
+        "suggestions": [
+          "»,"
+        ],
+        "ruleApplied": "4.2.1.5",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "La typographie française standard n'exige pas d'espace entre un guillemet fermant et une virgule. Cependant, en consultant le texte original, il n'y a pas d'espace visible entre '»' et ',' dans 'FlashFood (1)' ni ailleurs. Cette erreur semble être un artefact de détection.",
+        "counterArgument": "En vérifiant le texte source, les guillemets fermants sont correctement collés aux virgules qui les suivent. Il n'y a pas d'espace superflue visible dans le texte fourni. Cette détection est probablement un faux positif généré par l'analyse automatique."
+      },
+      {
+        "id": "erreur4.2",
+        "text": "»,",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une espace superflue sépare le guillemet fermant de la virgule qui le suit. La virgule doit être collée au mot ou au signe de ponctuation qui la précède.",
+        "suggestions": [
+          "»,"
+        ],
+        "ruleApplied": "4.2.1.5",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Même constat que pour erreur4.1 : aucune espace superflue n'est visible dans le texte original entre les guillemets fermants et les virgules.",
+        "counterArgument": "Le texte ne présente pas d'espace superflue entre les guillemets fermants et les virgules. Cette détection est un artefact technique sans fondement dans le texte réel."
+      },
+      {
+        "id": "erreur4.3",
+        "text": ":",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le deux-points est incorrect après la conjonction de subordination 'comme'. Une virgule est attendue pour séparer la subordonnée de la proposition principale.",
+        "suggestions": [
+          ","
+        ],
+        "ruleApplied": "4.2.2.7.2",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Le deux-points après 'comme le suggère RECYC-QUÉBEC' introduit une énumération d'exemples concrets. C'est un usage correct et courant en français.",
+        "counterArgument": "Le deux-points est ici parfaitement approprié. La structure 'comme le suggère X :' suivie d'une énumération ou d'exemples est un usage standard du deux-points pour introduire des éléments annoncés. Le deux-points a une fonction d'introduction explicative qui est tout à fait correcte dans ce contexte. La virgule serait incorrecte car elle ne permettrait pas d'introduire l'énumération qui suit ('adopter des habitudes comme planifier ses repas et se faire une liste d'épicerie')."
+      },
+      {
+        "id": "erreur4.4",
+        "text": "goûte les pommes",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction du verbe 'goûter' est incorrecte pour exprimer la saveur. Il faut utiliser une tournure comme 'ait le goût de pomme' ou 'goûte la pomme' (au sens d'avoir un goût de pomme).",
+        "suggestions": [
+          "ait le goût de pomme",
+          "goûte la pomme"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "L'usage de 'goûter' avec un complément direct pour exprimer 'avoir le goût de' est familier mais attesté à l'oral et dans un registre courant. Le contexte du texte (style direct, ton engageant) le rend acceptable.",
+        "counterArgument": "Bien que 'avoir le goût de' soit plus standard, la construction 'goûter + complément' pour signifier 'avoir le goût de' est largement répandue dans l'usage québécois familier et courant. Dans ce texte au ton engageant et direct ('Soyez honnêtes', 'n'est-ce pas ?'), ce choix lexical reflète un registre volontairement accessible et correspond au style de l'auteur. De plus, plusieurs dictionnaires reconnaissent cet emploi transitif de 'goûter' au sens d'avoir la saveur de quelque chose."
+      },
+      {
+        "id": "erreur4.5",
+        "text": "«Gaspillage alimentaire »",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "L'usage des guillemets français (« ») requiert une espace insécable après le guillemet ouvrant et avant le guillemet fermant.",
+        "suggestions": [
+          "« Gaspillage alimentaire »"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Les règles typographiques françaises exigent une espace insécable à l'intérieur des guillemets français. C'est une norme formelle clairement établie.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "adoptaient",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec son sujet « chaque maisonnée », qui est à la troisième personne du singulier.",
+        "suggestions": [
+          "adoptait"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord grammatical évidente. Le déterminant 'chaque' impose toujours le singulier au nom et au verbe qui suit.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "sont",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec son sujet, le groupe infinitif « adopter des habitudes comme planifier ses repas et se faire une liste d'épicerie », qui correspond à un sujet singulier.",
+        "suggestions": [
+          "est"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Un verbe à l'infinitif employé comme sujet impose toujours l'accord au singulier, même si le complément de l'infinitif est au pluriel ('des habitudes').",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "évitera",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec son sujet « les quelques minutes », qui est à la troisième personne du pluriel.",
+        "suggestions": [
+          "éviteront"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord claire. Le sujet 'les quelques minutes' est au pluriel et exige un verbe au pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "familles en familles",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Dans la structure « de nom en nom », le nom reste au singulier.",
+        "suggestions": [
+          "famille en famille"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle grammaticale fixe : dans les locutions distributives 'de X en X', le nom reste toujours au singulier (de jour en jour, d'année en année, etc.).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "ils",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom 'ils' reprend le sujet 'chaque maisonnée', qui est un nom féminin singulier. Le pronom de reprise doit donc être 'elle'.",
+        "suggestions": [
+          "elle"
+        ],
+        "ruleApplied": "5.3.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de reprise pronominale. Le pronom doit respecter le genre et le nombre de son antécédent ('chaque maisonnée' = féminin singulier).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "Les affaires",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le titre du journal 'Les Affaires' requiert une majuscule au nom commun qui le compose, conformément aux conventions typographiques pour les titres de périodiques.",
+        "suggestions": [
+          "Les Affaires"
+        ],
+        "ruleApplied": "5.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "'Les Affaires' est le titre officiel d'un journal québécois qui s'écrit avec une majuscule à 'Affaires'. C'est vérifiable et non négociable.",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 1,
+      "note": "A"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 5,
+      "note": "B"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 11,
+      "vraisErreurs": 6,
+      "discutables": 1,
+      "fauxPositifs": 4
+    }
+  },
+  "startTimestamp": "2025-12-12T11:37:36.494Z",
+  "endTimestamp": "2025-12-12T11:38:15.443Z",
+  "durationMs": 38949,
+  "durationFormatted": "00:38:949"
+}

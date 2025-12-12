@@ -1,0 +1,640 @@
+{
+  "processedAt": "2025-12-12T11:40:51.502Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_073.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_073.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": ".",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Présence erronée d'un point avant la référence entre parenthèses. La ponctuation finale de la phrase doit être placée après la parenthèse.",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique claire et standardisée pour les citations avec références entre parenthèses.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": ".",
+        "occurenceIndex": 2,
+        "criteria": 4,
+        "type": "P",
+        "description": "Présence erronée d'un point avant la référence entre parenthèses. La ponctuation finale de la phrase doit être placée après la parenthèse.",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique claire et standardisée pour les citations avec références entre parenthèses.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "(Simard, 2020)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence du point final pour clore la phrase.",
+        "suggestions": [
+          "(Simard, 2020)."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Toute phrase doit se terminer par un point. Règle fondamentale de ponctuation.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "four",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Calque de l'anglais « for ». En français, l'expression consacrée est « 2 pour 1 ».",
+        "suggestions": [
+          "pour"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Calque évident de l'anglais. L'expression française standardisée est « 2 pour 1 ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "Ils existent",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction boiteuse. La tournure impersonnelle « il existe » est invariable et son sujet apparent « il » ne peut être remplacé par « ils ».",
+        "suggestions": [
+          "Il existe"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute grammaticale claire. Le verbe impersonnel « exister » ne peut être conjugué au pluriel avec « ils ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": ".",
+        "occurenceIndex": 4,
+        "criteria": 4,
+        "type": "P",
+        "description": "Présence erronée d'un point avant la référence entre parenthèses. La ponctuation finale de la phrase doit être placée après la parenthèse.",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique claire et standardisée pour les citations avec références entre parenthèses.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "les plusieurs aspects",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Mot superflu. Le déterminant indéfini « plusieurs » ne peut être précédé de l'article défini « les ».",
+        "suggestions": [
+          "plusieurs aspects"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute syntaxique évidente. « Plusieurs » est un déterminant qui ne peut être précédé de l'article défini.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "En effet, une experte en lutte\n\ncontre le gaspillage alimentaire au nom de Florence-Léa Siry",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La phrase est incomplète. Il manque la suite après le groupe nominal.",
+        "suggestions": [
+          "(phrase à compléter)"
+        ],
+        "ruleApplied": "4.1.2.1.4",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "En relisant le texte original, la phrase continue effectivement avec « nous informe que... ». La phrase est complète mais mal formatée avec un saut de ligne.",
+        "counterArgument": "Cette phrase n'est pas réellement incomplète. Le texte continue avec « nous informe que la moitié du gaspillage alimentaire... ». Le problème apparent est causé par un saut de ligne entre « lutte » et « contre », mais la structure syntaxique complète est présente : sujet (une experte) + verbe (informe) + complément."
+      },
+      {
+        "id": "erreur4.9",
+        "text": "(RECYC-QUÉBEC, 2021)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une phrase doit se terminer par un point. Le point final doit être placé après la parenthèse fermante de la référence.",
+        "suggestions": [
+          "(RECYC-QUÉBEC, 2021)."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Toute phrase doit se terminer par un point. Règle fondamentale de ponctuation.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.10",
+        "text": "En effet, les commerçants ont un grand rôle pour la\n\nlutte contre le gaspillage.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "La phrase est incomplète. Il manque la fin de la phrase après la préposition « la ». Une seule erreur de syntaxe est comptée par phrase.",
+        "suggestions": [
+          "(phrase à compléter)"
+        ],
+        "ruleApplied": "4.1.2.1.4",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "En relisant le texte original, la phrase est complète : « les commerçants ont un grand rôle pour la lutte contre le gaspillage ». Le saut de ligne entre « la » et « lutte » crée une fausse impression d'incomplétude.",
+        "counterArgument": "Cette phrase est syntaxiquement complète. La structure est : sujet (les commerçants) + verbe (ont) + complément (un grand rôle pour la lutte contre le gaspillage). Le problème apparent est uniquement dû à un saut de ligne entre « la » et « lutte », mais cela ne constitue pas une erreur syntaxique."
+      },
+      {
+        "id": "erreur4.11",
+        "text": "Bizarrement, au Québec et un peu partous dans le monde, ne sont pas appréciés par les clients",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La phrase est construite sans sujet explicite pour le verbe « sont appréciés ». Il manque le groupe sujet (par exemple : « les fruits et légumes moches »).",
+        "suggestions": [
+          "(ajouter un sujet)"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Phrase sans sujet grammatical explicite. Faute syntaxique évidente qui nuit à la compréhension.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.12",
+        "text": "(Cameron, 2020)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une phrase doit se terminer par un point.",
+        "suggestions": [
+          "(Cameron, 2020)."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Toute phrase doit se terminer par un point. Règle fondamentale de ponctuation.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.13",
+        "text": "(Roy, 2018)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une phrase doit se terminer par un point.",
+        "suggestions": [
+          "(Roy, 2018)."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Toute phrase doit se terminer par un point. Règle fondamentale de ponctuation.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "penses",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe « penser » à la première personne du singulier de l'indicatif présent se conjugue « pense », sans « s » final.",
+        "suggestions": [
+          "pense"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de conjugaison évidente. Les verbes du premier groupe à la première personne du singulier ne prennent jamais de « s ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "capable",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif attribut « capable » doit s'accorder en nombre avec le sujet « nous » (pluriel).",
+        "suggestions": [
+          "capables"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accord évidente. L'adjectif attribut doit s'accorder avec le sujet « nous » qui est pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "apliquer",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Graphie erronée du verbe « appliquer » qui s'écrit avec deux « p ».",
+        "suggestions": [
+          "appliquer"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. Le verbe « appliquer » s'écrit toujours avec deux « p ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "pourrait",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe « pouvoir » doit s'accorder avec son sujet « qui », pronom relatif reprenant « plusieurs aspects » (3e personne du pluriel).",
+        "suggestions": [
+          "pourraient"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. Le pronom relatif « qui » reprend « plusieurs aspects », donc le verbe doit être au pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "maniéres",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot « manières » requiert un accent grave sur le « e ».",
+        "suggestions": [
+          "manières"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. Le mot « manières » s'écrit avec un accent grave sur le deuxième « e ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "surtous",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'adverbe « surtout » est invariable et ne prend jamais de « s » final.",
+        "suggestions": [
+          "surtout"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. Les adverbes sont invariables et « surtout » ne prend jamais de marque du pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "fait",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « fait », employé comme adjectif, doit s'accorder en genre et en nombre avec le nom qu'il qualifie, « la moitié » (féminin singulier).",
+        "suggestions": [
+          "faite"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accord évidente. Le participe passé employé comme adjectif s'accorde avec le nom « moitié » (féminin singulier).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "consomateurs",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Graphie erronée du mot « consommateurs » qui s'écrit avec deux « m ».",
+        "suggestions": [
+          "consommateurs"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. Le mot « consommateurs » s'écrit avec deux « m ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "maniéres",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Répétition de la même erreur d'usage : le mot « manières » requiert un accent grave sur le « e ».",
+        "suggestions": [
+          "manières"
+        ],
+        "ruleApplied": "5.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de la même faute d'orthographe. Le mot « manières » s'écrit avec un accent grave sur le deuxième « e ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.10",
+        "text": "congilateur",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot « congélateur » requiert un accent aigu sur le premier « e ».",
+        "suggestions": [
+          "congélateur"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. Le mot « congélateur » s'écrit avec un accent aigu sur le deuxième « e ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.11",
+        "text": "sa",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le déterminant possessif « sa » et le pronom démonstratif « ça » (forme contractée de « cela »).",
+        "suggestions": [
+          "ça"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion évidente entre deux homophones. Le contexte exige le pronom « ça » et non le déterminant possessif « sa ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.12",
+        "text": "suggére",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le verbe « suggérer » requiert un accent grave sur le deuxième « e » à cette forme conjuguée.",
+        "suggestions": [
+          "suggère"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. Le verbe « suggérer » à la troisième personne du singulier prend un accent grave sur le deuxième « e ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.13",
+        "text": "partous",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'adverbe « partout » est invariable et ne prend jamais de « s » final.",
+        "suggestions": [
+          "partout"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. Les adverbes sont invariables et « partout » ne prend jamais de marque du pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.14",
+        "text": "celà",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le pronom démonstratif « cela » ne prend jamais d'accent grave.",
+        "suggestions": [
+          "cela"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. Le pronom « cela » s'écrit sans accent.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.15",
+        "text": "reflete",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le verbe « refléter » requiert un accent grave sur le deuxième « e » à cette forme conjuguée.",
+        "suggestions": [
+          "reflète"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. Le verbe « refléter » à la troisième personne du singulier prend un accent grave sur le deuxième « e ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.16",
+        "text": "encourage",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe « encourager » doit s'accorder avec son sujet « beaucoup de campagnes de publicité » (3e personne du pluriel).",
+        "suggestions": [
+          "encouragent"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accord évidente. Avec « beaucoup de + nom pluriel », le verbe s'accorde généralement au pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.17",
+        "text": "voie",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le nom féminin « voie » et la forme verbale « voit » (verbe voir, 3e personne du singulier de l'indicatif présent).",
+        "suggestions": [
+          "voit"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion évidente entre deux homophones. Le contexte exige le verbe « voit » et non le nom « voie ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.18",
+        "text": "dattes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion entre l'homophone « dattes » (le fruit) et « dates » (le moment dans le temps).",
+        "suggestions": [
+          "dates"
+        ],
+        "ruleApplied": "5.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion évidente entre deux homophones. Le contexte (dates limites de conservation) exige « dates » et non « dattes » (le fruit).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.19",
+        "text": "limite",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « limite » doit s'accorder en nombre avec le nom qu'il qualifie, « dates » (pluriel).",
+        "suggestions": [
+          "limites"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accord évidente. L'adjectif « limite » doit s'accorder avec le nom « dates » qui est au pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.20",
+        "text": "internets",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom propre « Internet », lorsqu'il est employé comme adjectif, est invariable.",
+        "suggestions": [
+          "internet"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Faute d'accord probable, bien que l'emploi d'« Internet » comme adjectif soit débattu. L'usage moderne privilégie « internet » en minuscule et invariable.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.21",
+        "text": "formé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « formé », employé comme adjectif, doit s'accorder en nombre avec le groupe nominal qu'il qualifie, « des fruits et des légumes » (masculin pluriel).",
+        "suggestions": [
+          "formés"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accord évidente. Le participe passé employé comme adjectif s'accorde avec « fruits et légumes » (masculin pluriel).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.22",
+        "text": "fini",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « fini », employé comme adjectif, doit s'accorder en genre avec le groupe nominal qu'il qualifie, « une datte limite » (féminin singulier).",
+        "suggestions": [
+          "finie"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accord évidente. Le participe passé employé comme adjectif s'accorde avec « datte » (féminin singulier), bien que le mot correct soit « date ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.23",
+        "text": "abusive",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « abusive » doit s'accorder en genre avec le nom qu'il qualifie, « gaspillage » (masculin singulier).",
+        "suggestions": [
+          "abusif"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accord évidente. L'adjectif doit s'accorder avec le nom masculin « gaspillage ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.24",
+        "text": "consignes là",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'adverbe de lieu « là », lorsqu'il est joint à un nom pour le renforcer, doit être lié à ce nom par un trait d'union.",
+        "suggestions": [
+          "consignes-là"
+        ],
+        "ruleApplied": "5.2.1.7.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle claire de l'orthographe française. Le « là » démonstratif attaché à un nom exige un trait d'union.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.25",
+        "text": "four",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion avec le mot anglais « for ». En français, la préposition est « pour ».",
+        "suggestions": [
+          "pour"
+        ],
+        "ruleApplied": "5.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Calque évident de l'anglais. C'est la même erreur que erreur4.4, mais comptée comme erreur d'usage ici.",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 11,
+      "note": "D"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 24,
+      "note": "E"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 38,
+      "vraisErreurs": 36,
+      "discutables": 0,
+      "fauxPositifs": 2
+    }
+  },
+  "startTimestamp": "2025-12-12T11:39:24.403Z",
+  "endTimestamp": "2025-12-12T11:40:51.501Z",
+  "durationMs": 87098,
+  "durationFormatted": "01:27:098"
+}

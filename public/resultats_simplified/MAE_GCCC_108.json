@@ -1,0 +1,287 @@
+{
+  "processedAt": "2025-12-10T14:54:27.812Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_108.txt",
+    "originalText": "Vers une lutte contre le gaspillage alimentaire\r\n\r\nDepuis la préhistoire, l'agriculture a permis à l'homme de se sédentariser et de ne pas se déplacer pour aller chercher de la nourriture. Cela nous a aussi permis de faire pousser des plantes et à élever des animaux. Grâce à de nouvelles inventions, on produit en surabondance de la nourriture et on s'en débarrasse d'une grande quantité. Cependant, sommes-nous vraiment prêts à lutter contre le gaspillage alimentaire? À mon avis, nous pourrons réaliser cette lutte. Je tenterais à vous convaincre dans les lignes qui suivent.\r\n\r\nTout d'abord, nous serions capables de lutter contre la dilapidation alimentaire puisqu'il existe des organismes qui récupèrent le surplus d'aliments. En effet, lorsqu'on y va faire nos épiceries, on achète ceux qui sont «parfaits». À la place de jeter les nourritures restantes, certains épiceries les donnent aux banques alimentaires pour qu'elles les redistribuent aux plus démunis. Non seulement que ça évite le gaspillage, mais ça aide aussi à\r\n\r\npréserver l'environnement. Par exemple, le magasin Walmart, un des magasins les plus reconnus en Amérique du Nord par ses faibles prix de marchandise, donne leur excès de nourritures à Opération Enfants Soleil, un organisme qui aide les enfants à se nourrir. Si Walmart n'allait pas signer un contrat avec ce groupe communautaire, ce grand magasin pourrait être l'un des épiceries qui gaspilleront le plus des résidus évitables. Selon RECYC-QUÉBEC, il existe d'autres plateformes comme FlashFood, Food Hero ou Seconlife qui permettent d'acheter à un prix bas de la nourriture dont la date d'expiration s'approche (RECYC-QUÉBEC, 2021). Même si que la date limite de conservation est passée, ces produits sont toujours comestibles. Ce n'est pas la date qui compte, mais plutôt la qualité. Bref, s'il y a présentement des organismes qui prennent les restes de table et les redistribuent à la population, ça veut dire que nous sommes effectivement prêts à lutter contre la perte alimentaire.\r\n\r\nEnsuite, en mieux conservant nos aliments à la maison, il est certain qu'on pourrait lutter contre la nourriture inutilement jetée. À la maison, il est possible de ne pas trop gaspiller. D'après le conseil recommandé par RECYC-QUÉBEC, « Pour limiter le gaspillage, il est conseillé : de planifier les repas et de faire une liste d'épicerie; d'acheter en quantités raisonnables; de faire cuire les fruits et légumes trop mûrs; de congeler les restes en portions individuelles. » (RECYC-QUÉBEC, 2022). C'est un conseil que je trouve parfait! À la maison, ce qui est formidable, c'est qu'on peut transformer nos surplus de nourritures en d'autres nourritures ou produits. On pourrait même jeter nos résidus inévitables et pourris ou compostable. En les jetant au compostage, ça permet de ne pas polluer notre planète et ça permet aussi de lutter contre le gaspillage.\r\n\r\nEn somme, posons-nous la question une dernière fois : sommes-nous prêts à lutter contre le gaspillage alimentaire ? La réponse est effectivement oui. En s'alimentant bien de façon raisonnable, nous pouvons\r\n\r\npréserver nos ressources dépendantes. La nourriture n'est pas un privilège, mais un respect.",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "et à élever",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition \"à\" est incorrecte. Le verbe \"permettre\" se construit avec la préposition \"de\" devant l'infinitif. La coordination de deux infinitifs compléments de \"permettre de\" doit conserver la même structure prépositionnelle (\"de faire [...] et d'élever\").",
+        "suggestions": [
+          "et d'élever",
+          "et élever"
+        ],
+        "ruleApplied": "4.1.2.1.8"
+      },
+      {
+        "id": "erreur4.2",
+        "text": "tenterais à",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction du verbe \"tenter\" est incorrecte. Il faut utiliser la préposition \"de\" et non \"à\". De plus, le temps de verbe est erroné; le futur simple (\"tenterai\") est requis pour exprimer une action à venir, et non le conditionnel présent (\"tenterais\").",
+        "suggestions": [
+          "tenterai de"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "id": "erreur4.3",
+        "text": "nos épiceries",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression \"faire nos épiceries\" est un calque de l'anglais \"to do our groceries\". Les expressions correctes en français sont \"faire notre épicerie\", \"faire nos courses\" ou \"faire l'épicerie\".",
+        "suggestions": [
+          "notre épicerie",
+          "nos courses"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "id": "erreur4.4",
+        "text": "À la place de",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution prépositive \"à la place de\" est un calque de l'anglais \"in place of\". Il faut utiliser \"au lieu de\".",
+        "suggestions": [
+          "Au lieu de"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "id": "erreur4.5",
+        "text": "Non seulement que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le subordonnant \"que\" est superflu dans la locution \"Non seulement\". La structure correcte est \"Non seulement cela évite...\".",
+        "suggestions": [
+          "Non seulement cela"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "id": "erreur4.6",
+        "text": "par",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "La préposition \"par\" est incorrecte dans ce contexte. On est \"reconnu pour\" une qualité ou une caractéristique. Une erreur de syntaxe (S) ayant déjà été comptabilisée dans cette phrase syntaxique, celle-ci n'est pas comptée.",
+        "suggestions": [
+          "pour"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "id": "erreur4.7",
+        "text": "leur",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le déterminant possessif \"leur\" (pluriel) renvoie à un antécédent singulier, \"le magasin Walmart\". Il faut utiliser le déterminant singulier \"son\".",
+        "suggestions": [
+          "son"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "id": "erreur4.8",
+        "text": "Même si que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le subordonnant \"que\" est superflu dans la locution conjonctive \"Même si\".",
+        "suggestions": [
+          "Même si"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "id": "erreur4.9",
+        "text": "ça veut dire",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression \"ça veut dire\" relève du registre familier. Dans un texte de niveau de langue standard ou soutenu, il est préférable d'utiliser \"cela veut dire\" ou \"ce qui signifie\".",
+        "suggestions": [
+          "cela veut dire",
+          "ce qui signifie"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "id": "erreur4.10",
+        "text": "en mieux conservant",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'ordre des mots est incorrect. L'adverbe \"mieux\" doit être placé après le verbe au gérondif qu'il modifie.",
+        "suggestions": [
+          "en conservant mieux"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "id": "erreur4.11",
+        "text": "conseil recommandé",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il s'agit d'un pléonasme, une répétition d'idées. Un conseil est par nature une recommandation. Il faut utiliser soit \"le conseil de\", soit \"la recommandation de\".",
+        "suggestions": [
+          "le conseil de",
+          "la recommandation de"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "id": "erreur4.12",
+        "text": "ça permet",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'emploi du pronom \"ça\" est familier. Dans un registre de langue soutenu, il est préférable d'utiliser \"cela\".",
+        "suggestions": [
+          "cela permet"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "id": "erreur4.13",
+        "text": "ça permet",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'emploi du pronom \"ça\" est familier. Dans un registre de langue soutenu, il est préférable d'utiliser \"cela\". Cette erreur se trouve dans une nouvelle phrase syntaxique et est donc comptée.",
+        "suggestions": [
+          "cela permet"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "id": "erreur4.14",
+        "text": "ressources dépendantes",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression \"ressources dépendantes\" est sémantiquement incorrecte et ne veut rien dire dans ce contexte. Il est probable que l'auteur voulait dire \"ressources dont nous dépendons\" ou faisait référence à des ressources non renouvelables.",
+        "suggestions": [
+          "ressources dont nous dépendons"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "id": "erreur4.15",
+        "text": "mais un respect",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction met en parallèle \"privilège\" et \"respect\", ce qui est sémantiquement boiteux. Le nom \"respect\" ne s'oppose pas logiquement à \"privilège\" dans cette phrase. Une reformulation est nécessaire pour clarifier le sens, par exemple : \"La nourriture n'est pas un privilège; elle mérite le respect.\"",
+        "suggestions": [
+          "; elle doit être respectée"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "id": "erreur4.16",
+        "text": "des",
+        "occurenceIndex": 5,
+        "criteria": 4,
+        "type": "S",
+        "description": "Après un adverbe de quantité comme \"le plus\", on emploie la préposition \"de\" (ou \"d'\") et non l'article partitif \"des\".",
+        "suggestions": [
+          "de"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "id": "erreur4.17",
+        "text": ":",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "[P]",
+        "description": "Ajout d'un signe de ponctuation (deux-points) dans une citation sans le signaler par des crochets. La construction \"il est conseillé de\" ne requiert généralement pas de deux-points avant l'énumération.",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.6"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 15.5,
+      "note": "D"
+    },
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "certains",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant indéfini \"certains\" doit s'accorder en genre avec le nom qu'il détermine, \"épiceries\" (féminin pluriel).",
+        "suggestions": [
+          "certaines"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.2",
+        "text": "l'un",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom \"l'un\" doit s'accorder en genre avec le nom qu'il représente, \"épiceries\" (féminin pluriel).",
+        "suggestions": [
+          "l'une"
+        ],
+        "ruleApplied": "5.3.1.4"
+      },
+      {
+        "id": "erreur5.3",
+        "text": "Seconlife",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe dans le nom propre de la plateforme, qui est \"SecondLife\".",
+        "suggestions": [
+          "SecondLife"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "id": "erreur5.4",
+        "text": "compostable",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif \"compostable\" doit s'accorder en nombre avec le nom qu'il qualifie, \"résidus\" (masculin pluriel).",
+        "suggestions": [
+          "compostables"
+        ],
+        "ruleApplied": "5.3.1.1"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 4,
+      "note": "A"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:50:23.114Z",
+    "endTimestamp": "2025-12-10T14:54:27.812Z",
+    "durationMs": 244698,
+    "durationFormatted": "04:04:698"
+  }
+}

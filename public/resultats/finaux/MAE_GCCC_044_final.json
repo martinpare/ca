@@ -1,0 +1,456 @@
+{
+  "processedAt": "2025-12-12T11:38:30.984Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_044.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_044.txt",
+    "registreIdentifie": "soutenu",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "plusieurs temps",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression 'depuis plusieurs temps' est une construction fautive. On utilise les expressions 'depuis quelque temps' ou 'depuis un certain temps'.",
+        "suggestions": [
+          "quelque temps",
+          "un certain temps"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Expression figée incorrecte. 'Depuis plusieurs temps' n'est pas attesté en français standard. Les expressions consacrées sont 'depuis quelque temps' ou 'depuis un certain temps'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "est \"Sommes-nous prêts à lutter contre le gaspillage alimentaire?\"",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Pour introduire une question directe qui suit le verbe 'être', il manque un mot introducteur comme 'la suivante', suivi des deux-points. De plus, les guillemets anglais (\") doivent être remplacés par des guillemets français (« »).",
+        "suggestions": [
+          "est la suivante : « Sommes-nous prêts à lutter contre le gaspillage alimentaire? »"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "La construction elliptique 'la question est [citation directe]' est acceptée dans certains registres, notamment journalistique. Cependant, l'usage des guillemets anglais demeure incorrect.",
+        "counterArgument": "La construction sans mot introducteur ('la vraie question est \"...\"') est courante à l'oral et dans certains contextes écrits informels ou journalistiques. Elle crée un effet de spontanéité. Toutefois, en contexte scolaire soutenu, l'ajout de 'la suivante :' améliore la clarté. Le vrai problème reste les guillemets anglais."
+      },
+      {
+        "id": "erreur4.3",
+        "text": "oui",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une phrase doit se terminer par un signe de ponctuation finale. Il manque un point à la fin de cette phrase.",
+        "suggestions": [
+          "oui."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Absence évidente de ponctuation finale. Toute phrase doit se terminer par un signe de ponctuation approprié.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "\"",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "L'utilisation des guillemets anglais (\") est incorrecte. En français, on doit utiliser les guillemets typographiques (« ») avec des espaces insécables à l'intérieur.",
+        "suggestions": [
+          "«"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Les guillemets français (« ») sont obligatoires en français standard. Les guillemets anglais (\") sont incorrects.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "\"",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "(P)",
+        "description": "L'utilisation des guillemets anglais (\") est incorrecte. Il s'agit du guillemet fermant de la paire.",
+        "suggestions": [
+          "»"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de l'erreur précédente. Guillemet fermant anglais au lieu du guillemet français.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "améliorer votre perte de nourriture",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression 'améliorer votre perte de nourriture' est sémantiquement incorrecte. On cherche à réduire le gaspillage, non à 'améliorer la perte'. Il faut reformuler pour clarifier le sens.",
+        "suggestions": [
+          "réduire votre gaspillage alimentaire",
+          "améliorer votre gestion des aliments"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Contradiction sémantique flagrante. On ne peut pas 'améliorer une perte' dans ce contexte. Le sens voulu est clairement 'réduire le gaspillage'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "À la place",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression 'À la place' est une tournure relevant de la langue parlée. Dans un registre de langue soutenu, il est préférable d'utiliser 'Plutôt' ou 'Au lieu de cela'.",
+        "suggestions": [
+          "Plutôt",
+          "Au lieu de cela"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "'À la place' en début de phrase pour signifier 'au contraire' est familier mais compréhensible. Dans un texte argumentatif scolaire, une formulation plus soutenue est préférable.",
+        "counterArgument": "L'expression 'À la place' pour introduire une opposition est courante à l'oral et dans certains registres écrits. Bien qu'elle soit moins formelle que 'Plutôt' ou 'Au lieu de cela', elle demeure compréhensible et pourrait être un choix stylistique pour marquer une proximité avec le lecteur dans un texte argumentatif."
+      },
+      {
+        "id": "erreur4.8",
+        "text": "Autre que l'évident",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression 'Autre que' est ici un calque de l'anglais 'Other than'. En français, on utilise 'Outre' ou 'En plus de'.",
+        "suggestions": [
+          "Outre l'évidence",
+          "En plus de l'évidence"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Calque évident de l'anglais 'Other than'. L'expression française correcte est 'Outre' ou 'En plus de'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "questionner sur",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe 'questionner' est transitif direct ('questionner quelque chose'). Son emploi avec la préposition 'sur' est incorrect. On peut utiliser 'm'interroger sur' ou reformuler la phrase.",
+        "suggestions": [
+          "m'interroger sur"
+        ],
+        "ruleApplied": "4.1.2.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de construction verbale. 'Questionner' est transitif direct. Pour la construction avec 'sur', on utilise 's'interroger sur'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.10",
+        "text": "ton",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il y a une rupture dans l'énonciation. L'auteur s'adressait au lecteur en utilisant 'vous' (voir 'votre perte de nourriture') et passe subitement au tutoiement ('ton quartier'). Il faut maintenir la cohérence en utilisant le même pronom d'adresse.",
+        "suggestions": [
+          "votre"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Rupture d'énonciation claire. Le texte utilise 'vous' puis passe à 'tu'. L'incohérence dans l'interpellation du lecteur est une faute manifeste.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.11",
+        "text": "prendre action",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression 'prendre action' est un calque de l'anglais 'to take action'. Les tournures françaises correctes sont 'passer à l'action' ou 'agir'.",
+        "suggestions": [
+          "passer à l'action",
+          "agir"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Calque évident de l'anglais 'to take action'. L'expression française est 'passer à l'action' ou simplement 'agir'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.12",
+        "text": "se combattre face à cette lutte",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette construction est boiteuse et redondante. On 'se bat dans' une lutte ou on 'combat' un problème. L'expression 'se combattre face à' est incorrecte.",
+        "suggestions": [
+          "lutter",
+          "se battre dans cette lutte"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction syntaxique incorrecte et redondante. 'Se combattre face à une lutte' mélange improprement les constructions verbales.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.13",
+        "text": ".",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Un point ne doit pas être utilisé pour séparer le nom de l'auteur du titre dans une référence bibliographique. Une virgule ou l'absence de ponctuation est attendue.",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.1.2",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "En réalité, le point après le nom d'auteur est accepté dans plusieurs styles bibliographiques reconnus, notamment les normes APA et autres.",
+        "counterArgument": "Le point après le nom de l'auteur dans une référence bibliographique est parfaitement acceptable et même standard dans plusieurs systèmes de citation reconnus (APA, Chicago, etc.). La ponctuation bibliographique varie selon les normes adoptées, et ce choix n'est pas fautif. Cette erreur est un faux positif."
+      },
+      {
+        "id": "erreur4.14",
+        "text": "\",",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(P)",
+        "description": "Le guillemet fermant est un guillemet anglais (\") au lieu d'un guillemet français («). De plus, la virgule qui suit la citation doit être placée après le guillemet fermant, et non avant.",
+        "suggestions": [
+          "»,"
+        ],
+        "ruleApplied": "4.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double erreur : guillemets anglais au lieu de français, et position de la virgule incorrecte selon les normes françaises (la virgule se place après le guillemet fermant).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.15",
+        "text": "réalisable!",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Présence erronée d'un point d'exclamation à la fin d'un titre qui constitue une simple affirmation.",
+        "suggestions": [
+          "réalisable."
+        ],
+        "ruleApplied": "4.2.2.3.2",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Dans les titres accrocheurs de textes argumentatifs, le point d'exclamation peut être un choix stylistique pour marquer l'enthousiasme ou l'optimisme. Cependant, un ton plus neutre serait préférable en contexte scolaire formel.",
+        "counterArgument": "Le point d'exclamation dans un titre peut être un choix stylistique délibéré pour créer un effet accrocheur et exprimer l'optimisme de l'auteur face au sujet traité. Dans les textes journalistiques et argumentatifs modernes, cette pratique est courante. Bien qu'un point soit plus neutre et académiquement approprié, l'exclamation n'est pas nécessairement fautive si elle sert l'intention persuasive de l'auteur."
+      },
+      {
+        "id": "erreur4.16",
+        "text": "demande à l'aide",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Préposition erronée. Le verbe \"demander\" se construit avec la préposition \"de\" dans l'expression \"demander de l'aide\".",
+        "suggestions": [
+          "demande de l'aide"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de préposition claire. L'expression figée est 'demander de l'aide', non 'demander à l'aide'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.17",
+        "text": "cette telle maltraitance",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Mot superflu. L'emploi simultané du déterminant démonstratif \"cette\" et de l'indéfini \"telle\" est redondant.",
+        "suggestions": [
+          "cette maltraitance",
+          "une telle maltraitance"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Redondance grammaticale évidente. On utilise soit 'cette', soit 'une telle', mais pas les deux ensemble.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.18",
+        "text": "\"de perfection esthétiques et de fraîcheur des aliments\"",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence des guillemets français (« ») pour encadrer une citation. Les guillemets anglais (\") ne sont pas utilisés en français standard.",
+        "suggestions": [
+          "« de perfection esthétique et de fraîcheur des aliments »"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Utilisation incorrecte des guillemets anglais au lieu des guillemets français obligatoires.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.19",
+        "text": "se forcent",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Calque de l'oral ou anglicisme. L'expression \"se forcer pour\" est incorrecte ; il faut utiliser \"s'efforcer de\".",
+        "suggestions": [
+          "s'efforcent"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur lexicale. 'Se forcer pour' est un calque familier. Le verbe approprié est 's'efforcer de'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.20",
+        "text": "instruire davantage de",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Préposition erronée. Le verbe \"s'instruire\" se construit avec la préposition \"sur\" dans ce contexte. Erreur non comptée car il y a déjà une erreur de syntaxe (S) dans cette phrase syntaxique.",
+        "suggestions": [
+          "instruire davantage sur"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de préposition. 'S'instruire de' est incorrect ; on utilise 's'instruire sur' dans ce contexte.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.21",
+        "text": "tout manger qu'est-ce qui est",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction de phrase boiteuse. La structure \"tout manger qu'est-ce qui est\" est incorrecte. Il faut utiliser \"manger tout ce qui est\".",
+        "suggestions": [
+          "manger tout ce qui est"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction syntaxique incorrecte. 'Qu'est-ce qui' ne peut pas être utilisé ainsi. La forme correcte est 'tout ce qui est'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.22",
+        "text": "prendre place",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Calque d'une langue étrangère (de l'anglais \"to take place\"). Les verbes corrects en français sont \"se produire\" ou \"avoir lieu\".",
+        "suggestions": [
+          "se produire",
+          "avoir lieu"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Calque de l'anglais 'to take place'. Les expressions françaises sont 'avoir lieu' ou 'se produire'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.23",
+        "text": "\"Gaspillage alimentaire: survol des causes et des interventions en cours en matière de prévention au Québec\"",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence des guillemets français (« ») pour encadrer un titre d'article. Les guillemets anglais (\") ne sont pas utilisés en français standard.",
+        "suggestions": [
+          "« Gaspillage alimentaire: survol des causes et des interventions en cours en matière de prévention au Québec »"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Utilisation incorrecte des guillemets anglais au lieu des guillemets français obligatoires.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.24",
+        "text": "(2019)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence du point final à la fin de la référence bibliographique.",
+        "suggestions": [
+          "(2019)."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Une référence bibliographique doit se terminer par un point final, comme toute entrée complète.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "compagnies",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot 'compagnies' est un anglicisme dans ce contexte. Le terme français approprié est 'entreprises'.",
+        "suggestions": [
+          "entreprises"
+        ],
+        "ruleApplied": "5.2.6.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Anglicisme clair. 'Compagnies' pour 'entreprises' est un calque de l'anglais 'companies'. Le terme français approprié est 'entreprises'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "esthétiques",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en genre et en nombre. L'adjectif \"esthétiques\" doit s'accorder au féminin singulier avec son donneur, le nom \"perfection\".",
+        "suggestions": [
+          "esthétique"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord manifeste. L'adjectif 'esthétiques' doit s'accorder avec 'perfection' (féminin singulier), donc 'esthétique'.",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 22,
+      "note": "E"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 2,
+      "note": "A"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 26,
+      "vraisErreurs": 22,
+      "discutables": 3,
+      "fauxPositifs": 1
+    }
+  },
+  "startTimestamp": "2025-12-12T11:37:10.343Z",
+  "endTimestamp": "2025-12-12T11:38:30.984Z",
+  "durationMs": 80641,
+  "durationFormatted": "01:20:641"
+}

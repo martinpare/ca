@@ -1,0 +1,624 @@
+{
+  "processedAt": "2025-12-12T11:44:40.046Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_121.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_121.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "\"",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "L'utilisation des guillemets anglais (\") est incorrecte. En français, il faut utiliser les guillemets typographiques (« »).",
+        "suggestions": [
+          "«"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique claire du français. Les guillemets français (« ») sont la norme en français québécois.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": ",",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une référence bibliographique ou une note de bas de page doit se terminer par un point.",
+        "suggestions": [
+          "."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Convention bibliographique standard. Toute référence complète doit se terminer par un point.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": ",",
+        "occurenceIndex": 2,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une référence bibliographique doit se terminer par un point.",
+        "suggestions": [
+          "."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Convention bibliographique standard. Toute référence complète doit se terminer par un point.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "considéré",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé employé comme adjectif doit s'accorder en genre et en nombre avec le nom qu'il qualifie. Ici, 'considéré' qualifie 'une phrase' (féminin singulier).",
+        "suggestions": [
+          "considérée"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Accord évident du participe passé employé comme adjectif avec 'phrase' (féminin singulier).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "finallement",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'adverbe 'finalement' s'écrit avec un seul 'l'. Il y a une erreur sur le doublement de la consonne.",
+        "suggestions": [
+          "finalement"
+        ],
+        "ruleApplied": "5.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. 'Finalement' s'écrit toujours avec un seul 'l'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "déchêt",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot 'déchet' ne prend pas d'accent circonflexe.",
+        "suggestions": [
+          "déchet"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. 'Déchet' s'écrit sans accent circonflexe.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "pronnent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le verbe 'prôner' prend un accent circonflexe sur le 'o'.",
+        "suggestions": [
+          "prônent"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. 'Prôner' s'écrit toujours avec un accent circonflexe sur le 'o'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "un valeur",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'valeur' est féminin. Le déterminant indéfini doit donc être au féminin.",
+        "suggestions": [
+          "une valeur"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur grammaticale évidente. 'Valeur' est un nom féminin qui requiert le déterminant 'une'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "répetant",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le verbe 'répéter' prend un accent aigu sur le premier 'e'.",
+        "suggestions": [
+          "répétant"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. 'Répéter' conserve son accent aigu au participe présent.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "se qu'on",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Il y a confusion entre le pronom réfléchi 'se' et le pronom démonstratif 'ce'. La forme correcte est 'ce que'.",
+        "suggestions": [
+          "ce qu'on"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion classique entre homophones. Le contexte exige clairement le pronom démonstratif 'ce'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "publié",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'publié' se rapporte à '« Table québécoise sur la saine alimentation »' (féminin singulier, le nom noyau étant 'Table'). Il doit donc s'accorder au féminin.",
+        "suggestions": [
+          "publiée"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le nom noyau 'Table' est féminin singulier, donc le participe passé doit s'accorder.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "essaye",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Barbarisme de conjugaison. Bien que tolérée, la forme correcte du verbe 'essayer' à la troisième personne du singulier de l'indicatif présent est 'essaie'.",
+        "suggestions": [
+          "essaie"
+        ],
+        "ruleApplied": "5.3.2.1",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Les deux graphies 'essaie' et 'essaye' sont acceptées par les dictionnaires de référence (Petit Robert, Larousse).",
+        "counterArgument": "La graphie 'essaye' est reconnue par les dictionnaires de référence comme variante orthographique légitime du verbe 'essayer'. Bien que 'essaie' soit plus courante, 'essaye' n'est pas une erreur selon l'Académie française et les dictionnaires usuels."
+      },
+      {
+        "id": "erreur5.10",
+        "text": "réutilisé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le participe passé '-é' et l'infinitif '-er'. Après la préposition 'de', le verbe doit être à l'infinitif.",
+        "suggestions": [
+          "réutiliser"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle grammaticale claire : après la préposition 'de', le verbe doit être à l'infinitif.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.11",
+        "text": "déchêt",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Répétition de l'erreur d'usage. Le mot 'déchet' ne prend pas d'accent circonflexe.",
+        "suggestions": [
+          "déchet"
+        ],
+        "ruleApplied": "5.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de la même faute d'orthographe identifiée précédemment.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.12",
+        "text": "cèssent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec son sujet 'La progression' (troisième personne du singulier).",
+        "suggestions": [
+          "cesse"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord sujet-verbe évidente. 'La progression' est singulier, donc 'cesse'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.13",
+        "text": "dérnier",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot 'dernier' s'écrit avec un accent grave sur le 'e' et non un accent aigu.",
+        "suggestions": [
+          "dernier"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. 'Dernier' s'écrit avec 'e' sans accent.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.14",
+        "text": "site Web",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'site' doit s'accorder au pluriel car il est précédé de 'de nombreux'.",
+        "suggestions": [
+          "sites Web"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Accord évident avec 'nombreux'. Le contexte exige le pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.15",
+        "text": "résonnable",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'adjectif 'raisonnable' s'écrit avec 'ai' et non 'é'.",
+        "suggestions": [
+          "raisonnable"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. 'Raisonnable' s'écrit avec 'ai' (de 'raison').",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.16",
+        "text": "idéal",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'idéal' doit s'accorder en genre avec le nom qu'il qualifie, 'opportunité' (féminin).",
+        "suggestions": [
+          "idéale"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Accord évident de l'adjectif avec le nom féminin 'opportunité'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.17",
+        "text": "éco responsable",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Absence du trait d'union dans le mot composé 'écoresponsable'.",
+        "suggestions": [
+          "écoresponsable"
+        ],
+        "ruleApplied": "5.2.1.7.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Graphie standardisée du néologisme. Le trait d'union est généralement omis pour former un seul mot soudé.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.18",
+        "text": "innevitable",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot 'inévitable' s'écrit avec un seul 'n' et un accent aigu sur le 'e'.",
+        "suggestions": [
+          "inévitable"
+        ],
+        "ruleApplied": "5.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. 'Inévitable' s'écrit avec un seul 'n' et un accent aigu.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.19",
+        "text": "inovations",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot 'innovations' s'écrit avec deux 'n'.",
+        "suggestions": [
+          "innovations"
+        ],
+        "ruleApplied": "5.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. 'Innovation' s'écrit avec deux 'n'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.20",
+        "text": "lieux",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion entre les homophones lexicaux 'lieu' (endroit, moment) et 'lieux' (pluriel d'endroit). L'expression est 'avoir lieu'.",
+        "suggestions": [
+          "lieu"
+        ],
+        "ruleApplied": "5.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Expression figée. 'Avoir lieu' s'écrit toujours au singulier.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.21",
+        "text": "peux-être",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'adverbe 'peut-être' et la forme verbale 'peux être'. Ici, c'est l'adverbe qui est requis.",
+        "suggestions": [
+          "peut-être"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion évidente entre l'adverbe 'peut-être' (probablement) et la forme verbale. Le contexte exige l'adverbe.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.22",
+        "text": "boulverserra",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le verbe 'bouleverser' s'écrit avec 'le' et non 'l'.",
+        "suggestions": [
+          "bouleversera"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double faute d'orthographe : 'boul' au lieu de 'boule' et 'rr' au lieu de 'r'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.23",
+        "text": "convincue",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot 'convaincue' s'écrit avec 'ain' et non 'in'.",
+        "suggestions": [
+          "convaincue"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. 'Convaincue' (de 'convaincre') s'écrit avec 'ain'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.24",
+        "text": "pourront",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec son sujet 'nous' (première personne du pluriel). La terminaison du futur simple est '-ons'.",
+        "suggestions": [
+          "pourrons"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord sujet-verbe évidente. 'Nous' requiert la terminaison '-ons' au futur.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.25",
+        "text": "geste",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'geste' doit s'accorder au pluriel car il est précédé de la préposition contractée 'aux' (à + les).",
+        "suggestions": [
+          "gestes"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "'Aux' (à + les) indique clairement le pluriel. L'accord est obligatoire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.26",
+        "text": "technologie",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'technologie' doit s'accorder au pluriel car il est précédé de la préposition contractée 'aux' (à + les).",
+        "suggestions": [
+          "technologies"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "'Aux' (à + les) indique clairement le pluriel. L'accord est obligatoire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.27",
+        "text": "optionel",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'adjectif 'optionnel' s'écrit avec deux 'n'.",
+        "suggestions": [
+          "optionnel"
+        ],
+        "ruleApplied": "5.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. 'Optionnel' s'écrit avec deux 'n'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.28",
+        "text": "reviens",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec son sujet 'que', mis pour 'faire la bonne décision' (troisième personne du singulier).",
+        "suggestions": [
+          "revient"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord sujet-verbe. Le pronom relatif 'que' reprend un antécédent singulier.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.29",
+        "text": "decsion",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot 'décision' s'écrit avec 'ci' et un accent aigu sur le 'e'.",
+        "suggestions": [
+          "décision"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. 'Décision' s'écrit avec 'ci' et un accent aigu.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.30",
+        "text": "se",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le pronom réfléchi 'se' et le pronom démonstratif 'ce'. Il faut écrire 'ce que'.",
+        "suggestions": [
+          "ce"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de l'erreur identifiée plus tôt. Confusion classique entre homophones.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.31",
+        "text": "l'avancé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion entre le participe passé 'avancé' et le nom féminin 'avancée'.",
+        "suggestions": [
+          "l'avancée"
+        ],
+        "ruleApplied": "5.2.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le contexte exige le nom féminin 'avancée' (progrès). 'L'avancé technologique' est incorrect.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.32",
+        "text": "cèssent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le verbe 'cesser' ne prend pas d'accent grave.",
+        "suggestions": [
+          "cessent"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe. 'Cesser' s'écrit avec 'e' sans accent, même conjugué.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.33",
+        "text": "l'arrivé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion entre le participe passé 'arrivé' et le nom féminin 'arrivée'.",
+        "suggestions": [
+          "l'arrivée"
+        ],
+        "ruleApplied": "5.2.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le contexte exige le nom féminin 'arrivée'. 'L'arrivé d'Internet' est incorrect.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.34",
+        "text": "d'acheté",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après la préposition 'de' (élidée), le verbe doit être à l'infinitif. Confusion entre le participe passé '-é' et l'infinitif '-er'.",
+        "suggestions": [
+          "d'acheter"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle grammaticale claire : après la préposition 'de', le verbe doit être à l'infinitif.",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 3,
+      "note": "A"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 34,
+      "note": "E"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 37,
+      "vraisErreurs": 36,
+      "discutables": 1,
+      "fauxPositifs": 0
+    }
+  },
+  "startTimestamp": "2025-12-12T11:43:20.968Z",
+  "endTimestamp": "2025-12-12T11:44:40.046Z",
+  "durationMs": 79078,
+  "durationFormatted": "01:19:078"
+}

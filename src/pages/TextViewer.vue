@@ -91,25 +91,9 @@
               <q-item-label header class="text-h6"> Analyse des erreurs </q-item-label>
 
               <!-- Résumé des scores -->
-              <q-item v-if="analysisData">
+              <q-item v-if="analysisData && scoresForDisplay">
                 <q-item-section>
-                  <div class="row q-gutter-sm">
-                    <q-chip color="grey-9" text-color="white" square>
-                      C5: {{ errorsCountC4 }} erreur{{ errorsCountC4 > 1 ? 's' : '' }},
-                      {{ analysisData.result?.scoreCritere4?.pointsPerdus || 0 }} pt{{
-                        analysisData.result?.scoreCritere4?.pointsPerdus > 1 ? 's' : ''
-                      }},
-                      {{ analysisData.result?.scoreCritere4?.note || '-' }}
-                    </q-chip>
-
-                    <q-chip color="grey-9" text-color="white" square>
-                      C5: {{ errorsCountC5 }} erreur{{ errorsCountC5 > 1 ? 's' : '' }},
-                      {{ analysisData.result?.scoreCritere5?.pointsPerdus || 0 }} pt{{
-                        analysisData.result?.scoreCritere5?.pointsPerdus > 1 ? 's' : ''
-                      }},
-                      {{ analysisData.result?.scoreCritere5?.note || '-' }}
-                    </q-chip>
-                  </div>
+                  <NotesAuxCriteres :scores="scoresForDisplay" type="avant" />
                 </q-item-section>
               </q-item>
 
@@ -418,6 +402,7 @@
 import { defineComponent, ref, computed, onUnmounted, onMounted, watch, nextTick } from 'vue'
 import { useQuasar } from 'quasar'
 import RuleDetailDialog from '../components/RuleDetailDialog.vue'
+import NotesAuxCriteres from '../components/NotesAuxCriteres.vue'
 import { findRuleById } from '../services/rulesService'
 
 export default defineComponent({
@@ -425,6 +410,7 @@ export default defineComponent({
 
   components: {
     RuleDetailDialog,
+    NotesAuxCriteres,
   },
 
   emits: ['analysis-loaded'],
@@ -631,6 +617,24 @@ export default defineComponent({
 
     const errorsCountC5 = computed(() => {
       return analysisData.value?.result?.erreursCritere5?.length || 0
+    })
+
+    // Scores formatés pour NotesAuxCriteres
+    const scoresForDisplay = computed(() => {
+      const result = analysisData.value?.result
+      if (!result) return null
+      return {
+        critere4: {
+          note: result.scoreCritere4?.note || '-',
+          points: result.scoreCritere4?.pointsPerdus || 0,
+          erreurs: result.erreursCritere4?.length || 0
+        },
+        critere5: {
+          note: result.scoreCritere5?.note || '-',
+          points: result.scoreCritere5?.pointsPerdus || 0,
+          erreurs: result.erreursCritere5?.length || 0
+        }
+      }
     })
 
     // Erreurs triées par position
@@ -1921,6 +1925,7 @@ export default defineComponent({
       filteredErrorsCount,
       errorsCountC4,
       errorsCountC5,
+      scoresForDisplay,
       onErrorClick,
       // Filtre de recherche
       searchFilter,

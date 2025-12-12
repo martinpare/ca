@@ -1,0 +1,632 @@
+{
+  "processedAt": "2025-12-10T15:01:18.721Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_117.txt",
+    "originalText": "Le gaspillage alimentaire : une nature humaine ?\r\n\r\nDepuis toujours le gaspillage a fait partie de notre quotidien. Que se soit laisser le robinet ouvert ou jeter les restes de son repas, nous y avons tous deja participer. Nos consciences nous disent que c'est faux, que nous devrions pas gaspiller la nourriture pour simple raison qu' « on a plus faim. » Mais nous le faisons quand même. Pourquoi ? Est-ce la nature humaine ? Cela nous amène donc à la question principale : Sommes-nous prêts à lutter contre le gaspillage alimentaire ? Tout simplement dit, non. Je ne pense pas que nous sommes prêts. C'est possible, absolument, nous avons les ressources mais pas la volonter. Nos standards et nos attentes irréalistes, notre manque de temps pour cuisiner, le manque de connaissances, la masse production et la masse consommation sont toutes des raisons qui encouragent le gaspillage alimentaire. Vous trouverez donc dans ce texte les développements de mon opinion.\r\n\r\nEn premier lieu l'une des principales raisons pour laquelle je ne pense pas que nous sommes prêts à combattre le gaspillage alimentaire est à cause de notre masse production ainsi que notre masse consommation. Nos habitudes extraordinairements excessives favoriser un environnement de perte ainsi que nuisible pour la planète. Partir au supermarché devient une chasse aux trésors dans le but de récolter dans son panier tout les aliments inutiles, qui à leur tour finissent par pourir au fond de notre frigo. Les emballages familiales et même énorme, nous laissent souvent aucun autre choix que de les achetés. La production massive entraine des perte de nourritures astronomiques dans le but de leur économiser de l'argent. Car, oui la surproduction est moins cher que la production normale et brûler les aliments non vendus est aussi plus favorable pour les compagnies que de les donner. Nous sommes donc loin de changer nos manières de vivre, d'autant plus que l'accessibilité joue un grand rôle dans le choix d'épicerie d'une famille. Et malheureusement les conséquences sont présentes. À preuve « [...] 2,2 milions de tonnes d'aliments sont gaspillés par les familles canadiennes chaque année, ce qui correspond à une perte de plus de 17 miliards de dollars. » RECYC-QUÉBEC (2021). « Gaspillage alimentaire », RECYC-QUÉBEC, [En ligne]. Il faut alors se rappeler constamment que nos actions on des conséquences\r\n\r\nEn deuxième lieu, une autre raison qui explique le fait que je ne trouve pas que nous sommes prêts à lutter contre le gaspillage est nos standards. Nos attentes irréalistes en vers les légumes, les fruits, le pain et les produits laitiers sont absurdes. Nous associons la qualiter d'un produit à son apparence ce qui encourage encore le gaspillage massif. Et la vériter est que les aliments, comme les légumes et les fruits, sont naturellement imparfaits. Je trouve donc inimaginable le fait de penser qu'une carotte un peu tordue est moins bien qu'une carotte droite. Encore une fois, nos standards sont aux centre des raisons du gaspillage alimentaire excessif. À preuve, : « Les détaillants vendent peu de ces aliments dits \"moches\", car les consommateurs associent souvent l'apparence d'un fruit ou d'un légume à sa qualité. » Daphné Cameron (2020). « Les légumes moches, un marché de niche ». La Presse+,[En ligne].\r\n\r\nPour conclure, je ne pense pas que nous sommes prêts à lutter contre le gaspillage alimentaire, car nos habitudes de vie, notre mode de consommation et de production ainsi que nos standards m'encourage fortement à penser de même. Cependant je souhaite que nous changerons pour le meilleur et que nous serons plus responsable pour nos générations future.",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "devrions pas",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence de l'adverbe de négation « ne » dans la locution « ne... pas ».",
+        "suggestions": [
+          "ne devrions pas"
+        ],
+        "ruleApplied": "4.1.2.1.3"
+      },
+      {
+        "id": "erreur4.2",
+        "text": "on a plus",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence de l'adverbe de négation « n' » pour marquer la restriction (« ne... plus »).",
+        "suggestions": [
+          "on n'a plus"
+        ],
+        "ruleApplied": "4.1.2.1.3"
+      },
+      {
+        "id": "erreur4.3",
+        "text": "faim. »",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point final doit être placé après le guillemet fermant lorsque la citation n'est qu'un segment de phrase et non une phrase complète introduite par un deux-points.",
+        "suggestions": [
+          "faim. »"
+        ],
+        "ruleApplied": "4.2.2.1.2"
+      },
+      {
+        "id": "erreur4.4",
+        "text": "absolutely",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Emploi d'un mot anglais (calque) au lieu de son équivalent français « absolument ».",
+        "suggestions": [
+          "absolument"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "id": "erreur4.5",
+        "text": "masse production",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Ordre des mots incorrect. La construction correcte est « production de masse ».",
+        "suggestions": [
+          "production de masse"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "id": "erreur4.6",
+        "text": "masse consommation",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Ordre des mots incorrect. Erreur non comptée car il y a déjà une erreur de syntaxe (S) dans la phrase syntaxique.",
+        "suggestions": [
+          "consommation de masse"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "id": "erreur4.7",
+        "text": "En premier lieu l'une",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de la virgule après l'organisateur textuel « En premier lieu » en tête de phrase.",
+        "suggestions": [
+          "En premier lieu, l'une"
+        ],
+        "ruleApplied": "4.2.2.10.1.k"
+      },
+      {
+        "id": "erreur4.8",
+        "text": "est à cause de",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction fautive (calque). Il faut utiliser une construction comme « tient à » ou reformuler la phrase.",
+        "suggestions": [
+          "tient à",
+          "est due à"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "id": "erreur4.9",
+        "text": "laissent souvent aucun",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence de l'adverbe de négation « ne » dans la locution « ne... aucun ».",
+        "suggestions": [
+          "ne laissent souvent aucun"
+        ],
+        "ruleApplied": "4.1.2.1.3"
+      },
+      {
+        "id": "erreur4.10",
+        "text": "leur économiser",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction de verbe erronée. La construction correcte serait « de leur faire économiser ».",
+        "suggestions": [
+          "leur faire économiser"
+        ],
+        "ruleApplied": "4.1.2.2.2"
+      },
+      {
+        "id": "erreur4.11",
+        "text": "oui la",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de la virgule pour isoler le mot-phrase « oui ».",
+        "suggestions": [
+          "oui, la"
+        ],
+        "ruleApplied": "4.2.2.10.1.e"
+      },
+      {
+        "id": "erreur4.12",
+        "text": "À preuve «",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de la virgule après la locution introductive « À preuve ».",
+        "suggestions": [
+          "À preuve, «"
+        ],
+        "ruleApplied": "4.2.2.10.1.k"
+      },
+      {
+        "id": "erreur4.13",
+        "text": "(2021).",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Présence erronée d'un point à l'intérieur de la référence bibliographique. Une virgule serait appropriée pour lier la date au titre.",
+        "suggestions": [
+          "(2021),"
+        ],
+        "ruleApplied": "4.2.2.1.2"
+      },
+      {
+        "id": "erreur4.14",
+        "text": "conséquences",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence du point final à la fin de la phrase.",
+        "suggestions": [
+          "conséquences."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "id": "erreur4.15",
+        "text": "est nos standards",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction de phrase boiteuse. Lorsque le sujet et l'attribut sont de nombres différents, il est préférable d'utiliser « ce sont » ou de reformuler.",
+        "suggestions": [
+          "ce sont nos standards"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "id": "erreur4.16",
+        "text": "apparence ce qui",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de la virgule avant le pronom relatif « ce qui » qui reprend toute la proposition précédente et introduit une explication.",
+        "suggestions": [
+          "apparence, ce qui"
+        ],
+        "ruleApplied": "4.2.2.10.1.i"
+      },
+      {
+        "id": "erreur4.17",
+        "text": "À preuve, :",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Présence erronée d'une virgule avant le deux-points.",
+        "suggestions": [
+          "À preuve :"
+        ],
+        "ruleApplied": "4.2.2.10.2.h"
+      },
+      {
+        "id": "erreur4.18",
+        "text": "\"moches\"",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "« P »",
+        "description": "Utilisation de guillemets anglais (« \" ») au lieu des guillemets français (« « »).",
+        "suggestions": [
+          "« moches »"
+        ],
+        "ruleApplied": "4.2.2.5.1"
+      },
+      {
+        "id": "erreur4.19",
+        "text": "qualité. »",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point final doit être placé après le guillemet fermant.",
+        "suggestions": [
+          "qualité »."
+        ],
+        "ruleApplied": "4.2.2.1.2"
+      },
+      {
+        "id": "erreur4.20",
+        "text": "Cependant je",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de la virgule après l'organisateur textuel « Cependant » en tête de phrase.",
+        "suggestions": [
+          "Cependant, je"
+        ],
+        "ruleApplied": "4.2.2.10.1.k"
+      },
+      {
+        "id": "erreur4.21",
+        "text": "changerons",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de mode verbal. Le verbe « souhaiter que » commande l'emploi du subjonctif.",
+        "suggestions": [
+          "changions"
+        ],
+        "ruleApplied": "4.1.2.2.3"
+      },
+      {
+        "id": "erreur4.22",
+        "text": "pour simple raison",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Absence du déterminant « la » devant le groupe nominal « simple raison ». Une erreur de syntaxe (S) a déjà été comptabilisée dans cette phrase.",
+        "suggestions": [
+          "pour la simple raison"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "id": "erreur4.23",
+        "text": "qu' «",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "« P »",
+        "description": "Une espace superflue se trouve entre l'apostrophe et le guillemet ouvrant. La forme correcte est « qu'« ».",
+        "suggestions": [
+          "qu'«"
+        ],
+        "ruleApplied": "4.2.1.5"
+      },
+      {
+        "id": "erreur4.24",
+        "text": "conséquences",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence du point final pour marquer la fin de la phrase.",
+        "suggestions": [
+          "conséquences."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "id": "erreur4.25",
+        "text": "future",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence du point final pour marquer la fin de la phrase.",
+        "suggestions": [
+          "future."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 16,
+      "note": "D"
+    },
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "se soit",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'homophone grammatical « se », pronom réfléchi, et « ce », pronom démonstratif. La forme correcte est « Que ce soit ».",
+        "suggestions": [
+          "ce soit"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "id": "erreur5.2",
+        "text": "deja",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Absence de l'accent grave sur l'adverbe « déjà ».",
+        "suggestions": [
+          "déjà"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.3",
+        "text": "participer",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif en « -er » et le participe passé en « -é ». L'auxiliaire « avons » requiert le participe passé « participé ».",
+        "suggestions": [
+          "participé"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "id": "erreur5.4",
+        "text": "volonter",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Graphie erronée du nom « volonté ».",
+        "suggestions": [
+          "volonté"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "id": "erreur5.5",
+        "text": "laquelle",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom relatif doit s'accorder en genre et en nombre avec son antécédent « raisons » (féminin pluriel).",
+        "suggestions": [
+          "lesquelles"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.6",
+        "text": "extraordinairements",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Ajout d'un « s » fautif à l'adverbe « extraordinairement », qui est invariable.",
+        "suggestions": [
+          "extraordinairement"
+        ],
+        "ruleApplied": "5.2.1.5"
+      },
+      {
+        "id": "erreur5.7",
+        "text": "favoriser",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit être conjugué à l'indicatif présent et s'accorder avec le sujet « Nos habitudes » (pluriel).",
+        "suggestions": [
+          "favorisent"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "id": "erreur5.8",
+        "text": "tout les",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant « tout » doit s'accorder en genre et en nombre avec le nom « aliments » (masculin pluriel).",
+        "suggestions": [
+          "tous les"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.9",
+        "text": "pourir",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Graphie erronée du verbe « pourrir », qui s'écrit avec deux « r ».",
+        "suggestions": [
+          "pourrir"
+        ],
+        "ruleApplied": "5.2.1.6"
+      },
+      {
+        "id": "erreur5.10",
+        "text": "familiales",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif doit s'accorder en genre et en nombre avec le nom « emballages » (masculin pluriel).",
+        "suggestions": [
+          "familiaux"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.11",
+        "text": "achetés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le participe passé et l'infinitif. Après la préposition « de », le verbe doit être à l'infinitif « acheter ».",
+        "suggestions": [
+          "acheter"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "id": "erreur5.12",
+        "text": "entraine",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Absence de l'accent circonflexe sur le « i » du verbe « entraîner ».",
+        "suggestions": [
+          "entraîne"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.13",
+        "text": "perte",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « perte » doit être au pluriel après le déterminant indéfini « des ».",
+        "suggestions": [
+          "pertes"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.14",
+        "text": "cher",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « cher », attribut du sujet, doit s'accorder en genre avec le sujet « la surproduction » (féminin singulier).",
+        "suggestions": [
+          "chère"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.15",
+        "text": "milions",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Graphie erronée du mot « millions ».",
+        "suggestions": [
+          "millions"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "id": "erreur5.16",
+        "text": "miliards",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Graphie erronée du mot « milliards ».",
+        "suggestions": [
+          "milliards"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "id": "erreur5.17",
+        "text": "on",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'homophone grammatical « on », pronom, et « ont », forme du verbe avoir. Le sujet « nos actions » requiert le verbe « ont ».",
+        "suggestions": [
+          "ont"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "id": "erreur5.18",
+        "text": "en vers",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Barbarisme orthographique. La préposition correcte est « envers ».",
+        "suggestions": [
+          "envers"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "id": "erreur5.19",
+        "text": "qualiter",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Graphie erronée du nom « qualité ».",
+        "suggestions": [
+          "qualité"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "id": "erreur5.20",
+        "text": "vériter",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Graphie erronée du nom « vérité ».",
+        "suggestions": [
+          "vérité"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "id": "erreur5.21",
+        "text": "aux centre",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur de contraction. Le nom « centre » est singulier, il faut donc utiliser la contraction « au » (à le) et non « aux » (à les).",
+        "suggestions": [
+          "au centre"
+        ],
+        "ruleApplied": "5.3.5"
+      },
+      {
+        "id": "erreur5.22",
+        "text": "m'encourage",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder au pluriel avec le sujet multiple (« nos habitudes de vie, notre mode de consommation et de production ainsi que nos standards »).",
+        "suggestions": [
+          "m'encouragent"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.23",
+        "text": "responsable",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « responsable » doit s'accorder au pluriel avec le pronom « nous ».",
+        "suggestions": [
+          "responsables"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.24",
+        "text": "future",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « future » doit s'accorder en genre et en nombre avec le nom « générations » (féminin pluriel).",
+        "suggestions": [
+          "futures"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.25",
+        "text": "nourritures",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « nourriture » est généralement employé au singulier dans ce contexte (complément du nom « pertes »).",
+        "suggestions": [
+          "nourriture"
+        ],
+        "ruleApplied": "5.3.1.5"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 25,
+      "note": "E"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:55:10.664Z",
+    "endTimestamp": "2025-12-10T15:01:18.721Z",
+    "durationMs": 368057,
+    "durationFormatted": "06:08:057"
+  }
+}

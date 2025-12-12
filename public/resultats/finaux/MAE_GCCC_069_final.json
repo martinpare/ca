@@ -1,0 +1,960 @@
+{
+  "processedAt": "2025-12-12T11:41:38.371Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_069.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_069.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "Quand,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule ne doit pas séparer un subordonnant du reste de la proposition qu'il introduit.",
+        "suggestions": [
+          "Quand"
+        ],
+        "ruleApplied": "4.2.2.10.2.h",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de ponctuation claire : une virgule ne doit jamais suivre immédiatement un subordonnant temporel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "tous qu'ils",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution pronominale correcte pour signifier « l'ensemble des choses que » est « tout ce que ».",
+        "suggestions": [
+          "tout ce qu'ils"
+        ],
+        "ruleApplied": "4.1.2.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur syntaxique évidente. La forme « tous qu'ils » n'est pas grammaticale en français standard.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "par conséquences",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'adverbe ou la locution adverbiale est mal employée. La forme correcte est « par conséquent » ou « en conséquence ».",
+        "suggestions": [
+          "Par conséquent"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur lexicale claire. La locution adverbiale figée est « par conséquent » (au singulier).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "de luttaient",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition est erronée. La locution est « être prêt à ». De plus, une préposition est suivie d'un verbe à l'infinitif.",
+        "suggestions": [
+          "à lutter"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double erreur : mauvaise préposition (« de » au lieu de « à ») et mauvaise forme verbale (imparfait au lieu de l'infinitif).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "et pourquoi, parce qu'ils",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est boiteuse. Il manque une ponctuation forte (point d'interrogation) après « pourquoi » pour marquer la question, ce qui crée une rupture syntaxique.",
+        "suggestions": [
+          "Et pourquoi ? Parce qu'ils"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Rupture syntaxique claire. La question rhétorique « pourquoi » nécessite une ponctuation forte avant la réponse introduite par « parce que ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "chez des pâtisseries",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition « chez » s'utilise pour une personne ou une entreprise nommée (un nom propre). Pour un lieu, on utilise « dans » ou « à ».",
+        "suggestions": [
+          "dans des pâtisseries"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'usage de la préposition. « Chez » ne s'emploie normalement pas avec un nom commun de lieu commercial au pluriel indéfini.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "alliez trouvé",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur dans la concordance des temps. Dans un système hypothétique avec « si + plus-que-parfait », la proposition principale doit être au conditionnel passé.",
+        "suggestions": [
+          "auriez trouvé"
+        ],
+        "ruleApplied": "4.1.2.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de concordance des temps dans le système hypothétique irréel du passé. La forme correcte de l'auxiliaire au conditionnel passé est « auriez ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "que,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule ne doit pas séparer la proposition principale de la proposition subordonnée complétive introduite par « que ».",
+        "suggestions": [
+          "que"
+        ],
+        "ruleApplied": "4.2.2.10.2.e",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de ponctuation claire. La conjonction « que » introduisant une complétive ne doit pas être suivie d'une virgule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "avaient dû",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur dans la concordance des temps. Le verbe de la proposition subordonnée relative devrait être au conditionnel passé pour exprimer une action qui aurait dû se produire.",
+        "suggestions": [
+          "auraient dû"
+        ],
+        "ruleApplied": "4.1.2.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de mode et de temps. Le contexte exige le conditionnel passé pour exprimer une obligation non réalisée dans le passé.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.10",
+        "text": "2022)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point final est manquant à la fin de la référence, qui constitue une phrase.",
+        "suggestions": [
+          "2022)."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Omission de ponctuation finale. Toute phrase doit se terminer par un point.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.11",
+        "text": "que,",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "(P)",
+        "description": "Une virgule ne doit pas séparer la proposition principale de la proposition subordonnée complétive introduite par « que ».",
+        "suggestions": [
+          "que"
+        ],
+        "ruleApplied": "4.2.2.10.2.e",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de la même erreur de ponctuation (deuxième occurrence).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.12",
+        "text": "2022)",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "(P)",
+        "description": "Le point final est manquant à la fin de la référence, qui constitue une phrase.",
+        "suggestions": [
+          "2022)."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de l'omission du point final (deuxième occurrence).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.13",
+        "text": "cessera jamais",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Un mot essentiel à la structure de la phrase est manquant. La négation « ne... jamais » requiert l'adverbe « ne » avant le verbe.",
+        "suggestions": [
+          "ne cessera jamais"
+        ],
+        "ruleApplied": "4.1.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Omission de la première partie de la négation. À l'écrit formel, « ne » est obligatoire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.14",
+        "text": "contre,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule ne doit pas séparer le verbe de sa proposition complétive.",
+        "suggestions": [
+          "contre"
+        ],
+        "ruleApplied": "4.2.2.10.2.d",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de ponctuation. La virgule sépare incorrectement la préposition de son complément propositionnel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.15",
+        "text": "Pour raison que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la locution est boiteuse. Il faut utiliser « Pour la raison que » ou, plus simplement, « Parce que ».",
+        "suggestions": [
+          "Parce que"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction syntaxique incorrecte. L'article « la » est obligatoire dans cette locution, ou il faut utiliser une autre formulation.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.16",
+        "text": "gens, ils",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Un mot est superflu. La reprise du sujet « gens » par le pronom « ils » est une redondance fautive.",
+        "suggestions": [
+          "gens"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Redondance syntaxique (pléonasme vicieux). Le sujet ne doit pas être repris par un pronom dans ce contexte.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.17",
+        "text": "laissiez",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur dans l'emploi du temps verbal. L'imparfait est utilisé à tort ; le présent de l'indicatif est requis pour s'harmoniser avec le reste de la phrase.",
+        "suggestions": [
+          "laissez"
+        ],
+        "ruleApplied": "4.1.2.2.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de concordance des temps. Le présent est requis pour maintenir la cohérence temporelle avec le contexte.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.18",
+        "text": "a acheter",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur dans l'emploi du mode verbal. Après une locution exprimant la volonté comme « veulent que », le verbe de la subordonnée doit être au subjonctif.",
+        "suggestions": [
+          "achètent"
+        ],
+        "ruleApplied": "4.1.2.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de mode verbal. Le subjonctif présent est obligatoire après « veulent que ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.19",
+        "text": "2022)",
+        "occurenceIndex": 2,
+        "criteria": 4,
+        "type": "(P)",
+        "description": "Le point final est manquant à la fin de la référence, qui constitue une phrase.",
+        "suggestions": [
+          "2022)."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de l'omission du point final (troisième occurrence).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.20",
+        "text": "2022)",
+        "occurenceIndex": 3,
+        "criteria": 4,
+        "type": "(P)",
+        "description": "Le point final est manquant à la fin de la référence, qui constitue une phrase.",
+        "suggestions": [
+          "2022)."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de l'omission du point final (quatrième occurrence).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.21",
+        "text": "où vous pensiez",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'emploi de l'imparfait (\"pensiez\") est incorrect dans ce contexte au présent. La construction de la question est également boiteuse.",
+        "suggestions": [
+          "où pensez-vous que ces bouffes vont"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double erreur : mauvais temps verbal et construction syntaxique incorrecte de la question indirecte.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.22",
+        "text": "saviez que vous n'alliez pas",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'emploi de l'imparfait (\"saviez\", \"alliez\") est incorrect. Le présent (\"savez\", \"allez\") est requis pour exprimer une condition dans ce contexte.",
+        "suggestions": [
+          "savez que vous n'allez pas"
+        ],
+        "ruleApplied": "4.1.2.2.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de concordance des temps. Le présent est requis dans cette phrase conditionnelle au présent.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "abusé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé employé comme adjectif doit s'accorder en genre et en nombre avec le nom qu'il qualifie. Le nom « famine » est féminin singulier.",
+        "suggestions": [
+          "abusée"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. Le participe passé adjectif doit s'accorder avec « famine » (féminin).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "vivaient",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder en nombre avec son sujet. Le sujet « l'humanité » est à la 3e personne du singulier.",
+        "suggestions": [
+          "vivait"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord sujet-verbe claire. « L'humanité » est un nom collectif singulier.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "égoisme",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le tréma est manquant sur le « i » pour indiquer que les voyelles « o » et « i » se prononcent séparément.",
+        "suggestions": [
+          "égoïsme"
+        ],
+        "ruleApplied": "5.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur orthographique évidente. Le tréma est obligatoire dans ce mot.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "fort",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif substantivé doit s'accorder en nombre avec le déterminant qui le précède. Le déterminant « les » est pluriel.",
+        "suggestions": [
+          "forts"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. L'adjectif substantivé doit s'accorder avec le déterminant pluriel « les ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "faible",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif substantivé doit s'accorder en nombre avec le déterminant qui le précède. Le déterminant « les » est pluriel.",
+        "suggestions": [
+          "faibles"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. L'adjectif substantivé doit s'accorder avec le déterminant pluriel « les ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "prenait",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder en nombre avec son sujet. Le sujet « les faible » (les faibles) est à la 3e personne du pluriel.",
+        "suggestions": [
+          "prenaient"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord sujet-verbe. Le sujet pluriel « les faibles » exige un verbe au pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "leur déchets",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant possessif doit s'accorder en nombre avec le nom qu'il détermine. Le nom « déchets » est pluriel.",
+        "suggestions": [
+          "leurs déchets"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. Le déterminant possessif doit s'accorder avec le nom pluriel « déchets ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "influencé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le participe passé en « -é » et l'infinitif en « -er ». Après le verbe « aller » au futur proche, on emploie l'infinitif.",
+        "suggestions": [
+          "influencer"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion évidente entre participe passé et infinitif. Après « vont », on emploie l'infinitif.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "produit",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom doit s'accorder en nombre avec son déterminant. Le déterminant « des » est pluriel.",
+        "suggestions": [
+          "produits"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. Le nom doit s'accorder avec le déterminant pluriel « des ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.10",
+        "text": "le biens",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom doit s'accorder en nombre avec son déterminant. Le déterminant « le » est singulier.",
+        "suggestions": [
+          "le bien"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. Le nom doit s'accorder avec le déterminant singulier « le ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.11",
+        "text": "a mené",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder en nombre avec son sujet. Le sujet « leurs méthodes » est à la 3e personne du pluriel, l'auxiliaire doit donc être « ont ». De plus, le participe passé conjugué avec « avoir » s'accorde avec le complément d'objet direct (COD) « nous » si celui-ci est placé avant le verbe.",
+        "suggestions": [
+          "ont menés"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double erreur : mauvais accord de l'auxiliaire avec le sujet pluriel, et accord du participe passé avec le COD « nous ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.12",
+        "text": "une nouvelle cycle",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant et l'adjectif doivent s'accorder en genre avec le nom qu'ils déterminent. Le nom « cycle » est masculin.",
+        "suggestions": [
+          "un nouveau cycle"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en genre. « Cycle » est masculin, donc « un nouveau cycle ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.13",
+        "text": "cet gaspille",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant démonstratif « cet » s'emploie devant un nom masculin commençant par une voyelle ou un « h » muet. Devant une consonne, on utilise « ce ». De plus, il y a confusion entre le verbe « gaspille » et le nom « gaspillage ».",
+        "suggestions": [
+          "ce gaspillage"
+        ],
+        "ruleApplied": "5.3.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double erreur : mauvais déterminant démonstratif et confusion lexicale entre le verbe et le nom.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.14",
+        "text": "majoritée",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'orthographe du mot est incorrecte. Le nom « majorité » ne prend pas de « e » accentué à la fin.",
+        "suggestions": [
+          "majorité"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur orthographique évidente. La terminaison correcte est « -té ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.15",
+        "text": "gaspillent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder en nombre avec son sujet. Le sujet « tout le monde » est un singulier collectif qui commande l'accord à la 3e personne du singulier.",
+        "suggestions": [
+          "gaspille"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord sujet-verbe. « Tout le monde » commande toujours le singulier.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.16",
+        "text": "tout les jours",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant indéfini « tout » doit s'accorder en genre et en nombre avec le nom qu'il détermine. Devant le nom pluriel « jours », il faut écrire « tous ».",
+        "suggestions": [
+          "tous les jours"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. La locution figée est « tous les jours » (au pluriel).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.17",
+        "text": "partie",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé conjugué avec l'auxiliaire « être » s'accorde avec le sujet. Le sujet « vous » renvoie à « Chers lecteurs » (masculin pluriel).",
+        "suggestions": [
+          "partis"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du participe passé avec le sujet « vous » (masculin pluriel dans ce contexte).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.18",
+        "text": "témoigne",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre une forme conjuguée du présent et le participe passé. Après l'auxiliaire « avoir », on emploie le participe passé.",
+        "suggestions": [
+          "témoigné"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion évidente entre le présent et le participe passé. Après « avez », on emploie le participe passé.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.19",
+        "text": "jéter",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif en « -er » et le participe passé en « -é ». Le participe passé employé comme adjectif doit s'accorder avec le nom qu'il qualifie, « nourriture » (féminin singulier).",
+        "suggestions": [
+          "jetée"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double erreur : confusion infinitif/participe passé et défaut d'accord avec « nourriture » (féminin).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.20",
+        "text": "residus",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'accent aigu est manquant sur le « e ».",
+        "suggestions": [
+          "résidus"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur orthographique évidente. L'accent aigu est obligatoire sur le « e » initial.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.21",
+        "text": "évitable",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif doit s'accorder en nombre avec le nom qu'il qualifie. Le nom « residus » (résidus) est pluriel.",
+        "suggestions": [
+          "évitables"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. L'adjectif doit s'accorder avec le nom pluriel « résidus ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.22",
+        "text": "d'aliment",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom doit être au pluriel car il est complément de la locution « c'est-à-dire », qui renvoie à « residus » (pluriel).",
+        "suggestions": [
+          "d'aliments"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord logique. Le nom doit être au pluriel car il reprend « résidus » (pluriel).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.23",
+        "text": "parfait",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif doit s'accorder en nombre avec le nom qu'il qualifie. Le nom « aliments » est pluriel.",
+        "suggestions": [
+          "parfaits"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. L'adjectif doit s'accorder avec le nom pluriel « aliments ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.24",
+        "text": "Education",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'accent aigu est manquant sur le « E » majuscule. Bien que non obligatoire, son absence dans une dénomination officielle est ici considérée comme une erreur d'usage.",
+        "suggestions": [
+          "Éducation"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "L'accentuation des majuscules, bien que recommandée par l'OQLF et l'Académie française, n'est pas toujours considérée comme obligatoire.",
+        "counterArgument": "Bien que l'OQLF recommande fortement d'accentuer les majuscules, certaines typographies anciennes ou contraintes techniques peuvent justifier l'absence d'accent. Dans les documents officiels, « Éducation » avec accent est préférable, mais l'absence n'est pas toujours considérée comme une faute grave."
+      },
+      {
+        "id": "erreur5.25",
+        "text": "humain",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom doit s'accorder en nombre avec le pronom « nous » auquel il est apposé.",
+        "suggestions": [
+          "humains"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. L'apposition doit s'accorder avec le pronom pluriel « nous ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.26",
+        "text": "somme",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'orthographe du mot est incorrecte. La forme conjuguée du verbe « être » à la première personne du pluriel est « sommes ».",
+        "suggestions": [
+          "sommes"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur orthographique évidente. La forme verbale correcte est « sommes » avec double « m ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.27",
+        "text": "envieu",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'orthographe du mot est incorrecte.",
+        "suggestions": [
+          "envieux"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur orthographique évidente. La terminaison correcte est « -ieux ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.28",
+        "text": "certain",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant indéfini doit s'accorder en nombre avec le nom qu'il détermine. Le nom « gens » est pluriel.",
+        "suggestions": [
+          "certains"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. Le déterminant doit s'accorder avec le nom pluriel « gens ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.29",
+        "text": "idols",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'orthographe du mot est incorrecte. Le mot français équivalent est « idoles ».",
+        "suggestions": [
+          "idoles"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Anglicisme orthographique. En français, le mot est « idoles » et non « idols ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.30",
+        "text": "d'avantage",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'homophone grammatical « d'avantage » (de l'avantage) et l'adverbe « davantage » (plus).",
+        "suggestions": [
+          "davantage"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion d'homophones évidente. Le contexte exige l'adverbe « davantage » (en un seul mot).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.31",
+        "text": "leur produit",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant possessif et le nom doivent s'accorder en nombre avec le possesseur, « des publicités » (pluriel).",
+        "suggestions": [
+          "leurs produits"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double erreur d'accord : le déterminant possessif et le nom doivent tous deux être au pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.32",
+        "text": "siry",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "La majuscule est manquante au début d'un nom propre de personne.",
+        "suggestions": [
+          "Siry"
+        ],
+        "ruleApplied": "5.2.4.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de majuscule évidente. Les noms de famille prennent toujours une majuscule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.33",
+        "text": "evité",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé conjugué avec l'auxiliaire « être » doit s'accorder en genre et en nombre avec le sujet. Le sujet est « la moitié de cette perte de nourriture », qui est féminin singulier.",
+        "suggestions": [
+          "évitée"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du participe passé avec le sujet féminin « la moitié ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.34",
+        "text": "luttaient",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après la préposition \"à\", le verbe doit être à l'infinitif. Confusion entre l'imparfait \"-aient\" et l'infinitif \"-er\".",
+        "suggestions": [
+          "lutter"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion évidente entre l'imparfait et l'infinitif. Après « à », on emploie l'infinitif.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.35",
+        "text": "jétés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé \"jétés\" doit s'accorder avec le pronom \"qui\" (mis pour \"aliment\", masculin pluriel).",
+        "suggestions": [
+          "jetés"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'orthographe dans le participe passé. L'accent grave est incorrect ; il faut « jetés » sans accent.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.36",
+        "text": "somme",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe \"être\" doit s'accorder avec son sujet \"nous\" (1re personne du pluriel).",
+        "suggestions": [
+          "sommes"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur orthographique répétée (deuxième occurrence). La forme verbale correcte est « sommes » avec double « m ».",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 22,
+      "note": "E"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 36,
+      "note": "E"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 58,
+      "vraisErreurs": 57,
+      "discutables": 1,
+      "fauxPositifs": 0
+    }
+  },
+  "startTimestamp": "2025-12-12T11:39:13.323Z",
+  "endTimestamp": "2025-12-12T11:41:38.371Z",
+  "durationMs": 145048,
+  "durationFormatted": "02:25:048"
+}

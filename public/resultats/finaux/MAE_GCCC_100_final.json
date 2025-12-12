@@ -1,0 +1,661 @@
+{
+  "processedAt": "2025-12-12T11:43:30.496Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_100.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_100.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "tendance d'associer",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution 'avoir tendance' se construit avec la préposition 'à' et non 'de'.",
+        "suggestions": [
+          "tendance à associer"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de construction prépositionnelle claire. La locution verbale 'avoir tendance' exige toujours la préposition 'à'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "restauration",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Dans une énumération, il faut répéter le déterminant devant chaque élément. Ici, il manque le déterminant 'la' devant 'restauration'.",
+        "suggestions": [
+          "la restauration"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Dans le contexte « des normes esthétiques dans la restauration, vente et hôtellerie », l'absence de déterminant devant 'restauration' après 'dans la' crée une rupture de construction.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "détail restauration et hôtellerie",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule est nécessaire pour séparer les éléments d'une énumération.",
+        "suggestions": [
+          "détail, restauration et hôtellerie"
+        ],
+        "ruleApplied": "4.2.2.10.1.a",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "L'énumération de trois éléments exige des virgules pour séparer les composantes. La virgule après 'détail' est obligatoire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "lie",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe 'lier' est mal employé dans ce contexte. Des verbes comme 'mener' ou 'conduire' seraient plus appropriés pour exprimer la conséquence.",
+        "suggestions": [
+          "mène",
+          "conduit"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le verbe 'lier' n'exprime pas correctement la relation de causalité dans ce contexte. 'Lier' signifie 'attacher' ou 'établir un rapport entre', pas 'conduire à'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "consommation (Table québécoise sur la santé alimentaire, 2019)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque un point pour marquer la fin de la phrase. La référence entre parenthèses fait partie de la phrase.",
+        "suggestions": [
+          "consommation (Table québécoise sur la santé alimentaire, 2019)."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Absence évidente du point final obligatoire pour clore la phrase.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "prendre de l'action",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression 'prendre de l'action' est un calque de l'anglais 'to take action'. En français, on utilise plutôt 'passer à l'action' ou 'agir'.",
+        "suggestions": [
+          "passer à l'action",
+          "agir"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Calque de l'anglais évident. L'expression française correcte est 'passer à l'action' ou simplement 'agir'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "plusieurs entre nous",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction « plusieurs entre nous » est un calque de l'anglais. On utilise plutôt « plusieurs d'entre nous ».",
+        "suggestions": [
+          "plusieurs d'entre nous"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Calque de l'anglais 'many among us'. La construction française standard exige 'd'entre nous'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "stockés sur",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Le verbe « stocker » est un verbe transitif direct et ne doit pas être suivi de la préposition « sur ».",
+        "suggestions": [
+          "stocké"
+        ],
+        "ruleApplied": "4.1.2.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le verbe 'stocker' est transitif direct. L'ajout de la préposition 'sur' est une erreur de construction. On stocke quelque chose, pas 'sur' quelque chose.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "Le fameux papier toilet, les aliments en réserves et la nourriture en générale.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase est une phrase non verbale (sans verbe conjugué). Elle devrait être rattachée à la phrase précédente ou reformulée pour former une phrase complète.",
+        "suggestions": [
+          "Nous avons stocké certains biens et aliments, comme le fameux papier toilette, les aliments en réserve et la nourriture en général."
+        ],
+        "ruleApplied": "4.1.2.1.4",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Bien qu'il s'agisse d'une phrase sans verbe, ce type de construction peut servir à créer un effet d'emphase ou d'énumération dans un style journalistique ou oratoire.",
+        "counterArgument": "Cette phrase non verbale peut être considérée comme un procédé stylistique d'énumération emphatique, fréquent dans les textes journalistiques ou argumentatifs. Elle crée un effet d'insistance sur les exemples concrets. Toutefois, dans un contexte scolaire formel, il est préférable de l'intégrer à la phrase précédente."
+      },
+      {
+        "id": "erreur4.10",
+        "text": "5 cinqs",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il y a une redondance entre le chiffre « 5 » et le mot « cinqs ». Il faut choisir l'un ou l'autre. De plus, le mot « cinq » est invariable et ne prend jamais de « s ».",
+        "suggestions": [
+          "cinq",
+          "5"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Redondance évidente et erreur d'orthographe combinées. L'utilisation simultanée du chiffre et du mot est incorrecte.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.11",
+        "text": "et à être gaspiller",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La coordination est incorrecte. On ne peut pas coordonner « sans être » et « à être ». Il faut répéter la structure ou la modifier. Par exemple : « sans être consommés ni gaspillés ».",
+        "suggestions": [
+          "ni gaspillés",
+          "et gaspillés"
+        ],
+        "ruleApplied": "4.1.2.1.8",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Rupture de parallélisme syntaxique. On ne peut pas coordonner 'sans être' avec 'à être'. La structure doit être parallèle.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.12",
+        "text": "dit «le",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque un deux-points (:) pour introduire la citation directe.",
+        "suggestions": [
+          "dit : « le"
+        ],
+        "ruleApplied": "4.2.2.7.1",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Bien que le deux-points soit recommandé pour introduire une citation, certains auteurs intègrent les citations directement après le verbe déclaratif sans ponctuation intermédiaire.",
+        "counterArgument": "L'introduction d'une citation directe peut se faire sans deux-points, particulièrement quand le verbe déclaratif est directement suivi du guillemet ouvrant. Cette construction est acceptée dans plusieurs guides stylistiques, bien que le deux-points soit préférable pour la clarté."
+      },
+      {
+        "id": "erreur4.13",
+        "text": "vente et hôtellerie",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Dans une énumération, il est préférable de répéter le déterminant devant chaque nom. Ici, il faudrait écrire « la vente et l'hôtellerie ».",
+        "suggestions": [
+          "la vente et l'hôtellerie"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Dans le contexte « dans la vente au détail, restauration et hôtellerie », l'absence de déterminant crée une ambiguïté structurelle.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.14",
+        "text": "sont lors de la production",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est incorrecte. Il manque un participe passé comme « gaspillés » après le verbe « sont » pour que la phrase ait un sens complet.",
+        "suggestions": [
+          "sont gaspillés lors de la production"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Phrase grammaticalement incomplète. Le verbe 'être' nécessite un attribut ou un participe passé pour former une construction passive complète.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.15",
+        "text": "car nous sommes englouties par les normes esthétiques irrationnelles et à cause de son inévitable présence",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La coordination est incorrecte car elle lie une proposition subordonnée conjonctive (introduite par « car ») et un groupe prépositionnel (introduit par « à cause de »). Il faut utiliser deux structures similaires.",
+        "suggestions": [
+          "parce que nous sommes engloutis par les normes esthétiques irrationnelles et à cause de la présence inévitable du gaspillage"
+        ],
+        "ruleApplied": "4.1.2.1.8",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Rupture de parallélisme syntaxique évidente. On ne peut pas coordonner une proposition subordonnée (car...) avec un groupe prépositionnel (à cause de...).",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "stockés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé employé avec l'auxiliaire 'avoir' ne s'accorde pas avec le sujet. Il s'accorde avec le complément d'objet direct (COD) si celui-ci est placé avant le verbe, ce qui n'est pas le cas ici ('certains biens et aliments'). Il doit donc rester invariable.",
+        "suggestions": [
+          "stocké"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du participe passé avec l'auxiliaire 'avoir'. Le COD étant placé après le verbe, le participe reste invariable.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "toilet",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'orthographe correcte du mot est 'toilette'.",
+        "suggestions": [
+          "toilette"
+        ],
+        "ruleApplied": "5.2.1.8",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'orthographe lexicale évidente. Le mot français correct est 'toilette' avec deux 't' et un 'e' final.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "réserves",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Dans la locution 'en réserve', le nom 'réserve' reste au singulier.",
+        "suggestions": [
+          "réserve"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Dans les locutions figées comme 'en réserve', le nom reste invariable au singulier.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "générale",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Dans la locution adverbiale 'en général', l'adjectif 'général' est invariable et reste au masculin singulier.",
+        "suggestions": [
+          "général"
+        ],
+        "ruleApplied": "5.3.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "La locution adverbiale 'en général' est figée et invariable. Elle ne s'accorde jamais.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "au",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'besoins' est au pluriel. La contraction de la préposition 'à' et du déterminant 'les' est 'aux'.",
+        "suggestions": [
+          "aux"
+        ],
+        "ruleApplied": "5.3.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord de la préposition contractée. Le nom 'besoins' étant au pluriel, la forme correcte est 'aux'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "cinqs",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif numéral cardinal 'cinq' est invariable et ne prend jamais de 's'.",
+        "suggestions": [
+          "cinq"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Les adjectifs numéraux cardinaux sont invariables en français. 'Cinq' ne prend jamais de marque du pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "d'abords",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'adverbe 'd'abord' est invariable et ne prend jamais de 's'.",
+        "suggestions": [
+          "d'abord"
+        ],
+        "ruleApplied": "5.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Les adverbes sont invariables en français. 'D'abord' ne prend jamais de 's'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "misent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'mis', employé comme adjectif, doit s'accorder en genre et en nombre avec le nom qu'il qualifie, 'standards', qui est masculin pluriel.",
+        "suggestions": [
+          "mis"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion entre le participe passé 'mis' (invariable ici car déjà au masculin pluriel) et la forme verbale 'misent'. Le participe passé 'mis' ne change pas de forme au masculin pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "plaisantes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'plaisantes' doit s'accorder en genre et en nombre avec le nom qu'il qualifie, 'produits', qui est masculin pluriel.",
+        "suggestions": [
+          "plaisants"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord de l'adjectif en genre. 'Produits' est masculin, donc 'plaisant' ne prend pas le 'e' féminin.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.10",
+        "text": "atteint",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'atteindre' doit s'accorder avec son sujet 'les aliments qui', qui est à la 3e personne du pluriel.",
+        "suggestions": [
+          "atteignent"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du verbe avec son sujet. Le pronom relatif 'qui' reprend 'les aliments' (pluriel), donc le verbe doit être conjugué au pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.11",
+        "text": "misent",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'mis', employé avec l'auxiliaire 'être', doit s'accorder en genre et en nombre avec le sujet 'les aliments', qui est masculin pluriel.",
+        "suggestions": [
+          "mis"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion entre la forme verbale conjuguée 'misent' et le participe passé 'mis'. Avec l'auxiliaire 'être', on utilise le participe passé qui s'accorde avec le sujet.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.12",
+        "text": "consommer",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Il y a confusion entre l'infinitif (-er) et le participe passé (-é). Après 'sans être', il faut utiliser le participe passé, qui s'accorde ici avec 'Les aliments imparfaits' (masculin pluriel).",
+        "suggestions": [
+          "consommés"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion infinitif/participe passé. Après 'être', on utilise le participe passé qui s'accorde avec le sujet.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.13",
+        "text": "gaspiller",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Il y a confusion entre l'infinitif (-er) et le participe passé (-é). Le participe passé doit s'accorder avec le même donneur que 'consommés', soit 'Les aliments imparfaits' (masculin pluriel).",
+        "suggestions": [
+          "gaspillés"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion infinitif/participe passé. La structure parallèle exige le participe passé 'gaspillés', accordé comme 'consommés'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.14",
+        "text": "le",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Une citation en discours direct, introduite par des guillemets, doit commencer par une majuscule.",
+        "suggestions": [
+          "Le"
+        ],
+        "ruleApplied": "5.3.6.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique claire : toute citation en discours direct doit débuter par une majuscule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.15",
+        "text": "exagérés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'exagérés' doit s'accorder en genre et en nombre avec le nom qu'il qualifie, 'normes', qui est féminin pluriel.",
+        "suggestions": [
+          "exagérées"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord de l'adjectif en genre. 'Normes' est féminin pluriel, donc l'adjectif doit prendre la forme 'exagérées'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.16",
+        "text": "extreme",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'adjectif 'extrême' requiert un accent circonflexe sur le deuxième 'e'.",
+        "suggestions": [
+          "extrême"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'orthographe lexicale évidente. L'accent circonflexe sur 'extrême' est obligatoire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.17",
+        "text": "defectueux",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'adjectif 'défectueux' requiert un accent aigu sur le premier 'e'.",
+        "suggestions": [
+          "défectueux"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accentuation évidente. L'accent aigu sur 'défectueux' est obligatoire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.18",
+        "text": "entrainent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le verbe 'entraînent' requiert un accent circonflexe sur le 'i'.",
+        "suggestions": [
+          "entraînent"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accentuation. Le verbe 'entraîner' conserve son accent circonflexe à toutes les formes conjuguées.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.19",
+        "text": "entrainent",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec son sujet 'ce qui', qui est un pronom relatif neutre et commande l'accord à la 3e personne du singulier.",
+        "suggestions": [
+          "entraîne"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du verbe. Le pronom relatif 'ce qui' exige toujours le singulier. De plus, l'accent circonflexe est manquant.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.20",
+        "text": "Finallement",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'adverbe 'finalement' s'écrit avec un seul 'l'.",
+        "suggestions": [
+          "Finalement"
+        ],
+        "ruleApplied": "5.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'orthographe lexicale évidente. L'adverbe 'finalement' ne prend qu'un seul 'l'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.21",
+        "text": "somme",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'orthographe correcte du verbe 'être' à la première personne du pluriel du présent de l'indicatif est 'sommes'.",
+        "suggestions": [
+          "sommes"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe sur une forme verbale courante. 'Sommes' prend deux 'm'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.22",
+        "text": "englouties",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'englouties' doit s'accorder avec le sujet 'nous'. Ce pronom, représentant 'notre société' de manière générale, prend l'accord au masculin pluriel par défaut, en cohérence avec l'usage précédent ('inclinés').",
+        "suggestions": [
+          "engloutis"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du participe passé. Le pronom 'nous' dans ce contexte représente un groupe mixte ou indéterminé, donc l'accord se fait au masculin pluriel par défaut.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.23",
+        "text": "sont",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le sujet est « La majorité d'entre nous ». Le verbe peut s'accorder soit avec le collectif « la majorité » (singulier), soit avec son complément « nous ». L'accord correct serait « est » (suivi de « inclinée ») ou « sommes » (suivi de « inclinés »), mais pas « sont ».",
+        "suggestions": [
+          "sommes",
+          "est"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord avec un nom collectif. La forme 'sont' n'est grammaticalement correcte dans aucun des deux cas possibles (accord avec 'majorité' ou avec 'nous').",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.24",
+        "text": "sa importante",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Devant un nom ou un adjectif féminin commençant par une voyelle ou un « h » muet, l'adjectif possessif « sa » est remplacé par « son » pour des raisons d'euphonie.",
+        "suggestions": [
+          "son importante"
+        ],
+        "ruleApplied": "5.2.1.9.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle d'euphonie obligatoire. Devant une voyelle, on utilise 'son' même pour un nom féminin.",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 15,
+      "note": "D"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 24,
+      "note": "E"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 39,
+      "vraisErreurs": 37,
+      "discutables": 2,
+      "fauxPositifs": 0
+    }
+  },
+  "startTimestamp": "2025-12-12T11:41:35.996Z",
+  "endTimestamp": "2025-12-12T11:43:30.496Z",
+  "durationMs": 114500,
+  "durationFormatted": "01:54:500"
+}

@@ -1,0 +1,866 @@
+{
+  "processedAt": "2025-12-12T11:40:47.153Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_060.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_060.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "à chaque jour",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution « à chaque jour » est un calque de l'anglais. En français, on utilise « chaque jour » sans la préposition « à ».",
+        "suggestions": [
+          "chaque jour"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Calque de l'anglais « every day » bien documenté. La préposition « à » est fautive devant « chaque jour ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "avec nos gestions aux épiceries à la maison",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de ce groupe de mots est boiteuse et son sens est peu clair. Il faut reformuler pour exprimer l'idée de la gestion des achats ou des provisions.",
+        "suggestions": [
+          "par notre gestion des provisions à la maison",
+          "grâce à notre gestion des épiceries à la maison"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction confuse avec accumulation de prépositions (« avec », « aux », « à ») qui rend le sens obscur.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "alimentation",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence d'un mot essentiel. Il manque la préposition « d' » avant « alimentation » pour former le complément du nom « surplus ».",
+        "suggestions": [
+          "d'alimentation"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "La préposition « d' » est obligatoire pour relier « surplus » à son complément « alimentation ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": ">",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le guillemet fermant utilisé est incorrect. En français, on utilise le guillemet typographique fermant « » ».",
+        "suggestions": [
+          "»"
+        ],
+        "ruleApplied": "4.2.2.5.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur typographique claire. Le symbole « > » n'est pas un guillemet fermant valide en français.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": ";",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point-virgule est mal employé ici pour séparer deux phrases complètes. Un point serait plus approprié.",
+        "suggestions": [
+          "."
+        ],
+        "ruleApplied": "4.2.2.8.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le point-virgule introduit une phrase avec majuscule et sujet complet, ce qui requiert un point.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "continue et créer",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de syntaxe dans la coordination. Les deux verbes coordonnés par « et » doivent avoir la même forme. Il faudrait écrire « Si on continue et qu'on crée » ou « Si on continue à créer ».",
+        "suggestions": [
+          "continue et qu'on crée"
+        ],
+        "ruleApplied": "4.1.2.1.8",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Rupture de parallélisme syntaxique : « continue » est conjugué, « créer » est à l'infinitif. La coordination est défectueuse.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "contribuer d'arrêter",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de préposition. Le verbe « contribuer » se construit avec la préposition « à ».",
+        "suggestions": [
+          "contribuer à arrêter"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de régime prépositionnel bien documentée. « Contribuer » exige toujours « à » devant l'infinitif.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "Comme le mentionne par",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Présence d'un mot superflu. La préposition « par » est de trop dans cette construction. La structure correcte est « Comme le mentionne [sujet] ».",
+        "suggestions": [
+          "Comme le mentionne"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "La préposition « par » est superflue. « Comme le mentionne » se construit directement avec le sujet.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "d'humilité",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur sur le choix du mot (paronyme). Le contexte requiert « humidité » (présence d'eau) et non « humilité » (modestie).",
+        "suggestions": [
+          "d'humidité"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion évidente de paronymes. Le contexte (emballages, conservation des aliments) requiert clairement « humidité ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.10",
+        "text": "des des",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Présence d'un mot superflu. Le déterminant « des » est répété inutilement.",
+        "suggestions": [
+          "des"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition évidente et involontaire du déterminant « des ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.11",
+        "text": "différence énorme",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Absence d'un mot essentiel. Il manque le déterminant indéfini « une » devant le groupe nominal. Une erreur de syntaxe (S) a déjà été comptée dans cette phrase.",
+        "suggestions": [
+          "une différence énorme"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le déterminant est obligatoire devant le groupe nominal « différence énorme ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.12",
+        "text": "sait",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur sur le choix du verbe. On utilise « savoir » pour un fait ou une information, et « connaître » pour une chose, une personne ou un lieu. Ici, « connaître » est requis.",
+        "suggestions": [
+          "connaît"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Distinction classique savoir/connaître. On « connaît » des démarches (choses concrètes), on ne les « sait » pas.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.13",
+        "text": "dissipation",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Erreur sur le choix du mot. « Dissipation » signifie une dépense excessive ou un comportement déréglé. Le mot approprié dans ce contexte est « gaspillage ». Une erreur de syntaxe (S) a déjà été comptée dans cette phrase.",
+        "suggestions": [
+          "gaspillage"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Impropriété lexicale claire. « Dissipation » ne s'emploie pas pour parler de nourriture dans ce contexte.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.14",
+        "text": "aliments de gaspillage",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de ce groupe de mots est boiteuse. Il serait plus idiomatique d'utiliser un adjectif ou une autre tournure.",
+        "suggestions": [
+          "aliments gaspillés",
+          "le gaspillage d'aliments"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction non idiomatique. On ne dit pas « aliments de gaspillage » en français standard.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.15",
+        "text": "Que se soit avec nos parents qui nous obligent à finir la bouffe ou les annonces quand on essaye de regarder une vidéo.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase est une subordonnée sans phrase matrice pour la compléter. Il manque la proposition principale pour former une phrase syntaxiquement correcte.",
+        "suggestions": [
+          "Cela se produit que ce soit avec nos parents..."
+        ],
+        "ruleApplied": "4.1.2.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Phrase subordonnée isolée sans principale. Structure syntaxique incomplète évidente.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.16",
+        "text": "puisqu'avec la transformation vers la production pourront servir d'avantage avec les surplus alimentation",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction de phrase boiteuse. Le sujet du verbe « pourront » est absent ou mal placé, ce qui rend la phrase inintelligible.",
+        "suggestions": [
+          "puisque la transformation des surplus alimentaires en d'autres produits pourra servir davantage."
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Phrase agrammaticale. Le sujet du verbe « pourront » est introuvable, et la structure est incohérente.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.17",
+        "text": ";",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point-virgule est mal employé ici. Une virgule serait plus appropriée pour lier la référence à la phrase qui suit.",
+        "suggestions": [
+          ","
+        ],
+        "ruleApplied": "4.2.2.8.2",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Le point-virgule peut introduire une citation complète. L'usage est non standard mais pas totalement fautif.",
+        "counterArgument": "Bien qu'une virgule soit plus courante, le point-virgule peut être utilisé pour marquer une pause plus forte avant une citation complète. Certains guides de style acceptent cette construction, bien qu'elle soit moins fréquente."
+      },
+      {
+        "id": "erreur4.18",
+        "text": "imaginer le pourcentage de nourritures non-gaspillé",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Cette proposition est une subordonnée sans phrase matrice. Elle devrait être intégrée à la phrase principale pour être syntaxiquement correcte.",
+        "suggestions": [
+          "on imaginera le pourcentage de nourritures non gaspillées."
+        ],
+        "ruleApplied": "4.1.2.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Phrase à l'impératif isolée sans ponctuation finale, qui devrait être intégrée à la phrase conditionnelle précédente.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.19",
+        "text": "non-gaspillé",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de ponctuation en fin de phrase. Un point est requis pour marquer la fin de l'énoncé.",
+        "suggestions": [
+          "non-gaspillé."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Absence évidente de ponctuation finale. Un point ou un point d'exclamation est obligatoire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.20",
+        "text": "2020)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de ponctuation en fin de phrase. Un point est requis pour marquer la fin de l'énoncé.",
+        "suggestions": [
+          "2020)."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Absence de ponctuation finale après une parenthèse fermante en fin de phrase.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.21",
+        "text": "se serve",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de mode verbal. Après la locution « la façon dont », il faut utiliser l'indicatif présent « sert » et non le subjonctif « serve ».",
+        "suggestions": [
+          "se sert"
+        ],
+        "ruleApplied": "4.1.2.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de mode bien documentée. « La façon dont » impose l'indicatif, car il s'agit d'un fait constaté.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "informer",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif en « -er » et le participe passé en « -é ». Après l'auxiliaire « être », il faut utiliser le participe passé qui s'accorde avec le sujet « on » (masculin singulier par défaut).",
+        "suggestions": [
+          "informé"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur classique infinitif/participe passé. La construction passive avec « être » exige le participe passé.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "se soit",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'homophone grammatical « se » (pronom réfléchi) et « ce » (pronom démonstratif). La locution correcte est « que ce soit ».",
+        "suggestions": [
+          "ce soit"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur fréquente d'homophone. La locution « que ce soit » est figée avec « ce » démonstratif.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "pourront",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord du verbe. Le sujet probable, « la transformation », est à la 3e personne du singulier, donc le verbe doit être « pourra ».",
+        "suggestions": [
+          "pourra"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "MEDIUM",
+        "confidenceReason": "L'identification du sujet est difficile en raison de la construction boiteuse de la phrase, mais « transformation » semble être le donneur d'accord.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "d'avantage",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'homophone « d'avantage » (de + nom) et l'adverbe « davantage » (plus).",
+        "suggestions": [
+          "davantage"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion d'homophones classique. Le contexte requiert l'adverbe « davantage » (= plus).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "imparfaits",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en genre. L'adjectif « imparfaits » doit s'accorder avec le nom « nourritures », qui est féminin pluriel.",
+        "suggestions": [
+          "imparfaites"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. « Nourritures » est féminin pluriel et impose l'accord de l'adjectif.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "endommagés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en genre. L'adjectif « endommagés » doit s'accorder avec le même donneur « nourritures » (féminin pluriel).",
+        "suggestions": [
+          "endommagées"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente avec le même donneur que l'adjectif précédent.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "nommé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord du participe passé. « nommé » doit s'accorder en genre et en nombre avec « Une entreprise » (féminin singulier).",
+        "suggestions": [
+          "nommée"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du participe passé employé comme adjectif. « Entreprise » est féminin.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "récuperation",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Il manque un accent aigu sur le « e ». Le mot correct est « récupération ».",
+        "suggestions": [
+          "récupération"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accentuation évidente. Le « é » initial impose un second accent aigu.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "chère",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « cher » employé comme adverbe avec le verbe « coûter » est invariable.",
+        "suggestions": [
+          "cher"
+        ],
+        "ruleApplied": "5.3.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle bien établie : « coûter cher » est une locution figée où « cher » est invariable (fonction adverbiale).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.10",
+        "text": "compliqué",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en genre. L'adjectif « compliqué » doit s'accorder avec le nom « procédure », qui est féminin singulier.",
+        "suggestions": [
+          "compliquée"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. « Procédure » est féminin singulier.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.11",
+        "text": "non-gaspillé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en genre et en nombre. L'adjectif doit s'accorder avec « nourritures » (féminin pluriel).",
+        "suggestions": [
+          "non gaspillées"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. « Nourritures » est féminin pluriel. Note : le trait d'union n'est pas obligatoire avec « non ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.12",
+        "text": "citoyen",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le nom « citoyen » doit être au pluriel car il se rapporte à « nous tous ».",
+        "suggestions": [
+          "citoyens"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. « Nous tous » implique le pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.13",
+        "text": "on un",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le pronom « on » et le verbe « ont ». Le verbe qui suit le sujet « on » est « a » (avoir à la 3e personne du singulier).",
+        "suggestions": [
+          "on a"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion d'homophones classique. « On » (pronom) prend le verbe « a », non « ont ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.14",
+        "text": "dansl'article",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Barbarisme orthographique. Les mots « dans » et « l'article » ont été fusionnés à tort.",
+        "suggestions": [
+          "dans l'article"
+        ],
+        "ruleApplied": "5.2.6.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Fusion involontaire de mots. Erreur typographique évidente.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.15",
+        "text": "la",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le premier mot d'un titre d'œuvre ou d'article prend une majuscule.",
+        "suggestions": [
+          "La"
+        ],
+        "ruleApplied": "5.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique standard pour les titres : majuscule au premier mot.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.16",
+        "text": "le devoir",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Les noms propres, y compris les noms de journaux, prennent une majuscule.",
+        "suggestions": [
+          "Le Devoir"
+        ],
+        "ruleApplied": "5.2.4.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "« Le Devoir » est un nom propre (journal québécois) qui prend obligatoirement des majuscules.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.17",
+        "text": "on se serve",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur de conjugaison. Le verbe « servir » à la 3e personne du singulier de l'indicatif présent est « sert ».",
+        "suggestions": [
+          "on se sert"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de conjugaison liée à l'erreur de mode identifiée au critère 4. Le mode indicatif impose « sert ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.18",
+        "text": "la presse.ca",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Les noms propres, y compris les noms de médias, prennent une majuscule.",
+        "suggestions": [
+          "La Presse.ca"
+        ],
+        "ruleApplied": "5.2.4.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "« La Presse » est un nom propre (journal québécois) qui prend obligatoirement des majuscules.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.19",
+        "text": "Se sont",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'homophone grammatical « se » (pronom réfléchi) et « ce » (pronom démonstratif). Le présentatif correct est « Ce sont ».",
+        "suggestions": [
+          "Ce sont"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'homophone classique. Le présentatif « Ce sont » est figé avec « ce » démonstratif.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.20",
+        "text": "peut",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord du verbe. Le sujet est le pronom relatif « qui », qui reprend « des petits gestes » (pluriel). Le verbe doit donc être à la 3e personne du pluriel.",
+        "suggestions": [
+          "peuvent"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. L'antécédent de « qui » est « gestes » (pluriel).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.21",
+        "text": "tous",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en genre. Le déterminant « tous » doit s'accorder avec le nom « démarches », qui est féminin pluriel.",
+        "suggestions": [
+          "toutes"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. « Démarches » est féminin pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.22",
+        "text": "ses",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'homophone « ses » (déterminant possessif) et « ces » (déterminant démonstratif).",
+        "suggestions": [
+          "ces"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion d'homophones. Le contexte demande le démonstratif « ces » (ces démarches-là, mentionnées précédemment).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.23",
+        "text": "ressoudre",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Barbarisme. La graphie correcte de ce verbe à l'infinitif est « résoudre ».",
+        "suggestions": [
+          "résoudre"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur orthographique évidente. Le verbe « résoudre » ne prend qu'un seul « s ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.24",
+        "text": "problême",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'accent. Ce mot s'écrit avec un accent grave : « problème ».",
+        "suggestions": [
+          "problème"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accentuation évidente. L'accent est grave, non circonflexe.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.25",
+        "text": "elliminer",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur orthographique. Le verbe « éliminer » ne prend qu'un seul « l ».",
+        "suggestions": [
+          "éliminer"
+        ],
+        "ruleApplied": "5.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur orthographique évidente. « Éliminer » prend un seul « l ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.26",
+        "text": "d'entreprise",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Après « plus d' », le nom qui suit doit être au pluriel.",
+        "suggestions": [
+          "d'entreprises"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. « Plus d'entreprise » implique nécessairement le pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.27",
+        "text": "la fierté",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le premier mot d'un titre d'œuvre ou d'article doit commencer par une majuscule.",
+        "suggestions": [
+          "La fierté"
+        ],
+        "ruleApplied": "5.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique standard pour les titres : majuscule au premier mot.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.28",
+        "text": "est",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le verbe « être » doit s'accorder au pluriel avec son sujet « qui », dont l'antécédent est « les emballages ».",
+        "suggestions": [
+          "sont"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. L'antécédent de « qui » est « emballages » (pluriel).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.29",
+        "text": "humilité",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion entre les homophones lexicaux « humilité » (qualité morale) et « humidité » (présence d'eau).",
+        "suggestions": [
+          "humidité"
+        ],
+        "ruleApplied": "5.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion évidente de paronymes (doublon de l'erreur4.9). Le contexte requiert clairement « humidité ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.30",
+        "text": "tous",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en genre. Le déterminant « tous » doit s'accorder au féminin pluriel avec son donneur « démarches ».",
+        "suggestions": [
+          "toutes"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente (doublon de l'erreur5.21). « Démarches » est féminin pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.31",
+        "text": "tout les",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le déterminant « tout » doit s'accorder au masculin pluriel « tous » avec le nom « aliments ».",
+        "suggestions": [
+          "tous les"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. « Aliments » est masculin pluriel.",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 21,
+      "note": "E"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 31,
+      "note": "E"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 52,
+      "vraisErreurs": 51,
+      "discutables": 1,
+      "fauxPositifs": 0
+    }
+  },
+  "startTimestamp": "2025-12-12T11:38:30.986Z",
+  "endTimestamp": "2025-12-12T11:40:47.153Z",
+  "durationMs": 136167,
+  "durationFormatted": "02:16:167"
+}

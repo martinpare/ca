@@ -1,0 +1,319 @@
+{
+  "processedAt": "2025-12-10T14:53:06.796Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_103.txt",
+    "originalText": "Manger moche ou manger beau, c’est manger pareil !\r\n\r\nDepuis la nuit des temps, manger est un besoin vital pour l'homme. Peu importe l’époque dans laquelle nous sommes, se nourrir est à la base de notre survie. La nourriture est un grand problème pour la société d’aujourd’hui. Diverses dilemmes sont abordés par les experts, mais l'un d'eux devrait sortir du lot. Sommes-nous prêts à lutter contre le gaspillage alimentaire? De mon humble avis, la société n’est pas encore prête à lutter de manière efficace contre le gaspillage alimentaire.\r\n\r\nLa consommation\r\nTout d’abord, il y a plusieurs étapes dans la chaîne d'approvisionnement alimentaire. Cela crée donc plusieurs parties différentes ou la nourriture peut être abîmée ou gaspillée. Malgré tout, la dernière étape est la pire avec «un pourcentage qui monte jusqu’à 47 en terme de gaspillage alimentaire (1)». La consommation. Le gaspillage dû à la consommation est causé par plusieurs raisons que la plupart des gens ignorent. Dans nos maisons, au restaurant ou à l'hôtel, personne n’a envie de manger un fruit poqué. La sévérité de l’esthétique, que ce soit par les commerçants ou par les acheteurs, et la perfection des aliments est un des facteurs qui causent la plus grande partie du gaspillage alimentaire. Fruit ou légume, dès la petite marque apparente, l’aliment est jeté et cela est un gros problème de la société dans laquelle nous vivons. De plus, l’esthétique n’est pas la seule raison pour laquelle on jette. Le manque de connaissance sur la conservation des aliments, la mauvaise planification des repas et les portions exagérées font aussi partie du gaspillage alimentaire.\r\n\r\nProduction des aliments\r\nPour continuer, les agriculteurs jouent aussi un rôle dans le gaspillage alimentaire. Ce n’est souvent pas leur faute car ils ne peuvent pas contrôler la façon dont leurs fruits et légumes poussent. Par contre, certains cultivateurs font don de leurs denrées, mais la plupart évite cette façon de faire car les banques alimentaires n’ont pas nécessairement les véhicules pour aller chercher ces denrées. Donc, ces actions prennent beaucoup de temps, d’énergie et de ressource aux agriculteurs. De plus, la plupart des cultivateurs vont éviter de distribuer dans les supermarchés. Car, si les aliments ne répondent pas aux standards esthétiques, «les aliments sont vendus moins chers que les autres alors qu’il en coûte autant pour les produire et les transporter». (2) En plus, les conditions météorologiques ont un effet direct sur l’agriculture et peuvent parfois changer la forme des fruits ou légumes. Par ce fait, les standards esthétiques ne sont pas respectés. Enfin, la production en elle-même est un facteur élevé de gaspillage dans le monde.\r\n\r\nEn conclusion, je crois que malgré le nombre d'efforts impressionnants de certaines compagnies que l’homme n’est pas encore prêt à s'investir à 100%. La société dans laquelle nous vivons est encore trop accrochée à la perfection et cela à un gros impact sur le gaspillage alimentaire. De plus, la production pourrait être améliorée mais, encore une fois, les gérants de compagnie ne sont pas prêts à mettre l’argent dans de nouvelle façon de faire de l’agriculture. D’autres problèmes de pollution existent dans le monde. Sommes-nous prêts à passer à un mouvement plus vert?\r\n\r\n1 TABLE QUÉBÉCOISE SUR LA SAINE ALIMENTATION. «Gaspillage alimentaire : survol des causes et des interventions en cours en matière de prévention au Québec», 2019.\r\n2 CAMERON, Daphné. «Les légumes moches, un marché de niche», 2 octobre 2020.",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "Par ce fait",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Préposition erronée. L'expression correcte pour introduire une conséquence est \"De ce fait\".",
+        "suggestions": [
+          "De ce fait"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "id": "erreur4.2",
+        "text": "que",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "S",
+        "description": "Mot superflu. La construction \"je crois que... que...\" est incorrecte. La conjonction \"que\" est de trop après la proposition circonstancielle introduite par \"malgré\".",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "id": "erreur4.3",
+        "text": "2020",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence du point final. Une référence bibliographique doit se terminer par un point.",
+        "suggestions": [
+          "2020."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "id": "erreur4.4",
+        "text": "!",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Un point d'exclamation est utilisé à la fin d'un titre qui est une simple affirmation. Un point final est plus approprié.",
+        "suggestions": [
+          "."
+        ],
+        "ruleApplied": "4.2.2.3.2"
+      },
+      {
+        "id": "erreur4.5",
+        "text": "De mon humble avis",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution correcte pour introduire une opinion est « À mon avis » et non « De mon avis ».",
+        "suggestions": [
+          "À mon humble avis"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "id": "erreur4.6",
+        "text": "ou",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Confusion entre l'adverbe de lieu « où » (avec un accent) qui indique un endroit, et la conjonction de coordination « ou » (sans accent) qui indique un choix. Ici, il faut indiquer le lieu.",
+        "suggestions": [
+          "où"
+        ],
+        "ruleApplied": "4.1.2.1.9"
+      },
+      {
+        "id": "erreur4.7",
+        "text": "«un",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "« P »",
+        "description": "Il manque une espace insécable après le guillemet français ouvrant.",
+        "suggestions": [
+          "« un"
+        ],
+        "ruleApplied": "4.2.2.5.1"
+      },
+      {
+        "id": "erreur4.8",
+        "text": "»",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence du point final qui doit clore la phrase.",
+        "suggestions": [
+          "»."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "id": "erreur4.9",
+        "text": "Car,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "La virgule est superflue entre la conjonction « Car » et la subordonnée « si » qui suit immédiatement.",
+        "suggestions": [
+          "Car"
+        ],
+        "ruleApplied": "4.2.2.10.2.h"
+      },
+      {
+        "id": "erreur4.10",
+        "text": "«les",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "« P »",
+        "description": "Il manque une espace insécable après le guillemet français ouvrant.",
+        "suggestions": [
+          "« les"
+        ],
+        "ruleApplied": "4.2.2.5.1"
+      },
+      {
+        "id": "erreur4.11",
+        "text": "«Gaspillage",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "« P »",
+        "description": "Il manque une espace insécable après le guillemet français ouvrant.",
+        "suggestions": [
+          "« Gaspillage"
+        ],
+        "ruleApplied": "4.2.2.5.1"
+      },
+      {
+        "id": "erreur4.12",
+        "text": "2",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque un point après le numéro de la référence bibliographique.",
+        "suggestions": [
+          "2."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "id": "erreur4.13",
+        "text": "«Les",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "« P »",
+        "description": "Il manque une espace insécable après le guillemet français ouvrant.",
+        "suggestions": [
+          "« Les"
+        ],
+        "ruleApplied": "4.2.2.5.1"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 8.5,
+      "note": "B"
+    },
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "Diverses",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord en genre de l'adjectif. L'adjectif \"Diverses\" doit s'accorder en genre et en nombre avec le nom masculin pluriel \"dilemmes\".",
+        "suggestions": [
+          "Divers"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.2",
+        "text": "ou",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion d'homophones grammaticaux. Il faut utiliser le pronom relatif de lieu \"où\" et non la conjonction de coordination \"ou\".",
+        "suggestions": [
+          "où"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "id": "erreur5.3",
+        "text": "en terme de",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Orthographe d'usage. L'expression correcte est \"en termes de\", au pluriel.",
+        "suggestions": [
+          "en termes de"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "id": "erreur5.4",
+        "text": "évite",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord du verbe avec le sujet. Le sujet \"la plupart\" (sous-entendu \"la plupart des cultivateurs\") commande l'accord du verbe à la troisième personne du pluriel.",
+        "suggestions": [
+          "évitent"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.5",
+        "text": "ressource",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord en nombre du nom. Dans l'énumération \"temps, d’énergie et de ressource\", le nom \"ressource\" doit être au pluriel.",
+        "suggestions": [
+          "ressources"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.6",
+        "text": "à",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion d'homophones grammaticaux. Il faut utiliser le verbe \"avoir\" à la troisième personne du singulier (\"a\") et non la préposition \"à\".",
+        "suggestions": [
+          "a"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "id": "erreur5.7",
+        "text": "compagnie",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord en nombre du complément du nom. Le nom \"compagnie\" doit être au pluriel car il est sous-entendu qu'il y a plusieurs compagnies (\"les gérants de\").",
+        "suggestions": [
+          "compagnies"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.8",
+        "text": "nouvelle façon",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord en nombre. L'expression correcte est \"de nouvelles façons\". L'adjectif \"nouvelle\" et le nom \"façon\" doivent être au pluriel.",
+        "suggestions": [
+          "nouvelles façons"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.9",
+        "text": "TABLE QUÉBÉCOISE SUR LA SAINE ALIMENTATION",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Majuscules erronées dans une dénomination. Seul le premier mot et les noms propres prennent une majuscule dans le nom d'un organisme.",
+        "suggestions": [
+          "Table québécoise sur la saine alimentation"
+        ],
+        "ruleApplied": "5.2.4.1.2"
+      },
+      {
+        "id": "erreur5.10",
+        "text": "est",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec le sujet composé « La sévérité de l’esthétique [...] et la perfection des aliments », qui est au pluriel.",
+        "suggestions": [
+          "sont"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.11",
+        "text": "connaissance",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Dans l'expression « le manque de », le complément qui suit est généralement au pluriel. On parle ici de l'ensemble des connaissances sur le sujet.",
+        "suggestions": [
+          "connaissances"
+        ],
+        "ruleApplied": "5.3.1.5"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 11,
+      "note": "C"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:49:09.517Z",
+    "endTimestamp": "2025-12-10T14:53:06.796Z",
+    "durationMs": 237279,
+    "durationFormatted": "03:57:279"
+  }
+}

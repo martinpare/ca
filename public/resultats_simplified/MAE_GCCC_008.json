@@ -1,0 +1,343 @@
+{
+  "processedAt": "2025-12-10T14:05:57.091Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_008.txt",
+    "originalText": "Chauffe pas la patate!\r\n\r\nDepuis qu’on est petit, on nous a toujours répété qu'on ne devait pas en faire. On nous a tres vite fait comprendre que le gaspillage alimentaire était à éviter. Des millions de tonnes de nourriture sont gaspillés chaque année. Sommes-nous prêts à lutter contre le gaspillage? Je crois fermement que oui mais pour y parvenir, j'ai besoin de ton aide.\r\n\r\nPremièrement, je suis certaine que nous pouvons mener un combat contre le gaspillage alimentaire. Nous avons la chance de faire parti d'une génération révolutionnaire. Une génération qui défi la culture, brise les tabous, surmonte ses traumatismes mais surtout une génération qui utilise sa voix et son intelligence pour rendre ce monde meilleur. Une de leur idée mise en place pour contrer le gaspillage alimentaire est l’invention de plateformes tel que Foodhero ou Flashfood. Ces applications offre des produits d’épicerie dont la date de péremption est presqu’arrivée à terme à prix réduit. C'est une aubaine pour les familles à revenus faible et un excellent moyen pour respecter son budget et survivre à l’inflation. De plus, plusieurs organismes et groupes communautaires récupèrent des denrées invendues pour en faire des paniers alimentaires qu’ils distribuent aux plus démunis. Grâce à cette initiative, « […] 6,7 millions de kilos d’aliments ont été redistribués en cinq ans ». (Corriveau, 2020). Des hôtels et restaurants ont aussi adoptés cette mesure. Fondé en 2020, La Table des Chefs est un programme qui récupère les surplus alimentaires de restaurants et hôtels à Montréal. « […] En 2018, plus de 600 000 repas ont été récupérés et redistribués » (Hébert, 2019). Bref, ces restaurateurs et chefs ont sû mettre de côté les hommes d’affaires en eux et ont utilisé leur position pour aider à réduire le gaspillage alimentaire.\r\n\r\nDeuxièmement, nous pouvons contrer le gaspillage alimentaire. De nos jours, nous pouvons passer des heures devant un écran ou appareil technologique. Selon la Table québécoise sur la saine alimentation en 2019, 47% du gaspillage alimentaire provient de la consommation. Nous achetons beaucoup trop, et par manque d’organisation ces aliments sont jetés à la poubelle. Heureusement, des sites web pour réduire les pertes alimentaires chez nous existent. On y enseigne comment garder la fraicheur des aliments, des recettes minimalistes et même des recettes traditionnelles avec des produits assez surprenants. De surcoit, de plus en plus de gens apprennent que ce n'est pas parce que la date du « meilleur avant » est passé qu'un produit n'est plus propre à la consommation. Dans son article « Environnement : au rebut, le gaspillage! » publié le 1er octobre 2018, Mathilde Roy mentionne qu'un yogourt peut être mangé au moins trois semaines après la date « meilleur avant » et que les produits en conserve et aliments surgelés sont comestibles jusqu'à un an après la date indiquée. Ainsi, les courses pour remplir le frigo ne sont plus nécessaires. Planifiez vos repas est la solution qui vous évitera à passer beaucoup de temps aux caisses et en cuisine.\r\n\r\nFinalement, je sais que nous avons les outils nécessaires pour combattre le gaspillage alimentaire. Les applications, les sites internets et les organismes font déja une grande partie du travail. Il ne reste plus qu’à embarquer dans le bateau et faire notre part. Il faut arrêter de penser que votre intervention n’aura aucun effet. Nous sommes plus fort ensemble. Si nous n’agissons pas contre le gaspillage alimentaire aujourd'hui, quand le ferons-nous?",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "Chauffe pas",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'adverbe de négation « ne » est manquant. La forme correcte est « ne... pas ». Il s'agit d'un calque de l'oral.",
+        "suggestions": [
+          "Ne chauffe pas"
+        ],
+        "ruleApplied": "4.1.2.1.3"
+      },
+      {
+        "id": "erreur4.2",
+        "text": "leur",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le déterminant possessif doit s'accorder avec le possesseur « Une génération » (singulier).",
+        "suggestions": [
+          "son"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "id": "erreur4.3",
+        "text": "» (Hébert, 2019)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque un point final pour clore la phrase après la référence entre parenthèses.",
+        "suggestions": [
+          "» (Hébert, 2019)."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "id": "erreur4.4",
+        "text": "à passer",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe « éviter » se construit avec la préposition « de » suivie d'un infinitif (« éviter de faire quelque chose »).",
+        "suggestions": [
+          "de passer"
+        ],
+        "ruleApplied": "4.1.2.2.2"
+      },
+      {
+        "id": "erreur4.5",
+        "text": "traumatismes mais",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule avant le coordonnant 'mais' pour séparer le dernier élément d'une énumération.",
+        "suggestions": [
+          "traumatismes, mais"
+        ],
+        "ruleApplied": "4.2.2.10.1.a"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 4,
+      "note": "A"
+    },
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "tres",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'adverbe « très » s'écrit toujours avec un accent grave.",
+        "suggestions": [
+          "très"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.2",
+        "text": "gaspillés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « gaspillé », employé avec l'auxiliaire « être », s'accorde en genre et en nombre avec le sujet « Des millions de tonnes de nourriture », dont le noyau est « tonnes » (féminin pluriel).",
+        "suggestions": [
+          "gaspillées"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "id": "erreur5.3",
+        "text": "parti",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion entre l'homophone « parti » (nom masculin ou participe passé) et « partie » (nom féminin). L'expression est « faire partie de quelque chose ».",
+        "suggestions": [
+          "partie"
+        ],
+        "ruleApplied": "5.2.2"
+      },
+      {
+        "id": "erreur5.4",
+        "text": "défi",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe « défier » doit être conjugué à la troisième personne du singulier de l'indicatif présent pour s'accorder avec le sujet « qui », mis pour « Une génération ».",
+        "suggestions": [
+          "défie"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.5",
+        "text": "tel que",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "La locution « tel que » s'accorde en genre et en nombre avec le nom auquel elle se rapporte, ici « plateformes » (féminin pluriel).",
+        "suggestions": [
+          "telles que"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.6",
+        "text": "offre",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe « offrir » doit être conjugué à la troisième personne du pluriel de l'indicatif présent pour s'accorder avec le sujet « Ces applications ».",
+        "suggestions": [
+          "offrent"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.7",
+        "text": "presqu’arrivée",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'adverbe « presque » ne s'élide jamais devant une voyelle.",
+        "suggestions": [
+          "presque arrivée"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "id": "erreur5.8",
+        "text": "faible",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « faible » doit s'accorder en nombre avec le nom « revenus » (masculin pluriel) qu'il qualifie.",
+        "suggestions": [
+          "faibles"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.9",
+        "text": "adoptés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « adopté », employé avec l'auxiliaire « avoir », reste invariable car il n'a pas de complément d'objet direct placé avant le verbe.",
+        "suggestions": [
+          "adopté"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "id": "erreur5.10",
+        "text": "sû",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion entre le participe passé du verbe savoir, « su », et l'adjectif « sûr ». L'accent circonflexe est incorrect ici.",
+        "suggestions": [
+          "su"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.11",
+        "text": "fraicheur",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le nom « fraicheur » s'écrit avec un accent circonflexe sur le « i ».",
+        "suggestions": [
+          "fraîcheur"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.12",
+        "text": "surcoit",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "La locution adverbiale « de surcroît » s'écrit avec un « r » après le « c » et un accent circonflexe sur le « i ».",
+        "suggestions": [
+          "surcroît"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "id": "erreur5.13",
+        "text": "passé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « passé », employé avec l'auxiliaire « être », s'accorde en genre et en nombre avec le sujet « la date » (féminin singulier).",
+        "suggestions": [
+          "passée"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "id": "erreur5.14",
+        "text": "Planifiez",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le sujet de la phrase est le groupe « Planifier vos repas ». Il faut donc utiliser l'infinitif « Planifier » et non l'impératif « Planifiez ».",
+        "suggestions": [
+          "Planifier"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "id": "erreur5.15",
+        "text": "internets",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le mot « Internet », utilisé comme adjectif ou en apposition, est invariable. Il ne prend pas de « s » au pluriel.",
+        "suggestions": [
+          "Internet"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.16",
+        "text": "déja",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'adverbe « déjà » s'écrit toujours avec un accent grave sur le « e » et un accent aigu sur le « a ».",
+        "suggestions": [
+          "déjà"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.17",
+        "text": "qu’à",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre la forme verbale « a » (verbe avoir) et la préposition « à ». Dans la locution « ne rester plus qu'à », il faut utiliser la préposition.",
+        "suggestions": [
+          "qu'à"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "id": "erreur5.18",
+        "text": "fort",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « fort », attribut du sujet « Nous » (pluriel), doit s'accorder en nombre.",
+        "suggestions": [
+          "forts"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.19",
+        "text": "leur",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant possessif doit être au pluriel ('leurs') car il se rapporte à un nom pluriel ('idées') qui suit la locution 'Une de'.",
+        "suggestions": [
+          "leurs"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.20",
+        "text": "idée",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom qui suit la locution 'Une de' doit être au pluriel. On écrit donc 'idées'.",
+        "suggestions": [
+          "idées"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.21",
+        "text": "Fondé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'Fondé', mis en apposition, doit s'accorder en genre et en nombre avec le nom qu'il qualifie, 'La Table des Chefs' (féminin singulier).",
+        "suggestions": [
+          "Fondée"
+        ],
+        "ruleApplied": "5.3.2.3"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 21,
+      "note": "E"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:01:43.735Z",
+    "endTimestamp": "2025-12-10T14:05:57.091Z",
+    "durationMs": 253356,
+    "durationFormatted": "04:13:356"
+  }
+}

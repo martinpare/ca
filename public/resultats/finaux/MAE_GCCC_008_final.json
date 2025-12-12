@@ -1,0 +1,448 @@
+{
+  "processedAt": "2025-12-12T11:36:11.919Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_008.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_008.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "Chauffe pas",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'adverbe de négation « ne » est manquant. La forme correcte est « ne... pas ». Il s'agit d'un calque de l'oral.",
+        "suggestions": [
+          "Ne chauffe pas"
+        ],
+        "ruleApplied": "4.1.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "À l'écrit scolaire, l'omission du « ne » dans la négation est considérée comme une erreur de syntaxe, même si elle est courante à l'oral québécois.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "leur",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le déterminant possessif doit s'accorder avec le possesseur « Une génération » (singulier).",
+        "suggestions": [
+          "son"
+        ],
+        "ruleApplied": "4.1.2.3.2",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Le contexte montre que « leur » se rapporte bien au pluriel « génération » compris comme un collectif désignant plusieurs personnes.",
+        "counterArgument": "Dans ce contexte, « leur » est correct. L'auteur parle de « Une génération » comme un collectif représentant de nombreux individus (« qui défie... brise... surmonte... utilise »). Le passage suivant dit « Une de leurs idées », confirmant que l'auteur traite le collectif au pluriel. Il s'agit d'une syllepse grammaticale parfaitement acceptable où l'accord se fait selon le sens (les individus composant la génération) plutôt que selon la forme grammaticale (singulier)."
+      },
+      {
+        "id": "erreur4.3",
+        "text": "» (Hébert, 2019)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque un point final pour clore la phrase après la référence entre parenthèses.",
+        "suggestions": [
+          "» (Hébert, 2019)."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "L'absence de point final après une référence parenthétique est une erreur évidente de ponctuation.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "à passer",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe « éviter » se construit avec la préposition « de » suivie d'un infinitif (« éviter de faire quelque chose »).",
+        "suggestions": [
+          "de passer"
+        ],
+        "ruleApplied": "4.1.2.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "La construction « éviter à » avec un infinitif est incorrecte. Le verbe « éviter » régit la préposition « de » devant un infinitif.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "traumatismes mais",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule avant le coordonnant 'mais' pour séparer le dernier élément d'une énumération.",
+        "suggestions": [
+          "traumatismes, mais"
+        ],
+        "ruleApplied": "4.2.2.10.1.a",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "La règle de la virgule avant « mais » dans une énumération n'est pas absolue. Certains grammairiens acceptent son omission quand « mais surtout » forme une locution.",
+        "counterArgument": "L'absence de virgule est défendable ici. Dans l'énumération « qui défie..., brise..., surmonte... mais surtout une génération qui... », le « mais surtout » peut être considéré comme une locution adverbiale marquant l'emphase finale. Plusieurs guides stylistiques acceptent l'omission de la virgule devant « mais » quand il introduit un élément de même nature, surtout avec l'adverbe « surtout » qui renforce la coordination."
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "tres",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'adverbe « très » s'écrit toujours avec un accent grave.",
+        "suggestions": [
+          "très"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. L'accent grave sur « très » est obligatoire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "gaspillés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « gaspillé », employé avec l'auxiliaire « être », s'accorde en genre et en nombre avec le sujet « Des millions de tonnes de nourriture », dont le noyau est « tonnes » (féminin pluriel).",
+        "suggestions": [
+          "gaspillées"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "L'accord peut hésiter entre « tonnes » (féminin) et « nourriture » (féminin) qui sont tous deux féminins, ou le sens collectif « millions » (masculin).",
+        "counterArgument": "Bien que « gaspillées » soit préférable (accord avec « tonnes »), l'accord au masculin pourrait se justifier par l'attraction du terme « millions » ou par une lecture où l'on pense davantage à la quantité abstraite qu'aux tonnes elles-mêmes. Cependant, la norme recommande l'accord avec le noyau « tonnes », donc « gaspillées » est la forme à privilégier. L'erreur reste réelle mais l'hésitation est compréhensible."
+      },
+      {
+        "id": "erreur5.3",
+        "text": "parti",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion entre l'homophone « parti » (nom masculin ou participe passé) et « partie » (nom féminin). L'expression est « faire partie de quelque chose ».",
+        "suggestions": [
+          "partie"
+        ],
+        "ruleApplied": "5.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'homophone évidente. L'expression figée est « faire partie de ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "défi",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe « défier » doit être conjugué à la troisième personne du singulier de l'indicatif présent pour s'accorder avec le sujet « qui », mis pour « Une génération ».",
+        "suggestions": [
+          "défie"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de conjugaison évidente. Le verbe doit porter la marque de la 3e personne du singulier.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "tel que",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "La locution « tel que » s'accorde en genre et en nombre avec le nom auquel elle se rapporte, ici « plateformes » (féminin pluriel).",
+        "suggestions": [
+          "telles que"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. « Tel » doit s'accorder avec « plateformes » (féminin pluriel).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "offre",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe « offrir » doit être conjugué à la troisième personne du pluriel de l'indicatif présent pour s'accorder avec le sujet « Ces applications ».",
+        "suggestions": [
+          "offrent"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord sujet-verbe évidente. « Ces applications » (pluriel) exige « offrent ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "presqu'arrivée",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'adverbe « presque » ne s'élide jamais devant une voyelle.",
+        "suggestions": [
+          "presque arrivée"
+        ],
+        "ruleApplied": "5.2.6.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle d'élision claire : « presque » ne s'élide que dans « presqu'île ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "faible",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « faible » doit s'accorder en nombre avec le nom « revenus » (masculin pluriel) qu'il qualifie.",
+        "suggestions": [
+          "faibles"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. L'adjectif « faible » doit s'accorder avec « revenus » (pluriel).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "adoptés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « adopté », employé avec l'auxiliaire « avoir », reste invariable car il n'a pas de complément d'objet direct placé avant le verbe.",
+        "suggestions": [
+          "adopté"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du participe passé évidente. Avec « avoir », sans COD antéposé, le participe reste invariable.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.10",
+        "text": "sû",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion entre le participe passé du verbe savoir, « su », et l'adjectif « sûr ». L'accent circonflexe est incorrect ici.",
+        "suggestions": [
+          "su"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'homophone évidente. Le participe passé de « savoir » s'écrit « su » sans accent.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.11",
+        "text": "fraicheur",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le nom « fraicheur » s'écrit avec un accent circonflexe sur le « i ».",
+        "suggestions": [
+          "fraîcheur"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Depuis les rectifications orthographiques de 1990, « fraicheur » sans accent est accepté, bien que « fraîcheur » reste la graphie traditionnelle.",
+        "counterArgument": "Les rectifications orthographiques de 1990, approuvées par l'Académie française et recommandées par plusieurs instances francophones, acceptent « fraicheur » sans accent circonflexe. Les deux graphies (« fraîcheur » et « fraicheur ») sont désormais considérées comme correctes. Dans un contexte scolaire québécois, il convient de vérifier si l'enseignant accepte les rectifications de 1990."
+      },
+      {
+        "id": "erreur5.12",
+        "text": "surcoit",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "La locution adverbiale « de surcroît » s'écrit avec un « r » après le « c » et un accent circonflexe sur le « i ».",
+        "suggestions": [
+          "surcroît"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'orthographe double : manque le « r » et l'accent circonflexe. La forme correcte est « surcroît ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.13",
+        "text": "passé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « passé », employé avec l'auxiliaire « être », s'accorde en genre et en nombre avec le sujet « la date » (féminin singulier).",
+        "suggestions": [
+          "passée"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du participe passé évidente. Avec « être », l'accord se fait avec le sujet « la date » (féminin).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.14",
+        "text": "Planifiez",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le sujet de la phrase est le groupe « Planifier vos repas ». Il faut donc utiliser l'infinitif « Planifier » et non l'impératif « Planifiez ».",
+        "suggestions": [
+          "Planifier"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de mode verbal. Dans la construction « X est la solution », X doit être un groupe nominal infinitif, donc « Planifier vos repas ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.15",
+        "text": "internets",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le mot « Internet », utilisé comme adjectif ou en apposition, est invariable. Il ne prend pas de « s » au pluriel.",
+        "suggestions": [
+          "Internet"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "L'usage de « sites Internet » (invariable) est recommandé, mais « sites internets » peut se justifier si on considère « internet » comme un adjectif variable.",
+        "counterArgument": "L'usage recommandé par l'OQLF est de traiter « Internet » comme un nom propre invariable (« des sites Internet »). Cependant, l'emploi adjectival de « internet » en minuscule avec accord au pluriel (« des sites internets ») se répand dans l'usage contemporain, notamment quand on parle de « sites internets » au sens de « sites de type internet » (par opposition à intranet). La forme « Internet » majuscule invariable reste néanmoins la norme recommandée en contexte scolaire."
+      },
+      {
+        "id": "erreur5.16",
+        "text": "déja",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'adverbe « déjà » s'écrit toujours avec un accent grave sur le « e » et un accent aigu sur le « a ».",
+        "suggestions": [
+          "déjà"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. L'accent grave sur le « a » de « déjà » est obligatoire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.17",
+        "text": "qu'à",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre la forme verbale « a » (verbe avoir) et la préposition « à ». Dans la locution « ne rester plus qu'à », il faut utiliser la préposition.",
+        "suggestions": [
+          "qu'à"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Le texte original contient bien « qu'à » avec l'accent. Il n'y a pas d'erreur ici.",
+        "counterArgument": "En relisant le texte original, on trouve : « Il ne reste plus qu'à embarquer ». Le « à » porte bien l'accent grave. Il n'y a donc aucune erreur à cet endroit. Il s'agit d'un faux positif : la détection a probablement été déclenchée par erreur, car le texte est correct tel quel."
+      },
+      {
+        "id": "erreur5.18",
+        "text": "fort",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « fort », attribut du sujet « Nous » (pluriel), doit s'accorder en nombre.",
+        "suggestions": [
+          "forts"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. L'adjectif attribut « fort » doit s'accorder avec le sujet « nous » (pluriel).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.19",
+        "text": "leur",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant possessif doit être au pluriel ('leurs') car il se rapporte à un nom pluriel ('idées') qui suit la locution 'Une de'.",
+        "suggestions": [
+          "leurs"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. Dans « Une de leurs idées », le déterminant doit être au pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.20",
+        "text": "idée",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom qui suit la locution 'Une de' doit être au pluriel. On écrit donc 'idées'.",
+        "suggestions": [
+          "idées"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle grammaticale claire : après « une de », le nom doit être au pluriel (« une de leurs idées »).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.21",
+        "text": "Fondé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'Fondé', mis en apposition, doit s'accorder en genre et en nombre avec le nom qu'il qualifie, 'La Table des Chefs' (féminin singulier).",
+        "suggestions": [
+          "Fondée"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente. Le participe passé en apposition s'accorde avec « La Table des Chefs » (féminin).",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 3,
+      "note": "B"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 18,
+      "note": "D"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 26,
+      "vraisErreurs": 20,
+      "discutables": 4,
+      "fauxPositifs": 2
+    }
+  },
+  "startTimestamp": "2025-12-12T11:34:47.752Z",
+  "endTimestamp": "2025-12-12T11:36:11.919Z",
+  "durationMs": 84167,
+  "durationFormatted": "01:24:167"
+}

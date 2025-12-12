@@ -1,0 +1,453 @@
+{
+  "processedAt": "2025-12-12T11:40:35.102Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_072.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_072.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "se défendre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom réfléchi ne correspond pas au sujet 'nous'. Il faut utiliser 'nous défendre'.",
+        "suggestions": [
+          "nous défendre"
+        ],
+        "ruleApplied": "4.1.2.3.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur grammaticale claire : discordance entre le sujet 'nous' et le pronom réfléchi 'se' qui devrait être 'nous'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "se rivaliser",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe 'rivaliser' n'est pas pronominal dans ce contexte. Il faut écrire 'rivaliser contre' ou 'lutter contre'.",
+        "suggestions": [
+          "lutter",
+          "rivaliser"
+        ],
+        "ruleApplied": "4.1.2.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le verbe 'rivaliser' n'existe pas sous forme pronominale en français standard. Cette construction est incorrecte.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "notre ensemble participe",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction 'notre ensemble' est sémantiquement boiteuse. Il faut reformuler pour clarifier le sens, par exemple : 'l'ensemble de notre société participe'.",
+        "suggestions": [
+          "l'ensemble de notre société participe",
+          "nous participions tous"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction syntaxique et sémantique incorrecte. 'Notre ensemble' ne forme pas un groupe nominal acceptable en français.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "d'excès",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe 'occasionner' est transitif direct. Il requiert un article partitif 'des' devant 'excès' et non la préposition 'de'.",
+        "suggestions": [
+          "des excès"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de construction verbale claire. 'Occasionner' est transitif direct et requiert 'des excès' (article partitif), non 'd'excès'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "proposent les clients",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Le verbe 'proposer' se construit avec la préposition 'à' (proposer quelque chose à quelqu'un). Il manque la préposition 'aux' devant 'clients'. Erreur non comptée car il y a déjà une erreur de syntaxe dans la phrase.",
+        "suggestions": [
+          "proposent aux clients"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de construction verbale : 'proposer' requiert la préposition 'à' pour introduire le complément d'objet indirect.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "«Tout le monde repart avec ses restants»",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le texte utilise des guillemets droits (\") au lieu des guillemets français (« ») pour encadrer une citation.",
+        "suggestions": [
+          "« Tout le monde repart avec ses restants »"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "En typographie française, les guillemets français (chevrons) sont obligatoires pour encadrer les citations. Les guillemets droits sont un anglicisme typographique.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "c'était",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Rupture dans l'harmonisation des temps. Le texte est majoritairement au présent de l'indicatif, il faut donc utiliser 'c'est' pour maintenir la cohérence temporelle.",
+        "suggestions": [
+          "c'est"
+        ],
+        "ruleApplied": "4.1.2.2.4",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "L'imparfait peut être justifié pour situer la fondation dans le passé (2002), mais le présent serait plus cohérent avec le ton général du texte.",
+        "counterArgument": "L'emploi de l'imparfait 'c'était' peut se justifier pour situer clairement l'action de fondation en 2002 dans le passé. Bien que le présent soit généralement préféré pour la cohérence temporelle, l'imparfait n'est pas incorrect ici pour marquer l'aspect historique de l'information."
+      },
+      {
+        "id": "erreur4.8",
+        "text": "permet donc à éviter",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe 'permettre' se construit avec la préposition 'de' devant un infinitif. Il faut écrire 'permet donc d'éviter'.",
+        "suggestions": [
+          "permet donc d'éviter"
+        ],
+        "ruleApplied": "4.1.2.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de construction verbale claire : 'permettre de' (+ infinitif) est la seule construction correcte, jamais 'permettre à'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "pour que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution 'pour que' est superflue et incorrecte dans la construction 'Il est fondamental que...'. Il faut la supprimer.",
+        "suggestions": [
+          "que"
+        ],
+        "ruleApplied": "4.1.2.4.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction syntaxique incorrecte : 'Il est fondamental que' ne peut être suivi de 'pour que'. C'est une contamination entre deux structures.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.10",
+        "text": "l'article Martinez",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque la préposition 'de' pour indiquer l'auteur de l'article. La construction correcte est 'l'article de Martinez'.",
+        "suggestions": [
+          "l'article de Martinez"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction syntaxique incorrecte : pour indiquer l'auteur d'un article, on utilise obligatoirement 'l'article de + nom d'auteur'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.11",
+        "text": "y faire",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom 'y' est mal employé. Il renvoie généralement à un lieu. Pour remplacer 'faire cela', il faut utiliser le pronom 'le' : 'pour le faire'.",
+        "suggestions": [
+          "le faire"
+        ],
+        "ruleApplied": "4.1.2.3.1",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "L'expression 'y faire' est attestée dans certains contextes familiers, bien que 'le faire' soit plus standard.",
+        "counterArgument": "L'expression 'pour y faire' existe en français dans des tours comme 'il n'y a rien à y faire' ou 'pour y faire quelque chose'. Bien que 'pour le faire' soit plus standard et recommandé ici, l'emploi de 'y' n'est pas totalement incorrect, surtout dans un registre moins formel."
+      },
+      {
+        "id": "erreur4.12",
+        "text": ":",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le deux-points est erroné après le numéro de la note de bas de page. Il doit être supprimé.",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.7.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "En format bibliographique standard, le deux-points après le numéro de note n'est pas utilisé. C'est une erreur de ponctuation claire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.13",
+        "text": "«La Tablée des Chefs : lutter contre le gaspillage et nourrir les gens dans le besoin»",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le texte utilise des guillemets droits (\") au lieu des guillemets français (« ») pour encadrer un titre d'article.",
+        "suggestions": [
+          "« La Tablée des Chefs : lutter contre le gaspillage et nourrir les gens dans le besoin »"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "En typographie française, les guillemets français (chevrons) sont obligatoires pour encadrer les titres. Les guillemets droits sont un anglicisme typographique.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.14",
+        "text": "mai",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Un point final est manquant à la fin de la référence bibliographique.",
+        "suggestions": [
+          "mai."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "En format bibliographique standard, une référence se termine toujours par un point final. Cette omission est une erreur de ponctuation.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.15",
+        "text": "crucial à",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition 'à' est incorrecte. On dit que quelque chose est 'crucial pour' quelque chose d'autre.",
+        "suggestions": [
+          "cruciales pour"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de construction : l'adjectif 'crucial' se construit avec la préposition 'pour', jamais avec 'à'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.16",
+        "text": "reproduit",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe 'reproduire' est utilisé de manière sémantiquement incorrecte. Le contexte suggère un verbe comme 'transforme', 'recycle' ou 'valorise'.",
+        "suggestions": [
+          "transforme",
+          "recycle",
+          "valorise"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Impropriété lexicale : 'reproduire' signifie 'faire une copie', pas 'transformer'. Le sens voulu nécessite un verbe différent.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.17",
+        "text": "plusieurs façons qu'on peut faire",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est boiteuse. On peut dire 'plusieurs choses que l'on peut faire' ou 'plusieurs façons de limiter le gaspillage'.",
+        "suggestions": [
+          "plusieurs choses que l'on peut faire",
+          "plusieurs façons de faire"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction syntaxique incorrecte : 'façons' appelle la préposition 'de' (+ infinitif), pas le pronom relatif 'que'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.18",
+        "text": "gaspillage comme",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le deux-points est requis pour introduire l'exemple qui suit.",
+        "suggestions": [
+          "gaspillage :"
+        ],
+        "ruleApplied": "4.2.2.7.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le deux-points est nécessaire pour introduire un exemple précis après 'comme'. La virgule seule est insuffisante.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "élévé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'accent aigu est manquant sur le 'e' final. On écrit 'élevé'.",
+        "suggestions": [
+          "élevé"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe claire : le participe passé 'élevé' prend un accent aigu sur le premier 'e', pas sur le deuxième.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "essayent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Barbarisme de conjugaison pour le verbe 'essayer' au présent de l'indicatif, 3e personne du pluriel. La forme correcte est 'essaient'.",
+        "suggestions": [
+          "essaient"
+        ],
+        "ruleApplied": "5.3.2.1",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Les deux graphies 'essaient' et 'essayent' sont acceptées en français moderne. Les rectifications orthographiques de 1990 reconnaissent les deux formes.",
+        "counterArgument": "Les deux formes 'essaient' et 'essayent' sont correctes et acceptées par les dictionnaires de référence (Larousse, Robert) et par les rectifications orthographiques de 1990. Il s'agit d'une variation orthographique légitime, pas d'une erreur."
+      },
+      {
+        "id": "erreur5.3",
+        "text": "prêt",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'prêt' doit s'accorder en genre avec son donneur 'notre société' (féminin singulier). On écrit 'prête'.",
+        "suggestions": [
+          "prête"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord claire : l'adjectif 'prêt' doit s'accorder avec 'notre société' (féminin singulier) et s'écrire 'prête'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "publié",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'publié', employé comme adjectif, doit s'accorder en genre et en nombre avec le nom qu'il qualifie, 'la Table' (féminin singulier). On écrit 'publiée'.",
+        "suggestions": [
+          "publiée"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du participe passé employé comme adjectif : 'publié' doit s'accorder avec 'la Table québécoise' (féminin singulier).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "ses",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'adjectif possessif 'ses' et le déterminant démonstratif 'ces'. Pour désigner les mets dont on parle, il faut utiliser 'ces'.",
+        "suggestions": [
+          "ces"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion homophonique claire : le contexte nécessite le démonstratif 'ces' (ces mets dont on parle), pas le possessif 'ses'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "est",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'être' doit s'accorder en nombre avec son sujet 'Les conséquences' (pluriel). On écrit 'sont'.",
+        "suggestions": [
+          "sont"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord sujet-verbe évidente : le sujet 'Les conséquences' (pluriel) requiert 'sont', pas 'est'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "crucial",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "L'adjectif 'crucial' doit s'accorder en genre et en nombre avec son donneur 'Les conséquences' (féminin pluriel). On écrit 'cruciales'. Erreur non comptée car elle dépend du même donneur que l'erreur précédente ('est').",
+        "suggestions": [
+          "cruciales"
+        ],
+        "ruleApplied": "5.4.2.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord de l'adjectif : 'crucial' doit s'accorder avec 'Les conséquences' (féminin pluriel). Erreur non comptabilisée car elle découle du même donneur.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "ce transformation",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant démonstratif 'ce' doit s'accorder en genre avec le nom qu'il détermine, 'transformation' (féminin). On écrit 'cette'.",
+        "suggestions": [
+          "cette transformation"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du déterminant démonstratif : 'transformation' étant féminin, on doit utiliser 'cette', pas 'ce'.",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 16,
+      "note": "E"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 7,
+      "note": "D"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 26,
+      "vraisErreurs": 23,
+      "discutables": 2,
+      "fauxPositifs": 1
+    }
+  },
+  "startTimestamp": "2025-12-12T11:39:22.721Z",
+  "endTimestamp": "2025-12-12T11:40:35.102Z",
+  "durationMs": 72381,
+  "durationFormatted": "01:12:381"
+}

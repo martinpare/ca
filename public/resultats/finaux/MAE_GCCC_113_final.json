@@ -1,0 +1,482 @@
+{
+  "processedAt": "2025-12-12T11:44:01.269Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_113.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_113.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "sur",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Préposition erronée. La préposition « sur » est inadéquate dans ce contexte. On est « irresponsable dans » sa consommation.",
+        "suggestions": [
+          "dans"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "La construction « irresponsable sur » est clairement un anglicisme (irresponsible about). En français standard, on utilise « irresponsable dans » ou « irresponsable quant à ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "À l'heure d'aujourd'hui",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Mot superflu. L'expression « à l'heure d'aujourd'hui » est un pléonasme. Il faut employer « aujourd'hui » ou « à l'heure actuelle ».",
+        "suggestions": [
+          "Aujourd'hui",
+          "À l'heure actuelle"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Pléonasme évident. « À l'heure d'aujourd'hui » fusionne deux expressions temporelles redondantes. C'est un calque de l'oral à éviter à l'écrit.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": ",",
+        "occurenceIndex": 4,
+        "criteria": 4,
+        "type": "P",
+        "description": "Présence erronée d'une virgule entre le verbe (« est ») et l'adverbe complément (« écologiquement »).",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.10.2.d",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Après relecture du texte, la virgule se trouve après « celui-ci l'est » dans la phrase « peu se demanderont si celui-ci l'est, écologiquement ». Cette virgule marque un effet d'emphase ou de détachement de l'adverbe en position finale, procédé stylistique acceptable.",
+        "counterArgument": "La virgule crée un effet de suspension et met en relief l'adverbe « écologiquement » placé en fin de phrase. Ce procédé stylistique est acceptable pour créer une emphase, bien que la construction sans virgule soit plus standard. Il s'agit d'un choix rhétorique cohérent avec le ton persuasif du texte."
+      },
+      {
+        "id": "erreur4.4",
+        "text": "tellement que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Subordonnant erroné. La locution « tellement que » est un calque de l'oral. Il faut utiliser « à tel point que » ou « si bien que ».",
+        "suggestions": [
+          "à tel point que",
+          "si bien que"
+        ],
+        "ruleApplied": "4.1.2.4.2",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "La locution « tellement que » est très fréquente à l'oral et s'observe également à l'écrit dans un registre courant. Elle est reconnue par plusieurs dictionnaires comme équivalent de « si bien que » dans un contexte de conséquence.",
+        "counterArgument": "Bien que « tellement que » soit considéré comme moins soutenu que « à tel point que » ou « si bien que », cette locution est attestée dans l'usage courant et acceptée par plusieurs ouvrages de référence, dont le TLFi. Dans un texte de niveau secondaire/collégial au registre courant, cette construction n'est pas nécessairement fautive."
+      },
+      {
+        "id": "erreur4.5",
+        "text": "avons avons",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Mot superflu. Le verbe « avons » est répété inutilement.",
+        "suggestions": [
+          "avons"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition évidente d'un même mot sans justification stylistique. Erreur manifeste de frappe ou d'inattention.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "serions",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Mode erroné. Dans une phrase hypothétique introduite par « si », la proposition subordonnée est à l'imparfait (si nous n'étions pas tombés) lorsque la principale est au conditionnel (Que serait le Canada).",
+        "suggestions": [
+          "étions"
+        ],
+        "ruleApplied": "4.1.2.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur classique de concordance des temps dans une hypothèse. La règle « si + conditionnel » est incorrecte en français standard. On utilise « si + imparfait » avec une principale au conditionnel présent.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "?",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Ponctuation mal placée. Le point d'interrogation doit être placé avant la parenthèse fermante qui contient la référence.",
+        "suggestions": [
+          ")?"
+        ],
+        "ruleApplied": "4.2.1.5",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Après relecture, la phrase se termine par « consommation alimentaire. (Table québécoise..., 2019) ? ». Le point d'interrogation suit correctement la parenthèse qui contient une référence bibliographique, selon l'usage courant en typographie académique.",
+        "counterArgument": "Dans les normes bibliographiques courantes (APA, notamment), lorsqu'une référence entre parenthèses termine une phrase interrogative, le point d'interrogation se place après la parenthèse fermante, pas avant. Cette convention est largement acceptée dans les travaux académiques. L'usage suggéré (?)  inverserait l'ordre logique où la référence documente toute la phrase."
+      },
+      {
+        "id": "erreur4.8",
+        "text": ",",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Virgule erronée. Une virgule ne doit pas séparer le groupe sujet (ici, la proposition infinitive « esperer un mouvement... ») du verbe « est ».",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.10.2.a",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "La virgule sépare effectivement le sujet (proposition infinitive) du verbe, ce qui est une faute de ponctuation claire. Règle fondamentale: on ne sépare pas le sujet du verbe par une virgule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "pouvons en vouloir qu'à",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction de phrase erronée. La négation restrictive « ne... que » est incomplète (absence du « ne »). De plus, le verbe pronominal « s'en vouloir » requiert le pronom réfléchi « nous ».",
+        "suggestions": [
+          "ne pouvons nous en vouloir qu'à"
+        ],
+        "ruleApplied": "4.1.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double erreur: absence du « ne » dans la négation restrictive « ne... que » ET construction incorrecte du verbe pronominal « s'en vouloir » (manque le pronom réfléchi « nous »).",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "Un",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Dans un titre, après un deux-points, la majuscule n'est généralement pas requise pour le mot qui suit, à moins qu'il ne s'agisse d'un nom propre.",
+        "suggestions": [
+          "un"
+        ],
+        "ruleApplied": "5.2.4.3",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Les conventions typographiques varient considérablement selon les guides de style. Plusieurs acceptent la majuscule après le deux-points dans un titre, notamment quand ce qui suit forme une phrase complète ou un sous-titre autonome.",
+        "counterArgument": "Les usages typographiques concernant la majuscule après le deux-points dans un titre varient. Plusieurs guides de style (notamment au Québec) acceptent la majuscule lorsque le deux-points introduit un sous-titre ou une phrase complète, surtout dans un contexte journalistique ou publicitaire. « Le gaspillage alimentaire : Un cercle vicieux » peut être considéré comme un titre principal suivi d'un sous-titre, justifiant la majuscule."
+      },
+      {
+        "id": "erreur5.2",
+        "text": "canadiens",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Les gentilés (noms d'habitants) prennent une majuscule.",
+        "suggestions": [
+          "Canadiens"
+        ],
+        "ruleApplied": "5.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle claire: les gentilés employés comme noms (substantifs) prennent une majuscule. Ici, « canadiens » est sujet du verbe « sont », c'est bien un nom.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "peut être-",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le trait d'union de l'adverbe « peut-être » est mal placé. Il doit unir « peut » et « être ».",
+        "suggestions": [
+          "peut-être"
+        ],
+        "ruleApplied": "5.2.1.7.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur orthographique claire. L'adverbe « peut-être » s'écrit avec un trait d'union entre « peut » et « être », jamais après.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "esperer",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Absence d'accent. L'infinitif du verbe « espérer » prend un accent aigu sur le deuxième « e ».",
+        "suggestions": [
+          "espérer"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. Le verbe « espérer » prend toujours un accent aigu sur le deuxième « e » à l'infinitif.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "esperer",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Absence d'accent. L'infinitif du verbe « espérer » prend un accent aigu sur le deuxième « e ». Il s'agit d'une répétition de la même erreur d'usage.",
+        "suggestions": [
+          "espérer"
+        ],
+        "ruleApplied": "5.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de la même faute d'orthographe (erreur5.4).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "transformer",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « transformé », employé avec le verbe pronominal à sens passif « se retrouver », doit s'accorder en genre et en nombre avec le sujet « Les aliments ». Donneur: « Les aliments ».",
+        "suggestions": [
+          "transformés"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord claire. Avec « se retrouver » (verbe pronominal à sens passif), le participe passé « transformé » s'accorde avec le sujet « Les aliments » (masculin pluriel).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "marketting",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Graphie erronée. Le mot d'origine anglaise « marketing » s'écrit avec un seul « t ».",
+        "suggestions": [
+          "marketing"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe. Le mot « marketing » (anglicisme lexicalisé) s'écrit avec un seul « t » en français, conformément aux dictionnaires de référence.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "façe",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "La lettre « c » devant un « e » se prononce /s/ et ne prend donc jamais de cédille.",
+        "suggestions": [
+          "face"
+        ],
+        "ruleApplied": "5.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe élémentaire. Le « c » devant « e » ou « i » se prononce automatiquement /s/ sans cédille. La cédille n'est utilisée que devant « a », « o », « u ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "deux pour un",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Absence de trait d'union. L'expression nominale « deux-pour-un » s'écrit avec des traits d'union.",
+        "suggestions": [
+          "deux-pour-un"
+        ],
+        "ruleApplied": "5.2.1.7.1",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Les dictionnaires ne sont pas unanimes sur la graphie. Certains acceptent « deux pour un » sans traits d'union, notamment quand l'expression est utilisée de manière descriptive plutôt que comme nom composé figé.",
+        "counterArgument": "L'expression « deux pour un » n'est pas systématiquement lexicalisée avec traits d'union dans tous les contextes. Plusieurs sources acceptent la graphie sans traits d'union, particulièrement quand l'expression est utilisée de façon descriptive (« une offre deux pour un ») plutôt que comme nom composé autonome (« acheter un deux-pour-un »). Le contexte ici (« le deux pour un est également une technique ») pourrait justifier les deux graphies."
+      },
+      {
+        "id": "erreur5.10",
+        "text": "marketting",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Graphie erronée. Le mot d'origine anglaise « marketing » s'écrit avec un seul « t ». Il s'agit d'une répétition de la même erreur d'usage.",
+        "suggestions": [
+          "marketing"
+        ],
+        "ruleApplied": "5.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de la même faute d'orthographe (erreur5.7).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.11",
+        "text": "leur",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant possessif « leur » devient « leurs » lorsqu'il détermine un nom pluriel, ici « actes ».",
+        "suggestions": [
+          "leurs"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord élémentaire. Le déterminant possessif s'accorde en nombre avec le nom qu'il détermine : « actes » étant pluriel, il faut « leurs ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.12",
+        "text": "écologïque",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Graphie erronée. L'adjectif « écologique » ne prend pas de tréma sur le « i ».",
+        "suggestions": [
+          "écologique"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe manifeste. Le mot « écologique » ne comporte jamais de tréma.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.13",
+        "text": "soumit",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Barbarisme de conjugaison. Le participe passé du verbe « soumettre » est « soumis ».",
+        "suggestions": [
+          "soumis"
+        ],
+        "ruleApplied": "5.3.2.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de conjugaison claire. Le participe passé de « soumettre » est « soumis » (avec « s » final), pas « soumit » (qui serait un passé simple incorrect).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.14",
+        "text": "rends",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe « rendre » doit s'accorder à la 3e personne du singulier avec son sujet, le pronom relatif « qui » (mis pour « ce »).",
+        "suggestions": [
+          "rend"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du verbe avec son sujet. Le pronom relatif « qui » reprend l'antécédent singulier « ce qui », donc le verbe doit être à la 3e personne du singulier : « rend ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.15",
+        "text": "fraicheur",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Absence d'accent. Le mot « fraîcheur » prend un accent circonflexe sur le « i ».",
+        "suggestions": [
+          "fraîcheur"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Depuis les rectifications orthographiques de 1990, l'accent circonflexe sur le « i » de « fraîcheur » est devenu facultatif. Les deux graphies (« fraîcheur » et « fraicheur ») sont acceptées.",
+        "counterArgument": "Les rectifications orthographiques de 1990, approuvées par l'Académie française et recommandées par plusieurs instances francophones dont l'OQLF, rendent facultatif l'accent circonflexe sur les lettres « i » et « u » (sauf dans les terminaisons verbales et quelques exceptions). La graphie « fraicheur » est donc acceptable au même titre que « fraîcheur »."
+      },
+      {
+        "id": "erreur5.16",
+        "text": "même",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « même » s'accorde en nombre avec le pronom « nous » auquel il se rapporte.",
+        "suggestions": [
+          "mêmes"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord. Lorsque « même » renforce un pronom pluriel (« nous »), il s'accorde au pluriel : « nous-mêmes ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.17",
+        "text": "sommes nous",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Absence de trait d'union. L'inversion du pronom sujet après le verbe requiert un trait d'union.",
+        "suggestions": [
+          "sommes-nous"
+        ],
+        "ruleApplied": "5.2.1.10",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique claire. Dans l'inversion interrogative, le trait d'union entre le verbe et le pronom sujet est obligatoire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.18",
+        "text": "etarrêter",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Barbarisme orthographique. Les mots « et » et « arrêter » ont été fusionnés à tort.",
+        "suggestions": [
+          "et arrêter"
+        ],
+        "ruleApplied": "5.2.6.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur typographique manifeste. Fusion incorrecte de deux mots distincts.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.19",
+        "text": "même",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord. L'adjectif « même » doit s'accorder en nombre avec le pronom « nous » qu'il renforce.",
+        "suggestions": [
+          "mêmes"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition du même type d'erreur que erreur5.16. L'accord est obligatoire.",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 6,
+      "note": "C"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 16,
+      "note": "D"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 28,
+      "vraisErreurs": 22,
+      "discutables": 4,
+      "fauxPositifs": 2
+    }
+  },
+  "startTimestamp": "2025-12-12T11:42:29.961Z",
+  "endTimestamp": "2025-12-12T11:44:01.269Z",
+  "durationMs": 91308,
+  "durationFormatted": "01:31:308"
+}

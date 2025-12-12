@@ -1,0 +1,632 @@
+{
+  "processedAt": "2025-12-10T15:17:02.608Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_149.txt",
+    "originalText": "Mangeons vert!\r\n\r\nPartout à travers le monde, l’alimentation est un sujet qui ne manque pas dans les média, les réseaux-sociaux, les conversations entre individus et autres. Les enjeux concernant l’alimentation sont divers et variés. Surtout de nos jours où les moyens de production et de consomation ne cesse d’évoluer et de s’étandrer en causant du gaspillage. Ce qui nous amène à chercher des réponses à la question suivante : Sommes nous prêts à lutter contre le gaspillage alimentaire ? Selon moi, oui le monde est capable de faire face à ce gaspillage grâce à plusieurs ressources et aides comme en éduquant la population à mieux conserver sa nourriture et en encouragant l’achat des produit juger comme « moche ».\r\n\r\nTout d’abord, je suis convaincu que nous prêts à lutter contre le gaspillage alimentaire car, l’une des causes à l’origines de ce gaspillage alimentaire est le manque de donné de certains individus sur les bon moyens de conservation des aliments. Chaque foyer a souvent une méthode differente concernant la conservation des aliments mais, une chose est sûre. Plusieurs personnes ont tendance à se fier à la date limite indiqué sur les emballages des produits alimentaires en jugant que celle-ci dépassé le produit est bon pour le compost, ce qui est une grosse erreur. Selon Mike von Massow, coauteur d’une etude menée sur le gaspillage alimentaire dans les maisons, une erreur que des gens font est de confondre la date limite de consomation avec la sécurité alimentaire : « meilleur avant » est grandement different de « perimé après ». Vous comprendrez alors que un grand nombre d’aliment peuvent facilement éviter le compostage. Surtout que une étude de Florence-Léa Siry, experte en lutte contre le gaspillage des aliment affirme que 50 % du gaspillage des produits alimentaire pourrait être évité dans les foyers si les acheteurs été plus renseigné sur la conservation des aliments.\r\n\r\nPar la suite, je suis persuadé que le monde est prêt à lutter contre le gaspillage alimentaire car les caprices qui surviennent lors de l’ achat des produits alimentaire sont de moins en moins encouragées, C’est-à-dire que les  aliments jugé comme « moche » par exemple les fruits ou légumes courts, tordus ou autre sont de plus en’plus encouragé à être consommé par plusieurs publicités et par des plateformes qui les vendent à bas-prix comme Flash Food Food Hero etc. Selon Yohon Dallaire Boily, relationniste du MAPAQ : « on recommande desormais aux gens de se fier d’avantage à leur sens, c’est-à-dire à l’odeur, à la texture et au goût [d’un produit] [...] ». C’est donc évident que dans les années à venir le peuple prendra l’habitude à suivre les conseils donnés par les différents spécialiste comme Yohan Dallaire Boily.\r\n\r\nEn somme, je pense que l’on est prêts à lutter contre le gaspillage alimentaire pour les raisons que j’ai énumé. L’édution de la population sur la conservation des aliments et l’encouragement de consommer des produits jugés comme « moche ». J’espère que le monde suivra les conseils des experts et cessera aussi la surconsommation.",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "oui le",
+        "occurenceIndex": 394,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule est requise après le mot-phrase 'oui'.",
+        "suggestions": [
+          "oui, le"
+        ],
+        "ruleApplied": "4.2.2.10.1.e"
+      },
+      {
+        "id": "erreur4.2",
+        "text": "« moche »",
+        "occurenceIndex": 531,
+        "criteria": 4,
+        "type": "« P »",
+        "description": "Les guillemets anglais (\") doivent être remplacés par des guillemets français (« »).",
+        "suggestions": [
+          "« moche »"
+        ],
+        "ruleApplied": "4.2.2.5.1"
+      },
+      {
+        "id": "erreur4.3",
+        "text": "que nous prêts",
+        "occurenceIndex": 32,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence d'un mot essentiel : le verbe 'sommes' est manquant dans la proposition subordonnée.",
+        "suggestions": [
+          "que nous sommes prêts"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "id": "erreur4.4",
+        "text": "car,",
+        "occurenceIndex": 89,
+        "criteria": 4,
+        "type": "P",
+        "description": "La virgule est mal placée. Elle n'est généralement pas requise après 'car' et ne doit pas le séparer de la proposition qu'il introduit.",
+        "suggestions": [
+          "car"
+        ],
+        "ruleApplied": "4.2.2.10.2.j"
+      },
+      {
+        "id": "erreur4.5",
+        "text": "dépassé le",
+        "occurenceIndex": 447,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule est nécessaire pour isoler la proposition participiale 'celle-ci dépassé'.",
+        "suggestions": [
+          "dépassé, le"
+        ],
+        "ruleApplied": "4.2.2.10.1.m"
+      },
+      {
+        "id": "erreur4.6",
+        "text": "été",
+        "occurenceIndex": 1022,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de temps verbal. L'imparfait de l'indicatif ('étaient') est requis dans la subordonnée conditionnelle pour la concordance des temps avec le conditionnel 'pourrait'.",
+        "suggestions": [
+          "étaient"
+        ],
+        "ruleApplied": "4.1.2.2.3"
+      },
+      {
+        "id": "erreur4.7",
+        "text": "L’édution de la population sur la conservation des aliments et l’encouragement de consommer des produits jugés comme « moche ».",
+        "occurenceIndex": 116,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase est un fragment; elle n'a pas de verbe principal conjugué. Il s'agit d'une subordonnée sans matrice.",
+        "suggestions": [
+          "J'ai abordé l'éducation de la population...",
+          "Ces raisons sont l'éducation de la population..."
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "id": "erreur4.8",
+        "text": ", C’est-à-dire",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule ne peut pas joindre deux phrases syntaxiques indépendantes. Il faut utiliser un point ou un point-virgule.",
+        "suggestions": [
+          ". C'est-à-dire"
+        ],
+        "ruleApplied": "4.2.2.1.2"
+      },
+      {
+        "id": "erreur4.9",
+        "text": "par exemple les",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "L'expression 'par exemple' doit être isolée par une virgule lorsqu'elle introduit un exemple.",
+        "suggestions": [
+          "par exemple, les"
+        ],
+        "ruleApplied": "4.2.2.10.1.g"
+      },
+      {
+        "id": "erreur4.10",
+        "text": "Hero etc.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Dans une énumération, une virgule doit précéder 'etc.'.",
+        "suggestions": [
+          "Hero, etc."
+        ],
+        "ruleApplied": "4.2.2.10.1.a"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 6.5,
+      "note": "B"
+    },
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "média",
+        "occurenceIndex": 81,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'média' doit être au pluriel 'médias' car il fait partie d'une énumération d'éléments pluriels.",
+        "suggestions": [
+          "médias"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.2",
+        "text": "réseaux-sociaux",
+        "occurenceIndex": 93,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le nom composé 'réseaux sociaux' s'écrit sans trait d'union.",
+        "suggestions": [
+          "réseaux sociaux"
+        ],
+        "ruleApplied": "5.2.1.7.5"
+      },
+      {
+        "id": "erreur5.3",
+        "text": "consomation",
+        "occurenceIndex": 208,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot 'consommation' s'écrit avec deux 'm'.",
+        "suggestions": [
+          "consommation"
+        ],
+        "ruleApplied": "5.2.1.6"
+      },
+      {
+        "id": "erreur5.4",
+        "text": "ne cesse",
+        "occurenceIndex": 223,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'cesser' doit s'accorder au pluriel avec son sujet 'Les moyens de production et de consomation'.",
+        "suggestions": [
+          "ne cessent"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.5",
+        "text": "s’étandrer",
+        "occurenceIndex": 241,
+        "criteria": 5,
+        "type": "G",
+        "description": "Barbarisme de conjugaison. L'infinitif du verbe est 's'étendre'.",
+        "suggestions": [
+          "s'étendre"
+        ],
+        "ruleApplied": "5.3.2.1"
+      },
+      {
+        "id": "erreur5.6",
+        "text": "Sommes nous",
+        "occurenceIndex": 332,
+        "criteria": 5,
+        "type": "U",
+        "description": "Dans une phrase interrogative avec inversion du sujet, un trait d'union est requis entre le verbe et le pronom sujet.",
+        "suggestions": [
+          "Sommes-nous"
+        ],
+        "ruleApplied": "5.2.1.10"
+      },
+      {
+        "id": "erreur5.7",
+        "text": "en encouragent",
+        "occurenceIndex": 491,
+        "criteria": 5,
+        "type": "G",
+        "description": "La préposition 'en' est suivie du participe présent, qui se termine par '-ant'.",
+        "suggestions": [
+          "en encourageant"
+        ],
+        "ruleApplied": "5.3.2.7"
+      },
+      {
+        "id": "erreur5.8",
+        "text": "produit",
+        "occurenceIndex": 516,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'produit' doit être au pluriel car il est qualifié par un participe passé qui sous-entend un ensemble.",
+        "suggestions": [
+          "produits"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.9",
+        "text": "juger",
+        "occurenceIndex": 524,
+        "criteria": 5,
+        "type": "_",
+        "description": "Le participe passé 'jugé', employé comme adjectif, doit s'accorder en nombre avec le nom 'produits' (donneur).",
+        "suggestions": [
+          "jugés"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "id": "erreur5.10",
+        "text": "à l’origines",
+        "occurenceIndex": 113,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'origine' doit être au singulier dans l'expression 'à l'origine de'.",
+        "suggestions": [
+          "à l'origine"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.11",
+        "text": "donné",
+        "occurenceIndex": 160,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'donnée' doit être au féminin pluriel dans l'expression 'manque de données'.",
+        "suggestions": [
+          "données"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.12",
+        "text": "bon",
+        "occurenceIndex": 195,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'bon' doit s'accorder au pluriel avec le nom 'moyens'.",
+        "suggestions": [
+          "bons"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.13",
+        "text": "differente",
+        "occurenceIndex": 259,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'accent grave est manquant sur le mot 'différente'.",
+        "suggestions": [
+          "différente"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.14",
+        "text": "indiqué",
+        "occurenceIndex": 363,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'indiqué', employé comme adjectif, doit s'accorder en genre avec son donneur 'la date limite' (féminin singulier).",
+        "suggestions": [
+          "indiquée"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "id": "erreur5.15",
+        "text": "etude",
+        "occurenceIndex": 551,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'accent aigu est manquant sur le mot 'étude'.",
+        "suggestions": [
+          "étude"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.16",
+        "text": "consomation",
+        "occurenceIndex": 661,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Le mot 'consommation' s'écrit avec deux 'm'. Erreur déjà signalée.",
+        "suggestions": [
+          "consommation"
+        ],
+        "ruleApplied": "5.1.3"
+      },
+      {
+        "id": "erreur5.17",
+        "text": "different",
+        "occurenceIndex": 736,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "L'accent aigu est manquant sur le mot 'différent'. Erreur déjà signalée sur ce radical.",
+        "suggestions": [
+          "différent"
+        ],
+        "ruleApplied": "5.1.3"
+      },
+      {
+        "id": "erreur5.18",
+        "text": "perimé",
+        "occurenceIndex": 753,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "L'accent aigu est manquant sur le mot 'périmé'. Erreur d'accent déjà signalée.",
+        "suggestions": [
+          "périmé"
+        ],
+        "ruleApplied": "5.1.3"
+      },
+      {
+        "id": "erreur5.19",
+        "text": "que un",
+        "occurenceIndex": 791,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'élision de 'que' devant 'un' est obligatoire.",
+        "suggestions": [
+          "qu'un"
+        ],
+        "ruleApplied": "5.2.3.1"
+      },
+      {
+        "id": "erreur5.20",
+        "text": "aliment",
+        "occurenceIndex": 814,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'aliment' doit être au pluriel après l'expression 'un grand nombre d''.",
+        "suggestions": [
+          "aliments"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.21",
+        "text": "que une",
+        "occurenceIndex": 860,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'élision de 'que' devant 'une' est obligatoire.",
+        "suggestions": [
+          "qu'une"
+        ],
+        "ruleApplied": "5.2.3.1"
+      },
+      {
+        "id": "erreur5.22",
+        "text": "aliment",
+        "occurenceIndex": 927,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'aliment' doit être au pluriel dans l'expression 'gaspillage des aliments'.",
+        "suggestions": [
+          "aliments"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.23",
+        "text": "alimentaire",
+        "occurenceIndex": 961,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'alimentaire' doit s'accorder au pluriel avec le nom 'produits'.",
+        "suggestions": [
+          "alimentaires"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.24",
+        "text": "renseigné",
+        "occurenceIndex": 1033,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'renseigné' doit s'accorder en nombre avec son sujet 'les acheteurs' (masculin pluriel).",
+        "suggestions": [
+          "renseignés"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "id": "erreur5.25",
+        "text": "alimentaire",
+        "occurenceIndex": 148,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'alimentaire' doit s'accorder au pluriel avec le nom 'produits'.",
+        "suggestions": [
+          "alimentaires"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.26",
+        "text": "encouragées",
+        "occurenceIndex": 186,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'encouragées' doit s'accorder en genre et en nombre avec son sujet 'les caprices' (masculin pluriel).",
+        "suggestions": [
+          "encouragés"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "id": "erreur5.27",
+        "text": "C’est-à-dire",
+        "occurenceIndex": 201,
+        "criteria": 5,
+        "type": "G",
+        "description": "Une majuscule ne doit pas être utilisée après une virgule au milieu d'une phrase.",
+        "suggestions": [
+          "c'est-à-dire"
+        ],
+        "ruleApplied": "5.3.6.1"
+      },
+      {
+        "id": "erreur5.28",
+        "text": "jugé",
+        "occurenceIndex": 237,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'jugé', employé comme adjectif, doit s'accorder en nombre avec le nom 'aliments' (donneur).",
+        "suggestions": [
+          "jugés"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "id": "erreur5.29",
+        "text": "autre",
+        "occurenceIndex": 303,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom 'autre' doit être au pluriel car il fait partie d'une énumération.",
+        "suggestions": [
+          "autres"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.30",
+        "text": "en’plus",
+        "occurenceIndex": 323,
+        "criteria": 5,
+        "type": "U",
+        "description": "Barbarisme orthographique. La locution 'en plus' s'écrit en deux mots.",
+        "suggestions": [
+          "en plus"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "id": "erreur5.31",
+        "text": "encouragé",
+        "occurenceIndex": 332,
+        "criteria": 5,
+        "type": "_",
+        "description": "Le participe passé 'encouragé' doit s'accorder en nombre avec son sujet 'les aliments' (donneur).",
+        "suggestions": [
+          "encouragés"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "id": "erreur5.32",
+        "text": "bas-prix",
+        "occurenceIndex": 420,
+        "criteria": 5,
+        "type": "U",
+        "description": "La locution 'à bas prix' s'écrit sans trait d'union.",
+        "suggestions": [
+          "bas prix"
+        ],
+        "ruleApplied": "5.2.1.7.5"
+      },
+      {
+        "id": "erreur5.33",
+        "text": "Yohon",
+        "occurenceIndex": 462,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe sur une dénomination. Le nom propre est orthographié 'Yohan' plus loin dans le texte.",
+        "suggestions": [
+          "Yohan"
+        ],
+        "ruleApplied": "5.1.2"
+      },
+      {
+        "id": "erreur5.34",
+        "text": "desormais",
+        "occurenceIndex": 535,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'accent aigu est manquant sur le mot 'désormais'.",
+        "suggestions": [
+          "désormais"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.35",
+        "text": "d’avantage",
+        "occurenceIndex": 562,
+        "criteria": 5,
+        "type": "U",
+        "description": "Barbarisme orthographique. L'adverbe 'davantage' s'écrit en un seul mot.",
+        "suggestions": [
+          "davantage"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "id": "erreur5.36",
+        "text": "spécialiste",
+        "occurenceIndex": 737,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'spécialiste' doit être au pluriel car il est précédé du déterminant 'différents'.",
+        "suggestions": [
+          "spécialistes"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.37",
+        "text": "prêts",
+        "occurenceIndex": 32,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'prêt' doit s'accorder au singulier avec le pronom 'on'.",
+        "suggestions": [
+          "prêt"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.38",
+        "text": "énumé",
+        "occurenceIndex": 109,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'énuméré' doit s'accorder avec le complément d'objet direct 'que' (mis pour 'les raisons'), placé avant l'auxiliaire 'ai'. L'accord se fait donc au féminin pluriel.",
+        "suggestions": [
+          "énumérées"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "id": "erreur5.39",
+        "text": "L’édution",
+        "occurenceIndex": 116,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe lexicale. Le mot correct est 'éducation'.",
+        "suggestions": [
+          "L'éducation"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "id": "erreur5.40",
+        "text": "dépassé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'dépassé' doit s'accorder en genre avec son sujet 'celle-ci' (qui reprend 'la date limite').",
+        "suggestions": [
+          "dépassée"
+        ],
+        "ruleApplied": "5.3.2.3"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 35,
+      "note": "E"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T15:10:26.433Z",
+    "endTimestamp": "2025-12-10T15:17:02.608Z",
+    "durationMs": 396175,
+    "durationFormatted": "06:36:175"
+  }
+}

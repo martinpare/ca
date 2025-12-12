@@ -1,0 +1,802 @@
+{
+  "processedAt": "2025-12-12T11:38:08.428Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_028.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_028.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "?",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une interrogation indirecte, introduite par un mot interrogatif comme « combien », doit se terminer par un point et non par un point d'interrogation.",
+        "suggestions": [
+          "."
+        ],
+        "ruleApplied": "4.2.2.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle grammaticale claire : l'interrogation indirecte ne prend jamais de point d'interrogation.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": ",",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule ne doit pas séparer un coordonnant comme « et » du sujet de la proposition qu'il introduit.",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.10.2.h",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle de ponctuation claire : pas de virgule entre la conjonction de coordination et le sujet qui suit.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "pensez",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Dans une proposition subordonnée conditionnelle introduite par « si » exprimant une hypothèse, le verbe doit être à l'imparfait de l'indicatif (« pensaient ») et non au présent de l'indicatif à la 2e personne du pluriel (« pensez »).",
+        "suggestions": [
+          "pensaient"
+        ],
+        "ruleApplied": "4.1.2.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de concordance des temps dans le système hypothétique : si + imparfait est requis pour exprimer cette hypothèse.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "ceci",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom démonstratif neutre « ceci » ne peut pas reprendre un nom pluriel comme « les organismes communautaires ». Il faut utiliser « ceux-ci » ou un pronom personnel comme « ils ».",
+        "suggestions": [
+          "ceux-ci",
+          "ils"
+        ],
+        "ruleApplied": "4.1.2.3.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur grammaticale évidente : le pronom démonstratif neutre ne peut reprendre un nom animé pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "ils",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom « ils » est au pluriel alors que son antécédent, « Loop Mission », est un nom propre au singulier. Il faut utiliser le pronom « elle ».",
+        "suggestions": [
+          "elle"
+        ],
+        "ruleApplied": "4.1.2.3.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord pronominal claire : le nom d'entreprise est singulier et doit être repris par un pronom singulier.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "ceci",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom démonstratif neutre « ceci » ne peut pas reprendre un nom pluriel comme « les organismes communautaires ». Il faut utiliser « ceux-ci » ou « ils ».",
+        "suggestions": [
+          "ceux-ci",
+          "ils"
+        ],
+        "ruleApplied": "4.1.2.3.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de la même erreur grammaticale : mauvais choix de pronom démonstratif.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "regardez",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Dans une proposition subordonnée conditionnelle introduite par « si » exprimant une hypothèse, le verbe doit être à l'imparfait de l'indicatif (« regardaient ») et non au présent de l'indicatif à la 2e personne du pluriel (« regardez »).",
+        "suggestions": [
+          "regardaient"
+        ],
+        "ruleApplied": "4.1.2.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de concordance des temps dans le système hypothétique, identique à l'erreur 4.3.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "apparence.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Un titre ou un intertitre ne doit pas se terminer par un point, sauf s'il contient déjà une ponctuation interne.",
+        "suggestions": [
+          "apparence"
+        ],
+        "ruleApplied": "4.2.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Convention typographique claire : les titres ne prennent pas de point final.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "ont était",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'auxiliaire « avoir » au passé composé est « ont été » et non « ont était ». Il s'agit d'une erreur dans l'emploi du temps verbal.",
+        "suggestions": [
+          "ont été"
+        ],
+        "ruleApplied": "4.1.2.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur morphologique évidente : confusion entre l'imparfait et le participe passé de « être ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.10",
+        "text": "et,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule ne doit pas être placée après la conjonction de coordination « et » lorsqu'elle relie deux propositions.",
+        "suggestions": [
+          "et"
+        ],
+        "ruleApplied": "4.2.2.10.2.k",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle de ponctuation claire : pas de virgule immédiatement après une conjonction de coordination.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.11",
+        "text": "La plupart des aliments qui ne sont pas de la grosseur ou de la forme souhaité, c'est en raison des conditions météorologiques.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Rupture de construction (anacoluthe). La phrase commence avec « La plupart des aliments » comme sujet, mais la suite « c'est en raison » ne s'y rattache pas grammaticalement. Il faut reformuler la phrase.",
+        "suggestions": [
+          "Le fait que la plupart des aliments ne soient pas de la grosseur ou de la forme souhaitée est en raison des conditions météorologiques."
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Anacoluthe évidente : rupture syntaxique entre le sujet initial et la suite de la phrase.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.12",
+        "text": "la capacité pour pouvoir redistribuer",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Construction de phrase boiteuse et redondante. La locution correcte est « avoir la capacité de ».",
+        "suggestions": [
+          "la capacité de redistribuer"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Redondance évidente : « pour pouvoir » est pléonastique avec « capacité ». La construction idiomatique correcte est « capacité de ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.13",
+        "text": "qu'ils reçoivent",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom « ils » est incorrect car il renvoie à « Loop Mission », un nom de compagnie au singulier. Il faut utiliser le pronom « elle ».",
+        "suggestions": [
+          "qu'elle reçoit"
+        ],
+        "ruleApplied": "4.1.2.3.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord pronominal, identique à l'erreur 4.5.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "demander",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « demandé », employé avec l'auxiliaire « être », se termine par « é ». Il s'agit ici d'une confusion entre l'infinitif en « -er » et le participe passé en « -é ».",
+        "suggestions": [
+          "demandé"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion évidente entre infinitif et participe passé dans une structure avec auxiliaire « être ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "c'est",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Il manque l'apostrophe dans la contraction du pronom « ce » et du verbe « est ».",
+        "suggestions": [
+          "c'est"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "En relisant le texte, « Le pire c'est que » contient déjà l'apostrophe correcte. Cette erreur n'existe pas dans le texte.",
+        "counterArgument": "Le texte original contient déjà « c'est » avec l'apostrophe correcte. Il s'agit d'un faux positif : aucune correction n'est nécessaire."
+      },
+      {
+        "id": "erreur5.3",
+        "text": "gaspille",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe « gaspiller » doit s'accorder à la 3e personne du pluriel avec son sujet « les industries ».",
+        "suggestions": [
+          "gaspillent"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord sujet-verbe évidente : sujet pluriel avec verbe au singulier.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "que avant",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "La conjonction « que » doit être élidée devant un mot commençant par une voyelle, comme « avant ».",
+        "suggestions": [
+          "qu'avant"
+        ],
+        "ruleApplied": "5.2.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle d'élision claire et obligatoire devant voyelle.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "peut être",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'adverbe « peut-être » (qui signifie « probablement ») et la forme verbale « peut être » (verbe pouvoir + verbe être). Ici, c'est l'adverbe qui est requis.",
+        "suggestions": [
+          "peut-être"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le contexte requiert clairement l'adverbe de doute, pas la forme verbale.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "communautaire",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « communautaire » doit s'accorder au pluriel avec le nom « organismes » qu'il qualifie.",
+        "suggestions": [
+          "communautaires"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord de l'adjectif avec son donneur pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "gaspillé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « gaspillé », employé avec l'auxiliaire « être », doit s'accorder en genre et en nombre avec son sujet « beaucoup moins d'aliments » (masculin pluriel).",
+        "suggestions": [
+          "gaspillés"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du participe passé avec auxiliaire « être » : le sujet est pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "souhaité",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « souhaité » doit s'accorder au féminin singulier avec les noms qu'il qualifie, « la grosseur » ou « la forme ».",
+        "suggestions": [
+          "souhaitée"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord de l'adjectif : les deux noms coordonnés sont féminins singuliers.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "rends",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe « rendre » doit s'accorder à la 3e personne du singulier avec son sujet, le pronom relatif « ce qui ».",
+        "suggestions": [
+          "rend"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord sujet-verbe : « ce qui » est singulier et requiert la 3e personne du singulier.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.10",
+        "text": "produit",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « produit » doit être au pluriel car il est précédé du déterminant pluriel « des ».",
+        "suggestions": [
+          "produits"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en nombre : le déterminant pluriel impose le pluriel au nom.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.11",
+        "text": "beau",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « beau » doit s'accorder au masculin pluriel avec le nom « produits » qu'il qualifie (donneur : « les produits »).",
+        "suggestions": [
+          "beaux"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord de l'adjectif attribut avec son donneur pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.12",
+        "text": "sont",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre le verbe « sont » (être) et le déterminant possessif « son ». Le contexte requiert le déterminant possessif.",
+        "suggestions": [
+          "son"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion homophonique évidente : le contexte (« à son apparence ») requiert le possessif, pas le verbe.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.13",
+        "text": "pensez vous",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Dans une structure interrogative avec inversion du sujet, un trait d'union est requis entre le verbe et le pronom sujet.",
+        "suggestions": [
+          "pensez-vous"
+        ],
+        "ruleApplied": "5.2.1.10",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique obligatoire : le trait d'union est requis dans l'inversion interrogative.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.14",
+        "text": "démunies",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "L'adjectif substantivé « démunis » doit être au masculin pluriel pour désigner les personnes démunies en général. Le donneur est le groupe nominal sous-entendu « les (gens) plus démunis ».",
+        "suggestions": [
+          "démunis"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Bien que la convention soit d'utiliser le masculin pluriel pour l'adjectif substantivé générique, le contexte pourrait justifier le féminin si l'auteur pensait à un groupe spécifique.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.15",
+        "text": "reçoivent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe « recevoir » doit s'accorder à la 3e personne du singulier avec son sujet corrigé « elle » (qui reprend « Loop Mission »).",
+        "suggestions": [
+          "reçoit"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur conséquente à l'erreur 4.13 : une fois le pronom corrigé au singulier, le verbe doit suivre.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.16",
+        "text": "non-utilisées",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « utilisées », employé comme adjectif, doit s'accorder en genre et en nombre avec le nom qu'il qualifie, « les aliments » (masculin pluriel).",
+        "suggestions": [
+          "non-utilisés"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord de l'adjectif participe : le nom « aliments » est masculin.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.17",
+        "text": "jetées",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "Le participe passé « jetées », employé avec l'auxiliaire « être », doit s'accorder en genre et en nombre avec son sujet « les aliments non-utilisés » (masculin pluriel). Le donneur est « les aliments ».",
+        "suggestions": [
+          "jetés"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du participe passé avec auxiliaire « être » : le sujet est masculin pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.18",
+        "text": "si il",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'élision de la conjonction « si » devant le pronom « il » est obligatoire.",
+        "suggestions": [
+          "s'il"
+        ],
+        "ruleApplied": "5.2.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle d'élision obligatoire : « si » s'élide toujours devant « il » et « ils ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.19",
+        "text": "préfères",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe « préférer » doit s'accorder à la 3e personne du pluriel avec son sujet « les agriculteurs ».",
+        "suggestions": [
+          "préfèrent"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord sujet-verbe : sujet pluriel avec verbe au singulier.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.20",
+        "text": "jeté",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après le verbe « préférer », le verbe qui suit doit être à l'infinitif. Il s'agit d'une confusion entre l'infinitif en « -er » et le participe passé en « -é ».",
+        "suggestions": [
+          "jeter"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion évidente entre infinitif et participe passé dans une structure verbale avec « préférer ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.21",
+        "text": "au",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "La préposition « à » doit être contractée avec l'article pluriel « les » (devant « pauvres »), ce qui donne « aux ».",
+        "suggestions": [
+          "aux"
+        ],
+        "ruleApplied": "5.3.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de contraction obligatoire : « à + les » = « aux ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.22",
+        "text": "jolie",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « joli » doit s'accorder au masculin singulier avec le nom qu'il qualifie, « le produit ».",
+        "suggestions": [
+          "joli"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en genre : le nom « produit » est masculin.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.23",
+        "text": "bon",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « bon » doit s'accorder au masculin pluriel avec le nom « produits » qu'il qualifie.",
+        "suggestions": [
+          "bons"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en nombre : le nom « produits » est pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.24",
+        "text": "il",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom personnel sujet « il » doit être au pluriel (« ils ») pour reprendre son antécédent « les petits agriculteurs ».",
+        "suggestions": [
+          "ils"
+        ],
+        "ruleApplied": "5.3.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord pronominal : l'antécédent est pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.25",
+        "text": "bon",
+        "occurenceIndex": 2,
+        "criteria": 5,
+        "type": "_",
+        "description": "L'adjectif « bon » doit s'accorder au masculin pluriel avec le nom « produits » qu'il qualifie. Le donneur est « produits ».",
+        "suggestions": [
+          "bons"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de l'erreur d'accord en nombre avec « produits ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.26",
+        "text": "déguster",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « dégustés », employé avec l'auxiliaire « être » (forme passive), doit être utilisé ici et non l'infinitif. Il s'agit d'une confusion entre l'infinitif en « -er » et le participe passé en « -é ».",
+        "suggestions": [
+          "dégustés"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion évidente entre infinitif et participe passé dans une structure passive.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.27",
+        "text": "Vous êtes vous",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Dans une construction interrogative avec inversion du sujet, le pronom personnel sujet doit être lié au verbe par un trait d'union.",
+        "suggestions": [
+          "Vous êtes-vous"
+        ],
+        "ruleApplied": "5.2.1.10",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique obligatoire : trait d'union requis dans l'inversion interrogative.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.28",
+        "text": "parfait",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif doit s'accorder en nombre avec le nom qu'il qualifie, « aliments » (masculin pluriel).",
+        "suggestions": [
+          "parfaits"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en nombre : le nom « aliments » est pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.29",
+        "text": "qualités",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Dans l'expression « de bonne qualité », le nom « qualité » reste généralement au singulier.",
+        "suggestions": [
+          "qualité"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Expression figée : « de bonne qualité » s'emploie au singulier.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.30",
+        "text": "l'achètent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom complément d'objet direct remplace « les produits » (pluriel) et doit donc être « les ».",
+        "suggestions": [
+          "les achètent"
+        ],
+        "ruleApplied": "5.3.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du pronom : l'antécédent « produits » est pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.31",
+        "text": "pensez",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion de désinence verbale. Dans une subordonnée conditionnelle introduite par « si », le verbe doit être à l'imparfait de l'indicatif pour s'accorder avec le sujet « les consommateurs » (3e personne du pluriel).",
+        "suggestions": [
+          "pensaient"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double erreur : mauvaise personne (2e au lieu de 3e) et mauvais temps (présent au lieu d'imparfait).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.32",
+        "text": "pensez vous",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Répétition de l'erreur. Dans une construction interrogative avec inversion du sujet, le pronom personnel sujet doit être lié au verbe par un trait d'union.",
+        "suggestions": [
+          "pensez-vous"
+        ],
+        "ruleApplied": "5.2.1.10",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de l'erreur 5.13 : trait d'union manquant dans l'inversion interrogative.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.33",
+        "text": "au pauvres",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur de contraction. Devant un nom pluriel, la préposition « à » et l'article « les » se contractent en « aux ».",
+        "suggestions": [
+          "aux pauvres"
+        ],
+        "ruleApplied": "5.3.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de contraction obligatoire, identique à l'erreur 5.21.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.34",
+        "text": "regardez",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion de désinence verbale. Le verbe doit être à l'imparfait de l'indicatif, comme le verbe « aidaient » auquel il est coordonné, et s'accorder avec le sujet « les consommateurs » (3e personne du pluriel).",
+        "suggestions": [
+          "regardaient"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double erreur : mauvaise personne et mauvais temps, identique à l'erreur 5.31.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.35",
+        "text": "préférez vous",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Répétition de l'erreur. Dans une construction interrogative avec inversion du sujet, le pronom personnel sujet doit être lié au verbe par un trait d'union.",
+        "suggestions": [
+          "préférez-vous"
+        ],
+        "ruleApplied": "5.2.1.10",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de l'erreur de trait d'union manquant dans l'inversion interrogative.",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 13,
+      "note": "E"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 34,
+      "note": "E"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 48,
+      "vraisErreurs": 47,
+      "discutables": 0,
+      "fauxPositifs": 1
+    }
+  },
+  "startTimestamp": "2025-12-12T11:36:08.234Z",
+  "endTimestamp": "2025-12-12T11:38:08.428Z",
+  "durationMs": 120194,
+  "durationFormatted": "02:00:194"
+}

@@ -1,0 +1,441 @@
+{
+  "processedAt": "2025-12-10T14:56:29.756Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_107.txt",
+    "originalText": "Le gaspillage alimentaire, est-ce inévitable?\r\n\r\nIl y a de nombreux fléaux modernes, mais l'un des plus impactant sur notre vie est lié à notre consommation alimentaire, un aspect impératif à la vie de chacun. Il s'agit bien sûr du gaspillage alimentaire, il est peut-être inévitable, mais il serait assurément possible de réduire l'impact négatif de ce dernier.\r\n\r\nPremièrement, nous pouvons dire qu'une grande partie des gens refuse d'acheter certains fruits et légumes parfaitement comestibles, tout cela, car la grande majorité de la population trouve ceux-ci trop moches, mais si elle arrêtait ce superficialisme, le gaspillage se réduirait en conséquence. Si nous prenons par exemple la citation: '' Les détaillants vendent peu de ces produits dit ''moches'', car les consommateurs associent souvent l'apparence d'un fruit ou d'un légume à sa fraîcheur et à sa qualité.'', elle nous prouve directement que de nombreuses personnes refusent d'acheter ce genre d'aliment, et donc, il y a assurément un grand gaspillage qui serait engendré par cela, que ce soit, parce que les épicerie voudront moins en acheter à cause du manque de demande sur le marché, ou parce que les gens ne vont pas les acheter et ils vont se détériorer en magasin et donc, ils ne seront très probablement jamais consommés. Aussi, selon Pascal Thériault, économiste agricole, ''le client accepte que la nature soit imparfaite lorsqu'il achète directement au producteur.'', cela nous démontre que même quand les gens ont le choix, les gens choisissent toujours le plus beau produit, mais s'ils n'ont pas ce choix, il n'ont aucun problème à consommer un produit moins beau. Tout cela démontre que le problème est sociétal et donc, son mauvais impact pourrait être réduit si nous modifions notre manière de penser en détruisant notre vision superficielle. Puisque ces aliments sont jugés négativement par rapport à leur esthétisme, les personnes en achètent moins et donc le prix d'achat de ceux-ci est bien plus bas, ce faisant, les agriculteurs décident très souvent de jeter ces aliments, car ils trouvent que le travail requis pour les fournir au épicerie est trop élevé pour un prix aussi bas.\r\n\r\nDeuxièmement, si la population s'informait et en apprenait sur comment la conservation d'aliment et la péremption de ces derniers marchent, l'ampleur du gaspillage alimentaire serait grandement réduite. Nous pouvons démontrer ce point par le fait qu'il est prouvé que quand la date limite de conservation est atteinte, la majorité des aliments ne sont pas dangereux, et puisqu'une grande partie de la population ne comprend pas cela, logiquement un grand nombre d'aliments est jeté.Personnellement, et comme toutes les personnes que je connais, j'ai fait du gaspillage alimentaire et pour moi, je trouve que c'est très facile de comprendre qu'une grande partie de ce gaspillage à été causé par le fait que les gens sont mal informés. La preuve, durant l'entièreté de mon enfance les gens, qu'ils soient famille ou inconnus m'ont tous dit qu'il était impératif de bien regarder la date de péremption et ne rien consommer qui aurait dépassé cette dernière. Aussi, comme dernière preuve, nous pouvons prendre le fait que selon Florence-Léa Siry, experte en lutte contre le gaspillage alimentaire, ''50% du gaspillage alimentaire pourrait être évité à la maison si les consommateurs apprenaient à mieux conserver les aliments.''. Cette citation démontre à elle seule très bien le fait que si les personnes s'informent sur le fonctionnement de la conservation alimentaire, ils seraient largement capable de réduire leur gaspillage alimentaire.\r\n\r\nEn conclusion, si les gens arrêtaient leur superficialisme à l'égard des fruits et légumes, le gaspillage alimentaire pourrait être grandement réduit, de plus, si la population s'informe sur le fonctionnement des dates de péremption et de la conservation d'aliments, ce même type de gaspillage perdrait de son ampleur. Pensez vous que cet enjeu qu'est le gaspillage alimentaire vaut la peine de s'efforcer de le combattre, ou est-ce mieux de l'ignorer et espérer que tout se passe bien?\r\n\r\nCAMERON, Daphné, '' Les légumes moches, un marché de niche '', 2 octobre 2020.\r\nCORRIVEAU, Jeanne, '' La fierté de ne pas gaspiller d'aliments '', 23 novembre 2020.\r\nSIMARD, Valérie '' Sauvetage alimentaire '', 16 février 2020.\r\nRADIO-CANADA, ''Limiter le gaspillage alimentaire sur les fermes avec de nouvelles politiques '', 24 avril 2021.",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "impactant",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'adjectif doit s'accorder avec le nom sous-entendu 'fléaux'. De plus, 'impactant' est un calque de l'anglais 'impacting' et son usage comme adjectif est critiqué. On utilise le participe présent 'impactant' dans une structure verbale, mais ici, un adjectif comme 'importants' ou 'marquants' est attendu après 'l'un des plus'.",
+        "suggestions": [
+          "importants",
+          "marquants"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "id": "erreur4.2",
+        "text": ",",
+        "occurenceIndex": 10,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule ne doit pas séparer la locution conjonctive 'que ce soit' de la proposition qu'elle introduit.",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.10.2.h"
+      },
+      {
+        "id": "erreur4.3",
+        "text": "''",
+        "occurenceIndex": 3,
+        "criteria": 4,
+        "type": "« P »",
+        "description": "Les citations doivent être encadrées par des guillemets français (« ») et non par des guillemets anglais (''). L'erreur concerne la paire de guillemets ouvrants et fermants.",
+        "suggestions": [
+          "«"
+        ],
+        "ruleApplied": "4.2.2.5.1"
+      },
+      {
+        "id": "erreur4.4",
+        "text": "en apprenait sur comment",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction 'apprendre sur comment' est incorrecte. Il faut utiliser 'apprenait comment' ou reformuler, par exemple : 's'informait sur la manière dont...'.",
+        "suggestions": [
+          "apprenait comment"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "id": "erreur4.5",
+        "text": "pour moi, je trouve",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression 'pour moi, je trouve' est redondante. Il faut choisir l'une des deux formulations pour éviter la lourdeur.",
+        "suggestions": [
+          "je trouve",
+          "pour moi"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "id": "erreur4.6",
+        "text": "enfance les",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Un complément de phrase long ('durant l'entièreté de mon enfance') placé en tête de phrase doit être suivi d'une virgule.",
+        "suggestions": [
+          "enfance, les"
+        ],
+        "ruleApplied": "4.2.2.10.1.l"
+      },
+      {
+        "id": "erreur4.7",
+        "text": "s'informe",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de concordance des temps dans le système hypothétique. La proposition principale étant au conditionnel présent ('perdrait'), la subordonnée introduite par 'si' doit être à l'imparfait de l'indicatif.",
+        "suggestions": [
+          "s'informait"
+        ],
+        "ruleApplied": "4.1.2.2.3"
+      },
+      {
+        "id": "erreur4.8",
+        "text": "''",
+        "occurenceIndex": 2,
+        "criteria": 4,
+        "type": "« P »",
+        "description": "Les titres dans une bibliographie doivent être en italique ou, à défaut, encadrés par des guillemets français (« »), et non des guillemets anglais ('').",
+        "suggestions": [
+          "«"
+        ],
+        "ruleApplied": "4.2.2.5.1"
+      },
+      {
+        "id": "erreur4.9",
+        "text": ",",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "La virgule ne doit pas séparer le sujet « Le gaspillage alimentaire » de son verbe « est ».",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.10.2.a"
+      },
+      {
+        "id": "erreur4.10",
+        "text": ",",
+        "occurenceIndex": 2,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule ne peut joindre deux phrases syntaxiques indépendantes. Il faut utiliser un point ou un point-virgule pour marquer la fin de la première phrase.",
+        "suggestions": [
+          "."
+        ],
+        "ruleApplied": "4.2.2.1.2"
+      },
+      {
+        "id": "erreur4.11",
+        "text": "''",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "(« P »)",
+        "description": "Les guillemets anglais doubles ( '') doivent être remplacés par des guillemets français (« »).",
+        "suggestions": [
+          "»"
+        ],
+        "ruleApplied": "4.2.2.5.1"
+      },
+      {
+        "id": "erreur4.12",
+        "text": "qualité.'',",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une citation intégrée comme complément d'objet ne doit pas se terminer par un point si la phrase principale continue. De plus, la virgule qui suit est superflue.",
+        "suggestions": [
+          "qualité »,"
+        ],
+        "ruleApplied": "4.2.2.1.2"
+      },
+      {
+        "id": "erreur4.13",
+        "text": ",",
+        "occurenceIndex": 14,
+        "criteria": 4,
+        "type": "P",
+        "description": "La virgule ne doit pas séparer la locution conjonctive « que ce soit » de la conjonction « parce que » qui introduit la proposition subordonnée.",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.10.2.h"
+      },
+      {
+        "id": "erreur4.14",
+        "text": "producteur.'',",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(P)",
+        "description": "Une citation intégrée comme complément d'objet ne doit pas se terminer par un point si la phrase principale continue. De plus, la virgule qui suit est superflue.",
+        "suggestions": [
+          "producteur »,"
+        ],
+        "ruleApplied": "4.2.2.1.2"
+      },
+      {
+        "id": "erreur4.15",
+        "text": "''",
+        "occurenceIndex": 4,
+        "criteria": 4,
+        "type": "(« P »)",
+        "description": "Les guillemets anglais doubles ( '') doivent être remplacés par des guillemets français (« »). Cette erreur de paire n'est pas comptabilisée.",
+        "suggestions": [
+          "»"
+        ],
+        "ruleApplied": "4.2.2.5.1"
+      },
+      {
+        "id": "erreur4.16",
+        "text": "qu'ils soient famille ou inconnus",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction est boiteuse. Le nom « famille » ne peut être utilisé comme un adjectif en opposition à « inconnus ». Il faudrait reformuler, par exemple : « qu'ils soient de ma famille ou des inconnus ».",
+        "suggestions": [
+          "qu'ils fassent partie de ma famille ou soient des inconnus"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "id": "erreur4.17",
+        "text": ".''.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "La présence de deux points à la fin de la phrase est incorrecte. Un seul point final est requis.",
+        "suggestions": [
+          "»."
+        ],
+        "ruleApplied": "4.2.1.8"
+      },
+      {
+        "id": "erreur4.18",
+        "text": "s'informent",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de concordance des temps. La proposition principale est au conditionnel (« seraient »), la subordonnée conditionnelle introduite par « si » doit donc être à l'imparfait de l'indicatif.",
+        "suggestions": [
+          "s'informaient"
+        ],
+        "ruleApplied": "4.1.2.2.3"
+      },
+      {
+        "id": "erreur4.19",
+        "text": "'' Les légumes moches, un marché de niche ''",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "« P »",
+        "description": "Les guillemets anglais doubles ( '' '') doivent être remplacés par des guillemets français (« »).",
+        "suggestions": [
+          "« Les légumes moches, un marché de niche »"
+        ],
+        "ruleApplied": "4.2.2.5.1"
+      },
+      {
+        "id": "erreur4.20",
+        "text": "'' La fierté de ne pas gaspiller d'aliments ''",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "« P »",
+        "description": "Les guillemets anglais doubles ( '' '') doivent être remplacés par des guillemets français (« »).",
+        "suggestions": [
+          "« La fierté de ne pas gaspiller d'aliments »"
+        ],
+        "ruleApplied": "4.2.2.5.1"
+      },
+      {
+        "id": "erreur4.21",
+        "text": "Valérie ''",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule après le prénom dans une référence bibliographique où le nom de famille est en premier.",
+        "suggestions": [
+          "Valérie, ''"
+        ],
+        "ruleApplied": "4.2.2.10.1.a"
+      },
+      {
+        "id": "erreur4.22",
+        "text": "'' Sauvetage alimentaire ''",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "« P »",
+        "description": "Les guillemets anglais doubles ( '' '') doivent être remplacés par des guillemets français (« »).",
+        "suggestions": [
+          "« Sauvetage alimentaire »"
+        ],
+        "ruleApplied": "4.2.2.5.1"
+      },
+      {
+        "id": "erreur4.23",
+        "text": "''Limiter le gaspillage alimentaire sur les fermes avec de nouvelles politiques ''",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "« P »",
+        "description": "Les guillemets anglais doubles ( '' '') doivent être remplacés par des guillemets français (« »).",
+        "suggestions": [
+          "« Limiter le gaspillage alimentaire sur les fermes avec de nouvelles politiques »"
+        ],
+        "ruleApplied": "4.2.2.5.1"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 13,
+      "note": "C"
+    },
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "dit",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'dit', employé comme adjectif, doit s'accorder en genre et en nombre avec le nom qu'il qualifie, 'produits' (masculin pluriel).",
+        "suggestions": [
+          "dits"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "id": "erreur5.2",
+        "text": "il n'ont",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom personnel sujet 'il' (3e personne du singulier) ne s'accorde pas avec le verbe 'ont' (3e personne du pluriel). Le pronom doit être 'ils' pour reprendre 'les gens'.",
+        "suggestions": [
+          "ils n'ont"
+        ],
+        "ruleApplied": "5.3.1.4"
+      },
+      {
+        "id": "erreur5.3",
+        "text": "épicerie",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'épicerie' doit être au pluriel pour s'accorder avec le sens de la phrase et la préposition contractée 'aux'.",
+        "suggestions": [
+          "épiceries"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.4",
+        "text": "d'aliment",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'aliment' doit être au pluriel dans l'expression 'la conservation d'aliments'.",
+        "suggestions": [
+          "d'aliments"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.5",
+        "text": "à été",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre la préposition 'à' et l'auxiliaire 'a' (verbe avoir à la 3e personne du singulier). Il faut utiliser l'auxiliaire 'a'.",
+        "suggestions": [
+          "a été"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "id": "erreur5.6",
+        "text": "famille",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'famille' doit être au pluriel pour être coordonné avec l'adjectif pluriel 'inconnus'.",
+        "suggestions": [
+          "familles"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.7",
+        "text": "capable",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'capable' doit s'accorder en nombre avec le pronom sujet 'ils' (masculin pluriel).",
+        "suggestions": [
+          "capables"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.8",
+        "text": "Pensez vous",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Dans une question avec inversion du sujet et du verbe, un trait d'union est obligatoire entre le verbe et le pronom sujet.",
+        "suggestions": [
+          "Pensez-vous"
+        ],
+        "ruleApplied": "5.2.1.10"
+      },
+      {
+        "id": "erreur5.9",
+        "text": "impactant",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « impactant » doit s'accorder au pluriel avec le nom « fléaux » auquel il se rapporte par l'intermédiaire du superlatif « des plus ».",
+        "suggestions": [
+          "impactants"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.10",
+        "text": "superficialisme",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot « superficialisme » n'est pas attesté dans les dictionnaires usuels. Il faut utiliser le mot « superficialité ».",
+        "suggestions": [
+          "superficialité"
+        ],
+        "ruleApplied": "5.2.2"
+      },
+      {
+        "id": "erreur5.11",
+        "text": "au épicerie",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "La préposition « à » suivie du déterminant « les » se contracte en « aux ». De plus, le nom « épicerie » doit être au pluriel.",
+        "suggestions": [
+          "aux épiceries"
+        ],
+        "ruleApplied": "5.3.5"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 11,
+      "note": "C"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:50:17.902Z",
+    "endTimestamp": "2025-12-10T14:56:29.756Z",
+    "durationMs": 371854,
+    "durationFormatted": "06:11:854"
+  }
+}

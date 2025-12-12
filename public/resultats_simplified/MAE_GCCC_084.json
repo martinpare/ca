@@ -1,0 +1,331 @@
+{
+  "processedAt": "2025-12-10T14:43:30.226Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_084.txt",
+    "originalText": "Le Canada sans gaspillage, est-ce possible?\r\n\r\nAu Canada comme dans plusieurs autres pays, les enjeux planétaire comme la pollution, ont été pris au sérieux il y a de ça seulement quelques années. Puisque que nous avons pris notre temps avant de les prendre au sérieux, nous n'avons pas le choix d'agir au plus vite. Un gros problème au Canada est le gaspillage alimentaire qui est une grande partie du problème de pollution sur notre planète. Donc, sommes-nous prêts à lutter contre le gaspillage alimentaire? Selon moi oui, puisqu'il y a plusieurs solutions et efforts que les gens peuvent faire à la maison pour éviter le plus possible le gaspillage.\r\n\r\nTout d'abord parlons des faits, récemment une étude a été faite par les Nations unies démontrant qu'en 2019, près de 931 millions de tonnes de nourriture a été gaspillées cette année sur la planète (1). Au Canada, selon le Conseil national zéro déchet, 2,2 millions de tonnes sont gaspillées par les gens à la maison chaque année équivalant à une perte d'une somme de 17 milliards de dollars (2). Donc en regardant ces statistiques le problème de gaspillage est définitivement présent et impressionnant. Il faut savoir que bien que la majorité du gaspillage se fait à la maison, le gaspillage se fait aussi dans les autres étapes de la chaîne d'approvisionnement. Dans la production, soit chez un agriculteur, le gaspillage est fréquent, voici pourquoi. Quand un aliment est difforme ou imparfait, il peut arriver que l'agriculteur hésite à le distribuer à cause que l'aliment perd sa valeur et est vendu moins cher qu'un aliment esthétiquement parfait (3). Donc c'est certain que pour un agriculteur c'est moins rémunérant, puisque le coût de production et de transport reste le même (4).\r\n\r\nEnfin, le gaspillage peut être réduit assez facilement. À la maison, beaucoup d'aliments sont jetés à cause que la date de péremption est dépassée. D'ailleurs, il faut savoir faire la différence entre <<meilleur avant>> et <<périmé après>>. Cela est un facteur qui peut mettre les gens en doute et finalement gaspiller des aliments toujours bons à manger. Selon Mike von Massow, il s'agit d'une information des moins comprise par les acheteurs (5). Certains produits sont toujours comestibles après la date écrite sur l'emballage. Pour le yogourt c'est trois semaines et pour les boîtes de conserves ont peut se rendre jusqu'à un an après! (6) Afin d'arrêter le gaspillage, il est suggéré de planifier les repas à l'avance pour ne pas acheter inutilement ainsi que d'acheter en quantités nécessaires (7). Donc, ce que les gens ont réellement besoin c'est de pouvoir se faire sensibiliser et de se faire expliquer comment faire pour ne plus gaspiller la nourriture.\r\n\r\nPour conclure, le gaspillage est un gros problème mondial qui est assez simple à réduire à grande échelle. Il faut simplement que les gens du Canada et du monde entier fassent plus attention à la nourriture qu'ils ou elles consomment et surtout qu'ils ne jugent pas un aliment à cause de son esthétique, car cela nuit aux agriculteurs qui nous produisent tous ces beaux fruits et légumes que nous mangeons.\r\n\r\nSources:\r\n\r\n1: SHIELDS, Alexandre, <<Les Canadiens gaspillent trois millions de tonnes de nourriture chaque année>>, Le Devoir, 5 mars 2021.\r\n2, (7): Recyc-Québec, <<Gaspillage alimentaire>>, Recyc-Québec, 2021.\r\n3, (4): Cameron, Daphné, <<Les légumes moches, un marché de niche>>, LaPresse+, 2 octobre 2020.\r\n5: Simard, Valérie, <<Sauvetage alimentaire>>, lapresse.ca, 16 février 2020.\r\n6: Roy, Mathilde, <<Environnement: au rebut, le gaspillage!>>, 1er octobre 2018.",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "il y a de ça",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression 'il y a de ça' est un calque de l'oral. Il faut utiliser la forme standard 'il y a'.",
+        "suggestions": [
+          "il y a"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "id": "erreur4.2",
+        "text": "Puisque que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le mot 'que' est superflu après la conjonction de subordination 'Puisque'.",
+        "suggestions": [
+          "Puisque"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "id": "erreur4.3",
+        "text": "Selon moi oui",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule pour isoler le groupe incident 'Selon moi' en tête de phrase.",
+        "suggestions": [
+          "Selon moi, oui"
+        ],
+        "ruleApplied": "4.2.2.10.1.n"
+      },
+      {
+        "id": "erreur4.4",
+        "text": "récemment une",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule après l'adverbe 'récemment' placé en tête de phrase pour le détacher du reste de la phrase.",
+        "suggestions": [
+          "récemment, une"
+        ],
+        "ruleApplied": "4.2.2.10.1.k"
+      },
+      {
+        "id": "erreur4.5",
+        "text": "en regardant ces statistiques le",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule après la subordonnée participiale 'en regardant ces statistiques' placée en tête de phrase.",
+        "suggestions": [
+          "en regardant ces statistiques, le"
+        ],
+        "ruleApplied": "4.2.2.10.1.m"
+      },
+      {
+        "id": "erreur4.6",
+        "text": "à cause que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution conjonctive 'à cause que' est incorrecte. Il faut utiliser 'parce que'.",
+        "suggestions": [
+          "parce que"
+        ],
+        "ruleApplied": "4.1.2.4.2"
+      },
+      {
+        "id": "erreur4.7",
+        "text": "<<meilleur avant>>",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "« P »",
+        "description": "Les guillemets dactylographiques doubles (`<< >>`) sont incorrects. Il faut utiliser les guillemets français (« »).",
+        "suggestions": [
+          "« meilleur avant »"
+        ],
+        "ruleApplied": "4.2.2.5.1"
+      },
+      {
+        "id": "erreur4.8",
+        "text": "<<périmé après>>",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "« P »",
+        "description": "Les guillemets dactylographiques doubles (`<< >>`) sont incorrects. Il faut utiliser les guillemets français (« »).",
+        "suggestions": [
+          "« périmé après »"
+        ],
+        "ruleApplied": "4.2.2.5.1"
+      },
+      {
+        "id": "erreur4.9",
+        "text": "après!",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "L'emploi du point d'exclamation est inapproprié ici, car il s'agit d'une simple affirmation et non d'une exclamation. Un point final est requis.",
+        "suggestions": [
+          "après."
+        ],
+        "ruleApplied": "4.2.2.3.2"
+      },
+      {
+        "id": "erreur4.10",
+        "text": "<<Les Canadiens gaspillent trois millions de tonnes de nourriture chaque année>>",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "« P »",
+        "description": "Les guillemets dactylographiques doubles (`<< >>`) sont incorrects. Il faut utiliser les guillemets français (« »).",
+        "suggestions": [
+          "« Les Canadiens gaspillent trois millions de tonnes de nourriture chaque année »"
+        ],
+        "ruleApplied": "4.2.2.5.1"
+      },
+      {
+        "id": "erreur4.11",
+        "text": "<<Gaspillage alimentaire>>",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "« P »",
+        "description": "Les guillemets dactylographiques doubles (`<< >>`) sont incorrects. Il faut utiliser les guillemets français (« »).",
+        "suggestions": [
+          "« Gaspillage alimentaire »"
+        ],
+        "ruleApplied": "4.2.2.5.1"
+      },
+      {
+        "id": "erreur4.12",
+        "text": "<<Les légumes moches, un marché de niche>>",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(P)",
+        "description": "Les guillemets dactylographiques doubles (`<< >>`) sont incorrects. Il faut utiliser les guillemets français (« »). L'erreur n'est pas comptée car la limite de 2 erreurs de ponctuation par phrase (ici, la liste des sources) est atteinte.",
+        "suggestions": [
+          "« Les légumes moches, un marché de niche »"
+        ],
+        "ruleApplied": "4.2.2.5.1"
+      },
+      {
+        "id": "erreur4.13",
+        "text": "<<Sauvetage alimentaire>>",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(P)",
+        "description": "Les guillemets dactylographiques doubles (`<< >>`) sont incorrects. Il faut utiliser les guillemets français (« »). L'erreur n'est pas comptée car la limite de 2 erreurs de ponctuation par phrase (ici, la liste des sources) est atteinte.",
+        "suggestions": [
+          "« Sauvetage alimentaire »"
+        ],
+        "ruleApplied": "4.2.2.5.1"
+      },
+      {
+        "id": "erreur4.14",
+        "text": "<<Environnement: au rebut, le gaspillage!>>",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(P)",
+        "description": "Les guillemets dactylographiques doubles (`<< >>`) sont incorrects. Il faut utiliser les guillemets français (« »). L'erreur n'est pas comptée car la limite de 2 erreurs de ponctuation par phrase (ici, la liste des sources) est atteinte.",
+        "suggestions": [
+          "« Environnement: au rebut, le gaspillage! »"
+        ],
+        "ruleApplied": "4.2.2.5.1"
+      },
+      {
+        "id": "erreur4.15",
+        "text": ",",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule ne doit pas séparer le groupe sujet du verbe. Le sujet est \"les enjeux planétaire comme la pollution\".",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.10.2.a"
+      },
+      {
+        "id": "erreur4.16",
+        "text": "yogourt",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule pour isoler le complément de phrase (\"Pour le yogourt\") placé en tête de phrase.",
+        "suggestions": [
+          "yogourt,"
+        ],
+        "ruleApplied": "4.2.2.10.1.b"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 8,
+      "note": "B"
+    },
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "planétaire",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'planétaire' doit s'accorder en nombre avec le nom 'enjeux' (masculin pluriel) auquel il se rapporte.",
+        "suggestions": [
+          "planétaires"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.2",
+        "text": "unies",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Dans la dénomination 'Nations Unies', l'adjectif 'Unies' prend une majuscule.",
+        "suggestions": [
+          "Unies"
+        ],
+        "ruleApplied": "5.2.4.1.2"
+      },
+      {
+        "id": "erreur5.3",
+        "text": "gaspillées",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'gaspillé', employé avec l'auxiliaire 'être', doit s'accorder en genre et en nombre avec son sujet '931 millions de tonnes de nourriture' (féminin singulier, car 'nourriture' est le noyau du groupe sujet).",
+        "suggestions": [
+          "gaspillée"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "id": "erreur5.4",
+        "text": "équivalant",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Il y a confusion entre le participe présent 'équivalant' et l'adjectif verbal 'équivalent'. Ici, c'est l'adjectif qui convient.",
+        "suggestions": [
+          "équivalent"
+        ],
+        "ruleApplied": "5.2.1.4"
+      },
+      {
+        "id": "erreur5.5",
+        "text": "rémunérant",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Il y a confusion entre le participe présent 'rémunérant' et l'adjectif 'rémunérateur'. Ici, c'est l'adjectif qui convient.",
+        "suggestions": [
+          "rémunérateur"
+        ],
+        "ruleApplied": "5.2.1.4"
+      },
+      {
+        "id": "erreur5.6",
+        "text": "ont",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'homophone grammatical 'ont' (verbe avoir) et 'on' (pronom indéfini). Le sujet de 'peut' est le pronom 'on'.",
+        "suggestions": [
+          "on"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "id": "erreur5.7",
+        "text": "LaPresse+",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le nom propre du média 'La Presse+' a été fusionné à tort. Il s'agit d'un barbarisme orthographique.",
+        "suggestions": [
+          "La Presse+"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "id": "erreur5.8",
+        "text": "lapresse.ca",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Il manque une majuscule au début de cette dénomination, qui est un nom propre de média.",
+        "suggestions": [
+          "Lapresse.ca"
+        ],
+        "ruleApplied": "5.2.4.1.2"
+      },
+      {
+        "id": "erreur5.9",
+        "text": "conserves",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord dans un nom composé. Dans l'expression \"boîtes de conserve\", le complément \"conserve\" reste au singulier.",
+        "suggestions": [
+          "conserve"
+        ],
+        "ruleApplied": "5.3.1.5"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 9,
+      "note": "B"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:39:22.673Z",
+    "endTimestamp": "2025-12-10T14:43:30.226Z",
+    "durationMs": 247553,
+    "durationFormatted": "04:07:553"
+  }
+}

@@ -1,0 +1,357 @@
+{
+  "processedAt": "2025-12-12T11:44:42.338Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_125.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_125.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "plat",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Problème de sens. L'adjectif « plat » signifie « sans relief, ennuyeux ». Il ne convient pas dans ce contexte. Il faut utiliser un mot comme « dommage » ou reformuler la phrase.",
+        "suggestions": [
+          "dommage"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "L'adjectif 'plat' (ennuyeux, sans intérêt) ne peut pas s'appliquer à une situation comme ne pas partager une photo. Le sens voulu est clairement 'dommage' ou 'décevant'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "se nourrir un repas",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Construction verbale erronée. Le verbe « se nourrir » est intransitif et s'emploie avec la préposition « de » (« se nourrir d'un repas ») ou on utilise un verbe transitif comme « manger » (« manger un repas »). Une erreur de syntaxe (S) a déjà été comptabilisée dans cette phrase.",
+        "suggestions": [
+          "manger un repas",
+          "se nourrir d'un repas"
+        ],
+        "ruleApplied": "4.1.2.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le verbe pronominal 'se nourrir' exige la préposition 'de'. La construction 'se nourrir un repas' est agrammaticale.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "poussés de vendre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Préposition erronée. La construction correcte est « être poussé à faire quelque chose » et non « de faire quelque chose ».",
+        "suggestions": [
+          "poussés à vendre"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "La locution verbale 'être poussé' se construit obligatoirement avec la préposition 'à' devant l'infinitif. L'usage de 'de' constitue une erreur de régime prépositionnel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "plusieurs gens",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction boiteuse. L'expression « plusieurs gens » est une formulation incorrecte. On utilise « beaucoup de gens » ou « plusieurs personnes ».",
+        "suggestions": [
+          "plusieurs personnes",
+          "beaucoup de gens"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le déterminant 'plusieurs' ne se construit pas avec le nom 'gens' en français standard. C'est une règle d'usage bien établie.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "devaient",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de concordance des temps. La structure de la phrase conditionnelle est « si + présent (veulent), alors + futur/présent ». L'imparfait « devaient » est incorrect. Il faut utiliser le présent « doivent ».",
+        "suggestions": [
+          "doivent"
+        ],
+        "ruleApplied": "4.1.2.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Dans une phrase hypothétique avec 'si + présent', la conséquence s'exprime au présent ou au futur, jamais à l'imparfait. L'emploi de 'devaient' viole les règles de concordance des temps.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "impossible pour nous à résoudre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Préposition erronée. La construction correcte est « il est impossible de faire quelque chose ».",
+        "suggestions": [
+          "impossible pour nous de résoudre"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "L'adjectif 'impossible' se construit toujours avec la préposition 'de' devant l'infinitif, jamais avec 'à' dans ce contexte.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "lutter cet enjeu",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Préposition erronée. Le verbe « lutter » est un verbe transitif indirect dans ce contexte et requiert la préposition « contre ».",
+        "suggestions": [
+          "lutter contre cet enjeu"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le verbe 'lutter' exige la préposition 'contre' quand il a un complément d'objet indirect. La construction directe 'lutter + COD' n'existe pas en français standard.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "elle apporte",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom 'elle' est superflu. Le sujet 'cette alimentation', placé en tête de phrase dans un complément circonstanciel, est déjà le sujet du verbe 'apporte'.",
+        "suggestions": [
+          "apporte"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "La reprise pronominale du sujet 'cette alimentation' par 'elle' crée une redondance fautive. Le sujet ne doit être exprimé qu'une seule fois.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "battre le gaspillage",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe 'battre' est sémantiquement faible dans ce contexte. On utilise plus couramment 'lutter contre' ou 'combattre'.",
+        "suggestions": [
+          "lutter contre le gaspillage",
+          "combattre le gaspillage"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Le verbe 'battre' peut s'employer au sens figuré de 'vaincre' (battre un record, battre l'ennemi). Son emploi avec 'le gaspillage' est inhabituel mais pas nécessairement fautif.",
+        "counterArgument": "Le verbe 'battre' s'emploie métaphoriquement pour signifier 'vaincre, défaire'. Bien que 'lutter contre' ou 'combattre' soient plus idiomatiques avec 'gaspillage', 'battre le gaspillage' reste compréhensible et peut être considéré comme un choix stylistique visant à dynamiser le discours. Cette construction existe dans des expressions comme 'battre la pauvreté', 'battre le cancer'."
+      },
+      {
+        "id": "erreur4.10",
+        "text": "on a la tendance de",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution correcte est 'avoir tendance à' et non 'avoir la tendance de'.",
+        "suggestions": [
+          "on a tendance à"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "La locution figée 'avoir tendance à' ne tolère pas l'article défini 'la' ni la préposition 'de' devant l'infinitif. C'est une erreur d'usage bien documentée.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.11",
+        "text": "peu des aliments",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "L'adverbe de quantité 'peu' est suivi de la préposition 'de' (ou d') sans article. Cette erreur se trouve dans la même phrase syntaxique qu'une erreur S déjà comptée.",
+        "suggestions": [
+          "peu d'aliments"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Les adverbes de quantité (peu, beaucoup, assez, trop, etc.) se construisent avec 'de' sans article. L'emploi de 'des' constitue une erreur grammaticale courante mais clairement identifiable.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.12",
+        "text": "mettent en public",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression 'mettre en public' est un calque ou une construction maladroite. On utilise plutôt des verbes comme 'publier', 'partager publiquement' ou 'afficher'.",
+        "suggestions": [
+          "publient",
+          "partagent publiquement"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "L'expression 'mettre en public' n'existe pas en français standard. Les locutions correctes sont 'rendre public', 'mettre en ligne', 'publier'. Il s'agit probablement d'un calque de l'anglais 'to make public'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.13",
+        "text": "continuer pour plusieurs années",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Pour indiquer une durée, on emploie la préposition 'pendant' plutôt que 'pour'.",
+        "suggestions": [
+          "continuer pendant plusieurs années"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "En français standard, la durée s'exprime avec 'pendant', non avec 'pour'. L'emploi de 'pour' dans ce contexte est un anglicisme (calque de 'for').",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.14",
+        "text": "fonder des solutions pour ce problème consacre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe 'consacrer' n'est pas approprié sémantiquement. Le sujet 'fonder des solutions' (ou 'la mise en place de solutions') requiert un verbe comme 'demander' ou 'exiger'.",
+        "suggestions": [
+          "la mise en place de solutions pour ce problème demande",
+          "trouver des solutions à ce problème exige"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le verbe 'consacrer' est transitif et signifie 'dédier, affecter quelque chose à'. Il ne peut pas avoir comme sujet une action abstraite ('fonder des solutions'). C'est une erreur de construction sémantique.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.15",
+        "text": "si la population va être",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Dans une subordonnée conditionnelle introduite par 'si', on n'emploie pas le futur ou le futur proche. On doit utiliser le présent de l'indicatif si le verbe de la principale est au futur ou au présent.",
+        "suggestions": [
+          "si la population devient"
+        ],
+        "ruleApplied": "4.1.2.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "C'est une règle grammaticale fondamentale du français : après 'si' conditionnel, on n'utilise jamais le futur ni le futur proche. Le présent est obligatoire.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "Brèf",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage. L'adverbe « bref » s'écrit avec un accent aigu sur le 'e'.",
+        "suggestions": [
+          "Bref"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accentuation évidente. L'adverbe 'bref' s'écrit toujours avec un accent aigu, jamais avec un accent grave.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "d'investissement",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le nom « investissement » devrait être au pluriel car il est sous-entendu qu'il y en a plusieurs de la part des gouvernements.",
+        "suggestions": [
+          "d'investissements"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Le singulier 'investissement' peut s'interpréter comme un nom collectif ou abstrait désignant l'action d'investir en général. Le pluriel serait plus naturel, mais le singulier n'est pas nécessairement fautif.",
+        "counterArgument": "Le nom 'investissement' au singulier peut être employé dans un sens collectif ou abstrait pour désigner l'action d'investir ou le capital investi de manière générale. Dans l'expression 'manque d'investissement', le singulier est acceptable et fréquent, car on considère l'investissement comme une notion globale plutôt que comme des actes distincts. Les deux formes (singulier et pluriel) sont attestées dans ce contexte."
+      },
+      {
+        "id": "erreur5.3",
+        "text": "substance indispensable",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'substance' devrait être au pluriel, car il est attendu qu'il y ait plusieurs types de substances indispensables dans les aliments. Le participe passé 'indispensable' doit aussi s'accorder.",
+        "suggestions": [
+          "substances indispensables"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le contexte évoque clairement plusieurs nutriments ou composés dans les aliments. Le singulier 'substance' est sémantiquement inapproprié et doit être au pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "leurs temps",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'temps' est généralement employé au singulier dans ce contexte. Par conséquent, le déterminant possessif doit aussi être au singulier 'leur'.",
+        "suggestions": [
+          "leur temps"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Dans l'expression 'consacrer du temps', le nom 'temps' est un nom abstrait non comptable qui s'emploie au singulier. Le déterminant possessif doit donc être au singulier : 'leur temps'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "plusieurs d'entre eux",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom 'eux' est masculin, mais son antécédent 'banques alimentaires' est féminin pluriel. Il faut utiliser le pronom 'elles'.",
+        "suggestions": [
+          "plusieurs d'entre elles"
+        ],
+        "ruleApplied": "5.3.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord pronominal claire. L'antécédent 'banques alimentaires' est féminin pluriel, donc le pronom doit être 'elles', non 'eux'.",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 14,
+      "note": "D"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 4,
+      "note": "B"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 20,
+      "vraisErreurs": 18,
+      "discutables": 2,
+      "fauxPositifs": 0
+    }
+  },
+  "startTimestamp": "2025-12-12T11:43:37.390Z",
+  "endTimestamp": "2025-12-12T11:44:42.338Z",
+  "durationMs": 64948,
+  "durationFormatted": "01:04:948"
+}

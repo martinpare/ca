@@ -1,0 +1,441 @@
+{
+  "processedAt": "2025-12-10T15:14:08.868Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_146.txt",
+    "originalText": "La consommation exagérée\r\n\r\nChers publics,\r\n\r\nDans le monde, certains d'entre nous ne constate pas comment la nourriture est importente à la vie quotidienne. Avec une manque d'alimentation partout dans les pays, la population capoterait. À mon avis, nous sommes prêts à combattre contre le gaspillage de nourriture. La bouffe se pert dans beaucoup de manières possibles. Soit en achetant de grande quantité à l'épicerie ou le gaspillage à la maison.\r\n\r\nTout d'abord, chers lecteurs et lectrices, abordons sur le fait que la bouffe est gaspillé à cause qu'on achète trop et à la fin, on est même pas capable de finir avant la date limite de conservation. Selon l'article Le Gaspillage Alimentaire, « Plusieurs publicités incitent les consommateurs à acheter des produits en grande quantité. » (Roy, 2018). Par contre, même s'il y a des grandes rabais à l'épicerie, certains d'autres commerces ne vont pas réussir à vendre certains aliments. Selon l'auteur, « En cinq ans les banques alimentaires du Québec ont conclu des ententes avec plus de 425 épiceries pour récupérer les produits invendus [...]. Cela représente 6.7 millions de kilos de denrées qui sont ainsi redistribuées. » (Corriveau, 2020) Bref, un achat équitable à l'épicerie est plus favorable que d'en gaspiller. C'était comme si tu gaspillait aussi ton argent.\r\n\r\nDeuxièmement, chers internautes, traitons maintenant du gaspillage à la maison. Plusieurs d'entre nous ne savent pas comment conserver les aliments de manier raisonnable et équitable. Selon l'article Le Gaspillage Alimentaire, « Pour prolonger la durée de vie des aliments [...] il faut garder hors du réfrigirateur les aliments non réfrigérés [...], de retirer les emballages qui causent un surplus d'humidité et de ne pas tailler les fruits et légumes trop d'avance. » (Simard, 2020) Nous les humains ont l'habitude de prendre et prendre sans connaître les conséquences qui se produira. Par ailleurs, il y a des préventions à ses crises. En 2021, RECYC-Québec nous donnes quelques conseils pour limiter le gaspillage. Planifier les repas, acheter en quantité raisonnables et congeler les restes en portions individuelles. En conclusion, prolonger la durée de vie des aliments vous donne en sorte que vous minimisez vos dépenses et vous gaspiller moins d'argent aux aliments.\r\n\r\nSomme toute, chers lecteurs, on comprend que tout le monde n'a pas les mêmes privilèges envers la consommation. Vous et moi sont chanceux qu'on se trouve dans un pays développé et non dans un pays en développement. Je vous invite à changer vos comportements envers comment vous traitez la nourriture. Ce n'est pas trop tard pour agir et de changer nos habitudes. Rêvons-nous d'une belle futur sans famine.",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "capoterait",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'emploi du verbe 'capoter' relève du registre de langue familier et n'est pas approprié dans ce contexte. Il faut utiliser un verbe de registre courant.",
+        "suggestions": [
+          "paniquerait",
+          "serait désemparée"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "id": "erreur4.2",
+        "text": "Soit en achetant de grande quantité à l'épicerie ou le gaspillage à la maison.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase est un fragment; elle n'a pas de verbe principal conjugué et constitue une subordonnée sans phrase matrice. De plus, elle coordonne des éléments de nature différente ('en achetant' et 'le gaspillage').",
+        "suggestions": [
+          "Elle se perd soit en achetant de trop grandes quantités à l'épicerie, soit en gaspillant à la maison."
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "id": "erreur4.3",
+        "text": "abordons sur",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe 'aborder' est un verbe transitif direct et ne doit pas être suivi de la préposition 'sur'.",
+        "suggestions": [
+          "abordons"
+        ],
+        "ruleApplied": "4.1.2.2.2"
+      },
+      {
+        "id": "erreur4.4",
+        "text": "à cause qu'on",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Le subordonnant 'à cause que' est incorrect. Il faut utiliser 'parce que'. Une erreur de syntaxe (S) a déjà été comptabilisée dans cette phrase.",
+        "suggestions": [
+          "parce qu'on"
+        ],
+        "ruleApplied": "4.1.2.4.2"
+      },
+      {
+        "id": "erreur4.5",
+        "text": "est même pas",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "La négation est mal employée. Il manque l'adverbe 'n'' avant le verbe. Une erreur de syntaxe (S) a déjà été comptabilisée dans cette phrase.",
+        "suggestions": [
+          "n'est même pas"
+        ],
+        "ruleApplied": "4.1.2.1.3"
+      },
+      {
+        "id": "erreur4.6",
+        "text": "certains d'autres",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction 'certains d'autres' est redondante. Il faut utiliser soit 'certains autres', soit 'd'autres'.",
+        "suggestions": [
+          "d'autres",
+          "certains autres"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "id": "erreur4.7",
+        "text": "ans",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule après le complément de phrase 'En cinq ans' placé en tête de phrase.",
+        "suggestions": [
+          "ans,"
+        ],
+        "ruleApplied": "4.2.2.10.1.l"
+      },
+      {
+        "id": "erreur4.8",
+        "text": "Planifier les repas, acheter en quantité raisonnables et congeler les restes en portions individuelles.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase est un fragment; elle est constituée d'une énumération d'infinitifs sans verbe principal conjugué.",
+        "suggestions": [
+          "Il faut planifier les repas, acheter en quantité raisonnable et congeler les restes en portions individuelles."
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "id": "erreur4.9",
+        "text": "donne en sorte que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression 'donne en sorte que' est une construction boiteuse. L'expression correcte est 'fait en sorte que'.",
+        "suggestions": [
+          "fait en sorte que"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "id": "erreur4.10",
+        "text": "envers comment vous traitez",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction 'envers comment' est boiteuse. Il faut reformuler, par exemple avec 'envers la façon dont vous traitez'.",
+        "suggestions": [
+          "envers la façon dont vous traitez"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "id": "erreur4.11",
+        "text": "et de changer",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de coordination. On ne peut coordonner 'agir' (infinitif) et 'de changer' (groupe prépositionnel). La préposition 'de' doit être omise.",
+        "suggestions": [
+          "et changer"
+        ],
+        "ruleApplied": "4.1.2.1.8"
+      },
+      {
+        "id": "erreur4.12",
+        "text": "famine",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque le point final à la fin de la phrase.",
+        "suggestions": [
+          "famine."
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      },
+      {
+        "id": "erreur4.13",
+        "text": "Nous les humains ont",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de construction. Le pronom de reprise 'Nous' impose l'accord du verbe à la première personne du pluriel ('avons'). La construction correcte est 'Nous, les humains, avons...'.",
+        "suggestions": [
+          "Nous, les humains, avons"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "id": "erreur4.14",
+        "text": "Rêvons-nous",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Construction boiteuse. La forme interrogative 'Rêvons-nous' est inadéquate dans ce contexte d'exhortation. Une forme impérative ('Rêvons') serait plus appropriée. L'erreur n'est pas comptée, car il y a déjà une erreur de syntaxe (S) dans cette phrase.",
+        "suggestions": [
+          "Rêvons"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "id": "erreur4.15",
+        "text": ".",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point final est inapproprié pour cette phrase qui exprime un souhait. Un point d'exclamation serait plus juste.",
+        "suggestions": [
+          "!"
+        ],
+        "ruleApplied": "4.2.2.3.1"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 10.5,
+      "note": "C"
+    },
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "constate",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'constater' doit s'accorder à la troisième personne du pluriel avec son sujet 'certains d'entre nous'.",
+        "suggestions": [
+          "constatent"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.2",
+        "text": "importente",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Orthographe d'usage. La graphie correcte est 'importante'.",
+        "suggestions": [
+          "importante"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "id": "erreur5.3",
+        "text": "une",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant 'une' doit s'accorder en genre avec le nom 'manque' qui est masculin.",
+        "suggestions": [
+          "un"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.4",
+        "text": "pert",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Barbarisme de conjugaison. La forme correcte du verbe 'perdre' à la troisième personne du singulier du présent de l'indicatif est 'perd'.",
+        "suggestions": [
+          "perd"
+        ],
+        "ruleApplied": "5.3.2.1"
+      },
+      {
+        "id": "erreur5.5",
+        "text": "gaspillé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'gaspillé', employé comme adjectif, doit s'accorder en genre et en nombre avec le nom 'bouffe' (féminin singulier).",
+        "suggestions": [
+          "gaspillée"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "id": "erreur5.6",
+        "text": "grandes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'grandes' doit s'accorder en genre avec le nom 'rabais' qui est masculin.",
+        "suggestions": [
+          "grands"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.7",
+        "text": "gaspillait",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'gaspiller' à l'imparfait doit s'accorder avec son sujet 'tu' (deuxième personne du singulier).",
+        "suggestions": [
+          "gaspillais"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.8",
+        "text": "manier",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion d'homophones lexicaux. Le nom correct est 'manière'.",
+        "suggestions": [
+          "manière"
+        ],
+        "ruleApplied": "5.2.2"
+      },
+      {
+        "id": "erreur5.9",
+        "text": "réfrigirateur",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Orthographe d'usage. La graphie correcte est 'réfrigérateur'.",
+        "suggestions": [
+          "réfrigérateur"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "id": "erreur5.10",
+        "text": "ont",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'avoir' doit s'accorder avec son sujet 'Nous les humains' (première personne du pluriel).",
+        "suggestions": [
+          "avons"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.11",
+        "text": "produira",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'produire' doit s'accorder avec son sujet 'qui', mis pour 'les conséquences' (troisième personne du pluriel).",
+        "suggestions": [
+          "produiront"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.12",
+        "text": "ses",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion d'homophones grammaticaux. Il faut utiliser le déterminant démonstratif 'ces' et non le possessif 'ses'.",
+        "suggestions": [
+          "ces"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "id": "erreur5.13",
+        "text": "donnes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'donner' doit s'accorder avec son sujet 'RECYC-Québec' (troisième personne du singulier).",
+        "suggestions": [
+          "donne"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.14",
+        "text": "raisonnables",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'raisonnables' doit s'accorder en nombre avec le nom 'quantité' qui est au singulier.",
+        "suggestions": [
+          "raisonnable"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.15",
+        "text": "gaspiller",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'gaspiller' doit s'accorder avec son sujet 'vous' (deuxième personne du pluriel). Il s'agit d'une confusion entre l'infinitif et la forme conjuguée.",
+        "suggestions": [
+          "gaspillez"
+        ],
+        "ruleApplied": "5.3.2.6"
+      },
+      {
+        "id": "erreur5.16",
+        "text": "sont",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe 'être' doit s'accorder avec son sujet 'Vous et moi' (équivalent de 'nous', première personne du pluriel).",
+        "suggestions": [
+          "sommes"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.17",
+        "text": "belle",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "L'adjectif 'belle' doit s'accorder en genre avec le nom 'futur' (masculin). L'erreur découle du même donneur d'accord que l'erreur précédente.",
+        "suggestions": [
+          "beau"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.18",
+        "text": "publics",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'Chers' est au pluriel alors que le nom 'public' est un nom collectif qui s'emploie généralement au singulier dans cette formule d'adresse. La forme correcte est 'Cher public'.",
+        "suggestions": [
+          "public"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.19",
+        "text": "grande quantité",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'quantité' est au pluriel dans ce contexte ('de grandes quantités') et l'adjectif 'grande' doit s'accorder en nombre.",
+        "suggestions": [
+          "de grandes quantités"
+        ],
+        "ruleApplied": "5.3.1.1"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 18,
+      "note": "D"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T15:09:03.413Z",
+    "endTimestamp": "2025-12-10T15:14:08.868Z",
+    "durationMs": 305455,
+    "durationFormatted": "05:05:455"
+  }
+}

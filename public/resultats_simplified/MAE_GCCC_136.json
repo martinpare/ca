@@ -1,0 +1,247 @@
+{
+  "processedAt": "2025-12-10T15:07:50.031Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_136.txt",
+    "originalText": "Le gaspillage alimentaire n'est pas nécessaire\r\n\r\nLa planète Terre nous donne beaucoup de ressources pour survivre. Quotidiennement, on vit sans connaître les conséquences de nos actions. Par conséquent, on ne change pas nos habitudes et on continue comme rien ne se passe autour de nous. On mange tout le temps, mais on ne sait pas qu'on gaspille tellement de la nourriture. On utilise des nombreuses ressources pour faire nos repas. La question se pose : « Sommes-nous prêts à lutter contre le gaspillage alimentaire ? ». À mon avis, on est bien préparé à combattre cette situation, parce qu'on peut mieux redistribuer les aliments et les conserver.\r\n\r\nPremièrement, nous sommes prêts à lutter contre ce problème, parce qu'on peut les distribuer en utilisant des meilleures façons. C'est-à-dire qu'on peut éviter de les jeter. Selon un article publié en 2019 par Vanessa Hébert, une journaliste du journal Métro, le chef cuisinier Jean-François Archambault a créé La Tablée des Chefs en 2002. La Tablée a pour but de récupérer les surplus d'aliments dans les restaurants et hôtels au Montréal. Elle est formée des chefs et des organismes qui redistribuent la nourriture qu'ils ont récupéré aux personnes affamée. Grâce à ce programme, plus de 600 000 repas ont été récupérés en 2018. Cette manière est très efficace et elle aide aussi les gens qui n'ont pas accès à la nourriture. Alors, la Tablée des Chefs aide à resolver deux problèmes, le gaspillage alimentaire et la faim dans le monde. En 2020, Jeanne Corriveau, une journaliste de Le Devoir, dit qu'en cinq ans, les banques alimentaires québecoises ont redistribué 6,7 millions de kilos de denrées en concluant des ententes avec plus de 425 épiceries. Bref, on peut diminuer le gaspillage de la nourriture en les redistribuer mieux.\r\n\r\nDeuxièmement, nous sommes préparés à combattre le gaspillage alimentaire, parce qu'on peut les conserver mieux. On gaspille trop parce qu'on ne conserve pas correctement. En 2020, la journaliste de La Presse, Valérie Simard affirme que : « Des sites Web comme Sauve ta bouffe, Chic frigo sans fric, J'aime manger pas gaspiller et des livres spécialisés offrent des recettes et des trucs pour réduire le gaspillage à la maison : redonner vie à des légumes défraîchis, faire des croustilles avec la peau d'un poisson, etc. » Valérie dit aussi que selon un coauteur d'une étude sur le gaspillage alimentaire dans les maisons, Mike von Massow, l'une des informations les plus importantes, mais les moins bien comprises par les consommateurs est la date limite de conservation, qui n'a rien à voir avec la sécurité alimentaire. Apparemment, il y a une différence entre « meilleur avant » et « périmé après ». L'une ne signifie pas l'autre. En bref, si onconserve nos repas de manière efficace, on gaspille moins.\r\n\r\nEn conclusion, nous sommes bien préparés à lutter contre legaspillage d'aliments qui est un grand problème mondiale, parce qu'on a les moyens ! On doit mieux gérer la distribution de nourriture et on doit conserver les surplus si possible. Même si on est prêt, y a-t-il une façon de diminuer la surproduction ?",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "comme rien ne se passe",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution conjonctive correcte pour introduire une comparaison hypothétique est « comme si », suivie de l'imparfait de l'indicatif. L'emploi de « comme » seul constitue une erreur de syntaxe.",
+        "suggestions": [
+          "comme si rien ne se passait"
+        ],
+        "ruleApplied": "4.1.2.4.2"
+      },
+      {
+        "id": "erreur4.2",
+        "text": "au Montréal",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition « à » s'emploie devant les noms de villes. « Au » est la contraction de « à le » et ne convient pas ici.",
+        "suggestions": [
+          "à Montréal"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "id": "erreur4.3",
+        "text": "formée des chefs",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction correcte est « être formé de quelque chose/quelqu'un ». L'emploi de l'article contracté « des » est incorrect; il faut utiliser la préposition « de ».",
+        "suggestions": [
+          "formée de chefs"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "id": "erreur4.4",
+        "text": "en les redistribuer",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition « en » est obligatoirement suivie d'un participe présent. L'infinitif « redistribuer » est incorrect dans cette construction.",
+        "suggestions": [
+          "en les redistribuant"
+        ],
+        "ruleApplied": "4.1.2.2.3"
+      },
+      {
+        "id": "erreur4.5",
+        "text": "tellement de la nourriture",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'adverbe de quantité « tellement de » est suivi d'un nom sans article. L'article « la » est superflu.",
+        "suggestions": [
+          "tellement de nourriture"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "id": "erreur4.6",
+        "text": "affirme que :",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il ne faut pas mettre de deux-points après la conjonction « que » lorsqu'elle introduit une citation ou une proposition subordonnée.",
+        "suggestions": [
+          "affirme que"
+        ],
+        "ruleApplied": "4.2.2.7.2"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 5.5,
+      "note": "B"
+    },
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "des nombreuses",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'article indéfini pluriel « des » devient « de » (ou « d' ») lorsqu'il est placé devant un adjectif qui précède le nom.",
+        "suggestions": [
+          "de nombreuses"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.2",
+        "text": "des meilleures",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'article indéfini pluriel « des » devient « de » (ou « d' ») lorsqu'il est placé devant un adjectif qui précède le nom.",
+        "suggestions": [
+          "de meilleures"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.3",
+        "text": "récupéré",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé conjugué avec l'auxiliaire « avoir » s'accorde avec le complément d'objet direct (COD) si celui-ci est placé avant le verbe. Le COD est le pronom « qu' » (mis pour « la nourriture », féminin singulier).",
+        "suggestions": [
+          "récupérée"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "id": "erreur5.4",
+        "text": "affamée",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « affamée » doit s'accorder en genre et en nombre avec le nom qu'il qualifie, « personnes » (féminin pluriel).",
+        "suggestions": [
+          "affamées"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.5",
+        "text": "resolver",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Ce mot est un barbarisme. Le verbe correct en français est « résoudre ».",
+        "suggestions": [
+          "résoudre"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "id": "erreur5.6",
+        "text": "québecoises",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'adjectif « québécoises » prend un accent aigu sur le premier « e ».",
+        "suggestions": [
+          "québécoises"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.7",
+        "text": "les",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom personnel « les » (pluriel) ne correspond pas à son antécédent, « le gaspillage alimentaire » (masculin singulier). Le pronom correct est « le ».",
+        "suggestions": [
+          "le"
+        ],
+        "ruleApplied": "5.3.1.4"
+      },
+      {
+        "id": "erreur5.8",
+        "text": "onconserve",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Barbarisme orthographique. Le pronom « on » et le verbe « conserve » doivent être séparés par un espace.",
+        "suggestions": [
+          "on conserve"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "id": "erreur5.9",
+        "text": "legaspillage",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Barbarisme orthographique. L'article « le » et le nom « gaspillage » doivent être séparés par un espace.",
+        "suggestions": [
+          "le gaspillage"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "id": "erreur5.10",
+        "text": "mondiale",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « mondiale » doit s'accorder en genre avec le nom qu'il qualifie, « problème » (masculin singulier).",
+        "suggestions": [
+          "mondial"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.11",
+        "text": "de Le Devoir",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "La préposition « de » et l'article défini « le » se contractent en « du ».",
+        "suggestions": [
+          "du Devoir"
+        ],
+        "ruleApplied": "5.3.5"
+      },
+      {
+        "id": "erreur5.12",
+        "text": "en les redistribuer",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "La préposition « en » est suivie du gérondif (forme en -ant), et non de l'infinitif.",
+        "suggestions": [
+          "en les redistribuant"
+        ],
+        "ruleApplied": "5.3.2.7"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 12,
+      "note": "C"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T15:04:33.358Z",
+    "endTimestamp": "2025-12-10T15:07:50.031Z",
+    "durationMs": 196673,
+    "durationFormatted": "03:16:673"
+  }
+}

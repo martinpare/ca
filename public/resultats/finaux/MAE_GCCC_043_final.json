@@ -1,0 +1,721 @@
+{
+  "processedAt": "2025-12-12T11:38:56.277Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_043.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_043.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "est fait",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Problème de sens. L'expression « est fait par » est sémantiquement incorrecte dans ce contexte. On devrait utiliser une formulation comme « est causé par » ou « est le fait de ».",
+        "suggestions": [
+          "est causé",
+          "est le fait de"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "L'expression « est fait par » avec le sens de « causé » est un calque de l'anglais (« is done by »). En français, on dit « est causé par » ou « provient de ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "ses",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Déterminant possessif erroné. Le déterminant « ses » renvoie à un possesseur singulier, alors que l'antécédent est pluriel (« des familles et personnes »). Il faut utiliser « leurs ». Une erreur de syntaxe (S) a déjà été comptée dans cette phrase.",
+        "suggestions": [
+          "leurs"
+        ],
+        "ruleApplied": "4.1.2.3.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accord claire. L'antécédent « familles et personnes » est pluriel, donc le possessif doit être « leurs ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "ses",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Déterminant possessif erroné. Le déterminant « ses » renvoie à un possesseur singulier, alors que l'antécédent est pluriel (« des familles et personnes »). Il faut utiliser « leurs ». Une erreur de syntaxe (S) a déjà été comptée dans cette phrase.",
+        "suggestions": [
+          "leurs"
+        ],
+        "ruleApplied": "4.1.2.3.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Même erreur que la précédente. L'accord du possessif avec l'antécédent pluriel est obligatoire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "que nous faisons tous",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Problème de sens / Collocation. L'expression « faire une habitude » n'est pas idiomatique. On dit plutôt « avoir une habitude » ou « prendre une habitude ».",
+        "suggestions": [
+          "que nous avons tous"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "« Faire une habitude » est un calque de l'anglais (« to make a habit »). En français, on dit « avoir une habitude » ou « prendre une habitude ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "C'est pour ça que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Calque de l'oral. Cette locution est considérée comme familière à l'écrit. Il est préférable d'utiliser « C'est pourquoi » ou « C'est la raison pour laquelle ».",
+        "suggestions": [
+          "C'est pourquoi"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Cette expression, bien que familière, est largement acceptée dans un registre courant, notamment dans les textes scolaires.",
+        "counterArgument": "« C'est pour ça que » est une locution conjonctive très courante en français oral et écrit courant. Dans un texte argumentatif de niveau secondaire, ce registre familier peut être acceptable. Cependant, « C'est pourquoi » serait plus soutenu."
+      },
+      {
+        "id": "erreur4.6",
+        "text": "la nourriture pourrait se trouver",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence d'un mot essentiel. Il manque le pronom relatif « qui » pour introduire la proposition subordonnée relative et la relier à son antécédent « la nourriture ».",
+        "suggestions": [
+          "la nourriture qui pourrait se trouver"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Omission syntaxique claire. Le pronom relatif « qui » est indispensable pour introduire la subordonnée relative.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "qu'il est expiré",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Pronom personnel avec un référent erroné. Le pronom « il » (singulier) est utilisé alors que le référent logique est « les aliments » (pluriel). Il faut utiliser « ils » et accorder le verbe et l'attribut en conséquence.",
+        "suggestions": [
+          "qu'ils sont expirés"
+        ],
+        "ruleApplied": "4.1.2.3.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le pronom doit s'accorder avec son antécédent « les aliments » (pluriel). Cette erreur affecte également l'accord du verbe et de l'attribut.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "c'était écrit",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction de phrase boiteuse. La tournure impersonnelle correcte est « il était écrit ».",
+        "suggestions": [
+          "il était écrit"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Bien que « il était écrit » soit la forme impersonnelle standard, « c'était écrit » est très courant dans le français québécois oral et écrit courant.",
+        "counterArgument": "En français québécois courant, « c'était écrit » est une construction acceptée et largement utilisée, même si « il était écrit » est la forme impersonnelle standard. Dans un texte scolaire de registre courant, cette construction peut être tolérée."
+      },
+      {
+        "id": "erreur4.9",
+        "text": "une misantendue par les acheteurs des produits vendus dans les épiceries",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Subordonnée sans matrice. Ce groupe de mots est une phrase nominale détachée qui ne se rattache pas syntaxiquement au reste de la phrase. Il faut en faire une phrase complète ou la relier à la principale. Le mot « misantendue » est un barbarisme pour « malentendu ».",
+        "suggestions": [
+          "ce qui est un malentendu pour les acheteurs des produits vendus dans les épiceries."
+        ],
+        "ruleApplied": "4.1.2.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Fragment de phrase non rattaché. La construction est syntaxiquement incomplète et doit être intégrée à la phrase précédente.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.10",
+        "text": "les",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Pronom personnel avec un référent erroné. Le pronom « les » (pluriel) est utilisé pour reprendre « notre nourriture » (singulier). Il faut utiliser « la ».",
+        "suggestions": [
+          "la"
+        ],
+        "ruleApplied": "4.1.2.3.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord claire. « Nourriture » est un nom singulier collectif, donc le pronom doit être « la ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.11",
+        "text": "les",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Pronom personnel avec un référent erroné. Le pronom « les » (pluriel) est utilisé pour reprendre « notre nourriture » (singulier). Il faut utiliser « l' ». Une erreur de syntaxe (S) a déjà été comptée dans cette phrase pour le même référent.",
+        "suggestions": [
+          "l'"
+        ],
+        "ruleApplied": "4.1.2.3.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Même erreur que la précédente. Le pronom doit s'accorder avec « nourriture » (singulier).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.12",
+        "text": "se battre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Pronom réfléchi erroné. Le pronom réfléchi doit être de la même personne que le sujet « nous ». Il faut donc utiliser « nous battre ».",
+        "suggestions": [
+          "nous battre"
+        ],
+        "ruleApplied": "4.1.2.3.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du pronom réfléchi. Avec le sujet « nous », le pronom réfléchi doit être « nous », pas « se ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.13",
+        "text": "à comment nous pouvons transformer",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction \"façons à comment\" est une construction boiteuse et redondante. Il faut utiliser \"façons de\" suivi de l'infinitif.",
+        "suggestions": [
+          "de transformer"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction syntaxique incorrecte. « Façons à comment » est redondant et fautif. On dit « façons de + infinitif ».",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "gaspiller",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord du participe passé employé comme adjectif. Le participe passé « gaspiller » doit s'accorder en genre et en nombre avec le nom qu'il qualifie, « nourriture » (féminin singulier).",
+        "suggestions": [
+          "gaspillée"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accord claire. Le participe passé employé comme adjectif doit s'accorder avec « nourriture » (féminin singulier).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "où",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion d'homophones grammaticaux. « où » est un pronom relatif ou un adverbe de lieu, alors qu'il faut ici la conjonction de coordination « ou » pour marquer un choix.",
+        "suggestions": [
+          "ou"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion d'homophones évidente. Le contexte indique clairement une alternative (« ou »), pas un lieu (« où »).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "prêt",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord de l'adjectif. L'adjectif « prêt » doit s'accorder avec le pronom « on », qui a ici une valeur de pluriel (équivalent à « nous »).",
+        "suggestions": [
+          "prêts"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le pronom « on » a ici clairement une valeur de pluriel (= nous). L'attribut doit s'accorder au pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "deconservation",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Barbarisme orthographique. Les mots « de » et « conservation » doivent être écrits séparément.",
+        "suggestions": [
+          "de conservation"
+        ],
+        "ruleApplied": "5.2.6.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur typographique claire. Les deux mots ont été fusionnés par erreur.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "exces",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Absence d'accent. Le mot « excès » prend un accent grave sur le deuxième 'e'.",
+        "suggestions": [
+          "excès"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. L'accent grave est obligatoire sur « excès ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "jeter",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord du participe passé. Le participe passé « jeter », conjugué avec l'auxiliaire « être », doit s'accorder avec son sujet « qui », qui reprend « les aliments » (masculin pluriel).",
+        "suggestions": [
+          "jetés"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accord claire. Le participe passé avec « être » doit s'accorder avec le sujet « qui » (= les aliments, masculin pluriel).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "completement",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Absence d'accent. L'adverbe « complètement » prend un accent grave sur le deuxième 'e'.",
+        "suggestions": [
+          "complètement"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. L'accent grave est obligatoire sur « complètement ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "d'accords",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Ajout d'un 's' à un mot invariable. La locution adverbiale « d'accord » est invariable et ne prend jamais de 's'.",
+        "suggestions": [
+          "d'accord"
+        ],
+        "ruleApplied": "5.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur évidente. « D'accord » est une locution invariable qui ne prend jamais de « s ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "bonne état",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord en genre. L'adjectif « bonne » doit s'accorder en genre avec le nom masculin « état ».",
+        "suggestions": [
+          "bon état"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accord évidente. « État » est masculin, donc l'adjectif doit être « bon ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.10",
+        "text": "innecessaires",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Lettre non doublée. Le mot « innécessaires » s'écrit avec deux 'n'.",
+        "suggestions": [
+          "innécessaires"
+        ],
+        "ruleApplied": "5.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. Le préfixe « in- » devant un mot commençant par « n » donne « inn- ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.11",
+        "text": "refrigérés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Absence d'accent. Le mot « réfrigérés » prend un accent aigu sur le premier 'e'.",
+        "suggestions": [
+          "réfrigérés"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. L'accent aigu est obligatoire sur le premier « e » de « réfrigérés ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.12",
+        "text": "trouverbeaucoup",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Barbarisme orthographique. Les mots « trouver » et « beaucoup » doivent être écrits séparément.",
+        "suggestions": [
+          "trouver beaucoup"
+        ],
+        "ruleApplied": "5.2.6.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur typographique claire. Les deux mots ont été fusionnés par erreur.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.13",
+        "text": "laquel",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Barbarisme grammatical. Le pronom relatif composé est « laquelle » au féminin singulier pour s'accorder avec « raison ».",
+        "suggestions": [
+          "laquelle"
+        ],
+        "ruleApplied": "5.3.2.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe grammaticale évidente. Le pronom relatif composé féminin singulier est « laquelle ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.14",
+        "text": "êtrepourris",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Barbarisme orthographique. Les mots « être » et « pourris » doivent être écrits séparément.",
+        "suggestions": [
+          "être pourris"
+        ],
+        "ruleApplied": "5.2.6.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur typographique claire. Les deux mots ont été fusionnés par erreur.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.15",
+        "text": "peuvent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord du verbe. Le verbe « peuvent » doit s'accorder avec son sujet « Le restant » (singulier).",
+        "suggestions": [
+          "peut"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accord évidente. Le sujet « Le restant » est singulier, donc le verbe doit être « peut ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.16",
+        "text": "transformer",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord du participe passé. Le participe passé « transformer », conjugué avec l'auxiliaire « être », doit s'accorder avec son sujet « Le restant » (masculin singulier).",
+        "suggestions": [
+          "transformé"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accord claire. Le participe passé avec « être » doit s'accorder avec le sujet « Le restant » (masculin singulier).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.17",
+        "text": "sont",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord du verbe. Le verbe « sont » doit s'accorder avec son sujet « la transformation » (singulier).",
+        "suggestions": [
+          "est"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accord évidente. Le sujet « la transformation » est singulier, donc le verbe doit être « est ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.18",
+        "text": "éviterle",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Barbarisme orthographique. Les mots « éviter » et « le » doivent être écrits séparément.",
+        "suggestions": [
+          "éviter le"
+        ],
+        "ruleApplied": "5.2.6.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur typographique claire. Les deux mots ont été fusionnés par erreur.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.19",
+        "text": "différents manières",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord en genre. L'adjectif « différents » doit s'accorder en genre avec le nom féminin « manières ».",
+        "suggestions": [
+          "différentes manières"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accord évidente. « Manières » est féminin, donc l'adjectif doit être « différentes ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.20",
+        "text": "prennant",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Lettre doublée erronée. Le participe présent du verbe « prendre » s'écrit « prenant », avec un seul 'n'.",
+        "suggestions": [
+          "prenant"
+        ],
+        "ruleApplied": "5.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. Le participe présent de « prendre » s'écrit « prenant » avec un seul « n ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.21",
+        "text": "tout les",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord du déterminant. Le déterminant « tout » doit s'accorder en genre et en nombre avec le nom qu'il détermine, « aliments » (masculin pluriel).",
+        "suggestions": [
+          "tous les"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accord évidente. Devant un nom pluriel, « tout » doit être au pluriel : « tous les ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.22",
+        "text": "pocéder",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Lettre erronée. Le verbe « posséder » s'écrit avec deux 's'.",
+        "suggestions": [
+          "posséder"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente. Le verbe « posséder » s'écrit avec deux « s ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.23",
+        "text": "il",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom personnel doit s'accorder en genre et en nombre avec son antécédent. Le pronom \"il\" (masculin singulier) reprend \"les aliments\" (masculin pluriel).",
+        "suggestions": [
+          "ils"
+        ],
+        "ruleApplied": "5.3.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accord claire. L'antécédent « les aliments » est pluriel, donc le pronom doit être « ils ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.24",
+        "text": "est",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder en nombre avec son sujet. Le donneur d'accord est \"aliments\" (repris par \"ils\"), masculin pluriel.",
+        "suggestions": [
+          "sont"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accord évidente. Le sujet est « ils » (= les aliments), pluriel, donc le verbe doit être « sont ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.25",
+        "text": "expiré",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'attribut du sujet doit s'accorder en genre et en nombre avec le sujet. Le donneur d'accord est \"aliments\" (repris par \"ils\"), masculin pluriel.",
+        "suggestions": [
+          "expirés"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accord évidente. L'attribut doit s'accorder avec le sujet « ils » (= les aliments), pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.26",
+        "text": "misantendue",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Ce mot n'existe pas. Il s'agit probablement d'une confusion avec \"mésentente\" ou \"malentendu\".",
+        "suggestions": [
+          "mésentente"
+        ],
+        "ruleApplied": "5.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Barbarisme évident. Le mot « misantendue » n'existe pas en français. Il faut utiliser « malentendu » ou « mésentente ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.27",
+        "text": "peuvent",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec son sujet. Le sujet est \"Le restant\", nom singulier, même s'il est suivi d'un complément au pluriel.",
+        "suggestions": [
+          "peut"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accord évidente. Le sujet « Le restant » est singulier, donc le verbe doit être « peut ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.28",
+        "text": "transformer",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif en \"-er\" et le participe passé en \"-é\". Après l'auxiliaire \"être\", on emploie le participe passé, qui doit s'accorder avec le sujet \"Le restant\" (masculin singulier).",
+        "suggestions": [
+          "transformé"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accord claire. Après l'auxiliaire « être », il faut le participe passé « transformé », accordé avec le sujet.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.29",
+        "text": "prêt",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'attribut du sujet doit s'accorder en nombre avec le sujet. Le sujet est \"nous\", pluriel.",
+        "suggestions": [
+          "prêts"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accord évidente. Le sujet « nous » est pluriel, donc l'attribut doit être « prêts ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.30",
+        "text": "différents",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif doit s'accorder en genre et en nombre avec le nom qu'il qualifie. Le nom \"manières\" est féminin pluriel.",
+        "suggestions": [
+          "différentes"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accord évidente. « Manières » est féminin, donc l'adjectif doit être « différentes ».",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 13,
+      "note": "E"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 30,
+      "note": "E"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 43,
+      "vraisErreurs": 41,
+      "discutables": 2,
+      "fauxPositifs": 0
+    }
+  },
+  "startTimestamp": "2025-12-12T11:37:03.892Z",
+  "endTimestamp": "2025-12-12T11:38:56.277Z",
+  "durationMs": 112385,
+  "durationFormatted": "01:52:385"
+}

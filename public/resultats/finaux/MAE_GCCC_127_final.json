@@ -1,0 +1,944 @@
+{
+  "processedAt": "2025-12-12T11:46:00.125Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_127.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_127.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "chaîne",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque un mot essentiel, le déterminant « la », devant le nom « chaîne ».",
+        "suggestions": [
+          "la chaîne"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Omission évidente du déterminant dans une phrase où le contexte exige « tout au long de la chaîne ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "dans",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition « dans » est incorrecte après le verbe « transformer ». Il faut utiliser la préposition « en ».",
+        "suggestions": [
+          "en"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le verbe « transformer » se construit obligatoirement avec la préposition « en » (transformer X en Y).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "à",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition « à » est incorrecte après le verbe « transformer ». Il faut utiliser la préposition « en ».",
+        "suggestions": [
+          "en"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le verbe « transformer » se construit obligatoirement avec la préposition « en » (transformer X en Y).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "En conséquent",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression correcte est « Par conséquent ».",
+        "suggestions": [
+          "Par conséquent"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Locution figée dont la forme correcte est « Par conséquent ». La préposition « En » ne convient pas dans cette expression.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "à",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition « à » est incorrecte après le verbe « transformer ». Il faut utiliser la préposition « en ».",
+        "suggestions": [
+          "en"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de la même erreur de construction prépositionnelle avec « transformer ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "et voicipourquoi",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La coordination entre une phrase interrogative (« sommes-nous prêts... ») et une affirmation (« et voici pourquoi ») est incorrecte. Il faut terminer la question avant de commencer la nouvelle phrase.",
+        "suggestions": [
+          "pandémie? Voici pourquoi."
+        ],
+        "ruleApplied": "4.1.2.1.8",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Rupture de construction évidente : une question ne peut être coordonnée avec une affirmation déclarative.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "aliments. » ?",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le point final de la citation doit être supprimé car la phrase principale qui l'englobe est interrogative. Le point d'interrogation se place après le guillemet fermant.",
+        "suggestions": [
+          "aliments » ?"
+        ],
+        "ruleApplied": "4.2.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle de ponctuation claire : quand la phrase englobante est interrogative, le point de la citation est supprimé et le point d'interrogation se place après le guillemet.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "dates conservations",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction est incorrecte. Il faut utiliser un complément du nom introduit par la préposition « de » : « date de conservation ».",
+        "suggestions": [
+          "date de conservation"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction syntaxique obligatoire du complément du nom en français : « date de conservation » et non « date conservation ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "En effet la",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque une virgule après l'organisateur textuel « En effet » en tête de phrase.",
+        "suggestions": [
+          "En effet, la"
+        ],
+        "ruleApplied": "4.2.2.10.1.k",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle de ponctuation systématique : les organisateurs textuels en début de phrase doivent être suivis d'une virgule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.10",
+        "text": "on peut contre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque un verbe essentiel à la phrase, comme « lutter », pour que la construction soit complète.",
+        "suggestions": [
+          "on peut lutter contre"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Omission du verbe à l'infinitif après le semi-auxiliaire « peut ». « Contre » est une préposition et ne peut suivre directement « peut ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.11",
+        "text": "prêts de lutter",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution adjectivale « prêt à » se construit avec la préposition « à » et non « de ».",
+        "suggestions": [
+          "prêts à lutter"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction figée de l'adjectif « prêt » qui exige la préposition « à » devant un infinitif (prêt à faire quelque chose).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.12",
+        "text": "évitable",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Le mot « évitable » n'a pas de sens dans ce contexte. Il s'agit probablement d'une confusion avec un autre mot comme « utiles » ou « valorisables ».",
+        "suggestions": [
+          "utiles"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Impropriété sémantique évidente : « évitable » signifie « que l'on peut éviter », ce qui est incohérent dans le contexte « transformer en produits évitables ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.13",
+        "text": "et les légumes",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Dans une énumération de compléments introduits par « de », la préposition doit être répétée. On doit écrire « des restes de fruits et de légumes ».",
+        "suggestions": [
+          "et de légumes"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "MEDIUM",
+        "confidenceReason": "La répétition de la préposition « de » dans les compléments du nom coordonnés est généralement préférable pour la clarté, bien que son omission ne soit pas toujours considérée comme fautive.",
+        "counterArgument": "Dans certains contextes courants, l'omission de la préposition « de » devant le deuxième complément coordonné est tolérée, surtout quand les deux noms sont étroitement liés conceptuellement (« fruits et légumes » forme une unité sémantique courante)."
+      },
+      {
+        "id": "erreur4.14",
+        "text": "évitable",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Le mot « évitable » n'a pas de sens dans ce contexte. Il s'agit probablement d'une confusion avec un autre mot comme « utiles » ou « valorisables ».",
+        "suggestions": [
+          "utiles"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de la même impropriété sémantique.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.15",
+        "text": "Quelles d'autres",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction est incorrecte. Le déterminant interrogatif « Quelles » ne doit pas être suivi de la préposition « de ». La forme correcte est « Quelles autres ».",
+        "suggestions": [
+          "Quelles autres"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction syntaxique fautive : le déterminant interrogatif « Quelles » ne peut être suivi de « d' » devant « autres ».",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "laconsommation",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Ce mot devrait être écrit en deux parties : « la consommation ».",
+        "suggestions": [
+          "la consommation"
+        ],
+        "ruleApplied": "5.2.6.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Fusion évidente de deux mots distincts (article + nom). Erreur typographique claire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "alimentaire",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « alimentaire » doit s'accorder en genre et en nombre avec le nom « provisions » (féminin pluriel).",
+        "suggestions": [
+          "alimentaires"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente : l'adjectif doit s'accorder avec le nom pluriel « provisions ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "utile",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « utile » doit s'accorder en genre et en nombre avec le nom « résidus » (masculin pluriel).",
+        "suggestions": [
+          "utiles"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente : l'adjectif doit s'accorder avec le nom pluriel « résidus ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "aurait",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe « avoir » doit s'accorder à la troisième personne du pluriel avec son sujet « qui », qui remplace « aliments » (masculin pluriel).",
+        "suggestions": [
+          "auraient"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du verbe : le pronom relatif « qui » reprend « aliments » au pluriel, donc le verbe doit être au pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "consommer",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif « consommer » et le participe passé « consommé ». Après l'auxiliaire « être », il faut utiliser le participe passé, qui doit s'accorder avec le sujet « qui » (aliments).",
+        "suggestions": [
+          "consommés"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion infinitif/participe passé évidente. Après « être », on utilise le participe passé accordé.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "plûtot",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'accent circonflexe est incorrect sur cet adverbe.",
+        "suggestions": [
+          "plutôt"
+        ],
+        "ruleApplied": "5.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accentuation évidente : l'accent circonflexe est sur le « o » et non sur le « u » dans « plutôt ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "négative",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « négative » doit s'accorder en genre avec le nom « effet » (masculin singulier).",
+        "suggestions": [
+          "négatif"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente : l'adjectif doit s'accorder en genre avec le nom masculin « effet ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "voicipourquoi",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Cette locution devrait être écrite en deux parties : « voici pourquoi ».",
+        "suggestions": [
+          "voici pourquoi"
+        ],
+        "ruleApplied": "5.2.6.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Fusion évidente de deux mots distincts. Erreur typographique claire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "consomateurs",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur orthographique dans ce mot. Il faut un double 'm'.",
+        "suggestions": [
+          "consommateurs"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'orthographe d'usage évidente : « consommateurs » s'écrit avec deux « m ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.10",
+        "text": "consomateurs",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "(U)",
+        "description": "Répétition de la même erreur d'usage dans le texte.",
+        "suggestions": [
+          "consommateurs"
+        ],
+        "ruleApplied": "5.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de la même erreur d'orthographe.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.11",
+        "text": "raisonnable",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « raisonnable » doit s'accorder en nombre avec le nom « quantités » (féminin pluriel).",
+        "suggestions": [
+          "raisonnables"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente : l'adjectif doit s'accorder avec le nom pluriel « quantités ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.12",
+        "text": "conservations",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur dans la construction du complément du nom. La forme correcte est « dates de conservation ».",
+        "suggestions": [
+          "de conservation"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le complément du nom « date de conservation » ne prend pas de pluriel à « conservation ». C'est une erreur d'accord et de construction.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.13",
+        "text": "Pour",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "La majuscule n'est pas justifiée au milieu de la phrase, même après une virgule.",
+        "suggestions": [
+          "pour"
+        ],
+        "ruleApplied": "5.3.6.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Majuscule non justifiée après une virgule en milieu de phrase.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.14",
+        "text": "m.",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'abréviation correcte de « Monsieur » est « M. ».",
+        "suggestions": [
+          "M."
+        ],
+        "ruleApplied": "5.2.6.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur typographique claire : l'abréviation de « Monsieur » prend une majuscule : « M. ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.15",
+        "text": "passé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « passé », utilisé comme adjectif, doit s'accorder en genre et en nombre avec le nom qu'il qualifie, « date limite » (féminin singulier).",
+        "suggestions": [
+          "passée"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du participe passé employé comme adjectif : il doit s'accorder avec le nom féminin « date ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.16",
+        "text": "mauvaises",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « mauvaises » doit s'accorder en genre et en nombre avec son antécédent « la plupart », qui renvoie à « produits » (masculin pluriel).",
+        "suggestions": [
+          "mauvais"
+        ],
+        "ruleApplied": "5.3.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente : « la plupart » renvoie à « produits » (masculin pluriel), donc l'attribut doit être au masculin pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.17",
+        "text": "conserver",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif « conserver » et le participe passé « conservé ». Après la construction « peuvent être », il faut utiliser le participe passé, qui doit s'accorder avec le sujet « le riz et les pâtes » (masculin pluriel).",
+        "suggestions": [
+          "conservés"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion infinitif/participe passé évidente. Après « peuvent être », on utilise le participe passé accordé.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.18",
+        "text": "aucun",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant « aucun » doit s'accorder en genre avec le nom « excuse » (féminin).",
+        "suggestions": [
+          "aucune"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du déterminant : « aucun » doit s'accorder en genre avec le nom féminin « excuse ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.19",
+        "text": "cet",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant démonstratif « cet » doit s'accorder en genre avec le nom « pandémie » (féminin).",
+        "suggestions": [
+          "cette"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du déterminant démonstratif : « cet » est masculin, mais « pandémie » est féminin.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.20",
+        "text": "somme",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Barbarisme de conjugaison. La forme correcte du verbe « être » à la première personne du pluriel du présent de l'indicatif est « sommes ».",
+        "suggestions": [
+          "sommes"
+        ],
+        "ruleApplied": "5.3.2.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de conjugaison évidente : « sommes » s'écrit avec deux « m ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.21",
+        "text": "prévu",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « prévu » doit s'accorder en genre et en nombre avec son sujet « qui », qui remplace « aliments » (masculin pluriel).",
+        "suggestions": [
+          "prévus"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du participe passé : « qui » reprend « aliments » au pluriel, donc le participe doit être au pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.22",
+        "text": "gaspiller",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif « gaspiller » et le participe passé « gaspillé ». Après « d'être », il faut utiliser le participe passé, qui doit s'accorder avec le sujet « qui » (aliments).",
+        "suggestions": [
+          "gaspillés"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion infinitif/participe passé évidente. Après « d'être », on utilise le participe passé accordé.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.23",
+        "text": "sanitaire",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « sanitaire » doit s'accorder en nombre avec le nom « raisons » (féminin pluriel).",
+        "suggestions": [
+          "sanitaires"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente : l'adjectif doit s'accorder avec le nom pluriel « raisons ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.24",
+        "text": "évitable",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « évitable » doit s'accorder en nombre avec le nom « produits » (masculin pluriel).",
+        "suggestions": [
+          "évitables"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente, bien que le mot soit impropre dans le contexte (voir erreur4.12).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.25",
+        "text": "pourrais",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe « pouvoir » au conditionnel présent doit s'accorder à la troisième personne du singulier avec son sujet « on ».",
+        "suggestions": [
+          "pourrait"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de conjugaison évidente : « on » exige la troisième personne du singulier.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.26",
+        "text": "médicales",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « médicales » doit s'accorder en genre et en nombre avec le nom « produits » (masculin pluriel).",
+        "suggestions": [
+          "médicaux"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente : l'adjectif doit s'accorder en genre avec le nom masculin « produits ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.27",
+        "text": "Biensûre",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur orthographique. Cette locution s'écrit en deux mots « Bien sûr » et sans accent circonflexe.",
+        "suggestions": [
+          "Bien sûr"
+        ],
+        "ruleApplied": "5.2.6.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'orthographe évidente : « Bien sûr » s'écrit en deux mots et sans « e » final.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.28",
+        "text": "alimentaire",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « alimentaire » doit s'accorder en genre et en nombre avec le nom « résidus » (masculin pluriel).",
+        "suggestions": [
+          "alimentaires"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente : l'adjectif doit s'accorder avec le nom pluriel « résidus ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.29",
+        "text": "provision",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « provision » devrait être au pluriel dans ce contexte, et le déterminant possessif devrait s'accorder en conséquence.",
+        "suggestions": [
+          "nos provisions"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Dans ce contexte collectif (« conserver notre provision »), le singulier pourrait être défendable, mais le pluriel « provisions » est plus idiomatique pour désigner l'ensemble des aliments.",
+        "counterArgument": "En français, « provision » au singulier peut désigner collectivement l'ensemble des provisions. Cependant, dans l'usage courant, on privilégie le pluriel « provisions » pour parler des aliments conservés."
+      },
+      {
+        "id": "erreur5.30",
+        "text": "pourrais",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe « pouvoir » au conditionnel présent doit s'accorder à la troisième personne du singulier avec son sujet « on ».",
+        "suggestions": [
+          "pourrait"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de la même erreur de conjugaison.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.31",
+        "text": "évitable",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « évitable » doit s'accorder en nombre avec le nom « produits » (masculin pluriel).",
+        "suggestions": [
+          "évitables"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de l'erreur d'accord, bien que le mot soit impropre dans le contexte.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.32",
+        "text": "rebut",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « rebut » doit être au pluriel car il est qualifié par l'adjectif « inutile » au pluriel implicite et est suivi d'une énumération.",
+        "suggestions": [
+          "rebuts"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Le contexte suggère le pluriel (« rebuts inutiles comme os et coquilles »), mais « rebut » peut aussi être utilisé comme nom collectif au singulier.",
+        "counterArgument": "Le mot « rebut » peut être employé au singulier avec une valeur collective. Cependant, dans ce contexte avec énumération, le pluriel « rebuts » est plus approprié."
+      },
+      {
+        "id": "erreur5.33",
+        "text": "jeté",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "Le participe passé « jeté » doit s'accorder en genre et en nombre avec le sujet « qui » (mis pour « aliments »). Le donneur est « aliments ».",
+        "suggestions": [
+          "jetés"
+        ],
+        "ruleApplied": "5.4.2.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du participe passé : « qui » reprend « aliments » au pluriel, donc le participe doit être au pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.34",
+        "text": "nourritures",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « nourriture » est généralement employé au singulier dans ce contexte pour désigner le concept général.",
+        "suggestions": [
+          "nourriture"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "ERREUR",
+        "confidence": "MEDIUM",
+        "confidenceReason": "« Nourriture » est généralement un nom non comptable utilisé au singulier, mais « nourritures » existe au pluriel pour désigner différents types de nourritures.",
+        "counterArgument": "Le pluriel « nourritures » existe en français et peut être utilisé pour désigner différentes catégories de nourriture. Cependant, dans ce contexte, le singulier « nourriture » (comme nom collectif) serait plus idiomatique."
+      },
+      {
+        "id": "erreur5.35",
+        "text": "cet",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le déterminant démonstratif « cet » est utilisé devant un nom masculin commençant par une voyelle. Le nom « pandémie » est féminin, il faut donc utiliser « cette ».",
+        "suggestions": [
+          "cette"
+        ],
+        "ruleApplied": "5.2.1.9.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'usage du déterminant démonstratif : « cet » est masculin, mais « pandémie » est féminin.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.36",
+        "text": "nourritures",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « nourriture » est généralement employé au singulier dans ce contexte.",
+        "suggestions": [
+          "de la nourriture"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "ERREUR",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Répétition : le singulier « nourriture » est plus idiomatique comme nom collectif.",
+        "counterArgument": "Le pluriel « nourritures » existe en français. Cependant, dans ce contexte, le singulier serait plus approprié."
+      },
+      {
+        "id": "erreur5.37",
+        "text": "aucun relation",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant « aucun » doit s'accorder en genre avec le nom « relation » (féminin singulier).",
+        "suggestions": [
+          "aucune relation"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du déterminant : « aucun » doit s'accorder en genre avec le nom féminin « relation ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.38",
+        "text": "conserver",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'infinitif en « -er » et le participe passé en « -é ». Après l'auxiliaire « être », on emploie le participe passé.",
+        "suggestions": [
+          "conservés"
+        ],
+        "ruleApplied": "5.3.2.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion infinitif/participe passé. Après « peuvent être », on utilise le participe passé accordé.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.39",
+        "text": "aucun excuse",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant « aucun » doit s'accorder en genre avec le nom « excuse » (féminin singulier).",
+        "suggestions": [
+          "aucune excuse"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de l'erreur d'accord du déterminant avec le nom féminin « excuse ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.40",
+        "text": "le procédure",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « procédure » est féminin. Il faut utiliser le déterminant « la ».",
+        "suggestions": [
+          "la procédure"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de genre du déterminant : « procédure » est un nom féminin.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.41",
+        "text": "En conséquent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "La locution correcte est « Par conséquent ».",
+        "suggestions": [
+          "Par conséquent"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'usage de la locution figée. La forme correcte est « Par conséquent ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.42",
+        "text": "nourritures",
+        "occurenceIndex": 2,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « nourriture » est généralement employé au singulier dans ce contexte.",
+        "suggestions": [
+          "de la nourriture"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "ERREUR",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Répétition : le singulier « nourriture » est plus idiomatique comme nom collectif.",
+        "counterArgument": "Le pluriel « nourritures » existe en français. Cependant, dans ce contexte, le singulier serait plus approprié."
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 15,
+      "note": "E"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 42,
+      "note": "E"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 57,
+      "vraisErreurs": 57,
+      "discutables": 0,
+      "fauxPositifs": 0
+    }
+  },
+  "startTimestamp": "2025-12-12T11:43:43.612Z",
+  "endTimestamp": "2025-12-12T11:46:00.125Z",
+  "durationMs": 136513,
+  "durationFormatted": "02:16:513"
+}

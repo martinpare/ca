@@ -1,0 +1,344 @@
+{
+  "processedAt": "2025-12-10T15:13:07.245Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_144.txt",
+    "originalText": "On dit non au gaspillage alimentaire!\r\n\r\nDe nos jours, les changements climatiques, les voies d'extinctions chez les animaux et la pollution de l'air deviennent de plus en plus nocif pour notre planète. Le gaspillage alimentaire est également un élément important à cette source de problème. Sommes-nous prêts à lutter contre le gaspillage alimentaire? Bien évidemment, mais il faut faire les efforts nécessaires. La réduction du gaspillage, les bonnes habitudes à prendre, et le partage, l'entraide et la bonne volonté des gens sont des facteurs importants.\r\n\r\nPremièrement, la réduction du gaspillage et les bonnes habitudes à prendre sont de toute évidence les moyens de lutter contre le gaspillage alimentaire. La perte de nourriture destinée à la consommation humaine se produit beaucoup de nos jours. Environ 931 millions de tonnes de nourriture ont été gaspillées dans le monde en 2019, démontre une étude de l'Organisation des Nations unies (ONU), selon Sheils, Alexandre (2021) << Les canadiens gaspillent trois millions de tonnes de nourriture chaque année >>, Le Devoir . Ce qui est énorme mais qu'on peut y remédier! Il y a plusieurs choses qu'on peut commencer à introduire dans notre routine. Par exemple, la nourriture que nous cuisinons à la maison. Plusieurs livres de recettes ou sites Web existent tels que Sauve ta bouffe ou Chic frigo sans fric qui vont offrir des recettes et des trucs pour réduire le gaspillage à la maison comme redonner vie à des légumes défraîchis. Selon Florence-Léa Siry, experte en lutte contre le gaspillage alimentaire, 50% du gaspillage alimentaire pourrait être évité à la maison si les consommateurs apprenaient à mieux conserver les aliments. Planifier ses repas, faire des listes d'épicerie ou encore d'acheter en quantité raisonnable peut également s'introduire dans notre routine pour faire attention à notre consommation et à notre planète.\r\n\r\nDeuxièmement, le partage, l'entraide et la bonne volonté des gens ont un impact important. C'est comment les gens vont faire pour aider la population, des organismes ou faire des petits gestes comme les frigos extérieurs communautaires où on peut aller porter de la nourriture pour les plus démunis. Par exemple, à Montréal, le groupe communautaire Partage et Solidarité prépare des paniers alimentaires pour les plus démunis. Ils vont récupérer les produits invendus des épiceries pour faire les paniers. Il y a aussi un autre organisme appelé la Tablée des Chefs, un programme montréalais de récupération de surplus alimentaires dans les restaurants et hôtels, qui vont redistribuer la nourriture aux personnes dans le besoin. C'est un organisme très important qui a récupéré et redistribué plus de 600 000 repas en 2018, selon Hébert, Vanessa (2019) << La fierté de ne pas gaspiller d'aliments >>, Le Devoir. Aussi, plusieurs restaurateurs offrent à leurs clients la possibilité d'apporter leur reste de repas à la maison. C'est un concept appelé << Tout le monde repart avec ses restants >> et qui diminue le gaspillage. C'est une belle ouverture d'esprit qui aide au problème.\r\n\r\nEn conclusion, si tout le monde fait des efforts en planifiant ces repas, en faisant une liste épicerie, acheter en quantités raisonnables, faire cuire les fruits et légumes trop mûrs et congeler les restes, nous pourrons définitivement lutter contre le gaspillage alimentaire. Pensez-vous que les gens sont prêts à faire les efforts nécessaires?",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "à cette source de problème",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition « à » est incorrecte dans ce contexte. On est un élément « de » quelque chose.",
+        "suggestions": [
+          "de cette source de problème"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "id": "erreur4.2",
+        "text": ", et",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "La virgule est généralement considérée comme superflue devant la conjonction « et » dans une énumération simple.",
+        "suggestions": [
+          "et"
+        ],
+        "ruleApplied": "4.2.2.10.2.k"
+      },
+      {
+        "id": "erreur4.3",
+        "text": "<< Les canadiens gaspillent trois millions de tonnes de nourriture chaque année >>",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "« P »",
+        "description": "Les guillemets anglais (« << » et « >> ») doivent être remplacés par des guillemets français (« »).",
+        "suggestions": [
+          "« Les Canadiens gaspillent trois millions de tonnes de nourriture chaque année »"
+        ],
+        "ruleApplied": "4.2.2.5.1"
+      },
+      {
+        "id": "erreur4.4",
+        "text": "mais qu'on peut y remédier!",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La conjonction de subordination « que » est superflue et crée une rupture syntaxique. Une simple coordination avec « mais » est requise.",
+        "suggestions": [
+          "mais on peut y remédier!"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "id": "erreur4.5",
+        "text": "Par exemple, la nourriture que nous cuisinons à la maison.",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Cette phrase est une subordonnée sans phrase principale (matrice). Il s'agit d'une phrase non finie.",
+        "suggestions": [
+          "Par exemple, nous pouvons réutiliser la nourriture que nous cuisinons à la maison."
+        ],
+        "ruleApplied": "4.1.2.1.4"
+      },
+      {
+        "id": "erreur4.6",
+        "text": "qui vont offrir",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe devrait être au présent de l'indicatif pour être en harmonie avec le verbe « existent » de la phrase principale.",
+        "suggestions": [
+          "qui offrent"
+        ],
+        "ruleApplied": "4.1.2.2.4"
+      },
+      {
+        "id": "erreur4.7",
+        "text": "<< La fierté de ne pas gaspiller d'aliments >>",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "« P »",
+        "description": "Les guillemets anglais (« << » et « >> ») doivent être remplacés par des guillemets français (« »).",
+        "suggestions": [
+          "« La fierté de ne pas gaspiller d'aliments »"
+        ],
+        "ruleApplied": "4.2.2.5.1"
+      },
+      {
+        "id": "erreur4.8",
+        "text": "<< Tout le monde repart avec ses restants >>",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "« P »",
+        "description": "Les guillemets anglais (« << » et « >> ») doivent être remplacés par des guillemets français (« »).",
+        "suggestions": [
+          "« Tout le monde repart avec ses restants »"
+        ],
+        "ruleApplied": "4.2.2.5.1"
+      },
+      {
+        "id": "erreur4.9",
+        "text": "et qui diminue le gaspillage",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La coordination est boiteuse. On ne peut coordonner un groupe nominal (« un concept appelé... ») et une proposition relative (« qui diminue... »). Il faut reformuler, par exemple : « C'est un concept [...] qui diminue... ».",
+        "suggestions": [
+          "qui diminue le gaspillage"
+        ],
+        "ruleApplied": "4.1.2.1.8"
+      },
+      {
+        "id": "erreur4.10",
+        "text": "aide au problème",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression « aider au problème » est sémantiquement incorrecte. On aide à résoudre un problème. Il faut reformuler.",
+        "suggestions": [
+          "aide à résoudre le problème"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "id": "erreur4.11",
+        "text": "liste épicerie",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque la préposition « d' » pour introduire le complément du nom « liste ».",
+        "suggestions": [
+          "liste d'épicerie"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "id": "erreur4.12",
+        "text": "acheter",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "La structure de l'énumération est rompue. Après les gérondifs « en planifiant » et « en faisant », il faudrait continuer avec des gérondifs (« en achetant », etc.). Une erreur de syntaxe (S) a déjà été comptée dans cette phrase.",
+        "suggestions": [
+          "en achetant"
+        ],
+        "ruleApplied": "4.1.2.1.8"
+      },
+      {
+        "id": "erreur4.13",
+        "text": "Le Devoir .",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une espace superflue se trouve avant le point final. La ponctuation finale doit être collée au mot qui la précède.",
+        "suggestions": [
+          "Le Devoir."
+        ],
+        "ruleApplied": "4.2.1.5"
+      },
+      {
+        "id": "erreur4.14",
+        "text": "C'est comment les gens vont faire",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La tournure 'C'est comment...' est un calque de l'oral qui constitue une construction de phrase boiteuse. Il faut reformuler la phrase, par exemple en utilisant 'Voici comment...' ou 'Cela illustre la manière dont...'.",
+        "suggestions": [
+          "Voici comment les gens peuvent agir",
+          "Cela illustre la manière dont les gens agissent"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "id": "erreur4.15",
+        "text": "<<",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "« P »",
+        "description": "Les guillemets français typographiques (« ») doivent être utilisés pour encadrer une citation, et non les chevrons doubles (<< >>).",
+        "suggestions": [
+          "«"
+        ],
+        "ruleApplied": "4.2.2.5.1"
+      },
+      {
+        "id": "erreur4.16",
+        "text": ">>",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "(« P »)",
+        "description": "Les guillemets français typographiques (« ») doivent être utilisés. Ceci est le guillemet fermant correspondant au guillemet ouvrant fautif. L'erreur est comptée une seule fois pour la paire.",
+        "suggestions": [
+          "»"
+        ],
+        "ruleApplied": "4.2.1.2"
+      },
+      {
+        "id": "erreur4.17",
+        "text": "faire cuire",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Erreur de parallélisme dans une énumération. La phrase contient déjà une erreur de syntaxe (S). Les actions sont introduites par le gérondif ('en planifiant', 'en faisant'). Pour maintenir la structure parallèle, il faut utiliser 'en faisant cuire'.",
+        "suggestions": [
+          "en faisant cuire"
+        ],
+        "ruleApplied": "4.1.2.1.8"
+      },
+      {
+        "id": "erreur4.18",
+        "text": "congeler",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Erreur de parallélisme dans une énumération. La phrase contient déjà une erreur de syntaxe (S). Les actions sont introduites par le gérondif ('en planifiant', 'en faisant'). Pour maintenir la structure parallèle, il faut utiliser 'en congelant'.",
+        "suggestions": [
+          "en congelant"
+        ],
+        "ruleApplied": "4.1.2.1.8"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 11,
+      "note": "C"
+    },
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "d'extinctions",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le complément du nom « voies » devrait être au singulier, car il s'agit du concept général de l'extinction.",
+        "suggestions": [
+          "d'extinction"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "id": "erreur5.2",
+        "text": "nocif",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « nocif » doit s'accorder en genre et en nombre avec le sujet pluriel (« les changements climatiques, les voies d'extinctions chez les animaux et la pollution de l'air »); le masculin pluriel l'emporte.",
+        "suggestions": [
+          "nocifs"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.3",
+        "text": "unies",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Dans la dénomination « Organisation des Nations Unies », l'adjectif « Unies » prend une majuscule.",
+        "suggestions": [
+          "Unies"
+        ],
+        "ruleApplied": "5.2.4.1.2"
+      },
+      {
+        "id": "erreur5.4",
+        "text": "canadiens",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Les noms de peuples et d'habitants, utilisés comme noms, prennent une majuscule.",
+        "suggestions": [
+          "Canadiens"
+        ],
+        "ruleApplied": "5.2.4.1"
+      },
+      {
+        "id": "erreur5.5",
+        "text": "peut",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe « peut » doit s'accorder avec le sujet pluriel, qui est une énumération d'infinitifs (« Planifier », « faire », « acheter »).",
+        "suggestions": [
+          "peuvent"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.6",
+        "text": "qui vont redistribuer",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec son sujet « qui », mis pour « un autre organisme appelé la Tablée des Chefs » (singulier). L'incohérence avec l'accord au singulier dans la phrase suivante (« C'est un organisme... qui a récupéré ») rend la syllepse fautive.",
+        "suggestions": [
+          "qui va redistribuer"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.7",
+        "text": "ces",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre l'homophone « ces » (déterminant démonstratif) et « ses » (déterminant possessif). Le contexte requiert le possessif qui renvoie à « tout le monde ».",
+        "suggestions": [
+          "ses"
+        ],
+        "ruleApplied": "5.3.3.1"
+      },
+      {
+        "id": "erreur5.8",
+        "text": "leur reste",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'restes' (au sens de 'nourriture restante') est pluriel. Le déterminant possessif 'leur' doit donc s'accorder au pluriel : 'leurs'.",
+        "suggestions": [
+          "leurs restes"
+        ],
+        "ruleApplied": "5.3.1.1"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 8,
+      "note": "B"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T15:08:11.172Z",
+    "endTimestamp": "2025-12-10T15:13:07.245Z",
+    "durationMs": 296073,
+    "durationFormatted": "04:56:073"
+  }
+}

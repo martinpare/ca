@@ -1,0 +1,428 @@
+{
+  "processedAt": "2025-12-10T14:21:51.708Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_035.txt",
+    "originalText": "Le gaspillage alimentaire? Quel gâchis !\r\n\r\nManger est l'une des actions fondamentaux pour survivre dans notre société contemporaine. C'est quelque chose qui est omniprésent dans la vie quotidienne d'un citoyen qui vit sur cette planète bleu et vert. Mais savez-vous, chers lecteurs, que le faitde manger est aussi complémentaire avec le gaspillage alimentaire ? Regardez dans vos sacs à poubelle et comptez le nombre d'aliments jetés. Cet phénomène mondiale est tellement problématique qu'on peut se demander si nous sommes prêts à lutter contre le gaspillage alimentaire. Selon mon avis de futur citoyen du Québec, nous sommes prêts à envisager un enjeu global comme celui-là, car nous avons les moyens pour réutiliser notre gaspillage pour le rendre utile et elle présente plusieurs conséquences néfastes sur notre environnement qui se dégrade.\r\n\r\nDans un premier temps, nous sommes capables de combattre cette horrible enjeu parce qu'on a la capacité de transformer nos déchets alimentaires et les réutiliser. En effet, on peut comparer cette situation désagréable au recyclage. Nos avancées scientifiques actuels nous donnent le pouvoir de transformer notre gaspillage pour le rendre utile dans certaines domaines. Prenons le cas du compostage, où on utilise les restants de certains aliments et certains produits pour qu'ils jouent le rôle de fertilisant pour nos terres. Un autre exemple servant à appuyer mon point, nous avons une entreprise québécoise qui se nomme «Loop Mission» et elle transforme certains matériaux commes des restes de fruits et de légumes (provenant des surplus de récoltes, de rétailles d'usines, etc.) en jus, en savon et en alcool. (Martinez, 2021) Selon cette même source, les ventes ont grimpé de 116%. Ainsi, on peut voir que le gaspillage alimentairen'est pas un problème insurmontable, mais qu'il suffit de réflechir et trouver une façon d'exploiter nos problèmes pour les métamorphoser en solutions adéquates. Selon un article publié par lapress.ca, intitulé «Sauvetage alimentaire» par Valérie Simard en 2020, il existe plusieurs sites Web qui vont se spécialiser à offrir des recettes et des trucs dans le but de réduire le gaspillage à la maison comme «Sauve ta bouffe», «Chic frigo sans fric» et «J'aime manger pas gaspiller». Bref, les moyens sont diverses pour réduire et même transformer notre gaspillage alimentaire en ressource.\r\n\r\nDans un deuxième temps, nous devons inciter les gens à être prêt pour lutter contre le gaspillage alimentaire, car c'est notre environnement qui en souffre des conséquences néfastes. Effectivement, la planète Terre est victime de nos actes criminels envers elle. Puisque l'amas de nourritures gaspillés ne fait rien qu'endommager la qualité de l'environnement avec ses résidus toxiques. En 2021, RECYC-QUÉBEC affirme que le gaspillage alimentaire apporte plusieurs impactes majeures sur l'environnement : l'enfouissement et l'incinération des aliments non consommés attribue une contribution aux changements climatiques en raison des gaz à effet de serre (GES) qu'ils produisent. Il est également mentionné qu'une tonne de nourriture gaspillée équivaut à une voiture de plus sur la route chaque année. En tant que société, nous avons du pain sur le plancher, car si les humains ne donnent pas d'importance à la nature, peut-être que la nature n'aurait plus de place pour nous. Pour résumer, on doit résoudre cette situation pour prévenir des problèmes environnementaux.\r\n\r\nEn conclusion, nous sommes prêts à se battre contre le gaspillage alimentaire, car nous avons les moyens pour l'exploiter et c'est un enjeux problématique pour l'environnement. Ceci dit, nous devons arrêter de gaspiller notre temps et commencer un plan d'action immédiatement. Ce sera un problème de moins pour la population globale et la planète Terre qui commence à se dégrader.",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "alcool. (Martinez, 2021)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Dans une référence entre parenthèses en fin de phrase, le point final de la phrase doit être placé après la parenthèse fermante, et non avant.",
+        "suggestions": [
+          "alcool (Martinez, 2021)."
+        ],
+        "ruleApplied": "4.2.2.1.2"
+      },
+      {
+        "id": "erreur4.2",
+        "text": "Selon un article publié par lapress.ca, intitulé «Sauvetage alimentaire» par Valérie Simard en 2020, il existe",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est redondante. Après avoir introduit la source (« Selon un article... »), l'utilisation du pronom impersonnel « il » crée une rupture. Il faudrait reformuler, par exemple : « Un article [...] mentionne qu'il existe... ».",
+        "suggestions": [
+          "Dans un article publié par LaPresse.ca, intitulé «Sauvetage alimentaire», Valérie Simard mentionne en 2020 qu'il existe"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "id": "erreur4.3",
+        "text": "spécialiser à",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe pronominal « se spécialiser » se construit avec la préposition « dans » et non « à ». De plus, le pronom réfléchi « se » est manquant.",
+        "suggestions": [
+          "se spécialiser dans l'offre de"
+        ],
+        "ruleApplied": "4.1.2.2.2"
+      },
+      {
+        "id": "erreur4.4",
+        "text": "en souffre des conséquences néfastes",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom « en » remplace déjà le complément « des conséquences néfastes ». Il y a une redondance. Il faut choisir l'une des deux constructions : « qui en souffre » ou « qui souffre des conséquences néfastes ».",
+        "suggestions": [
+          "en souffre",
+          "souffre des conséquences néfastes"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "id": "erreur4.5",
+        "text": "ne fait rien qu'endommager",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression de la restriction est incorrecte. Il faut utiliser « ne fait que » et non « ne fait rien que ».",
+        "suggestions": [
+          "ne fait qu'endommager"
+        ],
+        "ruleApplied": "4.1.2.1.3"
+      },
+      {
+        "id": "erreur4.6",
+        "text": "complémentaire avec",
+        "occurenceIndex": 273,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'adjectif « complémentaire » s'emploie avec la préposition « de » et non « avec ».",
+        "suggestions": [
+          "complémentaire du"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "id": "erreur4.7",
+        "text": "Selon mon avis",
+        "occurenceIndex": 503,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il s'agit d'un pléonasme (mot superflu). L'expression « selon moi » ou « à mon avis » est suffisante.",
+        "suggestions": [
+          "À mon avis"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "id": "erreur4.8",
+        "text": "Un autre exemple servant à appuyer mon point,",
+        "occurenceIndex": 440,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est boiteuse. Le groupe participial « Un autre exemple servant à appuyer mon point » est mal rattaché au reste de la phrase.",
+        "suggestions": [
+          "Autre exemple :"
+        ],
+        "ruleApplied": "4.1.2.1.7"
+      },
+      {
+        "id": "erreur4.9",
+        "text": "n'aurait",
+        "occurenceIndex": 871,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le temps du verbe est erroné. Dans un système hypothétique avec « si » + présent, la proposition principale doit être au futur simple, et non au conditionnel présent.",
+        "suggestions": [
+          "n'aura"
+        ],
+        "ruleApplied": "4.1.2.2.3"
+      },
+      {
+        "id": "erreur4.10",
+        "text": "se battre",
+        "occurenceIndex": 36,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom réfléchi est erroné. Il doit correspondre à la personne du sujet. Le sujet étant « nous », le pronom doit être « nous ».",
+        "suggestions": [
+          "nous battre"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 9.5,
+      "note": "C"
+    },
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "fondamentaux",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « fondamentaux » doit s'accorder en genre (féminin) et en nombre (pluriel) avec le nom « actions » qu'il qualifie.",
+        "suggestions": [
+          "fondamentales"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.2",
+        "text": "bleu",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « bleu » doit s'accorder en genre (féminin) avec le nom « planète » qu'il qualifie.",
+        "suggestions": [
+          "bleue"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.3",
+        "text": "vert",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "_",
+        "description": "L'adjectif « vert » doit s'accorder en genre (féminin) avec le nom « planète » qu'il qualifie. Le donneur d'accord est le même que pour l'erreur précédente.",
+        "suggestions": [
+          "verte"
+        ],
+        "ruleApplied": "5.4.2.1"
+      },
+      {
+        "id": "erreur5.4",
+        "text": "faitde",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot « fait » et la préposition « de » doivent être séparés par une espace.",
+        "suggestions": [
+          "fait de"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "id": "erreur5.5",
+        "text": "Cet",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le déterminant démonstratif « ce » est utilisé devant un nom masculin commençant par une consonne. « Cet » est utilisé devant un nom masculin commençant par une voyelle ou un « h » muet.",
+        "suggestions": [
+          "Ce"
+        ],
+        "ruleApplied": "5.2.1.9.1"
+      },
+      {
+        "id": "erreur5.6",
+        "text": "mondiale",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « mondiale » doit s'accorder en genre (masculin) avec le nom « phénomène » qu'il qualifie.",
+        "suggestions": [
+          "mondial"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.7",
+        "text": "elle",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom personnel « elle » doit s'accorder en genre (masculin) avec son antécédent, qui est « notre gaspillage ».",
+        "suggestions": [
+          "il"
+        ],
+        "ruleApplied": "5.3.1.4"
+      },
+      {
+        "id": "erreur5.8",
+        "text": "cette",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant démonstratif « cette » (féminin) doit être remplacé par « cet » (masculin) car il précède le nom masculin « enjeu » qui commence par une voyelle.",
+        "suggestions": [
+          "cet"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.9",
+        "text": "actuels",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « actuels » doit s'accorder en genre (féminin) et en nombre (pluriel) avec le nom « avancées » qu'il qualifie.",
+        "suggestions": [
+          "actuelles"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.10",
+        "text": "certaines",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant indéfini « certaines » doit s'accorder en genre (masculin) avec le nom « domaines » qu'il qualifie.",
+        "suggestions": [
+          "certains"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.11",
+        "text": "commes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot « comme » est invariable et ne prend jamais de « s » final.",
+        "suggestions": [
+          "comme"
+        ],
+        "ruleApplied": "5.2.1.5"
+      },
+      {
+        "id": "erreur5.12",
+        "text": "rétailles",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot « retailles » ne prend pas d'accent aigu sur le « e ».",
+        "suggestions": [
+          "retailles"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.13",
+        "text": "alimentairen'est",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot « alimentaire » et la négation « n'est » doivent être séparés par une espace.",
+        "suggestions": [
+          "alimentaire n'est"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "id": "erreur5.14",
+        "text": "but",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le mot « but » (objectif) est utilisé à la place de la conjonction de coordination « mais ».",
+        "suggestions": [
+          "mais"
+        ],
+        "ruleApplied": "5.2.2"
+      },
+      {
+        "id": "erreur5.15",
+        "text": "réflechir",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le verbe « réfléchir » prend un accent aigu sur le premier « e ».",
+        "suggestions": [
+          "réfléchir"
+        ],
+        "ruleApplied": "5.2.1.1"
+      },
+      {
+        "id": "erreur5.16",
+        "text": "lapress.ca",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Les noms de publications comme « La Presse » commencent par une majuscule.",
+        "suggestions": [
+          "LaPresse.ca"
+        ],
+        "ruleApplied": "5.2.4.1.2"
+      },
+      {
+        "id": "erreur5.17",
+        "text": "diverses",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « diverses » doit s'accorder en genre (masculin) et en nombre (pluriel) avec le nom « moyens » qu'il qualifie.",
+        "suggestions": [
+          "divers"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.18",
+        "text": "prêt",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « prêt » doit s'accorder en nombre (pluriel) avec le nom « gens » auquel il se rapporte.",
+        "suggestions": [
+          "prêts"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "id": "erreur5.19",
+        "text": "gaspillés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « gaspillés », employé comme adjectif, doit s'accorder en genre (féminin) et en nombre (pluriel) avec le nom « nourritures » qu'il qualifie.",
+        "suggestions": [
+          "gaspillées"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "id": "erreur5.20",
+        "text": "impactes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le nom masculin « impact » prend un « s » au pluriel, mais pas de « e ».",
+        "suggestions": [
+          "impacts"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "id": "erreur5.21",
+        "text": "attribue",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe « attribue » doit s'accorder au pluriel avec son sujet composé « l'enfouissement et l'incinération ».",
+        "suggestions": [
+          "attribuent"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "id": "erreur5.22",
+        "text": "plancher",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'expression idiomatique correcte est « avoir du pain sur la planche », signifiant avoir beaucoup de travail à faire.",
+        "suggestions": [
+          "planche"
+        ],
+        "ruleApplied": "5.2.2"
+      },
+      {
+        "id": "erreur5.23",
+        "text": "enjeux",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « enjeu » doit être au singulier car il est précédé du déterminant singulier « un ».",
+        "suggestions": [
+          "enjeu"
+        ],
+        "ruleApplied": "5.3.1.1"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 22,
+      "note": "E"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:16:01.375Z",
+    "endTimestamp": "2025-12-10T14:21:51.708Z",
+    "durationMs": 350333,
+    "durationFormatted": "05:50:333"
+  }
+}

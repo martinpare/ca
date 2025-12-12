@@ -1,0 +1,241 @@
+{
+  "processedAt": "2025-12-10T15:05:28.165Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_130.txt",
+    "originalText": "Chers lecteurs,\r\n\r\nNous savons tous que la nourriture est essentielle à la survie d’un être humain. Depuis toujours, nous faisons le commerce des produits alimentaires pour que nous soyons en santé. Pourtant, le gaspillage de ces aliments ne cesse pas d’augmenter de jour à jour. Sommes-nous prêts à lutter contre cela ? J’ai comme opinion qu’avec l’état de consommation et de la vente détail, nous ne le sommes malheureusement pas.\r\n\r\nTout d’abord, prenons un d’oeuil vers notre façon de consommer quotidiennement. Le gaspillage alimentaire se répartit dans les 5 étapes de la chaîne d’approvisionnement alimentaire, mais la consommation demeure près de la moitié de cela. Chaque année, les familles au Canada gaspillent 2.2 millions de tonnes d’aliments, ce qui a comme conséquence une perte de plus de 17 milliards de dollars. Non seulement est-ce que nous perdons de l’argent, mais chaque tonne de nourriture jetée a l’équivalence d’une voiture mise en route chaque 12 mois. En outre, la date limite de conservation est une des informations les moins bien comprises par ceux qui consomment. Selon Mike von Massow, coauteur d’une étude sur le gaspillage alimentaire dans les maisons, cette information « n’a rien à voir avec la sécurité alimentaire ». Le nombre de produits qui sont dangereux à consommer après la date limite de conservation est bas. Certains aliments peuvent être consommés jusqu’à un an après la date « meilleur avant » si nous ne les altérons pas. Par contre, nous avons l’impression qu’après la date inscrite sur un produit, sa consommation aurait des effets négatifs sur notre corps et ce qui résulte de ce dernier, comme vous le constatez, cher lectorat, est le gaspillage. Bref, nous avons des connaissances importantes à apprendre avant que nous soyons prêts pour la lutte contre le gaspillage alimentaire.\r\n\r\n(RECYC-QUÉBEC, 2021)\r\n\r\nEnsuite, cher public, regardons la vente au détail. La manière dont nous voyons nos fruits et légumes a massivement impacté la vente de ces aliments. Leur apparence est souvent associée, par les consommateurs, à leur fraîcheur et à leur qualité. Selon Pascal Thériault, économiste agricole, le client cherche un produit parfait quand il se trouve à l’épicerie, mais il accepte que la nature soit imparfaite lors d’un achat directement du producteur. Quelle est la logique dans cette décision ? De plus, la gestion des stocks dans les marchés et dans les épiceries, n’est pas assez compétente pour moins gaspiller. Une grande partie des aliments vendus uniquement en format familial se retrouvent souvent au compost. Nous pourrions facilement éviter ce problème et limiter les produits achetés et non-consommés. En somme, les problèmes en vente de détail contribuent grandement au gaspillage des aliments (Cameron, 2020)",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "de jour à jour",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Calque de l'anglais. L'expression idiomatique correcte en français est « de jour en jour ».",
+        "suggestions": [
+          "de jour en jour"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "id": "erreur4.2",
+        "text": "J’ai comme opinion que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Calque de l'anglais (« to have as an opinion »). On privilégiera des formulations comme « Je suis d'avis que », « Mon opinion est que » ou « À mon avis, ».",
+        "suggestions": [
+          "Je suis d'avis que",
+          "Mon opinion est que",
+          "À mon avis,"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "id": "erreur4.3",
+        "text": "vente détail",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Absence de la préposition « au » dans la locution figée « vente au détail ». Une seule erreur de syntaxe est comptée dans cette phrase.",
+        "suggestions": [
+          "vente au détail"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "id": "erreur4.4",
+        "text": "vers",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de préposition. On jette un coup d'œil « à » ou « sur » quelque chose, et non « vers ».",
+        "suggestions": [
+          "à",
+          "sur"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "id": "erreur4.5",
+        "text": "Non seulement est-ce que nous perdons",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction de phrase lourde et boiteuse. La construction avec inversion du sujet (« Non seulement perdons-nous... ») ou sans la locution « est-ce que » (« Non seulement nous perdons... ») est préférable.",
+        "suggestions": [
+          "Non seulement perdons-nous",
+          "Non seulement nous perdons"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "id": "erreur4.6",
+        "text": "a l’équivalence d’",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Calque de l'anglais. On utilise le verbe « équivaloir » : « équivaut à ».",
+        "suggestions": [
+          "équivaut à"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "id": "erreur4.7",
+        "text": "chaque 12 mois",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "L'adjectif « chaque » s'emploie avec un nom au singulier. Pour indiquer la périodicité avec un pluriel, on utilise « tous les ». Une seule erreur de syntaxe est comptée dans cette phrase.",
+        "suggestions": [
+          "tous les 12 mois"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "id": "erreur4.8",
+        "text": "ce qui résulte de ce dernier",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Construction de phrase boiteuse et ambiguë. Le pronom « en » serait plus approprié et allègerait la phrase : « ce qui en résulte ».",
+        "suggestions": [
+          "ce qui en résulte"
+        ],
+        "ruleApplied": "4.1.2.1.5"
+      },
+      {
+        "id": "erreur4.9",
+        "text": "connaissances importantes à apprendre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Pléonasme. On « acquiert » des connaissances, on ne les « apprend » pas.",
+        "suggestions": [
+          "connaissances importantes à acquérir"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "id": "erreur4.10",
+        "text": ",",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Virgule erronée entre le groupe sujet (« la gestion des stocks dans les marchés et dans les épiceries ») et le verbe (« est »).",
+        "suggestions": [
+          ""
+        ],
+        "ruleApplied": "4.2.2.10.2.a"
+      },
+      {
+        "id": "erreur4.11",
+        "text": "compétente",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Problème de sens (impropriété). Une gestion n'est pas « compétente », mais plutôt « efficace », « rigoureuse » ou « optimale ».",
+        "suggestions": [
+          "efficace",
+          "optimale",
+          "rigoureuse"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "id": "erreur4.12",
+        "text": "du",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition correcte pour indiquer la provenance d'un achat auprès d'une personne ou d'une entité est « auprès de ».",
+        "suggestions": [
+          "auprès du"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "id": "erreur4.13",
+        "text": "aliments (Cameron, 2020)",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Il manque un point pour marquer la fin de la phrase avant la référence entre parenthèses.",
+        "suggestions": [
+          "aliments. (Cameron, 2020)"
+        ],
+        "ruleApplied": "4.2.2.1.1"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 10,
+      "note": "C"
+    },
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "un d’oeuil",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Barbarisme orthographique. L'expression correcte est « un coup d'œil ».",
+        "suggestions": [
+          "un coup d'œil"
+        ],
+        "ruleApplied": "5.2.6.4"
+      },
+      {
+        "id": "erreur5.2",
+        "text": "soyions",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Barbarisme de conjugaison. La forme correcte du subjonctif présent du verbe « être » à la première personne du pluriel est « soyons ».",
+        "suggestions": [
+          "soyons"
+        ],
+        "ruleApplied": "5.3.2.1"
+      },
+      {
+        "id": "erreur5.3",
+        "text": "5",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Les nombres inférieurs à dix doivent généralement être écrits en toutes lettres.",
+        "suggestions": [
+          "cinq"
+        ],
+        "ruleApplied": "5.2.6.3"
+      },
+      {
+        "id": "erreur5.4",
+        "text": "retrouvent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec le sujet « Une grande partie », qui est un singulier collectif. Le verbe doit donc être au singulier.",
+        "suggestions": [
+          "retrouve"
+        ],
+        "ruleApplied": "5.3.2.2"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 4,
+      "note": "A"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T15:01:47.232Z",
+    "endTimestamp": "2025-12-10T15:05:28.165Z",
+    "durationMs": 220933,
+    "durationFormatted": "03:40:933"
+  }
+}

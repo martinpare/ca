@@ -1,0 +1,496 @@
+{
+  "processedAt": "2025-12-12T11:43:52.745Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_114.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_114.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "mondial !",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Un titre ne se termine généralement pas par un point d'exclamation, sauf s'il s'agit d'une véritable exclamation, ce qui n'est pas le cas ici. Il s'agit d'une affirmation.",
+        "suggestions": [
+          "mondial"
+        ],
+        "ruleApplied": "4.2.2.3.2",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Le point d'exclamation peut être un choix rhétorique dans un titre accrocheur visant à interpeller le lecteur sur l'ampleur mondiale du problème.",
+        "counterArgument": "Dans un texte argumentatif visant à sensibiliser, l'emploi d'un point d'exclamation dans le titre peut être un procédé rhétorique acceptable pour dramatiser l'enjeu et capter l'attention du lecteur. Cette ponctuation expressive est cohérente avec le ton persuasif du texte."
+      },
+      {
+        "id": "erreur4.2",
+        "text": "la façon que",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de syntaxe dans l'emploi du pronom relatif. Après 'la façon', on doit utiliser 'dont' ou 'avec laquelle'.",
+        "suggestions": [
+          "la façon dont"
+        ],
+        "ruleApplied": "4.1.2.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute de syntaxe avérée. La construction 'la façon que' est un calque incorrect. La norme exige 'la façon dont'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "tous aliments",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de syntaxe par absence d'un mot essentiel. Le déterminant 'les' est manquant après 'tous'.",
+        "suggestions": [
+          "tous les aliments"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur grammaticale évidente. 'Tous' doit être suivi d'un déterminant avant le nom.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "juste à cause qu'ils",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "Erreur de syntaxe (calque de l'oral). La locution 'juste à cause que' est incorrecte. Il faut utiliser 'uniquement parce qu'ils' ou 'simplement parce qu'ils'. Une erreur de syntaxe a déjà été comptée dans cette phrase.",
+        "suggestions": [
+          "uniquement parce qu'ils"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Calque de l'oral non standard. La construction correcte exige 'parce que' ou 'du fait que'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "ce contribut",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de syntaxe. Le pronom démonstratif 'ce' ne peut être le sujet du verbe 'contribuer'. Il faut utiliser le pronom 'ce qui'. De plus, le verbe doit être conjugué correctement.",
+        "suggestions": [
+          "ce qui contribue"
+        ],
+        "ruleApplied": "4.1.2.1.9",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de syntaxe évidente. 'Ce' seul ne peut être sujet d'un verbe. Il faut 'ce qui' ou 'cela'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "alimentaire » Emmanuel",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de virgule pour isoler l'apposition (le nom de l'auteur) qui suit le titre de l'infographie.",
+        "suggestions": [
+          "alimentaire », Emmanuel"
+        ],
+        "ruleApplied": "4.2.2.10.1i",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle de ponctuation claire : l'apposition du nom de l'auteur après un titre cité doit être isolée par une virgule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "Dû aux",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de syntaxe. La locution 'Dû à' ne peut pas être employée en tête de phrase pour marquer la cause. Il faut utiliser 'En raison de' ou 'À cause de'.",
+        "suggestions": [
+          "En raison des"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur syntaxique reconnue. 'Dû à' en début de phrase est un calque de l'anglais. La construction correcte est 'En raison de' ou 'À cause de'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "il y aussi",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de syntaxe par absence d'un mot essentiel. Le verbe est 'avoir', il manque donc le 'a' dans l'expression 'il y a'.",
+        "suggestions": [
+          "il y a aussi"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Omission évidente d'un élément essentiel de la locution verbale 'il y a'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "Selon Vanessa Hébert, en 2019, elle dit",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de syntaxe par redondance. La reprise du sujet par le pronom 'elle' est superflue après 'Selon Vanessa Hébert'.",
+        "suggestions": [
+          "Selon Vanessa Hébert, en 2019,"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Redondance syntaxique claire. Le sujet est déjà exprimé dans 'Selon Vanessa Hébert', la reprise par 'elle' est fautive.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.10",
+        "text": "surconsommation",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Erreur de syntaxe liée au sens. Le texte traite du 'gaspillage' et non de la 'surconsommation'. L'emploi de ce terme est incohérent avec le reste de l'argumentation.",
+        "suggestions": [
+          "gaspillage"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Incohérence terminologique évidente. Le texte porte entièrement sur le gaspillage alimentaire, pas sur la surconsommation.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "myth",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage. Le mot 'mythe' s'écrit avec un 'e' final en français.",
+        "suggestions": [
+          "mythe"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe d'usage évidente. Le mot 'mythe' s'écrit toujours avec un 'e' final en français.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "prit",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé du verbe 'prendre' est 'pris', et non 'prit'. 'Prit' est la forme du passé simple à la troisième personne du singulier.",
+        "suggestions": [
+          "pris"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion évidente entre participe passé et passé simple. Le contexte exige le participe passé 'pris'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "prêt",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'prêt' doit s'accorder en nombre avec le pronom 'nous', qui est pluriel. Le donneur d'accord est 'nous'.",
+        "suggestions": [
+          "prêts"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'accord évidente. L'adjectif attribut doit s'accorder avec le sujet 'nous' (pluriel).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "basé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'basé', employé comme adjectif, doit s'accorder en genre et en nombre avec le nom qu'il qualifie, 'la vente' (féminin singulier). Le donneur d'accord est 'la vente'.",
+        "suggestions": [
+          "basée"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord claire. L'attribut du sujet 'la vente' doit s'accorder au féminin singulier.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "sobnollement",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage. Ce mot n'existe pas. Le contexte suggère l'adverbe 'seulement'.",
+        "suggestions": [
+          "seulement"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Mot inexistant en français. Il s'agit manifestement d'une graphie erronée de 'seulement'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "vendu",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'vendu' doit s'accorder en nombre avec son sujet 'tous aliments' (masculin pluriel), qui est sous-entendu comme sujet de 'être vendu'. Le donneur d'accord est 'aliments'.",
+        "suggestions": [
+          "vendus"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du participe passé avec l'auxiliaire être. Le sujet 'aliments' est pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "dû",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'attribut 'dû' doit s'accorder en genre avec le sujet 'une cause' (féminin singulier). Le donneur d'accord est 'une cause'.",
+        "suggestions": [
+          "due"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord de l'attribut avec le sujet féminin 'une cause'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "ses",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion d'homophones grammaticaux. 'Ses' est un déterminant possessif, alors que le contexte requiert le déterminant démonstratif 'ces'.",
+        "suggestions": [
+          "Ces"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion évidente d'homophones. Le contexte exige le démonstratif 'ces', pas le possessif 'ses'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "aimerait",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec son sujet 'qui', dont l'antécédent est 'ses producteurs agricoles' (pluriel). Le donneur d'accord est 'producteurs agricoles'.",
+        "suggestions": [
+          "aimeraient"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du verbe avec le pronom relatif dont l'antécédent est pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.10",
+        "text": "ses",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion d'homophones grammaticaux. 'Ses' est un déterminant possessif, alors que le contexte requiert le déterminant démonstratif 'ces'.",
+        "suggestions": [
+          "ces"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion évidente d'homophones. Le contexte exige le démonstratif 'ces', pas le possessif 'ses'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.11",
+        "text": "compliqué",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif 'compliqué' doit s'accorder en genre avec le nom qu'il qualifie, 'La récupération' (féminin singulier). Le donneur d'accord est 'La récupération'.",
+        "suggestions": [
+          "compliquée"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord de l'attribut avec le sujet féminin 'La récupération'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.12",
+        "text": "demendes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage. Le mot 'demandes' s'écrit avec un 'a'.",
+        "suggestions": [
+          "demandes"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe d'usage évidente. Le mot correct est 'demandes'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.13",
+        "text": "insufissante",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur d'orthographe d'usage. Le mot 'insuffisante' s'écrit avec deux 'f'.",
+        "suggestions": [
+          "insuffisante"
+        ],
+        "ruleApplied": "5.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe d'usage évidente. Le mot correct s'écrit avec deux 'f'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.14",
+        "text": "hôtelleries",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le mot 'hôtellerie' est utilisé ici comme un nom de secteur (non comptable) et doit rester au singulier.",
+        "suggestions": [
+          "hôtellerie"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le mot désigne un secteur d'activité (nom collectif non comptable) et doit être au singulier.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.15",
+        "text": "offert",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'offert', employé comme adjectif, doit s'accorder en genre et en nombre avec le nom qu'il qualifie, 'les grandes portions' (féminin pluriel). Le donneur d'accord est 'portions'.",
+        "suggestions": [
+          "offertes"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du participe passé épithète. Il doit s'accorder avec 'portions' (féminin pluriel).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.16",
+        "text": "restaurations",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord en nombre. Le mot 'restauration' est utilisé ici comme un nom de secteur (non comptable) et doit rester au singulier.",
+        "suggestions": [
+          "restauration"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le mot désigne un secteur d'activité (nom collectif non comptable) et doit être au singulier.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.17",
+        "text": "gardé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé 'gardé', conjugué avec l'auxiliaire 'être' (voix passive), doit s'accorder en genre et en nombre avec le sujet 'la nourriture' (féminin singulier). Le donneur d'accord est 'la nourriture'.",
+        "suggestions": [
+          "gardée"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du participe passé avec l'auxiliaire être. Le sujet 'la nourriture' est féminin singulier.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.18",
+        "text": "ont",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec son sujet 'Le milieu' (singulier). Le donneur d'accord est 'Le milieu'.",
+        "suggestions": [
+          "a"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du verbe avec le sujet singulier 'Le milieu'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.19",
+        "text": "aide",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe doit s'accorder avec son sujet 'qui', dont l'antécédent est 'nos activités humaines' (pluriel). Le donneur d'accord est 'activités humaines'.",
+        "suggestions": [
+          "aident"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du verbe avec le pronom relatif dont l'antécédent est pluriel.",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 9,
+      "note": "E"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 19,
+      "note": "E"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 29,
+      "vraisErreurs": 28,
+      "discutables": 1,
+      "fauxPositifs": 0
+    }
+  },
+  "startTimestamp": "2025-12-12T11:42:44.394Z",
+  "endTimestamp": "2025-12-12T11:43:52.745Z",
+  "durationMs": 68351,
+  "durationFormatted": "01:08:351"
+}

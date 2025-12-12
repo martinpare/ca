@@ -217,6 +217,117 @@
       </div>
     </div>
 
+    <!-- Section Reviseur -->
+    <div class="row justify-center">
+      <div class="col-12 col-md-10">
+        <q-card class="q-mt-md">
+          <q-card-section>
+            <div class="text-h5">Reviseur Linguistique</div>
+            <div class="text-subtitle2">
+              Réviser les erreurs détectées avec le prompt revieur_long (utilise les fichiers de resultats_simplified)
+            </div>
+          </q-card-section>
+
+          <q-separator />
+
+          <q-card-section>
+            <div class="row q-gutter-md q-mb-md items-center">
+              <q-btn
+                label="Lancer le Reviseur (tous les fichiers)"
+                color="deep-purple"
+                icon="rate_review"
+                :loading="reviseurLoading"
+                :disable="reviseurLoading"
+                @click="processReviseur"
+              />
+              <q-btn
+                label="Arrêter"
+                color="negative"
+                icon="stop"
+                :disable="!reviseurLoading"
+                @click="stopReviseur"
+              />
+              <q-btn
+                label="Réinitialiser"
+                color="warning"
+                icon="refresh"
+                :disable="reviseurLoading || !reviseurResults"
+                @click="resetReviseur"
+              />
+            </div>
+
+            <div class="text-caption text-grey-7 q-mb-md">
+              Les résultats seront sauvegardés dans public/resultats/finaux/
+            </div>
+
+            <div v-if="reviseurProgress" class="q-mt-md">
+              <div class="row items-center q-mb-sm">
+                <div class="text-subtitle2">
+                  Progression: {{ reviseurProgress.current }} / {{ reviseurProgress.total }} fichiers
+                  ({{ reviseurProgress.percentage }}%)
+                </div>
+                <q-space />
+                <q-chip dense color="deep-purple" text-color="white" icon="timer">
+                  {{ formatElapsedTime(reviseurElapsedTime) }}
+                </q-chip>
+              </div>
+
+              <!-- Liste des fichiers en cours (mode parallèle) -->
+              <div v-if="reviseurProgress.activeFiles && reviseurProgress.activeFiles.length > 0" class="q-mb-md">
+                <div class="text-caption text-weight-bold q-mb-xs">Fichiers en traitement:</div>
+                <div class="row q-gutter-xs">
+                  <q-chip
+                    v-for="file in reviseurProgress.activeFiles"
+                    :key="file.name"
+                    :color="file.status === 'success' ? 'positive' : file.status === 'error' ? 'negative' : file.status === 'processing' ? 'deep-purple' : 'grey'"
+                    text-color="white"
+                    dense
+                    size="sm"
+                  >
+                    <q-icon
+                      :name="file.status === 'success' ? 'check_circle' : file.status === 'error' ? 'error' : file.status === 'processing' ? 'sync' : 'hourglass_empty'"
+                      class="q-mr-xs"
+                      :class="{ 'animate-spin': file.status === 'processing' }"
+                    />
+                    {{ file.name.replace('.json', '').substring(0, 15) }}{{ file.name.length > 20 ? '...' : '' }}
+                    <q-tooltip>{{ file.name }} - {{ file.stepLabel }}</q-tooltip>
+                  </q-chip>
+                </div>
+              </div>
+
+              <!-- Mode séquentiel: un seul fichier -->
+              <div v-else class="text-caption q-mb-sm">
+                Lot en cours: {{ reviseurProgress.currentFile }}
+              </div>
+
+              <q-linear-progress
+                :value="reviseurProgress.percentage / 100"
+                color="deep-purple"
+                size="20px"
+              />
+            </div>
+          </q-card-section>
+
+          <q-card-section v-if="reviseurResults">
+            <q-banner class="bg-deep-purple text-white" rounded>
+              <template v-slot:avatar>
+                <q-icon name="check_circle" color="white" />
+              </template>
+              <div class="text-subtitle1">Révision terminée!</div>
+              <div>
+                Total: {{ reviseurResults.total }} | Succès:
+                {{ reviseurResults.successful }} | Erreurs:
+                {{ reviseurResults.failed }}
+                <span v-if="reviseurResults.cancelled > 0">
+                  | Annulés: {{ reviseurResults.cancelled }}
+                </span>
+              </div>
+            </q-banner>
+          </q-card-section>
+        </q-card>
+      </div>
+    </div>
+
     <!-- Dialog pour afficher les résultats -->
     <q-dialog v-model="showResults" maximized>
       <q-card>
@@ -300,6 +411,7 @@
 import { defineComponent, ref } from 'vue';
 import { useQuasar } from 'quasar';
 import batchProcessor from 'src/services/batchProcessor';
+import reviseurService from 'src/services/reviseurService';
 
 export default defineComponent({
   name: 'IndexPage',
@@ -311,6 +423,13 @@ export default defineComponent({
     const batchResults = ref(null);
     const showResults = ref(false);
     const simulationMode = ref(false); // Mode réel par défaut
+
+    // État du reviseur
+    const reviseurLoading = ref(false);
+    const reviseurProgress = ref(null);
+    const reviseurResults = ref(null);
+    const reviseurElapsedTime = ref(0);
+    const reviseurTimerInterval = ref(null);
 
     // Timer pour le temps d'analyse
     const elapsedTime = ref(0);
@@ -738,6 +857,98 @@ export default defineComponent({
       });
     };
 
+    // === Fonctions du Reviseur ===
+    const startReviseurTimer = () => {
+      reviseurElapsedTime.value = 0;
+      reviseurTimerInterval.value = setInterval(() => {
+        reviseurElapsedTime.value++;
+      }, 1000);
+    };
+
+    const stopReviseurTimer = () => {
+      if (reviseurTimerInterval.value) {
+        clearInterval(reviseurTimerInterval.value);
+        reviseurTimerInterval.value = null;
+      }
+    };
+
+    const downloadReviseurResult = (result) => {
+      // Télécharger le JSON dans public/resultats/finaux
+      const data = reviseurService.exportResult(result);
+      const jsonBlob = new Blob([JSON.stringify(data, null, 2)], {
+        type: 'application/json',
+      });
+      const jsonUrl = URL.createObjectURL(jsonBlob);
+      const jsonLink = document.createElement('a');
+      jsonLink.href = jsonUrl;
+      // Utiliser le même nom de fichier mais dans le dossier finaux
+      const baseFileName = result.fileName.replace('.json', '').replace('.txt', '');
+      jsonLink.download = `${baseFileName}_final.json`;
+      jsonLink.click();
+      URL.revokeObjectURL(jsonUrl);
+    };
+
+    const processReviseur = async () => {
+      reviseurLoading.value = true;
+      reviseurProgress.value = null;
+      reviseurResults.value = null;
+      startReviseurTimer();
+
+      try {
+        $q.notify({
+          type: 'info',
+          message: 'Lancement du reviseur sur tous les fichiers...',
+          position: 'top',
+        });
+
+        const results = await reviseurService.processAllFiles(
+          (progress) => {
+            reviseurProgress.value = progress;
+          },
+          downloadReviseurResult
+        );
+
+        reviseurResults.value = results;
+
+        $q.notify({
+          type: 'positive',
+          message: `Révision terminée! ${results.successful} succès, ${results.failed} erreurs`,
+          position: 'top',
+        });
+      } catch (err) {
+        console.error('Erreur lors de la révision:', err);
+        $q.notify({
+          type: 'negative',
+          message: 'Erreur lors de la révision',
+          caption: err.message,
+          position: 'top',
+        });
+      } finally {
+        stopReviseurTimer();
+        reviseurLoading.value = false;
+      }
+    };
+
+    const stopReviseur = () => {
+      reviseurService.stopProcessing();
+      $q.notify({
+        type: 'warning',
+        message: 'Arrêt du reviseur en cours...',
+        position: 'top',
+      });
+    };
+
+    const resetReviseur = () => {
+      reviseurProgress.value = null;
+      reviseurResults.value = null;
+      reviseurService.resetStop();
+      $q.notify({
+        type: 'info',
+        message: 'Reviseur réinitialisé',
+        position: 'top',
+      });
+    };
+
     return {
       batchLoading,
       batchProgress,
@@ -765,6 +976,14 @@ export default defineComponent({
       changeModel,
       changePrompt,
       changeNombrePasses,
+      // Reviseur
+      reviseurLoading,
+      reviseurProgress,
+      reviseurResults,
+      reviseurElapsedTime,
+      processReviseur,
+      stopReviseur,
+      resetReviseur,
     };
   },
 });

@@ -1,0 +1,97 @@
+{
+  "processedAt": "2025-12-12T11:39:57.212Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_077.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_077.txt",
+    "registreIdentifie": "littéraire",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "Tel qu'un",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'adverbe comparatif 'tel que' introduit une proposition subordonnée. Pour introduire un groupe nominal ('un parasite'), il faut utiliser l'adjectif 'tel' qui s'accorde en genre et en nombre avec le nom auquel il se rapporte ('le gaspillage alimentaire', masculin singulier).",
+        "suggestions": [
+          "Tel un"
+        ],
+        "ruleApplied": "4.1.2.4.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur grammaticale claire. 'Tel que' est une locution conjonctive qui introduit une proposition, tandis que 'tel' seul est l'adjectif comparatif qui introduit un groupe nominal. L'usage de 'tel que' devant un nom sans verbe est incorrect.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "des membres essentiels",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "L'apposition 'des membres essentiels' est mal rattachée à l'énumération qui la précède ('la production, la transformation...'), car les termes de l'énumération sont féminins alors que le nom 'membres' est masculin. Cette construction est boiteuse. Cette erreur se trouve dans la même phrase syntaxique que la précédente.",
+        "suggestions": [
+          "des étapes essentielles",
+          "des maillons essentiels"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Relecture attentive du texte original révèle que l'apposition est grammaticalement correcte. Les termes 'production, transformation, transport, vente au détail et consommation' sont ici utilisés comme noms d'étapes, et 'membres' désigne métaphoriquement ces composantes du système alimentaire. Le masculin 'membres' ne cherche pas à s'accorder avec les noms féminins précédents, mais à les réinterpréter comme des parties d'un tout.",
+        "counterArgument": "Cette construction est valide. L'apposition 'des membres essentiels au fonctionnement de l'industrie alimentaire' reformule l'énumération précédente en utilisant un terme générique ('membres') qui englobe tous les éléments mentionnés. Il n'y a pas d'obligation d'accord en genre puisqu'il s'agit d'une reformulation conceptuelle, non d'une qualification directe. C'est un procédé stylistique courant, particulièrement dans un texte au registre littéraire comme celui-ci, où l'auteur file ensuite la métaphore du corps ('un bras', 'une jambe', 'hôte')."
+      },
+      {
+        "id": "erreur4.3",
+        "text": "satisfait pas",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Il manque l'adverbe de négation « ne » (ou « n' ») dans la construction de la phrase négative « qui ne satisfait pas ».",
+        "suggestions": [
+          "ne satisfait pas"
+        ],
+        "ruleApplied": "4.1.2.1.3",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Vérification du texte original montre que la phrase complète est : 'de manière à rejeter toute nourriture qui ne satisfait pas son sens visuel'. Le 'ne' est bien présent dans le texte. Cette détection est erronée.",
+        "counterArgument": "Cette erreur n'existe pas dans le texte original. La phrase complète contient bien la négation correctement formée : 'toute nourriture qui ne satisfait pas son sens visuel'. Le segment 'satisfait pas' isolé de son contexte a créé un faux positif. Dans le texte réel, la construction négative est complète et grammaticalement correcte."
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "créativé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'orthographe correcte de ce nom féminin est « créativité ».",
+        "suggestions": [
+          "créativité"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "FAUX_POSITIF",
+        "confidence": "HIGH",
+        "confidenceReason": "Vérification du texte original montre que le mot est correctement orthographié 'créativité' dans la phrase finale. Cette erreur n'existe pas dans le texte fourni.",
+        "counterArgument": "Cette erreur n'existe pas dans le texte original. Le mot apparaît correctement orthographié 'créativité' dans le passage : 'Réussirons-nous, à l'aide de notre créativité, de notre ingéniosité'. Il s'agit d'un faux positif de détection, peut-être causé par une erreur de reconnaissance ou de traitement du texte."
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 1,
+      "note": "A"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 0,
+      "note": "A"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 4,
+      "vraisErreurs": 1,
+      "discutables": 0,
+      "fauxPositifs": 3
+    }
+  },
+  "startTimestamp": "2025-12-12T11:39:34.617Z",
+  "endTimestamp": "2025-12-12T11:39:57.212Z",
+  "durationMs": 22595,
+  "durationFormatted": "00:22:595"
+}
