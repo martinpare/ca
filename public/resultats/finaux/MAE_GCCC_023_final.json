@@ -1,0 +1,257 @@
+{
+  "processedAt": "2025-12-12T13:19:33.626Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_023.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_023.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "citoyen la Terre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence d'un mot essentiel. Il manque la préposition 'de' pour introduire le complément 'la Terre' qui suit le nom 'citoyen'.",
+        "suggestions": [
+          "citoyen de la Terre"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Préposition 'de' obligatoire pour compléter le nom 'citoyen'. Son absence rend la phrase agrammaticale.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "auxquelles",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Pronom relatif erroné. Le verbe 'avoir besoin' se construit avec la préposition 'de'. Le pronom relatif correct est donc 'dont'.",
+        "suggestions": [
+          "dont"
+        ],
+        "ruleApplied": "4.1.2.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "La construction 'avoir besoin de' exige le pronom relatif 'dont', non 'auxquelles'. Erreur de régime prépositionnel claire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "pour",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "S",
+        "description": "Préposition erronée. L'expression consacrée est 'avoir les moyens de faire quelque chose' et non 'pour faire quelque chose'.",
+        "suggestions": [
+          "de"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "La locution verbale 'avoir les moyens' régit obligatoirement la préposition 'de', jamais 'pour'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "2022",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de ponctuation. Un point est requis à la fin d'une référence bibliographique ou d'un renvoi en bas de page.",
+        "suggestions": [
+          "2022."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Les normes typographiques exigent un point final dans toute référence bibliographique complète.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "il reste que quand même",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Mot superflu ou construction boiteuse. La locution « quand même » est redondante avec l'expression « il reste que ». Il faut reformuler pour éviter la lourdeur.",
+        "suggestions": [
+          "il n'en reste pas moins que",
+          "il reste que"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "La coprésence de 'il reste que' et 'quand même' crée une redondance stylistique, mais la phrase demeure grammaticalement acceptable.",
+        "counterArgument": "Bien qu'il y ait une redondance sémantique entre 'il reste que' (valeur concessive) et 'quand même' (valeur d'insistance concessive), la construction n'est pas agrammaticale. Dans un registre familier ou oral, ce type de cumul d'expressions concessives peut servir à renforcer l'argument. La lourdeur stylistique ne constitue pas une faute grammaticale stricte."
+      },
+      {
+        "id": "erreur4.6",
+        "text": "jamais»",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence de ponctuation finale. Une phrase doit se terminer par un signe de ponctuation fort (ici, un point).",
+        "suggestions": [
+          "jamais. »"
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le point final avant le guillemet fermant est obligatoire selon les règles typographiques françaises.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "préparé",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord du participe passé d'un verbe pronominal. Le participe passé 'préparé' doit s'accorder avec le complément d'objet direct 'nous' (représentant 'nous-mêmes'), placé avant le verbe. Le pronom 'nous' étant au pluriel, l'accord se fait au pluriel.",
+        "suggestions": [
+          "préparés"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Dans 'nous nous sommes préparé', le pronom réfléchi 'nous' (COD) précède le participe passé et commande l'accord au pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "pensées",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord du complément du nom. Dans l'expression 'courant de pensée', le nom 'pensée' est un concept abstrait et doit rester au singulier.",
+        "suggestions": [
+          "pensée"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Les deux formes ('courants de pensée' et 'courants de pensées') coexistent dans l'usage. Le singulier est plus fréquent mais le pluriel n'est pas fautif.",
+        "counterArgument": "L'expression 'courants de pensée' (singulier) est certes plus courante, mais 'courants de pensées' (pluriel) est également attesté. Quand 'pensée' désigne des systèmes d'idées distincts, le pluriel se justifie : plusieurs courants = plusieurs types de pensées. Le Bon Usage de Grevisse note que dans les compléments du nom, l'accord peut varier selon le sens. Ici, l'auteur a pu concevoir plusieurs courants portant chacun des pensées distinctes."
+      },
+      {
+        "id": "erreur5.3",
+        "text": "années",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord en nombre. Le déterminant 'chaque' est toujours suivi d'un nom au singulier.",
+        "suggestions": [
+          "année"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle grammaticale absolue : 'chaque' + nom singulier. 'Chaque années' est une faute claire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "Canadiennes",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Majuscule erronée. Les adjectifs de nationalité s'écrivent avec une minuscule initiale.",
+        "suggestions": [
+          "canadiennes"
+        ],
+        "ruleApplied": "5.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique claire : l'adjectif 'canadiennes' qualifiant 'familles' prend une minuscule. La majuscule est réservée au substantif (les Canadiennes).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "rendu",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord du participe passé avec l'auxiliaire 'avoir'. Le complément d'objet direct 'nous', placé avant le verbe, est le donneur d'accord (pluriel).",
+        "suggestions": [
+          "rendus"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le COD 'nous' précède le verbe 'a rendu', donc le participe passé s'accorde obligatoirement au pluriel : 'rendus'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "incapable",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord de l'adjectif attribut du COD. L'adjectif 'incapable' doit s'accorder avec le même donneur que 'rendu', soit le pronom 'nous' (pluriel).",
+        "suggestions": [
+          "incapables"
+        ],
+        "ruleApplied": "5.4.2.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "L'adjectif attribut du COD 'nous' doit s'accorder au pluriel. 'Incapable' reste au singulier, ce qui constitue une faute d'accord.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "désavantageux",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord de l'adjectif attribut du sujet. L'adjectif 'désavantageux' doit s'accorder en genre et en nombre avec le sujet 'la récupération' (féminin singulier).",
+        "suggestions": [
+          "désavantageuse"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "L'adjectif attribut doit s'accorder avec le sujet 'la récupération' (féminin). La forme masculine 'désavantageux' est une faute d'accord claire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "défaillant",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Accord de l'adjectif. L'adjectif « défaillant » qualifie les deux noms masculins singuliers « modèle » et « mécanisme », coordonnés par « et ». Il doit donc s'accorder au masculin pluriel. Donneur : « Notre modèle [...] et notre mécanisme ».",
+        "suggestions": [
+          "défaillants"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Deux noms masculins singuliers coordonnés par 'et' commandent l'accord au pluriel de l'adjectif épithète qui les qualifie.",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 5,
+      "note": "B"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 7,
+      "note": "C"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 14,
+      "vraisErreurs": 12,
+      "discutables": 2,
+      "fauxPositifs": 0
+    }
+  },
+  "startTimestamp": "2025-12-12T13:18:54.940Z",
+  "endTimestamp": "2025-12-12T13:19:33.626Z",
+  "durationMs": 38686,
+  "durationFormatted": "00:38:686"
+}

@@ -1,0 +1,612 @@
+{
+  "processedAt": "2025-12-12T15:45:30.000Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_067.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_067.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "a besoin l'aide de nous",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution verbale « avoir besoin » doit être suivie de la préposition « de ». De plus, la construction « l'aide de nous » est incorrecte; il faut utiliser le possessif « notre ».",
+        "suggestions": [
+          "a besoin de notre aide"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction syntaxique fautive évidente : préposition manquante et mauvaise utilisation du pronom personnel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "a devenu",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe « devenir » se conjugue obligatoirement avec l'auxiliaire « être » aux temps composés, jamais avec « avoir ».",
+        "suggestions": [
+          "est devenue"
+        ],
+        "ruleApplied": "4.1.2.2.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'auxiliaire évidente : « devenir » exige l'auxiliaire « être ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "à le lutter",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe « lutter » est intransitif et se construit avec « contre », non avec un complément d'objet direct. La construction « prêts à le lutter » est syntaxiquement incorrecte.",
+        "suggestions": [
+          "à lutter contre cela",
+          "à le combattre"
+        ],
+        "ruleApplied": "4.1.2.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de construction verbale : « lutter » ne peut pas avoir de COD.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "besoin seulement un",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution verbale « avoir besoin » exige la préposition « de » (ou « d' » devant voyelle) avant son complément.",
+        "suggestions": [
+          "besoin seulement d'un"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Préposition obligatoire manquante après « avoir besoin ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "à humaine",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'adjectif « humaine » qualifie directement le nom « consommation ». La préposition « à » est superflue et incorrecte. La construction correcte est « consommation humaine ».",
+        "suggestions": [
+          "humaine"
+        ],
+        "ruleApplied": "4.1.2.1.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Préposition « à » incorrecte et superflue devant un adjectif épithète.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "facile à le réduire",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction impersonnelle « il est facile » doit être suivie de la préposition « de », non de « à », devant l'infinitif.",
+        "suggestions": [
+          "facile de le réduire"
+        ],
+        "ruleApplied": "4.1.2.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de préposition systématique avec la construction impersonnelle « il est + adjectif ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "par apprenant",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Pour exprimer le moyen ou la manière avec un verbe, on utilise le gérondif formé avec « en » + participe présent, non « par » + participe présent.",
+        "suggestions": [
+          "en apprenant"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Construction du gérondif incorrecte : on utilise « en », pas « par ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "personne va penser",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom indéfini « personne » à valeur négative exige la présence de l'adverbe de négation « ne » devant le verbe.",
+        "suggestions": [
+          "personne ne va penser"
+        ],
+        "ruleApplied": "4.1.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Absence de la négation obligatoire avec le pronom « personne ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "facile à lutter",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction impersonnelle « il est facile » doit être suivie de la préposition « de », non de « à », devant l'infinitif.",
+        "suggestions": [
+          "facile de lutter"
+        ],
+        "ruleApplied": "4.1.2.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de l'erreur de préposition avec « il est + adjectif ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.10",
+        "text": "et le système",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Dans une énumération de compléments introduits par « de », la préposition doit être répétée. Ici, « de notre idée et de le système » → « de notre idée et du système ».",
+        "suggestions": [
+          "et du système"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Préposition manquante dans l'énumération de compléments.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.11",
+        "text": "se répartit par",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe « se répartir » suivi d'une indication de distribution exige la préposition « entre » ou « dans », non « par ».",
+        "suggestions": [
+          "se répartit entre",
+          "provient de"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Préposition incorrecte après « se répartir ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.12",
+        "text": "et finir",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Dans l'énumération de deux infinitifs compléments, la préposition « de » qui introduit le premier (« de commander ») doit être répétée devant le second (« de finir »).",
+        "suggestions": [
+          "et de finir"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Préposition manquante dans l'énumération d'infinitifs.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.13",
+        "text": "simple à résoudre",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction impersonnelle « il est simple » doit être suivie de la préposition « de », non de « à », devant l'infinitif.",
+        "suggestions": [
+          "simple de résoudre"
+        ],
+        "ruleApplied": "4.1.2.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de l'erreur de préposition avec « il est + adjectif ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.14",
+        "text": "«tout le monde repart avec ses restants »",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Pour une citation à l'intérieur d'une citation, on devrait utiliser des guillemets anglais (\"\") pour éviter la confusion avec les guillemets français externes (« »).",
+        "suggestions": [
+          "\"tout le monde repart avec ses restants\""
+        ],
+        "ruleApplied": "4.2.2.5.2",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Convention typographique recommandée mais pas toujours strictement appliquée, surtout au niveau scolaire.",
+        "counterArgument": "L'usage de guillemets français imbriqués, bien que moins élégant, n'empêche pas la compréhension. Certains guides acceptent cette pratique quand l'alternance n'est pas disponible dans le système de saisie."
+      },
+      {
+        "id": "erreur4.15",
+        "text": "600 000 nourritures",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le nom « nourriture » est généralement indénombrable et ne s'emploie pas au pluriel avec un numéral cardinal. Il faut utiliser un nom dénombrable comme « repas » ou « portions ».",
+        "suggestions": [
+          "600 000 repas",
+          "600 000 portions de nourriture"
+        ],
+        "ruleApplied": "4.1.2.1.6",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Emploi fautif d'un nom indénombrable avec un numéral.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.16",
+        "text": "simple à diminuer",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction impersonnelle « il est simple » doit être suivie de la préposition « de », non de « à », devant l'infinitif.",
+        "suggestions": [
+          "simple de diminuer"
+        ],
+        "ruleApplied": "4.1.2.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition systématique de l'erreur de préposition avec « il est + adjectif ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.17",
+        "text": "et nos idées",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Dans l'énumération de compléments introduits par « de », la préposition doit être répétée : « de nos habitudes et de nos idées ».",
+        "suggestions": [
+          "et de nos idées"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Préposition manquante dans l'énumération de compléments.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "devenu",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « devenu » employé avec l'auxiliaire « être » (bien que mal choisi ici) doit s'accorder avec le sujet « la pollution de l'environnement » (féminin singulier).",
+        "suggestions": [
+          "devenue"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du participe passé avec l'auxiliaire « être ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "ils",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom « ils » (masculin pluriel) ne respecte pas le genre et le nombre de son antécédent « le gaspillage alimentaire » (masculin singulier). Il faut utiliser « il ».",
+        "suggestions": [
+          "il"
+        ],
+        "ruleApplied": "5.3.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du pronom avec son antécédent évidente.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "produisent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe « produisent » doit s'accorder avec son sujet « il » (singulier), qui remplace « le gaspillage alimentaire ».",
+        "suggestions": [
+          "produit"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord sujet-verbe directement liée à l'erreur précédente sur le pronom.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "façon",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant « plusieurs » indique la pluralité. Le nom « façon » doit donc être au pluriel.",
+        "suggestions": [
+          "façons"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en nombre évidente après un déterminant pluriel.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "simple",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « simple » doit s'accorder en nombre avec le nom « façons » (pluriel) qu'il qualifie.",
+        "suggestions": [
+          "simples"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord de l'adjectif avec son nom.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "de l'habitude",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "L'expression usuelle est « un changement d'habitude » (singulier générique) ou « un changement d'habitudes » (pluriel), sans article défini.",
+        "suggestions": [
+          "d'habitude",
+          "d'habitudes"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'usage figé dans une expression courante.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "Plupart",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « plupart » doit obligatoirement être précédé de l'article défini « la » lorsqu'il est suivi d'un complément.",
+        "suggestions": [
+          "La plupart"
+        ],
+        "ruleApplied": "5.3.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Article défini obligatoire manquant devant « plupart ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "cisine",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur orthographique sur le radical du verbe « cuisiner ». L'orthographe correcte est « cuisine ».",
+        "suggestions": [
+          "cuisine"
+        ],
+        "ruleApplied": "5.2.1.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Faute d'orthographe évidente sur le radical verbal.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "portion",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après l'expression « trop de » suivie d'un nom dénombrable, ce nom doit être au pluriel.",
+        "suggestions": [
+          "portions"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en nombre après un adverbe de quantité.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.10",
+        "text": "évité",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « évité », employé avec l'auxiliaire « être », doit s'accorder avec son sujet « la moitié de ce gâchis » (féminin singulier).",
+        "suggestions": [
+          "évitée"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du participe passé avec « être ».",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.11",
+        "text": "alimentaire",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « alimentaire » doit s'accorder en nombre avec le nom « déchets » (pluriel) qu'il qualifie.",
+        "suggestions": [
+          "alimentaires"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord de l'adjectif épithète.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.12",
+        "text": "les nourritures",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le nom « nourriture » est généralement indénombrable et s'emploie au singulier. L'usage du pluriel est exceptionnel et littéraire.",
+        "suggestions": [
+          "de la nourriture"
+        ],
+        "ruleApplied": "5.2.2",
+        "verdict": "ERREUR",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Le pluriel de « nourriture » existe mais est très rare et inapproprié ici.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.13",
+        "text": "récupérés",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « récupérés » employé avec « être » doit s'accorder avec le sujet « 600 000 nourritures » (qui devrait être « repas », mais si on garde « nourritures », c'est féminin pluriel).",
+        "suggestions": [
+          "récupérées"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du participe passé en genre.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.14",
+        "text": "redistribués",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « redistribués » employé avec « être » doit s'accorder avec le sujet « 600 000 nourritures » (féminin pluriel).",
+        "suggestions": [
+          "redistribuées"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord du participe passé en genre.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.15",
+        "text": "alimentaire",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « alimentaire » doit s'accorder en nombre avec le nom « déchets » (pluriel) qu'il qualifie.",
+        "suggestions": [
+          "alimentaires"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Répétition de l'erreur d'accord de l'adjectif.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.16",
+        "text": "future",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion entre l'adjectif « future » (féminin) et le nom masculin « futur ». Dans le contexte « pour notre futur », il faut le nom masculin.",
+        "suggestions": [
+          "futur"
+        ],
+        "ruleApplied": "5.2.1.4",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion de genre sur un nom courant.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.17",
+        "text": "le déchet alimentaire",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Dans ce contexte générique, le nom « déchet » et l'adjectif « alimentaire » devraient être au pluriel pour désigner la catégorie dans son ensemble : « les déchets alimentaires ».",
+        "suggestions": [
+          "les déchets alimentaires"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le contexte exige le pluriel pour un sens collectif/générique.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.18",
+        "text": "les nourritures",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le nom « nourriture » est généralement indénombrable et s'emploie au singulier. Répétition de l'erreur précédente.",
+        "suggestions": [
+          "la nourriture"
+        ],
+        "ruleApplied": "5.2.2",
+        "verdict": "ERREUR",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Même erreur que précédemment sur l'usage du pluriel inapproprié.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.19",
+        "text": "produisent",
+        "occurenceIndex": 1,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le verbe de la proposition relative s'accorde avec l'antécédent du pronom relatif « qui », soit « le gaspillage alimentaire » (masculin singulier).",
+        "suggestions": [
+          "produit"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord sujet-verbe dans la proposition relative.",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 16,
+      "note": "E"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 19,
+      "note": "E"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 36,
+      "vraisErreurs": 35,
+      "discutables": 1,
+      "fauxPositifs": 0
+    }
+  },
+  "startTimestamp": "2025-12-12T15:43:45.000Z",
+  "endTimestamp": "2025-12-12T15:45:30.000Z",
+  "durationMs": 105000,
+  "durationFormatted": "01:45:000"
+}

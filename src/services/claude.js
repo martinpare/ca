@@ -41,10 +41,12 @@ class ClaudeService {
     }
   }
 
-  async generateTextWithSystemPrompt(systemPrompt, userPrompt) {
+  async generateTextWithSystemPrompt(systemPrompt, userPrompt, options = {}) {
     if (!this.client) {
       throw new Error('Claude service not initialized');
     }
+
+    const { returnMetadata = false } = options;
 
     try {
       // Utiliser le streaming pour éviter le timeout de 10 minutes
@@ -71,6 +73,16 @@ class ClaudeService {
       console.log('=== RÉPONSE CLAUDE BRUTE ===');
       console.log(text);
       console.log('=== FIN RÉPONSE CLAUDE ===');
+
+      // Retourner les métadonnées si demandé
+      if (returnMetadata) {
+        return {
+          text,
+          stopReason: message.stop_reason,
+          isTruncated: message.stop_reason === 'max_tokens',
+          usage: message.usage
+        };
+      }
 
       return text;
     } catch (error) {

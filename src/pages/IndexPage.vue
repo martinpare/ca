@@ -232,14 +232,41 @@
 
           <q-card-section>
             <div class="row q-gutter-md q-mb-md items-center">
+              <q-select
+                v-model="selectedReviseurFile"
+                :options="reviseurFileOptions"
+                option-value="value"
+                option-label="label"
+                emit-value
+                map-options
+                label="Fichier à réviser"
+                outlined
+                dense
+                :disable="reviseurLoading"
+                style="min-width: 250px"
+                use-input
+                input-debounce="0"
+                @filter="filterReviseurFiles"
+              />
               <q-btn
-                label="Lancer le Reviseur (tous les fichiers)"
-                color="deep-purple"
+                label="Réviser ce fichier"
+                color="accent"
                 icon="rate_review"
+                :loading="reviseurLoading"
+                :disable="reviseurLoading || !selectedReviseurFile"
+                @click="processReviseurSingleFile"
+              />
+              <q-btn
+                label="Réviser tous les fichiers"
+                color="deep-purple"
+                icon="playlist_play"
                 :loading="reviseurLoading"
                 :disable="reviseurLoading"
                 @click="processReviseur"
               />
+            </div>
+
+            <div class="row q-gutter-md q-mb-md items-center">
               <q-btn
                 label="Arrêter"
                 color="negative"
@@ -253,6 +280,14 @@
                 icon="refresh"
                 :disable="reviseurLoading || !reviseurResults"
                 @click="resetReviseur"
+              />
+              <q-btn
+                label="Exporter Excel (finaux)"
+                color="info"
+                icon="download"
+                :loading="excelLoading"
+                :disable="excelLoading"
+                @click="downloadFinalResultsExcel"
               />
             </div>
 
@@ -430,6 +465,14 @@ export default defineComponent({
     const reviseurResults = ref(null);
     const reviseurElapsedTime = ref(0);
     const reviseurTimerInterval = ref(null);
+
+    // Sélection du fichier pour le reviseur
+    const selectedReviseurFile = ref('');
+    const reviseurFileOptions = ref([]);
+    const allReviseurFileOptions = ref([]);
+
+    // État pour l'export Excel
+    const excelLoading = ref(false);
 
     // Timer pour le temps d'analyse
     const elapsedTime = ref(0);
@@ -858,6 +901,102 @@ export default defineComponent({
     };
 
     // === Fonctions du Reviseur ===
+
+    // Charger la liste des fichiers pour le reviseur (depuis resultats_simplified)
+    const loadReviseurFiles = async () => {
+      try {
+        const files = await reviseurService.getAvailableFiles();
+        // Trier par nom
+        files.sort((a, b) => a.localeCompare(b));
+        // Créer les options pour le dropdown
+        const options = files.map(f => ({
+          label: f.replace('.json', ''),
+          value: f
+        }));
+        reviseurFileOptions.value = options;
+        allReviseurFileOptions.value = options;
+        // Sélectionner le premier fichier par défaut
+        if (files.length > 0) {
+          selectedReviseurFile.value = files[0];
+        }
+        console.log(`${files.length} fichiers disponibles pour le reviseur`);
+      } catch (err) {
+        console.error('Erreur lors du chargement des fichiers du reviseur:', err);
+      }
+    };
+
+    // Initialiser la liste des fichiers du reviseur
+    loadReviseurFiles();
+
+    // Filtre pour la recherche dans le dropdown du reviseur
+    const filterReviseurFiles = (val, update) => {
+      if (val === '') {
+        update(() => {
+          reviseurFileOptions.value = allReviseurFileOptions.value;
+        });
+        return;
+      }
+
+      update(() => {
+        const needle = val.toLowerCase();
+        reviseurFileOptions.value = allReviseurFileOptions.value.filter(
+          v => v.label.toLowerCase().includes(needle)
+        );
+      });
+    };
+
+    // Traiter un seul fichier avec le reviseur
+    const processReviseurSingleFile = async () => {
+      if (!selectedReviseurFile.value) {
+        $q.notify({
+          type: 'warning',
+          message: 'Veuillez sélectionner un fichier à réviser',
+          position: 'top',
+        });
+        return;
+      }
+
+      reviseurLoading.value = true;
+      reviseurProgress.value = null;
+      reviseurResults.value = null;
+      startReviseurTimer();
+
+      try {
+        $q.notify({
+          type: 'info',
+          message: `Révision du fichier: ${selectedReviseurFile.value}`,
+          position: 'top',
+        });
+
+        const results = await reviseurService.processSingleFile(
+          selectedReviseurFile.value,
+          (progress) => {
+            reviseurProgress.value = progress;
+          },
+          downloadReviseurResult
+        );
+
+        reviseurResults.value = results;
+
+        $q.notify({
+          type: 'positive',
+          message: `Révision terminée! Statut: ${results.successful > 0 ? 'Succès' : 'Erreur'}`,
+          position: 'top',
+        });
+      } catch (err) {
+        console.error('Erreur lors de la révision:', err);
+        $q.notify({
+          type: 'negative',
+          message: 'Erreur lors de la révision',
+          caption: err.message,
+          position: 'top',
+        });
+      } finally {
+        stopReviseurTimer();
+        reviseurLoading.value = false;
+      }
+    };
+
     const startReviseurTimer = () => {
       reviseurElapsedTime.value = 0;
       reviseurTimerInterval.value = setInterval(() => {
@@ -949,6 +1088,47 @@ export default defineComponent({
       });
     };
 
+    // Télécharger le fichier Excel des résultats finaux
+    const downloadFinalResultsExcel = async () => {
+      excelLoading.value = true;
+
+      try {
+        $q.notify({
+          type: 'info',
+          message: 'Génération du fichier Excel en cours...',
+          position: 'top',
+        });
+
+        const excelBuffer = await reviseurService.generateFinalResultsExcel();
+
+        const blob = new Blob([excelBuffer], {
+          type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+        });
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement('a');
+        link.href = url;
+        link.download = `resultats_revises_${new Date().toISOString().replace(/[:.]/g, '-')}.xlsx`;
+        link.click();
+        URL.revokeObjectURL(url);
+
+        $q.notify({
+          type: 'positive',
+          message: 'Fichier Excel téléchargé avec succès!',
+          position: 'top',
+        });
+      } catch (err) {
+        console.error('Erreur lors de la génération Excel:', err);
+        $q.notify({
+          type: 'negative',
+          message: 'Erreur lors de la génération du fichier Excel',
+          caption: err.message,
+          position: 'top',
+        });
+      } finally {
+        excelLoading.value = false;
+      }
+    };
+
     return {
       batchLoading,
       batchProgress,
@@ -981,9 +1161,16 @@ export default defineComponent({
       reviseurProgress,
       reviseurResults,
       reviseurElapsedTime,
+      selectedReviseurFile,
+      reviseurFileOptions,
+      filterReviseurFiles,
+      processReviseurSingleFile,
       processReviseur,
       stopReviseur,
       resetReviseur,
+      // Export Excel
+      excelLoading,
+      downloadFinalResultsExcel,
     };
   },
 });

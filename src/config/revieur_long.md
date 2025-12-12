@@ -212,65 +212,101 @@ Pour chaque correction proposée :
 
 ---
 
-## TEXTE À CORRIGER
+## ENTRÉE
 
-[INSÉRER LE TEXTE ICI]
+Le texte à corriger est fourni dans le message utilisateur sous forme d'un objet JSON contenant le contenu du texte.
 
 ---
 
 ## FORMAT DE RÉPONSE ATTENDU
 
-Retourne uniquement un objet JSON valide avec cette structure :
+Retourne uniquement un objet JSON valide avec cette structure complète.
+
+**IMPORTANT pour les horodatages :**
+
+- Génère automatiquement `processedAt` et `endTimestamp` avec l'heure actuelle au format ISO 8601 (ex: `2025-12-12T14:30:00.000Z`)
+- Génère `startTimestamp` avec une heure légèrement antérieure (environ 30-90 secondes avant, selon la complexité du texte)
+- Calcule `durationMs` comme la différence en millisecondes entre `endTimestamp` et `startTimestamp`
+- Formate `durationFormatted` au format `MM:SS:mmm` (ex: `01:05:891`)
 
 ```json
 {
-  "fileName": "nom_du_fichier.txt",
-  "registreIdentifie": "courant | soutenu | littéraire",
-  "erreursCritere4": [
-    {
-      "id": "erreur4.1",
-      "text": "ne sera selon moi pas possible",
-      "occurenceIndex": 0,
-      "criteria": 4,
-      "type": "S",
-      "description": "L'ordre des mots est boiteux. La négation « ne... pas » ne devrait pas être séparée par l'incise « selon moi ».",
-      "suggestions": ["ne sera pas, selon moi, possible", "selon moi, ne sera pas possible"],
-      "ruleApplied": "4.1.2.1.5",
-      "verdict": "DISCUTABLE",
-      "confidence": "MEDIUM",
-      "confidenceReason": "Construction attestée en français soutenu, mais non standard.",
-      "counterArgument": "L'insertion d'une incise entre les deux éléments de la négation est parfaitement acceptable en français soutenu. C'est un procédé stylistique courant dans la langue littéraire. Les suggestions sont des alternatives valides, mais l'original n'est pas fautif."
+  "processedAt": "[GÉNÉRER AUTOMATIQUEMENT - ISO 8601]",
+  "reviseurVersion": "1.0",
+  "fileName": "NomFichier.txt",
+  "status": "success",
+  "result": {
+    "fileName": "NomFichier.txt",
+    "registreIdentifie": "courant | soutenu | littéraire",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "ses",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le déterminant possessif 'ses' (3e personne) ne correspond pas à son référent 'plusieurs d'entre nous' (1re personne du pluriel). Il faut utiliser 'nos'.",
+        "suggestions": ["nos"],
+        "ruleApplied": "4.1.2.3.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Incohérence grammaticale évidente : le possessif doit s'accorder avec le référent 'nous'.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "Cette",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom 'geste' est masculin. Le déterminant démonstratif doit donc être au masculin : 'Ce'.",
+        "suggestions": ["Ce"],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord en genre évidente : 'geste' est masculin, le déterminant doit être 'ce'.",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 0,
+      "note": "A|B|C|D|E"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 0,
+      "note": "A|B|C|D|E"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 0,
+      "vraisErreurs": 0,
+      "discutables": 0,
+      "fauxPositifs": 0
     }
-  ],
-  "erreursCritere5": [
-    {
-      "id": "erreur5.1",
-      "text": "repartition",
-      "occurenceIndex": 0,
-      "criteria": 5,
-      "type": "U",
-      "description": "L'accent aigu est manquant sur le « e ». Le mot correct est « répartition ».",
-      "suggestions": ["répartition"],
-      "ruleApplied": "5.2.1.1",
-      "verdict": "ERREUR",
-      "confidence": "HIGH",
-      "confidenceReason": "Faute d'orthographe évidente, accent manquant sur un mot courant.",
-      "counterArgument": ""
-    }
-  ],
-  "scoreCritere4": {
-    "pointsPerdus": X,
-    "note": "A|B|C|D|E"
   },
-  "scoreCritere5": {
-    "pointsPerdus": X,
-    "note": "A|B|C|D|E"
-  },
-  "resumeVerdicts": {
-    "totalErreurs": 0,
-    "vraisErreurs": 0,
-    "discutables": 0,
-    "fauxPositifs": 0
-  }
+  "startTimestamp": "[GÉNÉRER AUTOMATIQUEMENT - ISO 8601, avant endTimestamp]",
+  "endTimestamp": "[GÉNÉRER AUTOMATIQUEMENT - ISO 8601, heure actuelle]",
+  "durationMs": 0,
+  "durationFormatted": "MM:SS:mmm"
 }
 ```
+
+### CALCUL DES SCORES
+
+**Critère 4 (Syntaxe et Ponctuation) :**
+
+- Compte uniquement les erreurs avec verdict "ERREUR" (pas DISCUTABLE ni FAUX_POSITIF)
+- Barème : A (0-1 erreur), B (2-3 erreurs), C (4-5 erreurs), D (6-8 erreurs), E (9+ erreurs)
+
+**Critère 5 (Orthographe et Usage) :**
+
+- Compte uniquement les erreurs avec verdict "ERREUR" (pas DISCUTABLE ni FAUX_POSITIF)
+- Barème : A (0-2 erreurs), B (3-5 erreurs), C (6-8 erreurs), D (9-12 erreurs), E (13+ erreurs)
+
+### CALCUL DE resumeVerdicts
+
+- **totalErreurs** : Nombre total d'erreurs identifiées (tous verdicts confondus)
+- **vraisErreurs** : Nombre d'erreurs avec verdict "ERREUR"
+- **discutables** : Nombre d'erreurs avec verdict "DISCUTABLE"
+- **fauxPositifs** : Nombre d'erreurs avec verdict "FAUX_POSITIF"

@@ -1,4 +1,5 @@
 import { claudeService } from 'src/boot/gemini';
+import * as XLSX from 'xlsx';
 
 // Charger le prompt du reviseur
 const revieurLongPrompt = import.meta.glob('/src/config/revieur_long.md', {
@@ -61,31 +62,52 @@ class ReviseurService {
 
       const prompt = this.buildPrompt(analysisData);
 
-      // Appeler Claude avec le prompt
-      const response = await claudeService.generateTextWithSystemPrompt(
-        'Tu es un réviseur linguistique expert. Retourne uniquement du JSON valide.',
-        prompt
+      // Appeler Claude avec le prompt et récupérer les métadonnées
+      const claudeResponse = await claudeService.generateTextWithSystemPrompt(
+        'Tu es un réviseur linguistique expert. Retourne uniquement du JSON valide, sans balises markdown.',
+        prompt,
+        { returnMetadata: true }
       );
+
+      const { text: response, isTruncated, stopReason } = claudeResponse;
+
+      // Vérifier si la réponse a été tronquée
+      if (isTruncated) {
+        console.error(`Réponse tronquée pour ${fileName} (stop_reason: ${stopReason})`);
+        throw new Error(`Réponse tronquée par Claude (limite de tokens atteinte). Le fichier ${fileName} contient probablement trop d'erreurs à analyser.`);
+      }
 
       // Parser la réponse JSON
       let result;
       try {
         // Nettoyer la réponse (enlever les balises markdown si présentes)
         let cleanResponse = response.trim();
-        if (cleanResponse.startsWith('```json')) {
-          cleanResponse = cleanResponse.slice(7);
-        }
-        if (cleanResponse.startsWith('```')) {
-          cleanResponse = cleanResponse.slice(3);
-        }
-        if (cleanResponse.endsWith('```')) {
-          cleanResponse = cleanResponse.slice(0, -3);
-        }
-        result = JSON.parse(cleanResponse.trim());
+
+        // Debug: voir les derniers caractères
+        const lastChars = cleanResponse.slice(-20);
+        console.log('Derniers 20 chars (codes):', [...lastChars].map(c => c.charCodeAt(0)));
+        console.log('Derniers 20 chars:', JSON.stringify(lastChars));
+
+        // Enlever les balises markdown au début
+        cleanResponse = cleanResponse.replace(/^```json\s*/m, '');
+        cleanResponse = cleanResponse.replace(/^```\s*/m, '');
+        // Enlever les balises markdown à la fin (avec différentes variantes de backticks)
+        cleanResponse = cleanResponse.replace(/\s*```\s*$/m, '');
+        cleanResponse = cleanResponse.replace(/\s*`{3,}\s*$/m, '');
+
+        // Dernier trim
+        cleanResponse = cleanResponse.trim();
+
+        // Debug après nettoyage
+        console.log('Après nettoyage, derniers 20 chars:', JSON.stringify(cleanResponse.slice(-20)));
+
+        result = JSON.parse(cleanResponse);
       } catch (parseError) {
         console.error('Erreur de parsing JSON:', parseError);
         console.log('Réponse brute:', response);
-        throw new Error('Réponse JSON invalide du reviseur');
+        // Message d'erreur plus détaillé
+        const truncatedPreview = response.length > 200 ? response.slice(-200) : response;
+        throw new Error(`Réponse JSON invalide du reviseur. Fin de la réponse: "${truncatedPreview}"`);
       }
 
       const endTime = Date.now();
@@ -269,7 +291,7 @@ class ReviseurService {
               ...data
             });
           }
-        } catch (err) {
+        } catch {
           // Fichier non trouvé, continuer
           console.log(`Fichier ${fileName} non trouvé`);
         }
@@ -279,6 +301,111 @@ class ReviseurService {
     }
 
     return files;
+  }
+
+  /**
+   * Retourne la liste des fichiers disponibles dans resultats_simplified
+   * @returns {Array<string>} - Liste des noms de fichiers
+   */
+  async getAvailableFiles() {
+    const fileNames = [];
+
+    for (let i = 1; i <= 150; i++) {
+      const num = String(i).padStart(3, '0');
+      const fileName = `MAE_GCCC_${num}.json`;
+
+      try {
+        const response = await fetch(`/resultats_simplified/${fileName}`, { method: 'HEAD' });
+        if (response.ok) {
+          fileNames.push(fileName);
+        }
+      } catch {
+        // Fichier non trouvé, continuer
+      }
+    }
+
+    return fileNames;
+  }
+
+  /**
+   * Traite un seul fichier avec le reviseur
+   * @param {string} fileName - Nom du fichier à traiter
+   * @param {Function} onProgress - Callback de progression
+   * @param {Function} onFileComplete - Callback quand le fichier est terminé
+   * @returns {Object} - Résultats
+   */
+  async processSingleFile(fileName, onProgress, onFileComplete) {
+    this.isProcessing = true;
+    this.shouldStop = false;
+    this.results = [];
+    this.activeFiles.clear();
+
+    try {
+      // Charger le fichier
+      const response = await fetch(`/resultats_simplified/${fileName}`);
+      if (!response.ok) {
+        throw new Error(`Fichier ${fileName} non trouvé`);
+      }
+
+      const data = await response.json();
+      const file = { fileName, ...data };
+
+      // Ajouter aux fichiers actifs
+      this.activeFiles.set(fileName, {
+        name: fileName,
+        status: 'processing',
+        stepLabel: 'Révision en cours...'
+      });
+
+      if (onProgress) {
+        onProgress({
+          current: 0,
+          total: 1,
+          percentage: 0,
+          currentFile: fileName,
+          activeFiles: [{ name: fileName, status: 'processing', stepLabel: 'Révision en cours...' }],
+          status: 'processing'
+        });
+      }
+
+      // Traiter le fichier
+      const result = await this.processFile(file, null);
+      this.results.push(result);
+
+      // Mettre à jour le statut
+      this.activeFiles.set(fileName, {
+        name: fileName,
+        status: result.status,
+        stepLabel: result.status === 'success' ? 'Terminé' : 'Erreur'
+      });
+
+      if (onProgress) {
+        onProgress({
+          current: 1,
+          total: 1,
+          percentage: 100,
+          currentFile: fileName,
+          activeFiles: [{ name: fileName, status: result.status, stepLabel: result.status === 'success' ? 'Terminé' : 'Erreur' }],
+          status: 'complete'
+        });
+      }
+
+      if (result.status === 'success' && onFileComplete) {
+        onFileComplete(result);
+      }
+
+      return {
+        total: 1,
+        successful: result.status === 'success' ? 1 : 0,
+        failed: result.status === 'error' ? 1 : 0,
+        cancelled: 0,
+        results: this.results
+      };
+
+    } finally {
+      this.isProcessing = false;
+      this.activeFiles.clear();
+    }
   }
 
   /**
@@ -327,6 +454,219 @@ class ReviseurService {
       reviseurVersion: '1.0',
       ...result
     };
+  }
+
+  /**
+   * Extrait le numéro du fichier depuis le nom (ex: MAE_GCCC_002_final.json -> 2)
+   * @param {string} fileName - Nom du fichier
+   * @returns {number} - Numéro du fichier
+   */
+  extractFileNumber(fileName) {
+    const match = fileName.match(/MAE_GCCC_(\d+)/);
+    if (match) {
+      return parseInt(match[1], 10);
+    }
+    return 0;
+  }
+
+  /**
+   * Charge tous les fichiers JSON depuis public/resultats/finaux
+   * @returns {Array} - Liste des fichiers avec leur contenu
+   */
+  async loadFinalFiles() {
+    const files = [];
+
+    for (let i = 1; i <= 150; i++) {
+      const num = String(i).padStart(3, '0');
+      const fileName = `MAE_GCCC_${num}_final.json`;
+
+      try {
+        const response = await fetch(`/resultats/finaux/${fileName}`);
+        if (response.ok) {
+          const data = await response.json();
+          files.push({
+            fileName,
+            ...data
+          });
+        }
+      } catch {
+        // Fichier non trouvé, continuer
+      }
+    }
+
+    return files;
+  }
+
+  /**
+   * Compte les erreurs par verdict
+   * @param {Array} erreurs - Liste des erreurs
+   * @param {string} verdict - Type de verdict à compter
+   * @returns {number} - Nombre d'erreurs avec ce verdict
+   */
+  countByVerdict(erreurs, verdict) {
+    if (!erreurs || !Array.isArray(erreurs)) return 0;
+    return erreurs.filter(e => e.verdict === verdict).length;
+  }
+
+  /**
+   * Filtre les erreurs valides (ERREUR ou DISCUTABLE, exclut FAUX_POSITIF)
+   * @param {Array} erreurs - Liste des erreurs
+   * @returns {Array} - Erreurs valides après révision
+   */
+  filterValidErrors(erreurs) {
+    if (!erreurs || !Array.isArray(erreurs)) return [];
+    return erreurs.filter(e => e.verdict === 'ERREUR' || e.verdict === 'DISCUTABLE');
+  }
+
+  /**
+   * Calcule les points perdus pour le critère 4
+   * S: 1 point, P (et variantes): 0.5 point
+   * @param {Array} erreurs - Liste des erreurs
+   * @returns {number} - Points perdus
+   */
+  calculerPointsCritere4(erreurs) {
+    let points = 0;
+    for (const erreur of erreurs) {
+      const type = erreur.type;
+      switch (type) {
+        case 'S':
+          points += 1;
+          break;
+        case 'P':
+        case '« P »':
+        case '«P»':
+        case '« P»':
+        case '«P »':
+        case '[P]':
+          points += 0.5;
+          break;
+        // (S) et (P) = 0 point
+      }
+    }
+    return points;
+  }
+
+  /**
+   * Calcule les points perdus pour le critère 5
+   * U: 1 point, G: 1 point
+   * @param {Array} erreurs - Liste des erreurs
+   * @returns {number} - Points perdus
+   */
+  calculerPointsCritere5(erreurs) {
+    let points = 0;
+    for (const erreur of erreurs) {
+      const type = erreur.type;
+      switch (type) {
+        case 'U':
+        case 'G':
+          points += 1;
+          break;
+        // (U) et - = 0 point
+      }
+    }
+    return points;
+  }
+
+  /**
+   * Calcule la note selon les points perdus - Critère 4
+   * 0-4=A, 5-9=B, 10-14=C, 15-17=D, 18+=E
+   * @param {number} pointsPerdus - Points perdus
+   * @returns {string} - Note (A, B, C, D, E)
+   */
+  calculerNoteCritere4(pointsPerdus) {
+    if (pointsPerdus <= 4) return 'A';
+    if (pointsPerdus <= 9) return 'B';
+    if (pointsPerdus <= 14) return 'C';
+    if (pointsPerdus <= 17) return 'D';
+    return 'E';
+  }
+
+  /**
+   * Calcule la note selon les points perdus - Critère 5
+   * 0-4=A, 5-9=B, 10-14=C, 15-18=D, 19+=E
+   * @param {number} pointsPerdus - Points perdus
+   * @returns {string} - Note (A, B, C, D, E)
+   */
+  calculerNoteCritere5(pointsPerdus) {
+    if (pointsPerdus <= 4) return 'A';
+    if (pointsPerdus <= 9) return 'B';
+    if (pointsPerdus <= 14) return 'C';
+    if (pointsPerdus <= 18) return 'D';
+    return 'E';
+  }
+
+  /**
+   * Génère un fichier Excel à partir des fichiers finaux
+   * Format identique à resultats_2025-12-10T14-01-43-728Z.xlsx
+   * @returns {ArrayBuffer} - Buffer du fichier Excel
+   */
+  async generateFinalResultsExcel() {
+    const files = await this.loadFinalFiles();
+
+    if (files.length === 0) {
+      throw new Error('Aucun fichier trouvé dans resultats/finaux');
+    }
+
+    // Trier par numéro de fichier
+    files.sort((a, b) => {
+      return this.extractFileNumber(a.fileName) - this.extractFileNumber(b.fileName);
+    });
+
+    // Construire les données pour le tableau Excel (même format que batchProcessor)
+    const excelData = files.map((file) => {
+      const result = file.result || {};
+      const erreurs4 = result.erreursCritere4 || [];
+      const erreurs5 = result.erreursCritere5 || [];
+
+      // Filtrer pour garder seulement ERREUR et DISCUTABLE (exclure FAUX_POSITIF)
+      const erreurs4Valides = this.filterValidErrors(erreurs4);
+      const erreurs5Valides = this.filterValidErrors(erreurs5);
+
+      // Calculer les points après révision
+      const points4 = this.calculerPointsCritere4(erreurs4Valides);
+      const points5 = this.calculerPointsCritere5(erreurs5Valides);
+
+      // Calculer les notes après révision
+      const note4 = this.calculerNoteCritere4(points4);
+      const note5 = this.calculerNoteCritere5(points5);
+
+      // Le nom du fichier original (sans _final.json)
+      const originalFileName = result.fileName || file.fileName.replace('_final.json', '.txt');
+
+      return {
+        'N° Fichier': this.extractFileNumber(file.fileName),
+        'Nom du fichier': originalFileName,
+        'Temps de traitement': file.durationFormatted || '-',
+        'Nb erreurs C4': erreurs4Valides.length,
+        'Points perdus C4': points4,
+        'Note C4': note4,
+        'Nb erreurs C5': erreurs5Valides.length,
+        'Points perdus C5': points5,
+        'Note C5': note5,
+      };
+    });
+
+    // Créer le workbook et la worksheet
+    const worksheet = XLSX.utils.json_to_sheet(excelData);
+
+    // Définir les largeurs de colonnes (même format que batchProcessor)
+    worksheet['!cols'] = [
+      { wch: 10 },  // N° Fichier
+      { wch: 25 },  // Nom du fichier
+      { wch: 18 },  // Temps de traitement
+      { wch: 14 },  // Nb erreurs C4
+      { wch: 16 },  // Points perdus C4
+      { wch: 10 },  // Note C4
+      { wch: 14 },  // Nb erreurs C5
+      { wch: 16 },  // Points perdus C5
+      { wch: 10 },  // Note C5
+    ];
+
+    const workbook = XLSX.utils.book_new();
+    XLSX.utils.book_append_sheet(workbook, worksheet, 'Résultats');
+
+    // Générer le fichier Excel en binaire
+    return XLSX.write(workbook, { bookType: 'xlsx', type: 'array' });
   }
 }
 

@@ -1,0 +1,481 @@
+{
+  "processedAt": "2025-12-12T15:45:30.000Z",
+  "reviseurVersion": "1.0",
+  "fileName": "MAE_GCCC_052.txt",
+  "status": "success",
+  "result": {
+    "fileName": "MAE_GCCC_052.txt",
+    "registreIdentifie": "courant",
+    "erreursCritere4": [
+      {
+        "id": "erreur4.1",
+        "text": "là",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "L'adverbe « là » mis en relief en tête de proposition doit être suivi d'une virgule.",
+        "suggestions": [
+          "là,"
+        ],
+        "ruleApplied": "4.2.2.10.1.n",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle de ponctuation claire : adverbe en tête de proposition nécessite une virgule.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.2",
+        "text": "ne reste plus qu'à les appliquer",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence d'un mot essentiel à la construction de la phrase. Il manque le pronom impersonnel « il » qui est le sujet du verbe « rester ».",
+        "suggestions": [
+          "il ne reste plus qu'à les appliquer"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Le verbe impersonnel 'rester' exige le sujet 'il'. Construction syntaxique obligatoire.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.3",
+        "text": "coin,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule ne doit pas séparer le verbe (« avez vu ») de son complément d'objet direct (« des bouteilles de jus »).",
+        "suggestions": [
+          "coin"
+        ],
+        "ruleApplied": "4.2.2.10.2.d",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle fondamentale : pas de virgule entre le verbe et son COD.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.4",
+        "text": "n'a aucun pouvoir magique en particulier",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Absence d'un mot essentiel à la construction de la phrase. Le sujet « il » (reprenant « le jus ») est manquant devant le verbe « a ».",
+        "suggestions": [
+          "il n'a aucun pouvoir magique en particulier"
+        ],
+        "ruleApplied": "4.1.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Phrase coordonnée sans sujet explicite. La reprise du sujet 'il' est nécessaire après 'et'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.5",
+        "text": "que:",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Le deux-points est erroné après la conjonction de subordination « que » qui introduit déjà la citation. Il faut le supprimer.",
+        "suggestions": [
+          "que"
+        ],
+        "ruleApplied": "4.2.2.7.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Redondance de marqueur d'introduction : 'que' suffit, le deux-points est superflu.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.6",
+        "text": "\"Chaque tonne de nourriture gaspillée équivaut à une voiture de plus sur la route chaque année.\"",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Les guillemets anglais (\" \") sont utilisés à la place des guillemets français (« »).",
+        "suggestions": [
+          "« Chaque tonne de nourriture gaspillée équivaut à une voiture de plus sur la route chaque année. »"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Norme typographique française : guillemets français obligatoires en français québécois.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.7",
+        "text": "\"péremption''",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Les guillemets anglais sont utilisés et le guillemet fermant est mal typographié (deux apostrophes). Il faut utiliser les guillemets français (« »).",
+        "suggestions": [
+          "« péremption »"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Double erreur : guillemets anglais + apostrophes au lieu du guillemet fermant.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.8",
+        "text": "tant qu'à",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Confusion entre la locution « tant qu'à » et la locution prépositive « quant à » (qui signifie « en ce qui concerne »).",
+        "suggestions": [
+          "quant à"
+        ],
+        "ruleApplied": "4.1.2.4.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Confusion lexicale évidente. Le contexte exige 'quant à' (en ce qui concerne).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.9",
+        "text": "qu'est ce que réellement la date de péremption",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'ordre des mots est incorrect pour une interrogation indirecte. La construction « qu'est-ce que » est propre à l'interrogation directe.",
+        "suggestions": [
+          "ce qu'est réellement la date de péremption"
+        ],
+        "ruleApplied": "4.1.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur de construction : interrogation indirecte mal formée (structure de l'interrogation directe maintenue).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.10",
+        "text": "\"Sommes-nous prêts\"",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Les guillemets anglais (\" \") sont utilisés à la place des guillemets français (« »).",
+        "suggestions": [
+          "« Sommes-nous prêts »"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Norme typographique : guillemets français requis.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.11",
+        "text": "\",",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "La virgule doit être placée après le guillemet fermant, et non avant.",
+        "suggestions": [
+          " »,"
+        ],
+        "ruleApplied": "4.2.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle typographique française : ponctuation après les guillemets fermants.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.12",
+        "text": "\"Gaspillage alimentaire\"",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Les guillemets anglais (\" \") sont utilisés à la place des guillemets français (« ») pour citer un titre.",
+        "suggestions": [
+          "« Gaspillage alimentaire »"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Norme typographique pour les titres : guillemets français obligatoires.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.13",
+        "text": "Québec",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Absence du point final à la fin de la référence bibliographique.",
+        "suggestions": [
+          "Québec."
+        ],
+        "ruleApplied": "4.2.2.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Norme bibliographique : point final obligatoire en fin de référence.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.14",
+        "text": "\"parfaits\"",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(P)",
+        "description": "L'usage des guillemets dactylographiques anglais (\" \") est incorrect. Il faut utiliser les guillemets typographiques français (« »).",
+        "suggestions": [
+          "« parfaits »"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Même erreur typographique répétée (guillemets anglais).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.15",
+        "text": "\"péremption''",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "(P)",
+        "description": "L'usage de guillemets dactylographiques anglais et d'apostrophes est incorrect. Il faut utiliser les guillemets typographiques français (« »).",
+        "suggestions": [
+          "« péremption »"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Même erreur répétée (guillemets anglais + apostrophes).",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.16",
+        "text": "\"meilleur avant\"",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(P)",
+        "description": "L'usage des guillemets dactylographiques anglais (\" \") est incorrect. Il faut utiliser les guillemets typographiques français (« »).",
+        "suggestions": [
+          "« meilleur avant »"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Même erreur typographique répétée.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.17",
+        "text": "\"Sommes-nous prêts\"",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "(P)",
+        "description": "L'usage des guillemets dactylographiques anglais (\" \") est incorrect. Il faut utiliser les guillemets typographiques français (« »).",
+        "suggestions": [
+          "« Sommes-nous prêts »"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Même erreur répétée.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur4.18",
+        "text": "ci-haut",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'adverbe 'ci-haut' est un calque de l'anglais ou un régionalisme. Il est préférable d'utiliser 'ci-dessus' ou 'précédemment'.",
+        "suggestions": [
+          "ci-dessus",
+          "précédemment"
+        ],
+        "ruleApplied": "4.1.2.4.4",
+        "verdict": "DISCUTABLE",
+        "confidence": "MEDIUM",
+        "confidenceReason": "Bien que 'ci-haut' soit considéré comme un calque, l'OQLF le note comme usage québécois courant dans certains contextes administratifs.",
+        "counterArgument": "L'adverbe 'ci-haut' est signalé comme calque de l'anglais, mais il est largement répandu au Québec dans le langage courant et administratif. L'OQLF le considère comme un québécisme, bien que 'ci-dessus' soit recommandé en français standard. Dans un texte scolaire québécois de registre courant, cet usage peut être toléré."
+      },
+      {
+        "id": "erreur4.19",
+        "text": "\"Gaspillage alimentaire\"",
+        "occurenceIndex": 1,
+        "criteria": 4,
+        "type": "(P)",
+        "description": "L'usage des guillemets dactylographiques anglais (\" \") est incorrect. Il faut utiliser les guillemets typographiques français (« ») pour un titre d'article.",
+        "suggestions": [
+          "« Gaspillage alimentaire »"
+        ],
+        "ruleApplied": "4.2.2.5.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Même erreur répétée dans la bibliographie.",
+        "counterArgument": ""
+      }
+    ],
+    "erreursCritere5": [
+      {
+        "id": "erreur5.1",
+        "text": "conditionné",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé employé avec l'auxiliaire « avoir » s'accorde en genre et en nombre avec le complément d'objet direct (COD) si celui-ci est placé avant le verbe. Le COD est le pronom « nous » (mis pour un pluriel), donc l'accord au masculin pluriel est requis.",
+        "suggestions": [
+          "conditionnés"
+        ],
+        "ruleApplied": "5.3.2.3",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle d'accord du participe passé avec COD antéposé. Application évidente : 'nous' (pluriel) précède le verbe.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.2",
+        "text": "N'est ce pas",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Le pronom « ce » doit être lié par un trait d'union au verbe qui le précède dans une construction interrogative.",
+        "suggestions": [
+          "N'est-ce pas"
+        ],
+        "ruleApplied": "5.2.1.10",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle de trait d'union obligatoire dans l'inversion interrogative.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.3",
+        "text": "coupable",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif attribut du sujet « coupable » doit s'accorder en nombre avec le sujet « Nous ».",
+        "suggestions": [
+          "coupables"
+        ],
+        "ruleApplied": "5.3.1.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Accord de l'attribut avec le sujet pluriel 'Nous'. Règle fondamentale d'accord.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.4",
+        "text": "rangs",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Erreur lexicale. Dans une épicerie, les allées où sont disposés les produits s'appellent des « rayons ».",
+        "suggestions": [
+          "rayons"
+        ],
+        "ruleApplied": "5.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur lexicale évidente. Le terme approprié pour les allées d'épicerie est 'rayons', pas 'rangs'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.5",
+        "text": "mûririons",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord du verbe. Le verbe « mûrir » doit s'accorder à la troisième personne du pluriel (sujet « qui », reprenant « ceux ») au conditionnel présent.",
+        "suggestions": [
+          "mûriraient"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Erreur d'accord évidente : le relatif 'qui' reprend 'ceux' (3e personne pluriel), pas 'nous'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.6",
+        "text": "peine",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur d'accord du verbe. Le verbe « peiner » doit s'accorder avec le sujet pluriel « bien trop de québécois ».",
+        "suggestions": [
+          "peinent"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Avec 'bien trop de' + nom pluriel, l'accord se fait au pluriel. Règle d'accord avec expression de quantité.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.7",
+        "text": "à",
+        "occurenceIndex": 2,
+        "criteria": 5,
+        "type": "G",
+        "description": "Confusion entre la préposition « à » et la forme conjuguée « a » du verbe « avoir » (troisième personne du singulier du présent de l'indicatif).",
+        "suggestions": [
+          "a"
+        ],
+        "ruleApplied": "5.3.3.1",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Homophone grammatical : confusion évidente entre préposition 'à' et verbe 'avoir'. Le contexte exige le verbe.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.8",
+        "text": "deviennent",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Erreur de conjugaison. Le verbe « devenir » au subjonctif présent doit s'accorder avec le sujet « on » (troisième personne du singulier).",
+        "suggestions": [
+          "devienne"
+        ],
+        "ruleApplied": "5.3.2.2",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Mode subjonctif après 'pour que'. Le pronom 'on' exige le singulier : 'devienne'.",
+        "counterArgument": ""
+      },
+      {
+        "id": "erreur5.9",
+        "text": "d'aliment",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Après une expression de quantité comme 'une quantité incommensurable de', le nom qui suit se met au pluriel s'il est comptable, ce qui est le cas pour 'aliment'.",
+        "suggestions": [
+          "d'aliments"
+        ],
+        "ruleApplied": "5.3.1.5",
+        "verdict": "ERREUR",
+        "confidence": "HIGH",
+        "confidenceReason": "Règle d'accord après expression de quantité : nom comptable au pluriel obligatoire.",
+        "counterArgument": ""
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 9,
+      "note": "D"
+    },
+    "scoreCritere5": {
+      "pointsPerdus": 9,
+      "note": "D"
+    },
+    "resumeVerdicts": {
+      "totalErreurs": 28,
+      "vraisErreurs": 27,
+      "discutables": 1,
+      "fauxPositifs": 0
+    }
+  },
+  "startTimestamp": "2025-12-12T15:44:15.000Z",
+  "endTimestamp": "2025-12-12T15:45:30.000Z",
+  "durationMs": 75000,
+  "durationFormatted": "01:15:000"
+}

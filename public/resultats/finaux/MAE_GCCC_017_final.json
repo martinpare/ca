@@ -1,0 +1,545 @@
+{
+    "processedAt": "2025-12-12T14:35:00.000Z",
+    "reviseurVersion": "1.0",
+    "fileName": "MAE_GCCC_017.txt",
+    "status": "success",
+    "result": {
+        "fileName": "MAE_GCCC_017.txt",
+        "registreIdentifie": "courant",
+        "erreursCritere4": [
+            {
+                "id": "erreur4.1",
+                "text": "soutenir à",
+                "occurenceIndex": 0,
+                "criteria": 4,
+                "type": "S",
+                "description": "Le verbe « soutenir » est transitif direct et ne doit pas être suivi de la préposition « à ». Construction correcte : « soutenir notre goût ».",
+                "suggestions": [
+                    "soutenir"
+                ],
+                "ruleApplied": "4.1.2.2.2",
+                "verdict": "ERREUR",
+                "confidence": "HIGH",
+                "confidenceReason": "Erreur de construction verbale évidente : 'soutenir' est transitif direct.",
+                "counterArgument": ""
+            },
+            {
+                "id": "erreur4.2",
+                "text": "qu'au moment",
+                "occurenceIndex": 0,
+                "criteria": 4,
+                "type": "S",
+                "description": "Calque de l'oral. Expression fautive à remplacer par « qu'en ce moment », « qu'actuellement » ou « qu'à l'heure actuelle ».",
+                "suggestions": [
+                    "qu'en ce moment",
+                    "qu'actuellement"
+                ],
+                "ruleApplied": "4.1.2.4.4",
+                "verdict": "ERREUR",
+                "confidence": "HIGH",
+                "confidenceReason": "Calque de l'anglais ('at the moment') ou de l'oral québécois non standard.",
+                "counterArgument": ""
+            },
+            {
+                "id": "erreur4.3",
+                "text": "vente ou détail",
+                "occurenceIndex": 0,
+                "criteria": 4,
+                "type": "S",
+                "description": "Expression incomplète. L'expression correcte est « vente au détail » (avec la préposition « au »).",
+                "suggestions": [
+                    "vente au détail"
+                ],
+                "ruleApplied": "4.1.2.1.1",
+                "verdict": "ERREUR",
+                "confidence": "HIGH",
+                "confidenceReason": "Locution figée incorrecte : 'vente au détail' est l'expression établie.",
+                "counterArgument": ""
+            },
+            {
+                "id": "erreur4.4",
+                "text": "stocks).",
+                "occurenceIndex": 0,
+                "criteria": 4,
+                "type": "P",
+                "description": "Placement incorrect du point final. Le point doit être placé après la parenthèse fermante : « stocks). »",
+                "suggestions": [
+                    "stocks.)"
+                ],
+                "ruleApplied": "4.2.2.1.2",
+                "verdict": "ERREUR",
+                "confidence": "HIGH",
+                "confidenceReason": "Règle typographique claire : le point final se place après la parenthèse fermante d'une référence.",
+                "counterArgument": ""
+            },
+            {
+                "id": "erreur4.5",
+                "text": "détail restauration",
+                "occurenceIndex": 0,
+                "criteria": 4,
+                "type": "P",
+                "description": "Virgule manquante dans l'énumération. Il faut séparer les éléments : « détail, restauration ».",
+                "suggestions": [
+                    "détail, restauration"
+                ],
+                "ruleApplied": "4.2.2.10.1.a",
+                "verdict": "ERREUR",
+                "confidence": "HIGH",
+                "confidenceReason": "Absence évidente de virgule dans une énumération d'éléments coordonnés.",
+                "counterArgument": ""
+            },
+            {
+                "id": "erreur4.6",
+                "text": "achetez",
+                "occurenceIndex": 0,
+                "criteria": 4,
+                "type": "S",
+                "description": "Après la locution « veulent que », le verbe doit être au subjonctif présent : « achetiez » (et non à l'indicatif).",
+                "suggestions": [
+                    "achetiez"
+                ],
+                "ruleApplied": "4.1.2.2.3",
+                "verdict": "ERREUR",
+                "confidence": "HIGH",
+                "confidenceReason": "Mode verbal incorrect : la locution 'vouloir que' exige le subjonctif.",
+                "counterArgument": ""
+            },
+            {
+                "id": "erreur4.7",
+                "text": "proche.",
+                "occurenceIndex": 0,
+                "criteria": 4,
+                "type": "P",
+                "description": "Placement incorrect du point final. Le point doit être placé après la parenthèse fermante : « proche.) »",
+                "suggestions": [
+                    "proche.)"
+                ],
+                "ruleApplied": "4.2.2.1.2",
+                "verdict": "ERREUR",
+                "confidence": "HIGH",
+                "confidenceReason": "Même règle typographique : le point final se place après la parenthèse fermante.",
+                "counterArgument": ""
+            },
+            {
+                "id": "erreur4.8",
+                "text": "date :",
+                "occurenceIndex": 0,
+                "criteria": 4,
+                "type": "P",
+                "description": "Deux-points erroné qui brise la structure syntaxique. Il ne doit pas y avoir de deux-points entre « après la date » et la citation « meilleur avant ».",
+                "suggestions": [
+                    "date"
+                ],
+                "ruleApplied": "4.2.2.7.2",
+                "verdict": "ERREUR",
+                "confidence": "HIGH",
+                "confidenceReason": "Le deux-points coupe incorrectement la relation syntaxique entre le complément et son complément du nom.",
+                "counterArgument": ""
+            },
+            {
+                "id": "erreur4.9",
+                "text": "avant »",
+                "occurenceIndex": 0,
+                "criteria": 4,
+                "type": "P",
+                "description": "Virgule manquante après le complément de phrase placé en tête : « après la date 'meilleur avant', les gens... »",
+                "suggestions": [
+                    "avant »,"
+                ],
+                "ruleApplied": "4.2.2.10.1.m",
+                "verdict": "ERREUR",
+                "confidence": "HIGH",
+                "confidenceReason": "Complément de phrase en inversion : la virgule est obligatoire après le guillemet fermant.",
+                "counterArgument": ""
+            },
+            {
+                "id": "erreur4.10",
+                "text": "prêt de",
+                "occurenceIndex": 0,
+                "criteria": 4,
+                "type": "(S)",
+                "description": "Construction verbale incorrecte. L'expression correcte est « prêt à » (et non « prêt de »).",
+                "suggestions": [
+                    "prêt à"
+                ],
+                "ruleApplied": "4.1.2.4.1",
+                "verdict": "ERREUR",
+                "confidence": "HIGH",
+                "confidenceReason": "Préposition incorrecte : 'être prêt à' est la construction établie.",
+                "counterArgument": ""
+            },
+            {
+                "id": "erreur4.11",
+                "text": "restauration",
+                "occurenceIndex": 0,
+                "criteria": 4,
+                "type": "S",
+                "description": "Dans cette énumération, le déterminant défini doit être répété devant chaque élément coordonné : « la vente au détail, la restauration et l'hôtellerie ».",
+                "suggestions": [
+                    "la restauration"
+                ],
+                "ruleApplied": "4.1.2.1.1",
+                "verdict": "DISCUTABLE",
+                "confidence": "MEDIUM",
+                "confidenceReason": "L'omission du déterminant dans une énumération est acceptable en style courant lorsque les éléments sont très liés sémantiquement.",
+                "counterArgument": "Dans une énumération d'éléments coordonnés appartenant au même champ sémantique (secteurs économiques), l'omission du déterminant après la virgule est un usage courant accepté en français contemporain. La répétition systématique des déterminants appartient davantage au registre soutenu."
+            }
+        ],
+        "erreursCritere5": [
+            {
+                "id": "erreur5.1",
+                "text": "la future",
+                "occurenceIndex": 0,
+                "criteria": 5,
+                "type": "G",
+                "description": "Erreur d'accord en genre. Le nom « futur » est masculin : « le futur ».",
+                "suggestions": [
+                    "le futur"
+                ],
+                "ruleApplied": "5.3.1.1",
+                "verdict": "ERREUR",
+                "confidence": "HIGH",
+                "confidenceReason": "Erreur d'accord en genre évidente : 'futur' est masculin.",
+                "counterArgument": ""
+            },
+            {
+                "id": "erreur5.2",
+                "text": "goûts",
+                "occurenceIndex": 0,
+                "criteria": 5,
+                "type": "G",
+                "description": "Erreur d'accord en nombre. Avec le déterminant singulier « le », le nom doit être au singulier : « le goût ».",
+                "suggestions": [
+                    "goût"
+                ],
+                "ruleApplied": "5.3.1.1",
+                "verdict": "ERREUR",
+                "confidence": "HIGH",
+                "confidenceReason": "Incohérence d'accord : le déterminant 'le' est singulier, le nom doit l'être aussi.",
+                "counterArgument": ""
+            },
+            {
+                "id": "erreur5.3",
+                "text": "délicieuse",
+                "occurenceIndex": 0,
+                "criteria": 5,
+                "type": "G",
+                "description": "Erreur d'accord en genre. L'adjectif « délicieuse » doit s'accorder avec « goût » (masculin singulier) : « délicieux ».",
+                "suggestions": [
+                    "délicieux"
+                ],
+                "ruleApplied": "5.3.1.1",
+                "verdict": "ERREUR",
+                "confidence": "HIGH",
+                "confidenceReason": "Accord adjectival incorrect : 'goût' est masculin, donc 'délicieux'.",
+                "counterArgument": ""
+            },
+            {
+                "id": "erreur5.4",
+                "text": "la besoin",
+                "occurenceIndex": 0,
+                "criteria": 5,
+                "type": "G",
+                "description": "Erreur d'accord en genre. Le nom « besoin » est masculin : « le besoin ».",
+                "suggestions": [
+                    "le besoin"
+                ],
+                "ruleApplied": "5.3.1.1",
+                "verdict": "ERREUR",
+                "confidence": "HIGH",
+                "confidenceReason": "Erreur d'accord en genre évidente : 'besoin' est masculin.",
+                "counterArgument": ""
+            },
+            {
+                "id": "erreur5.5",
+                "text": "voire",
+                "occurenceIndex": 0,
+                "criteria": 5,
+                "type": "U",
+                "description": "Confusion lexicale entre l'adverbe « voire » (signifiant « et même ») et le verbe à l'infinitif « voir ». Ici, il faut « voir le lendemain ».",
+                "suggestions": [
+                    "voir"
+                ],
+                "ruleApplied": "5.2.2",
+                "verdict": "ERREUR",
+                "confidence": "HIGH",
+                "confidenceReason": "Confusion homophonique claire : le contexte exige le verbe 'voir'.",
+                "counterArgument": ""
+            },
+            {
+                "id": "erreur5.6",
+                "text": "aiment",
+                "occurenceIndex": 0,
+                "criteria": 5,
+                "type": "G",
+                "description": "Erreur d'accord verbal. Le pronom « on » commande la 3e personne du singulier : « on aime » (et non « on aiment »).",
+                "suggestions": [
+                    "aime"
+                ],
+                "ruleApplied": "5.3.2.2",
+                "verdict": "ERREUR",
+                "confidence": "HIGH",
+                "confidenceReason": "Accord verbal incorrect : 'on' est toujours suivi du singulier.",
+                "counterArgument": ""
+            },
+            {
+                "id": "erreur5.7",
+                "text": "goûts",
+                "occurenceIndex": 1,
+                "criteria": 5,
+                "type": "(G)",
+                "description": "Erreur d'accord en nombre. Avec le déterminant singulier « notre », le nom doit être au singulier : « notre goût ».",
+                "suggestions": [
+                    "goût"
+                ],
+                "ruleApplied": "5.3.1.1",
+                "verdict": "ERREUR",
+                "confidence": "HIGH",
+                "confidenceReason": "Incohérence d'accord répétée : 'notre' est singulier, le nom doit l'être aussi.",
+                "counterArgument": ""
+            },
+            {
+                "id": "erreur5.8",
+                "text": "essayent",
+                "occurenceIndex": 0,
+                "criteria": 5,
+                "type": "G",
+                "description": "Barbarisme de conjugaison. La forme correcte du verbe « essayer » à la 3e personne du pluriel du présent est « essaient » (ou « essayent » selon la nouvelle orthographe).",
+                "suggestions": [
+                    "essaient"
+                ],
+                "ruleApplied": "5.3.2.1",
+                "verdict": "FAUX_POSITIF",
+                "confidence": "HIGH",
+                "confidenceReason": "La graphie 'essayent' est admise par les rectifications orthographiques de 1990, au même titre que 'essaient'.",
+                "counterArgument": "Selon les rectifications orthographiques de 1990 acceptées par l'Académie française et recommandées par l'OQLF, les deux graphies 'essaient' et 'essayent' sont correctes. La forme 'essayent' n'est donc pas une erreur."
+            },
+            {
+                "id": "erreur5.9",
+                "text": "du préparation",
+                "occurenceIndex": 0,
+                "criteria": 5,
+                "type": "G",
+                "description": "Erreur de genre dans l'article contracté. Le nom « préparation » est féminin. Il faut « de la préparation » (et non « du »).",
+                "suggestions": [
+                    "de la préparation"
+                ],
+                "ruleApplied": "5.3.5",
+                "verdict": "ERREUR",
+                "confidence": "HIGH",
+                "confidenceReason": "Erreur d'article contracté : 'préparation' est féminin, donc 'de la'.",
+                "counterArgument": ""
+            },
+            {
+                "id": "erreur5.10",
+                "text": "étapes",
+                "occurenceIndex": 0,
+                "criteria": 5,
+                "type": "G",
+                "description": "Erreur d'accord en nombre. Le déterminant « chaque » est toujours suivi d'un nom au singulier : « chaque étape ».",
+                "suggestions": [
+                    "étape"
+                ],
+                "ruleApplied": "5.3.1.1",
+                "verdict": "ERREUR",
+                "confidence": "HIGH",
+                "confidenceReason": "Règle stricte : 'chaque' exige toujours le singulier.",
+                "counterArgument": ""
+            },
+            {
+                "id": "erreur5.11",
+                "text": "consomment",
+                "occurenceIndex": 0,
+                "criteria": 5,
+                "type": "(G)",
+                "description": "Erreur d'accord verbal. Le sujet « chaque étape » est au singulier, donc le verbe doit être à la 3e personne du singulier : « consomme ».",
+                "suggestions": [
+                    "consomme"
+                ],
+                "ruleApplied": "5.3.2.2",
+                "verdict": "ERREUR",
+                "confidence": "HIGH",
+                "confidenceReason": "Accord verbal incorrect : le sujet 'chaque étape' est singulier.",
+                "counterArgument": ""
+            },
+            {
+                "id": "erreur5.12",
+                "text": "discerne",
+                "occurenceIndex": 0,
+                "criteria": 5,
+                "type": "U",
+                "description": "Confusion lexicale. L'expression correcte est « sans discernement » (nom) et non « sans discerne » (forme verbale).",
+                "suggestions": [
+                    "discernement"
+                ],
+                "ruleApplied": "5.3.3.2",
+                "verdict": "ERREUR",
+                "confidence": "HIGH",
+                "confidenceReason": "Erreur lexicale évidente : la locution établie est 'sans discernement'.",
+                "counterArgument": ""
+            },
+            {
+                "id": "erreur5.13",
+                "text": "champs",
+                "occurenceIndex": 0,
+                "criteria": 5,
+                "type": "G",
+                "description": "Erreur d'accord en nombre. Avec le déterminant singulier « le », le nom doit être au singulier : « le champ ».",
+                "suggestions": [
+                    "champ"
+                ],
+                "ruleApplied": "5.3.1.1",
+                "verdict": "ERREUR",
+                "confidence": "HIGH",
+                "confidenceReason": "Incohérence d'accord : le déterminant 'le' est singulier.",
+                "counterArgument": ""
+            },
+            {
+                "id": "erreur5.14",
+                "text": "suivant",
+                "occurenceIndex": 0,
+                "criteria": 5,
+                "type": "G",
+                "description": "Erreur d'accord en genre. L'adjectif « suivant » doit s'accorder avec « façon » (féminin singulier) : « suivante ».",
+                "suggestions": [
+                    "suivante"
+                ],
+                "ruleApplied": "5.3.1.1",
+                "verdict": "ERREUR",
+                "confidence": "HIGH",
+                "confidenceReason": "Accord adjectival incorrect : 'façon' est féminin, donc 'suivante'.",
+                "counterArgument": ""
+            },
+            {
+                "id": "erreur5.15",
+                "text": "sommer",
+                "occurenceIndex": 0,
+                "criteria": 5,
+                "type": "U",
+                "description": "Confusion lexicale. Le verbe « sommer » signifie « ordonner » ou « additionner ». L'expression correcte est « Pour résumer ».",
+                "suggestions": [
+                    "résumer"
+                ],
+                "ruleApplied": "5.2.2",
+                "verdict": "ERREUR",
+                "confidence": "HIGH",
+                "confidenceReason": "Confusion lexicale évidente : 'sommer' n'a pas le sens voulu ici.",
+                "counterArgument": ""
+            },
+            {
+                "id": "erreur5.16",
+                "text": "produit",
+                "occurenceIndex": 0,
+                "criteria": 5,
+                "type": "G",
+                "description": "Erreur d'accord en nombre. Après le numéral « vingt », le nom doit être au pluriel : « vingt produits ».",
+                "suggestions": [
+                    "produits"
+                ],
+                "ruleApplied": "5.3.1.1",
+                "verdict": "ERREUR",
+                "confidence": "HIGH",
+                "confidenceReason": "Accord en nombre incorrect : les numéraux supérieurs à 1 exigent le pluriel.",
+                "counterArgument": ""
+            },
+            {
+                "id": "erreur5.17",
+                "text": "SecondLif",
+                "occurenceIndex": 0,
+                "criteria": 5,
+                "type": "U",
+                "description": "Erreur orthographique dans le nom propre. La plateforme s'appelle « SecondLife » (avec un « e » final).",
+                "suggestions": [
+                    "SecondLife"
+                ],
+                "ruleApplied": "5.1.2",
+                "verdict": "ERREUR",
+                "confidence": "MEDIUM",
+                "confidenceReason": "L'orthographe exacte des noms de marques doit être vérifiée. Il pourrait s'agir d'une variante régionale.",
+                "counterArgument": ""
+            },
+            {
+                "id": "erreur5.18",
+                "text": "acheter",
+                "occurenceIndex": 0,
+                "criteria": 5,
+                "type": "G",
+                "description": "Confusion entre l'infinitif et le participe passé. Après l'auxiliaire « avoir », il faut le participe passé : « après avoir acheté ».",
+                "suggestions": [
+                    "acheté"
+                ],
+                "ruleApplied": "5.3.2.6",
+                "verdict": "ERREUR",
+                "confidence": "HIGH",
+                "confidenceReason": "Erreur classique : après 'avoir', on utilise le participe passé.",
+                "counterArgument": ""
+            },
+            {
+                "id": "erreur5.19",
+                "text": "notre",
+                "occurenceIndex": 0,
+                "criteria": 5,
+                "type": "(G)",
+                "description": "Erreur d'accord en nombre. Le déterminant possessif doit s'accorder avec « goûts » (pluriel) : « nos goûts ».",
+                "suggestions": [
+                    "nos"
+                ],
+                "ruleApplied": "5.3.1.1",
+                "verdict": "ERREUR",
+                "confidence": "HIGH",
+                "confidenceReason": "Le possessif 'notre' ne s'accorde pas avec le nom pluriel 'goûts'.",
+                "counterArgument": ""
+            },
+            {
+                "id": "erreur5.20",
+                "text": "publics",
+                "occurenceIndex": 0,
+                "criteria": 5,
+                "type": "G",
+                "description": "Erreur d'accord en nombre. Le nom « public », lorsqu'il désigne l'audience, s'emploie généralement au singulier : « chers public ».",
+                "suggestions": [
+                    "public"
+                ],
+                "ruleApplied": "5.3.1.1",
+                "verdict": "DISCUTABLE",
+                "confidence": "MEDIUM",
+                "confidenceReason": "L'usage du pluriel 'publics' pour désigner différentes catégories d'audience est attesté et accepté dans certains contextes.",
+                "counterArgument": "Le pluriel 'publics' est acceptable lorsqu'on s'adresse à plusieurs catégories d'audience distinctes. Le Petit Robert et le Grand Robert attestent l'usage de 'publics' au pluriel dans ce sens. Dans un texte s'adressant à différents internautes, l'emploi du pluriel peut être considéré comme un choix stylistique valide."
+            },
+            {
+                "id": "erreur5.21",
+                "text": "et",
+                "occurenceIndex": 0,
+                "criteria": 5,
+                "type": "U",
+                "description": "Confusion homophonique entre la conjonction « et » et la forme verbale « est » (3e personne du singulier du verbe être). Ici, le contexte exige « est ».",
+                "suggestions": [
+                    "est"
+                ],
+                "ruleApplied": "5.3.3.1",
+                "verdict": "ERREUR",
+                "confidence": "HIGH",
+                "confidenceReason": "Confusion homophonique claire : le contexte syntaxique exige le verbe 'être'.",
+                "counterArgument": ""
+            }
+        ],
+        "scoreCritere4": {
+            "pointsPerdus": 7,
+            "note": "D"
+        },
+        "scoreCritere5": {
+            "pointsPerdus": 19,
+            "note": "E"
+        },
+        "resumeVerdicts": {
+            "totalErreurs": 32,
+            "vraisErreurs": 29,
+            "discutables": 2,
+            "fauxPositifs": 1
+        }
+    },
+    "startTimestamp": "2025-12-12T14:33:55.000Z",
+    "endTimestamp": "2025-12-12T14:35:00.000Z",
+    "durationMs": 65000,
+    "durationFormatted": "01:05:000"
+}
