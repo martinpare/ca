@@ -5,7 +5,7 @@
       <q-badge
         :color="getNoteColor(scores.critere4.note)"
         class="text-h5 q-pa-sm"
-        style="min-width: 50px;"
+        style="min-width: 50px; display: flex; justify-content: center; align-items: center;"
       >
         {{ scores.critere4.note }}
       </q-badge>
@@ -17,7 +17,7 @@
       <q-badge
         :color="getNoteColor(scores.critere5.note)"
         class="text-h5 q-pa-sm"
-        style="min-width: 50px;"
+        style="min-width: 50px; display: flex; justify-content: center; align-items: center;"
       >
         {{ scores.critere5.note }}
       </q-badge>
@@ -28,7 +28,7 @@
 </template>
 
 <script>
-import { defineComponent, computed } from 'vue';
+import { defineComponent, computed } from 'vue'
 
 export default defineComponent({
   name: 'NotesAuxCriteres',
@@ -36,34 +36,34 @@ export default defineComponent({
   props: {
     scores: {
       type: Object,
-      required: true
+      required: true,
     },
     type: {
       type: String,
       default: 'avant',
-      validator: (value) => ['avant', 'apres'].includes(value)
-    }
+      validator: (value) => ['avant', 'apres'].includes(value),
+    },
   },
 
   setup(props) {
     const pointsClass = computed(() => {
-      return props.type === 'avant' ? 'text-negative' : 'text-positive';
-    });
+      return props.type === 'avant' ? 'text-negative' : 'text-positive'
+    })
 
     const getNoteColor = (note) => {
-      if (!note) return 'grey';
-      if (note === 'A') return 'positive';
-      if (note === 'B') return 'info';
-      if (note === 'C') return 'warning';
-      return 'negative';
-    };
+      if (!note) return 'grey'
+      if (note === 'A') return 'positive'
+      if (note === 'B') return 'info'
+      if (note === 'C') return 'warning'
+      return 'negative'
+    }
 
     return {
       pointsClass,
-      getNoteColor
-    };
-  }
-});
+      getNoteColor,
+    }
+  },
+})
 </script>
 
 <style scoped>
