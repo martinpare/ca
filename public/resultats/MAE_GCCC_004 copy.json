@@ -1,0 +1,2112 @@
+{
+  "processedAt": "2025-12-10T14:06:27.213Z",
+  "configuration": {
+    "promptUtilise": "promptClaudeSimplifie",
+    "promptLabel": "Prompt Claude Simplifié (promptClaudeSimplifie)",
+    "nombrePasses": 2,
+    "modeleIA": "gemini",
+    "modeleIALabel": "Gemini"
+  },
+  "result": {
+    "fileName": "MAE_GCCC_004.txt",
+    "originalText": "Un pas en arrière, trois pas en avant!\r\n\r\nChers lecteurs,\r\n\r\nSelon le pyramide de Maslow, les éléments qu’on retrouve en bas de cette architecture, sont des besoins psychologiques essentiels à notre survie. En effet, l’être humain doit s’alimenter, dormir et se procurer des vêtements pour survivre, mais si un de ces trois éléments nous manque, quoi faire? Depuis des années, le gaspillage alimentaire est devenu une conséquence péjorative qu’il faut combattre. Selon moi, nous sommes prêts à lutter contre le gaspillage alimentaire. Nous vivons dans une génération où les technologies et la capacité humaine se développent rapidement.\r\n\r\nPremièrement, cher public, une solution pour lutter contre la perte de nourriture, est la diffusion des informations à l’aide des technologies actuelles. En effet, en informant les gens de notre problématique, on pourrait les proposer des solutions à court et à long terme, qui aidera la lutte contre le gaspillage alimentaire. Selon Florence-Léa Siry, experte en lutte contre le gaspillage alimentaire, elle stipule que 50% du perte alimentaire pourrait être évité à la maison si les consommateurs apprenaient à mieux conserver les aliments (Corriveau, 2020). Saviez-vous comment conserver, cher audience? Florence-Léa Siry suggère : « de garder hors du réfrigérateur les aliments non réfrigérés par le commerçant, de retirer les emballages qui causent un surplus d’humidité et de ne pas tailler les fruits et légumes trop à l’avance » (Simard, 2020). Semble-il être des tâches complexes? À mon avis, Je ne pense guère. Ce n’est pas trop tard pour commencer à conserver des aliments! Prolongon-nous la vie des aliments,  comme on veut prolonger notre alimentation pour les prochaines générations! Le simple fait de conserver des aliments pourrait éviter la perte de nourriture.\r\n\r\nDeuxièmement, cher lectorat, une autre solution de lutter contre le gaspillage alimentaire, est d’ouvrir nos yeux, ouvrir nos cinq sens et ouvrir notre conscience humanitaire. Nous devrions s’alimenter et consommer de manière éco-responsable. Grâce à de nombreux entreprises et organismes, ils utilisent des aliments restants pour faire d'autres aliments, afin d’éviter la perte de nourriture. Selon l’entreprise québécois Loop Mission, créée en 2016, il transforme des restes de fruits et de légumes en jus, en savon et en alcool, ce qui entraîne la hausse des vente de leur produits (Martinez, 2021). En se servant de notre créativité, nous pourrions transformer des aliments en surplus pour produire de la nourriture. De plus, il existe déjà quelques personnes qui redistribuent la nourriture aux personnes dans le besoin. Le chef cuisinier Jean-François Archambault affirme : « En 2018, plus de 600 000 repas ont été récupérés et redistribués » (Hébert, 2019). Est-il difficile d’aider les gens qui peuvent à peine s’alimenter? La coopération et l’entraide entre nous, nous permettrons de surpasser cette problématique. Rappelez-vous une chose, chers lecteurs et lectrices, avant de jeter la nourriture, pensez aux personnes qui seront bénis de les manger à votre place.\r\n\r\nEn conclusion, chers internautes, nous sommes prêts à lutter contre le gaspillage alimentaire. En effet, il faut tout simplement guider les personnes à mettre leur pas sur la bonne direction. Ceci est une guerre qu’on ne peut pas perdre, car il y a plusieurs vies qui seront en risque. Seul on avancera, mais ensemble on pourrait avancer plus loin, s’avancer vers un mon désirable!",
+    "erreursCritere4": [
+      {
+        "text": "architecture, sont",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "On ne met pas de virgule entre le groupe sujet (« les éléments qu’on retrouve en bas de cette architecture ») et le verbe.",
+        "suggestions": [
+          "architecture sont"
+        ],
+        "ruleApplied": "4.2.2.10.2.a"
+      },
+      {
+        "text": "une conséquence péjorative",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est boiteuse et crée un problème de sens. Le gaspillage n'est pas une « conséquence péjorative », mais plutôt un phénomène ou un fléau. Il faut reformuler pour que la phrase soit logique.",
+        "suggestions": [
+          "un fléau",
+          "un phénomène aux conséquences négatives"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": "nourriture, est",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "On ne met pas de virgule entre le groupe sujet (« une solution pour lutter contre la perte de nourriture ») et le verbe.",
+        "suggestions": [
+          "nourriture est"
+        ],
+        "ruleApplied": "4.2.2.10.2.a"
+      },
+      {
+        "text": "les proposer",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe « proposer » se construit avec un complément d'objet indirect (proposer à quelqu'un). Le pronom correspondant est « leur » et non « les ».",
+        "suggestions": [
+          "leur proposer"
+        ],
+        "ruleApplied": "4.1.2.3.1"
+      },
+      {
+        "text": "elle stipule",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction « Selon [quelqu'un], il/elle... » est une redondance. Le pronom « elle » est superflu.",
+        "suggestions": [
+          "stipule"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "conserver,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe « conserver » est transitif direct et requiert un complément d'objet. Il manque un pronom pour compléter le sens de la phrase.",
+        "suggestions": [
+          "les conserver,"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "suggère :",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "On ne met pas de deux-points entre un verbe et son complément, même pour introduire une citation qui n'est pas une phrase complète.",
+        "suggestions": [
+          "suggère"
+        ],
+        "ruleApplied": "4.2.2.7.2"
+      },
+      {
+        "text": "pense guère",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression « ne... guère » signifie « ne... pas beaucoup » ou « presque pas ». La phrase est incomplète, il manque un pronom pour reprendre l'idée précédente.",
+        "suggestions": [
+          "le pense guère"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "solution de lutter",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution « une solution » est généralement suivie de la préposition « pour » ou « à », et non « de », pour introduire un but.",
+        "suggestions": [
+          "solution pour lutter"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "alimentaire, est",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "On ne met pas de virgule entre le groupe sujet (« une autre solution de lutter contre le gaspillage alimentaire ») et le verbe.",
+        "suggestions": [
+          "alimentaire est"
+        ],
+        "ruleApplied": "4.2.2.10.2.a"
+      },
+      {
+        "text": "devrions s’alimenter",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le sujet du verbe pronominal « s'alimenter » est « Nous ». Le pronom réfléchi doit donc être de la même personne, soit « nous ».",
+        "suggestions": [
+          "devrions nous alimenter"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "text": "ils utilisent",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction « Grâce à [groupe nominal], il/elle/ils/elles... » est une redondance. Le pronom « ils » est superflu car il reprend le complément « de nombreux entreprises et organismes ».",
+        "suggestions": [
+          "utilisent"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "les manger",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom « les » reprend « la nourriture », qui est féminin singulier. Le pronom correct est donc « la ».",
+        "suggestions": [
+          "la manger"
+        ],
+        "ruleApplied": "4.1.2.3.1"
+      },
+      {
+        "text": "leur pas",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le déterminant possessif doit s'accorder avec le possesseur, « les personnes » (pluriel). De plus, le nom « pas » doit aussi être au pluriel. Il faut donc écrire « leurs pas ».",
+        "suggestions": [
+          "leurs pas"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "text": "sur la bonne direction",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "L'expression correcte est « dans la bonne direction ». Il s'agit d'une erreur de préposition. L'erreur est notée (S) car il y a déjà une erreur de syntaxe comptée dans cette phrase.",
+        "suggestions": [
+          "dans la bonne direction"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "À mon avis, Je ne pense guère",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression « À mon avis » et le verbe « je ne pense » expriment la même idée d'opinion, créant une redondance. Il faut choisir l'une des deux formulations.",
+        "suggestions": [
+          "Je ne pense guère.",
+          "À mon avis, ce n'est guère le cas."
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "seront en risque",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "L'expression « en risque » est un calque de l'anglais. On utilise plutôt « en danger », « en péril » ou « à risque ». Une erreur de syntaxe a déjà été comptabilisée dans cette phrase.",
+        "suggestions": [
+          "seront en danger",
+          "seront en péril",
+          "seront à risque"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "s’avancer",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe « s'avancer » est superflu et redondant avec l'expression « avancer plus loin » qui le précède.",
+        "suggestions": [
+          "avancer plus loin, vers un monde désirable!"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      }
+    ],
+    "scoreCritere4": {
+      "pointsPerdus": 14,
+      "note": "C"
+    },
+    "erreursCritere5": [
+      {
+        "text": "le pyramide",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « pyramide » est féminin. On doit donc utiliser le déterminant « la ».",
+        "suggestions": [
+          "la pyramide"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "psychologiques",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion entre les homophones lexicaux « psychologiques » et « physiologiques ». Dans le contexte de la pyramide de Maslow, les besoins à la base sont physiologiques (liés au corps) et non psychologiques (liés à l'esprit).",
+        "suggestions": [
+          "physiologiques"
+        ],
+        "ruleApplied": "5.2.2"
+      },
+      {
+        "text": "aidera",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom relatif « qui » a pour antécédent « des solutions », qui est au pluriel. Le verbe doit donc s'accorder à la 3e personne du pluriel.",
+        "suggestions": [
+          "aideront"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "du perte",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « perte » est féminin. On doit donc utiliser la préposition et le déterminant correspondants « de la ».",
+        "suggestions": [
+          "de la perte"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "évité",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « évité », employé avec l'auxiliaire « être », s'accorde en genre et en nombre avec le sujet « 50% du perte alimentaire » (dont le noyau est « perte », féminin singulier). Il faut donc l'écrire « évitée ».",
+        "suggestions": [
+          "évitée"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "cher audience",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « audience » est féminin. L'adjectif « cher » doit s'accorder en genre.",
+        "suggestions": [
+          "chère audience"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "Semble-il",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Dans une inversion verbe-pronom où le verbe se termine par une voyelle et le pronom commence par une voyelle, on doit ajouter un « t » euphonique entre les deux, lié par des traits d'union.",
+        "suggestions": [
+          "Semble-t-il"
+        ],
+        "ruleApplied": "5.2.1.9.3"
+      },
+      {
+        "text": "Je",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Une majuscule est requise seulement en début de phrase ou pour les noms propres. Le pronom « Je » est ici au milieu de la phrase et doit être en minuscule.",
+        "suggestions": [
+          "je"
+        ],
+        "ruleApplied": "5.3.6.1"
+      },
+      {
+        "text": "Prolongon-nous",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Barbarisme de conjugaison. La forme correcte de l'impératif présent à la première personne du pluriel pour le verbe « prolonger » est « prolongeons ».",
+        "suggestions": [
+          "Prolongeons-nous"
+        ],
+        "ruleApplied": "5.3.2.1"
+      },
+      {
+        "text": "nombreux entreprises",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « entreprises » est féminin pluriel. L'adjectif « nombreux » doit s'accorder en genre et en nombre avec ce nom.",
+        "suggestions": [
+          "nombreuses entreprises"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "québécois",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « entreprise » est féminin. L'adjectif « québécois » doit s'accorder en genre.",
+        "suggestions": [
+          "québécoise"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "il transforme",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom « il » reprend « l’entreprise », qui est un nom féminin. Le pronom de reprise doit être « elle ».",
+        "suggestions": [
+          "elle transforme"
+        ],
+        "ruleApplied": "5.3.1.4"
+      },
+      {
+        "text": "vente",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « vente » est complément du nom « hausse » et est introduit par le déterminant pluriel « des ». Il doit donc être au pluriel.",
+        "suggestions": [
+          "ventes"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "text": "leur produits",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant possessif s'accorde avec le possesseur, ici « l'entreprise » (singulier). Il faut donc utiliser « ses » qui s'accorde avec « produits » (pluriel).",
+        "suggestions": [
+          "ses produits"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "permettrons",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le sujet du verbe est « La coopération et l’entraide », ce qui correspond à la 3e personne du pluriel. La terminaison du futur simple est « -ont ».",
+        "suggestions": [
+          "permettront"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "bénis",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « bénis » est employé comme adjectif et s'accorde avec le nom qu'il qualifie, « personnes », qui est féminin pluriel.",
+        "suggestions": [
+          "bénies"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "mon",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Il manque des lettres dans le mot « monde ».",
+        "suggestions": [
+          "monde"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "Seul",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « Seul » mis en apostrophe doit s'accorder avec le pronom « on », qui représente ici un pluriel (« nous »). Il doit donc être au pluriel.",
+        "suggestions": [
+          "Seuls"
+        ],
+        "ruleApplied": "5.3.1.1"
+      }
+    ],
+    "scoreCritere5": {
+      "pointsPerdus": 18,
+      "note": "D"
+    },
+    "status": "success",
+    "startTimestamp": "2025-12-10T14:01:43.735Z",
+    "endTimestamp": "2025-12-10T14:06:27.212Z",
+    "durationMs": 283477,
+    "durationFormatted": "04:43:477",
+    "cumulParPasse": [
+      {
+        "passe": 1,
+        "erreursCritere4": [
+          {
+            "text": "architecture, sont",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "On ne met pas de virgule entre le groupe sujet (« les éléments qu’on retrouve en bas de cette architecture ») et le verbe.",
+            "suggestions": [
+              "architecture sont"
+            ],
+            "ruleApplied": "4.2.2.10.2.a"
+          },
+          {
+            "text": "une conséquence péjorative",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction de la phrase est boiteuse et crée un problème de sens. Le gaspillage n'est pas une « conséquence péjorative », mais plutôt un phénomène ou un fléau. Il faut reformuler pour que la phrase soit logique.",
+            "suggestions": [
+              "un fléau",
+              "un phénomène aux conséquences négatives"
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          },
+          {
+            "text": "nourriture, est",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "On ne met pas de virgule entre le groupe sujet (« une solution pour lutter contre la perte de nourriture ») et le verbe.",
+            "suggestions": [
+              "nourriture est"
+            ],
+            "ruleApplied": "4.2.2.10.2.a"
+          },
+          {
+            "text": "les proposer",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le verbe « proposer » se construit avec un complément d'objet indirect (proposer à quelqu'un). Le pronom correspondant est « leur » et non « les ».",
+            "suggestions": [
+              "leur proposer"
+            ],
+            "ruleApplied": "4.1.2.3.1"
+          },
+          {
+            "text": "elle stipule",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction « Selon [quelqu'un], il/elle... » est une redondance. Le pronom « elle » est superflu.",
+            "suggestions": [
+              "stipule"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "conserver,",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le verbe « conserver » est transitif direct et requiert un complément d'objet. Il manque un pronom pour compléter le sens de la phrase.",
+            "suggestions": [
+              "les conserver,"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "suggère :",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "On ne met pas de deux-points entre un verbe et son complément, même pour introduire une citation qui n'est pas une phrase complète.",
+            "suggestions": [
+              "suggère"
+            ],
+            "ruleApplied": "4.2.2.7.2"
+          },
+          {
+            "text": "pense guère",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'expression « ne... guère » signifie « ne... pas beaucoup » ou « presque pas ». La phrase est incomplète, il manque un pronom pour reprendre l'idée précédente.",
+            "suggestions": [
+              "le pense guère"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "solution de lutter",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La locution « une solution » est généralement suivie de la préposition « pour » ou « à », et non « de », pour introduire un but.",
+            "suggestions": [
+              "solution pour lutter"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "alimentaire, est",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "On ne met pas de virgule entre le groupe sujet (« une autre solution de lutter contre le gaspillage alimentaire ») et le verbe.",
+            "suggestions": [
+              "alimentaire est"
+            ],
+            "ruleApplied": "4.2.2.10.2.a"
+          },
+          {
+            "text": "devrions s’alimenter",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le sujet du verbe pronominal « s'alimenter » est « Nous ». Le pronom réfléchi doit donc être de la même personne, soit « nous ».",
+            "suggestions": [
+              "devrions nous alimenter"
+            ],
+            "ruleApplied": "4.1.2.3.2"
+          },
+          {
+            "text": "ils utilisent",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction « Grâce à [groupe nominal], il/elle/ils/elles... » est une redondance. Le pronom « ils » est superflu car il reprend le complément « de nombreux entreprises et organismes ».",
+            "suggestions": [
+              "utilisent"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "les manger",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le pronom « les » reprend « la nourriture », qui est féminin singulier. Le pronom correct est donc « la ».",
+            "suggestions": [
+              "la manger"
+            ],
+            "ruleApplied": "4.1.2.3.1"
+          },
+          {
+            "text": "leur pas",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le déterminant possessif doit s'accorder avec le possesseur, « les personnes » (pluriel). De plus, le nom « pas » doit aussi être au pluriel. Il faut donc écrire « leurs pas ».",
+            "suggestions": [
+              "leurs pas"
+            ],
+            "ruleApplied": "4.1.2.3.2"
+          },
+          {
+            "text": "sur la bonne direction",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "L'expression correcte est « dans la bonne direction ». Il s'agit d'une erreur de préposition. L'erreur est notée (S) car il y a déjà une erreur de syntaxe comptée dans cette phrase.",
+            "suggestions": [
+              "dans la bonne direction"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "en risque",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'expression « en risque » n'est pas idiomatique en français. On utilise plutôt « en jeu », « en péril » ou « menacées ».",
+            "suggestions": [
+              "en jeu",
+              "en péril"
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "le pyramide",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom « pyramide » est féminin. On doit donc utiliser le déterminant « la ».",
+            "suggestions": [
+              "la pyramide"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "psychologiques",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Confusion entre les homophones lexicaux « psychologiques » et « physiologiques ». Dans le contexte de la pyramide de Maslow, les besoins à la base sont physiologiques (liés au corps) et non psychologiques (liés à l'esprit).",
+            "suggestions": [
+              "physiologiques"
+            ],
+            "ruleApplied": "5.2.2"
+          },
+          {
+            "text": "aidera",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le pronom relatif « qui » a pour antécédent « des solutions », qui est au pluriel. Le verbe doit donc s'accorder à la 3e personne du pluriel.",
+            "suggestions": [
+              "aideront"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "du perte",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom « perte » est féminin. On doit donc utiliser la préposition et le déterminant correspondants « de la ».",
+            "suggestions": [
+              "de la perte"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "évité",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé « évité », employé avec l'auxiliaire « être », s'accorde en genre et en nombre avec le sujet « 50% du perte alimentaire » (dont le noyau est « perte », féminin singulier). Il faut donc l'écrire « évitée ».",
+            "suggestions": [
+              "évitée"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "cher audience",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom « audience » est féminin. L'adjectif « cher » doit s'accorder en genre.",
+            "suggestions": [
+              "chère audience"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "Semble-il",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Dans une inversion verbe-pronom où le verbe se termine par une voyelle et le pronom commence par une voyelle, on doit ajouter un « t » euphonique entre les deux, lié par des traits d'union.",
+            "suggestions": [
+              "Semble-t-il"
+            ],
+            "ruleApplied": "5.2.1.9.3"
+          },
+          {
+            "text": "Je",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Une majuscule est requise seulement en début de phrase ou pour les noms propres. Le pronom « Je » est ici au milieu de la phrase et doit être en minuscule.",
+            "suggestions": [
+              "je"
+            ],
+            "ruleApplied": "5.3.6.1"
+          },
+          {
+            "text": "Prolongon-nous",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Barbarisme de conjugaison. La forme correcte de l'impératif présent à la première personne du pluriel pour le verbe « prolonger » est « prolongeons ».",
+            "suggestions": [
+              "Prolongeons-nous"
+            ],
+            "ruleApplied": "5.3.2.1"
+          },
+          {
+            "text": "nombreux entreprises",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom « entreprises » est féminin pluriel. L'adjectif « nombreux » doit s'accorder en genre et en nombre avec ce nom.",
+            "suggestions": [
+              "nombreuses entreprises"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "québécois",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom « entreprise » est féminin. L'adjectif « québécois » doit s'accorder en genre.",
+            "suggestions": [
+              "québécoise"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "il transforme",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le pronom « il » reprend « l’entreprise », qui est un nom féminin. Le pronom de reprise doit être « elle ».",
+            "suggestions": [
+              "elle transforme"
+            ],
+            "ruleApplied": "5.3.1.4"
+          },
+          {
+            "text": "vente",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom « vente » est complément du nom « hausse » et est introduit par le déterminant pluriel « des ». Il doit donc être au pluriel.",
+            "suggestions": [
+              "ventes"
+            ],
+            "ruleApplied": "5.3.1.5"
+          },
+          {
+            "text": "leur produits",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le déterminant possessif s'accorde avec le possesseur, ici « l'entreprise » (singulier). Il faut donc utiliser « ses » qui s'accorde avec « produits » (pluriel).",
+            "suggestions": [
+              "ses produits"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "permettrons",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le sujet du verbe est « La coopération et l’entraide », ce qui correspond à la 3e personne du pluriel. La terminaison du futur simple est « -ont ».",
+            "suggestions": [
+              "permettront"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "bénis",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé « bénis » est employé comme adjectif et s'accorde avec le nom qu'il qualifie, « personnes », qui est féminin pluriel.",
+            "suggestions": [
+              "bénies"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "mon",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Il manque des lettres dans le mot « monde ».",
+            "suggestions": [
+              "monde"
+            ],
+            "ruleApplied": "5.2.1.3"
+          }
+        ],
+        "totalErreursCritere4": 16,
+        "totalErreursCritere5": 17,
+        "scoreCritere4": {
+          "pointsPerdus": 13,
+          "note": "C"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 17,
+          "note": "D"
+        }
+      },
+      {
+        "passe": 2,
+        "erreursCritere4": [
+          {
+            "text": "architecture, sont",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "On ne met pas de virgule entre le groupe sujet (« les éléments qu’on retrouve en bas de cette architecture ») et le verbe.",
+            "suggestions": [
+              "architecture sont"
+            ],
+            "ruleApplied": "4.2.2.10.2.a"
+          },
+          {
+            "text": "une conséquence péjorative",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction de la phrase est boiteuse et crée un problème de sens. Le gaspillage n'est pas une « conséquence péjorative », mais plutôt un phénomène ou un fléau. Il faut reformuler pour que la phrase soit logique.",
+            "suggestions": [
+              "un fléau",
+              "un phénomène aux conséquences négatives"
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          },
+          {
+            "text": "nourriture, est",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "On ne met pas de virgule entre le groupe sujet (« une solution pour lutter contre la perte de nourriture ») et le verbe.",
+            "suggestions": [
+              "nourriture est"
+            ],
+            "ruleApplied": "4.2.2.10.2.a"
+          },
+          {
+            "text": "les proposer",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le verbe « proposer » se construit avec un complément d'objet indirect (proposer à quelqu'un). Le pronom correspondant est « leur » et non « les ».",
+            "suggestions": [
+              "leur proposer"
+            ],
+            "ruleApplied": "4.1.2.3.1"
+          },
+          {
+            "text": "elle stipule",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction « Selon [quelqu'un], il/elle... » est une redondance. Le pronom « elle » est superflu.",
+            "suggestions": [
+              "stipule"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "conserver,",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le verbe « conserver » est transitif direct et requiert un complément d'objet. Il manque un pronom pour compléter le sens de la phrase.",
+            "suggestions": [
+              "les conserver,"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "suggère :",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "On ne met pas de deux-points entre un verbe et son complément, même pour introduire une citation qui n'est pas une phrase complète.",
+            "suggestions": [
+              "suggère"
+            ],
+            "ruleApplied": "4.2.2.7.2"
+          },
+          {
+            "text": "pense guère",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'expression « ne... guère » signifie « ne... pas beaucoup » ou « presque pas ». La phrase est incomplète, il manque un pronom pour reprendre l'idée précédente.",
+            "suggestions": [
+              "le pense guère"
+            ],
+            "ruleApplied": "4.1.2.1.1"
+          },
+          {
+            "text": "solution de lutter",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La locution « une solution » est généralement suivie de la préposition « pour » ou « à », et non « de », pour introduire un but.",
+            "suggestions": [
+              "solution pour lutter"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "alimentaire, est",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "On ne met pas de virgule entre le groupe sujet (« une autre solution de lutter contre le gaspillage alimentaire ») et le verbe.",
+            "suggestions": [
+              "alimentaire est"
+            ],
+            "ruleApplied": "4.2.2.10.2.a"
+          },
+          {
+            "text": "devrions s’alimenter",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le sujet du verbe pronominal « s'alimenter » est « Nous ». Le pronom réfléchi doit donc être de la même personne, soit « nous ».",
+            "suggestions": [
+              "devrions nous alimenter"
+            ],
+            "ruleApplied": "4.1.2.3.2"
+          },
+          {
+            "text": "ils utilisent",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La construction « Grâce à [groupe nominal], il/elle/ils/elles... » est une redondance. Le pronom « ils » est superflu car il reprend le complément « de nombreux entreprises et organismes ».",
+            "suggestions": [
+              "utilisent"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "les manger",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le pronom « les » reprend « la nourriture », qui est féminin singulier. Le pronom correct est donc « la ».",
+            "suggestions": [
+              "la manger"
+            ],
+            "ruleApplied": "4.1.2.3.1"
+          },
+          {
+            "text": "leur pas",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le déterminant possessif doit s'accorder avec le possesseur, « les personnes » (pluriel). De plus, le nom « pas » doit aussi être au pluriel. Il faut donc écrire « leurs pas ».",
+            "suggestions": [
+              "leurs pas"
+            ],
+            "ruleApplied": "4.1.2.3.2"
+          },
+          {
+            "text": "sur la bonne direction",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "L'expression correcte est « dans la bonne direction ». Il s'agit d'une erreur de préposition. L'erreur est notée (S) car il y a déjà une erreur de syntaxe comptée dans cette phrase.",
+            "suggestions": [
+              "dans la bonne direction"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "en risque",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'expression « en risque » n'est pas idiomatique en français. On utilise plutôt « en jeu », « en péril » ou « menacées ».",
+            "suggestions": [
+              "en jeu",
+              "en péril"
+            ],
+            "ruleApplied": "4.1.2.1.6"
+          },
+          {
+            "text": "architecture,",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Une virgule ne doit pas séparer le groupe sujet du verbe. Le sujet est « les éléments qu’on retrouve en bas de cette architecture » et le verbe est « sont ».",
+            "suggestions": [
+              "architecture sont"
+            ],
+            "ruleApplied": "4.2.2.10.2.a"
+          },
+          {
+            "text": "nourriture,",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Une virgule ne doit pas séparer le groupe sujet du verbe. Le sujet est « une solution pour lutter contre la perte de nourriture » et le verbe est « est ».",
+            "suggestions": [
+              "nourriture est"
+            ],
+            "ruleApplied": "4.2.2.10.2.a"
+          },
+          {
+            "text": "À mon avis, Je ne pense guère",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "L'expression « À mon avis » et le verbe « je ne pense » expriment la même idée d'opinion, créant une redondance. Il faut choisir l'une des deux formulations.",
+            "suggestions": [
+              "Je ne pense guère.",
+              "À mon avis, ce n'est guère le cas."
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          },
+          {
+            "text": "alimentaire,",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "P",
+            "description": "Une virgule ne doit pas séparer le groupe sujet du verbe. Le sujet est « une autre solution de lutter contre le gaspillage alimentaire » et le verbe est « est ».",
+            "suggestions": [
+              "alimentaire est"
+            ],
+            "ruleApplied": "4.2.2.10.2.a"
+          },
+          {
+            "text": "s’alimenter",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le pronom réfléchi doit s'accorder avec le sujet « Nous ». Il faut utiliser « nous » et non « s' ».",
+            "suggestions": [
+              "nous alimenter"
+            ],
+            "ruleApplied": "4.1.2.3.2"
+          },
+          {
+            "text": "sur la bonne direction",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "La préposition « sur » est incorrecte dans cette expression. On dit « dans la bonne direction ».",
+            "suggestions": [
+              "dans la bonne direction"
+            ],
+            "ruleApplied": "4.1.2.4.1"
+          },
+          {
+            "text": "seront en risque",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "(S)",
+            "description": "L'expression « en risque » est un calque de l'anglais. On utilise plutôt « en danger », « en péril » ou « à risque ». Une erreur de syntaxe a déjà été comptabilisée dans cette phrase.",
+            "suggestions": [
+              "seront en danger",
+              "seront en péril",
+              "seront à risque"
+            ],
+            "ruleApplied": "4.1.2.4.4"
+          },
+          {
+            "text": "s’avancer",
+            "occurenceIndex": 0,
+            "criteria": 4,
+            "type": "S",
+            "description": "Le verbe « s'avancer » est superflu et redondant avec l'expression « avancer plus loin » qui le précède.",
+            "suggestions": [
+              "avancer plus loin, vers un monde désirable!"
+            ],
+            "ruleApplied": "4.1.2.1.2"
+          }
+        ],
+        "erreursCritere5": [
+          {
+            "text": "le pyramide",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom « pyramide » est féminin. On doit donc utiliser le déterminant « la ».",
+            "suggestions": [
+              "la pyramide"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "psychologiques",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Confusion entre les homophones lexicaux « psychologiques » et « physiologiques ». Dans le contexte de la pyramide de Maslow, les besoins à la base sont physiologiques (liés au corps) et non psychologiques (liés à l'esprit).",
+            "suggestions": [
+              "physiologiques"
+            ],
+            "ruleApplied": "5.2.2"
+          },
+          {
+            "text": "aidera",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le pronom relatif « qui » a pour antécédent « des solutions », qui est au pluriel. Le verbe doit donc s'accorder à la 3e personne du pluriel.",
+            "suggestions": [
+              "aideront"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "du perte",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom « perte » est féminin. On doit donc utiliser la préposition et le déterminant correspondants « de la ».",
+            "suggestions": [
+              "de la perte"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "évité",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé « évité », employé avec l'auxiliaire « être », s'accorde en genre et en nombre avec le sujet « 50% du perte alimentaire » (dont le noyau est « perte », féminin singulier). Il faut donc l'écrire « évitée ».",
+            "suggestions": [
+              "évitée"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "cher audience",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom « audience » est féminin. L'adjectif « cher » doit s'accorder en genre.",
+            "suggestions": [
+              "chère audience"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "Semble-il",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Dans une inversion verbe-pronom où le verbe se termine par une voyelle et le pronom commence par une voyelle, on doit ajouter un « t » euphonique entre les deux, lié par des traits d'union.",
+            "suggestions": [
+              "Semble-t-il"
+            ],
+            "ruleApplied": "5.2.1.9.3"
+          },
+          {
+            "text": "Je",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Une majuscule est requise seulement en début de phrase ou pour les noms propres. Le pronom « Je » est ici au milieu de la phrase et doit être en minuscule.",
+            "suggestions": [
+              "je"
+            ],
+            "ruleApplied": "5.3.6.1"
+          },
+          {
+            "text": "Prolongon-nous",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Barbarisme de conjugaison. La forme correcte de l'impératif présent à la première personne du pluriel pour le verbe « prolonger » est « prolongeons ».",
+            "suggestions": [
+              "Prolongeons-nous"
+            ],
+            "ruleApplied": "5.3.2.1"
+          },
+          {
+            "text": "nombreux entreprises",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom « entreprises » est féminin pluriel. L'adjectif « nombreux » doit s'accorder en genre et en nombre avec ce nom.",
+            "suggestions": [
+              "nombreuses entreprises"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "québécois",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom « entreprise » est féminin. L'adjectif « québécois » doit s'accorder en genre.",
+            "suggestions": [
+              "québécoise"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "il transforme",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le pronom « il » reprend « l’entreprise », qui est un nom féminin. Le pronom de reprise doit être « elle ».",
+            "suggestions": [
+              "elle transforme"
+            ],
+            "ruleApplied": "5.3.1.4"
+          },
+          {
+            "text": "vente",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le nom « vente » est complément du nom « hausse » et est introduit par le déterminant pluriel « des ». Il doit donc être au pluriel.",
+            "suggestions": [
+              "ventes"
+            ],
+            "ruleApplied": "5.3.1.5"
+          },
+          {
+            "text": "leur produits",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le déterminant possessif s'accorde avec le possesseur, ici « l'entreprise » (singulier). Il faut donc utiliser « ses » qui s'accorde avec « produits » (pluriel).",
+            "suggestions": [
+              "ses produits"
+            ],
+            "ruleApplied": "5.3.1.1"
+          },
+          {
+            "text": "permettrons",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le sujet du verbe est « La coopération et l’entraide », ce qui correspond à la 3e personne du pluriel. La terminaison du futur simple est « -ont ».",
+            "suggestions": [
+              "permettront"
+            ],
+            "ruleApplied": "5.3.2.2"
+          },
+          {
+            "text": "bénis",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "Le participe passé « bénis » est employé comme adjectif et s'accorde avec le nom qu'il qualifie, « personnes », qui est féminin pluriel.",
+            "suggestions": [
+              "bénies"
+            ],
+            "ruleApplied": "5.3.2.3"
+          },
+          {
+            "text": "mon",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "U",
+            "description": "Il manque des lettres dans le mot « monde ».",
+            "suggestions": [
+              "monde"
+            ],
+            "ruleApplied": "5.2.1.3"
+          },
+          {
+            "text": "Seul",
+            "occurenceIndex": 0,
+            "criteria": 5,
+            "type": "G",
+            "description": "L'adjectif « Seul » mis en apostrophe doit s'accorder avec le pronom « on », qui représente ici un pluriel (« nous »). Il doit donc être au pluriel.",
+            "suggestions": [
+              "Seuls"
+            ],
+            "ruleApplied": "5.3.1.1"
+          }
+        ],
+        "totalErreursCritere4": 24,
+        "totalErreursCritere5": 18,
+        "scoreCritere4": {
+          "pointsPerdus": 18.5,
+          "note": "E"
+        },
+        "scoreCritere5": {
+          "pointsPerdus": 18,
+          "note": "D"
+        }
+      }
+    ],
+    "erreursCritere4AvantAnalyseIA": [
+      {
+        "text": "architecture, sont",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "On ne met pas de virgule entre le groupe sujet (« les éléments qu’on retrouve en bas de cette architecture ») et le verbe.",
+        "suggestions": [
+          "architecture sont"
+        ],
+        "ruleApplied": "4.2.2.10.2.a"
+      },
+      {
+        "text": "une conséquence péjorative",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction de la phrase est boiteuse et crée un problème de sens. Le gaspillage n'est pas une « conséquence péjorative », mais plutôt un phénomène ou un fléau. Il faut reformuler pour que la phrase soit logique.",
+        "suggestions": [
+          "un fléau",
+          "un phénomène aux conséquences négatives"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": "nourriture, est",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "On ne met pas de virgule entre le groupe sujet (« une solution pour lutter contre la perte de nourriture ») et le verbe.",
+        "suggestions": [
+          "nourriture est"
+        ],
+        "ruleApplied": "4.2.2.10.2.a"
+      },
+      {
+        "text": "les proposer",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe « proposer » se construit avec un complément d'objet indirect (proposer à quelqu'un). Le pronom correspondant est « leur » et non « les ».",
+        "suggestions": [
+          "leur proposer"
+        ],
+        "ruleApplied": "4.1.2.3.1"
+      },
+      {
+        "text": "elle stipule",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction « Selon [quelqu'un], il/elle... » est une redondance. Le pronom « elle » est superflu.",
+        "suggestions": [
+          "stipule"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "conserver,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe « conserver » est transitif direct et requiert un complément d'objet. Il manque un pronom pour compléter le sens de la phrase.",
+        "suggestions": [
+          "les conserver,"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "suggère :",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "On ne met pas de deux-points entre un verbe et son complément, même pour introduire une citation qui n'est pas une phrase complète.",
+        "suggestions": [
+          "suggère"
+        ],
+        "ruleApplied": "4.2.2.7.2"
+      },
+      {
+        "text": "pense guère",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression « ne... guère » signifie « ne... pas beaucoup » ou « presque pas ». La phrase est incomplète, il manque un pronom pour reprendre l'idée précédente.",
+        "suggestions": [
+          "le pense guère"
+        ],
+        "ruleApplied": "4.1.2.1.1"
+      },
+      {
+        "text": "solution de lutter",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La locution « une solution » est généralement suivie de la préposition « pour » ou « à », et non « de », pour introduire un but.",
+        "suggestions": [
+          "solution pour lutter"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "alimentaire, est",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "On ne met pas de virgule entre le groupe sujet (« une autre solution de lutter contre le gaspillage alimentaire ») et le verbe.",
+        "suggestions": [
+          "alimentaire est"
+        ],
+        "ruleApplied": "4.2.2.10.2.a"
+      },
+      {
+        "text": "devrions s’alimenter",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le sujet du verbe pronominal « s'alimenter » est « Nous ». Le pronom réfléchi doit donc être de la même personne, soit « nous ».",
+        "suggestions": [
+          "devrions nous alimenter"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "text": "ils utilisent",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La construction « Grâce à [groupe nominal], il/elle/ils/elles... » est une redondance. Le pronom « ils » est superflu car il reprend le complément « de nombreux entreprises et organismes ».",
+        "suggestions": [
+          "utilisent"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "les manger",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom « les » reprend « la nourriture », qui est féminin singulier. Le pronom correct est donc « la ».",
+        "suggestions": [
+          "la manger"
+        ],
+        "ruleApplied": "4.1.2.3.1"
+      },
+      {
+        "text": "leur pas",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le déterminant possessif doit s'accorder avec le possesseur, « les personnes » (pluriel). De plus, le nom « pas » doit aussi être au pluriel. Il faut donc écrire « leurs pas ».",
+        "suggestions": [
+          "leurs pas"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "text": "sur la bonne direction",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "L'expression correcte est « dans la bonne direction ». Il s'agit d'une erreur de préposition. L'erreur est notée (S) car il y a déjà une erreur de syntaxe comptée dans cette phrase.",
+        "suggestions": [
+          "dans la bonne direction"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "en risque",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression « en risque » n'est pas idiomatique en français. On utilise plutôt « en jeu », « en péril » ou « menacées ».",
+        "suggestions": [
+          "en jeu",
+          "en péril"
+        ],
+        "ruleApplied": "4.1.2.1.6"
+      },
+      {
+        "text": "architecture,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule ne doit pas séparer le groupe sujet du verbe. Le sujet est « les éléments qu’on retrouve en bas de cette architecture » et le verbe est « sont ».",
+        "suggestions": [
+          "architecture sont"
+        ],
+        "ruleApplied": "4.2.2.10.2.a"
+      },
+      {
+        "text": "nourriture,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule ne doit pas séparer le groupe sujet du verbe. Le sujet est « une solution pour lutter contre la perte de nourriture » et le verbe est « est ».",
+        "suggestions": [
+          "nourriture est"
+        ],
+        "ruleApplied": "4.2.2.10.2.a"
+      },
+      {
+        "text": "À mon avis, Je ne pense guère",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "L'expression « À mon avis » et le verbe « je ne pense » expriment la même idée d'opinion, créant une redondance. Il faut choisir l'une des deux formulations.",
+        "suggestions": [
+          "Je ne pense guère.",
+          "À mon avis, ce n'est guère le cas."
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      },
+      {
+        "text": "alimentaire,",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "P",
+        "description": "Une virgule ne doit pas séparer le groupe sujet du verbe. Le sujet est « une autre solution de lutter contre le gaspillage alimentaire » et le verbe est « est ».",
+        "suggestions": [
+          "alimentaire est"
+        ],
+        "ruleApplied": "4.2.2.10.2.a"
+      },
+      {
+        "text": "s’alimenter",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le pronom réfléchi doit s'accorder avec le sujet « Nous ». Il faut utiliser « nous » et non « s' ».",
+        "suggestions": [
+          "nous alimenter"
+        ],
+        "ruleApplied": "4.1.2.3.2"
+      },
+      {
+        "text": "sur la bonne direction",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "La préposition « sur » est incorrecte dans cette expression. On dit « dans la bonne direction ».",
+        "suggestions": [
+          "dans la bonne direction"
+        ],
+        "ruleApplied": "4.1.2.4.1"
+      },
+      {
+        "text": "seront en risque",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "(S)",
+        "description": "L'expression « en risque » est un calque de l'anglais. On utilise plutôt « en danger », « en péril » ou « à risque ». Une erreur de syntaxe a déjà été comptabilisée dans cette phrase.",
+        "suggestions": [
+          "seront en danger",
+          "seront en péril",
+          "seront à risque"
+        ],
+        "ruleApplied": "4.1.2.4.4"
+      },
+      {
+        "text": "s’avancer",
+        "occurenceIndex": 0,
+        "criteria": 4,
+        "type": "S",
+        "description": "Le verbe « s'avancer » est superflu et redondant avec l'expression « avancer plus loin » qui le précède.",
+        "suggestions": [
+          "avancer plus loin, vers un monde désirable!"
+        ],
+        "ruleApplied": "4.1.2.1.2"
+      }
+    ],
+    "erreursCritere5AvantAnalyseIA": [
+      {
+        "text": "le pyramide",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « pyramide » est féminin. On doit donc utiliser le déterminant « la ».",
+        "suggestions": [
+          "la pyramide"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "psychologiques",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Confusion entre les homophones lexicaux « psychologiques » et « physiologiques ». Dans le contexte de la pyramide de Maslow, les besoins à la base sont physiologiques (liés au corps) et non psychologiques (liés à l'esprit).",
+        "suggestions": [
+          "physiologiques"
+        ],
+        "ruleApplied": "5.2.2"
+      },
+      {
+        "text": "aidera",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom relatif « qui » a pour antécédent « des solutions », qui est au pluriel. Le verbe doit donc s'accorder à la 3e personne du pluriel.",
+        "suggestions": [
+          "aideront"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "du perte",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « perte » est féminin. On doit donc utiliser la préposition et le déterminant correspondants « de la ».",
+        "suggestions": [
+          "de la perte"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "évité",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « évité », employé avec l'auxiliaire « être », s'accorde en genre et en nombre avec le sujet « 50% du perte alimentaire » (dont le noyau est « perte », féminin singulier). Il faut donc l'écrire « évitée ».",
+        "suggestions": [
+          "évitée"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "cher audience",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « audience » est féminin. L'adjectif « cher » doit s'accorder en genre.",
+        "suggestions": [
+          "chère audience"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "Semble-il",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Dans une inversion verbe-pronom où le verbe se termine par une voyelle et le pronom commence par une voyelle, on doit ajouter un « t » euphonique entre les deux, lié par des traits d'union.",
+        "suggestions": [
+          "Semble-t-il"
+        ],
+        "ruleApplied": "5.2.1.9.3"
+      },
+      {
+        "text": "Je",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Une majuscule est requise seulement en début de phrase ou pour les noms propres. Le pronom « Je » est ici au milieu de la phrase et doit être en minuscule.",
+        "suggestions": [
+          "je"
+        ],
+        "ruleApplied": "5.3.6.1"
+      },
+      {
+        "text": "Prolongon-nous",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Barbarisme de conjugaison. La forme correcte de l'impératif présent à la première personne du pluriel pour le verbe « prolonger » est « prolongeons ».",
+        "suggestions": [
+          "Prolongeons-nous"
+        ],
+        "ruleApplied": "5.3.2.1"
+      },
+      {
+        "text": "nombreux entreprises",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « entreprises » est féminin pluriel. L'adjectif « nombreux » doit s'accorder en genre et en nombre avec ce nom.",
+        "suggestions": [
+          "nombreuses entreprises"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "québécois",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « entreprise » est féminin. L'adjectif « québécois » doit s'accorder en genre.",
+        "suggestions": [
+          "québécoise"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "il transforme",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le pronom « il » reprend « l’entreprise », qui est un nom féminin. Le pronom de reprise doit être « elle ».",
+        "suggestions": [
+          "elle transforme"
+        ],
+        "ruleApplied": "5.3.1.4"
+      },
+      {
+        "text": "vente",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le nom « vente » est complément du nom « hausse » et est introduit par le déterminant pluriel « des ». Il doit donc être au pluriel.",
+        "suggestions": [
+          "ventes"
+        ],
+        "ruleApplied": "5.3.1.5"
+      },
+      {
+        "text": "leur produits",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le déterminant possessif s'accorde avec le possesseur, ici « l'entreprise » (singulier). Il faut donc utiliser « ses » qui s'accorde avec « produits » (pluriel).",
+        "suggestions": [
+          "ses produits"
+        ],
+        "ruleApplied": "5.3.1.1"
+      },
+      {
+        "text": "permettrons",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le sujet du verbe est « La coopération et l’entraide », ce qui correspond à la 3e personne du pluriel. La terminaison du futur simple est « -ont ».",
+        "suggestions": [
+          "permettront"
+        ],
+        "ruleApplied": "5.3.2.2"
+      },
+      {
+        "text": "bénis",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "Le participe passé « bénis » est employé comme adjectif et s'accorde avec le nom qu'il qualifie, « personnes », qui est féminin pluriel.",
+        "suggestions": [
+          "bénies"
+        ],
+        "ruleApplied": "5.3.2.3"
+      },
+      {
+        "text": "mon",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "U",
+        "description": "Il manque des lettres dans le mot « monde ».",
+        "suggestions": [
+          "monde"
+        ],
+        "ruleApplied": "5.2.1.3"
+      },
+      {
+        "text": "Seul",
+        "occurenceIndex": 0,
+        "criteria": 5,
+        "type": "G",
+        "description": "L'adjectif « Seul » mis en apostrophe doit s'accorder avec le pronom « on », qui représente ici un pluriel (« nous »). Il doit donc être au pluriel.",
+        "suggestions": [
+          "Seuls"
+        ],
+        "ruleApplied": "5.3.1.1"
+      }
+    ],
+    "analyseIADuplicatas": {
+      "critere4": {
+        "analyse": {
+          "totalErreursCritere4": 24,
+          "totalErreursCritere5": 0,
+          "duplicatasCritere4": 6,
+          "duplicatasCritere5": 0
+        },
+        "duplicatasCritere4": [
+          {
+            "groupe": 1,
+            "confiance": 95,
+            "raison": "Même erreur de ponctuation (virgule sujet/verbe) au même emplacement. Le texte d'une erreur est inclus dans l'autre.",
+            "erreurs": [
+              {
+                "index": 0,
+                "text": "architecture, sont",
+                "garder": true
+              },
+              {
+                "index": 16,
+                "text": "architecture,",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 2,
+            "confiance": 95,
+            "raison": "Même erreur de ponctuation (virgule sujet/verbe) au même emplacement. Le texte d'une erreur est inclus dans l'autre.",
+            "erreurs": [
+              {
+                "index": 2,
+                "text": "nourriture, est",
+                "garder": true
+              },
+              {
+                "index": 17,
+                "text": "nourriture,",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 3,
+            "confiance": 95,
+            "raison": "Même erreur de ponctuation (virgule sujet/verbe) au même emplacement. Le texte d'une erreur est inclus dans l'autre.",
+            "erreurs": [
+              {
+                "index": 9,
+                "text": "alimentaire, est",
+                "garder": true
+              },
+              {
+                "index": 19,
+                "text": "alimentaire,",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 4,
+            "confiance": 95,
+            "raison": "Même erreur d'accord du pronom réfléchi. Le texte d'une erreur est inclus dans l'autre.",
+            "erreurs": [
+              {
+                "index": 10,
+                "text": "devrions s’alimenter",
+                "garder": true
+              },
+              {
+                "index": 20,
+                "text": "s’alimenter",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 5,
+            "confiance": 100,
+            "raison": "Texte et erreur de préposition identiques, détectés deux fois.",
+            "erreurs": [
+              {
+                "index": 14,
+                "text": "sur la bonne direction",
+                "garder": true
+              },
+              {
+                "index": 21,
+                "text": "sur la bonne direction",
+                "garder": false
+              }
+            ]
+          },
+          {
+            "groupe": 6,
+            "confiance": 90,
+            "raison": "Même expression non idiomatique ('en risque') identifiée. Le texte d'une erreur est inclus dans l'autre.",
+            "erreurs": [
+              {
+                "index": 22,
+                "text": "seront en risque",
+                "garder": true
+              },
+              {
+                "index": 15,
+                "text": "en risque",
+                "garder": false
+              }
+            ]
+          }
+        ],
+        "duplicatasCritere5": [],
+        "erreursUniquesCritere4": [
+          {
+            "index": 1,
+            "text": "une conséquence péjorative",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 3,
+            "text": "les proposer",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 4,
+            "text": "elle stipule",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 5,
+            "text": "conserver,",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 6,
+            "text": "suggère :",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 7,
+            "text": "pense guère",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 8,
+            "text": "solution de lutter",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 11,
+            "text": "ils utilisent",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 12,
+            "text": "les manger",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 13,
+            "text": "leur pas",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 18,
+            "text": "À mon avis, Je ne pense guère",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 23,
+            "text": "s’avancer",
+            "raison": "Aucun duplicata trouvé"
+          }
+        ],
+        "erreursUniquesCritere5": [],
+        "recommandations": {
+          "erreursAConserverCritere4": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            18,
+            22,
+            23
+          ],
+          "erreursAConserverCritere5": [],
+          "erreursASupprimer": {
+            "critere4": [
+              15,
+              16,
+              17,
+              19,
+              20,
+              21
+            ],
+            "critere5": []
+          }
+        }
+      },
+      "critere5": {
+        "analyse": {
+          "totalErreursCritere4": 0,
+          "totalErreursCritere5": 18,
+          "duplicatasCritere4": 0,
+          "duplicatasCritere5": 0
+        },
+        "duplicatasCritere4": [],
+        "duplicatasCritere5": [],
+        "erreursUniquesCritere4": [],
+        "erreursUniquesCritere5": [
+          {
+            "index": 0,
+            "text": "le pyramide",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 1,
+            "text": "psychologiques",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 2,
+            "text": "aidera",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 3,
+            "text": "du perte",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 4,
+            "text": "évité",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 5,
+            "text": "cher audience",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 6,
+            "text": "Semble-il",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 7,
+            "text": "Je",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 8,
+            "text": "Prolongon-nous",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 9,
+            "text": "nombreux entreprises",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 10,
+            "text": "québécois",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 11,
+            "text": "il transforme",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 12,
+            "text": "vente",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 13,
+            "text": "leur produits",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 14,
+            "text": "permettrons",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 15,
+            "text": "bénis",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 16,
+            "text": "mon",
+            "raison": "Aucun duplicata trouvé"
+          },
+          {
+            "index": 17,
+            "text": "Seul",
+            "raison": "Aucun duplicata trouvé"
+          }
+        ],
+        "recommandations": {
+          "erreursAConserverCritere4": [],
+          "erreursAConserverCritere5": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "erreursASupprimer": {
+            "critere4": [],
+            "critere5": []
+          }
+        }
+      }
+    }
+  }
+}

@@ -847,10 +847,17 @@ export default defineComponent({
 
         // Remonter le scroll à 0 après le rendu du contenu
         await nextTick()
-        const scrollContainer = document.querySelector('.document-container')
-        if (scrollContainer) {
-          scrollContainer.scrollTop = 0
-        }
+        setTimeout(() => {
+          const scrollContainer = document.querySelector('.document-container')
+          if (scrollContainer) {
+            scrollContainer.scrollTo({ top: 0, behavior: 'instant' })
+          }
+          // Aussi scroller la page au début
+          const docPage = document.querySelector('.document-page')
+          if (docPage) {
+            docPage.scrollIntoView({ block: 'start', behavior: 'instant' })
+          }
+        }, 150)
 
         // Afficher une notification
         $q.notify({

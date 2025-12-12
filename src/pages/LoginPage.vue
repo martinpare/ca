@@ -7,7 +7,7 @@
         <div class="">
           <q-img src="/images/CorrectionStudio.png" width="250px"></q-img>
         </div>
-        <h1 class="brand-title">Module de correction assisté</h1>
+        <h1 class="brand-title">Module de correction assistée</h1>
         <p class="brand-description">
           Cette preuve de concept vise à
           <strong>évaluer la performance de l'intelligence artificielle</strong> dans le cadre d'une
@@ -21,15 +21,42 @@
 
       <!-- Form -->
       <q-form @submit.prevent="onSubmit" class="login-form">
+        <!-- Error banner -->
+        <q-banner v-if="loginError" class="bg-negative text-white q-mb-md" rounded>
+          <template v-slot:avatar>
+            <q-icon name="error" color="white" />
+          </template>
+          Code utilisateur ou mot de passe incorrect
+        </q-banner>
+
+        <!-- User code field -->
+        <div class="input-group">
+          <q-input
+            ref="userCodeRef"
+            v-model="userCode"
+            label="Code utilisateur"
+            :rules="[(val) => !!val || 'Code utilisateur requis']"
+            :error="loginError"
+            error-message=""
+            lazy-rules
+          >
+            <template v-slot:prepend>
+              <q-icon name="person" color="primary" />
+            </template>
+          </q-input>
+        </div>
+
         <!-- Password field -->
         <div class="input-group">
           <q-input
+            ref="passwordRef"
             v-model="password"
             :type="showPassword ? 'text' : 'password'"
             label="Mot de passe"
             :rules="[(val) => !!val || 'Mot de passe requis']"
+            :error="loginError"
+            error-message=""
             lazy-rules
-            class=""
           >
             <template v-slot:prepend>
               <q-icon name="lock" color="primary" />
@@ -71,26 +98,25 @@ import { useQuasar } from 'quasar'
 const $q = useQuasar()
 const router = useRouter()
 
+const userCode = ref('')
 const password = ref('')
 const showPassword = ref(false)
 const loading = ref(false)
+const loginError = ref(false)
 
+const HARDCODED_USER_CODE = 'martinpare'
 const HARDCODED_PASSWORD = 'correction2025'
 
 const onSubmit = async () => {
   loading.value = true
+  loginError.value = false
 
   // Simulation d'authentification
   await new Promise((resolve) => setTimeout(resolve, 1000))
 
-  if (password.value !== HARDCODED_PASSWORD) {
+  if (userCode.value !== HARDCODED_USER_CODE || password.value !== HARDCODED_PASSWORD) {
     loading.value = false
-    $q.notify({
-      type: 'negative',
-      message: 'Mot de passe incorrect',
-      position: 'top',
-      timeout: 2000,
-    })
+    loginError.value = true
     return
   }
 
