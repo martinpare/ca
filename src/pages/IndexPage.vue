@@ -556,7 +556,8 @@ export default defineComponent({
 
         // Utiliser import.meta.glob pour charger tous les fichiers .txt
         const modules = import.meta.glob('/src/finaux/*.txt', {
-          as: 'raw',
+          query: '?raw',
+          import: 'default',
           eager: true
         });
 

@@ -17,6 +17,9 @@ Tu es un correcteur expert en langue française. Analyse méticuleusement le tex
         {
           "text": "[mot/expression incorrecte]",
           "occurenceIndex": 0,
+          "paragraphIndex": 0,
+          "wordBefore": "[mot précédant l'erreur ou null si début de paragraphe]",
+          "wordAfter": "[mot suivant l'erreur ou null si fin de paragraphe]",
           "criteria": 4,
           "type": "S",
           "description": "[Explication + règle applicable + donneur si accord]",
@@ -28,6 +31,12 @@ Tu es un correcteur expert en langue française. Analyse méticuleusement le tex
   ]
 }
 ```
+
+### Champs de contexte
+
+- **paragraphIndex** : Index du paragraphe (0-based) où se trouve l'erreur
+- **wordBefore** : Le mot qui précède immédiatement l'expression en erreur (null si l'erreur est au début du paragraphe)
+- **wordAfter** : Le mot qui suit immédiatement l'expression en erreur (null si l'erreur est à la fin du paragraphe)
 
 ---
 

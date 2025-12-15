@@ -18,27 +18,32 @@ const AI_MODELS = {
 
 // Charger les prompts
 const prompt45 = import.meta.glob('/src/config/prompt45.md', {
-  as: 'raw',
+  query: '?raw',
+  import: 'default',
   eager: true,
 })['/src/config/prompt45.md'] || correctionPrompt;
 
 const promptSimplifie45 = import.meta.glob('/src/config/promptSimplifie45.md', {
-  as: 'raw',
+  query: '?raw',
+  import: 'default',
   eager: true,
 })['/src/config/promptSimplifie45.md'] || correctionPrompt;
 
 const promptGemini = import.meta.glob('/src/config/promptGemini.md', {
-  as: 'raw',
+  query: '?raw',
+  import: 'default',
   eager: true,
 })['/src/config/promptGemini.md'] || correctionPrompt;
 
 const promptClaudeSimplifie = import.meta.glob('/src/config/promptClaudeSimplifie.md', {
-  as: 'raw',
+  query: '?raw',
+  import: 'default',
   eager: true,
 })['/src/config/promptClaudeSimplifie.md'] || correctionPrompt;
 
 const promptAnalyseurDuplicatas = import.meta.glob('/src/config/promptAnalyseurDuplicatas.md', {
-  as: 'raw',
+  query: '?raw',
+  import: 'default',
   eager: true,
 })['/src/config/promptAnalyseurDuplicatas.md'] || '';
 

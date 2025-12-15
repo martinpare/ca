@@ -3,7 +3,8 @@ import * as XLSX from 'xlsx';
 
 // Charger le prompt du reviseur
 const revieurLongPrompt = import.meta.glob('/src/config/revieur_long.md', {
-  as: 'raw',
+  query: '?raw',
+  import: 'default',
   eager: true,
 })['/src/config/revieur_long.md'] || '';
 
