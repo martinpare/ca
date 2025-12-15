@@ -31,9 +31,183 @@
                   <q-icon name="folder_open" />
                 </template>
               </q-select>
+              <q-btn
+                round
+                flat
+                color="primary"
+                icon="help_outline"
+                @click="showHelpDialog = true"
+              >
+                <q-tooltip>Aide - Comment valider les erreurs</q-tooltip>
+              </q-btn>
             </div>
           </q-card-section>
         </q-card>
+
+        <!-- Dialogue d'aide -->
+        <q-dialog v-model="showHelpDialog" persistent>
+          <q-card style="max-width: 700px; width: 100%;">
+            <q-card-section class="bg-primary text-white">
+              <div class="row items-center no-wrap">
+                <q-icon name="school" size="32px" class="q-mr-md" />
+                <div>
+                  <div class="text-h5 text-weight-bold">Guide de Validation</div>
+                  <div class="text-caption">Comment valider les erreurs efficacement</div>
+                </div>
+                <q-space />
+                <q-btn icon="close" flat round dense v-close-popup />
+              </div>
+            </q-card-section>
+
+            <q-card-section class="q-pt-lg">
+              <!-- Section processus -->
+              <div class="q-mb-lg">
+                <div class="row items-center q-mb-sm">
+                  <q-icon name="format_list_numbered" color="primary" size="24px" class="q-mr-sm" />
+                  <div class="text-subtitle1 text-weight-bold text-primary">Le processus de validation</div>
+                </div>
+                <q-separator class="q-mb-md" />
+
+                <div class="row q-gutter-md">
+                  <div class="col-12">
+                    <q-card flat bordered class="bg-blue-1">
+                      <q-card-section class="q-pa-sm">
+                        <div class="row items-center">
+                          <q-avatar color="primary" text-color="white" size="32px" class="q-mr-md">1</q-avatar>
+                          <div>
+                            <div class="text-weight-bold">Sélectionnez un fichier</div>
+                            <div class="text-caption text-grey-8">Utilisez le menu déroulant pour choisir le document à réviser</div>
+                          </div>
+                        </div>
+                      </q-card-section>
+                    </q-card>
+                  </div>
+
+                  <div class="col-12">
+                    <q-card flat bordered class="bg-blue-1">
+                      <q-card-section class="q-pa-sm">
+                        <div class="row items-center">
+                          <q-avatar color="primary" text-color="white" size="32px" class="q-mr-md">2</q-avatar>
+                          <div>
+                            <div class="text-weight-bold">Examinez chaque erreur</div>
+                            <div class="text-caption text-grey-8">Lisez le contexte, la citation et l'explication fournis par l'IA</div>
+                          </div>
+                        </div>
+                      </q-card-section>
+                    </q-card>
+                  </div>
+
+                  <div class="col-12">
+                    <q-card flat bordered class="bg-blue-1">
+                      <q-card-section class="q-pa-sm">
+                        <div class="row items-center">
+                          <q-avatar color="primary" text-color="white" size="32px" class="q-mr-md">3</q-avatar>
+                          <div>
+                            <div class="text-weight-bold">Rendez votre verdict</div>
+                            <div class="text-caption text-grey-8">
+                              <q-badge color="negative" class="q-mr-xs">ERREUR</q-badge> = erreur confirmée
+                              <q-badge color="warning" text-color="black" class="q-mx-xs">DISCUTABLE</q-badge> = cas ambigu
+                              <q-badge color="positive" class="q-ml-xs">FAUX POSITIF</q-badge> = pas une erreur
+                            </div>
+                          </div>
+                        </div>
+                      </q-card-section>
+                    </q-card>
+                  </div>
+
+                  <div class="col-12">
+                    <q-card flat bordered class="bg-blue-1">
+                      <q-card-section class="q-pa-sm">
+                        <div class="row items-center">
+                          <q-avatar color="primary" text-color="white" size="32px" class="q-mr-md">4</q-avatar>
+                          <div>
+                            <div class="text-weight-bold">Sauvegardez vos verdicts</div>
+                            <div class="text-caption text-grey-8">Les scores sont recalculés automatiquement</div>
+                          </div>
+                        </div>
+                      </q-card-section>
+                    </q-card>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Section clavier -->
+              <div class="q-mb-md">
+                <div class="row items-center q-mb-sm">
+                  <q-icon name="keyboard" color="deep-purple" size="24px" class="q-mr-sm" />
+                  <div class="text-subtitle1 text-weight-bold text-deep-purple">Navigation 100% clavier</div>
+                </div>
+                <q-separator class="q-mb-md" />
+
+                <q-banner class="bg-deep-purple-1 rounded-borders q-mb-md">
+                  <template v-slot:avatar>
+                    <q-icon name="bolt" color="deep-purple" />
+                  </template>
+                  <div class="text-weight-medium">
+                    Tout a été conçu pour une validation rapide au clavier!
+                  </div>
+                  <div class="text-caption text-grey-8">
+                    Gardez vos mains sur le clavier pour un flux de travail optimal.
+                  </div>
+                </q-banner>
+
+                <div class="row q-gutter-sm justify-center">
+                  <q-card flat bordered class="text-center" style="min-width: 140px;">
+                    <q-card-section class="q-pa-sm">
+                      <kbd class="keyboard-key bg-negative text-white">E</kbd>
+                      <div class="text-caption q-mt-xs text-weight-bold">Erreur</div>
+                    </q-card-section>
+                  </q-card>
+
+                  <q-card flat bordered class="text-center" style="min-width: 140px;">
+                    <q-card-section class="q-pa-sm">
+                      <kbd class="keyboard-key bg-warning text-black">D</kbd>
+                      <div class="text-caption q-mt-xs text-weight-bold">Discutable</div>
+                    </q-card-section>
+                  </q-card>
+
+                  <q-card flat bordered class="text-center" style="min-width: 140px;">
+                    <q-card-section class="q-pa-sm">
+                      <kbd class="keyboard-key bg-positive text-white">F</kbd>
+                      <div class="text-caption q-mt-xs text-weight-bold">Faux positif</div>
+                    </q-card-section>
+                  </q-card>
+                </div>
+
+                <div class="row q-gutter-sm justify-center q-mt-md">
+                  <q-card flat bordered class="text-center" style="min-width: 200px;">
+                    <q-card-section class="q-pa-sm">
+                      <kbd class="keyboard-key bg-grey-8 text-white">Tab</kbd>
+                      <div class="text-caption q-mt-xs">Passer à l'erreur suivante</div>
+                    </q-card-section>
+                  </q-card>
+
+                  <q-card flat bordered class="text-center" style="min-width: 200px;">
+                    <q-card-section class="q-pa-sm">
+                      <kbd class="keyboard-key bg-grey-8 text-white">Shift</kbd>
+                      <span class="text-grey-6 q-mx-xs">+</span>
+                      <kbd class="keyboard-key bg-grey-8 text-white">Tab</kbd>
+                      <div class="text-caption q-mt-xs">Erreur précédente</div>
+                    </q-card-section>
+                  </q-card>
+                </div>
+              </div>
+            </q-card-section>
+
+            <q-separator />
+
+            <q-card-actions align="center" class="q-pa-md bg-grey-1">
+              <q-btn
+                color="primary"
+                label="C'est compris!"
+                icon="check"
+                unelevated
+                v-close-popup
+                class="q-px-xl"
+              />
+            </q-card-actions>
+          </q-card>
+        </q-dialog>
 
         <!-- Chargement -->
         <div v-if="loading" class="text-center q-pa-xl">
@@ -236,12 +410,14 @@ export default defineComponent({
     const allFileOptions = ref([]);
     const activeTab = ref('critere4');
     const filterVerdict = ref('all');
+    const showHelpDialog = ref(false);
 
     // Charger la liste des fichiers
     const loadFileList = async () => {
       try {
         const modules = import.meta.glob('/public/resultats/finaux/*_final.json', {
-          as: 'raw',
+          query: '?raw',
+          import: 'default',
           eager: true
         });
 
@@ -276,7 +452,8 @@ export default defineComponent({
       loading.value = true;
       try {
         const modules = import.meta.glob('/public/resultats/finaux/*_final.json', {
-          as: 'raw',
+          query: '?raw',
+          import: 'default',
           eager: true
         });
 
@@ -495,6 +672,7 @@ export default defineComponent({
       fileOptions,
       activeTab,
       filterVerdict,
+      showHelpDialog,
       stats,
       scoresAvant,
       scoresApres,
@@ -515,5 +693,17 @@ export default defineComponent({
 <style scoped>
 .q-badge {
   font-size: 1rem;
+}
+
+.keyboard-key {
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  font-family: 'Consolas', 'Monaco', monospace;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), inset 0 -2px 0 rgba(0, 0, 0, 0.2);
+  min-width: 40px;
+  text-align: center;
 }
 </style>

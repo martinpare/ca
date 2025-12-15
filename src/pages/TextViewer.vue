@@ -56,10 +56,200 @@
         icon="restart_alt"
         @click="resetErrorStates"
         :disable="checkedErrors.size === 0 && rejectedErrors.size === 0"
+        data-tutorial="reset-btn"
       >
         <q-tooltip>Réinitialiser les états des erreurs</q-tooltip>
       </q-btn>
+
+      <q-separator vertical inset class="q-mx-sm" />
+
+      <q-btn flat dense icon="help_outline" color="primary" @click="showHelpDialog = true">
+        <q-tooltip>Aide - Comment valider les erreurs</q-tooltip>
+      </q-btn>
+
+      <q-btn flat dense icon="school" @click="showTutorial = true">
+        <q-tooltip>Lancer le tutoriel interactif</q-tooltip>
+      </q-btn>
     </div>
+
+    <!-- Dialogue d'aide -->
+    <q-dialog v-model="showHelpDialog">
+      <q-card style="max-width: 700px; width: 100%">
+        <q-card-section class="bg-primary text-white">
+          <div class="row items-center no-wrap">
+            <div>
+              <div class="text-h5 text-weight-bold">Guide de Validation</div>
+              <div class="text-caption">Comment valider les erreurs efficacement</div>
+            </div>
+            <q-space />
+            <q-btn icon="close" flat round dense v-close-popup />
+          </div>
+        </q-card-section>
+
+        <q-card-section class="q-pt-lg">
+          <!-- Section processus -->
+          <div class="q-mb-lg">
+            <div class="row items-center q-mb-sm">
+              <div class="text-subtitle1 text-weight-bold text-primary">
+                Le processus de validation
+              </div>
+            </div>
+            <q-separator class="q-mb-md" />
+
+            <div class="row q-gutter-md q-pr-md">
+              <div class="col-12">
+                <q-card flat class="" square>
+                  <q-card-section class="q-pa-sm">
+                    <div class="row items-center">
+                      <q-avatar color="primary" text-color="white" size="32px" class="q-mr-md"
+                        >1</q-avatar
+                      >
+                      <div>
+                        <div class="text-weight-bold">Sélectionnez un fichier</div>
+                        <div class="text-caption text-grey-8">
+                          Utilisez le menu déroulant pour choisir le document à réviser
+                        </div>
+                      </div>
+                    </div>
+                  </q-card-section>
+                </q-card>
+              </div>
+
+              <div class="col-12">
+                <q-card flat class="" square>
+                  <q-card-section class="q-pa-sm">
+                    <div class="row items-center">
+                      <q-avatar color="primary" text-color="white" size="32px" class="q-mr-md"
+                        >2</q-avatar
+                      >
+                      <div>
+                        <div class="text-weight-bold">Examinez chaque erreur</div>
+                        <div class="text-caption text-grey-8">
+                          Cliquez sur une erreur dans le panneau de droite pour la surligner dans le
+                          texte
+                        </div>
+                      </div>
+                    </div>
+                  </q-card-section>
+                </q-card>
+              </div>
+
+              <div class="col-12">
+                <q-card flat class="" square>
+                  <q-card-section class="q-pa-sm">
+                    <div class="row items-center">
+                      <q-avatar color="primary" text-color="white" size="32px" class="q-mr-md"
+                        >3</q-avatar
+                      >
+                      <div>
+                        <div class="text-weight-bold">Rendez votre verdict</div>
+                        <div class="text-caption text-grey-8">
+                          <q-icon
+                            name="check_circle"
+                            color="positive"
+                            size="18px"
+                            class="q-mr-xs"
+                          />
+                          = erreur confirmée
+                          <q-icon name="cancel" color="negative" size="18px" class="q-mx-sm" /> =
+                          faux positif (rejeter)
+                        </div>
+                      </div>
+                    </div>
+                  </q-card-section>
+                </q-card>
+              </div>
+
+              <div class="col-12">
+                <q-card flat class="" square>
+                  <q-card-section class="q-pa-sm">
+                    <div class="row items-center">
+                      <q-avatar color="primary" text-color="white" size="32px" class="q-mr-md"
+                        >4</q-avatar
+                      >
+                      <div>
+                        <div class="text-weight-bold">Les scores se mettent à jour</div>
+                        <div class="text-caption text-grey-8">
+                          Les points sont recalculés automatiquement en fonction de vos verdicts
+                        </div>
+                      </div>
+                    </div>
+                  </q-card-section>
+                </q-card>
+              </div>
+            </div>
+          </div>
+
+          <!-- Section clavier -->
+          <div class="q-mb-md text-center">
+            <div class="row items-center q-mb-sm"></div>
+            <q-separator class="q-mb-md" />
+
+            <q-banner class="q-mb-md text-center">
+              <div>
+                <div class="text-subtitle1 text-weight-bold">Navigation 100% clavier</div>
+              </div>
+
+              <div class="text-weight-medium">
+                Tout a été conçu pour une validation rapide au clavier!
+              </div>
+              <div class="text-caption text-grey-8">
+                Gardez vos mains sur le clavier pour un flux de travail optimal.
+              </div>
+            </q-banner>
+
+            <div class="row q-gutter-sm justify-center">
+              <q-card flat bordered class="text-center" style="min-width: 160px">
+                <q-card-section class="q-pa-sm">
+                  <kbd class="keyboard-key bg-positive text-white">E</kbd>
+                  <div class="text-caption q-mt-xs text-weight-bold">Confirmer l'erreur</div>
+                </q-card-section>
+              </q-card>
+
+              <q-card flat bordered class="text-center" style="min-width: 160px">
+                <q-card-section class="q-pa-sm">
+                  <kbd class="keyboard-key bg-negative text-white">R</kbd>
+                  <div class="text-caption q-mt-xs text-weight-bold">Rejeter (faux positif)</div>
+                </q-card-section>
+              </q-card>
+            </div>
+
+            <div class="row q-gutter-sm justify-center q-mt-md">
+              <q-card flat bordered class="text-center" style="min-width: 160px">
+                <q-card-section class="q-pa-sm">
+                  <kbd class="keyboard-key bg-grey-8 text-white">←</kbd>
+                  <span class="text-grey-6 q-mx-xs">ou</span>
+                  <kbd class="keyboard-key bg-grey-8 text-white">↑</kbd>
+                  <div class="text-caption q-mt-xs">Précédente</div>
+                </q-card-section>
+              </q-card>
+
+              <q-card flat bordered class="text-center" style="min-width: 160px">
+                <q-card-section class="q-pa-sm">
+                  <kbd class="keyboard-key bg-grey-8 text-white">→</kbd>
+                  <span class="text-grey-6 q-mx-xs">ou</span>
+                  <kbd class="keyboard-key bg-grey-8 text-white">↓</kbd>
+                  <div class="text-caption q-mt-xs">Suivante</div>
+                </q-card-section>
+              </q-card>
+
+              <q-card flat bordered class="text-center" style="min-width: 120px">
+                <q-card-section class="q-pa-sm">
+                  <kbd class="keyboard-key bg-grey-8 text-white">Esc</kbd>
+                  <div class="text-caption q-mt-xs">Désélectionner</div>
+                </q-card-section>
+              </q-card>
+            </div>
+          </div>
+        </q-card-section>
+
+        <q-separator />
+
+        <q-card-actions align="center" class="q-pa-md bg-grey-1">
+          <q-btn color="primary" label="Fermer" unelevated v-close-popup class="q-px-xl" />
+        </q-card-actions>
+      </q-card>
+    </q-dialog>
 
     <!-- Splitter: Texte à gauche, Erreurs à droite -->
     <q-splitter v-model="splitterModel" class="splitter-container">
@@ -86,8 +276,9 @@
       <template v-slot:after>
         <!-- Panneau des erreurs -->
         <div class="errors-panel">
-          <q-scroll-area class="fit">
-            <q-list>
+          <!-- Partie fixe (toujours visible) -->
+          <div class="errors-panel-header">
+            <q-list dense>
               <q-item-label header class="text-h6"> Analyse des erreurs </q-item-label>
 
               <!-- Résumé des scores -->
@@ -142,9 +333,13 @@
                   </q-input>
                 </q-item-section>
               </q-item>
+            </q-list>
+            <q-separator />
+          </div>
 
-              <q-separator spaced />
-
+          <!-- Partie scrollable (liste des erreurs) -->
+          <q-scroll-area class="errors-panel-list">
+            <q-list class="errors-list-content">
               <!-- Mode: Par type -->
               <template v-if="sortMode === 'type'">
                 <template v-for="(erreurs, type) in filteredErreursByType" :key="type">
@@ -163,7 +358,13 @@
                       <q-card
                         flat
                         bordered
-                        :class="'error-card error-card-' + typeToCSS(erreur.type)"
+                        :class="
+                          'error-card error-card-' +
+                          typeToCSS(erreur.type) +
+                          (isErrorSelected(erreur.id)
+                            ? ' error-card-selected error-card-selected-' + typeToCSS(erreur.type)
+                            : '')
+                        "
                         @click="onErrorClick(erreur)"
                       >
                         <q-card-section class="q-pa-sm">
@@ -249,7 +450,13 @@
                     <q-card
                       flat
                       bordered
-                      :class="'error-card error-card-' + typeToCSS(erreur.type)"
+                      :class="
+                        'error-card error-card-' +
+                        typeToCSS(erreur.type) +
+                        (isErrorSelected(erreur.id)
+                          ? ' error-card-selected error-card-selected-' + typeToCSS(erreur.type)
+                          : '')
+                      "
                       @click="onErrorClick(erreur)"
                     >
                       <q-card-section class="q-pa-sm">
@@ -358,7 +565,12 @@
       }"
       @click.stop
     >
-      <div :class="['justification-popup-header', 'justification-header-' + typeToCSS(justificationPopupErrorType)]">
+      <div
+        :class="[
+          'justification-popup-header',
+          'justification-header-' + typeToCSS(justificationPopupErrorType),
+        ]"
+      >
         <q-icon name="rate_review" size="sm" class="q-mr-sm" />
         <span>Justification du rejet</span>
         <q-btn
@@ -395,6 +607,14 @@
         <q-btn flat dense label="Valider" color="primary" @click="saveJustification" />
       </div>
     </div>
+
+    <!-- Tutoriel interactif -->
+    <InteractiveTutorial
+      v-model="showTutorial"
+      :is-error-selected="!!selectedErrorId"
+      @spotlight-click="handleTutorialAction"
+      @step-enter="handleTutorialAction"
+    />
   </q-page>
 </template>
 
@@ -403,6 +623,7 @@ import { defineComponent, ref, computed, onUnmounted, onMounted, watch, nextTick
 import { useQuasar } from 'quasar'
 import RuleDetailDialog from '../components/RuleDetailDialog.vue'
 import NotesAuxCriteres from '../components/NotesAuxCriteres.vue'
+import InteractiveTutorial from '../components/InteractiveTutorial.vue'
 import { findRuleById } from '../services/rulesService'
 
 export default defineComponent({
@@ -411,6 +632,7 @@ export default defineComponent({
   components: {
     RuleDetailDialog,
     NotesAuxCriteres,
+    InteractiveTutorial,
   },
 
   emits: ['analysis-loaded'],
@@ -428,7 +650,10 @@ export default defineComponent({
     const zoom = ref(100)
     const analysisData = ref(null)
     const hoveredErrorId = ref(null)
+    const selectedErrorId = ref(null) // ID de l'erreur sélectionnée dans le panneau
     const splitterModel = ref(65) // 65% pour le texte, 35% pour les erreurs
+    const showHelpDialog = ref(false) // Dialogue d'aide
+    const showTutorial = ref(false) // Tutoriel interactif
     const sortMode = ref('position') // 'type' ou 'position'
     const checkedErrors = ref(new Set()) // IDs des erreurs vérifiées
     const rejectedErrors = ref(new Set()) // IDs des erreurs rejetées
@@ -469,6 +694,9 @@ export default defineComponent({
 
     const openRuleDialog = (erreur) => {
       if (erreur && erreur.ruleApplied) {
+        // Désélectionner l'erreur
+        selectedErrorId.value = null
+
         // Cacher le popup s'il est visible
         const existingPopup = document.querySelector('.error-popup')
         if (existingPopup) {
@@ -554,8 +782,82 @@ export default defineComponent({
       return colors[type] || 'grey'
     }
 
-    // Fonction pour trouver la position d'un texte
-    const findTextPosition = (text, searchText, occurenceIndex) => {
+    // Fonction pour trouver la position d'un texte en utilisant le contexte
+    const findTextPosition = (text, error) => {
+      const searchText = error.text
+      const occurenceIndex = error.occurenceIndex || 0
+      const wordBefore = error.wordBefore
+      const wordAfter = error.wordAfter
+      const paragraphIndex = error.paragraphIndex
+
+      // Stratégie 1: Utiliser le contexte (wordBefore + searchText + wordAfter) pour trouver la position exacte
+      if (wordBefore || wordAfter) {
+        // Construire un pattern de contexte
+        const beforePart = wordBefore
+          ? wordBefore.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\s*'
+          : ''
+        const afterPart = wordAfter ? '\\s*' + wordAfter.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') : ''
+        const searchPart = searchText.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+
+        try {
+          const contextPattern = new RegExp(beforePart + '(' + searchPart + ')' + afterPart, 'g')
+          let match
+          let matchCount = 0
+
+          while ((match = contextPattern.exec(text)) !== null) {
+            if (matchCount === occurenceIndex) {
+              // Retourner la position du groupe capturé (le searchText)
+              return match.index + (wordBefore ? match[0].indexOf(match[1]) : 0)
+            }
+            matchCount++
+          }
+        } catch {
+          // Si le regex échoue, continuer avec la stratégie 2
+        }
+      }
+
+      // Stratégie 2: Utiliser paragraphIndex pour limiter la recherche
+      if (paragraphIndex !== undefined && paragraphIndex >= 0) {
+        // Diviser le texte en paragraphes (séparés par des lignes vides)
+        const paragraphPattern = /\n\s*\n|\r\n\s*\r\n/g
+        const paragraphs = []
+        let lastIndex = 0
+        let match
+
+        while ((match = paragraphPattern.exec(text)) !== null) {
+          paragraphs.push({
+            content: text.slice(lastIndex, match.index),
+            start: lastIndex,
+          })
+          lastIndex = match.index + match[0].length
+        }
+        // Ajouter le dernier paragraphe
+        paragraphs.push({
+          content: text.slice(lastIndex),
+          start: lastIndex,
+        })
+
+        if (paragraphIndex < paragraphs.length) {
+          const paragraph = paragraphs[paragraphIndex]
+          let position = -1
+          let count = 0
+          let startIndex = 0
+
+          while (count <= occurenceIndex) {
+            position = paragraph.content.indexOf(searchText, startIndex)
+            if (position === -1) break
+            if (count === occurenceIndex) break
+            startIndex = position + 1
+            count++
+          }
+
+          if (position !== -1) {
+            return paragraph.start + position
+          }
+        }
+      }
+
+      // Stratégie 3 (fallback): Recherche simple par occurenceIndex
       let position = -1
       let count = 0
       let startIndex = 0
@@ -580,13 +882,13 @@ export default defineComponent({
 
       const c4 = analysisData.value.result.erreursCritere4 || []
       c4.forEach((err, idx) => {
-        const position = findTextPosition(originalText, err.text, err.occurenceIndex || 0)
+        const position = findTextPosition(originalText, err)
         allErrorsList.push({ ...err, id: `c4-${idx}`, critere: 4, position })
       })
 
       const c5 = analysisData.value.result.erreursCritere5 || []
       c5.forEach((err, idx) => {
-        const position = findTextPosition(originalText, err.text, err.occurenceIndex || 0)
+        const position = findTextPosition(originalText, err)
         allErrorsList.push({ ...err, id: `c5-${idx}`, critere: 5, position })
       })
 
@@ -627,13 +929,13 @@ export default defineComponent({
         critere4: {
           note: result.scoreCritere4?.note || '-',
           points: result.scoreCritere4?.pointsPerdus || 0,
-          erreurs: result.erreursCritere4?.length || 0
+          erreurs: result.erreursCritere4?.length || 0,
         },
         critere5: {
           note: result.scoreCritere5?.note || '-',
           points: result.scoreCritere5?.pointsPerdus || 0,
-          erreurs: result.erreursCritere5?.length || 0
-        }
+          erreurs: result.erreursCritere5?.length || 0,
+        },
       }
     })
 
@@ -646,13 +948,13 @@ export default defineComponent({
 
       const c4 = analysisData.value.result.erreursCritere4 || []
       c4.forEach((err, idx) => {
-        const position = findTextPosition(originalText, err.text, err.occurenceIndex || 0)
+        const position = findTextPosition(originalText, err)
         allErrorsList.push({ ...err, id: `c4-${idx}`, critere: 4, position })
       })
 
       const c5 = analysisData.value.result.erreursCritere5 || []
       c5.forEach((err, idx) => {
-        const position = findTextPosition(originalText, err.text, err.occurenceIndex || 0)
+        const position = findTextPosition(originalText, err)
         allErrorsList.push({ ...err, id: `c5-${idx}`, critere: 5, position })
       })
 
@@ -754,7 +1056,8 @@ export default defineComponent({
       try {
         const files = []
         const modules = import.meta.glob('/src/finaux/*.txt', {
-          as: 'raw',
+          query: '?raw',
+          import: 'default',
           eager: true,
         })
 
@@ -842,6 +1145,8 @@ export default defineComponent({
     const loadSelectedFile = async (fileName) => {
       // Fermer la dialogue si elle est ouverte
       ruleDialogOpen.value = false
+      // Réinitialiser la sélection d'erreur
+      selectedErrorId.value = null
 
       const file = loadedFiles.value.find((f) => f.name === fileName)
       if (file) {
@@ -927,6 +1232,7 @@ export default defineComponent({
       checkedErrors.value = new Set()
       rejectedErrors.value = new Set()
       errorJustifications.value = {}
+      selectedErrorId.value = null
       updateErrorClasses()
     }
 
@@ -963,8 +1269,8 @@ export default defineComponent({
         errorJustifications.value = { ...errorJustifications.value }
       }
       hideJustificationPopup()
-      // Fermer également le popup d'erreur
-      clearHighlight()
+      // Passer à l'erreur suivante (avant clearHighlight pour garder la référence)
+      navigateErrors('down')
     }
 
     const cancelJustification = () => {
@@ -980,8 +1286,8 @@ export default defineComponent({
         updateErrorClasses()
       }
       hideJustificationPopup()
-      // Fermer également le popup d'erreur
-      clearHighlight()
+      // Passer à l'erreur suivante (avant clearHighlight pour garder la référence)
+      navigateErrors('down')
     }
 
     const getJustification = (errorId) => {
@@ -1027,11 +1333,93 @@ export default defineComponent({
       return errors.sort((a, b) => b.text.length - a.text.length)
     })
 
+    // Fonction pour trouver l'erreur en utilisant le contexte (wordBefore, wordAfter, paragraphIndex)
+    const findErrorWithContext = (text, error, paragraphs) => {
+      const { wordBefore, wordAfter, paragraphIndex } = error
+      const errorText = error.text
+
+      // Construire le pattern de recherche avec le contexte
+      // On échappe les caractères spéciaux regex
+      const escapedError = escapeRegex(errorText)
+      const escapedBefore = wordBefore ? escapeRegex(wordBefore) : null
+      const escapedAfter = wordAfter ? escapeRegex(wordAfter) : null
+
+      // Si on a un paragraphIndex, calculer l'offset du début du paragraphe
+      let searchStart = 0
+      let searchEnd = text.length
+      if (
+        paragraphIndex !== undefined &&
+        paragraphIndex !== null &&
+        paragraphs &&
+        paragraphs.length > paragraphIndex
+      ) {
+        // Trouver la position du paragraphe dans le texte
+        let currentPos = 0
+        for (let i = 0; i < paragraphIndex; i++) {
+          const paraText = paragraphs[i]?.text || ''
+          const paraIndex = text.indexOf(paraText, currentPos)
+          if (paraIndex !== -1) {
+            currentPos = paraIndex + paraText.length
+          }
+        }
+        searchStart = currentPos
+        // Trouver la fin du paragraphe courant
+        const currentParaText = paragraphs[paragraphIndex]?.text || ''
+        const paraStartIndex = text.indexOf(currentParaText, searchStart)
+        if (paraStartIndex !== -1) {
+          searchStart = paraStartIndex
+          searchEnd = paraStartIndex + currentParaText.length
+        }
+      }
+
+      // Construire le pattern avec contexte
+      let pattern
+      if (escapedBefore && escapedAfter) {
+        // Contexte complet : wordBefore + erreur + wordAfter
+        pattern = new RegExp(`${escapedBefore}\\s*${escapedError}\\s*${escapedAfter}`, 'g')
+      } else if (escapedBefore) {
+        // Seulement wordBefore
+        pattern = new RegExp(`${escapedBefore}\\s*${escapedError}`, 'g')
+      } else if (escapedAfter) {
+        // Seulement wordAfter
+        pattern = new RegExp(`${escapedError}\\s*${escapedAfter}`, 'g')
+      } else {
+        return null // Pas de contexte, utiliser la méthode classique
+      }
+
+      // Chercher dans la zone délimitée
+      const searchText = text.substring(searchStart, searchEnd)
+      const match = pattern.exec(searchText)
+
+      if (match) {
+        // Calculer la position exacte de l'erreur dans le match
+        const fullMatch = match[0]
+        let errorStartInMatch = 0
+        if (escapedBefore) {
+          // Trouver où commence l'erreur après wordBefore
+          const beforeMatch = fullMatch.match(new RegExp(`^${escapedBefore}\\s*`))
+          if (beforeMatch) {
+            errorStartInMatch = beforeMatch[0].length
+          }
+        }
+        const absoluteStart = searchStart + match.index + errorStartInMatch
+        return {
+          start: absoluteStart,
+          end: absoluteStart + errorText.length,
+        }
+      }
+
+      return null
+    }
+
     // Formater le texte avec des paragraphes HTML et marquer les erreurs
     const formattedText = computed(() => {
       if (!currentText.value) return ''
 
       let text = currentText.value
+
+      // Récupérer les paragraphes pour le positionnement contextuel
+      const analysisParagraphs = analysisData.value?.result?.paragraphs || []
 
       // Marquer les erreurs dans le texte
       const errors = allErrors.value
@@ -1039,6 +1427,25 @@ export default defineComponent({
 
       // Trouver toutes les occurrences de chaque erreur
       for (const error of errors) {
+        const hasContextInfo =
+          error.wordBefore !== undefined ||
+          error.wordAfter !== undefined ||
+          error.paragraphIndex !== undefined
+
+        // Essayer d'abord avec le contexte si disponible
+        if (hasContextInfo) {
+          const contextMatch = findErrorWithContext(text, error, analysisParagraphs)
+          if (contextMatch) {
+            markers.push({
+              start: contextMatch.start,
+              end: contextMatch.end,
+              error: error,
+            })
+            continue // Passer à l'erreur suivante
+          }
+        }
+
+        // Fallback : méthode classique avec occurenceIndex
         const regex = new RegExp(escapeRegex(error.text), 'g')
         let match
         const occurenceIndex = error.occurenceIndex || 0
@@ -1146,6 +1553,10 @@ export default defineComponent({
 
     // Méthode pour highlighter une erreur (appelée depuis le parent)
     let blinkTimeout = null
+    let popupScrollTimeout = null
+    let popupFallbackTimeout = null
+    let currentScrollEndHandler = null
+    let currentScrollContainer = null
 
     const highlightError = (errorId, errorType, errorData = null) => {
       // Convertir le type en clé CSS valide
@@ -1155,6 +1566,21 @@ export default defineComponent({
       if (blinkTimeout) {
         clearTimeout(blinkTimeout)
         blinkTimeout = null
+      }
+
+      // Annuler tout timeout de popup en cours (navigation rapide)
+      if (popupScrollTimeout) {
+        clearTimeout(popupScrollTimeout)
+        popupScrollTimeout = null
+      }
+      if (popupFallbackTimeout) {
+        clearTimeout(popupFallbackTimeout)
+        popupFallbackTimeout = null
+      }
+      if (currentScrollEndHandler && currentScrollContainer) {
+        currentScrollContainer.removeEventListener('scroll', currentScrollEndHandler)
+        currentScrollEndHandler = null
+        currentScrollContainer = null
       }
 
       // Supprimer tout popup existant
@@ -1322,21 +1748,32 @@ export default defineComponent({
               })
 
               // Attendre la fin du scroll puis afficher le popup
-              let scrollTimeout
+              // Stocker le container et le handler pour pouvoir les annuler
+              currentScrollContainer = scrollContainer
               const onScrollEnd = () => {
-                clearTimeout(scrollTimeout)
-                scrollTimeout = setTimeout(() => {
-                  scrollContainer.removeEventListener('scroll', onScrollEnd)
+                if (popupScrollTimeout) clearTimeout(popupScrollTimeout)
+                popupScrollTimeout = setTimeout(() => {
+                  if (currentScrollContainer) {
+                    currentScrollContainer.removeEventListener('scroll', onScrollEnd)
+                  }
+                  currentScrollEndHandler = null
+                  currentScrollContainer = null
                   console.log('Scroll terminé - affichage du popup')
                   showPopup()
                 }, 150) // 150ms sans scroll = scroll terminé
               }
+              currentScrollEndHandler = onScrollEnd
 
               scrollContainer.addEventListener('scroll', onScrollEnd)
               // Fallback si le scroll ne se déclenche pas (élément déjà proche)
-              setTimeout(() => {
-                scrollContainer.removeEventListener('scroll', onScrollEnd)
-                clearTimeout(scrollTimeout)
+              popupFallbackTimeout = setTimeout(() => {
+                if (currentScrollContainer) {
+                  currentScrollContainer.removeEventListener('scroll', onScrollEnd)
+                }
+                if (popupScrollTimeout) clearTimeout(popupScrollTimeout)
+                popupScrollTimeout = null
+                currentScrollEndHandler = null
+                currentScrollContainer = null
                 showPopup()
               }, 800)
             } else {
@@ -1368,6 +1805,7 @@ export default defineComponent({
       }
 
       hoveredErrorId.value = null
+      selectedErrorId.value = null
       const allSpans = document.querySelectorAll('.error-highlight')
       allSpans.forEach((span) => {
         span.classList.remove(
@@ -1565,7 +2003,118 @@ export default defineComponent({
     const onErrorClick = (erreur) => {
       // Fermer la dialogue de règle si elle est ouverte
       ruleDialogOpen.value = false
-      highlightError(erreur.id, erreur.type, erreur)
+
+      // Si on clique sur l'erreur déjà sélectionnée, on la désélectionne
+      if (selectedErrorId.value === erreur.id) {
+        selectedErrorId.value = null
+        clearHighlight()
+      } else {
+        // Sélectionner la nouvelle erreur
+        selectedErrorId.value = erreur.id
+        highlightError(erreur.id, erreur.type, erreur)
+      }
+    }
+
+    // Fonction pour vérifier si une erreur est sélectionnée
+    const isErrorSelected = (errorId) => {
+      return selectedErrorId.value === errorId
+    }
+
+    // Gestionnaire des actions du tutoriel (clic sur spotlight)
+    const handleTutorialAction = (action) => {
+      if (action === 'selectFirstError') {
+        // D'abord désélectionner toute erreur existante
+        if (selectedErrorId.value) {
+          selectedErrorId.value = null
+          clearHighlight()
+        }
+
+        // Sélectionner la première erreur de la liste
+        const errorsList =
+          sortMode.value === 'position'
+            ? filteredErreursByPosition.value
+            : Object.values(filteredErreursByType.value).flat()
+
+        if (errorsList.length > 0) {
+          const firstError = errorsList[0]
+          // Sélectionner directement (pas toggle)
+          selectedErrorId.value = firstError.id
+          highlightError(firstError.id, firstError.type, firstError)
+        }
+      } else if (action === 'deselectError') {
+        // Désélectionner l'erreur courante
+        if (selectedErrorId.value) {
+          selectedErrorId.value = null
+          clearHighlight()
+        }
+      }
+    }
+
+    // Fonction pour obtenir la liste plate des erreurs visibles (selon le mode de tri)
+    const getVisibleErrorsList = () => {
+      if (sortMode.value === 'position') {
+        return filteredErreursByPosition.value
+      } else {
+        // Mode par type : aplatir la structure groupée
+        const errors = []
+        for (const [, erreurs] of Object.entries(filteredErreursByType.value)) {
+          errors.push(...erreurs)
+        }
+        return errors
+      }
+    }
+
+    // Navigation au clavier dans la liste des erreurs
+    const navigateErrors = (direction) => {
+      const errorsList = getVisibleErrorsList()
+      if (errorsList.length === 0) return
+
+      // Si aucune erreur sélectionnée, sélectionner la première (bas) ou la dernière (haut)
+      if (!selectedErrorId.value) {
+        const targetError = direction === 'down' ? errorsList[0] : errorsList[errorsList.length - 1]
+        selectedErrorId.value = targetError.id
+        highlightError(targetError.id, targetError.type, targetError)
+        scrollToErrorCard()
+        return
+      }
+
+      // Trouver l'index de l'erreur actuellement sélectionnée
+      const currentIndex = errorsList.findIndex((err) => err.id === selectedErrorId.value)
+      if (currentIndex === -1) {
+        // L'erreur sélectionnée n'est plus dans la liste visible, sélectionner la première
+        const targetError = errorsList[0]
+        selectedErrorId.value = targetError.id
+        highlightError(targetError.id, targetError.type, targetError)
+        scrollToErrorCard()
+        return
+      }
+
+      // Calculer le nouvel index
+      let newIndex
+      if (direction === 'down') {
+        newIndex = currentIndex + 1
+        if (newIndex >= errorsList.length) newIndex = 0 // Boucler au début
+      } else {
+        newIndex = currentIndex - 1
+        if (newIndex < 0) newIndex = errorsList.length - 1 // Boucler à la fin
+      }
+
+      // Sélectionner la nouvelle erreur
+      const targetError = errorsList[newIndex]
+      selectedErrorId.value = targetError.id
+      highlightError(targetError.id, targetError.type, targetError)
+      scrollToErrorCard(direction)
+    }
+
+    // Fonction pour scroller vers la carte d'erreur dans le panneau
+    const scrollToErrorCard = () => {
+      nextTick(() => {
+        const errorCard = document.querySelector('.error-card-selected')
+        if (errorCard) {
+          // Centrer la carte pour bien voir la sélection complète
+          errorCard.scrollIntoView({ behavior: 'smooth', block: 'center' })
+        }
+      })
     }
 
     // Fonction pour trouver plusieurs erreurs par leurs IDs
@@ -1806,15 +2355,26 @@ export default defineComponent({
       })
     })
 
+    // Flag pour éviter de désélectionner l'erreur quand ESC ferme la dialogue
+    let dialogJustClosed = false
+
     // Réafficher le popup d'erreur quand la dialogue de règle se ferme (si ouvert via F1)
     watch(ruleDialogOpen, (newVal, oldVal) => {
-      if (oldVal === true && newVal === false && errorToRestoreAfterDialog.value) {
-        const errorInfo = errorToRestoreAfterDialog.value
-        errorToRestoreAfterDialog.value = null
-        // Réafficher le popup après un court délai pour laisser la dialogue se fermer
-        nextTick(() => {
-          highlightError(errorInfo.id, errorInfo.type, errorInfo.data)
-        })
+      if (oldVal === true && newVal === false) {
+        // Marquer que la dialogue vient de se fermer pour ignorer le ESC
+        dialogJustClosed = true
+        setTimeout(() => {
+          dialogJustClosed = false
+        }, 100)
+
+        if (errorToRestoreAfterDialog.value) {
+          const errorInfo = errorToRestoreAfterDialog.value
+          errorToRestoreAfterDialog.value = null
+          // Réafficher le popup après un court délai pour laisser la dialogue se fermer
+          nextTick(() => {
+            highlightError(errorInfo.id, errorInfo.type, errorInfo.data)
+          })
+        }
       }
     })
 
@@ -1839,8 +2399,14 @@ export default defineComponent({
       }
     }
 
-    // Gestionnaire de touche F1 pour ouvrir la dialogue de règle
+    // Gestionnaire de touches clavier (F1, flèches, Escape)
     const handleKeyDown = (e) => {
+      // Ne pas interférer si on est dans un input ou textarea
+      if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return
+
+      // Ne pas interférer si le tutoriel est actif (il a son propre gestionnaire)
+      if (showTutorial.value) return
+
       if (e.key === 'F1') {
         e.preventDefault() // Toujours empêcher l'aide du navigateur
 
@@ -1851,17 +2417,118 @@ export default defineComponent({
           if (errors.length > 0) {
             const firstError = errors[0]
             // Sauvegarder l'erreur pour la réafficher après fermeture de la dialogue
+            const currentSelectedId = selectedErrorId.value
             errorToRestoreAfterDialog.value = {
               id: hoveredErrorId.value,
               type: firstError.type,
               data: firstError,
             }
-            // Fermer le popup d'erreur
+            // Fermer le popup d'erreur (mais pas la sélection)
             clearHighlight()
+            // Restaurer immédiatement la sélection
+            selectedErrorId.value = currentSelectedId
             // Ouvrir la dialogue de règle
             openRuleDialog(firstError)
           }
         }
+      } else if (
+        (e.key === 'ArrowDown' || e.key === 'ArrowRight' || e.key === 'Enter') &&
+        analysisData.value?.result
+      ) {
+        // Navigation vers l'erreur suivante
+        e.preventDefault()
+        navigateErrors('down')
+      } else if ((e.key === 'ArrowUp' || e.key === 'ArrowLeft') && analysisData.value?.result) {
+        // Navigation vers l'erreur précédente
+        e.preventDefault()
+        navigateErrors('up')
+      } else if (
+        e.key === 'Escape' &&
+        selectedErrorId.value &&
+        !ruleDialogOpen.value &&
+        !dialogJustClosed
+      ) {
+        // Désélectionner l'erreur (seulement si la dialogue de règle n'est pas ouverte et ne vient pas de se fermer)
+        e.preventDefault()
+        selectedErrorId.value = null
+        clearHighlight()
+      } else if (
+        (e.key === 'e' || e.key === 'E') &&
+        selectedErrorId.value &&
+        !justificationPopupVisible.value
+      ) {
+        // Confirmer l'erreur sélectionnée avec E (sans basculer si déjà confirmée)
+        e.preventDefault()
+        const errorId = selectedErrorId.value
+        if (!checkedErrors.value.has(errorId)) {
+          // Confirmer seulement si pas déjà confirmée
+          checkedErrors.value.add(errorId)
+          // Retirer de rejected si présent
+          rejectedErrors.value.delete(errorId)
+          rejectedErrors.value = new Set(rejectedErrors.value)
+          checkedErrors.value = new Set(checkedErrors.value)
+          updateErrorClasses()
+        }
+        // Passer à l'erreur suivante
+        navigateErrors('down')
+      } else if (
+        (e.key === 'r' || e.key === 'R') &&
+        selectedErrorId.value &&
+        !justificationPopupVisible.value
+      ) {
+        // Rejeter l'erreur sélectionnée avec R (sans basculer si déjà rejetée)
+        e.preventDefault()
+        const errorId = selectedErrorId.value
+
+        // Si déjà rejetée, juste passer à la suivante
+        if (rejectedErrors.value.has(errorId)) {
+          navigateErrors('down')
+          return
+        }
+
+        // Rejeter l'erreur
+        rejectedErrors.value.add(errorId)
+        // Retirer de checked si présent
+        checkedErrors.value.delete(errorId)
+        checkedErrors.value = new Set(checkedErrors.value)
+        rejectedErrors.value = new Set(rejectedErrors.value)
+        updateErrorClasses()
+
+        // Afficher le popup de justification
+        const error = erreursByPosition.value.find((err) => err.id === errorId)
+        const errorType = error?.type || ''
+
+        // Positionner le popup près de la carte d'erreur sélectionnée
+        const errorCard = document.querySelector('.error-card-selected')
+        if (errorCard) {
+          const cardRect = errorCard.getBoundingClientRect()
+          const viewportHeight = window.innerHeight
+          const popupHeight = 160 // Hauteur estimée du popup de justification
+          const spaceBelow = viewportHeight - cardRect.bottom - 10
+          const spaceAbove = cardRect.top - 10
+
+          // Afficher en dessous si assez d'espace, sinon au-dessus
+          const isBelow = spaceBelow >= popupHeight || spaceBelow > spaceAbove
+          const top = isBelow ? cardRect.bottom + 10 : cardRect.top - 10
+
+          showJustificationPopup(
+            errorId,
+            {
+              top: top,
+              left: cardRect.left + cardRect.width / 2,
+            },
+            isBelow,
+            errorType,
+          )
+        }
+      } else if ((e.key === 'z' || e.key === 'Z') && !justificationPopupVisible.value) {
+        // Zoomer avec Z
+        e.preventDefault()
+        zoomIn()
+      } else if ((e.key === 'a' || e.key === 'A') && !justificationPopupVisible.value) {
+        // Dézoomer avec A
+        e.preventDefault()
+        zoomOut()
       }
     }
 
@@ -1913,6 +2580,9 @@ export default defineComponent({
       clearHighlight,
       // Nouvelles propriétés pour le panneau d'erreurs
       splitterModel,
+      showHelpDialog,
+      showTutorial,
+      handleTutorialAction,
       sortMode,
       analysisData,
       typeLabels,
@@ -1932,6 +2602,8 @@ export default defineComponent({
       highlightSearchTerm,
       isErrorChecked,
       isErrorRejected,
+      isErrorSelected,
+      selectedErrorId,
       resetErrorStates,
       checkedErrors,
       rejectedErrors,
@@ -1975,6 +2647,37 @@ export default defineComponent({
 .errors-panel {
   height: 100%;
   background: #fafafa;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.errors-panel-header {
+  flex-shrink: 0;
+  background: #fafafa;
+}
+
+.errors-panel-list {
+  flex: 1;
+  min-height: 0;
+}
+
+.errors-list-content {
+  padding: 8px 16px;
+}
+
+.keyboard-key {
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  font-family: 'Consolas', 'Monaco', monospace;
+  border-radius: 6px;
+  box-shadow:
+    0 2px 4px rgba(0, 0, 0, 0.2),
+    inset 0 -2px 0 rgba(0, 0, 0, 0.2);
+  min-width: 40px;
+  text-align: center;
 }
 
 .rule-id-link {
@@ -2550,36 +3253,92 @@ export default defineComponent({
   cursor: pointer;
 }
 
-.error-card:hover {
+.error-card:not(.error-card-selected):hover {
   transform: translateY(-2px);
 }
 
-.error-card.error-card-S:hover {
+.error-card.error-card-S:not(.error-card-selected):hover {
   box-shadow: 0 0 12px 3px rgba(255, 152, 0, 0.6) !important;
 }
 
-.error-card.error-card-P:hover {
+.error-card.error-card-P:not(.error-card-selected):hover {
   box-shadow: 0 0 12px 3px rgba(76, 175, 80, 0.6) !important;
 }
 
-.error-card.error-card-PC:hover {
+.error-card.error-card-PC:not(.error-card-selected):hover {
   box-shadow: 0 0 12px 3px rgba(139, 195, 74, 0.6) !important;
 }
 
-.error-card.error-card-U:hover {
+.error-card.error-card-U:not(.error-card-selected):hover {
   box-shadow: 0 0 12px 3px rgba(33, 150, 243, 0.6) !important;
 }
 
-.error-card.error-card-G:hover {
+.error-card.error-card-G:not(.error-card-selected):hover {
   box-shadow: 0 0 12px 3px rgba(244, 67, 54, 0.6) !important;
 }
 
-.error-card.error-card-O:hover {
+.error-card.error-card-O:not(.error-card-selected):hover {
   box-shadow: 0 0 12px 3px rgba(0, 150, 136, 0.6) !important;
 }
 
-.error-card.error-card-NC:hover {
+.error-card.error-card-NC:not(.error-card-selected):hover {
   box-shadow: 0 0 12px 3px rgba(158, 158, 158, 0.6) !important;
+}
+
+/* Styles pour les erreurs sélectionnées dans le panneau */
+.error-card.error-card-selected {
+  transform: translateY(-2px) !important;
+  border-width: 1px !important;
+  border-style: solid !important;
+}
+
+.error-card.error-card-selected.error-card-selected-S,
+.error-card.error-card-selected.error-card-selected-S:hover {
+  box-shadow: 0 0 20px 6px rgba(255, 152, 0, 0.9) !important;
+  border-color: #ff9800 !important;
+  background-color: rgba(255, 152, 0, 0.08) !important;
+}
+
+.error-card.error-card-selected.error-card-selected-P,
+.error-card.error-card-selected.error-card-selected-P:hover {
+  box-shadow: 0 0 20px 6px rgba(76, 175, 80, 0.9) !important;
+  border-color: #4caf50 !important;
+  background-color: rgba(76, 175, 80, 0.08) !important;
+}
+
+.error-card.error-card-selected.error-card-selected-PC,
+.error-card.error-card-selected.error-card-selected-PC:hover {
+  box-shadow: 0 0 20px 6px rgba(139, 195, 74, 0.9) !important;
+  border-color: #8bc34a !important;
+  background-color: rgba(139, 195, 74, 0.08) !important;
+}
+
+.error-card.error-card-selected.error-card-selected-U,
+.error-card.error-card-selected.error-card-selected-U:hover {
+  box-shadow: 0 0 20px 6px rgba(33, 150, 243, 0.9) !important;
+  border-color: #2196f3 !important;
+  background-color: rgba(33, 150, 243, 0.08) !important;
+}
+
+.error-card.error-card-selected.error-card-selected-G,
+.error-card.error-card-selected.error-card-selected-G:hover {
+  box-shadow: 0 0 20px 6px rgba(244, 67, 54, 0.9) !important;
+  border-color: #f44336 !important;
+  background-color: rgba(244, 67, 54, 0.08) !important;
+}
+
+.error-card.error-card-selected.error-card-selected-O,
+.error-card.error-card-selected.error-card-selected-O:hover {
+  box-shadow: 0 0 20px 6px rgba(0, 150, 136, 0.9) !important;
+  border-color: #009688 !important;
+  background-color: rgba(0, 150, 136, 0.08) !important;
+}
+
+.error-card.error-card-selected.error-card-selected-NC,
+.error-card.error-card-selected.error-card-selected-NC:hover {
+  box-shadow: 0 0 20px 6px rgba(158, 158, 158, 0.9) !important;
+  border-color: #9e9e9e !important;
+  background-color: rgba(158, 158, 158, 0.08) !important;
 }
 
 /* Badge pour erreurs multiples sur un même mot */
@@ -2615,8 +3374,6 @@ export default defineComponent({
 /* Popup multi-erreurs */
 .error-popup-multi {
   border-left: none;
-  max-height: 400px;
-  overflow-y: auto;
 }
 
 .error-popup-multi::before {
